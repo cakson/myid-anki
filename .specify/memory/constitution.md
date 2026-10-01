@@ -1,10 +1,13 @@
 <!--
 Sync Impact Report
-- Version change: 1.0.0 -> 1.1.0
-- Modified principles: none
+- Version change: 1.1.0 -> 1.2.0
+- Modified principles: II, IV
 - Modified sections:
-  - Project title: Indonesian–Malaysian Vocabulary Anki Deck Generator -> MYID Anki
-  - Governance: require Conventional Commits
+  - Core Principles: learner-facing terminology for the Malaysian Malay answer
+- Rationale: Use “Bahasa Melayu” as the learner-facing label while specifying that the deck targets
+  Malaysian Malay as used in Malaysia, avoiding an implication that all Malay varieties are covered.
+- Compatibility impact: Prompt and answer-label presentation changes only; deck ID, model ID,
+  field schema, GUID derivation, and vocabulary data remain unchanged. No note migration is required.
 - Added principles: none
 - Added sections: none
 - Removed sections: none
@@ -25,11 +28,12 @@ recoverable through version history.
 ### II. One Vocabulary Concept Produces One Anki Note and One Card
 
 Each vocabulary concept MUST represent one semantic concept and MUST contain a permanent concept
-ID, an English cue, a Bahasa Indonesia answer, and a Bahasa Malaysia answer. It MAY contain an
-image reference and tags. Each source concept MUST generate exactly one Anki note and exactly one
-card. The generator MUST NOT create separate Indonesian and Malaysian cards for the same concept.
-The front MUST instruct the learner to answer in Bahasa Indonesia or Bahasa Malaysia, and Anki
-scheduling MUST apply to the concept as a whole.
+ID, an English cue, a Bahasa Indonesia answer, and a Malaysian Malay answer (Bahasa Melayu as used
+in Malaysia). It MAY contain an image reference and tags. Each source concept MUST generate exactly
+one Anki note and exactly one card. The generator MUST NOT create separate Indonesian and Malaysian
+cards for the same concept. The front MUST instruct the learner to answer in Bahasa Indonesia or
+Bahasa Melayu, referring to Malaysian Malay as used in Malaysia. Anki scheduling MUST apply to the
+concept as a whole.
 
 ### III. Neutral Cue First
 
@@ -41,10 +45,11 @@ neutral while preserving a reliable text fallback.
 
 ### IV. Both Language Answers Are Revealed Together
 
-The card back MUST clearly display both the Bahasa Indonesia and Bahasa Malaysia answers. The
-learner MUST NOT be required to choose a target language before answering. The generator MUST NOT
-create alternate review directions or independent language schedules. The learner determines the
-Anki rating based on their recall of the concept as a whole.
+The card back MUST clearly display the labels “Bahasa Indonesia” and “Bahasa Melayu” with their
+respective answers; the latter answer is Malaysian Malay as used in Malaysia. The learner MUST NOT
+be required to choose a target language before answering. The generator MUST NOT create alternate
+review directions or independent language schedules. The learner determines the Anki rating based
+on their recall of the concept as a whole.
 
 ### V. Stable Identity Is Mandatory
 
@@ -171,4 +176,4 @@ and PATCH for clarifications that do not change meaning. Each compliance review 
 the constitution version and amendment date are current and that any justified exception is
 recorded in the governing specification or plan.
 
-**Version**: 1.1.0 | **Ratified**: 2026-10-01 | **Last Amended**: 2026-10-01
+**Version**: 1.2.0 | **Ratified**: 2026-10-01 | **Last Amended**: 2026-10-02

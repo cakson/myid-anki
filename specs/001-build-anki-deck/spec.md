@@ -262,15 +262,15 @@ and observe whether they can complete the documented workflow without external g
   for previously imported notes by preserving all project-controlled identities across builds.
 - **FR-021**: A card front without an image MUST display the English cue at a rendered font size at
   least 1.5 times the prompt's font size and at font weight 600 or heavier, followed by the prompt
-  "Answer in Bahasa Indonesia or Bahasa Melayu", without displaying either target-language
-  answer.
+  "Answer in Bahasa Indonesia or Bahasa Melayu", with Bahasa Melayu referring to Malaysian Malay
+  as used in Malaysia, without displaying either target-language answer.
 - **FR-022**: The stored English value MUST remain unchanged; any capitalization on a card MUST be
   presentation-only.
 - **FR-023**: A card front with a valid image MUST display that image as the primary cue instead of
   the English word and MUST display the same neutral-language prompt.
 - **FR-024**: Every card back MUST clearly label and display both the Bahasa Indonesia and Bahasa
-  Malaysia answers together; image-backed cards MUST also display the English cue as secondary
-  context.
+  Melayu answers together; the Bahasa Melayu answer represents Malaysian Malay as used in Malaysia.
+  Image-backed cards MUST also display the English cue as secondary context.
 - **FR-025**: Cards MUST provide only one review direction and MUST NOT create separate schedules
   for Indonesian and Malaysian recall.
 - **FR-026**: Every valid referenced image MUST be bundled in the generated package, and multiple
