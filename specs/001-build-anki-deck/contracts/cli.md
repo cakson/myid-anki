@@ -8,7 +8,7 @@ environment. All V1 paths are fixed relative to that root:
 - Source: `data/vocabulary.tsv`
 - Media root: `media/`
 - Templates: `templates/front.html`, `templates/back.html`, `templates/style.css`
-- Output: `dist/indo-malay.apkg`
+- Output: `dist/myid-anki.apkg`
 
 No command performs network access.
 
@@ -54,23 +54,27 @@ python -m indo_malay_anki build
 
 Behavior:
 
-1. Perform the complete validate-command workflow.
-2. Stop without creating or replacing output if validation fails.
+1. Complete the same full source and media validation pipeline as the validate command.
+2. If validation fails, return exit code `1` before creating a temporary package or invoking
+   package generation.
 3. Load repository templates and project compatibility constants.
 4. Build a temporary package in `dist/`.
-5. Atomically replace `dist/indo-malay.apkg` after successful package completion.
+5. Atomically replace `dist/myid-anki.apkg` after successful package completion.
 
 Successful result:
 
 - Exit code `0`.
-- Exactly one final `.apkg` exists at `dist/indo-malay.apkg`.
+- Exactly one final `.apkg` exists at `dist/myid-anki.apkg`.
 - Standard output reports the final path plus note, card, and media counts.
 
 Build or package failure:
 
 - Exit code `1`.
 - Standard error describes the failure without a traceback for expected user-correctable errors.
-- Any prior `dist/indo-malay.apkg` remains byte-for-byte unchanged.
+- Validation failures and generation failures return exit code `1`.
+- The invocation does not create, replace, truncate, or partially write
+  `dist/myid-anki.apkg` on failure.
+- Any prior `dist/myid-anki.apkg` remains byte-for-byte unchanged.
 - Invocation-owned temporary output is removed.
 
 ## Usage Errors

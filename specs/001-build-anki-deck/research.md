@@ -96,8 +96,9 @@ mobile compatibility. Schema changes require a future compatibility assessment a
 
 **Decision**: HTML-escape English, Indonesian, Malaysian, and generated media filenames before
 placing them into note fields. Store the Image field as complete `<img src="basename">` HTML.
-Pass resolved source paths to `Package.media_files`, but render basenames only. Reusing the same
-resolved image is valid; distinct image references with equal case-folded basenames are rejected.
+Pass resolved source paths to `Package.media_files`, but render basenames only. Reusing the exact
+same resolved image is valid; distinct resolved images whose packaged basenames compare equal after
+Unicode case folding are rejected, with every conflicting source reference reported.
 
 **Rationale**: Anki fields contain HTML, so escaping prevents source text from changing markup.
 Anki media references must be present directly in fields for media discovery, and genanki flattens
@@ -128,21 +129,39 @@ of scope.
 
 ## Package Output and Failure Atomicity
 
-**Decision**: Validation completes before creating `dist/`. Generate into a uniquely named
-temporary `.apkg` in `dist/`, then replace `dist/indo-malay.apkg` only after genanki closes the
-package successfully. Remove only the temporary file on failure and preserve any prior final file.
+**Decision**: The full source and media validation pipeline completes before creating a temporary
+package or invoking genanki. After successful validation, generate into a uniquely named temporary
+`.apkg` in `dist/`, then replace `dist/myid-anki.apkg` only after genanki closes the package
+successfully. Validation or generation failure returns nonzero, removes only invocation-owned
+temporary output, and never creates, replaces, truncates, or partially writes the final path.
 
 **Rationale**: genanki writes directly to its target archive. Same-directory temporary output plus
 `Path.replace()` avoids exposing a partially written final artifact and keeps replacement on one
 filesystem.
 
 **Alternatives considered**: Writing directly to the final path can truncate a previously valid
-artifact. A system temporary directory can cross filesystem boundaries. The earlier spec
-assumption `dist/myid-anki.apkg` is superseded by the user's later explicit planning direction
-`dist/indo-malay.apkg`; FR-014 requires only one package under `dist/`.
+artifact. Starting package work before validation completes risks misleading partial output. A
+system temporary directory can cross filesystem boundaries. Alternate output names were rejected;
+the project-wide canonical artifact is `dist/myid-anki.apkg`.
 
 **Sources**: [genanki Package implementation](https://github.com/kerrickstaley/genanki/blob/main/genanki/package.py),
 [Python `pathlib`](https://docs.python.org/3.12/library/pathlib.html)
+
+## Desktop and Mobile Acceptance Boundary
+
+**Decision**: Automated tests verify all project-controlled package, template, media, offline, and
+responsive-layout contracts. Initial smoke acceptance additionally imports the same package into
+Anki Desktop and one official mobile Anki client, records both client names and versions, and
+studies text-cue and image-cue cards offline at viewport widths of at least 320 CSS pixels.
+
+**Rationale**: Archive inspection cannot prove behavior inside real Anki clients. A small recorded
+client matrix directly checks first import, bundled media, visible language labels and answers,
+bounded images, and the absence of JavaScript or network dependencies for core behavior without
+expanding V1 into automated device infrastructure.
+
+**Alternatives considered**: Desktop-only acceptance leaves the constitutional mobile requirement
+unverified. CSS-only assertions cannot establish client rendering or offline media behavior.
+Automated mobile-device farms and publishing infrastructure are outside V1 scope.
 
 ## Initial Vocabulary Content
 
@@ -161,19 +180,27 @@ scope.
 
 ## Semantic Determinism and Anki Update Behavior
 
-**Decision**: Require semantic equivalence, not byte-identical archives. Normal builds use current
-timestamps so a later package can update earlier imported notes under Anki's newer-wins default.
-Tests compare normalized deck/model IDs, schema, templates, CSS, GUIDs, fields, sorted tags,
-one-card relationships, and media names/content hashes while ignoring timestamps, SQLite row IDs,
-ZIP metadata, and physical ordering.
+**Decision**: Require semantic equivalence, not byte-identical archives. For a build that supersedes
+an existing local package, assign each note a whole-second modification timestamp at least one
+second greater than the greatest note timestamp in that immediately preceding package, or the
+current whole-second Unix time if that is greater. Thus successive builds remain newer even in the
+same wall-clock second or after a clock rollback; no sleeping is required. The first build uses the
+current whole-second Unix time. Timestamps never participate in GUID generation. Tests compare
+normalized deck/model IDs, schema, templates, CSS, GUIDs, fields, sorted tags, one-card
+relationships, and media names/content hashes while ignoring timestamps, SQLite row IDs, ZIP
+metadata, and physical ordering, except in explicit monotonic-timestamp tests.
 
 **Rationale**: genanki and archive/SQLite layers contain volatile timestamps and row details.
-Freezing them is unnecessary and could prevent corrected content from updating in Anki. Stable
-GUIDs identify notes; stable model schema permits updates; absent notes are not deletion requests.
+Freezing them is unnecessary and could prevent corrected content from updating in Anki. Monotonic
+note modification metadata preserves newer-wins updates for immediate rebuilds. Stable GUIDs
+identify notes; stable model schema permits updates; absent notes are not deletion requests, and
+reintroducing an ID regenerates the same GUID without historical state about its omission.
 
 **Alternatives considered**: Byte-for-byte reproducibility would require controlling packaging
-internals with no learner benefit. A fixed timestamp was rejected because Anki may retain a newer
-collection version. Stable database note/card row IDs are not required because import remaps them.
+internals with no learner benefit. Relying only on wall-clock seconds was rejected because rapid
+successive builds can receive equal modification metadata; sleeping between builds was rejected as
+unnecessary and unreliable. Stable database note/card row IDs are not required because import
+remaps them.
 
 **Sources**: [Anki packaged-deck updating](https://docs.ankiweb.net/importing/packaged-decks.html#updating),
 [Anki package importer](https://github.com/ankitects/anki/blob/main/rslib/src/import_export/package/apkg/import/notes.rs),

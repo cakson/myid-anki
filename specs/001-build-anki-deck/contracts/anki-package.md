@@ -3,7 +3,7 @@
 ## Artifact
 
 - Format: standard `.apkg`
-- Final path: `dist/indo-malay.apkg`
+- Final path: `dist/myid-anki.apkg`
 - Build-time network dependency: none
 - Deck count: one
 - Note-model count: one custom model
@@ -56,9 +56,12 @@ source order, and card presentation never participate in GUID derivation.
 The sole template uses native Anki conditional replacement:
 
 - Non-empty `Image`: render Image as the primary cue and do not render English as the primary cue.
-- Empty `Image`: render English as the prominent primary cue.
-- Both states render “Answer in Bahasa Indonesia” and “or Bahasa Malaysia”.
+- Empty `Image`: render English as the primary cue at a font size at least 1.5 times the prompt's
+  font size and at font weight 600 or heavier.
+- Both states render “Answer in Bahasa Indonesia” and “or Bahasa Melayu”.
 - Neither state exposes Indonesian or Malaysian answer fields.
+- Stored English remains exactly the reviewed source value; any displayed casing change is applied
+  only through CSS and never by changing the note field.
 - No core behavior depends on JavaScript.
 
 ## Back Contract
@@ -66,30 +69,56 @@ The sole template uses native Anki conditional replacement:
 The back identifies the cue, then clearly renders:
 
 - `Bahasa Indonesia` and the Indonesian value
-- `Bahasa Malaysia` and the Malaysian value
+- `Bahasa Melayu` and the Malaysian value
 
 For image-backed notes, the image remains visible and English appears as secondary context. For
-text-only notes, English remains the cue context. Styling is responsive and remains readable in a
-320-pixel-wide display area.
+text-only notes, English remains the cue context. At viewport widths of 320 CSS pixels or greater,
+long English, Indonesian, and Malaysian values wrap inside the card viewport, images are constrained
+to that viewport, and ordinary content causes no horizontal scrolling. No custom zooming or user
+interaction is required.
 
 ## Media Contract
 
 - Each distinct referenced file is included once.
 - Image HTML refers only to its packaged basename.
 - The package contains no remote URL dependency.
-- Repeated references to one resolved file are valid.
-- Distinct files with case-fold-equivalent basenames fail validation before packaging.
+- Repeated references to the exact same resolved source file are valid.
+- Distinct resolved source files whose packaged basenames compare equal after Unicode case folding
+  fail validation before packaging.
+- Collision diagnostics report every source reference participating in each conflicting basename.
+
+## Desktop and Mobile First-Import Acceptance
+
+Acceptance records the client name and version for Anki Desktop and one official mobile Anki
+client. Using a disposable collection, both clients must demonstrate:
+
+- successful first import of `dist/myid-anki.apkg`;
+- exactly one note and one card per source concept;
+- offline study of at least one text-cue and one image-cue card;
+- bundled image media with no remote dependency;
+- both Bahasa Indonesia and Bahasa Melayu labels and answers visible together;
+- long-text wrapping and bounded responsive images at viewport widths of 320 CSS pixels or greater,
+  with no horizontal scrolling, custom zooming, or interaction;
+- all core card behavior working without JavaScript or network access.
+
+Automated tests verify project-controlled package structure and presentation contracts. Recorded
+client smoke acceptance verifies behavior owned by the Anki clients.
 
 ## Update and Removal Semantics
 
 Rebuilt packages preserve note GUID, deck ID, model ID, schema, and template count. Official Anki
-can therefore recognize notes with unchanged concept IDs. Under newer-wins import settings, a later
-package must carry a later modification time to update content; users of supported Anki versions
+can therefore recognize notes with unchanged concept IDs. Every successful build after a local
+package exists assigns notes whole-second modification timestamps strictly greater than the
+greatest note timestamp in the immediately preceding package, unless current whole-second Unix time
+is already greater. This makes immediate same-second builds newer under newer-wins import behavior,
+without sleeping. Timestamps never contribute to GUID identity. Users of supported Anki versions
 may choose the client's unconditional update option when appropriate.
 
 A concept absent from the current TSV is absent from the new package. Its absence is not encoded as
 a deletion request and importing the new package does not intentionally remove an older note from
-the learner's collection.
+the learner's collection. If the same ID is reintroduced later, its deterministic GUID is unchanged:
+an extant collection note remains the same logical note and may be updated, while a note independently
+deleted by the learner can be imported again under that same identity.
 
 ## Semantic Verification Manifest
 
@@ -99,6 +128,7 @@ Automated integration tests normalize each generated package to these assertions
 - Exact ordered field schema, CSS, template name, front, and back
 - One note and one `ord=0` card per concept
 - Expected GUID and escaped fields for every concept
+- Note modification metadata, asserted separately as strictly monotonic between successive builds
 - Sorted native tag values
 - Media basename and content hash for every referenced file
 

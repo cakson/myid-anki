@@ -21,8 +21,10 @@ identity, repeatable imports, tests, and contributor documentation."
 - Q: When a concept is removed from the TSV, what should happen after the rebuilt deck is imported
   into an existing Anki collection? → A: Omit it from new packages; do not delete existing
   collection notes.
-- Q: If two image references use different relative paths but share the same filename, what should
-  the build do? → A: Reject the build and report both conflicting references.
+- Q: If distinct image files would be packaged under case-equivalent basenames, what should the
+  build do? → A: Reject distinct resolved files whose packaged basenames are equal after Unicode
+  case folding and report every conflicting reference; repeated references to the exact same
+  resolved file remain valid.
 - Q: How should leading or trailing whitespace in non-empty TSV field values be handled? → A:
   Reject it and require the source to be corrected.
 
@@ -37,20 +39,37 @@ both language answers together.
 **Why this priority**: Producing a usable deck from reviewed source data is the feature's primary
 value and establishes the minimum viable local workflow.
 
-**Independent Test**: Create a valid source containing concepts with and without images, build the
-deck, import it into an official Anki client, and verify the note count, card count, media, front,
-and back of every card.
+**Independent Test**: Create a valid source containing text-only and image-backed concepts, run the
+build, and verify that the complete source and media validation pipeline finishes before package
+generation. Verify one note and one card per concept, bundled image media, English-versus-image
+front cue selection, and both labeled language answers on the back. Import the package into Anki
+Desktop and one official mobile Anki client, then study both cue types offline at a viewport width
+of at least 320 CSS pixels without JavaScript or network access; long values and images must not
+cause horizontal scrolling.
 
 **Acceptance Scenarios**:
 
 1. **Given** a valid source with three concepts, **When** the maintainer builds the deck, **Then**
-   exactly one package is produced containing three notes and three cards.
-2. **Given** a concept without an image, **When** its card is shown, **Then** the front prominently
-   displays the English cue and asks for an answer in Bahasa Indonesia or Bahasa Malaysia.
-3. **Given** any generated card, **When** the answer is revealed, **Then** both the Bahasa Indonesia
-   and Bahasa Malaysia answers are clearly displayed on the same card.
-4. **Given** the generated package, **When** it is imported into an official desktop or mobile Anki
-   client, **Then** its cards and bundled media remain usable without network access.
+   the complete source and media validation pipeline runs first and exactly one package is produced
+   at `dist/myid-anki.apkg` containing three notes and three cards.
+2. **Given** a concept without an image, **When** its card is shown, **Then** the front displays the
+   English cue at least 1.5 times the prompt's font size and at font weight 600 or heavier, and asks
+   for an answer in Bahasa Indonesia or Bahasa Melayu as used in Malaysia.
+3. **Given** a concept with a valid image, **When** its card is shown, **Then** the bundled image is
+   the primary front cue and neither target-language answer appears.
+4. **Given** any generated card, **When** the answer is revealed, **Then** both the Bahasa Indonesia
+   and Bahasa Melayu labels and answers are visible together on the same card.
+5. **Given** any source or media validation error, **When** the build runs, **Then** it exits with a
+   nonzero status before package generation and does not create, replace, truncate, or partially
+   write `dist/myid-anki.apkg`.
+6. **Given** the generated package, **When** it is imported into Anki Desktop and one official
+   mobile Anki client, **Then** text-cue and image-cue cards, bundled media, language labels, and
+   both answers remain readable and usable offline at viewport widths of 320 CSS pixels or greater
+   without JavaScript or network access for core behavior.
+7. **Given** cards containing long English, Indonesian, and Malaysian values and an image larger
+   than the viewport, **When** the standard templates are studied at 320 CSS pixels or greater,
+   **Then** all ordinary text wraps within the card viewport and the image is constrained to it,
+   with no horizontal scrolling, custom zooming, or other user interaction required.
 
 ---
 
@@ -74,12 +93,14 @@ build attempt does not create or replace an output package.
    validation runs, **Then** it fails with the source row number.
 3. **Given** a missing image, absolute media path, or media path that resolves outside the media
    directory, **When** validation runs, **Then** it fails before generation.
-4. **Given** any validation failure, **When** the build command runs, **Then** no output package is
-   created or overwritten by that invocation.
+4. **Given** any validation failure, **When** the build command runs, **Then** it returns a nonzero
+   status and does not create, replace, truncate, or partially write the final package; any prior
+   successful package remains byte-for-byte unchanged.
 5. **Given** a valid header with no concept rows, **When** validation or build runs, **Then** it fails
    and reports that at least one vocabulary concept is required.
-6. **Given** two image references with different relative paths but the same filename, **When**
-   validation runs, **Then** it fails and reports both conflicting references.
+6. **Given** distinct resolved image files whose packaged basenames are equal after Unicode case
+   folding, **When** validation runs, **Then** it fails and reports every conflicting reference;
+   repeated references to the exact same resolved image file remain valid.
 7. **Given** any field value with leading or trailing whitespace, **When** validation runs, **Then**
    it fails and identifies the affected row and field without rewriting the value.
 
@@ -112,20 +133,29 @@ same concept IDs remain unchanged and each concept still produces one note and o
 5. **Given** a concept is removed from the TSV after an earlier package was imported, **When** a new
    package is built and imported, **Then** the concept is absent from the new package and the import
    does not request deletion of its existing note from the learner's collection.
+6. **Given** concept `000001` was included in package A, **When** it is removed and package B is
+   built, then reintroduced with the same ID and package C is built, **Then** package C has the same
+   deterministic GUID as package A; an existing collection note remains the same logical note
+   without duplication, and a note independently deleted by the learner can be imported again with
+   that same identity.
+7. **Given** package A contains a concept, **When** one mutable field changes and package B is built
+   immediately within the same wall-clock second, **Then** the note GUID is unchanged and B's Anki
+   note modification metadata is strictly newer than A's, without waiting between builds.
 
 ---
 
-### User Story 4 - Maintain Optional Images (Priority: P3)
+### User Story 4 - Maintain the Optional-Image Identity Lifecycle (Priority: P3)
 
-A deck maintainer can add or remove a repository-managed image reference without changing the
-concept identity. A referenced image replaces the English text as the primary front cue and is
-included in the package.
+A deck maintainer can add, change, or remove a repository-managed image reference without changing
+the concept identity. Image cue rendering and first-import packaging are already part of the usable
+US1 pipeline; this story protects identity and package behavior across later image lifecycle edits.
 
 **Why this priority**: Images improve neutral recall cues, but text-only vocabulary must remain fully
 usable and image handling must not weaken identity or safety guarantees.
 
-**Independent Test**: Build a concept first without an image, then with a valid nested media
-reference, and finally without it again; verify cue selection, packaged media, and stable identity.
+**Independent Test**: Build a concept without an image, add a valid nested media reference, change
+it to another valid image, and remove it again; verify each rebuild retains the same note identity
+and one-card count while cue selection and packaged media track the current source.
 
 **Acceptance Scenarios**:
 
@@ -134,8 +164,8 @@ reference, and finally without it again; verify cue selection, packaged media, a
    language answer appears.
 2. **Given** that image-backed card, **When** its answer is revealed, **Then** the English cue is
    available as secondary context and both target-language answers are shown.
-3. **Given** an image is added to or removed from an existing concept, **When** the deck is rebuilt,
-   **Then** the concept's note identity remains unchanged.
+3. **Given** an image is added to, changed on, or removed from an existing concept, **When** the deck
+   is rebuilt, **Then** the concept's note identity and one-card count remain unchanged.
 
 ---
 
@@ -170,13 +200,17 @@ and observe whether they can complete the documented workflow without external g
 - An image reference is absolute, contains parent-directory traversal, resolves through a symbolic
   link outside the media directory, points to a directory, or uses a missing file.
 - Two concepts reference the same valid image.
-- Two distinct image references have the same filename and would collide in the package media
-  namespace.
+- Two distinct resolved image files have packaged basenames that are equal after Unicode case
+  folding and would collide in the package media namespace.
 - A media filename contains spaces or non-ASCII characters supported by the local filesystem.
 - A failed build occurs when an older package already exists in the output directory.
 - Source rows are reordered without changing concept IDs.
 - Mutable vocabulary fields or card styling change while IDs remain unchanged.
-- A concept is removed after an earlier package containing it has already been imported.
+- A concept is removed after an earlier package containing it has already been imported, then
+  reintroduced with the same ID after one or more intermediate packages omitted it.
+- Two successive builds occur within the same whole-second clock interval, or the local clock moves
+  backward, while the later package is intended to supersede the earlier package.
+- Long uninterrupted values or a large image are rendered on a narrow mobile viewport.
 - A valid source contains characters used in Indonesian, Malaysian, or English orthography and is
   read without character corruption.
 
@@ -207,12 +241,14 @@ and observe whether they can complete the documented workflow without external g
   designated media directory.
 - **FR-011**: Validation MUST reject image references that are absolute, escape the media directory
   lexically or after path resolution, resolve to a directory, or refer to a nonexistent file.
-- **FR-012**: The system MUST offer a documented local build command that performs the complete
-  validation step before attempting generation.
-- **FR-013**: A build with any validation error MUST fail and MUST NOT create or overwrite an Anki
-  package during that invocation.
-- **FR-014**: A successful build MUST create exactly one standard Anki `.apkg` package in the local
-  `dist/` directory.
+- **FR-012**: The system MUST offer a documented local build command that completes the full source
+  and media validation pipeline before creating any temporary package or attempting package
+  generation.
+- **FR-013**: A build with any validation error MUST return a nonzero status, MUST NOT create,
+  replace, truncate, or partially write `dist/myid-anki.apkg`, and MUST leave any prior successful
+  package byte-for-byte unchanged.
+- **FR-014**: A successful build MUST create exactly one standard Anki `.apkg` package at the
+  canonical path `dist/myid-anki.apkg`.
 - **FR-015**: The package MUST contain exactly one stable deck identity, one stable custom note-type
   identity, and one card template.
 - **FR-016**: Each source concept MUST generate exactly one Anki note and exactly one Anki card.
@@ -224,8 +260,10 @@ and observe whether they can complete the documented workflow without external g
   note-type, note, card-template, field, tag, and packaged-media content.
 - **FR-020**: The generated package MUST support Anki's available recognition and update behavior
   for previously imported notes by preserving all project-controlled identities across builds.
-- **FR-021**: A card front without an image MUST display the English cue prominently and the prompt
-  "Answer in Bahasa Indonesia or Bahasa Malaysia" without displaying either target-language answer.
+- **FR-021**: A card front without an image MUST display the English cue at a rendered font size at
+  least 1.5 times the prompt's font size and at font weight 600 or heavier, followed by the prompt
+  "Answer in Bahasa Indonesia or Bahasa Melayu", without displaying either target-language
+  answer.
 - **FR-022**: The stored English value MUST remain unchanged; any capitalization on a card MUST be
   presentation-only.
 - **FR-023**: A card front with a valid image MUST display that image as the primary cue instead of
@@ -237,14 +275,19 @@ and observe whether they can complete the documented workflow without external g
   for Indonesian and Malaysian recall.
 - **FR-026**: Every valid referenced image MUST be bundled in the generated package, and multiple
   concepts MAY reference the same packaged image.
-- **FR-027**: Cards MUST remain readable on phone-sized screens, work without network access after
-  import, and provide all core behavior without client-side scripting.
+- **FR-027**: At viewport widths of 320 CSS pixels or greater, standard card templates MUST NOT
+  require horizontal scrolling for ordinary textual content. Long English, Indonesian, and
+  Malaysian values MUST wrap within the card viewport, and images MUST be constrained so they
+  cannot cause horizontal overflow. These behaviors MUST require no user interaction or custom
+  zooming. Cards MUST also show visibly distinct language labels and answers, work without network
+  access after import, and provide all core behavior without client-side JavaScript.
 - **FR-028**: The normal validation and build workflow MUST work without network access or external
   runtime services.
 - **FR-029**: Automated tests MUST cover source parsing, required values, malformed rows, duplicate
   IDs, whitespace rejection, string ID preservation, stable deck/note-type/note identity,
   one-note/one-card generation, media safety, existence, and filename collisions, front cue
-  selection, and successful package generation.
+  selection, full validation before generation, nonzero validation-failure behavior, preservation
+  of any existing final package, and successful package generation.
 - **FR-030**: The README MUST explain the project purpose, TSV schema, adding a concept, maintaining
   permanent IDs, adding an optional image, validation and build commands, output location, and card
   front and back behavior.
@@ -253,14 +296,31 @@ and observe whether they can complete the documented workflow without external g
 - **FR-032**: Removing a concept from the TSV MUST omit it from subsequent packages, and generated
   packages MUST NOT request deletion of a previously imported note that is absent from the new
   package.
-- **FR-033**: Validation MUST reject distinct image references whose final filenames are identical
-  and MUST report every conflicting reference; repeated use of the same image reference remains
-  valid.
+- **FR-033**: Validation MUST reject distinct resolved image files whose final packaged basenames
+  compare equal after Unicode case folding and MUST report every conflicting source reference;
+  repeated references to the exact same resolved source file remain valid.
+- **FR-034**: First-import acceptance MUST be executed and recorded for Anki Desktop and one
+  official mobile Anki client, identified by client name and version. Both clients MUST demonstrate
+  offline study of text-cue and image-cue cards, bundled media, 320 CSS-pixel-or-greater viewport
+  readability, visible language labels and answers, and no JavaScript or network dependency for
+  core card behavior.
+- **FR-035**: For each successful build that supersedes a prior local package, every generated
+  Anki note's whole-second modification timestamp MUST be strictly greater than the greatest note
+  modification timestamp in the immediately preceding package, including when both builds occur
+  in the same wall-clock second or the system clock has not advanced. Modification timestamps MUST
+  NOT contribute to note identity, which remains derived solely from the permanent concept ID. The
+  build MUST NOT sleep or wait for the clock to advance.
+- **FR-036**: Reintroducing a previously omitted concept with the same permanent ID MUST produce
+  the same deterministic note GUID as before omission, regardless of how many intermediate builds
+  omitted it. Package generation MUST NOT encode deletion of omitted notes; re-import may update an
+  existing collection note with that identity, while an independently deleted collection note may
+  be recreated with the same identity.
 
 ### Key Entities *(include if feature involves data)*
 
 - **Vocabulary Concept**: One semantic concept identified permanently by an exactly six-digit text
-  ID, with required English, Bahasa Indonesia, and Bahasa Malaysia values plus optional image and
+  ID, with required English, Bahasa Indonesia, and Malaysian Malay (Bahasa Melayu as used in
+  Malaysia) values plus optional image and
   tags values.
 - **Media Reference**: An optional safe relative path from a concept to an existing file contained
   by the repository media directory.
@@ -289,17 +349,29 @@ and observe whether they can complete the documented workflow without external g
 - **SC-002**: Across rebuild tests that alter each mutable field, presentation, and row order, 100%
   of unchanged concept IDs retain the same generated note identity, deck identity, and note-type
   identity.
-- **SC-003**: All required invalid-source categories are rejected before package creation, and 100%
-  of reported errors identify the row or concept whenever that information is available.
+- **SC-003**: All required invalid-source categories are rejected before package creation with a
+  nonzero build status; 100% of reported errors identify the row or concept whenever available,
+  and the final package is absent or byte-for-byte unchanged from before the failed invocation.
 - **SC-004**: A maintainer can validate and build a 1,000-concept source locally in under 60 seconds
   on a supported development machine, excluding initial environment setup.
-- **SC-005**: Every card in the acceptance deck can be studied offline in official desktop and
-  mobile Anki clients, with readable content in a 320-pixel-wide display area.
+- **SC-005**: Every text-cue and image-cue card in the acceptance deck can be studied offline in the
+  recorded Anki Desktop version and one recorded official mobile Anki client version at viewport
+  widths of 320 CSS pixels or greater, with bundled images, both language labels and answers
+  visible, and no JavaScript or network dependency for core behavior. Long values wrap and images
+  remain within the viewport without horizontal scrolling, custom zooming, or user interaction.
 - **SC-006**: In an observed documentation walkthrough, a new contributor can add one text-only
   concept, add one image-backed concept, validate the source, build the package, and locate the
   output within 15 minutes after environment setup, without undocumented assistance.
 - **SC-007**: Re-import testing using supported Anki update behavior produces zero duplicate notes
   for unchanged permanent concept IDs.
+- **SC-008**: In a controlled same-second test, after package A is built and a mutable field changes,
+  an immediate package B build preserves the note GUID and gives every generated note a whole-second
+  modification timestamp strictly greater than the maximum note timestamp in A, with no sleep or
+  clock wait.
+- **SC-009**: In a remove-build-reintroduce-build test, a concept's GUID after reintroduction is
+  byte-for-byte the same deterministic GUID as before removal; importing it does not duplicate a
+  still-existing matching collection note and can recreate a note independently deleted by the
+  learner under that same identity.
 
 ## Assumptions
 
@@ -308,12 +380,15 @@ and observe whether they can complete the documented workflow without external g
 - A blank tags value means no tags. A non-blank tags value represents one or more Anki-compatible
   tag tokens separated by whitespace; validation does not reinterpret their linguistic meaning.
 - The generated artifact has the fixed documented path `dist/myid-anki.apkg`.
-- A failed build leaves any package from an earlier successful build unchanged and clearly reports
-  that no new package was generated.
+- Any failed build leaves a package from an earlier successful build byte-for-byte unchanged and
+  clearly reports that no new package was generated. Validation failures return a nonzero status
+  before package generation; later generation failures affect only invocation-owned temporary
+  output.
 - The English cue is shown on every card back for consistent context, and is visually secondary when
   an image supplied the primary front cue.
-- Compatibility verification targets currently supported official Anki desktop and mobile clients;
-  exact import prompts and update controls remain client responsibilities.
+- First-import compatibility verification records the name and version of Anki Desktop and one
+  official mobile Anki client used for acceptance. Exact import prompts and later update controls
+  remain client responsibilities.
 - Contributors prepare the documented local development environment before running validation or
   build commands.
 - The repository, local filesystem, and Anki client are trusted; multi-user access control and

@@ -71,6 +71,7 @@ The deterministic projection of one validated concept into the frozen Anki note 
 | Field | Source | Rules |
 |---|---|---|
 | `guid` | `guid_for("myid-anki:v1", concept.id)` | Depends only on the permanent ID |
+| `mod` | Build timestamp policy | Whole-second Anki modification timestamp; never an identity input |
 | `ID` | `concept.id` | First field and sort field |
 | `English` | `concept.english` | HTML-escaped before field insertion |
 | `Indonesian` | `concept.indonesian` | HTML-escaped before field insertion |
@@ -80,6 +81,10 @@ The deterministic projection of one validated concept into the frozen Anki note 
 
 The projection uses fixed `MODEL_ID = 1942161817`. Field names, order, GUID namespace, GUID
 algorithm, and model ID are compatibility-sensitive and may not change without a migration plan.
+On a subsequent successful build, note `mod` MUST be strictly greater than the greatest note `mod`
+in the immediately preceding local package, unless current whole-second Unix time is already
+greater. The first build uses current whole-second Unix time. This is derived from the previous
+package and requires no sleep or separately maintained mutable state.
 
 ## DeckPackage
 
@@ -95,7 +100,8 @@ The generated aggregate delivered to the learner.
 | Note count | Exactly the number of validated concepts |
 | Card count | Exactly the number of validated concepts |
 | Media | Every distinct referenced file and no remote resource |
-| Final path | `dist/indo-malay.apkg` |
+| Final path | `dist/myid-anki.apkg` |
+| Note modification metadata | Monotonic across successful local builds, using whole seconds |
 
 The package omits concepts absent from the current TSV. Omission is not a deletion instruction for
 notes already present in a learner's Anki collection.
@@ -112,11 +118,13 @@ TSV bytes
             └─ build command
                  ├─ projection/package failure -> preserve old final package
                  └─ temporary package complete
-                      └─ atomic replace -> dist/indo-malay.apkg
+                      └─ atomic replace -> dist/myid-anki.apkg
 ```
 
-No invalid or merely parsed collection can transition to package generation. A failed transition
-removes only the invocation's temporary file and never modifies a prior successful artifact.
+No invalid or merely parsed collection can transition to temporary-package creation or package
+generation. Validation failure returns a nonzero status without creating, replacing, truncating, or
+partially writing the final package. A later failed transition removes only the invocation's
+temporary file and never modifies a prior successful artifact.
 
 ## Cross-Entity Invariants
 
@@ -125,6 +133,11 @@ removes only the invocation's temporary file and never modifies a prior successf
    or styling.
 3. Distinct valid concept IDs yield distinct GUIDs within the project namespace.
 4. Every non-empty Image field names a bundled media file.
-5. No two distinct media files share a case-folded package name.
+5. No two distinct resolved media files have packaged basenames equal after Unicode case folding;
+   repeated references to the exact same resolved file remain valid.
 6. Deck ID, model ID, field schema, GUID namespace, and template count remain fixed across builds.
 7. Reordering source rows may alter physical package ordering but not semantic content or identity.
+8. Removing an ID from one or more builds never changes its deterministic GUID; reintroducing the
+   same permanent ID recreates the same GUID.
+9. Modification timestamps are not identity. A same-second successive build has a strictly newer
+   note timestamp than the preceding package.

@@ -21,7 +21,7 @@ id	english	indonesian	malaysian	image	tags
 | `id` | Yes | Exactly six ASCII digits; unique; kept as text |
 | `english` | Yes | Reviewed neutral cue stored verbatim |
 | `indonesian` | Yes | Reviewed Bahasa Indonesia answer stored verbatim |
-| `malaysian` | Yes | Reviewed Bahasa Malaysia answer stored verbatim |
+| `malaysian` | Yes | Reviewed Malaysian Malay (Bahasa Melayu as used in Malaysia) answer stored verbatim |
 | `image` | No | Empty or safe POSIX-style relative path under `media/` |
 | `tags` | No | Empty or whitespace-separated Anki tag tokens |
 
@@ -48,9 +48,10 @@ An image reference:
 4. Is not an HTTP, HTTPS, `file:`, or other URL.
 5. May contain spaces or non-ASCII characters supported by the local filesystem.
 
-Different concepts may reuse the exact same resolved file. Distinct resolved files whose final
-filenames compare equal after Unicode case-folding are invalid because Anki packages flatten media
-to a shared filename namespace. Diagnostics report every conflicting source reference.
+Different concepts may reuse the exact same resolved source file. Distinct resolved source files
+whose final packaged basenames compare equal after Unicode case folding are invalid because Anki
+packages flatten media to a shared filename namespace. Diagnostics report every source reference
+participating in each collision.
 
 ## Malformed Input
 
