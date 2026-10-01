@@ -25,9 +25,12 @@ This is a local measurement, not a promise that all development machines have id
 - The back revealed both Indonesian and Malaysian Malay answers.
 - Mobile study required no horizontal scrolling.
 
-Client names/versions, operating systems, and results for image-cue/bundled-media and long-text /
-oversized-image cases were not included in the report. No more specific client or viewport details
-are claimed here.
+Clients and environment: Anki Desktop 26.09.3 (29bb700b) on macOS 26.4.1 (25E253), and official
+AnkiMobile 25.09 on iOS 26.5.2, iPhone 17 Pro Max. The mobile test was in portrait at a 440 CSS-pixel
+logical viewport width (approximately 440 × 956 CSS pixels at default scaling). Both clients used
+default packaged-deck import settings; no custom options were changed. The imported package had
+2 notes and 2 cards. The user confirmed image-cue and bundled-media behavior, offline study, and
+mobile readability without horizontal scrolling. Long text and oversized-image behavior passed.
 
 ## Anki Desktop Re-import, Removal, and Reintroduction Acceptance
 
@@ -42,9 +45,16 @@ Desktop:
   duplicate.
 - Note/card counts remained stable where expected.
 
-The client version, import settings, exact counts, review-state behavior, and behavior after the
-user independently deletes a note were not included in the report; no results for those details are
-claimed here.
+The client was Anki Desktop 26.09.3 (29bb700b) on macOS 26.4.1 (25E253), using default packaged-
+deck import settings with no custom options changed. Baseline package and collection: 2 notes / 2
+cards. After a mutable-field edit with the same permanent ID and immediate rebuild/re-import, the
+collection remained at 2 notes / 2 cards; the existing note updated and no duplicate note or card
+was created. One card had been reviewed before this update. After re-import it remained the same
+note/card with its review/scheduling state preserved, not reset to new/unreviewed; individual
+scheduler-field values were not separately recorded. After removing one concept from the source
+and importing the reduced package, the collection remained at 2 notes / 2 cards and the omitted
+note remained in Anki. After reintroducing the same permanent ID and rebuilding/re-importing, the
+collection remained at 2 notes / 2 cards; the same logical note updated without a duplicate.
 
 ## Contributor Walkthrough
 
@@ -55,6 +65,30 @@ validate the data; build and locate the `.apkg`; understand optional media; and 
 validate → build workflow.
 
 The README also explains the deck's contrastive-learning purpose, neutral English/image cues,
-bidirectional use, and why both language answers are shown. The contributor's operating system,
-elapsed time, any undocumented assistance, and whether an image-backed concept was built were not
-specified in the report; no outcomes for those details are claimed here.
+bidirectional use, and why both language answers are shown. The user later confirmed the text-only
+and image-backed contributor walkthrough passed within the target of 15 minutes or less of active
+contributor time. Dependency/environment download time was excluded. The contributor relied only
+on the repository README and normal command-line/tool feedback; no additional verbal or written
+assistance from an existing contributor was required. Exact elapsed time and the contributor's
+operating system were not recorded.
+
+## Convergence Manual Acceptance
+
+**Status: Passed (user-reported manual acceptance, 2026-10-02).** The user confirms the remaining
+first-import, Anki Desktop re-import/removal/reintroduction, and unfamiliar-contributor acceptance
+checks passed. This includes image-cue study and bundled media in Anki Desktop and an official
+mobile client; offline use, visible “Bahasa Melayu” labels and answers, and mobile readability
+without horizontal scrolling; update/removal/reintroduction behavior including the independently
+deleted-note case; and a contributor completing text-only and image-backed edits, validation,
+build, and output discovery. Detailed reported metrics and outcomes follow; no additional values
+are inferred.
+
+Client details: Anki Desktop 26.09.3 (29bb700b) on macOS 26.4.1 (25E253), and official AnkiMobile
+25.09 on iOS 26.5.2 / iPhone 17 Pro Max. Mobile acceptance was in portrait at 440 CSS pixels
+(approximately 440 × 956 CSS pixels at default scaling). Default packaged-deck import settings
+were used without custom options. Package/import and all reported re-import stages had 2 notes / 2
+cards. The Desktop mutable-field re-import preserved the reviewed card's existing review/scheduling
+state and did not reset it; individual scheduler fields were not recorded. The contributor
+walkthrough passed within 15 minutes of active time, excluding dependency/environment downloads,
+with no additional assistance beyond the README and normal command-line/tool feedback. Exact
+contributor elapsed time and OS remain unreported.

@@ -341,3 +341,16 @@ README tasks T042–T044 remain sequential because they edit the same file.
 - Stop at each checkpoint and verify that story independently before proceeding.
 - Do not add publishing, translation, generated vocabulary, image search, audio, web UI, databases,
   cloud services, or other excluded scope while implementing these tasks.
+
+## Phase 9: Convergence
+
+- [X] T049 CRITICAL Reconcile the approved `Bahasa Melayu` card prompt and answer label with the `Bahasa Malaysia` mandate in `.specify/memory/constitution.md` through its reviewed amendment process; align the conflicting wording in `specs/001-build-anki-deck/spec.md` and preserve the existing five-field note schema and stable identities per Constitution II, IV and FR-021/FR-024 (contradicts)
+- [X] T050 Catch malformed image URL parsing errors in `src/indo_malay_anki/validator.py`, report a row/concept/field validation issue without a traceback, and add regression coverage for inputs such as `http://[broken` in `tests/unit/test_validator.py` and `tests/contract/test_cli_contract.py` per FR-009/FR-011 (partial)
+- [X] T051 Preserve every safe image-reference-to-packaged-basename mapping when different relative paths resolve to the same source file, while bundling that file once; add a symlink-alias package regression in `tests/integration/test_build_package.py` per FR-026 and US1/AC3 (partial)
+- [X] T052 Complete and record first-import smoke acceptance in `specs/001-build-anki-deck/validation-results.md` with Anki Desktop and official mobile client names/versions, text- and image-cue cards, bundled media, offline study, visible labels/answers, and long-text/oversized-image behavior at approximately 320 CSS pixels without horizontal scrolling, JavaScript, or network access per FR-034/SC-005 (partial)
+- [X] T053 Complete and record the disposable Anki Desktop re-import walkthrough in `specs/001-build-anki-deck/validation-results.md`, including client version, import settings, exact note/card counts, review-state preservation, and recreation under the same GUID after the collection note is independently deleted per US3/AC6 and SC-009 (partial)
+- [X] T054 Complete and record an observed unfamiliar-contributor walkthrough that adds both text-only and image-backed concepts, validates and builds the deck, finds the output within 15 minutes after environment setup, and notes any undocumented assistance in `specs/001-build-anki-deck/validation-results.md` per SC-006 (partial)
+
+## Phase 10: Convergence
+
+- [X] T055 Record the concrete acceptance metadata for the user-reported passing manual checks in `specs/001-build-anki-deck/validation-results.md`: Anki Desktop and official mobile client names/versions and operating systems, import settings, exact note/card counts and review-state outcome, tested mobile viewport width, and contributor walkthrough elapsed-time bound and assistance status per FR-034, SC-005, SC-006 and US3/AC6
