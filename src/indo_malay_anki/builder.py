@@ -124,7 +124,9 @@ def build_package(
         )
         deck = genanki.Deck(DECK_ID, "MYID Anki")
         media_by_source = {
-            reference.source_value: reference.package_name for reference in vocabulary.media
+            source_value: reference.package_name
+            for reference in vocabulary.media
+            for source_value in (reference.source_values or (reference.source_value,))
         }
         for concept in vocabulary.concepts:
             deck.add_note(make_note(concept, model, media_by_source))

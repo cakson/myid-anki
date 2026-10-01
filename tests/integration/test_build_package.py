@@ -105,3 +105,26 @@ def test_nested_unicode_media_is_flattened_and_shared_once(repo_factory, monkeyp
     assert all('<img src="café home.png">' in row[0] for row in fields)
     assert connection.execute("select count(*) from cards").fetchone()[0] == 2
     connection.close()
+
+
+def test_distinct_safe_references_to_same_resolved_media_file_build_once(repo_factory, monkeypatch):
+    root = repo_factory(
+        rows=(
+            ("000001", "car", "mobil", "kereta", "real/car.png", ""),
+            ("000002", "auto", "mobil", "kereta", "alias.png", ""),
+        ),
+        media_files={"real/car.png": b"image-bytes"},
+    )
+    try:
+        (root / "media" / "alias.png").symlink_to(root / "media" / "real" / "car.png")
+    except (OSError, NotImplementedError):
+        pytest.skip("symlinks are unavailable")
+
+    monkeypatch.chdir(root)
+    assert main(["build"]) == 0
+    connection, media = package_contents(root / "dist" / "myid-anki.apkg")
+    assert media == {"car.png": b"image-bytes"}
+    fields = connection.execute("select flds from notes").fetchall()
+    assert len(fields) == 2
+    assert all('<img src="car.png">' in row[0] for row in fields)
+    connection.close()

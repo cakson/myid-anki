@@ -44,7 +44,16 @@ def _media_path_issue(
         return None, None
     raw_parts = value.split("/")
     parts = PurePosixPath(value).parts
-    parsed = urlsplit(value)
+    try:
+        parsed = urlsplit(value)
+    except ValueError:
+        return _issue(
+            "unsafe_media_path",
+            "Image reference is malformed and must be a safe relative path inside media/",
+            source,
+            concept,
+            "image",
+        ), None
     if (
         "\\" in value
         or parsed.scheme
@@ -82,7 +91,7 @@ def _media_path_issue(
             "image",
         ), None
     package_name = target.name
-    return None, MediaReference(value, target, package_name, package_name.casefold())
+    return None, MediaReference(value, target, package_name, package_name.casefold(), (value,))
 
 
 def validate_vocabulary(source_path: Path, media_root: Path) -> ValidatedVocabulary:
@@ -177,12 +186,21 @@ def validate_vocabulary(source_path: Path, media_root: Path) -> ValidatedVocabul
     if issues:
         raise ValidationError(issues)
 
-    media_by_path: dict[Path, MediaReference] = {}
+    media_by_path: dict[Path, list[MediaReference]] = defaultdict(list)
     for _, reference in resolved_references:
-        media_by_path.setdefault(reference.resolved_path, reference)
+        media_by_path[reference.resolved_path].append(reference)
     media = tuple(
         sorted(
-            media_by_path.values(),
+            (
+                MediaReference(
+                    references[0].source_value,
+                    path,
+                    references[0].package_name,
+                    references[0].collision_key,
+                    tuple(dict.fromkeys(item.source_value for item in references)),
+                )
+                for path, references in media_by_path.items()
+            ),
             key=lambda item: (item.package_name.casefold(), item.package_name),
         )
     )

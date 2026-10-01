@@ -33,6 +33,19 @@ def test_validate_failure_reports_row_and_field_and_returns_one(repo_factory):
     assert not (root / "dist").exists()
 
 
+def test_malformed_image_url_is_reported_without_traceback(repo_factory):
+    root = repo_factory(rows=(("000001", "car", "mobil", "kereta", "http://[broken", ""),))
+    result = subprocess.run(
+        [sys.executable, "-m", "indo_malay_anki", "validate"],
+        cwd=root,
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 1
+    assert "Traceback" not in result.stderr
+    assert "2" in result.stderr and "000001" in result.stderr and "image" in result.stderr
+
+
 def test_help_and_unknown_commands_use_expected_exit_codes():
     help_result = subprocess.run(
         [sys.executable, "-m", "indo_malay_anki", "--help"], capture_output=True, text=True

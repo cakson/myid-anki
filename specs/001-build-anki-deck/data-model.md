@@ -20,18 +20,21 @@ identity MUST NOT include mutable values.
 
 ## MediaReference
 
-A validated relationship between a concept's source image value and a repository file.
+A validated relationship between one or more concept image values and a deduplicated repository
+file.
 
 | Field | Type | Rules |
 |---|---|---|
 | `source_value` | `str` | Original repository-relative value from TSV |
+| `source_values` | `tuple[str, ...]` | Every distinct safe TSV reference resolving to this file; aliases remain mapped when package media is deduplicated |
 | `resolved_path` | `Path` | Existing regular file whose strict resolution remains under resolved `media/` |
 | `package_name` | `str` | Final path component used in Anki fields and package media map |
 | `collision_key` | `str` | `package_name.casefold()` for cross-platform collision detection |
 
 Relationships:
 
-- Zero or more concepts may reference the same resolved media file.
+- Multiple safe relative references, including symlink aliases, may resolve to one media file; all
+  such references map to its packaged basename while the package includes the file only once.
 - Two distinct resolved files may not share a collision key.
 - A concept has at most one media reference.
 - Media bytes remain repository inputs; the TSV stores only the source reference.

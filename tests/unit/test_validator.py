@@ -75,6 +75,7 @@ def test_accepts_safe_nested_image_and_repeated_same_file(tmp_path):
     "reference",
     [
         "https://example.test/car.jpg",
+        "http://[broken",
         "/etc/passwd",
         "../outside.jpg",
         "folder\\car.jpg",

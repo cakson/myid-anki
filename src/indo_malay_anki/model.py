@@ -55,6 +55,7 @@ class MediaReference:
     resolved_path: Path
     package_name: str
     collision_key: str
+    source_values: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
