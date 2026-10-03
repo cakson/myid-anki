@@ -33,6 +33,23 @@ def test_repeated_builds_are_semantically_equivalent_except_mod(repo_factory, pa
     assert second_mods["D6BBAuKXK"] > first_mods["D6BBAuKXK"]
 
 
+def test_release_tag_does_not_change_anki_identity(repo_factory, package_inspector, monkeypatch):
+    root = repo_factory()
+    monkeypatch.setenv("GITHUB_REF", "refs/tags/v0.1.0")
+    monkeypatch.setenv("GITHUB_REF_NAME", "v0.1.0")
+    before, _ = package_inspector(make_build(root))
+
+    write_rows(root, (("000001", "automobile", "mobil", "kereta", "", "transport"),))
+    monkeypatch.setenv("GITHUB_REF", "refs/tags/v9.8.7")
+    monkeypatch.setenv("GITHUB_REF_NAME", "v9.8.7")
+    after, _ = package_inspector(make_build(root))
+
+    assert before["deck_ids"] == after["deck_ids"]
+    assert set(before["models"]) == set(after["models"])
+    assert [note[0] for note in before["notes"]] == [note[0] for note in after["notes"]]
+    assert len(after["notes"]) == len(after["cards"]) == 1
+
+
 @pytest.mark.parametrize(
     ("field", "value"),
     [
