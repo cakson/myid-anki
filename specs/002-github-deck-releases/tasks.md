@@ -101,9 +101,9 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Purpose**: Validate the completed configuration and record any acceptance limits.
 
-- [ ] T020 Inspect `.github/workflows/ci.yml` and `.github/workflows/release.yml` with a YAML/workflow syntax checker and focused review of triggers, exact tag guard, five commands, permissions, mandatory artifact upload with repository-configured retention, same-run artifact transfer, missing-file failure, checkout SHA recording, draft-to-published sequence, and release filename; record results in `specs/002-github-deck-releases/validation-results.md`.
-- [ ] T021 Run `pytest`, `ruff check .`, and `ruff format --check .`; run `python -m indo_malay_anki validate` and `python -m indo_malay_anki build` when reviewed nonempty source is available, and record pass/fail or the header-only prerequisite in `specs/002-github-deck-releases/validation-results.md`.
-- [ ] T022 Review `specs/002-github-deck-releases/spec.md`, `contracts/workflow-distribution.md`, `.github/workflows/ci.yml`, `.github/workflows/release.yml`, and `README.md` for matching local/artifact/release filenames, least-privilege permissions, explicit exclusions, and no tag input to Anki identity; record unresolved deviations in `specs/002-github-deck-releases/validation-results.md`.
+- [X] T020 Inspect `.github/workflows/ci.yml` and `.github/workflows/release.yml` with a YAML/workflow syntax checker and focused review of triggers, exact tag guard, five commands, permissions, mandatory artifact upload with repository-configured retention, same-run artifact transfer, missing-file failure, checkout SHA recording, draft-to-published sequence, and release filename; record results in `specs/002-github-deck-releases/validation-results.md`.
+- [X] T021 Run `pytest`, `ruff check .`, and `ruff format --check .`; run `python -m indo_malay_anki validate` and `python -m indo_malay_anki build` when reviewed nonempty source is available, and record pass/fail or the header-only prerequisite in `specs/002-github-deck-releases/validation-results.md`.
+- [X] T022 Review `specs/002-github-deck-releases/spec.md`, `contracts/workflow-distribution.md`, `.github/workflows/ci.yml`, `.github/workflows/release.yml`, and `README.md` for matching local/artifact/release filenames, least-privilege permissions, explicit exclusions, and no tag input to Anki identity; record unresolved deviations in `specs/002-github-deck-releases/validation-results.md`.
 
 ---
 
