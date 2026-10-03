@@ -26,9 +26,9 @@
 
 ## Artifact transport and names
 
-**Decision**: CI uploads `dist/myid-anki.apkg` with a clear run-artifact name. The release build job uploads the same local package to its own run; the publication job downloads that named artifact from the current run and publishes a renamed copy as `indonesian-malaysian.apkg`. Missing files and attempted upload failures fail their runs.
+**Decision**: Every successful CI run uploads `dist/myid-anki.apkg` with a clear run-artifact name and the repository-configured Actions retention period. The release build job uploads the same local package to its own run; the publication job downloads that named artifact from the current run and publishes a renamed copy as `indonesian-malaysian.apkg`. Missing files and attempted upload failures fail their runs.
 
-**Rationale**: Same-run transfer separates read-only checks from write-scoped publication while preserving the exact checked package. The upload action provides `if-no-files-found: error`; a failed upload step fails the job. The user's clarification requires an attempted artifact upload failure to fail CI. [Upload artifact options](https://github.com/actions/upload-artifact/blob/main/README.md).
+**Rationale**: Same-run transfer separates read-only checks from write-scoped publication while preserving the exact checked package. The upload action provides `if-no-files-found: error`; a failed upload step fails the job. The user's clarification requires an attempted artifact upload failure to fail CI. Using repository-configured retention avoids an unnecessary feature-specific policy for an inspection artifact; Releases remain the learner distribution. [Upload artifact options](https://github.com/actions/upload-artifact/blob/main/README.md).
 
 **Alternatives considered**: Publishing the local basename would conflict with the latest learner-facing filename request. Rebuilding in the write-scoped job could produce a different package and repeats quality work. Pulling an artifact from an unrelated CI run weakens revision traceability.
 

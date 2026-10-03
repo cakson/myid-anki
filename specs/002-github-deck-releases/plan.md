@@ -90,16 +90,17 @@ See [research.md](research.md) for current GitHub behavior and alternatives. The
 3. Use the existing local output path `dist/myid-anki.apkg` for builds and run artifacts. Rename a copy to `indonesian-malaysian.apkg` only when publishing.
 4. Transfer the release build with a same-run artifact, never with an artifact from an unrelated CI run.
 5. Treat attempted artifact upload failure as a failed run, as clarified in the spec.
+6. Upload an artifact on every successful CI run and use the repository-configured Actions retention period; do not set a feature-specific duration. Keep the Release asset as the durable learner download.
 
 ## Phase 1: Design
 
 See [data-model.md](data-model.md), [contracts/workflow-distribution.md](contracts/workflow-distribution.md), and [quickstart.md](quickstart.md).
 
-- CI: checkout, set up Python 3.12 with simple pip caching, install `-e .[dev]`, execute the five existing commands in order, and upload `dist/myid-anki.apkg` with a clear artifact name and missing-file failure.
-- Release build job: tag checkout, strict tag-name guard, the same environment and five commands, then upload the package to this run for transfer. Keep `contents: read`.
+- CI: checkout, set up Python 3.12 with simple pip caching, install `-e .[dev]`, execute the five existing commands in order, and upload `dist/myid-anki.apkg` on every successful run with a clear artifact name and missing-file failure. Use repository-configured artifact retention.
+- Release build job: tag checkout, strict tag-name guard, record the checked-out commit SHA, run the same environment and five commands, then upload the package to this run for transfer. Keep `contents: read`.
 - Release publication job: depend on successful build; download only this run's named artifact; copy to `indonesian-malaysian.apkg`; create/update the release for the triggering tag and overwrite that filename. Scope `contents: write` only to this job. Fail for missing package or publication errors.
 - Documentation: retain local commands and output path, add CI artifact location, tag push/release steps, latest-release download, and Anki update guidance with identity limits.
-- Verification: inspect workflow syntax and trigger/permission/asset fields using a lightweight parser or targeted checks; reuse existing integration tests for identity. Do not emulate GitHub Actions. Manual acceptance covers a passing PR, downloadable CI artifact, test tag, Release asset, and Anki import.
+- Verification: inspect workflow syntax and trigger/permission/asset fields using a lightweight parser or targeted checks; reuse existing integration tests for identity. Do not emulate GitHub Actions. Hosted acceptance covers passing PR and main runs, controlled failures in every quality gate, a missing artifact, a failed tagged gate, a test tag, Release asset byte comparison with that run's package, and Anki import. Record the tag target and checkout SHAs. Record the maintainer and learner walkthrough times against SC-005.
 
 ## Implementation Risks and Prerequisites
 

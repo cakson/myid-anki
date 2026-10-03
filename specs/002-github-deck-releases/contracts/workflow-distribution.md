@@ -26,7 +26,7 @@ The environment uses Python 3.12 and the project's editable dev dependency set. 
 | Output | Filename / location | Consumer |
 |---|---|---|
 | Local build | `dist/myid-anki.apkg` | Contributor, artifact upload |
-| Ordinary CI artifact | Clearly named Actions run artifact containing `myid-anki.apkg` | Maintainer inspection |
+| Ordinary CI artifact | Clearly named Actions run artifact containing `myid-anki.apkg`; repository-configured retention | Maintainer inspection |
 | Release transfer artifact | Named artifact from the same release workflow run containing `myid-anki.apkg` | Release publication job |
 | GitHub Release asset | `indonesian-malaysian.apkg` on the pushed tag's Release | Learner |
 
@@ -36,7 +36,9 @@ The publication filename is a copy/rename only. The `.apkg` bytes and Anki ident
 
 - A failed validation, test, lint, formatting check, or build fails the corresponding job and prevents publication.
 - A missing package or failed attempted artifact upload fails the job. The release publication job cannot start after a failed release build job.
+- Every successful CI run uploads its package; no successful result may omit the artifact upload step. No feature-specific retention period overrides repository settings.
 - A failed publication leaves the workflow failed. A rerun can update the same tag's asset and must leave only one `indonesian-malaysian.apkg` asset.
+- The release build records the checked-out commit SHA. Acceptance compares it with the tag target and compares the published asset bytes with the checked package from the same run.
 - CI and release build jobs have read-only repository permission. Only the publication job receives release-write permission via `contents: write`.
 - The built-in workflow token is sufficient; no new repository secret is part of the contract.
 

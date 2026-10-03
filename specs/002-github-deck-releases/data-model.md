@@ -23,7 +23,7 @@ This feature adds no application database or vocabulary schema. It defines relat
 
 ## CI Artifact
 
-- **Attributes**: Clear artifact name, source workflow run, packaged `myid-anki.apkg`.
+- **Attributes**: Clear artifact name, source workflow run, packaged `myid-anki.apkg`, repository-configured retention period.
 - **Role**: Maintainer inspection and same-run transfer between release jobs; not the learner-facing download.
 - **Validation**: Missing package or failed attempted upload fails the producing job. Release publication downloads only the named artifact from its own workflow run.
 
