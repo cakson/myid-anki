@@ -29,7 +29,7 @@ A contributor edits vocabulary, media, templates, or code. A pull request or pus
 
 1. **Given** valid inputs, **When** a pull request or main-branch push runs, **Then** the supported environment and dependencies are prepared, existing validation, tests, Ruff lint, Ruff formatting, and deck build all pass.
 2. **Given** invalid vocabulary or media, a failing test, a lint or formatting violation, or a build error, **When** checks run, **Then** the run fails and does not report a successful deck output.
-3. **Given** a successful run, **When** a maintainer inspects it, **Then** the generated `.apkg` is available as a GitHub Actions artifact where artifact storage is available.
+3. **Given** a successful run, **When** a maintainer inspects it during the repository's configured Actions artifact retention period, **Then** the generated `.apkg` is available as a GitHub Actions artifact.
 4. **Given** an ordinary push to main, **When** checks complete, **Then** no learner-facing GitHub Release is created solely from that push.
 
 ---
@@ -45,9 +45,10 @@ A maintainer tags a reviewed revision. The tagged source passes the same checks,
 **Acceptance Scenarios**:
 
 1. **Given** a matching version tag, **When** it is pushed, **Then** the tagged revision is checked out, all required checks pass, and the package built from it is attached to that tag's release.
-2. **Given** an existing release for the tag, **When** publication is rerun successfully, **Then** exactly one stable-named deck asset remains and it contains the newly checked build of that tag.
-3. **Given** any failed check or build for a tag, **When** the release run stops, **Then** no new or replacement deck asset is published.
-4. **Given** a successful release, **When** a learner visits it on desktop or mobile, **Then** the clearly named `.apkg` can be downloaded and imported into Anki without renaming.
+2. **Given** a tag pointing to revision A while main has advanced to revision B, **When** the release completes, **Then** the recorded build revision is A and the downloaded Release asset is byte-for-byte identical to the checked package from that tagged run.
+3. **Given** an existing release for the tag, **When** publication is rerun successfully, **Then** exactly one stable-named deck asset remains and it contains the newly checked build of that tag.
+4. **Given** any failed check or build for a tag, **When** the release run stops, **Then** no new or replacement deck asset is published.
+5. **Given** a successful release, **When** a learner visits it on desktop or mobile, **Then** the clearly named `.apkg` can be downloaded and imported into Anki without renaming.
 
 ---
 
@@ -99,11 +100,11 @@ Maintainers can find check results, inspect artifacts, and create releases. Lear
 - **FR-002**: Each check MUST prepare a supported Python environment and install the dependencies required for validation, testing, linting, formatting, and building.
 - **FR-003**: Each check MUST run the repository's existing source and media validation command, automated tests, Ruff lint check, Ruff formatting check, and deck build command, failing if any step fails.
 - **FR-004**: Automation MUST use the same project validation and build commands used locally, without reimplementing vocabulary rules or deck generation in workflow configuration.
-- **FR-005**: A successful CI build SHOULD expose its `.apkg` as an inspectable GitHub Actions artifact where practical. If artifact upload is attempted and fails, the CI run MUST fail and report the upload failure.
+- **FR-005**: Every successful CI run MUST upload its generated `.apkg` as an inspectable GitHub Actions artifact. A missing package or failed upload MUST fail the run. The artifact MUST use the repository-configured Actions artifact retention period, with no feature-specific override; documentation MUST state that this temporary artifact is for maintainer inspection.
 - **FR-006**: Pull request and normal main-branch checks MUST NOT create or update a learner-facing release.
 - **FR-007**: Only pushed tags in `vMAJOR.MINOR.PATCH` form, with nonnegative decimal integer components, MUST trigger release publication.
 - **FR-008**: A release run MUST check out the exact tagged revision and pass the same validation, tests, Ruff lint, Ruff formatting, and build checks before publishing.
-- **FR-009**: A successful release run MUST create or update the GitHub Release for its tag and attach the `.apkg` built from that tagged revision.
+- **FR-009**: A successful release run MUST create or update the GitHub Release for its tag and attach the `.apkg` built from that tagged revision. The run MUST record the checked-out commit SHA, and the published asset MUST be byte-for-byte identical to that run's checked package apart from its filename.
 - **FR-010**: The release asset MUST use the stable filename `indonesian-malaysian.apkg` and MUST be directly importable into Anki; the local build path remains `dist/myid-anki.apkg`.
 - **FR-011**: A successful rerun for an existing tag MUST leave exactly one deck asset with the stable filename, containing that rerun's checked build.
 - **FR-012**: A failed release check or build MUST NOT create or replace a release deck asset with an unchecked or incomplete package.
@@ -128,7 +129,7 @@ Maintainers can find check results, inspect artifacts, and create releases. Lear
 ### Measurable Outcomes
 
 - **SC-001**: In acceptance runs, 100% of valid pull request, main-branch, and release-tag revisions complete required checks and produce an importable package; each deliberately introduced validation, test, lint, formatting, or build failure fails its run.
-- **SC-002**: Every successful release acceptance run exposes exactly one stable-named deck download on that version's release page, with contents corresponding to the tagged revision rather than a later main revision.
+- **SC-002**: Every successful release acceptance run exposes exactly one stable-named deck download on that version's release page; the recorded checkout SHA equals the tag's target commit, and the downloaded asset's bytes equal the checked package built in that run rather than a later main-branch build.
 - **SC-003**: A release rerun ends with exactly one stable-named deck asset containing the rerun's checked package.
 - **SC-004**: Across two release revisions, 100% of unchanged permanent concept IDs retain their note GUID, deck and note-model IDs remain unchanged, and re-import creates zero duplicate notes for those IDs under supported Anki update behavior.
 - **SC-005**: In a documentation walkthrough, a maintainer can locate a run artifact and complete a tagged release in under 15 minutes after checks finish; a learner can locate, download, and start importing the latest release on desktop or mobile in under 5 minutes, without undocumented steps.
