@@ -46,7 +46,7 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 - [X] T004 [P] [US1] Configure `.github/workflows/ci.yml` for pull requests and pushes to `main` only, with no release publication step and no write permission.
 - [X] T005 [US1] Add the five existing local commands in order to `.github/workflows/ci.yml`: validation, `pytest`, `ruff check .`, `ruff format --check .`, and deck build; preserve nonzero exit behavior.
 - [X] T006 [US1] Upload `dist/myid-anki.apkg` on every successful CI run as a clearly named artifact in `.github/workflows/ci.yml`; use repository-configured retention and make a missing file or failed upload fail CI.
-- [ ] T007 [US1] Record passing hosted PR and main runs, downloadable artifacts, no-main-release outcome, and isolated controlled failures for validation, tests, Ruff lint, Ruff formatting, build, and missing output in `specs/002-github-deck-releases/validation-results.md`, following `quickstart.md`; record any observed artifact-service upload failure without deliberately disrupting the service.
+- [X] T007 [US1] Record passing hosted PR and main runs, downloadable artifacts, no-main-release outcome, and isolated controlled failures for validation, tests, Ruff lint, Ruff formatting, build, and missing output in `specs/002-github-deck-releases/validation-results.md`, following `quickstart.md`; record any observed artifact-service upload failure without deliberately disrupting the service.
 
 **Checkpoint**: User Story 1 is independently useful as a quality gate and inspectable build, without any Release workflow.
 
@@ -178,8 +178,12 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 ## Phase 8: Convergence
 
-- [ ] T023 After the reviewed feature reaches `main`, record a successful main-push CI run, download its `indonesian-malaysian-ci-apkg` artifact, and confirm the push alone created no GitHub Release in `specs/002-github-deck-releases/validation-results.md` per US1/AC1, US1/AC4, and SC-006 (partial).
+- [X] T023 After the reviewed feature reaches `main`, record a successful main-push CI run, download its `indonesian-malaysian-ci-apkg` artifact, and confirm the push alone created no GitHub Release in `specs/002-github-deck-releases/validation-results.md` per US1/AC1, US1/AC4, and SC-006 (partial).
 - [X] T024 Run isolated hosted CI revisions that each fail vocabulary/media validation, tests, Ruff lint, Ruff formatting, deck generation, and the missing-package upload check; record the failing gate and run URL for each in `specs/002-github-deck-releases/validation-results.md`, and record any naturally observed artifact-service failure without disrupting the service per US1/AC2 and SC-001 (partial).
 - [X] T025 Exercise a malformed tag matching the broad workflow glob and a valid numeric tag on a revision with a failing quality gate; record failed/no-publication results and confirm existing deck assets are untouched in `specs/002-github-deck-releases/validation-results.md`, including any naturally observed draft publication failure per US2/AC4, FR-012, and SC-006 (partial).
 - [X] T026 Compare packages from two immutable tagged revisions with a changed concept field and unchanged permanent ID; record tag and checkout SHAs, package deck/model IDs and note GUIDs, and an update import into an isolated Anki Desktop or official mobile collection with duplicate-note count in `specs/002-github-deck-releases/validation-results.md` per US3/AC1–AC3 and SC-004 (partial).
 - [ ] T027 Follow the README as contributor, maintainer, and learner after main CI succeeds; record undocumented steps, wording fixes, main-CI-to-downloadable-release elapsed time against 15 minutes, and Releases-page-to-import-start elapsed time against 5 minutes in `specs/002-github-deck-releases/validation-results.md` per US4/AC1–AC3 and SC-005 (partial).
+
+## Phase 9: Convergence
+
+- [ ] T028 After the feature PR is approved and merged to `main`, complete the remaining hosted end-to-end acceptance in `specs/002-github-deck-releases/validation-results.md`: verify the main-push CI artifact and absence of a Release, time the README contributor/maintainer/learner walkthroughs against their targets, and download/import a release in Anki Desktop or an official mobile client, including an update import with no duplicate note per US1/AC1, AC3–AC4, US2/AC5, US3/AC3, US4/AC1–AC3, and SC-001, SC-004–SC-006 (partial).
