@@ -41,12 +41,12 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Goal**: Pull requests and main pushes fail for any bad gate and expose a usable package as an inspectable Actions artifact after success.
 
-**Independent Test**: With reviewed nonempty vocabulary, a PR or main run passes all gates and offers a downloadable `.apkg`; controlled validation, test, lint, formatting, build, missing-output, or upload failures produce failed runs. No Release appears from a normal main push.
+**Independent Test**: With reviewed nonempty vocabulary, both PR and main runs pass all gates and offer downloadable `.apkg` artifacts; controlled validation, test, lint, formatting, build, and missing-output failures each produce failed runs. Any observed artifact-service upload failure also fails the run. No Release appears from a normal main push.
 
 - [ ] T004 [P] [US1] Configure `.github/workflows/ci.yml` for pull requests and pushes to `main` only, with no release publication step and no write permission.
 - [ ] T005 [US1] Add the five existing local commands in order to `.github/workflows/ci.yml`: validation, `pytest`, `ruff check .`, `ruff format --check .`, and deck build; preserve nonzero exit behavior.
-- [ ] T006 [US1] Upload `dist/myid-anki.apkg` as a clearly named run artifact in `.github/workflows/ci.yml`; make a missing file or failed attempted upload fail CI.
-- [ ] T007 [US1] Record a passing hosted PR/main run, downloadable artifact, no-main-release outcome, and at least one controlled failing gate in `specs/002-github-deck-releases/validation-results.md`, following `quickstart.md`.
+- [ ] T006 [US1] Upload `dist/myid-anki.apkg` on every successful CI run as a clearly named artifact in `.github/workflows/ci.yml`; use repository-configured retention and make a missing file or failed upload fail CI.
+- [ ] T007 [US1] Record passing hosted PR and main runs, downloadable artifacts, no-main-release outcome, and isolated controlled failures for validation, tests, Ruff lint, Ruff formatting, build, and missing output in `specs/002-github-deck-releases/validation-results.md`, following `quickstart.md`; record any observed artifact-service upload failure without deliberately disrupting the service.
 
 **Checkpoint**: User Story 1 is independently useful as a quality gate and inspectable build, without any Release workflow.
 
@@ -58,12 +58,12 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Independent Test**: With valid reviewed source, push a fresh version tag and compare the Release asset with the tagged revision. A malformed tag or failed gate publishes no new asset; a successful rerun leaves one asset with the stable filename.
 
-- [ ] T008 [P] [US2] Configure `.github/workflows/release.yml` for pushed `v*.*.*` tags and add an exact numeric `vMAJOR.MINOR.PATCH` guard; ensure checkout uses the triggering tag revision, not current `main`.
+- [ ] T008 [P] [US2] Configure `.github/workflows/release.yml` for pushed `v*.*.*` tags and add an exact numeric `vMAJOR.MINOR.PATCH` guard; ensure checkout uses the triggering tag revision, not current `main`, and record the checked-out commit SHA in the run.
 - [ ] T009 [US2] Add the same five documented validation, test, Ruff, formatting, and build commands to the read-only build job in `.github/workflows/release.yml`, stopping publication on any failure.
 - [ ] T010 [US2] Upload `dist/myid-anki.apkg` to a named artifact in the current release workflow run in `.github/workflows/release.yml`, failing for missing output or upload error.
 - [ ] T011 [US2] Add a dependent publication job in `.github/workflows/release.yml` with only job-scoped `contents: write`; download that same run's named artifact, copy it to `indonesian-malaysian.apkg`, and create/update the pushed tag's GitHub Release using the built-in token.
 - [ ] T012 [US2] Configure `.github/workflows/release.yml` so missing release files fail publication and successful reruns replace the stable-named asset without duplicates; keep any prior asset untouched when earlier gates fail.
-- [ ] T013 [US2] Record hosted test-tag, exact-revision provenance, Release creation, single downloadable/importable asset, malformed-tag no-publication, and safe rerun outcomes in `specs/002-github-deck-releases/validation-results.md`, following `quickstart.md`.
+- [ ] T013 [US2] Record the valid tag target SHA, release checkout SHA, same-run package artifact SHA-256, downloaded Release asset SHA-256, Release/run IDs, single downloadable/importable asset, malformed-tag no-publication, failed-gate tag no-publication, and safe rerun outcomes in `specs/002-github-deck-releases/validation-results.md`, following `quickstart.md`.
 
 **Checkpoint**: User Story 2 can publish a learner deck from its own tagged run even if ordinary CI is not used as an artifact source.
 
@@ -88,10 +88,10 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Independent Test**: Follow the README from a clean checkout and an earlier Anki import; locate the CI artifact, create a version tag, find the latest Release, and import its asset without undocumented steps.
 
-- [ ] T016 [P] [US4] Add contributor guidance to `README.md` for automatic PR/main checks, their five gates, failure meaning, and where to inspect/download the Actions artifact, preserving existing local validation/build commands.
+- [ ] T016 [P] [US4] Add contributor guidance to `README.md` for automatic PR/main checks, their five gates, failure meaning, where to inspect/download the temporary Actions artifact, and its repository-configured retention, preserving existing local validation/build commands.
 - [ ] T017 [US4] Add maintainer guidance to `README.md` for confirming reviewed, passing `main`, creating/pushing a `vMAJOR.MINOR.PATCH` tag, and finding the resulting Release asset `indonesian-malaysian.apkg`.
 - [ ] T018 [US4] Add learner guidance to `README.md` for finding the latest GitHub Release, downloading/importing `indonesian-malaysian.apkg` on desktop or mobile, and importing updates into an existing collection with stable concept IDs and client-dependent update behavior.
-- [ ] T019 [US4] Run the README walkthrough in `specs/002-github-deck-releases/quickstart.md` and record contributor/maintainer/learner results and any wording corrections in `specs/002-github-deck-releases/validation-results.md`.
+- [ ] T019 [US4] Run the README walkthrough in `specs/002-github-deck-releases/quickstart.md` and record contributor/maintainer/learner results, any wording corrections, the maintainer elapsed time against the 15-minute target, and the learner elapsed time against the 5-minute target in `specs/002-github-deck-releases/validation-results.md`.
 
 **Checkpoint**: Documentation serves each audience and retains the local path `dist/myid-anki.apkg`.
 
@@ -101,7 +101,7 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Purpose**: Validate the completed configuration and record any acceptance limits.
 
-- [ ] T020 Inspect `.github/workflows/ci.yml` and `.github/workflows/release.yml` with a YAML/workflow syntax checker and focused review of triggers, exact tag guard, five commands, permissions, same-run artifact transfer, missing-file failure, and release filename; record results in `specs/002-github-deck-releases/validation-results.md`.
+- [ ] T020 Inspect `.github/workflows/ci.yml` and `.github/workflows/release.yml` with a YAML/workflow syntax checker and focused review of triggers, exact tag guard, five commands, permissions, mandatory artifact upload with repository-configured retention, same-run artifact transfer, missing-file failure, checkout SHA recording, and release filename; record results in `specs/002-github-deck-releases/validation-results.md`.
 - [ ] T021 Run `pytest`, `ruff check .`, and `ruff format --check .`; run `python -m indo_malay_anki validate` and `python -m indo_malay_anki build` when reviewed nonempty source is available, and record pass/fail or the header-only prerequisite in `specs/002-github-deck-releases/validation-results.md`.
 - [ ] T022 Review `specs/002-github-deck-releases/spec.md`, `contracts/workflow-distribution.md`, `.github/workflows/ci.yml`, `.github/workflows/release.yml`, and `README.md` for matching local/artifact/release filenames, least-privilege permissions, explicit exclusions, and no tag input to Anki identity; record unresolved deviations in `specs/002-github-deck-releases/validation-results.md`.
 
