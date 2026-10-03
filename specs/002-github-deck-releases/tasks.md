@@ -88,9 +88,9 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Independent Test**: Follow the README from a clean checkout and an earlier Anki import; locate the CI artifact, create a version tag, find the latest Release, and import its asset without undocumented steps.
 
-- [ ] T016 [P] [US4] Add contributor guidance to `README.md` for automatic PR/main checks, their five gates, failure meaning, where to inspect/download the temporary Actions artifact, and its repository-configured retention, preserving existing local validation/build commands.
-- [ ] T017 [US4] Add maintainer guidance to `README.md` for confirming reviewed, passing `main`, creating/pushing a `vMAJOR.MINOR.PATCH` tag, and finding the resulting Release asset `indonesian-malaysian.apkg`.
-- [ ] T018 [US4] Add learner guidance to `README.md` for finding the latest GitHub Release, downloading/importing `indonesian-malaysian.apkg` on desktop or mobile, and importing updates into an existing collection with stable concept IDs and client-dependent update behavior.
+- [X] T016 [P] [US4] Add contributor guidance to `README.md` for automatic PR/main checks, their five gates, failure meaning, where to inspect/download the temporary Actions artifact, and its repository-configured retention, preserving existing local validation/build commands.
+- [X] T017 [US4] Add maintainer guidance to `README.md` for confirming reviewed, passing `main`, creating/pushing a `vMAJOR.MINOR.PATCH` tag, and finding the resulting Release asset `indonesian-malaysian.apkg`.
+- [X] T018 [US4] Add learner guidance to `README.md` for finding the latest GitHub Release, downloading/importing `indonesian-malaysian.apkg` on desktop or mobile, and importing updates into an existing collection with stable concept IDs and client-dependent update behavior.
 - [ ] T019 [US4] Run the README walkthrough in `specs/002-github-deck-releases/quickstart.md` and record contributor/maintainer/learner results, wording corrections, time from successful main CI to downloadable tagged asset against 15 minutes, and time from opening Releases to starting import against 5 minutes in `specs/002-github-deck-releases/validation-results.md`.
 
 **Checkpoint**: Documentation serves each audience and retains the local path `dist/myid-anki.apkg`.

@@ -165,3 +165,48 @@ also be recorded after importing and studying text-cue and image-cue cards offli
 and one official mobile Anki client. See
 [`specs/001-build-anki-deck/quickstart.md`](specs/001-build-anki-deck/quickstart.md) for the
 acceptance procedure.
+
+## GitHub checks for contributors
+
+Pull requests and pushes to `main` automatically install the project's Python 3.12 development
+dependencies, validate vocabulary and media, run `pytest`, check Ruff lint and formatting, and build
+the deck with the same commands used above. A failure in any step, a missing package, or a failed
+artifact upload fails CI. The checked-in vocabulary currently contains only the header, so a green
+run first requires at least one maintainer-reviewed concept; do not add placeholder vocabulary to
+make CI pass. Normal pushes to `main` do not create a GitHub Release.
+
+After a successful run, open the repository's **Actions** tab, select the **CI** workflow and the
+run, then download `indonesian-malaysian-ci-apkg` from its **Artifacts** section. Extract the
+downloaded archive to inspect `myid-anki.apkg`. This temporary artifact is for maintainers and
+expires according to the repository's configured Actions artifact retention period. Learners should
+use GitHub Releases instead.
+
+## Create a release for maintainers
+
+1. Ensure `main` contains reviewed vocabulary and its CI run is passing. Check that your local
+   checkout is clean and at the revision you intend to release.
+2. Create a new numeric `vMAJOR.MINOR.PATCH` tag, for example `git tag v0.1.0`, then push it with
+   `git push origin v0.1.0`. Do not move an existing release tag.
+3. Open **Actions → Release deck** and check that validation, tests, Ruff checks, and the build pass
+   for the tagged revision. The workflow records its checked-out commit SHA.
+4. Open the matching entry under **Releases**. The workflow creates or updates it only after the
+   checked package has been uploaded as `indonesian-malaysian.apkg`. A failed publication remains
+   a draft for a later rerun.
+
+The release workflow uses the package built in that tag's run, not an artifact from an earlier CI
+run. It uses GitHub's built-in workflow token; no repository release secret is needed. Only the
+publication job can write Releases.
+
+## Download and update the deck for learners
+
+Open the [latest GitHub Release](https://github.com/cakson/myid-anki/releases/latest) and download
+`indonesian-malaysian.apkg` from **Assets**. On desktop, open the downloaded file with Anki or use
+**File → Import**. On a phone, download the file and open/share it with your Anki client. The
+filename is ready to import as downloaded.
+
+To update an existing deck, import the newer release into the **same Anki collection**. Permanent
+concept IDs keep the note GUID, deck ID, and note-model ID stable across releases, so matching
+notes can be updated rather than duplicated where the client's import behavior supports updates.
+Follow any import options shown by your client; prompts may differ between desktop and mobile.
+Notes omitted from a newer package are not automatically deleted from your collection. GitHub
+release version numbers do not change Anki note identity or synchronize anyone's collection.
