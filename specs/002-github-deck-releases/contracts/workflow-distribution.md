@@ -26,7 +26,7 @@ The environment uses Python 3.12 and the project's editable dev dependency set. 
 | Output | Filename / location | Consumer |
 |---|---|---|
 | Local build | `dist/myid-anki.apkg` | Contributor, artifact upload |
-| Ordinary CI artifact | Clearly named Actions run artifact containing `myid-anki.apkg`; repository-configured retention | Maintainer inspection |
+| Ordinary CI artifact | `indonesian-malaysian-ci-apkg` Actions run artifact containing `myid-anki.apkg`; repository-configured retention | Maintainer inspection |
 | Release transfer artifact | Named artifact from the same release workflow run containing `myid-anki.apkg` | Release publication job |
 | GitHub Release asset | `indonesian-malaysian.apkg` on the pushed tag's Release | Learner |
 

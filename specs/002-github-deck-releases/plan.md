@@ -97,7 +97,7 @@ See [research.md](research.md) for current GitHub behavior and alternatives. The
 
 See [data-model.md](data-model.md), [contracts/workflow-distribution.md](contracts/workflow-distribution.md), and [quickstart.md](quickstart.md).
 
-- CI: checkout, set up Python 3.12 with simple pip caching, install `-e .[dev]`, execute the five existing commands in order, and upload `dist/myid-anki.apkg` on every successful run with a clear artifact name and missing-file failure. Use repository-configured artifact retention.
+- CI: checkout, set up Python 3.12 with simple pip caching, install `-e .[dev]`, execute the five existing commands in order, and upload `dist/myid-anki.apkg` on every successful run as `indonesian-malaysian-ci-apkg` with missing-file failure. Use repository-configured artifact retention.
 - Release build job: tag checkout, strict tag-name guard, record the checked-out commit SHA, run the same environment and five commands, then upload the package to this run for transfer. Keep `contents: read`.
 - Release publication job: depend on successful build; download only this run's named artifact and copy it to `indonesian-malaysian.apkg`. Use GitHub CLI with the built-in token to create a new release with its asset through GitHub CLI's draft-upload-publish flow. For an existing release, move it to draft before replacing the asset and republish only after the replacement exists. Scope `contents: write` only to this job. A failed upload leaves the release draft and the workflow failed; a successful rerun restores one stable-named asset.
 - Documentation: retain local commands and output path, add CI artifact location, tag push/release steps, latest-release download, and Anki update guidance with identity limits.

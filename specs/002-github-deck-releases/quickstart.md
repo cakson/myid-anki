@@ -30,7 +30,7 @@ Inspect `.github/workflows/ci.yml` and `.github/workflows/release.yml` using a Y
 1. CI triggers are pull requests and pushes to `main`; release publication triggers only version-style tag pushes.
 2. Both workflows use Python 3.12, install the existing dev dependencies, and run the five commands shown above.
 3. CI and release build jobs are read-only. Only the release publication job can write release content.
-4. Every successful CI run uploads the generated local package, uses repository-configured artifact retention, and fails for a missing file or attempted upload failure.
+4. Every successful CI run uploads the generated local package as `indonesian-malaysian-ci-apkg`, uses repository-configured artifact retention, and fails for a missing file or attempted upload failure.
 5. The release job uses the tagged revision and publishes `indonesian-malaysian.apkg` from the package built in the same workflow run.
 6. Publication keeps a new or updated release in draft until the checked asset is present; failed publication cannot leave an assetless completed release.
 7. Existing identity tests still pass; no release tag enters the Python identity code.
@@ -39,7 +39,7 @@ Avoid a local emulator that claims to reproduce GitHub's permissions, artifacts,
 
 ## Hosted CI acceptance
 
-1. Open a pull request with valid reviewed inputs. Confirm the CI run passes and offers a clearly named artifact containing the generated `.apkg`.
+1. Open a pull request with valid reviewed inputs. Confirm the CI run passes and offers the `indonesian-malaysian-ci-apkg` artifact containing the generated `.apkg`.
 2. Download the artifact and confirm its package opens in Anki. Record the repository-configured artifact retention setting. Check that a main push produces a CI artifact but no new Release.
 3. In isolated test branches or PRs, introduce one controlled failure for each gate: source/media validation, tests, Ruff lint, Ruff formatting, and deck generation. Record the failing run and gate for each, then restore valid inputs. Separately confirm a missing package makes artifact upload fail. If the artifact service itself fails, record that the run fails; do not intentionally disrupt the service.
 
