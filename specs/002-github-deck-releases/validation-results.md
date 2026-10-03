@@ -61,6 +61,10 @@ exclusions.
   Its archive passed `unzip -t`. GitHub reported it unexpired with a 90-day repository retention
   setting and expiry `2027-01-01T03:22:07Z`. The corrected branch passed PR CI again in
   [run 37093321370](https://github.com/cakson/myid-anki/actions/runs/37093321370).
+- The updated draft PR head `aa500f61deaeba3e1d16b9c5e8f8f9b1acd852b3` passed in
+  [run 37095489300](https://github.com/cakson/myid-anki/actions/runs/37095489300). Its
+  `indonesian-malaysian-ci-apkg` artifact downloaded and passed `unzip -t`; the contained package
+  SHA-256 was `b6c648e5b179397664ee42a942b59c97ce389d97fffd76176eb517df62b0a09d`.
 - Pushed `v0.1.0` at the first passing PR commit. Its
   [release run 37093126919](https://github.com/cakson/myid-anki/actions/runs/37093126919)
   passed build and artifact transfer but failed publication: GitHub CLI had no repository context
