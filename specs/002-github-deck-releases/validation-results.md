@@ -54,6 +54,29 @@ exclusions.
 
 ## Hosted CI and Release evidence
 
+### Main-branch acceptance (T007/T023)
+
+PR #1 was merged at `2026-10-03T04:20:13Z` as main commit
+`41304fd0968680ff427afc6021c8332e017e60b0`. Main-push
+[CI run 37096199939](https://github.com/cakson/myid-anki/actions/runs/37096199939) passed at
+`2026-10-03T04:20:34Z`. Its `indonesian-malaysian-ci-apkg` artifact downloaded successfully and
+passed `unzip -t`; the package SHA-256 was
+`61ea55186890710f8151802e407102b23b9542243ca3b8f3fb305b5bbb1a723d`. At that point the Releases
+list contained only `v0.1.1`, confirming the ordinary main push created no Release.
+
+The maintainer README steps produced [v0.2.0](https://github.com/cakson/myid-anki/releases/tag/v0.2.0)
+from that exact main revision. Main CI completed at 04:20:34 UTC; the release asset was published
+at 04:26:07 UTC, **5 minutes 33 seconds** later (within the 15-minute target). Release run
+[37096494140](https://github.com/cakson/myid-anki/actions/runs/37096494140) checked out SHA
+`41304fd0968680ff427afc6021c8332e017e60b0`, matching the tag target. GitHub Release ID was
+`RE_kwDOU3a7lc4X-v21`. The sole `indonesian-malaysian.apkg` asset matched the same-run build
+artifact byte-for-byte at SHA-256
+`d36cfca0b772ff2d6d8d9aa5e321c1a7e263b3b7d72d49d8eff81daff0470022`; it also passed `unzip -t`.
+
+The learner path was opened at 04:31:36 UTC, but Anki Desktop was already running with the default
+profile, and the isolated graphical import could not be confirmed. No learner elapsed time or GUI
+import success is claimed. The maintainer was asked to confirm the package import in Anki Desktop.
+
 - Draft [PR #1](https://github.com/cakson/myid-anki/pull/1) passed CI at commit
   `bb640f4d60f9203731674116c45f807699183b89` in
   [run 37092963340](https://github.com/cakson/myid-anki/actions/runs/37092963340). The named
@@ -160,10 +183,11 @@ Hosted main-branch and end-to-end walkthrough items remain open:
 
 | Task | Evidence needed |
 |---|---|
-| T007 | A main push and no-main-release observation. All six isolated failure gates are now recorded above. No artifact-service outage was observed. |
-| T019 | Walk through contributor, maintainer, and learner README steps; record corrections and the 15-minute main-CI-to-release and 5-minute Releases-to-import timings. |
-| T023 | Feature PR must reach `main`; record its successful main push CI, download the artifact, and confirm the push did not create a Release. |
-| T027 | Full README walkthrough and timing require the feature on `main`; graphical desktop/mobile acceptance remains outstanding. |
+| T007 | Complete: main push CI passed, its artifact downloaded and validated, and no Release was created by the push. All six isolated failure gates are recorded above. No artifact-service outage was observed. |
+| T019 | Walk through contributor and learner README steps; record wording corrections and the 5-minute Releases-to-import timing. Maintainer timing passed at 5 minutes 33 seconds. |
+| T023 | Complete: main CI passed, the artifact downloaded and validated, and the main push created no Release. |
+| T027 | Complete the contributor, maintainer, and learner README walkthrough, including learner timing and graphical import confirmation. |
+| T028 | Confirm learner import and update behavior in Anki Desktop or an official mobile client; main CI, artifact, no-main-release, and maintainer timing are now recorded above. |
 
 Follow [quickstart.md](quickstart.md) for the remaining hosted checks and graphical import. Do not
 mark incomplete tasks complete from static inspection alone.
