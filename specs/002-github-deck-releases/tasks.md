@@ -22,7 +22,7 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Purpose**: Establish the workflow directory without changing Python application logic.
 
-- [ ] T001 Create the `.github/workflows/` directory; create each workflow file only in the user story that delivers it.
+- [X] T001 Create the `.github/workflows/` directory; create each workflow file only in the user story that delivers it.
 
 ---
 
@@ -30,8 +30,8 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Purpose**: Establish a read-only CI base using the existing project environment; the release story will follow the same setup.
 
-- [ ] T002 Create `.github/workflows/ci.yml` with a named check job and explicit `contents: read` permissions; leave event and gate configuration to User Story 1.
-- [ ] T003 Add checkout, Python 3.12 setup, simple pip dependency caching, and `python -m pip install -e '.[dev]'` to the check job in `.github/workflows/ci.yml` using the existing `pyproject.toml` dependency set.
+- [X] T002 Create `.github/workflows/ci.yml` with a named check job and explicit `contents: read` permissions; leave event and gate configuration to User Story 1.
+- [X] T003 Add checkout, Python 3.12 setup, simple pip dependency caching, and `python -m pip install -e '.[dev]'` to the check job in `.github/workflows/ci.yml` using the existing `pyproject.toml` dependency set.
 
 **Checkpoint**: CI has a supported read-only environment; no release workflow, vocabulary, media, model, or builder change has been made.
 
@@ -43,9 +43,9 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Independent Test**: With reviewed nonempty vocabulary, both PR and main runs pass all gates and offer downloadable `.apkg` artifacts; controlled validation, test, lint, formatting, build, and missing-output failures each produce failed runs. Any observed artifact-service upload failure also fails the run. No Release appears from a normal main push.
 
-- [ ] T004 [P] [US1] Configure `.github/workflows/ci.yml` for pull requests and pushes to `main` only, with no release publication step and no write permission.
-- [ ] T005 [US1] Add the five existing local commands in order to `.github/workflows/ci.yml`: validation, `pytest`, `ruff check .`, `ruff format --check .`, and deck build; preserve nonzero exit behavior.
-- [ ] T006 [US1] Upload `dist/myid-anki.apkg` on every successful CI run as a clearly named artifact in `.github/workflows/ci.yml`; use repository-configured retention and make a missing file or failed upload fail CI.
+- [X] T004 [P] [US1] Configure `.github/workflows/ci.yml` for pull requests and pushes to `main` only, with no release publication step and no write permission.
+- [X] T005 [US1] Add the five existing local commands in order to `.github/workflows/ci.yml`: validation, `pytest`, `ruff check .`, `ruff format --check .`, and deck build; preserve nonzero exit behavior.
+- [X] T006 [US1] Upload `dist/myid-anki.apkg` on every successful CI run as a clearly named artifact in `.github/workflows/ci.yml`; use repository-configured retention and make a missing file or failed upload fail CI.
 - [ ] T007 [US1] Record passing hosted PR and main runs, downloadable artifacts, no-main-release outcome, and isolated controlled failures for validation, tests, Ruff lint, Ruff formatting, build, and missing output in `specs/002-github-deck-releases/validation-results.md`, following `quickstart.md`; record any observed artifact-service upload failure without deliberately disrupting the service.
 
 **Checkpoint**: User Story 1 is independently useful as a quality gate and inspectable build, without any Release workflow.
