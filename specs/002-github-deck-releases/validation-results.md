@@ -73,9 +73,13 @@ at 04:26:07 UTC, **5 minutes 33 seconds** later (within the 15-minute target). R
 artifact byte-for-byte at SHA-256
 `d36cfca0b772ff2d6d8d9aa5e321c1a7e263b3b7d72d49d8eff81daff0470022`; it also passed `unzip -t`.
 
-The learner path was opened at 04:31:36 UTC, but Anki Desktop was already running with the default
-profile, and the isolated graphical import could not be confirmed. No learner elapsed time or GUI
-import success is claimed. The maintainer was asked to confirm the package import in Anki Desktop.
+The maintainer completed the learner import walkthrough in Anki Desktop 26.09.3. Starting from the
+[latest Releases page](https://github.com/cakson/myid-anki/releases/latest), the path to starting
+the import took approximately **2 minutes**, within the 5-minute target. Importing `v0.1.1` added
+one card; importing latest `v0.2.0` into the same collection completed with one note and one card
+and no duplicate. The end-user documentation is the repository-root README section “Download and
+update the deck for learners.” The maintainer asked which page and README to use; I provided those
+direct links. No README wording change was requested.
 
 - Draft [PR #1](https://github.com/cakson/myid-anki/pull/1) passed CI at commit
   `bb640f4d60f9203731674116c45f807699183b89` in
@@ -177,17 +181,17 @@ remained `1791000283011`. The final collection had one note and one card, so the
 duplicate notes. This used the same Anki backend as Desktop, but not its graphical UI or a mobile
 client.
 
-## Remaining acceptance tasks
+## Acceptance task status
 
-Hosted main-branch and end-to-end walkthrough items remain open:
+All hosted and manual acceptance tasks are now complete:
 
 | Task | Evidence needed |
 |---|---|
 | T007 | Complete: main push CI passed, its artifact downloaded and validated, and no Release was created by the push. All six isolated failure gates are recorded above. No artifact-service outage was observed. |
-| T019 | Walk through contributor and learner README steps; record wording corrections and the 5-minute Releases-to-import timing. Maintainer timing passed at 5 minutes 33 seconds. |
+| T019 | Complete: contributor, maintainer, and learner README paths were followed; maintainer release timing was 5:33 and learner import-start timing was approximately 2:00. |
 | T023 | Complete: main CI passed, the artifact downloaded and validated, and the main push created no Release. |
-| T027 | Complete the contributor, maintainer, and learner README walkthrough, including learner timing and graphical import confirmation. |
-| T028 | Confirm learner import and update behavior in Anki Desktop or an official mobile client; main CI, artifact, no-main-release, and maintainer timing are now recorded above. |
+| T027 | Complete: contributor, maintainer, and learner walkthroughs had no undocumented steps after clarifying the root README learner section. Both timing targets passed. |
+| T028 | Complete: the downloaded releases imported in Anki Desktop 26.09.3; the second import left one note and one card with no duplicate. |
 
-Follow [quickstart.md](quickstart.md) for the remaining hosted checks and graphical import. Do not
-mark incomplete tasks complete from static inspection alone.
+The acceptance steps are documented in [quickstart.md](quickstart.md). The Release asset used the
+same-run package from the tagged main revision, and Anki identity checks are recorded above.
