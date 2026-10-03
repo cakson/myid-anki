@@ -18,11 +18,11 @@
 
 ## Permissions and release publication
 
-**Decision**: Give CI and the release build job `contents: read`. Give only the dependent release publication job `contents: write`. Use the built-in `GITHUB_TOKEN` and a release action that creates/updates the tag's release, overwrites the stable filename, and fails on unmatched asset paths.
+**Decision**: Give CI and the release build job `contents: read`. Give only the dependent release publication job `contents: write`. Use GitHub CLI with the built-in `GITHUB_TOKEN`: create a new release with its asset through the CLI's draft-upload-publish sequence; for an existing release, move it to draft before replacing the asset, then publish only after the replacement is present.
 
-**Rationale**: GitHub supports job-scoped permissions; `contents: write` covers release creation while unspecified permissions can remain disabled. The release action supports an explicit file path, asset overwrite, and missing-file failure. [Workflow permissions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax), [release action options](https://github.com/softprops/action-gh-release#-customizing).
+**Rationale**: GitHub supports job-scoped permissions; `contents: write` covers release creation while unspecified permissions can remain disabled. GitHub CLI documents that creating a release with an asset first creates a draft, uploads the asset, and only then publishes it. Its upload command warns that `--clobber` deletes the old asset before uploading the new one, so an existing release is drafted before replacement to avoid leaving an assetless published release after failure. [Workflow permissions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax), [release creation](https://cli.github.com/manual/gh_release_create), [release editing](https://cli.github.com/manual/gh_release_edit), [asset replacement](https://cli.github.com/manual/gh_release_upload).
 
-**Alternatives considered**: Workflow-wide write permission gives build steps excess access. A personal access token introduces a secret without need. A custom API script adds code for existing release functionality.
+**Alternatives considered**: Workflow-wide write permission gives build steps excess access. A personal access token introduces a secret without need. A one-step release action or `gh release upload --clobber` on a published release can expose an empty release if replacement fails. A custom API script adds code for existing release functionality.
 
 ## Artifact transport and names
 

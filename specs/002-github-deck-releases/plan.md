@@ -91,6 +91,7 @@ See [research.md](research.md) for current GitHub behavior and alternatives. The
 4. Transfer the release build with a same-run artifact, never with an artifact from an unrelated CI run.
 5. Treat attempted artifact upload failure as a failed run, as clarified in the spec.
 6. Upload an artifact on every successful CI run and use the repository-configured Actions retention period; do not set a feature-specific duration. Keep the Release asset as the durable learner download.
+7. Publish through a draft state. A newly created release is drafted while its asset uploads; an existing release is moved to draft before replacement. Mark the release published only after the checked asset is present, so an upload failure cannot leave an assetless completed release.
 
 ## Phase 1: Design
 
@@ -98,9 +99,9 @@ See [data-model.md](data-model.md), [contracts/workflow-distribution.md](contrac
 
 - CI: checkout, set up Python 3.12 with simple pip caching, install `-e .[dev]`, execute the five existing commands in order, and upload `dist/myid-anki.apkg` on every successful run with a clear artifact name and missing-file failure. Use repository-configured artifact retention.
 - Release build job: tag checkout, strict tag-name guard, record the checked-out commit SHA, run the same environment and five commands, then upload the package to this run for transfer. Keep `contents: read`.
-- Release publication job: depend on successful build; download only this run's named artifact; copy to `indonesian-malaysian.apkg`; create/update the release for the triggering tag and overwrite that filename. Scope `contents: write` only to this job. Fail for missing package or publication errors.
+- Release publication job: depend on successful build; download only this run's named artifact and copy it to `indonesian-malaysian.apkg`. Use GitHub CLI with the built-in token to create a new release with its asset through GitHub CLI's draft-upload-publish flow. For an existing release, move it to draft before replacing the asset and republish only after the replacement exists. Scope `contents: write` only to this job. A failed upload leaves the release draft and the workflow failed; a successful rerun restores one stable-named asset.
 - Documentation: retain local commands and output path, add CI artifact location, tag push/release steps, latest-release download, and Anki update guidance with identity limits.
-- Verification: inspect workflow syntax and trigger/permission/asset fields using a lightweight parser or targeted checks; reuse existing integration tests for identity. Do not emulate GitHub Actions. Hosted acceptance covers passing PR and main runs, controlled failures in every quality gate, a missing artifact, a failed tagged gate, a test tag, Release asset byte comparison with that run's package, and Anki import. Record the tag target and checkout SHAs. Record the maintainer and learner walkthrough times against SC-005.
+- Verification: inspect workflow syntax and trigger/permission/asset fields using a lightweight parser or targeted checks; reuse existing integration tests for identity. Do not emulate GitHub Actions. Hosted acceptance covers passing PR and main runs, controlled failures in every quality gate, a missing artifact, a failed tagged gate, a test tag, Release asset byte comparison with that run's package, and Anki import. Inspect the draft-to-published publication sequence and record any failed publication as a failed workflow with an unpublished draft. Record the tag target and checkout SHAs. Time the maintainer walkthrough from successful main CI on the intended revision to a downloadable tagged asset, and the learner walkthrough from opening Releases to starting import.
 
 ## Implementation Risks and Prerequisites
 

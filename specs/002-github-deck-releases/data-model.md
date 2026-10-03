@@ -31,7 +31,7 @@ This feature adds no application database or vocabulary schema. It defines relat
 
 - **Attributes**: Version tag, release page, one deck asset named `indonesian-malaysian.apkg`.
 - **Relationship**: The release asset is a renamed copy of the checked package from the same tagged run.
-- **Transition**: Absent → created after all gates pass; existing → updated on successful rerun. Failed gates leave any existing deck asset untouched. Successful rerun leaves one asset under the stable filename.
+- **Transition**: Absent → draft after all gates pass → published only after checked asset upload. Existing published release → draft before asset replacement → published with one stable-named asset after successful upload. Failed checks leave any existing deck asset untouched; failed publication leaves a draft pending retry rather than an assetless completed release.
 
 ## Permanent Concept ID and Anki Identity
 

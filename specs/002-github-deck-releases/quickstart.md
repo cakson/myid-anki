@@ -32,7 +32,8 @@ Inspect `.github/workflows/ci.yml` and `.github/workflows/release.yml` using a Y
 3. CI and release build jobs are read-only. Only the release publication job can write release content.
 4. Every successful CI run uploads the generated local package, uses repository-configured artifact retention, and fails for a missing file or attempted upload failure.
 5. The release job uses the tagged revision and publishes `indonesian-malaysian.apkg` from the package built in the same workflow run.
-6. Existing identity tests still pass; no release tag enters the Python identity code.
+6. Publication keeps a new or updated release in draft until the checked asset is present; failed publication cannot leave an assetless completed release.
+7. Existing identity tests still pass; no release tag enters the Python identity code.
 
 Avoid a local emulator that claims to reproduce GitHub's permissions, artifacts, and Releases.
 
@@ -51,9 +52,10 @@ Avoid a local emulator that claims to reproduce GitHub's permissions, artifacts,
 5. Download the checked package artifact from that same release run and compare its SHA-256 digest with the downloaded Release asset; they must match byte-for-byte after the filename change. Record both digests and the run ID. Confirm stable concept, note, deck, and model identities with existing integration tests or package inspection.
 6. Push a separate test tag at a revision with one deliberately failing quality gate and confirm it creates no new or replacement deck asset. Restore valid inputs for later tests.
 7. Rerun the workflow for the same valid tag if safe in the test repository and confirm it updates the single stable-named asset without duplicates.
+8. Inspect the publication sequence for new and existing releases. If an asset upload failure occurs during acceptance, record that the workflow fails and the release remains draft rather than appearing as an assetless completed release; do not intentionally disrupt GitHub's asset service.
 
 ## Documentation walkthrough timing
 
-Record the elapsed time from checks finishing until a maintainer completes the documented release steps; the target is under 15 minutes. Separately record the time for a learner to locate the latest Release, download its asset, and start import on desktop or mobile; the target is under 5 minutes. Note any undocumented steps encountered.
+Start the maintainer timer when main-branch CI succeeds for the intended revision; stop when that revision's tagged Release asset is visible and downloadable. The target is under 15 minutes. Start the learner timer when they open the repository's Releases page; stop when they start importing the latest asset on desktop or mobile. The target is under 5 minutes. Record both elapsed times and any undocumented steps.
 
 The [workflow contract](contracts/workflow-distribution.md) defines event and output expectations; [data-model.md](data-model.md) defines the identity and lifecycle relationships.
