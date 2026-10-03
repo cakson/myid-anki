@@ -92,8 +92,7 @@ id	english	indonesian	malaysian	image	tags
 Each data row is one semantic concept. `id`, `english`, `indonesian`, and `malaysian` are required;
 `image` and `tags` may be empty. Tags are whitespace-separated Anki tags. Vocabulary must be
 reviewed and entered by maintainers; the build never translates, generates, normalizes, or repairs
-language content. The checked-in source starts with only its header so no unreviewed vocabulary is
-introduced.
+language content. The checked-in `car` example was approved as the first reviewed concept.
 
 To add a concept, append one TSV row with a new six-digit ASCII ID and its reviewed values. Keep IDs
 as text, including leading zeroes (for example, `000001`). An ID is permanent: do not change or reuse it when correcting a
@@ -171,9 +170,8 @@ acceptance procedure.
 Pull requests and pushes to `main` automatically install the project's Python 3.12 development
 dependencies, validate vocabulary and media, run `pytest`, check Ruff lint and formatting, and build
 the deck with the same commands used above. A failure in any step, a missing package, or a failed
-artifact upload fails CI. The checked-in vocabulary currently contains only the header, so a green
-run first requires at least one maintainer-reviewed concept; do not add placeholder vocabulary to
-make CI pass. Normal pushes to `main` do not create a GitHub Release.
+artifact upload fails CI. A header-only vocabulary file fails validation; do not add placeholder
+vocabulary to make CI pass. Normal pushes to `main` do not create a GitHub Release.
 
 After a successful run, open the repository's **Actions** tab, select the **CI** workflow and the
 run, then download `indonesian-malaysian-ci-apkg` from its **Artifacts** section. Extract the

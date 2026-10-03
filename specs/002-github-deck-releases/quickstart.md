@@ -5,7 +5,7 @@ This is an acceptance guide for the implementation. It does not create vocabular
 ## Prerequisites
 
 - Have a GitHub repository with Actions enabled and settings that allow the built-in workflow token to create Releases.
-- Commit at least one maintainer-reviewed vocabulary concept before expecting a green validation/build. The current header-only source is rejected by design.
+- Commit at least one maintainer-reviewed vocabulary concept before expecting a green validation/build. The approved `car` example now satisfies this prerequisite; a header-only source remains rejected by design.
 - Use a test tag that has not been published, and coordinate its version with maintainers. Do not move an existing tag.
 - Have Anki Desktop or an official mobile Anki client available for import acceptance.
 

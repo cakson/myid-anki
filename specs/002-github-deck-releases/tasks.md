@@ -10,7 +10,7 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 **Tests**: Existing project tests remain required gates. Add only a focused tag-independence regression test; use workflow syntax/configuration validation and hosted acceptance instead of a local GitHub Actions emulator.
 
-**Organization**: Tasks are grouped by the four user stories in the specification. Every hosted acceptance task requires at least one maintainer-reviewed concept in `data/vocabulary.tsv`; the current header-only file intentionally fails validation.
+**Organization**: Tasks are grouped by the four user stories in the specification. Every hosted acceptance task requires at least one maintainer-reviewed concept in `data/vocabulary.tsv`; the approved `car` example now satisfies this source prerequisite.
 
 ## Format: `[ID] [P?] [Story] Description`
 
@@ -172,6 +172,6 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 
 ## Notes
 
-- The source currently contains only a TSV header. T007, T013, T015, and T019 require maintainer-reviewed nonempty data; no task authorizes invented vocabulary.
+- T007, T013, T015, and T019 require hosted GitHub and Anki acceptance. The maintainer-approved `car` example satisfies the nonempty-data prerequisite; no task authorizes invented vocabulary.
 - The custom `checklists/ci-release.md` is reviewer-owned and its unchecked items do not mean implementation tasks are complete or incomplete.
 - Commit messages for implementation must follow the constitution's Conventional Commits rule.

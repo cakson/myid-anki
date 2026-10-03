@@ -12,12 +12,17 @@ dependency.
 |---|---|
 | `pytest` | Pass: 77 tests, including release-tag identity regression |
 | `ruff check .` | Pass |
-| `ruff format --check .` | Pass: 49 files already formatted |
-| `python -m indo_malay_anki validate` | Expected failure: source has only a header; at least one concept is required |
-| `python -m indo_malay_anki build` | Expected failure at the same validation gate; no package produced |
+| `ruff format --check .` | Pass: 50 files already formatted |
+| `python -m indo_malay_anki validate` | Pass: 1 reviewed concept, 0 media files |
+| `python -m indo_malay_anki build` | Pass: `dist/myid-anki.apkg`, 1 note and 1 card |
+| `unzip -t dist/myid-anki.apkg` | Pass: Anki collection and media archive entries intact |
 
-No placeholder vocabulary was added. A maintainer-reviewed nonempty source is required before CI
-or release acceptance can produce a green run.
+Before the maintainer approved the README's `car` example, both validation and build correctly
+failed on the header-only source with "At least one vocabulary concept is required." The approved
+row is now checked in; no invented placeholder vocabulary was added. The local package SHA-256 was
+`f76a585ac46b1b1d15aa91b8b4e64b2748d98617e95eb40e16bdabaed686a48a` for this build. The
+package may have different bytes on another build because note modification times advance; Anki
+identities remain stable.
 
 ## Workflow configuration review
 
@@ -48,9 +53,8 @@ Static review found no deviation from the specified permissions, output names, o
 
 ## Hosted and Anki acceptance still required
 
-The repository's vocabulary file has no reviewed concepts, so a hosted green PR/main run and a
-successful tagged release would currently fail validation by design. No tag was pushed and no
-Release was created during this local implementation. The following tasks remain unverified:
+The approved source now passes local validation and build. Hosted runs, downloaded artifacts, and
+Anki imports still need direct evidence. The following tasks remain unverified:
 
 | Task | Evidence needed |
 |---|---|
@@ -59,6 +63,5 @@ Release was created during this local implementation. The following tasks remain
 | T015 | Two-package update import in an Anki client, client/version, identity comparison, and duplicate-note count |
 | T019 | README walkthrough with contributor, maintainer, and learner observations and the specified 15-minute and 5-minute timings |
 
-Follow [quickstart.md](quickstart.md) after reviewed vocabulary is committed and GitHub Actions,
-Releases, and an Anki client are available. Do not mark these hosted tasks complete from static
-inspection alone.
+Follow [quickstart.md](quickstart.md) with GitHub Actions, Releases, and an Anki client. Do not mark
+these hosted tasks complete from static inspection alone.

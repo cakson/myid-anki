@@ -105,6 +105,6 @@ See [data-model.md](data-model.md), [contracts/workflow-distribution.md](contrac
 
 ## Implementation Risks and Prerequisites
 
-- The checked-in vocabulary currently has only its header. Existing validation intentionally rejects zero concepts. A real CI success and test release require a maintainer-reviewed concept committed before acceptance; do not add invented vocabulary to make automation green.
+- Existing validation intentionally rejects zero concepts. A maintainer-approved `car` example is now the first checked-in concept. Real CI and release acceptance still require hosted runs; do not add invented vocabulary to make automation green.
 - GitHub repository settings must allow Actions and release creation with the built-in token. This is a repository configuration prerequisite, not a new secret.
 - The first remote acceptance run is needed to prove GitHub event filters, artifact transfer, and release publication. Local checks can validate configuration and package identity but cannot prove hosted-service behavior.

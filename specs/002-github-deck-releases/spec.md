@@ -143,5 +143,5 @@ Maintainers can find check results, inspect artifacts, and create releases. Lear
 - The repository is hosted on GitHub; maintainers can push tags and access Actions and Releases.
 - GitHub's built-in workflow token and artifact service are available, subject to repository settings that permit workflow release creation.
 - Release tags identify reviewed, immutable revisions. Moving an existing tag is outside the normal maintainer workflow.
-- A green check or release requires at least one reviewed vocabulary concept under existing validation rules; the current source may still contain only a header.
+- A green check or release requires at least one reviewed vocabulary concept under existing validation rules. A header-only source remains an intentionally failing edge case.
 - Anki import prompts vary by client. Documentation describes supported update behavior without promising deletion of notes omitted from later packages.
