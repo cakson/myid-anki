@@ -183,8 +183,8 @@ use GitHub Releases instead.
 
 1. Ensure `main` contains reviewed vocabulary and its CI run is passing. Check that your local
    checkout is clean and at the revision you intend to release.
-2. Create a new numeric `vMAJOR.MINOR.PATCH` tag, for example `git tag v0.1.0`, then push it with
-   `git push origin v0.1.0`. Do not move an existing release tag.
+2. Create a new, unused numeric `vMAJOR.MINOR.PATCH` tag, for example `git tag v0.2.0`, then push it
+   with `git push origin v0.2.0`. Do not move an existing release tag.
 3. Open **Actions → Release deck** and check that validation, tests, Ruff checks, and the build pass
    for the tagged revision. The workflow records its checked-out commit SHA.
 4. Open the matching entry under **Releases**. The workflow creates or updates it only after the

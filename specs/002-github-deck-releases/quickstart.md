@@ -46,7 +46,7 @@ Avoid a local emulator that claims to reproduce GitHub's permissions, artifacts,
 ## Hosted release acceptance
 
 1. Confirm the intended main revision is reviewed and passing CI.
-2. Create and push an unused semantic version-style tag such as `v0.1.0` on that revision.
+2. Create and push an unused semantic version-style tag such as `v0.2.0` on that revision.
 3. Record the tag's target commit SHA and the release build's checked-out commit SHA; they must match. Confirm the release workflow passes its gates and creates the matching GitHub Release.
 4. Confirm the Release has exactly one deck asset named `indonesian-malaysian.apkg`; download it and import it in Anki Desktop or an official mobile client without renaming.
 5. Download the checked package artifact from that same release run and compare its SHA-256 digest with the downloaded Release asset; they must match byte-for-byte after the filename change. Record both digests and the run ID. Confirm stable concept, note, deck, and model identities with existing integration tests or package inspection.

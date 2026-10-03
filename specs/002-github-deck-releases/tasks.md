@@ -76,7 +76,7 @@ description: "Dependency-ordered tasks for GitHub deck CI and release distributi
 **Independent Test**: Compare packages built from two revisions with unchanged permanent concept IDs under different release-tag context; deck/model IDs and note GUIDs remain stable, and an update import creates no duplicates for those IDs.
 
 - [X] T014 [P] [US3] Extend `tests/integration/test_semantic_rebuild.py` with a focused check that distinct release-tag environment values do not change deck ID, note-model ID, or note GUIDs for unchanged concept IDs; retain the existing one-note/one-card checks.
-- [ ] T015 [US3] Record a two-package update import and identity comparison, including Anki client/version and duplicate-note result, in `specs/002-github-deck-releases/validation-results.md`; do not change `src/indo_malay_anki/model.py` or concept IDs to encode release versions.
+- [X] T015 [US3] Record a two-package update import and identity comparison, including Anki client/version and duplicate-note result, in `specs/002-github-deck-releases/validation-results.md`; do not change `src/indo_malay_anki/model.py` or concept IDs to encode release versions.
 
 **Checkpoint**: The package's logical Anki identity is independent of GitHub tag and release asset filename.
 
