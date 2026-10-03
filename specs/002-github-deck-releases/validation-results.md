@@ -78,7 +78,42 @@ exclusions.
 - Reran the `v0.1.1` workflow successfully. It drafted the existing Release, replaced the asset,
   and published it again with exactly one deck asset. The rerun's downloaded package and current
   Release asset were byte-for-byte equal with SHA-256
-  `0b5732c793e7e2fb02cd228a0b1e21c46e2e60723d4bba69b763d0d83e04db95`.
+  `0b5732c793e7e2fb02cd228a0b1e21c46e2e60723d4bba69b763d0d83e04db95`. GitHub Release ID:
+  `RE_kwDOU3a7lc4X-q-p`; successful release run ID: `37093389454`.
+
+### Isolated hosted failure checks
+
+Each failure was introduced on a temporary draft PR branch, one at a time. The probe PR was based
+on the passing feature revision, and each run stopped at the intended gate:
+
+| Deliberate failure | Hosted result |
+|---|---|
+| Empty required Indonesian field in vocabulary TSV | [Run 37094679719](https://github.com/cakson/myid-anki/actions/runs/37094679719) failed at `Validate vocabulary and media`. |
+| Added test that asserts false | [Run 37094734910](https://github.com/cakson/myid-anki/actions/runs/37094734910) failed at `Run tests`; the other 77 tests passed. |
+| Unused import | [Run 37094779956](https://github.com/cakson/myid-anki/actions/runs/37094779956) failed at `Check Ruff lint`. |
+| Valid test with nonconforming quote formatting | [Run 37094810916](https://github.com/cakson/myid-anki/actions/runs/37094810916) passed tests and lint, then failed at `Check Ruff formatting`. |
+| Directory blocks the expected package output path | [Run 37094871722](https://github.com/cakson/myid-anki/actions/runs/37094871722) passed prior gates and failed at `Build deck`. |
+| Artifact upload path points to a nonexistent package | [Run 37094907989](https://github.com/cakson/myid-anki/actions/runs/37094907989) passed build and failed upload with `if-no-files-found: error`. |
+
+No artifact-service outage was observed; the last case deliberately tested a missing file and did
+not disrupt GitHub's artifact service. The temporary PR is only acceptance evidence and is not a
+product change.
+
+### Release trigger and publication failure checks
+
+- The glob-matching malformed tag `v0.2.0-rc.1` pointed at
+  `2c2559291f3b95873ebf9751c79cb79de0d6b861`. [Run 37094945489](https://github.com/cakson/myid-anki/actions/runs/37094945489)
+  failed the numeric tag guard before checkout or publication. No Release exists for that tag.
+- Numeric tag `v0.2.0` pointed at `b6e10bea2aa1d79690bd972539d09dfa3bf91bb3`, a temporary revision
+  with a deliberately failing pytest test. [Run 37094973413](https://github.com/cakson/myid-anki/actions/runs/37094973413)
+  passed validation and failed at tests; the dependent publication job was skipped and no Release
+  exists for the tag. The passing `v0.1.1` Release and its asset were unchanged.
+- For the draft failure path, temporary tag `v0.2.1` pointed at
+  `9aa4be685212f2a12f314ddf68bed0d1ec03d8b7`. Its build job passed every gate; the test-only
+  revision made the publisher request a nonexistent asset. [Run 37095045026](https://github.com/cakson/myid-anki/actions/runs/37095045026)
+  failed at asset upload after creating the Release. GitHub shows `v0.2.1` as a draft with zero
+  assets, confirming it was not published. This test altered only the temporary tagged workflow;
+  the feature workflow remains the passing version used for `v0.1.1`.
 
 ## Anki import and update evidence
 
@@ -92,15 +127,39 @@ had one note and one card. The second package was a temporary test fixture, not 
 no repository vocabulary was changed for this test. A graphical desktop or mobile import was not
 performed.
 
-## Acceptance still required
+### Tagged-revision identity and update import (T026)
 
-The following task evidence is still incomplete:
+After approval to use `automobile`, two local-only immutable test tags were created in a temporary
+clone; neither was pushed, so no learner-facing Release was published:
+
+| Tag | Checkout/target SHA | Package SHA-256 |
+|---|---|---|
+| `v0.2.2` | `2c2559291f3b95873ebf9751c79cb79de0d6b861` | `973f7ab7fa7a03811fe06502c35c4027fcbf27390eaaf0ea10ba0ec290278927` |
+| `v0.2.3` | `da81016d4d7fba62ac05dec83fc9e9c6e08026e5` | `e977be697bc478726970aeb62f8003b2df432b3403be94624de0a10f16207b86` |
+
+Both packages were built with the documented `python -m indo_malay_anki validate` and `build`
+commands from their tagged checkout. The second changed only concept `000001`'s English cue from
+`car` to `automobile`. Package inspection found identical deck ID `1242123295`, note-model ID
+`1942161817`, and note GUID `D6BBAuKXK` in both archives. Package bytes differ because the English
+field and note modification metadata changed.
+
+Anki Desktop 26.9.3's matching import backend imported both packages successively into a fresh
+isolated collection. The second import updated the existing note in place: note ID remained
+`1791000266000`, GUID remained `D6BBAuKXK`, model ID remained `1942161817`, and collection deck ID
+remained `1791000283011`. The final collection had one note and one card, so the update added zero
+duplicate notes. This used the same Anki backend as Desktop, but not its graphical UI or a mobile
+client.
+
+## Remaining acceptance tasks
+
+Hosted main-branch and end-to-end walkthrough items remain open:
 
 | Task | Evidence needed |
 |---|---|
-| T007 | A main push and no-main-release observation, plus isolated hosted failures for validation, tests, Ruff lint, formatting, build, and missing output. No artifact-service failure was observed. |
-| T013 | A malformed tag blocked before publication, a valid tag on a failing revision, and an observed asset-upload failure after draft creation. The successful Release and rerun, provenance, byte comparison, and Anki-core import are recorded above. |
-| T019 | Complete contributor, maintainer, and learner README walkthroughs, including the specified 15-minute main-CI-to-release and 5-minute Releases-to-import timings. |
+| T007 | A main push and no-main-release observation. All six isolated failure gates are now recorded above. No artifact-service outage was observed. |
+| T019 | Walk through contributor, maintainer, and learner README steps; record corrections and the 15-minute main-CI-to-release and 5-minute Releases-to-import timings. |
+| T023 | Feature PR must reach `main`; record its successful main push CI, download the artifact, and confirm the push did not create a Release. |
+| T027 | Full README walkthrough and timing require the feature on `main`; graphical desktop/mobile acceptance remains outstanding. |
 
 Follow [quickstart.md](quickstart.md) for the remaining hosted checks and graphical import. Do not
 mark incomplete tasks complete from static inspection alone.
