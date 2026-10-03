@@ -1,0 +1,111 @@
+name: Release deck
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Validate tagged revision and build deck
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      sha: ${{ steps.revision.outputs.sha }}
+    steps:
+      - name: Require numeric version tag
+        run: |
+          if ! [[ "$GITHUB_REF_NAME" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Release tag must have the form vMAJOR.MINOR.PATCH" >&2
+            exit 1
+          fi
+
+      - name: Check out tagged revision
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Record checked-out commit
+        id: revision
+        run: |
+          sha="$(git rev-parse HEAD)"
+          echo "Checked-out commit: $sha"
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install dependencies
+        run: python -m pip install -e '.[dev]'
+
+      - name: Validate vocabulary and media
+        run: python -m indo_malay_anki validate
+
+      - name: Run tests
+        run: pytest
+
+      - name: Check Ruff lint
+        run: ruff check .
+
+      - name: Check Ruff formatting
+        run: ruff format --check .
+
+      - name: Build deck
+        run: python -m indo_malay_anki build
+
+      - name: Require built deck
+        run: test -s dist/myid-anki.apkg
+
+      - name: Transfer checked deck to publication job
+        uses: actions/upload-artifact@v7
+        with:
+          name: indonesian-malaysian-release-apkg
+          path: dist/myid-anki.apkg
+          if-no-files-found: error
+
+  publish:
+    name: Publish GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download deck from this release run
+        uses: actions/download-artifact@v7
+        with:
+          name: indonesian-malaysian-release-apkg
+          path: release-input
+
+      - name: Prepare learner asset
+        run: |
+          test -s release-input/myid-anki.apkg
+          cp release-input/myid-anki.apkg indonesian-malaysian.apkg
+          test -s indonesian-malaysian.apkg
+
+      - name: Upload checked asset and publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHECKED_SHA: ${{ needs.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          tag="$GITHUB_REF_NAME"
+          asset="indonesian-malaysian.apkg"
+
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release edit "$tag" --draft
+          else
+            gh release create "$tag" --draft --verify-tag --title "$tag" \
+              --notes "Deck built from commit $CHECKED_SHA."
+          fi
+
+          gh release upload "$tag" "$asset" --clobber
+          gh release edit "$tag" --draft=false
