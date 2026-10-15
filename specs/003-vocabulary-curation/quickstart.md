@@ -1,97 +1,43 @@
-# Quickstart and Validation: AI-First Vocabulary Curation
+# Quickstart and Validation: Feature 003 Recalibration
 
-This guide describes the workflow to validate once Feature 003 is implemented. See [curation workflow](contracts/curation-workflow.md) for command behavior and [learner source](contracts/learner-source.md) for TSV and Anki contracts.
+This guide distinguishes **commands available in the current implementation** from the **planned recalibration workflow** in [the curation contract](contracts/curation-workflow.md). Do not treat a policy-v2 result as released until its code, gates, tests and export have been implemented. Use Python 3.12+ in the project's configured environment, an AI tool returning structured UTF-8 records, inspected Indonesian/Malaysian sources for curation, and Anki Desktop for compatibility acceptance.
 
-## Prerequisites
+## Existing workflow, preserved
 
-- Python 3.12 or newer and the project's documented local environment.
-- An AI tool that can follow each role prompt and return structured UTF-8 output.
-- Access to claim-relevant Indonesian and Malaysian Malay references during curation.
-- Anki Desktop for the pre-release old-to-new import check.
-
-The curation tool may use the network while researching. `validate` and `build` must also work with network access disabled.
-
-## Run one bounded batch
-
-From the repository root, create a topic batch:
+From the repository root, start a bounded topic batch:
 
 ```sh
 python -m indo_malay_anki.curation init --batch transportation-002 --topic transportation --limit 12
 python -m indo_malay_anki.curation packet --batch transportation-002 --role generate
 ```
 
-Run the generated prompt through an AI agent and save its structured response. Ingest it, then use `packet` and `ingest` for each required role and candidate in the order in [the workflow contract](contracts/curation-workflow.md). Keep Indonesian and Malaysian usage research separate. Give the independent verifier only the packet prepared for that role; do not append the generator's rationale or preferred acceptance result. Inspect cited source pages or corpus queries and record the access method, page location or query, and actual observation before evidence audit counts support. An AI-supplied audit flag alone does not count.
-The generation packet contains a frozen list of previously investigated concepts. Its prompt
-version is pinned in the batch manifest; old batches continue to use their archived prompt text.
-For prompt sets `1.2.0`, `1.3.0`, `1.4.0`, and `1.5.0`, normalize candidates first, then inspect sources for promising
-distinct candidates. Save each candidate's notes at
-`curation/batches/BATCH/source-inspections/CANDIDATE.json` using
-`curation/source-inspection-template.json`. Both locales and at least two independent
-underlying source groups are required before either locale packet is available. Record
-only pages or corpus results actually inspected; source notes do not count as audited
-support until the evidence-audit stage tests each claim. Candidates without adequate
-leads can be held before spending locale-role calls.
-For several promising candidates, `bundle --role ROLE --candidate CID --candidate CID` and
-`ingest-bundle` run one role over only those selected candidates. Keep Indonesian and Malaysian
-usage in separate bundles. Do not include early held or rejected candidates in later bundles.
-
-Before each role call, query `python -m indo_malay_anki.curation route --role ROLE` and use its
-`model` and `reasoning_effort` for the Codex CLI invocation. The configured reserve policy uses
-Luna for every role. Run independent verification and adversarial review as separate calls only
-after the deterministic overlap, semantic alignment, and evidence checks leave a candidate
-eligible. Give the verifier its packet in an isolated packet-only working directory so it cannot
-inspect the relation proposal or previous answers through repository search. Sharing a model
-across roles does not relax the evidence or disagreement gates.
-Use `--actual-model MODEL/codex-cli` with `ingest` or `ingest-bundle` to record the invoked model
-separately from the model name generated in the response. The evidence-audit packet is withheld
-when claim IDs collide across roles or the cue/overlap screen fails.
-
-### Local Codex CLI recovery on this macOS host
-
-The installed CLI 0.160.0 currently fails before a model call because macOS managed preferences
-cannot synchronize in this execution environment. The shell also lacks system DNS configuration.
-The process-local launcher `scripts/curation_codex.py` starts a localhost HTTPS CONNECT tunnel,
-resolves OpenAI hosts through the nameserver in `/etc/resolv.conf`, and supplies the local CA
-bundle. It changes no system network settings. On this host, use the installed 0.153.0 binary:
-
-```sh
-python scripts/curation_codex.py \
-  --codex-bin "$HOME/.codex/packages/standalone/releases/0.153.0-aarch64-apple-darwin/bin/codex" \
-  -- exec -C /tmp -s read-only --skip-git-repo-check --ephemeral \
-  -m gpt-5.6-luna -c 'model_reasoning_effort="low"' 'Reply with OK.'
-```
-
-This is a local recovery path, not a replacement for the centrally configured role routes.
-Query `route` before each real stage and use its model and reasoning effort. The current ChatGPT
-CLI model catalog lists `gpt-5.6-luna` and `gpt-5.6-sol`; earlier `gpt-6-*` routes now return
-an unsupported-model error for this account. Keep the exact invoked model in the stage record.
-
-After stage results are present:
+The repository's versioned role prompts and `packet`/`ingest` or `bundle`/`ingest-bundle` commands remain the basis for independent locale research, relation proposal, inspected source audit, verifier isolation, and record persistence. Query `route --role ROLE` before AI calls and record the actual invoked model. Keep historical batch prompt versions pinned. Save actual inspected source observations, with access method, page/query location, short finding, limitations and source group; an AI-provided URL or `audited` flag is only a lead. Shared ordinary `same` forms stay out of the learner TSV.
 
 ```sh
 python -m indo_malay_anki.curation check --batch transportation-002
 python -m indo_malay_anki.curation report --batch transportation-002
 ```
 
-Expected: a candidate with a deliberate final decision receives `accepted`, `hold`, or `rejected`; interrupted or malformed work remains `pending` until resumed or explicitly finalized, and pending candidates keep the batch open. To stop investigation deliberately, record a reason with `finalize-hold --batch transportation-002 --candidate CID --reason TEXT`; use `finalize-reject` for a disproven or unsuitable concept, then rerun `report`. An early final hold or rejection records uncompleted-stage statuses without invented role results. Open reports reconcile generated = accepted + held + rejected + pending; closed reports require pending = 0 and reconcile the three final outcomes before export. A closed batch with no accepted entries remains valid.
+Current commands still implement the original universal-adversarial policy. They do **not** yet provide the new fast-path acceptance, cache, budgets, operation metrics or historical reconsideration. The current released source has 3 accepted contrast cards; historical batch accept counts include three later-retired `same` cards. `growth-audit-001` is a non-learner recovery fixture.
 
-## Exercise the negative gates
+## Planned policy-v2 validation sequence
 
-In isolated test fixtures or a scratch batch, submit:
+1. Snapshot the original event/report inventory. Recompute current decisions without rewriting archived reports. Record the 14-batch product baseline (102 generated, 6 historical accepted, 87 held, 9 rejected; 3 currently released) and separate fixture. Mark active time, exact calls, tokens, retrievals and cost unavailable.
+2. Assemble the fixed calibration sample from original IDs and inspected artifacts. Include strong accepts, suspected false negatives, confirmed duplicates/rejects, ambiguous usage, and elevated-risk/false-friend examples. Clearly mark a synthetic fixture if no suitable real false friend exists. Before timed work, freeze matching rules, topic allocations, generation prompt/source-access conditions and one evidence-based pass/fail/unresolved quality rubric for all AI and human outputs. Generate each ordinary-intent timed cohort in a dedicated measured lane once, then freeze its actual candidate IDs and preliminary matching attributes before locale research or policy decisions; report mismatches without post-outcome replacement. Keep later-escalated and discovered false-friend candidates and their elapsed work in their original lane, but exclude their cards from the ordinary numerator.
+3. Add an instrumented provider-neutral `run` path around packet creation, actual model invocation and response ingestion. Record external source-research attempts with start/finish operations linked to claims and observations; unrecorded manual lookups have unavailable retrieval count/latency, and inspection rows are not attempts. Keep manual `packet`/`ingest` for inspection but mark their external-call latency/usage unavailable. Time the old-policy cohort in isolation using the runner, audit every exported card with the frozen rubric, then set initial versioned work budgets from that comparator. Historical fixed-artifact policy replay is a separate analysis, not an end-to-end throughput estimate.
+4. For an ordinary candidate, verify an aligned neutral cue, no unresolved duplicate, two independent inspected claim-relevant evidence signals, common everyday usage/preference when claimed, no material conflict, and separate verifier agreement. Confirm risk record selects `ordinary-fast` and logs adversarial as `skipped-low-risk`; no new adversarial model call is needed.
+5. Submit conflict, verifier disagreement, cue ambiguity, register/region ambiguity, disputed `different-common-word`, overlap, and weak-evidence examples. Confirm each gets targeted bounded escalation. A concrete objection can block; generic hesitation alone cannot. False friends always need separate evidence for both meanings and misleading contrast, verifier agreement and adversarial agreement.
+6. Test source timeout, inaccessible evidence, malformed response and budget exhaustion. Confirm retry/checkpoint state and HOLD when materially unresolved; only an affirmative defect can REJECT. Confirm a previously compatible successful stage is not hidden by a later failed attempt.
+7. Reconsider a bounded set of historical holds and plausible rejected false negatives under the new policy, preserving candidate IDs and old records. Track reused/invalidated stage IDs, recovered accepts, confirmed rejects, remaining holds and decision-change reasons. Never regenerate the old candidate simply to reconsider it.
+8. Run bounded independent candidate work with provider throttling. Interrupt a bundle after partial fan-out and resume missing candidate/digest ingests without recounting its model call or changing canonical TSV. Verify serialized duplicate resolution, report closure and export.
+9. Report ordinary/escalated/false-friend path timing, unique calls, tokens/retrievals/cost where available, and explicit unavailable/undefined values elsewhere. Label isolated comparator/pilot exports as provisional benchmark output. Report the count of all newly promoted release cards separately from quality-adjusted canonical pilot throughput and the frozen ordinary-intent measurement lane. A whole-release cards/hour rate needs a complete active interval for every included batch or historical reconsideration; count overlapping work in one wall-clock window and mark the rate unavailable when any interval is missing. The adjusted pilot numerator includes only newly promoted cards with a passing frozen audit matching their final content/evidence digest. Record a dedicated generation-to-canonical-promotion active wall-clock interval for the ordinary lane, with no unrelated candidate work inside it; do not sum candidate latencies to create one. Product elapsed time includes provider queues, rate-limit waits, backoff, retries, retrieval, applicable handoff/recheck and canonical export. Log the frozen-rubric evaluation audit between provisional export and canonical promotion as an excluded pause with start/end, and show its duration alongside the full calendar span. Include any resumed correction, handoff, recheck and export work in active time; keep independent audit time separate from expert active curation time.
+10. Conduct a small timed quality-matched expert benchmark on representative unseen ordinary concepts. Apply the same frozen rubric to every expert card, old-policy comparator card and revised-pilot card; record fails and unresolved outcomes. Time expert curation separately from independent quality auditing. Store with each audit a digest of the evaluated cue/sense, both answers, relation, applicable contrast and supporting claims/evidence. Run the candidate-frozen ordinary-intent revised cohort in its own measured lane with the runner and report matching exceptions; keep unrelated candidate work outside the lane until canonical promotion; apply the T076 intermediate target only to the like-for-like isolated old/revised comparison. Retain the pilot's candidate/evidence/operation/audit artifacts and import them through a digest-checked handoff before canonical export. Identity is `(batch_id, candidate_id)`: reject a conflicting batch or duplicate identity within it, but allow the same local candidate ID in another batch. Discard pilot-only TSV and provisional ID assignments; preserve pilot decisions, append linked revisions for changed canonical outcomes, and recompute gates and overlap. If final content/evidence differs materially from the audit digest, re-audit under the frozen rubric or exclude the card from adjusted throughput. Reconcile each pilot export to canonical promotion/hold/rejection. Compute the AI/expert ratio from only the frozen ordinary lane's audit-passing ordinary-fast canonical promotions and its dedicated active interval against the ordinary expert rate; keep later-escalated and false-friend candidate work in the lane interval, exclude their cards from the ordinary numerator, and report their outcomes and cost separately. If the lane is empty, positive lane timing cannot be isolated, or the expert rate is zero/unavailable, mark the ratio undefined. A nonempty measured lane with zero ordinary-fast promotions has a zero ratio against a positive expert rate. Practical success requires this ordinary canonical ratio above 1 at equivalent quality; report its gap to the long-term approximately 50× objective without assuming a human rate or applying the isolated target to the longer canonical measurement boundary.
 
-1. A proposed everyday preference backed only by dictionary existence.
-2. A cue whose Indonesian and Malaysian answers use different English senses.
-3. A plural or English synonym of an existing concept.
-4. A false-friend claim without evidence for both meanings and the misleading contrast.
-5. An inaccessible reference, contradictory usage observation, or verifier/challenger disagreement.
+The provisional 24-card / three-category / three-relation target is not a promotion quota. After baseline and timed pilot, select a capacity-based initial release target and document category/relation coverage and shortfalls. Do not weaken a gate or run unbounded research to meet a number.
 
-Run `check`. Expected: all are pending, deliberately held, rejected, or corrected and reverified before acceptance. No permanent IDs are allocated. A relation or cue correction invalidates stale verifier and adversarial results; an unfinished batch cannot close or export.
+## Export, package and negative gates
 
-## Export only accepted entries
-
-For the initial library, complete bounded category batches and inspect their reports. Submit only
-closed batches for guarded cross-batch export; the following is a command pattern using batches
-that have already been curated:
+Only closed batches with zero pending candidates and reconciled reports may export. Before permanent ID allocation, screen the full promotion set against itself, all archives, the ledger and released TSV. Reconsidered candidates retain original identity and cannot obtain accidental duplicate IDs. Export remains an idempotent journaled ledger/TSV transaction:
 
 ```sh
 python -m indo_malay_anki.curation export --batch home-001 --batch food-001
@@ -99,27 +45,6 @@ python -m indo_malay_anki validate
 python -m indo_malay_anki build
 ```
 
-Expected: accepted new concepts receive unused six-digit IDs, held/rejected records stay outside `data/vocabulary.tsv`, and the ledger contains every active TSV ID. A repeated export allocates no further IDs. Export clears its recovery journal only after both source files agree; after interruption, recover before any later export or release. The build produces `dist/myid-anki.apkg` without model or network calls.
+Use actual closed policy-v2 batches after implementation; the command above illustrates the preserved export interface and must not be rerun merely to claim recalibration. Test dictionary-only preference, different cue senses, synonym duplicate, unverified false friend, contradictory observation, unavailable source and exhausted budget. None may silently enter learner data. Ordinary low-risk cards can bypass the adversary only after the positive gate passes.
 
-At least 24 accepted contrasts across three categories and all three eligible learner relations are required for initial-corpus completion. `same` candidates are rejected before evidence audit and never enter the TSV. Report any shortfall and curate another bounded batch; never weaken an acceptance gate or invent filler to meet it.
-
-The original `000001` car concept was retrospectively held after independent verification and
-adversarial review. It is retired from the active learner TSV, and its assignment remains in the
-ledger. Shared ordinary entries `000002`, `000006`, and `000007` are retired under the contrast-only
-policy. The current learner source has three accepted concepts, all in food; the 24-concept,
-three-category, and three-relation target is still open. `growth-audit-001` is a non-learner fixture showing
-malformed-output recovery and later-batch duplicate rejection.
-
-## Verify identity and card behavior
-
-Run the project test, lint, and format checks plus focused curation tests:
-
-```sh
-pytest
-ruff check .
-ruff format --check .
-```
-
-Inspect the generated package: one note/card per accepted ID; deck ID, model ID, five note field names/order, and `000001 -> D6BBAuKXK` unchanged. Confirm an ordinary card has a neutral front and both labeled answers on the back. For any accepted false friend, confirm its concise misleading-lookalike contrast appears only on the back; if none passes, use a separate validated fixture for that rendering check. Compare a package built before Feature 003 with the updated package by importing both in sequence into a test Anki Desktop profile. Confirm no duplicate notes, updated content for the same ID, and preserved scheduling; record the client version and import settings before release.
-
-Finally, disable network access and rerun `python -m indo_malay_anki validate` and `build`. Both must succeed using the accepted TSV alone. Inspect `.github/workflows/release.yml` to ensure the release build invokes only accepted-source validation/build and never curation, AI, or live language research.
+Run `pytest`, `ruff check .`, `ruff format --check .`, and offline `validate`/`build`. Inspect one card per unchanged ID, unchanged GUID and deck/model identity, neutral front, both labeled back answers, and back-only evidenced contrast for a false friend (use a separate validated fixture if none is accepted). The original `000001` car assignment and later-retired shared-form IDs remain reserved in the ledger. Repeat the Anki Desktop old-to-new import check if note schema or rendering changes. Confirm GitHub release invokes neither curation nor live AI/research.
