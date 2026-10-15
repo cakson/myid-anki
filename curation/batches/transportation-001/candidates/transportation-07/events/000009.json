@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-03T20:07:14.474108+00:00",
+  "input_digest": "ed098dfba00b7c6aa80610e553afe1871366d71d87a2094c19723de129a81469",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"english\": \"road vehicle driver\", \"relation\": \"different-common-word\", \"semantic_alignment\": \"Sopir normally refers to a car, bus, or truck driver and does not naturally cover every road-vehicle operator. Suggested cue: car, bus, or truck driver.\", \"aligned\": false, \"claims\": [{\"claim_id\": \"transportation-07-relation\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian sopir and Malaysian Malay pemandu can both refer to a car, bus, or truck driver, but sopir is too narrow for the full English cue.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/relation-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/relation-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "aligned": false,
+      "claims": [
+        {
+          "claim_id": "transportation-07-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian sopir and Malaysian Malay pemandu can both refer to a car, bus, or truck driver, but sopir is too narrow for the full English cue."
+        }
+      ],
+      "english": "road vehicle driver",
+      "relation": "different-common-word",
+      "semantic_alignment": "Sopir normally refers to a car, bus, or truck driver and does not naturally cover every road-vehicle operator. Suggested cue: car, bus, or truck driver."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": false,
+    "claims": [
+      {
+        "claim_id": "transportation-07-relation",
+        "claim_type": "relation",
+        "proposition": "Indonesian sopir and Malaysian Malay pemandu can both refer to a car, bus, or truck driver, but sopir is too narrow for the full English cue."
+      }
+    ],
+    "english": "road vehicle driver",
+    "relation": "different-common-word",
+    "semantic_alignment": "Sopir normally refers to a car, bus, or truck driver and does not naturally cover every road-vehicle operator. Suggested cue: car, bus, or truck driver."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "994d639b90de73ae9ab3f653a574ab41437f002b2622e8000a7523c5ba2c5208"
+}

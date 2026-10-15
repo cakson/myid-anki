@@ -1,0 +1,104 @@
+{
+  "at": "2026-10-04T10:27:26.317362+00:00",
+  "input_digest": "37e0dd8065731cadba80f2a05671e5f1dbe61deb350bbebcd32626e8bffa3c56",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI GPT-6\", \"result\": {\"meaning\": \"\\u201cTerong\\u201d denotes eggplant, the edible vegetable; it matches the stated sense.\", \"common_use\": \"Common and understood. The spelling \\u201cterong\\u201d is widespread; \\u201cterung\\u201d is also encountered.\", \"preferred\": \"\\u201cTerong\\u201d is a normal everyday choice in Indonesia.\", \"register\": \"Neutral.\", \"region\": \"Used broadly in Indonesia; some regional or editorial variation in spelling and pronunciation may occur.\", \"alternatives\": [\"terung\"], \"claims\": [{\"claim_id\": \"eggplant-id-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"In Indonesian, \\u201cterong\\u201d refers to eggplant as a vegetable.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"eggplant-id-common\", \"claim_type\": \"locale-usage\", \"proposition\": \"\\u201cTerong\\u201d is commonly used for eggplant in Indonesia.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"eggplant-id-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"\\u201cTerong\\u201d is a normal everyday Indonesian form, alongside the spelling variant \\u201cterung.\\u201d\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"source\": \"KBBI Daring\", \"exact_claim_to_check\": \"The entry for \\u201cterong\\u201d gives the eggplant sense and may cross-reference \\u201cterung.\\u201d\", \"url\": \"https://kbbi.kemdikbud.go.id/entri/terong\"}, {\"source\": \"KBBI Daring\", \"exact_claim_to_check\": \"The entry for \\u201cterung\\u201d indicates its relationship to \\u201cterong\\u201d or defines the same vegetable.\", \"url\": \"https://kbbi.kemdikbud.go.id/entri/terung\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/indonesian-usage-syntax-repair.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/indonesian-usage-syntax-repair.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "alternatives": [
+        "terung"
+      ],
+      "claims": [
+        {
+          "claim_id": "eggplant-id-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "In Indonesian, “terong” refers to eggplant as a vegetable."
+        },
+        {
+          "claim_id": "eggplant-id-common",
+          "claim_type": "locale-usage",
+          "locale": "Indonesia",
+          "proposition": "“Terong” is commonly used for eggplant in Indonesia."
+        },
+        {
+          "claim_id": "eggplant-id-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "“Terong” is a normal everyday Indonesian form, alongside the spelling variant “terung.”"
+        }
+      ],
+      "common_use": "Common and understood. The spelling “terong” is widespread; “terung” is also encountered.",
+      "meaning": "“Terong” denotes eggplant, the edible vegetable; it matches the stated sense.",
+      "preferred": "“Terong” is a normal everyday choice in Indonesia.",
+      "region": "Used broadly in Indonesia; some regional or editorial variation in spelling and pronunciation may occur.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "exact_claim_to_check": "The entry for “terong” gives the eggplant sense and may cross-reference “terung.”",
+          "source": "KBBI Daring",
+          "url": "https://kbbi.kemdikbud.go.id/entri/terong"
+        },
+        {
+          "exact_claim_to_check": "The entry for “terung” indicates its relationship to “terong” or defines the same vegetable.",
+          "source": "KBBI Daring",
+          "url": "https://kbbi.kemdikbud.go.id/entri/terung"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "terung"
+    ],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:eggplant-id-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "In Indonesian, “terong” refers to eggplant as a vegetable."
+      },
+      {
+        "claim_id": "indonesian-usage:eggplant-id-common",
+        "claim_type": "locale-usage",
+        "locale": "Indonesia",
+        "proposition": "“Terong” is commonly used for eggplant in Indonesia."
+      },
+      {
+        "claim_id": "indonesian-usage:eggplant-id-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "“Terong” is a normal everyday Indonesian form, alongside the spelling variant “terung.”"
+      }
+    ],
+    "common_use": "Common and understood. The spelling “terong” is widespread; “terung” is also encountered.",
+    "meaning": "“Terong” denotes eggplant, the edible vegetable; it matches the stated sense.",
+    "preferred": "“Terong” is a normal everyday choice in Indonesia.",
+    "region": "Used broadly in Indonesia; some regional or editorial variation in spelling and pronunciation may occur.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim_to_check": "The entry for “terong” gives the eggplant sense and may cross-reference “terung.”",
+        "source": "KBBI Daring",
+        "url": "https://kbbi.kemdikbud.go.id/entri/terong"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim_to_check": "The entry for “terung” indicates its relationship to “terong” or defines the same vegetable.",
+        "source": "KBBI Daring",
+        "url": "https://kbbi.kemdikbud.go.id/entri/terung"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "facdb46125125dfbe2ca23dd179347744bcbd6f89400d89ca28b3bf7f287c25a"
+}

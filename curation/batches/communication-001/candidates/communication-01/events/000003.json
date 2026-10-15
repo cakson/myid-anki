@@ -1,0 +1,94 @@
+{
+  "at": "2026-10-04T10:14:45.451198+00:00",
+  "input_digest": "1e38d03c3f8b630568c0862315a2ed004fdd3e6634f74039e3ab5e8928a57d7c",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"OpenAI GPT-6\", \"result\": {\"meaning\": \"Mesej is understood in contemporary Malaysian Malay as a written or digital communication sent to someone. It can also refer to a message or item of news, depending on context.\", \"common_use\": \"Common in everyday speech and writing, especially for texts and app messages.\", \"preferred\": \"Mesej is the usual everyday choice for a digital message. Pesanan is an alternative, often suggesting a request, instruction, or message conveyed for someone.\", \"register\": \"Neutral and widely understood; a borrowing adapted to Malay spelling.\", \"region\": \"Used broadly in Malaysia; no clear regional restriction.\", \"alternatives\": [\"pesanan\", \"berita (when meaning news)\"], \"claims\": [{\"claim_id\": \"communication-01-my-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"In Malaysian Malay, mesej can mean a written or digital communication sent to someone.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"communication-01-my-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Mesej is a common everyday choice for a digital message in Malaysia.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source\": \"Kamus Dewan / PRPM, Dewan Bahasa dan Pustaka\", \"lookup\": \"mesej\", \"claim_to_check\": \"Entry meaning and usage examples for mesej.\"}, {\"source\": \"Malaysian news and telecom provider usage\", \"lookup\": \"mesej teks; hantar mesej\", \"claim_to_check\": \"Contemporary use of mesej for text and app communications.\"}]}, \"bundle_response\": \"curation/batches/communication-001/malaysian-response.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/malaysian-response.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "alternatives": [
+        "pesanan",
+        "berita (when meaning news)"
+      ],
+      "claims": [
+        {
+          "claim_id": "communication-01-my-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "In Malaysian Malay, mesej can mean a written or digital communication sent to someone."
+        },
+        {
+          "claim_id": "communication-01-my-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Mesej is a common everyday choice for a digital message in Malaysia."
+        }
+      ],
+      "common_use": "Common in everyday speech and writing, especially for texts and app messages.",
+      "meaning": "Mesej is understood in contemporary Malaysian Malay as a written or digital communication sent to someone. It can also refer to a message or item of news, depending on context.",
+      "preferred": "Mesej is the usual everyday choice for a digital message. Pesanan is an alternative, often suggesting a request, instruction, or message conveyed for someone.",
+      "region": "Used broadly in Malaysia; no clear regional restriction.",
+      "register": "Neutral and widely understood; a borrowing adapted to Malay spelling.",
+      "source_leads": [
+        {
+          "claim_to_check": "Entry meaning and usage examples for mesej.",
+          "lookup": "mesej",
+          "source": "Kamus Dewan / PRPM, Dewan Bahasa dan Pustaka"
+        },
+        {
+          "claim_to_check": "Contemporary use of mesej for text and app communications.",
+          "lookup": "mesej teks; hantar mesej",
+          "source": "Malaysian news and telecom provider usage"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "pesanan",
+      "berita (when meaning news)"
+    ],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:communication-01-my-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "In Malaysian Malay, mesej can mean a written or digital communication sent to someone."
+      },
+      {
+        "claim_id": "malaysian-usage:communication-01-my-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Mesej is a common everyday choice for a digital message in Malaysia."
+      }
+    ],
+    "common_use": "Common in everyday speech and writing, especially for texts and app messages.",
+    "meaning": "Mesej is understood in contemporary Malaysian Malay as a written or digital communication sent to someone. It can also refer to a message or item of news, depending on context.",
+    "preferred": "Mesej is the usual everyday choice for a digital message. Pesanan is an alternative, often suggesting a request, instruction, or message conveyed for someone.",
+    "region": "Used broadly in Malaysia; no clear regional restriction.",
+    "register": "Neutral and widely understood; a borrowing adapted to Malay spelling.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "claim_to_check": "Entry meaning and usage examples for mesej.",
+        "lookup": "mesej",
+        "source": "Kamus Dewan / PRPM, Dewan Bahasa dan Pustaka"
+      },
+      {
+        "claim_ids": [],
+        "claim_to_check": "Contemporary use of mesej for text and app communications.",
+        "lookup": "mesej teks; hantar mesej",
+        "source": "Malaysian news and telecom provider usage"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "2b9b41e38cbd652d1040b334b3e30a3a5a26b88d8854d31a90ee144a69bd7f05"
+}

@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-03T20:02:47.578178+00:00",
+  "input_digest": "abf181dc33e97cfe74377b46e2e335bffb4b3fde48b8548d273059b640ea31a6",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Sepeda motor denotes a motor-powered road vehicle, typically with two wheels. It is distinct from a pedal-powered sepeda.\", \"common_use\": \"Widely understood and common, especially in writing, public information, and careful speech.\", \"preferred\": \"The proposed term is correct, but motor is usually the shorter everyday choice in conversation.\", \"register\": \"Sepeda motor is neutral and somewhat more explicit; motor is colloquial-neutral.\", \"region\": \"Used throughout Indonesia; no regional restriction identified.\", \"alternatives\": [\"motor\"], \"claims\": [{\"claim_id\": \"transportation-02-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Sepeda motor denotes a motor-powered vehicle, typically with two wheels.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"transportation-02-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"For ordinary conversation in Indonesia, motor is generally preferred over the fuller sepeda motor.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://pid.kepri.polri.go.id/sejarah-sepeda-motor/\", \"claim_ids\": [\"transportation-02-Indonesia-meaning\"], \"exact_claim\": \"The police article describes sepeda motor as a two-wheeled vehicle driven by a machine.\"}, {\"url\": \"https://korlantas.polri.go.id/2026-07-22-banyak-yang-belum-tahu-ternyata-ini-alasan-motor-dilarang-masuk-jalan-tol/\", \"claim_ids\": [\"transportation-02-Indonesia-preferred\"], \"exact_claim\": \"The traffic-police headline uses the short form motor while the article also uses sepeda motor; compare this usage when auditing the conversational preference.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "motor"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-02-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Sepeda motor denotes a motor-powered vehicle, typically with two wheels."
+        },
+        {
+          "claim_id": "transportation-02-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "For ordinary conversation in Indonesia, motor is generally preferred over the fuller sepeda motor."
+        }
+      ],
+      "common_use": "Widely understood and common, especially in writing, public information, and careful speech.",
+      "meaning": "Sepeda motor denotes a motor-powered road vehicle, typically with two wheels. It is distinct from a pedal-powered sepeda.",
+      "preferred": "The proposed term is correct, but motor is usually the shorter everyday choice in conversation.",
+      "region": "Used throughout Indonesia; no regional restriction identified.",
+      "register": "Sepeda motor is neutral and somewhat more explicit; motor is colloquial-neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "transportation-02-Indonesia-meaning"
+          ],
+          "exact_claim": "The police article describes sepeda motor as a two-wheeled vehicle driven by a machine.",
+          "url": "https://pid.kepri.polri.go.id/sejarah-sepeda-motor/"
+        },
+        {
+          "claim_ids": [
+            "transportation-02-Indonesia-preferred"
+          ],
+          "exact_claim": "The traffic-police headline uses the short form motor while the article also uses sepeda motor; compare this usage when auditing the conversational preference.",
+          "url": "https://korlantas.polri.go.id/2026-07-22-banyak-yang-belum-tahu-ternyata-ini-alasan-motor-dilarang-masuk-jalan-tol/"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "motor"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-02-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Sepeda motor denotes a motor-powered vehicle, typically with two wheels."
+      },
+      {
+        "claim_id": "transportation-02-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "For ordinary conversation in Indonesia, motor is generally preferred over the fuller sepeda motor."
+      }
+    ],
+    "common_use": "Widely understood and common, especially in writing, public information, and careful speech.",
+    "meaning": "Sepeda motor denotes a motor-powered road vehicle, typically with two wheels. It is distinct from a pedal-powered sepeda.",
+    "preferred": "The proposed term is correct, but motor is usually the shorter everyday choice in conversation.",
+    "region": "Used throughout Indonesia; no regional restriction identified.",
+    "register": "Sepeda motor is neutral and somewhat more explicit; motor is colloquial-neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "transportation-02-Indonesia-meaning"
+        ],
+        "exact_claim": "The police article describes sepeda motor as a two-wheeled vehicle driven by a machine.",
+        "url": "https://pid.kepri.polri.go.id/sejarah-sepeda-motor/"
+      },
+      {
+        "claim_ids": [
+          "transportation-02-Indonesia-preferred"
+        ],
+        "exact_claim": "The traffic-police headline uses the short form motor while the article also uses sepeda motor; compare this usage when auditing the conversational preference.",
+        "url": "https://korlantas.polri.go.id/2026-07-22-banyak-yang-belum-tahu-ternyata-ini-alasan-motor-dilarang-masuk-jalan-tol/"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "19053914017c316698a2e7d02831cddd65c15dc449e520c38443633246596e20"
+}

@@ -1,0 +1,60 @@
+{
+  "accepted": 0,
+  "batch_id": "growth-audit-001",
+  "corrections": 0,
+  "created_at": "2026-10-04T04:02:22.525316+00:00",
+  "decisions": [
+    {
+      "candidate_id": "growth-01",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "independent-verification",
+          "adversarial-review"
+        ]
+      },
+      "outcome": "rejected",
+      "reason_codes": [
+        "confirmed-duplicate"
+      ],
+      "relation": "",
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "missing",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    }
+  ],
+  "duplicate_detections": 2,
+  "duplicate_resolutions": {
+    "merge": 1,
+    "unresolved": 1
+  },
+  "evidence_failures": 0,
+  "further_investigation": [],
+  "generated": 1,
+  "held": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "confirmed-duplicate": 1
+  },
+  "rejected": 1,
+  "relation_distribution": {},
+  "status": "closed",
+  "verification_failures": 1
+}

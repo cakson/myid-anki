@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:39:35.512447+00:00",
+  "input_digest": "86f54d99addca00e26d8a24f349834573f97d69c2299a2f419943ad577294800",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"common-verbs-001:everyday-actions-08\", \"type\": \"exact\", \"resolution\": \"merge\", \"rationale\": \"Both have the cue 'eat', the Indonesian and Malaysian answers 'makan', and the same sense of consuming food.\"}]}, \"bundle_response\": \"curation/batches/food-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-verbs-001:everyday-actions-08",
+          "rationale": "Both have the cue 'eat', the Indonesian and Malaysian answers 'makan', and the same sense of consuming food.",
+          "resolution": "merge",
+          "type": "exact"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "common-verbs-001:everyday-actions-08",
+        "rationale": "Both have the cue 'eat', the Indonesian and Malaysian answers 'makan', and the same sense of consuming food.",
+        "resolution": "merge",
+        "type": "exact"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "f6204a190a81634729791fef6ce73beaa9654349ee6cb3ca21616677ff56df12"
+}

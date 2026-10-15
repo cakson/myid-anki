@@ -1,0 +1,96 @@
+{
+  "at": "2026-10-04T10:40:43.194544+00:00",
+  "input_digest": "38f24ef62ab751a3e261a4ec2fef98236e2c19422c1b266c0d4dbf4becada27a",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Cili means chili pepper and fits the hot fresh chili ingredient sense. In recipes, cili may also appear in forms such as cili padi or cili merah, which specify varieties.\", \"common_use\": \"Cili is common and understood in Malaysia; Malaysian recipes use it for chili ingredients.\", \"preferred\": \"Cili is well-supported as a general term. The sources do not establish preference among specific chili varieties or alternatives such as lada in some contexts.\", \"register\": \"Neutral, standard Malay.\", \"region\": \"No regional restriction apparent in the sources.\", \"alternatives\": [\"cili padi (bird\\u2019s-eye chili; narrower)\", \"cili merah (red chili; narrower)\", \"lada (alternative term in some contexts)\"], \"claims\": [{\"claim_id\": \"produce-06-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Cili denotes chili pepper as a cooking ingredient; modifiers can identify particular varieties.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"produce-06-use\", \"claim_type\": \"locale-usage\", \"proposition\": \"Cili is used for chili ingredients in Malaysian recipes.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source\": \"Wilayahku recipe feature\", \"url\": \"https://www.wipers.gov.my/wp-content/uploads/2021/10/132-Wilayahku-10-16September2021.pdf\", \"claim\": \"Recipe ingredient lists include cili boh and cili padi, illustrating common specific forms.\"}, {\"source\": \"Kimball Malaysia, \\u201cResipi Gado-gado Raya\\u201d\", \"url\": \"https://kimball.com.my/bm/recipe/festive-gado-gado/\", \"claim\": \"Recipe instructions use cili giling as a cooking ingredient.\"}]}, \"bundle_response\": \"curation/batches/produce-001/malaysian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/malaysian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "cili padi (bird’s-eye chili; narrower)",
+        "cili merah (red chili; narrower)",
+        "lada (alternative term in some contexts)"
+      ],
+      "claims": [
+        {
+          "claim_id": "produce-06-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Cili denotes chili pepper as a cooking ingredient; modifiers can identify particular varieties."
+        },
+        {
+          "claim_id": "produce-06-use",
+          "claim_type": "locale-usage",
+          "locale": "Malaysia",
+          "proposition": "Cili is used for chili ingredients in Malaysian recipes."
+        }
+      ],
+      "common_use": "Cili is common and understood in Malaysia; Malaysian recipes use it for chili ingredients.",
+      "meaning": "Cili means chili pepper and fits the hot fresh chili ingredient sense. In recipes, cili may also appear in forms such as cili padi or cili merah, which specify varieties.",
+      "preferred": "Cili is well-supported as a general term. The sources do not establish preference among specific chili varieties or alternatives such as lada in some contexts.",
+      "region": "No regional restriction apparent in the sources.",
+      "register": "Neutral, standard Malay.",
+      "source_leads": [
+        {
+          "claim": "Recipe ingredient lists include cili boh and cili padi, illustrating common specific forms.",
+          "source": "Wilayahku recipe feature",
+          "url": "https://www.wipers.gov.my/wp-content/uploads/2021/10/132-Wilayahku-10-16September2021.pdf"
+        },
+        {
+          "claim": "Recipe instructions use cili giling as a cooking ingredient.",
+          "source": "Kimball Malaysia, “Resipi Gado-gado Raya”",
+          "url": "https://kimball.com.my/bm/recipe/festive-gado-gado/"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "cili padi (bird’s-eye chili; narrower)",
+      "cili merah (red chili; narrower)",
+      "lada (alternative term in some contexts)"
+    ],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:produce-06-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Cili denotes chili pepper as a cooking ingredient; modifiers can identify particular varieties."
+      },
+      {
+        "claim_id": "malaysian-usage:produce-06-use",
+        "claim_type": "locale-usage",
+        "locale": "Malaysia",
+        "proposition": "Cili is used for chili ingredients in Malaysian recipes."
+      }
+    ],
+    "common_use": "Cili is common and understood in Malaysia; Malaysian recipes use it for chili ingredients.",
+    "meaning": "Cili means chili pepper and fits the hot fresh chili ingredient sense. In recipes, cili may also appear in forms such as cili padi or cili merah, which specify varieties.",
+    "preferred": "Cili is well-supported as a general term. The sources do not establish preference among specific chili varieties or alternatives such as lada in some contexts.",
+    "region": "No regional restriction apparent in the sources.",
+    "register": "Neutral, standard Malay.",
+    "source_leads": [
+      {
+        "claim": "Recipe ingredient lists include cili boh and cili padi, illustrating common specific forms.",
+        "claim_ids": [],
+        "source": "Wilayahku recipe feature",
+        "url": "https://www.wipers.gov.my/wp-content/uploads/2021/10/132-Wilayahku-10-16September2021.pdf"
+      },
+      {
+        "claim": "Recipe instructions use cili giling as a cooking ingredient.",
+        "claim_ids": [],
+        "source": "Kimball Malaysia, “Resipi Gado-gado Raya”",
+        "url": "https://kimball.com.my/bm/recipe/festive-gado-gado/"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "a2df62af8fc1700510f25b065d5d994de9f92acf6b705fd17246f2bbc3f04c29"
+}

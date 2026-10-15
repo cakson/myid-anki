@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-03T19:49:15.343535+00:00",
+  "input_digest": "a7ae0df553206d17ee0476cc1c9031a4cc789532cc6b1727c1252b6fdb4444fd",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"english\": \"bathroom\", \"relation\": \"different-common-word\", \"semantic_alignment\": \"The cue is ambiguous about whether a toilet is present. Neither kamar mandi nor bilik air guarantees one. Suggested cue: room for bathing or washing.\", \"aligned\": false, \"claims\": [{\"claim_id\": \"topic-01-relation\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian kamar mandi and Malaysian bilik air are distinct everyday terms for a household room used for bathing or washing.\"}]}, \"bundle_response\": \"curation/batches/home-001/relation-response-v2.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/relation-response-v2.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "aligned": false,
+      "claims": [
+        {
+          "claim_id": "topic-01-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian kamar mandi and Malaysian bilik air are distinct everyday terms for a household room used for bathing or washing."
+        }
+      ],
+      "english": "bathroom",
+      "relation": "different-common-word",
+      "semantic_alignment": "The cue is ambiguous about whether a toilet is present. Neither kamar mandi nor bilik air guarantees one. Suggested cue: room for bathing or washing."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": false,
+    "claims": [
+      {
+        "claim_id": "topic-01-relation",
+        "claim_type": "relation",
+        "proposition": "Indonesian kamar mandi and Malaysian bilik air are distinct everyday terms for a household room used for bathing or washing."
+      }
+    ],
+    "english": "bathroom",
+    "relation": "different-common-word",
+    "semantic_alignment": "The cue is ambiguous about whether a toilet is present. Neither kamar mandi nor bilik air guarantees one. Suggested cue: room for bathing or washing."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "699d2c397a661ecc97d3b1c592f484067aa647b54d89761165e448971acc3f1b"
+}

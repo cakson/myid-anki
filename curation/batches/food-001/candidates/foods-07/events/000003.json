@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-03T19:44:42.801247+00:00",
+  "input_digest": "5eb8ea8f73c8b17b2948e1c65f262b81b58cfafa04cc99e275cc32173249c0c9",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Nasi means rice that has been cooked for eating. Uncooked rice is usually beras; rice as a growing plant is padi.\", \"common_use\": \"Extremely common and readily understood in contemporary Indonesia.\", \"preferred\": \"Nasi is the normal everyday choice when rice means the cooked food.\", \"register\": \"Neutral.\", \"region\": \"National Indonesian usage; the same form is also used in Malay.\", \"alternatives\": [\"beras\", \"padi\"], \"claims\": [{\"claim_id\": \"foods-07-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Nasi refers to rice that has been cooked for eating.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"foods-07-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Nasi is the normal everyday Indonesian choice for cooked rice.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.kemendikdasmen.go.id/entri/nasi\", \"claim_ids\": [\"foods-07-Indonesia-meaning\"], \"exact_claim\": \"The dictionary entry defines nasi as cooked rice.\"}, {\"url\": \"https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya\", \"claim_ids\": [\"foods-07-Indonesia-preferred\"], \"exact_claim\": \"A contemporary Indonesian meal plan uses nasi for the cooked rice served on a plate.\"}]}, \"bundle_response\": \"curation/batches/food-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "beras",
+        "padi"
+      ],
+      "claims": [
+        {
+          "claim_id": "foods-07-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Nasi refers to rice that has been cooked for eating."
+        },
+        {
+          "claim_id": "foods-07-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Nasi is the normal everyday Indonesian choice for cooked rice."
+        }
+      ],
+      "common_use": "Extremely common and readily understood in contemporary Indonesia.",
+      "meaning": "Nasi means rice that has been cooked for eating. Uncooked rice is usually beras; rice as a growing plant is padi.",
+      "preferred": "Nasi is the normal everyday choice when rice means the cooked food.",
+      "region": "National Indonesian usage; the same form is also used in Malay.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "foods-07-Indonesia-meaning"
+          ],
+          "exact_claim": "The dictionary entry defines nasi as cooked rice.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/nasi"
+        },
+        {
+          "claim_ids": [
+            "foods-07-Indonesia-preferred"
+          ],
+          "exact_claim": "A contemporary Indonesian meal plan uses nasi for the cooked rice served on a plate.",
+          "url": "https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "beras",
+      "padi"
+    ],
+    "claims": [
+      {
+        "claim_id": "foods-07-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Nasi refers to rice that has been cooked for eating."
+      },
+      {
+        "claim_id": "foods-07-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Nasi is the normal everyday Indonesian choice for cooked rice."
+      }
+    ],
+    "common_use": "Extremely common and readily understood in contemporary Indonesia.",
+    "meaning": "Nasi means rice that has been cooked for eating. Uncooked rice is usually beras; rice as a growing plant is padi.",
+    "preferred": "Nasi is the normal everyday choice when rice means the cooked food.",
+    "region": "National Indonesian usage; the same form is also used in Malay.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "foods-07-Indonesia-meaning"
+        ],
+        "exact_claim": "The dictionary entry defines nasi as cooked rice.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/nasi"
+      },
+      {
+        "claim_ids": [
+          "foods-07-Indonesia-preferred"
+        ],
+        "exact_claim": "A contemporary Indonesian meal plan uses nasi for the cooked rice served on a plate.",
+        "url": "https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "ce1165f8587920c9cc38cab9e0e3d1509c68b4c4c176f768f85c442331de695a"
+}

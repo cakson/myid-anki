@@ -1,0 +1,113 @@
+{
+  "at": "2026-10-04T10:14:45.451208+00:00",
+  "input_digest": "2ea95e4ef171696e26d11b1c80bfcaead0cc919b758f89c503db716979669e76",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"\\u201cPesan\\u201d means a message or communication conveyed to someone. It also has other senses, including advice, an instruction, or an order.\", \"common_use\": \"Common and readily understood for written and digital messages; it is also used in phrases such as \\u201cpesan suara\\u201d (voice message).\", \"preferred\": \"A natural, broadly usable choice for \\u201cmessage.\\u201d For app-based texting, \\u201cchat\\u201d is also common, especially when referring to the conversation or chat feature.\", \"register\": \"Neutral; the word itself is not informal, though its exact sense depends on context.\", \"region\": \"Standard contemporary Indonesian; no specific regional limitation identified.\", \"alternatives\": [\"chat (especially for app-based messaging or a chat conversation)\", \"surat (letter)\", \"pesan suara (voice message)\"], \"claims\": [{\"claim_id\": \"communication-01-id-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"KBBI-derived entry defines pesan as an instruction, advice, request, or message conveyed through another person; contemporary digital usage also applies it to messages sent in apps.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"communication-01-id-common\", \"claim_type\": \"locale-usage\", \"proposition\": \"Indonesian-language sources use pesan for WhatsApp messages and distinguish it from chat as a conversation or app feature.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"communication-01-id-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Pesan is a neutral general term for a message, while chat is a common alternative when the context is app-based conversation.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.web.id/pesan\", \"exact_claim\": \"The entry gives senses including a request, advice, instruction, or message conveyed through another person; this is a third-party KBBI mirror, not the official dictionary site.\"}, {\"url\": \"https://inet.detik.com/tips-dan-trik/d-5646890/cara-balas-pesan-di-grup-whatsapp-tanpa-ketahuan-yang-lain\", \"exact_claim\": \"The article uses pesan in its description of WhatsApp group messages.\"}, {\"url\": \"https://repository.uinsaizu.ac.id/10361/1/NURLAILY%20FAUZIATUN_IMPLEMENTASI%20MICROSOFT%20TEAMS%20FOR%20EDUCATION%20DALAM%20PEMBELAJARAN%20PENDIDIKAN%20AGAMA%20ISLAM%20DAN%20BUDI%20PEKERTI%20DI%20SMP%20NEGERI%201%20PURWOKERTO.pdf\", \"exact_claim\": \"The Indonesian-language document labels a Microsoft Teams feature \\u201cObrolan (chat)\\u201d and describes private conversations.\"}]}, \"bundle_response\": \"curation/batches/communication-001/indonesian-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/indonesian-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "chat (especially for app-based messaging or a chat conversation)",
+        "surat (letter)",
+        "pesan suara (voice message)"
+      ],
+      "claims": [
+        {
+          "claim_id": "communication-01-id-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "KBBI-derived entry defines pesan as an instruction, advice, request, or message conveyed through another person; contemporary digital usage also applies it to messages sent in apps."
+        },
+        {
+          "claim_id": "communication-01-id-common",
+          "claim_type": "locale-usage",
+          "locale": "Indonesia",
+          "proposition": "Indonesian-language sources use pesan for WhatsApp messages and distinguish it from chat as a conversation or app feature."
+        },
+        {
+          "claim_id": "communication-01-id-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Pesan is a neutral general term for a message, while chat is a common alternative when the context is app-based conversation."
+        }
+      ],
+      "common_use": "Common and readily understood for written and digital messages; it is also used in phrases such as “pesan suara” (voice message).",
+      "meaning": "“Pesan” means a message or communication conveyed to someone. It also has other senses, including advice, an instruction, or an order.",
+      "preferred": "A natural, broadly usable choice for “message.” For app-based texting, “chat” is also common, especially when referring to the conversation or chat feature.",
+      "region": "Standard contemporary Indonesian; no specific regional limitation identified.",
+      "register": "Neutral; the word itself is not informal, though its exact sense depends on context.",
+      "source_leads": [
+        {
+          "exact_claim": "The entry gives senses including a request, advice, instruction, or message conveyed through another person; this is a third-party KBBI mirror, not the official dictionary site.",
+          "url": "https://kbbi.web.id/pesan"
+        },
+        {
+          "exact_claim": "The article uses pesan in its description of WhatsApp group messages.",
+          "url": "https://inet.detik.com/tips-dan-trik/d-5646890/cara-balas-pesan-di-grup-whatsapp-tanpa-ketahuan-yang-lain"
+        },
+        {
+          "exact_claim": "The Indonesian-language document labels a Microsoft Teams feature “Obrolan (chat)” and describes private conversations.",
+          "url": "https://repository.uinsaizu.ac.id/10361/1/NURLAILY%20FAUZIATUN_IMPLEMENTASI%20MICROSOFT%20TEAMS%20FOR%20EDUCATION%20DALAM%20PEMBELAJARAN%20PENDIDIKAN%20AGAMA%20ISLAM%20DAN%20BUDI%20PEKERTI%20DI%20SMP%20NEGERI%201%20PURWOKERTO.pdf"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "chat (especially for app-based messaging or a chat conversation)",
+      "surat (letter)",
+      "pesan suara (voice message)"
+    ],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:communication-01-id-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "KBBI-derived entry defines pesan as an instruction, advice, request, or message conveyed through another person; contemporary digital usage also applies it to messages sent in apps."
+      },
+      {
+        "claim_id": "indonesian-usage:communication-01-id-common",
+        "claim_type": "locale-usage",
+        "locale": "Indonesia",
+        "proposition": "Indonesian-language sources use pesan for WhatsApp messages and distinguish it from chat as a conversation or app feature."
+      },
+      {
+        "claim_id": "indonesian-usage:communication-01-id-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Pesan is a neutral general term for a message, while chat is a common alternative when the context is app-based conversation."
+      }
+    ],
+    "common_use": "Common and readily understood for written and digital messages; it is also used in phrases such as “pesan suara” (voice message).",
+    "meaning": "“Pesan” means a message or communication conveyed to someone. It also has other senses, including advice, an instruction, or an order.",
+    "preferred": "A natural, broadly usable choice for “message.” For app-based texting, “chat” is also common, especially when referring to the conversation or chat feature.",
+    "region": "Standard contemporary Indonesian; no specific regional limitation identified.",
+    "register": "Neutral; the word itself is not informal, though its exact sense depends on context.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim": "The entry gives senses including a request, advice, instruction, or message conveyed through another person; this is a third-party KBBI mirror, not the official dictionary site.",
+        "url": "https://kbbi.web.id/pesan"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim": "The article uses pesan in its description of WhatsApp group messages.",
+        "url": "https://inet.detik.com/tips-dan-trik/d-5646890/cara-balas-pesan-di-grup-whatsapp-tanpa-ketahuan-yang-lain"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim": "The Indonesian-language document labels a Microsoft Teams feature “Obrolan (chat)” and describes private conversations.",
+        "url": "https://repository.uinsaizu.ac.id/10361/1/NURLAILY%20FAUZIATUN_IMPLEMENTASI%20MICROSOFT%20TEAMS%20FOR%20EDUCATION%20DALAM%20PEMBELAJARAN%20PENDIDIKAN%20AGAMA%20ISLAM%20DAN%20BUDI%20PEKERTI%20DI%20SMP%20NEGERI%201%20PURWOKERTO.pdf"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "2b9b41e38cbd652d1040b334b3e30a3a5a26b88d8854d31a90ee144a69bd7f05"
+}

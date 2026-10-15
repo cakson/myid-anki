@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T04:09:46.921610+00:00",
+  "input_digest": "45e8a5757b368ddf3220ae58941702217ad92602d257247217318a33d1118247",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"GPT-6\", \"result\": {\"english\": \"computer\", \"relation\": \"same\", \"semantic_alignment\": \"An electronic device for processing information and running software.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:technology-02\", \"claim_type\": \"relation\", \"proposition\": \"\\u201cKomputer\\u201d is a common general term for a computer in both Indonesian and Malaysian Malay, matching the English cue in the stated everyday device sense.\"}]}, \"bundle_response\": \"curation/batches/technology-001/relation-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/technology-001/relation-response.json",
+    "model": "GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:technology-02",
+          "claim_type": "relation",
+          "proposition": "“Komputer” is a common general term for a computer in both Indonesian and Malaysian Malay, matching the English cue in the stated everyday device sense."
+        }
+      ],
+      "english": "computer",
+      "relation": "same",
+      "semantic_alignment": "An electronic device for processing information and running software."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:technology-02",
+        "claim_type": "relation",
+        "proposition": "“Komputer” is a common general term for a computer in both Indonesian and Malaysian Malay, matching the English cue in the stated everyday device sense."
+      }
+    ],
+    "english": "computer",
+    "relation": "same",
+    "semantic_alignment": "An electronic device for processing information and running software."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "f90dfecfa2e451f8f49900f10a34699a250e41f18f2d9c7c5744b32033896792"
+}

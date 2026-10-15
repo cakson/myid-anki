@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.418101+00:00",
+  "input_digest": "ed645167168507e83e42eea4779849cdbcccea254016cb570c4cd1de7b809267",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The shared Indonesian word sepeda refers to different vehicles here: the bicycle is pedal-powered, while sepeda motor is powered by a motor.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-02",
+          "rationale": "The shared Indonesian word sepeda refers to different vehicles here: the bicycle is pedal-powered, while sepeda motor is powered by a motor.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-02",
+        "rationale": "The shared Indonesian word sepeda refers to different vehicles here: the bicycle is pedal-powered, while sepeda motor is powered by a motor.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "43c43906dd4acb051f85e5f470bef5f5446314af9944b89301b9164fc5bd34a6"
+}

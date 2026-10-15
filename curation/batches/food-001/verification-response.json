@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "role": "independent-verification",
+  "model": "gpt-6-sol/codex-cli",
+  "results": {
+    "foods-01": {
+      "verdict": "agree",
+      "relation": "different-common-word",
+      "concerns": [],
+      "rationale": "Both expressions denote lunch. The audited meal schedules show each as a natural neutral choice in its locale."
+    },
+    "foods-02": {
+      "verdict": "agree",
+      "relation": "different-common-word",
+      "concerns": ["The measuring-spoon example does not support preference for an eating spoon."],
+      "rationale": "The separate caregiving and food-use evidence supports sendok and sudu as ordinary eating utensils in their respective locales."
+    },
+    "foods-03": {
+      "verdict": "agree",
+      "relation": "different-common-word",
+      "concerns": ["Malaysian piring can refer to a smaller plate, so it is not interchangeable with pinggan for every meal plate."],
+      "rationale": "The audited usage places Indonesian piring and Malaysian pinggan in the stated meal-plate sense."
+    },
+    "foods-04": {
+      "verdict": "agree",
+      "relation": "different-common-word",
+      "concerns": ["The Malaysian source also uses enak for food; the evidence does not establish how much more common sedap is."],
+      "rationale": "The taste sense and natural food-related use of enak in Indonesia and sedap in Malaysia are supported. The claimed preference is plausible, but its strength remains unmeasured."
+    },
+    "foods-05": {
+      "verdict": "agree",
+      "relation": "similar",
+      "concerns": ["Specific condiments may be named sambal, kecap, kicap, or another term instead of the generic word."],
+      "rationale": "Audited sources show saus and sos used for food sauces, including generic use. Their forms differ, while the stated senses align."
+    },
+    "foods-06": {
+      "verdict": "agree",
+      "relation": "similar",
+      "concerns": ["The Indonesian examples do not independently establish the full size and texture boundaries of biskuit."],
+      "rationale": "The audited sources support biskuit and biskut as familiar baked-snack terms; the Malaysian definition directly supports the dry, crisp sense."
+    }
+  }
+}

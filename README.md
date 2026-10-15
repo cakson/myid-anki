@@ -1,6 +1,6 @@
 # MYID Anki
 
-MYID Anki builds a standard, offline-ready Anki package for learning reviewed Indonesian and
+MYID Anki builds a standard, offline-ready Anki package for learning curated Indonesian and
 Malaysian Malay—Bahasa Melayu as used in Malaysia—from repository-managed source data. It targets
 this variety, not all Malay varieties. The repository is authoritative: edit the TSV, templates,
 configuration, or media, then rebuild. Never maintain vocabulary by editing a generated `.apkg`
@@ -14,7 +14,8 @@ a speaker of one language to recognize or partly understand the other. Everyday 
 still a major practical area of cross-learning that this deck is designed to exercise—not a claim
 that vocabulary is universally the hardest part of learning either language.
 
-The vocabulary relationship is not simply “same” versus “different.” A concept may use the same or
+The vocabulary relationship is not simply “same” versus “different.” Some concepts use the same
+ordinary word in both languages; this contrast-only deck excludes those. Other concepts use
 almost the same word in both languages; speakers may recognize a word but ordinarily prefer
 different everyday words; a shared-looking word may differ in frequency, register, or normal usage;
 or similar-looking words may carry different meanings. More rarely, a familiar-looking word can
@@ -31,7 +32,7 @@ genuine recall rather than inference from the related language.
 For example, the front may show:
 
 ```text
-CAR
+SPOON
 
 Answer in Bahasa Indonesia
 or Bahasa Melayu
@@ -40,20 +41,20 @@ or Bahasa Melayu
 After the learner attempts an answer, the back reveals both forms together:
 
 ```text
-CAR
+SPOON
 
 Bahasa Indonesia
-mobil
+sendok
 
 Bahasa Melayu
-kereta
+sudu
 ```
 
 The comparison is part of the learning experience: the learner can notice whether the words are
-the same, similar, commonly different, or potentially misleading. This is one shared deck for
+similar, commonly different, or potentially misleading. This is one shared deck for
 learners in either direction. An Indonesian speaker learning Malaysian Malay (Bahasa Melayu as used
-in Malaysia) can use CAR to recall “kereta”; a speaker of that variety learning Indonesian can use
-the same cue to recall “mobil.”
+in Malaysia) can use SPOON to recall “sudu”; a speaker of that variety learning Indonesian can use
+the same cue to recall “sendok.”
 The card does not encode a direction or create separate schedules. Rate the concept based on your
 recall of the language you are practicing. If you want to maintain both vocabularies actively, try
 to recall both answers before revealing the card.
@@ -82,23 +83,95 @@ after dependencies and media are present locally.
 
 ## Vocabulary source
 
-The sole vocabulary source is `data/vocabulary.tsv`, encoded as UTF-8. It has exactly these six
+The sole learner vocabulary source is `data/vocabulary.tsv`, encoded as UTF-8. It has exactly these eight
 tab-separated columns in this order:
 
 ```tsv
-id	english	indonesian	malaysian	image	tags
+id	english	indonesian	malaysian	relation	image	tags	contrast
 ```
 
 Each data row is one semantic concept. `id`, `english`, `indonesian`, and `malaysian` are required;
-`image` and `tags` may be empty. Tags are whitespace-separated Anki tags. Vocabulary must be
-reviewed and entered by maintainers; the build never translates, generates, normalizes, or repairs
-language content. The checked-in `car` example was approved as the first reviewed concept.
+`relation` in learner source is one of `similar`, `different-common-word`, or `false-friend`.
+The `same` classification is retained in curation records to explain rejected candidates.
+`image` and
+`tags` may be empty; tags are whitespace-separated Anki tags. `contrast` is required only for a
+false friend and appears only on the back. It briefly names the misleading lookalike and its
+actual meaning. The build copies accepted source content; it never translates, generates,
+researches, or repairs language content.
 
-To add a concept, append one TSV row with a new six-digit ASCII ID and its reviewed values. Keep IDs
+Accepted vocabulary comes from the AI-first curation workflow below. Keep IDs
 as text, including leading zeroes (for example, `000001`). An ID is permanent: do not change or reuse it when correcting a
 translation, changing English, adding/removing an image, or editing tags. Reintroducing the same
 concept later must use its original ID; it will recover the same Anki note identity. A different
 semantic concept needs a different ID.
+The original `000001` car proposal is retired after the independent reviews found its everyday
+preference claim insufficiently supported. Former shared-vocabulary entries `000002` (kitchen),
+`000006` (computer), and `000007` (corn) are also retired under the contrast-only policy. Their
+assignments remain in the ledger and are never reused.
+
+## AI-first vocabulary curation
+
+AI performs most discovery, usage analysis, relation proposal, evidence gathering, verification,
+and later library growth. A single AI answer is a candidate, never an accepted row. The project
+uses separate role prompts for candidate generation, semantic overlap, Indonesian and Malaysian
+usage, relation proposal, evidence audit, independent verification, and adversarial challenge.
+AI can make plausible language mistakes; the quality claim rests on inspectable evidence, role
+separation, conservative decisions, and corrections over time.
+
+Work in topic batches of at most 12 candidates. For example:
+
+```sh
+python -m indo_malay_anki.curation init --batch home-002 --topic home --limit 12
+python -m indo_malay_anki.curation packet --batch home-002 --role generate
+python -m indo_malay_anki.curation ingest --batch home-002 --role generate --response response.json
+python -m indo_malay_anki.curation report --batch home-002
+```
+
+Use `packet` and `ingest` for each later role and candidate; `bundle` and `ingest-bundle` group
+one role across a bounded batch while retaining separate candidate stage records. The prompts,
+provider configuration, ID ledger, batch manifests, raw responses, inspected source observations,
+decisions, and reports live under `curation/`. The [Feature 003 quickstart](specs/003-vocabulary-curation/quickstart.md)
+shows the full sequence and failure checks. Prompt packets and stage inputs carry digests so an
+affected verification stage must be rerun after a material edit.
+New batches pin a prompt-set version and a compact snapshot of already investigated concepts.
+The generator sees that snapshot to avoid proposing the same concept again; normalization still
+checks semantic overlap independently. Historical prompt text remains under
+`curation/prompts/versions/` so later prompt improvements do not alter an earlier batch's stage
+digests.
+
+The `reserve` cost policy in `curation/config.json` routes every curation role to
+`gpt-5.6-luna`. Verification and adversarial review remain separate calls with separate
+prompts and medium reasoning effort. Check a stage's route with
+`python -m indo_malay_anki.curation route --role ROLE` and pass that model and reasoning effort
+to the AI tool. This policy is a repository convention, not a Codex CLI service tier. Stage
+records keep the actual model identifier; pass `--actual-model` when ingesting a response because
+an AI response can mislabel itself. Learner builds do not read this setting. The evidence packet
+precheck rejects duplicate claim IDs, unresolved overlap, and cue mismatch. Verification and
+adversarial packets are withheld when the evidence or verifier gate already fails.
+For `1.2.0`, `1.3.0`, `1.4.0`, and `1.5.0` batches, inspect promising external sources before locale analysis and save
+the observations using `curation/source-inspection-template.json`. Locale packets are withheld
+until both languages have inspected leads from at least two underlying source groups. Luna
+uses those leads at low reasoning effort; the later evidence audit independently checks
+whether they support each claim. Older batches keep their pinned prompt behavior.
+
+Important claims need at least two independent, claim-relevant external signals, inspected during
+curation. A dictionary can show a word exists or has a meaning; it does not by itself show that it
+is the normal everyday choice in a country. For `different-common-word`, compare natural use and
+register on both sides for the same neutral English sense. False friends need stronger evidence
+for both meanings and the misleading contrast, plus independent verification and adversarial
+agreement. Evidence from mirrors of one publisher does not count twice. Disagreements, weak
+sources, ambiguous cues, and unresolved semantic overlap go on hold or are rejected. Model
+self-confidence never overrides a failed gate.
+
+Use `check` and `report` to inspect accepted, held, rejected, and pending counts, relation
+distribution, duplicate findings, and evidence or verification failures. A batch closes only when
+no candidate is pending. `finalize-hold` records why an investigation stopped; `reopen` can resume
+it later without deleting its prior records. Only accepted candidates from closed batches may be
+promoted with `curation export --batch BATCH`; a closed batch with zero accepted candidates is a
+valid quality outcome. The guarded export screens overlaps again, assigns
+permanent IDs, validates the prospective TSV, and recovers interrupted writes. Held, rejected,
+and partial batches never modify the learner TSV. The normal `validate`, `build`, CI, and release
+paths use the accepted TSV only and make no AI or live-research calls.
 
 ## Optional images
 

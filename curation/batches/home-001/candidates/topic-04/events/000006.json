@@ -1,0 +1,189 @@
+{
+  "at": "2026-10-03T20:00:18.776690+00:00",
+  "input_digest": "fff05575bf6375e339dc16eeeb924d7d9e7651c4f48daa2a2b53f92565a1fc5e",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [\"The cited KBBI jendela entry was inaccessible.\", \"The cited DBP tingkap page returned a cache miss; only its search extract was inspected.\"], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-04-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"04-01\", \"limitations\": \"This establishes that glass is not inherent to every window construction; it is technical rather than everyday usage.\", \"locale\": \"Indonesia\", \"observation\": \"The construction text calls a jendela a wall opening and distinguishes opening leaves from fixed glass.\", \"page_location_or_query\": \"PDF page 117, lines 3093\\u20133101\", \"publisher\": \"Indonesian Ministry of Primary and Secondary Education repository\", \"register\": \"technical education\", \"source_group\": \"Kemendikdasmen educational repository\", \"source_title\": \"Konstruksi Kayu\", \"stance\": \"supports\", \"url_or_query\": \"https://repositori.kemendikdasmen.go.id/6137/1/F%20Konstruksi%20Kayu.pdf\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"corpus-query\", \"claim_id\": \"topic-04-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"04-02\", \"limitations\": \"The search result was inspected, but the full article was not retrieved; one publisher cannot prove nationwide preference.\", \"locale\": \"Indonesia\", \"observation\": \"The consumer article refers to daylight entering through a large jendela and sitting near it.\", \"page_location_or_query\": \"Search query: site:ikea.co.id/in/inspirasi \\\"jendela\\\" \\\"cahaya\\\"; section Memanfaatkan pencahayaan alami di dekat jendela\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Spot foto Instagramable di IKEA\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/inspirasi/spot-foto-instagramable\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"corpus-query\", \"claim_id\": \"topic-04-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"04-03\", \"limitations\": \"The full DBP page returned a cache miss; the observation is limited to the inspected search extract.\", \"locale\": \"Malaysia\", \"observation\": \"The indexed DBP definition describes tingkap as a closable wall opening for air and gives jendela as an equivalent; glass is not specified.\", \"page_location_or_query\": \"Search query: site:prpm.dbp.gov.my/Cari1?keyword=tingkap \\\"Definisi\\\"\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP\", \"source_title\": \"Carian Umum: tingkap\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=274052&keyword=tingkap\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-04-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"04-04\", \"limitations\": \"This is one contextual use, not a frequency comparison with jendela.\", \"locale\": \"Malaysia\", \"observation\": \"A living-room image description says sunlight enters through tingkap Perancis.\", \"page_location_or_query\": \"Lines 30\\u201332\", \"publisher\": \"IKEA Malaysia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Cara untuk: mencipta ruang tamu yang disukai\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.com/my/ms/ideas/cara-untuk-mencipta-ruang-tamu-yang-disukai-pubef3f6950/\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"04-05\", \"reason\": \"url_or_query must identify one source, not a joined comparison\"}]}, \"bundle_response\": \"curation/batches/home-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        "The cited KBBI jendela entry was inaccessible.",
+        "The cited DBP tingkap page returned a cache miss; only its search extract was inspected."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-04-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "04-01",
+          "limitations": "This establishes that glass is not inherent to every window construction; it is technical rather than everyday usage.",
+          "locale": "Indonesia",
+          "observation": "The construction text calls a jendela a wall opening and distinguishes opening leaves from fixed glass.",
+          "page_location_or_query": "PDF page 117, lines 3093–3101",
+          "publisher": "Indonesian Ministry of Primary and Secondary Education repository",
+          "register": "technical education",
+          "source_group": "Kemendikdasmen educational repository",
+          "source_title": "Konstruksi Kayu",
+          "stance": "supports",
+          "url_or_query": "https://repositori.kemendikdasmen.go.id/6137/1/F%20Konstruksi%20Kayu.pdf",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "corpus-query",
+          "claim_id": "topic-04-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "04-02",
+          "limitations": "The search result was inspected, but the full article was not retrieved; one publisher cannot prove nationwide preference.",
+          "locale": "Indonesia",
+          "observation": "The consumer article refers to daylight entering through a large jendela and sitting near it.",
+          "page_location_or_query": "Search query: site:ikea.co.id/in/inspirasi \"jendela\" \"cahaya\"; section Memanfaatkan pencahayaan alami di dekat jendela",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Spot foto Instagramable di IKEA",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/inspirasi/spot-foto-instagramable",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "corpus-query",
+          "claim_id": "topic-04-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "04-03",
+          "limitations": "The full DBP page returned a cache miss; the observation is limited to the inspected search extract.",
+          "locale": "Malaysia",
+          "observation": "The indexed DBP definition describes tingkap as a closable wall opening for air and gives jendela as an equivalent; glass is not specified.",
+          "page_location_or_query": "Search query: site:prpm.dbp.gov.my/Cari1?keyword=tingkap \"Definisi\"",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: tingkap",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=tingkap",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-04-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "04-04",
+          "limitations": "This is one contextual use, not a frequency comparison with jendela.",
+          "locale": "Malaysia",
+          "observation": "A living-room image description says sunlight enters through tingkap Perancis.",
+          "page_location_or_query": "Lines 30–32",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Cara untuk: mencipta ruang tamu yang disukai",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/ideas/cara-untuk-mencipta-ruang-tamu-yang-disukai-pubef3f6950/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "04-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      "The cited KBBI jendela entry was inaccessible.",
+      "The cited DBP tingkap page returned a cache miss; only its search extract was inspected."
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-04-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "04-01",
+        "limitations": "This establishes that glass is not inherent to every window construction; it is technical rather than everyday usage.",
+        "locale": "Indonesia",
+        "observation": "The construction text calls a jendela a wall opening and distinguishes opening leaves from fixed glass.",
+        "page_location_or_query": "PDF page 117, lines 3093–3101",
+        "publisher": "Indonesian Ministry of Primary and Secondary Education repository",
+        "register": "technical education",
+        "source_group": "Kemendikdasmen educational repository",
+        "source_title": "Konstruksi Kayu",
+        "stance": "supports",
+        "url_or_query": "https://repositori.kemendikdasmen.go.id/6137/1/F%20Konstruksi%20Kayu.pdf",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "corpus-query",
+        "claim_id": "topic-04-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "04-02",
+        "limitations": "The search result was inspected, but the full article was not retrieved; one publisher cannot prove nationwide preference.",
+        "locale": "Indonesia",
+        "observation": "The consumer article refers to daylight entering through a large jendela and sitting near it.",
+        "page_location_or_query": "Search query: site:ikea.co.id/in/inspirasi \"jendela\" \"cahaya\"; section Memanfaatkan pencahayaan alami di dekat jendela",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Spot foto Instagramable di IKEA",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/inspirasi/spot-foto-instagramable",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "corpus-query",
+        "claim_id": "topic-04-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "04-03",
+        "limitations": "The full DBP page returned a cache miss; the observation is limited to the inspected search extract.",
+        "locale": "Malaysia",
+        "observation": "The indexed DBP definition describes tingkap as a closable wall opening for air and gives jendela as an equivalent; glass is not specified.",
+        "page_location_or_query": "Search query: site:prpm.dbp.gov.my/Cari1?keyword=tingkap \"Definisi\"",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP",
+        "source_title": "Carian Umum: tingkap",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=tingkap",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-04-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "04-04",
+        "limitations": "This is one contextual use, not a frequency comparison with jendela.",
+        "locale": "Malaysia",
+        "observation": "A living-room image description says sunlight enters through tingkap Perancis.",
+        "page_location_or_query": "Lines 30–32",
+        "publisher": "IKEA Malaysia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Cara untuk: mencipta ruang tamu yang disukai",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.com/my/ms/ideas/cara-untuk-mencipta-ruang-tamu-yang-disukai-pubef3f6950/",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "04-05",
+        "reason": "url_or_query must identify one source, not a joined comparison"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "cf20e33f189daebd636218f19494e13d768da11d9c0012a7235d8ba6f8a67ed7"
+}

@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-03T20:07:14.524365+00:00",
+  "input_digest": "6cc3cd2da364e4c1e06c9cb48010f08fb3bded79bd9aeed2157c85f9dce4eac2",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"english\": \"car parking area\", \"relation\": \"different-common-word\", \"semantic_alignment\": \"Indonesian tempat parkir does not specify cars, while Malaysian Malay tempat letak kereta is conventional in signage and can also mean an individual parking space. Suggested cue: parking area.\", \"aligned\": false, \"claims\": [{\"claim_id\": \"transportation-11-relation\", \"claim_type\": \"relation\", \"proposition\": \"The proposed terms can refer to parking areas, but they differ in vehicle specificity and everyday register; Malaysian Malay parkir is often the shorter everyday choice.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/relation-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/relation-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "aligned": false,
+      "claims": [
+        {
+          "claim_id": "transportation-11-relation",
+          "claim_type": "relation",
+          "proposition": "The proposed terms can refer to parking areas, but they differ in vehicle specificity and everyday register; Malaysian Malay parkir is often the shorter everyday choice."
+        }
+      ],
+      "english": "car parking area",
+      "relation": "different-common-word",
+      "semantic_alignment": "Indonesian tempat parkir does not specify cars, while Malaysian Malay tempat letak kereta is conventional in signage and can also mean an individual parking space. Suggested cue: parking area."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": false,
+    "claims": [
+      {
+        "claim_id": "transportation-11-relation",
+        "claim_type": "relation",
+        "proposition": "The proposed terms can refer to parking areas, but they differ in vehicle specificity and everyday register; Malaysian Malay parkir is often the shorter everyday choice."
+      }
+    ],
+    "english": "car parking area",
+    "relation": "different-common-word",
+    "semantic_alignment": "Indonesian tempat parkir does not specify cars, while Malaysian Malay tempat letak kereta is conventional in signage and can also mean an individual parking space. Suggested cue: parking area."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "e817f68b2bc07cf0541026ced6987b0c4cad206c55229c55560ed9132ebab5dd"
+}

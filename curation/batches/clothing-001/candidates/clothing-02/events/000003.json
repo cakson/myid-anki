@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-05T13:57:45.194078+00:00",
+  "input_digest": "a9cf11c5b1e58013cdae4c93dcfd2393d7ba85ea3b4de7dfd7ef341e0e53be11",
+  "model": "gpt-5.6-luna/codex-cli",
+  "prompt_set_version": "1.3.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"GPT-5\", \"result\": {\"meaning\": \"Kasut denotes footwear worn on or covering the foot and includes ordinary shoes; this matches the neutral sense of shoes.\", \"common_use\": \"Kasut is clearly understood and commonly used in Malaysia for shoes and footwear. The provided institutional example uses Kasut kanvas naturally.\", \"preferred\": \"The notes support common Malaysian use, but do not establish normal everyday preference over sepatu with sufficient confidence.\", \"register\": \"Neutral everyday usage; also used in institutional and school-uniform contexts.\", \"region\": \"Malaysia; no narrower regional limitation is indicated.\", \"alternatives\": [\"sepatu\"], \"claims\": [{\"claim_id\": \"clothing-02-meaning-1\", \"claim_type\": \"meaning\", \"proposition\": \"In Malaysian Malay, kasut denotes footwear covering the foot and includes ordinary shoes, matching the neutral sense of shoes.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"clothing-02-usage-1\", \"claim_type\": \"locale-usage\", \"proposition\": \"Kasut is used naturally in Malaysian institutional clothing terminology, including Kasut kanvas in a preschool uniform guideline.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source_kind\": \"dictionary\", \"publisher\": \"Dewan Bahasa dan Pustaka Malaysia\", \"source_group\": \"Dewan Bahasa dan Pustaka PRPM\", \"url\": \"https://prpm.dbp.gov.my/Cari1?d=169476&keyword=kasut\", \"exact_claim\": \"The kasut entries define footwear covering the foot, list many types of kasut, and give sepatu as a synonym.\"}, {\"source_kind\": \"contextual\", \"publisher\": \"Kementerian Pendidikan Malaysia\", \"source_group\": \"Malaysian Ministry of Education\", \"url\": \"https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/surat_siaran/bahagian-pengurusan-sekolah-harian/SS%20KPM%20Bil.%204%20Tahun%202025%20-%20GP%20Pengurusan%20Prasekolah%20Edisi%202025.pdf\", \"exact_claim\": \"Section 5.7.1, PDF page 68, lines 1953-1960 specifies Kasut kanvas as preschool uniform footwear.\"}]}, \"bundle_response\": \"curation/batches/clothing-001/malaysian-response.json\"}",
+  "reported_model": "GPT-5",
+  "response": {
+    "bundle_response": "curation/batches/clothing-001/malaysian-response.json",
+    "model": "GPT-5",
+    "result": {
+      "alternatives": [
+        "sepatu"
+      ],
+      "claims": [
+        {
+          "claim_id": "clothing-02-meaning-1",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "In Malaysian Malay, kasut denotes footwear covering the foot and includes ordinary shoes, matching the neutral sense of shoes."
+        },
+        {
+          "claim_id": "clothing-02-usage-1",
+          "claim_type": "locale-usage",
+          "locale": "Malaysia",
+          "proposition": "Kasut is used naturally in Malaysian institutional clothing terminology, including Kasut kanvas in a preschool uniform guideline."
+        }
+      ],
+      "common_use": "Kasut is clearly understood and commonly used in Malaysia for shoes and footwear. The provided institutional example uses Kasut kanvas naturally.",
+      "meaning": "Kasut denotes footwear worn on or covering the foot and includes ordinary shoes; this matches the neutral sense of shoes.",
+      "preferred": "The notes support common Malaysian use, but do not establish normal everyday preference over sepatu with sufficient confidence.",
+      "region": "Malaysia; no narrower regional limitation is indicated.",
+      "register": "Neutral everyday usage; also used in institutional and school-uniform contexts.",
+      "source_leads": [
+        {
+          "exact_claim": "The kasut entries define footwear covering the foot, list many types of kasut, and give sepatu as a synonym.",
+          "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+          "source_group": "Dewan Bahasa dan Pustaka PRPM",
+          "source_kind": "dictionary",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=169476&keyword=kasut"
+        },
+        {
+          "exact_claim": "Section 5.7.1, PDF page 68, lines 1953-1960 specifies Kasut kanvas as preschool uniform footwear.",
+          "publisher": "Kementerian Pendidikan Malaysia",
+          "source_group": "Malaysian Ministry of Education",
+          "source_kind": "contextual",
+          "url": "https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/surat_siaran/bahagian-pengurusan-sekolah-harian/SS%20KPM%20Bil.%204%20Tahun%202025%20-%20GP%20Pengurusan%20Prasekolah%20Edisi%202025.pdf"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "sepatu"
+    ],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:clothing-02-meaning-1",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "In Malaysian Malay, kasut denotes footwear covering the foot and includes ordinary shoes, matching the neutral sense of shoes."
+      },
+      {
+        "claim_id": "malaysian-usage:clothing-02-usage-1",
+        "claim_type": "locale-usage",
+        "locale": "Malaysia",
+        "proposition": "Kasut is used naturally in Malaysian institutional clothing terminology, including Kasut kanvas in a preschool uniform guideline."
+      }
+    ],
+    "common_use": "Kasut is clearly understood and commonly used in Malaysia for shoes and footwear. The provided institutional example uses Kasut kanvas naturally.",
+    "meaning": "Kasut denotes footwear worn on or covering the foot and includes ordinary shoes; this matches the neutral sense of shoes.",
+    "preferred": "The notes support common Malaysian use, but do not establish normal everyday preference over sepatu with sufficient confidence.",
+    "region": "Malaysia; no narrower regional limitation is indicated.",
+    "register": "Neutral everyday usage; also used in institutional and school-uniform contexts.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim": "The kasut entries define footwear covering the foot, list many types of kasut, and give sepatu as a synonym.",
+        "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+        "source_group": "Dewan Bahasa dan Pustaka PRPM",
+        "source_kind": "dictionary",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=169476&keyword=kasut"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim": "Section 5.7.1, PDF page 68, lines 1953-1960 specifies Kasut kanvas as preschool uniform footwear.",
+        "publisher": "Kementerian Pendidikan Malaysia",
+        "source_group": "Malaysian Ministry of Education",
+        "source_kind": "contextual",
+        "url": "https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/surat_siaran/bahagian-pengurusan-sekolah-harian/SS%20KPM%20Bil.%204%20Tahun%202025%20-%20GP%20Pengurusan%20Prasekolah%20Edisi%202025.pdf"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "4f6c2a016f34db87dd47bba7306bc1bd734bde9420a60b83df615b42c2e0548c"
+}

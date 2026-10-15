@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-04T10:12:24.617947+00:00",
+  "input_digest": "78bc1d208186885d8517ea190a325e5073f36bb255031a1ab8f4b73420b45a1f",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-6\", \"result\": {\"overlaps\": [{\"other_id\": \"technology-001:technology-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A phone call is the act of contacting someone by phone; a cell phone is the device used to do so.\"}]}, \"bundle_response\": \"curation/batches/communication-001/normalize-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/normalize-response.json",
+    "model": "GPT-6",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-01",
+          "rationale": "A phone call is the act of contacting someone by phone; a cell phone is the device used to do so.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "technology-001:technology-01",
+        "rationale": "A phone call is the act of contacting someone by phone; a cell phone is the device used to do so.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "86e76bb7ffa980ef29f8c7447b7dbd3f741870a680742872cce602da121618e1"
+}

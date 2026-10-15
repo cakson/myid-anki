@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T10:28:12.740152+00:00",
+  "input_digest": "d949e8f975086446e042a916249ca0643ff8530ff931b8a308e0ecc1f2fb9290",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"OpenAI GPT-6\", \"result\": {\"english\": \"watermelon\", \"relation\": \"different-common-word\", \"semantic_alignment\": \"The large fruit with sweet flesh and a green rind.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:watermelon-semangka-tembikai-different\", \"claim_type\": \"relation\", \"proposition\": \"For watermelon, Indonesian commonly uses \\u201csemangka\\u201d while Malaysian Malay commonly uses \\u201ctembikai\\u201d; these are different everyday words for the same fruit.\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/relation-response.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/relation-response.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:watermelon-semangka-tembikai-different",
+          "claim_type": "relation",
+          "proposition": "For watermelon, Indonesian commonly uses “semangka” while Malaysian Malay commonly uses “tembikai”; these are different everyday words for the same fruit."
+        }
+      ],
+      "english": "watermelon",
+      "relation": "different-common-word",
+      "semantic_alignment": "The large fruit with sweet flesh and a green rind."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:watermelon-semangka-tembikai-different",
+        "claim_type": "relation",
+        "proposition": "For watermelon, Indonesian commonly uses “semangka” while Malaysian Malay commonly uses “tembikai”; these are different everyday words for the same fruit."
+      }
+    ],
+    "english": "watermelon",
+    "relation": "different-common-word",
+    "semantic_alignment": "The large fruit with sweet flesh and a green rind."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "00fed5999fa76c053c0d112dccc7b544fa744d419f0fe581d17d2eef173f5d77"
+}

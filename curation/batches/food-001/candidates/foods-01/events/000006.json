@@ -1,0 +1,181 @@
+{
+  "at": "2026-10-03T20:00:18.738940+00:00",
+  "input_digest": "53445c9fb6ab2c48b6cce0861d9abb3b0eceb999acda17a7457070ebf3706462",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"observations\": [{\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-01-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f01-id-meaning\", \"limitations\": \"The page does not state a clock time for lunch.\", \"locale\": \"Indonesia\", \"observation\": \"The plan places \\u201cMakan Siang\\u201d between morning and afternoon snacks and gives a rice, protein, and vegetable meal.\", \"page_location_or_query\": \"Lines 49\\u201354, sample meal plan\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"public health guidance\", \"source_group\": \"Kemkes obesity article 4259\", \"source_title\": \"Obesitas pada Remaja dan Cara Mencegahnya\", \"stance\": \"supports\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-01-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f01-id-preferred\", \"limitations\": \"One institutional example supports natural use but cannot measure everyday frequency.\", \"locale\": \"Indonesia\", \"observation\": \"The article uses \\u201cMakan Siang\\u201d as an unmarked meal heading alongside \\u201cSarapan\\u201d and \\u201cMakan Malam.\\u201d\", \"page_location_or_query\": \"Lines 49\\u201354, meal headings\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"public health guidance\", \"source_group\": \"Kemkes obesity article 4259\", \"source_title\": \"Obesitas pada Remaja dan Cara Mencegahnya\", \"stance\": \"supports\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-01-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f01-my-meaning\", \"limitations\": \"A translation entry does not establish conversational preference.\", \"locale\": \"Malaysia\", \"observation\": \"The entry translates \\u201clunch\\u201d in the midday-meal sense as \\u201cmakan tengah hari.\\u201d\", \"page_location_or_query\": \"Lines 95\\u2013100, English\\u2013Malay entry for lunch\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP English\\u2013Malay dictionary\", \"source_title\": \"PRPM entry for tengah hari\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tengah+hari\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-01-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f01-my-preferred\", \"limitations\": \"Institutional menu wording does not quantify everyday speech.\", \"locale\": \"Malaysia\", \"observation\": \"The patient meal schedule labels its 12:00\\u20131:00 pm meal \\u201cMakan Tengah Hari,\\u201d between breakfast and afternoon refreshments.\", \"page_location_or_query\": \"Lines 85\\u201391, Jadual Hidangan Makanan\", \"publisher\": \"Hospital Kuala Lumpur, Kementerian Kesihatan Malaysia\", \"register\": \"hospital service information\", \"source_group\": \"Hospital Kuala Lumpur meal schedule\", \"source_title\": \"Dietetik & Sajian\", \"stance\": \"supports\", \"url_or_query\": \"https://hkl.moh.gov.my/mengenai-kami/jabatan/perubatan-iii/direktorat-sokongan-klinikal/dietetik-sajian\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"f01-relation\", \"reason\": \"source_group must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/food-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-01-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f01-id-meaning",
+          "limitations": "The page does not state a clock time for lunch.",
+          "locale": "Indonesia",
+          "observation": "The plan places “Makan Siang” between morning and afternoon snacks and gives a rice, protein, and vegetable meal.",
+          "page_location_or_query": "Lines 49–54, sample meal plan",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "public health guidance",
+          "source_group": "Kemkes obesity article 4259",
+          "source_title": "Obesitas pada Remaja dan Cara Mencegahnya",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-01-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f01-id-preferred",
+          "limitations": "One institutional example supports natural use but cannot measure everyday frequency.",
+          "locale": "Indonesia",
+          "observation": "The article uses “Makan Siang” as an unmarked meal heading alongside “Sarapan” and “Makan Malam.”",
+          "page_location_or_query": "Lines 49–54, meal headings",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "public health guidance",
+          "source_group": "Kemkes obesity article 4259",
+          "source_title": "Obesitas pada Remaja dan Cara Mencegahnya",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-01-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f01-my-meaning",
+          "limitations": "A translation entry does not establish conversational preference.",
+          "locale": "Malaysia",
+          "observation": "The entry translates “lunch” in the midday-meal sense as “makan tengah hari.”",
+          "page_location_or_query": "Lines 95–100, English–Malay entry for lunch",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP English–Malay dictionary",
+          "source_title": "PRPM entry for tengah hari",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tengah+hari",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-01-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f01-my-preferred",
+          "limitations": "Institutional menu wording does not quantify everyday speech.",
+          "locale": "Malaysia",
+          "observation": "The patient meal schedule labels its 12:00–1:00 pm meal “Makan Tengah Hari,” between breakfast and afternoon refreshments.",
+          "page_location_or_query": "Lines 85–91, Jadual Hidangan Makanan",
+          "publisher": "Hospital Kuala Lumpur, Kementerian Kesihatan Malaysia",
+          "register": "hospital service information",
+          "source_group": "Hospital Kuala Lumpur meal schedule",
+          "source_title": "Dietetik & Sajian",
+          "stance": "supports",
+          "url_or_query": "https://hkl.moh.gov.my/mengenai-kami/jabatan/perubatan-iii/direktorat-sokongan-klinikal/dietetik-sajian",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "f01-relation",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-01-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f01-id-meaning",
+        "limitations": "The page does not state a clock time for lunch.",
+        "locale": "Indonesia",
+        "observation": "The plan places “Makan Siang” between morning and afternoon snacks and gives a rice, protein, and vegetable meal.",
+        "page_location_or_query": "Lines 49–54, sample meal plan",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "public health guidance",
+        "source_group": "Kemkes obesity article 4259",
+        "source_title": "Obesitas pada Remaja dan Cara Mencegahnya",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-01-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f01-id-preferred",
+        "limitations": "One institutional example supports natural use but cannot measure everyday frequency.",
+        "locale": "Indonesia",
+        "observation": "The article uses “Makan Siang” as an unmarked meal heading alongside “Sarapan” and “Makan Malam.”",
+        "page_location_or_query": "Lines 49–54, meal headings",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "public health guidance",
+        "source_group": "Kemkes obesity article 4259",
+        "source_title": "Obesitas pada Remaja dan Cara Mencegahnya",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-01-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f01-my-meaning",
+        "limitations": "A translation entry does not establish conversational preference.",
+        "locale": "Malaysia",
+        "observation": "The entry translates “lunch” in the midday-meal sense as “makan tengah hari.”",
+        "page_location_or_query": "Lines 95–100, English–Malay entry for lunch",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP English–Malay dictionary",
+        "source_title": "PRPM entry for tengah hari",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tengah+hari",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-01-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f01-my-preferred",
+        "limitations": "Institutional menu wording does not quantify everyday speech.",
+        "locale": "Malaysia",
+        "observation": "The patient meal schedule labels its 12:00–1:00 pm meal “Makan Tengah Hari,” between breakfast and afternoon refreshments.",
+        "page_location_or_query": "Lines 85–91, Jadual Hidangan Makanan",
+        "publisher": "Hospital Kuala Lumpur, Kementerian Kesihatan Malaysia",
+        "register": "hospital service information",
+        "source_group": "Hospital Kuala Lumpur meal schedule",
+        "source_title": "Dietetik & Sajian",
+        "stance": "supports",
+        "url_or_query": "https://hkl.moh.gov.my/mengenai-kami/jabatan/perubatan-iii/direktorat-sokongan-klinikal/dietetik-sajian",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "f01-relation",
+        "reason": "source_group must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "298c0012dec3304afce5d2efb65162cdf46dde67d59e8bd6a91c2927862e8494"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.414952+00:00",
+  "input_digest": "9f58364fa3f905bbe918761afa3fb2b68009d6a698088ee98a0756299f349038",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A motorcycle is powered by a motor; a bicycle is propelled by pedals.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-03",
+          "rationale": "A motorcycle is powered by a motor; a bicycle is propelled by pedals.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-03",
+        "rationale": "A motorcycle is powered by a motor; a bicycle is propelled by pedals.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "6f5750336ed97cb085a86835e5608212d43b1cff58a98bcb9f97a6f6aeaaaeb8"
+}

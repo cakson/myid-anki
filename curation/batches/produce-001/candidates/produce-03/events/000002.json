@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-04T10:40:43.187482+00:00",
+  "input_digest": "ddc12d245fe59b5248c49cae5db4ae689c6ed05287c68c7f9c2e906db2aecbcf",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Pepaya is the ordinary Indonesian name for papaya. The candidate's ripe-fruit sense is straightforward; the same word also occurs in cooking contexts for unripe papaya used as a vegetable.\", \"common_use\": \"Pepaya is a familiar Indonesian food term. Recipes and cooking sources use pepaya muda for unripe fruit, so context or a modifier distinguishes that use from ripe papaya.\", \"preferred\": \"Pepaya is the ordinary general Indonesian term; no comparison establishing preference over alternatives was found.\", \"register\": \"Neutral, standard Indonesian.\", \"region\": \"No regional restriction identified.\", \"alternatives\": [\"pepaya matang (ripe papaya)\", \"pepaya muda (unripe papaya used in cooking)\", \"betik (not established here as a common Indonesian alternative)\"], \"claims\": [{\"claim_id\": \"produce-03-locale\", \"claim_type\": \"locale-usage\", \"proposition\": \"Indonesian recipes use pepaya muda for unripe papaya as a cooked vegetable, a context distinct from the candidate's ripe-fruit sense.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"source\": \"Kompas Food, Resep Sayur Asem Betawi\", \"url\": \"https://www.kompas.com/food/read/2023/02/26/190500075/resep-sayur-asem-betawi-sajikan-dengan-sambal\", \"exact_claim\": \"Lists pepaya muda among the vegetables in sayur asem Betawi.\"}, {\"source\": \"Sasa, Lodeh Pepaya Muda\", \"url\": \"https://www.sasa.co.id/kreasisasa/recipe/lodeh-pepaya-muda\", \"exact_claim\": \"Uses pepaya muda with kacang panjang in a lodeh recipe.\"}]}, \"bundle_response\": \"curation/batches/produce-001/indonesian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/indonesian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "pepaya matang (ripe papaya)",
+        "pepaya muda (unripe papaya used in cooking)",
+        "betik (not established here as a common Indonesian alternative)"
+      ],
+      "claims": [
+        {
+          "claim_id": "produce-03-locale",
+          "claim_type": "locale-usage",
+          "locale": "Indonesia",
+          "proposition": "Indonesian recipes use pepaya muda for unripe papaya as a cooked vegetable, a context distinct from the candidate's ripe-fruit sense."
+        }
+      ],
+      "common_use": "Pepaya is a familiar Indonesian food term. Recipes and cooking sources use pepaya muda for unripe fruit, so context or a modifier distinguishes that use from ripe papaya.",
+      "meaning": "Pepaya is the ordinary Indonesian name for papaya. The candidate's ripe-fruit sense is straightforward; the same word also occurs in cooking contexts for unripe papaya used as a vegetable.",
+      "preferred": "Pepaya is the ordinary general Indonesian term; no comparison establishing preference over alternatives was found.",
+      "region": "No regional restriction identified.",
+      "register": "Neutral, standard Indonesian.",
+      "source_leads": [
+        {
+          "exact_claim": "Lists pepaya muda among the vegetables in sayur asem Betawi.",
+          "source": "Kompas Food, Resep Sayur Asem Betawi",
+          "url": "https://www.kompas.com/food/read/2023/02/26/190500075/resep-sayur-asem-betawi-sajikan-dengan-sambal"
+        },
+        {
+          "exact_claim": "Uses pepaya muda with kacang panjang in a lodeh recipe.",
+          "source": "Sasa, Lodeh Pepaya Muda",
+          "url": "https://www.sasa.co.id/kreasisasa/recipe/lodeh-pepaya-muda"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "pepaya matang (ripe papaya)",
+      "pepaya muda (unripe papaya used in cooking)",
+      "betik (not established here as a common Indonesian alternative)"
+    ],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:produce-03-locale",
+        "claim_type": "locale-usage",
+        "locale": "Indonesia",
+        "proposition": "Indonesian recipes use pepaya muda for unripe papaya as a cooked vegetable, a context distinct from the candidate's ripe-fruit sense."
+      }
+    ],
+    "common_use": "Pepaya is a familiar Indonesian food term. Recipes and cooking sources use pepaya muda for unripe fruit, so context or a modifier distinguishes that use from ripe papaya.",
+    "meaning": "Pepaya is the ordinary Indonesian name for papaya. The candidate's ripe-fruit sense is straightforward; the same word also occurs in cooking contexts for unripe papaya used as a vegetable.",
+    "preferred": "Pepaya is the ordinary general Indonesian term; no comparison establishing preference over alternatives was found.",
+    "region": "No regional restriction identified.",
+    "register": "Neutral, standard Indonesian.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim": "Lists pepaya muda among the vegetables in sayur asem Betawi.",
+        "source": "Kompas Food, Resep Sayur Asem Betawi",
+        "url": "https://www.kompas.com/food/read/2023/02/26/190500075/resep-sayur-asem-betawi-sajikan-dengan-sambal"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim": "Uses pepaya muda with kacang panjang in a lodeh recipe.",
+        "source": "Sasa, Lodeh Pepaya Muda",
+        "url": "https://www.sasa.co.id/kreasisasa/recipe/lodeh-pepaya-muda"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "b0be88cb7c1abb73817875b475c5a32e6cc9bf2adfdd23e49bb53e427c8c7030"
+}

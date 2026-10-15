@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-10T01:51:48.900520+00:00",
+  "result": {
+    "candidate_id": "transportation-02",
+    "checked_at": "2026-10-10T01:51:48.900520+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "decision_reason": "Relation review found unresolved common-use or sense mismatch: Both terms mean a motor-powered two-wheeled vehicle, but Indonesian motor is generally the everyday conversational choice over sepeda motor.",
+    "outcome": "hold",
+    "reason_codes": [
+      "explicit-hold"
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "complete",
+      "malaysian-usage": "complete",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "complete"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

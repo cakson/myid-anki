@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-03T20:02:47.651101+00:00",
+  "input_digest": "d4bb7b5136e59fd3c3310dffe2084c3e66d4d241d6da85835aaccb5983df304f",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Pemandu can denote the person operating a vehicle and fits a road vehicle driver. The word also has broader guide and non-road-vehicle senses.\", \"common_use\": \"Common and readily understood for a driver, particularly with context such as pemandu kereta, pemandu bas or pemandu teksi.\", \"preferred\": \"Pemandu is a normal neutral choice when the vehicle is clear from context.\", \"register\": \"Neutral.\", \"region\": \"Malaysia generally; no regional restriction identified.\", \"alternatives\": [\"pemandu kereta\", \"pemandu kenderaan\", \"sopir\"], \"claims\": [{\"claim_id\": \"transportation-07-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Pemandu can mean a person who operates a vehicle, although it also has broader guide senses.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"transportation-07-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Pemandu is a normal neutral Malaysian Malay choice for a road vehicle driver when context establishes the vehicle.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=54140&keyword=pemandu\", \"claim_ids\": [\"transportation-07-Malaysia-meaning\", \"transportation-07-Malaysia-preferred\"], \"evidence_to_check\": \"DBP records both the vehicle-operator and guide senses, with pemandu bas and pemandu teksi examples; assess unqualified everyday use separately.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/transportation-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "pemandu kereta",
+        "pemandu kenderaan",
+        "sopir"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-07-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Pemandu can mean a person who operates a vehicle, although it also has broader guide senses."
+        },
+        {
+          "claim_id": "transportation-07-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Pemandu is a normal neutral Malaysian Malay choice for a road vehicle driver when context establishes the vehicle."
+        }
+      ],
+      "common_use": "Common and readily understood for a driver, particularly with context such as pemandu kereta, pemandu bas or pemandu teksi.",
+      "meaning": "Pemandu can denote the person operating a vehicle and fits a road vehicle driver. The word also has broader guide and non-road-vehicle senses.",
+      "preferred": "Pemandu is a normal neutral choice when the vehicle is clear from context.",
+      "region": "Malaysia generally; no regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-07-Malaysia-meaning",
+            "transportation-07-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP records both the vehicle-operator and guide senses, with pemandu bas and pemandu teksi examples; assess unqualified everyday use separately.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=pemandu"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "pemandu kereta",
+      "pemandu kenderaan",
+      "sopir"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-07-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Pemandu can mean a person who operates a vehicle, although it also has broader guide senses."
+      },
+      {
+        "claim_id": "transportation-07-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Pemandu is a normal neutral Malaysian Malay choice for a road vehicle driver when context establishes the vehicle."
+      }
+    ],
+    "common_use": "Common and readily understood for a driver, particularly with context such as pemandu kereta, pemandu bas or pemandu teksi.",
+    "meaning": "Pemandu can denote the person operating a vehicle and fits a road vehicle driver. The word also has broader guide and non-road-vehicle senses.",
+    "preferred": "Pemandu is a normal neutral choice when the vehicle is clear from context.",
+    "region": "Malaysia generally; no regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-07-Malaysia-meaning",
+          "transportation-07-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP records both the vehicle-operator and guide senses, with pemandu bas and pemandu teksi examples; assess unqualified everyday use separately.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=pemandu"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "b28ca1ce52874f94e90293479d0be07597d79bc73c2f49aa50c3bd99330fb1eb"
+}

@@ -1,0 +1,355 @@
+{
+  "curation_transform": {
+    "name": "strip-invalid-evidence",
+    "removed": {
+      "communication-05": [
+        {
+          "evidence_id": "communication-05-e4",
+          "reason": "publisher must identify one underlying source"
+        },
+        {
+          "evidence_id": "communication-05-e7",
+          "reason": "source_group must identify one underlying source"
+        }
+      ],
+      "communication-07": [
+        {
+          "evidence_id": "communication-07-e3",
+          "reason": "source_group must identify one underlying source"
+        },
+        {
+          "evidence_id": "communication-07-e6",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "rule": "Only malformed observations were removed; no support was added or rewritten.",
+    "version": 1
+  },
+  "model": "web__run",
+  "results": {
+    "communication-01": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-01-id-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-01-e1",
+          "limitations": "The lead describes a third-party mirror. Its content could not be verified.",
+          "locale": "Indonesia",
+          "observation": "The page could not be retrieved; no dictionary definition was inspected.",
+          "page_location_or_query": "Direct page open returned an internal error.",
+          "publisher": "KBBI.web.id",
+          "register": "dictionary",
+          "source_group": "KBBI-derived mirror",
+          "source_title": "Arti kata pesan — KBBI Online",
+          "stance": "inconclusive",
+          "url_or_query": "https://kbbi.web.id/pesan",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-01-id-common",
+          "claim_type": "locale-usage",
+          "evidence_id": "communication-01-e2",
+          "limitations": "One article illustrates usage; it does not establish frequency or a categorical distinction between pesan and chat.",
+          "locale": "Indonesia",
+          "observation": "The article describes responding to a group message, says “membalas pesan,” and separately calls the app area “chat.”",
+          "page_location_or_query": "Retrieved page, lines 130–147.",
+          "publisher": "detikINET",
+          "register": "contemporary online how-to, informal",
+          "source_group": "Detik.com",
+          "source_title": "Cara Balas Pesan di Grup WhatsApp Tanpa Ketahuan yang Lain",
+          "stance": "supports",
+          "url_or_query": "https://inet.detik.com/tips-dan-trik/d-5646890/cara-balas-pesan-di-grup-whatsapp-tanpa-ketahuan-yang-lain",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-01-id-common",
+          "claim_type": "locale-usage",
+          "evidence_id": "communication-01-e3",
+          "limitations": "This supports an attested chat/obrolan usage, not a general rule that chat always means conversation or app feature.",
+          "locale": "Indonesia",
+          "observation": "The thesis labels a feature “Obrolan (chat)” and describes it as private conversation; it also uses chat in the discussion.",
+          "page_location_or_query": "PDF page 117, lines 3669–3676.",
+          "publisher": "UIN Prof. K.H. Saifuddin Zuhri Purwokerto repository",
+          "register": "educational/academic description",
+          "source_group": "UIN Saizu repository thesis",
+          "source_title": "Implementasi Microsoft Teams for Education…",
+          "stance": "supports",
+          "url_or_query": "https://repository.uinsaizu.ac.id/10361/1/NURLAILY%20FAUZIATUN_IMPLEMENTASI%20MICROSOFT%20TEAMS%20FOR%20EDUCATION%20DALAM%20PEMBELAJARAN%20PENDIDIKAN%20AGAMA%20ISLAM%20DAN%20BUDI%20PEKERTI%20DI%20SMP%20NEGERI%201%20PURWOKERTO.pdf",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-01-id-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "communication-01-e4",
+          "limitations": "A single usage example cannot establish neutral general preference or the full distribution of chat.",
+          "locale": "Indonesia",
+          "observation": "The article uses pesan for the item being replied to and chat for the WhatsApp conversation area.",
+          "page_location_or_query": "Retrieved page, lines 130–147.",
+          "publisher": "detikINET",
+          "register": "contemporary online how-to, informal",
+          "source_group": "Detik.com",
+          "source_title": "Cara Balas Pesan di Grup WhatsApp Tanpa Ketahuan yang Lain",
+          "stance": "inconclusive",
+          "url_or_query": "https://inet.detik.com/tips-dan-trik/d-5646890/cara-balas-pesan-di-grup-whatsapp-tanpa-ketahuan-yang-lain",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-01-my-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-01-e5",
+          "limitations": "Dictionary evidence establishes senses, not how often the word is used in current digital communication.",
+          "locale": "Malaysia",
+          "observation": "The Kamus Bahasa Melayu entry defines mesej as a message/news/brief words to be conveyed to someone and includes a telephone-message example; another listing describes a message conveyed by phone.",
+          "page_location_or_query": "PRPM result for “mesej,” retrieved search result.",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "PRPM/Kamus Dewan",
+          "source_title": "Carian Umum: mesej",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=mesej",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-01-my-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "communication-01-e6",
+          "limitations": "This does not show everyday preference for digital messages. The surfaced PRPM discussion includes a user questioning whether one “hantar mesej” phrasing sounds natural, but that isolated question cannot establish contrary general usage.",
+          "locale": "Malaysia",
+          "observation": "The dictionary entry records mesej as a message to be conveyed, including a telephone example.",
+          "page_location_or_query": "PRPM result for “mesej,” retrieved search result.",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "PRPM/Dewan Bahasa dan Pustaka",
+          "source_title": "Carian Umum: mesej",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=mesej",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "relation-proposal:communication-01-relation",
+          "claim_type": "relation",
+          "evidence_id": "communication-01-e7",
+          "limitations": "The Indonesian pesan dictionary lead failed to load; the inspected Indonesian article supports pesan in WhatsApp context but cannot substantiate the proposed cross-locale preference contrast.",
+          "locale": "Indonesia and Malaysia",
+          "observation": "The entry establishes mesej as a Malay word for a message, including a telephone message; no comparative evidence between Indonesian pesan and Malaysian mesej preference was inspected.",
+          "page_location_or_query": "PRPM result for “mesej,” retrieved search result.",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "PRPM/Dewan Bahasa dan Pustaka",
+          "source_title": "Carian Umum: mesej",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=mesej",
+          "usage_basis": "dictionary-only"
+        }
+      ],
+      "removed_invalid_evidence": []
+    },
+    "communication-05": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-05-id-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-05-e1",
+          "limitations": "This is a third-party KBBI mirror; the specific definition in the lead was not verified.",
+          "locale": "Indonesia",
+          "observation": "The page opened, but the targeted definition text was not returned by the page search. No definition was independently confirmed in the inspected content.",
+          "page_location_or_query": "Direct page open and search within retrieved page for “menjawab.”",
+          "publisher": "KBBI.web.id",
+          "register": "dictionary",
+          "source_group": "KBBI-derived mirror",
+          "source_title": "Arti kata membalas — KBBI Online",
+          "stance": "inconclusive",
+          "url_or_query": "https://kbbi.web.id/membalas",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-05-id-common",
+          "claim_type": "locale-usage",
+          "evidence_id": "communication-05-e2",
+          "limitations": "One article supports attestation, not broad frequency.",
+          "locale": "Indonesia",
+          "observation": "The article title and instructions use balas/membalas pesan for replying to WhatsApp messages.",
+          "page_location_or_query": "Retrieved page, lines 136–145.",
+          "publisher": "detikINET",
+          "register": "contemporary online how-to, informal",
+          "source_group": "Detik.com",
+          "source_title": "Cara Balas Pesan di Grup WhatsApp Tanpa Ketahuan yang Lain",
+          "stance": "supports",
+          "url_or_query": "https://inet.detik.com/tips-dan-trik/d-5646890/cara-balas-pesan-di-grup-whatsapp-tanpa-ketahuan-yang-lain",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-05-id-common",
+          "claim_type": "locale-usage",
+          "evidence_id": "communication-05-e3",
+          "limitations": "The page is a how-to article and includes informal language; it does not quantify usage.",
+          "locale": "Indonesia",
+          "observation": "The article uses “membalas chat,” “balas chat,” and “membalas pesan” in WhatsApp Web instructions.",
+          "page_location_or_query": "Retrieved page, lines 45–57 and 117–118.",
+          "publisher": "Bid TIK Polda Kepri",
+          "register": "informal online how-to",
+          "source_group": "Polda Kepulauan Riau Bid TIK",
+          "source_title": "Cara Membalas Chat di WhatsApp Web",
+          "stance": "supports",
+          "url_or_query": "https://bidtik.kepri.polri.go.id/cara-membalas-chat-di-whatsapp-web/",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-05-my-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-05-e5",
+          "limitations": "Supports answering/responding generally, but does not specifically document messaging apps.",
+          "locale": "Malaysia",
+          "observation": "The entry defines membalas as answering, with “menjawab surat” (answering a letter) and “membalas salam” among its examples; balas is linked to jawaban (answer).",
+          "page_location_or_query": "PRPM result for “balas,” retrieved search result.",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "PRPM/Kamus Dewan",
+          "source_title": "Carian Umum: balas",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=balas",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-05-my-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "communication-05-e6",
+          "limitations": "A dictionary entry alone cannot show that balas is the natural everyday choice for replying to a digital message; the targeted contemporary Malaysian collocation search did not yield an inspected example.",
+          "locale": "Malaysia",
+          "observation": "The dictionary records membalas meaning answer, with the example “menjawab surat.”",
+          "page_location_or_query": "PRPM result for “balas,” retrieved search result.",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "PRPM/Dewan Bahasa dan Pustaka",
+          "source_title": "Carian Umum: balas",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=balas",
+          "usage_basis": "dictionary-only"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "communication-05-e4",
+          "reason": "publisher must identify one underlying source"
+        },
+        {
+          "evidence_id": "communication-05-e7",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "communication-07": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-07-id-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-07-e1",
+          "limitations": "The report documents a video-call feature, not a formal definition of every type of video call.",
+          "locale": "Indonesia",
+          "observation": "The report says WhatsApp group “panggilan video” is available and describes starting the call through the video-call icon and adding participants.",
+          "page_location_or_query": "Retrieved page, lines 36–49.",
+          "publisher": "ANTARA News",
+          "register": "news/reporting",
+          "source_group": "ANTARA News",
+          "source_title": "Hadir di Indonesia, begini cara pakai WhatsApp video call grup",
+          "stance": "supports",
+          "url_or_query": "https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-07-id-common",
+          "claim_type": "locale-usage",
+          "evidence_id": "communication-07-e2",
+          "limitations": "One report establishes both forms are used, not their relative frequency.",
+          "locale": "Indonesia",
+          "observation": "The headline calls the feature “video call”; the report uses “panggilan video” in the body and “video call” in the feature description.",
+          "page_location_or_query": "Retrieved page, lines 36–49.",
+          "publisher": "ANTARA News",
+          "register": "news/reporting",
+          "source_group": "ANTARA News",
+          "source_title": "Hadir di Indonesia, begini cara pakai WhatsApp video call grup",
+          "stance": "supports",
+          "url_or_query": "https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-07-my-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-07-e4",
+          "limitations": "The page concerns a telecom service; its legacy 3G details do not establish modern app usage.",
+          "locale": "Malaysia",
+          "observation": "The Malay-language FAQ labels the service “Panggilan Video” and refers to making and receiving video calls.",
+          "page_location_or_query": "Retrieved page, lines 117–120 and 282–291.",
+          "publisher": "U Mobile",
+          "register": "consumer telecom FAQ",
+          "source_group": "U Mobile",
+          "source_title": "Panggilan Video",
+          "stance": "supports",
+          "url_or_query": "https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-07-my-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "communication-07-e5",
+          "limitations": "Does not establish relative everyday frequency versus English video call or casual code-mixed speech.",
+          "locale": "Malaysia",
+          "observation": "A Malaysian telecom provider uses Panggilan Video as a Malay service label.",
+          "page_location_or_query": "Retrieved page, lines 117–120.",
+          "publisher": "U Mobile",
+          "register": "consumer telecom FAQ",
+          "source_group": "U Mobile",
+          "source_title": "Panggilan Video",
+          "stance": "inconclusive",
+          "url_or_query": "https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "communication-07-e3",
+          "reason": "source_group must identify one underlying source"
+        },
+        {
+          "evidence_id": "communication-07-e6",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    }
+  },
+  "role": "evidence-audit",
+  "schema_version": 1
+}

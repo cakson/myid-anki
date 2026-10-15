@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-03T19:44:42.795818+00:00",
+  "input_digest": "a59b3524f5be6ff6405137cf9b48e52070e1361380abbfe845cec01fffa4f136",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Nasi denotes rice that has been cooked for eating. Uncooked rice is beras; the plant or grain before milling is padi.\", \"common_use\": \"Extremely common in Malaysian Malay, both alone and in names of rice dishes.\", \"preferred\": \"Prefer nasi when the intended sense is cooked rice.\", \"register\": \"Neutral everyday vocabulary.\", \"region\": \"No material regional restriction identified.\", \"alternatives\": [\"beras (uncooked, milled rice; different sense)\", \"padi (rice crop or unmilled grain; different sense)\"], \"claims\": [{\"claim_id\": \"foods-07-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Nasi denotes rice that has been cooked for eating.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"foods-07-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Nasi is the normal Malaysian Malay choice for cooked rice, distinct from uncooked beras.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"claim_ids\": [\"foods-07-Malaysia-meaning\", \"foods-07-Malaysia-preferred\"], \"exact_claim\": \"DBP defines nasi as rice that has been cooked or steamed and gives ordinary food compounds such as nasi ayam and nasi lemak; the entry establishes the sense but is not a frequency study.\", \"url\": \"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=nasi\"}, {\"claim_ids\": [\"foods-07-Malaysia-meaning\"], \"exact_claim\": \"DBP defines beras as dehusked rice ready to be cooked, distinguishing it from cooked nasi.\", \"url\": \"https://prpm.dbp.gov.my/Cari1?d=274052&keyword=beras\"}]}, \"bundle_response\": \"curation/batches/food-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "beras (uncooked, milled rice; different sense)",
+        "padi (rice crop or unmilled grain; different sense)"
+      ],
+      "claims": [
+        {
+          "claim_id": "foods-07-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Nasi denotes rice that has been cooked for eating."
+        },
+        {
+          "claim_id": "foods-07-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Nasi is the normal Malaysian Malay choice for cooked rice, distinct from uncooked beras."
+        }
+      ],
+      "common_use": "Extremely common in Malaysian Malay, both alone and in names of rice dishes.",
+      "meaning": "Nasi denotes rice that has been cooked for eating. Uncooked rice is beras; the plant or grain before milling is padi.",
+      "preferred": "Prefer nasi when the intended sense is cooked rice.",
+      "region": "No material regional restriction identified.",
+      "register": "Neutral everyday vocabulary.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "foods-07-Malaysia-meaning",
+            "foods-07-Malaysia-preferred"
+          ],
+          "exact_claim": "DBP defines nasi as rice that has been cooked or steamed and gives ordinary food compounds such as nasi ayam and nasi lemak; the entry establishes the sense but is not a frequency study.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=nasi"
+        },
+        {
+          "claim_ids": [
+            "foods-07-Malaysia-meaning"
+          ],
+          "exact_claim": "DBP defines beras as dehusked rice ready to be cooked, distinguishing it from cooked nasi.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=beras"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "beras (uncooked, milled rice; different sense)",
+      "padi (rice crop or unmilled grain; different sense)"
+    ],
+    "claims": [
+      {
+        "claim_id": "foods-07-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Nasi denotes rice that has been cooked for eating."
+      },
+      {
+        "claim_id": "foods-07-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Nasi is the normal Malaysian Malay choice for cooked rice, distinct from uncooked beras."
+      }
+    ],
+    "common_use": "Extremely common in Malaysian Malay, both alone and in names of rice dishes.",
+    "meaning": "Nasi denotes rice that has been cooked for eating. Uncooked rice is beras; the plant or grain before milling is padi.",
+    "preferred": "Prefer nasi when the intended sense is cooked rice.",
+    "region": "No material regional restriction identified.",
+    "register": "Neutral everyday vocabulary.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "foods-07-Malaysia-meaning",
+          "foods-07-Malaysia-preferred"
+        ],
+        "exact_claim": "DBP defines nasi as rice that has been cooked or steamed and gives ordinary food compounds such as nasi ayam and nasi lemak; the entry establishes the sense but is not a frequency study.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=nasi"
+      },
+      {
+        "claim_ids": [
+          "foods-07-Malaysia-meaning"
+        ],
+        "exact_claim": "DBP defines beras as dehusked rice ready to be cooked, distinguishing it from cooked nasi.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=beras"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "ce1165f8587920c9cc38cab9e0e3d1509c68b4c4c176f768f85c442331de695a"
+}

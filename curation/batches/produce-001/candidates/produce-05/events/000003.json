@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-04T10:40:43.192496+00:00",
+  "input_digest": "00007651a238f04112392fb633db4a3a6533e6c34f1621ac260ca7339975dcc0",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Kacang panjang means long bean/yardlong bean and fits the long, slender edible bean sense.\", \"common_use\": \"Common and readily understood in Malaysian cooking contexts; local recipe sources list it as a vegetable ingredient.\", \"preferred\": \"The term is well-supported in the sources, but no direct comparison with alternatives establishes normal preference over them.\", \"register\": \"Neutral, standard Malay.\", \"region\": \"No regional restriction apparent in the sources.\", \"alternatives\": [], \"claims\": [{\"claim_id\": \"produce-05-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Kacang panjang denotes the long edible bean used as a vegetable.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"produce-05-use\", \"claim_type\": \"locale-usage\", \"proposition\": \"Kacang panjang is used as a vegetable ingredient in Malaysian recipes.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source\": \"Nutritionist Choice Cook Book, Nutrition Society of Malaysia\", \"url\": \"https://www.nutriweb.org.my/picture/upload/file/Nutritionist%20Choice%20Cook%20Book_V2_lr.pdf\", \"claim\": \"Lists kacang panjang among the vegetables blanched for pecal.\"}, {\"source\": \"Kimball Malaysia, \\u201cResipi Gado-gado Raya\\u201d\", \"url\": \"https://kimball.com.my/bm/recipe/festive-gado-gado/\", \"claim\": \"Lists kacang panjang as an ingredient to blanch for gado-gado.\"}]}, \"bundle_response\": \"curation/batches/produce-001/malaysian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/malaysian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [],
+      "claims": [
+        {
+          "claim_id": "produce-05-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Kacang panjang denotes the long edible bean used as a vegetable."
+        },
+        {
+          "claim_id": "produce-05-use",
+          "claim_type": "locale-usage",
+          "locale": "Malaysia",
+          "proposition": "Kacang panjang is used as a vegetable ingredient in Malaysian recipes."
+        }
+      ],
+      "common_use": "Common and readily understood in Malaysian cooking contexts; local recipe sources list it as a vegetable ingredient.",
+      "meaning": "Kacang panjang means long bean/yardlong bean and fits the long, slender edible bean sense.",
+      "preferred": "The term is well-supported in the sources, but no direct comparison with alternatives establishes normal preference over them.",
+      "region": "No regional restriction apparent in the sources.",
+      "register": "Neutral, standard Malay.",
+      "source_leads": [
+        {
+          "claim": "Lists kacang panjang among the vegetables blanched for pecal.",
+          "source": "Nutritionist Choice Cook Book, Nutrition Society of Malaysia",
+          "url": "https://www.nutriweb.org.my/picture/upload/file/Nutritionist%20Choice%20Cook%20Book_V2_lr.pdf"
+        },
+        {
+          "claim": "Lists kacang panjang as an ingredient to blanch for gado-gado.",
+          "source": "Kimball Malaysia, “Resipi Gado-gado Raya”",
+          "url": "https://kimball.com.my/bm/recipe/festive-gado-gado/"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:produce-05-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Kacang panjang denotes the long edible bean used as a vegetable."
+      },
+      {
+        "claim_id": "malaysian-usage:produce-05-use",
+        "claim_type": "locale-usage",
+        "locale": "Malaysia",
+        "proposition": "Kacang panjang is used as a vegetable ingredient in Malaysian recipes."
+      }
+    ],
+    "common_use": "Common and readily understood in Malaysian cooking contexts; local recipe sources list it as a vegetable ingredient.",
+    "meaning": "Kacang panjang means long bean/yardlong bean and fits the long, slender edible bean sense.",
+    "preferred": "The term is well-supported in the sources, but no direct comparison with alternatives establishes normal preference over them.",
+    "region": "No regional restriction apparent in the sources.",
+    "register": "Neutral, standard Malay.",
+    "source_leads": [
+      {
+        "claim": "Lists kacang panjang among the vegetables blanched for pecal.",
+        "claim_ids": [],
+        "source": "Nutritionist Choice Cook Book, Nutrition Society of Malaysia",
+        "url": "https://www.nutriweb.org.my/picture/upload/file/Nutritionist%20Choice%20Cook%20Book_V2_lr.pdf"
+      },
+      {
+        "claim": "Lists kacang panjang as an ingredient to blanch for gado-gado.",
+        "claim_ids": [],
+        "source": "Kimball Malaysia, “Resipi Gado-gado Raya”",
+        "url": "https://kimball.com.my/bm/recipe/festive-gado-gado/"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "598141dc54cd7a340254d3626f8e64041fc19f7ecc4d89cd1abe9f75d194f721"
+}

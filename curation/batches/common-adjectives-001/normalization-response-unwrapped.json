@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "role": "normalize-and-dedupe",
+  "model": "gpt-6",
+  "results": {
+    "topic-01": {
+      "overlaps": []
+    },
+    "topic-02": {
+      "overlaps": []
+    },
+    "topic-03": {
+      "overlaps": []
+    },
+    "topic-04": {
+      "overlaps": []
+    },
+    "topic-05": {
+      "overlaps": []
+    },
+    "topic-06": {
+      "overlaps": []
+    },
+    "topic-07": {
+      "overlaps": []
+    },
+    "topic-08": {
+      "overlaps": [
+        {
+          "other_id": "common-verbs-001:everyday-actions-02",
+          "type": "semantic",
+          "resolution": "distinct",
+          "rationale": "Clean describes a state free of dirt; wash describes the action of cleaning something with water. The cues, senses, and both answers differ."
+        }
+      ]
+    }
+  },
+  "curation_transform": {
+    "name": "unwrap-role-results",
+    "version": 1,
+    "rule": "Removed redundant response envelope from each result without changing its content"
+  }
+}

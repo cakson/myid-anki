@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-04T10:28:40.987290+00:00",
+  "input_digest": "bf374f31e8d1d7493e616c3e8465863377698e825b11199886e8b42a39300498",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\":1,\"role\":\"relation-proposal\",\"model\":\"OpenAI/ChatGPT\",\"result\":{\"english\":\"eggplant\",\"relation\":\"similar\",\"semantic_alignment\":\"Both terms refer to the same edible vegetable, but the common forms differ in spelling: Indonesian terong and Malaysian terung.\",\"aligned\":true,\"claims\":[{\"claim_id\":\"relation:eggplant-similar-forms\",\"claim_type\":\"relation\",\"proposition\":\"Indonesian terong and Malaysian terung are commonly used for the same eggplant sense, with different spellings.\"}]}}",
+  "reported_model": "OpenAI/ChatGPT",
+  "response": {
+    "model": "OpenAI/ChatGPT",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:eggplant-similar-forms",
+          "claim_type": "relation",
+          "proposition": "Indonesian terong and Malaysian terung are commonly used for the same eggplant sense, with different spellings."
+        }
+      ],
+      "english": "eggplant",
+      "relation": "similar",
+      "semantic_alignment": "Both terms refer to the same edible vegetable, but the common forms differ in spelling: Indonesian terong and Malaysian terung."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:eggplant-similar-forms",
+        "claim_type": "relation",
+        "proposition": "Indonesian terong and Malaysian terung are commonly used for the same eggplant sense, with different spellings."
+      }
+    ],
+    "english": "eggplant",
+    "relation": "similar",
+    "semantic_alignment": "Both terms refer to the same edible vegetable, but the common forms differ in spelling: Indonesian terong and Malaysian terung."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "26fb708047b3ab61de57495e5143356142e7b0364c36768b30fcdd3fc90c7c43"
+}

@@ -1,0 +1,96 @@
+{
+  "at": "2026-10-04T10:40:43.183068+00:00",
+  "input_digest": "eb4692594b5cd7e5220890b4192822f1934f64767dda34b5e835cc602a4babef",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Jagung refers to edible corn, including kernels or an ear. KBBI defines it as both the plant and its fruit or seed.\", \"common_use\": \"Common in everyday Indonesian shopping and cooking; recipes use jagung manis for sweet corn and may specify pipilan (kernels removed from the cob).\", \"preferred\": \"Jagung is the ordinary general term. No concrete comparison here establishes it as preferred over a competing everyday term.\", \"register\": \"Neutral, standard Indonesian.\", \"region\": \"Widely used across Indonesia; no regional restriction identified.\", \"alternatives\": [\"jagung manis (sweet corn)\", \"jagung pipil (shelled kernels)\", \"tongkol jagung (the cob or ear, depending on context)\"], \"claims\": [{\"claim_id\": \"produce-01-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"KBBI defines jagung as both the plant and its edible fruit or seeds, covering the proposed food sense.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"produce-01-locale\", \"claim_type\": \"locale-usage\", \"proposition\": \"Indonesian recipe usage includes jagung manis pipil for sweet corn kernels used as food.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"source\": \"KBBI VI Daring, jagung\", \"url\": \"https://kbbi.kemendikdasmen.go.id/entri/jagung\", \"exact_claim\": \"Defines jagung as the plant and as buah atau biji jagung.\"}, {\"source\": \"Hypermart, Resep Sup Jagung Telur\", \"url\": \"https://www.hypermart.co.id/resep-sup-jagung-telur-yang-cocok-untuk-cuaca-dingin/\", \"exact_claim\": \"Lists jagung manis, pipil, as a soup ingredient.\"}]}, \"bundle_response\": \"curation/batches/produce-001/indonesian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/indonesian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "jagung manis (sweet corn)",
+        "jagung pipil (shelled kernels)",
+        "tongkol jagung (the cob or ear, depending on context)"
+      ],
+      "claims": [
+        {
+          "claim_id": "produce-01-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "KBBI defines jagung as both the plant and its edible fruit or seeds, covering the proposed food sense."
+        },
+        {
+          "claim_id": "produce-01-locale",
+          "claim_type": "locale-usage",
+          "locale": "Indonesia",
+          "proposition": "Indonesian recipe usage includes jagung manis pipil for sweet corn kernels used as food."
+        }
+      ],
+      "common_use": "Common in everyday Indonesian shopping and cooking; recipes use jagung manis for sweet corn and may specify pipilan (kernels removed from the cob).",
+      "meaning": "Jagung refers to edible corn, including kernels or an ear. KBBI defines it as both the plant and its fruit or seed.",
+      "preferred": "Jagung is the ordinary general term. No concrete comparison here establishes it as preferred over a competing everyday term.",
+      "region": "Widely used across Indonesia; no regional restriction identified.",
+      "register": "Neutral, standard Indonesian.",
+      "source_leads": [
+        {
+          "exact_claim": "Defines jagung as the plant and as buah atau biji jagung.",
+          "source": "KBBI VI Daring, jagung",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/jagung"
+        },
+        {
+          "exact_claim": "Lists jagung manis, pipil, as a soup ingredient.",
+          "source": "Hypermart, Resep Sup Jagung Telur",
+          "url": "https://www.hypermart.co.id/resep-sup-jagung-telur-yang-cocok-untuk-cuaca-dingin/"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "jagung manis (sweet corn)",
+      "jagung pipil (shelled kernels)",
+      "tongkol jagung (the cob or ear, depending on context)"
+    ],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:produce-01-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "KBBI defines jagung as both the plant and its edible fruit or seeds, covering the proposed food sense."
+      },
+      {
+        "claim_id": "indonesian-usage:produce-01-locale",
+        "claim_type": "locale-usage",
+        "locale": "Indonesia",
+        "proposition": "Indonesian recipe usage includes jagung manis pipil for sweet corn kernels used as food."
+      }
+    ],
+    "common_use": "Common in everyday Indonesian shopping and cooking; recipes use jagung manis for sweet corn and may specify pipilan (kernels removed from the cob).",
+    "meaning": "Jagung refers to edible corn, including kernels or an ear. KBBI defines it as both the plant and its fruit or seed.",
+    "preferred": "Jagung is the ordinary general term. No concrete comparison here establishes it as preferred over a competing everyday term.",
+    "region": "Widely used across Indonesia; no regional restriction identified.",
+    "register": "Neutral, standard Indonesian.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim": "Defines jagung as the plant and as buah atau biji jagung.",
+        "source": "KBBI VI Daring, jagung",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/jagung"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim": "Lists jagung manis, pipil, as a soup ingredient.",
+        "source": "Hypermart, Resep Sup Jagung Telur",
+        "url": "https://www.hypermart.co.id/resep-sup-jagung-telur-yang-cocok-untuk-cuaca-dingin/"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "97d6d2f8ae9bb10d089f32e413125be276b23faa4fc1dfd4194654f2df22e347"
+}

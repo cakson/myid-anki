@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-03T19:49:24.899044+00:00",
+  "result": {
+    "candidate_id": "everyday-actions-07",
+    "checked_at": "2026-10-03T19:49:24.899044+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "outcome": "hold",
+    "reason_codes": [
+      "Relation review found unresolved cue, sense, form, or usage: Coba and cuba are related everyday forms for attempting an action, but 'try' can also mean sample or test something. Suggested cue: 'try to do something'."
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "complete",
+      "malaysian-usage": "complete",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "complete"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

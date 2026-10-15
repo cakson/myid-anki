@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-10T01:38:12.727058+00:00",
+  "input_digest": "e9ff5d842204253945ec03e178a48d742a04b39421fa21cb656c341ac549bcc6",
+  "model": "gpt-5.6-luna/codex-cli",
+  "prompt_set_version": "1.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"university-001:university-study-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A faculty is an academic division, whereas an assignment is academic work completed by a student.\"}, {\"other_id\": \"university-001:university-study-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A faculty is an academic division, whereas an exam is a formal assessment.\"}, {\"other_id\": \"university-001:university-study-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A faculty is an academic division, whereas a scholarship provides financial support.\"}]}, \"bundle_response\": \"curation/batches/university-001/normalize-response-v2.json\"}",
+  "reported_model": "GPT-5",
+  "response": {
+    "bundle_response": "curation/batches/university-001/normalize-response-v2.json",
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "university-001:university-study-01",
+          "rationale": "A faculty is an academic division, whereas an assignment is academic work completed by a student.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "university-001:university-study-02",
+          "rationale": "A faculty is an academic division, whereas an exam is a formal assessment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "university-001:university-study-03",
+          "rationale": "A faculty is an academic division, whereas a scholarship provides financial support.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "university-001:university-study-01",
+        "rationale": "A faculty is an academic division, whereas an assignment is academic work completed by a student.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "university-001:university-study-02",
+        "rationale": "A faculty is an academic division, whereas an exam is a formal assessment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "university-001:university-study-03",
+        "rationale": "A faculty is an academic division, whereas a scholarship provides financial support.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "213fc3e73a51903c98cd04315b034f75827e06eaab01d1a7a6356acecd6cd1db"
+}

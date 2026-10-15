@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T20:11:03.232886+00:00",
+  "input_digest": "4db89936137a03ccea41c4d35f00847fbbbfe4b607182828a58f0fc1473fd822",
+  "model": "gpt-6",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6\", \"result\": {\"overlaps\": [{\"other_id\": \"common-verbs-001:everyday-actions-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Clean describes a state free of dirt; wash describes the action of cleaning something with water. The cues, senses, and both answers differ.\"}]}, \"bundle_response\": \"curation/batches/common-adjectives-001/normalization-response-unwrapped.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/common-adjectives-001/normalization-response-unwrapped.json",
+    "model": "gpt-6",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-verbs-001:everyday-actions-02",
+          "rationale": "Clean describes a state free of dirt; wash describes the action of cleaning something with water. The cues, senses, and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "common-verbs-001:everyday-actions-02",
+        "rationale": "Clean describes a state free of dirt; wash describes the action of cleaning something with water. The cues, senses, and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6",
+  "upstream_digest": "b997eb01593233ec8da35ef1e19d010d44d59c80359961262e105b9d84148b68"
+}

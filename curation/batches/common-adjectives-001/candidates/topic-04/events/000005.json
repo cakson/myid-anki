@@ -1,0 +1,110 @@
+{
+  "at": "2026-10-04T03:37:44.739830+00:00",
+  "input_digest": "527a39bdbce60149601d1bba240888a2201c8736e69e1df9d7a7ff692cc794d8",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-luna/codex-cli\", \"result\": {\"observations\": [{\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-04-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"topic-04-obs-2\", \"limitations\": \"Page content was unavailable; the proposed definition and keras kepala equivalent were not verified.\", \"locale\": \"Malaysia\", \"observation\": \"Access failed: the network tool returned \\u201c(502) Bad Gateway.\\u201d The entry could not be inspected, so it provides no support.\", \"page_location_or_query\": \"Direct page retrieval\", \"publisher\": \"Dewan Bahasa dan Pustaka Malaysia\", \"register\": \"Unassessed\", \"source_group\": \"PRPM / Dewan Bahasa dan Pustaka\", \"source_title\": \"PRPM degil search entry\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=degil\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"manual-inspection\", \"claim_id\": \"topic-04-meaning\", \"claim_type\": \"relation\", \"evidence_id\": \"topic-04-obs-3\", \"limitations\": \"The accessible Indonesian dictionary entry establishes a sense only; the Malaysian lead was inaccessible, and dictionary evidence alone cannot establish everyday preference.\", \"locale\": \"Indonesia; Malaysia\", \"observation\": \"No contextual or comparative evidence was retrieved that establishes keras kepala and degil as common everyday choices or shows their relative usage.\", \"page_location_or_query\": \"Candidate relation claim\", \"publisher\": \"Not available\", \"register\": \"Everyday preference unestablished\", \"source_group\": \"No comparative usage evidence retrieved\", \"source_title\": \"Everyday word-choice evidence\", \"stance\": \"inconclusive\", \"url_or_query\": \"No corpus query supplied or retrieved\", \"usage_basis\": \"dictionary-only\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"topic-04-obs-1\", \"reason\": \"publisher must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/common-adjectives-001/evidence-response-cleaned.json\"}",
+  "reported_model": "gpt-6-luna/codex-cli",
+  "response": {
+    "bundle_response": "curation/batches/common-adjectives-001/evidence-response-cleaned.json",
+    "model": "gpt-6-luna/codex-cli",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-04-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "topic-04-obs-2",
+          "limitations": "Page content was unavailable; the proposed definition and keras kepala equivalent were not verified.",
+          "locale": "Malaysia",
+          "observation": "Access failed: the network tool returned “(502) Bad Gateway.” The entry could not be inspected, so it provides no support.",
+          "page_location_or_query": "Direct page retrieval",
+          "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+          "register": "Unassessed",
+          "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+          "source_title": "PRPM degil search entry",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=degil",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "manual-inspection",
+          "claim_id": "topic-04-meaning",
+          "claim_type": "relation",
+          "evidence_id": "topic-04-obs-3",
+          "limitations": "The accessible Indonesian dictionary entry establishes a sense only; the Malaysian lead was inaccessible, and dictionary evidence alone cannot establish everyday preference.",
+          "locale": "Indonesia; Malaysia",
+          "observation": "No contextual or comparative evidence was retrieved that establishes keras kepala and degil as common everyday choices or shows their relative usage.",
+          "page_location_or_query": "Candidate relation claim",
+          "publisher": "Not available",
+          "register": "Everyday preference unestablished",
+          "source_group": "No comparative usage evidence retrieved",
+          "source_title": "Everyday word-choice evidence",
+          "stance": "inconclusive",
+          "url_or_query": "No corpus query supplied or retrieved",
+          "usage_basis": "dictionary-only"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "topic-04-obs-1",
+          "reason": "publisher must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-04-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "topic-04-obs-2",
+        "limitations": "Page content was unavailable; the proposed definition and keras kepala equivalent were not verified.",
+        "locale": "Malaysia",
+        "observation": "Access failed: the network tool returned “(502) Bad Gateway.” The entry could not be inspected, so it provides no support.",
+        "page_location_or_query": "Direct page retrieval",
+        "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+        "register": "Unassessed",
+        "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+        "source_title": "PRPM degil search entry",
+        "stance": "inconclusive",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=degil",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "manual-inspection",
+        "claim_id": "topic-04-meaning",
+        "claim_type": "relation",
+        "evidence_id": "topic-04-obs-3",
+        "limitations": "The accessible Indonesian dictionary entry establishes a sense only; the Malaysian lead was inaccessible, and dictionary evidence alone cannot establish everyday preference.",
+        "locale": "Indonesia; Malaysia",
+        "observation": "No contextual or comparative evidence was retrieved that establishes keras kepala and degil as common everyday choices or shows their relative usage.",
+        "page_location_or_query": "Candidate relation claim",
+        "publisher": "Not available",
+        "register": "Everyday preference unestablished",
+        "source_group": "No comparative usage evidence retrieved",
+        "source_title": "Everyday word-choice evidence",
+        "stance": "inconclusive",
+        "url_or_query": "No corpus query supplied or retrieved",
+        "usage_basis": "dictionary-only"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "topic-04-obs-1",
+        "reason": "publisher must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "022a0453f93eb8f1c2bd01dcaab13cce4b1f6d95f63475ac11206c6d3d8a37ef"
+}

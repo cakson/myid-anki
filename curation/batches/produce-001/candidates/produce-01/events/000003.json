@@ -1,0 +1,92 @@
+{
+  "at": "2026-10-04T10:40:43.183088+00:00",
+  "input_digest": "bd8acfad68d9a42724bf55bfcd98318905a818d1171a9e0b9e7574f4f0a49d57",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Jagung means maize/corn, including its edible cob and kernels. The proposed term fits the food sense; the dictionary entry covers the plant and edible cob, rather than specifying kernels alone.\", \"common_use\": \"Common and readily understood in Malaysia; Malaysian recipe sources use jagung for food ingredients.\", \"preferred\": \"Jagung is a well-supported ordinary term. The sources do not establish a preference among more specific forms such as jagung manis (sweet corn).\", \"register\": \"Neutral, standard Malay.\", \"region\": \"No regional restriction apparent in the sources.\", \"alternatives\": [\"jagung manis (sweet corn; narrower)\"], \"claims\": [{\"claim_id\": \"produce-01-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Jagung denotes maize, including its edible cob and kernels.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"produce-01-use\", \"claim_type\": \"locale-usage\", \"proposition\": \"Jagung is used for corn as a food ingredient in Malaysian recipes.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source\": \"PRPM, DBP, entry \\u201cjagung\\u201d\", \"url\": \"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=jagung\", \"claim\": \"Defines jagung as a plant whose cob bears edible grains, Zea mays.\"}, {\"source\": \"Cookpad Malaysia, \\u201cResipi Nasi Jagung (Set)\\u201d\", \"url\": \"https://cookpad.com/my/recipes/17253527-nasi-jagung-set\", \"claim\": \"Uses nasi jagung in a Malaysian recipe title and mentions jagung manis as an ingredient.\"}]}, \"bundle_response\": \"curation/batches/produce-001/malaysian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/malaysian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "jagung manis (sweet corn; narrower)"
+      ],
+      "claims": [
+        {
+          "claim_id": "produce-01-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Jagung denotes maize, including its edible cob and kernels."
+        },
+        {
+          "claim_id": "produce-01-use",
+          "claim_type": "locale-usage",
+          "locale": "Malaysia",
+          "proposition": "Jagung is used for corn as a food ingredient in Malaysian recipes."
+        }
+      ],
+      "common_use": "Common and readily understood in Malaysia; Malaysian recipe sources use jagung for food ingredients.",
+      "meaning": "Jagung means maize/corn, including its edible cob and kernels. The proposed term fits the food sense; the dictionary entry covers the plant and edible cob, rather than specifying kernels alone.",
+      "preferred": "Jagung is a well-supported ordinary term. The sources do not establish a preference among more specific forms such as jagung manis (sweet corn).",
+      "region": "No regional restriction apparent in the sources.",
+      "register": "Neutral, standard Malay.",
+      "source_leads": [
+        {
+          "claim": "Defines jagung as a plant whose cob bears edible grains, Zea mays.",
+          "source": "PRPM, DBP, entry “jagung”",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=jagung"
+        },
+        {
+          "claim": "Uses nasi jagung in a Malaysian recipe title and mentions jagung manis as an ingredient.",
+          "source": "Cookpad Malaysia, “Resipi Nasi Jagung (Set)”",
+          "url": "https://cookpad.com/my/recipes/17253527-nasi-jagung-set"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "jagung manis (sweet corn; narrower)"
+    ],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:produce-01-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Jagung denotes maize, including its edible cob and kernels."
+      },
+      {
+        "claim_id": "malaysian-usage:produce-01-use",
+        "claim_type": "locale-usage",
+        "locale": "Malaysia",
+        "proposition": "Jagung is used for corn as a food ingredient in Malaysian recipes."
+      }
+    ],
+    "common_use": "Common and readily understood in Malaysia; Malaysian recipe sources use jagung for food ingredients.",
+    "meaning": "Jagung means maize/corn, including its edible cob and kernels. The proposed term fits the food sense; the dictionary entry covers the plant and edible cob, rather than specifying kernels alone.",
+    "preferred": "Jagung is a well-supported ordinary term. The sources do not establish a preference among more specific forms such as jagung manis (sweet corn).",
+    "region": "No regional restriction apparent in the sources.",
+    "register": "Neutral, standard Malay.",
+    "source_leads": [
+      {
+        "claim": "Defines jagung as a plant whose cob bears edible grains, Zea mays.",
+        "claim_ids": [],
+        "source": "PRPM, DBP, entry “jagung”",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=jagung"
+      },
+      {
+        "claim": "Uses nasi jagung in a Malaysian recipe title and mentions jagung manis as an ingredient.",
+        "claim_ids": [],
+        "source": "Cookpad Malaysia, “Resipi Nasi Jagung (Set)”",
+        "url": "https://cookpad.com/my/recipes/17253527-nasi-jagung-set"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "97d6d2f8ae9bb10d089f32e413125be276b23faa4fc1dfd4194654f2df22e347"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.435123+00:00",
+  "input_digest": "e8b5e14790932596c5a05337b83bd56900014a81b1f141b6e3ba59e09a7f6087",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-11\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A fuel station is a place to refuel vehicles; a car parking area is a place to park them.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-11",
+          "rationale": "A fuel station is a place to refuel vehicles; a car parking area is a place to park them.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-11",
+        "rationale": "A fuel station is a place to refuel vehicles; a car parking area is a place to park them.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "b6d405a88bf810bf5c9af8445996016f658abdf9e57adaabaf4dcf28fc6fbcc0"
+}

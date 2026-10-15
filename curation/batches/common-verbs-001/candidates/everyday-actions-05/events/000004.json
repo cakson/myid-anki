@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-03T19:49:15.352996+00:00",
+  "input_digest": "9d1dc906b80706f8882562794a92b04c3c7ffd4ca6598c8d32e98b3a71a76950",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"english\": \"drive\", \"relation\": \"different-common-word\", \"semantic_alignment\": \"The intended car action is clearer with Indonesian menyetir and Malaysian memandu. The proposed bare forms setir and pandu are unsuitable as neutral standalone verbs, and 'drive' has other common senses. Suggested cue: 'drive a car'.\", \"aligned\": false, \"claims\": [{\"claim_id\": \"everyday-actions-05-relation\", \"claim_type\": \"relation\", \"proposition\": \"The proposed setir\\u2013pandu pair is unsuitable as a neutral verb pair: setir commonly names a steering wheel, while memandu is the ordinary Malaysian verb for driving a car.\"}]}, \"bundle_response\": \"curation/batches/common-verbs-001/relation-response-v2.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/common-verbs-001/relation-response-v2.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "aligned": false,
+      "claims": [
+        {
+          "claim_id": "everyday-actions-05-relation",
+          "claim_type": "relation",
+          "proposition": "The proposed setir–pandu pair is unsuitable as a neutral verb pair: setir commonly names a steering wheel, while memandu is the ordinary Malaysian verb for driving a car."
+        }
+      ],
+      "english": "drive",
+      "relation": "different-common-word",
+      "semantic_alignment": "The intended car action is clearer with Indonesian menyetir and Malaysian memandu. The proposed bare forms setir and pandu are unsuitable as neutral standalone verbs, and 'drive' has other common senses. Suggested cue: 'drive a car'."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": false,
+    "claims": [
+      {
+        "claim_id": "everyday-actions-05-relation",
+        "claim_type": "relation",
+        "proposition": "The proposed setir–pandu pair is unsuitable as a neutral verb pair: setir commonly names a steering wheel, while memandu is the ordinary Malaysian verb for driving a car."
+      }
+    ],
+    "english": "drive",
+    "relation": "different-common-word",
+    "semantic_alignment": "The intended car action is clearer with Indonesian menyetir and Malaysian memandu. The proposed bare forms setir and pandu are unsuitable as neutral standalone verbs, and 'drive' has other common senses. Suggested cue: 'drive a car'."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "f00e235d6b1ff6da11529e21b8c41c2446967d8b3c3e60010195efe794f96266"
+}

@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T10:28:12.744196+00:00",
+  "input_digest": "dcae0bb930f6023ef70f414885f35cfb81760a025716f12e517615c183f5ed18",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"OpenAI GPT-6\", \"result\": {\"english\": \"dishwashing liquid\", \"relation\": \"similar\", \"semantic_alignment\": \"Liquid detergent used to wash dishes by hand.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:dishwashing-liquid-id-ms-similar\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian \\u201csabun cuci piring\\u201d and Malaysian \\u201ccecair pencuci pinggan\\u201d refer to dishwashing detergent, but the Indonesian term can be broader than liquid specifically, while the Malaysian term explicitly denotes liquid.\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/relation-response.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/relation-response.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:dishwashing-liquid-id-ms-similar",
+          "claim_type": "relation",
+          "proposition": "Indonesian “sabun cuci piring” and Malaysian “cecair pencuci pinggan” refer to dishwashing detergent, but the Indonesian term can be broader than liquid specifically, while the Malaysian term explicitly denotes liquid."
+        }
+      ],
+      "english": "dishwashing liquid",
+      "relation": "similar",
+      "semantic_alignment": "Liquid detergent used to wash dishes by hand."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:dishwashing-liquid-id-ms-similar",
+        "claim_type": "relation",
+        "proposition": "Indonesian “sabun cuci piring” and Malaysian “cecair pencuci pinggan” refer to dishwashing detergent, but the Indonesian term can be broader than liquid specifically, while the Malaysian term explicitly denotes liquid."
+      }
+    ],
+    "english": "dishwashing liquid",
+    "relation": "similar",
+    "semantic_alignment": "Liquid detergent used to wash dishes by hand."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "093e92fabc3cc8127182ccec6d5d82da963c7c7f8994b96c9cd8aa40c93837e2"
+}

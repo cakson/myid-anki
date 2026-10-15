@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-03T20:02:47.677161+00:00",
+  "input_digest": "4e5a3af76612ac86fd8f3c4a5112e6d83b951fe81ea2ef17f1bb13eafefacc79",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Helm denotes protective headgear; in a motorcycle context it means a motorcycle helmet.\", \"common_use\": \"Widely understood and routinely used.\", \"preferred\": \"Helm is the normal everyday choice. Helm motor is available when the type must be explicit.\", \"register\": \"Neutral.\", \"region\": \"Used throughout Indonesia; no regional restriction identified.\", \"alternatives\": [\"helm motor\", \"helm sepeda motor\"], \"claims\": [{\"claim_id\": \"transportation-09-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Helm can denote protective headgear worn by a motorcycle rider, though the word is not limited to motorcycle helmets.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"transportation-09-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Helm is the normal everyday Indonesian choice for a motorcycle helmet when the riding context is clear.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://pesta.bsn.go.id/produk/detail/7352-sni18112007\", \"claim_ids\": [\"transportation-09-Indonesia-meaning\"], \"exact_claim\": \"The national standard is titled Helm pengendara kendaraan bermotor roda dua.\"}, {\"url\": \"https://jogja.polri.go.id/yogyakarta/tribrata-news/online/detail/imbauan-keselamatan-berlalu-lintas-jelang-idul-fitri-dalam-operasi-keselamatan-progo-2026.html\", \"claim_ids\": [\"transportation-09-Indonesia-preferred\"], \"exact_claim\": \"The police article repeatedly uses helm for the protective headgear of motorcycle riders and passengers.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "helm motor",
+        "helm sepeda motor"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-09-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Helm can denote protective headgear worn by a motorcycle rider, though the word is not limited to motorcycle helmets."
+        },
+        {
+          "claim_id": "transportation-09-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Helm is the normal everyday Indonesian choice for a motorcycle helmet when the riding context is clear."
+        }
+      ],
+      "common_use": "Widely understood and routinely used.",
+      "meaning": "Helm denotes protective headgear; in a motorcycle context it means a motorcycle helmet.",
+      "preferred": "Helm is the normal everyday choice. Helm motor is available when the type must be explicit.",
+      "region": "Used throughout Indonesia; no regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "transportation-09-Indonesia-meaning"
+          ],
+          "exact_claim": "The national standard is titled Helm pengendara kendaraan bermotor roda dua.",
+          "url": "https://pesta.bsn.go.id/produk/detail/7352-sni18112007"
+        },
+        {
+          "claim_ids": [
+            "transportation-09-Indonesia-preferred"
+          ],
+          "exact_claim": "The police article repeatedly uses helm for the protective headgear of motorcycle riders and passengers.",
+          "url": "https://jogja.polri.go.id/yogyakarta/tribrata-news/online/detail/imbauan-keselamatan-berlalu-lintas-jelang-idul-fitri-dalam-operasi-keselamatan-progo-2026.html"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "helm motor",
+      "helm sepeda motor"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-09-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Helm can denote protective headgear worn by a motorcycle rider, though the word is not limited to motorcycle helmets."
+      },
+      {
+        "claim_id": "transportation-09-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Helm is the normal everyday Indonesian choice for a motorcycle helmet when the riding context is clear."
+      }
+    ],
+    "common_use": "Widely understood and routinely used.",
+    "meaning": "Helm denotes protective headgear; in a motorcycle context it means a motorcycle helmet.",
+    "preferred": "Helm is the normal everyday choice. Helm motor is available when the type must be explicit.",
+    "region": "Used throughout Indonesia; no regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "transportation-09-Indonesia-meaning"
+        ],
+        "exact_claim": "The national standard is titled Helm pengendara kendaraan bermotor roda dua.",
+        "url": "https://pesta.bsn.go.id/produk/detail/7352-sni18112007"
+      },
+      {
+        "claim_ids": [
+          "transportation-09-Indonesia-preferred"
+        ],
+        "exact_claim": "The police article repeatedly uses helm for the protective headgear of motorcycle riders and passengers.",
+        "url": "https://jogja.polri.go.id/yogyakarta/tribrata-news/online/detail/imbauan-keselamatan-berlalu-lintas-jelang-idul-fitri-dalam-operasi-keselamatan-progo-2026.html"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "fb0cdc8c4eb206d30c869775aa027f4aef6efb71ff2dc595c7e7b55dcb61f5c1"
+}

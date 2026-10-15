@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T10:28:12.735086+00:00",
+  "input_digest": "e4f2cb9123691022a9bb22264f33f794f2d2c88f8372592079b10032592a0e49",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"OpenAI GPT-6\", \"result\": {\"english\": \"fork\", \"relation\": \"same\", \"semantic_alignment\": \"A pronged utensil used for eating.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:fork-id-ms-same\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian \\u201cgarpu\\u201d and Malaysian \\u201cgarpu\\u201d are both the common everyday terms for a fork, a pronged utensil used for eating.\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/relation-response.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/relation-response.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:fork-id-ms-same",
+          "claim_type": "relation",
+          "proposition": "Indonesian “garpu” and Malaysian “garpu” are both the common everyday terms for a fork, a pronged utensil used for eating."
+        }
+      ],
+      "english": "fork",
+      "relation": "same",
+      "semantic_alignment": "A pronged utensil used for eating."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:fork-id-ms-same",
+        "claim_type": "relation",
+        "proposition": "Indonesian “garpu” and Malaysian “garpu” are both the common everyday terms for a fork, a pronged utensil used for eating."
+      }
+    ],
+    "english": "fork",
+    "relation": "same",
+    "semantic_alignment": "A pronged utensil used for eating."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "2c8757db1ff918679dfa6501ab3c800baae7a845c3b1eda9941744d6fd47f771"
+}

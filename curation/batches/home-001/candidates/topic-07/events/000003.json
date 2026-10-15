@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-03T19:44:42.805027+00:00",
+  "input_digest": "30d95579d174d704235c23fcdfc62038dd7314c606cac5a58c0186646d19e436",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Dapur denotes a kitchen or the area where food is prepared and cooked.\", \"common_use\": \"Widely understood and routinely used for the household kitchen.\", \"preferred\": \"Dapur is the normal everyday choice.\", \"register\": \"Neutral.\", \"region\": \"Usable throughout Indonesia; no specific regional restriction identified.\", \"alternatives\": [\"ruang dapur\", \"area masak\"], \"claims\": [{\"claim_id\": \"topic-07-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Dapur denotes the household room or area where food is prepared and cooked.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"topic-07-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Dapur is the normal everyday Indonesian choice for kitchen.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.kemendikdasmen.go.id/entri/dapur\", \"claim_ids\": [\"topic-07-Indonesia-meaning\"], \"exact_claim\": \"Check the KBBI definition of dapur for its household cooking sense.\"}, {\"url\": \"https://www.ikea.co.id/in/inspirasi/letak-kamar-tidur-orang-tua\", \"claim_ids\": [\"topic-07-Indonesia-preferred\"], \"exact_claim\": \"IKEA Indonesia uses dapur for the kitchen when discussing the layout of a home.\"}]}, \"bundle_response\": \"curation/batches/home-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "ruang dapur",
+        "area masak"
+      ],
+      "claims": [
+        {
+          "claim_id": "topic-07-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Dapur denotes the household room or area where food is prepared and cooked."
+        },
+        {
+          "claim_id": "topic-07-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Dapur is the normal everyday Indonesian choice for kitchen."
+        }
+      ],
+      "common_use": "Widely understood and routinely used for the household kitchen.",
+      "meaning": "Dapur denotes a kitchen or the area where food is prepared and cooked.",
+      "preferred": "Dapur is the normal everyday choice.",
+      "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "topic-07-Indonesia-meaning"
+          ],
+          "exact_claim": "Check the KBBI definition of dapur for its household cooking sense.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/dapur"
+        },
+        {
+          "claim_ids": [
+            "topic-07-Indonesia-preferred"
+          ],
+          "exact_claim": "IKEA Indonesia uses dapur for the kitchen when discussing the layout of a home.",
+          "url": "https://www.ikea.co.id/in/inspirasi/letak-kamar-tidur-orang-tua"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "ruang dapur",
+      "area masak"
+    ],
+    "claims": [
+      {
+        "claim_id": "topic-07-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Dapur denotes the household room or area where food is prepared and cooked."
+      },
+      {
+        "claim_id": "topic-07-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Dapur is the normal everyday Indonesian choice for kitchen."
+      }
+    ],
+    "common_use": "Widely understood and routinely used for the household kitchen.",
+    "meaning": "Dapur denotes a kitchen or the area where food is prepared and cooked.",
+    "preferred": "Dapur is the normal everyday choice.",
+    "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "topic-07-Indonesia-meaning"
+        ],
+        "exact_claim": "Check the KBBI definition of dapur for its household cooking sense.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/dapur"
+      },
+      {
+        "claim_ids": [
+          "topic-07-Indonesia-preferred"
+        ],
+        "exact_claim": "IKEA Indonesia uses dapur for the kitchen when discussing the layout of a home.",
+        "url": "https://www.ikea.co.id/in/inspirasi/letak-kamar-tidur-orang-tua"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "ce51225aa1ac807030048da3448bffd76d2995b80c4e6add04cf1799af93a502"
+}

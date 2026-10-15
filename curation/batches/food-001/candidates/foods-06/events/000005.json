@@ -1,0 +1,229 @@
+{
+  "at": "2026-10-03T19:56:46.942854+00:00",
+  "input_digest": "29376425cfb372756049fcbde49e5ad8d5d1a8efcd81cbf92bff5eac78cd40a1",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"observations\": [{\"evidence_id\": \"f06-id-meaning\", \"claim_id\": \"foods-06-Indonesia-meaning\", \"source_group\": \"Kemkes nephrotic syndrome article 409\", \"source_title\": \"Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya\", \"accessed_at\": \"2026-10-03T19:52:02Z\", \"page_location_or_query\": \"Lines 81\\u201394\", \"audit_method\": \"retrieved-page\", \"observation\": \"The article lists \\u201cwafer dan biskuit\\u201d among foods and later groups \\u201cbiskuit\\u201d with cakes in diet advice.\", \"stance\": \"supports\", \"claim_type\": \"meaning\", \"usage_basis\": \"contextual\", \"locale\": \"Indonesia\", \"register\": \"diet guidance\", \"limitations\": \"The passage establishes a baked-food category but does not specify its size or crispness.\"}, {\"evidence_id\": \"f06-id-preferred\", \"claim_id\": \"foods-06-Indonesia-preferred\", \"source_group\": \"BPOM Ramadan food-monitoring press release\", \"source_title\": \"Intensifikasi Pengawasan Pangan Ramadan dan Jelang Hari Raya Idulfitri 1443 H\", \"publisher\": \"Badan Pengawas Obat dan Makanan Republik Indonesia\", \"url_or_query\": \"https://www.pom.go.id/siaran-pers/intensifikasi-pengawasan-pangan-ramadan-dan-jelang-hari-raya-idulfitri-1443-h-tahun-2022-badan-pom-pastikan-keamanan-pangan\", \"accessed_at\": \"2026-10-03T19:52:02Z\", \"page_location_or_query\": \"Line 71\", \"audit_method\": \"retrieved-page\", \"observation\": \"The press release uses \\u201cbiskuit\\u201d as an unglossed, familiar packaged-food category.\", \"stance\": \"supports\", \"claim_type\": \"preferred-choice\", \"usage_basis\": \"contextual\", \"locale\": \"Indonesia\", \"register\": \"consumer food-safety communication\", \"limitations\": \"The source supports a normal choice but does not compare it with alternative everyday terms.\"}, {\"evidence_id\": \"f06-my-meaning\", \"claim_id\": \"foods-06-Malaysia-meaning\", \"source_group\": \"DBP Malay dictionaries\", \"source_title\": \"PRPM entry for biskut\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=13748&keyword=biskut\", \"accessed_at\": \"2026-10-03T19:52:02Z\", \"page_location_or_query\": \"Lines 16\\u201322\", \"audit_method\": \"retrieved-page\", \"observation\": \"The dictionaries define \\u201cbiskut\\u201d as a dry baked snack, usually flat, thin, and crisp.\", \"stance\": \"supports\", \"claim_type\": \"meaning\", \"usage_basis\": \"dictionary-only\", \"locale\": \"Malaysia\", \"register\": \"dictionary\", \"limitations\": \"The definition cannot establish everyday preference by itself.\"}, {\"evidence_id\": \"f06-my-preferred\", \"claim_id\": \"foods-06-Malaysia-preferred\", \"source_group\": \"National Cancer Institute nutrition guidance\", \"source_title\": \"Panduan Mengatasi Masalah Pemakanan Kesan Dari Rawatan Kanser\", \"publisher\": \"Institut Kanser Negara, Kementerian Kesihatan Malaysia\", \"url_or_query\": \"https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser\", \"accessed_at\": \"2026-10-03T19:52:02Z\", \"page_location_or_query\": \"Lines 164\\u2013169 and 193\\u2013195\", \"audit_method\": \"retrieved-page\", \"observation\": \"Patient advice offers \\u201cbiskut\\u201d as an ordinary snack and later as an easily digested dry food.\", \"stance\": \"supports\", \"claim_type\": \"preferred-choice\", \"usage_basis\": \"contextual\", \"locale\": \"Malaysia\", \"register\": \"patient food guidance\", \"limitations\": \"The page does not provide a date or a frequency comparison with other terms.\"}, {\"evidence_id\": \"f06-relation\", \"claim_id\": \"foods-06-relation\", \"source_group\": \"Kemkes nephrotic syndrome article 409 + National Cancer Institute nutrition guidance\", \"source_title\": \"Paired biscuit usage\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia; Institut Kanser Negara\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya | https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser\", \"accessed_at\": \"2026-10-03T19:52:02Z\", \"page_location_or_query\": \"Kemkes lines 81\\u201394; NCI lines 164\\u2013169 and 193\\u2013195\", \"audit_method\": \"manual-inspection\", \"observation\": \"Indonesian guidance uses \\u201cbiskuit\\u201d and Malaysian guidance \\u201cbiskut\\u201d for the corresponding snack food.\", \"stance\": \"supports\", \"claim_type\": \"relation\", \"usage_basis\": \"comparative\", \"locale\": \"Indonesia and Malaysia\", \"register\": \"public food guidance\", \"limitations\": \"The sources establish parallel natural use, not a measured frequency ranking.\"}], \"access_failures\": [{\"url\": \"https://kbbi.kemendikdasmen.go.id/entri/biskuit\", \"method\": \"direct page open\", \"outcome\": \"Page inaccessible through the retrieval tool; no KBBI content was inspected.\"}, {\"url\": \"https://pppomn.pom.go.id/berita/seri-artikel-edukasi-laboratorium-pangan-10-pengujian-bahan-tambahan-pangan-pada-pangan-olahan-mengapa-penting\", \"method\": \"direct page open, retried from a search result\", \"outcome\": \"Both page-open attempts timed out; search snippets were not treated as inspected page content.\"}]}, \"bundle_response\": \"curation/batches/food-001/evidence-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/evidence-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        {
+          "method": "direct page open",
+          "outcome": "Page inaccessible through the retrieval tool; no KBBI content was inspected.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/biskuit"
+        },
+        {
+          "method": "direct page open, retried from a search result",
+          "outcome": "Both page-open attempts timed out; search snippets were not treated as inspected page content.",
+          "url": "https://pppomn.pom.go.id/berita/seri-artikel-edukasi-laboratorium-pangan-10-pengujian-bahan-tambahan-pangan-pada-pangan-olahan-mengapa-penting"
+        }
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-06-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f06-id-meaning",
+          "limitations": "The passage establishes a baked-food category but does not specify its size or crispness.",
+          "locale": "Indonesia",
+          "observation": "The article lists “wafer dan biskuit” among foods and later groups “biskuit” with cakes in diet advice.",
+          "page_location_or_query": "Lines 81–94",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "diet guidance",
+          "source_group": "Kemkes nephrotic syndrome article 409",
+          "source_title": "Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-06-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f06-id-preferred",
+          "limitations": "The source supports a normal choice but does not compare it with alternative everyday terms.",
+          "locale": "Indonesia",
+          "observation": "The press release uses “biskuit” as an unglossed, familiar packaged-food category.",
+          "page_location_or_query": "Line 71",
+          "publisher": "Badan Pengawas Obat dan Makanan Republik Indonesia",
+          "register": "consumer food-safety communication",
+          "source_group": "BPOM Ramadan food-monitoring press release",
+          "source_title": "Intensifikasi Pengawasan Pangan Ramadan dan Jelang Hari Raya Idulfitri 1443 H",
+          "stance": "supports",
+          "url_or_query": "https://www.pom.go.id/siaran-pers/intensifikasi-pengawasan-pangan-ramadan-dan-jelang-hari-raya-idulfitri-1443-h-tahun-2022-badan-pom-pastikan-keamanan-pangan",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-06-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f06-my-meaning",
+          "limitations": "The definition cannot establish everyday preference by itself.",
+          "locale": "Malaysia",
+          "observation": "The dictionaries define “biskut” as a dry baked snack, usually flat, thin, and crisp.",
+          "page_location_or_query": "Lines 16–22",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP Malay dictionaries",
+          "source_title": "PRPM entry for biskut",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=13748&keyword=biskut",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-06-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f06-my-preferred",
+          "limitations": "The page does not provide a date or a frequency comparison with other terms.",
+          "locale": "Malaysia",
+          "observation": "Patient advice offers “biskut” as an ordinary snack and later as an easily digested dry food.",
+          "page_location_or_query": "Lines 164–169 and 193–195",
+          "publisher": "Institut Kanser Negara, Kementerian Kesihatan Malaysia",
+          "register": "patient food guidance",
+          "source_group": "National Cancer Institute nutrition guidance",
+          "source_title": "Panduan Mengatasi Masalah Pemakanan Kesan Dari Rawatan Kanser",
+          "stance": "supports",
+          "url_or_query": "https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "manual-inspection",
+          "claim_id": "foods-06-relation",
+          "claim_type": "relation",
+          "evidence_id": "f06-relation",
+          "limitations": "The sources establish parallel natural use, not a measured frequency ranking.",
+          "locale": "Indonesia and Malaysia",
+          "observation": "Indonesian guidance uses “biskuit” and Malaysian guidance “biskut” for the corresponding snack food.",
+          "page_location_or_query": "Kemkes lines 81–94; NCI lines 164–169 and 193–195",
+          "publisher": "Kementerian Kesehatan Republik Indonesia; Institut Kanser Negara",
+          "register": "public food guidance",
+          "source_group": "Kemkes nephrotic syndrome article 409 + National Cancer Institute nutrition guidance",
+          "source_title": "Paired biscuit usage",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya | https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser",
+          "usage_basis": "comparative"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      {
+        "method": "direct page open",
+        "outcome": "Page inaccessible through the retrieval tool; no KBBI content was inspected.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/biskuit"
+      },
+      {
+        "method": "direct page open, retried from a search result",
+        "outcome": "Both page-open attempts timed out; search snippets were not treated as inspected page content.",
+        "url": "https://pppomn.pom.go.id/berita/seri-artikel-edukasi-laboratorium-pangan-10-pengujian-bahan-tambahan-pangan-pada-pangan-olahan-mengapa-penting"
+      }
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-06-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f06-id-meaning",
+        "limitations": "The passage establishes a baked-food category but does not specify its size or crispness.",
+        "locale": "Indonesia",
+        "observation": "The article lists “wafer dan biskuit” among foods and later groups “biskuit” with cakes in diet advice.",
+        "page_location_or_query": "Lines 81–94",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "diet guidance",
+        "source_group": "Kemkes nephrotic syndrome article 409",
+        "source_title": "Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-06-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f06-id-preferred",
+        "limitations": "The source supports a normal choice but does not compare it with alternative everyday terms.",
+        "locale": "Indonesia",
+        "observation": "The press release uses “biskuit” as an unglossed, familiar packaged-food category.",
+        "page_location_or_query": "Line 71",
+        "publisher": "Badan Pengawas Obat dan Makanan Republik Indonesia",
+        "register": "consumer food-safety communication",
+        "source_group": "BPOM Ramadan food-monitoring press release",
+        "source_title": "Intensifikasi Pengawasan Pangan Ramadan dan Jelang Hari Raya Idulfitri 1443 H",
+        "stance": "supports",
+        "url_or_query": "https://www.pom.go.id/siaran-pers/intensifikasi-pengawasan-pangan-ramadan-dan-jelang-hari-raya-idulfitri-1443-h-tahun-2022-badan-pom-pastikan-keamanan-pangan",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-06-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f06-my-meaning",
+        "limitations": "The definition cannot establish everyday preference by itself.",
+        "locale": "Malaysia",
+        "observation": "The dictionaries define “biskut” as a dry baked snack, usually flat, thin, and crisp.",
+        "page_location_or_query": "Lines 16–22",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP Malay dictionaries",
+        "source_title": "PRPM entry for biskut",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=13748&keyword=biskut",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-06-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f06-my-preferred",
+        "limitations": "The page does not provide a date or a frequency comparison with other terms.",
+        "locale": "Malaysia",
+        "observation": "Patient advice offers “biskut” as an ordinary snack and later as an easily digested dry food.",
+        "page_location_or_query": "Lines 164–169 and 193–195",
+        "publisher": "Institut Kanser Negara, Kementerian Kesihatan Malaysia",
+        "register": "patient food guidance",
+        "source_group": "National Cancer Institute nutrition guidance",
+        "source_title": "Panduan Mengatasi Masalah Pemakanan Kesan Dari Rawatan Kanser",
+        "stance": "supports",
+        "url_or_query": "https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "manual-inspection",
+        "claim_id": "foods-06-relation",
+        "claim_type": "relation",
+        "evidence_id": "f06-relation",
+        "limitations": "The sources establish parallel natural use, not a measured frequency ranking.",
+        "locale": "Indonesia and Malaysia",
+        "observation": "Indonesian guidance uses “biskuit” and Malaysian guidance “biskut” for the corresponding snack food.",
+        "page_location_or_query": "Kemkes lines 81–94; NCI lines 164–169 and 193–195",
+        "publisher": "Kementerian Kesehatan Republik Indonesia; Institut Kanser Negara",
+        "register": "public food guidance",
+        "source_group": "Kemkes nephrotic syndrome article 409 + National Cancer Institute nutrition guidance",
+        "source_title": "Paired biscuit usage",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya | https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser",
+        "usage_basis": "comparative"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "f54a7d6a5e4c676ea6e1e6c65cd02a2b48508492f928413881e603da3aa3a1ae"
+}

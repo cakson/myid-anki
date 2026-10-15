@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-10T01:37:10.761492+00:00",
+  "failure": "normalization result includes self-overlap: university-study-02",
+  "raw_response": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"results\":{\"university-study-01\":{\"overlaps\":[]},\"university-study-02\":{\"overlaps\":[{\"other_id\":\"university-001:university-study-02\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Exact same cue, Indonesian and Malaysian answers, and sense as the current candidate; the archive entry is the same concept.\"}]},\"university-study-03\":{\"overlaps\":[{\"other_id\":\"university-001:university-study-03\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Exact same cue, Indonesian and Malaysian answers, and sense as the current candidate; the archive entry is the same concept.\"}]},\"university-study-04\":{\"overlaps\":[{\"other_id\":\"university-001:university-study-04\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Exact same cue, Indonesian and Malaysian answers, and sense as the current candidate; the archive entry is the same concept.\"}]}}}",
+  "response_path": "curation/batches/university-001/normalize-response.json",
+  "role": "bundle:normalize-and-dedupe",
+  "status": "failed"
+}

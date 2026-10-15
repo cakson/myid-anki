@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-03T19:49:24.865186+00:00",
+  "result": {
+    "candidate_id": "everyday-actions-02",
+    "checked_at": "2026-10-03T19:49:24.865186+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "outcome": "hold",
+    "reason_codes": [
+      "Relation review found unresolved cue, sense, form, or usage: Cuci and basuh can both mean cleaning with water, but 'wash' leaves the object unspecified. Malaysian cuci can be equally natural for particular objects. Suggested cue: 'wash something with water'."
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "complete",
+      "malaysian-usage": "complete",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "complete"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

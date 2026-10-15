@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-03T19:51:34.388464+00:00",
+  "result": {
+    "candidate_id": "transportation-03",
+    "checked_at": "2026-10-03T19:51:34.388464+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "outcome": "pending",
+    "reason_codes": [
+      "missing-stage:adversarial-review",
+      "missing-stage:evidence-audit",
+      "missing-stage:independent-verification",
+      "missing-stage:indonesian-usage",
+      "missing-stage:malaysian-usage",
+      "missing-stage:normalize-and-dedupe",
+      "missing-stage:relation-proposal"
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "missing",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

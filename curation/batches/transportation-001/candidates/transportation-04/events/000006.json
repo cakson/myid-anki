@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.420392+00:00",
+  "input_digest": "d63021f3757f896ddf99cbb614a185a30fc6d7ca8c8b59085ddd6132e7483ae3",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"000001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bus is a large passenger vehicle serving a route; the accepted car concept is a four-wheeled passenger vehicle.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000001",
+          "rationale": "A bus is a large passenger vehicle serving a route; the accepted car concept is a four-wheeled passenger vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000001",
+        "rationale": "A bus is a large passenger vehicle serving a route; the accepted car concept is a four-wheeled passenger vehicle.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "9940835f33d4a4255df407efda8f436a2a042fb39a160e45dd8709c239daeef7"
+}

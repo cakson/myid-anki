@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-04T10:27:26.319226+00:00",
+  "input_digest": "91f917a4c6f6dd11a035edb3c26c6234c645742fef026c67fd8913e53c2100f2",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI GPT-6\", \"result\": {\"meaning\": \"\\u201cSemangka\\u201d means watermelon, the fruit with sweet flesh and a rind; it matches the stated sense.\", \"common_use\": \"Common and readily understood in contemporary Indonesian.\", \"preferred\": \"\\u201cSemangka\\u201d is the normal everyday term.\", \"register\": \"Neutral.\", \"region\": \"Widely used across Indonesia.\", \"alternatives\": [], \"claims\": [{\"claim_id\": \"watermelon-id-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"In Indonesian, \\u201csemangka\\u201d denotes watermelon.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"watermelon-id-common\", \"claim_type\": \"locale-usage\", \"proposition\": \"\\u201cSemangka\\u201d is commonly used and understood for watermelon in Indonesia.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"watermelon-id-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"\\u201cSemangka\\u201d is the normal neutral everyday Indonesian term for watermelon.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"source\": \"KBBI Daring\", \"exact_claim_to_check\": \"The entry for \\u201csemangka\\u201d defines the fruit sense.\", \"url\": \"https://kbbi.kemdikbud.go.id/entri/semangka\"}, {\"source\": \"Indonesian Wiktionary\", \"exact_claim_to_check\": \"The Indonesian entry for \\u201csemangka\\u201d identifies it as watermelon.\", \"url\": \"https://id.wiktionary.org/wiki/semangka\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/indonesian-usage-syntax-repair.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/indonesian-usage-syntax-repair.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "alternatives": [],
+      "claims": [
+        {
+          "claim_id": "watermelon-id-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "In Indonesian, “semangka” denotes watermelon."
+        },
+        {
+          "claim_id": "watermelon-id-common",
+          "claim_type": "locale-usage",
+          "locale": "Indonesia",
+          "proposition": "“Semangka” is commonly used and understood for watermelon in Indonesia."
+        },
+        {
+          "claim_id": "watermelon-id-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "“Semangka” is the normal neutral everyday Indonesian term for watermelon."
+        }
+      ],
+      "common_use": "Common and readily understood in contemporary Indonesian.",
+      "meaning": "“Semangka” means watermelon, the fruit with sweet flesh and a rind; it matches the stated sense.",
+      "preferred": "“Semangka” is the normal everyday term.",
+      "region": "Widely used across Indonesia.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "exact_claim_to_check": "The entry for “semangka” defines the fruit sense.",
+          "source": "KBBI Daring",
+          "url": "https://kbbi.kemdikbud.go.id/entri/semangka"
+        },
+        {
+          "exact_claim_to_check": "The Indonesian entry for “semangka” identifies it as watermelon.",
+          "source": "Indonesian Wiktionary",
+          "url": "https://id.wiktionary.org/wiki/semangka"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:watermelon-id-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "In Indonesian, “semangka” denotes watermelon."
+      },
+      {
+        "claim_id": "indonesian-usage:watermelon-id-common",
+        "claim_type": "locale-usage",
+        "locale": "Indonesia",
+        "proposition": "“Semangka” is commonly used and understood for watermelon in Indonesia."
+      },
+      {
+        "claim_id": "indonesian-usage:watermelon-id-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "“Semangka” is the normal neutral everyday Indonesian term for watermelon."
+      }
+    ],
+    "common_use": "Common and readily understood in contemporary Indonesian.",
+    "meaning": "“Semangka” means watermelon, the fruit with sweet flesh and a rind; it matches the stated sense.",
+    "preferred": "“Semangka” is the normal everyday term.",
+    "region": "Widely used across Indonesia.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim_to_check": "The entry for “semangka” defines the fruit sense.",
+        "source": "KBBI Daring",
+        "url": "https://kbbi.kemdikbud.go.id/entri/semangka"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim_to_check": "The Indonesian entry for “semangka” identifies it as watermelon.",
+        "source": "Indonesian Wiktionary",
+        "url": "https://id.wiktionary.org/wiki/semangka"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "7f6198b96a6b67089666b387ff64ffcf8dce78a6c4544cd743d1f16736df662f"
+}

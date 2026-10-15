@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-03T20:02:47.638120+00:00",
+  "input_digest": "1b2e013f94be02e18fd93973b11074818bdfa1841303783c49b2d82cba14a557",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Truk denotes a road vehicle built to carry goods, usually larger than a passenger car.\", \"common_use\": \"Widely understood and routinely used.\", \"preferred\": \"Truk is the normal everyday choice.\", \"register\": \"Neutral; mobil barang is a more administrative category.\", \"region\": \"Used throughout Indonesia; no regional restriction identified.\", \"alternatives\": [\"mobil barang\", \"kendaraan barang\"], \"claims\": [{\"claim_id\": \"transportation-06-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Truk denotes a vehicle with four or more wheels used to carry goods.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"transportation-06-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Truk is the normal everyday Indonesian choice for truck.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://sirusa.web.bps.go.id/metadata/variabel/92590ec4-f5fc-bf50-81d7-9f89c03e1853\", \"claim_ids\": [\"transportation-06-Indonesia-meaning\", \"transportation-06-Indonesia-preferred\"], \"exact_claim\": \"BPS defines truk as a four-or-more-wheeled goods vehicle and notes mobil barang as another name.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "mobil barang",
+        "kendaraan barang"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-06-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Truk denotes a vehicle with four or more wheels used to carry goods."
+        },
+        {
+          "claim_id": "transportation-06-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Truk is the normal everyday Indonesian choice for truck."
+        }
+      ],
+      "common_use": "Widely understood and routinely used.",
+      "meaning": "Truk denotes a road vehicle built to carry goods, usually larger than a passenger car.",
+      "preferred": "Truk is the normal everyday choice.",
+      "region": "Used throughout Indonesia; no regional restriction identified.",
+      "register": "Neutral; mobil barang is a more administrative category.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "transportation-06-Indonesia-meaning",
+            "transportation-06-Indonesia-preferred"
+          ],
+          "exact_claim": "BPS defines truk as a four-or-more-wheeled goods vehicle and notes mobil barang as another name.",
+          "url": "https://sirusa.web.bps.go.id/metadata/variabel/92590ec4-f5fc-bf50-81d7-9f89c03e1853"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "mobil barang",
+      "kendaraan barang"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-06-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Truk denotes a vehicle with four or more wheels used to carry goods."
+      },
+      {
+        "claim_id": "transportation-06-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Truk is the normal everyday Indonesian choice for truck."
+      }
+    ],
+    "common_use": "Widely understood and routinely used.",
+    "meaning": "Truk denotes a road vehicle built to carry goods, usually larger than a passenger car.",
+    "preferred": "Truk is the normal everyday choice.",
+    "region": "Used throughout Indonesia; no regional restriction identified.",
+    "register": "Neutral; mobil barang is a more administrative category.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "transportation-06-Indonesia-meaning",
+          "transportation-06-Indonesia-preferred"
+        ],
+        "exact_claim": "BPS defines truk as a four-or-more-wheeled goods vehicle and notes mobil barang as another name.",
+        "url": "https://sirusa.web.bps.go.id/metadata/variabel/92590ec4-f5fc-bf50-81d7-9f89c03e1853"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "b4009fa6ac2a883b5a2fb0b36a10a76a9d4f8e03b4d6de29e4eb59b69058ed89"
+}

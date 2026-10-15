@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-03T20:02:47.624034+00:00",
+  "input_digest": "ac353ba1f5bcb34fba27459327f5828c9f3cdcb00ee3b6186639d47f401efebe",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Teksi denotes a car hired to carry passengers for a fare. It fits the stated sense; ride-hailing cars are often named by their service instead.\", \"common_use\": \"Common and readily understood, especially for a conventional taxi.\", \"preferred\": \"Teksi is the normal neutral choice for a conventional taxi.\", \"register\": \"Neutral.\", \"region\": \"Malaysia generally; a separate colloquial sense referring to a trishaw is recorded for Kelantan.\", \"alternatives\": [\"kereta sewa\", \"taxi\", \"Grab\"], \"claims\": [{\"claim_id\": \"transportation-05-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Teksi denotes a car that carries passengers for a fare; DBP also records a separate colloquial Kelantan sense referring to a trishaw.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"transportation-05-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Teksi is the normal neutral Malaysian Malay choice for a conventional taxi.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=teksi\", \"claim_ids\": [\"transportation-05-Malaysia-meaning\", \"transportation-05-Malaysia-preferred\"], \"evidence_to_check\": \"DBP gives the fare-paying car sense and notes the colloquial Kelantan trishaw sense; current service naming needs separate checking.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/transportation-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "kereta sewa",
+        "taxi",
+        "Grab"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-05-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Teksi denotes a car that carries passengers for a fare; DBP also records a separate colloquial Kelantan sense referring to a trishaw."
+        },
+        {
+          "claim_id": "transportation-05-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Teksi is the normal neutral Malaysian Malay choice for a conventional taxi."
+        }
+      ],
+      "common_use": "Common and readily understood, especially for a conventional taxi.",
+      "meaning": "Teksi denotes a car hired to carry passengers for a fare. It fits the stated sense; ride-hailing cars are often named by their service instead.",
+      "preferred": "Teksi is the normal neutral choice for a conventional taxi.",
+      "region": "Malaysia generally; a separate colloquial sense referring to a trishaw is recorded for Kelantan.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-05-Malaysia-meaning",
+            "transportation-05-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP gives the fare-paying car sense and notes the colloquial Kelantan trishaw sense; current service naming needs separate checking.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=teksi"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "kereta sewa",
+      "taxi",
+      "Grab"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-05-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Teksi denotes a car that carries passengers for a fare; DBP also records a separate colloquial Kelantan sense referring to a trishaw."
+      },
+      {
+        "claim_id": "transportation-05-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Teksi is the normal neutral Malaysian Malay choice for a conventional taxi."
+      }
+    ],
+    "common_use": "Common and readily understood, especially for a conventional taxi.",
+    "meaning": "Teksi denotes a car hired to carry passengers for a fare. It fits the stated sense; ride-hailing cars are often named by their service instead.",
+    "preferred": "Teksi is the normal neutral choice for a conventional taxi.",
+    "region": "Malaysia generally; a separate colloquial sense referring to a trishaw is recorded for Kelantan.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-05-Malaysia-meaning",
+          "transportation-05-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP gives the fare-paying car sense and notes the colloquial Kelantan trishaw sense; current service naming needs separate checking.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=teksi"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "ecfaa8e0e3f55e9cc2a29882f08b3cf9b0eef96bcf5db40bf8df8c8e51ce880b"
+}

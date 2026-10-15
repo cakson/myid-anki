@@ -1,0 +1,277 @@
+{
+  "at": "2026-10-03T20:00:18.789253+00:00",
+  "input_digest": "1cfe1d70466349c4104b726fb1a9c46ca5a800f470ce8f9b53b92395b97abfac",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [{\"method\": \"direct page open\", \"outcome\": \"Page inaccessible through the retrieval tool; no KBBI content was inspected.\", \"url\": \"https://kbbi.kemendikdasmen.go.id/entri/saus\"}, {\"method\": \"direct page open, retried from a search result\", \"outcome\": \"Both page-open attempts timed out; search snippets were not treated as inspected page content.\", \"url\": \"https://pppomn.pom.go.id/berita/seri-artikel-edukasi-laboratorium-pangan-10-pengujian-bahan-tambahan-pangan-pada-pangan-olahan-mengapa-penting\"}], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-05-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f05-id-meaning\", \"limitations\": \"The examples establish food-sauce uses but do not define the full consistency range.\", \"locale\": \"Indonesia\", \"observation\": \"The article names \\u201csaus keju,\\u201d \\u201csaus tomat,\\u201d \\u201csaus sambal,\\u201d and sauces served with siomay, bakso, and noodles.\", \"page_location_or_query\": \"Lines 79\\u201383\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"diet guidance\", \"source_group\": \"Kemkes nephrotic syndrome article 409\", \"source_title\": \"Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya\", \"stance\": \"supports\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-05-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f05-id-preferred\", \"limitations\": \"It supports natural generic and specific use, not a measured claim of nationwide normality; \\u201csambal\\u201d and \\u201ckecap\\u201d also name particular condiments.\", \"locale\": \"Indonesia\", \"observation\": \"The article uses both generic \\u201csaus\\u201d and specific expressions such as \\u201csaus tomat\\u201d and \\u201csaus kacang.\\u201d\", \"page_location_or_query\": \"Lines 81\\u201383\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"diet guidance\", \"source_group\": \"Kemkes nephrotic syndrome article 409\", \"source_title\": \"Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya\", \"stance\": \"supports\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-05-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f05-id-category\", \"limitations\": \"A regulatory product list is not evidence of conversational frequency.\", \"locale\": \"Indonesia\", \"observation\": \"Food categories include \\u201csaus cabe,\\u201d \\u201csaus tomat,\\u201d \\u201csaus tiram,\\u201d and other named sauces, alongside \\u201csambal.\\u201d\", \"page_location_or_query\": \"Lines 387\\u2013414\", \"publisher\": \"Badan Pengawas Obat dan Makanan Republik Indonesia\", \"register\": \"food-product administration\", \"source_group\": \"BPOM SPPIRT food-category list\", \"source_title\": \"KBLI | SPPIRT\", \"stance\": \"supports\", \"url_or_query\": \"https://sppirt.pom.go.id/kbli\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-05-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f05-my-meaning\", \"limitations\": \"The page also has an unrelated uppercase SOS entry; the dictionary alone does not establish preference.\", \"locale\": \"Malaysia\", \"observation\": \"The food sense defines \\u201csos\\u201d as a liquid or thick substance used to enhance food's flavour.\", \"page_location_or_query\": \"Lines 21\\u201326\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP Malay dictionaries\", \"source_title\": \"PRPM entry for sos\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=67756&keyword=sos\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-05-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f05-my-preferred\", \"limitations\": \"This is a generic use in one institutional publication, not a frequency comparison.\", \"locale\": \"Malaysia\", \"observation\": \"Food advice says to flavour meat, fish, and chicken with lime juice, spices, \\u201csos,\\u201d and natural seasonings.\", \"page_location_or_query\": \"Lines 219\\u2013222\", \"publisher\": \"Institut Kanser Negara, Kementerian Kesihatan Malaysia\", \"register\": \"patient food guidance\", \"source_group\": \"National Cancer Institute nutrition guidance\", \"source_title\": \"Panduan Mengatasi Masalah Pemakanan Kesan Dari Rawatan Kanser\", \"stance\": \"supports\", \"url_or_query\": \"https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-05-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f05-my-product\", \"limitations\": \"This is a named product, and the database is associated with 1997; the generic contemporary use is better shown by the separate nutrition guidance.\", \"locale\": \"Malaysia\", \"observation\": \"The database labels bottled chilli sauce \\u201cSos cili dalam botol.\\u201d\", \"page_location_or_query\": \"Lines 14\\u201318\", \"publisher\": \"Malaysian Food Composition Database Programme, Institute for Medical Research\", \"register\": \"food database\", \"source_group\": \"Malaysian Food Composition Database\", \"source_title\": \"Chilli sauce, bottle (Sos cili dalam botol)\", \"stance\": \"supports\", \"url_or_query\": \"https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/164-chilli-sauce%2C-bottle-%28sos-cili-dalam-botol%29.html\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"f05-relation\", \"reason\": \"source_group must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/food-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        {
+          "method": "direct page open",
+          "outcome": "Page inaccessible through the retrieval tool; no KBBI content was inspected.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/saus"
+        },
+        {
+          "method": "direct page open, retried from a search result",
+          "outcome": "Both page-open attempts timed out; search snippets were not treated as inspected page content.",
+          "url": "https://pppomn.pom.go.id/berita/seri-artikel-edukasi-laboratorium-pangan-10-pengujian-bahan-tambahan-pangan-pada-pangan-olahan-mengapa-penting"
+        }
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-05-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f05-id-meaning",
+          "limitations": "The examples establish food-sauce uses but do not define the full consistency range.",
+          "locale": "Indonesia",
+          "observation": "The article names “saus keju,” “saus tomat,” “saus sambal,” and sauces served with siomay, bakso, and noodles.",
+          "page_location_or_query": "Lines 79–83",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "diet guidance",
+          "source_group": "Kemkes nephrotic syndrome article 409",
+          "source_title": "Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-05-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f05-id-preferred",
+          "limitations": "It supports natural generic and specific use, not a measured claim of nationwide normality; “sambal” and “kecap” also name particular condiments.",
+          "locale": "Indonesia",
+          "observation": "The article uses both generic “saus” and specific expressions such as “saus tomat” and “saus kacang.”",
+          "page_location_or_query": "Lines 81–83",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "diet guidance",
+          "source_group": "Kemkes nephrotic syndrome article 409",
+          "source_title": "Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-05-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f05-id-category",
+          "limitations": "A regulatory product list is not evidence of conversational frequency.",
+          "locale": "Indonesia",
+          "observation": "Food categories include “saus cabe,” “saus tomat,” “saus tiram,” and other named sauces, alongside “sambal.”",
+          "page_location_or_query": "Lines 387–414",
+          "publisher": "Badan Pengawas Obat dan Makanan Republik Indonesia",
+          "register": "food-product administration",
+          "source_group": "BPOM SPPIRT food-category list",
+          "source_title": "KBLI | SPPIRT",
+          "stance": "supports",
+          "url_or_query": "https://sppirt.pom.go.id/kbli",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-05-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f05-my-meaning",
+          "limitations": "The page also has an unrelated uppercase SOS entry; the dictionary alone does not establish preference.",
+          "locale": "Malaysia",
+          "observation": "The food sense defines “sos” as a liquid or thick substance used to enhance food's flavour.",
+          "page_location_or_query": "Lines 21–26",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP Malay dictionaries",
+          "source_title": "PRPM entry for sos",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=67756&keyword=sos",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-05-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f05-my-preferred",
+          "limitations": "This is a generic use in one institutional publication, not a frequency comparison.",
+          "locale": "Malaysia",
+          "observation": "Food advice says to flavour meat, fish, and chicken with lime juice, spices, “sos,” and natural seasonings.",
+          "page_location_or_query": "Lines 219–222",
+          "publisher": "Institut Kanser Negara, Kementerian Kesihatan Malaysia",
+          "register": "patient food guidance",
+          "source_group": "National Cancer Institute nutrition guidance",
+          "source_title": "Panduan Mengatasi Masalah Pemakanan Kesan Dari Rawatan Kanser",
+          "stance": "supports",
+          "url_or_query": "https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-05-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f05-my-product",
+          "limitations": "This is a named product, and the database is associated with 1997; the generic contemporary use is better shown by the separate nutrition guidance.",
+          "locale": "Malaysia",
+          "observation": "The database labels bottled chilli sauce “Sos cili dalam botol.”",
+          "page_location_or_query": "Lines 14–18",
+          "publisher": "Malaysian Food Composition Database Programme, Institute for Medical Research",
+          "register": "food database",
+          "source_group": "Malaysian Food Composition Database",
+          "source_title": "Chilli sauce, bottle (Sos cili dalam botol)",
+          "stance": "supports",
+          "url_or_query": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/164-chilli-sauce%2C-bottle-%28sos-cili-dalam-botol%29.html",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "f05-relation",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      {
+        "method": "direct page open",
+        "outcome": "Page inaccessible through the retrieval tool; no KBBI content was inspected.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/saus"
+      },
+      {
+        "method": "direct page open, retried from a search result",
+        "outcome": "Both page-open attempts timed out; search snippets were not treated as inspected page content.",
+        "url": "https://pppomn.pom.go.id/berita/seri-artikel-edukasi-laboratorium-pangan-10-pengujian-bahan-tambahan-pangan-pada-pangan-olahan-mengapa-penting"
+      }
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-05-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f05-id-meaning",
+        "limitations": "The examples establish food-sauce uses but do not define the full consistency range.",
+        "locale": "Indonesia",
+        "observation": "The article names “saus keju,” “saus tomat,” “saus sambal,” and sauces served with siomay, bakso, and noodles.",
+        "page_location_or_query": "Lines 79–83",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "diet guidance",
+        "source_group": "Kemkes nephrotic syndrome article 409",
+        "source_title": "Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-05-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f05-id-preferred",
+        "limitations": "It supports natural generic and specific use, not a measured claim of nationwide normality; “sambal” and “kecap” also name particular condiments.",
+        "locale": "Indonesia",
+        "observation": "The article uses both generic “saus” and specific expressions such as “saus tomat” and “saus kacang.”",
+        "page_location_or_query": "Lines 81–83",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "diet guidance",
+        "source_group": "Kemkes nephrotic syndrome article 409",
+        "source_title": "Kenali Anak dengan Sindroma Nefrotik dan Diet Sehatnya",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/409/kenali-anak-dengan-sindroma-nefrotik-dan-diet-sehatnya",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-05-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f05-id-category",
+        "limitations": "A regulatory product list is not evidence of conversational frequency.",
+        "locale": "Indonesia",
+        "observation": "Food categories include “saus cabe,” “saus tomat,” “saus tiram,” and other named sauces, alongside “sambal.”",
+        "page_location_or_query": "Lines 387–414",
+        "publisher": "Badan Pengawas Obat dan Makanan Republik Indonesia",
+        "register": "food-product administration",
+        "source_group": "BPOM SPPIRT food-category list",
+        "source_title": "KBLI | SPPIRT",
+        "stance": "supports",
+        "url_or_query": "https://sppirt.pom.go.id/kbli",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-05-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f05-my-meaning",
+        "limitations": "The page also has an unrelated uppercase SOS entry; the dictionary alone does not establish preference.",
+        "locale": "Malaysia",
+        "observation": "The food sense defines “sos” as a liquid or thick substance used to enhance food's flavour.",
+        "page_location_or_query": "Lines 21–26",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP Malay dictionaries",
+        "source_title": "PRPM entry for sos",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=67756&keyword=sos",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-05-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f05-my-preferred",
+        "limitations": "This is a generic use in one institutional publication, not a frequency comparison.",
+        "locale": "Malaysia",
+        "observation": "Food advice says to flavour meat, fish, and chicken with lime juice, spices, “sos,” and natural seasonings.",
+        "page_location_or_query": "Lines 219–222",
+        "publisher": "Institut Kanser Negara, Kementerian Kesihatan Malaysia",
+        "register": "patient food guidance",
+        "source_group": "National Cancer Institute nutrition guidance",
+        "source_title": "Panduan Mengatasi Masalah Pemakanan Kesan Dari Rawatan Kanser",
+        "stance": "supports",
+        "url_or_query": "https://nci.moh.gov.my/index.php/info-kanser/27-panduan-mengatasi-masalah-pemakanan-kesan-dari-rawatan-kanser",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-05-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f05-my-product",
+        "limitations": "This is a named product, and the database is associated with 1997; the generic contemporary use is better shown by the separate nutrition guidance.",
+        "locale": "Malaysia",
+        "observation": "The database labels bottled chilli sauce “Sos cili dalam botol.”",
+        "page_location_or_query": "Lines 14–18",
+        "publisher": "Malaysian Food Composition Database Programme, Institute for Medical Research",
+        "register": "food database",
+        "source_group": "Malaysian Food Composition Database",
+        "source_title": "Chilli sauce, bottle (Sos cili dalam botol)",
+        "stance": "supports",
+        "url_or_query": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/164-chilli-sauce%2C-bottle-%28sos-cili-dalam-botol%29.html",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "f05-relation",
+        "reason": "source_group must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "4b147c3913c6b181cf999a324fe91bb9cc916482b6a5ba02a47b258746948749"
+}

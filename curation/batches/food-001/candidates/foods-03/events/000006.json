@@ -1,0 +1,203 @@
+{
+  "at": "2026-10-03T20:00:18.763966+00:00",
+  "input_digest": "37deb7960a67c1fb8faa04a393fa6faf089a7a2545ef46a324a0a2d4ec726780",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [{\"method\": \"direct page open\", \"outcome\": \"Internal error; no KBBI definition was inspected.\", \"url\": \"https://kbbi.kemendikdasmen.go.id/entri/piring\"}], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-03-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f03-id-meaning\", \"limitations\": \"The article does not give a formal physical definition of the dish.\", \"locale\": \"Indonesia\", \"observation\": \"The guidance says one \\u201cpiring\\u201d at each meal is filled with vegetables, fruit, staple food, and side dishes.\", \"page_location_or_query\": \"Lines 35\\u201337\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"public nutrition guidance\", \"source_group\": \"Kemkes Isi Piringku article\", \"source_title\": \"Isi Piringku: Pedoman Makan Kekinian Orang Indonesia\", \"stance\": \"supports\", \"url_or_query\": \"https://ayosehat.kemkes.go.id/isi-piringku-pedoman-makan-kekinian-orang-indonesia\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-03-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f03-id-preferred\", \"limitations\": \"A campaign's wording supports a neutral choice but does not provide corpus frequencies.\", \"locale\": \"Indonesia\", \"observation\": \"The national nutrition campaign uses \\u201cpiring\\u201d in its title and repeatedly for an ordinary meal plate.\", \"page_location_or_query\": \"Title and lines 35\\u201337\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"public nutrition guidance\", \"source_group\": \"Kemkes Isi Piringku article\", \"source_title\": \"Isi Piringku: Pedoman Makan Kekinian Orang Indonesia\", \"stance\": \"supports\", \"url_or_query\": \"https://ayosehat.kemkes.go.id/isi-piringku-pedoman-makan-kekinian-orang-indonesia\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-03-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f03-my-meaning\", \"limitations\": \"A dictionary definition alone does not establish current preference.\", \"locale\": \"Malaysia\", \"observation\": \"The dictionaries define \\u201cpinggan\\u201d as a flat food vessel and explicitly give \\u201cpinggan makan\\u201d for a main-meal plate.\", \"page_location_or_query\": \"Lines 16\\u201320\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP Malay dictionaries\", \"source_title\": \"PRPM entry for pinggan\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pinggan\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-03-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f03-my-preferred\", \"limitations\": \"It is one institutional example; the DBP distinction between \\u201cpinggan\\u201d and smaller \\u201cpiring\\u201d helps delimit the sense but does not measure usage.\", \"locale\": \"Malaysia\", \"observation\": \"The article calls the vessel holding a meal \\u201cpinggan\\u201d throughout its explanation.\", \"page_location_or_query\": \"Lines 55\\u201362\", \"publisher\": \"Jabatan Mufti Wilayah Persekutuan\", \"register\": \"public explanatory article\", \"source_group\": \"Federal Territories Mufti article 442\", \"source_title\": \"Adakah Kita Digalakkan untuk Menjilat Baki Makanan yang Melekat pada Sudu Selepas Makan?\", \"stance\": \"supports\", \"url_or_query\": \"https://www.muftiwp.gov.my/ms/artikel/irsyad-hukum/umum/4274-irsyad-al-fatwa-siri-ke-442-adakah-kita-digalakkan-untuk-menjilat-baki-makanan-yang-melekat-pada-sudu-selepas-makan\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"f03-my-comparison\", \"reason\": \"url_or_query must identify one source, not a joined comparison\"}, {\"evidence_id\": \"f03-relation\", \"reason\": \"source_group must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/food-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        {
+          "method": "direct page open",
+          "outcome": "Internal error; no KBBI definition was inspected.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/piring"
+        }
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-03-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f03-id-meaning",
+          "limitations": "The article does not give a formal physical definition of the dish.",
+          "locale": "Indonesia",
+          "observation": "The guidance says one “piring” at each meal is filled with vegetables, fruit, staple food, and side dishes.",
+          "page_location_or_query": "Lines 35–37",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "public nutrition guidance",
+          "source_group": "Kemkes Isi Piringku article",
+          "source_title": "Isi Piringku: Pedoman Makan Kekinian Orang Indonesia",
+          "stance": "supports",
+          "url_or_query": "https://ayosehat.kemkes.go.id/isi-piringku-pedoman-makan-kekinian-orang-indonesia",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-03-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f03-id-preferred",
+          "limitations": "A campaign's wording supports a neutral choice but does not provide corpus frequencies.",
+          "locale": "Indonesia",
+          "observation": "The national nutrition campaign uses “piring” in its title and repeatedly for an ordinary meal plate.",
+          "page_location_or_query": "Title and lines 35–37",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "public nutrition guidance",
+          "source_group": "Kemkes Isi Piringku article",
+          "source_title": "Isi Piringku: Pedoman Makan Kekinian Orang Indonesia",
+          "stance": "supports",
+          "url_or_query": "https://ayosehat.kemkes.go.id/isi-piringku-pedoman-makan-kekinian-orang-indonesia",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-03-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f03-my-meaning",
+          "limitations": "A dictionary definition alone does not establish current preference.",
+          "locale": "Malaysia",
+          "observation": "The dictionaries define “pinggan” as a flat food vessel and explicitly give “pinggan makan” for a main-meal plate.",
+          "page_location_or_query": "Lines 16–20",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP Malay dictionaries",
+          "source_title": "PRPM entry for pinggan",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pinggan",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-03-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f03-my-preferred",
+          "limitations": "It is one institutional example; the DBP distinction between “pinggan” and smaller “piring” helps delimit the sense but does not measure usage.",
+          "locale": "Malaysia",
+          "observation": "The article calls the vessel holding a meal “pinggan” throughout its explanation.",
+          "page_location_or_query": "Lines 55–62",
+          "publisher": "Jabatan Mufti Wilayah Persekutuan",
+          "register": "public explanatory article",
+          "source_group": "Federal Territories Mufti article 442",
+          "source_title": "Adakah Kita Digalakkan untuk Menjilat Baki Makanan yang Melekat pada Sudu Selepas Makan?",
+          "stance": "supports",
+          "url_or_query": "https://www.muftiwp.gov.my/ms/artikel/irsyad-hukum/umum/4274-irsyad-al-fatwa-siri-ke-442-adakah-kita-digalakkan-untuk-menjilat-baki-makanan-yang-melekat-pada-sudu-selepas-makan",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "f03-my-comparison",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        },
+        {
+          "evidence_id": "f03-relation",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      {
+        "method": "direct page open",
+        "outcome": "Internal error; no KBBI definition was inspected.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/piring"
+      }
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-03-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f03-id-meaning",
+        "limitations": "The article does not give a formal physical definition of the dish.",
+        "locale": "Indonesia",
+        "observation": "The guidance says one “piring” at each meal is filled with vegetables, fruit, staple food, and side dishes.",
+        "page_location_or_query": "Lines 35–37",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "public nutrition guidance",
+        "source_group": "Kemkes Isi Piringku article",
+        "source_title": "Isi Piringku: Pedoman Makan Kekinian Orang Indonesia",
+        "stance": "supports",
+        "url_or_query": "https://ayosehat.kemkes.go.id/isi-piringku-pedoman-makan-kekinian-orang-indonesia",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-03-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f03-id-preferred",
+        "limitations": "A campaign's wording supports a neutral choice but does not provide corpus frequencies.",
+        "locale": "Indonesia",
+        "observation": "The national nutrition campaign uses “piring” in its title and repeatedly for an ordinary meal plate.",
+        "page_location_or_query": "Title and lines 35–37",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "public nutrition guidance",
+        "source_group": "Kemkes Isi Piringku article",
+        "source_title": "Isi Piringku: Pedoman Makan Kekinian Orang Indonesia",
+        "stance": "supports",
+        "url_or_query": "https://ayosehat.kemkes.go.id/isi-piringku-pedoman-makan-kekinian-orang-indonesia",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-03-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f03-my-meaning",
+        "limitations": "A dictionary definition alone does not establish current preference.",
+        "locale": "Malaysia",
+        "observation": "The dictionaries define “pinggan” as a flat food vessel and explicitly give “pinggan makan” for a main-meal plate.",
+        "page_location_or_query": "Lines 16–20",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP Malay dictionaries",
+        "source_title": "PRPM entry for pinggan",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pinggan",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-03-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f03-my-preferred",
+        "limitations": "It is one institutional example; the DBP distinction between “pinggan” and smaller “piring” helps delimit the sense but does not measure usage.",
+        "locale": "Malaysia",
+        "observation": "The article calls the vessel holding a meal “pinggan” throughout its explanation.",
+        "page_location_or_query": "Lines 55–62",
+        "publisher": "Jabatan Mufti Wilayah Persekutuan",
+        "register": "public explanatory article",
+        "source_group": "Federal Territories Mufti article 442",
+        "source_title": "Adakah Kita Digalakkan untuk Menjilat Baki Makanan yang Melekat pada Sudu Selepas Makan?",
+        "stance": "supports",
+        "url_or_query": "https://www.muftiwp.gov.my/ms/artikel/irsyad-hukum/umum/4274-irsyad-al-fatwa-siri-ke-442-adakah-kita-digalakkan-untuk-menjilat-baki-makanan-yang-melekat-pada-sudu-selepas-makan",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "f03-my-comparison",
+        "reason": "url_or_query must identify one source, not a joined comparison"
+      },
+      {
+        "evidence_id": "f03-relation",
+        "reason": "source_group must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "3e4fd2c7d0d6caf785002b1d2040db49653211df2433c6f3b61c633cd51a7258"
+}

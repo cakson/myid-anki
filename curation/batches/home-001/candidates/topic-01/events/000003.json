@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-03T19:44:42.775571+00:00",
+  "input_digest": "a423fe76861220a3af3176853b67b2e4f391a5db1cb88fe7605dca06b416ebc4",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Kamar mandi is a room for bathing or washing. In Indonesian homes it commonly also contains a toilet, though the phrase alone does not guarantee one.\", \"common_use\": \"Widely understood and routinely used for a household bathroom.\", \"preferred\": \"Kamar mandi is the normal everyday choice for this sense.\", \"register\": \"Neutral.\", \"region\": \"Usable throughout Indonesia; no specific regional restriction identified.\", \"alternatives\": [\"toilet\", \"WC\", \"kamar kecil\"], \"claims\": [{\"claim_id\": \"topic-01-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Kamar mandi denotes a room for bathing or washing; a toilet may be present but is not entailed by the phrase.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"topic-01-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Kamar mandi is the normal everyday Indonesian choice for a household bathroom.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.kemendikdasmen.go.id/entri/kamar%20mandi\", \"claim_ids\": [\"topic-01-Indonesia-meaning\"], \"exact_claim\": \"Check whether the KBBI entry defines kamar mandi as a room for bathing; the definition may be narrower than a room guaranteed to contain a toilet.\"}, {\"url\": \"https://www.ikea.co.id/in/ruangan/kamar-mandi\", \"claim_ids\": [\"topic-01-Indonesia-preferred\"], \"exact_claim\": \"IKEA Indonesia uses kamar mandi as its consumer facing category for bathrooms.\"}]}, \"bundle_response\": \"curation/batches/home-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "toilet",
+        "WC",
+        "kamar kecil"
+      ],
+      "claims": [
+        {
+          "claim_id": "topic-01-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Kamar mandi denotes a room for bathing or washing; a toilet may be present but is not entailed by the phrase."
+        },
+        {
+          "claim_id": "topic-01-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Kamar mandi is the normal everyday Indonesian choice for a household bathroom."
+        }
+      ],
+      "common_use": "Widely understood and routinely used for a household bathroom.",
+      "meaning": "Kamar mandi is a room for bathing or washing. In Indonesian homes it commonly also contains a toilet, though the phrase alone does not guarantee one.",
+      "preferred": "Kamar mandi is the normal everyday choice for this sense.",
+      "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "topic-01-Indonesia-meaning"
+          ],
+          "exact_claim": "Check whether the KBBI entry defines kamar mandi as a room for bathing; the definition may be narrower than a room guaranteed to contain a toilet.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/kamar%20mandi"
+        },
+        {
+          "claim_ids": [
+            "topic-01-Indonesia-preferred"
+          ],
+          "exact_claim": "IKEA Indonesia uses kamar mandi as its consumer facing category for bathrooms.",
+          "url": "https://www.ikea.co.id/in/ruangan/kamar-mandi"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "toilet",
+      "WC",
+      "kamar kecil"
+    ],
+    "claims": [
+      {
+        "claim_id": "topic-01-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Kamar mandi denotes a room for bathing or washing; a toilet may be present but is not entailed by the phrase."
+      },
+      {
+        "claim_id": "topic-01-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Kamar mandi is the normal everyday Indonesian choice for a household bathroom."
+      }
+    ],
+    "common_use": "Widely understood and routinely used for a household bathroom.",
+    "meaning": "Kamar mandi is a room for bathing or washing. In Indonesian homes it commonly also contains a toilet, though the phrase alone does not guarantee one.",
+    "preferred": "Kamar mandi is the normal everyday choice for this sense.",
+    "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "topic-01-Indonesia-meaning"
+        ],
+        "exact_claim": "Check whether the KBBI entry defines kamar mandi as a room for bathing; the definition may be narrower than a room guaranteed to contain a toilet.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/kamar%20mandi"
+      },
+      {
+        "claim_ids": [
+          "topic-01-Indonesia-preferred"
+        ],
+        "exact_claim": "IKEA Indonesia uses kamar mandi as its consumer facing category for bathrooms.",
+        "url": "https://www.ikea.co.id/in/ruangan/kamar-mandi"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "054585e96b4f1eae3fe4c240a787ee5ba5c1d3a56ac347552dba00c51522a478"
+}

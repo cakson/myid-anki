@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-03T20:02:47.577469+00:00",
+  "input_digest": "12d65e1d8dd0e188e77cb689a021c3c64872e42af86ace05844f8d76f3fa854f",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Motosikal denotes a motor-powered road vehicle, normally with two wheels. It matches the intended sense and is distinct from basikal.\", \"common_use\": \"Common and readily understood in contemporary Malaysian Malay.\", \"preferred\": \"Motosikal is a normal neutral choice. Motor and moto occur in casual speech.\", \"register\": \"Neutral; motor and moto are conversational.\", \"region\": \"Malaysia generally; no regional restriction identified.\", \"alternatives\": [\"motor\", \"moto\", \"sepeda motor\"], \"claims\": [{\"claim_id\": \"transportation-02-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Motosikal denotes a motor-powered vehicle, normally with two wheels, rather than a pedal-powered bicycle.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"transportation-02-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Motosikal is a normal neutral Malaysian Malay choice for motorcycle; motor and moto are casual alternatives.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=107200&keyword=motosikal\", \"claim_ids\": [\"transportation-02-Malaysia-meaning\", \"transportation-02-Malaysia-preferred\"], \"evidence_to_check\": \"DBP defines motosikal as a two-wheeled vehicle powered by an engine. Check contemporary use against motor and moto separately.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/transportation-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "motor",
+        "moto",
+        "sepeda motor"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-02-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Motosikal denotes a motor-powered vehicle, normally with two wheels, rather than a pedal-powered bicycle."
+        },
+        {
+          "claim_id": "transportation-02-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Motosikal is a normal neutral Malaysian Malay choice for motorcycle; motor and moto are casual alternatives."
+        }
+      ],
+      "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+      "meaning": "Motosikal denotes a motor-powered road vehicle, normally with two wheels. It matches the intended sense and is distinct from basikal.",
+      "preferred": "Motosikal is a normal neutral choice. Motor and moto occur in casual speech.",
+      "region": "Malaysia generally; no regional restriction identified.",
+      "register": "Neutral; motor and moto are conversational.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-02-Malaysia-meaning",
+            "transportation-02-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP defines motosikal as a two-wheeled vehicle powered by an engine. Check contemporary use against motor and moto separately.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=motosikal"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "motor",
+      "moto",
+      "sepeda motor"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-02-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Motosikal denotes a motor-powered vehicle, normally with two wheels, rather than a pedal-powered bicycle."
+      },
+      {
+        "claim_id": "transportation-02-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Motosikal is a normal neutral Malaysian Malay choice for motorcycle; motor and moto are casual alternatives."
+      }
+    ],
+    "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+    "meaning": "Motosikal denotes a motor-powered road vehicle, normally with two wheels. It matches the intended sense and is distinct from basikal.",
+    "preferred": "Motosikal is a normal neutral choice. Motor and moto occur in casual speech.",
+    "region": "Malaysia generally; no regional restriction identified.",
+    "register": "Neutral; motor and moto are conversational.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-02-Malaysia-meaning",
+          "transportation-02-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP defines motosikal as a two-wheeled vehicle powered by an engine. Check contemporary use against motor and moto separately.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=motosikal"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "19053914017c316698a2e7d02831cddd65c15dc449e520c38443633246596e20"
+}

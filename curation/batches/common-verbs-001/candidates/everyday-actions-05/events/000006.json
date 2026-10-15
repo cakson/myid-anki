@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-03T19:49:24.884881+00:00",
+  "result": {
+    "candidate_id": "everyday-actions-05",
+    "checked_at": "2026-10-03T19:49:24.884881+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "outcome": "hold",
+    "reason_codes": [
+      "Relation review found unresolved cue, sense, form, or usage: The intended car action is clearer with Indonesian menyetir and Malaysian memandu. The proposed bare forms setir and pandu are unsuitable as neutral standalone verbs, and 'drive' has other common senses. Suggested cue: 'drive a car'."
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "complete",
+      "malaysian-usage": "complete",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "complete"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

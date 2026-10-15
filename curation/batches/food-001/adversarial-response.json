@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "role": "adversarial-review",
+  "model": "gpt-6-sol/codex-cli",
+  "results": {
+    "foods-02": {
+      "verdict": "agree",
+      "concerns": [],
+      "rationale": "The measuring-spoon example does not establish the eating-spoon sense, but the separate Indonesian caregiving passage does. Malaysian dictionary and eating-context usage support sudu. Camca is listed as a synonym without a frequency comparison, yet the audited evidence supports sudu as a neutral choice for the exact cue."
+    },
+    "foods-03": {
+      "verdict": "agree",
+      "concerns": [],
+      "rationale": "Indonesian meal guidance uses piring for an ordinary eating plate. The Malaysian definition and meal-context use support pinggan for that sense; the recorded smaller-plate sense of Malaysian piring does not undermine the stated meal-plate relation."
+    },
+    "foods-04": {
+      "verdict": "object",
+      "concerns": [
+        "The Malaysian food page uses enak for food as well as sedap, so the audited evidence does not establish sedap as the normal everyday choice over enak.",
+        "The Malaysian usage example is tourism promotion, and neither locale has a comparison of everyday usage against its stated alternative."
+      ],
+      "rationale": "The taste meanings align, but the evidence leaves the proposed national preference difference unresolved."
+    },
+    "foods-05": {
+      "verdict": "agree",
+      "concerns": [],
+      "rationale": "The audited examples support saus and sos as generic food-sauce terms, including use beyond named products. Sambal, kecap, kicap, and kuah have more specific or context-dependent uses and do not undermine this generic cue. The similar-form relation is supported."
+    },
+    "foods-06": {
+      "verdict": "object",
+      "concerns": [
+        "The Indonesian examples identify biskuit as a food category but do not establish the exact small, dry baked-snack sense.",
+        "Neither locale's usage evidence compares the proposed everyday term with its listed alternatives; the Malaysian dictionary establishes meaning, not preference."
+      ],
+      "rationale": "The forms are similar and Malaysian biskut fits the cue, but the audited evidence does not fully establish the Indonesian sense and everyday-preference claims."
+    }
+  }
+}

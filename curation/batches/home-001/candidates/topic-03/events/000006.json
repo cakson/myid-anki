@@ -1,0 +1,187 @@
+{
+  "at": "2026-10-03T20:00:18.763914+00:00",
+  "input_digest": "53360f4707255e9dd071586bde4851300b0eab8692083cbc2d0b8c789b7315c7",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [\"The cited KBBI kulkas and lemari es entries could not be retrieved.\"], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-03-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"03-01\", \"limitations\": \"The inspected description focuses on food; drinks are implicit rather than specifically demonstrated.\", \"locale\": \"Indonesia\", \"observation\": \"A refrigerator sold as a kulkas is described as cooling and storing food.\", \"page_location_or_query\": \"Product heading and Makanan tetap segar section\", \"publisher\": \"Electrolux Indonesia\", \"register\": \"consumer appliance\", \"source_group\": \"Electrolux\", \"source_title\": \"Kulkas 4 pintu 496L\", \"stance\": \"supports\", \"url_or_query\": \"https://www.electrolux.co.id/produk/kulkas/eqe4905a-b/\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-03-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"03-02\", \"limitations\": \"Both terms are present, so this supports naturalness rather than exclusivity.\", \"locale\": \"Indonesia\", \"observation\": \"The appliance category prominently uses kulkas in its title and buying advice; lemari es also appears in the title.\", \"page_location_or_query\": \"Category title and line 294\", \"publisher\": \"Electrolux Indonesia\", \"register\": \"consumer appliance\", \"source_group\": \"Electrolux\", \"source_title\": \"Kulkas & Lemari Es Inverter\", \"stance\": \"supports\", \"url_or_query\": \"https://www.electrolux.co.id/produk/kulkas/\", \"usage_basis\": \"comparative\"}, {\"accessed_at\": \"2026-10-03T19:50:10Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-03-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"03-03\", \"limitations\": \"The two dictionaries are both within the DBP source group.\", \"locale\": \"Malaysia\", \"observation\": \"DBP defines peti sejuk as a cooling appliance for storing food; its student dictionary entry explicitly includes food and drink.\", \"page_location_or_query\": \"Lines 13\\u201315 and 57\\u201360\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP\", \"source_title\": \"Carian Umum: peti sejuk\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-03-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"03-04\", \"limitations\": \"This directly supports both terms as familiar consumer choices; it does not rank their overall frequency.\", \"locale\": \"Malaysia\", \"observation\": \"The category heading uses peti ais, while refrigerator product names use peti sejuk.\", \"page_location_or_query\": \"Lines 24\\u201331 and 46\\u201360\", \"publisher\": \"IKEA Malaysia\", \"register\": \"consumer appliance\", \"source_group\": \"IKEA\", \"source_title\": \"Peti ais & penyejuk beku\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.com/my/ms/cat/fridges-freezers-20822/\", \"usage_basis\": \"comparative\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"03-05\", \"reason\": \"source_group must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/home-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        "The cited KBBI kulkas and lemari es entries could not be retrieved."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "03-01",
+          "limitations": "The inspected description focuses on food; drinks are implicit rather than specifically demonstrated.",
+          "locale": "Indonesia",
+          "observation": "A refrigerator sold as a kulkas is described as cooling and storing food.",
+          "page_location_or_query": "Product heading and Makanan tetap segar section",
+          "publisher": "Electrolux Indonesia",
+          "register": "consumer appliance",
+          "source_group": "Electrolux",
+          "source_title": "Kulkas 4 pintu 496L",
+          "stance": "supports",
+          "url_or_query": "https://www.electrolux.co.id/produk/kulkas/eqe4905a-b/",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "03-02",
+          "limitations": "Both terms are present, so this supports naturalness rather than exclusivity.",
+          "locale": "Indonesia",
+          "observation": "The appliance category prominently uses kulkas in its title and buying advice; lemari es also appears in the title.",
+          "page_location_or_query": "Category title and line 294",
+          "publisher": "Electrolux Indonesia",
+          "register": "consumer appliance",
+          "source_group": "Electrolux",
+          "source_title": "Kulkas & Lemari Es Inverter",
+          "stance": "supports",
+          "url_or_query": "https://www.electrolux.co.id/produk/kulkas/",
+          "usage_basis": "comparative"
+        },
+        {
+          "accessed_at": "2026-10-03T19:50:10Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "03-03",
+          "limitations": "The two dictionaries are both within the DBP source group.",
+          "locale": "Malaysia",
+          "observation": "DBP defines peti sejuk as a cooling appliance for storing food; its student dictionary entry explicitly includes food and drink.",
+          "page_location_or_query": "Lines 13–15 and 57–60",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: peti sejuk",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "03-04",
+          "limitations": "This directly supports both terms as familiar consumer choices; it does not rank their overall frequency.",
+          "locale": "Malaysia",
+          "observation": "The category heading uses peti ais, while refrigerator product names use peti sejuk.",
+          "page_location_or_query": "Lines 24–31 and 46–60",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer appliance",
+          "source_group": "IKEA",
+          "source_title": "Peti ais & penyejuk beku",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/fridges-freezers-20822/",
+          "usage_basis": "comparative"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "03-05",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      "The cited KBBI kulkas and lemari es entries could not be retrieved."
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-03-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "03-01",
+        "limitations": "The inspected description focuses on food; drinks are implicit rather than specifically demonstrated.",
+        "locale": "Indonesia",
+        "observation": "A refrigerator sold as a kulkas is described as cooling and storing food.",
+        "page_location_or_query": "Product heading and Makanan tetap segar section",
+        "publisher": "Electrolux Indonesia",
+        "register": "consumer appliance",
+        "source_group": "Electrolux",
+        "source_title": "Kulkas 4 pintu 496L",
+        "stance": "supports",
+        "url_or_query": "https://www.electrolux.co.id/produk/kulkas/eqe4905a-b/",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-03-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "03-02",
+        "limitations": "Both terms are present, so this supports naturalness rather than exclusivity.",
+        "locale": "Indonesia",
+        "observation": "The appliance category prominently uses kulkas in its title and buying advice; lemari es also appears in the title.",
+        "page_location_or_query": "Category title and line 294",
+        "publisher": "Electrolux Indonesia",
+        "register": "consumer appliance",
+        "source_group": "Electrolux",
+        "source_title": "Kulkas & Lemari Es Inverter",
+        "stance": "supports",
+        "url_or_query": "https://www.electrolux.co.id/produk/kulkas/",
+        "usage_basis": "comparative"
+      },
+      {
+        "accessed_at": "2026-10-03T19:50:10Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-03-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "03-03",
+        "limitations": "The two dictionaries are both within the DBP source group.",
+        "locale": "Malaysia",
+        "observation": "DBP defines peti sejuk as a cooling appliance for storing food; its student dictionary entry explicitly includes food and drink.",
+        "page_location_or_query": "Lines 13–15 and 57–60",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP",
+        "source_title": "Carian Umum: peti sejuk",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-03-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "03-04",
+        "limitations": "This directly supports both terms as familiar consumer choices; it does not rank their overall frequency.",
+        "locale": "Malaysia",
+        "observation": "The category heading uses peti ais, while refrigerator product names use peti sejuk.",
+        "page_location_or_query": "Lines 24–31 and 46–60",
+        "publisher": "IKEA Malaysia",
+        "register": "consumer appliance",
+        "source_group": "IKEA",
+        "source_title": "Peti ais & penyejuk beku",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.com/my/ms/cat/fridges-freezers-20822/",
+        "usage_basis": "comparative"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "03-05",
+        "reason": "source_group must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "86554a30d2d9396e142819fa485509ee96d1a6a93f014284c1ae1509ef3443e8"
+}

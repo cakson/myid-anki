@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-04T10:12:24.622317+00:00",
+  "input_digest": "58c9332a502e8d87eaa952cc8d899f42e155aea9b44709ea3a89858bceafb69e",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-6\", \"result\": {\"overlaps\": [{\"other_id\": \"communication-001:communication-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A voice note is a recorded audio message; the other candidate is a general written or digital communication.\"}]}, \"bundle_response\": \"curation/batches/communication-001/normalize-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/normalize-response.json",
+    "model": "GPT-6",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "communication-001:communication-01",
+          "rationale": "A voice note is a recorded audio message; the other candidate is a general written or digital communication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "communication-001:communication-01",
+        "rationale": "A voice note is a recorded audio message; the other candidate is a general written or digital communication.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "311a084bb9d94535a1ea5e57c5122674fdce8a16bc2a500699f4d05581b27c51"
+}

@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-04T10:25:19.073678+00:00",
+  "input_digest": "f49be0d0bd530c805902006bba110c2f46a10b305a17113ecbcb52cc71105a4e",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"OpenAI\", \"result\": {\"overlaps\": [{\"other_id\": \"food-001:foods-02\", \"type\": \"exact\", \"resolution\": \"merge\", \"rationale\": \"Same spoon concept and Indonesian and Malaysian answers.\"}, {\"other_id\": \"growth-audit-001:growth-01\", \"type\": \"morphology\", \"resolution\": \"merge\", \"rationale\": \"Plural cue \\u201cspoons\\u201d refers to the same concept and has the same answers.\"}, {\"other_id\": \"000003\", \"type\": \"exact\", \"resolution\": \"merge\", \"rationale\": \"Same spoon concept and answers.\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/normalize-response-syntax-repair.json\"}",
+  "reported_model": "OpenAI",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/normalize-response-syntax-repair.json",
+    "model": "OpenAI",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "food-001:foods-02",
+          "rationale": "Same spoon concept and Indonesian and Malaysian answers.",
+          "resolution": "merge",
+          "type": "exact"
+        },
+        {
+          "other_id": "growth-audit-001:growth-01",
+          "rationale": "Plural cue “spoons” refers to the same concept and has the same answers.",
+          "resolution": "merge",
+          "type": "morphology"
+        },
+        {
+          "other_id": "000003",
+          "rationale": "Same spoon concept and answers.",
+          "resolution": "merge",
+          "type": "exact"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "food-001:foods-02",
+        "rationale": "Same spoon concept and Indonesian and Malaysian answers.",
+        "resolution": "merge",
+        "type": "exact"
+      },
+      {
+        "other_id": "growth-audit-001:growth-01",
+        "rationale": "Plural cue “spoons” refers to the same concept and has the same answers.",
+        "resolution": "merge",
+        "type": "morphology"
+      },
+      {
+        "other_id": "000003",
+        "rationale": "Same spoon concept and answers.",
+        "resolution": "merge",
+        "type": "exact"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "31d195b3629fa4a035a65f7f6ee317d14b8b4d49ee7bfa1519e5ae2f6ebc428a"
+}

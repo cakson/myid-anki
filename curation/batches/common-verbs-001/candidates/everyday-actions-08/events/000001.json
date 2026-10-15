@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-03T19:41:05.088877+00:00",
+  "input_digest": "309af358f73b3b2b9270700c9e0fff2cad06dea9013bd17ee2982865fad766af",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"food-001:foods-08\", \"type\": \"exact\", \"resolution\": \"merge\", \"rationale\": \"Both have the cue eat, the answers makan and makan, and the sense of consuming food.\"}, {\"other_id\": \"food-001:foods-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Lunch is a midday meal, while eat is the action of consuming food; makan appears within the longer lunch answers.\"}]}, \"bundle_response\": \"curation/batches/common-verbs-001/normalize-response-retry.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/common-verbs-001/normalize-response-retry.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "food-001:foods-08",
+          "rationale": "Both have the cue eat, the answers makan and makan, and the sense of consuming food.",
+          "resolution": "merge",
+          "type": "exact"
+        },
+        {
+          "other_id": "food-001:foods-01",
+          "rationale": "Lunch is a midday meal, while eat is the action of consuming food; makan appears within the longer lunch answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "food-001:foods-08",
+        "rationale": "Both have the cue eat, the answers makan and makan, and the sense of consuming food.",
+        "resolution": "merge",
+        "type": "exact"
+      },
+      {
+        "other_id": "food-001:foods-01",
+        "rationale": "Lunch is a midday meal, while eat is the action of consuming food; makan appears within the longer lunch answers.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "cd057eca202fd0f363e19adb219bee2dfd7258afee1109fa4c58563efedaedad"
+}

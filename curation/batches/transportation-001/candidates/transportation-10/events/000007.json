@@ -1,0 +1,107 @@
+{
+  "at": "2026-10-03T20:02:47.690059+00:00",
+  "input_digest": "445a5fdaa765668bb417dc5d0930dbc3d0d80ff193a052990fc470a08e8f5cb3",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Stesen minyak denotes a place where vehicles obtain petrol or other motor fuel. It matches the intended fuel-station sense.\", \"common_use\": \"Common and readily understood in contemporary Malaysian Malay.\", \"preferred\": \"Stesen minyak is a normal neutral choice.\", \"register\": \"Neutral.\", \"region\": \"Malaysia generally; no regional restriction identified.\", \"alternatives\": [\"stesen petrol\", \"petrol station\", \"pom bensin\"], \"claims\": [{\"claim_id\": \"transportation-10-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Stesen minyak denotes a station where road vehicles can obtain fuel.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"transportation-10-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Stesen minyak is a normal neutral Malaysian Malay choice for fuel station or petrol station.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=stesen+minyak\", \"claim_ids\": [\"transportation-10-Malaysia-meaning\", \"transportation-10-Malaysia-preferred\"], \"evidence_to_check\": \"DBP gives stesen minyak for filling station, petrol station and gas station; everyday preference needs separate checking.\", \"audited\": false}, {\"url\": \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=stesen+minyak\", \"claim_ids\": [\"transportation-10-Malaysia-preferred\"], \"evidence_to_check\": \"DBP advice explicitly identifies stesen minyak as the Malaysian expression for petrol station.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/transportation-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "stesen petrol",
+        "petrol station",
+        "pom bensin"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-10-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Stesen minyak denotes a station where road vehicles can obtain fuel."
+        },
+        {
+          "claim_id": "transportation-10-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Stesen minyak is a normal neutral Malaysian Malay choice for fuel station or petrol station."
+        }
+      ],
+      "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+      "meaning": "Stesen minyak denotes a place where vehicles obtain petrol or other motor fuel. It matches the intended fuel-station sense.",
+      "preferred": "Stesen minyak is a normal neutral choice.",
+      "region": "Malaysia generally; no regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-10-Malaysia-meaning",
+            "transportation-10-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP gives stesen minyak for filling station, petrol station and gas station; everyday preference needs separate checking.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=stesen+minyak"
+        },
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-10-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP advice explicitly identifies stesen minyak as the Malaysian expression for petrol station.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=stesen+minyak"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "stesen petrol",
+      "petrol station",
+      "pom bensin"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-10-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Stesen minyak denotes a station where road vehicles can obtain fuel."
+      },
+      {
+        "claim_id": "transportation-10-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Stesen minyak is a normal neutral Malaysian Malay choice for fuel station or petrol station."
+      }
+    ],
+    "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+    "meaning": "Stesen minyak denotes a place where vehicles obtain petrol or other motor fuel. It matches the intended fuel-station sense.",
+    "preferred": "Stesen minyak is a normal neutral choice.",
+    "region": "Malaysia generally; no regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-10-Malaysia-meaning",
+          "transportation-10-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP gives stesen minyak for filling station, petrol station and gas station; everyday preference needs separate checking.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=stesen+minyak"
+      },
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-10-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP advice explicitly identifies stesen minyak as the Malaysian expression for petrol station.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=stesen+minyak"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "cd2dc17d779db7e06c4c69d580e2ef70732da5e8a1a766b92bc1fe767f763b40"
+}

@@ -1,0 +1,189 @@
+{
+  "at": "2026-10-03T20:00:18.789216+00:00",
+  "input_digest": "ad7d2326efc10d00a120096a7a1d13087e703afb5d0cc484c66cb2882b7ba45b",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [\"The cited KBBI tempat sampah and tong sampah entries could not be retrieved.\", \"The cited DBP tong sampah page could not be retrieved; its indexed extract was found but was not needed for the supporting observations.\"], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-05-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"05-01\", \"limitations\": \"This does not independently establish the broader 'place for rubbish' sense.\", \"locale\": \"Indonesia\", \"observation\": \"The household product category calls physical rubbish receptacles tempat sampah.\", \"page_location_or_query\": \"Lines 57\\u201361\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Tempat sampah\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-05-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"05-02\", \"limitations\": \"Shows a natural retail choice, not measured prevalence against tong sampah.\", \"locale\": \"Indonesia\", \"observation\": \"IKEA uses tempat sampah as its consumer product category for household bins.\", \"page_location_or_query\": \"Category heading and lines 57\\u201361\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Tempat sampah\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-05-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"05-03\", \"limitations\": \"Product context establishes the receptacle sense only.\", \"locale\": \"Malaysia\", \"observation\": \"The page describes discarded items being put into a tong sampah and lists small physical bins under that name.\", \"page_location_or_query\": \"Lines 15\\u201319 and product listings\", \"publisher\": \"IKEA Malaysia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Tong sampah & beg sisa\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-05-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"05-04\", \"limitations\": \"No direct frequency comparison with bakul sampah was available.\", \"locale\": \"Malaysia\", \"observation\": \"Tong sampah appears in ordinary consumer prose and as the product name for multiple household bins.\", \"page_location_or_query\": \"Lines 15\\u201319 and FNISS product listings\", \"publisher\": \"IKEA Malaysia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Tong sampah & beg sisa\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"05-05\", \"reason\": \"url_or_query must identify one source, not a joined comparison\"}]}, \"bundle_response\": \"curation/batches/home-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        "The cited KBBI tempat sampah and tong sampah entries could not be retrieved.",
+        "The cited DBP tong sampah page could not be retrieved; its indexed extract was found but was not needed for the supporting observations."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "05-01",
+          "limitations": "This does not independently establish the broader 'place for rubbish' sense.",
+          "locale": "Indonesia",
+          "observation": "The household product category calls physical rubbish receptacles tempat sampah.",
+          "page_location_or_query": "Lines 57–61",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tempat sampah",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "05-02",
+          "limitations": "Shows a natural retail choice, not measured prevalence against tong sampah.",
+          "locale": "Indonesia",
+          "observation": "IKEA uses tempat sampah as its consumer product category for household bins.",
+          "page_location_or_query": "Category heading and lines 57–61",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tempat sampah",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "05-03",
+          "limitations": "Product context establishes the receptacle sense only.",
+          "locale": "Malaysia",
+          "observation": "The page describes discarded items being put into a tong sampah and lists small physical bins under that name.",
+          "page_location_or_query": "Lines 15–19 and product listings",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tong sampah & beg sisa",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "05-04",
+          "limitations": "No direct frequency comparison with bakul sampah was available.",
+          "locale": "Malaysia",
+          "observation": "Tong sampah appears in ordinary consumer prose and as the product name for multiple household bins.",
+          "page_location_or_query": "Lines 15–19 and FNISS product listings",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tong sampah & beg sisa",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "05-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      "The cited KBBI tempat sampah and tong sampah entries could not be retrieved.",
+      "The cited DBP tong sampah page could not be retrieved; its indexed extract was found but was not needed for the supporting observations."
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-05-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "05-01",
+        "limitations": "This does not independently establish the broader 'place for rubbish' sense.",
+        "locale": "Indonesia",
+        "observation": "The household product category calls physical rubbish receptacles tempat sampah.",
+        "page_location_or_query": "Lines 57–61",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Tempat sampah",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-05-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "05-02",
+        "limitations": "Shows a natural retail choice, not measured prevalence against tong sampah.",
+        "locale": "Indonesia",
+        "observation": "IKEA uses tempat sampah as its consumer product category for household bins.",
+        "page_location_or_query": "Category heading and lines 57–61",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Tempat sampah",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-05-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "05-03",
+        "limitations": "Product context establishes the receptacle sense only.",
+        "locale": "Malaysia",
+        "observation": "The page describes discarded items being put into a tong sampah and lists small physical bins under that name.",
+        "page_location_or_query": "Lines 15–19 and product listings",
+        "publisher": "IKEA Malaysia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Tong sampah & beg sisa",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-05-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "05-04",
+        "limitations": "No direct frequency comparison with bakul sampah was available.",
+        "locale": "Malaysia",
+        "observation": "Tong sampah appears in ordinary consumer prose and as the product name for multiple household bins.",
+        "page_location_or_query": "Lines 15–19 and FNISS product listings",
+        "publisher": "IKEA Malaysia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Tong sampah & beg sisa",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "05-05",
+        "reason": "url_or_query must identify one source, not a joined comparison"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "bbf689538a3270c12631eddb9b96977968562a921079974336eee7fb97aa2b9b"
+}

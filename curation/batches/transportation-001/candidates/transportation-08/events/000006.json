@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.429763+00:00",
+  "input_digest": "b6cd41b3c2d109f8d080d58fcabc775dc76ba322895390f0ef2bac66698852bc",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"000001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A tire is a rubber covering on a vehicle wheel; a car is the whole vehicle.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000001",
+          "rationale": "A tire is a rubber covering on a vehicle wheel; a car is the whole vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000001",
+        "rationale": "A tire is a rubber covering on a vehicle wheel; a car is the whole vehicle.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "f48ac39f54facb6267a55130cfdabf53bc52fa1b762c9bb019caddd9cf0afe16"
+}

@@ -1,0 +1,110 @@
+{
+  "at": "2026-10-04T03:37:44.752444+00:00",
+  "input_digest": "c8ab5902c6b7aeaa63c49dcbdfccb5b8af34c85125c0d59e51388cb5561bc823",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-luna/codex-cli\", \"result\": {\"observations\": [{\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-08-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"topic-08-obs-2\", \"limitations\": \"No entry text or specific access error was exposed; the proposed definition was not verified.\", \"locale\": \"Malaysia\", \"observation\": \"The network tool returned an internal error without page content. The bersih entry could not be inspected, so this source provides no support.\", \"page_location_or_query\": \"Direct page retrieval\", \"publisher\": \"Dewan Bahasa dan Pustaka Malaysia\", \"register\": \"Unassessed\", \"source_group\": \"PRPM / Dewan Bahasa dan Pustaka\", \"source_title\": \"PRPM bersih search entry\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=241100&keyword=bersih\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"manual-inspection\", \"claim_id\": \"topic-08-meaning\", \"claim_type\": \"relation\", \"evidence_id\": \"topic-08-obs-3\", \"limitations\": \"The Malaysian entry could not be inspected; dictionary evidence alone does not establish everyday preference.\", \"locale\": \"Indonesia; Malaysia\", \"observation\": \"The Indonesian dictionary supports the free-of-dirt sense, but the Malaysian lead was inaccessible. No contextual or comparative evidence establishes bersih as the common word in both varieties.\", \"page_location_or_query\": \"Candidate relation claim\", \"publisher\": \"Not available\", \"register\": \"Everyday preference unestablished\", \"source_group\": \"No comparative usage evidence retrieved\", \"source_title\": \"Everyday word-choice evidence\", \"stance\": \"inconclusive\", \"url_or_query\": \"No corpus query supplied or retrieved\", \"usage_basis\": \"dictionary-only\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"topic-08-obs-1\", \"reason\": \"publisher must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/common-adjectives-001/evidence-response-cleaned.json\"}",
+  "reported_model": "gpt-6-luna/codex-cli",
+  "response": {
+    "bundle_response": "curation/batches/common-adjectives-001/evidence-response-cleaned.json",
+    "model": "gpt-6-luna/codex-cli",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-08-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "topic-08-obs-2",
+          "limitations": "No entry text or specific access error was exposed; the proposed definition was not verified.",
+          "locale": "Malaysia",
+          "observation": "The network tool returned an internal error without page content. The bersih entry could not be inspected, so this source provides no support.",
+          "page_location_or_query": "Direct page retrieval",
+          "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+          "register": "Unassessed",
+          "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+          "source_title": "PRPM bersih search entry",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=241100&keyword=bersih",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "manual-inspection",
+          "claim_id": "topic-08-meaning",
+          "claim_type": "relation",
+          "evidence_id": "topic-08-obs-3",
+          "limitations": "The Malaysian entry could not be inspected; dictionary evidence alone does not establish everyday preference.",
+          "locale": "Indonesia; Malaysia",
+          "observation": "The Indonesian dictionary supports the free-of-dirt sense, but the Malaysian lead was inaccessible. No contextual or comparative evidence establishes bersih as the common word in both varieties.",
+          "page_location_or_query": "Candidate relation claim",
+          "publisher": "Not available",
+          "register": "Everyday preference unestablished",
+          "source_group": "No comparative usage evidence retrieved",
+          "source_title": "Everyday word-choice evidence",
+          "stance": "inconclusive",
+          "url_or_query": "No corpus query supplied or retrieved",
+          "usage_basis": "dictionary-only"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "topic-08-obs-1",
+          "reason": "publisher must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-08-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "topic-08-obs-2",
+        "limitations": "No entry text or specific access error was exposed; the proposed definition was not verified.",
+        "locale": "Malaysia",
+        "observation": "The network tool returned an internal error without page content. The bersih entry could not be inspected, so this source provides no support.",
+        "page_location_or_query": "Direct page retrieval",
+        "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+        "register": "Unassessed",
+        "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+        "source_title": "PRPM bersih search entry",
+        "stance": "inconclusive",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=241100&keyword=bersih",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "manual-inspection",
+        "claim_id": "topic-08-meaning",
+        "claim_type": "relation",
+        "evidence_id": "topic-08-obs-3",
+        "limitations": "The Malaysian entry could not be inspected; dictionary evidence alone does not establish everyday preference.",
+        "locale": "Indonesia; Malaysia",
+        "observation": "The Indonesian dictionary supports the free-of-dirt sense, but the Malaysian lead was inaccessible. No contextual or comparative evidence establishes bersih as the common word in both varieties.",
+        "page_location_or_query": "Candidate relation claim",
+        "publisher": "Not available",
+        "register": "Everyday preference unestablished",
+        "source_group": "No comparative usage evidence retrieved",
+        "source_title": "Everyday word-choice evidence",
+        "stance": "inconclusive",
+        "url_or_query": "No corpus query supplied or retrieved",
+        "usage_basis": "dictionary-only"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "topic-08-obs-1",
+        "reason": "publisher must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "03f90a74209ea7ad9cdf42ba685564142ff856132273cd6ce31ae0b5e0285cdc"
+}
