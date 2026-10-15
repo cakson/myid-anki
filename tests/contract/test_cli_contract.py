@@ -57,6 +57,16 @@ def test_help_and_unknown_commands_use_expected_exit_codes():
     assert bad_result.returncode == 2
 
 
+def test_curation_cli_exposes_repeatable_batch_export_option():
+    result = subprocess.run(
+        [sys.executable, "-m", "indo_malay_anki.curation", "export", "--help"],
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 0
+    assert "--batch" in result.stdout
+
+
 def test_validate_aggregates_diagnostics_without_traceback(repo_factory, monkeypatch, capsys):
     root = repo_factory(
         rows=(

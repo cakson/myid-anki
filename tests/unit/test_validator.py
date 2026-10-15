@@ -7,8 +7,17 @@ from indo_malay_anki.validator import ValidationError, validate_vocabulary
 def source_for(root, lines):
     source = root / "data" / "vocabulary.tsv"
     source.parent.mkdir(parents=True, exist_ok=True)
+    converted = []
+    for line in lines.splitlines():
+        fields = line.split("\t")
+        if len(fields) == 6:
+            relation = "same" if fields[2] == fields[3] else "different-common-word"
+            fields = [*fields[:4], relation, *fields[4:], ""]
+        converted.append("\t".join(fields))
     source.write_text(
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n" + lines,
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n"
+        + "\n".join(converted)
+        + "\n",
         encoding="utf-8",
     )
     (root / "media").mkdir(exist_ok=True)
@@ -41,6 +50,20 @@ def test_rejects_duplicate_ids(tmp_path):
     with pytest.raises(ValidationError) as error:
         validate_vocabulary(source, tmp_path / "media")
     assert any(issue.code == "duplicate_id" and issue.row == 3 for issue in error.value.issues)
+
+
+def test_rejects_shared_vocabulary_from_contrast_deck(tmp_path):
+    source = source_for(tmp_path, "000001\twater\tair\tair\tsame\t\t\t")
+    with pytest.raises(ValidationError) as error:
+        validate_vocabulary(source, tmp_path / "media")
+    assert any(issue.code == "no_cross_language_difference" for issue in error.value.issues)
+
+
+def test_rejects_shared_vocabulary_mislabeled_as_similar(tmp_path):
+    source = source_for(tmp_path, "000001\twater\tair\tAIR\tsimilar\t\t\t")
+    with pytest.raises(ValidationError) as error:
+        validate_vocabulary(source, tmp_path / "media")
+    assert any(issue.code == "no_cross_language_difference" for issue in error.value.issues)
 
 
 @pytest.mark.parametrize("concept_id", ["1", "0000001", "０００００１", "ABC001"])
@@ -171,3 +194,25 @@ def test_duplicate_diagnostics_are_emitted_once_per_affected_row(tmp_path):
     assert [issue.row for issue in duplicates] == [3, 4]
     keys = [(issue.code, issue.row, issue.field, issue.message) for issue in error.value.issues]
     assert len(keys) == len(set(keys))
+
+
+@pytest.mark.parametrize(
+    ("relation", "contrast", "expected"),
+    [
+        ("unknown", "", "invalid_relation"),
+        ("false-friend", "", "missing_contrast"),
+        ("same", "Misleading form means something else", "unexpected_contrast"),
+    ],
+)
+def test_relation_and_contrast_are_validated_before_build(tmp_path, relation, contrast, expected):
+    source = tmp_path / "data" / "vocabulary.tsv"
+    source.parent.mkdir()
+    source.write_text(
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n"
+        f"000001\tcar\tmobil\tkereta\t{relation}\t\ttransport\t{contrast}\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "media").mkdir()
+    with pytest.raises(ValidationError) as error:
+        validate_vocabulary(source, tmp_path / "media")
+    assert any(issue.code == expected and issue.row == 2 for issue in error.value.issues)

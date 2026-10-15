@@ -35,3 +35,23 @@ def test_readme_documents_card_direction_update_behavior_and_not_editing_package
     assert "duplicate" in text and "guid" in text
     assert "modification" in text or "newer" in text
     assert "edit" in text and ".apkg" in text
+
+
+def test_readme_documents_eight_column_accepted_source_and_curation_gate():
+    text = README.read_text(encoding="utf-8").lower()
+    assert "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast" in text
+    for expected in (
+        "ai-first",
+        "independent verification",
+        "adversarial",
+        "two independent",
+        "dictionary",
+        "everyday",
+        "false friend",
+        "hold",
+        "rejected",
+        "closed batches",
+        "offline",
+    ):
+        assert expected in text
+    assert "000001" in text and "retired" in text

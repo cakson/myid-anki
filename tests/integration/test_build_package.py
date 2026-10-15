@@ -92,8 +92,8 @@ def test_build_and_validation_work_without_network(repo_factory, monkeypatch, pa
 def test_nested_unicode_media_is_flattened_and_shared_once(repo_factory, monkeypatch):
     root = repo_factory(
         rows=(
-            ("000001", "house", "rumah", "rumah", "places/café home.png", "places"),
-            ("000002", "home", "rumah", "rumah", "places/café home.png", "places"),
+            ("000001", "spoon", "sendok", "sudu", "places/café home.png", "places"),
+            ("000002", "utensil", "sendok", "sudu", "places/café home.png", "places"),
         ),
         media_files={"places/café home.png": b"image-bytes"},
     )
@@ -128,3 +128,39 @@ def test_distinct_safe_references_to_same_resolved_media_file_build_once(repo_fa
     assert len(fields) == 2
     assert all('<img src="car.png">' in row[0] for row in fields)
     connection.close()
+
+
+def test_false_friend_contrast_is_escaped_and_back_only_with_same_note_schema(
+    repo_factory, monkeypatch, package_inspector
+):
+    root = repo_factory(
+        rows=(
+            (
+                "000001",
+                "a neutral concept",
+                "form",
+                "answer",
+                "false-friend",
+                "",
+                "risk",
+                "form means <another sense> in Bahasa Melayu",
+            ),
+        )
+    )
+    monkeypatch.chdir(root)
+    assert main(["build"]) == 0
+    manifest, _ = package_inspector(root / "dist" / "myid-anki.apkg")
+    assert manifest["models"]["1942161817"]["fields"] == (
+        "ID",
+        "English",
+        "Indonesian",
+        "Malaysian",
+        "Image",
+    )
+    guid, _, fields, _ = manifest["notes"][0]
+    assert guid == "D6BBAuKXK"
+    assert "another sense" not in fields[1]
+    assert "&lt;another sense&gt;" in fields[3]
+    assert len(manifest["cards"]) == 1
+    front = manifest["models"]["1942161817"]["templates"][0][1]
+    assert "{{Malaysian}}" not in front and "false-friend" not in front

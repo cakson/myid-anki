@@ -56,11 +56,15 @@ def make_note(
     model: genanki.Model,
     media_by_source: dict[str, str],
 ) -> genanki.Note:
+    malaysian = html.escape(concept.malaysian, quote=False)
+    if concept.relation == "false-friend":
+        contrast = html.escape(concept.contrast, quote=False)
+        malaysian += f'<div class="false-friend-contrast">{contrast}</div>'
     values = [
         concept.id,
         html.escape(concept.english, quote=False),
         html.escape(concept.indonesian, quote=False),
-        html.escape(concept.malaysian, quote=False),
+        malaysian,
         _image_field(concept, media_by_source),
     ]
     return genanki.Note(

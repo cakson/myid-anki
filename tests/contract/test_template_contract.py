@@ -34,3 +34,13 @@ def test_front_back_and_styles_are_html_css_only_and_responsive():
     assert re.search(r"\.english-cue\s*\{[^}]*font-weight:\s*(?:[6-9]00|bold)", css)
     assert "overflow-wrap: anywhere" in css
     assert "max-width: 100%" in css
+
+
+def test_false_friend_contrast_uses_existing_back_field_without_front_leak():
+    front = (TEMPLATES / "front.html").read_text(encoding="utf-8")
+    back = (TEMPLATES / "back.html").read_text(encoding="utf-8")
+    css = (TEMPLATES / "style.css").read_text(encoding="utf-8")
+    assert "{{Malaysian}}" in back
+    assert "{{Malaysian}}" not in front
+    assert ".false-friend-contrast" in css
+    assert "{{Contrast}}" not in front + back

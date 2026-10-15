@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-HEADER = ("id", "english", "indonesian", "malaysian", "image", "tags")
+HEADER = ("id", "english", "indonesian", "malaysian", "relation", "image", "tags", "contrast")
 DEFAULT_ROWS = (("000001", "car", "mobil", "kereta", "", "transport"),)
 
 
@@ -30,7 +30,11 @@ def repo_factory(tmp_path):
         with (root / "data" / "vocabulary.tsv").open("w", encoding="utf-8", newline="") as stream:
             writer = csv.writer(stream, delimiter="\t", lineterminator="\n")
             writer.writerow(HEADER)
-            writer.writerows(rows)
+            for row in rows:
+                if len(row) == 6:
+                    relation = "same" if row[2] == row[3] else "different-common-word"
+                    row = (*row[:4], relation, *row[4:], "")
+                writer.writerow(row)
         for relative, content in (media_files or {}).items():
             target = root / "media" / relative
             target.parent.mkdir(parents=True, exist_ok=True)

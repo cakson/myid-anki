@@ -18,6 +18,8 @@ class VocabularyConcept:
     english: str
     indonesian: str
     malaysian: str
+    relation: str = "same"
+    contrast: str = ""
     image: str | None = None
     source_row: int | None = None
     raw_tags: str | None = field(default=None, repr=False, compare=False)
@@ -33,11 +35,15 @@ class VocabularyConcept:
         tags: list[str] | tuple[str, ...] | None = None,
         source_row: int | None = None,
         raw_tags: str | None = None,
+        relation: str = "same",
+        contrast: str = "",
     ) -> None:
         object.__setattr__(self, "id", id)
         object.__setattr__(self, "english", english)
         object.__setattr__(self, "indonesian", indonesian)
         object.__setattr__(self, "malaysian", malaysian)
+        object.__setattr__(self, "relation", relation)
+        object.__setattr__(self, "contrast", contrast)
         object.__setattr__(self, "image", image)
         object.__setattr__(self, "source_row", source_row)
         object.__setattr__(self, "raw_tags", raw_tags)
