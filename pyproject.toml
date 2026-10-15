@@ -22,7 +22,7 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra"
-pythonpath = ["."]
+pythonpath = [".", "scripts"]
 junit_family = "legacy"
 
 [tool.ruff]
