@@ -13,6 +13,8 @@ from .records import RecordError, validate_audit_observation
 def _aliases(item: Mapping[str, Any]) -> tuple[str, ...]:
     """Collapse obvious mirrors even when an AI invents distinct group names."""
     aliases = ["group:" + str(item["source_group"]).casefold()]
+    if item.get("source_family"):
+        aliases.append("family:" + str(item["source_family"]).casefold())
     publisher = "".join(char for char in str(item["publisher"]).casefold() if char.isalnum())
     if publisher:
         aliases.append("publisher:" + publisher)

@@ -15,7 +15,10 @@ def send(store, role, result, candidate_id=None):
 def test_complete_batch_reconciles_accepted_hold_and_rejected_without_source_mutation(tmp_path):
     config = tmp_path / "curation" / "config.json"
     config.parent.mkdir()
-    config.write_text('{"prompt_set_version":"1.1.0"}', encoding="utf-8")
+    config.write_text(
+        '{"prompt_set_version":"1.1.0","decision_policy_version":"2.0.0"}',
+        encoding="utf-8",
+    )
     source = tmp_path / "data" / "vocabulary.tsv"
     source.parent.mkdir()
     source.write_text(
@@ -106,16 +109,6 @@ def test_complete_batch_reconciles_accepted_hold_and_rejected_without_source_mut
             "relation": "similar",
             "concerns": [],
             "rationale": "Aligned evidence",
-        },
-        "house-01",
-    )
-    send(
-        store,
-        "adversarial-review",
-        {
-            "verdict": "agree",
-            "concerns": [],
-            "rationale": "No counterexample found",
         },
         "house-01",
     )

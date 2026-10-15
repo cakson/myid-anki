@@ -7,16 +7,19 @@ import json
 import sys
 from pathlib import Path
 
+from .baseline import historical_baseline
 from .bundle import ingest_bundle, packet_bundle
+from .evidence_cache import EvidenceCache, StoredCaptureProvider
 from .export import ExportError, export_batches
 from .models import role_route
-from .records import AI_ROLES, RecordError
+from .records import AI_ROLES, EXTRA_ROLES, RecordError
 from .report import batch_report
 from .store import BatchStore
 from .workflow import (
     check_candidate,
     finalize_hold,
     finalize_reject,
+    hydrate_evidence_from_cache,
     ingest_response,
     init_batch,
     packet_for,
@@ -36,7 +39,7 @@ def parser() -> argparse.ArgumentParser:
     for name in ("packet", "ingest"):
         stage = sub.add_parser(name)
         stage.add_argument("--batch", required=True)
-        stage.add_argument("--role", required=True, choices=AI_ROLES)
+        stage.add_argument("--role", required=True, choices=AI_ROLES + EXTRA_ROLES)
         stage.add_argument("--candidate")
         if name == "ingest":
             stage.add_argument("--response", type=Path, required=True)
@@ -44,7 +47,7 @@ def parser() -> argparse.ArgumentParser:
     for name in ("bundle", "ingest-bundle"):
         stage = sub.add_parser(name)
         stage.add_argument("--batch", required=True)
-        stage.add_argument("--role", required=True, choices=AI_ROLES[1:])
+        stage.add_argument("--role", required=True, choices=AI_ROLES[1:] + EXTRA_ROLES)
         stage.add_argument("--candidate", action="append")
         if name == "ingest-bundle":
             stage.add_argument("--response", type=Path, required=True)
@@ -60,6 +63,8 @@ def parser() -> argparse.ArgumentParser:
     reject.add_argument("--batch", required=True)
     reject.add_argument("--candidate", required=True)
     reject.add_argument("--reason", required=True)
+    reject.add_argument("--reason-code")
+    reject.add_argument("--evidence-ref")
     reopen = sub.add_parser("reopen")
     reopen.add_argument("--batch", required=True)
     reopen.add_argument("--candidate", required=True)
@@ -74,7 +79,12 @@ def parser() -> argparse.ArgumentParser:
     export = sub.add_parser("export")
     export.add_argument("--batch", required=True, action="append")
     route = sub.add_parser("route")
-    route.add_argument("--role", required=True, choices=AI_ROLES)
+    route.add_argument("--role", required=True, choices=AI_ROLES + EXTRA_ROLES)
+    sub.add_parser("cache-evidence")
+    hydrate = sub.add_parser("hydrate-evidence")
+    hydrate.add_argument("--batch", required=True)
+    hydrate.add_argument("--candidate", required=True)
+    sub.add_parser("baseline")
     return command
 
 
@@ -86,6 +96,17 @@ def main(argv: list[str] | None = None) -> int:
             result = {"exported_ids": export_batches(root, args.batch)}
         elif args.command == "route":
             result = role_route(root, args.role)
+        elif args.command == "baseline":
+            result = historical_baseline(root)
+        elif args.command == "cache-evidence":
+            provider = StoredCaptureProvider(root)
+            records = (
+                json.loads(provider.path.read_text(encoding="utf-8"))["records"]
+                if provider.path.exists()
+                else []
+            )
+            hits, misses = EvidenceCache(root).upsert_many(records)
+            result = {"provider": provider.provider_id, "cache_hits": hits, "cache_added": misses}
         elif args.command == "init":
             store = init_batch(root, args.batch, args.topic, args.limit, args.scope)
             result = store.manifest().as_dict()
@@ -125,10 +146,19 @@ def main(argv: list[str] | None = None) -> int:
                     candidate_id: check_candidate(store, candidate_id)
                     for candidate_id in store.candidate_ids()
                 }
+            elif args.command == "hydrate-evidence":
+                event = hydrate_evidence_from_cache(store, args.candidate)
+                result = {
+                    "candidate_id": args.candidate,
+                    "evidence_stage_updated": event is not None,
+                    "stage_observations": len(event["result"]["observations"]) if event else 0,
+                }
             elif args.command == "finalize-hold":
                 result = finalize_hold(store, args.candidate, args.reason)
             elif args.command == "finalize-reject":
-                result = finalize_reject(store, args.candidate, args.reason)
+                result = finalize_reject(
+                    store, args.candidate, args.reason, args.reason_code, args.evidence_ref
+                )
             elif args.command == "reopen":
                 result = reopen_candidate(store, args.candidate, args.reason)
             elif args.command == "revise":

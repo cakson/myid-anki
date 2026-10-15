@@ -10,10 +10,11 @@ from pathlib import Path
 from typing import Any
 
 from .duplicates import find_deterministic_overlaps, has_self_overlap
-from .gate import decide_candidate, preaudit_reasons, preverification_reasons
+from .gate import classify_risk, decide_candidate, preaudit_reasons, preverification_reasons
 from .packets import digest, make_packet
 from .records import (
     AI_ROLES,
+    EXTRA_ROLES,
     BatchManifest,
     RecordError,
     validate_candidate,
@@ -29,7 +30,19 @@ DEPENDENCIES = {
     "evidence-audit": ("relation-proposal",),
     "independent-verification": ("evidence-audit",),
     "adversarial-review": ("independent-verification",),
+    "competing-form-challenge": ("independent-verification",),
 }
+
+
+def dependencies_for(store: BatchStore, role: str) -> tuple[str, ...]:
+    if store.manifest().decision_policy_version in {"3.0.0", "3.1.0", "3.2.0"}:
+        if role == "independent-verification":
+            return ("normalize-and-dedupe",)
+        if role == "adversarial-review":
+            return ("independent-verification",)
+    if store.manifest().decision_policy_version == "2.0.0" and role == "adversarial-review":
+        return ("relation-proposal",)
+    return DEPENDENCIES[role]
 
 
 def utc_now() -> str:
@@ -50,6 +63,11 @@ def init_batch(
             "scope": scope,
             "candidate_limit": limit,
             "prompt_set_version": config["prompt_set_version"],
+            **(
+                {"decision_policy_version": config["decision_policy_version"]}
+                if "decision_policy_version" in config
+                else {}
+            ),
             "created_at": utc_now(),
             "status": "open",
         }
@@ -162,27 +180,30 @@ def current_results(store: BatchStore, candidate_id: str) -> dict[str, dict[str,
     manifest = store.manifest()
     candidate = store.candidate(candidate_id)
     results: dict[str, dict[str, Any]] = {}
-    generation = _latest(store.batch_events(), "generate")
-    if generation and generation.get("status") == "complete":
-        packet = packet_for(store, "generate")
-        if generation.get("input_digest") == packet["input_digest"]:
-            results["generate"] = generation["result"]
+    packet = packet_for(store, "generate")
+    generation = next(
+        (
+            event
+            for event in reversed(store.batch_events())
+            if event.get("role") == "generate"
+            and event.get("status") == "complete"
+            and event.get("input_digest") == packet["input_digest"]
+        ),
+        None,
+    )
+    if generation is not None:
+        results["generate"] = generation["result"]
     events = store.events(candidate_id)
-    for role in AI_ROLES[1:]:
-        if any(required not in results for required in DEPENDENCIES[role]):
+    for role in AI_ROLES[1:] + EXTRA_ROLES:
+        if any(required not in results for required in dependencies_for(store, role)):
             continue
-        event = _latest(events, role)
-        if event is None or event.get("status") != "complete":
+        candidate_events = [
+            event
+            for event in reversed(events)
+            if event.get("role") == role and event.get("status") == "complete"
+        ]
+        if not candidate_events:
             continue
-        if role == "independent-verification":
-            verifier_position = max(index for index, item in enumerate(events) if item is event)
-            relation_position = max(
-                index
-                for index, item in enumerate(events)
-                if item.get("role") == "relation-proposal" and item.get("status") == "complete"
-            )
-            if relation_position > verifier_position:
-                continue
         archive = frozen_archive(store, candidate_id) if role == "normalize-and-dedupe" else None
         deterministic = (
             find_deterministic_overlaps(candidate, archive or []) if archive is not None else None
@@ -196,7 +217,13 @@ def current_results(store: BatchStore, candidate_id: str) -> dict[str, dict[str,
             archive=archive,
             deterministic_overlaps=deterministic,
         )
-        if role == "normalize-and-dedupe" and event.get("input_digest") != packet["input_digest"]:
+        if (
+            role == "normalize-and-dedupe"
+            and candidate_events
+            and all(
+                event.get("input_digest") != packet["input_digest"] for event in candidate_events
+            )
+        ):
             legacy = archive_candidates(store.root, store.batch_id, candidate_id)
             legacy_packet = make_packet(
                 store.root,
@@ -207,13 +234,19 @@ def current_results(store: BatchStore, candidate_id: str) -> dict[str, dict[str,
                 archive=legacy,
                 deterministic_overlaps=find_deterministic_overlaps(candidate, legacy),
             )
-            if event.get("input_digest") == legacy_packet["input_digest"]:
+            if any(
+                event.get("input_digest") == legacy_packet["input_digest"]
+                for event in candidate_events
+            ):
                 archive = legacy
                 packet = legacy_packet
         if (
             role == "independent-verification"
-            and event.get("input_digest") != packet["input_digest"]
-            and "relation_proposal_digest" not in event
+            and candidate_events
+            and all(
+                event.get("input_digest") != packet["input_digest"] for event in candidate_events
+            )
+            and any("relation_proposal_digest" not in event for event in candidate_events)
         ):
             legacy_packet = make_packet(
                 store.root,
@@ -223,9 +256,33 @@ def current_results(store: BatchStore, candidate_id: str) -> dict[str, dict[str,
                 stages=results,
                 bind_relation=False,
             )
-            if event.get("input_digest") == legacy_packet["input_digest"]:
+            if any(
+                event.get("input_digest") == legacy_packet["input_digest"]
+                and "relation_proposal_digest" not in event
+                for event in candidate_events
+            ):
                 packet = legacy_packet
-        if event.get("input_digest") == packet["input_digest"]:
+        event = next(
+            (
+                item
+                for item in candidate_events
+                if item.get("input_digest") == packet["input_digest"]
+            ),
+            None,
+        )
+        if event is not None and role == "independent-verification":
+            verifier_position = next(index for index, item in enumerate(events) if item is event)
+            relation_position = max(
+                (
+                    index
+                    for index, item in enumerate(events)
+                    if item.get("role") == "relation-proposal" and item.get("status") == "complete"
+                ),
+                default=-1,
+            )
+            if relation_position > verifier_position:
+                event = None
+        if event is not None:
             results[role] = event["result"]
     return results
 
@@ -242,25 +299,63 @@ def packet_for(store: BatchStore, role: str, candidate_id: str | None = None) ->
         raise RecordError(f"{role} requires --candidate")
     candidate = store.candidate(candidate_id)
     stages = current_results(store, candidate_id)
-    if any(required not in stages for required in DEPENDENCIES[role]):
+    if any(required not in stages for required in dependencies_for(store, role)):
         raise RecordError(f"{role} is out of order for {candidate_id}")
+    if role == "competing-form-challenge":
+        verifier = stages["independent-verification"]
+        if manifest.decision_policy_version != "3.2.0" or (
+            verifier.get("relation") != "different-common-word"
+            or verifier.get("competing_form", {}).get("status") != "credible-everyday"
+        ):
+            raise RecordError("competing-form challenge is skipped without a credible rival")
     if role == "evidence-audit":
         reasons = preaudit_reasons(candidate, stages)
         if reasons:
             raise RecordError(
                 f"evidence-audit is withheld for {candidate_id}: {', '.join(reasons)}"
             )
-    if role in {"independent-verification", "adversarial-review"}:
+    if manifest.decision_policy_version not in {"3.0.0", "3.1.0", "3.2.0"} and (
+        role == "independent-verification"
+        or (role == "adversarial-review" and manifest.decision_policy_version != "2.0.0")
+    ):
         reasons = preverification_reasons(candidate, stages)
         if reasons:
             raise RecordError(f"{role} is withheld for {candidate_id}: {', '.join(reasons)}")
-    if role == "adversarial-review":
+    if role == "adversarial-review" and manifest.decision_policy_version not in {
+        "2.0.0",
+        "3.0.0",
+        "3.1.0",
+        "3.2.0",
+    }:
         verifier = stages["independent-verification"]
         relation = stages["relation-proposal"]["relation"]
         if verifier.get("verdict") != "agree" or verifier.get("relation") != relation:
             raise RecordError(
                 f"adversarial-review is withheld for {candidate_id}: verifier-disagreement"
             )
+    if role == "adversarial-review" and manifest.decision_policy_version in {
+        "3.0.0",
+        "3.1.0",
+        "3.2.0",
+    }:
+        relation = stages.get("independent-verification", {}).get("relation")
+        if (
+            relation != "false-friend"
+            and decide_candidate(
+                candidate, stages, policy_version=manifest.decision_policy_version
+            )["outcome"]
+            == "accepted"
+        ):
+            raise RecordError(f"adversarial-review is skipped-by-policy for {candidate_id}")
+    if role == "adversarial-review" and manifest.decision_policy_version == "2.0.0":
+        relation = stages["relation-proposal"]["relation"]
+        preverification = preverification_reasons(candidate, stages)
+        conflict = "contradictory-evidence" in preverification
+        if "independent-verification" not in stages and not conflict:
+            raise RecordError(f"adversarial-review is out of order for {candidate_id}")
+        if relation != "false-friend" and not conflict:
+            if classify_risk(candidate, stages)["path"] == "ordinary-fast":
+                raise RecordError(f"adversarial-review is skipped-low-risk for {candidate_id}")
     archive = frozen_archive(store, candidate_id) if role == "normalize-and-dedupe" else None
     deterministic = (
         find_deterministic_overlaps(candidate, archive or []) if archive is not None else None
@@ -316,6 +411,12 @@ def ingest_response(
         parsed = json.loads(raw_text)
         response = validate_stage_response(role, parsed, limit=store.manifest().candidate_limit)
         if (
+            role == "independent-verification"
+            and store.manifest().prompt_set_version == "2.4.0"
+            and "preference_risk" not in response["result"]
+        ):
+            raise RecordError("prompt set 2.4.0 requires preference_risk")
+        if (
             role == "normalize-and-dedupe"
             and candidate_id is not None
             and has_self_overlap(response["result"]["overlaps"], store.batch_id, candidate_id)
@@ -350,7 +451,7 @@ def ingest_response(
         "result": result,
         "raw_response": raw_text,
         "input_digest": packet["input_digest"],
-        "prompt_set_version": store.manifest().prompt_set_version,
+        "prompt_set_version": packet["prompt_set_version"],
         "model": actual_model or response["model"],
         "reported_model": response["model"],
         "tool": (
@@ -385,15 +486,81 @@ def ingest_response(
     return event
 
 
+def hydrate_evidence_from_cache(store: BatchStore, candidate_id: str) -> dict[str, Any] | None:
+    """Reuse inspected claim evidence before requesting a new AI research pass.
+
+    This is a curation-only operation. It leaves the candidate and learner TSV untouched;
+    normal packet validation and stage provenance still apply.
+    """
+    from .evidence_cache import EvidenceCache, materialize_observations, queries_for_candidate
+
+    stages = current_results(store, candidate_id)
+    ref = f"{store.batch_id}:{candidate_id}"
+    queries = queries_for_candidate(ref, store.candidate(candidate_id), stages)
+    found, _, _ = EvidenceCache(store.root).lookup_many(queries)
+    existing = stages.get("evidence-audit", {}).get("observations", [])
+    seen = {(item["claim_id"], item["url_or_query"], item["source_group"]) for item in existing}
+    observations = list(existing)
+    observations.extend(
+        item
+        for query in queries
+        for item in materialize_observations(query, found[(query.candidate_ref, query.claim_id)])
+        if (item["claim_id"], item["url_or_query"], item["source_group"]) not in seen
+    )
+    if len(observations) == len(existing):
+        return None
+    response = {
+        "schema_version": 1,
+        "role": "evidence-audit",
+        "model": "evidence-cache-v1",
+        "result": {"observations": observations},
+    }
+    return ingest_response(
+        store, "evidence-audit", json.dumps(response, ensure_ascii=False), candidate_id
+    )
+
+
 def check_candidate(store: BatchStore, candidate_id: str) -> dict[str, Any]:
     results = current_results(store, candidate_id)
+    policy = store.manifest().decision_policy_version or "1.0.0"
+    if policy == "2.0.0":
+        store.append_event(
+            candidate_id,
+            {
+                "role": "risk-assessment",
+                "status": "complete",
+                "decision_policy_version": policy,
+                "result": classify_risk(store.candidate(candidate_id), results),
+                "input_digest": digest(
+                    {"candidate": store.candidate(candidate_id), "stages": results}
+                ),
+                "at": utc_now(),
+            },
+        )
     explicit = _latest(store.events(candidate_id), "explicit-final")
     decision = decide_candidate(
         store.candidate(candidate_id),
         results,
         explicit_final=explicit.get("decision") if explicit else None,
+        policy_version=policy,
     )
     decision["candidate_id"] = candidate_id
+    if policy in {"3.0.0", "3.1.0", "3.2.0"}:
+        store.append_event(
+            candidate_id,
+            {
+                "role": "risk-assessment",
+                "status": "complete",
+                "decision_policy_version": policy,
+                "result": decision["risk"],
+                "input_digest": digest(
+                    {"candidate": store.candidate(candidate_id), "stages": results}
+                ),
+                "at": utc_now(),
+            },
+        )
+    if policy in {"2.0.0", "3.0.0", "3.1.0", "3.2.0"}:
+        decision["candidate_digest"] = digest(store.candidate(candidate_id))
     decision["checked_at"] = utc_now()
     store.append_event(
         candidate_id,
@@ -411,22 +578,59 @@ def finalize_hold(store: BatchStore, candidate_id: str, reason: str) -> dict[str
     return _finalize_candidate(store, candidate_id, reason, "hold")
 
 
-def finalize_reject(store: BatchStore, candidate_id: str, reason: str) -> dict[str, Any]:
+def finalize_reject(
+    store: BatchStore,
+    candidate_id: str,
+    reason: str,
+    reason_code: str | None = None,
+    evidence_ref: str | None = None,
+) -> dict[str, Any]:
     """Stop spending curation calls on a known unsuitable proposal."""
-    return _finalize_candidate(store, candidate_id, reason, "rejected")
+    return _finalize_candidate(
+        store,
+        candidate_id,
+        reason,
+        "rejected",
+        reason_code=reason_code,
+        evidence_ref=evidence_ref,
+    )
 
 
 def _finalize_candidate(
-    store: BatchStore, candidate_id: str, reason: str, outcome: str
+    store: BatchStore,
+    candidate_id: str,
+    reason: str,
+    outcome: str,
+    *,
+    reason_code: str | None = None,
+    evidence_ref: str | None = None,
 ) -> dict[str, Any]:
     if not reason.strip() or candidate_id not in store.candidate_ids():
         raise RecordError(f"finalize-{outcome} requires an existing candidate and a reason")
+    decision_record = {"outcome": outcome, "reason": reason.strip()}
+    policy = store.manifest().decision_policy_version
+    if outcome == "hold" and policy in {"3.0.0", "3.1.0", "3.2.0"}:
+        decision_record["material_issue"] = True
+    if outcome == "rejected" and policy in {"2.0.0", "3.0.0", "3.1.0", "3.2.0"}:
+        from .gate import AFFIRMATIVE_REJECTION_CODES, REJECTION_CODES_REQUIRING_REFERENCE
+
+        if reason_code not in AFFIRMATIVE_REJECTION_CODES:
+            raise RecordError("policy v2 rejection requires an affirmative --reason-code")
+        if (
+            policy == "2.0.0"
+            and reason_code in REJECTION_CODES_REQUIRING_REFERENCE
+            and not evidence_ref
+        ):
+            raise RecordError(f"{reason_code} requires --evidence-ref")
+        decision_record["reason_code"] = reason_code
+        if evidence_ref:
+            decision_record["evidence_ref"] = evidence_ref
     store.append_event(
         candidate_id,
         {
             "role": "explicit-final",
             "status": "complete",
-            "decision": {"outcome": outcome, "reason": reason.strip()},
+            "decision": decision_record,
             "at": utc_now(),
         },
     )

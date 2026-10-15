@@ -33,6 +33,12 @@ def source(locale, group):
 
 
 def test_new_locale_packets_require_independent_inspected_sources(tmp_path):
+    config = tmp_path / "curation" / "config.json"
+    config.parent.mkdir()
+    config.write_text(
+        '{"prompt_set_version":"1.5.0","decision_policy_version":"2.0.0"}',
+        encoding="utf-8",
+    )
     store = init_batch(tmp_path, "food-001", "food", 1)
     assert store.manifest().prompt_set_version == "1.5.0"
     candidate = {

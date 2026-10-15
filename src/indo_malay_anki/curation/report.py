@@ -10,6 +10,24 @@ from .gate import decide_candidate
 from .store import BatchStore, atomic_json
 from .workflow import close_manifest, current_results, utc_now
 
+CONFIDENCE_ORDER = {"very-low": 0, "low": 1, "medium": 2, "high": 3}
+
+
+def review_priority(decisions: list[dict[str, Any]]) -> list[str]:
+    """List accepted concepts in explainable confidence-first audit order."""
+    accepted = [item for item in decisions if item.get("outcome") == "accepted"]
+    return [
+        str(item["candidate_id"])
+        for item in sorted(
+            accepted,
+            key=lambda item: (
+                CONFIDENCE_ORDER.get(str(item.get("confidence_tier")), 4),
+                -len(item.get("review_flags", [])),
+                str(item["candidate_id"]),
+            ),
+        )
+    ]
+
 
 def batch_report(store: BatchStore) -> dict[str, Any]:
     candidate_ids = store.candidate_ids()
@@ -35,6 +53,7 @@ def batch_report(store: BatchStore) -> dict[str, Any]:
             store.candidate(candidate_id),
             stages,
             explicit_final=explicit.get("decision") if explicit else None,
+            policy_version=store.manifest().decision_policy_version or "1.0.0",
         )
         decision["candidate_id"] = candidate_id
         decisions.append(decision)
@@ -117,6 +136,20 @@ def batch_report(store: BatchStore) -> dict[str, Any]:
             if decision["outcome"] in {"pending", "hold"}
         ],
         "decisions": decisions,
+        "confidence_distribution": dict(
+            sorted(
+                Counter(
+                    decision["confidence_tier"]
+                    for decision in decisions
+                    if decision["outcome"] == "accepted" and "confidence_tier" in decision
+                ).items()
+            )
+        ),
+        "no_contrast_rejected": sum(
+            "no-meaningful-cross-language-contrast" in decision["reason_codes"]
+            for decision in decisions
+        ),
+        "review_priority": review_priority(decisions),
         "created_at": utc_now(),
     }
     assert generated == report["accepted"] + report["held"] + report["rejected"] + pending

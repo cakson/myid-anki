@@ -2,14 +2,18 @@
 
 import hashlib
 import json
+import stat
+from dataclasses import replace
 
 import pytest
 
 from indo_malay_anki.curation import export as export_module
 from indo_malay_anki.curation.export import ExportError, export_batches, recover_export
 from indo_malay_anki.curation.ids import allocate_id, validate_ledger
+from indo_malay_anki.curation.packets import digest
 from indo_malay_anki.curation.store import atomic_json
 from indo_malay_anki.curation.workflow import init_batch
+from indo_malay_anki.model import stable_guid
 
 
 def test_id_ledger_never_reuses_retired_id():
@@ -115,7 +119,7 @@ def accepted_fixture(tmp_path, monkeypatch):
     )
 
     def accepted(*args, **kwargs):
-        return {"outcome": "accepted"}
+        return {"outcome": "accepted", "relation": "similar"}
 
     monkeypatch.setattr(export_module, "decide_candidate", accepted)
     return source, ledger
@@ -142,6 +146,15 @@ def test_export_replaces_both_files_or_rolls_back(tmp_path, monkeypatch, failed_
     assert source.read_bytes() == before_source
     assert ledger.read_bytes() == before_ledger
     assert not (tmp_path / "curation" / "export-journal.json").exists()
+
+
+def test_export_preserves_source_and_ledger_file_modes(tmp_path, monkeypatch):
+    source, ledger = accepted_fixture(tmp_path, monkeypatch)
+    source.chmod(0o644)
+    ledger.chmod(0o644)
+    export_batches(tmp_path, ["home-001"])
+    assert stat.S_IMODE(source.stat().st_mode) == 0o644
+    assert stat.S_IMODE(ledger.stat().st_mode) == 0o644
 
 
 def test_interrupted_journal_restores_old_pair_before_next_export(tmp_path, monkeypatch):
@@ -215,6 +228,11 @@ def test_export_blocks_shared_relation_even_if_report_claims_acceptance(tmp_path
     source, ledger = accepted_fixture(tmp_path, monkeypatch)
     monkeypatch.setattr(
         export_module,
+        "decide_candidate",
+        lambda *args, **kwargs: {"outcome": "accepted", "relation": "same"},
+    )
+    monkeypatch.setattr(
+        export_module,
         "current_results",
         lambda *args: {
             "normalize-and-dedupe": {"overlaps": []},
@@ -222,7 +240,7 @@ def test_export_blocks_shared_relation_even_if_report_claims_acceptance(tmp_path
         },
     )
     before_source, before_ledger = source.read_bytes(), ledger.read_bytes()
-    with pytest.raises(ExportError, match="shared vocabulary"):
+    with pytest.raises(ExportError, match="shared or unresolved relation"):
         export_batches(tmp_path, ["home-001"])
     assert source.read_bytes() == before_source
     assert ledger.read_bytes() == before_ledger
@@ -250,3 +268,167 @@ def test_later_rejected_duplicate_does_not_invalidate_existing_export(tmp_path, 
     assert export_batches(tmp_path, ["home-001"]) == ["000002"]
     assert source.read_bytes() == source_before
     assert ledger.read_bytes() == ledger_before
+
+
+def v31_fixture(tmp_path, monkeypatch, *, relation="similar", risk_path="ordinary-fast"):
+    source, ledger = accepted_fixture(tmp_path, monkeypatch)
+    store = export_module.BatchStore(tmp_path, "home-001")
+    store.save_manifest(replace(store.manifest(), decision_policy_version="3.1.0"))
+    decision = {"outcome": "accepted", "relation": relation, "risk": {"path": risk_path}}
+    monkeypatch.setattr(export_module, "decide_candidate", lambda *args, **kwargs: decision)
+    stages = {
+        "normalize-and-dedupe": {"overlaps": []},
+        "relation-proposal": {"relation": "different-common-word", "english": "sauce"},
+        "independent-verification": {"relation": relation, "verdict": "agree"},
+    }
+    monkeypatch.setattr(export_module, "current_results", lambda *args: stages)
+    atomic_json(
+        store.path / "report.json",
+        {"status": "closed", "pending": 0, "decisions": [{**decision, "candidate_id": "house-01"}]},
+    )
+    row = export_module._projected_row(store.candidate("house-01"), stages, decision)
+    item = {
+        "status": "eligible",
+        "audit_route": "none",
+        "audit_verdict": "not-required",
+        "decision_digest": digest(decision),
+        "content_digest": digest(row),
+    }
+    record = {
+        "schema_version": 1,
+        "batch_id": "home-001",
+        "batch_safety_brake": False,
+        "candidates": {"house-01": item},
+    }
+    return source, ledger, store, decision, stages, record
+
+
+def test_v31_export_requires_current_eligibility_and_allows_clean_unaudited(tmp_path, monkeypatch):
+    source, ledger, store, _, _, record = v31_fixture(tmp_path, monkeypatch)
+    before = source.read_bytes(), ledger.read_bytes()
+    with pytest.raises(ExportError, match="missing promotion eligibility"):
+        export_batches(tmp_path, ["home-001"])
+    assert (source.read_bytes(), ledger.read_bytes()) == before
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    assert export_batches(tmp_path, ["home-001"]) == ["000002"]
+    assert export_batches(tmp_path, ["home-001"]) == ["000002"]
+
+
+@pytest.mark.parametrize(
+    ("change", "message"),
+    [
+        ({"status": "withheld"}, "not promotion eligible"),
+        ({"status": "unresolved"}, "not promotion eligible"),
+        ({"audit_route": "risk-based", "audit_verdict": "not-required"}, "not cleared"),
+        (
+            {"audit_route": "random-monitoring", "audit_verdict": "withheld"},
+            "withheld or unresolved",
+        ),
+        ({"content_digest": "stale"}, "stale promotion"),
+    ],
+)
+def test_v31_export_refuses_ineligible_or_stale_clearance(tmp_path, monkeypatch, change, message):
+    source, ledger, store, _, _, record = v31_fixture(tmp_path, monkeypatch)
+    record["candidates"]["house-01"].update(change)
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    before = source.read_bytes(), ledger.read_bytes()
+    with pytest.raises(ExportError, match=message):
+        export_batches(tmp_path, ["home-001"])
+    assert (source.read_bytes(), ledger.read_bytes()) == before
+
+
+def test_v31_risk_based_review_must_be_cleared(tmp_path, monkeypatch):
+    _, _, store, _, _, record = v31_fixture(tmp_path, monkeypatch, risk_path="escalated")
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    with pytest.raises(ExportError, match="risk-based independent audit"):
+        export_batches(tmp_path, ["home-001"])
+    record["candidates"]["house-01"].update(audit_route="risk-based", audit_verdict="cleared")
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    assert export_batches(tmp_path, ["home-001"]) == ["000002"]
+
+
+def test_v31_batch_safety_brake_blocks_export(tmp_path, monkeypatch):
+    source, ledger, store, _, _, record = v31_fixture(tmp_path, monkeypatch)
+    record["batch_safety_brake"] = True
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    before = source.read_bytes(), ledger.read_bytes()
+    with pytest.raises(ExportError, match="safety brake"):
+        export_batches(tmp_path, ["home-001"])
+    assert (source.read_bytes(), ledger.read_bytes()) == before
+
+
+def test_v31_strong_review_flag_requires_risk_audit(tmp_path, monkeypatch):
+    _, _, store, decision, _, record = v31_fixture(tmp_path, monkeypatch)
+    decision["review_flags"] = ["cue-sense-ambiguity"]
+    record["candidates"]["house-01"]["decision_digest"] = digest(decision)
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    atomic_json(
+        store.path / "report.json",
+        {"status": "closed", "pending": 0, "decisions": [{**decision, "candidate_id": "house-01"}]},
+    )
+    with pytest.raises(ExportError, match="risk-based independent audit"):
+        export_batches(tmp_path, ["home-001"])
+
+
+@pytest.mark.parametrize("outcome", ["hold", "rejected", "pending"])
+def test_v31_nonaccepted_candidate_cannot_export(tmp_path, monkeypatch, outcome):
+    source, ledger, store, decision, _, record = v31_fixture(tmp_path, monkeypatch)
+    decision["outcome"] = outcome
+    atomic_json(
+        store.path / "report.json",
+        {"status": "closed", "pending": 0, "decisions": [{**decision, "candidate_id": "house-01"}]},
+    )
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    before = source.read_bytes(), ledger.read_bytes()
+    with pytest.raises(ExportError):
+        export_batches(tmp_path, ["home-001"])
+    assert (source.read_bytes(), ledger.read_bytes()) == before
+
+
+def test_v31_export_uses_final_verified_relation_without_changing_guid(tmp_path, monkeypatch):
+    source, _, store, _, _, record = v31_fixture(tmp_path, monkeypatch)
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    original_guid = stable_guid("000002")
+    assert export_batches(tmp_path, ["home-001"]) == ["000002"]
+    assert b"sauce\tsaus\tsos\tsimilar" in source.read_bytes()
+    assert stable_guid("000002") == original_guid
+
+
+def test_v31_export_uses_verified_cue_correction(tmp_path, monkeypatch):
+    source, _, store, decision, stages, record = v31_fixture(tmp_path, monkeypatch)
+    decision["cue_correction"] = {"from": "sauce", "to": "condiment sauce"}
+    row = export_module._projected_row(store.candidate("house-01"), stages, decision)
+    record["candidates"]["house-01"].update(
+        decision_digest=digest(decision), content_digest=digest(row)
+    )
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    atomic_json(
+        store.path / "report.json",
+        {"status": "closed", "pending": 0, "decisions": [{**decision, "candidate_id": "house-01"}]},
+    )
+    assert export_batches(tmp_path, ["home-001"]) == ["000002"]
+    assert b"condiment sauce\tsaus\tsos\tsimilar" in source.read_bytes()
+
+
+def test_v31_export_rejects_stale_report_before_id_assignment(tmp_path, monkeypatch):
+    source, ledger, store, _, _, record = v31_fixture(tmp_path, monkeypatch)
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    report = export_module.read_json(store.path / "report.json")
+    report["decisions"][0]["relation"] = "different-common-word"
+    atomic_json(store.path / "report.json", report)
+    before = source.read_bytes(), ledger.read_bytes()
+    with pytest.raises(ExportError, match="stale decision/report"):
+        export_batches(tmp_path, ["home-001"])
+    assert (source.read_bytes(), ledger.read_bytes()) == before
+
+
+def test_v31_export_rejects_changed_candidate_content(tmp_path, monkeypatch):
+    source, ledger, store, _, _, record = v31_fixture(tmp_path, monkeypatch)
+    atomic_json(store.path / "promotion-eligibility.json", record)
+    changed = store.candidate("house-01")
+    changed["malaysian"] = "kuah"
+    atomic_json(store.candidate_path("house-01") / "proposal.json", changed)
+    before = source.read_bytes(), ledger.read_bytes()
+    with pytest.raises(ExportError, match="stale promotion"):
+        export_batches(tmp_path, ["home-001"])
+    assert (source.read_bytes(), ledger.read_bytes()) == before

@@ -21,6 +21,36 @@ def response(role, result):
     return json.dumps({"schema_version": 1, "role": role, "model": "fixture", "result": result})
 
 
+def test_v2_preserves_candidate_identity_and_compatible_stage_after_failed_retry(tmp_path):
+    config = tmp_path / "curation" / "config.json"
+    config.parent.mkdir(exist_ok=True)
+    config.write_text(
+        '{"prompt_set_version":"1.1.0","decision_policy_version":"2.0.0"}',
+        encoding="utf-8",
+    )
+    store = init_batch(tmp_path, "migration-001", "home", 1)
+    candidate = {
+        "candidate_id": "bathroom-01",
+        "english": "bathroom",
+        "indonesian": "kamar mandi",
+        "malaysian": "bilik air",
+        "sense": "room for bathing",
+    }
+    ingest_response(store, "generate", response("generate", {"candidates": [candidate]}))
+    ingest_response(
+        store,
+        "normalize-and-dedupe",
+        response("normalize-and-dedupe", {"overlaps": []}),
+        "bathroom-01",
+    )
+    with pytest.raises(RecordError, match="malformed"):
+        ingest_response(store, "normalize-and-dedupe", "{broken", "bathroom-01")
+    assert store.candidate_ids() == ("bathroom-01",)
+    assert "normalize-and-dedupe" in current_results(store, "bathroom-01")
+    assert store.manifest().decision_policy_version == "2.0.0"
+    assert any(event["status"] == "failed" for event in store.events("bathroom-01"))
+
+
 @pytest.fixture(autouse=True)
 def prior_prompt_version(tmp_path):
     """Recovery fixtures exercise their original packet protocol without source preflight."""

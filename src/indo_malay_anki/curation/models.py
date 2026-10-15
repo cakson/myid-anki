@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from .records import AI_ROLES, RecordError
+from .records import AI_ROLES, EXTRA_ROLES, RecordError
 
 REASONING_EFFORTS = {"none", "low", "medium", "high", "xhigh", "max"}
 
@@ -19,7 +19,7 @@ def config_path(root: Path) -> Path:
 
 def role_route(root: Path, role: str) -> dict[str, str]:
     """Return the configured model for a role without changing packet digests."""
-    if role not in AI_ROLES:
+    if role not in AI_ROLES + EXTRA_ROLES:
         raise RecordError(f"unknown curation role: {role}")
     try:
         config = json.loads(config_path(root).read_text(encoding="utf-8"))

@@ -44,13 +44,14 @@ def test_readme_documents_eight_column_accepted_source_and_curation_gate():
         "ai-first",
         "independent verification",
         "adversarial",
-        "two independent",
         "dictionary",
         "everyday",
         "false friend",
         "hold",
-        "rejected",
-        "closed batches",
+        "reject",
+        "closed batch",
+        "random or stratified",
+        "guarded promotion",
         "offline",
     ):
         assert expected in text

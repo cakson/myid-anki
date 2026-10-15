@@ -10,7 +10,7 @@ from contextlib import contextmanager
 from pathlib import Path
 from typing import Any
 
-from .records import BatchManifest, RecordError, safe_id
+from .records import BatchManifest, RecordError, safe_id, validate_operation_event
 
 
 def atomic_json(path: Path, value: Any) -> None:
@@ -84,6 +84,13 @@ class BatchStore:
 
     def append_batch_event(self, event: dict[str, Any]) -> Path:
         return self._append_in_folder(self.path / "batch-events", event)
+
+    def append_operation_event(self, event: dict[str, Any]) -> Path:
+        validated = validate_operation_event(event)
+        return self._append_in_folder(self.path / "operations", validated)
+
+    def operation_events(self) -> tuple[dict[str, Any], ...]:
+        return self._events_in_folder(self.path / "operations")
 
     @staticmethod
     def _append_in_folder(folder: Path, event: dict[str, Any]) -> Path:

@@ -32,6 +32,12 @@ def test_route_reads_local_config_without_mutating_prompt_packets(tmp_path):
 
 
 def test_costly_verifier_packet_requires_evidence_gate(tmp_path, monkeypatch):
+    config = tmp_path / "curation" / "config.json"
+    config.parent.mkdir()
+    config.write_text(
+        '{"prompt_set_version":"1.1.0","decision_policy_version":"2.0.0"}',
+        encoding="utf-8",
+    )
     store = init_batch(tmp_path, "food-001", "food", 1)
     store.save_candidate(
         "food-01",
@@ -59,6 +65,46 @@ def test_costly_verifier_packet_requires_evidence_gate(tmp_path, monkeypatch):
     monkeypatch.setattr("indo_malay_anki.curation.workflow.current_results", lambda *_: stages)
     with pytest.raises(RecordError, match="independent-verification is withheld"):
         packet_for(store, "independent-verification", "food-01")
+
+
+def test_v2_adversarial_packet_requires_a_risk_trigger(tmp_path, monkeypatch):
+    config = tmp_path / "curation" / "config.json"
+    config.parent.mkdir()
+    config.write_text(
+        '{"prompt_set_version":"1.1.0","decision_policy_version":"2.0.0"}',
+        encoding="utf-8",
+    )
+    store = init_batch(tmp_path, "food-001", "food", 1)
+    candidate = {
+        "candidate_id": "food-01",
+        "english": "spoon",
+        "indonesian": "sendok",
+        "malaysian": "sudu",
+        "sense": "eating utensil",
+    }
+    store.save_candidate("food-01", candidate)
+    stages = {
+        "generate": {},
+        "normalize-and-dedupe": {"overlaps": []},
+        "indonesian-usage": {"claims": []},
+        "malaysian-usage": {"claims": []},
+        "relation-proposal": {
+            "english": "spoon",
+            "aligned": True,
+            "relation": "different-common-word",
+            "claims": [],
+        },
+        "evidence-audit": {"observations": []},
+    }
+    monkeypatch.setattr("indo_malay_anki.curation.workflow.current_results", lambda *_: stages)
+    with pytest.raises(RecordError, match="out of order"):
+        packet_for(store, "adversarial-review", "food-01")
+    stages["independent-verification"] = {
+        "verdict": "object",
+        "relation": "different-common-word",
+        "concerns": [],
+    }
+    assert packet_for(store, "adversarial-review", "food-01")["role"] == "adversarial-review"
 
 
 def test_evidence_audit_packet_rejects_duplicate_claim_ids(tmp_path, monkeypatch):

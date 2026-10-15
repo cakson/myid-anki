@@ -8,7 +8,7 @@ from collections.abc import Mapping
 from pathlib import Path
 from typing import Any
 
-from .records import AI_ROLES, BatchManifest, RecordError
+from .records import AI_ROLES, EXTRA_ROLES, BatchManifest, RecordError
 from .source_inspections import load_source_inspections
 
 
@@ -18,7 +18,7 @@ def digest(value: Any) -> str:
 
 
 def _prompt(root: Path, role: str, version: str) -> str:
-    if role not in AI_ROLES:
+    if role not in AI_ROLES + EXTRA_ROLES:
         raise RecordError(f"unknown role: {role}")
     manifest_path = root / "curation" / "prompts" / "versions" / version / "manifest.json"
     if not manifest_path.exists():
@@ -52,9 +52,11 @@ def make_packet(
     archive: list[Mapping[str, Any]] | None = None,
     deterministic_overlaps: list[Mapping[str, Any]] | None = None,
     bind_relation: bool = True,
+    prompt_set_version: str | None = None,
 ) -> dict[str, Any]:
     """Build a packet; verifier context deliberately excludes generation rationale and verdict."""
     stages = stages or {}
+    effective_version = prompt_set_version or manifest.prompt_set_version
     context: dict[str, Any] = {"topic": manifest.topic, "scope": manifest.scope}
     if role == "generate":
         context["candidate_limit"] = manifest.candidate_limit
@@ -128,9 +130,48 @@ def make_packet(
         if inspections is not None:
             context["source_inspections"] = inspections
     elif role == "independent-verification":
-        context["indonesian_usage"] = stages.get("indonesian-usage", {})
-        context["malaysian_usage"] = stages.get("malaysian-usage", {})
-        context["audited_evidence"] = stages.get("evidence-audit", {}).get("observations", [])
+        if effective_version in {"2.0.0", "2.1.0", "2.2.0"}:
+            proposal = stages.get("relation-proposal", {})
+            context["proposed_relation"] = proposal.get("relation")
+            context["usage_summary"] = {
+                locale: {
+                    key: stages.get(role_name, {}).get(key)
+                    for key in ("meaning", "common_use", "preferred", "register", "region")
+                    if key in stages.get(role_name, {})
+                }
+                for locale, role_name in (
+                    ("indonesian", "indonesian-usage"),
+                    ("malaysian", "malaysian-usage"),
+                )
+            }
+            context["evidence"] = [
+                {
+                    key: item.get(key)
+                    for key in ("claim_type", "stance", "observation", "source_group")
+                }
+                for item in stages.get("evidence-audit", {}).get("observations", [])[:6]
+            ]
+            adversary = stages.get("adversarial-review", {})
+            context["historical_objections"] = (
+                (adversary.get("objections") or adversary.get("concerns") or [])
+                if adversary.get("verdict") == "object"
+                else []
+            )
+        else:
+            context["indonesian_usage"] = stages.get("indonesian-usage", {})
+            context["malaysian_usage"] = stages.get("malaysian-usage", {})
+            context["audited_evidence"] = stages.get("evidence-audit", {}).get("observations", [])
+    elif role == "competing-form-challenge":
+        verifier = stages.get("independent-verification", {})
+        context["verified_relation"] = verifier.get("relation")
+        context["named_competing_form"] = verifier.get("competing_form")
+        context["saved_evidence"] = [
+            {
+                key: observation.get(key)
+                for key in ("claim_type", "stance", "observation", "source_group")
+            }
+            for observation in stages.get("evidence-audit", {}).get("observations", [])[:4]
+        ]
     elif role == "adversarial-review":
         context["relation_proposal"] = stages.get("relation-proposal", {})
         context["indonesian_usage"] = stages.get("indonesian-usage", {})
@@ -142,8 +183,8 @@ def make_packet(
         "batch_id": manifest.batch_id,
         "candidate_id": candidate.get("candidate_id") if candidate else None,
         "role": role,
-        "prompt_set_version": manifest.prompt_set_version,
-        "prompt": _prompt(root, role, manifest.prompt_set_version),
+        "prompt_set_version": effective_version,
+        "prompt": _prompt(root, role, effective_version),
         "context": context,
     }
     if role == "independent-verification" and bind_relation:
