@@ -3,7 +3,21 @@
 **Date**: 2026-10-03
 **Basis**: [feature spec](spec.md), constitution v1.2.0, current source and package contracts, and primary language/Anki references.
 
-## 2026-10-12 implementation-driven decisions (supersede conflicting 2026-10-03 decisions below)
+## 2026-10-13 optimistic replan decisions (current)
+
+These decisions supersede conflicting requirements in both historical sections below. They are grounded in the frozen 26-hold replay (0/25/1), the subsequent claim-evidence replay (1/24/1), preserved candidate/source records, and the current code's verifier dependency on evidence audit. Experimental acceptance did not change canonical learner data.
+
+1. **Decision: accept ordinary useful contrasts after cheap validation and separate compact verification, without universal external research.** Rationale: the previous two-inspected-signal gate yielded almost no ordinary fast-path cards; additional retrieval recovered only one experimental card. Named synonyms or absent frequency proof lower confidence unless a verifier identifies a specific plausible preference problem likely to misteach. Alternatives: retain the old universal source gate (poor recall/cost), or accept raw generation (no independent check).
+2. **Decision: use policy-v3 low/medium/high risk, conditional targeted research, and mandatory strict false-friend review.** Rationale: concrete objection severity, not generic uncertainty or neutral region/register text, determines escalation. Existing evidence cache and source adapters are retained for contested claims and audits. Alternatives: universal adversarial review (high cost) or no escalation (high-risk defects can escape).
+3. **Decision: record ACCEPT/HOLD/REJECT separately from accepted-card high/medium/low/very-low confidence.** Rationale: uncertainty that cannot materially misteach can be published and prioritized for review; a real unresolved blocker stays HOLD even at very-low confidence. REJECT remains affirmative, including confirmed no contrast. Alternatives: model probability percentages (uncalibrated) or historical HOLD as a continuing veto (anchors false negatives).
+4. **Decision: reject safe confirmed `same`/duplicates before expensive calls, retaining a false-friend exception and useful spelling contrast.** Rationale: identical ordinary forms waste generation budget, while an identical lookalike can still have a misleading meaning. Alternatives: reject every exact-form pair automatically (false-friend loss) or send every no-contrast item through research (cost).
+5. **Decision: replay the same frozen 26 historical holds before any new batch or timed new cohort.** Rationale: saved IDs, evidence, objections and provider artifacts permit a bounded paired policy test. A separate archived `kamera/kamera` diagnostic is labeled outside the denominator if absent from the 26. Alternatives: regenerate (throws away sunk work) or start a large fresh batch (cannot isolate policy effect).
+6. **Decision: preserve versioned v1/v2 events and add v3 revisions/compatibility adapters.** Rationale: `workflow.py` currently hard-codes evidence audit as verifier dependency, and changed packet digests invalidate old results. Only incompatible stages rerun; IDs and prior objections survive. Alternatives: mutate old events (loses provenance) or reuse incompatible verification (unsound).
+7. **Decision: measure canonical accepted-card throughput and sampled quality together.** Rationale: historical active time and full cost are unavailable; replay timing alone cannot establish end-to-end product throughput. After the frozen replay, use a frozen quality rubric, an observed small expert benchmark, and bounded matched conservative/v3 cohort lanes; audit both lanes and count only final-digest-matched canonical v3 cards in the quality-adjusted product numerator. The benchmark provides a denominator for the approximately 50× long-term objective, never an approval workflow. Alternatives: count generated candidates, skip a measured comparator, or impose a new arbitrary human-relative release gate.
+
+**Open measurement parameters, not unresolved product requirements:** initial bounded operational caps, safe provider concurrency, actual v3 replay recovery, confidence-tier error rates, comparable human throughput, and canonical v3 throughput. Record them through implementation and evaluation rather than inventing values now.
+
+## 2026-10-12 implementation-driven decisions (historical; superseded where conflicting)
 
 These decisions use the checked-in retrospective in [spec.md](spec.md) and the existing `gate.py`, `workflow.py`, `evidence.py`, `packets.py`, `bundle.py`, `store.py`, and batch artifacts. Older sections below document the original architecture; their universal-adversarial and hard corpus-quota rules are historical, not the revised policy.
 
@@ -22,7 +36,7 @@ These decisions use the checked-in retrospective in [spec.md](spec.md) and the e
 
 ## Original 2026-10-03 decisions (historical architecture record)
 
-The sections below describe the first implementation. Where they require every ordinary candidate to pass adversarial review or require 24 accepted cards for completion, the 2026-10-12 decisions and revised [plan](plan.md) take precedence.
+The sections below describe the first implementation. The 2026-10-13 decisions and revised [plan](plan.md) take precedence wherever universal external evidence, universal adversarial review, conservative HOLD, or a fixed corpus quota is stated.
 
 ## 1. Separate curation from the deck build
 

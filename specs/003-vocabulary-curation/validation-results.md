@@ -2,6 +2,82 @@
 
 Status: in progress. The initial corpus gate remains open.
 
+## Recalibration baseline (read-only replay, 2026-10-13)
+
+`python -m indo_malay_anki.curation baseline` copies the checked-in batch artifacts to a
+temporary workspace before reconstructing current-code decisions. No archived manifest,
+candidate event, source inspection, or report is rewritten. The one `growth-audit-001`
+process fixture is excluded from product counts and reported separately.
+
+| Measure | Archived reports | Current contrast-only replay |
+|---|---:|---:|
+| Non-fixture batches | 14 | 14 |
+| Generated candidates | 102 | 102 |
+| Accepted decisions | 6 | 3 |
+| Held decisions | 87 | 87 |
+| Rejected decisions | 9 | 12 |
+| Active learner cards in the canonical TSV | 3 | 3 |
+
+The three changed decisions are the retired shared-form acceptances in `home-001`,
+`produce-001`, and `technology-001`. Their archived reports are preserved. The fixture adds
+one generated candidate and one rejection outside these totals. The latest held decisions
+first stop at Indonesian usage (15), relation proposal (16), evidence audit (23), independent
+verification (20), adversarial review (6), or after all stages (7). These are stage-stop
+locations, not proven linguistic defects.
+
+The archive contains 432 completed non-generation candidate-role events, including 41 repeat
+completions; evidence audit accounts for 16 repeats and relation proposal for 9. There are
+5 failed candidate-role events and 11 failed batch-role events. Sixteen source-inspection
+files contain 83 inspected rows, while completed evidence-audit events contain 281
+observations across attempts. Neither event count is a provider-call or network-retrieval
+count. The event span from 2026-10-03 14:14:53 UTC to 2026-10-10 03:19:38 UTC includes
+unknown idle and interruption periods and is not active runtime. Historical active seconds,
+accepted cards per active hour, provider calls, tokens, research operations, and monetary
+cost are **unavailable**, not zero. No human-relative throughput claim follows from this
+archive. The current implementation's operation records will measure new work prospectively.
+
+The replay's recorded decision reasons are 87 `explicit-hold`, five confirmed duplicates,
+four historical explicit rejections, three shared-form exclusions, and three accepted
+gate passes. Historical `explicit-hold` is an action code, not a linguistic diagnosis;
+the first incomplete stage distribution above provides a procedural breakdown only.
+There is no defensible false-negative count or stage-cost ranking yet. In particular,
+the 83 source-inspection rows and 281 audit observations cannot be treated as network
+retrieval counts. Evidence audits have the most repeated completed attempts (16), followed
+by relation proposal (9), but attempt counts do not establish which stage used the most
+time or tokens.
+
+## First recalibration phase
+
+New batches pin decision policy `2.0.0`; existing manifests without a policy field continue
+to replay under `1.0.0`. Neither old candidate IDs nor old stage events are rewritten.
+An ordinary candidate may pass with two independent claim-relevant evidence groups and an
+agreeing independent verifier when the deterministic risk assessment finds no material
+trigger. The decision records `ordinary-fast` and `adversarial-review: skipped-low-risk`.
+False friends still need the original evidence and adversarial gates. Other material risks
+route to targeted review; weak evidence or a failed retrieval leaves a candidate pending
+until explicitly held, while affirmative duplicate or shared-form findings may reject
+immediately. Explicit policy-v2 rejection requires a typed affirmative reason, with an
+evidence reference for claims of linguistic error. Export replays the batch-pinned policy
+and promotes only accepted candidates.
+
+Prospective operation-attempt records can retain timing and usage when available, but this
+phase does not include the instrumented provider runner or a timed matched cohort. Therefore
+the machine accepted-cards/hour baseline, cost per accepted card, false-negative recovery,
+and human-relative throughput are still unavailable. No historical reconsideration or new
+curation batch was run in this phase.
+
+## Bounded historical hold replay (2026-10-13)
+
+A frozen 26-candidate sample was replayed under policy `2.0.0` using existing artifacts;
+the results are in [historical-hold-experiment.md](historical-hold-experiment.md).
+The counterfactual dispositions are zero accepted, 25 still unresolved, and one affirmative
+shared-form rejection. No canonical batch decision or learner TSV was changed. A separate
+five-candidate, matched saved-evidence comparison made ten successful Luna/Sol verifier
+calls; it found no consistent Sol advantage. Historical active time and accepted-card
+throughput remain unavailable. This replay exposed over-broad register/region risk triggers
+and a need to preserve prior concrete objections before admitting any historical hold to
+the ordinary fast path.
+
 ## Cost routing trial
 
 The current central `reserve` cost policy sends every role to `gpt-5.6-luna`, with low reasoning
@@ -285,8 +361,10 @@ answers were absent from its rendered front and present on its rendered back. Th
 Desktop application's import backend and renderer with explicit settings; no interactive GUI
 import was performed.
 
-The complete initial-corpus walkthrough remains pending. Do not release Feature 003 while the
-24-accepted-concept gate is unmet.
+The earlier initial-corpus walkthrough was pending at the time of this compatibility test.
+The later [guarded promotion](guarded-promotion.md) added 25 audited contrasts to the three-row
+source, so the 24-accepted-concept threshold is now met. The completed offline build has 28
+notes/cards; broader fresh-batch throughput and confidence calibration remain to be measured.
 
 ## Quickstart audit
 
@@ -297,3 +375,35 @@ duplicate fixture, plus the held transportation, adjective, technology, and comm
 candidates. The compatibility walkthrough above passed through Anki Desktop's bundled import
 backend. The initial-corpus walkthrough cannot be marked complete until at least 24 accepted
 concepts pass the same evidence, verifier, adversarial, overlap, and export gates.
+
+## Claim-evidence replay (frozen historical holds)
+
+The [claim-evidence experiment](historical-evidence-replay.md) replayed the same 26 archived hold IDs after adding claim-scoped evidence caching and correcting neutral region/register triggers. The result is one experimental ordinary fast-path acceptance (`lunch`), 24 holds, and the same one confirmed shared-form reject. The accepted candidate has **not** been promoted to the learner TSV. Existing reviewer objections remain blockers. A cold cache imported 111 inspected archived observations; later replay found 85 of 115 claim queries in the cache before provider access. Three bounded Luna verifier calls used 42,675 input and 1,360 output tokens. Full historical research time is unavailable, so the replay-only throughput cannot stand in for end-to-end Feature 003 throughput. The five diagnostic candidates and their unresolved claim types are recorded in the report and JSON. No new vocabulary batch was generated.
+
+## Policy-v3 frozen optimistic replay (2026-10-13)
+
+See [optimistic-policy-replay.md](optimistic-policy-replay.md). The same 26 historical holds yielded 24 provisional ACCEPT, 1 material HOLD and 1 no-contrast REJECT; 24 accepted through the ordinary fast path. Five successful batched Luna verifier calls consumed 95.181 seconds of measured active replay time including five failed pre-model CLI launches. No canonical learner rows were promoted. Full curation throughput remains unavailable.
+
+Policy-v3 implementation verification in the existing Conda `playground` environment: `PYTHONPATH=. pytest -q` passed 168 tests; `ruff check .` and `ruff format --check .` passed; offline `python -m indo_malay_anki validate` reported 3 concepts; offline `python -m indo_malay_anki build` produced 3 notes and 3 cards. The repository `.venv/bin/python` symlink points to a removed temporary interpreter, so this run used `/opt/miniconda3/envs/playground/bin/python`. The frozen replay did not call export or alter canonical learner data.
+
+## Latest Batch 2 calibration and guarded promotion (2026-10-14)
+
+The [targeted competing-form experiment](second-batch-50-challenge-and-promotion.md)
+reused the fixed 50 Batch 2 candidates and independent audit. Experimental policy
+v3.2 challenged 12 named everyday competitors but did not improve production
+capture of the six known unsafe/unresolved cards: two remained withheld, four
+remained provisional ACCEPT, and four independently audited safe cards were newly
+withheld. The extra 12 Luna calls used 149,523 input and 14,648 output tokens.
+Prompt/policy v2.3/v3.2 remain versioned experimental code; the central production
+route stays v2.2/v3.1. A deterministic targeted-audit simulation routed all four
+remaining known unsafe provisional accepts and four of 24 confirmed-good cards,
+but this small fixed sample does not establish population coverage.
+
+The previously independent-audit-cleared **34 Batch 2 cards** were promoted through
+the guarded 34-card preview, with six audited unsafe/unresolved accepts withheld.
+The canonical learner source grew from **69 to 103 concepts**. Offline validation
+passed; the `.apkg` contains **103 notes and 103 cards**, each GUID unique and
+equal to the value derived from its permanent concept ID. Deck and note-model IDs
+remain `1242123295` and `1942161817`. Ruff passed and **181 tests** passed. No
+Batch 3 was generated. The long-term 50× human-relative objective remains
+unmeasured because no empirical expert-human benchmark exists.

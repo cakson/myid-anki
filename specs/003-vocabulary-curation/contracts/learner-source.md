@@ -1,5 +1,7 @@
 # Learner Source and Anki Compatibility Contract
 
+Policy-v3 confidence tier, rationale, review flags, historical objections, evidence, and risk path are curation metadata only. Their addition or correction never changes this source schema, permanent concept ID, note fields, or ID-derived GUID. Promotion still requires a current ACCEPT decision, no unresolved overlap, and the guarded export transaction; provisional historical replay acceptance does not itself enter this file.
+
 ## Accepted source
 
 `data/vocabulary.tsv` remains the only vocabulary input to the offline deck builder. It is strict UTF-8 TSV with exactly one header in this order:

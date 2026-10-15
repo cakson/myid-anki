@@ -111,14 +111,31 @@ assignments remain in the ledger and are never reused.
 
 ## AI-first vocabulary curation
 
-AI performs most discovery, usage analysis, relation proposal, evidence gathering, verification,
-and later library growth. A single AI answer is a candidate, never an accepted row. The project
-uses separate role prompts for candidate generation, semantic overlap, Indonesian and Malaysian
-usage, relation proposal, evidence audit, independent verification, and adversarial challenge.
-AI can make plausible language mistakes; the quality claim rests on inspectable evidence, role
-separation, conservative decisions, and corrections over time.
+## AI-first vocabulary curation
 
-Work in topic batches of at most 12 candidates. For example:
+AI performs most vocabulary discovery, comparison, verification, and library growth. A generated
+answer is only a candidate. The active production policy is **v3.1** in
+`curation/config.json`: bounded contrastive generation → deterministic validation, duplicate and
+no-contrast filtering → a separate lightweight linguistic verifier → provisional ACCEPT, HOLD, or
+REJECT with confidence and review flags. Ordinary useful contrasts can pass without universal
+external research. Concrete usage disputes use targeted evidence and the reusable cache; false
+friends require stronger meaning, contrast, verifier, and adversarial support. A named synonym or
+missing frequency proof alone does not veto an otherwise natural ordinary pair.
+
+An ACCEPT is **not an automatic learner-source row**. Concrete production risk signals select cards for independent pre-promotion audit; selected cards require clearance. Guarded promotion through export checks closed decisions, final learner content, explicit eligibility, and batch safety brakes. Otherwise eligible clean cards can enter `data/vocabulary.tsv` without random-audit selection. Random or stratified audit remains ongoing QA monitoring and may discover corrections after release; corrections preserve the same concept ID and Anki GUID. This is an intentional optimistic-quality tradeoff. The current canonical learner source contains **137 concepts and 137 cards**.
+
+Independent verification and adversarial review remain distinct for risky claims. Dictionary
+inclusion can establish that a word exists or has a meaning; it does not establish that speakers
+prefer it in everyday use. External evidence is targeted to concrete disputes and false friends,
+rather than required for every ordinary accepted candidate.
+
+Curation records under `curation/` preserve prompts, model routes, candidate IDs, stage results,
+evidence and source roles, cache entries, confidence rationales, audit findings, corrections, and
+promotion history. Permanent concept IDs and ID-derived Anki GUIDs survive content corrections.
+The normal `validate`, `build`, CI, and release paths read accepted source data only; they make no
+AI or live-research calls. A batch with zero promoted cards is a valid quality outcome.
+
+For a small topic batch, the curation CLI begins with:
 
 ```sh
 python -m indo_malay_anki.curation init --batch home-002 --topic home --limit 12
@@ -127,51 +144,21 @@ python -m indo_malay_anki.curation ingest --batch home-002 --role generate --res
 python -m indo_malay_anki.curation report --batch home-002
 ```
 
-Use `packet` and `ingest` for each later role and candidate; `bundle` and `ingest-bundle` group
-one role across a bounded batch while retaining separate candidate stage records. The prompts,
-provider configuration, ID ledger, batch manifests, raw responses, inspected source observations,
-decisions, and reports live under `curation/`. The [Feature 003 quickstart](specs/003-vocabulary-curation/quickstart.md)
-shows the full sequence and failure checks. Prompt packets and stage inputs carry digests so an
-affected verification stage must be rerun after a material edit.
-New batches pin a prompt-set version and a compact snapshot of already investigated concepts.
-The generator sees that snapshot to avoid proposing the same concept again; normalization still
-checks semantic overlap independently. Historical prompt text remains under
-`curation/prompts/versions/` so later prompt improvements do not alter an earlier batch's stage
-digests.
+Use `packet`/`ingest` or their bounded bundle forms for later roles. `check`, `report`, `reopen`,
+and `finalize-hold` keep decisions and interruptions inspectable. `curation export` is the
+only general curation command that can promote a closed batch, but it does not yet enforce
+independent audit clearance or every corrected final relation. Use a separately checked guarded
+promotion flow until those export safeguards are implemented. The [Feature 003 quickstart](specs/003-vocabulary-curation/quickstart.md)
+and [convergence report](specs/003-vocabulary-curation/convergence-report.md) describe the
+current audit and promotion boundary, historical experiments, and limitations.
 
-The `reserve` cost policy in `curation/config.json` routes every curation role to
-`gpt-5.6-luna`. Verification and adversarial review remain separate calls with separate
-prompts and medium reasoning effort. Check a stage's route with
-`python -m indo_malay_anki.curation route --role ROLE` and pass that model and reasoning effort
-to the AI tool. This policy is a repository convention, not a Codex CLI service tier. Stage
-records keep the actual model identifier; pass `--actual-model` when ingesting a response because
-an AI response can mislabel itself. Learner builds do not read this setting. The evidence packet
-precheck rejects duplicate claim IDs, unresolved overlap, and cue mismatch. Verification and
-adversarial packets are withheld when the evidence or verifier gate already fails.
-For `1.2.0`, `1.3.0`, `1.4.0`, and `1.5.0` batches, inspect promising external sources before locale analysis and save
-the observations using `curation/source-inspection-template.json`. Locale packets are withheld
-until both languages have inspected leads from at least two underlying source groups. Luna
-uses those leads at low reasoning effort; the later evidence audit independently checks
-whether they support each claim. Older batches keep their pinned prompt behavior.
-
-Important claims need at least two independent, claim-relevant external signals, inspected during
-curation. A dictionary can show a word exists or has a meaning; it does not by itself show that it
-is the normal everyday choice in a country. For `different-common-word`, compare natural use and
-register on both sides for the same neutral English sense. False friends need stronger evidence
-for both meanings and the misleading contrast, plus independent verification and adversarial
-agreement. Evidence from mirrors of one publisher does not count twice. Disagreements, weak
-sources, ambiguous cues, and unresolved semantic overlap go on hold or are rejected. Model
-self-confidence never overrides a failed gate.
-
-Use `check` and `report` to inspect accepted, held, rejected, and pending counts, relation
-distribution, duplicate findings, and evidence or verification failures. A batch closes only when
-no candidate is pending. `finalize-hold` records why an investigation stopped; `reopen` can resume
-it later without deleting its prior records. Only accepted candidates from closed batches may be
-promoted with `curation export --batch BATCH`; a closed batch with zero accepted candidates is a
-valid quality outcome. The guarded export screens overlaps again, assigns
-permanent IDs, validates the prospective TSV, and recovers interrupted writes. Held, rejected,
-and partial batches never modify the learner TSV. The normal `validate`, `build`, CI, and release
-paths use the accepted TSV only and make no AI or live-research calls.
+The competing-form challenge, universal localized-standard or technical-borrowing gates, revised
+Luna verifier, default Sol escalation, and universal cheap audit screen were tested but are
+**disabled** as production mechanisms. Their saved experiments remain useful research artifacts.
+Historical production-decision rates are not released-card throughput: audit, correction,
+withholding, and promotion work count too. The approximately 50× expert-human throughput aim is
+unproven; no empirical human benchmark exists. The remaining scaling question is which
+quality/cost tradeoff should govern larger releases.
 
 ## Optional images
 
