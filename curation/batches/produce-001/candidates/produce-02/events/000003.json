@@ -1,0 +1,92 @@
+{
+  "at": "2026-10-04T10:40:43.186783+00:00",
+  "input_digest": "baab14725d586b60cab7ab43065a1a5d351fb41aae6c6ed78e02e4f3316a0b66",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Timun means cucumber and is used for the common fresh cucumber sense. Mentimun is also a valid Malay term for the same plant/fruit.\", \"common_use\": \"Timun is common in Malaysian recipes and named foods; it is readily understood.\", \"preferred\": \"Timun appears to be the ordinary choice in the Malaysian recipe examples. Those examples do not provide a direct comparison sufficient to establish general preference over mentimun.\", \"register\": \"Neutral, standard Malay.\", \"region\": \"No regional restriction apparent in the sources.\", \"alternatives\": [\"mentimun\"], \"claims\": [{\"claim_id\": \"produce-02-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Timun denotes cucumber; DBP also lists mentimun as an equivalent name.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"produce-02-use\", \"claim_type\": \"locale-usage\", \"proposition\": \"Timun occurs as a fresh food ingredient in Malaysian recipes.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source\": \"PRPM, DBP, entry \\u201ctimun\\u201d\", \"url\": \"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=timun\", \"claim\": \"Defines timun as Cucumis sativus and lists mentimun as an equivalent; the student dictionary notes its fruit is commonly made into acar or eaten as ulam.\"}, {\"source\": \"Kimball Malaysia, \\u201cResipi Gado-gado Raya\\u201d\", \"url\": \"https://kimball.com.my/bm/recipe/festive-gado-gado/\", \"claim\": \"Lists timun as an ingredient in a Malaysian recipe.\"}]}, \"bundle_response\": \"curation/batches/produce-001/malaysian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/malaysian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "mentimun"
+      ],
+      "claims": [
+        {
+          "claim_id": "produce-02-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Timun denotes cucumber; DBP also lists mentimun as an equivalent name."
+        },
+        {
+          "claim_id": "produce-02-use",
+          "claim_type": "locale-usage",
+          "locale": "Malaysia",
+          "proposition": "Timun occurs as a fresh food ingredient in Malaysian recipes."
+        }
+      ],
+      "common_use": "Timun is common in Malaysian recipes and named foods; it is readily understood.",
+      "meaning": "Timun means cucumber and is used for the common fresh cucumber sense. Mentimun is also a valid Malay term for the same plant/fruit.",
+      "preferred": "Timun appears to be the ordinary choice in the Malaysian recipe examples. Those examples do not provide a direct comparison sufficient to establish general preference over mentimun.",
+      "region": "No regional restriction apparent in the sources.",
+      "register": "Neutral, standard Malay.",
+      "source_leads": [
+        {
+          "claim": "Defines timun as Cucumis sativus and lists mentimun as an equivalent; the student dictionary notes its fruit is commonly made into acar or eaten as ulam.",
+          "source": "PRPM, DBP, entry “timun”",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=timun"
+        },
+        {
+          "claim": "Lists timun as an ingredient in a Malaysian recipe.",
+          "source": "Kimball Malaysia, “Resipi Gado-gado Raya”",
+          "url": "https://kimball.com.my/bm/recipe/festive-gado-gado/"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "mentimun"
+    ],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:produce-02-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Timun denotes cucumber; DBP also lists mentimun as an equivalent name."
+      },
+      {
+        "claim_id": "malaysian-usage:produce-02-use",
+        "claim_type": "locale-usage",
+        "locale": "Malaysia",
+        "proposition": "Timun occurs as a fresh food ingredient in Malaysian recipes."
+      }
+    ],
+    "common_use": "Timun is common in Malaysian recipes and named foods; it is readily understood.",
+    "meaning": "Timun means cucumber and is used for the common fresh cucumber sense. Mentimun is also a valid Malay term for the same plant/fruit.",
+    "preferred": "Timun appears to be the ordinary choice in the Malaysian recipe examples. Those examples do not provide a direct comparison sufficient to establish general preference over mentimun.",
+    "region": "No regional restriction apparent in the sources.",
+    "register": "Neutral, standard Malay.",
+    "source_leads": [
+      {
+        "claim": "Defines timun as Cucumis sativus and lists mentimun as an equivalent; the student dictionary notes its fruit is commonly made into acar or eaten as ulam.",
+        "claim_ids": [],
+        "source": "PRPM, DBP, entry “timun”",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=timun"
+      },
+      {
+        "claim": "Lists timun as an ingredient in a Malaysian recipe.",
+        "claim_ids": [],
+        "source": "Kimball Malaysia, “Resipi Gado-gado Raya”",
+        "url": "https://kimball.com.my/bm/recipe/festive-gado-gado/"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "0cb61667da9448b1d99e7b96825a84316d09e7737ab331f0900f989fe5916668"
+}

@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .model import ValidationIssue, VocabularyConcept
 
-HEADER = ("id", "english", "indonesian", "malaysian", "image", "tags")
+HEADER = ("id", "english", "indonesian", "malaysian", "relation", "image", "tags", "contrast")
 
 
 class SourceFormatError(Exception):
@@ -77,7 +77,7 @@ def parse_tsv(path: Path) -> ParseResult:
                         )
                     )
                     continue
-                concept_id, english, indonesian, malaysian, image, tags = row
+                concept_id, english, indonesian, malaysian, relation, image, tags, contrast = row
                 concepts.append(
                     VocabularyConcept(
                         concept_id,
@@ -88,6 +88,8 @@ def parse_tsv(path: Path) -> ParseResult:
                         tags.split() if tags else [],
                         physical_row,
                         tags,
+                        relation=relation,
+                        contrast=contrast,
                     )
                 )
         except (csv.Error, UnicodeDecodeError) as exc:

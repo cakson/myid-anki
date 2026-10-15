@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-03T20:02:47.690339+00:00",
+  "input_digest": "1175c3079662d3b708694eed006bb9af4270f6c965c5166916a99342c09f9461",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Pom bensin denotes a place where road vehicles are refueled. Despite bensin in the name, the expression can refer to a station selling other vehicle fuels.\", \"common_use\": \"Widely understood and common in conversation.\", \"preferred\": \"Pom bensin is a natural everyday choice; SPBU is also extremely common, especially on signs and in official or service information.\", \"register\": \"Pom bensin is colloquial-neutral; SPBU is the institutional term.\", \"region\": \"Used throughout Indonesia; no regional restriction identified.\", \"alternatives\": [\"SPBU\", \"stasiun pengisian bahan bakar umum\"], \"claims\": [{\"claim_id\": \"transportation-10-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Pom bensin can denote a vehicle fuel station, including one that sells fuels besides gasoline.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"transportation-10-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Pom bensin is a natural conversational choice for a fuel station, alongside the widely used institutional abbreviation SPBU.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://sinar.big.go.id/Pencarian/Detail/48434\", \"claim_ids\": [\"transportation-10-Indonesia-meaning\", \"transportation-10-Indonesia-preferred\"], \"exact_claim\": \"The Geospatial Information Agency lists Pom bensin as another name for an SPBU and describes it as a place to fuel vehicles.\"}, {\"url\": \"https://berita.pesisirselatankab.go.id/info/spbu_pom_bensin\", \"claim_ids\": [\"transportation-10-Indonesia-preferred\"], \"exact_claim\": \"A district public-information page labels its station list SPBU / Pom Bensin.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "SPBU",
+        "stasiun pengisian bahan bakar umum"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-10-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Pom bensin can denote a vehicle fuel station, including one that sells fuels besides gasoline."
+        },
+        {
+          "claim_id": "transportation-10-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Pom bensin is a natural conversational choice for a fuel station, alongside the widely used institutional abbreviation SPBU."
+        }
+      ],
+      "common_use": "Widely understood and common in conversation.",
+      "meaning": "Pom bensin denotes a place where road vehicles are refueled. Despite bensin in the name, the expression can refer to a station selling other vehicle fuels.",
+      "preferred": "Pom bensin is a natural everyday choice; SPBU is also extremely common, especially on signs and in official or service information.",
+      "region": "Used throughout Indonesia; no regional restriction identified.",
+      "register": "Pom bensin is colloquial-neutral; SPBU is the institutional term.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "transportation-10-Indonesia-meaning",
+            "transportation-10-Indonesia-preferred"
+          ],
+          "exact_claim": "The Geospatial Information Agency lists Pom bensin as another name for an SPBU and describes it as a place to fuel vehicles.",
+          "url": "https://sinar.big.go.id/Pencarian/Detail/48434"
+        },
+        {
+          "claim_ids": [
+            "transportation-10-Indonesia-preferred"
+          ],
+          "exact_claim": "A district public-information page labels its station list SPBU / Pom Bensin.",
+          "url": "https://berita.pesisirselatankab.go.id/info/spbu_pom_bensin"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "SPBU",
+      "stasiun pengisian bahan bakar umum"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-10-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Pom bensin can denote a vehicle fuel station, including one that sells fuels besides gasoline."
+      },
+      {
+        "claim_id": "transportation-10-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Pom bensin is a natural conversational choice for a fuel station, alongside the widely used institutional abbreviation SPBU."
+      }
+    ],
+    "common_use": "Widely understood and common in conversation.",
+    "meaning": "Pom bensin denotes a place where road vehicles are refueled. Despite bensin in the name, the expression can refer to a station selling other vehicle fuels.",
+    "preferred": "Pom bensin is a natural everyday choice; SPBU is also extremely common, especially on signs and in official or service information.",
+    "region": "Used throughout Indonesia; no regional restriction identified.",
+    "register": "Pom bensin is colloquial-neutral; SPBU is the institutional term.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "transportation-10-Indonesia-meaning",
+          "transportation-10-Indonesia-preferred"
+        ],
+        "exact_claim": "The Geospatial Information Agency lists Pom bensin as another name for an SPBU and describes it as a place to fuel vehicles.",
+        "url": "https://sinar.big.go.id/Pencarian/Detail/48434"
+      },
+      {
+        "claim_ids": [
+          "transportation-10-Indonesia-preferred"
+        ],
+        "exact_claim": "A district public-information page labels its station list SPBU / Pom Bensin.",
+        "url": "https://berita.pesisirselatankab.go.id/info/spbu_pom_bensin"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "cd2dc17d779db7e06c4c69d580e2ef70732da5e8a1a766b92bc1fe767f763b40"
+}

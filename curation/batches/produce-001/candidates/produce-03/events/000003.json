@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-04T10:40:43.188777+00:00",
+  "input_digest": "fb814e5e12f706f251e24b3ba2da62e6fa192a068f42075df0af508d9b1e29da",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Betik means papaya. It fits the common ripe fruit sense, though DBP's definition describes the plant and edible fruit without restricting ripeness.\", \"common_use\": \"Common and understood in Malaysia; Malaysian recipe sources use betik for papaya, including ripe and unripe preparations.\", \"preferred\": \"Betik is the standard Malaysian Malay term in the sources. No direct comparison with alternatives was found.\", \"register\": \"Neutral, standard Malay.\", \"region\": \"No regional restriction apparent in the sources.\", \"alternatives\": [], \"claims\": [{\"claim_id\": \"produce-03-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Betik denotes papaya and its edible fruit.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"produce-03-use\", \"claim_type\": \"locale-usage\", \"proposition\": \"Betik is used for papaya as a food ingredient in Malaysian recipes.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source\": \"PRPM, DBP, entry \\u201cbetik\\u201d\", \"url\": \"https://prpm.dbp.gov.my/Cari1?d=54140&keyword=betik\", \"claim\": \"Defines betik as a tropical plant and fruit with edible yellow or orange flesh, identified as papaya.\"}, {\"source\": \"Wilayahku, \\u201cRojak Betik\\u201d\", \"url\": \"https://www.wipers.gov.my/wp-content/uploads/2021/10/132-Wilayahku-10-16September2021.pdf\", \"claim\": \"Names betik in the dish title and lists young papaya as a recipe ingredient; this supports food use but is specifically unripe papaya.\"}]}, \"bundle_response\": \"curation/batches/produce-001/malaysian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/malaysian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [],
+      "claims": [
+        {
+          "claim_id": "produce-03-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Betik denotes papaya and its edible fruit."
+        },
+        {
+          "claim_id": "produce-03-use",
+          "claim_type": "locale-usage",
+          "locale": "Malaysia",
+          "proposition": "Betik is used for papaya as a food ingredient in Malaysian recipes."
+        }
+      ],
+      "common_use": "Common and understood in Malaysia; Malaysian recipe sources use betik for papaya, including ripe and unripe preparations.",
+      "meaning": "Betik means papaya. It fits the common ripe fruit sense, though DBP's definition describes the plant and edible fruit without restricting ripeness.",
+      "preferred": "Betik is the standard Malaysian Malay term in the sources. No direct comparison with alternatives was found.",
+      "region": "No regional restriction apparent in the sources.",
+      "register": "Neutral, standard Malay.",
+      "source_leads": [
+        {
+          "claim": "Defines betik as a tropical plant and fruit with edible yellow or orange flesh, identified as papaya.",
+          "source": "PRPM, DBP, entry “betik”",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=betik"
+        },
+        {
+          "claim": "Names betik in the dish title and lists young papaya as a recipe ingredient; this supports food use but is specifically unripe papaya.",
+          "source": "Wilayahku, “Rojak Betik”",
+          "url": "https://www.wipers.gov.my/wp-content/uploads/2021/10/132-Wilayahku-10-16September2021.pdf"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:produce-03-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Betik denotes papaya and its edible fruit."
+      },
+      {
+        "claim_id": "malaysian-usage:produce-03-use",
+        "claim_type": "locale-usage",
+        "locale": "Malaysia",
+        "proposition": "Betik is used for papaya as a food ingredient in Malaysian recipes."
+      }
+    ],
+    "common_use": "Common and understood in Malaysia; Malaysian recipe sources use betik for papaya, including ripe and unripe preparations.",
+    "meaning": "Betik means papaya. It fits the common ripe fruit sense, though DBP's definition describes the plant and edible fruit without restricting ripeness.",
+    "preferred": "Betik is the standard Malaysian Malay term in the sources. No direct comparison with alternatives was found.",
+    "region": "No regional restriction apparent in the sources.",
+    "register": "Neutral, standard Malay.",
+    "source_leads": [
+      {
+        "claim": "Defines betik as a tropical plant and fruit with edible yellow or orange flesh, identified as papaya.",
+        "claim_ids": [],
+        "source": "PRPM, DBP, entry “betik”",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=betik"
+      },
+      {
+        "claim": "Names betik in the dish title and lists young papaya as a recipe ingredient; this supports food use but is specifically unripe papaya.",
+        "claim_ids": [],
+        "source": "Wilayahku, “Rojak Betik”",
+        "url": "https://www.wipers.gov.my/wp-content/uploads/2021/10/132-Wilayahku-10-16September2021.pdf"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "b0be88cb7c1abb73817875b475c5a32e6cc9bf2adfdd23e49bb53e427c8c7030"
+}

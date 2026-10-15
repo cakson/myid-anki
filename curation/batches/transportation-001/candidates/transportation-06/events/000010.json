@@ -1,0 +1,98 @@
+{
+  "at": "2026-10-04T03:48:25.591549+00:00",
+  "input_digest": "cb9a48e34bd94adb2be8a656b2f95b3aeb4d25ed72ff2f40f1fd16a4bdb90bf0",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-luna/codex-cli\", \"result\": {\"observations\": [{\"evidence_id\": \"transportation-06-bps\", \"claim_id\": \"transportation-06-Indonesia-meaning\", \"source_group\": \"Badan Pusat Statistik\", \"source_title\": \"SIRUSA metadata: truk\", \"publisher\": \"Badan Pusat Statistik\", \"url_or_query\": \"https://sirusa.web.bps.go.id/metadata/variabel/92590ec4-f5fc-bf50-81d7-9f89c03e1853\", \"accessed_at\": \"2026-10-04T03:45:54Z\", \"observation\": \"The page could not be retrieved (cache miss).\", \"page_location_or_query\": \"Direct URL retrieval.\", \"audit_method\": \"retrieved-page\", \"stance\": \"inconclusive\", \"claim_type\": \"meaning\", \"usage_basis\": \"dictionary-only\", \"locale\": \"Indonesia\", \"register\": \"not established\", \"limitations\": \"Source contents could not be inspected; no meaning or preference claim is verified.\"}, {\"evidence_id\": \"transportation-06-dbp\", \"claim_id\": \"transportation-06-Malaysia-meaning\", \"source_group\": \"Dewan Bahasa dan Pustaka\", \"source_title\": \"PRPM search entry: lori\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lori\", \"accessed_at\": \"2026-10-04T03:45:54Z\", \"observation\": \"The page could not be retrieved (cache miss).\", \"page_location_or_query\": \"Direct URL retrieval.\", \"audit_method\": \"retrieved-page\", \"stance\": \"inconclusive\", \"claim_type\": \"meaning\", \"usage_basis\": \"dictionary-only\", \"locale\": \"Malaysia\", \"register\": \"not established\", \"limitations\": \"Source contents could not be inspected; no meaning or preference claim is verified.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/evidence-03-06-response.json\"}",
+  "reported_model": "gpt-6-luna/codex-cli",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/evidence-03-06-response.json",
+    "model": "gpt-6-luna/codex-cli",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T03:45:54Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "transportation-06-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "transportation-06-bps",
+          "limitations": "Source contents could not be inspected; no meaning or preference claim is verified.",
+          "locale": "Indonesia",
+          "observation": "The page could not be retrieved (cache miss).",
+          "page_location_or_query": "Direct URL retrieval.",
+          "publisher": "Badan Pusat Statistik",
+          "register": "not established",
+          "source_group": "Badan Pusat Statistik",
+          "source_title": "SIRUSA metadata: truk",
+          "stance": "inconclusive",
+          "url_or_query": "https://sirusa.web.bps.go.id/metadata/variabel/92590ec4-f5fc-bf50-81d7-9f89c03e1853",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T03:45:54Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "transportation-06-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "transportation-06-dbp",
+          "limitations": "Source contents could not be inspected; no meaning or preference claim is verified.",
+          "locale": "Malaysia",
+          "observation": "The page could not be retrieved (cache miss).",
+          "page_location_or_query": "Direct URL retrieval.",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "not established",
+          "source_group": "Dewan Bahasa dan Pustaka",
+          "source_title": "PRPM search entry: lori",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lori",
+          "usage_basis": "dictionary-only"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-04T03:45:54Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "transportation-06-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "transportation-06-bps",
+        "limitations": "Source contents could not be inspected; no meaning or preference claim is verified.",
+        "locale": "Indonesia",
+        "observation": "The page could not be retrieved (cache miss).",
+        "page_location_or_query": "Direct URL retrieval.",
+        "publisher": "Badan Pusat Statistik",
+        "register": "not established",
+        "source_group": "Badan Pusat Statistik",
+        "source_title": "SIRUSA metadata: truk",
+        "stance": "inconclusive",
+        "url_or_query": "https://sirusa.web.bps.go.id/metadata/variabel/92590ec4-f5fc-bf50-81d7-9f89c03e1853",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-04T03:45:54Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "transportation-06-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "transportation-06-dbp",
+        "limitations": "Source contents could not be inspected; no meaning or preference claim is verified.",
+        "locale": "Malaysia",
+        "observation": "The page could not be retrieved (cache miss).",
+        "page_location_or_query": "Direct URL retrieval.",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "not established",
+        "source_group": "Dewan Bahasa dan Pustaka",
+        "source_title": "PRPM search entry: lori",
+        "stance": "inconclusive",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lori",
+        "usage_basis": "dictionary-only"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "70e9860194712f58f0645a042695270fa9ef52f1d3daaa2dc9f834fcf94bc12f"
+}

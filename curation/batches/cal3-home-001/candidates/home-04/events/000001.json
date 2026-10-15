@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T11:27:24.001887+00:00",
+  "input_digest": "b6b2a1626ff518724f7d2a189a72aec3f4b2220bf994c903b38add9a15de39fe",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"clothing-001:clothing-02\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"Slippers are light indoor or casual footwear; shoes are a broader, distinct footwear concept.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-02",
+          "rationale": "Slippers are light indoor or casual footwear; shoes are a broader, distinct footwear concept.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "clothing-001:clothing-02",
+        "rationale": "Slippers are light indoor or casual footwear; shoes are a broader, distinct footwear concept.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "00ae9c31687d86f60dd2649b179ac5de959af34496f07b1ebcc05ba26c6876c1"
+}

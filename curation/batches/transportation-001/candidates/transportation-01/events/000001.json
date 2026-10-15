@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T14:18:03.754589+00:00",
+  "input_digest": "6ad7770e8ef11a697442d6a950c56382e8b7173f321ac224bff62f269170945d",
+  "model": "gpt-6-sol via codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol via codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"000001\", \"type\": \"exact\", \"resolution\": \"retrospective\", \"rationale\": \"The candidate and existing row have the same English cue, Indonesian answer, and Malaysian answer. The candidate carries legacy_id 000001, and the supplied sense is consistent with the existing car concept.\"}]}, \"reported_model\": \"unavailable/codex-cli\"}",
+  "response": {
+    "model": "gpt-6-sol via codex-cli",
+    "reported_model": "unavailable/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000001",
+          "rationale": "The candidate and existing row have the same English cue, Indonesian answer, and Malaysian answer. The candidate carries legacy_id 000001, and the supplied sense is consistent with the existing car concept.",
+          "resolution": "retrospective",
+          "type": "exact"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000001",
+        "rationale": "The candidate and existing row have the same English cue, Indonesian answer, and Malaysian answer. The candidate carries legacy_id 000001, and the supplied sense is consistent with the existing car concept.",
+        "resolution": "retrospective",
+        "type": "exact"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol via codex-cli",
+  "upstream_digest": "af09c08ef48372e33078570d029cbf028b82d4010becb2e163f82cc73b13374e"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:41:05.081401+00:00",
+  "input_digest": "74de962a198016c79a0f874f036f6e7bef62872f4f64d8be17beb0df15ba46b3",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-001:transportation-07\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Drive is the action of operating a car; a road vehicle driver is the person who operates a vehicle.\"}]}, \"bundle_response\": \"curation/batches/common-verbs-001/normalize-response-retry.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/common-verbs-001/normalize-response-retry.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-07",
+          "rationale": "Drive is the action of operating a car; a road vehicle driver is the person who operates a vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-001:transportation-07",
+        "rationale": "Drive is the action of operating a car; a road vehicle driver is the person who operates a vehicle.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "cd701c46178971cb8f19960878ccc18fb05f9316b53e84665a7df2b899ba9103"
+}

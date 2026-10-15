@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-10T01:44:27.131866+00:00",
+  "input_digest": "08d25ae43f54a9e2230526b866c0070fcc87259cadb6852599f44eb9849768df",
+  "model": "gpt-5.6-luna/codex-cli",
+  "prompt_set_version": "1.4.0",
+  "raw_response": "{\"schema_version\":1,\"role\":\"relation-proposal\",\"model\":\"GPT-5\",\"result\":{\"english\":\"scholarship\",\"relation\":\"similar\",\"semantic_alignment\":\"Both terms mean financial support awarded to help a student pay for education.\",\"aligned\":true,\"claims\":[{\"claim_id\":\"relation:scholarship:similar-beasiswa-biasiswa-01\",\"claim_type\":\"relation\",\"proposition\":\"Indonesian beasiswa and Malaysian biasiswa are recognizably related but nonidentical everyday terms for scholarships in the specified university-study sense.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:scholarship:similar-beasiswa-biasiswa-01",
+          "claim_type": "relation",
+          "proposition": "Indonesian beasiswa and Malaysian biasiswa are recognizably related but nonidentical everyday terms for scholarships in the specified university-study sense."
+        }
+      ],
+      "english": "scholarship",
+      "relation": "similar",
+      "semantic_alignment": "Both terms mean financial support awarded to help a student pay for education."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:scholarship:similar-beasiswa-biasiswa-01",
+        "claim_type": "relation",
+        "proposition": "Indonesian beasiswa and Malaysian biasiswa are recognizably related but nonidentical everyday terms for scholarships in the specified university-study sense."
+      }
+    ],
+    "english": "scholarship",
+    "relation": "similar",
+    "semantic_alignment": "Both terms mean financial support awarded to help a student pay for education."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "ea8821265710903b72c3eb2a298dc8a3f766952792a6870703dec3a83ac4aec8"
+}

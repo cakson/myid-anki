@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-04T10:12:24.624874+00:00",
+  "input_digest": "919ab9429f0a5cfc1e423755b1aa0ed6d63828d0d4bf5a3aad276925548e3e24",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-6\", \"result\": {\"overlaps\": [{\"other_id\": \"communication-001:communication-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A text message is a specific short message sent to a mobile phone; the other candidate refers to communication generally.\"}]}, \"bundle_response\": \"curation/batches/communication-001/normalize-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/normalize-response.json",
+    "model": "GPT-6",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "communication-001:communication-01",
+          "rationale": "A text message is a specific short message sent to a mobile phone; the other candidate refers to communication generally.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "communication-001:communication-01",
+        "rationale": "A text message is a specific short message sent to a mobile phone; the other candidate refers to communication generally.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "b0d90a3b54fdaaeed07faa8488c410f597c1c228ded11eddbd8fb33cf1590f83"
+}

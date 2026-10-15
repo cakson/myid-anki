@@ -1,0 +1,4644 @@
+{
+  "accepted_count": 160,
+  "audit_verdicts_by_trigger": {
+    "confirmed-good": 2,
+    "minor-correction": 1,
+    "should-reject": 1
+  },
+  "batch_metrics": {
+    "batch1": {
+      "accepts": 44,
+      "audited_labels": 44,
+      "newly_routed": [],
+      "router_after": 22,
+      "router_before": 22
+    },
+    "batch2": {
+      "accepts": 40,
+      "audited_labels": 40,
+      "newly_routed": [],
+      "router_after": 37,
+      "router_before": 37
+    },
+    "batch3": {
+      "accepts": 38,
+      "audited_labels": 27,
+      "newly_routed": [
+        "cal3-technology-001:technology-03",
+        "cal3-technology-001:technology-04",
+        "cal3-technology-001:technology-05"
+      ],
+      "router_after": 26,
+      "router_before": 23
+    },
+    "prospective50": {
+      "accepts": 38,
+      "audited_labels": 24,
+      "newly_routed": [
+        "pros4-health-001:health-09"
+      ],
+      "router_after": 25,
+      "router_before": 24
+    }
+  },
+  "existing_and_technical": 3,
+  "existing_only": 36,
+  "independently_audited_count": 135,
+  "neither": 120,
+  "policy": "candidate-lexical-only; no AI call; audit/evidence routing only",
+  "records": {
+    "cal2-daily-001:daily-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-01",
+        "english": "broom",
+        "indonesian": "sapu",
+        "malaysian": "penyapu",
+        "sense": "A household tool used for sweeping floors.",
+        "tags": [
+          "household-items",
+          "cleaning"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-daily-001:daily-02": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-02",
+        "english": "faucet",
+        "indonesian": "keran",
+        "malaysian": "paip",
+        "sense": "A fixture that controls the flow of water.",
+        "tags": [
+          "household-items",
+          "plumbing"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-daily-001:daily-03": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-03",
+        "english": "sink",
+        "indonesian": "wastafel",
+        "malaysian": "sinki",
+        "sense": "A fixed basin used for washing.",
+        "tags": [
+          "household-items",
+          "kitchen-and-bathroom"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-daily-001:daily-04": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-04",
+        "english": "light switch",
+        "indonesian": "sakelar",
+        "malaysian": "suis",
+        "sense": "A control used to turn an electric light on or off.",
+        "tags": [
+          "household-items",
+          "electricity"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-daily-001:daily-05": {
+      "audit_verdict": "should-reject",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-05",
+        "english": "vacuum cleaner",
+        "indonesian": "penyedot debu",
+        "malaysian": "pembersih vakum",
+        "sense": "A household machine used to remove dust from surfaces.",
+        "tags": [
+          "household-items",
+          "cleaning"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-daily-001:daily-07": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-07",
+        "english": "bedsheet",
+        "indonesian": "seprai",
+        "malaysian": "cadar",
+        "sense": "A sheet used to cover a bed.",
+        "tags": [
+          "household-items",
+          "bedroom"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-daily-001:daily-09": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-09",
+        "english": "to iron clothes",
+        "indonesian": "menyetrika",
+        "malaysian": "menggosok pakaian",
+        "sense": "To press clothes with a heated iron to remove wrinkles.",
+        "tags": [
+          "daily-actions",
+          "clothing-care"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-daily-001:daily-10": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "daily-10",
+        "english": "to tidy up",
+        "indonesian": "merapikan",
+        "malaysian": "mengemas",
+        "sense": "To put things in order in a room or home.",
+        "tags": [
+          "daily-actions",
+          "housekeeping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-02": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-02",
+        "english": "cash",
+        "indonesian": "uang tunai",
+        "malaysian": "wang tunai",
+        "sense": "money in physical notes or coins",
+        "tags": [
+          "money",
+          "payment"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-03",
+        "english": "change (money returned)",
+        "indonesian": "kembalian",
+        "malaysian": "baki",
+        "sense": "money returned after paying more than the amount due",
+        "tags": [
+          "money",
+          "payment"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-04": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-04",
+        "english": "queue",
+        "indonesian": "antrean",
+        "malaysian": "barisan",
+        "sense": "a line of people waiting for service",
+        "tags": [
+          "services",
+          "public-places"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-05",
+        "english": "bill",
+        "indonesian": "tagihan",
+        "malaysian": "bil",
+        "sense": "a request for payment for goods or services",
+        "tags": [
+          "money",
+          "services"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-06": {
+      "audit_verdict": "should-reject",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-06",
+        "english": "payment",
+        "indonesian": "pembayaran",
+        "malaysian": "bayaran",
+        "sense": "the act or amount of paying for something",
+        "tags": [
+          "money",
+          "payment"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-07": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-07",
+        "english": "delivery",
+        "indonesian": "pengiriman",
+        "malaysian": "penghantaran",
+        "sense": "the act of bringing purchased goods to a recipient",
+        "tags": [
+          "shopping",
+          "delivery"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-08": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-08",
+        "english": "service",
+        "indonesian": "layanan",
+        "malaysian": "perkhidmatan",
+        "sense": "work provided for a customer",
+        "tags": [
+          "services",
+          "business"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-09",
+        "english": "shopping mall",
+        "indonesian": "pusat perbelanjaan",
+        "malaysian": "pusat beli-belah",
+        "sense": "a large building with many shops",
+        "tags": [
+          "shopping",
+          "places"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "verifier-explicit-preference-concern"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-shopping-001:shopping-10": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "shopping-10",
+        "english": "laundry service",
+        "indonesian": "jasa laundry",
+        "malaysian": "perkhidmatan dobi",
+        "sense": "a service that washes clothes for customers",
+        "tags": [
+          "services",
+          "clothing"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-01",
+        "english": "friendly",
+        "indonesian": "ramah",
+        "malaysian": "mesra",
+        "sense": "having a warm and pleasant manner toward others",
+        "tags": [
+          "adjective",
+          "social-qualities"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "verifier-explicit-preference-concern"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-02": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-02",
+        "english": "worried",
+        "indonesian": "khawatir",
+        "malaysian": "bimbang",
+        "sense": "feeling anxious about a possible problem",
+        "tags": [
+          "adjective",
+          "emotions"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-03",
+        "english": "generous",
+        "indonesian": "dermawan",
+        "malaysian": "pemurah",
+        "sense": "willing to give or share with others",
+        "tags": [
+          "adjective",
+          "social-qualities"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "verifier-explicit-preference-concern"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-04": {
+      "audit_verdict": "should-reject",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-04",
+        "english": "to meet someone",
+        "indonesian": "bertemu",
+        "malaysian": "berjumpa",
+        "sense": "to come together with another person",
+        "tags": [
+          "verb",
+          "social-actions"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [
+        "verifier-explicit-preference-concern"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-05",
+        "english": "to invite someone",
+        "indonesian": "mengundang",
+        "malaysian": "menjemput",
+        "sense": "to ask someone to attend or come somewhere",
+        "tags": [
+          "verb",
+          "social-actions"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-06": {
+      "audit_verdict": "materially-misleading",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-06",
+        "english": "to visit someone",
+        "indonesian": "berkunjung",
+        "malaysian": "melawat",
+        "sense": "to go to see someone socially",
+        "tags": [
+          "verb",
+          "social-actions"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-07": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-07",
+        "english": "to hang out",
+        "indonesian": "nongkrong",
+        "malaysian": "lepak",
+        "sense": "to spend informal social time with others",
+        "tags": [
+          "verb",
+          "social-life"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-social-001:social-09": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "social-09",
+        "english": "confident",
+        "indonesian": "percaya diri",
+        "malaysian": "yakin diri",
+        "sense": "feeling sure of one's abilities or judgment",
+        "tags": [
+          "adjective",
+          "personal-qualities"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-01",
+        "english": "airplane",
+        "indonesian": "pesawat",
+        "malaysian": "kapal terbang",
+        "sense": "an aircraft used for air travel",
+        "tags": [
+          "transport",
+          "air-travel"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-02": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-02",
+        "english": "bus stop",
+        "indonesian": "halte",
+        "malaysian": "perhentian bas",
+        "sense": "a place where buses stop for passengers",
+        "tags": [
+          "transport",
+          "public-transport"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-04": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-04",
+        "english": "traffic jam",
+        "indonesian": "kemacetan",
+        "malaysian": "kesesakan lalu lintas",
+        "sense": "a condition in which traffic moves very slowly or stops",
+        "tags": [
+          "roads",
+          "traffic"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-05",
+        "english": "schedule",
+        "indonesian": "jadwal",
+        "malaysian": "jadual",
+        "sense": "a planned timetable of transport times",
+        "tags": [
+          "travel-planning",
+          "timetables"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-06",
+        "english": "arrival",
+        "indonesian": "kedatangan",
+        "malaysian": "ketibaan",
+        "sense": "the act of reaching a destination",
+        "tags": [
+          "travel",
+          "directions"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-08": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-08",
+        "english": "one-way ticket",
+        "indonesian": "tiket sekali jalan",
+        "malaysian": "tiket sehala",
+        "sense": "a ticket for travel in one direction only",
+        "tags": [
+          "tickets",
+          "travel-planning"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-09",
+        "english": "return ticket",
+        "indonesian": "tiket pulang-pergi",
+        "malaysian": "tiket pergi balik",
+        "sense": "a ticket for travel to a place and back",
+        "tags": [
+          "tickets",
+          "travel-planning"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-travel-001:travel-10": {
+      "audit_verdict": "should-reject",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "travel-10",
+        "english": "intersection",
+        "indonesian": "persimpangan",
+        "malaysian": "simpang",
+        "sense": "a place where two or more roads meet",
+        "tags": [
+          "roads",
+          "directions"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-work-001:work-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "work-01",
+        "english": "colleague",
+        "indonesian": "rekan kerja",
+        "malaysian": "rakan sekerja",
+        "sense": "a person who works with you",
+        "tags": [
+          "work",
+          "people"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-work-001:work-03": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "work-03",
+        "english": "grade",
+        "indonesian": "nilai",
+        "malaysian": "markah",
+        "sense": "a score or evaluation received for schoolwork",
+        "tags": [
+          "education",
+          "assessment"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-work-001:work-04": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "work-04",
+        "english": "school break",
+        "indonesian": "istirahat",
+        "malaysian": "rehat",
+        "sense": "a short period when students pause school activities",
+        "tags": [
+          "school",
+          "schedule"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-work-001:work-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "work-05",
+        "english": "staff room",
+        "indonesian": "ruang guru",
+        "malaysian": "bilik guru",
+        "sense": "a room used by teachers at a school",
+        "tags": [
+          "school",
+          "places"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-work-001:work-07": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "work-07",
+        "english": "uniform",
+        "indonesian": "seragam",
+        "malaysian": "uniform",
+        "sense": "clothing required for members of a school or workplace",
+        "tags": [
+          "school",
+          "work",
+          "clothing"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-work-001:work-08": {
+      "audit_verdict": "materially-misleading",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "work-08",
+        "english": "deadline",
+        "indonesian": "tenggat waktu",
+        "malaysian": "tarikh akhir",
+        "sense": "the latest time by which something must be completed",
+        "tags": [
+          "work",
+          "education",
+          "time"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal2-work-001:work-10": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch2",
+      "candidate": {
+        "candidate_id": "work-10",
+        "english": "certificate",
+        "indonesian": "sertifikat",
+        "malaysian": "sijil",
+        "sense": "an official document confirming that someone achieved or completed something",
+        "tags": [
+          "education",
+          "documents"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-actions-001:actions-02": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "actions-02",
+        "english": "understand",
+        "indonesian": "mengerti",
+        "malaysian": "faham",
+        "sense": "grasp the meaning",
+        "tags": [
+          "different-common-word",
+          "communication"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-actions-001:actions-04": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "actions-04",
+        "english": "repair",
+        "indonesian": "memperbaiki",
+        "malaysian": "membaiki",
+        "sense": "fix something damaged",
+        "tags": [
+          "different-common-word",
+          "maintenance"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-actions-001:actions-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "actions-05",
+        "english": "depart",
+        "indonesian": "berangkat",
+        "malaysian": "bertolak",
+        "sense": "leave for a destination",
+        "tags": [
+          "different-common-word",
+          "movement"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-actions-001:actions-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "actions-06",
+        "english": "turn on",
+        "indonesian": "menyalakan",
+        "malaysian": "menghidupkan",
+        "sense": "activate a device or light",
+        "tags": [
+          "different-common-word",
+          "household-action"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-actions-001:actions-07": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "actions-07",
+        "english": "hurry",
+        "indonesian": "buru-buru",
+        "malaysian": "tergesa-gesa",
+        "sense": "move or act quickly",
+        "tags": [
+          "different-common-word",
+          "movement"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-01": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-01",
+        "english": "cup",
+        "indonesian": "cangkir",
+        "malaysian": "cawan",
+        "sense": "drinking cup",
+        "tags": [
+          "drinkware"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-02": {
+      "audit_verdict": "materially-misleading",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-02",
+        "english": "drinking straw",
+        "indonesian": "sedotan",
+        "malaysian": "penyedut minuman",
+        "sense": "straw used for drinking",
+        "tags": [
+          "drinkware"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-04": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-04",
+        "english": "ladle",
+        "indonesian": "sendok sayur",
+        "malaysian": "senduk",
+        "sense": "deep spoon for serving soup or liquid food",
+        "tags": [
+          "cooking-utensils"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-05": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-05",
+        "english": "cutting board",
+        "indonesian": "talenan",
+        "malaysian": "papan pemotong",
+        "sense": "board for cutting food",
+        "tags": [
+          "kitchen-tools"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-06": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-06",
+        "english": "kettle",
+        "indonesian": "ketel",
+        "malaysian": "cerek",
+        "sense": "container for boiling water",
+        "tags": [
+          "kitchen-appliances"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-08": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-08",
+        "english": "cooking pot",
+        "indonesian": "panci",
+        "malaysian": "periuk",
+        "sense": "deep vessel for cooking food",
+        "tags": [
+          "cookware"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-09",
+        "english": "food container",
+        "indonesian": "wadah makanan",
+        "malaysian": "bekas makanan",
+        "sense": "container for storing food",
+        "tags": [
+          "food-storage"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-food-001:food-10": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "food-10",
+        "english": "rolling pin",
+        "indonesian": "penggilas adonan",
+        "malaysian": "penggelek doh",
+        "sense": "tool for flattening dough",
+        "tags": [
+          "baking-tools"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-health-001:health-01": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "health-01",
+        "english": "common cold",
+        "indonesian": "pilek",
+        "malaysian": "selsema",
+        "sense": "a mild respiratory illness with a runny or blocked nose",
+        "tags": [
+          "health",
+          "illness"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-health-001:health-03": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "health-03",
+        "english": "sore throat",
+        "indonesian": "sakit tenggorokan",
+        "malaysian": "sakit tekak",
+        "sense": "pain or irritation in the throat",
+        "tags": [
+          "health",
+          "symptom"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-health-001:health-04": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "health-04",
+        "english": "bruise",
+        "indonesian": "memar",
+        "malaysian": "lebam",
+        "sense": "a dark mark caused by an injury under the skin",
+        "tags": [
+          "health",
+          "injury"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:high"
+      ],
+      "router_before": [
+        "stratified-random:high"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-health-001:health-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "health-05",
+        "english": "scar",
+        "indonesian": "bekas luka",
+        "malaysian": "parut",
+        "sense": "a mark left on the skin after a wound heals",
+        "tags": [
+          "health",
+          "skin"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-health-001:health-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "health-06",
+        "english": "to faint",
+        "indonesian": "pingsan",
+        "malaysian": "pengsan",
+        "sense": "to briefly lose consciousness",
+        "tags": [
+          "health",
+          "symptom"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-health-001:health-08": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "health-08",
+        "english": "ugly",
+        "indonesian": "jelek",
+        "malaysian": "hodoh",
+        "sense": "unpleasant in appearance",
+        "tags": [
+          "qualities",
+          "appearance"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-01",
+        "english": "roof",
+        "indonesian": "atap",
+        "malaysian": "bumbung",
+        "sense": "top covering of a house",
+        "tags": [
+          "home",
+          "construction"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-02": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-02",
+        "english": "ceiling",
+        "indonesian": "plafon",
+        "malaysian": "siling",
+        "sense": "inside upper surface of a room",
+        "tags": [
+          "home",
+          "interior"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-03",
+        "english": "clothes hanger",
+        "indonesian": "gantungan baju",
+        "malaysian": "penyangkut baju",
+        "sense": "item used to hang clothing",
+        "tags": [
+          "clothing",
+          "storage"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-05",
+        "english": "apron",
+        "indonesian": "celemek",
+        "malaysian": "apron",
+        "sense": "garment worn to protect clothing while cooking",
+        "tags": [
+          "clothing",
+          "kitchen"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-06": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-06",
+        "english": "zipper",
+        "indonesian": "resleting",
+        "malaysian": "zip",
+        "sense": "fastener with interlocking teeth",
+        "tags": [
+          "clothing",
+          "fastener"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-07": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-07",
+        "english": "light bulb",
+        "indonesian": "bohlam",
+        "malaysian": "mentol",
+        "sense": "replaceable electric light source",
+        "tags": [
+          "home",
+          "lighting"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-08": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-08",
+        "english": "shopping bag",
+        "indonesian": "kantong belanja",
+        "malaysian": "beg beli-belah",
+        "sense": "bag used to carry purchases",
+        "tags": [
+          "shopping",
+          "container"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-09": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-09",
+        "english": "floor tile",
+        "indonesian": "ubin",
+        "malaysian": "jubin",
+        "sense": "individual hard tile used on a floor",
+        "tags": [
+          "home",
+          "flooring"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-home-001:home-10": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "home-10",
+        "english": "laundry detergent",
+        "indonesian": "deterjen",
+        "malaysian": "detergen",
+        "sense": "cleaning product for washing clothes",
+        "tags": [
+          "home",
+          "laundry"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:same-sense-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-technology-001:technology-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-01",
+        "english": "file",
+        "indonesian": "berkas",
+        "malaysian": "fail",
+        "sense": "digital or work document file",
+        "tags": [
+          "technology",
+          "work"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-technology-001:technology-02": {
+      "audit_verdict": "materially-misleading",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-02",
+        "english": "printer",
+        "indonesian": "printer",
+        "malaysian": "pencetak",
+        "sense": "device that prints documents",
+        "tags": [
+          "technology",
+          "office"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-technology-001:technology-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-03",
+        "english": "software",
+        "indonesian": "perangkat lunak",
+        "malaysian": "perisian",
+        "sense": "computer programs and applications",
+        "tags": [
+          "technology"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:possible"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:technical-borrowing-risk"
+      ],
+      "router_before": null,
+      "technical_trigger": {
+        "localized_languages": [
+          "indonesian"
+        ],
+        "reasons": [
+          "modern-technical-sense",
+          "localized-multiword-answer"
+        ],
+        "source_basis": "candidate-lexical-only",
+        "triggered": true
+      }
+    },
+    "cal3-technology-001:technology-04": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-04",
+        "english": "hardware",
+        "indonesian": "perangkat keras",
+        "malaysian": "perkakasan",
+        "sense": "physical computer equipment",
+        "tags": [
+          "technology"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:possible"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:technical-borrowing-risk"
+      ],
+      "router_before": null,
+      "technical_trigger": {
+        "localized_languages": [
+          "indonesian"
+        ],
+        "reasons": [
+          "modern-technical-sense",
+          "localized-multiword-answer"
+        ],
+        "source_basis": "candidate-lexical-only",
+        "triggered": true
+      }
+    },
+    "cal3-technology-001:technology-05": {
+      "audit_verdict": "should-reject",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-05",
+        "english": "flash drive",
+        "indonesian": "flashdisk",
+        "malaysian": "pemacu kilat",
+        "sense": "portable USB storage device",
+        "tags": [
+          "technology"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:possible"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:technical-borrowing-risk"
+      ],
+      "router_before": null,
+      "technical_trigger": {
+        "localized_languages": [
+          "malaysian"
+        ],
+        "reasons": [
+          "modern-technical-sense",
+          "localized-multiword-answer"
+        ],
+        "source_basis": "candidate-lexical-only",
+        "triggered": true
+      }
+    },
+    "cal3-technology-001:technology-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-06",
+        "english": "login",
+        "indonesian": "masuk",
+        "malaysian": "log masuk",
+        "sense": "action of accessing an account",
+        "tags": [
+          "technology",
+          "services"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:credible-competing-form",
+        "flag:cue-corrected"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:credible-competing-form",
+        "flag:cue-corrected"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-technology-001:technology-07": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-07",
+        "english": "user account",
+        "indonesian": "akun pengguna",
+        "malaysian": "akaun pengguna",
+        "sense": "personal account for an online service",
+        "tags": [
+          "technology",
+          "services"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-technology-001:technology-08": {
+      "audit_verdict": null,
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-08",
+        "english": "job vacancy",
+        "indonesian": "lowongan kerja",
+        "malaysian": "jawatan kosong",
+        "sense": "available position for employment",
+        "tags": [
+          "work",
+          "employment"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-technology-001:technology-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-09",
+        "english": "work shift",
+        "indonesian": "shift kerja",
+        "malaysian": "syif kerja",
+        "sense": "scheduled period of work",
+        "tags": [
+          "work"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "cal3-technology-001:technology-10": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch3",
+      "candidate": {
+        "candidate_id": "technology-10",
+        "english": "tuition fee",
+        "indonesian": "uang kuliah",
+        "malaysian": "yuran pengajian",
+        "sense": "fee paid for university study",
+        "tags": [
+          "education",
+          "services"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-01": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-01",
+        "english": "download",
+        "indonesian": "mengunduh",
+        "malaysian": "memuat turun",
+        "sense": "transfer a file or app from the internet to a device",
+        "tags": [
+          "technology",
+          "verbs"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-02": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-02",
+        "english": "upload",
+        "indonesian": "mengunggah",
+        "malaysian": "memuat naik",
+        "sense": "transfer a file from a device to the internet",
+        "tags": [
+          "technology",
+          "verbs"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-03": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-03",
+        "english": "update",
+        "indonesian": "memperbarui",
+        "malaysian": "mengemas kini",
+        "sense": "install or apply a newer version of software or information",
+        "tags": [
+          "technology",
+          "verbs"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-04": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-04",
+        "english": "password",
+        "indonesian": "kata sandi",
+        "malaysian": "kata laluan",
+        "sense": "secret characters used to access an account or device",
+        "tags": [
+          "technology",
+          "security"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-05": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-05",
+        "english": "keyboard",
+        "indonesian": "papan ketik",
+        "malaysian": "papan kekunci",
+        "sense": "device used to enter text and commands",
+        "tags": [
+          "technology",
+          "devices"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-07": {
+      "audit_verdict": "should-reject",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-07",
+        "english": "pregnant",
+        "indonesian": "hamil",
+        "malaysian": "mengandung",
+        "sense": "carrying a developing baby in the womb",
+        "tags": [
+          "health",
+          "adjectives"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-08": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-08",
+        "english": "patient",
+        "indonesian": "pasien",
+        "malaysian": "pesakit",
+        "sense": "person receiving medical care",
+        "tags": [
+          "health",
+          "people"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-09": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-09",
+        "english": "emergency",
+        "indonesian": "darurat",
+        "malaysian": "kecemasan",
+        "sense": "serious unexpected situation requiring immediate action",
+        "tags": [
+          "health",
+          "situations"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-actions-001:action-10": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "action-10",
+        "english": "noisy",
+        "indonesian": "berisik",
+        "malaysian": "bising",
+        "sense": "making or characterized by a lot of unwanted sound",
+        "tags": [
+          "adjectives",
+          "everyday-life"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-food-001:food-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "food-01",
+        "english": "beef",
+        "indonesian": "daging sapi",
+        "malaysian": "daging lembu",
+        "sense": "meat from cattle",
+        "tags": [
+          "food-shopping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-food-001:food-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "food-03",
+        "english": "snack",
+        "indonesian": "camilan",
+        "malaysian": "snek",
+        "sense": "a small amount of food eaten between meals",
+        "tags": [
+          "food-shopping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-food-001:food-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "food-06",
+        "english": "cashier",
+        "indonesian": "kasir",
+        "malaysian": "juruwang",
+        "sense": "person who handles payment in a shop",
+        "tags": [
+          "food-shopping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-food-001:food-07": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "food-07",
+        "english": "receipt",
+        "indonesian": "struk",
+        "malaysian": "resit",
+        "sense": "written proof of a purchase",
+        "tags": [
+          "food-shopping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-food-001:food-08": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "food-08",
+        "english": "discount",
+        "indonesian": "diskon",
+        "malaysian": "diskaun",
+        "sense": "a reduction in the usual price",
+        "tags": [
+          "food-shopping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-food-001:food-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "food-09",
+        "english": "expiry date",
+        "indonesian": "tanggal kedaluwarsa",
+        "malaysian": "tarikh luput",
+        "sense": "date after which a packaged food should not be used",
+        "tags": [
+          "food-shopping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-food-001:food-10": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "food-10",
+        "english": "shopping basket",
+        "indonesian": "keranjang belanja",
+        "malaysian": "bakul beli-belah",
+        "sense": "container used to carry items while shopping",
+        "tags": [
+          "food-shopping"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-01",
+        "english": "mattress",
+        "indonesian": "kasur",
+        "malaysian": "tilam",
+        "sense": "the padded surface used for sleeping",
+        "tags": [
+          "household",
+          "bedroom"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-02": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-02",
+        "english": "wardrobe",
+        "indonesian": "lemari pakaian",
+        "malaysian": "almari pakaian",
+        "sense": "a tall cabinet for storing clothes",
+        "tags": [
+          "household",
+          "storage"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-03",
+        "english": "towel",
+        "indonesian": "handuk",
+        "malaysian": "tuala",
+        "sense": "a cloth used for drying the body",
+        "tags": [
+          "household",
+          "bathroom"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-04": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-04",
+        "english": "curtain",
+        "indonesian": "tirai",
+        "malaysian": "langsir",
+        "sense": "fabric hung over a window for privacy or shade",
+        "tags": [
+          "household",
+          "room"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-05",
+        "english": "clothes iron",
+        "indonesian": "setrika",
+        "malaysian": "seterika",
+        "sense": "a heated appliance used to remove wrinkles from clothing",
+        "tags": [
+          "household",
+          "laundry"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-06",
+        "english": "washing machine",
+        "indonesian": "mesin cuci",
+        "malaysian": "mesin basuh",
+        "sense": "an appliance used to wash clothes",
+        "tags": [
+          "household",
+          "laundry"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-08": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-08",
+        "english": "comb",
+        "indonesian": "sisir",
+        "malaysian": "sikat rambut",
+        "sense": "a handheld tool with teeth used to arrange hair",
+        "tags": [
+          "household",
+          "personal-care"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-09",
+        "english": "toothbrush",
+        "indonesian": "sikat gigi",
+        "malaysian": "berus gigi",
+        "sense": "a small brush used to clean the teeth",
+        "tags": [
+          "household",
+          "personal-care"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-home-001:home-10": {
+      "audit_verdict": "materially-misleading",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "home-10",
+        "english": "frying pan",
+        "indonesian": "wajan",
+        "malaysian": "kuali",
+        "sense": "a shallow pan used for frying food",
+        "tags": [
+          "household",
+          "kitchen"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-01",
+        "english": "train station",
+        "indonesian": "stasiun kereta api",
+        "malaysian": "stesen kereta api",
+        "sense": "a station where trains pick up and drop off passengers",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-02": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-02",
+        "english": "platform",
+        "indonesian": "peron",
+        "malaysian": "platform",
+        "sense": "the raised area beside railway tracks where passengers wait for a train",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-03": {
+      "audit_verdict": "should-hold",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-03",
+        "english": "suitcase",
+        "indonesian": "koper",
+        "malaysian": "beg pakaian",
+        "sense": "a case used for carrying clothes and personal belongings while traveling",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-04": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-04",
+        "english": "reservation",
+        "indonesian": "reservasi",
+        "malaysian": "tempahan",
+        "sense": "an arrangement made in advance to secure a seat, room, or service",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-05",
+        "english": "tourist",
+        "indonesian": "wisatawan",
+        "malaysian": "pelancong",
+        "sense": "a person traveling for pleasure or sightseeing",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-06",
+        "english": "vacation",
+        "indonesian": "liburan",
+        "malaysian": "cuti",
+        "sense": "a period away from work or school spent relaxing or traveling",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-07": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-07",
+        "english": "border",
+        "indonesian": "perbatasan",
+        "malaysian": "sempadan",
+        "sense": "the boundary between two countries or regions",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-08": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-08",
+        "english": "customs",
+        "indonesian": "bea cukai",
+        "malaysian": "kastam",
+        "sense": "the official service that checks goods and collects duties at a border",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-09",
+        "english": "immigration",
+        "indonesian": "imigrasi",
+        "malaysian": "imigresen",
+        "sense": "the official process or authority responsible for people entering and leaving a country",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-travel-001:travel-10": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "travel-10",
+        "english": "boat",
+        "indonesian": "perahu",
+        "malaysian": "bot",
+        "sense": "a small watercraft used for carrying people or goods",
+        "tags": [
+          "travel-vocabulary"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-01": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-01",
+        "english": "employee",
+        "indonesian": "karyawan",
+        "malaysian": "pekerja",
+        "sense": "a person employed by an organization",
+        "tags": [
+          "work"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-02": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-02",
+        "english": "meeting",
+        "indonesian": "rapat",
+        "malaysian": "mesyuarat",
+        "sense": "a planned gathering to discuss work or another topic",
+        "tags": [
+          "work",
+          "communication"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-03": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-03",
+        "english": "homework",
+        "indonesian": "PR",
+        "malaysian": "kerja rumah",
+        "sense": "schoolwork completed outside class",
+        "tags": [
+          "school"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-04": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-04",
+        "english": "classroom",
+        "indonesian": "ruang kelas",
+        "malaysian": "bilik darjah",
+        "sense": "a room where a class is taught",
+        "tags": [
+          "school"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-06": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-06",
+        "english": "presentation",
+        "indonesian": "presentasi",
+        "malaysian": "pembentangan",
+        "sense": "a formal talk given to an audience",
+        "tags": [
+          "work",
+          "school",
+          "communication"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-07": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-07",
+        "english": "job interview",
+        "indonesian": "wawancara kerja",
+        "malaysian": "temu duga kerja",
+        "sense": "a meeting to assess someone for employment",
+        "tags": [
+          "work",
+          "communication"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-08": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-08",
+        "english": "job application",
+        "indonesian": "lamaran kerja",
+        "malaysian": "permohonan kerja",
+        "sense": "a formal request to be considered for a job",
+        "tags": [
+          "work"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-09": {
+      "audit_verdict": "minor-correction",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-09",
+        "english": "company",
+        "indonesian": "perusahaan",
+        "malaysian": "syarikat",
+        "sense": "an organization that conducts business",
+        "tags": [
+          "work"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:very-low"
+      ],
+      "router_before": [
+        "confidence:very-low"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "fresh-work-001:work-10": {
+      "audit_verdict": "confirmed-good",
+      "batch": "batch1",
+      "candidate": {
+        "candidate_id": "work-10",
+        "english": "overtime work",
+        "indonesian": "lembur",
+        "malaysian": "kerja lebih masa",
+        "sense": "work done beyond normal working hours",
+        "tags": [
+          "work"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-actions-001:actions-02": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "actions-02",
+        "english": "to overtake",
+        "indonesian": "menyalip",
+        "malaysian": "memotong",
+        "sense": "pass another vehicle on the road",
+        "tags": [
+          "driving",
+          "movement"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-actions-001:actions-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "actions-03",
+        "english": "to trip",
+        "indonesian": "tersandung",
+        "malaysian": "tersadung",
+        "sense": "stumble by catching a foot on something",
+        "tags": [
+          "movement",
+          "accident"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": [
+        "stratified-random:high"
+      ],
+      "router_before": [
+        "stratified-random:high"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-actions-001:actions-04": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "actions-04",
+        "english": "to slip",
+        "indonesian": "terpeleset",
+        "malaysian": "tergelincir",
+        "sense": "lose footing on a slippery surface",
+        "tags": [
+          "movement",
+          "accident"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:preference-strength-uncertain"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:preference-uncertainty",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:preference-uncertainty",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-actions-001:actions-05": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "actions-05",
+        "english": "to hang laundry to dry",
+        "indonesian": "menjemur",
+        "malaysian": "menyidai",
+        "sense": "hang washed clothes outdoors to dry",
+        "tags": [
+          "household",
+          "laundry"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:cue-corrected",
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:cue-corrected",
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-actions-001:actions-07": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "actions-07",
+        "english": "to flush the toilet",
+        "indonesian": "menyiram toilet",
+        "malaysian": "mengepam tandas",
+        "sense": "flush a toilet after use",
+        "tags": [
+          "household",
+          "bathroom"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:possible"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-actions-001:actions-08": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "actions-08",
+        "english": "to stir food",
+        "indonesian": "mengaduk",
+        "malaysian": "mengacau",
+        "sense": "mix food with a spoon while cooking",
+        "tags": [
+          "cooking",
+          "kitchen"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-actions-001:actions-09": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "actions-09",
+        "english": "to blink",
+        "indonesian": "berkedip",
+        "malaysian": "berkelip",
+        "sense": "close and open the eyelids",
+        "tags": [
+          "body",
+          "communication"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-01": {
+      "audit_verdict": "confirmed-good",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-01",
+        "english": "salty",
+        "indonesian": "asin",
+        "malaysian": "masin",
+        "sense": "having a salt-heavy taste",
+        "tags": [
+          "taste"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-02": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-02",
+        "english": "sour",
+        "indonesian": "asam",
+        "malaysian": "masam",
+        "sense": "having an acidic taste",
+        "tags": [
+          "taste"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-03",
+        "english": "recipe",
+        "indonesian": "resep",
+        "malaysian": "resipi",
+        "sense": "instructions for preparing a dish",
+        "tags": [
+          "cooking"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:high"
+      ],
+      "router_before": [
+        "stratified-random:high"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-05": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-05",
+        "english": "to knead dough",
+        "indonesian": "menguleni adonan",
+        "malaysian": "menguli doh",
+        "sense": "working dough by pressing and folding it",
+        "tags": [
+          "cooking"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-06": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-06",
+        "english": "to slice",
+        "indonesian": "mengiris",
+        "malaysian": "menghiris",
+        "sense": "cutting food into thin pieces",
+        "tags": [
+          "cooking"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "similar",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-07": {
+      "audit_verdict": "should-hold",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-07",
+        "english": "chopsticks",
+        "indonesian": "sumpit",
+        "malaysian": "penyepit makanan",
+        "sense": "utensils for picking up food",
+        "tags": [
+          "utensils"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-08": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-08",
+        "english": "food strainer",
+        "indonesian": "saringan",
+        "malaysian": "penapis",
+        "sense": "utensil for separating solids from liquid",
+        "tags": [
+          "kitchen-items"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-09": {
+      "audit_verdict": "materially-misleading",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-09",
+        "english": "measuring cup",
+        "indonesian": "gelas ukur",
+        "malaysian": "cawan penyukat",
+        "sense": "cup for measuring cooking ingredients",
+        "tags": [
+          "kitchen-items"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form"
+      ],
+      "router_before": [
+        "flag:credible-competing-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-food-001:food-10": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "food-10",
+        "english": "blender",
+        "indonesian": "blender",
+        "malaysian": "pengisar",
+        "sense": "electric appliance for blending food",
+        "tags": [
+          "kitchen-appliances"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-health-001:health-02": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "health-02",
+        "english": "fit",
+        "indonesian": "bugar",
+        "malaysian": "cergas",
+        "sense": "physically fit and energetic",
+        "tags": [
+          "health",
+          "qualities",
+          "fitness"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:shared-common-form"
+      ],
+      "router_before": [
+        "flag:shared-common-form"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-health-001:health-03": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "health-03",
+        "english": "deaf",
+        "indonesian": "tuli",
+        "malaysian": "pekak",
+        "sense": "unable to hear",
+        "tags": [
+          "health",
+          "body",
+          "disability"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:shared-common-form",
+        "evidence:borrowed-form-competition",
+        "evidence:official-source-only-preference",
+        "evidence:preference-evidence-thin"
+      ],
+      "router_before": [
+        "flag:shared-common-form",
+        "evidence:borrowed-form-competition",
+        "evidence:official-source-only-preference",
+        "evidence:preference-evidence-thin"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-health-001:health-04": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "health-04",
+        "english": "navel",
+        "indonesian": "pusar",
+        "malaysian": "pusat",
+        "sense": "indentation on the abdomen",
+        "tags": [
+          "body",
+          "anatomy"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-health-001:health-09": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "health-09",
+        "english": "disabled person",
+        "indonesian": "penyandang disabilitas",
+        "malaysian": "orang kurang upaya",
+        "sense": "person with a disability",
+        "tags": [
+          "health",
+          "people",
+          "disability"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "stratified-random:medium"
+      ],
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-health-001:health-10": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "health-10",
+        "english": "menopause",
+        "indonesian": "menopause",
+        "malaysian": "putus haid",
+        "sense": "permanent end of menstruation",
+        "tags": [
+          "health",
+          "body",
+          "reproductive-health"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:possible"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "evidence:borrowed-form-competition",
+        "evidence:preference-evidence-thin"
+      ],
+      "router_before": [
+        "evidence:borrowed-form-competition",
+        "evidence:preference-evidence-thin"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-home-001:home-01": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "home-01",
+        "english": "clothesline",
+        "indonesian": "jemuran",
+        "malaysian": "ampaian",
+        "sense": "line or rack for hanging washed clothes",
+        "tags": [
+          "home-laundry"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-home-001:home-03": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "home-03",
+        "english": "doormat",
+        "indonesian": "keset",
+        "malaysian": "tikar kaki",
+        "sense": "mat placed at an entrance for wiping feet",
+        "tags": [
+          "home-entry"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-home-001:home-04": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "home-04",
+        "english": "pocket",
+        "indonesian": "saku",
+        "malaysian": "poket",
+        "sense": "sewn compartment in clothing",
+        "tags": [
+          "clothing"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:credible-competing-form",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "flag:credible-competing-form",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-home-001:home-05": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "home-05",
+        "english": "button",
+        "indonesian": "kancing",
+        "malaysian": "butang",
+        "sense": "small fastener sewn onto clothing",
+        "tags": [
+          "clothing"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-home-001:home-06": {
+      "audit_verdict": "confirmed-good",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "home-06",
+        "english": "brand",
+        "indonesian": "merek",
+        "malaysian": "jenama",
+        "sense": "commercial name identifying a product",
+        "tags": [
+          "shopping-products"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-home-001:home-09": {
+      "audit_verdict": "confirmed-good",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "home-09",
+        "english": "installment",
+        "indonesian": "cicilan",
+        "malaysian": "ansuran",
+        "sense": "one of several scheduled payments for a purchase",
+        "tags": [
+          "shopping-payments"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:preference-strength-uncertain"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:preference-uncertainty",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:preference-uncertainty",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-home-001:home-10": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "home-10",
+        "english": "refund",
+        "indonesian": "pengembalian dana",
+        "malaysian": "pemulangan wang",
+        "sense": "money returned after a purchase is cancelled or returned",
+        "tags": [
+          "shopping-payments"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-01": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-01",
+        "english": "graduation ceremony",
+        "indonesian": "wisuda",
+        "malaysian": "konvokesyen",
+        "sense": "ceremony marking completion of a course of study",
+        "tags": [
+          "education",
+          "ceremony"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-02": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-02",
+        "english": "academic degree",
+        "indonesian": "gelar",
+        "malaysian": "ijazah",
+        "sense": "qualification awarded after completing higher education",
+        "tags": [
+          "education",
+          "qualification"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-03": {
+      "audit_verdict": "confirmed-good",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-03",
+        "english": "research",
+        "indonesian": "penelitian",
+        "malaysian": "penyelidikan",
+        "sense": "systematic study to discover or establish facts",
+        "tags": [
+          "education",
+          "work"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "specific-preference-signal:shared-common-form"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form",
+        "evidence:borrowed-form-competition",
+        "evidence:preference-evidence-thin"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:concrete-nonblocking-risk",
+        "flag:shared-common-form",
+        "evidence:borrowed-form-competition",
+        "evidence:preference-evidence-thin"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-04": {
+      "audit_verdict": "materially-misleading",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-04",
+        "english": "vocational training",
+        "indonesian": "pelatihan",
+        "malaysian": "latihan",
+        "sense": "organized instruction to develop practical job skills",
+        "tags": [
+          "work",
+          "education",
+          "training"
+        ]
+      },
+      "critical_audit_label": true,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:cue-corrected"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:cue-corrected"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-05": {
+      "audit_verdict": "confirmed-good",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-05",
+        "english": "public library",
+        "indonesian": "perpustakaan umum",
+        "malaysian": "perpustakaan awam",
+        "sense": "library serving the general public",
+        "tags": [
+          "services",
+          "education"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:regional-register-risk"
+      ],
+      "router_before": [
+        "flag:regional-register-risk"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-06": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-06",
+        "english": "printer ink",
+        "indonesian": "tinta printer",
+        "malaysian": "dakwat pencetak",
+        "sense": "liquid or paste used by an ink printer",
+        "tags": [
+          "technology",
+          "office"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-07": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-07",
+        "english": "cloud storage",
+        "indonesian": "penyimpanan awan",
+        "malaysian": "storan awan",
+        "sense": "online storage accessed through the internet",
+        "tags": [
+          "technology",
+          "services"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:technical-borrowing-risk"
+      ],
+      "router_before": [
+        "stratified-random:medium"
+      ],
+      "technical_trigger": {
+        "localized_languages": [
+          "indonesian",
+          "malaysian"
+        ],
+        "reasons": [
+          "modern-technical-sense",
+          "localized-multiword-answer"
+        ],
+        "source_basis": "candidate-lexical-only",
+        "triggered": true
+      }
+    },
+    "pros4-technology-001:technology-08": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-08",
+        "english": "notification",
+        "indonesian": "notifikasi",
+        "malaysian": "pemberitahuan",
+        "sense": "message alert from an application or service",
+        "tags": [
+          "technology",
+          "communication"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:regional-or-register-competition"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "flag:regional-register-risk",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-09": {
+      "audit_verdict": "minor-correction",
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-09",
+        "english": "resume",
+        "indonesian": "riwayat hidup",
+        "malaysian": "resume",
+        "sense": "document summarizing a person's education and work history",
+        "tags": [
+          "work",
+          "employment"
+        ]
+      },
+      "critical_audit_label": false,
+      "existing_preference_reasons": [
+        "localized-standard-vs-borrowed:strong",
+        "specific-preference-signal:credible-everyday-alternative"
+      ],
+      "relation": "different-common-word",
+      "router_after": [
+        "confidence:low",
+        "flag:credible-competing-form",
+        "flag:cue-corrected",
+        "evidence:borrowed-form-competition"
+      ],
+      "router_before": [
+        "confidence:low",
+        "flag:credible-competing-form",
+        "flag:cue-corrected",
+        "evidence:borrowed-form-competition"
+      ],
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    },
+    "pros4-technology-001:technology-10": {
+      "audit_verdict": null,
+      "batch": "prospective50",
+      "candidate": {
+        "candidate_id": "technology-10",
+        "english": "work permit",
+        "indonesian": "izin kerja",
+        "malaysian": "permit kerja",
+        "sense": "official permission to work in a particular place",
+        "tags": [
+          "work",
+          "services",
+          "regulation"
+        ]
+      },
+      "critical_audit_label": null,
+      "existing_preference_reasons": [],
+      "relation": "different-common-word",
+      "router_after": null,
+      "router_before": null,
+      "technical_trigger": {
+        "reasons": [],
+        "source_basis": "candidate-lexical-only",
+        "triggered": false
+      }
+    }
+  },
+  "schema_version": 1,
+  "technical_only": 1,
+  "technical_trigger_audited_count": 4,
+  "technical_trigger_confirmed_good_count": 2,
+  "technical_trigger_correctable_count": 1,
+  "technical_trigger_count": 4,
+  "technical_trigger_critical_count": 1
+}

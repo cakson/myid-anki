@@ -1,0 +1,537 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "prospective-audit-0",
+      "elapsed_seconds": 14.566,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14576,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1572,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "prospective-audit-5",
+      "elapsed_seconds": 13.785,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12825,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1561,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "prospective-audit-10",
+      "elapsed_seconds": 42.666,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 211661,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 3133,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "prospective-audit-15",
+      "elapsed_seconds": 21.678,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13420,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2599,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "prospective-audit-20",
+      "elapsed_seconds": 15.454,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12657,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1586,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-14T16:35:03.733404+00:00",
+  "enriched_state_digest": "9f04e2df6be7c324678a97bc3037fef48a3a79d07c61ea82451d831143dcf86a",
+  "model": "gpt-5.6-luna",
+  "results": {
+    "pros4-actions-001:actions-02": {
+      "candidate_ref": "pros4-actions-001:actions-02",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "Qualify both forms as typical/common preferences rather than implying they are the only ordinary choices; mention mendahului as a shared alternative.",
+          "field": "confidence_rationale"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Both answers fit the cue and provide a useful national contrast, but the claimed ordinary national preferences are insufficiently supported and not exclusive.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "pros4-actions-001:actions-03": {
+      "candidate_ref": "pros4-actions-001:actions-03",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Tersandung and tersadung precisely express stumbling after catching one's foot on something, and the Indonesian–Malaysian form contrast is useful and natural.",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "pros4-actions-001:actions-04": {
+      "candidate_ref": "pros4-actions-001:actions-04",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "Describe terpeleset as a typical Indonesian preference and tergelincir as a typical Malaysian preference, while explicitly noting that tergelincir also occurs in Indonesian.",
+          "field": "confidence_rationale"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Both answers are valid for losing one's footing, and the contrast is useful as a typical preference. However, tergelincir is also used in Indonesian, so the contrast must not be presented as exclusive; the cited article establishes coexistence, not relative frequency.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "pros4-actions-001:actions-05": {
+      "candidate_ref": "pros4-actions-001:actions-05",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "State that menjemur is the common Indonesian preference and menyidai is a common Malaysian preference for hanging laundry, while noting Malaysian menjemur as a competing form.",
+          "field": "confidence_rationale"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The learner answers are suitable and the national contrast is useful, but menjemur is also used in Malaysia and can cover drying by means other than hanging. The contrast should be framed as a preference, not a strict division.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "pros4-actions-001:actions-07": {
+      "candidate_ref": "pros4-actions-001:actions-07",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "Qualify menyiram toilet and mengepam tandas as localized/common forms rather than exclusive everyday choices, and note flush tandas as a Malaysian borrowed alternative.",
+          "field": "confidence_rationale"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Both answers can express flushing a toilet and the localized contrast is useful. The Malaysian evidence supports meaning but does not establish everyday preference, while flush is a genuine borrowed competitor; Indonesian menyiram is also specifically associated with flushing by pouring water.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "pros4-food-001:food-01": {
+      "candidate_ref": "pros4-food-001:food-01",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The English cue precisely matches a salt-heavy taste. Indonesian asin and Malaysian masin are the ordinary national forms for this sense, with a useful and clear contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "pros4-food-001:food-03": {
+      "candidate_ref": "pros4-food-001:food-03",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The cue correctly means instructions for preparing a dish. Resep is standard and ordinary in Indonesian; resipi is the localized standard and ordinary Malaysian form. The contrast is useful and not merely orthographic trivia.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "pros4-food-001:food-07": {
+      "candidate_ref": "pros4-food-001:food-07",
+      "confidence_rationale_adequate": false,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Sumpit is a good Indonesian answer. Penyepit makanan is a plausible Malaysian localized term for chopsticks, but it is semantically broad and can also mean food tongs or other gripping utensils; the supplied rationale does not establish that it is the unmarked everyday Malaysian choice.",
+      "relation": "different-common-word",
+      "verdict": "should-hold"
+    },
+    "pros4-food-001:food-08": {
+      "candidate_ref": "pros4-food-001:food-08",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "field": "sense",
+          "from": "utensil for separating solids from liquid",
+          "to": "kitchen utensil for separating solids from liquid"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The national contrast is broadly sound: saringan is ordinary in Indonesian and penapis in Malaysian Malay. However, both are broader filter terms, so the English cue should explicitly identify a kitchen utensil to avoid overclaiming an exact lexical match.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "pros4-food-001:food-09": {
+      "candidate_ref": "pros4-food-001:food-09",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "field": "indonesian",
+          "from": "gelas ukur",
+          "to": "gelas takar"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Cawan penyukat is a plausible Malaysian answer, but Indonesian gelas ukur commonly denotes a measuring glass or laboratory measuring vessel and is not safely equivalent to an everyday cooking measuring cup. The cited retail equivalence with gelas takar does not establish ordinary cooking preference.",
+      "relation": "different-common-word",
+      "verdict": "materially-misleading"
+    },
+    "pros4-food-001:food-10": {
+      "candidate_ref": "pros4-food-001:food-10",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "pengisar",
+          "field": "malaysian",
+          "to": "pengisar (also blender in everyday usage)"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Both answers fit the appliance sense. Pengisar is an established Malaysian equivalent, but blender is also very ordinary in Malaysian retail and consumer usage; the cited product title shows coexistence, not preference.",
+      "relation": "Different common words, with strong Malaysian register/borrowing competition.",
+      "verdict": "minor-correction"
+    },
+    "pros4-health-001:health-02": {
+      "candidate_ref": "pros4-health-001:health-02",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "physically fit and energetic",
+          "field": "sense",
+          "to": "physically healthy, fit, and energetic"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Bugar precisely covers a healthy, physically fit body in Indonesian. Cergas covers being energetic, active, and vigorous in Malaysian Malay and is usable for physical fitness, but it is not a strict one-to-one equivalent of English fit in every context. The proposed contrast is useful but should not imply exclusive national preferences.",
+      "relation": "Different common words with overlapping but not perfectly identical semantic ranges.",
+      "verdict": "minor-correction"
+    },
+    "pros4-health-001:health-03": {
+      "candidate_ref": "pros4-health-001:health-03",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "pekak",
+          "field": "malaysian",
+          "to": "pekak (tuli is also used and understood)"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Tuli and pekak both cover inability to hear and are semantically appropriate. Pekak is a well-established Malaysian term, but tuli is also recognized and used in Malaysian Malay; the dictionary evidence establishes equivalence, not a strong everyday national preference.",
+      "relation": "Different common words, but with substantial shared usage and synonymy.",
+      "verdict": "minor-correction"
+    },
+    "pros4-health-001:health-10": {
+      "candidate_ref": "pros4-health-001:health-10",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "putus haid",
+          "field": "malaysian",
+          "to": "putus haid (also menopaus, especially in medical usage)"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The English sense is accurate. Menopause is the normal Indonesian form; putus haid is an established Malaysian Malay expression, but menopaus is also an established medical and standard Malay form. The card is useful only as a localized-versus-borrowed contrast, not as an exclusive national split.",
+      "relation": "Localized Malay expression versus an established medical borrowing; both occur in Malaysian Malay.",
+      "verdict": "minor-correction"
+    },
+    "pros4-home-001:home-04": {
+      "candidate_ref": "pros4-home-001:home-04",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "saku",
+          "field": "indonesian",
+          "to": "saku (also kantong for a clothing pocket)"
+        },
+        {
+          "change": "poket",
+          "field": "malaysian",
+          "to": "poket (also saku or kocek)"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The clothing-pocket sense is exact for saku and poket. Saku is standard Indonesian, but kantong is also common in this sense; poket is established and ordinary Malaysian Malay, while saku and kocek also occur. The national contrast is useful but should not be presented as a clean exclusive division.",
+      "relation": "Different common words with broad synonym overlap; Malaysian poket is a normalized borrowing.",
+      "verdict": "minor-correction"
+    },
+    "pros4-home-001:home-06": {
+      "candidate_ref": "pros4-home-001:home-06",
+      "confidence_rationale_adequate": false,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Merek is the ordinary Indonesian term and jenama the ordinary Malaysian term for a commercial product name. The existence of brand as a marketing borrowing does not invalidate the localized contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "pros4-home-001:home-09": {
+      "candidate_ref": "pros4-home-001:home-09",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Cicilan and ansuran both precisely express one scheduled payment in a purchase-payment series in their respective varieties. Indonesian angsuran is a genuine competing term, especially in formal financial contexts, but does not make cicilan wrong.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "pros4-home-001:home-10": {
+      "candidate_ref": "pros4-home-001:home-10",
+      "confidence_rationale_adequate": true,
+      "corrections": [
+        "malaysian: pemulangan wang → bayaran balik"
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Pengembalian dana is suitable Indonesian terminology. Pemulangan wang is understandable and used in Malaysian process language, but bayaran balik is generally the safer everyday Malaysian retail answer for refund.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "pros4-technology-001:technology-03": {
+      "candidate_ref": "pros4-technology-001:technology-03",
+      "confidence_rationale_adequate": false,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Penelitian and penyelidikan are precise standard terms for research in Indonesian and Malaysian Malay. Kajian overlaps, particularly for study or academic research, but does not invalidate the proposed national contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "pros4-technology-001:technology-04": {
+      "candidate_ref": "pros4-technology-001:technology-04",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        "english: vocational training → training",
+        "sense: organized instruction to develop practical job skills → organized instruction or practice to develop a skill"
+      ],
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "Pelatihan and latihan mean training more generally; they do not by themselves encode the specific vocational sense. The cue therefore over-specifies what the learner answers express, especially for Malaysian latihan.",
+      "relation": "different-common-word",
+      "verdict": "materially-misleading"
+    },
+    "pros4-technology-001:technology-05": {
+      "candidate_ref": "pros4-technology-001:technology-05",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The English sense is precise, and both learner answers are standard, natural terms for a public library. The national contrast is useful and not merely a spelling difference.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "pros4-technology-001:technology-07": {
+      "candidate_ref": "pros4-technology-001:technology-07",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "Consider “penyimpanan cloud” as an everyday alternative, while retaining “penyimpanan awan” as the localized-standard form.",
+          "field": "indonesian"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The sense is correct and Malaysian “storan awan” is suitable. Indonesian “penyimpanan awan” is a valid localized term, but everyday technology usage also commonly retains “cloud,” so presenting it unqualifiedly as the ordinary form may overstate its preference.",
+      "relation": "different-preferred-word",
+      "verdict": "minor-correction"
+    },
+    "pros4-technology-001:technology-08": {
+      "candidate_ref": "pros4-technology-001:technology-08",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "Use “pemberitahuan” with “notifikasi” recorded as a common borrowed alternative.",
+          "field": "malaysian"
+        },
+        {
+          "change": "Change to “shared-common-word-with-localized-preference”.",
+          "field": "relation"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The English sense is accurate and both Malay forms can refer to an app alert. However, “notifikasi” is also common in Malaysian technology usage, so the card overstates a clean Indonesian–Malaysian lexical split.",
+      "relation": "shared-common-word-with-localized-preference",
+      "verdict": "minor-correction"
+    },
+    "pros4-technology-001:technology-09": {
+      "candidate_ref": "pros4-technology-001:technology-09",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "change": "Change “riwayat hidup” to “daftar riwayat hidup.”",
+          "field": "indonesian"
+        },
+        {
+          "change": "Note “CV” as a common alternative in both varieties.",
+          "field": "metadata"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The cue is appropriately narrowed, and Malaysian “resume” is natural. Indonesian normally uses the fuller formal expression “daftar riwayat hidup”; “CV” is also common in both markets, so the contrast should not imply exclusive national usage.",
+      "relation": "different-preferred-word",
+      "verdict": "minor-correction"
+    }
+  },
+  "schema_version": 1,
+  "selected_refs": [
+    "pros4-actions-001:actions-02",
+    "pros4-actions-001:actions-03",
+    "pros4-actions-001:actions-04",
+    "pros4-actions-001:actions-05",
+    "pros4-actions-001:actions-07",
+    "pros4-food-001:food-01",
+    "pros4-food-001:food-03",
+    "pros4-food-001:food-07",
+    "pros4-food-001:food-08",
+    "pros4-food-001:food-09",
+    "pros4-food-001:food-10",
+    "pros4-health-001:health-02",
+    "pros4-health-001:health-03",
+    "pros4-health-001:health-10",
+    "pros4-home-001:home-04",
+    "pros4-home-001:home-06",
+    "pros4-home-001:home-09",
+    "pros4-home-001:home-10",
+    "pros4-technology-001:technology-03",
+    "pros4-technology-001:technology-04",
+    "pros4-technology-001:technology-05",
+    "pros4-technology-001:technology-07",
+    "pros4-technology-001:technology-08",
+    "pros4-technology-001:technology-09"
+  ],
+  "selection_policy": "all low/very-low/false-friend/strong flags/evidence risks; fixed-hash stratified random",
+  "selection_reasons": {
+    "pros4-actions-001:actions-02": [
+      "flag:credible-competing-form"
+    ],
+    "pros4-actions-001:actions-03": [
+      "stratified-random:high"
+    ],
+    "pros4-actions-001:actions-04": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:preference-uncertainty",
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-actions-001:actions-05": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:cue-corrected",
+      "flag:regional-register-risk",
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-actions-001:actions-07": [
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-food-001:food-01": [
+      "flag:regional-register-risk"
+    ],
+    "pros4-food-001:food-03": [
+      "stratified-random:high"
+    ],
+    "pros4-food-001:food-07": [
+      "flag:regional-register-risk"
+    ],
+    "pros4-food-001:food-08": [
+      "flag:shared-common-form"
+    ],
+    "pros4-food-001:food-09": [
+      "flag:credible-competing-form"
+    ],
+    "pros4-food-001:food-10": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:regional-register-risk",
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-health-001:health-02": [
+      "flag:shared-common-form"
+    ],
+    "pros4-health-001:health-03": [
+      "flag:shared-common-form",
+      "evidence:borrowed-form-competition",
+      "evidence:official-source-only-preference",
+      "evidence:preference-evidence-thin"
+    ],
+    "pros4-health-001:health-10": [
+      "evidence:borrowed-form-competition",
+      "evidence:preference-evidence-thin"
+    ],
+    "pros4-home-001:home-04": [
+      "flag:credible-competing-form",
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-home-001:home-06": [
+      "flag:regional-register-risk"
+    ],
+    "pros4-home-001:home-09": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:preference-uncertainty",
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-home-001:home-10": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:regional-register-risk",
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-technology-001:technology-03": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:shared-common-form",
+      "evidence:borrowed-form-competition",
+      "evidence:preference-evidence-thin"
+    ],
+    "pros4-technology-001:technology-04": [
+      "confidence:low",
+      "flag:cue-corrected"
+    ],
+    "pros4-technology-001:technology-05": [
+      "flag:regional-register-risk"
+    ],
+    "pros4-technology-001:technology-07": [
+      "stratified-random:medium"
+    ],
+    "pros4-technology-001:technology-08": [
+      "flag:regional-register-risk",
+      "evidence:borrowed-form-competition"
+    ],
+    "pros4-technology-001:technology-09": [
+      "confidence:low",
+      "flag:credible-competing-form",
+      "flag:cue-corrected",
+      "evidence:borrowed-form-competition"
+    ]
+  },
+  "started_at_utc": "2026-10-14T16:33:15.556935+00:00"
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "role": "relation-proposal",
+  "model": "gpt-6-sol/codex-cli",
+  "results": {
+    "topic-01": {
+      "english": "bathroom",
+      "relation": "different-common-word",
+      "semantic_alignment": "The cue is ambiguous about whether a toilet is present. Neither kamar mandi nor bilik air guarantees one. Suggested cue: room for bathing or washing.",
+      "aligned": false,
+      "claims": [
+        {
+          "claim_id": "topic-01-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian kamar mandi and Malaysian bilik air are distinct everyday terms for a household room used for bathing or washing."
+        }
+      ]
+    },
+    "topic-02": {
+      "english": "bedroom",
+      "relation": "different-common-word",
+      "semantic_alignment": "Both terms mean a room used for sleeping.",
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "topic-02-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian kamar tidur and Malaysian bilik tidur use different everyday words for a bedroom."
+        }
+      ]
+    },
+    "topic-03": {
+      "english": "refrigerator",
+      "relation": "different-common-word",
+      "semantic_alignment": "Both terms name an appliance that keeps food and drinks cold. Peti ais is also familiar in Malaysia.",
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "topic-03-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian kulkas and Malaysian peti sejuk are distinct common terms for a refrigerator."
+        }
+      ]
+    },
+    "topic-04": {
+      "english": "window",
+      "relation": "different-common-word",
+      "semantic_alignment": "Both terms name a window. Neither requires glass, despite the candidate's narrower sense description.",
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "topic-04-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian jendela and Malaysian tingkap are different everyday words for a house window."
+        }
+      ]
+    },
+    "topic-05": {
+      "english": "trash can",
+      "relation": "different-common-word",
+      "semantic_alignment": "In a household context, both terms refer to a rubbish container; tempat sampah can also mean a place for rubbish more broadly.",
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "topic-05-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian tempat sampah and Malaysian tong sampah are distinct natural terms for a household trash can."
+        }
+      ]
+    },
+    "topic-06": {
+      "english": "bucket",
+      "relation": "different-common-word",
+      "semantic_alignment": "Both terms denote a household bucket used to hold or carry water.",
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "topic-06-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian ember and Malaysian baldi are different common words for a water bucket."
+        }
+      ]
+    },
+    "topic-07": {
+      "english": "kitchen",
+      "relation": "same",
+      "semantic_alignment": "Dapur names the household cooking area in both locales. Its additional stove sense in Malaysian Malay does not change this shared sense.",
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "topic-07-relation",
+          "claim_type": "relation",
+          "proposition": "Dapur is the same written everyday term for a kitchen in Indonesian and Malaysian Malay."
+        }
+      ]
+    },
+    "topic-08": {
+      "english": "chair",
+      "relation": "similar",
+      "semantic_alignment": "Kursi and kerusi both denote a chair with a back and differ in their usual locale spelling.",
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "topic-08-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian kursi and Malaysian kerusi are closely similar forms for the same everyday chair sense."
+        }
+      ]
+    }
+  }
+}

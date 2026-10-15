@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-14T11:27:31.672604+00:00",
+  "input_digest": "31d100b6b4eca207b2fad2b7d22a71a939e6ffb495cb339db023df0208b0423b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-home-001:home-07\", \"type\": \"related_concept\", \"resolution\": \"distinct\", \"rationale\": \"Turn on is activating a device or light; light bulb is the replaceable light source.\"}, {\"other_id\": \"cal2-daily-001:daily-04\", \"type\": \"related_concept\", \"resolution\": \"distinct\", \"rationale\": \"Turn on is an action; light switch is the control object used to perform it.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-home-001:home-07",
+          "rationale": "Turn on is activating a device or light; light bulb is the replaceable light source.",
+          "resolution": "distinct",
+          "type": "related_concept"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-04",
+          "rationale": "Turn on is an action; light switch is the control object used to perform it.",
+          "resolution": "distinct",
+          "type": "related_concept"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-home-001:home-07",
+        "rationale": "Turn on is activating a device or light; light bulb is the replaceable light source.",
+        "resolution": "distinct",
+        "type": "related_concept"
+      },
+      {
+        "other_id": "cal2-daily-001:daily-04",
+        "rationale": "Turn on is an action; light switch is the control object used to perform it.",
+        "resolution": "distinct",
+        "type": "related_concept"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "e7ffe5216389777d8fe84b3e618f06d31b906d3b00c2604317fd61db2d9d26ed"
+}

@@ -13,7 +13,11 @@ def write_rows(root: Path, rows):
     with (root / "data" / "vocabulary.tsv").open("w", encoding="utf-8", newline="") as stream:
         writer = csv.writer(stream, delimiter="\t", lineterminator="\n")
         writer.writerow(HEADER)
-        writer.writerows(rows)
+        for row in rows:
+            if len(row) == 6:
+                relation = "same" if row[2] == row[3] else "different-common-word"
+                row = (*row[:4], relation, *row[4:], "")
+            writer.writerow(row)
 
 
 def make_build(root, *, clock=lambda: 2_000_000_000):

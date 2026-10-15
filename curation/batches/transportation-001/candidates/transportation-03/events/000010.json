@@ -1,0 +1,98 @@
+{
+  "at": "2026-10-04T03:48:25.588416+00:00",
+  "input_digest": "4565c5ecc39db762a863e55ff58472742f67283fb16290ecc2658a48741f0c59",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-luna/codex-cli\", \"result\": {\"observations\": [{\"evidence_id\": \"transportation-03-ayo-sehat\", \"claim_id\": \"transportation-03-Indonesia-meaning\", \"source_group\": \"Ayo Sehat / Indonesian Ministry of Health\", \"source_title\": \"Belajar komunikasi seperti belajar sepeda\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"url_or_query\": \"https://ayosehat.kemkes.go.id/deskripsi-kampanye/program-inovasi-edukasi-kesehatan/artikel/belajar-komunikasi-seperti-belajar-sepeda\", \"accessed_at\": \"2026-10-04T03:45:54Z\", \"observation\": \"The article describes a sepeda as human-powered transport propelled by pedaling, with two wheels.\", \"page_location_or_query\": \"Retrieved page, paragraph beginning \\u201cIni adalah sepeda\\u201d (lines 58\\u201363).\", \"audit_method\": \"retrieved-page\", \"stance\": \"supports\", \"claim_type\": \"meaning\", \"usage_basis\": \"contextual\", \"locale\": \"Indonesia\", \"register\": \"general informational prose\", \"limitations\": \"This example supports the pedal-powered bicycle sense; it does not compare sepeda with sepeda motor or establish everyday preference.\"}, {\"evidence_id\": \"transportation-03-dbp\", \"claim_id\": \"transportation-03-Malaysia-meaning\", \"source_group\": \"Dewan Bahasa dan Pustaka\", \"source_title\": \"PRPM search entry: basikal\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=105584&keyword=basikal\", \"accessed_at\": \"2026-10-04T03:45:54Z\", \"observation\": \"The page could not be retrieved (cache miss).\", \"page_location_or_query\": \"Direct URL retrieval.\", \"audit_method\": \"retrieved-page\", \"stance\": \"inconclusive\", \"claim_type\": \"meaning\", \"usage_basis\": \"dictionary-only\", \"locale\": \"Malaysia\", \"register\": \"not established\", \"limitations\": \"Source contents could not be inspected; no meaning or preference claim is verified.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/evidence-03-06-response.json\"}",
+  "reported_model": "gpt-6-luna/codex-cli",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/evidence-03-06-response.json",
+    "model": "gpt-6-luna/codex-cli",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T03:45:54Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "transportation-03-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "transportation-03-ayo-sehat",
+          "limitations": "This example supports the pedal-powered bicycle sense; it does not compare sepeda with sepeda motor or establish everyday preference.",
+          "locale": "Indonesia",
+          "observation": "The article describes a sepeda as human-powered transport propelled by pedaling, with two wheels.",
+          "page_location_or_query": "Retrieved page, paragraph beginning “Ini adalah sepeda” (lines 58–63).",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "general informational prose",
+          "source_group": "Ayo Sehat / Indonesian Ministry of Health",
+          "source_title": "Belajar komunikasi seperti belajar sepeda",
+          "stance": "supports",
+          "url_or_query": "https://ayosehat.kemkes.go.id/deskripsi-kampanye/program-inovasi-edukasi-kesehatan/artikel/belajar-komunikasi-seperti-belajar-sepeda",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T03:45:54Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "transportation-03-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "transportation-03-dbp",
+          "limitations": "Source contents could not be inspected; no meaning or preference claim is verified.",
+          "locale": "Malaysia",
+          "observation": "The page could not be retrieved (cache miss).",
+          "page_location_or_query": "Direct URL retrieval.",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "not established",
+          "source_group": "Dewan Bahasa dan Pustaka",
+          "source_title": "PRPM search entry: basikal",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=105584&keyword=basikal",
+          "usage_basis": "dictionary-only"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-04T03:45:54Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "transportation-03-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "transportation-03-ayo-sehat",
+        "limitations": "This example supports the pedal-powered bicycle sense; it does not compare sepeda with sepeda motor or establish everyday preference.",
+        "locale": "Indonesia",
+        "observation": "The article describes a sepeda as human-powered transport propelled by pedaling, with two wheels.",
+        "page_location_or_query": "Retrieved page, paragraph beginning “Ini adalah sepeda” (lines 58–63).",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "general informational prose",
+        "source_group": "Ayo Sehat / Indonesian Ministry of Health",
+        "source_title": "Belajar komunikasi seperti belajar sepeda",
+        "stance": "supports",
+        "url_or_query": "https://ayosehat.kemkes.go.id/deskripsi-kampanye/program-inovasi-edukasi-kesehatan/artikel/belajar-komunikasi-seperti-belajar-sepeda",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-04T03:45:54Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "transportation-03-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "transportation-03-dbp",
+        "limitations": "Source contents could not be inspected; no meaning or preference claim is verified.",
+        "locale": "Malaysia",
+        "observation": "The page could not be retrieved (cache miss).",
+        "page_location_or_query": "Direct URL retrieval.",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "not established",
+        "source_group": "Dewan Bahasa dan Pustaka",
+        "source_title": "PRPM search entry: basikal",
+        "stance": "inconclusive",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=105584&keyword=basikal",
+        "usage_basis": "dictionary-only"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "dba0a033d1cddd7a95e35c403d903ab778ae452a2952ce89558f12ac8e4ceb8a"
+}

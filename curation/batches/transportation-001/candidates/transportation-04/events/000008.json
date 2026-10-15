@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-03T20:02:47.609643+00:00",
+  "input_digest": "85fd92f0cbe7894c296f06857a52932fc05206a34cabe99d18904a01269da5f0",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Bas denotes a large passenger road vehicle, usually operating to a schedule. It matches the route-service sense.\", \"common_use\": \"Common and readily understood in contemporary Malaysian Malay.\", \"preferred\": \"Bas is the normal neutral choice.\", \"register\": \"Neutral.\", \"region\": \"Malaysia generally; no regional restriction identified.\", \"alternatives\": [\"bus\"], \"claims\": [{\"claim_id\": \"transportation-04-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Bas denotes a large road vehicle carrying passengers, usually on a scheduled service.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"transportation-04-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Bas is the normal Malaysian Malay choice for bus.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bas\", \"claim_ids\": [\"transportation-04-Malaysia-meaning\", \"transportation-04-Malaysia-preferred\"], \"evidence_to_check\": \"DBP defines bas as a large passenger vehicle usually following a schedule; assess contemporary preference separately.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/transportation-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "bus"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-04-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Bas denotes a large road vehicle carrying passengers, usually on a scheduled service."
+        },
+        {
+          "claim_id": "transportation-04-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Bas is the normal Malaysian Malay choice for bus."
+        }
+      ],
+      "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+      "meaning": "Bas denotes a large passenger road vehicle, usually operating to a schedule. It matches the route-service sense.",
+      "preferred": "Bas is the normal neutral choice.",
+      "region": "Malaysia generally; no regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-04-Malaysia-meaning",
+            "transportation-04-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP defines bas as a large passenger vehicle usually following a schedule; assess contemporary preference separately.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bas"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "bus"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-04-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Bas denotes a large road vehicle carrying passengers, usually on a scheduled service."
+      },
+      {
+        "claim_id": "transportation-04-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Bas is the normal Malaysian Malay choice for bus."
+      }
+    ],
+    "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+    "meaning": "Bas denotes a large passenger road vehicle, usually operating to a schedule. It matches the route-service sense.",
+    "preferred": "Bas is the normal neutral choice.",
+    "region": "Malaysia generally; no regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-04-Malaysia-meaning",
+          "transportation-04-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP defines bas as a large passenger vehicle usually following a schedule; assess contemporary preference separately.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bas"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "c8f3b924b8fcf40af9e9fe7a7162382f8057ecfca62a11351bb2d4e1c185d874"
+}

@@ -1,0 +1,261 @@
+{
+  "candidate_refs": [
+    "food-001:foods-06",
+    "home-001:topic-02",
+    "home-001:topic-03",
+    "transportation-001:transportation-01",
+    "university-001:university-study-03"
+  ],
+  "model_configuration": {
+    "reasoning_effort": "medium",
+    "sandbox": "read-only"
+  },
+  "models": [
+    "gpt-5.6-luna",
+    "gpt-5.6-sol"
+  ],
+  "purpose": "Matched independent-verifier comparison using saved evidence only",
+  "results": [
+    {
+      "candidate_ref": "food-001:foods-06",
+      "decision": null,
+      "elapsed_seconds": 0.093,
+      "error_summary": "Error: thread/start: thread/start failed: failed to load configuration: Failed to synchronize managed preferences (code -32600)\n",
+      "exit_code": 1,
+      "input_tokens": null,
+      "model": "gpt-5.6-luna",
+      "output_tokens": null,
+      "prompt_digest": "2adda59ac0e9430c15b8833c2f028022ba558b16e38f0818d9149c10a061475a",
+      "provider_request_id": null,
+      "response_text": null,
+      "retry_count": 0,
+      "status": "failed"
+    },
+    {
+      "candidate_ref": "food-001:foods-06",
+      "decision": null,
+      "elapsed_seconds": 0.064,
+      "error_summary": "Error: thread/start: thread/start failed: failed to load configuration: Failed to synchronize managed preferences (code -32600)\n",
+      "exit_code": 1,
+      "input_tokens": null,
+      "model": "gpt-5.6-sol",
+      "output_tokens": null,
+      "prompt_digest": "2adda59ac0e9430c15b8833c2f028022ba558b16e38f0818d9149c10a061475a",
+      "provider_request_id": null,
+      "response_text": null,
+      "retry_count": 0,
+      "status": "failed"
+    },
+    {
+      "candidate_ref": "food-001:foods-06",
+      "decision": {
+        "concrete_issue": null,
+        "evidence_reason": "Independent Indonesian and Malaysian contextual sources support normal neutral use of biskuit/biskut for the stated dry baked snack sense; the Malaysian dictionary is corroborated by patient guidance, and no contrary evidence appears. Alternatives are broader or context-dependent, not material contradictions.",
+        "relation": "similar",
+        "verdict": "supported",
+        "would_require_new_evidence": false
+      },
+      "elapsed_seconds": 4.919,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14267,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 197,
+      "prompt_digest": "2adda59ac0e9430c15b8833c2f028022ba558b16e38f0818d9149c10a061475a",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"supported\",\"relation\":\"similar\",\"concrete_issue\":null,\"evidence_reason\":\"Independent Indonesian and Malaysian contextual sources support normal neutral use of biskuit/biskut for the stated dry baked snack sense; the Malaysian dictionary is corroborated by patient guidance, and no contrary evidence appears. Alternatives are broader or context-dependent, not material contradictions.\",\"would_require_new_evidence\":false}",
+      "retry_count": 1,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "food-001:foods-06",
+      "decision": {
+        "concrete_issue": "Indonesian evidence does not establish the full intended small, dry baked-snack sense or preference over alternatives such as kue kering.",
+        "evidence_reason": "Independent official contextual sources show biskuit is familiar in Indonesia and biskut is ordinary in Malaysia; DBP supports the Malaysian meaning. No evidence contradicts the proposed similarity, but Indonesian semantic boundaries and comparative preference remain insufficiently supported.",
+        "relation": "similar",
+        "verdict": "unresolved",
+        "would_require_new_evidence": true
+      },
+      "elapsed_seconds": 7.054,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14536,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 259,
+      "prompt_digest": "2adda59ac0e9430c15b8833c2f028022ba558b16e38f0818d9149c10a061475a",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"unresolved\",\"relation\":\"similar\",\"concrete_issue\":\"Indonesian evidence does not establish the full intended small, dry baked-snack sense or preference over alternatives such as kue kering.\",\"evidence_reason\":\"Independent official contextual sources show biskuit is familiar in Indonesia and biskut is ordinary in Malaysia; DBP supports the Malaysian meaning. No evidence contradicts the proposed similarity, but Indonesian semantic boundaries and comparative preference remain insufficiently supported.\",\"would_require_new_evidence\":true}",
+      "retry_count": 1,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "home-001:topic-02",
+      "decision": {
+        "concrete_issue": "Meaning and explicit consumer usage are supported, but everyday preference and population-wide normality lack independent evidence; the IKEA sources are one source group and DBP is dictionary-only.",
+        "evidence_reason": "Both terms clearly refer to a sleeping room, with separate IKEA locale pages using each term. No contrary evidence appears, but the evidence does not firmly establish that each is the normal neutral choice in everyday speech.",
+        "relation": "different-common-word",
+        "verdict": "unresolved",
+        "would_require_new_evidence": true
+      },
+      "elapsed_seconds": 5.818,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12768,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 360,
+      "prompt_digest": "d73bb21e1822d71176b08235a49a638db28da63b50b8ec0d0a7c4609558f4633",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"unresolved\",\"relation\":\"different-common-word\",\"concrete_issue\":\"Meaning and explicit consumer usage are supported, but everyday preference and population-wide normality lack independent evidence; the IKEA sources are one source group and DBP is dictionary-only.\",\"evidence_reason\":\"Both terms clearly refer to a sleeping room, with separate IKEA locale pages using each term. No contrary evidence appears, but the evidence does not firmly establish that each is the normal neutral choice in everyday speech.\",\"would_require_new_evidence\":true}",
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "home-001:topic-02",
+      "decision": {
+        "concrete_issue": "The intended meanings and locale-specific forms are supported, but one retailer per locale cannot establish that each term is the normal everyday or generally preferred choice; the broader common-use, regional, and contextual-shortening claims also lack evidence.",
+        "evidence_reason": "IKEA Indonesia contextually supports kamar tidur, while DBP and IKEA Malaysia support the meaning and actual consumer use of bilik tidur. These sources show semantic alignment and the lexical contrast, with no material contradiction, but they provide insufficient independent usage evidence for population-wide preference.",
+        "relation": "different-common-word",
+        "verdict": "unresolved",
+        "would_require_new_evidence": true
+      },
+      "elapsed_seconds": 7.024,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14285,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 206,
+      "prompt_digest": "d73bb21e1822d71176b08235a49a638db28da63b50b8ec0d0a7c4609558f4633",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"unresolved\",\"relation\":\"different-common-word\",\"concrete_issue\":\"The intended meanings and locale-specific forms are supported, but one retailer per locale cannot establish that each term is the normal everyday or generally preferred choice; the broader common-use, regional, and contextual-shortening claims also lack evidence.\",\"evidence_reason\":\"IKEA Indonesia contextually supports kamar tidur, while DBP and IKEA Malaysia support the meaning and actual consumer use of bilik tidur. These sources show semantic alignment and the lexical contrast, with no material contradiction, but they provide insufficient independent usage evidence for population-wide preference.\",\"would_require_new_evidence\":true}",
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "home-001:topic-03",
+      "decision": {
+        "concrete_issue": "Indonesian evidence directly demonstrates food storage but only implicitly supports drinks; preference evidence supports naturalness, not exclusivity. The DBP dictionary records are not independent, though IKEA independently supports Malaysian usage.",
+        "evidence_reason": "Both terms are directly evidenced as refrigerator terms in their respective locales. Indonesian consumer usage favors kulkas, while Malaysian consumer usage supports peti sejuk alongside peti ais. No contrary evidence appears.",
+        "relation": "different-common-word",
+        "verdict": "supported",
+        "would_require_new_evidence": false
+      },
+      "elapsed_seconds": 11.739,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12914,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 456,
+      "prompt_digest": "435115bd08e213791994640e71dd2b66a93dee0b854618fe17ca981201196ea7",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"supported\",\"relation\":\"different-common-word\",\"concrete_issue\":\"Indonesian evidence directly demonstrates food storage but only implicitly supports drinks; preference evidence supports naturalness, not exclusivity. The DBP dictionary records are not independent, though IKEA independently supports Malaysian usage.\",\"evidence_reason\":\"Both terms are directly evidenced as refrigerator terms in their respective locales. Indonesian consumer usage favors kulkas, while Malaysian consumer usage supports peti sejuk alongside peti ais. No contrary evidence appears.\",\"would_require_new_evidence\":false}",
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "home-001:topic-03",
+      "decision": {
+        "concrete_issue": "Indonesian normal everyday preference is supported only by one source group, Electrolux, which also uses lemari es; this establishes natural consumer usage but not the broader claim that kulkas is the usual everyday choice throughout Indonesia.",
+        "evidence_reason": "The evidence aligns both terms semantically with refrigerator and shows kulkas in Indonesian consumer usage and peti sejuk in independent Malaysian dictionary and consumer sources. No material contradiction appears; the weakness is missing independent Indonesian usage support, not contrary evidence.",
+        "relation": "different-common-word",
+        "verdict": "unresolved",
+        "would_require_new_evidence": true
+      },
+      "elapsed_seconds": 12.387,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14431,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 319,
+      "prompt_digest": "435115bd08e213791994640e71dd2b66a93dee0b854618fe17ca981201196ea7",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"unresolved\",\"relation\":\"different-common-word\",\"concrete_issue\":\"Indonesian normal everyday preference is supported only by one source group, Electrolux, which also uses lemari es; this establishes natural consumer usage but not the broader claim that kulkas is the usual everyday choice throughout Indonesia.\",\"evidence_reason\":\"The evidence aligns both terms semantically with refrigerator and shows kulkas in Indonesian consumer usage and peti sejuk in independent Malaysian dictionary and consumer sources. No material contradiction appears; the weakness is missing independent Indonesian usage support, not contrary evidence.\",\"would_require_new_evidence\":true}",
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "transportation-001:transportation-01",
+      "decision": {
+        "concrete_issue": "The evidence supports the intended meanings and contextual contrast, but does not establish broad everyday preference—especially for Indonesian mobil—from limited news, official, comparative, and dictionary sources.",
+        "evidence_reason": "Indonesian mobil and Malaysian kereta are independently supported in relevant passenger-car contexts, with no material contradiction. However, dictionary and institutional usage do not by themselves prove normal conversational preference or that mobil is uncommon in Malaysia.",
+        "relation": "different-common-word",
+        "verdict": "unresolved",
+        "would_require_new_evidence": true
+      },
+      "elapsed_seconds": 4.616,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14887,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 234,
+      "prompt_digest": "b38b3cde7ccd8860015b509dcdd18b4665beaada637270d054f11a0201c10e48",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"unresolved\",\"relation\":\"different-common-word\",\"concrete_issue\":\"The evidence supports the intended meanings and contextual contrast, but does not establish broad everyday preference—especially for Indonesian mobil—from limited news, official, comparative, and dictionary sources.\",\"evidence_reason\":\"Indonesian mobil and Malaysian kereta are independently supported in relevant passenger-car contexts, with no material contradiction. However, dictionary and institutional usage do not by themselves prove normal conversational preference or that mobil is uncommon in Malaysia.\",\"would_require_new_evidence\":true}",
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "transportation-001:transportation-01",
+      "decision": {
+        "concrete_issue": "No material contradiction; evidence for conversational preference is indirect but sufficiently triangulated for the neutral passenger-car sense.",
+        "evidence_reason": "Independent Indonesian news and government usage support mobil, while independent Malaysian news and government usage support kereta; DBP additionally marks vehicle-sense mobil as Indonesian, and MABBIM contrasts Indonesian mobil with Malaysian kereta. Dictionary evidence establishes meaning, while contextual sources establish normal locale-specific usage.",
+        "relation": "different-common-word",
+        "verdict": "supported",
+        "would_require_new_evidence": false
+      },
+      "elapsed_seconds": 13.072,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 16404,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 295,
+      "prompt_digest": "b38b3cde7ccd8860015b509dcdd18b4665beaada637270d054f11a0201c10e48",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"supported\",\"relation\":\"different-common-word\",\"concrete_issue\":\"No material contradiction; evidence for conversational preference is indirect but sufficiently triangulated for the neutral passenger-car sense.\",\"evidence_reason\":\"Independent Indonesian news and government usage support mobil, while independent Malaysian news and government usage support kereta; DBP additionally marks vehicle-sense mobil as Indonesian, and MABBIM contrasts Indonesian mobil with Malaysian kereta. Dictionary evidence establishes meaning, while contextual sources establish normal locale-specific usage.\",\"would_require_new_evidence\":false}",
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "university-001:university-study-03",
+      "decision": {
+        "concrete_issue": "Meaning and formal usage are supported in both locales, but Malaysian evidence does not establish normal unrestricted everyday preference; it is mainly institutional and dictionary-based.",
+        "evidence_reason": "Independent government and university sources consistently use beasiswa and biasiswa for student education funding, with no material contrary evidence. The comparative source supports the relation, but not everyday frequency or preference.",
+        "relation": "similar",
+        "verdict": "unresolved",
+        "would_require_new_evidence": true
+      },
+      "elapsed_seconds": 5.178,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 15377,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 276,
+      "prompt_digest": "ed3ea01e65a80f09a13b00ee3f3037311998902f09d2ae9c5b06ac6697ec8996",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"unresolved\",\"relation\":\"similar\",\"concrete_issue\":\"Meaning and formal usage are supported in both locales, but Malaysian evidence does not establish normal unrestricted everyday preference; it is mainly institutional and dictionary-based.\",\"evidence_reason\":\"Independent government and university sources consistently use beasiswa and biasiswa for student education funding, with no material contrary evidence. The comparative source supports the relation, but not everyday frequency or preference.\",\"would_require_new_evidence\":true}",
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "university-001:university-study-03",
+      "decision": {
+        "concrete_issue": "The evidence establishes the shared scholarship sense and current standard institutional use of Indonesian beasiswa and Malaysian biasiswa, but it does not establish the proposed everyday preference in both locales, especially unrestricted Malaysian usage.",
+        "evidence_reason": "Multiple independent government and university sources contextually support each term for student education funding, and the comparative source directly pairs the distinct forms with English scholarship. No material contrary evidence appears; the limitation is missing evidence about ordinary everyday preference, not contradiction.",
+        "relation": "similar",
+        "verdict": "unresolved",
+        "would_require_new_evidence": true
+      },
+      "elapsed_seconds": 6.052,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 16894,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 175,
+      "prompt_digest": "ed3ea01e65a80f09a13b00ee3f3037311998902f09d2ae9c5b06ac6697ec8996",
+      "provider_request_id": null,
+      "response_text": "{\"verdict\":\"unresolved\",\"relation\":\"similar\",\"concrete_issue\":\"The evidence establishes the shared scholarship sense and current standard institutional use of Indonesian beasiswa and Malaysian biasiswa, but it does not establish the proposed everyday preference in both locales, especially unrestricted Malaysian usage.\",\"evidence_reason\":\"Multiple independent government and university sources contextually support each term for student education funding, and the comparative source directly pairs the distinct forms with English scholarship. No material contrary evidence appears; the limitation is missing evidence about ordinary everyday preference, not contradiction.\",\"would_require_new_evidence\":true}",
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-03T20:02:47.609453+00:00",
+  "input_digest": "850f2ec00eedcb61051f7b397af7e0509357c0fa4d0fe226321a0320bd36b4fb",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Bus denotes a large road vehicle carrying many passengers. The word alone does not require a fixed route, though buses commonly serve routes.\", \"common_use\": \"Widely understood and routinely used.\", \"preferred\": \"Bus is the normal everyday choice; bis is also heard but is nonstandard.\", \"register\": \"Neutral.\", \"region\": \"Used throughout Indonesia; no regional restriction identified.\", \"alternatives\": [\"bis\", \"angkutan bus\"], \"claims\": [{\"claim_id\": \"transportation-04-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Bus denotes a large motor vehicle capable of carrying many passengers; a route is not inherent in the word.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"transportation-04-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Bus is the standard and normal everyday Indonesian choice; bis is a nonstandard variant.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.kemendikdasmen.go.id/entri/bus\", \"claim_ids\": [\"transportation-04-Indonesia-meaning\", \"transportation-04-Indonesia-preferred\"], \"exact_claim\": \"KBBI defines bus as a large public passenger motor vehicle and labels bis a nonstandard form.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "bis",
+        "angkutan bus"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-04-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Bus denotes a large motor vehicle capable of carrying many passengers; a route is not inherent in the word."
+        },
+        {
+          "claim_id": "transportation-04-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Bus is the standard and normal everyday Indonesian choice; bis is a nonstandard variant."
+        }
+      ],
+      "common_use": "Widely understood and routinely used.",
+      "meaning": "Bus denotes a large road vehicle carrying many passengers. The word alone does not require a fixed route, though buses commonly serve routes.",
+      "preferred": "Bus is the normal everyday choice; bis is also heard but is nonstandard.",
+      "region": "Used throughout Indonesia; no regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "transportation-04-Indonesia-meaning",
+            "transportation-04-Indonesia-preferred"
+          ],
+          "exact_claim": "KBBI defines bus as a large public passenger motor vehicle and labels bis a nonstandard form.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/bus"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "bis",
+      "angkutan bus"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-04-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Bus denotes a large motor vehicle capable of carrying many passengers; a route is not inherent in the word."
+      },
+      {
+        "claim_id": "transportation-04-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Bus is the standard and normal everyday Indonesian choice; bis is a nonstandard variant."
+      }
+    ],
+    "common_use": "Widely understood and routinely used.",
+    "meaning": "Bus denotes a large road vehicle carrying many passengers. The word alone does not require a fixed route, though buses commonly serve routes.",
+    "preferred": "Bus is the normal everyday choice; bis is also heard but is nonstandard.",
+    "region": "Used throughout Indonesia; no regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "transportation-04-Indonesia-meaning",
+          "transportation-04-Indonesia-preferred"
+        ],
+        "exact_claim": "KBBI defines bus as a large public passenger motor vehicle and labels bis a nonstandard form.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/bus"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "c8f3b924b8fcf40af9e9fe7a7162382f8057ecfca62a11351bb2d4e1c185d874"
+}

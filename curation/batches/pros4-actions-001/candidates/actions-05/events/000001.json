@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T16:22:29.512179+00:00",
+  "input_digest": "526ffc8e62e7a984900061ab7f75dc3087d871cf2c50a5634b664450676dc61f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-home-001:home-01\", \"type\": \"related_concept\", \"resolution\": \"distinct\", \"rationale\": \"Hanging laundry to dry is an action, while clothesline is the line or rack used for it.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-home-001:home-01",
+          "rationale": "Hanging laundry to dry is an action, while clothesline is the line or rack used for it.",
+          "resolution": "distinct",
+          "type": "related_concept"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-home-001:home-01",
+        "rationale": "Hanging laundry to dry is an action, while clothesline is the line or rack used for it.",
+        "resolution": "distinct",
+        "type": "related_concept"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "26ea295b1aa353e14615ab1d3623232010bd8073e220166c06308d33ca2a6e22"
+}

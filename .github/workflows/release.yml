@@ -47,6 +47,9 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -e '.[dev]'
 
+      - name: Reject incomplete curation export
+        run: test ! -e curation/export-journal.json
+
       - name: Validate vocabulary and media
         run: python -m indo_malay_anki validate
 

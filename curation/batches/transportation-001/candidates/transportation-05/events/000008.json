@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-03T20:02:47.624061+00:00",
+  "input_digest": "81dc4afbd4d6bac16119214a2b1602b2d7f49121e34bb1ad6b8207be3c98d42c",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Taksi denotes a hired passenger car service. It does not refer to every hired vehicle or to a motorcycle taxi.\", \"common_use\": \"Widely understood and routinely used for conventional taxis; taksi online specifies an app-booked car service.\", \"preferred\": \"Taksi is the normal choice for a taxi.\", \"register\": \"Neutral.\", \"region\": \"Used throughout Indonesia; service availability varies locally.\", \"alternatives\": [\"taksi online\", \"mobil sewaan\"], \"claims\": [{\"claim_id\": \"transportation-05-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Taksi denotes a passenger car hired to provide transport, rather than the general category of cars.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"transportation-05-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Taksi is the normal Indonesian term for a taxi; taksi online adds the app-booked distinction.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://peraturan.bpk.go.id/Download/202033/Peraturan_Bupati_Cilacap_Nomor_32_Tahun_2022.pdf\", \"claim_ids\": [\"transportation-05-Indonesia-meaning\"], \"exact_claim\": \"The regulation describes taxi transport as passenger service using a designated public passenger car.\"}, {\"url\": \"https://hubdat.dephub.go.id/id/aplikasi-dan-layanan/spionam/\", \"claim_ids\": [\"transportation-05-Indonesia-preferred\"], \"exact_claim\": \"The transport ministry uses taksi as the service category name.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "taksi online",
+        "mobil sewaan"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-05-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Taksi denotes a passenger car hired to provide transport, rather than the general category of cars."
+        },
+        {
+          "claim_id": "transportation-05-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Taksi is the normal Indonesian term for a taxi; taksi online adds the app-booked distinction."
+        }
+      ],
+      "common_use": "Widely understood and routinely used for conventional taxis; taksi online specifies an app-booked car service.",
+      "meaning": "Taksi denotes a hired passenger car service. It does not refer to every hired vehicle or to a motorcycle taxi.",
+      "preferred": "Taksi is the normal choice for a taxi.",
+      "region": "Used throughout Indonesia; service availability varies locally.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "transportation-05-Indonesia-meaning"
+          ],
+          "exact_claim": "The regulation describes taxi transport as passenger service using a designated public passenger car.",
+          "url": "https://peraturan.bpk.go.id/Download/202033/Peraturan_Bupati_Cilacap_Nomor_32_Tahun_2022.pdf"
+        },
+        {
+          "claim_ids": [
+            "transportation-05-Indonesia-preferred"
+          ],
+          "exact_claim": "The transport ministry uses taksi as the service category name.",
+          "url": "https://hubdat.dephub.go.id/id/aplikasi-dan-layanan/spionam/"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "taksi online",
+      "mobil sewaan"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-05-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Taksi denotes a passenger car hired to provide transport, rather than the general category of cars."
+      },
+      {
+        "claim_id": "transportation-05-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Taksi is the normal Indonesian term for a taxi; taksi online adds the app-booked distinction."
+      }
+    ],
+    "common_use": "Widely understood and routinely used for conventional taxis; taksi online specifies an app-booked car service.",
+    "meaning": "Taksi denotes a hired passenger car service. It does not refer to every hired vehicle or to a motorcycle taxi.",
+    "preferred": "Taksi is the normal choice for a taxi.",
+    "region": "Used throughout Indonesia; service availability varies locally.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "transportation-05-Indonesia-meaning"
+        ],
+        "exact_claim": "The regulation describes taxi transport as passenger service using a designated public passenger car.",
+        "url": "https://peraturan.bpk.go.id/Download/202033/Peraturan_Bupati_Cilacap_Nomor_32_Tahun_2022.pdf"
+      },
+      {
+        "claim_ids": [
+          "transportation-05-Indonesia-preferred"
+        ],
+        "exact_claim": "The transport ministry uses taksi as the service category name.",
+        "url": "https://hubdat.dephub.go.id/id/aplikasi-dan-layanan/spionam/"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "ecfaa8e0e3f55e9cc2a29882f08b3cf9b0eef96bcf5db40bf8df8c8e51ce880b"
+}

@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-14T02:13:15.893847+00:00",
+  "input_digest": "5f89f713f61cd01229df08b4c4e95e86e31599a3945cf36afe3afdb1f8de58a3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"Lebuh raya correctly means highway in Malaysian Malay.\"], \"material_concerns\": [\"Jalan tol specifically means a toll road, so it is narrower than the cue's general major road for motor vehicles; the cue needs to specify a toll highway or the Indonesian answer should be changed.\"], \"rationale\": \"The Malaysian answer fits, but the Indonesian answer adds a toll-road restriction absent from the English sense, creating a material learner mismatch.\", \"objection_assessments\": [], \"affirmative_defect\": \"The Indonesian answer does not generally match an unrestricted highway; it specifically denotes a toll road.\"}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "The Indonesian answer does not generally match an unrestricted highway; it specifically denotes a toll road.",
+      "concerns": [
+        "Lebuh raya correctly means highway in Malaysian Malay."
+      ],
+      "material_concerns": [
+        "Jalan tol specifically means a toll road, so it is narrower than the cue's general major road for motor vehicles; the cue needs to specify a toll highway or the Indonesian answer should be changed."
+      ],
+      "objection_assessments": [],
+      "rationale": "The Malaysian answer fits, but the Indonesian answer adds a toll-road restriction absent from the English sense, creating a material learner mismatch.",
+      "relation": "different-common-word",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "The Indonesian answer does not generally match an unrestricted highway; it specifically denotes a toll road.",
+    "concerns": [
+      "Lebuh raya correctly means highway in Malaysian Malay."
+    ],
+    "material_concerns": [
+      "Jalan tol specifically means a toll road, so it is narrower than the cue's general major road for motor vehicles; the cue needs to specify a toll highway or the Indonesian answer should be changed."
+    ],
+    "objection_assessments": [],
+    "rationale": "The Malaysian answer fits, but the Indonesian answer adds a toll-road restriction absent from the English sense, creating a material learner mismatch.",
+    "relation": "different-common-word",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "d270bcda5efc20730285ce636bf62dad86862c4b10f8cbe79307f9413540c15c"
+}

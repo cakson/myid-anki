@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-04T10:40:43.189192+00:00",
+  "input_digest": "8f35900142aca0f006f3b96ada84e4f3fe2207494ec62a2080c0a12a63ec94a4",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Nanas names the pineapple plant and its fruit; the fruit sense matches the proposed edible pineapple.\", \"common_use\": \"Nanas is an ordinary Indonesian fruit name. The available evidence supports the meaning but does not provide a concrete usage comparison or enough contextual examples to assess preference over alternatives.\", \"preferred\": \"Nanas is the standard general term; comparative everyday preference is not established here.\", \"register\": \"Neutral, standard Indonesian.\", \"region\": \"No regional restriction identified.\", \"alternatives\": [\"buah nanas (pineapple fruit)\"], \"claims\": [{\"claim_id\": \"produce-04-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"KBBI defines nanas as the pineapple plant and its fruit.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"source\": \"KBBI VI Daring, nanas\", \"url\": \"https://kbbi.kemendikdasmen.go.id/entri/nanas\", \"exact_claim\": \"Lists nanas as the plant and, in a second definition, buah nanas.\"}]}, \"bundle_response\": \"curation/batches/produce-001/indonesian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/indonesian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "buah nanas (pineapple fruit)"
+      ],
+      "claims": [
+        {
+          "claim_id": "produce-04-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "KBBI defines nanas as the pineapple plant and its fruit."
+        }
+      ],
+      "common_use": "Nanas is an ordinary Indonesian fruit name. The available evidence supports the meaning but does not provide a concrete usage comparison or enough contextual examples to assess preference over alternatives.",
+      "meaning": "Nanas names the pineapple plant and its fruit; the fruit sense matches the proposed edible pineapple.",
+      "preferred": "Nanas is the standard general term; comparative everyday preference is not established here.",
+      "region": "No regional restriction identified.",
+      "register": "Neutral, standard Indonesian.",
+      "source_leads": [
+        {
+          "exact_claim": "Lists nanas as the plant and, in a second definition, buah nanas.",
+          "source": "KBBI VI Daring, nanas",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/nanas"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "buah nanas (pineapple fruit)"
+    ],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:produce-04-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "KBBI defines nanas as the pineapple plant and its fruit."
+      }
+    ],
+    "common_use": "Nanas is an ordinary Indonesian fruit name. The available evidence supports the meaning but does not provide a concrete usage comparison or enough contextual examples to assess preference over alternatives.",
+    "meaning": "Nanas names the pineapple plant and its fruit; the fruit sense matches the proposed edible pineapple.",
+    "preferred": "Nanas is the standard general term; comparative everyday preference is not established here.",
+    "region": "No regional restriction identified.",
+    "register": "Neutral, standard Indonesian.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim": "Lists nanas as the plant and, in a second definition, buah nanas.",
+        "source": "KBBI VI Daring, nanas",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/nanas"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "e025ba5d9222c770f5b9f485ec313d118d52806134e044321eee48ea2adbb17c"
+}

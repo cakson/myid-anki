@@ -1,0 +1,109 @@
+{
+  "at": "2026-10-03T20:02:47.719089+00:00",
+  "input_digest": "922dcc63cec3b9e3afcff9a412493390874c55df290cd8822fb92b493e873f01",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Lampu isyarat denotes a signal light controlling traffic. In road context it matches a traffic light at a junction or crossing; without context, the phrase can be broader.\", \"common_use\": \"Common and readily understood in contemporary Malaysian Malay.\", \"preferred\": \"Lampu isyarat is a normal neutral choice for a road traffic light.\", \"register\": \"Neutral.\", \"region\": \"Malaysia generally; no regional restriction identified.\", \"alternatives\": [\"lampu trafik\", \"traffic light\", \"lampu merah\"], \"claims\": [{\"claim_id\": \"transportation-12-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"In road context, lampu isyarat denotes a light signal controlling traffic at a junction or crossing.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"transportation-12-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Lampu isyarat is a normal neutral Malaysian Malay choice for a road traffic light.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=lampu+isyarat\", \"claim_ids\": [\"transportation-12-Malaysia-meaning\", \"transportation-12-Malaysia-preferred\"], \"evidence_to_check\": \"DBP gives lampu isyarat as the engineering equivalent of traffic light; assess ordinary road use separately.\", \"audited\": false}, {\"url\": \"https://www.miros.gov.my/userfiles/file/BANTULAH%20ANAK-ANAK%20MENGAMALKAN%20ILMU%20PENDIDIKAN%20KESELAMATAN%20JALAN%20RAYA%20v2.pdf\", \"claim_ids\": [\"transportation-12-Malaysia-meaning\", \"transportation-12-Malaysia-preferred\"], \"evidence_to_check\": \"Malaysian road-safety material uses lampu isyarat for red and green signals that drivers must obey.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/transportation-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "lampu trafik",
+        "traffic light",
+        "lampu merah"
+      ],
+      "claims": [
+        {
+          "claim_id": "transportation-12-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "In road context, lampu isyarat denotes a light signal controlling traffic at a junction or crossing."
+        },
+        {
+          "claim_id": "transportation-12-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Lampu isyarat is a normal neutral Malaysian Malay choice for a road traffic light."
+        }
+      ],
+      "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+      "meaning": "Lampu isyarat denotes a signal light controlling traffic. In road context it matches a traffic light at a junction or crossing; without context, the phrase can be broader.",
+      "preferred": "Lampu isyarat is a normal neutral choice for a road traffic light.",
+      "region": "Malaysia generally; no regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-12-Malaysia-meaning",
+            "transportation-12-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP gives lampu isyarat as the engineering equivalent of traffic light; assess ordinary road use separately.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=lampu+isyarat"
+        },
+        {
+          "audited": false,
+          "claim_ids": [
+            "transportation-12-Malaysia-meaning",
+            "transportation-12-Malaysia-preferred"
+          ],
+          "evidence_to_check": "Malaysian road-safety material uses lampu isyarat for red and green signals that drivers must obey.",
+          "url": "https://www.miros.gov.my/userfiles/file/BANTULAH%20ANAK-ANAK%20MENGAMALKAN%20ILMU%20PENDIDIKAN%20KESELAMATAN%20JALAN%20RAYA%20v2.pdf"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "lampu trafik",
+      "traffic light",
+      "lampu merah"
+    ],
+    "claims": [
+      {
+        "claim_id": "transportation-12-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "In road context, lampu isyarat denotes a light signal controlling traffic at a junction or crossing."
+      },
+      {
+        "claim_id": "transportation-12-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Lampu isyarat is a normal neutral Malaysian Malay choice for a road traffic light."
+      }
+    ],
+    "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+    "meaning": "Lampu isyarat denotes a signal light controlling traffic. In road context it matches a traffic light at a junction or crossing; without context, the phrase can be broader.",
+    "preferred": "Lampu isyarat is a normal neutral choice for a road traffic light.",
+    "region": "Malaysia generally; no regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-12-Malaysia-meaning",
+          "transportation-12-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP gives lampu isyarat as the engineering equivalent of traffic light; assess ordinary road use separately.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=lampu+isyarat"
+      },
+      {
+        "audited": false,
+        "claim_ids": [
+          "transportation-12-Malaysia-meaning",
+          "transportation-12-Malaysia-preferred"
+        ],
+        "evidence_to_check": "Malaysian road-safety material uses lampu isyarat for red and green signals that drivers must obey.",
+        "url": "https://www.miros.gov.my/userfiles/file/BANTULAH%20ANAK-ANAK%20MENGAMALKAN%20ILMU%20PENDIDIKAN%20KESELAMATAN%20JALAN%20RAYA%20v2.pdf"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "fcc82038240c8d05b216df303fe8f6533b24e187a5ee1a53a6f3af7f47017327"
+}

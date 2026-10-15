@@ -1,0 +1,2133 @@
+{
+  "archived_baseline_cost_reference": {
+    "calls_with_unavailable_tokens": 1,
+    "money_cost": null,
+    "scope_note": "Four historical cohorts; first fresh batch lacks role-tagged verifier attempts. Grouped calls include unselected cards and cannot be attributed exactly to the 48.",
+    "source_cohort_calls": 45,
+    "source_cohort_candidates": 175,
+    "source_cohort_elapsed_model_seconds": 701.402,
+    "source_cohort_input_tokens_recorded": 543985,
+    "source_cohort_output_tokens_recorded": 70945
+  },
+  "batch_separated": {
+    "A_v3_1_saved_luna": {
+      "fresh1": {
+        "actions": {
+          "ACCEPT": 9
+        },
+        "candidates": 9,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "fresh-actions-001:action-07",
+          "fresh-home-001:home-10",
+          "fresh-travel-001:travel-03"
+        ],
+        "critical_review": [],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.0,
+          "audited": 0,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "fresh-actions-001:action-07",
+            "fresh-home-001:home-10",
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 0,
+          "review_audits": 0
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.1111,
+          "audited": 1,
+          "confirmed_good_audited": 1,
+          "critical_caught": 0,
+          "critical_missed": [
+            "fresh-actions-001:action-07",
+            "fresh-home-001:home-10",
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 1,
+          "review_audits": 0
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.2222,
+          "audited": 2,
+          "confirmed_good_audited": 2,
+          "critical_caught": 0,
+          "critical_missed": [
+            "fresh-actions-001:action-07",
+            "fresh-home-001:home-10",
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.2222,
+          "audited": 2,
+          "confirmed_good_audited": 2,
+          "critical_caught": 0,
+          "critical_missed": [
+            "fresh-actions-001:action-07",
+            "fresh-home-001:home-10",
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        }
+      },
+      "fresh2": {
+        "actions": {
+          "ACCEPT": 12
+        },
+        "candidates": 12,
+        "confirmed_good": 4,
+        "critical": 6,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "cal2-daily-001:daily-05",
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-travel-001:travel-10",
+          "cal2-work-001:work-08"
+        ],
+        "critical_review": [],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.0,
+          "audited": 0,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal2-daily-001:daily-05",
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-travel-001:travel-10",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 0,
+          "review_audits": 0
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.1667,
+          "audited": 2,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal2-daily-001:daily-05",
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-travel-001:travel-10",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.1667,
+          "audited": 2,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal2-daily-001:daily-05",
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-travel-001:travel-10",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.25,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal2-daily-001:daily-05",
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-travel-001:travel-10",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 3,
+          "review_audits": 0
+        }
+      },
+      "fresh3": {
+        "actions": {
+          "ACCEPT": 9
+        },
+        "candidates": 9,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "cal3-food-001:food-02",
+          "cal3-technology-001:technology-02",
+          "cal3-technology-001:technology-05"
+        ],
+        "critical_review": [],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.0,
+          "audited": 0,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal3-food-001:food-02",
+            "cal3-technology-001:technology-02",
+            "cal3-technology-001:technology-05"
+          ],
+          "random_audits": 0,
+          "review_audits": 0
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.1111,
+          "audited": 1,
+          "confirmed_good_audited": 1,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal3-food-001:food-02",
+            "cal3-technology-001:technology-02",
+            "cal3-technology-001:technology-05"
+          ],
+          "random_audits": 1,
+          "review_audits": 0
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.2222,
+          "audited": 2,
+          "confirmed_good_audited": 2,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal3-food-001:food-02",
+            "cal3-technology-001:technology-02",
+            "cal3-technology-001:technology-05"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.2222,
+          "audited": 2,
+          "confirmed_good_audited": 2,
+          "critical_caught": 0,
+          "critical_missed": [
+            "cal3-food-001:food-02",
+            "cal3-technology-001:technology-02",
+            "cal3-technology-001:technology-05"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        }
+      },
+      "fresh4": {
+        "actions": {
+          "ACCEPT": 8
+        },
+        "candidates": 8,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "pros4-food-001:food-07",
+          "pros4-food-001:food-09",
+          "pros4-technology-001:technology-04"
+        ],
+        "critical_review": [],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 1,
+        "routing_0.00": {
+          "audit_fraction": 0.0,
+          "audited": 0,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "pros4-food-001:food-07",
+            "pros4-food-001:food-09",
+            "pros4-technology-001:technology-04"
+          ],
+          "random_audits": 0,
+          "review_audits": 0
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.125,
+          "audited": 1,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "pros4-food-001:food-07",
+            "pros4-food-001:food-09",
+            "pros4-technology-001:technology-04"
+          ],
+          "random_audits": 1,
+          "review_audits": 0
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.25,
+          "audited": 2,
+          "confirmed_good_audited": 1,
+          "critical_caught": 0,
+          "critical_missed": [
+            "pros4-food-001:food-07",
+            "pros4-food-001:food-09",
+            "pros4-technology-001:technology-04"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.25,
+          "audited": 2,
+          "confirmed_good_audited": 1,
+          "critical_caught": 0,
+          "critical_missed": [
+            "pros4-food-001:food-07",
+            "pros4-food-001:food-09",
+            "pros4-technology-001:technology-04"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        }
+      },
+      "technical25": {
+        "actions": {
+          "ACCEPT": 10
+        },
+        "candidates": 10,
+        "confirmed_good": 4,
+        "critical": 5,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "tb25-health-001:health-05",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "critical_review": [],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 1,
+        "routing_0.00": {
+          "audit_fraction": 0.0,
+          "audited": 0,
+          "confirmed_good_audited": 0,
+          "critical_caught": 0,
+          "critical_missed": [
+            "tb25-health-001:health-05",
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 0,
+          "review_audits": 0
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.1,
+          "audited": 1,
+          "confirmed_good_audited": 0,
+          "critical_caught": 1,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 1,
+          "review_audits": 0
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.2,
+          "audited": 2,
+          "confirmed_good_audited": 1,
+          "critical_caught": 1,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.2,
+          "audited": 2,
+          "confirmed_good_audited": 1,
+          "critical_caught": 1,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        }
+      }
+    },
+    "B_luna": {
+      "fresh1": {
+        "actions": {
+          "ACCEPT": 7,
+          "ACCEPT_WITH_REVIEW": 2
+        },
+        "candidates": 9,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "fresh-home-001:home-10"
+        ],
+        "critical_review": [
+          "fresh-actions-001:action-07",
+          "fresh-travel-001:travel-03"
+        ],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.2222,
+          "audited": 2,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-home-001:home-10"
+          ],
+          "random_audits": 0,
+          "review_audits": 2
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-home-001:home-10"
+          ],
+          "random_audits": 1,
+          "review_audits": 2
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.4444,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-home-001:home-10"
+          ],
+          "random_audits": 2,
+          "review_audits": 2
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.4444,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-home-001:home-10"
+          ],
+          "random_audits": 2,
+          "review_audits": 2
+        }
+      },
+      "fresh2": {
+        "actions": {
+          "ACCEPT": 5,
+          "ACCEPT_WITH_REVIEW": 7
+        },
+        "candidates": 12,
+        "confirmed_good": 4,
+        "critical": 6,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [],
+        "critical_review": [
+          "cal2-daily-001:daily-05",
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-travel-001:travel-10",
+          "cal2-work-001:work-08"
+        ],
+        "good_false_block": [],
+        "good_false_escalation": [
+          "cal2-social-001:social-05"
+        ],
+        "minor_challenged": [],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.5833,
+          "audited": 7,
+          "confirmed_good_audited": 1,
+          "critical_caught": 6,
+          "critical_missed": [],
+          "random_audits": 0,
+          "review_audits": 7
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.6667,
+          "audited": 8,
+          "confirmed_good_audited": 1,
+          "critical_caught": 6,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 7
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.6667,
+          "audited": 8,
+          "confirmed_good_audited": 1,
+          "critical_caught": 6,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 7
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.6667,
+          "audited": 8,
+          "confirmed_good_audited": 1,
+          "critical_caught": 6,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 7
+        }
+      },
+      "fresh3": {
+        "actions": {
+          "ACCEPT": 5,
+          "ACCEPT_WITH_REVIEW": 3,
+          "HOLD": 1
+        },
+        "candidates": 9,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [
+          "cal3-technology-001:technology-05"
+        ],
+        "critical_ordinary_accept": [],
+        "critical_review": [
+          "cal3-food-001:food-02",
+          "cal3-technology-001:technology-02"
+        ],
+        "good_false_block": [],
+        "good_false_escalation": [
+          "cal3-technology-001:technology-01"
+        ],
+        "minor_challenged": [],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 0,
+          "review_audits": 3
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.4444,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 3
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.4444,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 3
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.4444,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 3
+        }
+      },
+      "fresh4": {
+        "actions": {
+          "ACCEPT": 6,
+          "ACCEPT_WITH_REVIEW": 2
+        },
+        "candidates": 8,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "pros4-food-001:food-09"
+        ],
+        "critical_review": [
+          "pros4-food-001:food-07",
+          "pros4-technology-001:technology-04"
+        ],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 1,
+        "routing_0.00": {
+          "audit_fraction": 0.25,
+          "audited": 2,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 0,
+          "review_audits": 2
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.375,
+          "audited": 3,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 1,
+          "review_audits": 2
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.375,
+          "audited": 3,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 1,
+          "review_audits": 2
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.5,
+          "audited": 4,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 2,
+          "review_audits": 2
+        }
+      },
+      "technical25": {
+        "actions": {
+          "ACCEPT": 9,
+          "ACCEPT_WITH_REVIEW": 1
+        },
+        "candidates": 10,
+        "confirmed_good": 4,
+        "critical": 5,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "tb25-health-001:health-05",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "critical_review": [
+          "tb25-technology-001:technology-03"
+        ],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 1,
+        "routing_0.00": {
+          "audit_fraction": 0.1,
+          "audited": 1,
+          "confirmed_good_audited": 0,
+          "critical_caught": 1,
+          "critical_missed": [
+            "tb25-health-001:health-05",
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 0,
+          "review_audits": 1
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.2,
+          "audited": 2,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 1,
+          "review_audits": 1
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.3,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 2,
+          "review_audits": 1
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.3,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-home-001:home-03",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 2,
+          "review_audits": 1
+        }
+      }
+    },
+    "C_sol": {
+      "fresh1": {
+        "actions": {
+          "ACCEPT": 5,
+          "ACCEPT_WITH_REVIEW": 2,
+          "HOLD": 1,
+          "REJECT": 1
+        },
+        "candidates": 9,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [
+          "fresh-actions-001:action-07",
+          "fresh-home-001:home-10"
+        ],
+        "critical_ordinary_accept": [
+          "fresh-travel-001:travel-03"
+        ],
+        "critical_review": [],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [
+          "fresh-actions-001:action-01",
+          "fresh-actions-001:action-02"
+        ],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.2222,
+          "audited": 2,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 0,
+          "review_audits": 2
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 1,
+          "review_audits": 2
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 1,
+          "review_audits": 2
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "fresh-travel-001:travel-03"
+          ],
+          "random_audits": 1,
+          "review_audits": 2
+        }
+      },
+      "fresh2": {
+        "actions": {
+          "ACCEPT": 7,
+          "ACCEPT_WITH_REVIEW": 4,
+          "HOLD": 1
+        },
+        "candidates": 12,
+        "confirmed_good": 4,
+        "critical": 6,
+        "critical_hold_or_reject": [],
+        "critical_ordinary_accept": [
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-work-001:work-08"
+        ],
+        "critical_review": [
+          "cal2-daily-001:daily-05",
+          "cal2-travel-001:travel-10"
+        ],
+        "good_false_block": [],
+        "good_false_escalation": [
+          "cal2-social-001:social-05"
+        ],
+        "minor_challenged": [
+          "cal2-daily-001:daily-02",
+          "cal2-daily-001:daily-03"
+        ],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.3333,
+          "audited": 4,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 0,
+          "review_audits": 4
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.4167,
+          "audited": 5,
+          "confirmed_good_audited": 2,
+          "critical_caught": 2,
+          "critical_missed": [
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 1,
+          "review_audits": 4
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.5,
+          "audited": 6,
+          "confirmed_good_audited": 3,
+          "critical_caught": 2,
+          "critical_missed": [
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 2,
+          "review_audits": 4
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.5,
+          "audited": 6,
+          "confirmed_good_audited": 3,
+          "critical_caught": 2,
+          "critical_missed": [
+            "cal2-shopping-001:shopping-06",
+            "cal2-social-001:social-04",
+            "cal2-social-001:social-06",
+            "cal2-work-001:work-08"
+          ],
+          "random_audits": 2,
+          "review_audits": 4
+        }
+      },
+      "fresh3": {
+        "actions": {
+          "ACCEPT": 5,
+          "ACCEPT_WITH_REVIEW": 2,
+          "HOLD": 1,
+          "REJECT": 1
+        },
+        "candidates": 9,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [
+          "cal3-technology-001:technology-05"
+        ],
+        "critical_ordinary_accept": [],
+        "critical_review": [
+          "cal3-food-001:food-02",
+          "cal3-technology-001:technology-02"
+        ],
+        "good_false_block": [
+          "cal3-technology-001:technology-01"
+        ],
+        "good_false_escalation": [
+          "cal3-technology-001:technology-01"
+        ],
+        "minor_challenged": [],
+        "minor_correction": 2,
+        "routing_0.00": {
+          "audit_fraction": 0.2222,
+          "audited": 2,
+          "confirmed_good_audited": 0,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 0,
+          "review_audits": 2
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 2
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 2
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.3333,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 3,
+          "critical_missed": [],
+          "random_audits": 1,
+          "review_audits": 2
+        }
+      },
+      "fresh4": {
+        "actions": {
+          "ACCEPT": 6,
+          "HOLD": 1,
+          "REJECT": 1
+        },
+        "candidates": 8,
+        "confirmed_good": 4,
+        "critical": 3,
+        "critical_hold_or_reject": [
+          "pros4-food-001:food-07",
+          "pros4-technology-001:technology-04"
+        ],
+        "critical_ordinary_accept": [
+          "pros4-food-001:food-09"
+        ],
+        "critical_review": [],
+        "good_false_block": [],
+        "good_false_escalation": [],
+        "minor_challenged": [],
+        "minor_correction": 1,
+        "routing_0.00": {
+          "audit_fraction": 0.0,
+          "audited": 0,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 0,
+          "review_audits": 0
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.125,
+          "audited": 1,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 1,
+          "review_audits": 0
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.125,
+          "audited": 1,
+          "confirmed_good_audited": 0,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 1,
+          "review_audits": 0
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.25,
+          "audited": 2,
+          "confirmed_good_audited": 1,
+          "critical_caught": 2,
+          "critical_missed": [
+            "pros4-food-001:food-09"
+          ],
+          "random_audits": 2,
+          "review_audits": 0
+        }
+      },
+      "technical25": {
+        "actions": {
+          "ACCEPT": 5,
+          "ACCEPT_WITH_REVIEW": 3,
+          "HOLD": 2
+        },
+        "candidates": 10,
+        "confirmed_good": 4,
+        "critical": 5,
+        "critical_hold_or_reject": [
+          "tb25-technology-001:technology-03"
+        ],
+        "critical_ordinary_accept": [
+          "tb25-home-001:home-01",
+          "tb25-technology-001:technology-05"
+        ],
+        "critical_review": [
+          "tb25-health-001:health-05",
+          "tb25-home-001:home-03"
+        ],
+        "good_false_block": [],
+        "good_false_escalation": [
+          "tb25-actions-001:actions-01"
+        ],
+        "minor_challenged": [
+          "tb25-technology-001:technology-01"
+        ],
+        "minor_correction": 1,
+        "routing_0.00": {
+          "audit_fraction": 0.3,
+          "audited": 3,
+          "confirmed_good_audited": 1,
+          "critical_caught": 3,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 0,
+          "review_audits": 3
+        },
+        "routing_0.10": {
+          "audit_fraction": 0.4,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 3,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 1,
+          "review_audits": 3
+        },
+        "routing_0.15": {
+          "audit_fraction": 0.4,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 3,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 1,
+          "review_audits": 3
+        },
+        "routing_0.20": {
+          "audit_fraction": 0.4,
+          "audited": 4,
+          "confirmed_good_audited": 2,
+          "critical_caught": 3,
+          "critical_missed": [
+            "tb25-home-001:home-01",
+            "tb25-technology-001:technology-05"
+          ],
+          "random_audits": 1,
+          "review_audits": 3
+        }
+      }
+    }
+  },
+  "candidate_count": 48,
+  "candidate_results": {
+    "cal2-daily-001:daily-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal2-daily-001:daily-02": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Malaysian paip can denote the pipe more broadly, while paip air or kepala paip may identify the water-control fixture more precisely."
+      }
+    },
+    "cal2-daily-001:daily-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "HOLD"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Indonesian wastafel commonly suggests a bathroom washbasin, while a kitchen sink may be called bak cuci piring."
+      }
+    },
+    "cal2-daily-001:daily-05": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "should-reject",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": "Malaysian penyedut hampagas is an ordinary competing term, so pembersih vakum may not be the clearest practical preference.",
+        "C_sol": "Malaysian learners may more ordinarily encounter vakum or penyedut hampagas than pembersih vakum."
+      }
+    },
+    "cal2-shopping-001:shopping-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal2-shopping-001:shopping-06": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "should-reject",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": "Pembayaran and bayaran overlap substantially in ordinary usage, so the contrast should not imply strict exclusivity.",
+        "C_sol": null
+      }
+    },
+    "cal2-social-001:social-04": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "should-reject",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": "Both languages also use the other form, so the card may overstate a strict national split.",
+        "C_sol": null
+      }
+    },
+    "cal2-social-001:social-05": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": "Malay menjemput can also mean picking someone up, while mengundang remains possible in Malay.",
+        "C_sol": "Malaysian menjemput can also mean to pick someone up, so context is needed to preserve the intended invitation sense."
+      }
+    },
+    "cal2-social-001:social-06": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": "Malay also commonly uses berkunjung, while melawat can carry a more specific visiting-someone nuance in some contexts.",
+        "C_sol": null
+      }
+    },
+    "cal2-travel-001:travel-05": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal2-travel-001:travel-10": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "should-reject",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": "Malay also uses persimpangan, especially in more formal or compound descriptions.",
+        "C_sol": "Malaysian simpang may denote a turn or branching junction rather than an intersection specifically; persimpangan is a competing precise form."
+      }
+    },
+    "cal2-work-001:work-08": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "fresh2",
+      "objections": {
+        "B_luna": "Indonesian batas waktu is a common competing form, and tenggat waktu may sound formal or less idiomatic to learners.",
+        "C_sol": null
+      }
+    },
+    "cal3-actions-001:actions-02": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal3-actions-001:actions-04": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal3-food-001:food-02": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": "Malaysian speakers commonly use straw, so penyedut minuman may sound formal or less everyday.",
+        "C_sol": "Malaysian speakers commonly use “straw,” so “penyedut minuman” may sound formal or descriptive rather than like the ordinary default."
+      }
+    },
+    "cal3-food-001:food-04": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal3-health-001:health-06": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal3-technology-001:technology-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "REJECT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": "Indonesian technology users commonly say file, while berkas can sound formal or suggest a dossier.",
+        "C_sol": "Indonesian commonly uses “file” for a digital file, while “berkas” can suggest a document or dossier and may not match the claimed everyday contrast."
+      }
+    },
+    "cal3-technology-001:technology-02": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": "Malaysian printer is also an ordinary competing form, so pencetak may overstate the national contrast.",
+        "C_sol": "Malaysian also commonly uses “printer,” so “pencetak” may overstate the everyday national contrast."
+      }
+    },
+    "cal3-technology-001:technology-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "cal3-technology-001:technology-05": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "HOLD",
+        "C_sol": "HOLD"
+      },
+      "audit_verdict": "should-reject",
+      "batch": "fresh3",
+      "objections": {
+        "B_luna": "Malaysian pemacu USB may be more immediately ordinary than pemacu kilat for this device.",
+        "C_sol": "Malaysian commonly uses “pendrive” or “pemacu pena,” making “pemacu kilat” potentially unrepresentative as the practical answer."
+      }
+    },
+    "fresh-actions-001:action-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Indonesian everyday speech often uses “download,” so “mengunduh” may imply a stronger practical preference than warranted."
+      }
+    },
+    "fresh-actions-001:action-02": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Indonesian everyday speech often uses “upload,” so “mengunggah” may imply a stronger practical preference than warranted."
+      }
+    },
+    "fresh-actions-001:action-07": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "REJECT"
+      },
+      "audit_verdict": "should-reject",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": "Malaysian hamil is also an ordinary competing form alongside mengandung.",
+        "C_sol": "“Hamil” is also ordinary Malaysian, while Indonesian also uses “mengandung,” so the card overstates a national lexical contrast."
+      }
+    },
+    "fresh-actions-001:action-08": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "fresh-food-001:food-08": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "fresh-home-001:home-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "fresh-home-001:home-10": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "HOLD"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Indonesian wajan and Malaysian kuali can denote wok-like or broader cooking pans rather than specifically a shallow frying pan; Malaysian kuali leper may be more precise."
+      }
+    },
+    "fresh-travel-001:travel-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "should-hold",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": "Malay also uses broader beg forms, so beg pakaian may not always specifically imply a suitcase.",
+        "C_sol": null
+      }
+    },
+    "fresh-travel-001:travel-04": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh1",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "pros4-actions-001:actions-02": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "pros4-actions-001:actions-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "pros4-food-001:food-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "pros4-food-001:food-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "pros4-food-001:food-07": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "HOLD"
+      },
+      "audit_verdict": "should-hold",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": "Malaysian also uses sumpit for chopsticks, while penyepit makanan can sound descriptive or refer to food tongs.",
+        "C_sol": "Malaysian penyepit makanan can sound like a generic food-gripping utensil, while chopstick is common in everyday Malaysian usage."
+      }
+    },
+    "pros4-food-001:food-09": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "pros4-technology-001:technology-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "pros4-technology-001:technology-04": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "REJECT"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "fresh4",
+      "objections": {
+        "B_luna": "Malay latihan alone can mean training generally; latihan vokasional would more precisely convey vocational training.",
+        "C_sol": "Both pelatihan and latihan mean training broadly; Indonesian pelatihan vokasional/kejuruan and Malaysian latihan vokasional better preserve the cue's job-specific sense."
+      }
+    },
+    "tb25-actions-001:actions-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Malay ketawa is relatively colloquial, while tertawa also occurs as a more formal Malaysian form."
+      }
+    },
+    "tb25-actions-001:actions-02": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "tb25-actions-001:actions-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "tb25-health-001:health-05": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "should-hold",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Malaysian balutan or pembalut may compete with the more explicitly descriptive pembalut luka."
+      }
+    },
+    "tb25-home-001:home-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "tb25-home-001:home-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT_WITH_REVIEW"
+      },
+      "audit_verdict": "materially-misleading",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Malaysian also commonly uses pijama, so baju tidur is not an exclusive national preference."
+      }
+    },
+    "tb25-home-001:home-05": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "confirmed-good",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    },
+    "tb25-technology-001:technology-01": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "HOLD"
+      },
+      "audit_verdict": "minor-correction",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": "Indonesian speakers commonly use database, which may make basis data too formal for an ordinary-preference card."
+      }
+    },
+    "tb25-technology-001:technology-03": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT_WITH_REVIEW",
+        "C_sol": "HOLD"
+      },
+      "audit_verdict": "should-hold",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": "Indonesian users commonly say spreadsheet, and Malaysian users may also use spreadsheet, so the localized forms may sound formal or less ordinary.",
+        "C_sol": "Spreadsheet is a common competing loan in both languages, while lembar bentang and hamparan elektronik may chiefly be formal terminology."
+      }
+    },
+    "tb25-technology-001:technology-05": {
+      "actions": {
+        "A_v3_1_saved_luna": "ACCEPT",
+        "B_luna": "ACCEPT",
+        "C_sol": "ACCEPT"
+      },
+      "audit_verdict": "should-hold",
+      "batch": "technical25",
+      "objections": {
+        "B_luna": null,
+        "C_sol": null
+      }
+    }
+  },
+  "critical_count": 20,
+  "input_digest": "bb653a38ffb8dac911ea6826aab85d368e94eb1c7f3edcf7541fbefed9888b2f",
+  "label_distribution": {
+    "confirmed-good": 20,
+    "materially-misleading": 9,
+    "minor-correction": 8,
+    "should-hold": 5,
+    "should-reject": 6
+  },
+  "limitations": [
+    "The benchmark deliberately includes every known unsafe historical ACCEPT; its risk prevalence is not a population estimate.",
+    "Variant A reuses archived Luna production decisions and incurs no new benchmark call. Its historical prompts and batching differ from variants B/C.",
+    "The revised contract was specified after the failure classes were known; batch-separated results are descriptive validation, not a blind prospective trial.",
+    "Random sample outcomes depend on the fixed hash seed and this small enriched set."
+  ],
+  "prompt_digest": "883a13302c6b19e4903c33c739babfaeb6b8f444cce819770b1f382580a31336",
+  "schema_version": 1,
+  "variants": {
+    "A_v3_1_saved_luna": {
+      "actions": {
+        "ACCEPT": 48
+      },
+      "candidates": 48,
+      "confirmed_good": 20,
+      "cost": null,
+      "critical": 20,
+      "critical_hold_or_reject": [],
+      "critical_ordinary_accept": [
+        "cal2-daily-001:daily-05",
+        "cal2-shopping-001:shopping-06",
+        "cal2-social-001:social-04",
+        "cal2-social-001:social-06",
+        "cal2-travel-001:travel-10",
+        "cal2-work-001:work-08",
+        "cal3-food-001:food-02",
+        "cal3-technology-001:technology-02",
+        "cal3-technology-001:technology-05",
+        "fresh-actions-001:action-07",
+        "fresh-home-001:home-10",
+        "fresh-travel-001:travel-03",
+        "pros4-food-001:food-07",
+        "pros4-food-001:food-09",
+        "pros4-technology-001:technology-04",
+        "tb25-health-001:health-05",
+        "tb25-home-001:home-01",
+        "tb25-home-001:home-03",
+        "tb25-technology-001:technology-03",
+        "tb25-technology-001:technology-05"
+      ],
+      "critical_review": [],
+      "good_false_block": [],
+      "good_false_escalation": [],
+      "minor_challenged": [],
+      "minor_correction": 8,
+      "routing_0.00": {
+        "audit_fraction": 0.0,
+        "audited": 0,
+        "confirmed_good_audited": 0,
+        "critical_caught": 0,
+        "critical_missed": [
+          "cal2-daily-001:daily-05",
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-travel-001:travel-10",
+          "cal2-work-001:work-08",
+          "cal3-food-001:food-02",
+          "cal3-technology-001:technology-02",
+          "cal3-technology-001:technology-05",
+          "fresh-actions-001:action-07",
+          "fresh-home-001:home-10",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-07",
+          "pros4-food-001:food-09",
+          "pros4-technology-001:technology-04",
+          "tb25-health-001:health-05",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 0,
+        "review_audits": 0
+      },
+      "routing_0.10": {
+        "audit_fraction": 0.1042,
+        "audited": 5,
+        "confirmed_good_audited": 2,
+        "critical_caught": 1,
+        "critical_missed": [
+          "cal2-daily-001:daily-05",
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-travel-001:travel-10",
+          "cal2-work-001:work-08",
+          "cal3-food-001:food-02",
+          "cal3-technology-001:technology-02",
+          "cal3-technology-001:technology-05",
+          "fresh-actions-001:action-07",
+          "fresh-home-001:home-10",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-07",
+          "pros4-food-001:food-09",
+          "pros4-technology-001:technology-04",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 5,
+        "review_audits": 0
+      },
+      "routing_0.15": {
+        "audit_fraction": 0.1667,
+        "audited": 8,
+        "confirmed_good_audited": 4,
+        "critical_caught": 2,
+        "critical_missed": [
+          "cal2-daily-001:daily-05",
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-work-001:work-08",
+          "cal3-food-001:food-02",
+          "cal3-technology-001:technology-02",
+          "cal3-technology-001:technology-05",
+          "fresh-actions-001:action-07",
+          "fresh-home-001:home-10",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-07",
+          "pros4-food-001:food-09",
+          "pros4-technology-001:technology-04",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 8,
+        "review_audits": 0
+      },
+      "routing_0.20": {
+        "audit_fraction": 0.2083,
+        "audited": 10,
+        "confirmed_good_audited": 6,
+        "critical_caught": 2,
+        "critical_missed": [
+          "cal2-daily-001:daily-05",
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-work-001:work-08",
+          "cal3-food-001:food-02",
+          "cal3-technology-001:technology-02",
+          "cal3-technology-001:technology-05",
+          "fresh-actions-001:action-07",
+          "fresh-home-001:home-10",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-07",
+          "pros4-food-001:food-09",
+          "pros4-technology-001:technology-04",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 10,
+        "review_audits": 0
+      }
+    },
+    "B_luna": {
+      "actions": {
+        "ACCEPT": 32,
+        "ACCEPT_WITH_REVIEW": 15,
+        "HOLD": 1
+      },
+      "candidates": 48,
+      "confirmed_good": 20,
+      "cost": {
+        "calls": 8,
+        "elapsed_model_seconds": 97.251,
+        "failed_calls": 0,
+        "input_tokens": 97432,
+        "money_cost": null,
+        "money_cost_reason": "No provider price or billed cost is configured for these CLI calls.",
+        "output_tokens": 7457,
+        "tokens_per_candidate": 2185.2
+      },
+      "critical": 20,
+      "critical_hold_or_reject": [
+        "cal3-technology-001:technology-05"
+      ],
+      "critical_ordinary_accept": [
+        "fresh-home-001:home-10",
+        "pros4-food-001:food-09",
+        "tb25-health-001:health-05",
+        "tb25-home-001:home-01",
+        "tb25-home-001:home-03",
+        "tb25-technology-001:technology-05"
+      ],
+      "critical_review": [
+        "cal2-daily-001:daily-05",
+        "cal2-shopping-001:shopping-06",
+        "cal2-social-001:social-04",
+        "cal2-social-001:social-06",
+        "cal2-travel-001:travel-10",
+        "cal2-work-001:work-08",
+        "cal3-food-001:food-02",
+        "cal3-technology-001:technology-02",
+        "fresh-actions-001:action-07",
+        "fresh-travel-001:travel-03",
+        "pros4-food-001:food-07",
+        "pros4-technology-001:technology-04",
+        "tb25-technology-001:technology-03"
+      ],
+      "good_false_block": [],
+      "good_false_escalation": [
+        "cal2-social-001:social-05",
+        "cal3-technology-001:technology-01"
+      ],
+      "minor_challenged": [],
+      "minor_correction": 8,
+      "routing_0.00": {
+        "audit_fraction": 0.3125,
+        "audited": 15,
+        "confirmed_good_audited": 2,
+        "critical_caught": 14,
+        "critical_missed": [
+          "fresh-home-001:home-10",
+          "pros4-food-001:food-09",
+          "tb25-health-001:health-05",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 0,
+        "review_audits": 15
+      },
+      "routing_0.10": {
+        "audit_fraction": 0.3958,
+        "audited": 19,
+        "confirmed_good_audited": 3,
+        "critical_caught": 15,
+        "critical_missed": [
+          "fresh-home-001:home-10",
+          "pros4-food-001:food-09",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 4,
+        "review_audits": 15
+      },
+      "routing_0.15": {
+        "audit_fraction": 0.4167,
+        "audited": 20,
+        "confirmed_good_audited": 4,
+        "critical_caught": 15,
+        "critical_missed": [
+          "fresh-home-001:home-10",
+          "pros4-food-001:food-09",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 5,
+        "review_audits": 15
+      },
+      "routing_0.20": {
+        "audit_fraction": 0.4583,
+        "audited": 22,
+        "confirmed_good_audited": 6,
+        "critical_caught": 15,
+        "critical_missed": [
+          "fresh-home-001:home-10",
+          "pros4-food-001:food-09",
+          "tb25-home-001:home-01",
+          "tb25-home-001:home-03",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 7,
+        "review_audits": 15
+      }
+    },
+    "C_sol": {
+      "actions": {
+        "ACCEPT": 28,
+        "ACCEPT_WITH_REVIEW": 11,
+        "HOLD": 6,
+        "REJECT": 3
+      },
+      "candidates": 48,
+      "confirmed_good": 20,
+      "cost": {
+        "calls": 8,
+        "elapsed_model_seconds": 167.378,
+        "failed_calls": 0,
+        "input_tokens": 109568,
+        "money_cost": null,
+        "money_cost_reason": "No provider price or billed cost is configured for these CLI calls.",
+        "output_tokens": 6990,
+        "tokens_per_candidate": 2428.3
+      },
+      "critical": 20,
+      "critical_hold_or_reject": [
+        "cal3-technology-001:technology-05",
+        "fresh-actions-001:action-07",
+        "fresh-home-001:home-10",
+        "pros4-food-001:food-07",
+        "pros4-technology-001:technology-04",
+        "tb25-technology-001:technology-03"
+      ],
+      "critical_ordinary_accept": [
+        "cal2-shopping-001:shopping-06",
+        "cal2-social-001:social-04",
+        "cal2-social-001:social-06",
+        "cal2-work-001:work-08",
+        "fresh-travel-001:travel-03",
+        "pros4-food-001:food-09",
+        "tb25-home-001:home-01",
+        "tb25-technology-001:technology-05"
+      ],
+      "critical_review": [
+        "cal2-daily-001:daily-05",
+        "cal2-travel-001:travel-10",
+        "cal3-food-001:food-02",
+        "cal3-technology-001:technology-02",
+        "tb25-health-001:health-05",
+        "tb25-home-001:home-03"
+      ],
+      "good_false_block": [
+        "cal3-technology-001:technology-01"
+      ],
+      "good_false_escalation": [
+        "cal2-social-001:social-05",
+        "cal3-technology-001:technology-01",
+        "tb25-actions-001:actions-01"
+      ],
+      "minor_challenged": [
+        "cal2-daily-001:daily-02",
+        "cal2-daily-001:daily-03",
+        "fresh-actions-001:action-01",
+        "fresh-actions-001:action-02",
+        "tb25-technology-001:technology-01"
+      ],
+      "minor_correction": 8,
+      "routing_0.00": {
+        "audit_fraction": 0.2292,
+        "audited": 11,
+        "confirmed_good_audited": 2,
+        "critical_caught": 12,
+        "critical_missed": [
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-work-001:work-08",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-09",
+          "tb25-home-001:home-01",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 0,
+        "review_audits": 11
+      },
+      "routing_0.10": {
+        "audit_fraction": 0.2917,
+        "audited": 14,
+        "confirmed_good_audited": 5,
+        "critical_caught": 12,
+        "critical_missed": [
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-work-001:work-08",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-09",
+          "tb25-home-001:home-01",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 3,
+        "review_audits": 11
+      },
+      "routing_0.15": {
+        "audit_fraction": 0.3333,
+        "audited": 16,
+        "confirmed_good_audited": 7,
+        "critical_caught": 12,
+        "critical_missed": [
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-work-001:work-08",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-09",
+          "tb25-home-001:home-01",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 5,
+        "review_audits": 11
+      },
+      "routing_0.20": {
+        "audit_fraction": 0.3542,
+        "audited": 17,
+        "confirmed_good_audited": 8,
+        "critical_caught": 12,
+        "critical_missed": [
+          "cal2-shopping-001:shopping-06",
+          "cal2-social-001:social-04",
+          "cal2-social-001:social-06",
+          "cal2-work-001:work-08",
+          "fresh-travel-001:travel-03",
+          "pros4-food-001:food-09",
+          "tb25-home-001:home-01",
+          "tb25-technology-001:technology-05"
+        ],
+        "random_audits": 6,
+        "review_audits": 11
+      }
+    }
+  }
+}

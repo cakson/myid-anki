@@ -1,0 +1,859 @@
+{
+  "accepted_cards_per_hour": 907.749,
+  "average_verifier_input_tokens": 14442.2,
+  "candidate_refs": [
+    "clothing-001:clothing-01",
+    "clothing-001:clothing-02",
+    "common-verbs-001:everyday-actions-01",
+    "communication-001:communication-01",
+    "communication-001:communication-03",
+    "everyday-objects-001:everyday-objects-05",
+    "everyday-objects-001:everyday-objects-06",
+    "food-001:foods-01",
+    "food-001:foods-04",
+    "food-001:foods-06",
+    "health-001:health-01",
+    "home-001:topic-02",
+    "home-001:topic-03",
+    "home-001:topic-04",
+    "home-001:topic-05",
+    "home-001:topic-06",
+    "home-001:topic-08",
+    "places-001:places-01",
+    "produce-001:produce-03",
+    "school-001:topic-05",
+    "school-001:topic-06",
+    "technology-001:technology-07",
+    "transportation-001:transportation-01",
+    "transportation-001:transportation-04",
+    "transportation-001:transportation-06",
+    "university-001:university-study-03"
+  ],
+  "canonical_promotions": 0,
+  "confidence_distribution": {
+    "high": 1,
+    "low": 6,
+    "medium": 12,
+    "very-low": 5
+  },
+  "escalated_accepts": 0,
+  "failed_verifier_launches": 5,
+  "fast_path_accepts": 24,
+  "fast_path_utilization_rate": 0.96,
+  "median_verifier_input_tokens": 14222,
+  "no_contrast_rejects": 1,
+  "outcomes": {
+    "accepted": 24,
+    "hold": 1,
+    "rejected": 1
+  },
+  "rows": [
+    {
+      "candidate": {
+        "candidate_id": "clothing-01",
+        "english": "trousers",
+        "indonesian": "celana",
+        "malaysian": "seluar",
+        "sense": "clothing worn on the lower body, generally covering both legs",
+        "tags": [
+          "clothing"
+        ]
+      },
+      "candidate_ref": "clothing-001:clothing-01",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-evidence, usage-preference-weak.",
+      "confidence_tier": "medium",
+      "evidence_reused": 0,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "clothing-02",
+        "english": "shoes",
+        "indonesian": "sepatu",
+        "malaysian": "kasut",
+        "sense": "footwear worn outdoors or for everyday walking",
+        "tags": [
+          "clothing"
+        ]
+      },
+      "candidate_ref": "clothing-001:clothing-02",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 8,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "everyday-actions-01",
+        "english": "send",
+        "indonesian": "kirim",
+        "malaysian": "hantar",
+        "sense": "send an item to someone",
+        "tags": [
+          "everyday-actions"
+        ]
+      },
+      "candidate_ref": "common-verbs-001:everyday-actions-01",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-evidence, limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "very-low",
+      "evidence_reused": 0,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "communication-01",
+        "english": "message",
+        "indonesian": "pesan",
+        "malaysian": "mesej",
+        "sense": "a written or digital communication sent to someone",
+        "tags": [
+          "communication"
+        ]
+      },
+      "candidate_ref": "communication-001:communication-01",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "medium",
+      "evidence_reused": 7,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "communication-03",
+        "english": "chat",
+        "indonesian": "obrolan",
+        "malaysian": "sembang",
+        "sense": "an informal conversation, especially by text or online",
+        "tags": [
+          "communication"
+        ]
+      },
+      "candidate_ref": "communication-001:communication-03",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-evidence, limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "very-low",
+      "evidence_reused": 0,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "everyday-objects-05",
+        "english": "eggplant",
+        "indonesian": "terong",
+        "malaysian": "terung",
+        "sense": "The edible purple vegetable also called aubergine.",
+        "tags": [
+          "everyday-objects",
+          "food"
+        ]
+      },
+      "candidate_ref": "everyday-objects-001:everyday-objects-05",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 6,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "everyday-objects-06",
+        "english": "watermelon",
+        "indonesian": "semangka",
+        "malaysian": "tembikai",
+        "sense": "A large fruit with sweet red flesh and green rind.",
+        "tags": [
+          "everyday-objects",
+          "food"
+        ]
+      },
+      "candidate_ref": "everyday-objects-001:everyday-objects-06",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-evidence, limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "very-low",
+      "evidence_reused": 0,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "foods-01",
+        "english": "lunch",
+        "indonesian": "makan siang",
+        "malaysian": "makan tengah hari",
+        "sense": "The meal eaten around midday.",
+        "tags": [
+          "foods-and-eating"
+        ]
+      },
+      "candidate_ref": "food-001:foods-01",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "foods-04",
+        "english": "tasty",
+        "indonesian": "enak",
+        "malaysian": "sedap",
+        "sense": "Having a pleasant taste, said of food.",
+        "tags": [
+          "foods-and-eating"
+        ]
+      },
+      "candidate_ref": "food-001:foods-04",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; historical-objection, limited-verifier-agreement.",
+      "confidence_tier": "low",
+      "evidence_reused": 5,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "foods-06",
+        "english": "biscuit",
+        "indonesian": "biskuit",
+        "malaysian": "biskut",
+        "sense": "A small, dry baked snack.",
+        "tags": [
+          "foods-and-eating"
+        ]
+      },
+      "candidate_ref": "food-001:foods-06",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; historical-objection, limited-verifier-agreement.",
+      "confidence_tier": "low",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "health-01",
+        "english": "medicine (to treat illness)",
+        "indonesian": "obat",
+        "malaysian": "ubat",
+        "sense": "a substance used to treat illness, whether taken or applied",
+        "tags": [
+          "health"
+        ]
+      },
+      "candidate_ref": "health-001:health-01",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 5,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-02",
+        "english": "bedroom",
+        "indonesian": "kamar tidur",
+        "malaysian": "bilik tidur",
+        "sense": "room used for sleeping",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-02",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; historical-objection, limited-verifier-agreement.",
+      "confidence_tier": "low",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-03",
+        "english": "refrigerator",
+        "indonesian": "kulkas",
+        "malaysian": "peti sejuk",
+        "sense": "appliance that keeps food cold",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-03",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; historical-objection, limited-verifier-agreement.",
+      "confidence_tier": "low",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-04",
+        "english": "window",
+        "indonesian": "jendela",
+        "malaysian": "tingkap",
+        "sense": "glass opening in a wall that lets in light",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-04",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-05",
+        "english": "trash can",
+        "indonesian": "tempat sampah",
+        "malaysian": "tong sampah",
+        "sense": "container for household rubbish",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-05",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-06",
+        "english": "bucket",
+        "indonesian": "ember",
+        "malaysian": "baldi",
+        "sense": "open container with a handle for carrying water",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-06",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; historical-objection, limited-verifier-agreement.",
+      "confidence_tier": "low",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-08",
+        "english": "chair",
+        "indonesian": "kursi",
+        "malaysian": "kerusi",
+        "sense": "seat for one person with a back",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-08",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; no material objections remain.",
+      "confidence_tier": "high",
+      "evidence_reused": 4,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "places-01",
+        "english": "office",
+        "indonesian": "kantor",
+        "malaysian": "pejabat",
+        "sense": "a workplace or administrative office",
+        "tags": [
+          "places",
+          "work"
+        ]
+      },
+      "candidate_ref": "places-001:places-01",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "medium",
+      "evidence_reused": 8,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "produce-03",
+        "english": "papaya",
+        "indonesian": "pepaya",
+        "malaysian": "betik",
+        "sense": "the common ripe papaya fruit",
+        "tags": [
+          "produce",
+          "fruit",
+          "contrast"
+        ]
+      },
+      "candidate_ref": "produce-001:produce-03",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-evidence, limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "very-low",
+      "evidence_reused": 0,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-05",
+        "english": "pencil",
+        "indonesian": "pensil",
+        "malaysian": "pensel",
+        "sense": "A writing tool with a graphite core that can be erased.",
+        "tags": [
+          "school"
+        ]
+      },
+      "candidate_ref": "school-001:topic-05",
+      "confidence_rationale": null,
+      "confidence_tier": null,
+      "evidence_reused": 5,
+      "outcome": "hold",
+      "reason_codes": [
+        "The unresolved Malaysian rival pensil could materially misteach learners if pensel is presented as the categorical normal Malaysian form."
+      ],
+      "relation": "similar",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The unresolved Malaysian rival pensil could materially misteach learners if pensel is presented as the categorical normal Malaysian form."
+        ]
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "topic-06",
+        "english": "eraser",
+        "indonesian": "penghapus",
+        "malaysian": "pemadam",
+        "sense": "A small tool used to remove pencil marks from paper.",
+        "tags": [
+          "school"
+        ]
+      },
+      "candidate_ref": "school-001:topic-06",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-evidence, limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "very-low",
+      "evidence_reused": 0,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "technology-07",
+        "english": "camera",
+        "indonesian": "kamera",
+        "malaysian": "kamera",
+        "sense": "device used to take photographs or record video",
+        "tags": [
+          "technology"
+        ]
+      },
+      "candidate_ref": "technology-001:technology-07",
+      "confidence_rationale": null,
+      "confidence_tier": null,
+      "evidence_reused": 5,
+      "outcome": "rejected",
+      "reason_codes": [
+        "no-meaningful-cross-language-contrast"
+      ],
+      "relation": "same",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": false
+    },
+    {
+      "candidate": {
+        "candidate_id": "transportation-01",
+        "english": "car",
+        "indonesian": "mobil",
+        "legacy_id": "000001",
+        "malaysian": "kereta",
+        "sense": "A passenger road vehicle with four wheels.",
+        "tags": [
+          "transportation"
+        ]
+      },
+      "candidate_ref": "transportation-001:transportation-01",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; historical-objection, limited-verifier-agreement.",
+      "confidence_tier": "low",
+      "evidence_reused": 11,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "transportation-04",
+        "english": "bus",
+        "indonesian": "bus",
+        "malaysian": "bas",
+        "sense": "A large road vehicle carrying multiple passengers on a route.",
+        "tags": [
+          "transportation"
+        ]
+      },
+      "candidate_ref": "transportation-001:transportation-04",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 13,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "transportation-06",
+        "english": "truck",
+        "indonesian": "truk",
+        "malaysian": "lori",
+        "sense": "A large road vehicle used to carry goods.",
+        "tags": [
+          "transportation"
+        ]
+      },
+      "candidate_ref": "transportation-001:transportation-06",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement, usage-preference-weak.",
+      "confidence_tier": "medium",
+      "evidence_reused": 2,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    },
+    {
+      "candidate": {
+        "candidate_id": "university-study-03",
+        "english": "scholarship",
+        "indonesian": "beasiswa",
+        "malaysian": "biasiswa",
+        "sense": "Financial support awarded to help a student pay for education.",
+        "tags": [
+          "university-study"
+        ]
+      },
+      "candidate_ref": "university-001:university-study-03",
+      "confidence_rationale": "Independent verifier supports the shared sense and useful relation; limited-verifier-agreement.",
+      "confidence_tier": "medium",
+      "evidence_reused": 10,
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier_reused": true
+    }
+  ],
+  "schema_version": 1,
+  "total_candidates": 26,
+  "total_elapsed_seconds": 95.181,
+  "verifier_attempts": 10,
+  "verifier_calls": 5
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.432369+00:00",
+  "input_digest": "b5c10a3add651b2e0959b1f055501ca76ecf600c7dd84666d9d688b27322fe0c",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A motorcycle helmet is protective headgear worn by a rider; a motorcycle is the vehicle.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-02",
+          "rationale": "A motorcycle helmet is protective headgear worn by a rider; a motorcycle is the vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-02",
+        "rationale": "A motorcycle helmet is protective headgear worn by a rider; a motorcycle is the vehicle.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "a625f2495d627080b9ff3ae4b7962cb103fed8d8f023a855b93514aa507ca15c"
+}

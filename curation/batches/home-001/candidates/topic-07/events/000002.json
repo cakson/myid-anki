@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-03T19:44:42.799041+00:00",
+  "input_digest": "ca07dd08149b3fd400138eefd7a7e0a45130365dad0b6fe23d31b3129dc277c1",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Dapur denotes the part of a house where cooking takes place. It can also mean a stove, so context determines the sense.\", \"common_use\": \"Widely understood and common in Malaysian Malay.\", \"preferred\": \"Dapur is the normal everyday choice for a kitchen; the same word is also normal in Indonesian.\", \"register\": \"Neutral.\", \"region\": \"Malaysia generally; no specific regional restriction identified.\", \"alternatives\": [\"ruang dapur\"], \"claims\": [{\"claim_id\": \"topic-07-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Dapur can mean the cooking area of a house and can also mean a stove.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"topic-07-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Dapur is the normal everyday Malaysian Malay term for a kitchen.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dapur\", \"claim_ids\": [\"topic-07-Malaysia-meaning\", \"topic-07-Malaysia-preferred\"], \"evidence_to_check\": \"DBP lists both the cooking-area and stove senses of dapur; contemporary everyday preference needs separate checking.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/home-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "ruang dapur"
+      ],
+      "claims": [
+        {
+          "claim_id": "topic-07-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Dapur can mean the cooking area of a house and can also mean a stove."
+        },
+        {
+          "claim_id": "topic-07-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Dapur is the normal everyday Malaysian Malay term for a kitchen."
+        }
+      ],
+      "common_use": "Widely understood and common in Malaysian Malay.",
+      "meaning": "Dapur denotes the part of a house where cooking takes place. It can also mean a stove, so context determines the sense.",
+      "preferred": "Dapur is the normal everyday choice for a kitchen; the same word is also normal in Indonesian.",
+      "region": "Malaysia generally; no specific regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "topic-07-Malaysia-meaning",
+            "topic-07-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP lists both the cooking-area and stove senses of dapur; contemporary everyday preference needs separate checking.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dapur"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "ruang dapur"
+    ],
+    "claims": [
+      {
+        "claim_id": "topic-07-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Dapur can mean the cooking area of a house and can also mean a stove."
+      },
+      {
+        "claim_id": "topic-07-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Dapur is the normal everyday Malaysian Malay term for a kitchen."
+      }
+    ],
+    "common_use": "Widely understood and common in Malaysian Malay.",
+    "meaning": "Dapur denotes the part of a house where cooking takes place. It can also mean a stove, so context determines the sense.",
+    "preferred": "Dapur is the normal everyday choice for a kitchen; the same word is also normal in Indonesian.",
+    "region": "Malaysia generally; no specific regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "topic-07-Malaysia-meaning",
+          "topic-07-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP lists both the cooking-area and stove senses of dapur; contemporary everyday preference needs separate checking.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dapur"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "ce51225aa1ac807030048da3448bffd76d2995b80c4e6add04cf1799af93a502"
+}

@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-04T10:12:24.620194+00:00",
+  "input_digest": "40dcd1bdc93a275a5fe1e8dbbaa5151996076ce4214ef16f59d3aa085a8399b7",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-6\", \"result\": {\"overlaps\": [{\"other_id\": \"communication-001:communication-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An email is a specific kind of message, but this candidate refers to the electronic mail format or service; the other is a general written or digital communication.\"}]}, \"bundle_response\": \"curation/batches/communication-001/normalize-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/normalize-response.json",
+    "model": "GPT-6",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "communication-001:communication-01",
+          "rationale": "An email is a specific kind of message, but this candidate refers to the electronic mail format or service; the other is a general written or digital communication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "communication-001:communication-01",
+        "rationale": "An email is a specific kind of message, but this candidate refers to the electronic mail format or service; the other is a general written or digital communication.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "8cd96a87155c02809e97ff1ec2db51f13b7b01a0ba904216333fec255e886373"
+}

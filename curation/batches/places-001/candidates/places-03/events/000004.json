@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-10T01:31:47.171107+00:00",
+  "input_digest": "1dbe5d3c13da0bc3021012a32f8f976e4058344d97c736d96e2a768f4002607e",
+  "model": "gpt-5.6-luna/codex-cli",
+  "prompt_set_version": "1.3.0",
+  "raw_response": "{\"schema_version\":1,\"role\":\"relation-proposal\",\"model\":\"GPT-5\",\"result\":{\"english\":\"post office\",\"relation\":\"different-common-word\",\"semantic_alignment\":\"Both terms mean a post office, but kantor pos is the ordinary Indonesian term and pejabat pos is the ordinary Malaysian Malay term.\",\"aligned\":true,\"claims\":[{\"claim_id\":\"relation:places-03-id-my-different-common-word-1\",\"claim_type\":\"relation\",\"proposition\":\"For the neutral sense 'post office,' Indonesian kantor pos and Malaysian pejabat pos are distinct ordinary common words used in their respective locales.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:places-03-id-my-different-common-word-1",
+          "claim_type": "relation",
+          "proposition": "For the neutral sense 'post office,' Indonesian kantor pos and Malaysian pejabat pos are distinct ordinary common words used in their respective locales."
+        }
+      ],
+      "english": "post office",
+      "relation": "different-common-word",
+      "semantic_alignment": "Both terms mean a post office, but kantor pos is the ordinary Indonesian term and pejabat pos is the ordinary Malaysian Malay term."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:places-03-id-my-different-common-word-1",
+        "claim_type": "relation",
+        "proposition": "For the neutral sense 'post office,' Indonesian kantor pos and Malaysian pejabat pos are distinct ordinary common words used in their respective locales."
+      }
+    ],
+    "english": "post office",
+    "relation": "different-common-word",
+    "semantic_alignment": "Both terms mean a post office, but kantor pos is the ordinary Indonesian term and pejabat pos is the ordinary Malaysian Malay term."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "f0b712e6aefc8c9c331a4dd29f84a494a32fc651948c82496d820108041f7782"
+}

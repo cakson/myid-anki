@@ -1,0 +1,45 @@
+{
+  "attempt": {
+    "candidate_ref": "technical-deferred-random",
+    "elapsed_seconds": 9.564,
+    "error_summary": null,
+    "exit_code": 0,
+    "input_tokens": 11631,
+    "model": "gpt-5.6-luna",
+    "output_tokens": 731,
+    "provider_request_id": null,
+    "retry_count": 0,
+    "status": "complete"
+  },
+  "ended_at_utc": "2026-10-15T01:25:42.908067+00:00",
+  "model": "gpt-5.6-luna",
+  "pool_size": 13,
+  "results": {
+    "pros4-actions-001:actions-08": {
+      "candidate_ref": "pros4-actions-001:actions-08",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The English cue and sense are precise. Indonesian mengaduk and Malaysian mengacau are the ordinary everyday verbs for stirring food during cooking. The contrast is useful and does not involve a problematic borrowed or merely localized-standard form.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "pros4-home-001:home-03": {
+      "candidate_ref": "pros4-home-001:home-03",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The cue and sense accurately identify a doormat. Indonesian keset and Malaysian tikar kaki are established, everyday terms for an entrance mat used to wipe feet. The national contrast is useful; tikar kaki is not merely a dictionary-only or inappropriate borrowed form here.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    }
+  },
+  "selected_refs": [
+    "pros4-actions-001:actions-08",
+    "pros4-home-001:home-03"
+  ],
+  "selection_seed": "feature003-technical-deferred-random-v1",
+  "started_at_utc": "2026-10-15T01:25:33.342461+00:00"
+}

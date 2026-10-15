@@ -1,0 +1,110 @@
+{
+  "at": "2026-10-04T03:37:44.744990+00:00",
+  "input_digest": "2d3b700fe909e05bd3b363cfdfe53d6676c4098e33460998f5e800f23efcbafa",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-luna/codex-cli\", \"result\": {\"observations\": [{\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-06-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"topic-06-obs-2\", \"limitations\": \"No entry text or specific access error was exposed; the proposed senses were not verified.\", \"locale\": \"Malaysia\", \"observation\": \"The network tool returned an internal error without page content. The rosak entry could not be inspected, so this source provides no support.\", \"page_location_or_query\": \"Direct page retrieval\", \"publisher\": \"Dewan Bahasa dan Pustaka Malaysia\", \"register\": \"Unassessed\", \"source_group\": \"PRPM / Dewan Bahasa dan Pustaka\", \"source_title\": \"PRPM rosak search entry\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=168608&keyword=rosak\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"manual-inspection\", \"claim_id\": \"topic-06-meaning\", \"claim_type\": \"relation\", \"evidence_id\": \"topic-06-obs-3\", \"limitations\": \"The Indonesian dictionary supports relevant senses; the Malaysian lead was inaccessible. Neither dictionary evidence nor one accessible entry establishes everyday preference.\", \"locale\": \"Indonesia; Malaysia\", \"observation\": \"No contextual or comparative evidence was retrieved that establishes Indonesian rusak and Malaysian rosak as common everyday choices.\", \"page_location_or_query\": \"Candidate relation claim\", \"publisher\": \"Not available\", \"register\": \"Everyday preference unestablished\", \"source_group\": \"No comparative usage evidence retrieved\", \"source_title\": \"Everyday word-choice evidence\", \"stance\": \"inconclusive\", \"url_or_query\": \"No corpus query supplied or retrieved\", \"usage_basis\": \"dictionary-only\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"topic-06-obs-1\", \"reason\": \"publisher must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/common-adjectives-001/evidence-response-cleaned.json\"}",
+  "reported_model": "gpt-6-luna/codex-cli",
+  "response": {
+    "bundle_response": "curation/batches/common-adjectives-001/evidence-response-cleaned.json",
+    "model": "gpt-6-luna/codex-cli",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-06-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "topic-06-obs-2",
+          "limitations": "No entry text or specific access error was exposed; the proposed senses were not verified.",
+          "locale": "Malaysia",
+          "observation": "The network tool returned an internal error without page content. The rosak entry could not be inspected, so this source provides no support.",
+          "page_location_or_query": "Direct page retrieval",
+          "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+          "register": "Unassessed",
+          "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+          "source_title": "PRPM rosak search entry",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=168608&keyword=rosak",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "manual-inspection",
+          "claim_id": "topic-06-meaning",
+          "claim_type": "relation",
+          "evidence_id": "topic-06-obs-3",
+          "limitations": "The Indonesian dictionary supports relevant senses; the Malaysian lead was inaccessible. Neither dictionary evidence nor one accessible entry establishes everyday preference.",
+          "locale": "Indonesia; Malaysia",
+          "observation": "No contextual or comparative evidence was retrieved that establishes Indonesian rusak and Malaysian rosak as common everyday choices.",
+          "page_location_or_query": "Candidate relation claim",
+          "publisher": "Not available",
+          "register": "Everyday preference unestablished",
+          "source_group": "No comparative usage evidence retrieved",
+          "source_title": "Everyday word-choice evidence",
+          "stance": "inconclusive",
+          "url_or_query": "No corpus query supplied or retrieved",
+          "usage_basis": "dictionary-only"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "topic-06-obs-1",
+          "reason": "publisher must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-06-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "topic-06-obs-2",
+        "limitations": "No entry text or specific access error was exposed; the proposed senses were not verified.",
+        "locale": "Malaysia",
+        "observation": "The network tool returned an internal error without page content. The rosak entry could not be inspected, so this source provides no support.",
+        "page_location_or_query": "Direct page retrieval",
+        "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+        "register": "Unassessed",
+        "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+        "source_title": "PRPM rosak search entry",
+        "stance": "inconclusive",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=168608&keyword=rosak",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "manual-inspection",
+        "claim_id": "topic-06-meaning",
+        "claim_type": "relation",
+        "evidence_id": "topic-06-obs-3",
+        "limitations": "The Indonesian dictionary supports relevant senses; the Malaysian lead was inaccessible. Neither dictionary evidence nor one accessible entry establishes everyday preference.",
+        "locale": "Indonesia; Malaysia",
+        "observation": "No contextual or comparative evidence was retrieved that establishes Indonesian rusak and Malaysian rosak as common everyday choices.",
+        "page_location_or_query": "Candidate relation claim",
+        "publisher": "Not available",
+        "register": "Everyday preference unestablished",
+        "source_group": "No comparative usage evidence retrieved",
+        "source_title": "Everyday word-choice evidence",
+        "stance": "inconclusive",
+        "url_or_query": "No corpus query supplied or retrieved",
+        "usage_basis": "dictionary-only"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "topic-06-obs-1",
+        "reason": "publisher must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "686377201e85b86e0cc9d0a1df1b176ba1a21436e2189e4e6082310f9c0ff669"
+}

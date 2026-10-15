@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-03T19:49:15.338352+00:00",
+  "input_digest": "b91d8efffd9ba3942314f28f49bd8a9d7b5b88b39333864c0a5c1b4e2a06a917",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"english\": \"lunch\", \"relation\": \"similar\", \"semantic_alignment\": \"Both expressions name the meal eaten around midday; they share makan but use different time expressions.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"foods-01-relation\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian makan siang and Malaysian Malay makan tengah hari are similar everyday expressions for lunch.\"}]}, \"bundle_response\": \"curation/batches/food-001/relation-response-v2.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/relation-response-v2.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "foods-01-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian makan siang and Malaysian Malay makan tengah hari are similar everyday expressions for lunch."
+        }
+      ],
+      "english": "lunch",
+      "relation": "similar",
+      "semantic_alignment": "Both expressions name the meal eaten around midday; they share makan but use different time expressions."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "foods-01-relation",
+        "claim_type": "relation",
+        "proposition": "Indonesian makan siang and Malaysian Malay makan tengah hari are similar everyday expressions for lunch."
+      }
+    ],
+    "english": "lunch",
+    "relation": "similar",
+    "semantic_alignment": "Both expressions name the meal eaten around midday; they share makan but use different time expressions."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "1fbd16f49bbce5ae188c24122068781d2f05bf95edf89254bddd12240c2b960f"
+}

@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T04:09:46.924230+00:00",
+  "input_digest": "c3cf1e3bc44d9386f85db4204fedbd93947d5e0ebca54add2b9a33d3fceef1fd",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"GPT-6\", \"result\": {\"english\": \"screen\", \"relation\": \"same\", \"semantic_alignment\": \"The display surface of a phone, computer, or television.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:technology-06\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian \\u201clayar\\u201d and Malaysian \\u201cskrin\\u201d both commonly refer to an electronic device\\u2019s screen, matching the English cue in the stated sense.\"}]}, \"bundle_response\": \"curation/batches/technology-001/relation-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/technology-001/relation-response.json",
+    "model": "GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:technology-06",
+          "claim_type": "relation",
+          "proposition": "Indonesian “layar” and Malaysian “skrin” both commonly refer to an electronic device’s screen, matching the English cue in the stated sense."
+        }
+      ],
+      "english": "screen",
+      "relation": "same",
+      "semantic_alignment": "The display surface of a phone, computer, or television."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:technology-06",
+        "claim_type": "relation",
+        "proposition": "Indonesian “layar” and Malaysian “skrin” both commonly refer to an electronic device’s screen, matching the English cue in the stated sense."
+      }
+    ],
+    "english": "screen",
+    "relation": "same",
+    "semantic_alignment": "The display surface of a phone, computer, or television."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "47cfe8d5d7f4f56f260f56d0f63eec5b1c1263a4af765c544ec3098f3893a795"
+}

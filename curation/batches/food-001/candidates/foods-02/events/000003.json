@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-03T19:44:42.775379+00:00",
+  "input_digest": "40e6af656a132c6568adc22cc532587510857622451d234283cdf60f8da676ab",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Sendok is a spoon used to scoop or eat food; the word also appears in names of measuring utensils.\", \"common_use\": \"Widely understood and used in contemporary Indonesia.\", \"preferred\": \"Sendok is the normal everyday choice for spoon.\", \"register\": \"Neutral.\", \"region\": \"National Indonesian usage; no specific regional limit identified.\", \"alternatives\": [\"sudu\"], \"claims\": [{\"claim_id\": \"foods-02-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Sendok names the utensil used to scoop and eat food.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"foods-02-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Sendok is the normal everyday Indonesian choice for spoon.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.kemendikdasmen.go.id/entri/sendok\", \"claim_ids\": [\"foods-02-Indonesia-meaning\"], \"exact_claim\": \"The dictionary entry is a lead for the utensil meaning of sendok.\"}, {\"url\": \"https://kemkes.go.id/app_asset/file_content_download/171090297565fa4ebfc61dd1.02559909.pdf\", \"claim_ids\": [\"foods-02-Indonesia-preferred\"], \"exact_claim\": \"Indonesian food guidance uses sendok makan in an ordinary food-preparation context.\"}]}, \"bundle_response\": \"curation/batches/food-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "sudu"
+      ],
+      "claims": [
+        {
+          "claim_id": "foods-02-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Sendok names the utensil used to scoop and eat food."
+        },
+        {
+          "claim_id": "foods-02-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Sendok is the normal everyday Indonesian choice for spoon."
+        }
+      ],
+      "common_use": "Widely understood and used in contemporary Indonesia.",
+      "meaning": "Sendok is a spoon used to scoop or eat food; the word also appears in names of measuring utensils.",
+      "preferred": "Sendok is the normal everyday choice for spoon.",
+      "region": "National Indonesian usage; no specific regional limit identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "foods-02-Indonesia-meaning"
+          ],
+          "exact_claim": "The dictionary entry is a lead for the utensil meaning of sendok.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/sendok"
+        },
+        {
+          "claim_ids": [
+            "foods-02-Indonesia-preferred"
+          ],
+          "exact_claim": "Indonesian food guidance uses sendok makan in an ordinary food-preparation context.",
+          "url": "https://kemkes.go.id/app_asset/file_content_download/171090297565fa4ebfc61dd1.02559909.pdf"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "sudu"
+    ],
+    "claims": [
+      {
+        "claim_id": "foods-02-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Sendok names the utensil used to scoop and eat food."
+      },
+      {
+        "claim_id": "foods-02-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Sendok is the normal everyday Indonesian choice for spoon."
+      }
+    ],
+    "common_use": "Widely understood and used in contemporary Indonesia.",
+    "meaning": "Sendok is a spoon used to scoop or eat food; the word also appears in names of measuring utensils.",
+    "preferred": "Sendok is the normal everyday choice for spoon.",
+    "region": "National Indonesian usage; no specific regional limit identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "foods-02-Indonesia-meaning"
+        ],
+        "exact_claim": "The dictionary entry is a lead for the utensil meaning of sendok.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/sendok"
+      },
+      {
+        "claim_ids": [
+          "foods-02-Indonesia-preferred"
+        ],
+        "exact_claim": "Indonesian food guidance uses sendok makan in an ordinary food-preparation context.",
+        "url": "https://kemkes.go.id/app_asset/file_content_download/171090297565fa4ebfc61dd1.02559909.pdf"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "81390fb125a32e8f992a59e6ce69b7f5faf0b78fa1b56b599c463b5225cbdf66"
+}

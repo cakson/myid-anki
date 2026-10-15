@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.422752+00:00",
+  "input_digest": "6382c1a4f30c3482fdeb3ac212f7f053353f74f69d389d9d84e31da227cc082c",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"000001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A taxi is a car hired to carry passengers for a fare; the accepted car concept does not specify that service.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000001",
+          "rationale": "A taxi is a car hired to carry passengers for a fare; the accepted car concept does not specify that service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000001",
+        "rationale": "A taxi is a car hired to carry passengers for a fare; the accepted car concept does not specify that service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "b6ae02f2b22e0acc3f8c85c9e439998317d6397bb22b831d0d1ebab5e2312b11"
+}

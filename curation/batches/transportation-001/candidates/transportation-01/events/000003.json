@@ -1,0 +1,115 @@
+{
+  "at": "2026-10-03T14:21:44.642384+00:00",
+  "input_digest": "dfb73908bbfc514b8336f2aa76743199cd009868882b8594d1a457a18f588081",
+  "model": "gpt-6-sol via codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol via codex-cli\", \"result\": {\"meaning\": \"Kereta denotes a car in the intended passenger-vehicle sense.\", \"common_use\": \"Kereta is common in contemporary Malaysian Malay. Mobil is understandable but uncommon for this sense.\", \"preferred\": \"Kereta is the normal everyday choice in Malaysia.\", \"register\": \"Kereta is neutral; mobil is chiefly Indonesian for this sense.\", \"region\": \"Malaysia\", \"alternatives\": [\"motokar\", \"automobil\"], \"claims\": [{\"claim_id\": \"my-car-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Kereta denotes a car; DBP glosses mobil as kereta or motokar.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"my-car-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Kereta is preferred in Malaysian Malay; DBP contrasts Malaysian kereta with Indonesian mobil in car-related terms.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=178260&keyword=mobil\", \"claim_ids\": [\"my-car-meaning\", \"my-car-preferred\"], \"evidence\": \"DBP defines mobil as motokar or kereta and marks its car sense IB (Indonesian).\"}, {\"url\": \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=car\", \"claim_ids\": [\"my-car-preferred\"], \"evidence\": \"MABBIM lists Indonesian mobil pribadi against Malaysian kereta persendirian, and pemilikan mobil against pemilikan kereta.\"}, {\"url\": \"https://ekonomi.gov.my/ms/statistik-sosioekonomi/petunjuk-ekonomi-terkini\", \"claim_ids\": [\"my-car-preferred\"], \"evidence\": \"Malaysia’s Ministry of Economy uses kereta penumpang baru.\"}]}, \"reported_model\": \"codex-cli-unavailable\"}",
+  "response": {
+    "model": "gpt-6-sol via codex-cli",
+    "reported_model": "codex-cli-unavailable",
+    "result": {
+      "alternatives": [
+        "motokar",
+        "automobil"
+      ],
+      "claims": [
+        {
+          "claim_id": "my-car-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Kereta denotes a car; DBP glosses mobil as kereta or motokar."
+        },
+        {
+          "claim_id": "my-car-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Kereta is preferred in Malaysian Malay; DBP contrasts Malaysian kereta with Indonesian mobil in car-related terms."
+        }
+      ],
+      "common_use": "Kereta is common in contemporary Malaysian Malay. Mobil is understandable but uncommon for this sense.",
+      "meaning": "Kereta denotes a car in the intended passenger-vehicle sense.",
+      "preferred": "Kereta is the normal everyday choice in Malaysia.",
+      "region": "Malaysia",
+      "register": "Kereta is neutral; mobil is chiefly Indonesian for this sense.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "my-car-meaning",
+            "my-car-preferred"
+          ],
+          "evidence": "DBP defines mobil as motokar or kereta and marks its car sense IB (Indonesian).",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=178260&keyword=mobil"
+        },
+        {
+          "claim_ids": [
+            "my-car-preferred"
+          ],
+          "evidence": "MABBIM lists Indonesian mobil pribadi against Malaysian kereta persendirian, and pemilikan mobil against pemilikan kereta.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=car"
+        },
+        {
+          "claim_ids": [
+            "my-car-preferred"
+          ],
+          "evidence": "Malaysia’s Ministry of Economy uses kereta penumpang baru.",
+          "url": "https://ekonomi.gov.my/ms/statistik-sosioekonomi/petunjuk-ekonomi-terkini"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "motokar",
+      "automobil"
+    ],
+    "claims": [
+      {
+        "claim_id": "my-car-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Kereta denotes a car; DBP glosses mobil as kereta or motokar."
+      },
+      {
+        "claim_id": "my-car-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Kereta is preferred in Malaysian Malay; DBP contrasts Malaysian kereta with Indonesian mobil in car-related terms."
+      }
+    ],
+    "common_use": "Kereta is common in contemporary Malaysian Malay. Mobil is understandable but uncommon for this sense.",
+    "meaning": "Kereta denotes a car in the intended passenger-vehicle sense.",
+    "preferred": "Kereta is the normal everyday choice in Malaysia.",
+    "region": "Malaysia",
+    "register": "Kereta is neutral; mobil is chiefly Indonesian for this sense.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "my-car-meaning",
+          "my-car-preferred"
+        ],
+        "evidence": "DBP defines mobil as motokar or kereta and marks its car sense IB (Indonesian).",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=178260&keyword=mobil"
+      },
+      {
+        "claim_ids": [
+          "my-car-preferred"
+        ],
+        "evidence": "MABBIM lists Indonesian mobil pribadi against Malaysian kereta persendirian, and pemilikan mobil against pemilikan kereta.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=car"
+      },
+      {
+        "claim_ids": [
+          "my-car-preferred"
+        ],
+        "evidence": "Malaysia’s Ministry of Economy uses kereta penumpang baru.",
+        "url": "https://ekonomi.gov.my/ms/statistik-sosioekonomi/petunjuk-ekonomi-terkini"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol via codex-cli",
+  "upstream_digest": "723142cd0fae25a3bbb618d7cacf191c9e970b937b5ed657a04a9444c1f0fc02"
+}

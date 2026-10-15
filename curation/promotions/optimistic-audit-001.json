@@ -1,0 +1,3663 @@
+{
+  "audit_digest": "398bb0119d1fa8d32e575b37f7968793a3c02933ccc7345b958a74324d5aaca0",
+  "excluded": [
+    {
+      "candidate_ref": "technology-001:technology-07",
+      "reason": "no-meaningful-cross-language-contrast"
+    }
+  ],
+  "items": [
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Celana/seluar are natural trouser terms; medium retains the unresolved breadth of trousers versus shorter garments and limited comparative usage evidence.",
+        "english": null,
+        "review_flags": [
+          "limited-evidence",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Celana and seluar are natural contemporary umbrella terms for pants or trousers in Indonesia and Malaysia respectively, and the national contrast is useful. Both can also cover shorter garments, so full length may be expressed as celana panjang or seluar panjang, but that ordinary breadth does not invalidate the card’s stated sense.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "clothing-01",
+        "english": "trousers",
+        "indonesian": "celana",
+        "malaysian": "seluar",
+        "sense": "clothing worn on the lower body, generally covering both legs",
+        "tags": [
+          "clothing"
+        ]
+      },
+      "candidate_ref": "clothing-001:clothing-01",
+      "concept_id": "000008",
+      "confidence": "medium",
+      "confidence_rationale": "Celana/seluar are natural trouser terms; medium retains the unresolved breadth of trousers versus shorter garments and limited comparative usage evidence.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "celana panjang for full-length trousers when length needs to be specified",
+            "celana pendek for shorts",
+            "pantalon in narrower or formal contexts, though not established here as a competing everyday term"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:clothing-01-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In Indonesian, celana denotes lower-body clothing such as trousers or pants, generally covering the legs."
+            },
+            {
+              "claim_id": "indonesian-usage:clothing-01-locale-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Celana is used in contemporary Indonesian retail to label a broad collection of pants and multiple garment styles."
+            }
+          ],
+          "common_use": "Commonly understood and widely used in contemporary Indonesia for pants or trousers. The inspected UNIQLO Indonesia collection uses Celana in the collection title and across multiple garment styles.",
+          "meaning": "Celana is the ordinary Indonesian term for clothing worn on the lower body, generally covering both legs, including trousers and many other types of pants.",
+          "preferred": "Celana appears to be a normal everyday choice for the proposed sense, but the supplied source does not establish national preference over possible alternatives in every context.",
+          "region": "Indonesia-wide usage is plausible; the supplied source specifically documents contemporary Indonesian retail usage and does not establish regional variation.",
+          "register": "Neutral and everyday.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The Indonesian storefront calls its pants collection Celana Rileks and lists many garment styles as Celana.",
+              "limitation": "This supports contemporary retail usage but is not a national frequency estimate or a comparison with all synonyms.",
+              "publisher": "UNIQLO Indonesia",
+              "source_kind": "contextual",
+              "url": "https://www.uniqlo.com/id/id/men/bottoms/casual-pants?categoryIds=52351"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "celana"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:clothing-01-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In Malaysian Malay, seluar denotes legged clothing worn from the waist down, including long and short types, matching the neutral sense of trousers."
+            },
+            {
+              "claim_id": "malaysian-usage:clothing-01-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Seluar is used naturally in Malaysian institutional clothing terminology, including Seluar Trek in a preschool uniform guideline."
+            }
+          ],
+          "common_use": "Seluar is clearly understood and commonly used in Malaysia for trousers and similar lower-body garments. The provided institutional example uses Seluar Trek naturally.",
+          "meaning": "Seluar denotes clothing worn from the waist down that covers both legs, including long and short types; this matches the neutral sense of trousers.",
+          "preferred": "The notes support common Malaysian use, but do not establish normal everyday preference over alternative forms with sufficient confidence.",
+          "region": "Malaysia; no narrower regional limitation is indicated.",
+          "register": "Neutral everyday usage; also used in institutional and school-uniform contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The seluar entries describe legged clothing worn from the waist down, with long and short types, and cross-reference celana.",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "dictionary",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=seluar"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "Section 5.7.1, PDF page 68, lines 1953-1960 names Seluar Trek as a preschool uniform garment.",
+              "publisher": "Kementerian Pendidikan Malaysia",
+              "source_group": "Malaysian Ministry of Education",
+              "source_kind": "contextual",
+              "url": "https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/surat_siaran/bahagian-pengurusan-sekolah-harian/SS%20KPM%20Bil.%204%20Tahun%202025%20-%20GP%20Pengurusan%20Prasekolah%20Edisi%202025.pdf"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "clothing-001",
+        "candidate_id": "clothing-01",
+        "event_count": 8,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "trousers",
+        "id": "000008",
+        "image": "",
+        "indonesian": "celana",
+        "malaysian": "seluar",
+        "relation": "different-common-word",
+        "tags": "clothing"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-evidence",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Sepatu/kasut are clear everyday shoe defaults; medium retains limited independent usage corroboration despite a sound lexical contrast.",
+        "english": null,
+        "review_flags": [],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Sepatu is the ordinary Indonesian word for shoes, while kasut is the ordinary Malaysian Malay word. The pairing accurately expresses the same general footwear sense and represents a strong, useful national lexical contrast. Malaysian recognition of sepatu as an Indonesian-associated synonym does not undermine it.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "clothing-02",
+        "english": "shoes",
+        "indonesian": "sepatu",
+        "malaysian": "kasut",
+        "sense": "footwear worn outdoors or for everyday walking",
+        "tags": [
+          "clothing"
+        ]
+      },
+      "candidate_ref": "clothing-001:clothing-02",
+      "concept_id": "000009",
+      "confidence": "medium",
+      "confidence_rationale": "Sepatu/kasut are clear everyday shoe defaults; medium retains limited independent usage corroboration despite a sound lexical contrast.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "alas kaki (broader or more formal term meaning footwear)",
+            "sandal (sandals specifically)"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:clothing-02-id-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In Indonesian, sepatu denotes footwear or shoes, including footwear worn outdoors or for everyday walking."
+            },
+            {
+              "claim_id": "indonesian-usage:clothing-02-id-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Sepatu is commonly used in contemporary Indonesian commercial language for broad men's footwear categories and product names."
+            },
+            {
+              "claim_id": "indonesian-usage:clothing-02-id-preference-1",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Sepatu is the nationally associated Indonesian term contrasting with Malaysian kasut for the general concept of shoes, although the available survey does not establish representative corpus frequency."
+            }
+          ],
+          "common_use": "Commonly used in contemporary Indonesia for general footwear. An Indonesian adidas storefront uses sepatu for broad men's footwear categories and product names.",
+          "meaning": "Sepatu is the ordinary Indonesian term for footwear worn outdoors or for everyday walking, including shoes generally.",
+          "preferred": "Sepatu is strongly supported as the normal Indonesian choice for this sense, but the inspected comparative study measures national association rather than representative everyday frequency. Preference over narrower footwear terms is therefore not fully established.",
+          "region": "Indonesia generally; no specific regional restriction is indicated by the inspected notes.",
+          "register": "Neutral and everyday; suitable across ordinary spoken and written contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "lead_claim": "The Indonesian storefront labels the broad men's footwear category Sepatu Pria and repeatedly uses sepatu in product names.",
+              "limitation": "A footwear retailer demonstrates contemporary use but does not alone prove national preference.",
+              "location": "Sepatu Pria category and product list, lines 33-75",
+              "publisher": "adidas Indonesia",
+              "source_group": "adidas Indonesia",
+              "source_kind": "contextual",
+              "url": "https://www.adidas.co.id/id/pria-sepatu"
+            },
+            {
+              "claim_ids": [],
+              "lead_claim": "In a 141-person classification survey, 139 respondents assigned sepatu to Indonesian and 139 assigned kasut to Malaysian for footwear.",
+              "limitation": "The study measures recognition of national associations, not representative corpus frequency; most respondents were Indonesian and the sample covered four countries.",
+              "location": "2021 study, PDF pages 6-7, lines 516-543 and 560-576",
+              "publisher": "Badan Pengembangan dan Pembinaan Bahasa, Indonesia",
+              "source_group": "Sawerigading language research journal",
+              "source_kind": "comparative",
+              "url": "https://sawerigading.kemendikdasmen.go.id/index.php/sawerigading/article/download/892/420"
+            },
+            {
+              "claim_ids": [],
+              "lead_claim": "The manual lists sepatu/kasut/shoes among prominent differences between modern Indonesian and Malaysian Malay.",
+              "limitation": "An older pedagogical reference that does not by itself establish current frequency.",
+              "location": "Indonesian student manual, PDF page 41, lines 1357-1373",
+              "publisher": "Defense Language Institute, United States",
+              "source_group": "Defense Language Institute Indonesian course",
+              "source_kind": "comparative",
+              "url": "https://www.livelingua.com/dli/Indonesian/student%20manuals/DLI%20Indonesian%20-%20M1L1.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "sepatu (understood synonym, but primarily Indonesian-associated)",
+            "shoes (English loanword, used in some informal or mixed-language contexts)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:clothing-02-ms-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In Malaysian Malay, kasut denotes footwear covering the foot, including shoes for ordinary wear."
+            },
+            {
+              "claim_id": "malaysian-usage:clothing-02-ms-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Kasut is common in contemporary Malaysian usage, including Malaysian school and preschool clothing guidance."
+            },
+            {
+              "claim_id": "malaysian-usage:clothing-02-ms-preference-1",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "For the neutral everyday sense of shoes, Malaysian Malay normally prefers kasut over sepatu."
+            }
+          ],
+          "common_use": "Kasut is common and natural in contemporary Malaysian Malay. Malaysian institutional usage includes expressions such as kasut kanvas. Sepatu is understood as a synonym but is associated primarily with Indonesian Malay.",
+          "meaning": "Kasut means footwear worn on the feet, including shoes used outdoors or for everyday walking. It matches the proposed neutral sense.",
+          "preferred": "Kasut is the normal everyday Malaysian Malay choice for this sense; sepatu is not the preferred ordinary term in Malaysia.",
+          "region": "Malaysia generally; no specific regional limitation is indicated by the supplied notes.",
+          "register": "Neutral and everyday; also used in institutional and educational contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The entries for kasut define footwear covering the foot and list sepatu as a synonym.",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "dictionary",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=169476&keyword=kasut"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "Section 5.7.1 specifies kasut kanvas as footwear in a preschool uniform list.",
+              "publisher": "Kementerian Pendidikan Malaysia",
+              "source_group": "Malaysian Ministry of Education",
+              "source_kind": "contextual",
+              "url": "https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/surat_siaran/bahagian-pengurusan-sekolah-harian/SS%20KPM%20Bil.%204%20Tahun%202025%20-%20GP%20Pengurusan%20Prasekolah%20Edisi%202025.pdf"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "A classification survey directly contrasts Indonesian sepatu with Malaysian kasut; 139 of 141 respondents assigned kasut to Malaysian usage.",
+              "publisher": "Badan Pengembangan dan Pembinaan Bahasa, Indonesia",
+              "source_group": "Sawerigading language research journal",
+              "source_kind": "comparative",
+              "url": "https://sawerigading.kemendikdasmen.go.id/index.php/sawerigading/article/download/892/420"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The manual lists sepatu/kasut/shoes as a prominent Indonesian–Malaysian Malay vocabulary difference.",
+              "publisher": "Defense Language Institute",
+              "source_group": "Defense Language Institute Indonesian course",
+              "source_kind": "comparative",
+              "url": "https://www.livelingua.com/dli/Indonesian/student%20manuals/DLI%20Indonesian%20-%20M1L1.pdf"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "clothing-001",
+        "candidate_id": "clothing-02",
+        "event_count": 16,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "shoes",
+        "id": "000009",
+        "image": "",
+        "indonesian": "sepatu",
+        "malaysian": "kasut",
+        "relation": "different-common-word",
+        "tags": "clothing"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": []
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Kirim/hantar fit sending an item; very-low reflects sparse source corroboration and narrower Malay kirim contexts, not a known translation defect.",
+        "english": null,
+        "review_flags": [
+          "limited-evidence",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Kirim is natural Indonesian for sending an item, whereas hantar is the normal broad Malaysian verb for sending or delivering one. Malaysian kirim remains available in somewhat narrower or context-dependent uses, but this does not erase the useful everyday contrast. Bare stems are acceptable vocabulary-card forms, although inflected forms are usual in complete formal sentences.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "everyday-actions-01",
+        "english": "send",
+        "indonesian": "kirim",
+        "malaysian": "hantar",
+        "sense": "send an item to someone",
+        "tags": [
+          "everyday-actions"
+        ]
+      },
+      "candidate_ref": "common-verbs-001:everyday-actions-01",
+      "concept_id": "000010",
+      "confidence": "very-low",
+      "confidence_rationale": "Kirim/hantar fit sending an item; very-low reflects sparse source corroboration and narrower Malay kirim contexts, not a known translation defect.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "mengirim",
+            "mengirimkan",
+            "mengantar"
+          ],
+          "claims": [
+            {
+              "claim_id": "everyday-actions-01-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Kirim dapat menyatakan tindakan mengirim barang kepada penerima."
+            },
+            {
+              "claim_id": "everyday-actions-01-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Kirim adalah pilihan sehari-hari yang wajar untuk send an item; dalam kalimat lengkap, mengirim juga lazim."
+            }
+          ],
+          "common_use": "Sangat umum dan mudah dipahami di Indonesia, termasuk dalam frasa kirim paket dan kirim barang.",
+          "meaning": "Kirim berarti mengirimkan barang atau pesan kepada penerima; cocok dengan sense yang diminta.",
+          "preferred": "Kirim adalah pilihan sehari-hari yang wajar; mengirim adalah bentuk berimbuhan untuk kalimat lengkap.",
+          "region": "Dipakai secara luas di Indonesia; tidak ada batasan daerah yang jelas.",
+          "register": "Netral; kirim sebagai perintah atau bentuk ringkas terasa lebih percakapan.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "everyday-actions-01-Indonesia-meaning",
+                "everyday-actions-01-Indonesia-preferred"
+              ],
+              "exact_claim": "Halaman layanan Indonesia memakai kirim barang dan barang yang kamu kirim untuk pengiriman fisik.",
+              "url": "https://www.gojek.com/id-id/gobox"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "kirim",
+            "pos"
+          ],
+          "claims": [
+            {
+              "claim_id": "everyday-actions-01-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Hantar can mean sending or delivering an item to a recipient."
+            },
+            {
+              "claim_id": "everyday-actions-01-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Hantar is a natural general everyday choice for sending an item in Malaysian Malay."
+            }
+          ],
+          "common_use": "Common in everyday Malaysian Malay for parcels, messages, documents and other items.",
+          "meaning": "Hantar means to send or deliver an item to someone.",
+          "preferred": "Keep hantar for the stated neutral sense. Kirim is also understood and used, especially for things sent through an intermediary.",
+          "region": "Malaysia generally; no regional restriction identified.",
+          "register": "Neutral; everyday and standard.",
+          "source_leads": [
+            {
+              "hypothesis": "DBP's entry for menghantar gives delivery of a letter as an example; inspect the entry for the exact sense.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hantar"
+            },
+            {
+              "hypothesis": "DBP describes kirim as conveying or sending something, including by post; compare its scope with hantar.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=kirim"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "common-verbs-001",
+        "candidate_id": "everyday-actions-01",
+        "event_count": 6,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "send",
+        "id": "000010",
+        "image": "",
+        "indonesian": "kirim",
+        "malaysian": "hantar",
+        "relation": "different-common-word",
+        "tags": "everyday-actions"
+      },
+      "original_confidence": "very-low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Pesan/mesej fit a written message; medium flags pesan's other senses and incomplete preference evidence, which the cue resolves.",
+        "english": null,
+        "review_flags": [
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Pesan is a natural Indonesian noun for an individual written or digital message, while mesej is the usual Malaysian Malay form for that sense. Indonesian pesan is polysemous and Malaysian pesanan can mean a conveyed message, request, or instruction, but neither fact makes the pairing inaccurate.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "communication-01",
+        "english": "message",
+        "indonesian": "pesan",
+        "malaysian": "mesej",
+        "sense": "a written or digital communication sent to someone",
+        "tags": [
+          "communication"
+        ]
+      },
+      "candidate_ref": "communication-001:communication-01",
+      "concept_id": "000011",
+      "confidence": "medium",
+      "confidence_rationale": "Pesan/mesej fit a written message; medium flags pesan's other senses and incomplete preference evidence, which the cue resolves.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "chat (especially for app-based messaging or a chat conversation)",
+            "surat (letter)",
+            "pesan suara (voice message)"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:communication-01-id-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "KBBI-derived entry defines pesan as an instruction, advice, request, or message conveyed through another person; contemporary digital usage also applies it to messages sent in apps."
+            },
+            {
+              "claim_id": "indonesian-usage:communication-01-id-common",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Indonesian-language sources use pesan for WhatsApp messages and distinguish it from chat as a conversation or app feature."
+            },
+            {
+              "claim_id": "indonesian-usage:communication-01-id-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Pesan is a neutral general term for a message, while chat is a common alternative when the context is app-based conversation."
+            }
+          ],
+          "common_use": "Common and readily understood for written and digital messages; it is also used in phrases such as “pesan suara” (voice message).",
+          "meaning": "“Pesan” means a message or communication conveyed to someone. It also has other senses, including advice, an instruction, or an order.",
+          "preferred": "A natural, broadly usable choice for “message.” For app-based texting, “chat” is also common, especially when referring to the conversation or chat feature.",
+          "region": "Standard contemporary Indonesian; no specific regional limitation identified.",
+          "register": "Neutral; the word itself is not informal, though its exact sense depends on context.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The entry gives senses including a request, advice, instruction, or message conveyed through another person; this is a third-party KBBI mirror, not the official dictionary site.",
+              "url": "https://kbbi.web.id/pesan"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The article uses pesan in its description of WhatsApp group messages.",
+              "url": "https://inet.detik.com/tips-dan-trik/d-5646890/cara-balas-pesan-di-grup-whatsapp-tanpa-ketahuan-yang-lain"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The Indonesian-language document labels a Microsoft Teams feature “Obrolan (chat)” and describes private conversations.",
+              "url": "https://repository.uinsaizu.ac.id/10361/1/NURLAILY%20FAUZIATUN_IMPLEMENTASI%20MICROSOFT%20TEAMS%20FOR%20EDUCATION%20DALAM%20PEMBELAJARAN%20PENDIDIKAN%20AGAMA%20ISLAM%20DAN%20BUDI%20PEKERTI%20DI%20SMP%20NEGERI%201%20PURWOKERTO.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "pesanan",
+            "berita (when meaning news)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:communication-01-my-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In Malaysian Malay, mesej can mean a written or digital communication sent to someone."
+            },
+            {
+              "claim_id": "malaysian-usage:communication-01-my-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Mesej is a common everyday choice for a digital message in Malaysia."
+            }
+          ],
+          "common_use": "Common in everyday speech and writing, especially for texts and app messages.",
+          "meaning": "Mesej is understood in contemporary Malaysian Malay as a written or digital communication sent to someone. It can also refer to a message or item of news, depending on context.",
+          "preferred": "Mesej is the usual everyday choice for a digital message. Pesanan is an alternative, often suggesting a request, instruction, or message conveyed for someone.",
+          "region": "Used broadly in Malaysia; no clear regional restriction.",
+          "register": "Neutral and widely understood; a borrowing adapted to Malay spelling.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "claim_to_check": "Entry meaning and usage examples for mesej.",
+              "lookup": "mesej",
+              "source": "Kamus Dewan / PRPM, Dewan Bahasa dan Pustaka"
+            },
+            {
+              "claim_ids": [],
+              "claim_to_check": "Contemporary use of mesej for text and app communications.",
+              "lookup": "mesej teks; hantar mesej",
+              "source": "Malaysian news and telecom provider usage"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "communication-001",
+        "candidate_id": "communication-01",
+        "event_count": 12,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "message",
+        "id": "000011",
+        "image": "",
+        "indonesian": "pesan",
+        "malaysian": "mesej",
+        "relation": "different-common-word",
+        "tags": "communication"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Obrolan/sembang fit a casual conversation; very-low retains the digital-chat overlap and sparse preference evidence after narrowing the cue.",
+        "english": "casual conversation",
+        "review_flags": [
+          "limited-evidence",
+          "semantic-ambiguity",
+          "usage-preference-weak"
+        ],
+        "sense": "an informal or relaxed conversation",
+        "usage": {
+          "indonesian": {
+            "preferred": "Obrolan is natural for informal conversation; chat is often preferred for a digital app feature."
+          },
+          "malaysian": {
+            "preferred": "Sembang is natural for informal conversation; chat is also common for digital exchanges."
+          }
+        }
+      },
+      "audit_corrections": {
+        "english": "casual conversation; chat",
+        "historical_usage.indonesian.preferred": "Obrolan is a natural noun for an informal conversation; chat is often preferred for an app feature or specifically text-based exchange.",
+        "historical_usage.malaysian.preferred": "Sembang is a natural Malaysian word for an informal conversation; chat is also very common for specifically online or app-based exchanges.",
+        "sense": "an informal or relaxed conversation, whether in person or online"
+      },
+      "audit_reason": "Obrolan and sembang are natural country-associated words for a casual or informal conversation, so the underlying contrast is worth learning. The present sense overemphasizes text or online chat, where the English borrowing chat is highly natural in both places and may be more idiomatic for an app feature or messaging activity. The card remains usable as a general-conversation contrast but should not imply that these are the uniquely preferred digital terms.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "communication-03",
+        "english": "casual conversation",
+        "indonesian": "obrolan",
+        "malaysian": "sembang",
+        "sense": "an informal or relaxed conversation",
+        "tags": [
+          "communication"
+        ]
+      },
+      "candidate_ref": "communication-001:communication-03",
+      "concept_id": "000012",
+      "confidence": "very-low",
+      "confidence_rationale": "Obrolan/sembang fit a casual conversation; very-low retains the digital-chat overlap and sparse preference evidence after narrowing the cue.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "chat (app-based conversation or chat feature)",
+            "percakapan (conversation; more neutral or formal)",
+            "ngobrol (to chat or converse informally)"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:communication-03-id-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "A KBBI-derived entry defines obrolan as light, relaxed conversation or empty talk."
+            },
+            {
+              "claim_id": "indonesian-usage:communication-03-id-common",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Indonesian-language sources use obrolan as a label for online chat or as an Indonesian gloss for chat."
+            },
+            {
+              "claim_id": "indonesian-usage:communication-03-id-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Obrolan fits informal conversation broadly; chat is a common alternative when referring specifically to digital messaging or an app feature."
+            }
+          ],
+          "common_use": "Common and understood for casual conversation; “chat” is also frequent in app and messaging contexts.",
+          "meaning": "“Obrolan” means light, informal conversation. It can refer to an online chat, though its dictionary sense is not specifically limited to digital communication.",
+          "preferred": "Obrolan is natural for informal conversation; chat is often preferred for a digital app feature.",
+          "region": "Standard contemporary Indonesian; no specific regional limitation identified.",
+          "register": "Neutral to informal; the word commonly describes relaxed conversation.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The page gives the KBBI-derived definition “percakapan ringan dan santai; omong kosong”; this is a third-party dictionary mirror.",
+              "url": "https://kbbi.cari.co/obrolan"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The document labels a Microsoft Teams feature “Obrolan (chat)” and describes it as a private conversation.",
+              "url": "https://repository.uinsaizu.ac.id/10361/1/NURLAILY%20FAUZIATUN_IMPLEMENTASI%20MICROSOFT%20TEAMS%20FOR%20EDUCATION%20DALAM%20PEMBELAJARAN%20PENDIDIKAN%20AGAMA%20ISLAM%20DAN%20BUDI%20PEKERTI%20DI%20SMP%20NEGERI%201%20PURWOKERTO.pdf"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "An Indonesian government app manual uses “Semua Obrolan” as the title for a chat list.",
+              "url": "https://chat.kemlu.go.id/welcome/2024-Manual-Android.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "chat",
+            "perbualan (more neutral or formal)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:communication-03-my-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Sembang in Malaysian Malay can refer to an informal conversation, including online chat."
+            },
+            {
+              "claim_id": "malaysian-usage:communication-03-my-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Sembang is a natural everyday Malaysian term for informal conversation, while chat is also common for online exchanges."
+            }
+          ],
+          "common_use": "Sembang is common in everyday Malaysian speech, including phrases such as sembang dalam talian; chat is also widely used, especially for online messaging.",
+          "meaning": "Sembang means an informal conversation or chat in Malaysian Malay, including in-person conversation and online or text chat. Obrolan is understood but is more strongly associated with Indonesian usage.",
+          "preferred": "Sembang is natural for informal conversation; chat is also common for digital exchanges.",
+          "region": "Sembang is broadly used in Malaysia, with especially familiar use in colloquial speech; no specific regional limit established.",
+          "register": "Sembang is informal and conversational. Chat is a widespread English borrowing used casually.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "claim_to_check": "Definitions and examples showing informal conversation meanings.",
+              "lookup": "sembang",
+              "source": "Kamus Dewan / PRPM, Dewan Bahasa dan Pustaka"
+            },
+            {
+              "claim_ids": [],
+              "claim_to_check": "Contemporary alternatives for online chat in Malaysian Malay.",
+              "lookup": "sembang dalam talian; chat",
+              "source": "Malaysian digital media and app interfaces"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "communication-001",
+        "candidate_id": "communication-03",
+        "event_count": 5,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "casual conversation",
+        "id": "000012",
+        "image": "",
+        "indonesian": "obrolan",
+        "malaysian": "sembang",
+        "relation": "different-common-word",
+        "tags": "communication"
+      },
+      "original_confidence": "very-low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "semantic-ambiguity",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Terong/terung are useful eggplant spelling defaults; medium retains cross-border variant use without a semantic objection.",
+        "english": null,
+        "review_flags": [],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Both forms accurately denote eggplant. “Terong” is the ordinary contemporary Indonesian form despite “terung” also occurring, while “terung” is the normal Malaysian spelling. The small but systematic form contrast is useful to learners.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "everyday-objects-05",
+        "english": "eggplant",
+        "indonesian": "terong",
+        "malaysian": "terung",
+        "sense": "The edible purple vegetable also called aubergine.",
+        "tags": [
+          "everyday-objects",
+          "food"
+        ]
+      },
+      "candidate_ref": "everyday-objects-001:everyday-objects-05",
+      "concept_id": "000013",
+      "confidence": "medium",
+      "confidence_rationale": "Terong/terung are useful eggplant spelling defaults; medium retains cross-border variant use without a semantic objection.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "terung"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:eggplant-id-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In Indonesian, “terong” refers to eggplant as a vegetable."
+            },
+            {
+              "claim_id": "indonesian-usage:eggplant-id-common",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "“Terong” is commonly used for eggplant in Indonesia."
+            },
+            {
+              "claim_id": "indonesian-usage:eggplant-id-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "“Terong” is a normal everyday Indonesian form, alongside the spelling variant “terung.”"
+            }
+          ],
+          "common_use": "Common and understood. The spelling “terong” is widespread; “terung” is also encountered.",
+          "meaning": "“Terong” denotes eggplant, the edible vegetable; it matches the stated sense.",
+          "preferred": "“Terong” is a normal everyday choice in Indonesia.",
+          "region": "Used broadly in Indonesia; some regional or editorial variation in spelling and pronunciation may occur.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim_to_check": "The entry for “terong” gives the eggplant sense and may cross-reference “terung.”",
+              "source": "KBBI Daring",
+              "url": "https://kbbi.kemdikbud.go.id/entri/terong"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim_to_check": "The entry for “terung” indicates its relationship to “terong” or defines the same vegetable.",
+              "source": "KBBI Daring",
+              "url": "https://kbbi.kemdikbud.go.id/entri/terung"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "terung panjang (long eggplant; a more specific variety)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:eggplant-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Terung denotes the edible vegetable known in English as eggplant or aubergine."
+            },
+            {
+              "claim_id": "malaysian-usage:eggplant-common",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Terung is commonly used and understood in Malaysia for eggplant."
+            },
+            {
+              "claim_id": "malaysian-usage:eggplant-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Terung is the normal Malaysian Malay spelling and everyday term; terong is associated with Indonesian usage."
+            }
+          ],
+          "common_use": "Common and readily understood in contemporary Malaysia.",
+          "meaning": "Terung means eggplant/aubergine, the edible vegetable. The proposed term matches the intended sense.",
+          "preferred": "Terung is the standard and ordinary everyday term.",
+          "region": "Used broadly in Malaysia; terong is the Indonesian spelling and is not the usual Malaysian form.",
+          "register": "Neutral.",
+          "source_leads": [
+            "Kamus Dewan entry for terung (DBP); Malaysian supermarket or produce listings for terung; Indonesian dictionary entry for terong for spelling contrast"
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "everyday-objects-001",
+        "candidate_id": "everyday-objects-05",
+        "event_count": 10,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "eggplant",
+        "id": "000013",
+        "image": "",
+        "indonesian": "terong",
+        "malaysian": "terung",
+        "relation": "similar",
+        "tags": "everyday-objects food"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": []
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Semangka/tembikai clearly mean watermelon; very-low records sparse archived corroboration, not a concrete rival meaning.",
+        "english": null,
+        "review_flags": [
+          "limited-evidence",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "“Semangka” and “tembikai” are the normal everyday words for watermelon in Indonesia and Malaysia respectively. The contrast is clear and worth learning.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "everyday-objects-06",
+        "english": "watermelon",
+        "indonesian": "semangka",
+        "malaysian": "tembikai",
+        "sense": "A large fruit with sweet red flesh and green rind.",
+        "tags": [
+          "everyday-objects",
+          "food"
+        ]
+      },
+      "candidate_ref": "everyday-objects-001:everyday-objects-06",
+      "concept_id": "000014",
+      "confidence": "very-low",
+      "confidence_rationale": "Semangka/tembikai clearly mean watermelon; very-low records sparse archived corroboration, not a concrete rival meaning.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:watermelon-id-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In Indonesian, “semangka” denotes watermelon."
+            },
+            {
+              "claim_id": "indonesian-usage:watermelon-id-common",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "“Semangka” is commonly used and understood for watermelon in Indonesia."
+            },
+            {
+              "claim_id": "indonesian-usage:watermelon-id-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "“Semangka” is the normal neutral everyday Indonesian term for watermelon."
+            }
+          ],
+          "common_use": "Common and readily understood in contemporary Indonesian.",
+          "meaning": "“Semangka” means watermelon, the fruit with sweet flesh and a rind; it matches the stated sense.",
+          "preferred": "“Semangka” is the normal everyday term.",
+          "region": "Widely used across Indonesia.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim_to_check": "The entry for “semangka” defines the fruit sense.",
+              "source": "KBBI Daring",
+              "url": "https://kbbi.kemdikbud.go.id/entri/semangka"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim_to_check": "The Indonesian entry for “semangka” identifies it as watermelon.",
+              "source": "Indonesian Wiktionary",
+              "url": "https://id.wiktionary.org/wiki/semangka"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "buah tembikai (explicit fruit phrase)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:watermelon-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Tembikai denotes watermelon."
+            },
+            {
+              "claim_id": "malaysian-usage:watermelon-common",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Tembikai is commonly used and understood in Malaysia for watermelon."
+            },
+            {
+              "claim_id": "malaysian-usage:watermelon-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Tembikai is the normal Malaysian Malay everyday term for watermelon; semangka is associated with Indonesian usage."
+            }
+          ],
+          "common_use": "Common and readily understood in contemporary Malaysia.",
+          "meaning": "Tembikai means watermelon, the large fruit with sweet flesh and green rind. The proposed term matches the intended sense.",
+          "preferred": "Tembikai is a normal everyday Malaysian Malay term.",
+          "region": "Broadly used in Malaysia; semangka is chiefly associated with Indonesian usage, though may be understood.",
+          "register": "Neutral.",
+          "source_leads": [
+            "Kamus Dewan entry for tembikai (DBP); Malaysian grocery or produce listings for tembikai; Indonesian dictionary entry for semangka for usage contrast"
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "everyday-objects-001",
+        "candidate_id": "everyday-objects-06",
+        "event_count": 8,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "watermelon",
+        "id": "000014",
+        "image": "",
+        "indonesian": "semangka",
+        "malaysian": "tembikai",
+        "relation": "different-common-word",
+        "tags": "everyday-objects food"
+      },
+      "original_confidence": "very-low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Makan siang/makan tengah hari both mean lunch; medium retains a previously corrected relation despite aligned government usage examples.",
+        "english": null,
+        "review_flags": [
+          "relation-corrected"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Both expressions naturally denote lunch or eating lunch. Indonesian normally uses “makan siang,” whereas Malaysian Malay normally uses “makan tengah hari.” Their shared “makan” and parallel phrase structure justify “similar,” while the differing time expression remains useful to learn.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "foods-01",
+        "english": "lunch",
+        "indonesian": "makan siang",
+        "malaysian": "makan tengah hari",
+        "sense": "The meal eaten around midday.",
+        "tags": [
+          "foods-and-eating"
+        ]
+      },
+      "candidate_ref": "food-001:foods-01",
+      "concept_id": "000015",
+      "confidence": "medium",
+      "confidence_rationale": "Makan siang/makan tengah hari both mean lunch; medium retains a previously corrected relation despite aligned government usage examples.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "santap siang"
+          ],
+          "claims": [
+            {
+              "claim_id": "foods-01-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Makan siang refers to a meal eaten around midday."
+            },
+            {
+              "claim_id": "foods-01-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Makan siang is the normal everyday Indonesian expression for lunch."
+            }
+          ],
+          "common_use": "Widely understood and used in contemporary Indonesia.",
+          "meaning": "Makan siang denotes the midday meal and can also refer to the act of eating it.",
+          "preferred": "Makan siang is the normal everyday choice for lunch.",
+          "region": "National Indonesian usage; no specific regional limit identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "foods-01-Indonesia-meaning",
+                "foods-01-Indonesia-preferred"
+              ],
+              "exact_claim": "A contemporary Indonesian meal plan uses Makan Siang as its heading for the midday meal.",
+              "url": "https://keslan.kemkes.go.id/view_artikel/4259/obesitas-pada-remaja-dan-cara-mencegahnya"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "merarau (regional)",
+            "lunch (English code-switching)"
+          ],
+          "claims": [
+            {
+              "claim_id": "foods-01-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Makan tengah hari denotes lunch, the meal eaten around midday."
+            },
+            {
+              "claim_id": "foods-01-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Makan tengah hari is the normal neutral Malaysian Malay choice for lunch."
+            }
+          ],
+          "common_use": "Common and readily understood in Malaysian Malay.",
+          "meaning": "Makan tengah hari means the meal eaten around midday; the phrase can also mean eating that meal.",
+          "preferred": "Prefer makan tengah hari for neutral Malaysian Malay. Makan siang is associated more with Indonesian usage.",
+          "region": "Usable throughout Malaysia. Merarau is a regional alternative associated with Sarawak.",
+          "register": "Neutral; suitable in speech and writing.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "foods-01-Malaysia-meaning"
+              ],
+              "exact_claim": "DBP's English–Malay dictionary gives makan tengah hari for lunch as a midday meal.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tengah+hari"
+            },
+            {
+              "claim_ids": [
+                "foods-01-Malaysia-preferred"
+              ],
+              "exact_claim": "A Malaysian Ministry of Health hospital service page labels its midday meal Makan Tengah Hari.",
+              "url": "https://hkl.moh.gov.my/mengenai-kami/jabatan/perubatan-iii/direktorat-sokongan-klinikal/dietetik-sajian"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "food-001",
+        "candidate_id": "foods-01",
+        "event_count": 9,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "lunch",
+        "id": "000015",
+        "image": "",
+        "indonesian": "makan siang",
+        "malaysian": "makan tengah hari",
+        "relation": "similar",
+        "tags": "foods-and-eating"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "relation-corrected"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Enak/sedap are useful tasty-food defaults; low retains the real Malay enak synonym and uncertain comparative preference.",
+        "english": null,
+        "review_flags": [
+          "historical-objection",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {
+          "malaysian": {
+            "alternatives": [
+              "enak (also natural for tasty food)",
+              "lazat (more emphatic or promotional)"
+            ],
+            "preferred": "Sedap is a characteristic everyday choice for tasty food; enak is also natural in Malay."
+          }
+        }
+      },
+      "audit_corrections": {
+        "historical_usage.malaysian.alternatives": [
+          "enak (also natural for tasty food, though sedap is generally the more characteristic everyday choice)",
+          "lazat (more emphatic, literary, or promotional)"
+        ],
+        "historical_usage.malaysian.preferred": "Sedap is a highly natural and generally characteristic everyday Malaysian choice for saying that food tastes good; enak is also natural and should not be presented as merely understood.",
+        "materially_misleading": "No. The displayed headword contrast is sound, but the treatment of Malaysian “enak” understates its active natural use."
+      },
+      "audit_reason": "“Enak” and “sedap” are excellent default learner answers for Indonesia and Malaysia respectively, and the contrast is worth learning. However, Malaysian “enak” is not merely understood: it is also natural contemporary Malay for tasty food, although “sedap” is generally the more characteristic everyday choice.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "foods-04",
+        "english": "tasty",
+        "indonesian": "enak",
+        "malaysian": "sedap",
+        "sense": "Having a pleasant taste, said of food.",
+        "tags": [
+          "foods-and-eating"
+        ]
+      },
+      "candidate_ref": "food-001:foods-04",
+      "concept_id": "000016",
+      "confidence": "low",
+      "confidence_rationale": "Enak/sedap are useful tasty-food defaults; low retains the real Malay enak synonym and uncertain comparative preference.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "lezat",
+            "sedap"
+          ],
+          "claims": [
+            {
+              "claim_id": "foods-04-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Enak can describe food with a pleasant taste."
+            },
+            {
+              "claim_id": "foods-04-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Enak is a natural everyday Indonesian choice for tasty food."
+            }
+          ],
+          "common_use": "Very common and readily understood in contemporary Indonesia.",
+          "meaning": "Enak describes food that tastes pleasant. It also has broader uses for pleasant or comfortable experiences.",
+          "preferred": "Enak is the natural everyday choice for tasty food.",
+          "region": "National Indonesian usage; no specific regional limit identified.",
+          "register": "Neutral and conversational; suitable beyond informal speech.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "foods-04-Indonesia-meaning"
+              ],
+              "exact_claim": "The dictionary entry is a lead for the taste sense and broader senses of enak.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/enak"
+            },
+            {
+              "claim_ids": [
+                "foods-04-Indonesia-preferred"
+              ],
+              "exact_claim": "A contemporary Indonesian government article uses makanan enak to describe appealing food.",
+              "url": "https://ponorogo.go.id/2025/06/06/sokongan-minim-apbd-bukan-masalah-bupati-sugiri-jamin-kualitas-grebeg-suro-tetap-terjaga/"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "enak (also natural for tasty food)",
+            "lazat (more emphatic or promotional)"
+          ],
+          "claims": [
+            {
+              "claim_id": "foods-04-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In a food context, sedap means pleasant tasting or tasty."
+            },
+            {
+              "claim_id": "foods-04-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Sedap is the normal everyday Malaysian Malay choice for saying that food tastes good."
+            }
+          ],
+          "common_use": "Very common in Malaysian Malay when describing food.",
+          "meaning": "Sedap describes food or drink with a pleasant taste. It also has other senses, including pleasant smell or feeling, so the food context matters.",
+          "preferred": "Sedap is a characteristic everyday choice for tasty food; enak is also natural in Malay.",
+          "region": "No material regional restriction identified.",
+          "register": "Neutral and conversational; also acceptable in writing.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "foods-04-Malaysia-meaning",
+                "foods-04-Malaysia-preferred"
+              ],
+              "exact_claim": "DBP defines the taste sense of sedap as enak and illustrates it with food; the entry establishes the sense but does not by itself rank everyday alternatives.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sedap"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "food-001",
+        "candidate_id": "foods-04",
+        "event_count": 10,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "tasty",
+        "id": "000016",
+        "image": "",
+        "indonesian": "enak",
+        "malaysian": "sedap",
+        "relation": "different-common-word",
+        "tags": "foods-and-eating"
+      },
+      "original_confidence": "low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Biskuit/biskut match a dry baked snack; low retains historical category-boundary concern despite a clear spelling contrast.",
+        "english": null,
+        "review_flags": [
+          "historical-objection"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "“Biskuit” and “biskut” are the ordinary Indonesian and Malaysian forms for a biscuit in the stated dry baked-snack sense. Category boundaries with cookies and traditional dry cakes vary, but that does not impair this basic contrast.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "foods-06",
+        "english": "biscuit",
+        "indonesian": "biskuit",
+        "malaysian": "biskut",
+        "sense": "A small, dry baked snack.",
+        "tags": [
+          "foods-and-eating"
+        ]
+      },
+      "candidate_ref": "food-001:foods-06",
+      "concept_id": "000017",
+      "confidence": "low",
+      "confidence_rationale": "Biskuit/biskut match a dry baked snack; low retains historical category-boundary concern despite a clear spelling contrast.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "kue kering"
+          ],
+          "claims": [
+            {
+              "claim_id": "foods-06-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Biskuit can name a small, dry baked snack."
+            },
+            {
+              "claim_id": "foods-06-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Biskuit is a normal everyday Indonesian choice for biscuit in this sense."
+            }
+          ],
+          "common_use": "Common and readily understood in contemporary Indonesia.",
+          "meaning": "Biskuit denotes a small, dry baked snack. Its boundary with some kinds of kue kering depends on the product.",
+          "preferred": "Biskuit is the normal general choice for biscuit in this sense.",
+          "region": "National Indonesian usage; no specific regional limit identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "foods-06-Indonesia-meaning"
+              ],
+              "exact_claim": "The dictionary entry is a lead for the food meaning of biskuit.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/biskuit"
+            },
+            {
+              "claim_ids": [
+                "foods-06-Indonesia-preferred"
+              ],
+              "exact_claim": "A contemporary Indonesian food-agency article uses biskuit as a familiar packaged-food category.",
+              "url": "https://pppomn.pom.go.id/berita/seri-artikel-edukasi-laboratorium-pangan-10-pengujian-bahan-tambahan-pangan-pada-pangan-olahan-mengapa-penting"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "kuih kering (broader category)",
+            "kuki (used for some cookie types, not a universal replacement)"
+          ],
+          "claims": [
+            {
+              "claim_id": "foods-06-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Biskut denotes a dry baked snack, typically thin and crisp."
+            },
+            {
+              "claim_id": "foods-06-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Biskut is the normal neutral Malaysian Malay choice for an ordinary biscuit."
+            }
+          ],
+          "common_use": "Common and readily understood in Malaysian Malay.",
+          "meaning": "Biskut denotes a dry baked snack, commonly crisp and fairly small.",
+          "preferred": "Prefer biskut for the stated biscuit sense. Kuih kering is broader and may include other dry sweets.",
+          "region": "No material regional restriction identified.",
+          "register": "Neutral everyday vocabulary.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "foods-06-Malaysia-meaning",
+                "foods-06-Malaysia-preferred"
+              ],
+              "exact_claim": "DBP defines biskut as a dry baked snack, usually flat, thin and crisp; the dictionary entry alone does not establish frequency against alternatives.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=13748&keyword=biskut"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "food-001",
+        "candidate_id": "foods-06",
+        "event_count": 10,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "biscuit",
+        "id": "000017",
+        "image": "",
+        "indonesian": "biskuit",
+        "malaysian": "biskut",
+        "relation": "similar",
+        "tags": "foods-and-eating"
+      },
+      "original_confidence": "low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "historical-objection"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Obat/ubat are neutral medicine terms; medium reflects limited audit evidence while the stated treatment sense is aligned.",
+        "english": null,
+        "review_flags": [],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Obat and ubat are the ordinary, neutral general terms for medicine in Indonesia and Malaysia respectively. Both cover medicines taken internally or applied externally. The spelling-and-vowel contrast is useful and accurately classified as similar rather than same.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "health-01",
+        "english": "medicine (to treat illness)",
+        "indonesian": "obat",
+        "malaysian": "ubat",
+        "sense": "a substance used to treat illness, whether taken or applied",
+        "tags": [
+          "health"
+        ]
+      },
+      "candidate_ref": "health-001:health-01",
+      "concept_id": "000018",
+      "confidence": "medium",
+      "confidence_rationale": "Obat/ubat are neutral medicine terms; medium reflects limited audit evidence while the stated treatment sense is aligned.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "obat-obatan (medicines/medication, often collective or category reference)",
+            "medikasi (medication, more technical or formal)",
+            "ramuan (preparation/remedy, narrower and not necessarily medicinal in the same sense)"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:health-01-id-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Indonesian obat denotes medicine or a substance used for treating illness and can include substances taken or applied."
+            },
+            {
+              "claim_id": "indonesian-usage:health-01-id-locale-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Obat is used in ordinary public Indonesian health contexts as a general term for medicine and in references to medicine categories."
+            }
+          ],
+          "common_use": "Obat is commonly understood and used in ordinary Indonesian health contexts for medicine generally. The inspected ministry source explicitly discusses ordinary public use and categories of obat, but it does not establish comparative casual-speech frequency against alternatives.",
+          "meaning": "In contemporary Indonesian, obat is a standard general term for medicine or a substance used to treat illness. It can cover substances taken internally or applied externally, and its broader official sense also includes substances used for diagnosis, prevention, recovery, and maintaining health.",
+          "preferred": "Obat appears to be the normal broad everyday term, but preference over alternatives is not independently established by the available source note.",
+          "region": "Contemporary Indonesia generally; no regional restriction indicated.",
+          "register": "Common everyday and standard; also used in official and medical contexts.",
+          "source_leads": [
+            {
+              "accessed_at": "2026-10-05T14:59:00+00:00",
+              "claim_ids": [],
+              "exact_claim": "The article defines obat broadly as material used for diagnosis, prevention, treatment, recovery, and health, and discusses ordinary public use and categories of obat.",
+              "location": "Article heading and paragraphs, lines 27-44",
+              "publisher": "Kementerian Kesehatan Republik Indonesia",
+              "source_kind": "contextual",
+              "url": "https://keslan.kemkes.go.id/view_artikel/801/informasi-umum-tentang-penggunaan-obat-yang-aman"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "ubat-ubatan",
+            "medicine"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:health-01-ms-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In Malaysian Malay, ubat denotes a substance used to cure disease or restore health, including something eaten, applied, or otherwise used."
+            },
+            {
+              "claim_id": "malaysian-usage:health-01-ms-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Ubat is commonly used in Malaysian healthcare contexts for medicines supplied or prescribed in clinics and hospitals."
+            }
+          ],
+          "common_use": "Ubat is clearly understood and commonly used for medicines in Malaysian healthcare contexts, including prescribed or supplied medicines. The notes support common use but do not establish that it is preferred over every alternative in all everyday contexts.",
+          "meaning": "In contemporary Malaysian Malay, ubat commonly means a substance used to treat illness or restore health, including medicine that is taken, applied, or otherwise used. This matches the proposed neutral sense, though the word also has unrelated dictionary senses.",
+          "preferred": "Preference is supported for ordinary Malaysian Malay when referring generally to medicine, but the supplied notes do not provide a direct comparison with alternatives such as ubat-ubatan or medicine. Treat normal everyday preference as plausible but not fully demonstrated.",
+          "region": "Malaysia-wide standard usage is indicated by national dictionary and Ministry of Health terminology; no narrower regional limitation is evident from the notes.",
+          "register": "Neutral and everyday; also standard in clinical, administrative, and institutional health contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim_lead": "The entry defines ubat as a substance used to cure disease or restore health, including something eaten, applied, or otherwise used, while also listing unrelated senses.",
+              "page_location_or_query": "Kamus Dewan and Kamus Pelajar definitions, lines 13-35",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "dictionary",
+              "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=ubat"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim_lead": "The Malaysian Ministry of Health uses ubat and ubat-ubatan for medicines supplied and prescribed in clinics and hospitals.",
+              "page_location_or_query": "Formulari Ubat Kementerian Kesihatan Malaysia, introductory paragraphs",
+              "publisher": "Program Perkhidmatan Farmasi, Kementerian Kesihatan Malaysia",
+              "source_group": "Malaysian Ministry of Health Pharmacy Services",
+              "source_kind": "contextual",
+              "url_or_query": "https://pharmacy.moh.gov.my/ms/dokumen/formulari-ubat-kementerian-kesihatan-malaysia.html"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "health-001",
+        "candidate_id": "health-01",
+        "event_count": 11,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "medicine (to treat illness)",
+        "id": "000018",
+        "image": "",
+        "indonesian": "obat",
+        "malaysian": "ubat",
+        "relation": "similar",
+        "tags": "health"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": []
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Kamar tidur/bilik tidur both mean bedroom; low retains the historical bare-kamar/bilik alternative concern, not a mismatch.",
+        "english": null,
+        "review_flags": [
+          "historical-objection"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Kamar tidur is the normal Indonesian expression and bilik tidur the normal Malaysian expression for a bedroom. Bare kamar or bilik is common when context supplies the room type. Malaysian kamar tidur is understandable but does not eliminate the useful everyday national contrast.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "topic-02",
+        "english": "bedroom",
+        "indonesian": "kamar tidur",
+        "malaysian": "bilik tidur",
+        "sense": "room used for sleeping",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-02",
+      "concept_id": "000019",
+      "confidence": "low",
+      "confidence_rationale": "Kamar tidur/bilik tidur both mean bedroom; low retains the historical bare-kamar/bilik alternative concern, not a mismatch.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "kamar",
+            "ruang tidur"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-02-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Kamar tidur denotes a room used for sleeping."
+            },
+            {
+              "claim_id": "topic-02-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Kamar tidur is the normal everyday Indonesian choice for bedroom; kamar alone works when context makes the room clear."
+            }
+          ],
+          "common_use": "Widely understood and routinely used for a bedroom.",
+          "meaning": "Kamar tidur means a room used for sleeping.",
+          "preferred": "Kamar tidur is the normal everyday choice.",
+          "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "topic-02-Indonesia-meaning"
+              ],
+              "exact_claim": "Check whether KBBI defines kamar tidur as a room for sleeping.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/kamar%20tidur"
+            },
+            {
+              "claim_ids": [
+                "topic-02-Indonesia-preferred"
+              ],
+              "exact_claim": "IKEA Indonesia uses kamar tidur as its consumer facing category for bedrooms.",
+              "url": "https://www.ikea.co.id/in/ruangan/kamar-tidur"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "bilik",
+            "kamar tidur"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-02-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Bilik tidur means a room used for sleeping."
+            },
+            {
+              "claim_id": "topic-02-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Bilik tidur is the normal explicit Malaysian Malay term for a bedroom."
+            }
+          ],
+          "common_use": "Widely understood and common in contemporary Malaysian Malay.",
+          "meaning": "Bilik tidur denotes a room used for sleeping and matches the intended sense.",
+          "preferred": "Bilik tidur is the normal neutral choice; bilik alone is also common when the room is clear from context.",
+          "region": "Malaysia generally; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "topic-02-Malaysia-meaning",
+                "topic-02-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP's bilik tidur entry gives the sleeping-room meaning; contemporary frequency and preference require separate checking.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bilik+tidur"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "home-001",
+        "candidate_id": "topic-02",
+        "event_count": 11,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "bedroom",
+        "id": "000019",
+        "image": "",
+        "indonesian": "kamar tidur",
+        "malaysian": "bilik tidur",
+        "relation": "different-common-word",
+        "tags": "household"
+      },
+      "original_confidence": "low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Kulkas/peti sejuk are valid refrigerator defaults; low retains Malay peti ais as a common alternative and a corrected historical synonym note.",
+        "english": null,
+        "review_flags": [
+          "historical-objection",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {
+          "malaysian": {
+            "alternatives": [
+              "peti ais",
+              "peti air batu"
+            ],
+            "preferred": "Peti sejuk is a neutral standard choice; peti ais is also common, so neither is claimed uniquely preferred."
+          }
+        }
+      },
+      "audit_corrections": {
+        "historical_usage.malaysian.alternatives": [
+          "peti ais",
+          "peti air batu"
+        ],
+        "historical_usage.malaysian.preferred": "Peti sejuk is a safe standard and neutral choice. Peti ais is also common in everyday Malaysian usage, so do not claim that peti sejuk is uniquely preferred.",
+        "materially_misleading": "No. The displayed Indonesian–Malaysian pair and relation are sound; only the Malaysian alternatives metadata needs correction."
+      },
+      "audit_reason": "Kulkas is the natural everyday Indonesian term, while peti sejuk is a standard and natural Malaysian term; Malaysian peti ais is also common. The contrast remains worth learning. Listing kulkas as an unqualified Malaysian alternative is misleading because it is characteristically Indonesian rather than an ordinary Malaysian Malay alternative.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "topic-03",
+        "english": "refrigerator",
+        "indonesian": "kulkas",
+        "malaysian": "peti sejuk",
+        "sense": "appliance that keeps food cold",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-03",
+      "concept_id": "000020",
+      "confidence": "low",
+      "confidence_rationale": "Kulkas/peti sejuk are valid refrigerator defaults; low retains Malay peti ais as a common alternative and a corrected historical synonym note.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "lemari es",
+            "lemari pendingin"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-03-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Kulkas denotes the household appliance that keeps food and drinks cold."
+            },
+            {
+              "claim_id": "topic-03-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Kulkas is a natural everyday Indonesian choice for refrigerator."
+            }
+          ],
+          "common_use": "Widely understood and common in household speech.",
+          "meaning": "Kulkas denotes a refrigerator used to keep food and drinks cold.",
+          "preferred": "Kulkas is the natural everyday choice. Lemari es is also familiar.",
+          "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+          "register": "Neutral everyday usage; lemari pendingin sounds more descriptive or formal.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "topic-03-Indonesia-meaning"
+              ],
+              "exact_claim": "Check the KBBI meaning of kulkas and any cross reference to lemari es.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/kulkas"
+            },
+            {
+              "claim_ids": [
+                "topic-03-Indonesia-meaning"
+              ],
+              "exact_claim": "Check whether lemari es is defined as cold storage for food and drinks and lists kulkas as an equivalent.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/lemari%20es"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "peti ais",
+            "peti air batu"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-03-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Peti sejuk denotes an appliance used to keep food and drink cold."
+            },
+            {
+              "claim_id": "topic-03-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Peti sejuk is a normal neutral Malaysian Malay choice for a refrigerator, alongside the familiar peti ais."
+            }
+          ],
+          "common_use": "Widely understood and common in Malaysian Malay.",
+          "meaning": "Peti sejuk denotes the appliance that cools stored food and drink; it matches refrigerator.",
+          "preferred": "Peti sejuk is a neutral standard choice; peti ais is also common, so neither is claimed uniquely preferred.",
+          "region": "Malaysia generally; no specific regional restriction identified.",
+          "register": "Neutral; peti ais is also conversationally natural.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "topic-03-Malaysia-meaning",
+                "topic-03-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP defines peti sejuk as a cooling appliance for stored food; compare its peti ais references and contemporary usage separately.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "home-001",
+        "candidate_id": "topic-03",
+        "event_count": 11,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "refrigerator",
+        "id": "000020",
+        "image": "",
+        "indonesian": "kulkas",
+        "malaysian": "peti sejuk",
+        "relation": "different-common-word",
+        "tags": "household"
+      },
+      "original_confidence": "low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Jendela/tingkap are useful window defaults; medium records correction of an overly narrow glass-only internal sense.",
+        "english": null,
+        "review_flags": [],
+        "sense": "opening in a wall or building admitting light or air, usually fitted with glass",
+        "usage": {}
+      },
+      "audit_corrections": {
+        "materially_misleading": "No. The locale contrast is correct; only the English sense definition is too narrow.",
+        "sense": "opening in a wall or building that admits light or air, usually fitted with glass"
+      },
+      "audit_reason": "Jendela is the ordinary Indonesian form and tingkap the ordinary Malaysian form, making this a useful different-common-word contrast. The supplied sense is unnecessarily narrow and awkward: a window is not inherently a 'glass opening,' and both words can denote windows or wall openings without glass.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "topic-04",
+        "english": "window",
+        "indonesian": "jendela",
+        "malaysian": "tingkap",
+        "sense": "opening in a wall or building admitting light or air, usually fitted with glass",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-04",
+      "concept_id": "000021",
+      "confidence": "medium",
+      "confidence_rationale": "Jendela/tingkap are useful window defaults; medium records correction of an overly narrow glass-only internal sense.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "tingkap"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-04-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Jendela denotes a window or wall opening; glass is common but is not required by the word."
+            },
+            {
+              "claim_id": "topic-04-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Jendela is the normal everyday Indonesian choice for a house window."
+            }
+          ],
+          "common_use": "Widely understood and routinely used for a house window.",
+          "meaning": "Jendela denotes a window or wall opening that can admit air and light. It need not contain glass.",
+          "preferred": "Jendela is the normal everyday choice.",
+          "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "topic-04-Indonesia-meaning"
+              ],
+              "exact_claim": "KBBI defines jendela as a closable opening for airflow and gives tingkap as an equivalent; it does not require glass.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/jendela"
+            },
+            {
+              "claim_ids": [
+                "topic-04-Indonesia-preferred"
+              ],
+              "exact_claim": "IKEA Indonesia uses jendela for a room feature that provides natural light and ventilation.",
+              "url": "https://www.ikea.co.id/in/inspirasi/ids-ukuran-kamar-kost-kamar-mandi-dalam"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "jendela"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-04-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Tingkap means a window or wall opening and does not require glazing."
+            },
+            {
+              "claim_id": "topic-04-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Tingkap is the normal everyday Malaysian Malay choice for a house window."
+            }
+          ],
+          "common_use": "Widely understood and common in Malaysian Malay.",
+          "meaning": "Tingkap denotes a window or opening in a wall. A window need not contain glass, so the proposed term is slightly broader than the supplied description.",
+          "preferred": "Tingkap is the normal everyday Malaysian Malay choice for a house window.",
+          "region": "Malaysia generally; no specific regional restriction identified.",
+          "register": "Neutral; jendela is understood but can sound more literary or less usual in everyday Malaysian speech.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "topic-04-Malaysia-meaning",
+                "topic-04-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP defines tingkap as a wall opening and lists jendela as an equivalent; ordinary preference needs separate usage checking.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=tingkap"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "home-001",
+        "candidate_id": "topic-04",
+        "event_count": 10,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "window",
+        "id": "000021",
+        "image": "",
+        "indonesian": "jendela",
+        "malaysian": "tingkap",
+        "relation": "different-common-word",
+        "tags": "household"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": []
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Tempat sampah/tong sampah fit a household bin; medium retains limited comparison of cross-border alternatives.",
+        "english": null,
+        "review_flags": [],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Tempat sampah is a natural default Indonesian expression for a household rubbish bin, while tong sampah is the normal Malaysian expression. Both forms may occur across the border, but the differing everyday defaults make the contrast useful and the proposed relation appropriate.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "topic-05",
+        "english": "trash can",
+        "indonesian": "tempat sampah",
+        "malaysian": "tong sampah",
+        "sense": "container for household rubbish",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-05",
+      "concept_id": "000022",
+      "confidence": "medium",
+      "confidence_rationale": "Tempat sampah/tong sampah fit a household bin; medium retains limited comparison of cross-border alternatives.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "tong sampah",
+            "bak sampah"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-05-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In a household context, tempat sampah denotes a container for rubbish, though the phrase can also refer more broadly to a place for rubbish."
+            },
+            {
+              "claim_id": "topic-05-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Tempat sampah is a natural everyday Indonesian choice for a household trash can."
+            }
+          ],
+          "common_use": "Widely understood and common for household rubbish containers.",
+          "meaning": "Tempat sampah denotes a place or receptacle for rubbish. In a household context it naturally refers to a trash can or bin.",
+          "preferred": "Tempat sampah is a natural everyday choice for trash can.",
+          "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "topic-05-Indonesia-meaning"
+              ],
+              "exact_claim": "Check whether KBBI records tempat sampah as a receptacle or place for rubbish.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/tempat%20sampah"
+            },
+            {
+              "claim_ids": [
+                "topic-05-Indonesia-preferred"
+              ],
+              "exact_claim": "Check tong sampah as an alternative specifically emphasizing a bin or barrel shaped container.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/tong%20sampah"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "bakul sampah",
+            "tempat sampah"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-05-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Tong sampah means a container into which rubbish is thrown."
+            },
+            {
+              "claim_id": "topic-05-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Tong sampah is a normal neutral Malaysian Malay choice for a household rubbish bin."
+            }
+          ],
+          "common_use": "Widely understood and common in Malaysian Malay.",
+          "meaning": "Tong sampah denotes a container for discarded rubbish and matches the intended household trash can.",
+          "preferred": "Tong sampah is the normal neutral choice for a rubbish bin, including one in a home.",
+          "region": "Malaysia generally; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "topic-05-Malaysia-meaning",
+                "topic-05-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP defines tong sampah as a container for discarded rubbish; its relative frequency against bakul sampah needs separate checking.",
+              "url": "https://prpm.dbp.gov.my/Cari1?keyword=tong+sampah"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "home-001",
+        "candidate_id": "topic-05",
+        "event_count": 9,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "trash can",
+        "id": "000022",
+        "image": "",
+        "indonesian": "tempat sampah",
+        "malaysian": "tong sampah",
+        "relation": "different-common-word",
+        "tags": "household"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": []
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Ember/baldi fit a handled bucket; low retains the valid Malay timba synonym and earlier preference objection.",
+        "english": null,
+        "review_flags": [
+          "historical-objection"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "For the specified handled household container, Indonesian ember and Malaysian baldi are natural, contemporary everyday choices. Timba is also common in Malaysia and can denote the same object, but that synonym does not invalidate the useful locale contrast or make baldi misleading.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "topic-06",
+        "english": "bucket",
+        "indonesian": "ember",
+        "malaysian": "baldi",
+        "sense": "open container with a handle for carrying water",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-06",
+      "concept_id": "000023",
+      "confidence": "low",
+      "confidence_rationale": "Ember/baldi fit a handled bucket; low retains the valid Malay timba synonym and earlier preference objection.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "timba",
+            "bak"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-06-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Ember denotes a bucket used to hold or carry water."
+            },
+            {
+              "claim_id": "topic-06-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Ember is the normal everyday Indonesian choice for a household bucket."
+            }
+          ],
+          "common_use": "Widely understood and routinely used for the household object.",
+          "meaning": "Ember denotes a bucket, typically an open container used to hold or carry water; many have a handle.",
+          "preferred": "Ember is the normal everyday choice.",
+          "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "topic-06-Indonesia-meaning"
+              ],
+              "exact_claim": "Check the KBBI definition of ember for its container shape and use.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/ember"
+            },
+            {
+              "claim_ids": [
+                "topic-06-Indonesia-preferred"
+              ],
+              "exact_claim": "An Indonesian teaching module lists ember among ordinary bathroom items.",
+              "url": "https://repositori.kemendikdasmen.go.id/21092/1/Modul%20PJJ%20Bahasa%20Indonesia%202020.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "ember"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-06-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Baldi means a handled container used for holding or carrying water."
+            },
+            {
+              "claim_id": "topic-06-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Baldi is the normal neutral Malaysian Malay choice for a water bucket."
+            }
+          ],
+          "common_use": "Widely understood and common in Malaysian Malay.",
+          "meaning": "Baldi denotes a handled container used to hold or carry water and matches the intended bucket.",
+          "preferred": "Baldi is the normal neutral Malaysian Malay choice for this household bucket.",
+          "region": "Malaysia generally; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "topic-06-Malaysia-meaning",
+                "topic-06-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP defines baldi as a handled water container; contemporary preference over ember needs separate checking.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baldi"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "home-001",
+        "candidate_id": "topic-06",
+        "event_count": 11,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "bucket",
+        "id": "000023",
+        "image": "",
+        "indonesian": "ember",
+        "malaysian": "baldi",
+        "relation": "different-common-word",
+        "tags": "household"
+      },
+      "original_confidence": "low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Kursi/kerusi are common matching chair terms with a straightforward spelling contrast and no material objection; high is warranted by these aligned signals.",
+        "english": null,
+        "review_flags": [],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Kursi in Indonesia and kerusi in Malaysia are the normal neutral words for a one-person seat with a back. The forms are closely related but observably different, making the contrast useful to learners.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "topic-08",
+        "english": "chair",
+        "indonesian": "kursi",
+        "malaysian": "kerusi",
+        "sense": "seat for one person with a back",
+        "tags": [
+          "household"
+        ]
+      },
+      "candidate_ref": "home-001:topic-08",
+      "concept_id": "000024",
+      "confidence": "high",
+      "confidence_rationale": "Kursi/kerusi are common matching chair terms with a straightforward spelling contrast and no material objection; high is warranted by these aligned signals.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "tempat duduk",
+            "bangku"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-08-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In its furniture sense, kursi denotes a seat with legs and a backrest."
+            },
+            {
+              "claim_id": "topic-08-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Kursi is the normal everyday Indonesian choice for a chair."
+            }
+          ],
+          "common_use": "Widely understood and routinely used for a chair.",
+          "meaning": "Kursi denotes a seat with legs and a backrest; it also has figurative senses such as an office or parliamentary seat.",
+          "preferred": "Kursi is the normal everyday choice.",
+          "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "topic-08-Indonesia-meaning"
+              ],
+              "exact_claim": "KBBI defines the furniture sense of kursi as a seat with legs and a backrest.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/kursi"
+            },
+            {
+              "claim_ids": [
+                "topic-08-Indonesia-preferred"
+              ],
+              "exact_claim": "IKEA Indonesia uses kursi for chairs in an ordinary furniture guide.",
+              "url": "https://www.ikea.co.id/in/inspirasi/jenis-kursi-untuk-ruang-kerja"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "kursi",
+            "bangku"
+          ],
+          "claims": [
+            {
+              "claim_id": "topic-08-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Kerusi denotes a seat with a back, as well as figurative positions in other contexts."
+            },
+            {
+              "claim_id": "topic-08-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Kerusi is the normal neutral Malaysian Malay choice for a chair with a back."
+            }
+          ],
+          "common_use": "Widely understood and common in Malaysian Malay.",
+          "meaning": "Kerusi denotes a seat with legs and a back, matching the intended chair. It also has figurative uses such as a position or seat in an assembly.",
+          "preferred": "Kerusi is the normal neutral choice for a chair. Kursi is understandable but is not the usual Malaysian spelling for this object.",
+          "region": "Malaysia generally; no specific regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "topic-08-Malaysia-meaning",
+                "topic-08-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP defines the backed-seat and figurative senses of kerusi; everyday preference needs separate checking.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kerusi"
+            },
+            {
+              "audited": false,
+              "claim_ids": [
+                "topic-08-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP marks the chair sense of kursi as Indonesian; confirm the distinction in contemporary use.",
+              "url": "https://prpm.dbp.gov.my/cari1?keyword=kursi"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "home-001",
+        "candidate_id": "topic-08",
+        "event_count": 10,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "chair",
+        "id": "000024",
+        "image": "",
+        "indonesian": "kursi",
+        "malaysian": "kerusi",
+        "relation": "similar",
+        "tags": "household"
+      },
+      "original_confidence": "high",
+      "original_decision": "accepted",
+      "original_review_flags": [],
+      "relation": "similar",
+      "review_flags": []
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Kantor/pejabat fit an office; medium keeps attention on Indonesian pejabat's different official-person sense.",
+        "english": null,
+        "review_flags": [
+          "semantic-ambiguity",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Kantor is the ordinary Indonesian place word for an office, while pejabat is the ordinary Malaysian word. Indonesian pejabat normally means an official or officeholder, which makes the contrast especially useful, although the displayed pair itself is best classified as different-common-word rather than false-friend because kantor and pejabat are not matching forms.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "places-01",
+        "english": "office",
+        "indonesian": "kantor",
+        "malaysian": "pejabat",
+        "sense": "a workplace or administrative office",
+        "tags": [
+          "places",
+          "work"
+        ]
+      },
+      "candidate_ref": "places-001:places-01",
+      "concept_id": "000025",
+      "confidence": "medium",
+      "confidence_rationale": "Kantor/pejabat fit an office; medium keeps attention on Indonesian pejabat's different official-person sense.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "ruang kantor (office room/workspace, more specific)",
+            "biro (bureau/office or administrative department, context-dependent)"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:id-office-kantor-meaning-001",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In Indonesian, kantor denotes a building or room used to administer work and a place of work, matching the neutral sense “office.”"
+            },
+            {
+              "claim_id": "indonesian-usage:id-office-kantor-usage-002",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Kantor is used in Indonesian government contexts for the workplace or administrative office, including an office identified by an address and opening hours."
+            },
+            {
+              "claim_id": "indonesian-usage:id-office-kantor-preference-003",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "For the neutral place sense “office,” kantor is preferred over pejabat in Indonesian; pejabat ordinarily refers to an official or office holder rather than a workplace."
+            }
+          ],
+          "common_use": "Kantor is an ordinary, widely comprehensible Indonesian term for an office or workplace. Indonesian government usage also uses kantor for the workplace or institution, including an office with an address and opening hours.",
+          "meaning": "Kantor means a workplace or an administrative office: a building or room used to conduct and manage work. It matches the proposed neutral sense of “office” in contemporary Indonesian.",
+          "preferred": "Kantor is the normal Indonesian choice for the neutral place sense “office.” Pejabat is not a place term in this sense; it ordinarily refers to an official or office holder. The available comparative source supports the kantor–pejabat contrast, though the evidence does not establish detailed frequency across all contexts.",
+          "region": "General Indonesian usage in Indonesia; no regional restriction indicated by the sources.",
+          "register": "Neutral and standard; suitable in everyday, administrative, and formal contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "location": "Kantor headword, visible lines 14-20",
+              "publisher": "Badan Pengembangan dan Pembinaan Bahasa, Indonesia",
+              "source_group": "KBBI VI Daring",
+              "source_kind": "dictionary",
+              "supports": "KBBI defines kantor as a building or room for administering work and as a place of work; it separately uses pejabat for an official who leads a unit.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/kantor"
+            },
+            {
+              "claim_ids": [],
+              "location": "Daftar Pejabat, visible lines 98-107; office address lines 120-129",
+              "publisher": "Kementerian Agama Republik Indonesia",
+              "source_group": "Indonesian Ministry of Religious Affairs Yogyakarta office",
+              "source_kind": "contextual",
+              "supports": "The page lists named pejabat as office holders and uses Kantor for the workplace with an address and opening hours.",
+              "url": "https://yogyakartakota.kemenag.go.id/profil/daftar-pejabat/"
+            },
+            {
+              "claim_ids": [],
+              "location": "Cultural Notes Module 1 Lesson 1, PDF page 41, lines 1357-1383",
+              "publisher": "Defense Language Institute, United States",
+              "source_group": "Defense Language Institute Indonesian course",
+              "source_kind": "comparative",
+              "supports": "The manual pairs Indonesian kantor with Malaysian pejabat for “office” and explains Indonesian pejabat as “official”; this is an older learning reference requiring corroboration.",
+              "url": "https://www.livelingua.com/dli/Indonesian/student%20manuals/DLI%20Indonesian%20-%20M1L1.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "ruang pejabat (office room/office space)",
+            "alamat pejabat (office address)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:places-01-ms-meaning-001",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In Malaysian Malay, pejabat denotes an office or workplace, including an administrative office."
+            },
+            {
+              "claim_id": "malaysian-usage:places-01-ms-usage-001",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Pejabat is used as an ordinary Malaysian Malay term for 'office', while kantor is identified as Indonesian."
+            },
+            {
+              "claim_id": "malaysian-usage:places-01-ms-preference-001",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "For the neutral sense 'office' in Malaysia, pejabat is preferred over kantor."
+            }
+          ],
+          "common_use": "Pejabat is an ordinary Malaysian term for the neutral sense 'office'; kantor is identified as Indonesian rather than the normal Malaysian choice.",
+          "meaning": "In contemporary Malaysian Malay, pejabat means an office or workplace, including an administrative or institutional office. It does not normally mean 'office' in the Indonesian sense of kantor.",
+          "preferred": "Pejabat is the preferred Malaysian Malay term for 'office' in this sense, with preference supported by Malaysian dictionary guidance and institutional usage, though broader frequency evidence is limited.",
+          "region": "Malaysia; no specific regional restriction identified.",
+          "register": "Neutral; suitable in everyday, administrative, and institutional contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "Indexed Kamus Dewan and Kamus Pelajar entries give pejabat as an office or workplace; the person/official sense is separately marked Indonesian.",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "dictionary",
+              "url": "https://prpm.dbp.gov.my/cari1?keyword=pejabat"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "DBP advice contrasts Malaysian pejabat with Indonesian kantor and equates kantor with pejabat.",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "comparative",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kantor"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "A Malaysian government form pairs Alamat Pejabat with Office Address.",
+              "publisher": "Department of Veterinary Services Malaysia",
+              "source_group": "Malaysian Department of Veterinary Services",
+              "source_kind": "contextual",
+              "url": "https://www.dvs.gov.my/dvs/resources/auto%20download%20images/565e5ff153f9f.pdf"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The manual pairs Indonesian kantor with Malaysian pejabat for office and flags pejabat as Indonesian 'official'.",
+              "publisher": "Defense Language Institute",
+              "source_group": "Defense Language Institute Indonesian course",
+              "source_kind": "comparative",
+              "url": "https://www.livelingua.com/dli/Indonesian/student%20manuals/DLI%20Indonesian%20-%20M1L1.pdf"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "places-001",
+        "candidate_id": "places-01",
+        "event_count": 7,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "office",
+        "id": "000025",
+        "image": "",
+        "indonesian": "kantor",
+        "malaysian": "pejabat",
+        "relation": "different-common-word",
+        "tags": "places work"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "semantic-ambiguity",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Pepaya/betik are ordinary papaya names; very-low reflects sparse archived preference evidence, not a contrary meaning.",
+        "english": null,
+        "review_flags": [
+          "limited-evidence",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Pepaya is the ordinary Indonesian name and betik the ordinary Malaysian name for papaya. Both cover the fruit generally; neither inherently marks ripeness, but the stated ripe-fruit referent is fully compatible with both words.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "produce-03",
+        "english": "papaya",
+        "indonesian": "pepaya",
+        "malaysian": "betik",
+        "sense": "the common ripe papaya fruit",
+        "tags": [
+          "produce",
+          "fruit",
+          "contrast"
+        ]
+      },
+      "candidate_ref": "produce-001:produce-03",
+      "concept_id": "000026",
+      "confidence": "very-low",
+      "confidence_rationale": "Pepaya/betik are ordinary papaya names; very-low reflects sparse archived preference evidence, not a contrary meaning.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "pepaya matang (ripe papaya)",
+            "pepaya muda (unripe papaya used in cooking)",
+            "betik (not established here as a common Indonesian alternative)"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:produce-03-locale",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Indonesian recipes use pepaya muda for unripe papaya as a cooked vegetable, a context distinct from the candidate's ripe-fruit sense."
+            }
+          ],
+          "common_use": "Pepaya is a familiar Indonesian food term. Recipes and cooking sources use pepaya muda for unripe fruit, so context or a modifier distinguishes that use from ripe papaya.",
+          "meaning": "Pepaya is the ordinary Indonesian name for papaya. The candidate's ripe-fruit sense is straightforward; the same word also occurs in cooking contexts for unripe papaya used as a vegetable.",
+          "preferred": "Pepaya is the ordinary general Indonesian term; no comparison establishing preference over alternatives was found.",
+          "region": "No regional restriction identified.",
+          "register": "Neutral, standard Indonesian.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "Lists pepaya muda among the vegetables in sayur asem Betawi.",
+              "source": "Kompas Food, Resep Sayur Asem Betawi",
+              "url": "https://www.kompas.com/food/read/2023/02/26/190500075/resep-sayur-asem-betawi-sajikan-dengan-sambal"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "Uses pepaya muda with kacang panjang in a lodeh recipe.",
+              "source": "Sasa, Lodeh Pepaya Muda",
+              "url": "https://www.sasa.co.id/kreasisasa/recipe/lodeh-pepaya-muda"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:produce-03-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Betik denotes papaya and its edible fruit."
+            },
+            {
+              "claim_id": "malaysian-usage:produce-03-use",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Betik is used for papaya as a food ingredient in Malaysian recipes."
+            }
+          ],
+          "common_use": "Common and understood in Malaysia; Malaysian recipe sources use betik for papaya, including ripe and unripe preparations.",
+          "meaning": "Betik means papaya. It fits the common ripe fruit sense, though DBP's definition describes the plant and edible fruit without restricting ripeness.",
+          "preferred": "Betik is the standard Malaysian Malay term in the sources. No direct comparison with alternatives was found.",
+          "region": "No regional restriction apparent in the sources.",
+          "register": "Neutral, standard Malay.",
+          "source_leads": [
+            {
+              "claim": "Defines betik as a tropical plant and fruit with edible yellow or orange flesh, identified as papaya.",
+              "claim_ids": [],
+              "source": "PRPM, DBP, entry “betik”",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=betik"
+            },
+            {
+              "claim": "Names betik in the dish title and lists young papaya as a recipe ingredient; this supports food use but is specifically unripe papaya.",
+              "claim_ids": [],
+              "source": "Wilayahku, “Rojak Betik”",
+              "url": "https://www.wipers.gov.my/wp-content/uploads/2021/10/132-Wilayahku-10-16September2021.pdf"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "produce-001",
+        "candidate_id": "produce-03",
+        "event_count": 7,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "papaya",
+        "id": "000026",
+        "image": "",
+        "indonesian": "pepaya",
+        "malaysian": "betik",
+        "relation": "different-common-word",
+        "tags": "produce fruit contrast"
+      },
+      "original_confidence": "very-low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Penghapus/pemadam fit a school eraser; very-low retains sparse source comparison and the longer Malay getah pemadam variant.",
+        "english": null,
+        "review_flags": [
+          "limited-evidence",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Penghapus is the normal Indonesian school-item term, and standalone pemadam is a natural and common Malaysian term for an eraser in school or stationery context. Getah pemadam and getah pemadam pensel are more explicit Malaysian variants, not replacements required to make the card accurate.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "topic-06",
+        "english": "eraser",
+        "indonesian": "penghapus",
+        "malaysian": "pemadam",
+        "sense": "A small tool used to remove pencil marks from paper.",
+        "tags": [
+          "school"
+        ]
+      },
+      "candidate_ref": "school-001:topic-06",
+      "concept_id": "000027",
+      "confidence": "very-low",
+      "confidence_rationale": "Penghapus/pemadam fit a school eraser; very-low retains sparse source comparison and the longer Malay getah pemadam variant.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "karet penghapus"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:topic-06-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In Indonesian school-object usage, “penghapus” denotes an eraser associated with removing pencil marks, but the inspected source note does not independently establish the full exact definition."
+            },
+            {
+              "claim_id": "indonesian-usage:topic-06-locale-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "“Penghapus” is used as a school-object term in Indonesia, as shown by its grouping with pencils and books in an Indonesian Ministry of Education workbook extract."
+            }
+          ],
+          "common_use": "“Penghapus” is a common and readily understood Indonesian term for an eraser in school and study contexts.",
+          "meaning": "“Penghapus” refers to an eraser used to remove pencil marks and is understood in the school-object context. The inspected source note supports its association with school supplies but does not independently establish the exact definition.",
+          "preferred": "“Penghapus” is strongly supported as the ordinary Indonesian term in this context, although the available note does not provide a direct comparison with alternatives sufficient for a fully audited preferred-choice claim.",
+          "region": "Contemporary Indonesia; no regional limitation is indicated by the inspected note.",
+          "register": "Neutral everyday usage.",
+          "source_leads": [
+            {
+              "access_method": "manual-inspection",
+              "claim_ids": [],
+              "limitations": "The PDF could not be opened directly; the extract supports school-object usage but does not independently establish precise meaning, preferred usage, or comparison with alternatives.",
+              "observation": "The indexed workbook extract groups “penghapus” with pencils and books as school objects.",
+              "page_location_or_query": "Search-index extract, mathematics workbook example containing “36 pensil, 54 penghapus, 81 buku”",
+              "publisher": "Kementerian Pendidikan dan Kebudayaan Republik Indonesia",
+              "source_kind": "contextual",
+              "url_or_query": "https://repositori.kemdikbud.go.id/9603/1/MTK%20Paket%20A%20Sehat%20Berolahraga%20Modul%202_sip%20for%20ISBN.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "getah pemadam",
+            "getah pemadam pensel"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:topic-06-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In Malaysian Malay, pemadam can denote an instrument used to remove writing, but the term also has broader senses, including a fire extinguisher and an instrument for erasing a blackboard."
+            },
+            {
+              "claim_id": "malaysian-usage:topic-06-locale-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Malaysian DBP language-advice excerpts use getah pemadam pensel for the small stationery item used to erase pencil writing."
+            }
+          ],
+          "common_use": "The notes support usage of getah pemadam pensel for the specific stationery item. They do not establish how common standalone pemadam is in everyday Malaysian usage.",
+          "meaning": "Pemadam exists in Malaysian Malay as a term for an instrument used to remove writing, but it is semantically broad and can also refer to other things such as a fire extinguisher or a blackboard eraser. For the exact small stationery item used to remove pencil marks, getah pemadam or getah pemadam pensel is more precise.",
+          "preferred": "Preference is uncertain. The available notes suggest that getah pemadam pensel is a safer precise term for this sense, but they do not independently prove the normal everyday preference over standalone pemadam.",
+          "region": "Malaysia; no narrower regional limitation is indicated.",
+          "register": "Neutral; getah pemadam pensel is explicit and context-specific.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The indexed pemadam entry includes an instrument for removing writing, as well as fire extinguishers and blackboard erasers.",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "dictionary",
+              "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=378040&keyword=pemadam"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "DBP language-advice excerpts use getah pemadam pensel for the small item used to erase writing.",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "contextual",
+              "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pemadam"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "school-001",
+        "candidate_id": "topic-06",
+        "event_count": 7,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "eraser",
+        "id": "000027",
+        "image": "",
+        "indonesian": "penghapus",
+        "malaysian": "pemadam",
+        "relation": "different-common-word",
+        "tags": "school"
+      },
+      "original_confidence": "very-low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-evidence",
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "limited-evidence",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Mobil/kereta are everyday passenger-car defaults; low retains corrected overbroad or rare alternative notes and historical usage concern.",
+        "english": null,
+        "review_flags": [
+          "historical-objection",
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {
+          "indonesian": {
+            "alternatives": [
+              "oto",
+              "otomobil"
+            ]
+          },
+          "malaysian": {
+            "alternatives": [
+              "motokar (less conversational)"
+            ],
+            "common_use": "Kereta is the normal everyday Malaysian term for a passenger car; the recognition rate of Indonesian mobil is unmeasured."
+          }
+        }
+      },
+      "audit_corrections": {
+        "historical_usage.indonesian.alternatives": "Remove \"kendaraan pribadi\" as a synonym, or label it explicitly as the broader phrase “private vehicle.”",
+        "historical_usage.malaysian.alternatives": "Remove \"automobil\" or label it rare/lexicographical rather than an everyday alternative; retain \"motokar\" as a valid but less conversational alternative.",
+        "historical_usage.malaysian.common_use": "Change to: “Kereta is the normal everyday Malaysian term for this sense. Mobil is characteristically Indonesian; its precise recognition and usage rate in Malaysia are not established here.”"
+      },
+      "audit_reason": "The core contrast is accurate and worth learning: mobil is the ordinary Indonesian word for a passenger car, while kereta is the ordinary Malaysian word. Both match the stated sense in context. The defects are peripheral: kendaraan pribadi is broader than “car,” automobil is not an ordinary Malaysian alternative, and Malaysian comprehension of mobil should not be stated categorically without usage evidence.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "transportation-01",
+        "english": "car",
+        "indonesian": "mobil",
+        "legacy_id": "000001",
+        "malaysian": "kereta",
+        "sense": "A passenger road vehicle with four wheels.",
+        "tags": [
+          "transportation"
+        ]
+      },
+      "candidate_ref": "transportation-001:transportation-01",
+      "concept_id": "000001",
+      "confidence": "low",
+      "confidence_rationale": "Mobil/kereta are everyday passenger-car defaults; low retains corrected overbroad or rare alternative notes and historical usage concern.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "oto",
+            "otomobil"
+          ],
+          "claims": [
+            {
+              "claim_id": "id-car-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Mobil mencakup kendaraan darat bermotor beroda empat, termasuk mobil penumpang, meski definisi kamusnya lebih luas."
+            },
+            {
+              "claim_id": "id-car-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Mobil merupakan pilihan sehari-hari yang wajar untuk car; pemakaian mobil pribadi dalam berita transportasi nasional mendukungnya."
+            }
+          ],
+          "common_use": "Umum dan mudah dipahami di Indonesia; digunakan pula dalam frasa mobil pribadi.",
+          "meaning": "Mobil berarti kendaraan darat bermotor; dalam konteks sehari-hari, kata ini tepat untuk mobil penumpang beroda empat. Definisi kamusnya juga mencakup kendaraan beroda lebih dari empat.",
+          "preferred": "Mobil adalah pilihan wajar untuk menyebut car dalam percakapan sehari-hari.",
+          "region": "Pemakaian bahasa Indonesia secara nasional; tidak tampak batasan daerah.",
+          "register": "Netral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "id-car-meaning"
+              ],
+              "exact_claim": "KBBI mendefinisikan mobil sebagai kendaraan darat bermesin dengan empat roda atau lebih dan mencantumkan oto serta otomobil sebagai padanan.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/mobil"
+            },
+            {
+              "claim_ids": [
+                "id-car-meaning",
+                "id-car-preferred"
+              ],
+              "exact_claim": "Artikel ANTARA bertanggal 7 Maret 2026 memakai mobil pribadi untuk kendaraan pribadi dalam pembahasan perjalanan nasional, terpisah dari sepeda motor, bus, dan kereta api.",
+              "url": "https://www.antaranews.com/berita/5459039/menhub-mobil-diproyeksikan-dominasi-angkutan-lebaran-2026"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "motokar (less conversational)"
+          ],
+          "claims": [
+            {
+              "claim_id": "my-car-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Kereta denotes a car; DBP glosses mobil as kereta or motokar."
+            },
+            {
+              "claim_id": "my-car-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Kereta is preferred in Malaysian Malay; DBP contrasts Malaysian kereta with Indonesian mobil in car-related terms."
+            }
+          ],
+          "common_use": "Kereta is the normal everyday Malaysian term for a passenger car; the recognition rate of Indonesian mobil is unmeasured.",
+          "meaning": "Kereta denotes a car in the intended passenger-vehicle sense.",
+          "preferred": "Kereta is the normal everyday choice in Malaysia.",
+          "region": "Malaysia",
+          "register": "Kereta is neutral; mobil is chiefly Indonesian for this sense.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "my-car-meaning",
+                "my-car-preferred"
+              ],
+              "evidence": "DBP defines mobil as motokar or kereta and marks its car sense IB (Indonesian).",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=178260&keyword=mobil"
+            },
+            {
+              "claim_ids": [
+                "my-car-preferred"
+              ],
+              "evidence": "MABBIM lists Indonesian mobil pribadi against Malaysian kereta persendirian, and pemilikan mobil against pemilikan kereta.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=car"
+            },
+            {
+              "claim_ids": [
+                "my-car-preferred"
+              ],
+              "evidence": "Malaysia’s Ministry of Economy uses kereta penumpang baru.",
+              "url": "https://ekonomi.gov.my/ms/statistik-sosioekonomi/petunjuk-ekonomi-terkini"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "transportation-001",
+        "candidate_id": "transportation-01",
+        "event_count": 19,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "car",
+        "id": "000001",
+        "image": "",
+        "indonesian": "mobil",
+        "malaysian": "kereta",
+        "relation": "different-common-word",
+        "tags": "transportation"
+      },
+      "original_confidence": "low",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "historical-objection",
+        "limited-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "historical-objection",
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Bus/bas give the standard spelling contrast; medium keeps the English or code-mixed bus spelling distinct from standard Malay bas.",
+        "english": null,
+        "review_flags": [
+          "spelling-variant"
+        ],
+        "sense": null,
+        "usage": {
+          "malaysian": {
+            "alternatives": []
+          }
+        }
+      },
+      "audit_corrections": {
+        "historical_usage.malaysian.alternatives": "Replace [\"bus\"] with either [] or [\"bus (English spelling or nonstandard code-mixed usage; not the standard Malaysian Malay form)\"]."
+      },
+      "audit_reason": "Bus in Indonesia and bas in Malaysia are natural contemporary standard forms, and the spelling contrast is useful. The English definition is a service-bus sense rather than the full meaning of bus, but both words cover it. Malaysian bus should not be presented as an unqualified Malay alternative to standard bas.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "transportation-04",
+        "english": "bus",
+        "indonesian": "bus",
+        "malaysian": "bas",
+        "sense": "A large road vehicle carrying multiple passengers on a route.",
+        "tags": [
+          "transportation"
+        ]
+      },
+      "candidate_ref": "transportation-001:transportation-04",
+      "concept_id": "000028",
+      "confidence": "medium",
+      "confidence_rationale": "Bus/bas give the standard spelling contrast; medium keeps the English or code-mixed bus spelling distinct from standard Malay bas.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "bis",
+            "angkutan bus"
+          ],
+          "claims": [
+            {
+              "claim_id": "transportation-04-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Bus denotes a large motor vehicle capable of carrying many passengers; a route is not inherent in the word."
+            },
+            {
+              "claim_id": "transportation-04-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Bus is the standard and normal everyday Indonesian choice; bis is a nonstandard variant."
+            }
+          ],
+          "common_use": "Widely understood and routinely used.",
+          "meaning": "Bus denotes a large road vehicle carrying many passengers. The word alone does not require a fixed route, though buses commonly serve routes.",
+          "preferred": "Bus is the normal everyday choice; bis is also heard but is nonstandard.",
+          "region": "Used throughout Indonesia; no regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "transportation-04-Indonesia-meaning",
+                "transportation-04-Indonesia-preferred"
+              ],
+              "exact_claim": "KBBI defines bus as a large public passenger motor vehicle and labels bis a nonstandard form.",
+              "url": "https://kbbi.kemendikdasmen.go.id/entri/bus"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [],
+          "claims": [
+            {
+              "claim_id": "transportation-04-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Bas denotes a large road vehicle carrying passengers, usually on a scheduled service."
+            },
+            {
+              "claim_id": "transportation-04-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Bas is the normal Malaysian Malay choice for bus."
+            }
+          ],
+          "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+          "meaning": "Bas denotes a large passenger road vehicle, usually operating to a schedule. It matches the route-service sense.",
+          "preferred": "Bas is the normal neutral choice.",
+          "region": "Malaysia generally; no regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "transportation-04-Malaysia-meaning",
+                "transportation-04-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP defines bas as a large passenger vehicle usually following a schedule; assess contemporary preference separately.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bas"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "transportation-001",
+        "candidate_id": "transportation-04",
+        "event_count": 21,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "bus",
+        "id": "000028",
+        "image": "",
+        "indonesian": "bus",
+        "malaysian": "bas",
+        "relation": "similar",
+        "tags": "transportation"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "spelling-variant"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Truk/lori both name a goods vehicle; medium retains limited preference evidence after correcting Malay alternative and size notes.",
+        "english": null,
+        "review_flags": [
+          "usage-preference-weak"
+        ],
+        "sense": null,
+        "usage": {
+          "malaysian": {
+            "alternatives": [],
+            "meaning": "Lori denotes a road motor vehicle for carrying goods; it need not be very large."
+          }
+        }
+      },
+      "audit_corrections": {
+        "historical_usage.malaysian.alternatives": "Change to [\"trak (borrowed form occurring in some compounds or specialized contexts; less general than lori)\", \"truk (Indonesian spelling, not the normal Malaysian Malay choice)\"] or omit both alternatives.",
+        "historical_usage.malaysian.meaning": "Change to: “Lori denotes a road motor vehicle used to carry goods; it includes vehicles matching the intended truck sense and is not necessarily restricted to very large ones.”"
+      },
+      "audit_reason": "The central contrast is accurate and valuable: Indonesian normally uses truk and Malaysian normally uses lori for a goods-carrying road vehicle. Lori is not inherently restricted to very large vehicles, but it comfortably covers the stated sense. The Malaysian alternatives need qualification because truk is characteristically Indonesian and trak is not the default general word.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "transportation-06",
+        "english": "truck",
+        "indonesian": "truk",
+        "malaysian": "lori",
+        "sense": "A large road vehicle used to carry goods.",
+        "tags": [
+          "transportation"
+        ]
+      },
+      "candidate_ref": "transportation-001:transportation-06",
+      "concept_id": "000029",
+      "confidence": "medium",
+      "confidence_rationale": "Truk/lori both name a goods vehicle; medium retains limited preference evidence after correcting Malay alternative and size notes.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "mobil barang",
+            "kendaraan barang"
+          ],
+          "claims": [
+            {
+              "claim_id": "transportation-06-Indonesia-meaning",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "Truk denotes a vehicle with four or more wheels used to carry goods."
+            },
+            {
+              "claim_id": "transportation-06-Indonesia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "Truk is the normal everyday Indonesian choice for truck."
+            }
+          ],
+          "common_use": "Widely understood and routinely used.",
+          "meaning": "Truk denotes a road vehicle built to carry goods, usually larger than a passenger car.",
+          "preferred": "Truk is the normal everyday choice.",
+          "region": "Used throughout Indonesia; no regional restriction identified.",
+          "register": "Neutral; mobil barang is a more administrative category.",
+          "source_leads": [
+            {
+              "claim_ids": [
+                "transportation-06-Indonesia-meaning",
+                "transportation-06-Indonesia-preferred"
+              ],
+              "exact_claim": "BPS defines truk as a four-or-more-wheeled goods vehicle and notes mobil barang as another name.",
+              "url": "https://sirusa.web.bps.go.id/metadata/variabel/92590ec4-f5fc-bf50-81d7-9f89c03e1853"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [],
+          "claims": [
+            {
+              "claim_id": "transportation-06-Malaysia-meaning",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Lori denotes a large land vehicle used to transport goods."
+            },
+            {
+              "claim_id": "transportation-06-Malaysia-preferred",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Lori is the normal Malaysian Malay choice for a goods-carrying truck."
+            }
+          ],
+          "common_use": "Common and readily understood in contemporary Malaysian Malay.",
+          "meaning": "Lori denotes a road motor vehicle for carrying goods; it need not be very large.",
+          "preferred": "Lori is the normal neutral choice.",
+          "region": "Malaysia generally; no regional restriction identified.",
+          "register": "Neutral.",
+          "source_leads": [
+            {
+              "audited": false,
+              "claim_ids": [
+                "transportation-06-Malaysia-meaning",
+                "transportation-06-Malaysia-preferred"
+              ],
+              "evidence_to_check": "DBP defines lori as a large land vehicle for transporting goods; compare everyday use with trak or truk separately.",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lori"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "transportation-001",
+        "candidate_id": "transportation-06",
+        "event_count": 15,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "truck",
+        "id": "000029",
+        "image": "",
+        "indonesian": "truk",
+        "malaysian": "lori",
+        "relation": "different-common-word",
+        "tags": "transportation"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement",
+        "usage-preference-weak"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "usage-preference-weak"
+      ]
+    },
+    {
+      "applied_corrections": {
+        "confidence_rationale": "Beasiswa/biasiswa align for educational financial support; medium retains broader funding-label caveats despite a stable spelling contrast.",
+        "english": null,
+        "review_flags": [],
+        "sense": null,
+        "usage": {}
+      },
+      "audit_corrections": {},
+      "audit_reason": "Beasiswa and biasiswa are the natural standard terms for a scholarship in Indonesia and Malaysia respectively. Both accurately denote educational financial support, the spelling contrast is stable and useful, and the broader funding alternatives are already appropriately qualified rather than presented as exact synonyms.",
+      "audit_verdict": "confirmed-good",
+      "candidate": {
+        "candidate_id": "university-study-03",
+        "english": "scholarship",
+        "indonesian": "beasiswa",
+        "malaysian": "biasiswa",
+        "sense": "Financial support awarded to help a student pay for education.",
+        "tags": [
+          "university-study"
+        ]
+      },
+      "candidate_ref": "university-001:university-study-03",
+      "concept_id": "000030",
+      "confidence": "medium",
+      "confidence_rationale": "Beasiswa/biasiswa align for educational financial support; medium retains broader funding-label caveats despite a stable spelling contrast.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [
+            "bantuan pendidikan (broader descriptive term, not necessarily a scholarship)",
+            "pendanaan pendidikan (formal or administrative, emphasizing funding rather than the award itself)",
+            "tunjangan pendidikan (may refer to an allowance or benefit and is not an exact synonym)"
+          ],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:id-meaning-01",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In contemporary Indonesian educational usage, beasiswa denotes financial support provided to help students pursue or complete education, including tuition and related expenses."
+            },
+            {
+              "claim_id": "indonesian-usage:id-usage-01",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Beasiswa is used in current Indonesian national scholarship programs and student-facing higher-education announcements for awards covering tuition and other study-related costs."
+            },
+            {
+              "claim_id": "indonesian-usage:id-preference-01",
+              "claim_type": "preferred-choice",
+              "locale": "Indonesia",
+              "proposition": "For the neutral cue 'financial support awarded to help a student pay for education,' beasiswa is the normal standard Indonesian term, supported by consistent use across government scholarship agencies and university student communications."
+            }
+          ],
+          "common_use": "Beasiswa is clearly current and widely recognizable in Indonesian educational and student-facing contexts. The inspected sources show use for undergraduate, master's, and doctoral funding, as well as tuition, living costs, books, research, and transport.",
+          "meaning": "Beasiswa means financial support awarded to help a student pay for education, including tuition and related study costs.",
+          "preferred": "Beasiswa is the normal standard choice for this exact neutral sense in contemporary Indonesia, although the sources do not provide population-level frequency evidence.",
+          "region": "Indonesia nationwide usage is strongly indicated by national government and scholarship-agency sources; no regional restriction is documented.",
+          "register": "Neutral standard; common in institutional, administrative, educational, and everyday student contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The government defines beasiswa as support for education costs given to students and others to pursue or complete education, including tuition and related expenses.",
+              "publisher": "Direktorat Jenderal Pajak, Indonesia",
+              "url": "https://www.pajak.go.id/index.php/id/beasiswa"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The national scholarship agency uses beasiswa for master's and doctoral funding programs and application instructions.",
+              "publisher": "Lembaga Pengelola Dana Pendidikan (LPDP)",
+              "url": "https://lpdp.kemenkeu.go.id/beasiswa/kebijakan-umum/"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The higher-education scholarship portal calls full study funding beasiswa and lists tuition, living costs, books, research, and transport as benefits.",
+              "publisher": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi, Indonesia",
+              "url": "https://satubeasiswa.kemdiktisaintek.go.id/beasiswa/beasiswa-pendidikan-indonesia-bpi-fpc9"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "A university student-facing announcement uses beasiswa for an award covering tuition, living expenses, books, and other study costs.",
+              "publisher": "Direktorat Kemahasiswaan Universitas Gadjah Mada",
+              "url": "https://ditmawa.ugm.ac.id/2026/08/beasiswa-pendidikan-bayan-peduli-program-2026/"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "A comparative Indonesian–Malaysian–English table pairs Indonesian beasiswa with Malaysian biasiswa and English scholarship.",
+              "publisher": "Kedutaan Besar Republik Indonesia di Kuala Lumpur",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Kamus_Indonesia-Malaysia-Inggris.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "tajaan (sponsorship, potentially broader than scholarship)",
+            "dermasiswa (a grant or scholarship label in some contexts)",
+            "bantuan kewangan (financial assistance, broader)",
+            "pinjaman pendidikan (education loan, semantically distinct)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:my-biasiswa-meaning-01",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "Biasiswa is used in Malaysia for financial support awarded to students for education, including study-related expenses."
+            },
+            {
+              "claim_id": "malaysian-usage:my-biasiswa-context-02",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "Biasiswa is current institutional terminology in Malaysian higher-education scholarship programs, including ministry and university funding listings."
+            },
+            {
+              "claim_id": "malaysian-usage:my-biasiswa-preference-03",
+              "claim_type": "preferred-choice",
+              "locale": "Malaysia",
+              "proposition": "Biasiswa is a supported normal choice for the specific student-scholarship sense in formal Malaysian university funding contexts, though unrestricted everyday preference remains uncertain."
+            }
+          ],
+          "common_use": "Clearly established and commonly used in Malaysian higher-education funding contexts, including ministry scholarship programs and university student-support programs. The notes do not quantify everyday population frequency.",
+          "meaning": "In contemporary Malaysia, biasiswa denotes financial support awarded to help a student pay for education, including scholarships covering tuition and potentially accommodation, books, or living allowances.",
+          "preferred": "Uncertain for unrestricted everyday usage; biasiswa is well supported as the normal term in formal university scholarship contexts, but the evidence does not establish countrywide preference over all funding labels.",
+          "region": "Malaysia; supported by national ministry usage and Malaysian university usage, but regional variation is not assessed.",
+          "register": "Neutral; frequent in formal educational, institutional, and administrative contexts.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "exact_claim": "The ministry uses biasiswa in its scholarship division, funding-program listings, and Malaysia International Scholarship entry for students.",
+              "publisher": "Kementerian Pendidikan Tinggi Malaysia",
+              "source_kind": "contextual",
+              "url": "https://biasiswa.mohe.gov.my/biasiswa/index.php"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "A Malaysian university calls full tuition support for students biasiswa and distinguishes it from other education sponsorship.",
+              "publisher": "Universiti Selangor",
+              "source_kind": "contextual",
+              "url": "https://comnet.unisel.edu.my/bantuan_pendidikan/"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The university uses biasiswa for student study funding covering tuition, accommodation, books, and living allowance.",
+              "publisher": "Universiti Putra Malaysia",
+              "source_kind": "contextual",
+              "url": "https://kursitoknan.upm.edu.my/biasiswa.php"
+            },
+            {
+              "claim_ids": [],
+              "exact_claim": "The comparative Indonesian–Malaysian–English table pairs Indonesian beasiswa, Malaysian biasiswa, and English scholarship.",
+              "publisher": "Kedutaan Besar Republik Indonesia di Kuala Lumpur",
+              "source_kind": "comparative",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Kamus_Indonesia-Malaysia-Inggris.pdf"
+            }
+          ]
+        }
+      },
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "university-001",
+        "candidate_id": "university-study-03",
+        "event_count": 17,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "scholarship",
+        "id": "000030",
+        "image": "",
+        "indonesian": "beasiswa",
+        "malaysian": "biasiswa",
+        "relation": "similar",
+        "tags": "university-study"
+      },
+      "original_confidence": "medium",
+      "original_decision": "accepted",
+      "original_review_flags": [
+        "limited-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": []
+    },
+    {
+      "applied_corrections": {
+        "confidence": "medium",
+        "confidence_rationale": "Pensil/pensel are matching standard pencil forms; medium retains the attested Malaysian pensil variant while DBP explicitly recommends pensel.",
+        "decision": "hold → accepted",
+        "english": null,
+        "review_flags": [
+          "historical-objection",
+          "spelling-variant"
+        ],
+        "sense": null,
+        "usage": {
+          "indonesian": {
+            "preferred": "Pensil is the normal standard and everyday Indonesian term."
+          },
+          "malaysian": {
+            "alternatives": [
+              "pensil (attested secondary spelling or variant)"
+            ],
+            "preferred": "Pensel is the standard Malaysian spelling and normal learner default; pensil also occurs but does not displace it."
+          }
+        }
+      },
+      "audit_corrections": {
+        "historical_usage.indonesian.preferred": "Change to: “Pensil is the normal standard and everyday Indonesian term.”",
+        "historical_usage.malaysian.alternatives": "Retain \"pensil\" but qualify it as an attested secondary spelling/variant rather than an equally preferred default.",
+        "historical_usage.malaysian.preferred": "Change to: “Pensel is the standard and normal Malaysian Malay form. Pensil also occurs, including through Indonesian influence, commercial wording, or spelling variation, but does not displace pensel as the learner default.”"
+      },
+      "audit_reason": "Pensil in Indonesia and pensel in Malaysia are correct, natural standard forms, and the contrast is worth learning. The Malaysian occurrence of pensil is a nonblocking spelling or usage variant, not a material reason to hold the card. The metadata is too hesitant about pensel being the Malaysian default.",
+      "audit_verdict": "needs-correction",
+      "candidate": {
+        "candidate_id": "topic-05",
+        "english": "pencil",
+        "indonesian": "pensil",
+        "malaysian": "pensel",
+        "sense": "A writing tool with a graphite core that can be erased.",
+        "tags": [
+          "school"
+        ]
+      },
+      "candidate_ref": "school-001:topic-05",
+      "concept_id": "000031",
+      "confidence": "medium",
+      "confidence_rationale": "Pensil/pensel are matching standard pencil forms; medium retains the attested Malaysian pensil variant while DBP explicitly recommends pensel.",
+      "corrected_usage": {
+        "indonesian": {
+          "alternatives": [],
+          "claims": [
+            {
+              "claim_id": "indonesian-usage:topic-05-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Indonesia",
+              "proposition": "In Indonesian, pensil denotes a writing instrument with a graphite core, generally associated with erasability."
+            },
+            {
+              "claim_id": "indonesian-usage:topic-05-locale-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Indonesia",
+              "proposition": "Pensil is used in Indonesia as an ordinary term for this school and office stationery item."
+            }
+          ],
+          "common_use": "Pensil is understood and commonly used in Indonesia for this object. The inspected teaching-plan extract lists pensil among ordinary office stationery.",
+          "meaning": "Pensil means a writing tool with a graphite core that can be erased, matching the proposed neutral sense.",
+          "preferred": "Pensil is the normal standard and everyday Indonesian term.",
+          "region": "Indonesia; no specific regional limitation is indicated.",
+          "register": "Neutral and everyday; also suitable for educational and office contexts.",
+          "source_leads": [
+            {
+              "access_method": "manual-inspection",
+              "claim_ids": [],
+              "exact_claim": "The indexed extract lists pensil among ordinary office stationery, alongside kertas, pena, and penghapus.",
+              "limitations": "Only a search-index extract was accessible; the PDF could not be opened. This teaching plan does not establish national frequency or preferred spelling by itself.",
+              "page_location_or_query": "Search-index extract for 'BIPA TUJUAN KHUSUS UNTUK TKA KOREA', page 14 of 19, Unit 7",
+              "publisher": "Kementerian Pendidikan dan Kebudayaan Republik Indonesia",
+              "source_group": "Indonesian Ministry of Education repository",
+              "source_kind": "contextual",
+              "url_or_query": "https://repositori.kemdikbud.go.id/11142/1/BIPA%20TUJUAN%20KHUSUS%20UNTUK%20TKA%20KOREA.pdf"
+            }
+          ]
+        },
+        "malaysian": {
+          "alternatives": [
+            "pensil (attested secondary spelling or variant)"
+          ],
+          "claims": [
+            {
+              "claim_id": "malaysian-usage:topic-05-meaning-1",
+              "claim_type": "meaning",
+              "locale": "Malaysia",
+              "proposition": "In Malaysian Malay, “pensel” refers to a graphite writing instrument, including an erasable pencil."
+            },
+            {
+              "claim_id": "malaysian-usage:topic-05-locale-usage-1",
+              "claim_type": "locale-usage",
+              "locale": "Malaysia",
+              "proposition": "“Pensel” occurs in ordinary Malaysian school-related expressions such as “pensel warna” and “bekas pensel”."
+            }
+          ],
+          "common_use": "“Pensel” is established and understandable in Malaysian Malay, especially in school contexts. The supplied notes support ordinary usage but do not establish national frequency.",
+          "meaning": "“Pensel” denotes a graphite writing instrument whose marks can be erased, matching the proposed neutral sense. The term is also used in compounds such as “pensel warna” for coloured pencils.",
+          "preferred": "Pensel is the standard Malaysian spelling and normal learner default; pensil also occurs but does not displace it.",
+          "region": "Malaysia; no narrower regional limitation is supported by the notes.",
+          "register": "Neutral everyday and educational; standard-dictionary usage.",
+          "source_leads": [
+            {
+              "claim_ids": [],
+              "lead": "Indexed extracts from Kamus Dewan Edisi Keempat and Kamus Pelajar define “pensel” as a graphite writing instrument.",
+              "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+              "source_group": "Dewan Bahasa dan Pustaka PRPM",
+              "source_kind": "dictionary",
+              "url": "https://prpm.dbp.gov.my/Cari1?d=141960&keyword=Pensel"
+            },
+            {
+              "claim_ids": [],
+              "lead": "An indexed extract uses “pensel warna” and “bekas pensel” in a Malaysian educational activity context.",
+              "publisher": "Kementerian Pendidikan Malaysia",
+              "source_group": "Malaysian Ministry of Education",
+              "source_kind": "contextual",
+              "url": "https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/Surat%20Siaran%20KPM%20Bil.%205%20Tahun%202023%20Senarai%20Semak%20Pengesanan%20Perkembangan%20Bayi%20Kanak-Kanak%20Bagi%20Tujuan%20Pendidikan%20Edisi%20Kedua%20Mulai%20Tahun%202023%20%281%29.pdf"
+            },
+            {
+              "claim_ids": [],
+              "lead": "The product page uses both “pensil” in the heading and “pensel” in the description, indicating that “pensil” is also encountered in Malaysian usage.",
+              "publisher": "IKEA Malaysia",
+              "source_group": "IKEA Malaysia",
+              "source_kind": "contextual",
+              "url": "https://www.ikea.com/my/ms/p/mala-pensil-warna-warna-bercampur-70477598/"
+            }
+          ]
+        }
+      },
+      "decision_change_reason": "The historical concern was Malaysian pensil as a rival spelling. DBP explicitly identifies pensel as correct; the independent audit found the variant nonblocking. No concrete material learner risk remains.",
+      "final_decision": "accepted",
+      "historical_provenance": {
+        "audit_artifact": "specs/003-vocabulary-curation/optimistic-audit-model.json",
+        "batch_id": "school-001",
+        "candidate_id": "topic-05",
+        "event_count": 9,
+        "replay_artifact": "specs/003-vocabulary-curation/optimistic-replay-report.json"
+      },
+      "learner_row": {
+        "contrast": "",
+        "english": "pencil",
+        "id": "000031",
+        "image": "",
+        "indonesian": "pensil",
+        "malaysian": "pensel",
+        "relation": "similar",
+        "tags": "school"
+      },
+      "original_confidence": null,
+      "original_decision": "hold",
+      "original_review_flags": [],
+      "relation": "similar",
+      "review_flags": [
+        "spelling-variant",
+        "historical-objection"
+      ],
+      "supporting_references": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pensil",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=Pensel"
+      ]
+    }
+  ],
+  "learner_rows_added": 25,
+  "learner_rows_after": 28,
+  "learner_rows_before": 3,
+  "learner_rows_corrected": 0,
+  "promoted_confidence_distribution": {
+    "high": 1,
+    "low": 6,
+    "medium": 13,
+    "very-low": 5
+  },
+  "promotion_id": "optimistic-audit-001",
+  "relation_distribution": {
+    "different-common-word": 19,
+    "similar": 9
+  },
+  "replay_digest": "731878f358b8ee959fd28b1127c3d26c88243df1b9e31353fce28734703e9561",
+  "schema_version": 1,
+  "source_digest_after": "74083255555547e464f4a7451e743f9e9a2e7fb0ec68c261b69a052fc52da40b",
+  "source_digest_before": "69db4278aa9661e79f5ce78d298ea93d24f696f5c3615efc1e7fe0b1cc9f6179",
+  "status": "promoted"
+}

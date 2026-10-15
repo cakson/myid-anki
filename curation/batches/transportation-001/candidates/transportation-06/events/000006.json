@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-03T19:53:06.424981+00:00",
+  "input_digest": "211a35120cf489b23d5389ce39be2ce73a839624fecc2fa0e35e64000447a7fc",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"000001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A truck carries goods; the accepted car concept describes a passenger vehicle.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000001",
+          "rationale": "A truck carries goods; the accepted car concept describes a passenger vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000001",
+        "rationale": "A truck carries goods; the accepted car concept describes a passenger vehicle.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "921e92e87439bc032a73cc8e33da839965a1eee2423fa38b2e46e599a9bdee77"
+}

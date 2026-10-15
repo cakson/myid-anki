@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-14T16:23:18.558124+00:00",
+  "input_digest": "17ad6162ac5ddd3ef38e600f7f71e530a304fce48a37a64c5cfb1deeab55ac39",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Resep and resipi both mean instructions for preparing a dish, with resep standard in Indonesian and resipi standard in Malaysian Malay.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers directly denote cooking instructions for a dish.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"Resep is recognizable in Malaysia but is not the ordinary Malaysian form; resipi is the local standard preference.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"resep\", \"language\": \"malaysian\", \"rationale\": \"Resep may be understood in Malaysia, but resipi is the ordinary Malaysian form.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers directly denote cooking instructions for a dish.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "resep",
+        "language": "malaysian",
+        "rationale": "Resep may be understood in Malaysia, but resipi is the ordinary Malaysian form.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "Resep and resipi both mean instructions for preparing a dish, with resep standard in Indonesian and resipi standard in Malaysian Malay.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "Resep is recognizable in Malaysia but is not the ordinary Malaysian form; resipi is the local standard preference.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers directly denote cooking instructions for a dish.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "resep",
+      "language": "malaysian",
+      "rationale": "Resep may be understood in Malaysia, but resipi is the ordinary Malaysian form.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Resep and resipi both mean instructions for preparing a dish, with resep standard in Indonesian and resipi standard in Malaysian Malay.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Resep is recognizable in Malaysia but is not the ordinary Malaysian form; resipi is the local standard preference.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "3307eee6fd4fd9c6c7b8df4a2a4f3e6f476da2cf4026734bc9a79b12a70517c6"
+}

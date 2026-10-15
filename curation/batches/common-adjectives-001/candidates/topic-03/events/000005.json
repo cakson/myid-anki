@@ -1,0 +1,146 @@
+{
+  "at": "2026-10-04T03:37:44.733250+00:00",
+  "input_digest": "8263033e2f9a2970adf2158aa444ec96178b923200774fec76f769c83d7b20ef",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-luna/codex-cli\", \"result\": {\"observations\": [{\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-03-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"topic-03-obs-1\", \"limitations\": \"Page content was unavailable; the proposed gloss was not verified.\", \"locale\": \"Indonesia\", \"observation\": \"Access failed: the network tool reported \\u201c(400) Timeout fetching.\\u201d The entry could not be inspected, so it provides no support.\", \"page_location_or_query\": \"Direct page retrieval\", \"publisher\": \"SABDA\", \"register\": \"Unassessed\", \"source_group\": \"Kamus SABDA\", \"source_title\": \"Capek entry\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://kamus.sabda.org/kamus/capek\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-03-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"topic-03-obs-3\", \"limitations\": \"Page content was unavailable; the proposed definition and synonym were not verified.\", \"locale\": \"Malaysia\", \"observation\": \"Access failed: the network tool reported \\u201c(400) Timeout fetching.\\u201d The entry could not be inspected, so it provides no support.\", \"page_location_or_query\": \"Direct page retrieval\", \"publisher\": \"Dewan Bahasa dan Pustaka Malaysia\", \"register\": \"Unassessed\", \"source_group\": \"PRPM / Dewan Bahasa dan Pustaka\", \"source_title\": \"PRPM penat search entry\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penat\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-04T03:35:29Z\", \"audit_method\": \"manual-inspection\", \"claim_id\": \"topic-03-meaning\", \"claim_type\": \"relation\", \"evidence_id\": \"topic-03-obs-4\", \"limitations\": \"The accessible cape entry is dictionary evidence and does not establish normal everyday preference; it also does not directly verify the spelling capek.\", \"locale\": \"Indonesia; Malaysia\", \"observation\": \"No contextual or comparative evidence was retrieved establishing capek and penat as common everyday choices for feeling tired and needing rest.\", \"page_location_or_query\": \"Candidate relation claim\", \"publisher\": \"Not available\", \"register\": \"Everyday preference unestablished\", \"source_group\": \"No comparative usage evidence retrieved\", \"source_title\": \"Everyday word-choice evidence\", \"stance\": \"inconclusive\", \"url_or_query\": \"No corpus query supplied or retrieved\", \"usage_basis\": \"dictionary-only\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"topic-03-obs-2\", \"reason\": \"publisher must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/common-adjectives-001/evidence-response-cleaned.json\"}",
+  "reported_model": "gpt-6-luna/codex-cli",
+  "response": {
+    "bundle_response": "curation/batches/common-adjectives-001/evidence-response-cleaned.json",
+    "model": "gpt-6-luna/codex-cli",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "topic-03-obs-1",
+          "limitations": "Page content was unavailable; the proposed gloss was not verified.",
+          "locale": "Indonesia",
+          "observation": "Access failed: the network tool reported “(400) Timeout fetching.” The entry could not be inspected, so it provides no support.",
+          "page_location_or_query": "Direct page retrieval",
+          "publisher": "SABDA",
+          "register": "Unassessed",
+          "source_group": "Kamus SABDA",
+          "source_title": "Capek entry",
+          "stance": "inconclusive",
+          "url_or_query": "https://kamus.sabda.org/kamus/capek",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "topic-03-obs-3",
+          "limitations": "Page content was unavailable; the proposed definition and synonym were not verified.",
+          "locale": "Malaysia",
+          "observation": "Access failed: the network tool reported “(400) Timeout fetching.” The entry could not be inspected, so it provides no support.",
+          "page_location_or_query": "Direct page retrieval",
+          "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+          "register": "Unassessed",
+          "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+          "source_title": "PRPM penat search entry",
+          "stance": "inconclusive",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penat",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-04T03:35:29Z",
+          "audit_method": "manual-inspection",
+          "claim_id": "topic-03-meaning",
+          "claim_type": "relation",
+          "evidence_id": "topic-03-obs-4",
+          "limitations": "The accessible cape entry is dictionary evidence and does not establish normal everyday preference; it also does not directly verify the spelling capek.",
+          "locale": "Indonesia; Malaysia",
+          "observation": "No contextual or comparative evidence was retrieved establishing capek and penat as common everyday choices for feeling tired and needing rest.",
+          "page_location_or_query": "Candidate relation claim",
+          "publisher": "Not available",
+          "register": "Everyday preference unestablished",
+          "source_group": "No comparative usage evidence retrieved",
+          "source_title": "Everyday word-choice evidence",
+          "stance": "inconclusive",
+          "url_or_query": "No corpus query supplied or retrieved",
+          "usage_basis": "dictionary-only"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "topic-03-obs-2",
+          "reason": "publisher must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-03-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "topic-03-obs-1",
+        "limitations": "Page content was unavailable; the proposed gloss was not verified.",
+        "locale": "Indonesia",
+        "observation": "Access failed: the network tool reported “(400) Timeout fetching.” The entry could not be inspected, so it provides no support.",
+        "page_location_or_query": "Direct page retrieval",
+        "publisher": "SABDA",
+        "register": "Unassessed",
+        "source_group": "Kamus SABDA",
+        "source_title": "Capek entry",
+        "stance": "inconclusive",
+        "url_or_query": "https://kamus.sabda.org/kamus/capek",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-03-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "topic-03-obs-3",
+        "limitations": "Page content was unavailable; the proposed definition and synonym were not verified.",
+        "locale": "Malaysia",
+        "observation": "Access failed: the network tool reported “(400) Timeout fetching.” The entry could not be inspected, so it provides no support.",
+        "page_location_or_query": "Direct page retrieval",
+        "publisher": "Dewan Bahasa dan Pustaka Malaysia",
+        "register": "Unassessed",
+        "source_group": "PRPM / Dewan Bahasa dan Pustaka",
+        "source_title": "PRPM penat search entry",
+        "stance": "inconclusive",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penat",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-04T03:35:29Z",
+        "audit_method": "manual-inspection",
+        "claim_id": "topic-03-meaning",
+        "claim_type": "relation",
+        "evidence_id": "topic-03-obs-4",
+        "limitations": "The accessible cape entry is dictionary evidence and does not establish normal everyday preference; it also does not directly verify the spelling capek.",
+        "locale": "Indonesia; Malaysia",
+        "observation": "No contextual or comparative evidence was retrieved establishing capek and penat as common everyday choices for feeling tired and needing rest.",
+        "page_location_or_query": "Candidate relation claim",
+        "publisher": "Not available",
+        "register": "Everyday preference unestablished",
+        "source_group": "No comparative usage evidence retrieved",
+        "source_title": "Everyday word-choice evidence",
+        "stance": "inconclusive",
+        "url_or_query": "No corpus query supplied or retrieved",
+        "usage_basis": "dictionary-only"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "topic-03-obs-2",
+        "reason": "publisher must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "96c0751005b561303e20c2030ca5b584b236f0fc5b53b09cf41156ebb6cfd1b4"
+}

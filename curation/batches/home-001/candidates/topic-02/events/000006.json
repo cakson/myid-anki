@@ -1,0 +1,187 @@
+{
+  "at": "2026-10-03T20:00:18.750740+00:00",
+  "input_digest": "cacb19550e2cc7c61deba4aae3f056e5ad1619787e6f6ba8e078d586aa931ade",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [\"The cited KBBI kamar tidur entry could not be retrieved.\"], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-02-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"02-01\", \"limitations\": \"Retail usage is not a dictionary definition.\", \"locale\": \"Indonesia\", \"observation\": \"The bedroom category describes a kamar tidur as a place to rest and sleep.\", \"page_location_or_query\": \"Page heading and lines 432\\u2013436\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Kamar tidur\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/ruangan/kamar-tidur\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-02-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"02-02\", \"limitations\": \"One publisher cannot establish population-wide frequency.\", \"locale\": \"Indonesia\", \"observation\": \"IKEA repeatedly uses kamar tidur for the room and uses kamar alone within an established bedroom context.\", \"page_location_or_query\": \"Category heading; lines 432\\u2013436 and 455\\u2013457\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Kamar tidur\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/ruangan/kamar-tidur\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:50:10Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-02-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"02-03\", \"limitations\": \"The two entries are one DBP source group and do not establish preference.\", \"locale\": \"Malaysia\", \"observation\": \"Both entries define bilik tidur as a sleeping room.\", \"page_location_or_query\": \"Lines 9\\u201318, Kamus Dewan and Kamus Pelajar entries\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP\", \"source_title\": \"Carian Umum: bilik tidur\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bilik+tidur\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-02-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"02-04\", \"limitations\": \"Shows a normal explicit choice by one retailer, not a measured national preference.\", \"locale\": \"Malaysia\", \"observation\": \"The consumer bedroom category is titled bilik tidur and describes it as a private room with a bed.\", \"page_location_or_query\": \"Lines 3\\u20135\", \"publisher\": \"IKEA Malaysia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Perabot bilik tidur dan idea\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.com/my/ms/rooms/bedroom/\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"02-05\", \"reason\": \"url_or_query must identify one source, not a joined comparison\"}]}, \"bundle_response\": \"curation/batches/home-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        "The cited KBBI kamar tidur entry could not be retrieved."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "02-01",
+          "limitations": "Retail usage is not a dictionary definition.",
+          "locale": "Indonesia",
+          "observation": "The bedroom category describes a kamar tidur as a place to rest and sleep.",
+          "page_location_or_query": "Page heading and lines 432–436",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Kamar tidur",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/kamar-tidur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "02-02",
+          "limitations": "One publisher cannot establish population-wide frequency.",
+          "locale": "Indonesia",
+          "observation": "IKEA repeatedly uses kamar tidur for the room and uses kamar alone within an established bedroom context.",
+          "page_location_or_query": "Category heading; lines 432–436 and 455–457",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Kamar tidur",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/kamar-tidur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:50:10Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "02-03",
+          "limitations": "The two entries are one DBP source group and do not establish preference.",
+          "locale": "Malaysia",
+          "observation": "Both entries define bilik tidur as a sleeping room.",
+          "page_location_or_query": "Lines 9–18, Kamus Dewan and Kamus Pelajar entries",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: bilik tidur",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bilik+tidur",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "02-04",
+          "limitations": "Shows a normal explicit choice by one retailer, not a measured national preference.",
+          "locale": "Malaysia",
+          "observation": "The consumer bedroom category is titled bilik tidur and describes it as a private room with a bed.",
+          "page_location_or_query": "Lines 3–5",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Perabot bilik tidur dan idea",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/rooms/bedroom/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "02-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      "The cited KBBI kamar tidur entry could not be retrieved."
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-02-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "02-01",
+        "limitations": "Retail usage is not a dictionary definition.",
+        "locale": "Indonesia",
+        "observation": "The bedroom category describes a kamar tidur as a place to rest and sleep.",
+        "page_location_or_query": "Page heading and lines 432–436",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Kamar tidur",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/ruangan/kamar-tidur",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-02-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "02-02",
+        "limitations": "One publisher cannot establish population-wide frequency.",
+        "locale": "Indonesia",
+        "observation": "IKEA repeatedly uses kamar tidur for the room and uses kamar alone within an established bedroom context.",
+        "page_location_or_query": "Category heading; lines 432–436 and 455–457",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Kamar tidur",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/ruangan/kamar-tidur",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:50:10Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-02-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "02-03",
+        "limitations": "The two entries are one DBP source group and do not establish preference.",
+        "locale": "Malaysia",
+        "observation": "Both entries define bilik tidur as a sleeping room.",
+        "page_location_or_query": "Lines 9–18, Kamus Dewan and Kamus Pelajar entries",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP",
+        "source_title": "Carian Umum: bilik tidur",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bilik+tidur",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-02-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "02-04",
+        "limitations": "Shows a normal explicit choice by one retailer, not a measured national preference.",
+        "locale": "Malaysia",
+        "observation": "The consumer bedroom category is titled bilik tidur and describes it as a private room with a bed.",
+        "page_location_or_query": "Lines 3–5",
+        "publisher": "IKEA Malaysia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Perabot bilik tidur dan idea",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.com/my/ms/rooms/bedroom/",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "02-05",
+        "reason": "url_or_query must identify one source, not a joined comparison"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "b93b85d1f7ccc3b6cd7d0730c8e72a5855bca8e631eb57359c483a02489a26de"
+}

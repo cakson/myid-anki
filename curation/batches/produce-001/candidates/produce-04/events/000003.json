@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-04T10:40:43.190621+00:00",
+  "input_digest": "138428a5e2edf16af71aeeb485b6d94317aefeeb1d810a2be16a0b26f23d595d",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Nanas means pineapple and matches the common edible fruit sense.\", \"common_use\": \"Common and readily understood in Malaysia; Malaysian recipes use nanas as an ingredient.\", \"preferred\": \"Nanas is the ordinary term evidenced here. The sources do not compare it with other terms.\", \"register\": \"Neutral, standard Malay.\", \"region\": \"No regional restriction apparent in the sources.\", \"alternatives\": [], \"claims\": [{\"claim_id\": \"produce-04-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Nanas denotes the pineapple fruit.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"produce-04-use\", \"claim_type\": \"locale-usage\", \"proposition\": \"Nanas is used as a fruit or recipe ingredient in Malaysian food sources.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"source\": \"Resipi Buah-buahan Dan Sayur-sayuran Malaysia\", \"url\": \"https://fliphtml5.com/isxsj/xqrd\", \"claim\": \"Lists nanas in recipes, including jelatah and a pineapple pie.\"}, {\"source\": \"DaVita Malaysia, \\u201cAcar Timun Nanas\\u201d\", \"url\": \"https://davita.com.my/bm/recipes/cucumber-and-pineapple-salad\", \"claim\": \"Uses nanas in a Malaysian-language recipe title and ingredient list.\"}]}, \"bundle_response\": \"curation/batches/produce-001/malaysian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/malaysian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [],
+      "claims": [
+        {
+          "claim_id": "produce-04-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Nanas denotes the pineapple fruit."
+        },
+        {
+          "claim_id": "produce-04-use",
+          "claim_type": "locale-usage",
+          "locale": "Malaysia",
+          "proposition": "Nanas is used as a fruit or recipe ingredient in Malaysian food sources."
+        }
+      ],
+      "common_use": "Common and readily understood in Malaysia; Malaysian recipes use nanas as an ingredient.",
+      "meaning": "Nanas means pineapple and matches the common edible fruit sense.",
+      "preferred": "Nanas is the ordinary term evidenced here. The sources do not compare it with other terms.",
+      "region": "No regional restriction apparent in the sources.",
+      "register": "Neutral, standard Malay.",
+      "source_leads": [
+        {
+          "claim": "Lists nanas in recipes, including jelatah and a pineapple pie.",
+          "source": "Resipi Buah-buahan Dan Sayur-sayuran Malaysia",
+          "url": "https://fliphtml5.com/isxsj/xqrd"
+        },
+        {
+          "claim": "Uses nanas in a Malaysian-language recipe title and ingredient list.",
+          "source": "DaVita Malaysia, “Acar Timun Nanas”",
+          "url": "https://davita.com.my/bm/recipes/cucumber-and-pineapple-salad"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [],
+    "claims": [
+      {
+        "claim_id": "malaysian-usage:produce-04-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Nanas denotes the pineapple fruit."
+      },
+      {
+        "claim_id": "malaysian-usage:produce-04-use",
+        "claim_type": "locale-usage",
+        "locale": "Malaysia",
+        "proposition": "Nanas is used as a fruit or recipe ingredient in Malaysian food sources."
+      }
+    ],
+    "common_use": "Common and readily understood in Malaysia; Malaysian recipes use nanas as an ingredient.",
+    "meaning": "Nanas means pineapple and matches the common edible fruit sense.",
+    "preferred": "Nanas is the ordinary term evidenced here. The sources do not compare it with other terms.",
+    "region": "No regional restriction apparent in the sources.",
+    "register": "Neutral, standard Malay.",
+    "source_leads": [
+      {
+        "claim": "Lists nanas in recipes, including jelatah and a pineapple pie.",
+        "claim_ids": [],
+        "source": "Resipi Buah-buahan Dan Sayur-sayuran Malaysia",
+        "url": "https://fliphtml5.com/isxsj/xqrd"
+      },
+      {
+        "claim": "Uses nanas in a Malaysian-language recipe title and ingredient list.",
+        "claim_ids": [],
+        "source": "DaVita Malaysia, “Acar Timun Nanas”",
+        "url": "https://davita.com.my/bm/recipes/cucumber-and-pineapple-salad"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "e025ba5d9222c770f5b9f485ec313d118d52806134e044321eee48ea2adbb17c"
+}

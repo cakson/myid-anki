@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-10T01:38:12.723720+00:00",
+  "input_digest": "364ba27fa9f37ee523306efb16914aec2fbd2a2a1805bd8ee7ac113aa9983c66",
+  "model": "gpt-5.6-luna/codex-cli",
+  "prompt_set_version": "1.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"university-001:university-study-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An exam is a formal assessment, whereas an assignment is academic work completed by a student.\"}, {\"other_id\": \"university-001:university-study-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An exam assesses student knowledge or skills, whereas a scholarship provides financial support.\"}, {\"other_id\": \"university-001:university-study-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An exam is an assessment, whereas a faculty is an academic division of a university.\"}]}, \"bundle_response\": \"curation/batches/university-001/normalize-response-v2.json\"}",
+  "reported_model": "GPT-5",
+  "response": {
+    "bundle_response": "curation/batches/university-001/normalize-response-v2.json",
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "university-001:university-study-01",
+          "rationale": "An exam is a formal assessment, whereas an assignment is academic work completed by a student.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "university-001:university-study-03",
+          "rationale": "An exam assesses student knowledge or skills, whereas a scholarship provides financial support.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "university-001:university-study-04",
+          "rationale": "An exam is an assessment, whereas a faculty is an academic division of a university.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "university-001:university-study-01",
+        "rationale": "An exam is a formal assessment, whereas an assignment is academic work completed by a student.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "university-001:university-study-03",
+        "rationale": "An exam assesses student knowledge or skills, whereas a scholarship provides financial support.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "university-001:university-study-04",
+        "rationale": "An exam is an assessment, whereas a faculty is an academic division of a university.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "3db7e44a3fa97de6fa4471f997664abe01d0c12a090c7eff03a524123a9fdebf"
+}

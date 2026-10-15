@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 from collections import defaultdict
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlsplit
@@ -17,6 +18,14 @@ from .model import (
 )
 
 _ID_PATTERN = re.compile(r"[0-9]{6}\Z", re.ASCII)
+_RELATIONS = frozenset({"similar", "different-common-word", "false-friend"})
+
+
+def _same_answer_form(indonesian: str, malaysian: str) -> bool:
+    def normalized(value: str) -> str:
+        return " ".join(unicodedata.normalize("NFKC", value).casefold().split())
+
+    return normalized(indonesian) == normalized(malaysian)
 
 
 def _issue(
@@ -139,7 +148,60 @@ def validate_vocabulary(source_path: Path, media_root: Path) -> ValidatedVocabul
                     )
                 )
 
-        for field_name in ("id", "english", "indonesian", "malaysian", "image", "tags"):
+        if concept.relation not in _RELATIONS:
+            issues.append(
+                _issue(
+                    "invalid_relation",
+                    "relation must be similar, different-common-word, or false-friend",
+                    source,
+                    concept,
+                    "relation",
+                )
+            )
+        if concept.relation == "same" or (
+            concept.relation in {"similar", "different-common-word"}
+            and _same_answer_form(concept.indonesian, concept.malaysian)
+        ):
+            issues.append(
+                _issue(
+                    "no_cross_language_difference",
+                    "Shared ordinary vocabulary is excluded from this contrast deck",
+                    source,
+                    concept,
+                    "relation",
+                )
+            )
+        if concept.relation == "false-friend" and not concept.contrast:
+            issues.append(
+                _issue(
+                    "missing_contrast",
+                    "false-friend requires contrast",
+                    source,
+                    concept,
+                    "contrast",
+                )
+            )
+        if concept.relation != "false-friend" and concept.contrast:
+            issues.append(
+                _issue(
+                    "unexpected_contrast",
+                    "contrast is only allowed for false-friend",
+                    source,
+                    concept,
+                    "contrast",
+                )
+            )
+
+        for field_name in (
+            "id",
+            "english",
+            "indonesian",
+            "malaysian",
+            "relation",
+            "image",
+            "tags",
+            "contrast",
+        ):
             value = concept.raw_tags if field_name == "tags" else getattr(concept, field_name)
             if value and value != value.strip():
                 issues.append(

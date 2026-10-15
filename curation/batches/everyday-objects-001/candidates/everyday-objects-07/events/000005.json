@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T10:28:12.742162+00:00",
+  "input_digest": "309d257d423c452c65013699e8fd1e9983a701b2ea788b07364fe650289ed117",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"OpenAI GPT-6\", \"result\": {\"english\": \"sweet potato\", \"relation\": \"different-common-word\", \"semantic_alignment\": \"An edible starchy root with sweet flesh.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:sweet-potato-ubi-keledek-different\", \"claim_type\": \"relation\", \"proposition\": \"For sweet potato, Indonesian commonly uses \\u201cubi jalar\\u201d while Malaysian Malay commonly uses \\u201ckeledek\\u201d or \\u201cubi keledek\\u201d; these are different everyday terms for the same root.\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/relation-response.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/relation-response.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:sweet-potato-ubi-keledek-different",
+          "claim_type": "relation",
+          "proposition": "For sweet potato, Indonesian commonly uses “ubi jalar” while Malaysian Malay commonly uses “keledek” or “ubi keledek”; these are different everyday terms for the same root."
+        }
+      ],
+      "english": "sweet potato",
+      "relation": "different-common-word",
+      "semantic_alignment": "An edible starchy root with sweet flesh."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:sweet-potato-ubi-keledek-different",
+        "claim_type": "relation",
+        "proposition": "For sweet potato, Indonesian commonly uses “ubi jalar” while Malaysian Malay commonly uses “keledek” or “ubi keledek”; these are different everyday terms for the same root."
+      }
+    ],
+    "english": "sweet potato",
+    "relation": "different-common-word",
+    "semantic_alignment": "An edible starchy root with sweet flesh."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "c7a77673a5b5f35505fea9bb579fe2677770b09d9183576bba3c9ac8289ea293"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T00:59:15.347233+00:00",
+  "input_digest": "7c86390e0cede26671a4993e3f50714d9c7d0fc65057e2c3c7ccebc6e40361b7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"work-02\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"A job interview is a specific employment-assessment meeting, while meeting is a general planned gathering.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "work-02",
+          "rationale": "A job interview is a specific employment-assessment meeting, while meeting is a general planned gathering.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "work-02",
+        "rationale": "A job interview is a specific employment-assessment meeting, while meeting is a general planned gathering.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "8c52be1cdbb472d4e22fc567ae88129d01c95f2798016d40d0ca51b02dcbec04"
+}

@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T04:09:46.926056+00:00",
+  "input_digest": "bbd43e5686cf70dab6bf67a11321346bda87c4a620970475cccaa349c39fa3e2",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"GPT-6\", \"result\": {\"english\": \"camera\", \"relation\": \"same\", \"semantic_alignment\": \"A device used to take photographs or record video.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:technology-07\", \"claim_type\": \"relation\", \"proposition\": \"\\u201cKamera\\u201d is a common general term for a camera in both Indonesian and Malaysian Malay, matching the English cue in the stated everyday device sense.\"}]}, \"bundle_response\": \"curation/batches/technology-001/relation-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/technology-001/relation-response.json",
+    "model": "GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:technology-07",
+          "claim_type": "relation",
+          "proposition": "“Kamera” is a common general term for a camera in both Indonesian and Malaysian Malay, matching the English cue in the stated everyday device sense."
+        }
+      ],
+      "english": "camera",
+      "relation": "same",
+      "semantic_alignment": "A device used to take photographs or record video."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:technology-07",
+        "claim_type": "relation",
+        "proposition": "“Kamera” is a common general term for a camera in both Indonesian and Malaysian Malay, matching the English cue in the stated everyday device sense."
+      }
+    ],
+    "english": "camera",
+    "relation": "same",
+    "semantic_alignment": "A device used to take photographs or record video."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "dd098a4f180d971b3e1e9535ee038355d91f9cfc49f706401f24f7960e225175"
+}

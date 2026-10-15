@@ -1,0 +1,189 @@
+{
+  "at": "2026-10-03T20:00:18.802341+00:00",
+  "input_digest": "7bfdb0e72cf78fb338319fa6ca8fef6479e28a447a3cda3128ae59c38c602dc5",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [\"The cited KBBI ember entry was inaccessible.\", \"The cited DBP baldi page returned HTTP 503.\"], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-06-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"06-01\", \"limitations\": \"This is a product example rather than a complete lexical definition.\", \"locale\": \"Indonesia\", \"observation\": \"The page describes an ember with a handle used to carry water around a home.\", \"page_location_or_query\": \"Lines 2\\u201313\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"PEPPRIG ember dengan penutup\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-06-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"06-02\", \"limitations\": \"No representative frequency measure was inspected.\", \"locale\": \"Indonesia\", \"observation\": \"Ember is used in a household product name and ordinary prose about carrying water.\", \"page_location_or_query\": \"Lines 2\\u201313 and product title\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"PEPPRIG ember dengan penutup\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"corpus-query\", \"claim_id\": \"topic-06-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"06-03\", \"limitations\": \"The full DBP page returned HTTP 503; this records only the inspected search extract.\", \"locale\": \"Malaysia\", \"observation\": \"The indexed DBP entry defines baldi as a handled metal or plastic container for water.\", \"page_location_or_query\": \"Search query: site:prpm.dbp.gov.my/Cari1?keyword=baldi \\\"Definisi\\\"\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP\", \"source_title\": \"Carian Umum: baldi\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baldi\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-06-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"06-04\", \"limitations\": \"The same category also uses timba for another product, so baldi is a normal choice but not exclusive.\", \"locale\": \"Malaysia\", \"observation\": \"The cleaning-accessories category sells a Baldi pencuci.\", \"page_location_or_query\": \"Line 129, PEPPRIG listing\", \"publisher\": \"IKEA Malaysia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Aksesori pembersihan\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.com/my/ms/cat/cleaning-accessories-20609/\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"06-05\", \"reason\": \"url_or_query must identify one source, not a joined comparison\"}]}, \"bundle_response\": \"curation/batches/home-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        "The cited KBBI ember entry was inaccessible.",
+        "The cited DBP baldi page returned HTTP 503."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-06-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "06-01",
+          "limitations": "This is a product example rather than a complete lexical definition.",
+          "locale": "Indonesia",
+          "observation": "The page describes an ember with a handle used to carry water around a home.",
+          "page_location_or_query": "Lines 2–13",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "PEPPRIG ember dengan penutup",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-06-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "06-02",
+          "limitations": "No representative frequency measure was inspected.",
+          "locale": "Indonesia",
+          "observation": "Ember is used in a household product name and ordinary prose about carrying water.",
+          "page_location_or_query": "Lines 2–13 and product title",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "PEPPRIG ember dengan penutup",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "corpus-query",
+          "claim_id": "topic-06-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "06-03",
+          "limitations": "The full DBP page returned HTTP 503; this records only the inspected search extract.",
+          "locale": "Malaysia",
+          "observation": "The indexed DBP entry defines baldi as a handled metal or plastic container for water.",
+          "page_location_or_query": "Search query: site:prpm.dbp.gov.my/Cari1?keyword=baldi \"Definisi\"",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: baldi",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baldi",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-06-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "06-04",
+          "limitations": "The same category also uses timba for another product, so baldi is a normal choice but not exclusive.",
+          "locale": "Malaysia",
+          "observation": "The cleaning-accessories category sells a Baldi pencuci.",
+          "page_location_or_query": "Line 129, PEPPRIG listing",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Aksesori pembersihan",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/cleaning-accessories-20609/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "06-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      "The cited KBBI ember entry was inaccessible.",
+      "The cited DBP baldi page returned HTTP 503."
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-06-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "06-01",
+        "limitations": "This is a product example rather than a complete lexical definition.",
+        "locale": "Indonesia",
+        "observation": "The page describes an ember with a handle used to carry water around a home.",
+        "page_location_or_query": "Lines 2–13",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "PEPPRIG ember dengan penutup",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-06-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "06-02",
+        "limitations": "No representative frequency measure was inspected.",
+        "locale": "Indonesia",
+        "observation": "Ember is used in a household product name and ordinary prose about carrying water.",
+        "page_location_or_query": "Lines 2–13 and product title",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "PEPPRIG ember dengan penutup",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "corpus-query",
+        "claim_id": "topic-06-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "06-03",
+        "limitations": "The full DBP page returned HTTP 503; this records only the inspected search extract.",
+        "locale": "Malaysia",
+        "observation": "The indexed DBP entry defines baldi as a handled metal or plastic container for water.",
+        "page_location_or_query": "Search query: site:prpm.dbp.gov.my/Cari1?keyword=baldi \"Definisi\"",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP",
+        "source_title": "Carian Umum: baldi",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baldi",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-06-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "06-04",
+        "limitations": "The same category also uses timba for another product, so baldi is a normal choice but not exclusive.",
+        "locale": "Malaysia",
+        "observation": "The cleaning-accessories category sells a Baldi pencuci.",
+        "page_location_or_query": "Line 129, PEPPRIG listing",
+        "publisher": "IKEA Malaysia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Aksesori pembersihan",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.com/my/ms/cat/cleaning-accessories-20609/",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "06-05",
+        "reason": "url_or_query must identify one source, not a joined comparison"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "1eb8961231c0ac0b6470a17af65fc8724ad3f1aa8ba1962fbbf96890c4d55aa6"
+}

@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-03T19:44:42.779499+00:00",
+  "input_digest": "967b54bc4d2a0642bb479ef0b49feb8d2e690bceba5b298b759a6ebc1a15bc75",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"malaysian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Peti sejuk denotes the appliance that cools stored food and drink; it matches refrigerator.\", \"common_use\": \"Widely understood and common in Malaysian Malay.\", \"preferred\": \"Peti sejuk is a safe neutral choice. Peti ais is also familiar in everyday speech, so an exclusive preference claim would be too strong.\", \"register\": \"Neutral; peti ais is also conversationally natural.\", \"region\": \"Malaysia generally; no specific regional restriction identified.\", \"alternatives\": [\"peti ais\", \"peti air batu\", \"kulkas\"], \"claims\": [{\"claim_id\": \"topic-03-Malaysia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Peti sejuk denotes an appliance used to keep food and drink cold.\", \"locale\": \"Malaysia\"}, {\"claim_id\": \"topic-03-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Peti sejuk is a normal neutral Malaysian Malay choice for a refrigerator, alongside the familiar peti ais.\", \"locale\": \"Malaysia\"}], \"source_leads\": [{\"url\": \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk\", \"claim_ids\": [\"topic-03-Malaysia-meaning\", \"topic-03-Malaysia-preferred\"], \"evidence_to_check\": \"DBP defines peti sejuk as a cooling appliance for stored food; compare its peti ais references and contemporary usage separately.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/home-001/malaysian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/malaysian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "peti ais",
+        "peti air batu",
+        "kulkas"
+      ],
+      "claims": [
+        {
+          "claim_id": "topic-03-Malaysia-meaning",
+          "claim_type": "meaning",
+          "locale": "Malaysia",
+          "proposition": "Peti sejuk denotes an appliance used to keep food and drink cold."
+        },
+        {
+          "claim_id": "topic-03-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Malaysia",
+          "proposition": "Peti sejuk is a normal neutral Malaysian Malay choice for a refrigerator, alongside the familiar peti ais."
+        }
+      ],
+      "common_use": "Widely understood and common in Malaysian Malay.",
+      "meaning": "Peti sejuk denotes the appliance that cools stored food and drink; it matches refrigerator.",
+      "preferred": "Peti sejuk is a safe neutral choice. Peti ais is also familiar in everyday speech, so an exclusive preference claim would be too strong.",
+      "region": "Malaysia generally; no specific regional restriction identified.",
+      "register": "Neutral; peti ais is also conversationally natural.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "topic-03-Malaysia-meaning",
+            "topic-03-Malaysia-preferred"
+          ],
+          "evidence_to_check": "DBP defines peti sejuk as a cooling appliance for stored food; compare its peti ais references and contemporary usage separately.",
+          "url": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk"
+        }
+      ]
+    },
+    "role": "malaysian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "peti ais",
+      "peti air batu",
+      "kulkas"
+    ],
+    "claims": [
+      {
+        "claim_id": "topic-03-Malaysia-meaning",
+        "claim_type": "meaning",
+        "locale": "Malaysia",
+        "proposition": "Peti sejuk denotes an appliance used to keep food and drink cold."
+      },
+      {
+        "claim_id": "topic-03-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Malaysia",
+        "proposition": "Peti sejuk is a normal neutral Malaysian Malay choice for a refrigerator, alongside the familiar peti ais."
+      }
+    ],
+    "common_use": "Widely understood and common in Malaysian Malay.",
+    "meaning": "Peti sejuk denotes the appliance that cools stored food and drink; it matches refrigerator.",
+    "preferred": "Peti sejuk is a safe neutral choice. Peti ais is also familiar in everyday speech, so an exclusive preference claim would be too strong.",
+    "region": "Malaysia generally; no specific regional restriction identified.",
+    "register": "Neutral; peti ais is also conversationally natural.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "topic-03-Malaysia-meaning",
+          "topic-03-Malaysia-preferred"
+        ],
+        "evidence_to_check": "DBP defines peti sejuk as a cooling appliance for stored food; compare its peti ais references and contemporary usage separately.",
+        "url": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk"
+      }
+    ]
+  },
+  "role": "malaysian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "6fa89ad4c5c48dbae65026af39937a66557ad2ad2e51d641ea1ea107e349c5fc"
+}

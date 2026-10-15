@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-03T21:08:11.958622+00:00",
+  "input_digest": "e5a73303ab01fdeae7207f9b8aeefb2500e3db93aa968a647e60953ceefa9f95",
+  "model": "gpt-6",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6\", \"result\": {\"meaning\": \"Dingin describes air or weather perceived as having a low temperature.\", \"common_use\": \"Very common and readily understood.\", \"preferred\": \"Dingin is the normal choice when the point is that the air or weather is cold. Sejuk suggests pleasantly cool air.\", \"register\": \"Neutral.\", \"region\": \"No material regional restriction identified.\", \"alternatives\": [\"sejuk\"], \"claims\": [{\"claim_id\": \"topic-02-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Dingin describes a low temperature and can describe air.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"topic-02-alternative\", \"claim_type\": \"meaning\", \"proposition\": \"Sejuk can describe air that is somewhat cool, comfortable, and fresh.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.web.id/dingin_\", \"claim_ids\": [\"topic-02-meaning\"], \"exact_claim\": \"The entry defines dingin as bersuhu rendah and gives udara terasa dingin as an example.\", \"audited\": false}, {\"url\": \"https://kbbi.web.id/sejuk\", \"claim_ids\": [\"topic-02-alternative\"], \"exact_claim\": \"The entry describes sejuk for air as agak dingin, nyaman, segar.\", \"audited\": false}]}, \"bundle_response\": \"curation/batches/common-adjectives-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/common-adjectives-001/indonesian-usage-response.json",
+    "model": "gpt-6",
+    "result": {
+      "alternatives": [
+        "sejuk"
+      ],
+      "claims": [
+        {
+          "claim_id": "topic-02-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Dingin describes a low temperature and can describe air."
+        },
+        {
+          "claim_id": "topic-02-alternative",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Sejuk can describe air that is somewhat cool, comfortable, and fresh."
+        }
+      ],
+      "common_use": "Very common and readily understood.",
+      "meaning": "Dingin describes air or weather perceived as having a low temperature.",
+      "preferred": "Dingin is the normal choice when the point is that the air or weather is cold. Sejuk suggests pleasantly cool air.",
+      "region": "No material regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "audited": false,
+          "claim_ids": [
+            "topic-02-meaning"
+          ],
+          "exact_claim": "The entry defines dingin as bersuhu rendah and gives udara terasa dingin as an example.",
+          "url": "https://kbbi.web.id/dingin_"
+        },
+        {
+          "audited": false,
+          "claim_ids": [
+            "topic-02-alternative"
+          ],
+          "exact_claim": "The entry describes sejuk for air as agak dingin, nyaman, segar.",
+          "url": "https://kbbi.web.id/sejuk"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "sejuk"
+    ],
+    "claims": [
+      {
+        "claim_id": "topic-02-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Dingin describes a low temperature and can describe air."
+      },
+      {
+        "claim_id": "topic-02-alternative",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Sejuk can describe air that is somewhat cool, comfortable, and fresh."
+      }
+    ],
+    "common_use": "Very common and readily understood.",
+    "meaning": "Dingin describes air or weather perceived as having a low temperature.",
+    "preferred": "Dingin is the normal choice when the point is that the air or weather is cold. Sejuk suggests pleasantly cool air.",
+    "region": "No material regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "audited": false,
+        "claim_ids": [
+          "topic-02-meaning"
+        ],
+        "exact_claim": "The entry defines dingin as bersuhu rendah and gives udara terasa dingin as an example.",
+        "url": "https://kbbi.web.id/dingin_"
+      },
+      {
+        "audited": false,
+        "claim_ids": [
+          "topic-02-alternative"
+        ],
+        "exact_claim": "The entry describes sejuk for air as agak dingin, nyaman, segar.",
+        "url": "https://kbbi.web.id/sejuk"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6",
+  "upstream_digest": "eea1cbadd480ca477b88228c95ecb75a960e49ea6a941eb5f7eb0c903afeb701"
+}

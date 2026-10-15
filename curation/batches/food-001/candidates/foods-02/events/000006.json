@@ -1,0 +1,231 @@
+{
+  "at": "2026-10-03T20:00:18.751563+00:00",
+  "input_digest": "4893c3dbe1f21fa32c22ccabd04ddd13b602a8fb509decc54678f67c9d296f1e",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [{\"method\": \"direct page open\", \"outcome\": \"Internal error; no dictionary content was inspected.\", \"url\": \"https://kbbi.kemendikdasmen.go.id/entri/sendok\"}], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-02-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f02-id-meaning\", \"limitations\": \"The passage identifies an eating utensil but does not describe its shape.\", \"locale\": \"Indonesia\", \"observation\": \"Advice about eating says people who struggle to use \\u201csendok dan garpu\\u201d can have their hands guided toward the mouth.\", \"page_location_or_query\": \"Line 80\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"caregiving guidance\", \"source_group\": \"Kemkes elder nutrition article 1226\", \"source_title\": \"Masalah Gizi pada Lansia dan Cara Mengatasinya\", \"stance\": \"supports\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/1226/masalah-gizi-pada-lansia-dan-cara-mengatasinya\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-02-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f02-id-preferred\", \"limitations\": \"One edited source does not establish relative frequency against alternatives.\", \"locale\": \"Indonesia\", \"observation\": \"The guidance uses \\u201csendok dan garpu\\u201d without explanation for utensils used to eat.\", \"page_location_or_query\": \"Line 80\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"caregiving guidance\", \"source_group\": \"Kemkes elder nutrition article 1226\", \"source_title\": \"Masalah Gizi pada Lansia dan Cara Mengatasinya\", \"stance\": \"supports\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/1226/masalah-gizi-pada-lansia-dan-cara-mengatasinya\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-02-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f02-id-measurement-limit\", \"limitations\": \"The cited lead concerns measuring spoons, so it does not by itself establish the preferred name of an eating spoon.\", \"locale\": \"Indonesia\", \"observation\": \"The recipe repeatedly uses \\u201csendok makan\\u201d and \\u201csendok teh\\u201d as ingredient measures.\", \"page_location_or_query\": \"PDF page 7, recipe ingredients, lines 335\\u2013368\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"recipe\", \"source_group\": \"Mediakom December 2023 issue\", \"source_title\": \"Mediakom, edition 161\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://kemkes.go.id/app_asset/file_content_download/171090297565fa4ebfc61dd1.02559909.pdf\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-02-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f02-my-meaning\", \"limitations\": \"The entry also lists unrelated senses; it does not rank \\u201csudu\\u201d against \\u201ccamca.\\u201d\", \"locale\": \"Malaysia\", \"observation\": \"Kamus Pelajar defines the utensil sense as a small tool used to scoop food and gives \\u201ccamca\\u201d as a synonym.\", \"page_location_or_query\": \"Lines 17\\u201325\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP Malay dictionaries\", \"source_title\": \"PRPM entry for sudu\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/cari1?keyword=sudu\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-02-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f02-my-preferred\", \"limitations\": \"This is natural public usage, but no frequency comparison with \\u201ccamca\\u201d was made.\", \"locale\": \"Malaysia\", \"observation\": \"The article uses \\u201csudu dan garpu\\u201d for modern utensils used to bring food to the mouth.\", \"page_location_or_query\": \"Lines 55\\u201361\", \"publisher\": \"Jabatan Mufti Wilayah Persekutuan\", \"register\": \"public explanatory article\", \"source_group\": \"Federal Territories Mufti article 442\", \"source_title\": \"Adakah Kita Digalakkan untuk Menjilat Baki Makanan yang Melekat pada Sudu Selepas Makan?\", \"stance\": \"supports\", \"url_or_query\": \"https://www.muftiwp.gov.my/ms/artikel/irsyad-hukum/umum/4274-irsyad-al-fatwa-siri-ke-442-adakah-kita-digalakkan-untuk-menjilat-baki-makanan-yang-melekat-pada-sudu-selepas-makan\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"f02-relation\", \"reason\": \"source_group must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/food-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        {
+          "method": "direct page open",
+          "outcome": "Internal error; no dictionary content was inspected.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/sendok"
+        }
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-02-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f02-id-meaning",
+          "limitations": "The passage identifies an eating utensil but does not describe its shape.",
+          "locale": "Indonesia",
+          "observation": "Advice about eating says people who struggle to use “sendok dan garpu” can have their hands guided toward the mouth.",
+          "page_location_or_query": "Line 80",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "caregiving guidance",
+          "source_group": "Kemkes elder nutrition article 1226",
+          "source_title": "Masalah Gizi pada Lansia dan Cara Mengatasinya",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/1226/masalah-gizi-pada-lansia-dan-cara-mengatasinya",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-02-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f02-id-preferred",
+          "limitations": "One edited source does not establish relative frequency against alternatives.",
+          "locale": "Indonesia",
+          "observation": "The guidance uses “sendok dan garpu” without explanation for utensils used to eat.",
+          "page_location_or_query": "Line 80",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "caregiving guidance",
+          "source_group": "Kemkes elder nutrition article 1226",
+          "source_title": "Masalah Gizi pada Lansia dan Cara Mengatasinya",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/1226/masalah-gizi-pada-lansia-dan-cara-mengatasinya",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-02-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f02-id-measurement-limit",
+          "limitations": "The cited lead concerns measuring spoons, so it does not by itself establish the preferred name of an eating spoon.",
+          "locale": "Indonesia",
+          "observation": "The recipe repeatedly uses “sendok makan” and “sendok teh” as ingredient measures.",
+          "page_location_or_query": "PDF page 7, recipe ingredients, lines 335–368",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "recipe",
+          "source_group": "Mediakom December 2023 issue",
+          "source_title": "Mediakom, edition 161",
+          "stance": "inconclusive",
+          "url_or_query": "https://kemkes.go.id/app_asset/file_content_download/171090297565fa4ebfc61dd1.02559909.pdf",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-02-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f02-my-meaning",
+          "limitations": "The entry also lists unrelated senses; it does not rank “sudu” against “camca.”",
+          "locale": "Malaysia",
+          "observation": "Kamus Pelajar defines the utensil sense as a small tool used to scoop food and gives “camca” as a synonym.",
+          "page_location_or_query": "Lines 17–25",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP Malay dictionaries",
+          "source_title": "PRPM entry for sudu",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/cari1?keyword=sudu",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-02-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f02-my-preferred",
+          "limitations": "This is natural public usage, but no frequency comparison with “camca” was made.",
+          "locale": "Malaysia",
+          "observation": "The article uses “sudu dan garpu” for modern utensils used to bring food to the mouth.",
+          "page_location_or_query": "Lines 55–61",
+          "publisher": "Jabatan Mufti Wilayah Persekutuan",
+          "register": "public explanatory article",
+          "source_group": "Federal Territories Mufti article 442",
+          "source_title": "Adakah Kita Digalakkan untuk Menjilat Baki Makanan yang Melekat pada Sudu Selepas Makan?",
+          "stance": "supports",
+          "url_or_query": "https://www.muftiwp.gov.my/ms/artikel/irsyad-hukum/umum/4274-irsyad-al-fatwa-siri-ke-442-adakah-kita-digalakkan-untuk-menjilat-baki-makanan-yang-melekat-pada-sudu-selepas-makan",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "f02-relation",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      {
+        "method": "direct page open",
+        "outcome": "Internal error; no dictionary content was inspected.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/sendok"
+      }
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-02-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f02-id-meaning",
+        "limitations": "The passage identifies an eating utensil but does not describe its shape.",
+        "locale": "Indonesia",
+        "observation": "Advice about eating says people who struggle to use “sendok dan garpu” can have their hands guided toward the mouth.",
+        "page_location_or_query": "Line 80",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "caregiving guidance",
+        "source_group": "Kemkes elder nutrition article 1226",
+        "source_title": "Masalah Gizi pada Lansia dan Cara Mengatasinya",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/1226/masalah-gizi-pada-lansia-dan-cara-mengatasinya",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-02-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f02-id-preferred",
+        "limitations": "One edited source does not establish relative frequency against alternatives.",
+        "locale": "Indonesia",
+        "observation": "The guidance uses “sendok dan garpu” without explanation for utensils used to eat.",
+        "page_location_or_query": "Line 80",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "caregiving guidance",
+        "source_group": "Kemkes elder nutrition article 1226",
+        "source_title": "Masalah Gizi pada Lansia dan Cara Mengatasinya",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/1226/masalah-gizi-pada-lansia-dan-cara-mengatasinya",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-02-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f02-id-measurement-limit",
+        "limitations": "The cited lead concerns measuring spoons, so it does not by itself establish the preferred name of an eating spoon.",
+        "locale": "Indonesia",
+        "observation": "The recipe repeatedly uses “sendok makan” and “sendok teh” as ingredient measures.",
+        "page_location_or_query": "PDF page 7, recipe ingredients, lines 335–368",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "recipe",
+        "source_group": "Mediakom December 2023 issue",
+        "source_title": "Mediakom, edition 161",
+        "stance": "inconclusive",
+        "url_or_query": "https://kemkes.go.id/app_asset/file_content_download/171090297565fa4ebfc61dd1.02559909.pdf",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-02-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f02-my-meaning",
+        "limitations": "The entry also lists unrelated senses; it does not rank “sudu” against “camca.”",
+        "locale": "Malaysia",
+        "observation": "Kamus Pelajar defines the utensil sense as a small tool used to scoop food and gives “camca” as a synonym.",
+        "page_location_or_query": "Lines 17–25",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP Malay dictionaries",
+        "source_title": "PRPM entry for sudu",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/cari1?keyword=sudu",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-02-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f02-my-preferred",
+        "limitations": "This is natural public usage, but no frequency comparison with “camca” was made.",
+        "locale": "Malaysia",
+        "observation": "The article uses “sudu dan garpu” for modern utensils used to bring food to the mouth.",
+        "page_location_or_query": "Lines 55–61",
+        "publisher": "Jabatan Mufti Wilayah Persekutuan",
+        "register": "public explanatory article",
+        "source_group": "Federal Territories Mufti article 442",
+        "source_title": "Adakah Kita Digalakkan untuk Menjilat Baki Makanan yang Melekat pada Sudu Selepas Makan?",
+        "stance": "supports",
+        "url_or_query": "https://www.muftiwp.gov.my/ms/artikel/irsyad-hukum/umum/4274-irsyad-al-fatwa-siri-ke-442-adakah-kita-digalakkan-untuk-menjilat-baki-makanan-yang-melekat-pada-sudu-selepas-makan",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "f02-relation",
+        "reason": "source_group must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "864e727f216fa9bcc3c3bb107863b4acef362b3ca54370548665b182b6f56e74"
+}

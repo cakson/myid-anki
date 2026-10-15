@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-04T04:06:45.014374+00:00",
+  "failure": "normalization result includes self-overlap: technology-02",
+  "raw_response": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"OpenAI GPT-6\",\"results\":{\"technology-01\":{\"overlaps\":[]},\"technology-02\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-02\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Same cue, translations, and sense.\"}]},\"technology-03\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-03\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Same cue, translations, and sense.\"}]},\"technology-04\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-04\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Same cue, translations, and sense.\"}]},\"technology-05\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-05\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Same cue, translations, and sense.\"}]},\"technology-06\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-06\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Same cue, translations, and sense.\"}]},\"technology-07\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-07\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Same cue, translations, and sense.\"}]},\"technology-08\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-08\",\"type\":\"exact\",\"resolution\":\"merge\",\"rationale\":\"Same cue, translations, and sense.\"}]}}}",
+  "response_path": "curation/batches/technology-001/normalize-retry-response.json",
+  "role": "bundle:normalize-and-dedupe",
+  "status": "failed"
+}

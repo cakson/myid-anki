@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-03T19:44:42.791741+00:00",
+  "input_digest": "f0e8412525e534f1cbcbf4fdd0f4312435322dae0fc8444b0aaf72c3f6dc5385",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"meaning\": \"Jendela denotes a window or wall opening that can admit air and light. It need not contain glass.\", \"common_use\": \"Widely understood and routinely used for a house window.\", \"preferred\": \"Jendela is the normal everyday choice.\", \"register\": \"Neutral.\", \"region\": \"Usable throughout Indonesia; no specific regional restriction identified.\", \"alternatives\": [\"tingkap\"], \"claims\": [{\"claim_id\": \"topic-04-Indonesia-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"Jendela denotes a window or wall opening; glass is common but is not required by the word.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"topic-04-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"Jendela is the normal everyday Indonesian choice for a house window.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"url\": \"https://kbbi.kemendikdasmen.go.id/entri/jendela\", \"claim_ids\": [\"topic-04-Indonesia-meaning\"], \"exact_claim\": \"KBBI defines jendela as a closable opening for airflow and gives tingkap as an equivalent; it does not require glass.\"}, {\"url\": \"https://www.ikea.co.id/in/inspirasi/ids-ukuran-kamar-kost-kamar-mandi-dalam\", \"claim_ids\": [\"topic-04-Indonesia-preferred\"], \"exact_claim\": \"IKEA Indonesia uses jendela for a room feature that provides natural light and ventilation.\"}]}, \"bundle_response\": \"curation/batches/home-001/indonesian-usage-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/indonesian-usage-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "alternatives": [
+        "tingkap"
+      ],
+      "claims": [
+        {
+          "claim_id": "topic-04-Indonesia-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "Jendela denotes a window or wall opening; glass is common but is not required by the word."
+        },
+        {
+          "claim_id": "topic-04-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "Jendela is the normal everyday Indonesian choice for a house window."
+        }
+      ],
+      "common_use": "Widely understood and routinely used for a house window.",
+      "meaning": "Jendela denotes a window or wall opening that can admit air and light. It need not contain glass.",
+      "preferred": "Jendela is the normal everyday choice.",
+      "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "claim_ids": [
+            "topic-04-Indonesia-meaning"
+          ],
+          "exact_claim": "KBBI defines jendela as a closable opening for airflow and gives tingkap as an equivalent; it does not require glass.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/jendela"
+        },
+        {
+          "claim_ids": [
+            "topic-04-Indonesia-preferred"
+          ],
+          "exact_claim": "IKEA Indonesia uses jendela for a room feature that provides natural light and ventilation.",
+          "url": "https://www.ikea.co.id/in/inspirasi/ids-ukuran-kamar-kost-kamar-mandi-dalam"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "tingkap"
+    ],
+    "claims": [
+      {
+        "claim_id": "topic-04-Indonesia-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "Jendela denotes a window or wall opening; glass is common but is not required by the word."
+      },
+      {
+        "claim_id": "topic-04-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "Jendela is the normal everyday Indonesian choice for a house window."
+      }
+    ],
+    "common_use": "Widely understood and routinely used for a house window.",
+    "meaning": "Jendela denotes a window or wall opening that can admit air and light. It need not contain glass.",
+    "preferred": "Jendela is the normal everyday choice.",
+    "region": "Usable throughout Indonesia; no specific regional restriction identified.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [
+          "topic-04-Indonesia-meaning"
+        ],
+        "exact_claim": "KBBI defines jendela as a closable opening for airflow and gives tingkap as an equivalent; it does not require glass.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/jendela"
+      },
+      {
+        "claim_ids": [
+          "topic-04-Indonesia-preferred"
+        ],
+        "exact_claim": "IKEA Indonesia uses jendela for a room feature that provides natural light and ventilation.",
+        "url": "https://www.ikea.co.id/in/inspirasi/ids-ukuran-kamar-kost-kamar-mandi-dalam"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "8753f5e5cc78e754311fea8daa9586fcae310539b2f885e17d0557283c31465f"
+}

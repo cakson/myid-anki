@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-14T01:25:30.100265+00:00",
+  "result": {
+    "candidate_digest": "b35d84df61e46b6c0b31020bdc475c9ecf2d674de3b7383b46b152628b2946a6",
+    "candidate_id": "travel-03",
+    "checked_at": "2026-10-14T01:25:30.100265+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.0.0",
+    "decision_reason": "Audit found unresolved semantic breadth and everyday preference for beg pakaian as the exact counterpart of suitcase.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

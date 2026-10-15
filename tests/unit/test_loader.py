@@ -11,23 +11,25 @@ def write_source(path, contents):
 def test_loads_valid_utf8_tsv_and_preserves_id_string(tmp_path):
     source = write_source(
         tmp_path / "vocabulary.tsv",
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n"
-        "000001\tcar\tmobil\tkereta\t\ttransport daily-life\n",
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n"
+        "000001\tcar\tmobil\tkereta\tdifferent-common-word\t\ttransport daily-life\t\n",
     )
     concept = load_tsv(source)[0]
     assert concept.id == "000001"
     assert concept.tags == ["transport", "daily-life"]
     assert concept.image is None
+    assert concept.relation == "different-common-word"
+    assert concept.contrast == ""
 
 
 @pytest.mark.parametrize(
     "contents",
     [
         "",
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n",
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n000001\tcar\n",
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n000001\tcar\tmobil\tkereta\t\t\textra\n",
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n\n",
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n",
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n000001\tcar\n",
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n000001\tcar\tmobil\tkereta\tsame\t\t\t\textra\n",
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n\n",
     ],
 )
 def test_rejects_empty_or_malformed_tsv(tmp_path, contents):
@@ -39,7 +41,7 @@ def test_rejects_empty_or_malformed_tsv(tmp_path, contents):
 def test_rejects_wrong_header_order(tmp_path):
     source = write_source(
         tmp_path / "vocabulary.tsv",
-        "english\tid\tindonesian\tmalaysian\timage\ttags\n",
+        "english\tid\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n",
     )
     with pytest.raises(SourceFormatError):
         load_tsv(source)
@@ -48,8 +50,8 @@ def test_rejects_wrong_header_order(tmp_path):
 def test_rejects_repeated_header(tmp_path):
     source = write_source(
         tmp_path / "vocabulary.tsv",
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n"
-        "id\tenglish\tindonesian\tmalaysian\timage\ttags\n",
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n"
+        "id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n",
     )
     with pytest.raises(SourceFormatError) as error:
         load_tsv(source)
@@ -58,7 +60,7 @@ def test_rejects_repeated_header(tmp_path):
 
 def test_rejects_invalid_utf8(tmp_path):
     source = tmp_path / "vocabulary.tsv"
-    source.write_bytes(b"id\tenglish\tindonesian\tmalaysian\timage\ttags\n\xff")
+    source.write_bytes(b"id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n\xff")
     with pytest.raises(SourceFormatError):
         load_tsv(source)
 
@@ -66,7 +68,7 @@ def test_rejects_invalid_utf8(tmp_path):
 def test_rejects_strict_csv_syntax_errors(tmp_path):
     source = write_source(
         tmp_path / "vocabulary.tsv",
-        'id\tenglish\tindonesian\tmalaysian\timage\ttags\n000001\t"car\tmobil\tkereta\t\t\n',
+        'id\tenglish\tindonesian\tmalaysian\trelation\timage\ttags\tcontrast\n000001\t"car\tmobil\tkereta\tsame\t\t\t\n',
     )
     with pytest.raises(SourceFormatError):
         load_tsv(source)

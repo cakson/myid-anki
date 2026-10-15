@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-04T10:16:28.804209+00:00",
+  "input_digest": "4be66b9f81e80a82ace8a1e6e011e6384e2def2b4e979a34febdcccea6d9a18f",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\":1,\"role\":\"relation-proposal\",\"model\":\"GPT-6\",\"result\":{\"english\":\"message\",\"relation\":\"different-common-word\",\"semantic_alignment\":\"a written or digital communication sent to someone\",\"aligned\":true,\"claims\":[{\"claim_id\":\"communication-01-relation\",\"claim_type\":\"relation\",\"proposition\":\"For this sense, Indonesian pesan and Malaysian mesej are different everyday word forms: pesan is the neutral general Indonesian term, while mesej is the usual everyday Malaysian term for a digital message.\"}],\"contrast\":{}}}",
+  "reported_model": "GPT-6",
+  "response": {
+    "model": "GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "communication-01-relation",
+          "claim_type": "relation",
+          "proposition": "For this sense, Indonesian pesan and Malaysian mesej are different everyday word forms: pesan is the neutral general Indonesian term, while mesej is the usual everyday Malaysian term for a digital message."
+        }
+      ],
+      "contrast": {},
+      "english": "message",
+      "relation": "different-common-word",
+      "semantic_alignment": "a written or digital communication sent to someone"
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:communication-01-relation",
+        "claim_type": "relation",
+        "proposition": "For this sense, Indonesian pesan and Malaysian mesej are different everyday word forms: pesan is the neutral general Indonesian term, while mesej is the usual everyday Malaysian term for a digital message."
+      }
+    ],
+    "contrast": {
+      "claim_ids": []
+    },
+    "english": "message",
+    "relation": "different-common-word",
+    "semantic_alignment": "a written or digital communication sent to someone"
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "de49dfa67def11700ff23fd85279dfefd0d3ef84d1e9febeb37b2b91ea587796"
+}

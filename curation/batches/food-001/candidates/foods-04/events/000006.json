@@ -1,0 +1,231 @@
+{
+  "at": "2026-10-03T20:00:18.776830+00:00",
+  "input_digest": "0eaa8755dca6f5855f5a2506aba0546947e702e68390816a66fbf6698f14b6cd",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [{\"method\": \"direct page open\", \"outcome\": \"Page inaccessible through the retrieval tool; no KBBI content was inspected.\", \"url\": \"https://kbbi.kemendikdasmen.go.id/entri/enak\"}], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-04-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f04-id-meaning\", \"limitations\": \"The sentence is metaphorical, although \\u201cmakanan enak\\u201d plainly concerns food quality.\", \"locale\": \"Indonesia\", \"observation\": \"A comparison involving a chef describes appealing food as \\u201cmakanan enak.\\u201d\", \"page_location_or_query\": \"Line 8\", \"publisher\": \"Pemerintah Kabupaten Ponorogo\", \"register\": \"government news article\", \"source_group\": \"Ponorogo government Grebeg Suro article\", \"source_title\": \"Sokongan Minim APBD Bukan Masalah, Bupati Sugiri Jamin Kualitas Grebeg Suro Tetap Terjaga\", \"stance\": \"supports\", \"url_or_query\": \"https://ponorogo.go.id/2025/06/06/sokongan-minim-apbd-bukan-masalah-bupati-sugiri-jamin-kualitas-grebeg-suro-tetap-terjaga/\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-04-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f04-id-preferred\", \"limitations\": \"Natural use is visible; relative frequency against \\u201csedap\\u201d was not measured.\", \"locale\": \"Indonesia\", \"observation\": \"The article contrasts food that \\u201crasanya enak\\u201d or \\u201cmakanan enak\\u201d with healthy food, using \\u201cenak\\u201d without explanation.\", \"page_location_or_query\": \"Line 95\", \"publisher\": \"Kementerian Kesehatan Republik Indonesia\", \"register\": \"public health article\", \"source_group\": \"Kemkes diabetes article 1852\", \"source_title\": \"Ciri-ciri DM yang Sudah Parah\", \"stance\": \"supports\", \"url_or_query\": \"https://keslan.kemkes.go.id/view_artikel/1852/ciri-ciri-dm-yang-sudah-parah\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-04-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"f04-my-meaning\", \"limitations\": \"The entry also records smell and non-food senses.\", \"locale\": \"Malaysia\", \"observation\": \"The entries define a taste sense equivalent to \\u201cenak\\u201d and illustrate it with \\u201ckuih.\\u201d\", \"page_location_or_query\": \"Lines 17\\u201325\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP Malay dictionaries\", \"source_title\": \"PRPM entry for sedap\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sedap\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-04-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f04-my-preferred\", \"limitations\": \"The same page also calls food and dishes \\u201cenak\\u201d at lines 53 and 65\\u201367, so it does not establish that \\u201csedap\\u201d is the sole or invariably preferred choice.\", \"locale\": \"Malaysia\", \"observation\": \"The page headlines its food selection \\u201cMakanan yang sedap.\\u201d\", \"page_location_or_query\": \"Lines 37\\u201367\", \"publisher\": \"Penang Hill Corporation\", \"register\": \"tourism promotion\", \"source_group\": \"Penang Hill food page\", \"source_title\": \"Makanan & Minuman\", \"stance\": \"supports\", \"url_or_query\": \"https://penanghill.gov.my/index.php/ms/daya-tarikan/makanan-minuman\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:02Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"foods-04-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"f04-my-alternative\", \"limitations\": \"This confirms a live alternative but does not quantify whether it is as common as \\u201csedap.\\u201d\", \"locale\": \"Malaysia\", \"observation\": \"The same Malaysian food page uses \\u201cenak\\u201d for dishes and local food.\", \"page_location_or_query\": \"Lines 53 and 65\\u201367\", \"publisher\": \"Penang Hill Corporation\", \"register\": \"tourism promotion\", \"source_group\": \"Penang Hill food page\", \"source_title\": \"Makanan & Minuman\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://penanghill.gov.my/index.php/ms/daya-tarikan/makanan-minuman\", \"usage_basis\": \"comparative\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"f04-relation\", \"reason\": \"source_group must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/food-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/food-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        {
+          "method": "direct page open",
+          "outcome": "Page inaccessible through the retrieval tool; no KBBI content was inspected.",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/enak"
+        }
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-04-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f04-id-meaning",
+          "limitations": "The sentence is metaphorical, although “makanan enak” plainly concerns food quality.",
+          "locale": "Indonesia",
+          "observation": "A comparison involving a chef describes appealing food as “makanan enak.”",
+          "page_location_or_query": "Line 8",
+          "publisher": "Pemerintah Kabupaten Ponorogo",
+          "register": "government news article",
+          "source_group": "Ponorogo government Grebeg Suro article",
+          "source_title": "Sokongan Minim APBD Bukan Masalah, Bupati Sugiri Jamin Kualitas Grebeg Suro Tetap Terjaga",
+          "stance": "supports",
+          "url_or_query": "https://ponorogo.go.id/2025/06/06/sokongan-minim-apbd-bukan-masalah-bupati-sugiri-jamin-kualitas-grebeg-suro-tetap-terjaga/",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-04-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f04-id-preferred",
+          "limitations": "Natural use is visible; relative frequency against “sedap” was not measured.",
+          "locale": "Indonesia",
+          "observation": "The article contrasts food that “rasanya enak” or “makanan enak” with healthy food, using “enak” without explanation.",
+          "page_location_or_query": "Line 95",
+          "publisher": "Kementerian Kesehatan Republik Indonesia",
+          "register": "public health article",
+          "source_group": "Kemkes diabetes article 1852",
+          "source_title": "Ciri-ciri DM yang Sudah Parah",
+          "stance": "supports",
+          "url_or_query": "https://keslan.kemkes.go.id/view_artikel/1852/ciri-ciri-dm-yang-sudah-parah",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-04-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "f04-my-meaning",
+          "limitations": "The entry also records smell and non-food senses.",
+          "locale": "Malaysia",
+          "observation": "The entries define a taste sense equivalent to “enak” and illustrate it with “kuih.”",
+          "page_location_or_query": "Lines 17–25",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP Malay dictionaries",
+          "source_title": "PRPM entry for sedap",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sedap",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-04-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f04-my-preferred",
+          "limitations": "The same page also calls food and dishes “enak” at lines 53 and 65–67, so it does not establish that “sedap” is the sole or invariably preferred choice.",
+          "locale": "Malaysia",
+          "observation": "The page headlines its food selection “Makanan yang sedap.”",
+          "page_location_or_query": "Lines 37–67",
+          "publisher": "Penang Hill Corporation",
+          "register": "tourism promotion",
+          "source_group": "Penang Hill food page",
+          "source_title": "Makanan & Minuman",
+          "stance": "supports",
+          "url_or_query": "https://penanghill.gov.my/index.php/ms/daya-tarikan/makanan-minuman",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:02Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "foods-04-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "f04-my-alternative",
+          "limitations": "This confirms a live alternative but does not quantify whether it is as common as “sedap.”",
+          "locale": "Malaysia",
+          "observation": "The same Malaysian food page uses “enak” for dishes and local food.",
+          "page_location_or_query": "Lines 53 and 65–67",
+          "publisher": "Penang Hill Corporation",
+          "register": "tourism promotion",
+          "source_group": "Penang Hill food page",
+          "source_title": "Makanan & Minuman",
+          "stance": "inconclusive",
+          "url_or_query": "https://penanghill.gov.my/index.php/ms/daya-tarikan/makanan-minuman",
+          "usage_basis": "comparative"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "f04-relation",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      {
+        "method": "direct page open",
+        "outcome": "Page inaccessible through the retrieval tool; no KBBI content was inspected.",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/enak"
+      }
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-04-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f04-id-meaning",
+        "limitations": "The sentence is metaphorical, although “makanan enak” plainly concerns food quality.",
+        "locale": "Indonesia",
+        "observation": "A comparison involving a chef describes appealing food as “makanan enak.”",
+        "page_location_or_query": "Line 8",
+        "publisher": "Pemerintah Kabupaten Ponorogo",
+        "register": "government news article",
+        "source_group": "Ponorogo government Grebeg Suro article",
+        "source_title": "Sokongan Minim APBD Bukan Masalah, Bupati Sugiri Jamin Kualitas Grebeg Suro Tetap Terjaga",
+        "stance": "supports",
+        "url_or_query": "https://ponorogo.go.id/2025/06/06/sokongan-minim-apbd-bukan-masalah-bupati-sugiri-jamin-kualitas-grebeg-suro-tetap-terjaga/",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-04-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f04-id-preferred",
+        "limitations": "Natural use is visible; relative frequency against “sedap” was not measured.",
+        "locale": "Indonesia",
+        "observation": "The article contrasts food that “rasanya enak” or “makanan enak” with healthy food, using “enak” without explanation.",
+        "page_location_or_query": "Line 95",
+        "publisher": "Kementerian Kesehatan Republik Indonesia",
+        "register": "public health article",
+        "source_group": "Kemkes diabetes article 1852",
+        "source_title": "Ciri-ciri DM yang Sudah Parah",
+        "stance": "supports",
+        "url_or_query": "https://keslan.kemkes.go.id/view_artikel/1852/ciri-ciri-dm-yang-sudah-parah",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-04-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "f04-my-meaning",
+        "limitations": "The entry also records smell and non-food senses.",
+        "locale": "Malaysia",
+        "observation": "The entries define a taste sense equivalent to “enak” and illustrate it with “kuih.”",
+        "page_location_or_query": "Lines 17–25",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP Malay dictionaries",
+        "source_title": "PRPM entry for sedap",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sedap",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-04-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f04-my-preferred",
+        "limitations": "The same page also calls food and dishes “enak” at lines 53 and 65–67, so it does not establish that “sedap” is the sole or invariably preferred choice.",
+        "locale": "Malaysia",
+        "observation": "The page headlines its food selection “Makanan yang sedap.”",
+        "page_location_or_query": "Lines 37–67",
+        "publisher": "Penang Hill Corporation",
+        "register": "tourism promotion",
+        "source_group": "Penang Hill food page",
+        "source_title": "Makanan & Minuman",
+        "stance": "supports",
+        "url_or_query": "https://penanghill.gov.my/index.php/ms/daya-tarikan/makanan-minuman",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:02Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "foods-04-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "f04-my-alternative",
+        "limitations": "This confirms a live alternative but does not quantify whether it is as common as “sedap.”",
+        "locale": "Malaysia",
+        "observation": "The same Malaysian food page uses “enak” for dishes and local food.",
+        "page_location_or_query": "Lines 53 and 65–67",
+        "publisher": "Penang Hill Corporation",
+        "register": "tourism promotion",
+        "source_group": "Penang Hill food page",
+        "source_title": "Makanan & Minuman",
+        "stance": "inconclusive",
+        "url_or_query": "https://penanghill.gov.my/index.php/ms/daya-tarikan/makanan-minuman",
+        "usage_basis": "comparative"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "f04-relation",
+        "reason": "source_group must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "4d778b14823cd56c62047b0f59375905be859aef3c8e16fa5097bf445175a169"
+}

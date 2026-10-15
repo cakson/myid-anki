@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T00:59:15.339296+00:00",
+  "input_digest": "a8515dbf326521db436e271f3417fe69f634c9e6e6728c21c39ed4930c9f0e58",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"school-001:topic-02\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"A school principal heads a school; a teacher instructs students. These are different roles.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "school-001:topic-02",
+          "rationale": "A school principal heads a school; a teacher instructs students. These are different roles.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "school-001:topic-02",
+        "rationale": "A school principal heads a school; a teacher instructs students. These are different roles.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "7b60b6ba024dc44ef6bf3e5126c60acdd6c906f3f780b7d8afb79b1a8a885971"
+}

@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-14T11:32:28.397046+00:00",
+  "input_digest": "a38d804298705508bc1ba88049502620afd45c29033e2aa6757ad992dabdf574",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"“Pilek” is the ordinary Indonesian term for a common cold, while Malaysian Malay commonly uses “selsema” for the same illness.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers fit the cue’s mild respiratory-illness sense.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"selesma\", \"language\": \"indonesian\", \"rationale\": \"“Selesma” exists in Indonesian but is not as ordinary or preferred as “pilek” in everyday usage.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers fit the cue’s mild respiratory-illness sense.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "selesma",
+        "language": "indonesian",
+        "rationale": "“Selesma” exists in Indonesian but is not as ordinary or preferred as “pilek” in everyday usage.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Pilek” is the ordinary Indonesian term for a common cold, while Malaysian Malay commonly uses “selsema” for the same illness.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the cue’s mild respiratory-illness sense.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "selesma",
+      "language": "indonesian",
+      "rationale": "“Selesma” exists in Indonesian but is not as ordinary or preferred as “pilek” in everyday usage.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Pilek” is the ordinary Indonesian term for a common cold, while Malaysian Malay commonly uses “selsema” for the same illness.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "f0a6e576e8c76c1bd97bb04e5bb54375143d2cc5cf0dbab2046b6a4a3a2338d8"
+}

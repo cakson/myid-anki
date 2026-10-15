@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-04T10:12:24.623390+00:00",
+  "input_digest": "0d42995d4046abf686740808956bbde02fe9731fee8ae0c67bbea3ca265accbb",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-6\", \"result\": {\"overlaps\": [{\"other_id\": \"communication-001:communication-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A video call includes live video, while a call is phone contact generally; the candidates have distinct cues and translations.\"}]}, \"bundle_response\": \"curation/batches/communication-001/normalize-response.json\"}",
+  "reported_model": "GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/normalize-response.json",
+    "model": "GPT-6",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "communication-001:communication-02",
+          "rationale": "A video call includes live video, while a call is phone contact generally; the candidates have distinct cues and translations.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "communication-001:communication-02",
+        "rationale": "A video call includes live video, while a call is phone contact generally; the candidates have distinct cues and translations.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "ecc3cd1760092db643888fec6279c06444e019f479e574550921d38d981a1790"
+}

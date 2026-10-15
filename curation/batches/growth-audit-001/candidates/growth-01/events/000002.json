@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-04T03:57:59.803927+00:00",
+  "input_digest": "a6d2bb316022ebdd236596b046126d8b0009530543a0da19a88ceb3c7952e303",
+  "model": "fixture/growth-audit",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"fixture/growth-audit\", \"result\": {\"overlaps\": [{\"other_id\": \"000003\", \"type\": \"semantic\", \"resolution\": \"merge\", \"rationale\": \"Plural cue for the already accepted spoon concept\"}]}}",
+  "reported_model": "fixture/growth-audit",
+  "response": {
+    "model": "fixture/growth-audit",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000003",
+          "rationale": "Plural cue for the already accepted spoon concept",
+          "resolution": "merge",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000003",
+        "rationale": "Plural cue for the already accepted spoon concept",
+        "resolution": "merge",
+        "type": "semantic"
+      },
+      {
+        "other_id": "food-001:foods-02",
+        "rationale": "Deterministic cue or answer match requires semantic review",
+        "resolution": "unresolved",
+        "type": "exact"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "fixture/growth-audit",
+  "upstream_digest": "1776b014738881564f59c2e1d7b43ed4fb0f948fd07460fc47911e06c23f8b1d"
+}

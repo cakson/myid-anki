@@ -1,0 +1,365 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 49.141,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13651,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1818,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 78.203,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13620,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2250,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 73.325,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13699,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2138,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 79.737,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13656,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2308,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 59.899,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13286,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2031,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-14T01:10:33.176343+00:00",
+  "model": "gpt-5.6-sol",
+  "results": {
+    "fresh-actions-001:action-07": {
+      "candidate_ref": "fresh-actions-001:action-07",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Both varieties use hamil and mengandung for pregnancy, with contextual and register preferences; this is not a dependable Indonesian-versus-Malaysian lexical contrast.",
+        "verified_relation": "shared-normal-synonyms-with-usage-preference"
+      },
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "This creates an artificial national contrast. Hamil is also normal and common in Malaysian Malay, while Indonesian mengandung can likewise mean being pregnant, though its distribution and tone differ. The proposed pair therefore does not reliably teach distinct national vocabulary.",
+      "relation": "shared-normal-synonyms-with-usage-preference",
+      "verdict": "should-reject"
+    },
+    "fresh-actions-001:action-09": {
+      "candidate_ref": "fresh-actions-001:action-09",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Indonesian commonly uses darurat for an emergency, while Malaysian Malay commonly uses kecemasan in general and institutional emergency contexts. Malaysian Malay also uses darurat, especially for grave or officially declared emergencies, so the contrast is preferential rather than exclusive.",
+        "verified_relation": "different-preferred-word-with-overlap"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Darurat and kecemasan are valid choices for the stated sense, and the contrast is useful. However, darurat is also established in Malaysian Malay, especially for grave emergencies or a declared state of emergency. The difference is a usage preference with semantic and grammatical qualifications, not a clean national split.",
+      "relation": "different-preferred-word-with-overlap",
+      "verdict": "minor-correction"
+    },
+    "fresh-actions-001:action-10": {
+      "candidate_ref": "fresh-actions-001:action-10",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Berisik is a common everyday Indonesian preference and bising is the usual Malaysian Malay choice for unwanted noise. Bising is also valid in Indonesian, so this is a preference contrast rather than an exclusive lexical difference.",
+        "verified_relation": "different-preferred-word-with-shared-synonym"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The learner-facing pair is natural and useful: berisik is an everyday Indonesian choice and bising is the ordinary Malaysian Malay choice. But bising also exists and is readily understood in Indonesian, so describing the pair simply as unrelated national terms overstates the separation.",
+      "relation": "different-preferred-word-with-shared-synonym",
+      "verdict": "minor-correction"
+    },
+    "fresh-food-001:food-07": {
+      "candidate_ref": "fresh-food-001:food-07",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Indonesian struk commonly denotes the printed transaction slip issued after a purchase, while Malaysian Malay resit is the ordinary broader word for a receipt. With the cue restricted to a printed purchase receipt, the pair forms a useful contrast.",
+        "sense": "a printed receipt or transaction slip given as proof of a purchase"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Struk versus resit is a meaningful everyday contrast, but Indonesian struk is narrower than the supplied cue: it normally denotes a printed transaction slip, whereas written proof of purchase can also be a bon or nota. Narrowing the sense makes the equivalence exact.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "fresh-home-001:home-02": {
+      "candidate_ref": "fresh-home-001:home-02",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both compounds naturally denote a wardrobe, and lemari versus almari is a real, mild form difference between common Indonesian and Malaysian usage. The relation and rationale correctly avoid presenting the words as unrelated.",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "fresh-home-001:home-04": {
+      "candidate_ref": "fresh-home-001:home-04",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "State that Indonesian also commonly uses \"gorden\" and that \"tirai\" is shared or understood in Malaysian Malay, so this is a preference contrast rather than a clean lexical split.",
+        "verified_relation": "Change from \"different-common-word\" to \"different-preferred-word\"."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Tirai is valid and natural Indonesian for a curtain, while langsir is the usual Malaysian term. However, the contrast is one of usage preference rather than exclusive national vocabulary: gorden is often more colloquial in Indonesia, and tirai also exists in Malaysian Malay.",
+      "relation": "different-preferred-word",
+      "verdict": "minor-correction"
+    },
+    "fresh-home-001:home-06": {
+      "candidate_ref": "fresh-home-001:home-06",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Mesin cuci and mesin basuh are natural everyday terms for the same appliance in Indonesian and Malaysian Malay respectively. The cuci–basuh difference supplies a clear, useful contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-home-001:home-08": {
+      "candidate_ref": "fresh-home-001:home-08",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "malaysian": "Change \"sikat rambut\" to \"sikat\" for the ordinary Malaysian comb noun and a cleaner contrast with Indonesian \"sisir\"."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Sisir is the ordinary Indonesian word for a comb, and Malaysian Malay uses sikat. Sikat rambut is intelligible, but it is less cleanly matched to the explicitly toothed-tool sense and can invite confusion with a hairbrush.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "fresh-home-001:home-10": {
+      "candidate_ref": "fresh-home-001:home-10",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Explicitly address the broad or wok-like meanings of both terms and the uncertainty over their fit with a shallow frying pan.",
+        "english": "Either change the cue to \"wok\" or use more shape-specific learner terms.",
+        "indonesian": "If retaining the current shallow-pan sense, use \"wajan datar\" or another contextually verified flat-pan term.",
+        "malaysian": "If retaining the current shallow-pan sense, use \"kuali leper\" or another contextually verified flat-pan term.",
+        "sense": "If retaining \"wajan\" and \"kuali\", change the sense to \"a typically bowl-shaped cooking vessel used for frying or stir-frying food\"."
+      },
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Wajan and kuali commonly denote wok-like or broadly defined cooking vessels; neither inherently specifies the shallow, flat frying pan described by the cue. The rationale discusses regional distribution but misses this shape-and-vessel mismatch.",
+      "relation": "approximate-cross-variety-equivalent",
+      "verdict": "materially-misleading"
+    },
+    "fresh-travel-001:travel-01": {
+      "candidate_ref": "fresh-travel-001:travel-01",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both expressions exactly and naturally denote a train station. The stasiun–stesen spelling and pronunciation contrast is genuine, while kereta api is shared.",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "fresh-travel-001:travel-03": {
+      "candidate_ref": "fresh-travel-001:travel-03",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "status": "hold pending evidence that \"beg pakaian\" is an ordinary everyday Malaysian term specifically for a suitcase"
+      },
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Indonesian \"koper\" is exact and ordinary, but Malaysian \"beg pakaian\" is semantically broader and may denote several kinds of bags used for clothes rather than specifically a suitcase. Its everyday Malaysian preference and exactness require verification before presenting this as a national lexical contrast.",
+      "relation": "possible different-common-word, pending Malaysian usage verification",
+      "verdict": "should-hold"
+    },
+    "fresh-travel-001:travel-04": {
+      "candidate_ref": "fresh-travel-001:travel-04",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "\"Reservasi\" is natural Indonesian in hotel, transport, restaurant, and service contexts, while Malaysian \"tempahan\" naturally covers an advance booking or reservation. The broader order-related uses of \"tempahan\" do not undermine this clearly specified sense.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-travel-001:travel-05": {
+      "candidate_ref": "fresh-travel-001:travel-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "\"Wisatawan\" and \"pelancong\" are the respective ordinary terms for a tourist. Although \"pelancong\" can occasionally be interpreted more broadly as a traveler, it directly and naturally expresses the stated pleasure-travel sense.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-travel-001:travel-06": {
+      "candidate_ref": "fresh-travel-001:travel-06",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Indonesian \"liburan\" and Malaysian \"cuti\" both naturally denote a holiday or vacation period away from work or school. Indonesian also has \"cuti,\" especially for formally authorized leave, and Malaysian has \"percutian\" for a vacation or holiday trip, but those shared or related alternatives do not erase the useful everyday preference represented here.",
+      "relation": "different-common-word with overlapping shared synonym",
+      "verdict": "confirmed-good"
+    },
+    "fresh-travel-001:travel-08": {
+      "candidate_ref": "fresh-travel-001:travel-08",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Indonesian \"bea cukai\" and Malaysian \"kastam\" are natural standard terms for border customs and the responsible service. The Indonesian expression also encompasses excise, but it remains fully appropriate for the stated travel-border sense.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-travel-001:travel-10": {
+      "candidate_ref": "fresh-travel-001:travel-10",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Indonesian commonly uses perahu for a small boat. Malaysian Malay commonly uses bot, especially for a modern or motorized craft, but perahu is also an ordinary Malaysian word, particularly for small traditional boats; the contrast is therefore contextual rather than exclusive.",
+        "verified_relation": "overlapping-common-words-with-different-preferences"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both translations can express the cue, but the contrast is preference- and vessel-dependent rather than cleanly national. Perahu is also normal Malaysian Malay, especially for a small or traditional craft, while bot often evokes a modern or motorized boat. Presenting bot as the straightforward Malaysian counterpart risks overstating the contrast.",
+      "relation": "overlapping-common-words-with-different-preferences",
+      "verdict": "minor-correction"
+    },
+    "fresh-work-001:work-01": {
+      "candidate_ref": "fresh-work-001:work-01",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Karyawan is a common specifically employment-oriented term in Indonesian, while Malaysian Malay commonly uses the broader pekerja. Pekerja is also ordinary Indonesian, so this teaches a difference in preferred equivalents rather than mutually distinct national vocabulary.",
+        "verified_relation": "preferred-national-equivalent-with-shared-alternative"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Karyawan is a common Indonesian equivalent of employee, and pekerja is natural Malaysian Malay for an employed person, although it also means worker more broadly. The learning contrast is useful as a preference contrast, but pekerja is also completely normal Indonesian and the present relation can suggest a sharper national division than exists.",
+      "relation": "preferred-national-equivalent-with-shared-alternative",
+      "verdict": "minor-correction"
+    },
+    "fresh-work-001:work-03": {
+      "candidate_ref": "fresh-work-001:work-03",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Indonesian commonly abbreviates pekerjaan rumah as PR in everyday school usage, whereas Malaysian Malay commonly says kerja rumah. Context is important because kerja rumah can also mean household work, and the contrast pairs an abbreviation with a full phrase.",
+        "verified_relation": "abbreviation-versus-common-phrase"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "PR is the very common everyday Indonesian abbreviation for pekerjaan rumah, and kerja rumah is a natural Malaysian Malay term for school homework. The meanings match in the stated school context, but this is an abbreviation-versus-phrase contrast, not simply two unrelated common words; kerja rumah can also denote housework.",
+      "relation": "abbreviation-versus-common-phrase",
+      "verdict": "minor-correction"
+    },
+    "fresh-work-001:work-04": {
+      "candidate_ref": "fresh-work-001:work-04",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Ruang kelas and bilik darjah are natural, standard everyday equivalents for a room where a class is taught in Indonesian and Malaysian Malay respectively. The contrast is meaningful and the cue does not introduce a material sense or register mismatch.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-work-001:work-07": {
+      "candidate_ref": "fresh-work-001:work-07",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Wawancara kerja and temu duga kerja are natural, idiomatic terms for an employment interview in Indonesian and Malaysian Malay. They match the cue closely and form a useful lexical contrast; the shorter Malaysian temu duga is also possible when the employment context is already clear.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-work-001:work-08": {
+      "candidate_ref": "fresh-work-001:work-08",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Replace the claim that the forms are unrelated with: \"Indonesian commonly uses lamaran kerja, while Malaysian Malay commonly uses permohonan kerja; both share kerja, and permohonan pekerjaan is also possible in Malaysia. Lamaran alone is ambiguous in Indonesian, but kerja fixes the employment sense.\"",
+        "verified_relation": "Change from \"different-common-word\" to \"different-common-expression\" because these are multiword expressions and share kerja."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both translations naturally denote a job application, and the Indonesian marriage-proposal sense of lamaran is removed by kerja. The contrast is useful but not wholly unrelated: both expressions contain kerja, and Malaysian permohonan pekerjaan is also a normal variant.",
+      "relation": "different-common-expression",
+      "verdict": "minor-correction"
+    },
+    "fresh-work-001:work-09": {
+      "candidate_ref": "fresh-work-001:work-09",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Use: \"Indonesian normally uses perusahaan for a company, whereas Malaysian Malay normally uses syarikat. Perusahaan also exists in Malay with enterprise or undertaking senses, so this is a preferred-usage contrast rather than an exclusive national divide.\"",
+        "confidence_tier": "Change from \"very-low\" to \"high\"."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Perusahaan and syarikat are the ordinary preferred equivalents in Indonesian and Malaysian Malay respectively. The learning contrast is meaningful, although it should represent national preference rather than imply that perusahaan is absent from Malaysian Malay. The very-low confidence tier is not supported by the rationale or the strength of the pair.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "fresh-work-001:work-10": {
+      "candidate_ref": "fresh-work-001:work-10",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Lembur is the normal Indonesian term for working beyond regular hours, while kerja lebih masa is the standard natural Malaysian Malay expression. The cue and sense align, and the pair provides a genuine contrast. Colloquial Malaysian speakers may also say OT, but that does not invalidate the Malay expression.",
+      "relation": "different-common-expression",
+      "verdict": "confirmed-good"
+    }
+  },
+  "schema_version": 1,
+  "selected_refs": [
+    "fresh-actions-001:action-07",
+    "fresh-actions-001:action-09",
+    "fresh-actions-001:action-10",
+    "fresh-food-001:food-07",
+    "fresh-home-001:home-02",
+    "fresh-home-001:home-04",
+    "fresh-home-001:home-06",
+    "fresh-home-001:home-08",
+    "fresh-home-001:home-10",
+    "fresh-travel-001:travel-01",
+    "fresh-travel-001:travel-03",
+    "fresh-travel-001:travel-04",
+    "fresh-travel-001:travel-05",
+    "fresh-travel-001:travel-06",
+    "fresh-travel-001:travel-08",
+    "fresh-travel-001:travel-10",
+    "fresh-work-001:work-01",
+    "fresh-work-001:work-03",
+    "fresh-work-001:work-04",
+    "fresh-work-001:work-07",
+    "fresh-work-001:work-08",
+    "fresh-work-001:work-09",
+    "fresh-work-001:work-10"
+  ],
+  "started_at_utc": "2026-10-14T01:04:52.972352+00:00"
+}

@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-04T10:40:43.192763+00:00",
+  "input_digest": "ae4615de6055c8a7e762287c57e3e6eef2a8c7bdd23840c53ecae116d51c0e27",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI web search\", \"result\": {\"meaning\": \"Cabai refers to chili peppers used as a cooking ingredient. Recipe contexts distinguish types such as cabai rawit and cabai merah.\", \"common_use\": \"Cabai is used in contemporary Indonesian recipes and cooking language. Cabe is a common spelling variant in informal usage, but the evidence gathered here does not establish which form is preferred across contexts.\", \"preferred\": \"Preference between cabai and cabe is uncertain from the available evidence.\", \"register\": \"Cabai is the standard spelling; cabe is a familiar variant.\", \"region\": \"No regional restriction identified.\", \"alternatives\": [\"cabe\", \"cabai rawit (bird's-eye chili)\", \"cabai merah (red chili)\"], \"claims\": [{\"claim_id\": \"produce-06-locale\", \"claim_type\": \"locale-usage\", \"proposition\": \"Indonesian recipes use cabai as an ingredient and specify varieties such as cabai rawit and cabai merah.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"source\": \"Cookpad Indonesia, Pepaya Muda Tumis Kacang Panjang\", \"url\": \"https://cookpad.com/id/resep/10842571\", \"exact_claim\": \"Recipe instructions use cabai and specify cabai merah and cabai rawit.\"}, {\"source\": \"KBBI VI Daring, cabai\", \"url\": \"https://kbbi.kemendikdasmen.go.id/entri/cabai\", \"exact_claim\": \"Dictionary entry to inspect for standard spelling and meaning; search results did not return the entry text.\"}]}, \"bundle_response\": \"curation/batches/produce-001/indonesian-usage-response.json\"}",
+  "reported_model": "OpenAI web search",
+  "response": {
+    "bundle_response": "curation/batches/produce-001/indonesian-usage-response.json",
+    "model": "OpenAI web search",
+    "result": {
+      "alternatives": [
+        "cabe",
+        "cabai rawit (bird's-eye chili)",
+        "cabai merah (red chili)"
+      ],
+      "claims": [
+        {
+          "claim_id": "produce-06-locale",
+          "claim_type": "locale-usage",
+          "locale": "Indonesia",
+          "proposition": "Indonesian recipes use cabai as an ingredient and specify varieties such as cabai rawit and cabai merah."
+        }
+      ],
+      "common_use": "Cabai is used in contemporary Indonesian recipes and cooking language. Cabe is a common spelling variant in informal usage, but the evidence gathered here does not establish which form is preferred across contexts.",
+      "meaning": "Cabai refers to chili peppers used as a cooking ingredient. Recipe contexts distinguish types such as cabai rawit and cabai merah.",
+      "preferred": "Preference between cabai and cabe is uncertain from the available evidence.",
+      "region": "No regional restriction identified.",
+      "register": "Cabai is the standard spelling; cabe is a familiar variant.",
+      "source_leads": [
+        {
+          "exact_claim": "Recipe instructions use cabai and specify cabai merah and cabai rawit.",
+          "source": "Cookpad Indonesia, Pepaya Muda Tumis Kacang Panjang",
+          "url": "https://cookpad.com/id/resep/10842571"
+        },
+        {
+          "exact_claim": "Dictionary entry to inspect for standard spelling and meaning; search results did not return the entry text.",
+          "source": "KBBI VI Daring, cabai",
+          "url": "https://kbbi.kemendikdasmen.go.id/entri/cabai"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [
+      "cabe",
+      "cabai rawit (bird's-eye chili)",
+      "cabai merah (red chili)"
+    ],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:produce-06-locale",
+        "claim_type": "locale-usage",
+        "locale": "Indonesia",
+        "proposition": "Indonesian recipes use cabai as an ingredient and specify varieties such as cabai rawit and cabai merah."
+      }
+    ],
+    "common_use": "Cabai is used in contemporary Indonesian recipes and cooking language. Cabe is a common spelling variant in informal usage, but the evidence gathered here does not establish which form is preferred across contexts.",
+    "meaning": "Cabai refers to chili peppers used as a cooking ingredient. Recipe contexts distinguish types such as cabai rawit and cabai merah.",
+    "preferred": "Preference between cabai and cabe is uncertain from the available evidence.",
+    "region": "No regional restriction identified.",
+    "register": "Cabai is the standard spelling; cabe is a familiar variant.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim": "Recipe instructions use cabai and specify cabai merah and cabai rawit.",
+        "source": "Cookpad Indonesia, Pepaya Muda Tumis Kacang Panjang",
+        "url": "https://cookpad.com/id/resep/10842571"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim": "Dictionary entry to inspect for standard spelling and meaning; search results did not return the entry text.",
+        "source": "KBBI VI Daring, cabai",
+        "url": "https://kbbi.kemendikdasmen.go.id/entri/cabai"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "a2df62af8fc1700510f25b065d5d994de9f92acf6b705fd17246f2bbc3f04c29"
+}

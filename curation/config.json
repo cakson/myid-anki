@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "prompt_set_version": "2.4.0",
+  "decision_policy_version": "3.1.0",
+  "provider": "openai-codex-cli",
+  "provider_adapter": {
+    "argv": [
+      "codex",
+      "exec"
+    ],
+    "timeout_seconds": 180
+  },
+  "cost_policy": "reserve",
+  "role_models": {
+    "generate": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low"
+    },
+    "normalize-and-dedupe": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low"
+    },
+    "indonesian-usage": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low"
+    },
+    "malaysian-usage": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low"
+    },
+    "relation-proposal": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "evidence-audit": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "independent-verification": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "adversarial-review": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "competing-form-challenge": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    }
+  },
+  "default_candidate_limit": 12,
+  "maximum_candidate_limit": 12
+}

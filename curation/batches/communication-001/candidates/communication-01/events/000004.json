@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T10:15:28.942577+00:00",
+  "input_digest": "4be66b9f81e80a82ace8a1e6e011e6384e2def2b4e979a34febdcccea6d9a18f",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"OpenAI GPT-6\", \"result\": {\"english\": \"message\", \"relation\": \"similar\", \"semantic_alignment\": \"a written or digital communication sent to someone\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation-proposal:communication-01\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian pesan and Malaysian mesej both commonly refer to a written or digital message, but their everyday meanings are not fully identical: pesan also commonly means an instruction or advice, while mesej is more specifically used for a message or news item.\"}]}, \"bundle_response\": \"curation/batches/communication-001/relation-response.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/relation-response.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation-proposal:communication-01",
+          "claim_type": "relation",
+          "proposition": "Indonesian pesan and Malaysian mesej both commonly refer to a written or digital message, but their everyday meanings are not fully identical: pesan also commonly means an instruction or advice, while mesej is more specifically used for a message or news item."
+        }
+      ],
+      "english": "message",
+      "relation": "similar",
+      "semantic_alignment": "a written or digital communication sent to someone"
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:communication-01",
+        "claim_type": "relation",
+        "proposition": "Indonesian pesan and Malaysian mesej both commonly refer to a written or digital message, but their everyday meanings are not fully identical: pesan also commonly means an instruction or advice, while mesej is more specifically used for a message or news item."
+      }
+    ],
+    "english": "message",
+    "relation": "similar",
+    "semantic_alignment": "a written or digital communication sent to someone"
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "de49dfa67def11700ff23fd85279dfefd0d3ef84d1e9febeb37b2b91ea587796"
+}

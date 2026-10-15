@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-03T19:53:06.427497+00:00",
+  "input_digest": "65932834385703713f0918576c8e1a5c8661bc459b377ad3c7db02c853967f67",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"overlaps\": [{\"other_id\": \"common-verbs-001:everyday-actions-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A driver is a person; drive is the action of operating a car.\"}, {\"other_id\": \"000001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A driver is the person operating a road vehicle; a car is the vehicle.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/normalize-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/normalize-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-verbs-001:everyday-actions-05",
+          "rationale": "A driver is a person; drive is the action of operating a car.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000001",
+          "rationale": "A driver is the person operating a road vehicle; a car is the vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "common-verbs-001:everyday-actions-05",
+        "rationale": "A driver is a person; drive is the action of operating a car.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "000001",
+        "rationale": "A driver is the person operating a road vehicle; a car is the vehicle.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "549e02fc377a613692b6d2dc555ed60297646a8c3bcf42a0a14263a45cdfe72d"
+}

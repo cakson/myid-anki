@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T11:27:24.011205+00:00",
+  "input_digest": "74f076ab7dfb7431c3397bea364c8c8a01f5904ee86bcc12ed9bed97abfa6900",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-daily-001:daily-04\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"A light bulb is the electric light source; a light switch controls the light.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-daily-001:daily-04",
+          "rationale": "A light bulb is the electric light source; a light switch controls the light.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-daily-001:daily-04",
+        "rationale": "A light bulb is the electric light source; a light switch controls the light.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "dae24cbcaf1f2f2087a885a5a0be7818833ac6b6a6a4b194cd0d9c61e260d5a1"
+}

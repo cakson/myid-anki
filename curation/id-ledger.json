@@ -1,0 +1,985 @@
+{
+  "schema_version": 1,
+  "assignments": [
+    {
+      "id": "000001",
+      "batch_id": "legacy-car-001",
+      "candidate_id": "car-01",
+      "assigned_at": "2026-10-02",
+      "semantic_concept_key": "road passenger vehicle"
+    },
+    {
+      "id": "000002",
+      "batch_id": "home-001",
+      "candidate_id": "topic-07",
+      "assigned_at": "2026-10-04T03:31:05.849371+00:00",
+      "semantic_concept_key": "room where food is prepared"
+    },
+    {
+      "id": "000003",
+      "batch_id": "food-001",
+      "candidate_id": "foods-02",
+      "assigned_at": "2026-10-04T03:31:05.863022+00:00",
+      "semantic_concept_key": "A utensil used to scoop and eat food."
+    },
+    {
+      "id": "000004",
+      "batch_id": "food-001",
+      "candidate_id": "foods-03",
+      "assigned_at": "2026-10-04T03:31:05.876232+00:00",
+      "semantic_concept_key": "A flat dish from which a person eats a meal."
+    },
+    {
+      "id": "000005",
+      "batch_id": "food-001",
+      "candidate_id": "foods-05",
+      "assigned_at": "2026-10-04T03:31:05.889205+00:00",
+      "semantic_concept_key": "A liquid or semi-liquid condiment served with food."
+    },
+    {
+      "id": "000006",
+      "batch_id": "technology-001",
+      "candidate_id": "technology-02",
+      "assigned_at": "2026-10-04T04:18:03.625086+00:00",
+      "semantic_concept_key": "electronic device for processing information and running software"
+    },
+    {
+      "id": "000007",
+      "batch_id": "produce-001",
+      "candidate_id": "produce-01",
+      "assigned_at": "2026-10-04T10:48:19.970946+00:00",
+      "semantic_concept_key": "edible corn kernels or an ear of corn used as food"
+    },
+    {
+      "id": "000008",
+      "batch_id": "clothing-001",
+      "candidate_id": "clothing-01",
+      "assigned_at": "2026-10-14T00:31:55.228307+00:00",
+      "semantic_concept_key": "clothing worn on the lower body, generally covering both legs"
+    },
+    {
+      "id": "000009",
+      "batch_id": "clothing-001",
+      "candidate_id": "clothing-02",
+      "assigned_at": "2026-10-14T00:31:55.228392+00:00",
+      "semantic_concept_key": "footwear worn outdoors or for everyday walking"
+    },
+    {
+      "id": "000010",
+      "batch_id": "common-verbs-001",
+      "candidate_id": "everyday-actions-01",
+      "assigned_at": "2026-10-14T00:31:55.228405+00:00",
+      "semantic_concept_key": "send an item to someone"
+    },
+    {
+      "id": "000011",
+      "batch_id": "communication-001",
+      "candidate_id": "communication-01",
+      "assigned_at": "2026-10-14T00:31:55.228415+00:00",
+      "semantic_concept_key": "a written or digital communication sent to someone"
+    },
+    {
+      "id": "000012",
+      "batch_id": "communication-001",
+      "candidate_id": "communication-03",
+      "assigned_at": "2026-10-14T00:31:55.228426+00:00",
+      "semantic_concept_key": "an informal or relaxed conversation"
+    },
+    {
+      "id": "000013",
+      "batch_id": "everyday-objects-001",
+      "candidate_id": "everyday-objects-05",
+      "assigned_at": "2026-10-14T00:31:55.228441+00:00",
+      "semantic_concept_key": "The edible purple vegetable also called aubergine."
+    },
+    {
+      "id": "000014",
+      "batch_id": "everyday-objects-001",
+      "candidate_id": "everyday-objects-06",
+      "assigned_at": "2026-10-14T00:31:55.228452+00:00",
+      "semantic_concept_key": "A large fruit with sweet red flesh and green rind."
+    },
+    {
+      "id": "000015",
+      "batch_id": "food-001",
+      "candidate_id": "foods-01",
+      "assigned_at": "2026-10-14T00:31:55.228465+00:00",
+      "semantic_concept_key": "The meal eaten around midday."
+    },
+    {
+      "id": "000016",
+      "batch_id": "food-001",
+      "candidate_id": "foods-04",
+      "assigned_at": "2026-10-14T00:31:55.228478+00:00",
+      "semantic_concept_key": "Having a pleasant taste, said of food."
+    },
+    {
+      "id": "000017",
+      "batch_id": "food-001",
+      "candidate_id": "foods-06",
+      "assigned_at": "2026-10-14T00:31:55.228492+00:00",
+      "semantic_concept_key": "A small, dry baked snack."
+    },
+    {
+      "id": "000018",
+      "batch_id": "health-001",
+      "candidate_id": "health-01",
+      "assigned_at": "2026-10-14T00:31:55.228506+00:00",
+      "semantic_concept_key": "a substance used to treat illness, whether taken or applied"
+    },
+    {
+      "id": "000019",
+      "batch_id": "home-001",
+      "candidate_id": "topic-02",
+      "assigned_at": "2026-10-14T00:31:55.228521+00:00",
+      "semantic_concept_key": "room used for sleeping"
+    },
+    {
+      "id": "000020",
+      "batch_id": "home-001",
+      "candidate_id": "topic-03",
+      "assigned_at": "2026-10-14T00:31:55.228541+00:00",
+      "semantic_concept_key": "appliance that keeps food cold"
+    },
+    {
+      "id": "000021",
+      "batch_id": "home-001",
+      "candidate_id": "topic-04",
+      "assigned_at": "2026-10-14T00:31:55.228558+00:00",
+      "semantic_concept_key": "opening in a wall or building admitting light or air, usually fitted with glass"
+    },
+    {
+      "id": "000022",
+      "batch_id": "home-001",
+      "candidate_id": "topic-05",
+      "assigned_at": "2026-10-14T00:31:55.228575+00:00",
+      "semantic_concept_key": "container for household rubbish"
+    },
+    {
+      "id": "000023",
+      "batch_id": "home-001",
+      "candidate_id": "topic-06",
+      "assigned_at": "2026-10-14T00:31:55.228593+00:00",
+      "semantic_concept_key": "open container with a handle for carrying water"
+    },
+    {
+      "id": "000024",
+      "batch_id": "home-001",
+      "candidate_id": "topic-08",
+      "assigned_at": "2026-10-14T00:31:55.228611+00:00",
+      "semantic_concept_key": "seat for one person with a back"
+    },
+    {
+      "id": "000025",
+      "batch_id": "places-001",
+      "candidate_id": "places-01",
+      "assigned_at": "2026-10-14T00:31:55.228630+00:00",
+      "semantic_concept_key": "a workplace or administrative office"
+    },
+    {
+      "id": "000026",
+      "batch_id": "produce-001",
+      "candidate_id": "produce-03",
+      "assigned_at": "2026-10-14T00:31:55.228650+00:00",
+      "semantic_concept_key": "the common ripe papaya fruit"
+    },
+    {
+      "id": "000027",
+      "batch_id": "school-001",
+      "candidate_id": "topic-06",
+      "assigned_at": "2026-10-14T00:31:55.228670+00:00",
+      "semantic_concept_key": "A small tool used to remove pencil marks from paper."
+    },
+    {
+      "id": "000028",
+      "batch_id": "transportation-001",
+      "candidate_id": "transportation-04",
+      "assigned_at": "2026-10-14T00:31:55.228694+00:00",
+      "semantic_concept_key": "A large road vehicle carrying multiple passengers on a route."
+    },
+    {
+      "id": "000029",
+      "batch_id": "transportation-001",
+      "candidate_id": "transportation-06",
+      "assigned_at": "2026-10-14T00:31:55.228715+00:00",
+      "semantic_concept_key": "A large road vehicle used to carry goods."
+    },
+    {
+      "id": "000030",
+      "batch_id": "university-001",
+      "candidate_id": "university-study-03",
+      "assigned_at": "2026-10-14T00:31:55.228737+00:00",
+      "semantic_concept_key": "Financial support awarded to help a student pay for education."
+    },
+    {
+      "id": "000031",
+      "batch_id": "school-001",
+      "candidate_id": "topic-05",
+      "assigned_at": "2026-10-14T00:31:55.228759+00:00",
+      "semantic_concept_key": "A writing tool with a graphite core that can be erased."
+    },
+    {
+      "id": "000032",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-01",
+      "assigned_at": "2026-10-14T01:23:22.489502+00:00",
+      "semantic_concept_key": "transfer a file or app from the internet to a device"
+    },
+    {
+      "id": "000033",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-02",
+      "assigned_at": "2026-10-14T01:23:22.489607+00:00",
+      "semantic_concept_key": "transfer a file from a device to the internet"
+    },
+    {
+      "id": "000034",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-03",
+      "assigned_at": "2026-10-14T01:23:22.489640+00:00",
+      "semantic_concept_key": "make software or information current, including by installing or applying a newer software version"
+    },
+    {
+      "id": "000035",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-04",
+      "assigned_at": "2026-10-14T01:23:22.489668+00:00",
+      "semantic_concept_key": "secret characters used to access an account or device"
+    },
+    {
+      "id": "000036",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-05",
+      "assigned_at": "2026-10-14T01:23:22.489694+00:00",
+      "semantic_concept_key": "device used to enter text and commands"
+    },
+    {
+      "id": "000037",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-08",
+      "assigned_at": "2026-10-14T01:23:22.489721+00:00",
+      "semantic_concept_key": "person receiving medical care"
+    },
+    {
+      "id": "000038",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-09",
+      "assigned_at": "2026-10-14T01:23:22.489748+00:00",
+      "semantic_concept_key": "serious unexpected situation requiring immediate action"
+    },
+    {
+      "id": "000039",
+      "batch_id": "fresh-actions-001",
+      "candidate_id": "action-10",
+      "assigned_at": "2026-10-14T01:23:22.489776+00:00",
+      "semantic_concept_key": "making or characterized by a lot of unwanted sound"
+    },
+    {
+      "id": "000040",
+      "batch_id": "fresh-food-001",
+      "candidate_id": "food-01",
+      "assigned_at": "2026-10-14T01:23:22.489805+00:00",
+      "semantic_concept_key": "meat from cattle"
+    },
+    {
+      "id": "000041",
+      "batch_id": "fresh-food-001",
+      "candidate_id": "food-03",
+      "assigned_at": "2026-10-14T01:23:22.489834+00:00",
+      "semantic_concept_key": "a small amount of food eaten between meals"
+    },
+    {
+      "id": "000042",
+      "batch_id": "fresh-food-001",
+      "candidate_id": "food-06",
+      "assigned_at": "2026-10-14T01:23:22.489864+00:00",
+      "semantic_concept_key": "person who handles payment in a shop"
+    },
+    {
+      "id": "000043",
+      "batch_id": "fresh-food-001",
+      "candidate_id": "food-07",
+      "assigned_at": "2026-10-14T01:23:22.489910+00:00",
+      "semantic_concept_key": "a printed receipt or transaction slip given as proof of a purchase"
+    },
+    {
+      "id": "000044",
+      "batch_id": "fresh-food-001",
+      "candidate_id": "food-08",
+      "assigned_at": "2026-10-14T01:23:22.489941+00:00",
+      "semantic_concept_key": "a reduction in the usual price"
+    },
+    {
+      "id": "000045",
+      "batch_id": "fresh-food-001",
+      "candidate_id": "food-09",
+      "assigned_at": "2026-10-14T01:23:22.489973+00:00",
+      "semantic_concept_key": "date after which a packaged food should not be used"
+    },
+    {
+      "id": "000046",
+      "batch_id": "fresh-food-001",
+      "candidate_id": "food-10",
+      "assigned_at": "2026-10-14T01:23:22.490005+00:00",
+      "semantic_concept_key": "container used to carry items while shopping"
+    },
+    {
+      "id": "000047",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-01",
+      "assigned_at": "2026-10-14T01:23:22.490037+00:00",
+      "semantic_concept_key": "the padded surface used for sleeping"
+    },
+    {
+      "id": "000048",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-02",
+      "assigned_at": "2026-10-14T01:23:22.490071+00:00",
+      "semantic_concept_key": "a tall cabinet for storing clothes"
+    },
+    {
+      "id": "000049",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-03",
+      "assigned_at": "2026-10-14T01:23:22.490113+00:00",
+      "semantic_concept_key": "a cloth used for drying the body"
+    },
+    {
+      "id": "000050",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-04",
+      "assigned_at": "2026-10-14T01:23:22.490148+00:00",
+      "semantic_concept_key": "fabric hung over a window for privacy or shade"
+    },
+    {
+      "id": "000051",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-05",
+      "assigned_at": "2026-10-14T01:23:22.490184+00:00",
+      "semantic_concept_key": "a heated appliance used to remove wrinkles from clothing"
+    },
+    {
+      "id": "000052",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-06",
+      "assigned_at": "2026-10-14T01:23:22.490220+00:00",
+      "semantic_concept_key": "an appliance used to wash clothes"
+    },
+    {
+      "id": "000053",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-08",
+      "assigned_at": "2026-10-14T01:23:22.490257+00:00",
+      "semantic_concept_key": "a handheld tool with teeth used to arrange hair"
+    },
+    {
+      "id": "000054",
+      "batch_id": "fresh-home-001",
+      "candidate_id": "home-09",
+      "assigned_at": "2026-10-14T01:23:22.490295+00:00",
+      "semantic_concept_key": "a small brush used to clean the teeth"
+    },
+    {
+      "id": "000055",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-01",
+      "assigned_at": "2026-10-14T01:23:22.490333+00:00",
+      "semantic_concept_key": "a station where trains pick up and drop off passengers"
+    },
+    {
+      "id": "000056",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-02",
+      "assigned_at": "2026-10-14T01:23:22.490372+00:00",
+      "semantic_concept_key": "the raised area beside railway tracks where passengers wait for a train"
+    },
+    {
+      "id": "000057",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-04",
+      "assigned_at": "2026-10-14T01:23:22.490411+00:00",
+      "semantic_concept_key": "an arrangement made in advance to secure a seat, room, or service"
+    },
+    {
+      "id": "000058",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-05",
+      "assigned_at": "2026-10-14T01:23:22.490451+00:00",
+      "semantic_concept_key": "a person traveling for pleasure or sightseeing"
+    },
+    {
+      "id": "000059",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-06",
+      "assigned_at": "2026-10-14T01:23:22.490496+00:00",
+      "semantic_concept_key": "a period away from work or school spent relaxing or traveling"
+    },
+    {
+      "id": "000060",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-07",
+      "assigned_at": "2026-10-14T01:23:22.490538+00:00",
+      "semantic_concept_key": "the boundary between two countries or regions"
+    },
+    {
+      "id": "000061",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-08",
+      "assigned_at": "2026-10-14T01:23:22.490579+00:00",
+      "semantic_concept_key": "the official service that checks goods and collects duties at a border"
+    },
+    {
+      "id": "000062",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-09",
+      "assigned_at": "2026-10-14T01:23:22.490622+00:00",
+      "semantic_concept_key": "the official process or authority responsible for people entering and leaving a country"
+    },
+    {
+      "id": "000063",
+      "batch_id": "fresh-travel-001",
+      "candidate_id": "travel-10",
+      "assigned_at": "2026-10-14T01:23:22.490665+00:00",
+      "semantic_concept_key": "a small watercraft used for carrying people or goods"
+    },
+    {
+      "id": "000064",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-01",
+      "assigned_at": "2026-10-14T01:23:22.490710+00:00",
+      "semantic_concept_key": "a person employed by an organization"
+    },
+    {
+      "id": "000065",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-02",
+      "assigned_at": "2026-10-14T01:23:22.490754+00:00",
+      "semantic_concept_key": "a planned gathering to discuss work or another topic"
+    },
+    {
+      "id": "000066",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-03",
+      "assigned_at": "2026-10-14T01:23:22.490800+00:00",
+      "semantic_concept_key": "schoolwork completed outside class"
+    },
+    {
+      "id": "000067",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-04",
+      "assigned_at": "2026-10-14T01:23:22.490846+00:00",
+      "semantic_concept_key": "a room where a class is taught"
+    },
+    {
+      "id": "000068",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-06",
+      "assigned_at": "2026-10-14T01:23:22.490892+00:00",
+      "semantic_concept_key": "a formal talk given to an audience"
+    },
+    {
+      "id": "000069",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-07",
+      "assigned_at": "2026-10-14T01:23:22.490939+00:00",
+      "semantic_concept_key": "a meeting to assess someone for employment"
+    },
+    {
+      "id": "000070",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-08",
+      "assigned_at": "2026-10-14T01:23:22.490987+00:00",
+      "semantic_concept_key": "a formal request to be considered for a job"
+    },
+    {
+      "id": "000071",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-09",
+      "assigned_at": "2026-10-14T01:23:22.491035+00:00",
+      "semantic_concept_key": "an organization that conducts business"
+    },
+    {
+      "id": "000072",
+      "batch_id": "fresh-work-001",
+      "candidate_id": "work-10",
+      "assigned_at": "2026-10-14T01:23:22.491084+00:00",
+      "semantic_concept_key": "work done beyond normal working hours"
+    },
+    {
+      "id": "000073",
+      "batch_id": "cal2-daily-001",
+      "candidate_id": "daily-01",
+      "assigned_at": "2026-10-14T08:52:17.552224+00:00",
+      "semantic_concept_key": "A household tool used for sweeping floors."
+    },
+    {
+      "id": "000074",
+      "batch_id": "cal2-daily-001",
+      "candidate_id": "daily-02",
+      "assigned_at": "2026-10-14T08:52:17.552512+00:00",
+      "semantic_concept_key": "A fixture that controls the flow of water."
+    },
+    {
+      "id": "000075",
+      "batch_id": "cal2-daily-001",
+      "candidate_id": "daily-03",
+      "assigned_at": "2026-10-14T08:52:17.552700+00:00",
+      "semantic_concept_key": "a fixed basin used for washing hands or face, especially in a bathroom"
+    },
+    {
+      "id": "000076",
+      "batch_id": "cal2-daily-001",
+      "candidate_id": "daily-04",
+      "assigned_at": "2026-10-14T08:52:17.552879+00:00",
+      "semantic_concept_key": "A control used to turn an electric light on or off."
+    },
+    {
+      "id": "000077",
+      "batch_id": "cal2-daily-001",
+      "candidate_id": "daily-07",
+      "assigned_at": "2026-10-14T08:52:17.553065+00:00",
+      "semantic_concept_key": "A sheet used to cover a bed."
+    },
+    {
+      "id": "000078",
+      "batch_id": "cal2-daily-001",
+      "candidate_id": "daily-09",
+      "assigned_at": "2026-10-14T08:52:17.553253+00:00",
+      "semantic_concept_key": "To press clothes with a heated iron to remove wrinkles."
+    },
+    {
+      "id": "000079",
+      "batch_id": "cal2-daily-001",
+      "candidate_id": "daily-10",
+      "assigned_at": "2026-10-14T08:52:17.553436+00:00",
+      "semantic_concept_key": "To put things in order in a room or home."
+    },
+    {
+      "id": "000080",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-02",
+      "assigned_at": "2026-10-14T08:52:17.553614+00:00",
+      "semantic_concept_key": "money in physical notes or coins"
+    },
+    {
+      "id": "000081",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-03",
+      "assigned_at": "2026-10-14T08:52:17.553787+00:00",
+      "semantic_concept_key": "money returned after paying more than the amount due"
+    },
+    {
+      "id": "000082",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-04",
+      "assigned_at": "2026-10-14T08:52:17.553961+00:00",
+      "semantic_concept_key": "a line of people waiting for service"
+    },
+    {
+      "id": "000083",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-05",
+      "assigned_at": "2026-10-14T08:52:17.554132+00:00",
+      "semantic_concept_key": "a request for payment for goods or services"
+    },
+    {
+      "id": "000084",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-07",
+      "assigned_at": "2026-10-14T08:52:17.554303+00:00",
+      "semantic_concept_key": "the act of bringing purchased goods to a recipient"
+    },
+    {
+      "id": "000085",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-08",
+      "assigned_at": "2026-10-14T08:52:17.554474+00:00",
+      "semantic_concept_key": "a service made available to customers or users"
+    },
+    {
+      "id": "000086",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-09",
+      "assigned_at": "2026-10-14T08:52:17.554643+00:00",
+      "semantic_concept_key": "a large building with many shops"
+    },
+    {
+      "id": "000087",
+      "batch_id": "cal2-shopping-001",
+      "candidate_id": "shopping-10",
+      "assigned_at": "2026-10-14T08:52:17.554815+00:00",
+      "semantic_concept_key": "a service that washes clothes for customers"
+    },
+    {
+      "id": "000088",
+      "batch_id": "cal2-social-001",
+      "candidate_id": "social-01",
+      "assigned_at": "2026-10-14T08:52:17.554989+00:00",
+      "semantic_concept_key": "having a warm and pleasant manner toward others"
+    },
+    {
+      "id": "000089",
+      "batch_id": "cal2-social-001",
+      "candidate_id": "social-02",
+      "assigned_at": "2026-10-14T08:52:17.555164+00:00",
+      "semantic_concept_key": "feeling anxious about a possible problem"
+    },
+    {
+      "id": "000090",
+      "batch_id": "cal2-social-001",
+      "candidate_id": "social-03",
+      "assigned_at": "2026-10-14T08:52:17.555357+00:00",
+      "semantic_concept_key": "willing to give or share with others"
+    },
+    {
+      "id": "000091",
+      "batch_id": "cal2-social-001",
+      "candidate_id": "social-05",
+      "assigned_at": "2026-10-14T08:52:17.555533+00:00",
+      "semantic_concept_key": "to ask someone to attend or come somewhere"
+    },
+    {
+      "id": "000092",
+      "batch_id": "cal2-social-001",
+      "candidate_id": "social-07",
+      "assigned_at": "2026-10-14T08:52:17.555719+00:00",
+      "semantic_concept_key": "to spend informal social time with others"
+    },
+    {
+      "id": "000093",
+      "batch_id": "cal2-social-001",
+      "candidate_id": "social-09",
+      "assigned_at": "2026-10-14T08:52:17.555893+00:00",
+      "semantic_concept_key": "feeling sure of one's abilities or judgment"
+    },
+    {
+      "id": "000094",
+      "batch_id": "cal2-travel-001",
+      "candidate_id": "travel-01",
+      "assigned_at": "2026-10-14T08:52:17.556068+00:00",
+      "semantic_concept_key": "an aircraft used for air travel"
+    },
+    {
+      "id": "000095",
+      "batch_id": "cal2-travel-001",
+      "candidate_id": "travel-02",
+      "assigned_at": "2026-10-14T08:52:17.556258+00:00",
+      "semantic_concept_key": "a place where buses stop for passengers"
+    },
+    {
+      "id": "000096",
+      "batch_id": "cal2-travel-001",
+      "candidate_id": "travel-04",
+      "assigned_at": "2026-10-14T08:52:17.556452+00:00",
+      "semantic_concept_key": "a condition in which traffic moves very slowly or stops"
+    },
+    {
+      "id": "000097",
+      "batch_id": "cal2-travel-001",
+      "candidate_id": "travel-05",
+      "assigned_at": "2026-10-14T08:52:17.556627+00:00",
+      "semantic_concept_key": "a planned timetable of transport times"
+    },
+    {
+      "id": "000098",
+      "batch_id": "cal2-travel-001",
+      "candidate_id": "travel-06",
+      "assigned_at": "2026-10-14T08:52:17.556804+00:00",
+      "semantic_concept_key": "the act of reaching a destination"
+    },
+    {
+      "id": "000099",
+      "batch_id": "cal2-travel-001",
+      "candidate_id": "travel-08",
+      "assigned_at": "2026-10-14T08:52:17.556982+00:00",
+      "semantic_concept_key": "a ticket for travel in one direction only"
+    },
+    {
+      "id": "000100",
+      "batch_id": "cal2-travel-001",
+      "candidate_id": "travel-09",
+      "assigned_at": "2026-10-14T08:52:17.557162+00:00",
+      "semantic_concept_key": "a ticket for travel to a place and back"
+    },
+    {
+      "id": "000101",
+      "batch_id": "cal2-work-001",
+      "candidate_id": "work-01",
+      "assigned_at": "2026-10-14T08:52:17.557346+00:00",
+      "semantic_concept_key": "a person who works with you"
+    },
+    {
+      "id": "000102",
+      "batch_id": "cal2-work-001",
+      "candidate_id": "work-03",
+      "assigned_at": "2026-10-14T08:52:17.557525+00:00",
+      "semantic_concept_key": "the points or numerical score received for schoolwork"
+    },
+    {
+      "id": "000103",
+      "batch_id": "cal2-work-001",
+      "candidate_id": "work-04",
+      "assigned_at": "2026-10-14T08:52:17.557706+00:00",
+      "semantic_concept_key": "a short period when students pause school activities"
+    },
+    {
+      "id": "000104",
+      "batch_id": "cal2-work-001",
+      "candidate_id": "work-05",
+      "assigned_at": "2026-10-14T08:52:17.557885+00:00",
+      "semantic_concept_key": "a room used by teachers at a school"
+    },
+    {
+      "id": "000105",
+      "batch_id": "cal2-work-001",
+      "candidate_id": "work-07",
+      "assigned_at": "2026-10-14T08:52:17.558065+00:00",
+      "semantic_concept_key": "clothing required for members of a school or workplace"
+    },
+    {
+      "id": "000106",
+      "batch_id": "cal2-work-001",
+      "candidate_id": "work-10",
+      "assigned_at": "2026-10-14T08:52:17.558250+00:00",
+      "semantic_concept_key": "an official document confirming that someone achieved or completed something"
+    },
+    {
+      "id": "000107",
+      "batch_id": "cal3-actions-001",
+      "candidate_id": "actions-02",
+      "assigned_at": "2026-10-14T15:25:05.607481+00:00",
+      "semantic_concept_key": "grasp the meaning"
+    },
+    {
+      "id": "000108",
+      "batch_id": "cal3-actions-001",
+      "candidate_id": "actions-04",
+      "assigned_at": "2026-10-14T15:25:05.607791+00:00",
+      "semantic_concept_key": "fix something damaged"
+    },
+    {
+      "id": "000109",
+      "batch_id": "cal3-actions-001",
+      "candidate_id": "actions-05",
+      "assigned_at": "2026-10-14T15:25:05.608006+00:00",
+      "semantic_concept_key": "leave for a destination"
+    },
+    {
+      "id": "000110",
+      "batch_id": "cal3-actions-001",
+      "candidate_id": "actions-06",
+      "assigned_at": "2026-10-14T15:25:05.608219+00:00",
+      "semantic_concept_key": "activate a device or light"
+    },
+    {
+      "id": "000111",
+      "batch_id": "cal3-actions-001",
+      "candidate_id": "actions-07",
+      "assigned_at": "2026-10-14T15:25:05.608427+00:00",
+      "semantic_concept_key": "move or act quickly"
+    },
+    {
+      "id": "000112",
+      "batch_id": "cal3-food-001",
+      "candidate_id": "food-04",
+      "assigned_at": "2026-10-14T15:25:05.608638+00:00",
+      "semantic_concept_key": "deep spoon for serving soup or liquid food"
+    },
+    {
+      "id": "000113",
+      "batch_id": "cal3-food-001",
+      "candidate_id": "food-05",
+      "assigned_at": "2026-10-14T15:25:05.608840+00:00",
+      "semantic_concept_key": "board for cutting food"
+    },
+    {
+      "id": "000114",
+      "batch_id": "cal3-food-001",
+      "candidate_id": "food-08",
+      "assigned_at": "2026-10-14T15:25:05.609042+00:00",
+      "semantic_concept_key": "deep vessel for cooking food"
+    },
+    {
+      "id": "000115",
+      "batch_id": "cal3-food-001",
+      "candidate_id": "food-09",
+      "assigned_at": "2026-10-14T15:25:05.609246+00:00",
+      "semantic_concept_key": "container for storing food"
+    },
+    {
+      "id": "000116",
+      "batch_id": "cal3-health-001",
+      "candidate_id": "health-05",
+      "assigned_at": "2026-10-14T15:25:05.609462+00:00",
+      "semantic_concept_key": "a mark left on the skin after a wound heals"
+    },
+    {
+      "id": "000117",
+      "batch_id": "cal3-health-001",
+      "candidate_id": "health-06",
+      "assigned_at": "2026-10-14T15:25:05.609688+00:00",
+      "semantic_concept_key": "to briefly lose consciousness"
+    },
+    {
+      "id": "000118",
+      "batch_id": "cal3-health-001",
+      "candidate_id": "health-08",
+      "assigned_at": "2026-10-14T15:25:05.609899+00:00",
+      "semantic_concept_key": "unpleasant in appearance"
+    },
+    {
+      "id": "000119",
+      "batch_id": "cal3-home-001",
+      "candidate_id": "home-01",
+      "assigned_at": "2026-10-14T15:25:05.610110+00:00",
+      "semantic_concept_key": "top covering of a house"
+    },
+    {
+      "id": "000120",
+      "batch_id": "cal3-home-001",
+      "candidate_id": "home-03",
+      "assigned_at": "2026-10-14T15:25:05.610314+00:00",
+      "semantic_concept_key": "item used to hang clothing"
+    },
+    {
+      "id": "000121",
+      "batch_id": "cal3-home-001",
+      "candidate_id": "home-05",
+      "assigned_at": "2026-10-14T15:25:05.610513+00:00",
+      "semantic_concept_key": "garment worn to protect clothing while cooking"
+    },
+    {
+      "id": "000122",
+      "batch_id": "cal3-home-001",
+      "candidate_id": "home-07",
+      "assigned_at": "2026-10-14T15:25:05.610723+00:00",
+      "semantic_concept_key": "replaceable electric light source"
+    },
+    {
+      "id": "000123",
+      "batch_id": "cal3-home-001",
+      "candidate_id": "home-08",
+      "assigned_at": "2026-10-14T15:25:05.610927+00:00",
+      "semantic_concept_key": "bag used to carry purchases"
+    },
+    {
+      "id": "000124",
+      "batch_id": "cal3-home-001",
+      "candidate_id": "home-10",
+      "assigned_at": "2026-10-14T15:25:05.611137+00:00",
+      "semantic_concept_key": "cleaning product for washing clothes"
+    },
+    {
+      "id": "000125",
+      "batch_id": "cal3-technology-001",
+      "candidate_id": "technology-01",
+      "assigned_at": "2026-10-14T15:25:05.611347+00:00",
+      "semantic_concept_key": "digital or work document file"
+    },
+    {
+      "id": "000126",
+      "batch_id": "cal3-technology-001",
+      "candidate_id": "technology-06",
+      "assigned_at": "2026-10-14T15:25:05.611564+00:00",
+      "semantic_concept_key": "action of accessing an account"
+    },
+    {
+      "id": "000127",
+      "batch_id": "cal3-technology-001",
+      "candidate_id": "technology-09",
+      "assigned_at": "2026-10-14T15:25:05.611772+00:00",
+      "semantic_concept_key": "scheduled period of work"
+    },
+    {
+      "id": "000128",
+      "batch_id": "cal3-technology-001",
+      "candidate_id": "technology-10",
+      "assigned_at": "2026-10-14T15:25:05.611979+00:00",
+      "semantic_concept_key": "fee paid for university study"
+    },
+    {
+      "id": "000129",
+      "batch_id": "cal3-technology-001",
+      "candidate_id": "technology-03",
+      "assigned_at": "2026-10-14T15:34:02.639881+00:00",
+      "semantic_concept_key": "computer programs and applications"
+    },
+    {
+      "id": "000130",
+      "batch_id": "cal3-technology-001",
+      "candidate_id": "technology-04",
+      "assigned_at": "2026-10-14T15:34:02.640290+00:00",
+      "semantic_concept_key": "physical computer equipment"
+    },
+    {
+      "id": "000131",
+      "batch_id": "pros4-actions-001",
+      "candidate_id": "actions-08",
+      "assigned_at": "2026-10-15T01:49:33.701010+00:00",
+      "semantic_concept_key": "mix food with a spoon while cooking"
+    },
+    {
+      "id": "000132",
+      "batch_id": "pros4-home-001",
+      "candidate_id": "home-03",
+      "assigned_at": "2026-10-15T01:49:33.701328+00:00",
+      "semantic_concept_key": "mat placed at an entrance for wiping feet"
+    },
+    {
+      "id": "000133",
+      "batch_id": "tb25-actions-001",
+      "candidate_id": "actions-01",
+      "assigned_at": "2026-10-15T01:49:33.701564+00:00",
+      "semantic_concept_key": "produce laughter"
+    },
+    {
+      "id": "000134",
+      "batch_id": "tb25-actions-001",
+      "candidate_id": "actions-02",
+      "assigned_at": "2026-10-15T01:49:33.701785+00:00",
+      "semantic_concept_key": "talk about a topic in detail"
+    },
+    {
+      "id": "000135",
+      "batch_id": "tb25-actions-001",
+      "candidate_id": "actions-03",
+      "assigned_at": "2026-10-15T01:49:33.702015+00:00",
+      "semantic_concept_key": "move an event to a later time"
+    },
+    {
+      "id": "000136",
+      "batch_id": "tb25-actions-001",
+      "candidate_id": "actions-04",
+      "assigned_at": "2026-10-15T01:49:33.702229+00:00",
+      "semantic_concept_key": "go from one side of a road to the other"
+    },
+    {
+      "id": "000137",
+      "batch_id": "tb25-actions-001",
+      "candidate_id": "actions-05",
+      "assigned_at": "2026-10-15T01:49:33.702445+00:00",
+      "semantic_concept_key": "give a borrowed or purchased item back"
+    },
+    {
+      "id": "000138",
+      "batch_id": "tb25-food-001",
+      "candidate_id": "food-01",
+      "assigned_at": "2026-10-15T01:49:33.702666+00:00",
+      "semantic_concept_key": "sweet course served after a meal"
+    },
+    {
+      "id": "000139",
+      "batch_id": "tb25-food-001",
+      "candidate_id": "food-03",
+      "assigned_at": "2026-10-15T01:49:33.702879+00:00",
+      "semantic_concept_key": "rack for drying or storing washed dishes"
+    },
+    {
+      "id": "000140",
+      "batch_id": "tb25-home-001",
+      "candidate_id": "home-05",
+      "assigned_at": "2026-10-15T01:49:33.703100+00:00",
+      "semantic_concept_key": "waterproof clothing worn in the rain"
+    }
+  ]
+}

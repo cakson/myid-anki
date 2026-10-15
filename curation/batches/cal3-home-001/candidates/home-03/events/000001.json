@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T11:27:23.998507+00:00",
+  "input_digest": "45a06360f2e824544bd6a2f16a1dcc1a89fa8483e214b0c39041be22ff3519fe",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-home-001:home-02\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"A clothes hanger holds individual garments; a wardrobe is furniture for storing clothing.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-02",
+          "rationale": "A clothes hanger holds individual garments; a wardrobe is furniture for storing clothing.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-home-001:home-02",
+        "rationale": "A clothes hanger holds individual garments; a wardrobe is furniture for storing clothing.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "318337c61740630cf2f436d86830e2fd6f802453f8006439e585601ad28a23a4"
+}

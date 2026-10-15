@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-04T10:28:12.738038+00:00",
+  "input_digest": "bf374f31e8d1d7493e616c3e8465863377698e825b11199886e8b42a39300498",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"OpenAI GPT-6\", \"result\": {\"english\": \"eggplant\", \"relation\": \"same\", \"semantic_alignment\": \"The edible vegetable also called aubergine.\", \"aligned\": true, \"claims\": [{\"claim_id\": \"relation:eggplant-terong-terung-same\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian \\u201cterong\\u201d and Malaysian \\u201cterung\\u201d are the common everyday terms for the same vegetable; the spelling differs by locale.\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/relation-response.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/relation-response.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "aligned": true,
+      "claims": [
+        {
+          "claim_id": "relation:eggplant-terong-terung-same",
+          "claim_type": "relation",
+          "proposition": "Indonesian “terong” and Malaysian “terung” are the common everyday terms for the same vegetable; the spelling differs by locale."
+        }
+      ],
+      "english": "eggplant",
+      "relation": "same",
+      "semantic_alignment": "The edible vegetable also called aubergine."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": true,
+    "claims": [
+      {
+        "claim_id": "relation-proposal:relation:eggplant-terong-terung-same",
+        "claim_type": "relation",
+        "proposition": "Indonesian “terong” and Malaysian “terung” are the common everyday terms for the same vegetable; the spelling differs by locale."
+      }
+    ],
+    "english": "eggplant",
+    "relation": "same",
+    "semantic_alignment": "The edible vegetable also called aubergine."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "26fb708047b3ab61de57495e5143356142e7b0364c36768b30fcdd3fc90c7c43"
+}

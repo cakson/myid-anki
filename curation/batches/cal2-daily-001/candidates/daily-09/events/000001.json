@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T02:11:08.121025+00:00",
+  "input_digest": "221361427cd8e3b6cca2108e0feb13fbc86ed8b2c7b366107a822614fc737431",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.1.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-home-001:home-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"“To iron clothes” is the action of pressing garments, while “clothes iron” is the appliance itself.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-05",
+          "rationale": "“To iron clothes” is the action of pressing garments, while “clothes iron” is the appliance itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-home-001:home-05",
+        "rationale": "“To iron clothes” is the action of pressing garments, while “clothes iron” is the appliance itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "9ec61c4f66adbc0ec0e8536e3af4b20a0ac83edef1b45ce9a4b0a401f0496800"
+}

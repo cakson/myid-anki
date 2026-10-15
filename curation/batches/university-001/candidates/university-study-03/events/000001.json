@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-10T01:38:12.725420+00:00",
+  "input_digest": "b7baad82d205faa5a76072d90506f182bf96dd02cddb86bfa3447e838cf438a5",
+  "model": "gpt-5.6-luna/codex-cli",
+  "prompt_set_version": "1.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"university-001:university-study-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A scholarship is financial support for education, whereas an assignment is academic work.\"}, {\"other_id\": \"university-001:university-study-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A scholarship provides financial support, whereas an exam is a formal assessment.\"}, {\"other_id\": \"university-001:university-study-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A scholarship is financial support, whereas a faculty is an academic division.\"}]}, \"bundle_response\": \"curation/batches/university-001/normalize-response-v2.json\"}",
+  "reported_model": "GPT-5",
+  "response": {
+    "bundle_response": "curation/batches/university-001/normalize-response-v2.json",
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "university-001:university-study-01",
+          "rationale": "A scholarship is financial support for education, whereas an assignment is academic work.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "university-001:university-study-02",
+          "rationale": "A scholarship provides financial support, whereas an exam is a formal assessment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "university-001:university-study-04",
+          "rationale": "A scholarship is financial support, whereas a faculty is an academic division.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "university-001:university-study-01",
+        "rationale": "A scholarship is financial support for education, whereas an assignment is academic work.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "university-001:university-study-02",
+        "rationale": "A scholarship provides financial support, whereas an exam is a formal assessment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "university-001:university-study-04",
+        "rationale": "A scholarship is financial support, whereas a faculty is an academic division.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "b5b1fdb4800a0ca4562ddd93b6c2aeed95ebb12e14d6dbd2c8e3a8854922fe31"
+}

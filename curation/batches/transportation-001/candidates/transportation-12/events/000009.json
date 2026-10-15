@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-03T20:07:14.537399+00:00",
+  "input_digest": "2ebdcb930d95a47ffbcf34fcdf074a2baf0a35a3653d08b0bf92fa915a4d38d2",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"relation-proposal\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"english\": \"traffic light\", \"relation\": \"different-common-word\", \"semantic_alignment\": \"Both terms denote a road traffic signal, but Indonesian lampu merah is generally the everyday conversational choice over lampu lalu lintas.\", \"aligned\": false, \"claims\": [{\"claim_id\": \"transportation-12-relation\", \"claim_type\": \"relation\", \"proposition\": \"Indonesian lampu lalu lintas and Malaysian Malay lampu isyarat name a traffic light, but the proposed Indonesian form is usually less conversational than lampu merah.\"}]}, \"bundle_response\": \"curation/batches/transportation-001/relation-response.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/transportation-001/relation-response.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "aligned": false,
+      "claims": [
+        {
+          "claim_id": "transportation-12-relation",
+          "claim_type": "relation",
+          "proposition": "Indonesian lampu lalu lintas and Malaysian Malay lampu isyarat name a traffic light, but the proposed Indonesian form is usually less conversational than lampu merah."
+        }
+      ],
+      "english": "traffic light",
+      "relation": "different-common-word",
+      "semantic_alignment": "Both terms denote a road traffic signal, but Indonesian lampu merah is generally the everyday conversational choice over lampu lalu lintas."
+    },
+    "role": "relation-proposal",
+    "schema_version": 1
+  },
+  "result": {
+    "aligned": false,
+    "claims": [
+      {
+        "claim_id": "transportation-12-relation",
+        "claim_type": "relation",
+        "proposition": "Indonesian lampu lalu lintas and Malaysian Malay lampu isyarat name a traffic light, but the proposed Indonesian form is usually less conversational than lampu merah."
+      }
+    ],
+    "english": "traffic light",
+    "relation": "different-common-word",
+    "semantic_alignment": "Both terms denote a road traffic signal, but Indonesian lampu merah is generally the everyday conversational choice over lampu lalu lintas."
+  },
+  "role": "relation-proposal",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "96ffbfbfddbb7dc7c9c46053b1a5e05cfd2ce5301ce07c69c14db804cfd957da"
+}

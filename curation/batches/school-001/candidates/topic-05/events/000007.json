@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-05T09:32:59.014292+00:00",
+  "result": {
+    "candidate_id": "topic-05",
+    "checked_at": "2026-10-05T09:32:59.014292+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "evidence": "audited",
+      "uncompleted_stages": [
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "outcome": "pending",
+    "reason_codes": [
+      "missing-stage:adversarial-review",
+      "missing-stage:independent-verification"
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "complete",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "complete",
+      "malaysian-usage": "complete",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "complete"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

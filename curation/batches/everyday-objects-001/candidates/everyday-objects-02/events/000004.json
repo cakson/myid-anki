@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-04T10:27:26.314492+00:00",
+  "input_digest": "dba009a8db1991c1a5970dbedd62a2e788b6d7372ad466edaa4dd96ad1da23ec",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"indonesian-usage\", \"model\": \"OpenAI GPT-6\", \"result\": {\"meaning\": \"\\u201cGarpu\\u201d means a fork: a pronged utensil used for eating. The proposed term matches the stated sense.\", \"common_use\": \"Common and readily understood in contemporary Indonesian.\", \"preferred\": \"\\u201cGarpu\\u201d is the normal everyday term.\", \"register\": \"Neutral.\", \"region\": \"Widely used across Indonesia.\", \"alternatives\": [], \"claims\": [{\"claim_id\": \"fork-id-meaning\", \"claim_type\": \"meaning\", \"proposition\": \"In Indonesian, \\u201cgarpu\\u201d denotes a fork, an eating utensil with prongs.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"fork-id-common\", \"claim_type\": \"locale-usage\", \"proposition\": \"\\u201cGarpu\\u201d is commonly used and understood for an eating fork in Indonesia.\", \"locale\": \"Indonesia\"}, {\"claim_id\": \"fork-id-preferred\", \"claim_type\": \"preferred-choice\", \"proposition\": \"\\u201cGarpu\\u201d is the normal neutral everyday Indonesian term for a fork.\", \"locale\": \"Indonesia\"}], \"source_leads\": [{\"source\": \"KBBI Daring\", \"exact_claim_to_check\": \"The entry for \\u201cgarpu\\u201d defines the utensil sense, such as a pronged implement used for eating.\", \"url\": \"https://kbbi.kemdikbud.go.id/entri/garpu\"}, {\"source\": \"Indonesian Wiktionary\", \"exact_claim_to_check\": \"The Indonesian entry for \\u201cgarpu\\u201d identifies it as a pronged eating utensil.\", \"url\": \"https://id.wiktionary.org/wiki/garpu\"}]}, \"bundle_response\": \"curation/batches/everyday-objects-001/indonesian-usage-syntax-repair.json\"}",
+  "reported_model": "OpenAI GPT-6",
+  "response": {
+    "bundle_response": "curation/batches/everyday-objects-001/indonesian-usage-syntax-repair.json",
+    "model": "OpenAI GPT-6",
+    "result": {
+      "alternatives": [],
+      "claims": [
+        {
+          "claim_id": "fork-id-meaning",
+          "claim_type": "meaning",
+          "locale": "Indonesia",
+          "proposition": "In Indonesian, “garpu” denotes a fork, an eating utensil with prongs."
+        },
+        {
+          "claim_id": "fork-id-common",
+          "claim_type": "locale-usage",
+          "locale": "Indonesia",
+          "proposition": "“Garpu” is commonly used and understood for an eating fork in Indonesia."
+        },
+        {
+          "claim_id": "fork-id-preferred",
+          "claim_type": "preferred-choice",
+          "locale": "Indonesia",
+          "proposition": "“Garpu” is the normal neutral everyday Indonesian term for a fork."
+        }
+      ],
+      "common_use": "Common and readily understood in contemporary Indonesian.",
+      "meaning": "“Garpu” means a fork: a pronged utensil used for eating. The proposed term matches the stated sense.",
+      "preferred": "“Garpu” is the normal everyday term.",
+      "region": "Widely used across Indonesia.",
+      "register": "Neutral.",
+      "source_leads": [
+        {
+          "exact_claim_to_check": "The entry for “garpu” defines the utensil sense, such as a pronged implement used for eating.",
+          "source": "KBBI Daring",
+          "url": "https://kbbi.kemdikbud.go.id/entri/garpu"
+        },
+        {
+          "exact_claim_to_check": "The Indonesian entry for “garpu” identifies it as a pronged eating utensil.",
+          "source": "Indonesian Wiktionary",
+          "url": "https://id.wiktionary.org/wiki/garpu"
+        }
+      ]
+    },
+    "role": "indonesian-usage",
+    "schema_version": 1
+  },
+  "result": {
+    "alternatives": [],
+    "claims": [
+      {
+        "claim_id": "indonesian-usage:fork-id-meaning",
+        "claim_type": "meaning",
+        "locale": "Indonesia",
+        "proposition": "In Indonesian, “garpu” denotes a fork, an eating utensil with prongs."
+      },
+      {
+        "claim_id": "indonesian-usage:fork-id-common",
+        "claim_type": "locale-usage",
+        "locale": "Indonesia",
+        "proposition": "“Garpu” is commonly used and understood for an eating fork in Indonesia."
+      },
+      {
+        "claim_id": "indonesian-usage:fork-id-preferred",
+        "claim_type": "preferred-choice",
+        "locale": "Indonesia",
+        "proposition": "“Garpu” is the normal neutral everyday Indonesian term for a fork."
+      }
+    ],
+    "common_use": "Common and readily understood in contemporary Indonesian.",
+    "meaning": "“Garpu” means a fork: a pronged utensil used for eating. The proposed term matches the stated sense.",
+    "preferred": "“Garpu” is the normal everyday term.",
+    "region": "Widely used across Indonesia.",
+    "register": "Neutral.",
+    "source_leads": [
+      {
+        "claim_ids": [],
+        "exact_claim_to_check": "The entry for “garpu” defines the utensil sense, such as a pronged implement used for eating.",
+        "source": "KBBI Daring",
+        "url": "https://kbbi.kemdikbud.go.id/entri/garpu"
+      },
+      {
+        "claim_ids": [],
+        "exact_claim_to_check": "The Indonesian entry for “garpu” identifies it as a pronged eating utensil.",
+        "source": "Indonesian Wiktionary",
+        "url": "https://id.wiktionary.org/wiki/garpu"
+      }
+    ]
+  },
+  "role": "indonesian-usage",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "ec064cd58679b3c25037b95fc5aae5dddd3cbb64120fb8a0d4d7fb42e0245c8d"
+}

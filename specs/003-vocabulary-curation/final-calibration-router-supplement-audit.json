@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "final-router-supplement",
+      "elapsed_seconds": 13.748,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12960,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1052,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-14T15:22:52.539014+00:00",
+  "model": "gpt-5.6-luna",
+  "results": {
+    "cal3-actions-001:actions-04": {
+      "candidate_ref": "cal3-actions-001:actions-04",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "learner_answer": [],
+        "learner_cue": [],
+        "metadata": [
+          "Revise confidence_rationale to explicitly mention Malaysian comprehension and occasional use of memperbaiki; characterize the contrast as ordinary local preference."
+        ]
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The learner contrast is natural and meaningful: Indonesian memperbaiki versus Malaysian membaiki. However, the rationale understates the real risk: memperbaiki is understandable and sometimes used in Malaysian Malay, so the contrast is a strong preference contrast rather than an absolute national split.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "cal3-food-001:food-04": {
+      "candidate_ref": "cal3-food-001:food-04",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "learner_answer": [],
+        "learner_cue": [],
+        "metadata": [
+          "Remove the nonpreferred-alternative review flag, or supply a specific alternative and rationale if one is intended."
+        ]
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The cue and answers are accurate and natural: Indonesian sendok sayur and Malaysian senduk both denote a deep utensil for serving soup or other liquid food. The card is good, but the nonpreferred-alternative review flag conflicts with the stated absence of a concrete preference concern.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    }
+  },
+  "routing_policy": "C-risk-first, frozen hash sampling",
+  "schema_version": 1,
+  "selected_refs": [
+    "cal3-actions-001:actions-04",
+    "cal3-food-001:food-04"
+  ],
+  "selection_reasons": {
+    "cal3-actions-001:actions-04": [
+      "stratified-sample:risk-first"
+    ],
+    "cal3-food-001:food-04": [
+      "stratified-sample:risk-first"
+    ]
+  },
+  "started_at_utc": "2026-10-14T15:22:38.787192+00:00"
+}

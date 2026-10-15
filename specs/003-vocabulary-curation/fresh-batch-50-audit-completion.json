@@ -1,0 +1,319 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 52.001,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14757,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1908,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 33.995,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13493,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1357,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 28.269,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14792,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 982,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 48.089,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13549,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1597,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "fresh-audit",
+      "elapsed_seconds": 18.078,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12979,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 503,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-14T01:21:46.090262+00:00",
+  "model": "gpt-5.6-sol",
+  "results": {
+    "fresh-actions-001:action-01": {
+      "candidate_ref": "fresh-actions-001:action-01",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "State that mengunduh and memuat turun are the respective standard localized terms, while “download” is also a common informal synonym in both varieties."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The localized terms match the cue and are standard and natural, especially in interfaces and instructional writing. In casual speech, however, speakers in both countries also commonly use the shared borrowing “download,” so this is not an absolute national lexical split.",
+      "relation": "different-standard-localized-term-with-shared-loan-synonym",
+      "verdict": "minor-correction"
+    },
+    "fresh-actions-001:action-02": {
+      "candidate_ref": "fresh-actions-001:action-02",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Describe these as standard localized equivalents and acknowledge that “upload” is a common shared informal alternative."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Mengunggah and memuat naik accurately express uploading and form a useful contrast between standard localized terminology. The rationale overstates the everyday national separation because the English borrowing “upload” is also widely used in both varieties.",
+      "relation": "different-standard-localized-term-with-shared-loan-synonym",
+      "verdict": "minor-correction"
+    },
+    "fresh-actions-001:action-03": {
+      "candidate_ref": "fresh-actions-001:action-03",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "candidate.sense": "make software or information current, including by installing or applying a newer software version",
+        "confidence_rationale": "Note that memperbarui and mengemas kini are the standard localized terms, while “update” is also common informally in both varieties."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Memperbarui and mengemas kini are accurate standard equivalents for making software or information current. The English sense awkwardly treats information as something for which one installs a newer version, and the rationale omits the shared colloquial borrowing “update.”",
+      "relation": "different-standard-localized-term-with-shared-loan-synonym",
+      "verdict": "minor-correction"
+    },
+    "fresh-actions-001:action-04": {
+      "candidate_ref": "fresh-actions-001:action-04",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Retain the standard national contrast but acknowledge widespread informal use of the shared borrowing “password.”"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Kata sandi and kata laluan are accurate, natural standard terms for the stated sense, and the differing second elements make a useful learning contrast. The rationale should nevertheless mention that “password” itself is a normal shared informal alternative, particularly in speech and technical contexts.",
+      "relation": "parallel-compounds-with-different-standard-head-complements-and-shared-loan-synonym",
+      "verdict": "minor-correction"
+    },
+    "fresh-actions-001:action-05": {
+      "candidate_ref": "fresh-actions-001:action-05",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Characterize papan ketik and papan kekunci as standard localized terms sharing papan and a parallel compound structure; add that “keyboard” is commonly used informally in both varieties."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Papan ketik and papan kekunci are valid standard localized terms with a clear parallel structure. Calling both straightforwardly everyday is too strong: “keyboard” is a common shared term, especially in casual Indonesian and Malaysian technology talk, so the contrast is chiefly between localized standard labels.",
+      "relation": "similar-parallel-standard-compounds-with-shared-loan-synonym",
+      "verdict": "minor-correction"
+    },
+    "fresh-actions-001:action-08": {
+      "candidate_ref": "fresh-actions-001:action-08",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The cue sense matches both terms. Indonesian pasien and Malaysian Malay pesakit are natural, standard everyday healthcare terms, and the lexical difference is useful. Pesakit can literally suggest a sick person, but it is also the conventional Malaysian Malay term for a medical patient.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-food-001:food-01": {
+      "candidate_ref": "fresh-food-001:food-01",
+      "confidence_rationale_adequate": false,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Daging sapi and daging lembu are the usual Indonesian and Malaysian Malay expressions for cattle meat. The contrast is meaningful even though sapi and lembu are both intelligible lexical items beyond their preferred national usage.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-food-001:food-03": {
+      "candidate_ref": "fresh-food-001:food-03",
+      "confidence_rationale_adequate": false,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Camilan is natural Indonesian and snek is natural Malaysian Malay for food eaten between meals. The contrast is useful, although both varieties also have alternatives such as makanan ringan, and Indonesian speakers commonly use the English-looking snack as well.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-food-001:food-06": {
+      "candidate_ref": "fresh-food-001:food-06",
+      "confidence_rationale_adequate": false,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Kasir is the ordinary Indonesian term, while juruwang is a standard and natural Malaysian Malay term for a shop cashier. The contrast remains useful despite Malaysian colloquial and commercial use of the English word cashier.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-food-001:food-08": {
+      "candidate_ref": "fresh-food-001:food-08",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Diskon and diskaun accurately express a price reduction and are normal forms in the respective varieties. They are closely related adaptations of the same loanword, so similar is the correct relation; the contrast is primarily orthographic and phonological rather than lexical.",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "fresh-food-001:food-09": {
+      "candidate_ref": "fresh-food-001:food-09",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both expressions exactly match the stated packaged-food sense and are natural standard terms. The contrast is meaningful: Indonesian normally uses tanggal and kedaluwarsa, while Malaysian Malay normally uses tarikh and luput.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-food-001:food-10": {
+      "candidate_ref": "fresh-food-001:food-10",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Keranjang belanja and bakul beli-belah are natural names for a handheld shopping container in the respective varieties. Although either may be shortened to keranjang or bakul in context, that does not erase the useful lexical contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-home-001:home-01": {
+      "candidate_ref": "fresh-home-001:home-01",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Kasur is the ordinary Indonesian word and tilam the ordinary Malaysian Malay word for a mattress. The cue sense is exact, and the national contrast is clear despite possible passive recognition or regional use of the other form.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-home-001:home-03": {
+      "candidate_ref": "fresh-home-001:home-03",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Handuk and tuala are the normal everyday Indonesian and Malaysian Malay terms for a body-drying towel. The cue is exact and the contrast is strong and useful.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-home-001:home-05": {
+      "candidate_ref": "fresh-home-001:home-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Setrika and seterika are the standard everyday forms for the appliance in Indonesian and Malaysian Malay respectively. This is a valid but small spelling and pronunciation contrast between closely related forms, accurately represented by the relation and rationale.",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "fresh-home-001:home-09": {
+      "candidate_ref": "fresh-home-001:home-09",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both expressions are natural, dominant everyday terms for the stated object. Although gigi is shared, the contrasting head nouns sikat and berus create a genuine and useful national lexical contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-travel-001:travel-02": {
+      "candidate_ref": "fresh-travel-001:travel-02",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "State that Indonesian generally prefers peron and Malaysian usage commonly prefers platform, while acknowledging Indonesian platform and Malaysian pelantar as available alternatives.",
+        "verified_relation": "Change from \"different-common-word\" to \"different-preferred-word\" if that relation is supported; otherwise retain the current relation but qualify it as a usage preference."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Peron is the usual Indonesian railway term, while platform is very common in Malaysian railway usage. However, platform is also available in Indonesian, and Malaysian Malay also has pelantar, so this is a preference contrast rather than a clean division of vocabulary.",
+      "relation": "different-preferred-word",
+      "verdict": "minor-correction"
+    },
+    "fresh-travel-001:travel-07": {
+      "candidate_ref": "fresh-travel-001:travel-07",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Perbatasan is ordinary Indonesian for a territorial border or border area, and sempadan is the standard Malaysian Malay term for the corresponding boundary. Shared alternatives such as batas do not erase the strong national preference represented here.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-travel-001:travel-09": {
+      "candidate_ref": "fresh-travel-001:travel-09",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Imigrasi and imigresen are the standard national forms used for immigration procedures and authorities. They are transparently related adaptations of the same international loanword, so \"similar\" accurately describes the relationship.",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "fresh-work-001:work-02": {
+      "candidate_ref": "fresh-work-001:work-02",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Rapat is the ordinary Indonesian term for a work or deliberative meeting, while mesyuarat is the ordinary Malaysian Malay equivalent. The stated sense is appropriately discussion-oriented and avoids broader social senses better expressed by pertemuan.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "fresh-work-001:work-06": {
+      "candidate_ref": "fresh-work-001:work-06",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Indonesian generally prefers “presentasi,” while standard Malaysian Malay commonly uses “pembentangan” for a formal talk. This is a useful preference contrast rather than an exclusive national distinction, since alternatives such as Indonesian “pemaparan” and English “presentation” in Malaysian professional usage also occur."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The cue sense is matched accurately: Indonesian “presentasi” and Malaysian Malay “pembentangan” are natural, common terms for a formal talk. The contrast is useful, though not absolute: Indonesian also uses “pemaparan,” while Malaysian professional speech may use English “presentation.” The rationale overstates the neatness of the national split and does not explain the stated uncertainty.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    }
+  },
+  "schema_version": 1,
+  "selected_refs": [
+    "fresh-actions-001:action-01",
+    "fresh-actions-001:action-02",
+    "fresh-actions-001:action-03",
+    "fresh-actions-001:action-04",
+    "fresh-actions-001:action-05",
+    "fresh-actions-001:action-08",
+    "fresh-food-001:food-01",
+    "fresh-food-001:food-03",
+    "fresh-food-001:food-06",
+    "fresh-food-001:food-08",
+    "fresh-food-001:food-09",
+    "fresh-food-001:food-10",
+    "fresh-home-001:home-01",
+    "fresh-home-001:home-03",
+    "fresh-home-001:home-05",
+    "fresh-home-001:home-09",
+    "fresh-travel-001:travel-02",
+    "fresh-travel-001:travel-07",
+    "fresh-travel-001:travel-09",
+    "fresh-work-001:work-02",
+    "fresh-work-001:work-06"
+  ],
+  "started_at_utc": "2026-10-14T01:18:45.645003+00:00"
+}

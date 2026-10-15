@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-03T20:06:00.226777+00:00",
+  "result": {
+    "candidate_id": "topic-04",
+    "checked_at": "2026-10-03T20:06:00.226777+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification"
+      ],
+      "evidence": "audited",
+      "uncompleted_stages": [
+        "adversarial-review"
+      ]
+    },
+    "decision_reason": "Verifier objected to narrow window cue and weak contextual preference evidence",
+    "outcome": "hold",
+    "reason_codes": [
+      "explicit-hold"
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "complete",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "complete",
+      "malaysian-usage": "complete",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "complete"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

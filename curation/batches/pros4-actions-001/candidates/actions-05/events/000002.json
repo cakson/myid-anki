@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-14T16:25:24.737109+00:00",
+  "input_digest": "0d0a4a4ff5d56d509a33400d87491f4cf4650100ca4545da8e76a99ef14b1739",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Menjemur is the ordinary Indonesian term for putting washed clothes out to dry, while menyidai is the ordinary Malaysian term for hanging them to dry.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"to put washed clothes out to dry\", \"cue_rationale\": \"Menjemur specifically means putting clothes out to dry and does not always require hanging them; the rewritten cue fits both answers without changing the concept.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Menjemur is also understood and used in Malaysia, but menyidai is a credible Malaysian preference for hanging laundry, while menjemur is the ordinary Indonesian choice.\", \"nonblocking_risk\": \"concrete\", \"risk_rationale\": \"Menjemur may be used in Malaysia too, and it can include drying clothes by means other than hanging.\", \"preference_risk\": {\"signal\": \"regional-or-register-competition\", \"form\": \"menjemur\", \"language\": \"malaysian\", \"rationale\": \"Menjemur can compete in Malaysian usage, although menyidai remains a useful localized preference for hanging laundry.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "correctable",
+      "cue_rationale": "Menjemur specifically means putting clothes out to dry and does not always require hanging them; the rewritten cue fits both answers without changing the concept.",
+      "cue_rewrite": "to put washed clothes out to dry",
+      "material_concerns": [],
+      "nonblocking_risk": "concrete",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "menjemur",
+        "language": "malaysian",
+        "rationale": "Menjemur can compete in Malaysian usage, although menyidai remains a useful localized preference for hanging laundry.",
+        "signal": "regional-or-register-competition"
+      },
+      "rationale": "Menjemur is the ordinary Indonesian term for putting washed clothes out to dry, while menyidai is the ordinary Malaysian term for hanging them to dry.",
+      "relation": "different-common-word",
+      "risk_rationale": "Menjemur may be used in Malaysia too, and it can include drying clothes by means other than hanging.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Menjemur is also understood and used in Malaysia, but menyidai is a credible Malaysian preference for hanging laundry, while menjemur is the ordinary Indonesian choice.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "correctable",
+    "cue_rationale": "Menjemur specifically means putting clothes out to dry and does not always require hanging them; the rewritten cue fits both answers without changing the concept.",
+    "cue_rewrite": "to put washed clothes out to dry",
+    "material_concerns": [],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "menjemur",
+      "language": "malaysian",
+      "rationale": "Menjemur can compete in Malaysian usage, although menyidai remains a useful localized preference for hanging laundry.",
+      "signal": "regional-or-register-competition"
+    },
+    "rationale": "Menjemur is the ordinary Indonesian term for putting washed clothes out to dry, while menyidai is the ordinary Malaysian term for hanging them to dry.",
+    "relation": "different-common-word",
+    "risk_rationale": "Menjemur may be used in Malaysia too, and it can include drying clothes by means other than hanging.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Menjemur is also understood and used in Malaysia, but menyidai is a credible Malaysian preference for hanging laundry, while menjemur is the ordinary Indonesian choice.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "0c7c625b66b7bb5fb98641adf0761c536180827a5c4b6ce6f38e915b341ec241"
+}

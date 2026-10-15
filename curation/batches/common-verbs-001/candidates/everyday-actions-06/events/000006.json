@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-03T19:49:24.891789+00:00",
+  "result": {
+    "candidate_id": "everyday-actions-06",
+    "checked_at": "2026-10-03T19:49:24.891789+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "outcome": "hold",
+    "reason_codes": [
+      "Relation review found unresolved cue, sense, form, or usage: Bicara fits talking to someone, but bercakap is the clearer neutral Malaysian verb than bare cakap. 'Speak' also leaves open whether the action is conversation, making a speech, or speaking a language. Suggested cue: 'speak to someone'."
+    ],
+    "relation": "",
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "complete",
+      "malaysian-usage": "complete",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "complete"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

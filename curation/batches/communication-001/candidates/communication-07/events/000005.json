@@ -1,0 +1,190 @@
+{
+  "at": "2026-10-04T10:18:58.685051+00:00",
+  "input_digest": "86a2096d9f1f00cad79958094dea321e304b0eee059fbc81f3c9f00376da7876",
+  "model": "gpt-6-luna/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"web__run\", \"result\": {\"observations\": [{\"accessed_at\": \"2026-10-04T10:17:09Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"indonesian-usage:communication-07-id-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"communication-07-e1\", \"limitations\": \"The report documents a video-call feature, not a formal definition of every type of video call.\", \"locale\": \"Indonesia\", \"observation\": \"The report says WhatsApp group \\u201cpanggilan video\\u201d is available and describes starting the call through the video-call icon and adding participants.\", \"page_location_or_query\": \"Retrieved page, lines 36\\u201349.\", \"publisher\": \"ANTARA News\", \"register\": \"news/reporting\", \"source_group\": \"ANTARA News\", \"source_title\": \"Hadir di Indonesia, begini cara pakai WhatsApp video call grup\", \"stance\": \"supports\", \"url_or_query\": \"https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-04T10:17:09Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"indonesian-usage:communication-07-id-common\", \"claim_type\": \"locale-usage\", \"evidence_id\": \"communication-07-e2\", \"limitations\": \"One report establishes both forms are used, not their relative frequency.\", \"locale\": \"Indonesia\", \"observation\": \"The headline calls the feature \\u201cvideo call\\u201d; the report uses \\u201cpanggilan video\\u201d in the body and \\u201cvideo call\\u201d in the feature description.\", \"page_location_or_query\": \"Retrieved page, lines 36\\u201349.\", \"publisher\": \"ANTARA News\", \"register\": \"news/reporting\", \"source_group\": \"ANTARA News\", \"source_title\": \"Hadir di Indonesia, begini cara pakai WhatsApp video call grup\", \"stance\": \"supports\", \"url_or_query\": \"https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-04T10:17:09Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"malaysian-usage:communication-07-my-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"communication-07-e4\", \"limitations\": \"The page concerns a telecom service; its legacy 3G details do not establish modern app usage.\", \"locale\": \"Malaysia\", \"observation\": \"The Malay-language FAQ labels the service \\u201cPanggilan Video\\u201d and refers to making and receiving video calls.\", \"page_location_or_query\": \"Retrieved page, lines 117\\u2013120 and 282\\u2013291.\", \"publisher\": \"U Mobile\", \"register\": \"consumer telecom FAQ\", \"source_group\": \"U Mobile\", \"source_title\": \"Panggilan Video\", \"stance\": \"supports\", \"url_or_query\": \"https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-04T10:17:09Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"malaysian-usage:communication-07-my-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"communication-07-e5\", \"limitations\": \"Does not establish relative everyday frequency versus English video call or casual code-mixed speech.\", \"locale\": \"Malaysia\", \"observation\": \"A Malaysian telecom provider uses Panggilan Video as a Malay service label.\", \"page_location_or_query\": \"Retrieved page, lines 117\\u2013120.\", \"publisher\": \"U Mobile\", \"register\": \"consumer telecom FAQ\", \"source_group\": \"U Mobile\", \"source_title\": \"Panggilan Video\", \"stance\": \"inconclusive\", \"url_or_query\": \"https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"communication-07-e3\", \"reason\": \"source_group must identify one underlying source\"}, {\"evidence_id\": \"communication-07-e6\", \"reason\": \"source_group must identify one underlying source\"}]}, \"bundle_response\": \"curation/batches/communication-001/evidence-valid.json\"}",
+  "reported_model": "web__run",
+  "response": {
+    "bundle_response": "curation/batches/communication-001/evidence-valid.json",
+    "model": "web__run",
+    "result": {
+      "observations": [
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-07-id-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-07-e1",
+          "limitations": "The report documents a video-call feature, not a formal definition of every type of video call.",
+          "locale": "Indonesia",
+          "observation": "The report says WhatsApp group “panggilan video” is available and describes starting the call through the video-call icon and adding participants.",
+          "page_location_or_query": "Retrieved page, lines 36–49.",
+          "publisher": "ANTARA News",
+          "register": "news/reporting",
+          "source_group": "ANTARA News",
+          "source_title": "Hadir di Indonesia, begini cara pakai WhatsApp video call grup",
+          "stance": "supports",
+          "url_or_query": "https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "indonesian-usage:communication-07-id-common",
+          "claim_type": "locale-usage",
+          "evidence_id": "communication-07-e2",
+          "limitations": "One report establishes both forms are used, not their relative frequency.",
+          "locale": "Indonesia",
+          "observation": "The headline calls the feature “video call”; the report uses “panggilan video” in the body and “video call” in the feature description.",
+          "page_location_or_query": "Retrieved page, lines 36–49.",
+          "publisher": "ANTARA News",
+          "register": "news/reporting",
+          "source_group": "ANTARA News",
+          "source_title": "Hadir di Indonesia, begini cara pakai WhatsApp video call grup",
+          "stance": "supports",
+          "url_or_query": "https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-07-my-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "communication-07-e4",
+          "limitations": "The page concerns a telecom service; its legacy 3G details do not establish modern app usage.",
+          "locale": "Malaysia",
+          "observation": "The Malay-language FAQ labels the service “Panggilan Video” and refers to making and receiving video calls.",
+          "page_location_or_query": "Retrieved page, lines 117–120 and 282–291.",
+          "publisher": "U Mobile",
+          "register": "consumer telecom FAQ",
+          "source_group": "U Mobile",
+          "source_title": "Panggilan Video",
+          "stance": "supports",
+          "url_or_query": "https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-04T10:17:09Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "malaysian-usage:communication-07-my-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "communication-07-e5",
+          "limitations": "Does not establish relative everyday frequency versus English video call or casual code-mixed speech.",
+          "locale": "Malaysia",
+          "observation": "A Malaysian telecom provider uses Panggilan Video as a Malay service label.",
+          "page_location_or_query": "Retrieved page, lines 117–120.",
+          "publisher": "U Mobile",
+          "register": "consumer telecom FAQ",
+          "source_group": "U Mobile",
+          "source_title": "Panggilan Video",
+          "stance": "inconclusive",
+          "url_or_query": "https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "communication-07-e3",
+          "reason": "source_group must identify one underlying source"
+        },
+        {
+          "evidence_id": "communication-07-e6",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "observations": [
+      {
+        "accessed_at": "2026-10-04T10:17:09Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "indonesian-usage:communication-07-id-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "communication-07-e1",
+        "limitations": "The report documents a video-call feature, not a formal definition of every type of video call.",
+        "locale": "Indonesia",
+        "observation": "The report says WhatsApp group “panggilan video” is available and describes starting the call through the video-call icon and adding participants.",
+        "page_location_or_query": "Retrieved page, lines 36–49.",
+        "publisher": "ANTARA News",
+        "register": "news/reporting",
+        "source_group": "ANTARA News",
+        "source_title": "Hadir di Indonesia, begini cara pakai WhatsApp video call grup",
+        "stance": "supports",
+        "url_or_query": "https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-04T10:17:09Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "indonesian-usage:communication-07-id-common",
+        "claim_type": "locale-usage",
+        "evidence_id": "communication-07-e2",
+        "limitations": "One report establishes both forms are used, not their relative frequency.",
+        "locale": "Indonesia",
+        "observation": "The headline calls the feature “video call”; the report uses “panggilan video” in the body and “video call” in the feature description.",
+        "page_location_or_query": "Retrieved page, lines 36–49.",
+        "publisher": "ANTARA News",
+        "register": "news/reporting",
+        "source_group": "ANTARA News",
+        "source_title": "Hadir di Indonesia, begini cara pakai WhatsApp video call grup",
+        "stance": "supports",
+        "url_or_query": "https://www.antaranews.com/berita/731898/hadir-di-indonesia-begini-cara-pakai-whatsapp-video-call-grup",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-04T10:17:09Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "malaysian-usage:communication-07-my-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "communication-07-e4",
+        "limitations": "The page concerns a telecom service; its legacy 3G details do not establish modern app usage.",
+        "locale": "Malaysia",
+        "observation": "The Malay-language FAQ labels the service “Panggilan Video” and refers to making and receiving video calls.",
+        "page_location_or_query": "Retrieved page, lines 117–120 and 282–291.",
+        "publisher": "U Mobile",
+        "register": "consumer telecom FAQ",
+        "source_group": "U Mobile",
+        "source_title": "Panggilan Video",
+        "stance": "supports",
+        "url_or_query": "https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-04T10:17:09Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "malaysian-usage:communication-07-my-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "communication-07-e5",
+        "limitations": "Does not establish relative everyday frequency versus English video call or casual code-mixed speech.",
+        "locale": "Malaysia",
+        "observation": "A Malaysian telecom provider uses Panggilan Video as a Malay service label.",
+        "page_location_or_query": "Retrieved page, lines 117–120.",
+        "publisher": "U Mobile",
+        "register": "consumer telecom FAQ",
+        "source_group": "U Mobile",
+        "source_title": "Panggilan Video",
+        "stance": "inconclusive",
+        "url_or_query": "https://www.u.com.my/bm/personal/support/faqs/value-added-services/video-call",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "communication-07-e3",
+        "reason": "source_group must identify one underlying source"
+      },
+      {
+        "evidence_id": "communication-07-e6",
+        "reason": "source_group must identify one underlying source"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "codex-cli",
+  "upstream_digest": "29f12f17d70e057cf7369813a90cf57f1397ae8abfaa441f0ebed7b675dcf095"
+}

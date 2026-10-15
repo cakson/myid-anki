@@ -1,0 +1,187 @@
+{
+  "at": "2026-10-03T20:00:18.815269+00:00",
+  "input_digest": "5278100a6ff79431afaa5d8db30f211c7a6a4f45c58d9db97f40ab6355b6f324",
+  "model": "gpt-6-sol/codex-cli",
+  "prompt_set_version": "1.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"evidence-audit\", \"model\": \"gpt-6-sol/codex-cli\", \"result\": {\"access_failures\": [\"The cited KBBI dapur entry could not be retrieved.\"], \"observations\": [{\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-07-Indonesia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"07-01\", \"limitations\": \"A kitchen can be an area rather than a separate room.\", \"locale\": \"Indonesia\", \"observation\": \"The page describes a dapur as the home area for cooking and storing cooking equipment.\", \"page_location_or_query\": \"Lines 369\\u2013371\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Dapur & Kitchen Set IKEA\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/ruangan/dapur\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-07-Indonesia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"07-02\", \"limitations\": \"One retailer does not establish a measured national preference.\", \"locale\": \"Indonesia\", \"observation\": \"Dapur is the consumer room category and recurs throughout household layout advice.\", \"page_location_or_query\": \"Category heading and lines 369\\u2013393\", \"publisher\": \"IKEA Indonesia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Dapur & Kitchen Set IKEA\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.co.id/in/ruangan/dapur\", \"usage_basis\": \"contextual\"}, {\"accessed_at\": \"2026-10-03T19:50:10Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-07-Malaysia-meaning\", \"claim_type\": \"meaning\", \"evidence_id\": \"07-03\", \"limitations\": \"The entry establishes senses, not their relative contemporary frequency.\", \"locale\": \"Malaysia\", \"observation\": \"DBP lists both the cooking part of a house and a cooking appliance as senses of dapur.\", \"page_location_or_query\": \"Lines 9\\u201318\", \"publisher\": \"Dewan Bahasa dan Pustaka\", \"register\": \"dictionary\", \"source_group\": \"DBP\", \"source_title\": \"Carian Umum: dapur\", \"stance\": \"supports\", \"url_or_query\": \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dapur\", \"usage_basis\": \"dictionary-only\"}, {\"accessed_at\": \"2026-10-03T19:52:12Z\", \"audit_method\": \"retrieved-page\", \"claim_id\": \"topic-07-Malaysia-preferred\", \"claim_type\": \"preferred-choice\", \"evidence_id\": \"07-04\", \"limitations\": \"Retail category usage does not quantify population-wide frequency.\", \"locale\": \"Malaysia\", \"observation\": \"The kitchen category is headed Dapur and describes it as the place for cooking in the home.\", \"page_location_or_query\": \"Page heading and opening paragraph\", \"publisher\": \"IKEA Malaysia\", \"register\": \"consumer household\", \"source_group\": \"IKEA\", \"source_title\": \"Dapur\", \"stance\": \"supports\", \"url_or_query\": \"https://www.ikea.com/my/ms/rooms/kitchen/\", \"usage_basis\": \"contextual\"}], \"removed_invalid_evidence\": [{\"evidence_id\": \"07-05\", \"reason\": \"url_or_query must identify one source, not a joined comparison\"}]}, \"bundle_response\": \"curation/batches/home-001/evidence-response-cleaned.json\"}",
+  "response": {
+    "bundle_response": "curation/batches/home-001/evidence-response-cleaned.json",
+    "model": "gpt-6-sol/codex-cli",
+    "result": {
+      "access_failures": [
+        "The cited KBBI dapur entry could not be retrieved."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "07-01",
+          "limitations": "A kitchen can be an area rather than a separate room.",
+          "locale": "Indonesia",
+          "observation": "The page describes a dapur as the home area for cooking and storing cooking equipment.",
+          "page_location_or_query": "Lines 369–371",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Dapur & Kitchen Set IKEA",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/dapur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "07-02",
+          "limitations": "One retailer does not establish a measured national preference.",
+          "locale": "Indonesia",
+          "observation": "Dapur is the consumer room category and recurs throughout household layout advice.",
+          "page_location_or_query": "Category heading and lines 369–393",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Dapur & Kitchen Set IKEA",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/dapur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:50:10Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "07-03",
+          "limitations": "The entry establishes senses, not their relative contemporary frequency.",
+          "locale": "Malaysia",
+          "observation": "DBP lists both the cooking part of a house and a cooking appliance as senses of dapur.",
+          "page_location_or_query": "Lines 9–18",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: dapur",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dapur",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "07-04",
+          "limitations": "Retail category usage does not quantify population-wide frequency.",
+          "locale": "Malaysia",
+          "observation": "The kitchen category is headed Dapur and describes it as the place for cooking in the home.",
+          "page_location_or_query": "Page heading and opening paragraph",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Dapur",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/rooms/kitchen/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "07-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "role": "evidence-audit",
+    "schema_version": 1
+  },
+  "result": {
+    "access_failures": [
+      "The cited KBBI dapur entry could not be retrieved."
+    ],
+    "observations": [
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-07-Indonesia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "07-01",
+        "limitations": "A kitchen can be an area rather than a separate room.",
+        "locale": "Indonesia",
+        "observation": "The page describes a dapur as the home area for cooking and storing cooking equipment.",
+        "page_location_or_query": "Lines 369–371",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Dapur & Kitchen Set IKEA",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/ruangan/dapur",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-07-Indonesia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "07-02",
+        "limitations": "One retailer does not establish a measured national preference.",
+        "locale": "Indonesia",
+        "observation": "Dapur is the consumer room category and recurs throughout household layout advice.",
+        "page_location_or_query": "Category heading and lines 369–393",
+        "publisher": "IKEA Indonesia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Dapur & Kitchen Set IKEA",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.co.id/in/ruangan/dapur",
+        "usage_basis": "contextual"
+      },
+      {
+        "accessed_at": "2026-10-03T19:50:10Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-07-Malaysia-meaning",
+        "claim_type": "meaning",
+        "evidence_id": "07-03",
+        "limitations": "The entry establishes senses, not their relative contemporary frequency.",
+        "locale": "Malaysia",
+        "observation": "DBP lists both the cooking part of a house and a cooking appliance as senses of dapur.",
+        "page_location_or_query": "Lines 9–18",
+        "publisher": "Dewan Bahasa dan Pustaka",
+        "register": "dictionary",
+        "source_group": "DBP",
+        "source_title": "Carian Umum: dapur",
+        "stance": "supports",
+        "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dapur",
+        "usage_basis": "dictionary-only"
+      },
+      {
+        "accessed_at": "2026-10-03T19:52:12Z",
+        "audit_method": "retrieved-page",
+        "claim_id": "topic-07-Malaysia-preferred",
+        "claim_type": "preferred-choice",
+        "evidence_id": "07-04",
+        "limitations": "Retail category usage does not quantify population-wide frequency.",
+        "locale": "Malaysia",
+        "observation": "The kitchen category is headed Dapur and describes it as the place for cooking in the home.",
+        "page_location_or_query": "Page heading and opening paragraph",
+        "publisher": "IKEA Malaysia",
+        "register": "consumer household",
+        "source_group": "IKEA",
+        "source_title": "Dapur",
+        "stance": "supports",
+        "url_or_query": "https://www.ikea.com/my/ms/rooms/kitchen/",
+        "usage_basis": "contextual"
+      }
+    ],
+    "removed_invalid_evidence": [
+      {
+        "evidence_id": "07-05",
+        "reason": "url_or_query must identify one source, not a joined comparison"
+      }
+    ]
+  },
+  "role": "evidence-audit",
+  "status": "complete",
+  "tool": "gpt-6-sol/codex-cli",
+  "upstream_digest": "c9fdb401459d5079fc50d7438d7f80ac5c3354051bee8af73638433c494daa24"
+}

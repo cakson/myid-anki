@@ -1,0 +1,33 @@
+{
+  "attempt": {
+    "candidate_ref": "technical-deferred-audit",
+    "elapsed_seconds": 11.574,
+    "error_summary": null,
+    "exit_code": 0,
+    "input_tokens": 11515,
+    "model": "gpt-5.6-luna",
+    "output_tokens": 847,
+    "provider_request_id": null,
+    "retry_count": 0,
+    "status": "complete"
+  },
+  "candidate_ref": "pros4-health-001:health-09",
+  "ended_at_utc": "2026-10-15T01:24:27.983842+00:00",
+  "model": "gpt-5.6-luna",
+  "result": {
+    "candidate_ref": "pros4-health-001:health-09",
+    "confidence_rationale_adequate": false,
+    "corrections": [
+      "Change confidence_rationale to: “Penyandang disabilitas is a standard Indonesian term, especially common in formal and institutional contexts, while orang kurang upaya is an established Malaysian Malay term, particularly in official usage; OKU is also widely used as its abbreviation. The pair preserves the same concept and teaches a useful national contrast.”"
+    ],
+    "external_check_needed": true,
+    "material_false_positive": false,
+    "reason": "Both answers accurately refer to a person with a disability and form a useful Indonesian–Malaysian contrast. However, penyandang disabilitas is especially standard and institutional in Indonesian, while orang kurang upaya is strongly associated with Malaysian official usage; everyday speech also commonly uses OKU as an abbreviation. The rationale overstates ordinary everyday preference and should acknowledge register.",
+    "relation": "different-common-word",
+    "verdict": "minor-correction"
+  },
+  "selection_reason": [
+    "newly-selected-stratified-random-after-technical-flag"
+  ],
+  "started_at_utc": "2026-10-15T01:24:16.408221+00:00"
+}

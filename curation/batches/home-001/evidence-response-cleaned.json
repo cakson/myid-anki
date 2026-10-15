@@ -1,0 +1,654 @@
+{
+  "curation_transform": {
+    "name": "strip-invalid-evidence",
+    "removed": {
+      "topic-02": [
+        {
+          "evidence_id": "02-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ],
+      "topic-03": [
+        {
+          "evidence_id": "03-05",
+          "reason": "source_group must identify one underlying source"
+        }
+      ],
+      "topic-04": [
+        {
+          "evidence_id": "04-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ],
+      "topic-05": [
+        {
+          "evidence_id": "05-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ],
+      "topic-06": [
+        {
+          "evidence_id": "06-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ],
+      "topic-07": [
+        {
+          "evidence_id": "07-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ],
+      "topic-08": [
+        {
+          "evidence_id": "08-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "rule": "Only malformed observations were removed; no support was added or rewritten.",
+    "version": 1
+  },
+  "model": "gpt-6-sol/codex-cli",
+  "results": {
+    "topic-02": {
+      "access_failures": [
+        "The cited KBBI kamar tidur entry could not be retrieved."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "02-01",
+          "limitations": "Retail usage is not a dictionary definition.",
+          "locale": "Indonesia",
+          "observation": "The bedroom category describes a kamar tidur as a place to rest and sleep.",
+          "page_location_or_query": "Page heading and lines 432–436",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Kamar tidur",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/kamar-tidur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "02-02",
+          "limitations": "One publisher cannot establish population-wide frequency.",
+          "locale": "Indonesia",
+          "observation": "IKEA repeatedly uses kamar tidur for the room and uses kamar alone within an established bedroom context.",
+          "page_location_or_query": "Category heading; lines 432–436 and 455–457",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Kamar tidur",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/kamar-tidur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:50:10Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "02-03",
+          "limitations": "The two entries are one DBP source group and do not establish preference.",
+          "locale": "Malaysia",
+          "observation": "Both entries define bilik tidur as a sleeping room.",
+          "page_location_or_query": "Lines 9–18, Kamus Dewan and Kamus Pelajar entries",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: bilik tidur",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bilik+tidur",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-02-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "02-04",
+          "limitations": "Shows a normal explicit choice by one retailer, not a measured national preference.",
+          "locale": "Malaysia",
+          "observation": "The consumer bedroom category is titled bilik tidur and describes it as a private room with a bed.",
+          "page_location_or_query": "Lines 3–5",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Perabot bilik tidur dan idea",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/rooms/bedroom/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "02-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "topic-03": {
+      "access_failures": [
+        "The cited KBBI kulkas and lemari es entries could not be retrieved."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "03-01",
+          "limitations": "The inspected description focuses on food; drinks are implicit rather than specifically demonstrated.",
+          "locale": "Indonesia",
+          "observation": "A refrigerator sold as a kulkas is described as cooling and storing food.",
+          "page_location_or_query": "Product heading and Makanan tetap segar section",
+          "publisher": "Electrolux Indonesia",
+          "register": "consumer appliance",
+          "source_group": "Electrolux",
+          "source_title": "Kulkas 4 pintu 496L",
+          "stance": "supports",
+          "url_or_query": "https://www.electrolux.co.id/produk/kulkas/eqe4905a-b/",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "03-02",
+          "limitations": "Both terms are present, so this supports naturalness rather than exclusivity.",
+          "locale": "Indonesia",
+          "observation": "The appliance category prominently uses kulkas in its title and buying advice; lemari es also appears in the title.",
+          "page_location_or_query": "Category title and line 294",
+          "publisher": "Electrolux Indonesia",
+          "register": "consumer appliance",
+          "source_group": "Electrolux",
+          "source_title": "Kulkas & Lemari Es Inverter",
+          "stance": "supports",
+          "url_or_query": "https://www.electrolux.co.id/produk/kulkas/",
+          "usage_basis": "comparative"
+        },
+        {
+          "accessed_at": "2026-10-03T19:50:10Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "03-03",
+          "limitations": "The two dictionaries are both within the DBP source group.",
+          "locale": "Malaysia",
+          "observation": "DBP defines peti sejuk as a cooling appliance for storing food; its student dictionary entry explicitly includes food and drink.",
+          "page_location_or_query": "Lines 13–15 and 57–60",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: peti sejuk",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=peti+sejuk",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-03-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "03-04",
+          "limitations": "This directly supports both terms as familiar consumer choices; it does not rank their overall frequency.",
+          "locale": "Malaysia",
+          "observation": "The category heading uses peti ais, while refrigerator product names use peti sejuk.",
+          "page_location_or_query": "Lines 24–31 and 46–60",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer appliance",
+          "source_group": "IKEA",
+          "source_title": "Peti ais & penyejuk beku",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/fridges-freezers-20822/",
+          "usage_basis": "comparative"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "03-05",
+          "reason": "source_group must identify one underlying source"
+        }
+      ]
+    },
+    "topic-04": {
+      "access_failures": [
+        "The cited KBBI jendela entry was inaccessible.",
+        "The cited DBP tingkap page returned a cache miss; only its search extract was inspected."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-04-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "04-01",
+          "limitations": "This establishes that glass is not inherent to every window construction; it is technical rather than everyday usage.",
+          "locale": "Indonesia",
+          "observation": "The construction text calls a jendela a wall opening and distinguishes opening leaves from fixed glass.",
+          "page_location_or_query": "PDF page 117, lines 3093–3101",
+          "publisher": "Indonesian Ministry of Primary and Secondary Education repository",
+          "register": "technical education",
+          "source_group": "Kemendikdasmen educational repository",
+          "source_title": "Konstruksi Kayu",
+          "stance": "supports",
+          "url_or_query": "https://repositori.kemendikdasmen.go.id/6137/1/F%20Konstruksi%20Kayu.pdf",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "corpus-query",
+          "claim_id": "topic-04-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "04-02",
+          "limitations": "The search result was inspected, but the full article was not retrieved; one publisher cannot prove nationwide preference.",
+          "locale": "Indonesia",
+          "observation": "The consumer article refers to daylight entering through a large jendela and sitting near it.",
+          "page_location_or_query": "Search query: site:ikea.co.id/in/inspirasi \"jendela\" \"cahaya\"; section Memanfaatkan pencahayaan alami di dekat jendela",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Spot foto Instagramable di IKEA",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/inspirasi/spot-foto-instagramable",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "corpus-query",
+          "claim_id": "topic-04-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "04-03",
+          "limitations": "The full DBP page returned a cache miss; the observation is limited to the inspected search extract.",
+          "locale": "Malaysia",
+          "observation": "The indexed DBP definition describes tingkap as a closable wall opening for air and gives jendela as an equivalent; glass is not specified.",
+          "page_location_or_query": "Search query: site:prpm.dbp.gov.my/Cari1?keyword=tingkap \"Definisi\"",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: tingkap",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=tingkap",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-04-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "04-04",
+          "limitations": "This is one contextual use, not a frequency comparison with jendela.",
+          "locale": "Malaysia",
+          "observation": "A living-room image description says sunlight enters through tingkap Perancis.",
+          "page_location_or_query": "Lines 30–32",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Cara untuk: mencipta ruang tamu yang disukai",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/ideas/cara-untuk-mencipta-ruang-tamu-yang-disukai-pubef3f6950/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "04-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "topic-05": {
+      "access_failures": [
+        "The cited KBBI tempat sampah and tong sampah entries could not be retrieved.",
+        "The cited DBP tong sampah page could not be retrieved; its indexed extract was found but was not needed for the supporting observations."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "05-01",
+          "limitations": "This does not independently establish the broader 'place for rubbish' sense.",
+          "locale": "Indonesia",
+          "observation": "The household product category calls physical rubbish receptacles tempat sampah.",
+          "page_location_or_query": "Lines 57–61",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tempat sampah",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "05-02",
+          "limitations": "Shows a natural retail choice, not measured prevalence against tong sampah.",
+          "locale": "Indonesia",
+          "observation": "IKEA uses tempat sampah as its consumer product category for household bins.",
+          "page_location_or_query": "Category heading and lines 57–61",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tempat sampah",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/solusi-pemilah/tempat-sampah",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "05-03",
+          "limitations": "Product context establishes the receptacle sense only.",
+          "locale": "Malaysia",
+          "observation": "The page describes discarded items being put into a tong sampah and lists small physical bins under that name.",
+          "page_location_or_query": "Lines 15–19 and product listings",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tong sampah & beg sisa",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-05-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "05-04",
+          "limitations": "No direct frequency comparison with bakul sampah was available.",
+          "locale": "Malaysia",
+          "observation": "Tong sampah appears in ordinary consumer prose and as the product name for multiple household bins.",
+          "page_location_or_query": "Lines 15–19 and FNISS product listings",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Tong sampah & beg sisa",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/waste-bins-bags-16213/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "05-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "topic-06": {
+      "access_failures": [
+        "The cited KBBI ember entry was inaccessible.",
+        "The cited DBP baldi page returned HTTP 503."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-06-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "06-01",
+          "limitations": "This is a product example rather than a complete lexical definition.",
+          "locale": "Indonesia",
+          "observation": "The page describes an ember with a handle used to carry water around a home.",
+          "page_location_or_query": "Lines 2–13",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "PEPPRIG ember dengan penutup",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-06-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "06-02",
+          "limitations": "No representative frequency measure was inspected.",
+          "locale": "Indonesia",
+          "observation": "Ember is used in a household product name and ordinary prose about carrying water.",
+          "page_location_or_query": "Lines 2–13 and product title",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "PEPPRIG ember dengan penutup",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/perawatan-dan-perbaikan/pembersihan-dan-aksesori-pembersihan/pepprig-art-30567614",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "corpus-query",
+          "claim_id": "topic-06-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "06-03",
+          "limitations": "The full DBP page returned HTTP 503; this records only the inspected search extract.",
+          "locale": "Malaysia",
+          "observation": "The indexed DBP entry defines baldi as a handled metal or plastic container for water.",
+          "page_location_or_query": "Search query: site:prpm.dbp.gov.my/Cari1?keyword=baldi \"Definisi\"",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: baldi",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baldi",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-06-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "06-04",
+          "limitations": "The same category also uses timba for another product, so baldi is a normal choice but not exclusive.",
+          "locale": "Malaysia",
+          "observation": "The cleaning-accessories category sells a Baldi pencuci.",
+          "page_location_or_query": "Line 129, PEPPRIG listing",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Aksesori pembersihan",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/cleaning-accessories-20609/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "06-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "topic-07": {
+      "access_failures": [
+        "The cited KBBI dapur entry could not be retrieved."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "07-01",
+          "limitations": "A kitchen can be an area rather than a separate room.",
+          "locale": "Indonesia",
+          "observation": "The page describes a dapur as the home area for cooking and storing cooking equipment.",
+          "page_location_or_query": "Lines 369–371",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Dapur & Kitchen Set IKEA",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/dapur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "07-02",
+          "limitations": "One retailer does not establish a measured national preference.",
+          "locale": "Indonesia",
+          "observation": "Dapur is the consumer room category and recurs throughout household layout advice.",
+          "page_location_or_query": "Category heading and lines 369–393",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Dapur & Kitchen Set IKEA",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/ruangan/dapur",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:50:10Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "07-03",
+          "limitations": "The entry establishes senses, not their relative contemporary frequency.",
+          "locale": "Malaysia",
+          "observation": "DBP lists both the cooking part of a house and a cooking appliance as senses of dapur.",
+          "page_location_or_query": "Lines 9–18",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: dapur",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dapur",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-07-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "07-04",
+          "limitations": "Retail category usage does not quantify population-wide frequency.",
+          "locale": "Malaysia",
+          "observation": "The kitchen category is headed Dapur and describes it as the place for cooking in the home.",
+          "page_location_or_query": "Page heading and opening paragraph",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer household",
+          "source_group": "IKEA",
+          "source_title": "Dapur",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/rooms/kitchen/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "07-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    },
+    "topic-08": {
+      "access_failures": [
+        "The cited DBP kerusi and kursi pages could not be fully retrieved; only an indexed kerusi extract was inspected."
+      ],
+      "observations": [
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-08-Indonesia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "08-01",
+          "limitations": "A dictionary sense alone does not establish preferred everyday use.",
+          "locale": "Indonesia",
+          "observation": "The furniture sense is a seat with legs and a backrest.",
+          "page_location_or_query": "Lines 8–20",
+          "publisher": "Badan Pengembangan dan Pembinaan Bahasa",
+          "register": "dictionary",
+          "source_group": "KBBI",
+          "source_title": "KBBI VI Daring: kursi",
+          "stance": "supports",
+          "url_or_query": "https://kbbi.kemendikdasmen.go.id/entri/kursi",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-08-Indonesia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "08-02",
+          "limitations": "One product listing shows natural use, not a national frequency estimate.",
+          "locale": "Indonesia",
+          "observation": "An ordinary dining chair with a backrest is sold as a kursi.",
+          "page_location_or_query": "Product title and lines 2–4",
+          "publisher": "IKEA Indonesia",
+          "register": "consumer furniture",
+          "source_group": "IKEA",
+          "source_title": "SANDSBERG kursi",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.co.id/in/produk/kursi-makan/kursi-berpelapis/sandsberg-art-50605257",
+          "usage_basis": "contextual"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "corpus-query",
+          "claim_id": "topic-08-Malaysia-meaning",
+          "claim_type": "meaning",
+          "evidence_id": "08-03",
+          "limitations": "The full DBP page returned a cache miss; this is limited to the inspected search extract.",
+          "locale": "Malaysia",
+          "observation": "The indexed DBP entry gives a legged seat with a backrest and a figurative position or office.",
+          "page_location_or_query": "Search query: site:prpm.dbp.gov.my/Cari1?keyword=kerusi \"Definisi\"",
+          "publisher": "Dewan Bahasa dan Pustaka",
+          "register": "dictionary",
+          "source_group": "DBP",
+          "source_title": "Carian Umum: kerusi",
+          "stance": "supports",
+          "url_or_query": "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=kerusi",
+          "usage_basis": "dictionary-only"
+        },
+        {
+          "accessed_at": "2026-10-03T19:52:12Z",
+          "audit_method": "retrieved-page",
+          "claim_id": "topic-08-Malaysia-preferred",
+          "claim_type": "preferred-choice",
+          "evidence_id": "08-04",
+          "limitations": "The category does not compare kerusi with every possible regional or colloquial alternative.",
+          "locale": "Malaysia",
+          "observation": "The chair category lists multiple ordinary chairs as kerusi.",
+          "page_location_or_query": "Category heading and lines 67–101",
+          "publisher": "IKEA Malaysia",
+          "register": "consumer furniture",
+          "source_group": "IKEA",
+          "source_title": "Kerusi upholsteri",
+          "stance": "supports",
+          "url_or_query": "https://www.ikea.com/my/ms/cat/upholstered-chairs-25221/",
+          "usage_basis": "contextual"
+        }
+      ],
+      "removed_invalid_evidence": [
+        {
+          "evidence_id": "08-05",
+          "reason": "url_or_query must identify one source, not a joined comparison"
+        }
+      ]
+    }
+  },
+  "role": "evidence-audit",
+  "schema_version": 1
+}
