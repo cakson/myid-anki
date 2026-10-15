@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T11:27:23.995315+00:00",
+  "input_digest": "f81249525a9c4d55f26f9a51b45e47a996e9f5826312725dc2bb0f2f1d3ddc7c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"home-01\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"Ceiling is the interior upper surface of a room; roof is the exterior top covering of a house.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "home-01",
+          "rationale": "Ceiling is the interior upper surface of a room; roof is the exterior top covering of a house.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "home-01",
+        "rationale": "Ceiling is the interior upper surface of a room; roof is the exterior top covering of a house.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "a5c8daa21442350aca3a67411a98df079079b04c7f90a3d968bc0130bea9c406"
+}

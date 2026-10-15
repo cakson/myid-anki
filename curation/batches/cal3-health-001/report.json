@@ -1,0 +1,583 @@
+{
+  "accepted": 6,
+  "batch_id": "cal3-health-001",
+  "confidence_distribution": {
+    "high": 3,
+    "medium": 3
+  },
+  "corrections": 0,
+  "created_at": "2026-10-14T11:32:51.689605+00:00",
+  "decisions": [
+    {
+      "candidate_id": "health-01",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "selesma",
+          "language": "indonesian",
+          "rationale": "“Selesma” exists in Indonesian but is not as ordinary or preferred as “pilek” in everyday usage.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "“Pilek” is the ordinary Indonesian term for a common cold, while Malaysian Malay commonly uses “selsema” for the same illness.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "health-02",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "The English cue may misalign the two target-language senses.",
+        "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers.",
+          "The English cue may misalign the two target-language senses.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "health-03",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete competing everyday form threatens this contrast.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "“Sakit tenggorokan” is ordinary Indonesian, while “sakit tekak” is the ordinary Malaysian Malay expression for throat pain or irritation.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "health-04",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete competing everyday form threatens this contrast.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "“Memar” is the ordinary Indonesian term for a bruise, while Malaysian Malay commonly uses “lebam” for the same injury mark.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "health-05",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "bekas luka",
+          "language": "malaysian",
+          "rationale": "“Bekas luka” can be an ordinary descriptive alternative in Malaysian Malay, although “parut” is the more specific concise term.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Indonesian commonly says “bekas luka,” while Malaysian Malay commonly uses “parut” for a mark remaining after a wound heals. Review concern: The Malaysian descriptive phrase “bekas luka” may occur, though it does not defeat “parut” as the preferred concise term.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "health-06",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "pingsan/pengsan",
+          "language": "both",
+          "rationale": "The Indonesian and Malaysian forms are distinct national variants for the same sense, so preference may depend on language variety.",
+          "signal": "regional-or-register-competition"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms ordinarily mean briefly losing consciousness; the spelling difference is a useful national-form contrast.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "regional-register-risk"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "health-07",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "independent-verification",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Identical ordinary forms offer no meaningful recall contrast.",
+      "outcome": "rejected",
+      "reason_codes": [
+        "no-meaningful-cross-language-contrast"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "missing",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "health-08",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "buruk",
+          "language": "both",
+          "rationale": "Buruk is a plausible shared alternative for unattractive appearance, though it does not eliminate the useful jelek–hodoh preference.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Jelek is ordinary Indonesian and hodoh is ordinary Malaysian for unpleasant appearance, providing a useful variety preference. Review concern: Buruk may also be encountered for this sense, especially in broader evaluative contexts.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "health-09",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "The card may mislead learners into treating pintar as specifically Indonesian and pandai as specifically Malaysian."
+      ],
+      "relation": "similar",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The card may mislead learners into treating pintar as specifically Indonesian and pandai as specifically Malaysian.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "health-10",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "The English cue may misalign the two target-language senses.",
+        "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence.",
+          "The English cue may misalign the two target-language senses."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    }
+  ],
+  "duplicate_detections": 0,
+  "duplicate_resolutions": {},
+  "evidence_failures": 2,
+  "further_investigation": [
+    "health-02",
+    "health-09",
+    "health-10"
+  ],
+  "generated": 10,
+  "held": 3,
+  "no_contrast_rejected": 1,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "A shared ordinary synonym may defeat the claimed national preference.": 2,
+    "The English cue may misalign the two target-language senses.": 2,
+    "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers.": 1,
+    "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence.": 1,
+    "The card may mislead learners into treating pintar as specifically Indonesian and pandai as specifically Malaysian.": 1,
+    "no-meaningful-cross-language-contrast": 1,
+    "ordinary-verifier-agreement": 6
+  },
+  "rejected": 1,
+  "relation_distribution": {
+    "different-common-word": 5,
+    "similar": 1
+  },
+  "review_priority": [
+    "health-05",
+    "health-08",
+    "health-06",
+    "health-01",
+    "health-03",
+    "health-04"
+  ],
+  "status": "closed",
+  "verification_failures": 3
+}

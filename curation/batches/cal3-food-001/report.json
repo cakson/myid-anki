@@ -1,0 +1,621 @@
+{
+  "accepted": 8,
+  "batch_id": "cal3-food-001",
+  "confidence_distribution": {
+    "high": 4,
+    "low": 2,
+    "medium": 2
+  },
+  "corrections": 0,
+  "created_at": "2026-10-14T11:32:51.476786+00:00",
+  "decisions": [
+    {
+      "candidate_id": "food-01",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete preference risk.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "The cue and answers align on an ordinary drinking cup. Cangkir is the usual Indonesian form, while cawan is the usual Malaysian form.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-02",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "concrete",
+        "preference_risk": {
+          "form": "straw",
+          "language": "malaysian",
+          "rationale": "Straw is a plausible casual Malaysian alternative to the proposed standard Malay form.",
+          "signal": "regional-or-register-competition"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "The cue and answers denote a straw used for drinking. Sedotan is ordinary Indonesian usage; penyedut minuman is a standard Malaysian Malay form, though casual Malaysian speech often uses straw. Review concern: Casual Malaysian usage commonly uses straw, so penyedut minuman is a standard/formal preference rather than an exclusive everyday form.",
+      "confidence_tier": "low",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "regional-register-risk"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-03",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "Spatula is also an ordinary Malaysian term for this utensil, so the contrast with Indonesian spatula versus Malaysian sudip may mislead learners about Malaysian usage."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "Spatula is also an ordinary Malaysian term for this utensil, so the contrast with Indonesian spatula versus Malaysian sudip may mislead learners about Malaysian usage.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "food-04",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete preference risk.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "The cue and answers align on a deep spoon used to serve soup or other liquid food. Sendok sayur is the ordinary Indonesian expression; senduk is the ordinary Malaysian form.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-05",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "concrete",
+        "preference_risk": {
+          "form": "chopping board",
+          "language": "malaysian",
+          "rationale": "The English loan is a plausible everyday Malaysian alternative to papan pemotong.",
+          "signal": "regional-or-register-competition"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "The cue and answers align on a board used for cutting food. Talenan is ordinary Indonesian usage; papan pemotong is the standard Malaysian Malay form. Review concern: Chopping board is a plausible casual Malaysian alternative, so papan pemotong is a standard Malay preference rather than an exclusive form.",
+      "confidence_tier": "low",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "regional-register-risk",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-06",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "ceret",
+          "language": "indonesian",
+          "rationale": "Ceret is also used in Indonesian, but this does not defeat ketel as an ordinary Indonesian preference.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Ketel is ordinary Indonesian and cerek is ordinary Malaysian Malay for a kettle used to boil water.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-07",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "rejected",
+      "reason_codes": [
+        "artificial-synonym"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-08",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "The forms are distinct ordinary national terms: panci for Indonesian and periuk for Malaysian Malay, so there is no preference concern.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Panci is the ordinary Indonesian term and periuk the ordinary Malaysian Malay term for a deep cooking vessel.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-09",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "kotak makanan",
+          "language": "both",
+          "rationale": "Kotak makanan may be used for a box-like food container, but it is narrower than the generic cue.",
+          "signal": "regional-or-register-competition"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Wadah makanan is ordinary Indonesian, while bekas makanan is ordinary Malaysian Malay for a container used to store food. Review concern: The exact phrase can vary with the type of container, such as a lunchbox or storage box.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "regional-register-risk",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "food-10",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "rolling pin",
+          "language": "both",
+          "rationale": "The English borrowing occurs in baking contexts, but its existence does not displace the proposed local terms in ordinary Malay usage.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Penggilas adonan is an ordinary Indonesian term and penggelek doh an ordinary Malaysian Malay term for a tool that flattens dough. Review concern: Baking communities may also use the English borrowing rolling pin.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    }
+  ],
+  "duplicate_detections": 0,
+  "duplicate_resolutions": {},
+  "evidence_failures": 1,
+  "further_investigation": [
+    "food-03"
+  ],
+  "generated": 10,
+  "held": 1,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "A shared ordinary synonym may defeat the claimed national preference.": 1,
+    "Spatula is also an ordinary Malaysian term for this utensil, so the contrast with Indonesian spatula versus Malaysian sudip may mislead learners about Malaysian usage.": 1,
+    "artificial-synonym": 1,
+    "ordinary-verifier-agreement": 8
+  },
+  "rejected": 1,
+  "relation_distribution": {
+    "different-common-word": 8
+  },
+  "review_priority": [
+    "food-05",
+    "food-02",
+    "food-09",
+    "food-10",
+    "food-01",
+    "food-04",
+    "food-08",
+    "food-06"
+  ],
+  "status": "closed",
+  "verification_failures": 3
+}

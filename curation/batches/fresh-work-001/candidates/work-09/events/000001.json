@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T00:59:15.353679+00:00",
+  "input_digest": "ce0669b8b8cc66dc3af187b2c37ecc8e456f886c6d1d49b5efccda5783c24cf3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.0.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"places-001:places-01\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"A company is a business organization; an office is a workplace or physical location.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "places-001:places-01",
+          "rationale": "A company is a business organization; an office is a workplace or physical location.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "places-001:places-01",
+        "rationale": "A company is a business organization; an office is a workplace or physical location.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "0b68579580e5090ea81ee1a8a9c63bbdb2538614f6370f618bda8dc0b5b10b12"
+}

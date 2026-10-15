@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-14T11:32:49.317073+00:00",
+  "input_digest": "602164325b6eed3a3a843d5fdf4648a38803a086bf3368bf9649ae9c6f84a836",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"Tenang primarily expresses calmness or tranquility in Indonesian, while senyap specifically expresses absence of noise.\"], \"material_concerns\": [\"The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence.\"], \"rationale\": \"Senyap directly fits making little or no noise, but tenang more centrally means calm or tranquil. A concise cue rewrite cannot preserve the same concept for both answers.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The proposed cue is not safely aligned: tenang is not a precise equivalent of senyap for the sound-related sense.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"sunyi\", \"language\": \"indonesian\", \"rationale\": \"Sunyi is a more direct Indonesian competitor for the absence-of-noise sense, whereas tenang is chiefly associated with calmness.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Tenang primarily expresses calmness or tranquility in Indonesian, while senyap specifically expresses absence of noise."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The proposed cue is not safely aligned: tenang is not a precise equivalent of senyap for the sound-related sense.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "sunyi",
+        "language": "indonesian",
+        "rationale": "Sunyi is a more direct Indonesian competitor for the absence-of-noise sense, whereas tenang is chiefly associated with calmness.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Senyap directly fits making little or no noise, but tenang more centrally means calm or tranquil. A concise cue rewrite cannot preserve the same concept for both answers.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Tenang primarily expresses calmness or tranquility in Indonesian, while senyap specifically expresses absence of noise."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The proposed cue is not safely aligned: tenang is not a precise equivalent of senyap for the sound-related sense.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "sunyi",
+      "language": "indonesian",
+      "rationale": "Sunyi is a more direct Indonesian competitor for the absence-of-noise sense, whereas tenang is chiefly associated with calmness.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Senyap directly fits making little or no noise, but tenang more centrally means calm or tranquil. A concise cue rewrite cannot preserve the same concept for both answers.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "a0fce6d468095c52aa7859ddb9db223e6e4c739aac81f503a86977c0708c977a"
+}

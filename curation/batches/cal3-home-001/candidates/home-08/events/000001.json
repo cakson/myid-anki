@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T11:27:24.014268+00:00",
+  "input_digest": "3a7d650d362be1e2e85d9a7f0e2992394ac9cca04bcdf18cd8ae1470601124ac",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-food-001:food-10\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"A shopping bag is a bag for carrying purchases; a shopping basket is a different container type.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-10",
+          "rationale": "A shopping bag is a bag for carrying purchases; a shopping basket is a different container type.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-food-001:food-10",
+        "rationale": "A shopping bag is a bag for carrying purchases; a shopping basket is a different container type.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "ae70768d293a2fdcac96b590b2789056da133568c504e35073d1b35aa887546c"
+}

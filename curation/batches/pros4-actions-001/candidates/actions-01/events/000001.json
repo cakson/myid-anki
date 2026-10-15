@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T16:22:29.497460+00:00",
+  "input_digest": "a81cb87b8a749967b76e7aae1cb2b56cc015840cf7f26a6cf04280d062111604",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-001:transportation-03\", \"type\": \"semantic_duplicate\", \"resolution\": \"reject\", \"rationale\": \"Both mean riding a bicycle; the candidate is an alternate verb label for the historical bicycle concept.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-03",
+          "rationale": "Both mean riding a bicycle; the candidate is an alternate verb label for the historical bicycle concept.",
+          "resolution": "reject",
+          "type": "semantic_duplicate"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-001:transportation-03",
+        "rationale": "Both mean riding a bicycle; the candidate is an alternate verb label for the historical bicycle concept.",
+        "resolution": "reject",
+        "type": "semantic_duplicate"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "0e836771366c2786b5d29e0f0dc9f1f3ac7b8e34f28cb8b6f6d359d0c49abbe8"
+}

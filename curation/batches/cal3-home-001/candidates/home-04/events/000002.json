@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-14T11:30:03.993591+00:00",
+  "input_digest": "7c9204ceef1c94bc84851d5d0120a9bf7bcf57c5cc50ce6510cfd68197d245cc",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Indonesian answer is broader than the English cue: sandal normally covers open sandals generally, whereas slippers are a narrower footwear type.\"], \"material_concerns\": [\"The pair mismatches a subtype with a broader category; selipar fits slippers more closely than sandal does.\"], \"rationale\": \"Selipar can mean slippers, but sandal is not a precise equivalent for the neutral English cue slippers. Rewriting the cue to casual open footwear would change the concept materially.\", \"affirmative_defect\": \"category-subtype-mismatch\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The English cue cannot be narrowed without changing slippers into a broader open-footwear concept that would no longer preserve the original sense.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"substantial\", \"risk_rationale\": \"Learners could acquire sandal as an equivalent of slippers even though it commonly denotes the broader category.\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"sandal rumah\", \"language\": \"indonesian\", \"rationale\": \"Sandal rumah is a more specific Indonesian expression for house slippers than bare sandal.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "category-subtype-mismatch",
+      "concerns": [
+        "The Indonesian answer is broader than the English cue: sandal normally covers open sandals generally, whereas slippers are a narrower footwear type."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The English cue cannot be narrowed without changing slippers into a broader open-footwear concept that would no longer preserve the original sense.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair mismatches a subtype with a broader category; selipar fits slippers more closely than sandal does."
+      ],
+      "nonblocking_risk": "substantial",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "sandal rumah",
+        "language": "indonesian",
+        "rationale": "Sandal rumah is a more specific Indonesian expression for house slippers than bare sandal.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Selipar can mean slippers, but sandal is not a precise equivalent for the neutral English cue slippers. Rewriting the cue to casual open footwear would change the concept materially.",
+      "relation": "different-common-word",
+      "risk_rationale": "Learners could acquire sandal as an equivalent of slippers even though it commonly denotes the broader category.",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "category-subtype-mismatch",
+    "concerns": [
+      "The Indonesian answer is broader than the English cue: sandal normally covers open sandals generally, whereas slippers are a narrower footwear type."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The English cue cannot be narrowed without changing slippers into a broader open-footwear concept that would no longer preserve the original sense.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair mismatches a subtype with a broader category; selipar fits slippers more closely than sandal does."
+    ],
+    "nonblocking_risk": "substantial",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "sandal rumah",
+      "language": "indonesian",
+      "rationale": "Sandal rumah is a more specific Indonesian expression for house slippers than bare sandal.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Selipar can mean slippers, but sandal is not a precise equivalent for the neutral English cue slippers. Rewriting the cue to casual open footwear would change the concept materially.",
+    "relation": "different-common-word",
+    "risk_rationale": "Learners could acquire sandal as an equivalent of slippers even though it commonly denotes the broader category.",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "ecbf63363020de2551baefbc5e585f110368b2743930c2c7d968f91bb8030bf8"
+}

@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-14T11:32:28.402924+00:00",
+  "input_digest": "828c39085a0741e474d0076437978a2836eb0d83275333ce02b33a249cc92461",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian answer does not reliably express influenza; “selesema” ordinarily refers to a common cold.\"], \"material_concerns\": [\"The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers.\"], \"rationale\": \"Indonesian “flu” fits influenza, but Malaysian “selesema” commonly means a cold rather than influenza. Malaysian Malay ordinarily uses “influenza” or sometimes “flu” for the intended illness.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The English cue can be narrowed to influenza, but then Malaysian “selesema” no longer reliably fits.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"“Flu” is also an ordinary form in Malaysian usage for influenza, so the proposed national preference is not dependable.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"flu\", \"language\": \"both\", \"rationale\": \"“Flu” is plausibly ordinary in both varieties for influenza, weakening the proposed Indonesian–Malaysian contrast.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malaysian answer does not reliably express influenza; “selesema” ordinarily refers to a common cold."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The English cue can be narrowed to influenza, but then Malaysian “selesema” no longer reliably fits.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "flu",
+        "language": "both",
+        "rationale": "“Flu” is plausibly ordinary in both varieties for influenza, weakening the proposed Indonesian–Malaysian contrast.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Indonesian “flu” fits influenza, but Malaysian “selesema” commonly means a cold rather than influenza. Malaysian Malay ordinarily uses “influenza” or sometimes “flu” for the intended illness.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "“Flu” is also an ordinary form in Malaysian usage for influenza, so the proposed national preference is not dependable.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malaysian answer does not reliably express influenza; “selesema” ordinarily refers to a common cold."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The English cue can be narrowed to influenza, but then Malaysian “selesema” no longer reliably fits.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "flu",
+      "language": "both",
+      "rationale": "“Flu” is plausibly ordinary in both varieties for influenza, weakening the proposed Indonesian–Malaysian contrast.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Indonesian “flu” fits influenza, but Malaysian “selesema” commonly means a cold rather than influenza. Malaysian Malay ordinarily uses “influenza” or sometimes “flu” for the intended illness.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "“Flu” is also an ordinary form in Malaysian usage for influenza, so the proposed national preference is not dependable.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "9003ccd6e5ecdd5f39ecfa7ca9dbbc4e36da64b318e8ccc79c954b6227ae4cf5"
+}

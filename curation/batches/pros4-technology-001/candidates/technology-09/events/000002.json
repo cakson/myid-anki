@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-14T16:26:16.333976+00:00",
+  "input_digest": "abf3a2e3ed0c4d6b6ba267b80c9ffac71ef12fcc802028633bc0e6b4ec5149c9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The bare English word “resume” is ambiguous between a verb and a document; the cue needs narrowing.\"], \"material_concerns\": [], \"rationale\": \"With the cue narrowed to a résumé or job-application document, both forms fit: Indonesian uses “riwayat hidup,” while Malaysian uses “resume.”\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"résumé (job-application document)\", \"cue_rationale\": \"The rewrite removes the verb/document ambiguity while preserving the intended employment-document sense.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"“CV” is an ordinary alternative in both countries, but Indonesian “riwayat hidup” and Malaysian “resume” remain credible contextual preferences, so the contrast is useful rather than exclusive.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"“CV” may be preferred in some employment contexts in both countries, especially formal or international settings.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"CV\", \"language\": \"both\", \"rationale\": \"“CV” is a plausible everyday alternative for the same employment-document sense in both varieties.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The bare English word “resume” is ambiguous between a verb and a document; the cue needs narrowing."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The rewrite removes the verb/document ambiguity while preserving the intended employment-document sense.",
+      "cue_rewrite": "résumé (job-application document)",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "CV",
+        "language": "both",
+        "rationale": "“CV” is a plausible everyday alternative for the same employment-document sense in both varieties.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "With the cue narrowed to a résumé or job-application document, both forms fit: Indonesian uses “riwayat hidup,” while Malaysian uses “resume.”",
+      "relation": "different-common-word",
+      "risk_rationale": "“CV” may be preferred in some employment contexts in both countries, especially formal or international settings.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“CV” is an ordinary alternative in both countries, but Indonesian “riwayat hidup” and Malaysian “resume” remain credible contextual preferences, so the contrast is useful rather than exclusive.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The bare English word “resume” is ambiguous between a verb and a document; the cue needs narrowing."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The rewrite removes the verb/document ambiguity while preserving the intended employment-document sense.",
+    "cue_rewrite": "résumé (job-application document)",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "CV",
+      "language": "both",
+      "rationale": "“CV” is a plausible everyday alternative for the same employment-document sense in both varieties.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "With the cue narrowed to a résumé or job-application document, both forms fit: Indonesian uses “riwayat hidup,” while Malaysian uses “resume.”",
+    "relation": "different-common-word",
+    "risk_rationale": "“CV” may be preferred in some employment contexts in both countries, especially formal or international settings.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“CV” is an ordinary alternative in both countries, but Indonesian “riwayat hidup” and Malaysian “resume” remain credible contextual preferences, so the contrast is useful rather than exclusive.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "8c2ebac99ce0d553bb58e8595e59ce982bef067a2fc9f52e0e84549c0abb1bbc"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-14T11:27:24.020381+00:00",
+  "input_digest": "084bd5f19a1093bed8073b04b976aaa79d08352a1fb41fb1c438ef369da3f211",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"gpt-5.6-luna\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-10\", \"type\": \"semantic-near-match\", \"resolution\": \"distinct\", \"rationale\": \"Laundry detergent is a cleaning product; laundry service is a service for washing clothes.\"}]}}",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-10",
+          "rationale": "Laundry detergent is a cleaning product; laundry service is a service for washing clothes.",
+          "resolution": "distinct",
+          "type": "semantic-near-match"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-10",
+        "rationale": "Laundry detergent is a cleaning product; laundry service is a service for washing clothes.",
+        "resolution": "distinct",
+        "type": "semantic-near-match"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "54bcec57b731af098586951b216197964d8f9bce3da1037111e8f92d9d2f9e7f"
+}
