@@ -1,0 +1,686 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 68.49,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13852,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2339,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 67.407,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13781,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2887,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 4.022,
+      "error_summary": "",
+      "exit_code": 1,
+      "input_tokens": null,
+      "model": "gpt-5.6-sol",
+      "output_tokens": null,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "failed"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 58.978,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal2-shopping-001:shopping-04",
+        "cal2-shopping-001:shopping-05",
+        "cal2-shopping-001:shopping-06",
+        "cal2-shopping-001:shopping-07",
+        "cal2-shopping-001:shopping-08"
+      ],
+      "group_retry": 0,
+      "input_tokens": 15056,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2116,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 61.922,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal2-shopping-001:shopping-09",
+        "cal2-shopping-001:shopping-10",
+        "cal2-social-001:social-01",
+        "cal2-social-001:social-02",
+        "cal2-social-001:social-03"
+      ],
+      "group_retry": 0,
+      "input_tokens": 13841,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2226,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 87.567,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal2-social-001:social-04",
+        "cal2-social-001:social-05",
+        "cal2-social-001:social-06",
+        "cal2-social-001:social-07",
+        "cal2-social-001:social-09"
+      ],
+      "group_retry": 0,
+      "input_tokens": 13843,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 3311,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 47.554,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal2-travel-001:travel-01",
+        "cal2-travel-001:travel-02",
+        "cal2-travel-001:travel-04",
+        "cal2-travel-001:travel-05",
+        "cal2-travel-001:travel-06"
+      ],
+      "group_retry": 0,
+      "input_tokens": 13771,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1774,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 51.969,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal2-travel-001:travel-08",
+        "cal2-travel-001:travel-09",
+        "cal2-travel-001:travel-10",
+        "cal2-work-001:work-01",
+        "cal2-work-001:work-03"
+      ],
+      "group_retry": 0,
+      "input_tokens": 13859,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1959,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "second-fresh-audit",
+      "elapsed_seconds": 63.161,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal2-work-001:work-04",
+        "cal2-work-001:work-05",
+        "cal2-work-001:work-07",
+        "cal2-work-001:work-08",
+        "cal2-work-001:work-10"
+      ],
+      "group_retry": 0,
+      "input_tokens": 15142,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2315,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-14T08:10:49.885911+00:00",
+  "model": "gpt-5.6-sol",
+  "results": {
+    "cal2-daily-001:daily-01": {
+      "candidate_ref": "cal2-daily-001:daily-01",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Indonesian sapu and Malaysian Malay penyapu are natural ordinary nouns for a broom. The contrast is useful even though sapu is also intelligible in Malaysia and penyapu may be understood in Indonesia; the card does not claim exclusivity.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-daily-001:daily-02": {
+      "candidate_ref": "cal2-daily-001:daily-02",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "State that everyday Malaysian paip often covers the tap metonymically, while pili or kepala paip names the flow-controlling fixture more exactly; preference varies by context and register.",
+        "malaysian": "pili"
+      },
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Keran is the normal Indonesian answer. Malaysian speakers commonly use paip in expressions such as opening or closing the tap, but paip also primarily denotes the pipe or water outlet more broadly; pili or kepala paip is more exact for the flow-controlling fixture. The current cue is slightly more precise than the Malaysian answer.",
+      "relation": "different-common-word-with-sense-width-mismatch",
+      "verdict": "minor-correction"
+    },
+    "cal2-daily-001:daily-03": {
+      "candidate_ref": "cal2-daily-001:daily-03",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Explain the kitchen-versus-bathroom scope risk: Indonesian wastafel is narrower than generic English sink, while Malaysian sinki has broader household use.",
+        "english": "washbasin",
+        "sense": "A fixed basin, especially in a bathroom, used for washing the hands or face.",
+        "tags": [
+          "household-items",
+          "bathroom"
+        ]
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both words are natural, but their usual ranges are not perfectly parallel. Indonesian wastafel most readily means a washbasin for washing hands or the face, especially in a bathroom, whereas Malaysian sinki readily includes a kitchen sink. The broad English cue may wrongly teach wastafel as the ordinary Indonesian term for every kind of sink.",
+      "relation": "different-common-word-with-scope-mismatch",
+      "verdict": "minor-correction"
+    },
+    "cal2-daily-001:daily-04": {
+      "candidate_ref": "cal2-daily-001:daily-04",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Sakelar and suis are natural ordinary terms for an electrical switch in Indonesian and Malaysian Malay respectively, and both apply straightforwardly to a light switch. The contrast is meaningful without implying that the nouns are limited to lighting.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-daily-001:daily-05": {
+      "candidate_ref": "cal2-daily-001:daily-05",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Acknowledge register variation and widespread English-based usage in both varieties; penyedut hampagas is formal terminology rather than an uncomplicated everyday replacement.",
+        "malaysian": "Remove pembersih vakum as the asserted ordinary national counterpart.",
+        "verified_relation": "Do not classify as different-common-word without evidence establishing a genuinely preferred everyday Malaysian term."
+      },
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Penyedot debu is natural Indonesian, but pembersih vakum is not a secure preferred everyday Malaysian counterpart and sounds like a localized descriptive calque. Malaysian usage varies among vacuum cleaner, vakum or mesin vakum, and the more formal penyedut hampagas. Because English-based forms are also common in Indonesia, the proposed pair creates an artificial national contrast.",
+      "relation": "unsupported-or-artificial-national-contrast",
+      "verdict": "should-reject"
+    },
+    "cal2-daily-001:daily-07": {
+      "candidate_ref": "cal2-daily-001:daily-07",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Mention the common informal Indonesian variant “sprei” and the important false-friend risk that Indonesian “cadar” normally means a face veil; avoid implying substantial regional synonym overlap without evidence."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Seprai” is standard and natural Indonesian, while “cadar” is the normal Malaysian Malay term for a bedsheet. The contrast is useful because Indonesian “cadar” ordinarily refers to a face veil. Informal Indonesian frequently spells or pronounces “seprai” as “sprei,” but that does not invalidate the standard headword.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-daily-001:daily-09": {
+      "candidate_ref": "cal2-daily-001:daily-09",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "State that “menggosok baju” is a common colloquial Malaysian expression while “menyeterika” is also normal; the distinction is one of everyday preference, not separate lexical availability.",
+        "malaysian": "menggosok baju",
+        "verified_relation": "different-common-expression"
+      },
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The contrast reflects a real preference: Indonesian commonly uses “menyetrika,” whereas Malaysian Malay commonly uses “menggosok baju/pakaian.” However, “menggosok baju” is the more everyday Malaysian phrasing, and Malaysian “menyeterika” is also a normal direct term, so the national contrast is preferential rather than exclusive.",
+      "relation": "different-common-expression (non-exclusive preference)",
+      "verdict": "minor-correction"
+    },
+    "cal2-daily-001:daily-10": {
+      "candidate_ref": "cal2-daily-001:daily-10",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "confidence_rationale": "Retain the packing ambiguity warning and explain that an explicit room or home object is what secures the intended Malaysian sense.",
+        "indonesian": "merapikan rumah/kamar",
+        "malaysian": "mengemas rumah/bilik"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both answers work in the stated household context, and Malaysian “mengemas” commonly means tidying a room or home. On its own, however, “mengemas” can also mean packing, while Indonesian “merapikan” is transitive and means making something neat. Including household objects makes the intended sense more robust and keeps the comparison parallel.",
+      "relation": "different-common-expression (context-dependent)",
+      "verdict": "minor-correction"
+    },
+    "cal2-shopping-001:shopping-02": {
+      "candidate_ref": "cal2-shopping-001:shopping-02",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Describe this as the regular Indonesian “uang” versus Malaysian Malay “wang” regional-form contrast, not merely a preference between unrelated common words.",
+        "verified_relation": "cognate-regional-form-difference"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Uang tunai” and “wang tunai” are exact, natural equivalents. The difference is real and useful, but “uang” and “wang” are closely related regional forms rather than wholly different lexical choices, so the stated relation is imprecise.",
+      "relation": "cognate regional-form difference",
+      "verdict": "minor-correction"
+    },
+    "cal2-shopping-001:shopping-03": {
+      "candidate_ref": "cal2-shopping-001:shopping-03",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Indonesian “kembalian” and Malaysian Malay “baki” are ordinary terms for money returned after payment. Malaysian “baki” has the broader sense of a remainder or balance, but the payment cue makes the intended meaning clear. The pair provides a genuine and useful lexical contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-shopping-001:shopping-04": {
+      "candidate_ref": "cal2-shopping-001:shopping-04",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Antrean” is the ordinary Indonesian noun for a queue, while Malaysian Malay naturally uses “barisan” for the line of people and “beratur” for the act of queuing. Although “barisan” is broader than “queue,” the stated sense supplies the necessary waiting context, so the contrast remains useful.",
+      "relation": "different-common-word with a specificity difference",
+      "verdict": "confirmed-good"
+    },
+    "cal2-shopping-001:shopping-05": {
+      "candidate_ref": "cal2-shopping-001:shopping-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both forms naturally express a demand or statement of payment in the specified varieties. Indonesian also has context-specific alternatives such as “bon,” especially in restaurants, but that does not undermine the broad “tagihan” versus “bil” contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-shopping-001:shopping-06": {
+      "candidate_ref": "cal2-shopping-001:shopping-06",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "alternative_card": "If “bayaran” is retained, create a separately researched card with a narrower amount/fee sense and replace the Indonesian answer with the term appropriate to that exact cue.",
+        "malaysian": "pembayaran",
+        "sense": "the act or process of paying for something",
+        "verified_relation": "same-common-word"
+      },
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "The cue improperly combines the act of paying with the amount paid. Malaysian “pembayaran” is entirely normal for the act or process of payment, while “bayaran” more readily denotes an amount, fee, remuneration, or payment made. Presenting “pembayaran” versus “bayaran” as a straightforward national contrast hides this semantic distinction and the shared Malaysian use of “pembayaran.”",
+      "relation": "sense-dependent overlap, not a reliable national lexical contrast",
+      "verdict": "should-reject"
+    },
+    "cal2-shopping-001:shopping-07": {
+      "candidate_ref": "cal2-shopping-001:shopping-07",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Pengiriman” is normal Indonesian shopping and logistics language for sending or delivering purchased goods, while “penghantaran” is the standard Malaysian counterpart in that context. Indonesian “pengantaran” also exists, but the listed pair still captures a real common preference rather than an absolute national restriction.",
+      "relation": "different common preference with overlapping alternatives",
+      "verdict": "confirmed-good"
+    },
+    "cal2-shopping-001:shopping-08": {
+      "candidate_ref": "cal2-shopping-001:shopping-08",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "“Layanan” is common Indonesian for a service made available to customers or users, while “perkhidmatan” is the ordinary Malaysian term. Indonesian “jasa” and “pelayanan” overlap in some contexts, so this is a usage preference rather than an exclusive national distinction.",
+        "sense": "a service or facility made available to customers or users"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Layanan” and “perkhidmatan” form a useful everyday contrast for customer-facing services. The current cue is slightly too centered on work performed, for which Indonesian “jasa” can be the more exact noun. A cue describing a service made available to customers or users fits “layanan” more directly. The rationale also says “customer-provided work,” reversing the intended provider–customer relationship.",
+      "relation": "different common preference, with Indonesian sense competition from “jasa” and “pelayanan”",
+      "verdict": "minor-correction"
+    },
+    "cal2-shopping-001:shopping-09": {
+      "candidate_ref": "cal2-shopping-001:shopping-09",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both phrases naturally denote a shopping mall or shopping centre and are characteristic localized choices. The contrast is preferential rather than exclusive because mal/mall is ordinary in both varieties, but it remains useful when presented that way.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-shopping-001:shopping-10": {
+      "candidate_ref": "cal2-shopping-001:shopping-10",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Jasa laundry is a common everyday Indonesian expression for a clothes-washing service, while perkhidmatan dobi is normal Malaysian Malay. English laundry terminology also occurs in Malaysia, so this is a non-exclusive regional preference, as the rationale acknowledges.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-social-001:social-01": {
+      "candidate_ref": "cal2-social-001:social-01",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Ramah is the ordinary Indonesian choice for a person with a friendly manner, and mesra is a natural Malaysian Malay equivalent. Both words cross regional boundaries, but their different default distributions create a meaningful preference contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-social-001:social-02": {
+      "candidate_ref": "cal2-social-001:social-02",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Khawatir and bimbang both accurately express worry or anxiety about a possible problem. Khawatir is strongly characteristic of ordinary Indonesian and bimbang is a common Malaysian Malay choice, despite some regional overlap.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-social-001:social-03": {
+      "candidate_ref": "cal2-social-001:social-03",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Dermawan is natural Indonesian for a generous person or disposition, especially generosity in giving, and pemurah is the usual Malaysian Malay adjective. Any slight giving-oriented nuance is compatible with the supplied sense, and the rationale appropriately notes cross-variety overlap.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-social-001:social-04": {
+      "candidate_ref": "cal2-social-001:social-04",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "indonesian": "bertemu / berjumpa",
+        "malaysian": "bertemu / berjumpa",
+        "presentation": "Do not present this as an Indonesian–Malaysian lexical contrast.",
+        "verified_relation": "shared-normal-synonyms"
+      },
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "Bertemu and berjumpa are both normal and common in both Indonesian and Malaysian Malay. Any preference difference is too weak to support a useful national contrast, especially with no comparative evidence.",
+      "relation": "shared-normal-synonyms/no-meaningful-national-contrast",
+      "verdict": "should-reject"
+    },
+    "cal2-social-001:social-05": {
+      "candidate_ref": "cal2-social-001:social-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Mengundang is the ordinary Indonesian verb for inviting someone, while menjemput is a characteristic and natural Malaysian Malay choice. The additional Malaysian sense of menjemput, 'to pick someone up,' does not invalidate the invitation sense.",
+      "relation": "different-common-word-with-asymmetric-polysemy",
+      "verdict": "confirmed-good"
+    },
+    "cal2-social-001:social-06": {
+      "candidate_ref": "cal2-social-001:social-06",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "english": "to visit someone who is ill",
+        "indonesian": "menjenguk",
+        "malaysian": "melawat",
+        "sense": "to go to see someone who is ill",
+        "verified_relation": "different-common-word"
+      },
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "Melawat is not a clean Malaysian equivalent of socially visiting someone: it is especially associated with visiting a sick person and can sound more formal or purpose-specific. Malaysian Malay also uses berkunjung, so the proposed national contrast is artificial for the stated broad social sense.",
+      "relation": "contextually-mismatched-overlapping-vocabulary",
+      "verdict": "materially-misleading"
+    },
+    "cal2-social-001:social-07": {
+      "candidate_ref": "cal2-social-001:social-07",
+      "confidence_rationale_adequate": false,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Nongkrong and lepak are strongly characteristic everyday informal choices in Indonesian and Malaysian Malay respectively. Both can also suggest lingering, lounging, or loitering, but the stated social 'hang out' sense is central and the contrast is useful.",
+      "relation": "different-common-informal-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-social-001:social-09": {
+      "candidate_ref": "cal2-social-001:social-09",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Percaya diri is the usual Indonesian expression for being self-confident, while yakin diri is a valid Malaysian Malay expression. Malaysian usage also commonly has yakin, keyakinan diri, and yakin pada diri sendiri depending on sentence structure, so this is a preferred-expression contrast rather than an exclusive lexical division."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Percaya diri versus yakin diri is a recognizable and useful regional contrast, and yakin diri is valid Malaysian Malay. The rationale describes its risk imprecisely: the relevant issue is that Malaysian speakers also commonly use yakin, keyakinan diri, or a fuller construction such as yakin pada diri sendiri, with the preferred form depending on syntax.",
+      "relation": "different-common-expression-with-normal-alternatives",
+      "verdict": "minor-correction"
+    },
+    "cal2-travel-001:travel-01": {
+      "candidate_ref": "cal2-travel-001:travel-01",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Pesawat is the usual concise Indonesian term, while kapal terbang is a usual Malaysian Malay term. The contrast represents everyday preference rather than exclusive vocabulary: longer pesawat-based expressions and kapal terbang may be understood across varieties."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Pesawat is the normal everyday Indonesian choice and kapal terbang is a normal everyday Malaysian Malay choice for an airplane. The localized preference is useful, although neither expression is strictly confined to one country. The rationale's reference to an English borrowing does not identify the real uncertainty, which is cross-variety availability of Malay/Indonesian alternatives such as pesawat terbang and pesawat udara.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-travel-001:travel-02": {
+      "candidate_ref": "cal2-travel-001:travel-02",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Halte is the ordinary Indonesian term and perhentian bas is a natural Malaysian Malay term for a bus stop. Malaysian hentian bas is also normal, but that does not invalidate the proposed answer or the meaningful localized contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-travel-001:travel-04": {
+      "candidate_ref": "cal2-travel-001:travel-04",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Kemacetan and kesesakan lalu lintas are natural standard nouns for traffic congestion in Indonesian and Malaysian Malay. For conversational “traffic jam,” Indonesian commonly uses macet, while Malaysian speech often uses jem or jalan sesak; the contrast therefore depends partly on register.",
+        "english": "traffic congestion"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both translations are semantically correct, but they align more precisely with the noun “traffic congestion” than with conversational “traffic jam.” In everyday speech, Indonesian macet and Malaysian Malay jem or jalan sesak are highly salient, so calling the proposed pair an unqualified ordinary-form contrast overstates its conversational naturalness.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "cal2-travel-001:travel-05": {
+      "candidate_ref": "cal2-travel-001:travel-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Jadwal and jadual are the standard respective spellings, both naturally covering a transport schedule or timetable. The close-form relation and the rationale are accurate, and the spelling contrast is useful to learners.",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "cal2-travel-001:travel-06": {
+      "candidate_ref": "cal2-travel-001:travel-06",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Kedatangan is the usual Indonesian noun for arrival, while ketibaan is a characteristic Malaysian Malay choice in travel and transport contexts. Malaysian Malay also uses kedatangan normally, especially for a person's coming or arrival, so the contrast is contextual rather than exclusive."
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Kedatangan is natural Indonesian and ketibaan is especially natural Malaysian Malay in travel and transport contexts such as arrivals. The contrast is useful for the narrowed sense, though Malaysian Malay also normally uses kedatangan in broader contexts, so this is a contextual preference rather than a categorical national split.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-travel-001:travel-08": {
+      "candidate_ref": "cal2-travel-001:travel-08",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both expressions are natural, ordinary translations of a ticket valid for one direction only. Indonesian also commonly uses “tiket satu arah,” but that does not invalidate the useful contrast with Malaysian “tiket sehala.”",
+      "relation": "different-common-expression",
+      "verdict": "confirmed-good"
+    },
+    "cal2-travel-001:travel-09": {
+      "candidate_ref": "cal2-travel-001:travel-09",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Tiket pulang-pergi” and “tiket pergi balik” are natural respective forms and match travel to a destination and back. The card presents a meaningful everyday regional contrast despite the existence of variants.",
+      "relation": "different-common-expression",
+      "verdict": "confirmed-good"
+    },
+    "cal2-travel-001:travel-10": {
+      "candidate_ref": "cal2-travel-001:travel-10",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "learner_card": "Remove this contrast card, or redesign it around a demonstrably variety-specific road term.",
+        "verified_relation": "shared-normal-synonyms"
+      },
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Both “simpang” and “persimpangan” are normal road-junction terms across the two varieties. Indonesian commonly uses “simpang,” especially in “simpang tiga/empat,” while Malaysian Malay also uses “persimpangan.” Without comparative usage evidence, presenting these as the respective national answers creates an artificial contrast.",
+      "relation": "shared-normal-synonyms-with-possible-preference",
+      "verdict": "should-reject"
+    },
+    "cal2-work-001:work-01": {
+      "candidate_ref": "cal2-work-001:work-01",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Rekan kerja” is ordinary Indonesian and “rakan sekerja” is ordinary Malaysian Malay for a person who works with someone. The spelling difference and kerja/sekerja formation provide a real, useful contrast.",
+      "relation": "cognate-spelling-and-expression-contrast",
+      "verdict": "confirmed-good"
+    },
+    "cal2-work-001:work-03": {
+      "candidate_ref": "cal2-work-001:work-03",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Nilai is an ordinary Indonesian term for a school mark or score, while markah is the ordinary Malaysian Malay term. The English cue should specify a mark or score because Malaysian “grade” in the category or letter-grade sense is “gred.”",
+        "english": "mark / score",
+        "sense": "the points or numerical score received for schoolwork"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The translations form a useful contrast when the intended meaning is a mark or score. However, Malaysian Malay normally distinguishes “markah” from “gred”: “markah” is a score or marks awarded, whereas an actual grade category or letter grade is “gred.” The current English cue and broad reference to an evaluation leave that distinction unclear.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "cal2-work-001:work-04": {
+      "candidate_ref": "cal2-work-001:work-04",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The stated sense is a short recess, not a school holiday. Bare istirahat and rehat are natural, commonly understood answers, while waktu/jam istirahat and waktu rehat are fuller contextual forms. The preference contrast is meaningful despite limited cross-variety synonym overlap.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-work-001:work-05": {
+      "candidate_ref": "cal2-work-001:work-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Ruang guru and bilik guru are the conventional everyday names for a teachers' room in Indonesia and Malaysia respectively. The supplied sense correctly narrows English staff room to a school room used by teachers.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal2-work-001:work-07": {
+      "candidate_ref": "cal2-work-001:work-07",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "confidence_rationale": "Seragam is the usual Indonesian choice, while uniform is especially common in Malaysian Malay. This is a usage-preference contrast rather than an exclusive lexical difference: Malaysian Malay also has pakaian seragam, and Indonesian can also use the borrowing uniform.",
+        "verified_relation": "preferred-word-difference-with-shared-synonyms"
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both answers are natural and the preference difference is useful, but it is not a clean national vocabulary split. Uniform is used in Malaysian Malay, not merely Malaysian English, while pakaian seragam and sometimes seragam are also normal Malay; uniform also occurs in Indonesian. The rationale misidentifies the overlap.",
+      "relation": "preferred-word-difference-with-shared-synonyms",
+      "verdict": "minor-correction"
+    },
+    "cal2-work-001:work-08": {
+      "candidate_ref": "cal2-work-001:work-08",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "candidate.english": "submission deadline date",
+        "candidate.sense": "the final calendar date for submitting or completing something",
+        "candidate.tags": [
+          "work",
+          "education",
+          "time",
+          "formal-written"
+        ],
+        "confidence_rationale": "Tenggat waktu and tarikh akhir are usable localized expressions in relatively formal or written contexts, but they are not exclusive everyday national equivalents. Indonesian commonly also uses batas waktu or deadline, Malaysian Malay commonly uses deadline, and tarikh akhir specifically foregrounds a final date.",
+        "verified_relation": "register-sensitive-preference-with-shared-synonym"
+      },
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "The pair overstates an everyday national contrast. Tenggat waktu is relatively formal or editorial Indonesian, with batas waktu and the borrowing deadline widespread in ordinary usage. Tarikh akhir is natural Malaysian Malay when a final calendar date is meant, but it is less exact for a cue defined as the latest time, which may include an hour. Deadline itself is also common in both varieties. The rationale notices only the date/time mismatch and misses the larger register and shared-vocabulary risks.",
+      "relation": "register-sensitive-preference-with-shared-synonym",
+      "verdict": "materially-misleading"
+    },
+    "cal2-work-001:work-10": {
+      "candidate_ref": "cal2-work-001:work-10",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Sertifikat and sijil are the ordinary respective terms for an official document recording completion or achievement. The narrow sense avoids broader certificate-related document types, and the cross-variety contrast is clear and useful.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    }
+  },
+  "schema_version": 1,
+  "selected_refs": [
+    "cal2-daily-001:daily-01",
+    "cal2-daily-001:daily-02",
+    "cal2-daily-001:daily-03",
+    "cal2-daily-001:daily-04",
+    "cal2-daily-001:daily-05",
+    "cal2-daily-001:daily-07",
+    "cal2-daily-001:daily-09",
+    "cal2-daily-001:daily-10",
+    "cal2-shopping-001:shopping-02",
+    "cal2-shopping-001:shopping-03",
+    "cal2-shopping-001:shopping-04",
+    "cal2-shopping-001:shopping-05",
+    "cal2-shopping-001:shopping-06",
+    "cal2-shopping-001:shopping-07",
+    "cal2-shopping-001:shopping-08",
+    "cal2-shopping-001:shopping-09",
+    "cal2-shopping-001:shopping-10",
+    "cal2-social-001:social-01",
+    "cal2-social-001:social-02",
+    "cal2-social-001:social-03",
+    "cal2-social-001:social-04",
+    "cal2-social-001:social-05",
+    "cal2-social-001:social-06",
+    "cal2-social-001:social-07",
+    "cal2-social-001:social-09",
+    "cal2-travel-001:travel-01",
+    "cal2-travel-001:travel-02",
+    "cal2-travel-001:travel-04",
+    "cal2-travel-001:travel-05",
+    "cal2-travel-001:travel-06",
+    "cal2-travel-001:travel-08",
+    "cal2-travel-001:travel-09",
+    "cal2-travel-001:travel-10",
+    "cal2-work-001:work-01",
+    "cal2-work-001:work-03",
+    "cal2-work-001:work-04",
+    "cal2-work-001:work-05",
+    "cal2-work-001:work-07",
+    "cal2-work-001:work-08",
+    "cal2-work-001:work-10"
+  ],
+  "selection_policy": "all very-low, low and false friends; seeded 5 medium and 2 high",
+  "started_at_utc": "2026-10-14T02:14:49.746292+00:00"
+}

@@ -1,0 +1,1357 @@
+{
+  "schema_version": 1,
+  "sample_manifest": "specs/003-vocabulary-curation/historical-hold-sample.json",
+  "sample_size": 26,
+  "original_distribution": {
+    "accepted": 0,
+    "hold": 26,
+    "rejected": 0
+  },
+  "new_distribution": {
+    "accepted": 0,
+    "hold": 25,
+    "rejected": 1
+  },
+  "risk_distribution": {
+    "escalated": 13,
+    "not-assessed": 13
+  },
+  "new_model_calls": 10,
+  "new_evidence_retrievals": 0,
+  "failed_tool_attempts": 2,
+  "historical_usage_available": false,
+  "rows": [
+    {
+      "candidate_ref": "clothing-001:clothing-01",
+      "english": "trousers",
+      "indonesian": "celana",
+      "malaysian": "seluar",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "historical_candidate_stage_events": 8,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.973,
+      "observed_experiment_elapsed_ms": 2.973,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "clothing-001:clothing-02",
+      "english": "shoes",
+      "indonesian": "sepatu",
+      "malaysian": "kasut",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "historical_candidate_stage_events": 16,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.947,
+      "observed_experiment_elapsed_ms": 3.947,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "common-verbs-001:everyday-actions-01",
+      "english": "send",
+      "indonesian": "kirim",
+      "malaysian": "hantar",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "historical_candidate_stage_events": 6,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 1.846,
+      "observed_experiment_elapsed_ms": 1.846,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "communication-001:communication-01",
+      "english": "message",
+      "indonesian": "pesan",
+      "malaysian": "mesej",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "historical_candidate_stage_events": 12,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.943,
+      "observed_experiment_elapsed_ms": 2.943,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "communication-001:communication-03",
+      "english": "chat",
+      "indonesian": "obrolan",
+      "malaysian": "sembang",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-relation"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification",
+        "missing-stage:relation-proposal"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage"
+      ],
+      "historical_candidate_stage_events": 5,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 1.756,
+      "observed_experiment_elapsed_ms": 1.756,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "everyday-objects-001:everyday-objects-05",
+      "english": "eggplant",
+      "indonesian": "terong",
+      "malaysian": "terung",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "historical_candidate_stage_events": 10,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.787,
+      "observed_experiment_elapsed_ms": 2.787,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "everyday-objects-001:everyday-objects-06",
+      "english": "watermelon",
+      "indonesian": "semangka",
+      "malaysian": "tembikai",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal"
+      ],
+      "historical_candidate_stage_events": 8,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.205,
+      "observed_experiment_elapsed_ms": 2.205,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "food-001:foods-01",
+      "english": "lunch",
+      "indonesian": "makan siang",
+      "malaysian": "makan tengah hari",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-disagreement"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:adversarial-review",
+        "verifier-disagreement"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification"
+      ],
+      "historical_candidate_stage_events": 9,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.921,
+      "observed_experiment_elapsed_ms": 2.921,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "food-001:foods-04",
+      "english": "tasty",
+      "indonesian": "enak",
+      "malaysian": "sedap",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "regional-ambiguity",
+        "register-ambiguity",
+        "verifier-concern"
+      ],
+      "final_decision_reasons": [
+        "unresolved-adversarial-objection",
+        "verifier-concern"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ],
+      "historical_candidate_stage_events": 10,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.135,
+      "observed_experiment_elapsed_ms": 3.135,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "food-001:foods-06",
+      "english": "biscuit",
+      "indonesian": "biskuit",
+      "malaysian": "biskut",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "regional-ambiguity",
+        "register-ambiguity",
+        "verifier-concern"
+      ],
+      "final_decision_reasons": [
+        "unresolved-adversarial-objection",
+        "verifier-concern"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ],
+      "historical_candidate_stage_events": 10,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 2,
+      "new_verifier_call_count": 2,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 2,
+      "policy_replay_elapsed_ms": 3.072,
+      "observed_experiment_elapsed_ms": 12133.072,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 28803,
+      "new_output_tokens": 456,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 2,
+      "model_comparison_elapsed_ms": 12130.0,
+      "model_comparison_only": true
+    },
+    {
+      "candidate_ref": "health-001:health-01",
+      "english": "medicine (to treat illness)",
+      "indonesian": "obat",
+      "malaysian": "ubat",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:adversarial-review",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification"
+      ],
+      "historical_candidate_stage_events": 11,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.476,
+      "observed_experiment_elapsed_ms": 3.476,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "home-001:topic-02",
+      "english": "bedroom",
+      "indonesian": "kamar tidur",
+      "malaysian": "bilik tidur",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity"
+      ],
+      "final_decision_reasons": [
+        "unresolved-adversarial-objection"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ],
+      "historical_candidate_stage_events": 11,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 2,
+      "new_verifier_call_count": 2,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.233,
+      "observed_experiment_elapsed_ms": 12845.233,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 27053,
+      "new_output_tokens": 566,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 12842.0,
+      "model_comparison_only": true
+    },
+    {
+      "candidate_ref": "home-001:topic-03",
+      "english": "refrigerator",
+      "indonesian": "kulkas",
+      "malaysian": "peti sejuk",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-concern"
+      ],
+      "final_decision_reasons": [
+        "unresolved-adversarial-objection",
+        "verifier-concern"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ],
+      "historical_candidate_stage_events": 11,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 2,
+      "new_verifier_call_count": 2,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.358,
+      "observed_experiment_elapsed_ms": 24129.358,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 27345,
+      "new_output_tokens": 775,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 24126.0,
+      "model_comparison_only": true
+    },
+    {
+      "candidate_ref": "home-001:topic-04",
+      "english": "window",
+      "indonesian": "jendela",
+      "malaysian": "tingkap",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:adversarial-review",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification"
+      ],
+      "historical_candidate_stage_events": 10,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.005,
+      "observed_experiment_elapsed_ms": 3.005,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "home-001:topic-05",
+      "english": "trash can",
+      "indonesian": "tempat sampah",
+      "malaysian": "tong sampah",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "historical_candidate_stage_events": 9,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.517,
+      "observed_experiment_elapsed_ms": 2.517,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "home-001:topic-06",
+      "english": "bucket",
+      "indonesian": "ember",
+      "malaysian": "baldi",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-concern"
+      ],
+      "final_decision_reasons": [
+        "unresolved-adversarial-objection",
+        "verifier-concern"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ],
+      "historical_candidate_stage_events": 11,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.216,
+      "observed_experiment_elapsed_ms": 3.216,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "home-001:topic-08",
+      "english": "chair",
+      "indonesian": "kursi",
+      "malaysian": "kerusi",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-disagreement"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:adversarial-review",
+        "verifier-disagreement"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification"
+      ],
+      "historical_candidate_stage_events": 10,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.973,
+      "observed_experiment_elapsed_ms": 2.973,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "places-001:places-01",
+      "english": "office",
+      "indonesian": "kantor",
+      "malaysian": "pejabat",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "historical_candidate_stage_events": 7,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.375,
+      "observed_experiment_elapsed_ms": 3.375,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "produce-001:produce-03",
+      "english": "papaya",
+      "indonesian": "pepaya",
+      "malaysian": "betik",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-relation"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification",
+        "missing-stage:relation-proposal"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage"
+      ],
+      "historical_candidate_stage_events": 7,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.233,
+      "observed_experiment_elapsed_ms": 2.233,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "school-001:topic-05",
+      "english": "pencil",
+      "indonesian": "pensil",
+      "malaysian": "pensel",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "historical_candidate_stage_events": 9,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.191,
+      "observed_experiment_elapsed_ms": 3.191,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "school-001:topic-06",
+      "english": "eraser",
+      "indonesian": "penghapus",
+      "malaysian": "pemadam",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-relation"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:evidence-audit",
+        "missing-stage:independent-verification",
+        "missing-stage:relation-proposal"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage"
+      ],
+      "historical_candidate_stage_events": 7,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.253,
+      "observed_experiment_elapsed_ms": 2.253,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "technology-001:technology-07",
+      "english": "camera",
+      "indonesian": "kamera",
+      "malaysian": "kamera",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "rejected",
+      "raw_gate_outcome": "rejected",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "no-cross-language-difference",
+        "register-ambiguity",
+        "verifier-concern"
+      ],
+      "final_decision_reasons": [
+        "no-cross-language-difference"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ],
+      "historical_candidate_stage_events": 10,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 3.046,
+      "observed_experiment_elapsed_ms": 3.046,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "transportation-001:transportation-01",
+      "english": "car",
+      "indonesian": "mobil",
+      "malaysian": "kereta",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "rarity",
+        "register-ambiguity",
+        "verifier-concern"
+      ],
+      "final_decision_reasons": [
+        "unresolved-adversarial-objection",
+        "verifier-concern"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ],
+      "historical_candidate_stage_events": 19,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 2,
+      "new_verifier_call_count": 2,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 5.079,
+      "observed_experiment_elapsed_ms": 17693.079,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 31291,
+      "new_output_tokens": 529,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 17688.0,
+      "model_comparison_only": true
+    },
+    {
+      "candidate_ref": "transportation-001:transportation-04",
+      "english": "bus",
+      "indonesian": "bus",
+      "malaysian": "bas",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:adversarial-review",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification"
+      ],
+      "historical_candidate_stage_events": 21,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 4.581,
+      "observed_experiment_elapsed_ms": 4.581,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "transportation-001:transportation-06",
+      "english": "truck",
+      "indonesian": "truk",
+      "malaysian": "lori",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "not-assessed",
+      "fast_path_used": false,
+      "escalation_occurred": false,
+      "escalation_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:independent-verification"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit"
+      ],
+      "historical_candidate_stage_events": 15,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 0,
+      "new_verifier_call_count": 0,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 2.985,
+      "observed_experiment_elapsed_ms": 2.985,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 0,
+      "new_output_tokens": 0,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 0,
+      "model_comparison_only": false
+    },
+    {
+      "candidate_ref": "university-001:university-study-03",
+      "english": "scholarship",
+      "indonesian": "beasiswa",
+      "malaysian": "biasiswa",
+      "original_decision": "hold",
+      "original_reason_codes": [
+        "explicit-hold"
+      ],
+      "new_decision": "hold",
+      "raw_gate_outcome": "pending",
+      "risk_tier": "escalated",
+      "fast_path_used": false,
+      "escalation_occurred": true,
+      "escalation_reasons": [
+        "register-ambiguity",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "final_decision_reasons": [
+        "missing-stage:adversarial-review",
+        "verifier-concern",
+        "verifier-disagreement"
+      ],
+      "reused_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification"
+      ],
+      "historical_candidate_stage_events": 17,
+      "new_evidence_retrieval_count": 0,
+      "new_model_call_count": 2,
+      "new_verifier_call_count": 2,
+      "new_adversarial_review_count": 0,
+      "new_retry_count": 0,
+      "policy_replay_elapsed_ms": 5.299,
+      "observed_experiment_elapsed_ms": 11235.299,
+      "full_curation_elapsed_ms": null,
+      "historical_evidence_retrieval_count": null,
+      "historical_model_call_count": null,
+      "historical_verifier_call_count": null,
+      "historical_adversarial_review_count": null,
+      "historical_retry_count": null,
+      "new_input_tokens": 32271,
+      "new_output_tokens": 451,
+      "approximate_cost": null,
+      "failed_tool_attempt_count": 0,
+      "model_comparison_elapsed_ms": 11230.0,
+      "model_comparison_only": true
+    }
+  ]
+}

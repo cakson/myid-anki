@@ -1,0 +1,511 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "final-calibration-audit",
+      "elapsed_seconds": 14.208,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal3-actions-001:actions-02",
+        "cal3-actions-001:actions-05",
+        "cal3-actions-001:actions-06",
+        "cal3-actions-001:actions-07",
+        "cal3-food-001:food-02"
+      ],
+      "group_retry": 0,
+      "input_tokens": 12340,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1579,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "final-calibration-audit",
+      "elapsed_seconds": 14.786,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal3-food-001:food-05",
+        "cal3-food-001:food-08",
+        "cal3-food-001:food-09",
+        "cal3-health-001:health-05",
+        "cal3-health-001:health-06"
+      ],
+      "group_retry": 0,
+      "input_tokens": 12321,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1616,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "final-calibration-audit",
+      "elapsed_seconds": 11.081,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal3-health-001:health-08",
+        "cal3-home-001:home-01",
+        "cal3-home-001:home-03",
+        "cal3-home-001:home-05",
+        "cal3-home-001:home-07"
+      ],
+      "group_retry": 0,
+      "input_tokens": 12369,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 992,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "final-calibration-audit",
+      "elapsed_seconds": 18.671,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal3-home-001:home-08",
+        "cal3-home-001:home-10",
+        "cal3-technology-001:technology-01",
+        "cal3-technology-001:technology-02",
+        "cal3-technology-001:technology-05"
+      ],
+      "group_retry": 0,
+      "input_tokens": 13573,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2101,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "final-calibration-audit",
+      "elapsed_seconds": 15.027,
+      "error_summary": null,
+      "exit_code": 0,
+      "group_refs": [
+        "cal3-technology-001:technology-06",
+        "cal3-technology-001:technology-09",
+        "cal3-technology-001:technology-10"
+      ],
+      "group_retry": 0,
+      "input_tokens": 11941,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1390,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-14T11:35:00.002220+00:00",
+  "model": "gpt-5.6-luna",
+  "results": {
+    "cal3-actions-001:actions-02": {
+      "candidate_ref": "cal3-actions-001:actions-02",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Mengerti is a very natural Indonesian choice and faham is a very natural Malaysian Malay choice for grasping meaning. Both alternatives occur across varieties, but the preference contrast is meaningful and the cue is accurate.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-actions-001:actions-05": {
+      "candidate_ref": "cal3-actions-001:actions-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Berangkat is everyday Indonesian, while bertolak is a natural Malaysian Malay choice for leaving or setting off. The forms overlap regionally, but the contrast remains useful and the stated register risk is real.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-actions-001:actions-06": {
+      "candidate_ref": "cal3-actions-001:actions-06",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Menyalakan is a natural Indonesian term for turning on a device or light, while menghidupkan is highly natural in Malaysian Malay. Cross-variety use exists, but this is a meaningful everyday preference contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-actions-001:actions-07": {
+      "candidate_ref": "cal3-actions-001:actions-07",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Buru-buru is strongly natural in Indonesian and tergesa-gesa is natural in Malaysian Malay for acting in a hurry. Both forms are understood and used across varieties, but the preference contrast is still useful for learners.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-food-001:food-02": {
+      "candidate_ref": "cal3-food-001:food-02",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "learner_answer": {
+          "malaysian": "straw"
+        },
+        "metadata": {
+          "tags": [
+            "drinkware",
+            "register-contrast"
+          ],
+          "verified_relation": "shared-common-word-or-register-contrast"
+        }
+      },
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "Sedotan is everyday Indonesian, but penyedut minuman is formal or standard Malaysian Malay rather than the most natural everyday Malaysian answer; straw is very common in ordinary Malaysian speech. The rationale acknowledges this but still presents the formal term as a useful default contrast, overstating its everyday status.",
+      "relation": "different-common-word",
+      "verdict": "materially-misleading"
+    },
+    "cal3-food-001:food-05": {
+      "candidate_ref": "cal3-food-001:food-05",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "learner_answer": {},
+        "learner_cue": {},
+        "metadata_only": {
+          "preference_risk.language": "Malaysian English/code-switching",
+          "preference_risk.rationale": "Chopping board may occur in Malaysian English, but it is not a competing Malaysian Malay answer; papan pemotong remains the Malay form."
+        }
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both answers fit the cue and are natural. Papan pemotong is valid Malaysian Malay, but chopping board is better characterized as Malaysian English/code-switching rather than a Malay synonym.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "cal3-food-001:food-08": {
+      "candidate_ref": "cal3-food-001:food-08",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "learner_answer": {},
+        "learner_cue": {},
+        "metadata_only": {}
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Panci and periuk are natural ordinary terms for a cooking pot in Indonesian and Malaysian Malay respectively. The cue is sufficiently specific and the contrast is meaningful.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-food-001:food-09": {
+      "candidate_ref": "cal3-food-001:food-09",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "learner_answer": {},
+        "learner_cue": {},
+        "metadata_only": {}
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Wadah makanan and bekas makanan are natural generic expressions for a food container. The noted box-type alternatives do not invalidate the answers.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-health-001:health-05": {
+      "candidate_ref": "cal3-health-001:health-05",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "learner_answer": {},
+        "learner_cue": {},
+        "metadata_only": {}
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Bekas luka is a normal Indonesian expression for a scar, while parut is the concise everyday Malaysian Malay term. The alternative bekas luka is descriptive but does not create a material mismatch.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-health-001:health-06": {
+      "candidate_ref": "cal3-health-001:health-06",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "learner_answer": {},
+        "learner_cue": {},
+        "metadata_only": {}
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Pingsan and pengsan are ordinary forms for fainting or briefly losing consciousness in Indonesian and Malaysian Malay. This is a useful national-form contrast despite the shared sense.",
+      "relation": "national-variant",
+      "verdict": "confirmed-good"
+    },
+    "cal3-health-001:health-08": {
+      "candidate_ref": "cal3-health-001:health-08",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Jelek is natural everyday Indonesian and hodoh is natural Malaysian Malay for unattractive appearance. Buruk is a broader shared alternative but does not erase the useful contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-home-001:home-01": {
+      "candidate_ref": "cal3-home-001:home-01",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Atap and bumbung are natural terms for a house roof in Indonesian and Malaysian Malay respectively. Atap is also understood and used in Malaysia, but bumbung is a meaningful Malaysian preference.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-home-001:home-03": {
+      "candidate_ref": "cal3-home-001:home-03",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Gantungan baju and penyangkut baju are natural, semantically matching terms for a clothes hanger. Hanger is a genuine shared casual alternative, appropriately identified as a nonblocking risk.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-home-001:home-05": {
+      "candidate_ref": "cal3-home-001:home-05",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Celemek is ordinary Indonesian, while apron is ordinary Malaysian Malay for a protective cooking garment. Apron also occurs in Indonesian, especially in service or professional contexts, but the contrast remains useful.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-home-001:home-07": {
+      "candidate_ref": "cal3-home-001:home-07",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Bohlam and mentol are natural, matching terms for a replaceable electric light source in Indonesian and Malaysian Malay. Lampu is a broader everyday term, not an exact competing synonym, so the rationale correctly treats it as nonexclusive.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-home-001:home-08": {
+      "candidate_ref": "cal3-home-001:home-08",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "learner_answer": {
+          "malaysian": "beg membeli-belah"
+        }
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The contrast is meaningful, and both forms are understandable and used, but Malaysian Malay more naturally favors \"beg membeli-belah\"; the supplied form is somewhat clipped.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "cal3-home-001:home-10": {
+      "candidate_ref": "cal3-home-001:home-10",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "metadata": {
+          "confidence_rationale": "State that the contrast is mainly spelling-based and that Malay everyday alternatives such as \"sabun basuh\" and \"serbuk pencuci\" also occur.",
+          "verified_relation": "orthographic-variant-with-register-competition"
+        }
+      },
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "\"Deterjen\" and \"detergen\" are valid Indonesian–Malaysian spelling contrasts, but this is primarily an orthographic variant rather than a different lexical choice; everyday Malay also uses terms such as \"sabun basuh\" or \"serbuk pencuci\".",
+      "relation": "orthographic-variant-with-register competition",
+      "verdict": "minor-correction"
+    },
+    "cal3-technology-001:technology-01": {
+      "candidate_ref": "cal3-technology-001:technology-01",
+      "confidence_rationale_adequate": true,
+      "corrections": {},
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "\"Berkas\" is a normal Indonesian term for a file, while \"fail\" is the normal Malay term in administrative, work, and digital contexts. Indonesian \"file\" is a real competing form but does not erase the contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-technology-001:technology-02": {
+      "candidate_ref": "cal3-technology-001:technology-02",
+      "confidence_rationale_adequate": true,
+      "corrections": {
+        "learner_answer": {
+          "accepted_alternative": "pencetak",
+          "malaysian": "printer",
+          "register_note": "Pencetak is more formal or localized."
+        },
+        "metadata": {
+          "verified_relation": "shared-common-word-with-formal-localized-alternative"
+        }
+      },
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "\"Pencetak\" is valid Malay, especially in formal or localized terminology, but \"printer\" is also a highly ordinary Malaysian Malay word. Presenting this as a clean national contrast risks rejecting a normal Malaysian answer.",
+      "relation": "shared-common-word-with-formal-localized-alternative",
+      "verdict": "materially-misleading"
+    },
+    "cal3-technology-001:technology-05": {
+      "candidate_ref": "cal3-technology-001:technology-05",
+      "confidence_rationale_adequate": false,
+      "corrections": {
+        "learner_answer": {
+          "accepted_alternatives": [
+            "USB drive",
+            "flash drive"
+          ],
+          "malaysian": "pendrive"
+        },
+        "metadata": {
+          "confidence_rationale": "Acknowledge that \"pemacu kilat\" is a formal/localized term rather than a dependable everyday Malaysian answer.",
+          "verified_relation": "shared-borrowing-and-regional-usage-variation"
+        }
+      },
+      "external_check_needed": false,
+      "material_false_positive": true,
+      "reason": "\"Flashdisk\" is ordinary Indonesian, but \"pemacu kilat\" is not a reliable everyday Malaysian counterpart. Malaysian speakers commonly use forms such as \"pendrive\", \"USB drive\", or \"flash drive\"; the proposed contrast is largely an artificial localization contrast.",
+      "relation": "shared-borrowing-and-regional-usage-variation",
+      "verdict": "should-reject"
+    },
+    "cal3-technology-001:technology-06": {
+      "candidate_ref": "cal3-technology-001:technology-06",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Masuk” is a normal concise Indonesian UI expression for logging in, while Malaysian Malay commonly uses “log masuk.” The shared form “login” is a real everyday competitor, and the rationale identifies that risk. The cue is appropriately narrowed to account access.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-technology-001:technology-09": {
+      "candidate_ref": "cal3-technology-001:technology-09",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Shift kerja” is ordinary Indonesian, while “syif kerja” is a natural Malaysian Malay localized form. The contrast is primarily spelling and borrowing preference rather than meaning, but it is a genuine and useful variety distinction. The rationale correctly notes that Malaysian workplace usage may retain English “shift.”",
+      "relation": "similar",
+      "verdict": "confirmed-good"
+    },
+    "cal3-technology-001:technology-10": {
+      "candidate_ref": "cal3-technology-001:technology-10",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "“Uang kuliah” is natural Indonesian for university tuition, and “yuran pengajian” is natural Malaysian Malay for study or tuition fees. “Biaya kuliah” is also common in Indonesian, but this is a shared synonym issue rather than a false contrast. The stated institutional-specificity concern is valid, though not important enough to undermine the card.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    }
+  },
+  "schema_version": 1,
+  "selected_refs": [
+    "cal3-actions-001:actions-02",
+    "cal3-actions-001:actions-05",
+    "cal3-actions-001:actions-06",
+    "cal3-actions-001:actions-07",
+    "cal3-food-001:food-02",
+    "cal3-food-001:food-05",
+    "cal3-food-001:food-08",
+    "cal3-food-001:food-09",
+    "cal3-health-001:health-05",
+    "cal3-health-001:health-06",
+    "cal3-health-001:health-08",
+    "cal3-home-001:home-01",
+    "cal3-home-001:home-03",
+    "cal3-home-001:home-05",
+    "cal3-home-001:home-07",
+    "cal3-home-001:home-08",
+    "cal3-home-001:home-10",
+    "cal3-technology-001:technology-01",
+    "cal3-technology-001:technology-02",
+    "cal3-technology-001:technology-05",
+    "cal3-technology-001:technology-06",
+    "cal3-technology-001:technology-09",
+    "cal3-technology-001:technology-10"
+  ],
+  "selection_policy": "all false friends, low, very-low and strong flags; seeded 2 medium and 1 high",
+  "selection_reasons": {
+    "cal3-actions-001:actions-02": [
+      "flag:shared-common-form"
+    ],
+    "cal3-actions-001:actions-05": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:shared-common-form"
+    ],
+    "cal3-actions-001:actions-06": [
+      "flag:shared-common-form"
+    ],
+    "cal3-actions-001:actions-07": [
+      "flag:shared-common-form"
+    ],
+    "cal3-food-001:food-02": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:regional-register-risk"
+    ],
+    "cal3-food-001:food-05": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:regional-register-risk"
+    ],
+    "cal3-food-001:food-08": [
+      "stratified-sample:high"
+    ],
+    "cal3-food-001:food-09": [
+      "flag:regional-register-risk"
+    ],
+    "cal3-health-001:health-05": [
+      "flag:credible-competing-form"
+    ],
+    "cal3-health-001:health-06": [
+      "flag:regional-register-risk"
+    ],
+    "cal3-health-001:health-08": [
+      "flag:credible-competing-form"
+    ],
+    "cal3-home-001:home-01": [
+      "flag:credible-competing-form"
+    ],
+    "cal3-home-001:home-03": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:shared-common-form"
+    ],
+    "cal3-home-001:home-05": [
+      "confidence:low",
+      "flag:concrete-nonblocking-risk",
+      "flag:shared-common-form"
+    ],
+    "cal3-home-001:home-07": [
+      "flag:shared-common-form"
+    ],
+    "cal3-home-001:home-08": [
+      "flag:credible-competing-form"
+    ],
+    "cal3-home-001:home-10": [
+      "flag:credible-competing-form"
+    ],
+    "cal3-technology-001:technology-01": [
+      "flag:credible-competing-form"
+    ],
+    "cal3-technology-001:technology-02": [
+      "flag:regional-register-risk"
+    ],
+    "cal3-technology-001:technology-05": [
+      "stratified-sample:medium"
+    ],
+    "cal3-technology-001:technology-06": [
+      "confidence:low",
+      "flag:credible-competing-form",
+      "flag:cue-corrected"
+    ],
+    "cal3-technology-001:technology-09": [
+      "flag:regional-register-risk"
+    ],
+    "cal3-technology-001:technology-10": [
+      "stratified-sample:medium"
+    ]
+  },
+  "started_at_utc": "2026-10-14T11:33:46.204975+00:00"
+}

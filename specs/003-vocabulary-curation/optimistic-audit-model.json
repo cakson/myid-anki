@@ -1,0 +1,406 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "audit:clothing-001:clothing-01",
+      "elapsed_seconds": 46.971,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 17536,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1937,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "audit:everyday-objects-001:everyday-objects-05",
+      "elapsed_seconds": 30.456,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 16118,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1316,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "audit:health-001:health-01",
+      "elapsed_seconds": 45.077,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 16297,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1580,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "audit:home-001:topic-06",
+      "elapsed_seconds": 29.304,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 16035,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 1254,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "audit:transportation-001:transportation-01",
+      "elapsed_seconds": 61.977,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 17622,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 2647,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "candidate_refs": [
+    "clothing-001:clothing-01",
+    "clothing-001:clothing-02",
+    "common-verbs-001:everyday-actions-01",
+    "communication-001:communication-01",
+    "communication-001:communication-03",
+    "everyday-objects-001:everyday-objects-05",
+    "everyday-objects-001:everyday-objects-06",
+    "food-001:foods-01",
+    "food-001:foods-04",
+    "food-001:foods-06",
+    "health-001:health-01",
+    "home-001:topic-02",
+    "home-001:topic-03",
+    "home-001:topic-04",
+    "home-001:topic-05",
+    "home-001:topic-06",
+    "home-001:topic-08",
+    "places-001:places-01",
+    "produce-001:produce-03",
+    "school-001:topic-06",
+    "transportation-001:transportation-01",
+    "transportation-001:transportation-04",
+    "transportation-001:transportation-06",
+    "university-001:university-study-03",
+    "school-001:topic-05"
+  ],
+  "latest_run_elapsed_seconds": 213.82,
+  "model": "gpt-5.6-sol",
+  "results": {
+    "clothing-001:clothing-01": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "clothing-001:clothing-01",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The acknowledged existence of Malaysian celana and more specific compounds does not defeat the everyday celana–seluar contrast.",
+      "material_false_positive": false,
+      "reason": "Celana and seluar are natural contemporary umbrella terms for pants or trousers in Indonesia and Malaysia respectively, and the national contrast is useful. Both can also cover shorter garments, so full length may be expressed as celana panjang or seluar panjang, but that ordinary breadth does not invalidate the card’s stated sense.",
+      "relation": "different-common-word"
+    },
+    "clothing-001:clothing-02": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "clothing-001:clothing-02",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. Dictionary synonymy between kasut and sepatu is not evidence that they are equally preferred in Malaysian everyday usage.",
+      "material_false_positive": false,
+      "reason": "Sepatu is the ordinary Indonesian word for shoes, while kasut is the ordinary Malaysian Malay word. The pairing accurately expresses the same general footwear sense and represents a strong, useful national lexical contrast. Malaysian recognition of sepatu as an Indonesian-associated synonym does not undermine it.",
+      "relation": "different-common-word"
+    },
+    "common-verbs-001:everyday-actions-01": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "common-verbs-001:everyday-actions-01",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The overlap of Indonesian antar and Malaysian kirim is ordinary synonymy and semantic overlap, not a reason to reject the principal kirim–hantar contrast.",
+      "material_false_positive": false,
+      "reason": "Kirim is natural Indonesian for sending an item, whereas hantar is the normal broad Malaysian verb for sending or delivering one. Malaysian kirim remains available in somewhat narrower or context-dependent uses, but this does not erase the useful everyday contrast. Bare stems are acceptable vocabulary-card forms, although inflected forms are usual in complete formal sentences.",
+      "relation": "different-common-word"
+    },
+    "communication-001:communication-01": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "communication-001:communication-01",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The lack of comparative frequency evidence in the notes is not a material linguistic problem because the contemporary pesan–mesej contrast is well established.",
+      "material_false_positive": false,
+      "reason": "Pesan is a natural Indonesian noun for an individual written or digital message, while mesej is the usual Malaysian Malay form for that sense. Indonesian pesan is polysemous and Malaysian pesanan can mean a conveyed message, request, or instruction, but neither fact makes the pairing inaccurate.",
+      "relation": "different-common-word"
+    },
+    "communication-001:communication-03": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "communication-001:communication-03",
+      "concrete_remaining_issue": "The sense must distinguish the native words for informal conversation from the shared borrowing chat used especially in digital contexts.",
+      "corrections": {
+        "english": "casual conversation; chat",
+        "historical_usage.indonesian.preferred": "Obrolan is a natural noun for an informal conversation; chat is often preferred for an app feature or specifically text-based exchange.",
+        "historical_usage.malaysian.preferred": "Sembang is a natural Malaysian word for an informal conversation; chat is also very common for specifically online or app-based exchanges.",
+        "sense": "an informal or relaxed conversation, whether in person or online"
+      },
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The common use of chat in both countries narrows the contrast but does not eliminate the valid obrolan–sembang distinction for informal conversation generally.",
+      "material_false_positive": false,
+      "reason": "Obrolan and sembang are natural country-associated words for a casual or informal conversation, so the underlying contrast is worth learning. The present sense overemphasizes text or online chat, where the English borrowing chat is highly natural in both places and may be more idiomatic for an app feature or messaging activity. The card remains usable as a general-conversation contrast but should not imply that these are the uniquely preferred digital terms.",
+      "relation": "different-common-word"
+    },
+    "everyday-objects-001:everyday-objects-05": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "everyday-objects-001:everyday-objects-05",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. Dictionary redirection to “terung” does not outweigh the established everyday Indonesian preference for “terong.”",
+      "material_false_positive": false,
+      "reason": "Both forms accurately denote eggplant. “Terong” is the ordinary contemporary Indonesian form despite “terung” also occurring, while “terung” is the normal Malaysian spelling. The small but systematic form contrast is useful to learners.",
+      "relation": "similar"
+    },
+    "everyday-objects-001:everyday-objects-06": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "everyday-objects-001:everyday-objects-06",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied.",
+      "material_false_positive": false,
+      "reason": "“Semangka” and “tembikai” are the normal everyday words for watermelon in Indonesia and Malaysia respectively. The contrast is clear and worth learning.",
+      "relation": "different-common-word"
+    },
+    "food-001:foods-01": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "food-001:foods-01",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied.",
+      "material_false_positive": false,
+      "reason": "Both expressions naturally denote lunch or eating lunch. Indonesian normally uses “makan siang,” whereas Malaysian Malay normally uses “makan tengah hari.” Their shared “makan” and parallel phrase structure justify “similar,” while the differing time expression remains useful to learn.",
+      "relation": "similar"
+    },
+    "food-001:foods-04": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "food-001:foods-04",
+      "concrete_remaining_issue": null,
+      "corrections": {
+        "historical_usage.malaysian.alternatives": [
+          "enak (also natural for tasty food, though sedap is generally the more characteristic everyday choice)",
+          "lazat (more emphatic, literary, or promotional)"
+        ],
+        "historical_usage.malaysian.preferred": "Sedap is a highly natural and generally characteristic everyday Malaysian choice for saying that food tastes good; enak is also natural and should not be presented as merely understood.",
+        "materially_misleading": "No. The displayed headword contrast is sound, but the treatment of Malaysian “enak” understates its active natural use."
+      },
+      "external_check_needed": false,
+      "historical_objection_assessment": "The objection correctly identifies that the Malaysian description understates “enak.” The cited tourism page alone cannot establish comparative frequency, but the existence of natural Malaysian “enak” usage does not defeat “sedap” as the more characteristic learner default.",
+      "material_false_positive": false,
+      "reason": "“Enak” and “sedap” are excellent default learner answers for Indonesia and Malaysia respectively, and the contrast is worth learning. However, Malaysian “enak” is not merely understood: it is also natural contemporary Malay for tasty food, although “sedap” is generally the more characteristic everyday choice.",
+      "relation": "different-common-word"
+    },
+    "food-001:foods-06": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "food-001:foods-06",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "The objections demand stronger comparative evidence than this straightforward spelling contrast requires. The examples and ordinary usage support the meanings; lack of direct comparison with broader alternatives such as “kue/kuih kering” is not a defect.",
+      "material_false_positive": false,
+      "reason": "“Biskuit” and “biskut” are the ordinary Indonesian and Malaysian forms for a biscuit in the stated dry baked-snack sense. Category boundaries with cookies and traditional dry cakes vary, but that does not impair this basic contrast.",
+      "relation": "similar"
+    },
+    "health-001:health-01": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "health-001:health-01",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objections were supplied. The notes' caution about proving absolute preference is reasonable but does not undermine the well-established everyday status of either form.",
+      "material_false_positive": false,
+      "reason": "Obat and ubat are the ordinary, neutral general terms for medicine in Indonesia and Malaysia respectively. Both cover medicines taken internally or applied externally. The spelling-and-vowel contrast is useful and accurately classified as similar rather than same.",
+      "relation": "similar"
+    },
+    "home-001:topic-02": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "home-001:topic-02",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "The retailer-only evidence is narrow, but the broader preference claims themselves are linguistically sound. Malaysian kamar tidur is a nonpreferred synonym or Indonesian-influenced form, not an unresolved competitor. The limitation on context-free Indonesian kamar is correctly noted but irrelevant to the full form kamar tidur.",
+      "material_false_positive": false,
+      "reason": "Kamar tidur is the normal Indonesian expression and bilik tidur the normal Malaysian expression for a bedroom. Bare kamar or bilik is common when context supplies the room type. Malaysian kamar tidur is understandable but does not eliminate the useful everyday national contrast.",
+      "relation": "different-common-word"
+    },
+    "home-001:topic-03": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "home-001:topic-03",
+      "concrete_remaining_issue": null,
+      "corrections": {
+        "historical_usage.malaysian.alternatives": [
+          "peti ais",
+          "peti air batu"
+        ],
+        "historical_usage.malaysian.preferred": "Peti sejuk is a safe standard and neutral choice. Peti ais is also common in everyday Malaysian usage, so do not claim that peti sejuk is uniquely preferred.",
+        "materially_misleading": "No. The displayed Indonesian–Malaysian pair and relation are sound; only the Malaysian alternatives metadata needs correction."
+      },
+      "external_check_needed": false,
+      "historical_objection_assessment": "The objection about unresolved Malaysian preference is valid only against an exclusive preference claim; both peti sejuk and peti ais are established, natural terms. The objection to listing Malaysian kulkas is meritorious and requires removal. The food-versus-drink evidentiary observation is immaterial to the lexical sense.",
+      "material_false_positive": false,
+      "reason": "Kulkas is the natural everyday Indonesian term, while peti sejuk is a standard and natural Malaysian term; Malaysian peti ais is also common. The contrast remains worth learning. Listing kulkas as an unqualified Malaysian alternative is misleading because it is characteristically Indonesian rather than an ordinary Malaysian Malay alternative.",
+      "relation": "different-common-word"
+    },
+    "home-001:topic-04": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "home-001:topic-04",
+      "concrete_remaining_issue": null,
+      "corrections": {
+        "materially_misleading": "No. The locale contrast is correct; only the English sense definition is too narrow.",
+        "sense": "opening in a wall or building that admits light or air, usually fitted with glass"
+      },
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objections were supplied. The existing usage notes themselves correctly recognize that neither term inherently entails glass.",
+      "material_false_positive": false,
+      "reason": "Jendela is the ordinary Indonesian form and tingkap the ordinary Malaysian form, making this a useful different-common-word contrast. The supplied sense is unnecessarily narrow and awkward: a window is not inherently a 'glass opening,' and both words can denote windows or wall openings without glass.",
+      "relation": "different-common-word"
+    },
+    "home-001:topic-05": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "home-001:topic-05",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objections were supplied. Cross-border synonymy does not defeat the valid difference in ordinary default wording.",
+      "material_false_positive": false,
+      "reason": "Tempat sampah is a natural default Indonesian expression for a household rubbish bin, while tong sampah is the normal Malaysian expression. Both forms may occur across the border, but the differing everyday defaults make the contrast useful and the proposed relation appropriate.",
+      "relation": "different-common-word"
+    },
+    "home-001:topic-06": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "home-001:topic-06",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "The retailer evidence is narrow, but the substantive objection fails: both preferred forms accord with broad contemporary usage. Timba is a genuine overlapping Malaysian synonym, not a material blocker. The listing of ember as a Malaysian alternative is less secure, but it is peripheral and does not undermine the card.",
+      "material_false_positive": false,
+      "reason": "For the specified handled household container, Indonesian ember and Malaysian baldi are natural, contemporary everyday choices. Timba is also common in Malaysia and can denote the same object, but that synonym does not invalidate the useful locale contrast or make baldi misleading.",
+      "relation": "different-common-word"
+    },
+    "home-001:topic-08": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "home-001:topic-08",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied, and there is no evident semantic or usage defect.",
+      "material_false_positive": false,
+      "reason": "Kursi in Indonesia and kerusi in Malaysia are the normal neutral words for a one-person seat with a back. The forms are closely related but observably different, making the contrast useful to learners.",
+      "relation": "similar"
+    },
+    "places-001:places-01": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "places-001:places-01",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "The evidence reservations about exhaustive frequency do not create a genuine usage uncertainty. The proposed locale-specific choices and senses are well established.",
+      "material_false_positive": false,
+      "reason": "Kantor is the ordinary Indonesian place word for an office, while pejabat is the ordinary Malaysian word. Indonesian pejabat normally means an official or officeholder, which makes the contrast especially useful, although the displayed pair itself is best classified as different-common-word rather than false-friend because kantor and pejabat are not matching forms.",
+      "relation": "different-common-word"
+    },
+    "produce-001:produce-03": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "produce-001:produce-03",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The fact that both words can also refer to unripe papaya in an appropriately modified or culinary context does not impair the card.",
+      "material_false_positive": false,
+      "reason": "Pepaya is the ordinary Indonesian name and betik the ordinary Malaysian name for papaya. Both cover the fruit generally; neither inherently marks ripeness, but the stated ripe-fruit referent is fully compatible with both words.",
+      "relation": "different-common-word"
+    },
+    "school-001:topic-05": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "school-001:topic-05",
+      "concrete_remaining_issue": null,
+      "corrections": {
+        "historical_usage.indonesian.preferred": "Change to: “Pensil is the normal standard and everyday Indonesian term.”",
+        "historical_usage.malaysian.alternatives": "Retain \"pensil\" but qualify it as an attested secondary spelling/variant rather than an equally preferred default.",
+        "historical_usage.malaysian.preferred": "Change to: “Pensel is the standard and normal Malaysian Malay form. Pensil also occurs, including through Indonesian influence, commercial wording, or spelling variation, but does not displace pensel as the learner default.”"
+      },
+      "external_check_needed": true,
+      "historical_objection_assessment": "There was no explicit historical objection, but the implied HOLD over Malaysian pensil is not justified. Its existence is a nonblocking synonym/spelling-variant issue; it does not invalidate pensel or the Indonesian–Malaysian contrast. Measuring how frequent pensil is in Malaysia would require external corpus checking, but that is not material to displaying the card.",
+      "material_false_positive": false,
+      "reason": "Pensil in Indonesia and pensel in Malaysia are correct, natural standard forms, and the contrast is worth learning. The Malaysian occurrence of pensil is a nonblocking spelling or usage variant, not a material reason to hold the card. The metadata is too hesitant about pensel being the Malaysian default.",
+      "relation": "similar"
+    },
+    "school-001:topic-06": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "school-001:topic-06",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "The historical hesitation over standalone pemadam is overly cautious. Its broader compositional uses do not prevent it from conventionally denoting a pencil eraser in the supplied context. The named Malaysian variant is therefore a nonblocking synonym issue, not a material HOLD blocker.",
+      "material_false_positive": false,
+      "reason": "Penghapus is the normal Indonesian school-item term, and standalone pemadam is a natural and common Malaysian term for an eraser in school or stationery context. Getah pemadam and getah pemadam pensel are more explicit Malaysian variants, not replacements required to make the card accurate.",
+      "relation": "different-common-word"
+    },
+    "transportation-001:transportation-01": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "transportation-001:transportation-01",
+      "concrete_remaining_issue": null,
+      "corrections": {
+        "historical_usage.indonesian.alternatives": "Remove \"kendaraan pribadi\" as a synonym, or label it explicitly as the broader phrase “private vehicle.”",
+        "historical_usage.malaysian.alternatives": "Remove \"automobil\" or label it rare/lexicographical rather than an everyday alternative; retain \"motokar\" as a valid but less conversational alternative.",
+        "historical_usage.malaysian.common_use": "Change to: “Kereta is the normal everyday Malaysian term for this sense. Mobil is characteristically Indonesian; its precise recognition and usage rate in Malaysia are not established here.”"
+      },
+      "external_check_needed": true,
+      "historical_objection_assessment": "The objection about insufficient evidence for precise everyday frequency and cross-border comprehension is valid but does not undermine the central contrast. The objection to kendaraan pribadi and automobil as unqualified alternatives is also valid.",
+      "material_false_positive": false,
+      "reason": "The core contrast is accurate and worth learning: mobil is the ordinary Indonesian word for a passenger car, while kereta is the ordinary Malaysian word. Both match the stated sense in context. The defects are peripheral: kendaraan pribadi is broader than “car,” automobil is not an ordinary Malaysian alternative, and Malaysian comprehension of mobil should not be stated categorically without usage evidence.",
+      "relation": "different-common-word"
+    },
+    "transportation-001:transportation-04": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "transportation-001:transportation-04",
+      "concrete_remaining_issue": null,
+      "corrections": {
+        "historical_usage.malaysian.alternatives": "Replace [\"bus\"] with either [] or [\"bus (English spelling or nonstandard code-mixed usage; not the standard Malaysian Malay form)\"]."
+      },
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The only correction concerns the status of Malaysian bus; it does not affect the headword contrast.",
+      "material_false_positive": false,
+      "reason": "Bus in Indonesia and bas in Malaysia are natural contemporary standard forms, and the spelling contrast is useful. The English definition is a service-bus sense rather than the full meaning of bus, but both words cover it. Malaysian bus should not be presented as an unqualified Malay alternative to standard bas.",
+      "relation": "similar"
+    },
+    "transportation-001:transportation-06": {
+      "audit_result": "needs-correction",
+      "candidate_ref": "transportation-001:transportation-06",
+      "concrete_remaining_issue": null,
+      "corrections": {
+        "historical_usage.malaysian.alternatives": "Change to [\"trak (borrowed form occurring in some compounds or specialized contexts; less general than lori)\", \"truk (Indonesian spelling, not the normal Malaysian Malay choice)\"] or omit both alternatives.",
+        "historical_usage.malaysian.meaning": "Change to: “Lori denotes a road motor vehicle used to carry goods; it includes vehicles matching the intended truck sense and is not necessarily restricted to very large ones.”"
+      },
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The unavailable inspected pages weaken the documented evidentiary trail but do not create a material linguistic uncertainty about the well-established truk–lori contrast.",
+      "material_false_positive": false,
+      "reason": "The central contrast is accurate and valuable: Indonesian normally uses truk and Malaysian normally uses lori for a goods-carrying road vehicle. Lori is not inherently restricted to very large vehicles, but it comfortably covers the stated sense. The Malaysian alternatives need qualification because truk is characteristically Indonesian and trak is not the default general word.",
+      "relation": "different-common-word"
+    },
+    "university-001:university-study-03": {
+      "audit_result": "confirmed-good",
+      "candidate_ref": "university-001:university-study-03",
+      "concrete_remaining_issue": null,
+      "corrections": {},
+      "external_check_needed": false,
+      "historical_objection_assessment": "No historical objection was supplied. The Malaysian note is unnecessarily cautious about unrestricted preference, but it does not make a false claim: biasiswa is the normal neutral term for an actual scholarship, while tajaan and bantuan kewangan cover partly different categories.",
+      "material_false_positive": false,
+      "reason": "Beasiswa and biasiswa are the natural standard terms for a scholarship in Indonesia and Malaysia respectively. Both accurately denote educational financial support, the spelling contrast is stable and useful, and the broader funding alternatives are already appropriately qualified rather than presented as exact synonyms.",
+      "relation": "similar"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,2836 @@
+{
+  "candidate_batches": [
+    "cal3-food-001",
+    "cal3-home-001",
+    "cal3-actions-001",
+    "cal3-technology-001",
+    "cal3-health-001"
+  ],
+  "candidate_decisions": {
+    "cal3-actions-001:actions-01": {
+      "candidate": {
+        "candidate_id": "actions-01",
+        "english": "forget",
+        "indonesian": "lupa",
+        "malaysian": "terlupa",
+        "sense": "fail to remember something",
+        "tags": [
+          "different-common-word",
+          "memory"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-01",
+      "confidence_rationale": "A shared ordinary synonym may defeat the claimed national preference.",
+      "confidence_tier": null,
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "verifier": {
+        "concerns": [
+          "Malay lupa is also ordinary, so terlupa is not an exclusive Malaysian form."
+        ],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both forms express failing to remember something.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "lupa",
+          "language": "malaysian",
+          "rationale": "Lupa is plausibly ordinary in Malaysian Malay, which may weaken the proposed preference for terlupa.",
+          "signal": "preference-strength-uncertain"
+        },
+        "rationale": "Lupa is the ordinary Indonesian choice, while terlupa is a credible Malaysian choice for failing to remember. The sense aligns, though the preference is not exclusive.",
+        "relation": "different-common-word",
+        "risk_rationale": "The strength of the Malaysian preference for terlupa over lupa may vary by context.",
+        "shared_synonym_case": "weak-contrast",
+        "shared_synonym_rationale": "Lupa is also ordinary in Malaysian Malay, although terlupa remains a useful Malaysian preference in this context.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-02": {
+      "candidate": {
+        "candidate_id": "actions-02",
+        "english": "understand",
+        "indonesian": "mengerti",
+        "malaysian": "faham",
+        "sense": "grasp the meaning",
+        "tags": [
+          "different-common-word",
+          "communication"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-02",
+      "confidence_rationale": "Mengerti is an ordinary Indonesian choice and faham is an ordinary Malaysian choice for grasping meaning. Both fit the same sense. Review concern: Alternative forms occur across varieties, but they do not materially undermine the contrast.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers mean grasp the meaning or understand.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "mengerti",
+          "language": "both",
+          "rationale": "Mengerti may be ordinary outside Indonesia, though faham remains a strong Malaysian preference.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Mengerti is an ordinary Indonesian choice and faham is an ordinary Malaysian choice for grasping meaning. Both fit the same sense.",
+        "relation": "different-common-word",
+        "risk_rationale": "Alternative forms occur across varieties, but they do not materially undermine the contrast.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Mengerti is also understood in Malaysia and faham/paham is known in Indonesia, but the proposed forms remain useful everyday preferences.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-03": {
+      "candidate": {
+        "candidate_id": "actions-03",
+        "english": "use",
+        "indonesian": "memakai",
+        "malaysian": "menggunakan",
+        "sense": "employ an object or method",
+        "tags": [
+          "different-common-word",
+          "everyday-action"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-03",
+      "confidence_rationale": "A shared ordinary synonym may defeat the claimed national preference.",
+      "confidence_tier": null,
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "verifier": {
+        "concerns": [
+          "Menggunakan is also ordinary Indonesian, while memakai is also possible in Malaysian Malay for using an object or method."
+        ],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit employing an object or method, excluding the separate clothing sense.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "menggunakan",
+          "language": "indonesian",
+          "rationale": "Menggunakan is a credible Indonesian competitor for the same cue sense.",
+          "signal": "same-sense-competition"
+        },
+        "rationale": "Memakai is a common Indonesian everyday choice and menggunakan is a standard Malaysian choice for employing an object or method. The contrast is useful but not exclusive.",
+        "relation": "different-common-word",
+        "risk_rationale": "Register and context substantially affect the choice between memakai, menggunakan, and guna.",
+        "shared_synonym_case": "weak-contrast",
+        "shared_synonym_rationale": "Menggunakan is common in Indonesian and memakai can occur in Malaysian Malay, so everyday usage may defeat a strict national distinction.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-04": {
+      "candidate": {
+        "candidate_id": "actions-04",
+        "english": "repair",
+        "indonesian": "memperbaiki",
+        "malaysian": "membaiki",
+        "sense": "fix something damaged",
+        "tags": [
+          "different-common-word",
+          "maintenance"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-04",
+      "confidence_rationale": "Memperbaiki is the ordinary Indonesian form and membaiki the ordinary Malaysian form for fixing something damaged. The related broken-state overlap does not affect alignment. Review concern: Formal or regional usage may introduce occasional variation.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers describe the action of fixing damage, not the resulting state.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "memperbaiki",
+          "language": "malaysian",
+          "rationale": "Memperbaiki may be understood in Malaysian Malay but is not the strongest ordinary local preference.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "Memperbaiki is the ordinary Indonesian form and membaiki the ordinary Malaysian form for fixing something damaged. The related broken-state overlap does not affect alignment.",
+        "relation": "different-common-word",
+        "risk_rationale": "Formal or regional usage may introduce occasional variation.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Memperbaiki is understood in Malaysia but membaiki is the localized ordinary preference; the reverse form is not an equally strong everyday competitor.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-05": {
+      "candidate": {
+        "candidate_id": "actions-05",
+        "english": "depart",
+        "indonesian": "berangkat",
+        "malaysian": "bertolak",
+        "sense": "leave for a destination",
+        "tags": [
+          "different-common-word",
+          "movement"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-05",
+      "confidence_rationale": "Berangkat is the ordinary Indonesian choice and bertolak is a standard Malaysian choice for leaving for a destination. Both express the same departure event. Review concern: Register and regional context can make berangkat or bertolak more acceptable outside the proposed default variety.",
+      "confidence_tier": "low",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers mean leave for a destination.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "berangkat",
+          "language": "both",
+          "rationale": "Berangkat is plausibly ordinary in both varieties in some contexts, although bertolak is a useful Malaysian preference.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Berangkat is the ordinary Indonesian choice and bertolak is a standard Malaysian choice for leaving for a destination. Both express the same departure event.",
+        "relation": "different-common-word",
+        "risk_rationale": "Register and regional context can make berangkat or bertolak more acceptable outside the proposed default variety.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Berangkat can occur in Malaysian Malay and bertolak can be understood in Indonesian, but the proposed forms remain useful national preferences.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-06": {
+      "candidate": {
+        "candidate_id": "actions-06",
+        "english": "turn on",
+        "indonesian": "menyalakan",
+        "malaysian": "menghidupkan",
+        "sense": "activate a device or light",
+        "tags": [
+          "different-common-word",
+          "household-action"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-06",
+      "confidence_rationale": "Both forms mean activating a device or light. Menyalakan is the ordinary Indonesian preference, while menghidupkan is a useful Malaysian preference.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit the sense of activating a device or light.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "menghidupkan",
+          "language": "both",
+          "rationale": "Menghidupkan is plausibly ordinary in both varieties, though the proposed national preference remains useful.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Both forms mean activating a device or light. Menyalakan is the ordinary Indonesian preference, while menghidupkan is a useful Malaysian preference.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Menghidupkan is also understood in Indonesian and menyalakan in Malaysian, but the proposed forms still teach a credible everyday preference.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-07": {
+      "candidate": {
+        "candidate_id": "actions-07",
+        "english": "hurry",
+        "indonesian": "buru-buru",
+        "malaysian": "tergesa-gesa",
+        "sense": "move or act quickly",
+        "tags": [
+          "different-common-word",
+          "movement"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-07",
+      "confidence_rationale": "Buru-buru and tergesa-gesa both express moving or acting quickly, with a credible Indonesian versus Malaysian preference.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit the act of hurrying.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "tergesa-gesa",
+          "language": "both",
+          "rationale": "Tergesa-gesa is plausibly ordinary in both varieties, so the preference is useful but not exclusive.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Buru-buru and tergesa-gesa both express moving or acting quickly, with a credible Indonesian versus Malaysian preference.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Tergesa-gesa is also ordinary in Indonesian, while buru-buru may be understood in Malaysian, but the pairing still represents a useful preference.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-08": {
+      "candidate": {
+        "candidate_id": "actions-08",
+        "english": "shout",
+        "indonesian": "berteriak",
+        "malaysian": "menjerit",
+        "sense": "speak very loudly",
+        "tags": [
+          "different-common-word",
+          "communication"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-08",
+      "confidence_rationale": "A shared ordinary synonym may defeat the claimed national preference.",
+      "confidence_tier": null,
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "verifier": {
+        "concerns": [
+          "The original cue is slightly too narrow for menjerit, which commonly implies yelling or screaming rather than merely speaking very loudly."
+        ],
+        "cue_alignment": "correctable",
+        "cue_rationale": "This cue accommodates Indonesian berteriak and Malaysian menjerit without changing the core act of shouting.",
+        "cue_rewrite": "yell loudly",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "berteriak",
+          "language": "both",
+          "rationale": "Berteriak is plausibly ordinary in both varieties and competes with menjerit in Malaysian Malay.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "The answers align after narrowing the cue to yelling loudly. Berteriak is the ordinary Indonesian preference, while menjerit is a useful Malaysian preference, though berteriak is also used in Malaysia.",
+        "relation": "different-common-word",
+        "risk_rationale": "Menjerit can suggest a more intense scream or shriek than neutral English shout.",
+        "shared_synonym_case": "weak-contrast",
+        "shared_synonym_rationale": "Berteriak is plausibly ordinary in Malaysian Malay as well, so the national preference may mislead learners if treated as exclusive.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-actions-001:actions-09": {
+      "candidate": {
+        "candidate_id": "actions-09",
+        "english": "practice",
+        "indonesian": "berlatih",
+        "malaysian": "berlatih",
+        "sense": "repeat an activity to improve",
+        "tags": [
+          "shared-form",
+          "learning-action"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-09",
+      "confidence_rationale": "Identical ordinary forms offer no meaningful recall contrast.",
+      "confidence_tier": null,
+      "outcome": "rejected",
+      "reason_codes": [
+        "no-meaningful-cross-language-contrast"
+      ],
+      "relation": "",
+      "review_flags": [],
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "verifier": {}
+    },
+    "cal3-actions-001:actions-10": {
+      "candidate": {
+        "candidate_id": "actions-10",
+        "english": "fold",
+        "indonesian": "melipat",
+        "malaysian": "melipat",
+        "sense": "bend something over itself",
+        "tags": [
+          "shared-form",
+          "household-action"
+        ]
+      },
+      "candidate_ref": "cal3-actions-001:actions-10",
+      "confidence_rationale": "Identical ordinary forms offer no meaningful recall contrast.",
+      "confidence_tier": null,
+      "outcome": "rejected",
+      "reason_codes": [
+        "no-meaningful-cross-language-contrast"
+      ],
+      "relation": "",
+      "review_flags": [],
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "verifier": {}
+    },
+    "cal3-food-001:food-01": {
+      "candidate": {
+        "candidate_id": "food-01",
+        "english": "cup",
+        "indonesian": "cangkir",
+        "malaysian": "cawan",
+        "sense": "drinking cup",
+        "tags": [
+          "drinkware"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-01",
+      "confidence_rationale": "The cue and answers align on an ordinary drinking cup. Cangkir is the usual Indonesian form, while cawan is the usual Malaysian form.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a cup used for drinking.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete preference risk.",
+          "signal": "no-preference-concern"
+        },
+        "rationale": "The cue and answers align on an ordinary drinking cup. Cangkir is the usual Indonesian form, while cawan is the usual Malaysian form.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "nonpreferred-alternative",
+        "shared_synonym_rationale": "Cawan exists in Indonesian usage but is not the ordinary national choice for this sense; cangkir is likewise not the usual Malaysian choice.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-food-001:food-02": {
+      "candidate": {
+        "candidate_id": "food-02",
+        "english": "drinking straw",
+        "indonesian": "sedotan",
+        "malaysian": "penyedut minuman",
+        "sense": "straw used for drinking",
+        "tags": [
+          "drinkware"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-02",
+      "confidence_rationale": "The cue and answers denote a straw used for drinking. Sedotan is ordinary Indonesian usage; penyedut minuman is a standard Malaysian Malay form, though casual Malaysian speech often uses straw. Review concern: Casual Malaysian usage commonly uses straw, so penyedut minuman is a standard/formal preference rather than an exclusive everyday form.",
+      "confidence_tier": "low",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "regional-register-risk"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit a drinking straw.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "straw",
+          "language": "malaysian",
+          "rationale": "Straw is a plausible casual Malaysian alternative to the proposed standard Malay form.",
+          "signal": "regional-or-register-competition"
+        },
+        "rationale": "The cue and answers denote a straw used for drinking. Sedotan is ordinary Indonesian usage; penyedut minuman is a standard Malaysian Malay form, though casual Malaysian speech often uses straw.",
+        "relation": "different-common-word",
+        "risk_rationale": "Casual Malaysian usage commonly uses straw, so penyedut minuman is a standard/formal preference rather than an exclusive everyday form.",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "The main competing form, straw, is especially a Malaysian register alternative rather than a shared national synonym that defeats the contrast.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-food-001:food-03": {
+      "candidate": {
+        "candidate_id": "food-03",
+        "english": "spatula",
+        "indonesian": "spatula",
+        "malaysian": "sudip",
+        "sense": "flat utensil for turning food",
+        "tags": [
+          "cooking-utensils"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-03",
+      "confidence_rationale": "A shared ordinary synonym may defeat the claimed national preference.; Spatula is also an ordinary Malaysian term for this utensil, so the contrast with Indonesian spatula versus Malaysian sudip may mislead learners about Malaysian usage.",
+      "confidence_tier": null,
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "Spatula is also an ordinary Malaysian term for this utensil, so the contrast with Indonesian spatula versus Malaysian sudip may mislead learners about Malaysian usage."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "Spatula is also an ordinary Malaysian term for this utensil, so the contrast with Indonesian spatula versus Malaysian sudip may mislead learners about Malaysian usage.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "verifier": {
+        "concerns": [
+          "The national preference is weaker than the card suggests."
+        ],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a flat utensil used for turning food.",
+        "cue_rewrite": "",
+        "material_concerns": [
+          "Spatula is also an ordinary Malaysian term for this utensil, so the contrast with Indonesian spatula versus Malaysian sudip may mislead learners about Malaysian usage."
+        ],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "spatula",
+          "language": "both",
+          "rationale": "Spatula is plausibly ordinary in both varieties for this cooking utensil.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "The cue and senses align, but spatula is common enough in Malaysian usage alongside sudip that this is a weak national contrast.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "weak-contrast",
+        "shared_synonym_rationale": "Spatula is an ordinary form in both Indonesia and Malaysia, while sudip is also used in Malaysian Malay; the proposed preference is therefore not reliably distinctive.",
+        "verdict": "object"
+      }
+    },
+    "cal3-food-001:food-04": {
+      "candidate": {
+        "candidate_id": "food-04",
+        "english": "ladle",
+        "indonesian": "sendok sayur",
+        "malaysian": "senduk",
+        "sense": "deep spoon for serving soup or liquid food",
+        "tags": [
+          "cooking-utensils"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-04",
+      "confidence_rationale": "The cue and answers align on a deep spoon used to serve soup or other liquid food. Sendok sayur is the ordinary Indonesian expression; senduk is the ordinary Malaysian form.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit a ladle used for serving liquid food.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete preference risk.",
+          "signal": "no-preference-concern"
+        },
+        "rationale": "The cue and answers align on a deep spoon used to serve soup or other liquid food. Sendok sayur is the ordinary Indonesian expression; senduk is the ordinary Malaysian form.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "nonpreferred-alternative",
+        "shared_synonym_rationale": "Senduk may be understood in Indonesian and sendok sayur in Malaysia, but neither is the usual national choice for this sense.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-food-001:food-05": {
+      "candidate": {
+        "candidate_id": "food-05",
+        "english": "cutting board",
+        "indonesian": "talenan",
+        "malaysian": "papan pemotong",
+        "sense": "board for cutting food",
+        "tags": [
+          "kitchen-tools"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-05",
+      "confidence_rationale": "The cue and answers align on a board used for cutting food. Talenan is ordinary Indonesian usage; papan pemotong is the standard Malaysian Malay form. Review concern: Chopping board is a plausible casual Malaysian alternative, so papan pemotong is a standard Malay preference rather than an exclusive form.",
+      "confidence_tier": "low",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "regional-register-risk",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a food-cutting board.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "chopping board",
+          "language": "malaysian",
+          "rationale": "The English loan is a plausible everyday Malaysian alternative to papan pemotong.",
+          "signal": "regional-or-register-competition"
+        },
+        "rationale": "The cue and answers align on a board used for cutting food. Talenan is ordinary Indonesian usage; papan pemotong is the standard Malaysian Malay form.",
+        "relation": "different-common-word",
+        "risk_rationale": "Chopping board is a plausible casual Malaysian alternative, so papan pemotong is a standard Malay preference rather than an exclusive form.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Chopping board is also used, especially in Malaysian everyday speech, but the proposed forms still teach a useful Indonesian/Malaysian vocabulary preference.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-food-001:food-06": {
+      "candidate": {
+        "candidate_id": "food-06",
+        "english": "kettle",
+        "indonesian": "ketel",
+        "malaysian": "cerek",
+        "sense": "container for boiling water",
+        "tags": [
+          "kitchen-appliances"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-06",
+      "confidence_rationale": "Ketel is ordinary Indonesian and cerek is ordinary Malaysian Malay for a kettle used to boil water.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a container or appliance for boiling water.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "ceret",
+          "language": "indonesian",
+          "rationale": "Ceret is also used in Indonesian, but this does not defeat ketel as an ordinary Indonesian preference.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "Ketel is ordinary Indonesian and cerek is ordinary Malaysian Malay for a kettle used to boil water.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "No relevant shared synonym undermines the proposed preference.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-food-001:food-07": {
+      "candidate": {
+        "candidate_id": "food-07",
+        "english": "oven",
+        "indonesian": "oven",
+        "malaysian": "ketuhar",
+        "sense": "appliance for baking or roasting food",
+        "tags": [
+          "kitchen-appliances"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-07",
+      "confidence_rationale": "artificial-synonym",
+      "confidence_tier": null,
+      "outcome": "rejected",
+      "reason_codes": [
+        "artificial-synonym"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "affirmative_defect": "artificial-synonym",
+        "concerns": [
+          "The pairing presents ketuhar as the Malaysian everyday counterpart to oven, although oven is also highly ordinary in Malaysian Malay."
+        ],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote an appliance for baking or roasting food.",
+        "cue_rewrite": "",
+        "material_concerns": [
+          "This is an artificial national pairing likely to misteach the learner about Malaysian usage."
+        ],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "oven",
+          "language": "both",
+          "rationale": "Oven is an ordinary everyday form in both varieties, including Malaysian Malay.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Oven is ordinary in both varieties; ketuhar is a Malaysian Malay standard term but is not a reliable everyday replacement for oven.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "weak-contrast",
+        "shared_synonym_rationale": "Oven is plausibly ordinary in both Indonesia and Malaysia, weakening the claimed national preference for ketuhar.",
+        "verdict": "object"
+      }
+    },
+    "cal3-food-001:food-08": {
+      "candidate": {
+        "candidate_id": "food-08",
+        "english": "cooking pot",
+        "indonesian": "panci",
+        "malaysian": "periuk",
+        "sense": "deep vessel for cooking food",
+        "tags": [
+          "cookware"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-08",
+      "confidence_rationale": "Panci is the ordinary Indonesian term and periuk the ordinary Malaysian Malay term for a deep cooking vessel.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit a deep vessel used for cooking food.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "The forms are distinct ordinary national terms: panci for Indonesian and periuk for Malaysian Malay, so there is no preference concern.",
+          "signal": "no-preference-concern"
+        },
+        "rationale": "Panci is the ordinary Indonesian term and periuk the ordinary Malaysian Malay term for a deep cooking vessel.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "nonpreferred-alternative",
+        "shared_synonym_rationale": "Panci may be understood in Malaysian Malay, but periuk is the ordinary local preference there.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-food-001:food-09": {
+      "candidate": {
+        "candidate_id": "food-09",
+        "english": "food container",
+        "indonesian": "wadah makanan",
+        "malaysian": "bekas makanan",
+        "sense": "container for storing food",
+        "tags": [
+          "food-storage"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-09",
+      "confidence_rationale": "Wadah makanan is ordinary Indonesian, while bekas makanan is ordinary Malaysian Malay for a container used to store food. Review concern: The exact phrase can vary with the type of container, such as a lunchbox or storage box.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "regional-register-risk",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both phrases denote a container for storing food.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "kotak makanan",
+          "language": "both",
+          "rationale": "Kotak makanan may be used for a box-like food container, but it is narrower than the generic cue.",
+          "signal": "regional-or-register-competition"
+        },
+        "rationale": "Wadah makanan is ordinary Indonesian, while bekas makanan is ordinary Malaysian Malay for a container used to store food.",
+        "relation": "different-common-word",
+        "risk_rationale": "The exact phrase can vary with the type of container, such as a lunchbox or storage box.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Other container terms may be understood across both varieties, but wadah makanan and bekas makanan remain useful ordinary preferences in their respective varieties.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-food-001:food-10": {
+      "candidate": {
+        "candidate_id": "food-10",
+        "english": "rolling pin",
+        "indonesian": "penggilas adonan",
+        "malaysian": "penggelek doh",
+        "sense": "tool for flattening dough",
+        "tags": [
+          "baking-tools"
+        ]
+      },
+      "candidate_ref": "cal3-food-001:food-10",
+      "confidence_rationale": "Penggilas adonan is an ordinary Indonesian term and penggelek doh an ordinary Malaysian Malay term for a tool that flattens dough. Review concern: Baking communities may also use the English borrowing rolling pin.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a tool used to flatten dough.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "rolling pin",
+          "language": "both",
+          "rationale": "The English borrowing occurs in baking contexts, but its existence does not displace the proposed local terms in ordinary Malay usage.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "Penggilas adonan is an ordinary Indonesian term and penggelek doh an ordinary Malaysian Malay term for a tool that flattens dough.",
+        "relation": "different-common-word",
+        "risk_rationale": "Baking communities may also use the English borrowing rolling pin.",
+        "shared_synonym_case": "nonpreferred-alternative",
+        "shared_synonym_rationale": "Rolling pin is understood as a borrowing in both varieties, especially in baking contexts, but the proposed local terms are the relevant ordinary forms.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-health-001:health-01": {
+      "candidate": {
+        "candidate_id": "health-01",
+        "english": "common cold",
+        "indonesian": "pilek",
+        "malaysian": "selsema",
+        "sense": "a mild respiratory illness with a runny or blocked nose",
+        "tags": [
+          "health",
+          "illness"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-01",
+      "confidence_rationale": "“Pilek” is the ordinary Indonesian term for a common cold, while Malaysian Malay commonly uses “selsema” for the same illness.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit the cue’s mild respiratory-illness sense.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "selesma",
+          "language": "indonesian",
+          "rationale": "“Selesma” exists in Indonesian but is not as ordinary or preferred as “pilek” in everyday usage.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "“Pilek” is the ordinary Indonesian term for a common cold, while Malaysian Malay commonly uses “selsema” for the same illness.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "agree"
+      }
+    },
+    "cal3-health-001:health-02": {
+      "candidate": {
+        "candidate_id": "health-02",
+        "english": "flu",
+        "indonesian": "flu",
+        "malaysian": "selesema",
+        "sense": "influenza-like illness with fever and body aches",
+        "tags": [
+          "health",
+          "illness"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-02",
+      "confidence_rationale": "A shared ordinary synonym may defeat the claimed national preference.; The English cue may misalign the two target-language senses.; The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers.",
+      "confidence_tier": null,
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "The English cue may misalign the two target-language senses.",
+        "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers.",
+          "The English cue may misalign the two target-language senses.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "verifier": {
+        "concerns": [
+          "The Malaysian answer does not reliably express influenza; “selesema” ordinarily refers to a common cold."
+        ],
+        "cue_alignment": "material-risk",
+        "cue_rationale": "The English cue can be narrowed to influenza, but then Malaysian “selesema” no longer reliably fits.",
+        "cue_rewrite": "",
+        "material_concerns": [
+          "The answers do not align on the exact sense of influenza, and no concise cue rewrite preserves both answers."
+        ],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "flu",
+          "language": "both",
+          "rationale": "“Flu” is plausibly ordinary in both varieties for influenza, weakening the proposed Indonesian–Malaysian contrast.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Indonesian “flu” fits influenza, but Malaysian “selesema” commonly means a cold rather than influenza. Malaysian Malay ordinarily uses “influenza” or sometimes “flu” for the intended illness.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "weak-contrast",
+        "shared_synonym_rationale": "“Flu” is also an ordinary form in Malaysian usage for influenza, so the proposed national preference is not dependable.",
+        "verdict": "object"
+      }
+    },
+    "cal3-health-001:health-03": {
+      "candidate": {
+        "candidate_id": "health-03",
+        "english": "sore throat",
+        "indonesian": "sakit tenggorokan",
+        "malaysian": "sakit tekak",
+        "sense": "pain or irritation in the throat",
+        "tags": [
+          "health",
+          "symptom"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-03",
+      "confidence_rationale": "“Sakit tenggorokan” is ordinary Indonesian, while “sakit tekak” is the ordinary Malaysian Malay expression for throat pain or irritation.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers directly express the same symptom.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete competing everyday form threatens this contrast.",
+          "signal": "no-preference-concern"
+        },
+        "rationale": "“Sakit tenggorokan” is ordinary Indonesian, while “sakit tekak” is the ordinary Malaysian Malay expression for throat pain or irritation.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "agree"
+      }
+    },
+    "cal3-health-001:health-04": {
+      "candidate": {
+        "candidate_id": "health-04",
+        "english": "bruise",
+        "indonesian": "memar",
+        "malaysian": "lebam",
+        "sense": "a dark mark caused by an injury under the skin",
+        "tags": [
+          "health",
+          "injury"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-04",
+      "confidence_rationale": "“Memar” is the ordinary Indonesian term for a bruise, while Malaysian Malay commonly uses “lebam” for the same injury mark.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit a dark mark caused by subcutaneous injury.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete competing everyday form threatens this contrast.",
+          "signal": "no-preference-concern"
+        },
+        "rationale": "“Memar” is the ordinary Indonesian term for a bruise, while Malaysian Malay commonly uses “lebam” for the same injury mark.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "agree"
+      }
+    },
+    "cal3-health-001:health-05": {
+      "candidate": {
+        "candidate_id": "health-05",
+        "english": "scar",
+        "indonesian": "bekas luka",
+        "malaysian": "parut",
+        "sense": "a mark left on the skin after a wound heals",
+        "tags": [
+          "health",
+          "skin"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-05",
+      "confidence_rationale": "Indonesian commonly says “bekas luka,” while Malaysian Malay commonly uses “parut” for a mark remaining after a wound heals. Review concern: The Malaysian descriptive phrase “bekas luka” may occur, though it does not defeat “parut” as the preferred concise term.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers describe a healed-wound scar rather than the wound itself.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "bekas luka",
+          "language": "malaysian",
+          "rationale": "“Bekas luka” can be an ordinary descriptive alternative in Malaysian Malay, although “parut” is the more specific concise term.",
+          "signal": "credible-everyday-alternative"
+        },
+        "rationale": "Indonesian commonly says “bekas luka,” while Malaysian Malay commonly uses “parut” for a mark remaining after a wound heals.",
+        "relation": "different-common-word",
+        "risk_rationale": "The Malaysian descriptive phrase “bekas luka” may occur, though it does not defeat “parut” as the preferred concise term.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "“Bekas luka” is understandable and usable in Malaysian Malay as a descriptive phrase, but “parut” remains the concise ordinary term; the contrast is still useful as a lexical preference.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-health-001:health-06": {
+      "candidate": {
+        "candidate_id": "health-06",
+        "english": "to faint",
+        "indonesian": "pingsan",
+        "malaysian": "pengsan",
+        "sense": "to briefly lose consciousness",
+        "tags": [
+          "health",
+          "symptom"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-06",
+      "confidence_rationale": "Both forms ordinarily mean briefly losing consciousness; the spelling difference is a useful national-form contrast.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "regional-register-risk"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers directly fit “to briefly lose consciousness.”",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "pingsan/pengsan",
+          "language": "both",
+          "rationale": "The Indonesian and Malaysian forms are distinct national variants for the same sense, so preference may depend on language variety.",
+          "signal": "regional-or-register-competition"
+        },
+        "rationale": "Both forms ordinarily mean briefly losing consciousness; the spelling difference is a useful national-form contrast.",
+        "relation": "similar",
+        "risk_rationale": "",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "agree"
+      }
+    },
+    "cal3-health-001:health-07": {
+      "candidate": {
+        "candidate_id": "health-07",
+        "english": "to vomit",
+        "indonesian": "muntah",
+        "malaysian": "muntah",
+        "sense": "to bring food or liquid up from the stomach",
+        "tags": [
+          "health",
+          "symptom"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-07",
+      "confidence_rationale": "Identical ordinary forms offer no meaningful recall contrast.",
+      "confidence_tier": null,
+      "outcome": "rejected",
+      "reason_codes": [
+        "no-meaningful-cross-language-contrast"
+      ],
+      "relation": "",
+      "review_flags": [],
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "verifier": {}
+    },
+    "cal3-health-001:health-08": {
+      "candidate": {
+        "candidate_id": "health-08",
+        "english": "ugly",
+        "indonesian": "jelek",
+        "malaysian": "hodoh",
+        "sense": "unpleasant in appearance",
+        "tags": [
+          "qualities",
+          "appearance"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-08",
+      "confidence_rationale": "Jelek is ordinary Indonesian and hodoh is ordinary Malaysian for unpleasant appearance, providing a useful variety preference. Review concern: Buruk may also be encountered for this sense, especially in broader evaluative contexts.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit “unpleasant in appearance.”",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "buruk",
+          "language": "both",
+          "rationale": "Buruk is a plausible shared alternative for unattractive appearance, though it does not eliminate the useful jelek–hodoh preference.",
+          "signal": "credible-everyday-alternative"
+        },
+        "rationale": "Jelek is ordinary Indonesian and hodoh is ordinary Malaysian for unpleasant appearance, providing a useful variety preference.",
+        "relation": "different-common-word",
+        "risk_rationale": "Buruk may also be encountered for this sense, especially in broader evaluative contexts.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Buruk can describe unattractive appearance in both varieties, but jelek and hodoh remain credible ordinary preferences in Indonesian and Malaysian respectively.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-health-001:health-09": {
+      "candidate": {
+        "candidate_id": "health-09",
+        "english": "clever",
+        "indonesian": "pintar",
+        "malaysian": "pandai",
+        "sense": "quick to learn or understand",
+        "tags": [
+          "qualities",
+          "ability"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-09",
+      "confidence_rationale": "A shared ordinary synonym may defeat the claimed national preference.; The card may mislead learners into treating pintar as specifically Indonesian and pandai as specifically Malaysian.",
+      "confidence_tier": null,
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "The card may mislead learners into treating pintar as specifically Indonesian and pandai as specifically Malaysian."
+      ],
+      "relation": "similar",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The card may mislead learners into treating pintar as specifically Indonesian and pandai as specifically Malaysian.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "verifier": {
+        "concerns": [
+          "The proposed national contrast is weak because both pintar and pandai are ordinary in both varieties."
+        ],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit “quick to learn or understand.”",
+        "cue_rewrite": "",
+        "material_concerns": [
+          "The card may mislead learners into treating pintar as specifically Indonesian and pandai as specifically Malaysian."
+        ],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "pintar and pandai",
+          "language": "both",
+          "rationale": "Both proposed forms are plausibly ordinary in both varieties for the same sense.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Both answers fit the cue, but the forms are not a reliable national pairing: pintar and pandai are both widely understood and ordinarily used for cleverness in Indonesian and Malaysian Malay.",
+        "relation": "similar",
+        "risk_rationale": "",
+        "shared_synonym_case": "weak-contrast",
+        "shared_synonym_rationale": "Pintar and pandai are shared common forms for this same sense across both varieties, so the claimed preference is likely to misteach rather than provide a dependable contrast.",
+        "verdict": "object"
+      }
+    },
+    "cal3-health-001:health-10": {
+      "candidate": {
+        "candidate_id": "health-10",
+        "english": "quiet",
+        "indonesian": "tenang",
+        "malaysian": "senyap",
+        "sense": "making little or no noise",
+        "tags": [
+          "qualities",
+          "sound"
+        ]
+      },
+      "candidate_ref": "cal3-health-001:health-10",
+      "confidence_rationale": "The English cue may misalign the two target-language senses.; The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence.",
+      "confidence_tier": null,
+      "outcome": "hold",
+      "reason_codes": [
+        "The English cue may misalign the two target-language senses.",
+        "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence.",
+          "The English cue may misalign the two target-language senses."
+        ]
+      },
+      "verifier": {
+        "concerns": [
+          "Tenang primarily expresses calmness or tranquility in Indonesian, while senyap specifically expresses absence of noise."
+        ],
+        "cue_alignment": "material-risk",
+        "cue_rationale": "The proposed cue is not safely aligned: tenang is not a precise equivalent of senyap for the sound-related sense.",
+        "cue_rewrite": "",
+        "material_concerns": [
+          "The answers do not reliably share the exact sound-related sense; the card risks teaching calm as equivalent to quiet/noisy silence."
+        ],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "sunyi",
+          "language": "indonesian",
+          "rationale": "Sunyi is a more direct Indonesian competitor for the absence-of-noise sense, whereas tenang is chiefly associated with calmness.",
+          "signal": "same-sense-competition"
+        },
+        "rationale": "Senyap directly fits making little or no noise, but tenang more centrally means calm or tranquil. A concise cue rewrite cannot preserve the same concept for both answers.",
+        "relation": "different-common-word",
+        "risk_rationale": "",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "object"
+      }
+    },
+    "cal3-home-001:home-01": {
+      "candidate": {
+        "candidate_id": "home-01",
+        "english": "roof",
+        "indonesian": "atap",
+        "malaysian": "bumbung",
+        "sense": "top covering of a house",
+        "tags": [
+          "home",
+          "construction"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-01",
+      "confidence_rationale": "Atap is the ordinary Indonesian term; bumbung is the ordinary Malaysian term for a house roof. The forms express the same sense. Review concern: Atap is recognizable in Malaysia, so the national preference is not exclusive.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both forms mean the exterior top covering of a house.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "atap",
+          "language": "malaysian",
+          "rationale": "Atap can be ordinary in Malaysian contexts, though bumbung is the stronger general preference.",
+          "signal": "credible-everyday-alternative"
+        },
+        "rationale": "Atap is the ordinary Indonesian term; bumbung is the ordinary Malaysian term for a house roof. The forms express the same sense.",
+        "relation": "different-common-word",
+        "risk_rationale": "Atap is recognizable in Malaysia, so the national preference is not exclusive.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Atap also occurs in Malaysian Malay, especially in compounds or references to roofing materials, but bumbung remains the usual general Malaysian term.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-02": {
+      "candidate": {
+        "candidate_id": "home-02",
+        "english": "ceiling",
+        "indonesian": "plafon",
+        "malaysian": "siling",
+        "sense": "inside upper surface of a room",
+        "tags": [
+          "home",
+          "interior"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-02",
+      "confidence_rationale": "Plafon is the ordinary Indonesian term; siling is the ordinary Malaysian term for a room’s inside upper surface. Review concern: Alternative terms exist, but they do not materially undermine the contrast.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both forms fit the interior upper surface of a room.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "langit-langit",
+          "language": "both",
+          "rationale": "Langit-langit can refer to a ceiling, but is not the strongest everyday preference for this pair.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "Plafon is the ordinary Indonesian term; siling is the ordinary Malaysian term for a room’s inside upper surface.",
+        "relation": "different-common-word",
+        "risk_rationale": "Alternative terms exist, but they do not materially undermine the contrast.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Langit-langit is also used in Indonesian and some Malay contexts, but plafon and siling remain useful variety-specific standard preferences.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-03": {
+      "candidate": {
+        "candidate_id": "home-03",
+        "english": "clothes hanger",
+        "indonesian": "gantungan baju",
+        "malaysian": "penyangkut baju",
+        "sense": "item used to hang clothing",
+        "tags": [
+          "clothing",
+          "storage"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-03",
+      "confidence_rationale": "Gantungan baju is the ordinary Indonesian term and penyangkut baju the ordinary Malaysian term for an item used to hang clothing. Review concern: The shared borrowing hanger may compete in casual speech in both varieties.",
+      "confidence_tier": "low",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both forms denote a clothes hanger, not clothing storage furniture.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "hanger",
+          "language": "both",
+          "rationale": "Hanger is plausibly ordinary in casual Indonesian and Malaysian usage alongside the localized terms.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Gantungan baju is the ordinary Indonesian term and penyangkut baju the ordinary Malaysian term for an item used to hang clothing.",
+        "relation": "different-common-word",
+        "risk_rationale": "The shared borrowing hanger may compete in casual speech in both varieties.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Hanger is a plausible casual borrowing in both countries, while the proposed forms teach useful localized everyday terms.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-04": {
+      "candidate": {
+        "candidate_id": "home-04",
+        "english": "slippers",
+        "indonesian": "sandal",
+        "malaysian": "selipar",
+        "sense": "light open footwear worn indoors or casually",
+        "tags": [
+          "clothing",
+          "footwear"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-04",
+      "confidence_rationale": "category-subtype-mismatch",
+      "confidence_tier": null,
+      "outcome": "rejected",
+      "reason_codes": [
+        "category-subtype-mismatch"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "affirmative_defect": "category-subtype-mismatch",
+        "concerns": [
+          "The Indonesian answer is broader than the English cue: sandal normally covers open sandals generally, whereas slippers are a narrower footwear type."
+        ],
+        "cue_alignment": "material-risk",
+        "cue_rationale": "The English cue cannot be narrowed without changing slippers into a broader open-footwear concept that would no longer preserve the original sense.",
+        "cue_rewrite": "",
+        "material_concerns": [
+          "The pair mismatches a subtype with a broader category; selipar fits slippers more closely than sandal does."
+        ],
+        "nonblocking_risk": "substantial",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "sandal rumah",
+          "language": "indonesian",
+          "rationale": "Sandal rumah is a more specific Indonesian expression for house slippers than bare sandal.",
+          "signal": "same-sense-competition"
+        },
+        "rationale": "Selipar can mean slippers, but sandal is not a precise equivalent for the neutral English cue slippers. Rewriting the cue to casual open footwear would change the concept materially.",
+        "relation": "different-common-word",
+        "risk_rationale": "Learners could acquire sandal as an equivalent of slippers even though it commonly denotes the broader category.",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "object"
+      }
+    },
+    "cal3-home-001:home-05": {
+      "candidate": {
+        "candidate_id": "home-05",
+        "english": "apron",
+        "indonesian": "celemek",
+        "malaysian": "apron",
+        "sense": "garment worn to protect clothing while cooking",
+        "tags": [
+          "clothing",
+          "kitchen"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-05",
+      "confidence_rationale": "Celemek is the ordinary Indonesian term, while apron is the ordinary Malaysian term for a garment protecting clothing during cooking. Review concern: Apron competes with celemek in Indonesian everyday usage, especially in service or professional contexts.",
+      "confidence_tier": "low",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both forms fit the cooking garment sense.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "concrete",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "apron",
+          "language": "both",
+          "rationale": "Apron is plausibly ordinary in both varieties, though celemek remains a strong Indonesian term and apron is the stronger Malaysian preference.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "Celemek is the ordinary Indonesian term, while apron is the ordinary Malaysian term for a garment protecting clothing during cooking.",
+        "relation": "different-common-word",
+        "risk_rationale": "Apron competes with celemek in Indonesian everyday usage, especially in service or professional contexts.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Apron is also common in Indonesian, while celemek is not the usual Malaysian term; this is a useful localized preference, not exclusive ownership.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-06": {
+      "candidate": {
+        "candidate_id": "home-06",
+        "english": "zipper",
+        "indonesian": "resleting",
+        "malaysian": "zip",
+        "sense": "fastener with interlocking teeth",
+        "tags": [
+          "clothing",
+          "fastener"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-06",
+      "confidence_rationale": "“Resleting” is the ordinary Indonesian term, while Malaysian Malay commonly uses “zip” for the same interlocking-tooth fastener. Review concern: “Ritsleting” is a plausible Indonesian alternative and may be encountered in edited usage.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both forms denote a fastener with interlocking teeth.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "ritsleting",
+          "language": "indonesian",
+          "rationale": "An alternative Indonesian spelling/form exists, though it does not materially undermine “resleting.”",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "“Resleting” is the ordinary Indonesian term, while Malaysian Malay commonly uses “zip” for the same interlocking-tooth fastener.",
+        "relation": "different-common-word",
+        "risk_rationale": "“Ritsleting” is a plausible Indonesian alternative and may be encountered in edited usage.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Indonesian also has “ritsleting,” but “resleting” remains an ordinary preference; this does not defeat the Indonesian–Malaysian contrast.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-07": {
+      "candidate": {
+        "candidate_id": "home-07",
+        "english": "light bulb",
+        "indonesian": "bohlam",
+        "malaysian": "mentol",
+        "sense": "replaceable electric light source",
+        "tags": [
+          "home",
+          "lighting"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-07",
+      "confidence_rationale": "“Bohlam” is ordinary Indonesian usage, while Malaysian Malay commonly uses “mentol” for a replaceable electric light source. Review concern: The broader form “lampu” may be used colloquially for the object in either variety.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit the replaceable electric light-source sense.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "lampu",
+          "language": "both",
+          "rationale": "“Lampu” is a plausible broad everyday reference to a light bulb in both varieties, though it is less specific than the candidate terms.",
+          "signal": "shared-common-form"
+        },
+        "rationale": "“Bohlam” is ordinary Indonesian usage, while Malaysian Malay commonly uses “mentol” for a replaceable electric light source.",
+        "relation": "different-common-word",
+        "risk_rationale": "The broader form “lampu” may be used colloquially for the object in either variety.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "“Lampu” can be used broadly for a bulb in both varieties, but “bohlam” and “mentol” remain useful specific terms in their respective varieties.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-08": {
+      "candidate": {
+        "candidate_id": "home-08",
+        "english": "shopping bag",
+        "indonesian": "kantong belanja",
+        "malaysian": "beg beli-belah",
+        "sense": "bag used to carry purchases",
+        "tags": [
+          "shopping",
+          "container"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-08",
+      "confidence_rationale": "“Kantong belanja” is ordinary Indonesian, while “beg beli-belah” is a credible Malaysian Malay term for a bag carrying purchases. Review concern: “Tas belanja” is a common Indonesian alternative and may be more familiar to some speakers.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both phrases denote a bag used to carry shopping purchases.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "tas belanja",
+          "language": "indonesian",
+          "rationale": "“Tas belanja” is a plausible everyday Indonesian alternative to “kantong belanja.”",
+          "signal": "credible-everyday-alternative"
+        },
+        "rationale": "“Kantong belanja” is ordinary Indonesian, while “beg beli-belah” is a credible Malaysian Malay term for a bag carrying purchases.",
+        "relation": "different-common-word",
+        "risk_rationale": "“Tas belanja” is a common Indonesian alternative and may be more familiar to some speakers.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Indonesian commonly also uses “tas belanja,” but that does not eliminate the useful contrast with Malaysian “beg beli-belah.”",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-09": {
+      "candidate": {
+        "candidate_id": "home-09",
+        "english": "floor tile",
+        "indonesian": "ubin",
+        "malaysian": "jubin",
+        "sense": "individual hard tile used on a floor",
+        "tags": [
+          "home",
+          "flooring"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-09",
+      "confidence_rationale": "“Ubin” is the ordinary Indonesian term, while Malaysian Malay commonly uses “jubin” for an individual floor tile. Review concern: “Keramik” may be used in both varieties for ceramic tile, but it denotes a material/subtype rather than the full cue category.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit the individual hard tile used on a floor.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "keramik",
+          "language": "both",
+          "rationale": "“Keramik” commonly refers to ceramic tile or the tile material, a subtype/material-based expression rather than the general floor-tile sense.",
+          "signal": "different-sense-only"
+        },
+        "rationale": "“Ubin” is the ordinary Indonesian term, while Malaysian Malay commonly uses “jubin” for an individual floor tile.",
+        "relation": "different-common-word",
+        "risk_rationale": "“Keramik” may be used in both varieties for ceramic tile, but it denotes a material/subtype rather than the full cue category.",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "agree"
+      }
+    },
+    "cal3-home-001:home-10": {
+      "candidate": {
+        "candidate_id": "home-10",
+        "english": "laundry detergent",
+        "indonesian": "deterjen",
+        "malaysian": "detergen",
+        "sense": "cleaning product for washing clothes",
+        "tags": [
+          "home",
+          "laundry"
+        ]
+      },
+      "candidate_ref": "cal3-home-001:home-10",
+      "confidence_rationale": "“Deterjen” is the standard Indonesian spelling, while Malaysian Malay commonly uses “detergen” for laundry detergent. Review concern: Colloquial laundry-product terms such as “sabun cuci” or “sabun basuh” may also occur, but they do not invalidate the spelling contrast.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both forms denote a cleaning product used to wash clothes.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "sabun cuci",
+          "language": "indonesian",
+          "rationale": "“Sabun cuci” can colloquially refer to laundry detergent in Indonesian, creating limited same-sense competition.",
+          "signal": "same-sense-competition"
+        },
+        "rationale": "“Deterjen” is the standard Indonesian spelling, while Malaysian Malay commonly uses “detergen” for laundry detergent.",
+        "relation": "different-common-word",
+        "risk_rationale": "Colloquial laundry-product terms such as “sabun cuci” or “sabun basuh” may also occur, but they do not invalidate the spelling contrast.",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-01": {
+      "candidate": {
+        "candidate_id": "technology-01",
+        "english": "file",
+        "indonesian": "berkas",
+        "malaysian": "fail",
+        "sense": "digital or work document file",
+        "tags": [
+          "technology",
+          "work"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-01",
+      "confidence_rationale": "Berkas is an ordinary Indonesian term, while fail is the ordinary Malaysian form for a digital or work document file. Review concern: File is a frequent colloquial alternative in Indonesian.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a digital or work document file.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "file",
+          "language": "indonesian",
+          "rationale": "File is a highly common Indonesian alternative to berkas in technology and workplace contexts.",
+          "signal": "credible-everyday-alternative"
+        },
+        "rationale": "Berkas is an ordinary Indonesian term, while fail is the ordinary Malaysian form for a digital or work document file.",
+        "relation": "different-common-word",
+        "risk_rationale": "File is a frequent colloquial alternative in Indonesian.",
+        "shared_synonym_case": "nonpreferred-alternative",
+        "shared_synonym_rationale": "Indonesian also commonly uses file, but berkas remains a credible formal Indonesian preference; fail is the ordinary Malaysian form.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-02": {
+      "candidate": {
+        "candidate_id": "technology-02",
+        "english": "printer",
+        "indonesian": "printer",
+        "malaysian": "pencetak",
+        "sense": "device that prints documents",
+        "tags": [
+          "technology",
+          "office"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-02",
+      "confidence_rationale": "Printer is the ordinary Indonesian form, while pencetak is the standard Malaysian term for a document-printing device. Review concern: Malaysian technology usage may also use the English borrowing printer in casual contexts.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "regional-register-risk",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a device that prints documents.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "printer",
+          "language": "malaysian",
+          "rationale": "Printer competes with pencetak in casual Malaysian technology usage, although pencetak remains the standard localized term.",
+          "signal": "regional-or-register-competition"
+        },
+        "rationale": "Printer is the ordinary Indonesian form, while pencetak is the standard Malaysian term for a document-printing device.",
+        "relation": "different-common-word",
+        "risk_rationale": "Malaysian technology usage may also use the English borrowing printer in casual contexts.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "Printer is understood and used in Malaysia, especially informally, but pencetak remains a useful standard Malaysian preference; printer is the ordinary Indonesian choice.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-03": {
+      "candidate": {
+        "candidate_id": "technology-03",
+        "english": "software",
+        "indonesian": "perangkat lunak",
+        "malaysian": "perisian",
+        "sense": "computer programs and applications",
+        "tags": [
+          "technology"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-03",
+      "confidence_rationale": "Perangkat lunak is the standard Indonesian term, while perisian is the standard Malaysian term for computer programs and applications. Review concern: Technical communities may use the English borrowing software in either variety.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers fit the sense of computer programs and applications.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "software",
+          "language": "both",
+          "rationale": "Software is a recognized technical alternative, but the localized forms remain credible standard choices.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "Perangkat lunak is the standard Indonesian term, while perisian is the standard Malaysian term for computer programs and applications.",
+        "relation": "different-common-word",
+        "risk_rationale": "Technical communities may use the English borrowing software in either variety.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "The English borrowing software is understood in both varieties, but the proposed localized forms are useful standard preferences in Indonesian and Malaysian respectively.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-04": {
+      "candidate": {
+        "candidate_id": "technology-04",
+        "english": "hardware",
+        "indonesian": "perangkat keras",
+        "malaysian": "perkakasan",
+        "sense": "physical computer equipment",
+        "tags": [
+          "technology"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-04",
+      "confidence_rationale": "Perangkat keras is the standard Indonesian term, while perkakasan is the standard Malaysian term for physical computer equipment. Review concern: Technical users may use the English borrowing hardware in either variety.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote physical computer equipment or components.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "hardware",
+          "language": "both",
+          "rationale": "Hardware is a recognized technical alternative, without defeating the localized standard contrast.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "Perangkat keras is the standard Indonesian term, while perkakasan is the standard Malaysian term for physical computer equipment.",
+        "relation": "different-common-word",
+        "risk_rationale": "Technical users may use the English borrowing hardware in either variety.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "The English borrowing hardware is understood in both varieties, but the proposed localized terms remain useful standard preferences.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-05": {
+      "candidate": {
+        "candidate_id": "technology-05",
+        "english": "flash drive",
+        "indonesian": "flashdisk",
+        "malaysian": "pemacu kilat",
+        "sense": "portable USB storage device",
+        "tags": [
+          "technology"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-05",
+      "confidence_rationale": "Flashdisk is the ordinary Indonesian form, while pemacu kilat is the standard Malaysian term for a portable USB storage device. Review concern: English-based alternatives such as flash drive or USB drive may occur in technical or informal usage.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote a portable USB storage device.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "flash drive",
+          "language": "both",
+          "rationale": "Flash drive is an understandable technical alternative, but it does not eliminate the proposed Indonesian–Malaysian preference contrast.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "Flashdisk is the ordinary Indonesian form, while pemacu kilat is the standard Malaysian term for a portable USB storage device.",
+        "relation": "different-common-word",
+        "risk_rationale": "English-based alternatives such as flash drive or USB drive may occur in technical or informal usage.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "USB drive or flash drive may occur as technical borrowings, but flashdisk is a credible Indonesian everyday form and pemacu kilat a credible Malaysian standard preference.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-06": {
+      "candidate": {
+        "candidate_id": "technology-06",
+        "english": "login",
+        "indonesian": "masuk",
+        "malaysian": "log masuk",
+        "sense": "action of accessing an account",
+        "tags": [
+          "technology",
+          "services"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-06",
+      "confidence_rationale": "“Masuk” is the ordinary Indonesian tech expression, while Malaysian uses “log masuk” for accessing an account. The concise cue is narrowed to log in. Review concern: “Login” may appear in informal technology usage in both varieties.",
+      "confidence_tier": "low",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "cue-corrected",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "correctable",
+        "cue_rationale": "The original cue is noun-like, but “log in” precisely denotes the access action represented by both answers.",
+        "cue_rewrite": "log in",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "login",
+          "language": "both",
+          "rationale": "The borrowing is plausible in everyday technology contexts, although the proposed localized forms remain useful.",
+          "signal": "credible-everyday-alternative"
+        },
+        "rationale": "“Masuk” is the ordinary Indonesian tech expression, while Malaysian uses “log masuk” for accessing an account.",
+        "relation": "different-common-word",
+        "risk_rationale": "“Login” may appear in informal technology usage in both varieties.",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "“Login” is also used in both varieties, but Indonesian “masuk” and Malaysian “log masuk” remain credible ordinary preferences.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-07": {
+      "candidate": {
+        "candidate_id": "technology-07",
+        "english": "user account",
+        "indonesian": "akun pengguna",
+        "malaysian": "akaun pengguna",
+        "sense": "personal account for an online service",
+        "tags": [
+          "technology",
+          "services"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-07",
+      "confidence_rationale": "“Akun pengguna” is Indonesian, while “akaun pengguna” is the corresponding Malaysian form; they are distinct national variants rather than identical word forms.",
+      "confidence_tier": "high",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers directly denote a personal account for an online service.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "none",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "The distinct forms reflect the Indonesian and Malaysian standards, with no stated preference concern.",
+          "signal": "no-preference-concern"
+        },
+        "rationale": "“Akun pengguna” is Indonesian, while “akaun pengguna” is the corresponding Malaysian form; they are distinct national variants rather than identical word forms.",
+        "relation": "similar",
+        "risk_rationale": "",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "none",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-08": {
+      "candidate": {
+        "candidate_id": "technology-08",
+        "english": "job vacancy",
+        "indonesian": "lowongan kerja",
+        "malaysian": "jawatan kosong",
+        "sense": "available position for employment",
+        "tags": [
+          "work",
+          "employment"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-08",
+      "confidence_rationale": "“Lowongan kerja” is ordinary Indonesian for an available job, while Malaysian Malay normally uses “jawatan kosong.” Review concern: Usage can vary somewhat by employment sector and advertisement style.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote an available position for employment.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "vacancy",
+          "language": "both",
+          "rationale": "“Vacancy” is encountered in employment advertising, but it is not the primary ordinary term in either variety.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "“Lowongan kerja” is ordinary Indonesian for an available job, while Malaysian Malay normally uses “jawatan kosong.”",
+        "relation": "different-common-word",
+        "risk_rationale": "Usage can vary somewhat by employment sector and advertisement style.",
+        "shared_synonym_case": "nonpreferred-alternative",
+        "shared_synonym_rationale": "English “vacancy” may occur in advertisements in both places, but it is not the ordinary neutral term that weakens this pairing.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-09": {
+      "candidate": {
+        "candidate_id": "technology-09",
+        "english": "work shift",
+        "indonesian": "shift kerja",
+        "malaysian": "syif kerja",
+        "sense": "scheduled period of work",
+        "tags": [
+          "work"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-09",
+      "confidence_rationale": "“Shift kerja” and “syif kerja” denote the same scheduled work period; the difference is a useful Indonesian/Malaysian spelling and borrowing preference. Review concern: Informal Malaysian usage may retain the English spelling “shift.”.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "regional-register-risk",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers directly denote a scheduled period of work.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "shift kerja",
+          "language": "malaysian",
+          "rationale": "The English spelling may occur in informal or workplace usage alongside the localized “syif kerja.”",
+          "signal": "regional-or-register-competition"
+        },
+        "rationale": "“Shift kerja” and “syif kerja” denote the same scheduled work period; the difference is a useful Indonesian/Malaysian spelling and borrowing preference.",
+        "relation": "similar",
+        "risk_rationale": "Informal Malaysian usage may retain the English spelling “shift.”",
+        "shared_synonym_case": "useful-preference",
+        "shared_synonym_rationale": "“Shift kerja” can also be understood or used in Malaysian contexts, but Malaysian “syif kerja” is a credible localized preference.",
+        "verdict": "agree"
+      }
+    },
+    "cal3-technology-001:technology-10": {
+      "candidate": {
+        "candidate_id": "technology-10",
+        "english": "tuition fee",
+        "indonesian": "uang kuliah",
+        "malaysian": "yuran pengajian",
+        "sense": "fee paid for university study",
+        "tags": [
+          "education",
+          "services"
+        ]
+      },
+      "candidate_ref": "cal3-technology-001:technology-10",
+      "confidence_rationale": "“Uang kuliah” is ordinary Indonesian for university tuition, while Malaysian Malay uses “yuran pengajian.” Review concern: Institutions may use more specific terms such as fees by semester or programme.",
+      "confidence_tier": "medium",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "verifier": {
+        "concerns": [],
+        "cue_alignment": "aligned",
+        "cue_rationale": "Both answers denote the fee paid for university study.",
+        "cue_rewrite": "",
+        "material_concerns": [],
+        "nonblocking_risk": "minor",
+        "objection_assessments": [],
+        "preference_risk": {
+          "form": "biaya kuliah",
+          "language": "indonesian",
+          "rationale": "“Biaya kuliah” is also an ordinary Indonesian expression, though “uang kuliah” remains natural and clearly understood.",
+          "signal": "named-alternative-exists"
+        },
+        "rationale": "“Uang kuliah” is ordinary Indonesian for university tuition, while Malaysian Malay uses “yuran pengajian.”",
+        "relation": "different-common-word",
+        "risk_rationale": "Institutions may use more specific terms such as fees by semester or programme.",
+        "shared_synonym_case": "none",
+        "shared_synonym_rationale": "No shared ordinary synonym was identified that would materially weaken this Indonesian/Malaysian preference contrast.",
+        "verdict": "agree"
+      }
+    }
+  },
+  "canonical_source_digest_before": "1550791727695bf69fce4c00b65fcbab4ed328e67bd79603daf705d8c081c691",
+  "experiment_id": "final-calibration-50",
+  "model_output_failures": [],
+  "operation_attempts": [
+    {
+      "candidate_ref": "generate:cal3-food-001",
+      "elapsed_seconds": 13.356,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 21935,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 884,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "generate",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "generate:cal3-home-001",
+      "elapsed_seconds": 8.755,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 21013,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 726,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "generate",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "generate:cal3-actions-001",
+      "elapsed_seconds": 12.262,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 21338,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1341,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "generate",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "generate:cal3-technology-001",
+      "elapsed_seconds": 151.647,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 22069,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 438,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "generate",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "generate:cal3-health-001",
+      "elapsed_seconds": 10.018,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 21991,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 958,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "generate",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "normalize:cal3-food-001",
+      "elapsed_seconds": 8.139,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 20250,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 376,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "normalize-and-dedupe",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "normalize:cal3-home-001",
+      "elapsed_seconds": 8.023,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 19008,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 675,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "normalize-and-dedupe",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "normalize:cal3-actions-001",
+      "elapsed_seconds": 7.544,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 19009,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 572,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "normalize-and-dedupe",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "normalize:cal3-technology-001",
+      "elapsed_seconds": 5.529,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 18982,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 284,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "normalize-and-dedupe",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "normalize:cal3-health-001",
+      "elapsed_seconds": 5.648,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 19017,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 243,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "normalize-and-dedupe",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-food-001:0",
+      "elapsed_seconds": 21.184,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12615,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2568,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-food-001:5",
+      "elapsed_seconds": 27.865,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12611,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2956,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "repair:cal3-food-001:food-08",
+      "elapsed_seconds": 6.135,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 11442,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 445,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "repair:cal3-food-001:food-08",
+      "elapsed_seconds": 10.563,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 11519,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 426,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "repair:cal3-food-001:food-08:retry",
+      "elapsed_seconds": 7.886,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 11518,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 451,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-home-001:0",
+      "elapsed_seconds": 23.463,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12798,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2622,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-home-001:5",
+      "elapsed_seconds": 20.481,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13999,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2373,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-actions-001:0",
+      "elapsed_seconds": 30.056,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12656,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2870,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-actions-001:5",
+      "elapsed_seconds": 17.279,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12661,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1659,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-technology-001:0",
+      "elapsed_seconds": 15.273,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12591,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1638,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-technology-001:5",
+      "elapsed_seconds": 20.331,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12605,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2105,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "repair:cal3-technology-001:technology-07",
+      "elapsed_seconds": 7.307,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 11521,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 523,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-health-001:0",
+      "elapsed_seconds": 16.253,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12632,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1996,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "verify:cal3-health-001:5",
+      "elapsed_seconds": 14.868,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12558,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1697,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "repair:cal3-health-001:health-06",
+      "elapsed_seconds": 5.976,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 11499,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 405,
+      "prompt_set_version": "2.4.0",
+      "provider_request_id": null,
+      "retry_count": 0,
+      "role": "independent-verification",
+      "status": "complete"
+    }
+  ],
+  "phase": "production-complete",
+  "production_ended_at_utc": "2026-10-14T11:32:51.716858+00:00",
+  "prompt_set_version": "2.4.0",
+  "schema_version": 1,
+  "started_at_utc": "2026-10-14T10:16:03.577396+00:00",
+  "target_candidates": 50
+}

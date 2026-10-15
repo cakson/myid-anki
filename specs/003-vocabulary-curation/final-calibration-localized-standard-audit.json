@@ -1,0 +1,57 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "localized-standard-audit",
+      "elapsed_seconds": 7.003,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12956,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 427,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-14T15:32:36.449690+00:00",
+  "model": "gpt-5.6-luna",
+  "production_digest": "492a3050f58c75f7e8e187213f3a73022bc27d3c3b4e31d5ffb44136d3e12af2",
+  "results": {
+    "cal3-technology-001:technology-03": {
+      "candidate_ref": "cal3-technology-001:technology-03",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Perangkat lunak and perisian are natural standard localized terms for software in Indonesian and Malaysian Malay, respectively. Software is also widely used in both, especially in technical contexts, but that shared borrowing does not erase the useful localized contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "cal3-technology-001:technology-04": {
+      "candidate_ref": "cal3-technology-001:technology-04",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Perangkat keras and perkakasan are natural standard localized terms for computer hardware in Indonesian and Malaysian Malay, respectively. Hardware is also widely used in both, particularly among technical users, but the localized forms remain meaningful and commonly recognized national-standard choices.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    }
+  },
+  "schema_version": 1,
+  "selected_refs": [
+    "cal3-technology-001:technology-03",
+    "cal3-technology-001:technology-04"
+  ],
+  "selection_policy": "D-localized-standard-risk, frozen v1 hash sample",
+  "selection_reasons": {
+    "cal3-technology-001:technology-03": [
+      "localized-standard-vs-borrowed:possible"
+    ],
+    "cal3-technology-001:technology-04": [
+      "localized-standard-vs-borrowed:possible"
+    ]
+  },
+  "simulation_digest": "4e85c41705d566cee3489ae3ea7642c3d5d446cbcf61c414e5680fd041edaf33",
+  "started_at_utc": "2026-10-14T15:32:29.441661+00:00"
+}

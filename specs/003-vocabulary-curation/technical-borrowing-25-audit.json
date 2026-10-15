@@ -1,0 +1,310 @@
+{
+  "attempts": [
+    {
+      "candidate_ref": "prospective-audit-0",
+      "elapsed_seconds": 17.707,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 14880,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 1577,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "prospective-audit-5",
+      "elapsed_seconds": 24.657,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 12920,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2238,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    },
+    {
+      "candidate_ref": "prospective-audit-10",
+      "elapsed_seconds": 22.306,
+      "error_summary": null,
+      "exit_code": 0,
+      "input_tokens": 13355,
+      "model": "gpt-5.6-luna",
+      "output_tokens": 2397,
+      "provider_request_id": null,
+      "retry_count": 0,
+      "status": "complete"
+    }
+  ],
+  "ended_at_utc": "2026-10-15T01:25:15.300942+00:00",
+  "enriched_state_digest": "c28eacd38d4a09830c33acaed7ea1357f26549fb24431fbc1f2828a6f5723f0f",
+  "model": "gpt-5.6-luna",
+  "results": {
+    "tb25-actions-001:actions-01": {
+      "candidate_ref": "tb25-actions-001:actions-01",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "The English cue is precise. Tertawa is the neutral Indonesian form, while ketawa is the normal Malaysian Malay form; overlap exists, especially in colloquial Indonesian, but this remains a useful national contrast.",
+      "relation": "different-common-word-with-shared-synonym-overlap",
+      "verdict": "confirmed-good"
+    },
+    "tb25-actions-001:actions-02": {
+      "candidate_ref": "tb25-actions-001:actions-02",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Membahas is an ordinary Indonesian expression for discussing a topic, while membincangkan is a normal Malaysian Malay form. The English sense is accurate. Malaysian membahas is possible, but does not invalidate the contrast.",
+      "relation": "different-common-word-with-shared-synonym-overlap",
+      "verdict": "confirmed-good"
+    },
+    "tb25-actions-001:actions-03": {
+      "candidate_ref": "tb25-actions-001:actions-03",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Menunda is the ordinary Indonesian form and menangguhkan is the stronger neutral Malaysian Malay form for postponing something. The cue is sufficiently specific, though the forms overlap in formal and cross-variety usage.",
+      "relation": "different-common-word-with-shared-synonym-overlap",
+      "verdict": "confirmed-good"
+    },
+    "tb25-actions-001:actions-04": {
+      "candidate_ref": "tb25-actions-001:actions-04",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Menyeberang jalan is the ordinary Indonesian expression, while melintas jalan is a normal Malaysian Malay expression for crossing a road. Menyeberang is also understood and used in Malaysia, so the contrast is useful but not exclusive.",
+      "relation": "different-common-word-with-shared-synonym-overlap",
+      "verdict": "confirmed-good"
+    },
+    "tb25-actions-001:actions-05": {
+      "candidate_ref": "tb25-actions-001:actions-05",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Mengembalikan barang is natural Indonesian wording, while memulangkan barang is a standard and ordinary Malaysian Malay counterpart for returning goods or an item. Mengembalikan also occurs in Malaysian Malay, particularly in formal or retail contexts, but the card is not misleading.",
+      "relation": "different-common-word-with-shared-synonym-overlap",
+      "verdict": "confirmed-good"
+    },
+    "tb25-food-001:food-01": {
+      "candidate_ref": "tb25-food-001:food-01",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "The cue is precise. Indonesian hidangan penutup and Malaysian pencuci mulut are valid localized terms for dessert; English dessert also occurs, but does not invalidate the contrast.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "tb25-food-001:food-03": {
+      "candidate_ref": "tb25-food-001:food-03",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Rak piring and rak pinggan are natural corresponding terms for a dish rack, and the cue correctly covers both drying and storage use.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "tb25-health-001:health-05": {
+      "candidate_ref": "tb25-health-001:health-05",
+      "confidence_rationale_adequate": false,
+      "corrections": [],
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Perban is a strong Indonesian answer, but pembalut luka is a descriptive Malaysian term whose everyday generic preference versus bandage is not established by marketplace listings. The proposed national contrast may therefore overstate localized preference.",
+      "relation": "different-common-word",
+      "verdict": "should-hold"
+    },
+    "tb25-home-001:home-01": {
+      "candidate_ref": "tb25-home-001:home-01",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "field": "malaysian",
+          "from": "stoking",
+          "to": "stokin"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Kaus kaki is correct Indonesian, but Malaysian everyday usage more commonly has stokin for socks; stoking can suggest stockings or a longer hosiery item and is not a safe precise equivalent for ordinary socks.",
+      "relation": "different-common-word",
+      "verdict": "materially-misleading"
+    },
+    "tb25-home-001:home-03": {
+      "candidate_ref": "tb25-home-001:home-03",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        {
+          "field": "english",
+          "from": "pajamas",
+          "to": "sleepwear"
+        },
+        {
+          "field": "indonesian",
+          "from": "piyama",
+          "to": "pakaian tidur"
+        }
+      ],
+      "external_check_needed": true,
+      "material_false_positive": true,
+      "reason": "Piyama is specifically pajamas, whereas Malaysian baju tidur broadly means sleepwear and also competes with pijama/pyjama. The cue and the claimed national preference are therefore not sufficiently aligned.",
+      "relation": "different-common-word",
+      "verdict": "materially-misleading"
+    },
+    "tb25-home-001:home-05": {
+      "candidate_ref": "tb25-home-001:home-05",
+      "confidence_rationale_adequate": true,
+      "corrections": [],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Both answers are valid everyday terms for rainwear: Indonesian jas hujan and Malaysian baju hujan. The English cue is sufficiently precise, although both terms can also include ponchos or rain suits rather than only coat-shaped garments.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "tb25-technology-001:technology-01": {
+      "candidate_ref": "tb25-technology-001:technology-01",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        "Revise the confidence rationale to say that basis data and pangkalan data are localized standard/technical forms, without asserting ordinary preference unless separately supported.",
+        "Add a metadata note: database is a live technical borrowing in both varieties and may be more familiar in some workplaces."
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Basis data and pangkalan data are valid localized technical terms and provide a useful national contrast. However, the supplied evidence establishes usage, not ordinary relative preference; database remains a plausible workplace borrowing, especially in technical contexts.",
+      "relation": "different-common-word",
+      "verdict": "minor-correction"
+    },
+    "tb25-technology-001:technology-03": {
+      "candidate_ref": "tb25-technology-001:technology-03",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        "Label lembar bentang and hamparan elektronik as localized/formal or standard terms rather than unqualified everyday preferences.",
+        "Add spreadsheet as a common workplace borrowing in both varieties.",
+        "Do not retain a confident Malaysian everyday-preference claim without independent usage evidence."
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Lembar bentang and hamparan elektronik are legitimate localized terms, but the card currently risks teaching formal or institutional terminology as ordinary workplace speech. Spreadsheet is a highly credible borrowing, and the supplied evidence does not establish everyday Malaysian preference for hamparan elektronik.",
+      "relation": "different-common-word",
+      "verdict": "should-hold"
+    },
+    "tb25-technology-001:technology-04": {
+      "candidate_ref": "tb25-technology-001:technology-04",
+      "confidence_rationale_adequate": true,
+      "corrections": [
+        "Optionally add angkutan umum as a common Indonesian alternative, without presenting it as a correction to transportasi umum."
+      ],
+      "external_check_needed": false,
+      "material_false_positive": false,
+      "reason": "Transportasi umum and pengangkutan awam are accurate, useful national contrasts for public transport. Indonesian angkutan umum is also common, particularly in colloquial and transport-specific contexts, but this does not invalidate transportasi umum. The Malaysian evidence supports institutional usage, while the forms themselves are well established.",
+      "relation": "different-common-word",
+      "verdict": "confirmed-good"
+    },
+    "tb25-technology-001:technology-05": {
+      "candidate_ref": "tb25-technology-001:technology-05",
+      "confidence_rationale_adequate": false,
+      "corrections": [
+        "Qualify Malaysian latihan kerja as an institutional or context-dependent term unless broader everyday usage is verified.",
+        "Avoid claiming ordinary Malaysian preference based on the single program example.",
+        "Verify whether latihan kerja or another form is the usual everyday Malaysian expression for training that prepares someone for employment."
+      ],
+      "external_check_needed": true,
+      "material_false_positive": false,
+      "reason": "Pelatihan kerja is a strong Indonesian answer. Latihan kerja is valid in Malaysian institutional and employment-training contexts, but the supplied example does not establish that it is the ordinary nationwide preference, and its interpretation can be broader than employment preparation. The contrast is plausible but not yet sufficiently secure as an everyday card.",
+      "relation": "different-common-word",
+      "verdict": "should-hold"
+    }
+  },
+  "schema_version": 1,
+  "selected_refs": [
+    "tb25-actions-001:actions-01",
+    "tb25-actions-001:actions-02",
+    "tb25-actions-001:actions-03",
+    "tb25-actions-001:actions-04",
+    "tb25-actions-001:actions-05",
+    "tb25-food-001:food-01",
+    "tb25-food-001:food-03",
+    "tb25-health-001:health-05",
+    "tb25-home-001:home-01",
+    "tb25-home-001:home-03",
+    "tb25-home-001:home-05",
+    "tb25-technology-001:technology-01",
+    "tb25-technology-001:technology-03",
+    "tb25-technology-001:technology-04",
+    "tb25-technology-001:technology-05"
+  ],
+  "selection_policy": "all low/very-low/false-friend/strong flags/evidence risks; fixed-hash stratified random",
+  "selection_reasons": {
+    "tb25-actions-001:actions-01": [
+      "flag:preference-uncertainty",
+      "flag:shared-common-form",
+      "evidence:official-source-only-preference",
+      "evidence:preference-evidence-thin"
+    ],
+    "tb25-actions-001:actions-02": [
+      "flag:credible-competing-form"
+    ],
+    "tb25-actions-001:actions-03": [
+      "flag:preference-uncertainty",
+      "evidence:preference-evidence-thin"
+    ],
+    "tb25-actions-001:actions-04": [
+      "flag:credible-competing-form",
+      "flag:preference-uncertainty"
+    ],
+    "tb25-actions-001:actions-05": [
+      "flag:credible-competing-form",
+      "flag:preference-uncertainty"
+    ],
+    "tb25-food-001:food-01": [
+      "evidence:borrowed-form-competition"
+    ],
+    "tb25-food-001:food-03": [
+      "stratified-random:high"
+    ],
+    "tb25-health-001:health-05": [
+      "flag:preference-uncertainty",
+      "flag:regional-register-risk",
+      "evidence:borrowed-form-competition"
+    ],
+    "tb25-home-001:home-01": [
+      "stratified-random:medium"
+    ],
+    "tb25-home-001:home-03": [
+      "confidence:low",
+      "flag:cue-corrected",
+      "flag:preference-uncertainty",
+      "flag:shared-common-form"
+    ],
+    "tb25-home-001:home-05": [
+      "stratified-random:medium"
+    ],
+    "tb25-technology-001:technology-01": [
+      "flag:preference-uncertainty",
+      "evidence:borrowed-form-competition",
+      "evidence:preference-evidence-thin",
+      "flag:technical-borrowing-risk"
+    ],
+    "tb25-technology-001:technology-03": [
+      "flag:credible-competing-form",
+      "flag:preference-uncertainty",
+      "evidence:borrowed-form-competition"
+    ],
+    "tb25-technology-001:technology-04": [
+      "flag:regional-register-risk"
+    ],
+    "tb25-technology-001:technology-05": [
+      "flag:preference-uncertainty",
+      "flag:regional-register-risk",
+      "evidence:preference-evidence-thin"
+    ]
+  },
+  "started_at_utc": "2026-10-15T01:24:10.615554+00:00"
+}
