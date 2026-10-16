@@ -1,0 +1,66 @@
+{
+  "attempt_id": "315be54f68422391",
+  "candidate_id": "tmp-work-s020-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Manager” correctly denotes a person responsible for organizing or controlling an organization, team, or workplace.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/manager"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Manajer is a standard Indonesian noun for someone who organizes work or cooperation and plans, leads, and controls activities toward a goal.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/manajer%20profesional",
+        "https://www.kbbi.web.id/manajer"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: manajer"
+    },
+    {
+      "conclusion": "Pengurus is a standard Malaysian Malay equivalent for manager, including a person who manages an organization or runs a company’s day-to-day operations.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pengurus",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pengurus"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pengurus"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate. The terms are not false friends; pengurus has additional administrator or committee-officer senses, but its managerial sense is well established.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pengurus",
+        "https://www.kbbi.web.id/manajer"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "6ae411290641297604c76b86863a18c08f327338e76b27da8081a3f405b5e22e",
+  "correction_refs": [],
+  "decision_digest": "1d60ce661feae473786285d629f8919fdb16172abd47b94014192c6f758d9cea",
+  "elapsed_ms": 20484,
+  "finding_class": "none",
+  "input_tokens": 54416,
+  "model_calls": 1,
+  "output_tokens": 898,
+  "packet_digest": "49eddfba65ea71a4d3db9a9e223e92165e30d8babd9f575141dae561677d8d0a",
+  "rationale": "Both answers accurately express the stated sense. Indonesian manajer and Malaysian pengurus are standard, common equivalents in organizational contexts. They are different forms with overlapping meaning, not false friends; Malaysian pengurus also has broader administrative/committee senses, but that does not invalidate the manager sense.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:54:28.061265+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s020/tmp-work-s020-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-002-s020",
+  "verdict": "cleared"
+}

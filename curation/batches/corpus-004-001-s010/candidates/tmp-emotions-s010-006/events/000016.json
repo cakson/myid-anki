@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:09.237792+00:00",
+  "result": {
+    "candidate_digest": "4e056069d4145738f3edfa2795a826d7373134eb8b30ebb21c66f4dfe0e92878",
+    "candidate_id": "tmp-emotions-s010-006",
+    "checked_at": "2026-10-16T02:10:09.237792+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): Both phrases are valid and match the homesick sense, but the relation label overstates a language-specific contrast. “Rindu rumah” and “rindu kampung” are overlapping Malay-family expressions, and both varieties can use broader alternatives such as “rindu kampung halaman.” No false-friend contrast is present.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

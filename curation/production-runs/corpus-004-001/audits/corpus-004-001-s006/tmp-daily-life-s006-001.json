@@ -1,0 +1,63 @@
+{
+  "attempt_id": "2dbaae4f565a6d51",
+  "candidate_id": "tmp-daily-life-s006-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Bathtub” is the natural English cue for a large container in which one bathes; “bathing tub” is understandable but less idiomatic.",
+      "evidence_limitation": "No external corpus or dictionary evidence supplied.",
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Common Indonesian usage often refers to a bathroom water reservoir or bathing basin, so it is not a reliable direct equivalent of “bathtub.”",
+      "evidence_limitation": "Usage is register- and object-dependent; no external evidence supplied.",
+      "material_risk": true,
+      "subject": "Indonesian answer: bak mandi"
+    },
+    {
+      "conclusion": "“Tab mandi” is an appropriate Malaysian Malay term for “bathtub.”",
+      "evidence_limitation": "No external corpus or dictionary evidence supplied.",
+      "material_risk": false,
+      "subject": "Malaysian answer: tab mandi"
+    },
+    {
+      "conclusion": "“Different-common-word” is incomplete: the Malay terms differ, but Indonesian “bak mandi” and Malaysian “tab mandi” are not fully equivalent in the stated sense.",
+      "evidence_limitation": "No external evidence supplied.",
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "There is a semantic false-friend risk: Indonesian “bak mandi” may be mistaken for a sit-in bathtub, while it commonly denotes a bathing-water container or basin.",
+      "evidence_limitation": "No external usage evidence supplied.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c2b3d3cf47386607385adce68b3a7b1ddb2cfa26da2bbc5824de9e3fc9584cae",
+  "correction_refs": [],
+  "decision_digest": "7850ebaacdd94f1561a21abf7e28fa9d099bdfdb4bfad8ecdc259a04c7602c04",
+  "elapsed_ms": 12707,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 12559,
+  "model_calls": 1,
+  "output_tokens": 905,
+  "packet_digest": "cafe7953c244bbc21b53da8b0705469e9606fb634f1e4f96e48d59b82aebe1dd",
+  "rationale": "Malaysian “tab mandi” correctly means bathtub. Indonesian “bak mandi” commonly means a bathing-water storage tank or basin, not necessarily a bathtub that a person sits in. The English cue and sense therefore overstate equivalence, and the contrast is semantic as well as lexical.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:55:30.075013+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s006/tmp-daily-life-s006-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s006",
+  "verdict": "needs-correction"
+}

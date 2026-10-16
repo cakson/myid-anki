@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:19:17.414745+00:00",
+  "input_digest": "99ab85e6429b266e7ad06e2076b15b08073f86f158aaa917d865496a6564db8d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-home-001:home-02\", \"type\": \"synonym\", \"resolution\": \"merge\", \"rationale\": \"\\\"clothes cabinet\\\" and \\\"wardrobe\\\" denote the same cabinet used to store clothes; \\\"lemari baju\\\"/\\\"almari baju\\\" are synonymous with the existing \\\"lemari pakaian\\\"/\\\"almari pakaian\\\" answers.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-02",
+          "rationale": "\"clothes cabinet\" and \"wardrobe\" denote the same cabinet used to store clothes; \"lemari baju\"/\"almari baju\" are synonymous with the existing \"lemari pakaian\"/\"almari pakaian\" answers.",
+          "resolution": "merge",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-home-001:home-02",
+        "rationale": "\"clothes cabinet\" and \"wardrobe\" denote the same cabinet used to store clothes; \"lemari baju\"/\"almari baju\" are synonymous with the existing \"lemari pakaian\"/\"almari pakaian\" answers.",
+        "resolution": "merge",
+        "type": "synonym"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d47d05d113aad6f51e73294d4b1e93a56bfedc92e12c9b81a166c9d69ec18bc1"
+}

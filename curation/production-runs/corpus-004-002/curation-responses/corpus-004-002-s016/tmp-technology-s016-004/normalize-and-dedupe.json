@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7574,
+  "input_digest": "6a1579373cdf670ed86fe2c85445fef3c05a8aab5cac42ea657873049311393a",
+  "input_tokens": 54572,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 280,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s016:tmp-technology-s016-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“connection” is the act or state of connecting to a network or service, while “network” is the connected computer or communications system itself.\"},{\"other_id\":\"corpus-004-002-s016:tmp-technology-s016-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“connection” refers to access or connectivity to a network or service, while “link” refers to a clickable web address or hyperlink.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-001",
+          "rationale": "“connection” is the act or state of connecting to a network or service, while “network” is the connected computer or communications system itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-003",
+          "rationale": "“connection” refers to access or connectivity to a network or service, while “link” refers to a clickable web address or hyperlink.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,77 @@
+{
+  "attempt_id": "853ceb69dbfb167a",
+  "candidate_id": "tmp-daily-life-s005-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary Indonesian term for a baby's diaper.",
+      "evidence_refs": [
+        "https://keslan.kemkes.go.id/view_artikel/1209/seputar-ruam-popok-pada-bayi",
+        "https://regalkes.kemkes.go.id/informasi_alkes/PMK_No_62.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: popok"
+    },
+    {
+      "conclusion": "Correct standard Malay term for a diaper; lampin is also associated with cloth baby wrapping.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=diaper",
+        "https://prpm.dbp.gov.my/Search?k=lampin"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: lampin"
+    },
+    {
+      "conclusion": "Diaper accurately cues an absorbent garment worn by a baby.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=diaper",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/nappy"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate for contrasting common Indonesian popok with Malaysian Malay lampin, but the contrast is preferential rather than exclusive.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=diaper",
+        "https://keslan.kemkes.go.id/view_artikel/1209/seputar-ruam-popok-pada-bayi"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false friend is required. Lampin's additional cloth-wrapping sense is a polysemy note, not a misleading cross-language false friend.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Search?k=lampin"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "17e2712b67f943cac53bfcd42275a98c457f69d3764cc42591e8e0aa842d0ac7",
+  "correction_refs": [],
+  "decision_digest": "1eee75ee4d474708f966608fa52cea01aeeb3aeb181ed580cc476c178bfcad8e",
+  "elapsed_ms": 23446,
+  "finding_class": "none",
+  "input_tokens": 49887,
+  "model_calls": 1,
+  "output_tokens": 1125,
+  "packet_digest": "304f16e4bde0c494946e6dab216c414d5b9751a70d3f44c8fe50a9feca4f43bb",
+  "rationale": "Both answers are correct for the stated baby-care sense. Popok is the ordinary Indonesian term, while lampin is the standard Malay term, including for diapers. The different-common-word relation is appropriate as a national-preference contrast, though not exclusive. No false-friend issue is present; lampin can additionally refer to cloth wrapping, but that does not invalidate the diaper sense.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:54:58.548644+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s005/tmp-daily-life-s005-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s005",
+  "verdict": "cleared"
+}

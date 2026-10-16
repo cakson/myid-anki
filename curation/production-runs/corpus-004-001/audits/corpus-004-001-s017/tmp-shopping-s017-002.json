@@ -1,0 +1,75 @@
+{
+  "attempt_id": "9948451f7de7f1a9",
+  "candidate_id": "tmp-shopping-s017-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Barcode” correctly matches a machine-readable code used for product identification.",
+      "evidence_refs": [
+        "https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Kode batang” is an established Indonesian equivalent of barcode.",
+      "evidence_refs": [
+        "https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992",
+        "https://isbn.perpusnas.go.id/landing_page/isbn_info"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Kod bar” is the standard Malaysian Malay term for barcode and is defined for labeling goods.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bar"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate: the Indonesian and Malaysian forms differ orthographically while denoting the same concept.",
+      "evidence_refs": [
+        "https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; neither answer has a conflicting or misleading sense in the other variety.",
+      "evidence_limitation": "No dedicated false-friend source was located; this conclusion follows from the matching authoritative definitions.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "9d8f97321609d495ae95f3315558204686673b4d7b27926ba7ac98d63e21d8bc",
+  "correction_refs": [],
+  "decision_digest": "08dce437f02b51634449cbcf3dc1a9d3312a431339279d0830f87f6d03f1fdf3",
+  "elapsed_ms": 17563,
+  "finding_class": "none",
+  "input_tokens": 50099,
+  "model_calls": 1,
+  "output_tokens": 942,
+  "packet_digest": "ff4c627f2a6ccdf66dfaa29db6fb19d3e2fd74d0639d65b808ab43d587e20c4c",
+  "rationale": "Both answers are accurate national-standard terms for barcode, the English cue and sense align, and the relation is correctly classified as different common words. No false-friend contrast is warranted; the forms are equivalent terms, not misleading lookalikes.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:06:58.795422+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s017/tmp-shopping-s017-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s017",
+  "verdict": "cleared"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:29:57.999948+00:00",
+  "input_digest": "cb6521c6dc43fb4f0eb79b46d4c452d60fe2002b29309c7d173957e032e2b662",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-food-001:food-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are baskets, but the existing shopping basket is for carrying items while shopping, whereas laundry basket is for carrying or storing clothes to be washed.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-10",
+          "rationale": "Both are baskets, but the existing shopping basket is for carrying items while shopping, whereas laundry basket is for carrying or storing clothes to be washed.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-food-001:food-10",
+        "rationale": "Both are baskets, but the existing shopping basket is for carrying items while shopping, whereas laundry basket is for carrying or storing clothes to be washed.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "f0133f1a923ba7670f457448578de9996d72064ce650b634b61ace54c6550b05"
+}

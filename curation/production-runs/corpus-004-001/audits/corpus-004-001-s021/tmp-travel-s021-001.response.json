@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21988,
+  "input_tokens": 50011,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1379,
+  "packet_digest": "20f34af59cd1a51a46953b736c8b7b740b980bae423fa7cf29f88e4769982456",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"Both answers and the English sense are correct. However, Malaysian usage also clearly supports \\\"bagasi kabin,\\\" so \\\"different-common-word\\\" overstates the national contrast. The relation should indicate a shared synonym with a possible preference distinction. No false-friend contrast is required.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Correct: \\\"hand luggage\\\" means luggage carried into the passenger cabin.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer\",\n      \"conclusion\": \"\\\"Bagasi kabin\\\" is an established Indonesian term for cabin baggage.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/baggage-info.html?lang=id&loc=id\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer\",\n      \"conclusion\": \"\\\"Bagasi tangan\\\" is a valid Malaysian equivalent of hand luggage, but it is not the only established Malaysian form; \\\"bagasi kabin\\\" is also used.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bagasi\",\n        \"https://www.airasia.com/aa/about-us/ms/my/terms-and-conditions-ak.html\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"\\\"Different-common-word\\\" is too strong because the forms overlap in Malaysian usage. A shared-synonym or preference relation is more accurate.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage\",\n        \"https://www.airasia.com/aa/about-us/ms/my/terms-and-conditions-ak.html\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is present or needed; the two Malay forms share the intended cabin-baggage sense.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"The available evidence establishes overlap and validity, but does not quantify regional preference.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct: \"hand luggage\" means luggage carried into the passenger cabin.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "\"Bagasi kabin\" is an established Indonesian term for cabin baggage.",
+        "evidence_refs": [
+          "https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/baggage-info.html?lang=id&loc=id"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "\"Bagasi tangan\" is a valid Malaysian equivalent of hand luggage, but it is not the only established Malaysian form; \"bagasi kabin\" is also used.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bagasi",
+          "https://www.airasia.com/aa/about-us/ms/my/terms-and-conditions-ak.html"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer"
+      },
+      {
+        "conclusion": "\"Different-common-word\" is too strong because the forms overlap in Malaysian usage. A shared-synonym or preference relation is more accurate.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage",
+          "https://www.airasia.com/aa/about-us/ms/my/terms-and-conditions-ak.html"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or needed; the two Malay forms share the intended cabin-baggage sense.",
+        "evidence_limitation": "The available evidence establishes overlap and validity, but does not quantify regional preference.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers and the English sense are correct. However, Malaysian usage also clearly supports \"bagasi kabin,\" so \"different-common-word\" overstates the national contrast. The relation should indicate a shared synonym with a possible preference distinction. No false-friend contrast is required.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

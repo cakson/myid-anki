@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T01:26:35.802374+00:00",
+  "input_digest": "773911b87e0f381d1d7bcbe3cfcdd7333ee8a0b5b46f96c9e0c804f39bb21db5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-travel-001:travel-06\", \"type\": \"morphology\", \"resolution\": \"merge\", \"rationale\": \"\\u201carrive\\u201d and \\u201carrival\\u201d express the same reach-a-destination concept as verb and noun; the part-of-speech difference is trivial morphology, despite different Indonesian and Malaysian forms.\"}, {\"other_id\": \"000098\", \"type\": \"morphology\", \"resolution\": \"merge\", \"rationale\": \"The accepted concept \\u201carrival\\u201d is the nominal counterpart of candidate \\u201carrive\\u201d with the same destination-reaching sense; this is a morphological duplicate, not a distinct concept, and the differing answers prevent retrospective classification.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-06",
+          "rationale": "“arrive” and “arrival” express the same reach-a-destination concept as verb and noun; the part-of-speech difference is trivial morphology, despite different Indonesian and Malaysian forms.",
+          "resolution": "merge",
+          "type": "morphology"
+        },
+        {
+          "other_id": "000098",
+          "rationale": "The accepted concept “arrival” is the nominal counterpart of candidate “arrive” with the same destination-reaching sense; this is a morphological duplicate, not a distinct concept, and the differing answers prevent retrospective classification.",
+          "resolution": "merge",
+          "type": "morphology"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-travel-001:travel-06",
+        "rationale": "“arrive” and “arrival” express the same reach-a-destination concept as verb and noun; the part-of-speech difference is trivial morphology, despite different Indonesian and Malaysian forms.",
+        "resolution": "merge",
+        "type": "morphology"
+      },
+      {
+        "other_id": "000098",
+        "rationale": "The accepted concept “arrival” is the nominal counterpart of candidate “arrive” with the same destination-reaching sense; this is a morphological duplicate, not a distinct concept, and the differing answers prevent retrospective classification.",
+        "resolution": "merge",
+        "type": "morphology"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "4623774e38c4b9f0e88beaa2e3c10a87858b80fd255ab6e1a68a61567ea9a03b"
+}

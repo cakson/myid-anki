@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 7200,
+  "input_tokens": 12440,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 349,
+  "raw_text": "{\"finding_class\":\"none\",\"rationale\":\"Both answers can express “to bake” in the specified oven/dry-heat sense: Indonesian “memanggang” and Malaysian “membakar.” The different-common-word relation is useful, though the forms can overlap by food and context. No cue-content or metadata issue is present.\",\"claim_reviews\":[{\"claim\":\"Indonesian answer is memanggang\",\"verdict\":\"supported\",\"rationale\":\"Commonly used for cooking food with dry heat, including baking in an oven.\"},{\"claim\":\"Malaysian answer is membakar\",\"verdict\":\"supported\",\"rationale\":\"Used for baking food in Malaysian Malay, although memanggang may also occur in related contexts.\"},{\"claim\":\"The answers are different common words\",\"verdict\":\"supported_with_overlap\",\"rationale\":\"The contrast is useful as a language preference, not an exclusive distinction.\"},{\"claim\":\"English sense is to bake\",\"verdict\":\"supported\",\"rationale\":\"The specified oven-based dry-heat cooking sense matches both answers.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "claim": "Indonesian answer is memanggang",
+        "rationale": "Commonly used for cooking food with dry heat, including baking in an oven.",
+        "verdict": "supported"
+      },
+      {
+        "claim": "Malaysian answer is membakar",
+        "rationale": "Used for baking food in Malaysian Malay, although memanggang may also occur in related contexts.",
+        "verdict": "supported"
+      },
+      {
+        "claim": "The answers are different common words",
+        "rationale": "The contrast is useful as a language preference, not an exclusive distinction.",
+        "verdict": "supported_with_overlap"
+      },
+      {
+        "claim": "English sense is to bake",
+        "rationale": "The specified oven-based dry-heat cooking sense matches both answers.",
+        "verdict": "supported"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers can express “to bake” in the specified oven/dry-heat sense: Indonesian “memanggang” and Malaysian “membakar.” The different-common-word relation is useful, though the forms can overlap by food and context. No cue-content or metadata issue is present."
+  },
+  "retrievals": null
+}

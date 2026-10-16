@@ -1,0 +1,62 @@
+{
+  "attempt_id": "863cb0cb4c9d9c74",
+  "candidate_id": "tmp-services-s014-006",
+  "claim_reviews": [
+    {
+      "conclusion": "“Opening hours” correctly means the period during which a service is available.",
+      "evidence_refs": [
+        "https://support.google.com/business/answer/3038177?hl=id"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary Indonesian wording for opening hours or service opening time.",
+      "evidence_refs": [
+        "https://help.indodax.com/hc/id/articles/52568250451225-Pada-Jam-Berapa-Kantor-Layanan-Indodax-Dibuka",
+        "https://kbbi.web.id/pembuka"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: jam buka"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for operating/opening hours, with a somewhat formal or institutional register.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=seterusnya+1"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: waktu operasi"
+    },
+    {
+      "conclusion": "The forms are valid language-specific equivalents and differ lexically; neither creates a misleading false-friend contrast.",
+      "evidence_limitation": "No dedicated corpus comparison was consulted; conclusion is based on authoritative usage examples and semantic alignment.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "8339a33343d7d9d2d4628e34cfbd8706d4e30ef54d6b6267f56aa0e8434b1e7e",
+  "correction_refs": [],
+  "decision_digest": "37a675c0b30244806250f345d5e7ff7760149de57a8ddc938647873d94f2b2f1",
+  "elapsed_ms": 16948,
+  "finding_class": "none",
+  "input_tokens": 49717,
+  "model_calls": 1,
+  "output_tokens": 710,
+  "packet_digest": "91b2944981330728dfafbaf8df09d31e4cac5d87e327ed7689242d18017d4ba4",
+  "rationale": "Both answers accurately express the service-availability period. “Jam buka” is idiomatic Indonesian; “waktu operasi” is valid Malaysian Malay, especially in formal or service contexts. The relation “different-common-word” is appropriate, and there is no false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:51:12.861137+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s014/tmp-services-s014-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s014",
+  "verdict": "cleared"
+}

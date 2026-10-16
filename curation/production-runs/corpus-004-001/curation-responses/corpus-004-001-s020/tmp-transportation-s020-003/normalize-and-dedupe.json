@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6145,
+  "input_digest": "8185c5ea0ece2bf519fc4a3c6028b685fe92976684a502dbd7948c54f5804705",
+  "input_tokens": 45006,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 211,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s020:tmp-transportation-s020-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are vehicle glass components, but a rearview mirror is used to see traffic behind the vehicle, whereas a windshield is the front glass panel protecting occupants and providing forward visibility.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s020:tmp-transportation-s020-002",
+          "rationale": "Both are vehicle glass components, but a rearview mirror is used to see traffic behind the vehicle, whereas a windshield is the front glass panel protecting occupants and providing forward visibility.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

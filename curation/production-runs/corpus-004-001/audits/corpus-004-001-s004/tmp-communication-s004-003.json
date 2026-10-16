@@ -1,0 +1,65 @@
+{
+  "attempt_id": "14df44aec7ef74ea",
+  "candidate_id": "tmp-communication-s004-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “word,” including the linguistic sense of a standalone language unit.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/kata"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian kata"
+    },
+    {
+      "conclusion": "Correct for “word”; authoritative Malaysian Malay dictionaries define it as a word or group of sounds conveying meaning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=perkataan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay perkataan"
+    },
+    {
+      "conclusion": "“word” with the sense “a single unit of language” is aligned with both answers.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/kata",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=perkataan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Needs correction: kata is also a valid Malaysian Malay equivalent, so different-common-word implies too sharp a distinction. No false-friend contrast is established; the relationship is shared synonym with regional or usage preference.",
+      "evidence_refs": [
+        "https://ekamus.dbp.gov.my/Search.aspx?cari=kata&type=1",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=perkataan"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "f85d31e9cf8ecb4f38178c7a0c309762cb2b61dc6da9ca00168b25e4fa96024f",
+  "correction_refs": [],
+  "decision_digest": "05805dd48deb4a1b1555f8d09a16b155d398f926216386b07c79bc8bccf564f7",
+  "elapsed_ms": 28652,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 100370,
+  "model_calls": 1,
+  "output_tokens": 1498,
+  "packet_digest": "37deb17e72b8fa867e79e0df88869ad7e92a9500cf02b228fc372bfe7cdb9ea5",
+  "rationale": "Both translations fit the cue, but the relation is overstated. Malaysian Malay uses perkataan for “word,” while kata is also a valid and common Malay word with the same core sense. This is a regional preference/overlap, not a clean different-common-word contrast or false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:53:44.136269+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s004/tmp-communication-s004-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s004",
+  "verdict": "needs-correction"
+}

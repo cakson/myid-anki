@@ -1,0 +1,42 @@
+{
+  "candidate_ids": [
+    "tmp-travel-s021-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7278,
+  "input_tokens": 30717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 373,
+  "prompt_bytes": 67201,
+  "prompt_sha256": "c5df022e72da6ba7cd20ca4a9c208a730a2d2217f4a1170341a2f57efaac74c8",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-travel-001:travel-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"tourist is a person traveling for pleasure, whereas tourist attraction is a place visited for tourism.\"},{\"other_id\":\"cal2-travel-001:travel-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"destination is any place someone travels to; tourist attraction specifically denotes a place of interest visited for tourism.\"},{\"other_id\":\"cal2-shopping-001:shopping-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"shopping mall is a retail complex, while tourist attraction is a place visited for tourism; a mall may be an attraction in some contexts but is not the same concept.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-05",
+          "rationale": "tourist is a person traveling for pleasure, whereas tourist attraction is a place visited for tourism.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-travel-001:travel-07",
+          "rationale": "destination is any place someone travels to; tourist attraction specifically denotes a place of interest visited for tourism.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-09",
+          "rationale": "shopping mall is a retail complex, while tourist attraction is a place visited for tourism; a mall may be an attraction in some contexts but is not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

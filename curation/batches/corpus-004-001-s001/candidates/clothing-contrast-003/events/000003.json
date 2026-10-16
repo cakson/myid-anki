@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T01:24:00.031199+00:00",
+  "input_digest": "d78a58ee067bb1eb3b3f1422ecf0708943931466c5343f8f155b2e6bd4d5df59",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"clothing-001:clothing-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A blouse is a light women's shirt, while the existing shirt cue specifically denotes a collared or button-front upper-body garment; related but distinct clothing senses.\"}, {\"other_id\": \"corpus-004-001-s001:clothing-contrast-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A blouse is a complete garment, whereas a collar is the upper part of a shirt around the neck.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-03",
+          "rationale": "A blouse is a light women's shirt, while the existing shirt cue specifically denotes a collared or button-front upper-body garment; related but distinct clothing senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-002",
+          "rationale": "A blouse is a complete garment, whereas a collar is the upper part of a shirt around the neck.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "clothing-001:clothing-03",
+        "rationale": "A blouse is a light women's shirt, while the existing shirt cue specifically denotes a collared or button-front upper-body garment; related but distinct clothing senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s001:clothing-contrast-002",
+        "rationale": "A blouse is a complete garment, whereas a collar is the upper part of a shirt around the neck.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "40a311e88c0cec02c419ce59035ec2f6f545a821538fa37cfd4fbd184951e731"
+}

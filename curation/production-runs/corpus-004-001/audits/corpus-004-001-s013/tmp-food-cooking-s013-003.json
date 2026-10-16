@@ -1,0 +1,75 @@
+{
+  "attempt_id": "8232ee3fcf28d2e7",
+  "candidate_id": "tmp-food-cooking-s013-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for pepper spice (*Piper nigrum*).",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/merica",
+        "https://kbbi.web.id/merica"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: merica"
+    },
+    {
+      "conclusion": "Correct and ordinary for pepper spice; Malaysian dictionaries also recognize merica as white pepper, confirming lexical overlap.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lada",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=merica"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: lada"
+    },
+    {
+      "conclusion": "“Pepper spice” appropriately distinguishes peppercorn spice from the broader or chili-related senses of “pepper.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lada",
+        "https://baru.kbbi.co.id/arti-kata/lada"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable as a learner-oriented national-preference contrast, provided it is not interpreted as exclusive or a strict false-friend distinction.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/merica",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=merica"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is provided or claimed; none is necessary for this card.",
+      "evidence_limitation": "The supplied learner content has an empty contrast field; the dictionaries establish overlap and sense distinctions but do not independently assess pedagogical false-friend labeling.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "1a6ad15b0f7bb84e23dc6523030edf12147a1a3cbb118e6113cf76a624a759ad",
+  "correction_refs": [],
+  "decision_digest": "3f0e356e9fb588026e59255bcdaaa4807513102fd8d8a5fe2e1dca811f818d04",
+  "elapsed_ms": 19024,
+  "finding_class": "none",
+  "input_tokens": 48949,
+  "model_calls": 1,
+  "output_tokens": 1005,
+  "packet_digest": "894b82a124c16de8c667dab4d001af3a749e155603c1b9435740efbca7ed79cb",
+  "rationale": "Both answers are valid pepper-spice terms. Indonesian commonly uses “merica,” while Malaysian Malay commonly uses “lada”; however, both words also occur across the languages, so the distinction is a national preference rather than an exclusive equivalence. The cue is sufficiently narrowed, and no false-friend contrast is asserted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:04:24.664733+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s013/tmp-food-cooking-s013-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s013",
+  "verdict": "cleared"
+}

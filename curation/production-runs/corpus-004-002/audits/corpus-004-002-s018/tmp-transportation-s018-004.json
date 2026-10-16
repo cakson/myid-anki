@@ -1,0 +1,63 @@
+{
+  "attempt_id": "53b7ab57a75c4c51",
+  "candidate_id": "tmp-transportation-s018-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“License plate” correctly denotes a vehicle-identifying registration plate/number.",
+      "evidence_limitation": "No external corpus consulted.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Plat nomor” is a common and appropriate Indonesian equivalent.",
+      "evidence_limitation": "No external corpus consulted.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Nombor pendaftaran” is a valid Malaysian term, especially in formal or official contexts; “nombor plat” is a plausible everyday alternative.",
+      "evidence_limitation": "No external corpus consulted.",
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable because Indonesian and Malaysian Malay conventionally use different primary terms here, despite overlap and a Malaysian colloquial alternative.",
+      "evidence_limitation": "No external corpus consulted.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present or needed.",
+      "evidence_limitation": "No external corpus consulted.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c4a8e39d2a37efe8386f87d034d51bfc0d130521b326a9d808801ce48367c801",
+  "correction_refs": [],
+  "decision_digest": "14bab175b68043cb7ba666a545c86bdc04d7b87211d6ef92c8619b3283bd1280",
+  "elapsed_ms": 12376,
+  "finding_class": "none",
+  "input_tokens": 12525,
+  "model_calls": 1,
+  "output_tokens": 850,
+  "packet_digest": "788d73c1389aa78760e0252a69c0a854f432ad903b6bc1d26df95e1dcd53e189",
+  "rationale": "Both Malay answers are valid for the cue. Indonesian “plat nomor” is the common everyday term; Malaysian “nombor pendaftaran” is a valid, more formal term for a vehicle registration plate/number, though “nombor plat” is also colloquial. The sense and relation are correct, and no false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:53:51.932188+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s018/tmp-transportation-s018-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s018",
+  "verdict": "cleared"
+}

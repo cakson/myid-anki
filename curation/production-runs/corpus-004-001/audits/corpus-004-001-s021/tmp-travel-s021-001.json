@@ -1,0 +1,74 @@
+{
+  "attempt_id": "9ae2cdf938970970",
+  "candidate_id": "tmp-travel-s021-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: \"hand luggage\" means luggage carried into the passenger cabin.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "\"Bagasi kabin\" is an established Indonesian term for cabin baggage.",
+      "evidence_refs": [
+        "https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/baggage-info.html?lang=id&loc=id"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "\"Bagasi tangan\" is a valid Malaysian equivalent of hand luggage, but it is not the only established Malaysian form; \"bagasi kabin\" is also used.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bagasi",
+        "https://www.airasia.com/aa/about-us/ms/my/terms-and-conditions-ak.html"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "\"Different-common-word\" is too strong because the forms overlap in Malaysian usage. A shared-synonym or preference relation is more accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=luggage",
+        "https://www.airasia.com/aa/about-us/ms/my/terms-and-conditions-ak.html"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the two Malay forms share the intended cabin-baggage sense.",
+      "evidence_limitation": "The available evidence establishes overlap and validity, but does not quantify regional preference.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "7e771d90dd9aeed16d4026a6ed8e36ee6a7d3aac81d6ef68ebaf4d37d6786d8e",
+  "correction_refs": [],
+  "decision_digest": "7ef13d2d3db0a06269f78059f1117bd25cc7c2786a220288d63245de235ecbbd",
+  "elapsed_ms": 21988,
+  "finding_class": "metadata-only",
+  "input_tokens": 50011,
+  "model_calls": 1,
+  "output_tokens": 1379,
+  "packet_digest": "20f34af59cd1a51a46953b736c8b7b740b980bae423fa7cf29f88e4769982456",
+  "rationale": "Both answers and the English sense are correct. However, Malaysian usage also clearly supports \"bagasi kabin,\" so \"different-common-word\" overstates the national contrast. The relation should indicate a shared synonym with a possible preference distinction. No false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:07:58.745803+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s021/tmp-travel-s021-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s021",
+  "verdict": "needs-correction"
+}

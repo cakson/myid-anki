@@ -1,0 +1,69 @@
+{
+  "accepted": 0,
+  "batch_id": "corpus-004-001-s007",
+  "confidence_distribution": {},
+  "corrections": 0,
+  "created_at": "2026-10-16T02:10:08.994239+00:00",
+  "decisions": [
+    {
+      "candidate_id": "tmp-daily-life-s007-001",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): Both answers are usable, but the relation label is misleading: this is a shared synonym/preference contrast, not a genuinely different common-word distinction. Indonesian also uses “kipas” in relevant contexts, while Malaysian “kipas” can be clarified as “kipas angin” or “kipas elektrik” when needed. No false-friend contrast is present.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    }
+  ],
+  "duplicate_detections": 0,
+  "duplicate_resolutions": {},
+  "evidence_failures": 0,
+  "further_investigation": [
+    "tmp-daily-life-s007-001"
+  ],
+  "generated": 1,
+  "held": 1,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "material-unresolved-issue": 1
+  },
+  "rejected": 0,
+  "relation_distribution": {},
+  "review_priority": [],
+  "status": "closed",
+  "verification_failures": 0
+}

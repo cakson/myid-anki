@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6920,
+  "input_digest": "49029e9b3cb4dcb863ab8e66c83712c6e9d79327a1e731256d19108ef223ba73",
+  "input_tokens": 45009,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 299,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-food-001:food-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A store clerk assists customers generally, whereas a cashier specifically handles payment.\"},{\"other_id\":\"fresh-work-001:work-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A store clerk is a specific shop role; employee is the broader concept of any person employed by an organization.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-06",
+          "rationale": "A store clerk assists customers generally, whereas a cashier specifically handles payment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-01",
+          "rationale": "A store clerk is a specific shop role; employee is the broader concept of any person employed by an organization.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

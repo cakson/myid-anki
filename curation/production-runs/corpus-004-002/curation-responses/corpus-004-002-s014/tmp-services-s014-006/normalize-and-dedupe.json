@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7715,
+  "input_digest": "54be2c992aef5455a71a3e7bffc50b9dd27d0232a9b185b7a8c7bf2e5f4f0dbb",
+  "input_tokens": 54581,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 218,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“Opening hours” means the period when a service is available, whereas “schedule” is a planned timetable of transport times; their senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-05",
+          "rationale": "“Opening hours” means the period when a service is available, whereas “schedule” is a planned timetable of transport times; their senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

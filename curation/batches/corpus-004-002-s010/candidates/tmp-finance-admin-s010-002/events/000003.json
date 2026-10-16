@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:26:11.702326+00:00",
+  "input_digest": "af58bb435b628a9e5d115c5c8b7a2ab006cd5c97fa5592d8194acfb55a7e9869",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"places-001:places-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bank branch is a local office of a bank, while office is a generic workplace or administrative office; the candidate has a distinct banking-location sense.\"}, {\"other_id\": \"corpus-004-002-s010:tmp-finance-admin-s010-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bank branch is a physical local banking location, whereas bank account is an account held at a bank; their senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "places-001:places-01",
+          "rationale": "A bank branch is a local office of a bank, while office is a generic workplace or administrative office; the candidate has a distinct banking-location sense.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s010:tmp-finance-admin-s010-001",
+          "rationale": "Bank branch is a physical local banking location, whereas bank account is an account held at a bank; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "places-001:places-01",
+        "rationale": "A bank branch is a local office of a bank, while office is a generic workplace or administrative office; the candidate has a distinct banking-location sense.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s010:tmp-finance-admin-s010-001",
+        "rationale": "Bank branch is a physical local banking location, whereas bank account is an account held at a bank; their senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1df5063c7435a2853be9c156b22512fb0d53a3e2cbb2e9241437eeafd8885c3a"
+}

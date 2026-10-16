@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:41:37.632299+00:00",
+  "input_digest": "a50119bd7a1978c888c21ab2863f47b49e6394fb151d1141e4f6a6969d5a76d6",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s004:tmp-communication-s004-006\", \"type\": \"morphology\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is the noun \\u201ccomplaint\\u201d meaning an expression of dissatisfaction, while the archived concept is the verb \\u201ccomplain\\u201d meaning to express dissatisfaction; their parts of speech and cues differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-006",
+          "rationale": "The candidate is the noun “complaint” meaning an expression of dissatisfaction, while the archived concept is the verb “complain” meaning to express dissatisfaction; their parts of speech and cues differ.",
+          "resolution": "distinct",
+          "type": "morphology"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s004:tmp-communication-s004-006",
+        "rationale": "The candidate is the noun “complaint” meaning an expression of dissatisfaction, while the archived concept is the verb “complain” meaning to express dissatisfaction; their parts of speech and cues differ.",
+        "resolution": "distinct",
+        "type": "morphology"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1b3b5e19864bdb9ae2e4344d7f09d3a5184f83a98dd51130bc9a655f0fd01bc5"
+}

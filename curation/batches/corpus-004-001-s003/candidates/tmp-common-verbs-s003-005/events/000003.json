@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:26:59.221353+00:00",
+  "input_digest": "9c2ccf568112c7c6eea3c3b96616b290467d25248e97dd61285ecc5413569d13",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"technology-001:technology-07\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is the action of creating a photograph, while the existing concept is the camera device itself; their senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-07",
+          "rationale": "The candidate is the action of creating a photograph, while the existing concept is the camera device itself; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "technology-001:technology-07",
+        "rationale": "The candidate is the action of creating a photograph, while the existing concept is the camera device itself; their senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "04b1b2b814974c12e81d67ce512e74f6db5fc6fcef6d3a7b50a71499ed23f140"
+}

@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-emotions-s010-007"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6319,
+  "input_tokens": 30715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 227,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "57f43f0955f8d5f5d40a8689cb04cbc2031201b94eeb2aaea8fe29b9fa5e4119",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Heartbroken and disappointed are related negative emotions, but heartbroken specifically denotes deep distress from romantic loss or rejection, whereas disappointed denotes unhappiness when an expectation is unmet; the Indonesian and Malaysian answers also differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+          "rationale": "Heartbroken and disappointed are related negative emotions, but heartbroken specifically denotes deep distress from romantic loss or rejection, whereas disappointed denotes unhappiness when an expectation is unmet; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

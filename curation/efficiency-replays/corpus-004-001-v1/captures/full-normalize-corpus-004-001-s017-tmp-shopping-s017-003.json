@@ -1,0 +1,36 @@
+{
+  "candidate_ids": [
+    "tmp-shopping-s017-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6936,
+  "input_tokens": 30715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 292,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "6a2323987ec69fbd58e8a88295d8f1e3c16607d02da3a2f8f0f13eb58a9beb4a",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-food-001:food-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A store clerk assists customers in a shop, while a cashier specifically handles payments; the roles can overlap but are not equivalent.\"},{\"other_id\":\"fresh-work-001:work-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Store clerk is a specific shop-floor role; employee is the broader concept of any person employed by an organization.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-06",
+          "rationale": "A store clerk assists customers in a shop, while a cashier specifically handles payments; the roles can overlap but are not equivalent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-01",
+          "rationale": "Store clerk is a specific shop-floor role; employee is the broader concept of any person employed by an organization.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

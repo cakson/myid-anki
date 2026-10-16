@@ -1,0 +1,62 @@
+{
+  "attempt_id": "483c16cee99e7970",
+  "candidate_id": "tmp-family-social-s011-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct; Indonesian pernikahan means marriage and can specifically mean the wedding ceremony.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/pernikahan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pernikahan"
+    },
+    {
+      "conclusion": "Correct; Malaysian Malay perkahwinan means marriage/wedding and is used for the wedding event.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=perkahwinan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: perkahwinan"
+    },
+    {
+      "conclusion": "The cue wedding and sense marriage ceremony or event align with both answers, though each term can also refer more broadly to marriage.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/pernikahan",
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=perkahwinan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate as a learner-facing national-variety contrast. No false-friend distinction needs to be added; Indonesian perkawinan and Malay pernikahan are related alternatives, not evidence of a misleading contrast.",
+      "evidence_limitation": "Dictionary evidence confirms meanings and usage but does not quantify frequency or regional preference.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1998489d19886c4da79952fb283a23843e9ac4a97d7f89d8bb2f5dbe9f4b3649",
+  "correction_refs": [],
+  "decision_digest": "19658cbeced8a98b787ed84891fa1b83a4f378b19d6f3e550d49ce476b4e1b8d",
+  "elapsed_ms": 17733,
+  "finding_class": "none",
+  "input_tokens": 49303,
+  "model_calls": 1,
+  "output_tokens": 832,
+  "packet_digest": "64388dcd6ba462b3aecadaae5536a88f707eaf71e3171e949ffeb5435c130d2e",
+  "rationale": "Both answers are valid ordinary terms for the wedding/marriage ceremony or event in their respective national varieties. The relation is accurately labeled as different-common-word; no material false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:02:34.261645+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s011/tmp-family-social-s011-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s011",
+  "verdict": "cleared"
+}

@@ -1,0 +1,76 @@
+{
+  "attempt_id": "10a04535ca940268",
+  "candidate_id": "tmp-daily-life-s005-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“dish sponge” and “sponge used to wash dishes” accurately specify the intended object.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=span",
+        "https://kbbi.co.id/arti-kata/spons"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“spons cuci piring” is a valid and common Indonesian expression for a dishwashing sponge.",
+      "evidence_refs": [
+        "https://www.monotaro.id/k/store/spons%20cuci%20piring",
+        "https://www.sunlight.co.id/articles/tips/tips-hilangkan-bau-pada-spons-cuci-piring.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“span pencuci pinggan” is a valid Malaysian Malay expression; “span” is the standard Malay term for sponge.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=span",
+        "https://www.jpnin.gov.my/storage/Flipbook/MODUL%20AKTIVITI%20TAKE-5.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate because the Indonesian and Malaysian forms differ while referring to the same object and are both ordinary terms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=span",
+        "https://kbbi.co.id/arti-kata/spons"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is required. “spons” and “span” are corresponding sponge terms, not words with conflicting meanings.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=span",
+        "https://kbbi.co.id/arti-kata/spons"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ab6e9eac1b4769f0e57d26c64b8b723245a3415e7f3e4dca784e67a542d40ca9",
+  "correction_refs": [],
+  "decision_digest": "6d178cd5c44d2e46b63f4a732e4dddef930da8e083640416ebe93ed52437a3f6",
+  "elapsed_ms": 27097,
+  "finding_class": "none",
+  "input_tokens": 95285,
+  "model_calls": 1,
+  "output_tokens": 1287,
+  "packet_digest": "e5ade4d4adb9faf336031a5657d8830e0e86aadd55572c5520e88e973b705c42",
+  "rationale": "Both answers correctly identify a dishwashing sponge. Indonesian “spons cuci piring” is supported by Indonesian lexical and usage sources; Malaysian Malay “span pencuci pinggan” is supported by DBP and Malaysian usage sources. The forms are distinct common lexical forms, so the relation is appropriate. They are related loanword variants, not false friends; an explicit contrast is unnecessary.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:43:00.125891+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s005/tmp-daily-life-s005-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s005",
+  "verdict": "cleared"
+}

@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-time-date-s019-006"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6114,
+  "input_tokens": 30716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 196,
+  "prompt_bytes": 67207,
+  "prompt_sha256": "36036e9d697edc3788d5e7e276937d08c321563d8870b9e89c793beb077bcff0",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"000045\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is the general calendar concept 'date' meaning a numbered day of a month, while 000045 is the specific concept 'expiry date' meaning the date after which a packaged food should not be used.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000045",
+          "rationale": "The candidate is the general calendar concept 'date' meaning a numbered day of a month, while 000045 is the specific concept 'expiry date' meaning the date after which a packaged food should not be used.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

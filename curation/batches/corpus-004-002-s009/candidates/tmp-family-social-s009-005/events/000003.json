@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:25:37.370128+00:00",
+  "input_digest": "86dce37d4dcf7d533019c6329fbed9aee83dba35b67b9bde2de1acbfc5bbd4a3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s009:tmp-family-social-s009-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A widow is a woman whose spouse has died; a wife is a woman currently in a marital relationship.\"}, {\"other_id\": \"corpus-004-002-s009:tmp-family-social-s009-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A widow is defined by the death of her spouse, while unmarried means not currently married; the concepts are not synonymous.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-001",
+          "rationale": "A widow is a woman whose spouse has died; a wife is a woman currently in a marital relationship.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-003",
+          "rationale": "A widow is defined by the death of her spouse, while unmarried means not currently married; the concepts are not synonymous.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s009:tmp-family-social-s009-001",
+        "rationale": "A widow is a woman whose spouse has died; a wife is a woman currently in a marital relationship.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s009:tmp-family-social-s009-003",
+        "rationale": "A widow is defined by the death of her spouse, while unmarried means not currently married; the concepts are not synonymous.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "dde1f217a2df5da0f62f2c45a48100f9e22f6c6f3d8d9ccd3fe066088d3fea59"
+}

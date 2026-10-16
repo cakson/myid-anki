@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-communication-s004-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6290,
+  "input_tokens": 30718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 267,
+  "prompt_bytes": 67215,
+  "prompt_sha256": "4a21c95dd502ac399d8b7eda0f0c2b99176ca5600fcbf99fd9efac744cfe71b6",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s004:tmp-communication-s004-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A word is a single unit of language, whereas a sentence is a grammatical unit made up of one or more words; the Indonesian and Malaysian answers also differ.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-004",
+          "rationale": "A word is a single unit of language, whereas a sentence is a grammatical unit made up of one or more words; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

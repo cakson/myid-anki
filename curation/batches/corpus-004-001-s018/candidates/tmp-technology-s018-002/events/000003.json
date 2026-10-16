@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:43:19.402399+00:00",
+  "input_digest": "0352a6cef81c91c63f6a2c16cfd885d406bab114de5b9135ebdaa37ec9e69ac0",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"technology-001:technology-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A screenshot is an image captured from a device screen, whereas screen refers to the display surface itself; the senses and answers are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-06",
+          "rationale": "A screenshot is an image captured from a device screen, whereas screen refers to the display surface itself; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "technology-001:technology-06",
+        "rationale": "A screenshot is an image captured from a device screen, whereas screen refers to the display surface itself; the senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8c58dc4233c40e3b50f92df4c3ca16fdfd5d478972cd980ef8a3289bbb150a00"
+}

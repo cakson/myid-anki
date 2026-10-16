@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:08.795593+00:00",
+  "result": {
+    "candidate_digest": "b3aeb87dab131fbb4e643794c068e71f2a57747865291c5d1a4d6b54d436d223",
+    "candidate_id": "tmp-common-verbs-s003-006",
+    "checked_at": "2026-10-16T02:10:08.795593+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): Both translations correctly express spending the night, but the relation label should be qualified: menginap is common in Indonesian and bermalam is common in Malaysian Malay, yet both forms can occur across both varieties. There is no false-friend contrast.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

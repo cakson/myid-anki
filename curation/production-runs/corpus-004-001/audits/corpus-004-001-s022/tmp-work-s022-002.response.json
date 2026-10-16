@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20865,
+  "input_tokens": 50000,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1184,
+  "packet_digest": "7a64029ec99f8b824d17c4d84116db1040524b5864ffd26b3fd7d27ef68ce8c6",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Indonesian departemen fits the workplace-unit sense. In Malaysian Malay, jabatan is strongly associated with government or university departments; DBP gives bahagian for a department in a business concern. The broad workplace cue therefore overstates jabatan. The card also omits the useful false-friend contrast: Indonesian jabatan commonly means an official position/function, not a department.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: departemen\",\"conclusion\":\"Correct for an organizational department or workplace division.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/departemen.html\"]},{\"subject\":\"Malaysian answer: jabatan\",\"conclusion\":\"Conditionally correct, especially for government or university departments, but not the best unqualified answer for a business/workplace department; bahagian is DBP's business-context equivalent.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jabatan\",\"https://prpm.dbp.gov.my/cari1?keyword=department\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue is too broad for jabatan. It should specify a government/university department, or use a business-neutral cue with Malaysian bahagian.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/cari1?keyword=department\"]},{\"subject\":\"Final relation\",\"conclusion\":\"Different-common-word is defensible for the selected Indonesian departemen versus Malaysian jabatan/bahagian contrast, but it should not imply that jabatan is the universal Malaysian equivalent.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jabatan\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"A salient contrast is missing: Indonesian jabatan can mean an official position, office, or function, whereas Malaysian jabatan commonly denotes a department.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jabatan\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for an organizational department or workplace division.",
+        "evidence_refs": [
+          "https://kbbi.web.id/departemen.html"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: departemen"
+      },
+      {
+        "conclusion": "Conditionally correct, especially for government or university departments, but not the best unqualified answer for a business/workplace department; bahagian is DBP's business-context equivalent.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jabatan",
+          "https://prpm.dbp.gov.my/cari1?keyword=department"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: jabatan"
+      },
+      {
+        "conclusion": "The cue is too broad for jabatan. It should specify a government/university department, or use a business-neutral cue with Malaysian bahagian.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1?keyword=department"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Different-common-word is defensible for the selected Indonesian departemen versus Malaysian jabatan/bahagian contrast, but it should not imply that jabatan is the universal Malaysian equivalent.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jabatan"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "A salient contrast is missing: Indonesian jabatan can mean an official position, office, or function, whereas Malaysian jabatan commonly denotes a department.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jabatan"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Indonesian departemen fits the workplace-unit sense. In Malaysian Malay, jabatan is strongly associated with government or university departments; DBP gives bahagian for a department in a business concern. The broad workplace cue therefore overstates jabatan. The card also omits the useful false-friend contrast: Indonesian jabatan commonly means an official position/function, not a department.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

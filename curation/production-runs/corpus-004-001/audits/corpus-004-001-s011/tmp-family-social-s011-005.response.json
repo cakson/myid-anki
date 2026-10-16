@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17642,
+  "input_tokens": 33183,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1027,
+  "packet_digest": "ed68dc4142b302ceee99c841cb7a31d913ba9c8cd62541fe577f73c0d1b59ffe",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers are valid for the narrowed sense “parent’s sister.” Indonesian tante and Malaysian mak cik are common terms, though both can also address non-relative older women. The relation label is appropriate; no false-friend contrast is required.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"“Parent’s sister” is a valid narrowing of “aunt” and accurately defines the intended family sense.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english-indonesian/aunt\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: tante\",\n      \"conclusion\": \"Correct and ordinary for “aunt,” including a parent’s sister; it may also address an older woman.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kamus.sabda.org/kamus/tante\",\n        \"https://id.wiktionary.org/wiki/tante\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: mak cik\",\n      \"conclusion\": \"Correct and common for an aunt or parent’s sister; it also functions as a respectful address for an unrelated older woman.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bapa+cik\",\n        \"https://prpm.dbp.gov.my/Cari1?d=391536&keyword=mak\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"“different-common-word” is accurate: tante and mak cik are distinct, commonly used regional equivalents.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kamus.sabda.org/kamus/tante\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bapa+cik\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is needed. The relevant pragmatic ambiguity is that both terms can address unrelated older women, but this is not a false friend and does not invalidate the card.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=391536&keyword=mak\",\n        \"https://kamus.sabda.org/kamus/tante\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Parent’s sister” is a valid narrowing of “aunt” and accurately defines the intended family sense.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/aunt"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and ordinary for “aunt,” including a parent’s sister; it may also address an older woman.",
+        "evidence_refs": [
+          "https://kamus.sabda.org/kamus/tante",
+          "https://id.wiktionary.org/wiki/tante"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: tante"
+      },
+      {
+        "conclusion": "Correct and common for an aunt or parent’s sister; it also functions as a respectful address for an unrelated older woman.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bapa+cik",
+          "https://prpm.dbp.gov.my/Cari1?d=391536&keyword=mak"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: mak cik"
+      },
+      {
+        "conclusion": "“different-common-word” is accurate: tante and mak cik are distinct, commonly used regional equivalents.",
+        "evidence_refs": [
+          "https://kamus.sabda.org/kamus/tante",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bapa+cik"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is needed. The relevant pragmatic ambiguity is that both terms can address unrelated older women, but this is not a false friend and does not invalidate the card.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=391536&keyword=mak",
+          "https://kamus.sabda.org/kamus/tante"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are valid for the narrowed sense “parent’s sister.” Indonesian tante and Malaysian mak cik are common terms, though both can also address non-relative older women. The relation label is appropriate; no false-friend contrast is required.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

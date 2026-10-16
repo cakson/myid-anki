@@ -1,0 +1,72 @@
+{
+  "attempt_id": "2832ac8b29918ecc",
+  "candidate_id": "tmp-services-s014-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“license” with the sense “official authorization to do something” is sufficiently precise and matches both target terms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lesen"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "izin is a valid, common Indonesian rendering for permission or official authorization; it is broader than the English noun license but not incorrect for the supplied sense.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/permisi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: izin"
+    },
+    {
+      "conclusion": "lesen is the standard Malaysian Malay term for an official license, permit, or authorization document.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lesen"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: lesen"
+    },
+    {
+      "conclusion": "different-common-word is accurate because Indonesian commonly uses izin for this broad sense while Malaysian commonly uses lesen.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lesen",
+        "https://kbbi.kemdikbud.go.id/entri/permisi"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is necessary. The main learner-relevant distinction is breadth: Indonesian izin can mean general permission, whereas Malaysian lesen more specifically denotes a license or permit; Indonesian lisensi is a plausible formal alternative in some domains.",
+      "evidence_limitation": "The Indonesian dictionary pages for izin and lisensi were not directly retrievable; this conclusion relies on the provided candidate rationale plus the accessible Malaysian authority.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "1698b34b76fcff9e1f69172c6bf30a09554ffb4573e4c9b2b31af7bb410297d9",
+  "correction_refs": [],
+  "decision_digest": "7331f2b9c9490be8f575f4716afad4289282ea62fb9dbddc64ef396fd4ef0356",
+  "elapsed_ms": 22231,
+  "finding_class": "none",
+  "input_tokens": 47623,
+  "model_calls": 1,
+  "output_tokens": 1225,
+  "packet_digest": "d489dab003851c3696507439dca52ca142d8a946f7eccb6449319e02e8340be1",
+  "rationale": "Both answers are valid for the stated sense. Indonesian izin is a common term for permission or official authorization, while Malaysian lesen directly denotes an official license or permit. The English cue and sense are aligned, and different-common-word is an appropriate relation. No false-friend contrast is required, though Indonesian lisensi is a context-specific formal alternative that could be noted if exclusivity were implied.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:50:37.497805+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s014/tmp-services-s014-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s014",
+  "verdict": "cleared"
+}

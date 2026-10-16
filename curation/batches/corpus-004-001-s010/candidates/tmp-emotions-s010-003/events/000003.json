@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:33:14.385559+00:00",
+  "input_digest": "53d511ecb981ebe0fd8291aa7b8f8c5238e46665c4ac612748488c7e5b958f22",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both can involve eagerness or interest, but curious means wanting to know or find out more, whereas excited means feeling enthusiastic about something; the English cues, Indonesian answers, and Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-001",
+          "rationale": "Both can involve eagerness or interest, but curious means wanting to know or find out more, whereas excited means feeling enthusiastic about something; the English cues, Indonesian answers, and Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-001",
+        "rationale": "Both can involve eagerness or interest, but curious means wanting to know or find out more, whereas excited means feeling enthusiastic about something; the English cues, Indonesian answers, and Malaysian answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "723fbbe82e5162b84c1fbd635c8dd3fa738fecb0382d9f80d31da64b0ca0d358"
+}

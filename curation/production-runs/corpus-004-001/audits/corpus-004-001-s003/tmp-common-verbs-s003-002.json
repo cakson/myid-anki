@@ -1,0 +1,72 @@
+{
+  "attempt_id": "954b014490581fbe",
+  "candidate_id": "tmp-common-verbs-s003-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “go home” or “return home.”",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/pulang"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pulang"
+    },
+    {
+      "conclusion": "Correct and ordinary for “go home” or “return home” in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=246792&keyword=pulang",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pulang"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: balik"
+    },
+    {
+      "conclusion": "Aligned: “go home” and “return home” accurately capture the core sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=246792&keyword=pulang"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Needs qualification. The forms are different regional preferences, but pulang is also recognized in Malaysian Malay and balik is not exclusively non-Indonesian.",
+      "evidence_limitation": "The cited Malay dictionary evidence establishes synonymy and Malaysian usage, but does not quantify everyday frequency by country.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=246792&keyword=pulang",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kembali"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No genuine false-friend contrast is present; the card should avoid suggesting that either word is semantically wrong in the other variety.",
+      "evidence_limitation": "No dedicated Indonesian-Malaysian corpus comparison was supplied.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "488f951ee75a3cfa646ce7507f29e7e52a491b239aaa68b9ccd6ead66b42c3ce",
+  "correction_refs": [],
+  "decision_digest": "4aa1b14c8a56b47d9e2043eb446b650d841f86a34dcada239e120cf3c229dfc3",
+  "elapsed_ms": 16577,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 29085,
+  "model_calls": 1,
+  "output_tokens": 956,
+  "packet_digest": "3442b093fd797acb64425b12bc77e3eccdd1c834439ca1c86a47e636b9b281ed",
+  "rationale": "Both answers and the English sense are correct, but the relation label risks implying a strict contrast. Malaysian Malay also uses pulang, while Indonesian can use balik in some contexts; the distinction is mainly commonness and register, not mutually exclusive vocabulary.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:51:57.703784+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s003/tmp-common-verbs-s003-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s003",
+  "verdict": "needs-correction"
+}

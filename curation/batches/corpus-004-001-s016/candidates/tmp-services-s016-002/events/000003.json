@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T01:41:23.108114+00:00",
+  "input_digest": "975c69208ef5088425b2447ad39a87f7c1936130b9eb7bc52fa2032c692d8f73",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A waiting room is a physical room where service users sit and wait; a queue is a line of people waiting, so the senses are clearly distinct.\"}, {\"other_id\": \"corpus-004-001-s016:tmp-services-s016-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A waiting room is an area for waiting, whereas a service counter is a public-facing point where service or payment is handled; they are distinct facilities.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-04",
+          "rationale": "A waiting room is a physical room where service users sit and wait; a queue is a line of people waiting, so the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s016:tmp-services-s016-001",
+          "rationale": "A waiting room is an area for waiting, whereas a service counter is a public-facing point where service or payment is handled; they are distinct facilities.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-04",
+        "rationale": "A waiting room is a physical room where service users sit and wait; a queue is a line of people waiting, so the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s016:tmp-services-s016-001",
+        "rationale": "A waiting room is an area for waiting, whereas a service counter is a public-facing point where service or payment is handled; they are distinct facilities.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "06c7ba3864a3ba6bbd516882b4a93c354af3fffe469938300947016dfd981958"
+}

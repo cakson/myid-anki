@@ -1,0 +1,32 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 8994,
+  "input_digest": "9295b1fe6642670e6621c0edd4ec18662932f6b8bbbd4591426e85961c89862d",
+  "input_tokens": 14298,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 578,
+  "raw_text": "{\n  \"verdict\": \"agree\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [],\n  \"material_concerns\": [],\n  \"rationale\": \"Both forms refer to a person’s birthday celebration. Indonesian commonly uses \\\"ulang tahun\\\", while Malaysian commonly uses \\\"hari jadi\\\".\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"aligned\",\n  \"cue_rewrite\": \"\",\n  \"cue_rationale\": \"Both answers fit the same sense: the annual celebration of a person’s birth.\",\n  \"shared_synonym_case\": \"nonpreferred-alternative\",\n  \"shared_synonym_rationale\": \"\\\"Ulang tahun\\\" is understood in Malaysian Malay but is not the usual everyday preference for a birthday; \\\"hari jadi\\\" is the ordinary Malaysian form. In Indonesian, \\\"hari jadi\\\" more commonly refers to an anniversary or founding date.\",\n  \"nonblocking_risk\": \"none\",\n  \"risk_rationale\": \"\",\n  \"preference_risk\": {\n    \"signal\": \"named-alternative-exists\",\n    \"form\": \"ulang tahun\",\n    \"language\": \"malaysian\",\n    \"rationale\": \"\\\"Ulang tahun\\\" exists and is understood in Malaysian usage, but does not generally displace \\\"hari jadi\\\" as the ordinary birthday term.\"\n  }\n}",
+  "response": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the same sense: the annual celebration of a person’s birth.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "ulang tahun",
+      "language": "malaysian",
+      "rationale": "\"Ulang tahun\" exists and is understood in Malaysian usage, but does not generally displace \"hari jadi\" as the ordinary birthday term.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Both forms refer to a person’s birthday celebration. Indonesian commonly uses \"ulang tahun\", while Malaysian commonly uses \"hari jadi\".",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "\"Ulang tahun\" is understood in Malaysian Malay but is not the usual everyday preference for a birthday; \"hari jadi\" is the ordinary Malaysian form. In Indonesian, \"hari jadi\" more commonly refers to an anniversary or founding date.",
+    "verdict": "agree"
+  },
+  "retrievals": null
+}

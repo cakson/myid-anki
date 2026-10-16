@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:27:58.766541+00:00",
+  "input_digest": "01d18b0d3c2a73bed1563bceb83f6572bd75feb7ccf67c26aaa8fa46f84944fb",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s004:tmp-communication-s004-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A word is a single unit of language, whereas a sentence is a grammatical unit composed of one or more words; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-004",
+          "rationale": "A word is a single unit of language, whereas a sentence is a grammatical unit composed of one or more words; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s004:tmp-communication-s004-004",
+        "rationale": "A word is a single unit of language, whereas a sentence is a grammatical unit composed of one or more words; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "e49aa5ef28f4a8248b35053434061db9d8e7226bcf1a3c19684571a73f6e11e7"
+}

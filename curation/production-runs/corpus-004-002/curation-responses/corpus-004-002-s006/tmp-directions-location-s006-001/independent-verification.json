@@ -1,0 +1,32 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 10435,
+  "input_digest": "df6eb046e7f4eef4d3cca2b849255536b5eaf3da91e84308d20805127f55de8c",
+  "input_tokens": 14305,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 614,
+  "raw_text": "{\n  \"verdict\": \"agree\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [],\n  \"material_concerns\": [],\n  \"rationale\": \"Gang is the ordinary Indonesian term for a narrow alley or small residential street, while lorong is the ordinary Malaysian term for the same concept. The contrast is useful without implying exclusive ownership.\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"aligned\",\n  \"cue_rewrite\": \"\",\n  \"cue_rationale\": \"Both answers refer to a narrow passage or small street, matching the cue “alley.”\",\n  \"shared_synonym_case\": \"useful-preference\",\n  \"shared_synonym_rationale\": \"Lorong is also understood and used in Indonesian, especially for a passage or corridor, but gang remains the strong everyday preference for a narrow residential alley; lorong is the standard Malaysian choice.\",\n  \"nonblocking_risk\": \"minor\",\n  \"risk_rationale\": \"Indonesian lorong can overlap in passage-related contexts, though this does not substantially weaken the gang-versus-lorong contrast.\",\n  \"preference_risk\": {\n    \"signal\": \"credible-everyday-alternative\",\n    \"form\": \"lorong\",\n    \"language\": \"indonesian\",\n    \"rationale\": \"Lorong is a plausible Indonesian alternative for a passage or lane, although gang is the more characteristic everyday term for an alley.\"\n  }\n}",
+  "response": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers refer to a narrow passage or small street, matching the cue “alley.”",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "lorong",
+      "language": "indonesian",
+      "rationale": "Lorong is a plausible Indonesian alternative for a passage or lane, although gang is the more characteristic everyday term for an alley.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "Gang is the ordinary Indonesian term for a narrow alley or small residential street, while lorong is the ordinary Malaysian term for the same concept. The contrast is useful without implying exclusive ownership.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian lorong can overlap in passage-related contexts, though this does not substantially weaken the gang-versus-lorong contrast.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Lorong is also understood and used in Indonesian, especially for a passage or corridor, but gang remains the strong everyday preference for a narrow residential alley; lorong is the standard Malaysian choice.",
+    "verdict": "agree"
+  },
+  "retrievals": null
+}

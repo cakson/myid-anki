@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T13:21:09.082840+00:00",
+  "result": {
+    "candidate_digest": "4eec654c74e524a1bc96f14f23299ebfc30afcdafc0c13f13e3c3253a79ec5e2",
+    "candidate_id": "tmp-directions-location-s006-006",
+    "checked_at": "2026-10-16T13:21:09.082840+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "Indonesian sekitar usually means 'around/in the vicinity of' rather than directly 'nearby'; dekat is a common same-sense alternative in both varieties."
+    ],
+    "relation": "similar",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "Indonesian sekitar usually means 'around/in the vicinity of' rather than directly 'nearby'; dekat is a common same-sense alternative in both varieties.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

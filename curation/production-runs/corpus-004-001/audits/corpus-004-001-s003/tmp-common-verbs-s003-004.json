@@ -1,0 +1,71 @@
+{
+  "attempt_id": "c00089c783d18d3c",
+  "candidate_id": "tmp-common-verbs-s003-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“count” meaning determine the number of items is clear and correctly aligned.",
+      "evidence_refs": [
+        "https://kbbi.web.id/perhitungan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“menghitung” is a correct ordinary Indonesian equivalent for counting items.",
+      "evidence_refs": [
+        "https://kbbi.web.id/perhitungan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“mengira” is a correct Malaysian Malay equivalent for counting; it is not exclusive, because “menghitung” is also accepted.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=diterimanya",
+        "https://prpm.dbp.gov.my/Cari1?d=244840&keyword=menghitung"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“different-common-word” is misleading because the two varieties share “menghitung” for this sense; use a shared-synonym or regional-preference relation.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=diterimanya",
+        "https://prpm.dbp.gov.my/Cari1?d=244840&keyword=menghitung"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is applicable or necessary.",
+      "evidence_limitation": "No dedicated false-friend source was needed because the two forms are semantically aligned.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "535a8e8db10e045022a1adddd13756057f1573ce5df3d5eaf85f6c8ea53d5eed",
+  "correction_refs": [],
+  "decision_digest": "58acf273fa37a811bfecf186e51af5382fe6c12f50153f9abb88aa94ecaf0fd0",
+  "elapsed_ms": 16670,
+  "finding_class": "metadata-only",
+  "input_tokens": 49786,
+  "model_calls": 1,
+  "output_tokens": 820,
+  "packet_digest": "0b4608ec2c4421ba236c6aa7308040125ee56dd430a31d7202fc97827ba1ba3f",
+  "rationale": "Both Malay answers correctly express “count” in the stated sense. However, Malaysian Malay also uses “menghitung,” so the relation “different-common-word” overstates the contrast; this is better represented as a shared synonym with regional or usage preference. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:52:14.398479+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s003/tmp-common-verbs-s003-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s003",
+  "verdict": "needs-correction"
+}

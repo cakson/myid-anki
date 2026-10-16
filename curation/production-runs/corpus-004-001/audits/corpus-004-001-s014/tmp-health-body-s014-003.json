@@ -1,0 +1,74 @@
+{
+  "attempt_id": "f2c854d13302c7d5",
+  "candidate_id": "tmp-health-body-s014-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: urine is liquid excreted by the kidneys and stored in the bladder before excretion.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=air+kencing",
+        "https://kbbi.web.id/urine"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and natural; Indonesian dictionaries define \"air seni\" as \"air kencing\".",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/air%2Bseni",
+        "https://kbbi.web.id/urine"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: air seni"
+    },
+    {
+      "conclusion": "Correct and standard Malay; PRPM defines it as urine.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=air+kencing"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: air kencing"
+    },
+    {
+      "conclusion": "Misleading. The forms overlap across Indonesian and Malaysian Malay, so this should not be taught as an exclusive national distinction.",
+      "evidence_refs": [
+        "https://kbbi.co.id/arti-kata/air%2Bkencing",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=seni+II+1"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported. The relevant issue is synonym overlap and possible register or preference variation, not divergent meaning.",
+      "evidence_limitation": "The cited dictionary entries establish synonymy but do not independently quantify regional frequency or register preference.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2cb55b2291b8f257e3009d372b7fe446159c012237e2f84854ffaa2f3294a876",
+  "correction_refs": [],
+  "decision_digest": "7dbb7c59521a6757b2e0e2a0fe4d04a2c222ec7273184113a0a31bb0466f642a",
+  "elapsed_ms": 18912,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 52114,
+  "model_calls": 1,
+  "output_tokens": 1050,
+  "packet_digest": "c3334b5300fd5c32063e41f589725bbcd842dc0b93815e2b7240fa338c9f40d9",
+  "rationale": "Both translations correctly denote urine, and the anatomical sense is correct. However, the relation \"different-common-word\" is misleading as a national contrast: \"air kencing\" is also a valid Indonesian term, while \"air seni\" is recognized in Malay as a synonym. The card should present these as overlapping synonyms, with possible register or preference differences rather than a clean Indonesian-versus-Malaysian split.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:05:02.624523+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s014/tmp-health-body-s014-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s014",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate_ids": [
+    "tmp-family-social-s011-005"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7237,
+  "input_tokens": 30719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 361,
+  "prompt_bytes": 67215,
+  "prompt_sha256": "201858fba069206210d5ded89a082d53a6700dc0ab65038b5d8bd3e913ef02b8",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Aunt means a parent’s sister, whereas uncle means a parent’s brother; the senses and Indonesian/Malaysian answers differ.\"},{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Aunt is one female relative, whereas parents refers collectively to the mother and father; the senses and answers differ.\"},{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Aunt means a parent’s sister, whereas grandfather means a parent’s father; the kinship senses and answers differ.\"},{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Aunt is an adult sibling of a parent, whereas niece or nephew is a sibling’s child; the kinship senses and answers differ.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-004",
+          "rationale": "Aunt means a parent’s sister, whereas uncle means a parent’s brother; the senses and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-003",
+          "rationale": "Aunt is one female relative, whereas parents refers collectively to the mother and father; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-006",
+          "rationale": "Aunt means a parent’s sister, whereas grandfather means a parent’s father; the kinship senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-007",
+          "rationale": "Aunt is an adult sibling of a parent, whereas niece or nephew is a sibling’s child; the kinship senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

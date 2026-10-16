@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:35:05.221207+00:00",
+  "input_digest": "06c02d2c8965f480d13043a711758c4730d1c56d4161796c797d0132ece33876",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s017:tmp-time-date-s017-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"last week refers to the entire week immediately before the current week, while next week refers to the following week.\"}, {\"other_id\": \"corpus-004-001-s019:tmp-time-date-s019-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"last week refers to a seven-day calendar period, while yesterday refers only to the day before today.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s017:tmp-time-date-s017-002",
+          "rationale": "last week refers to the entire week immediately before the current week, while next week refers to the following week.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s019:tmp-time-date-s019-002",
+          "rationale": "last week refers to a seven-day calendar period, while yesterday refers only to the day before today.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s017:tmp-time-date-s017-002",
+        "rationale": "last week refers to the entire week immediately before the current week, while next week refers to the following week.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s019:tmp-time-date-s019-002",
+        "rationale": "last week refers to a seven-day calendar period, while yesterday refers only to the day before today.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "2f5fa78543f524162c4221a2545a0faa58a95fbd490d597f8700795110d82624"
+}

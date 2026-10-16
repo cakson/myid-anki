@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T01:47:30.678848+00:00",
+  "input_digest": "fa5b7e2e2b14640719ab69d3c4856bdf41215e19daa8b10521632a8245454377",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The one-word cue \\u201cresign\\u201d is somewhat ambiguous; a short phrase is clearer.\"], \"material_concerns\": [], \"rationale\": \"\\u201cMengundurkan diri\\u201d is the ordinary Indonesian expression, while Malaysian Malay commonly uses \\u201cmeletak jawatan\\u201d for voluntarily leaving a job. This is a useful everyday variety distinction.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"leave a job voluntarily\", \"cue_rationale\": \"Both answers fit the narrowed sense of voluntarily leaving employment; the phrase avoids other senses of \\u201cresign.\\u201d\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cBerhenti kerja\\u201d is understandable and usable in both varieties, but the proposed forms remain credible, useful Indonesian and Malaysian preferences for this sense.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"\\u201cBerhenti kerja\\u201d may also be encountered in both varieties as a more general or colloquial alternative.\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"berhenti kerja\", \"language\": \"both\", \"rationale\": \"This is a plausible everyday alternative in both varieties, though it does not eliminate the useful preference for the proposed forms.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The one-word cue “resign” is somewhat ambiguous; a short phrase is clearer."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "Both answers fit the narrowed sense of voluntarily leaving employment; the phrase avoids other senses of “resign.”",
+      "cue_rewrite": "leave a job voluntarily",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "berhenti kerja",
+        "language": "both",
+        "rationale": "This is a plausible everyday alternative in both varieties, though it does not eliminate the useful preference for the proposed forms.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "“Mengundurkan diri” is the ordinary Indonesian expression, while Malaysian Malay commonly uses “meletak jawatan” for voluntarily leaving a job. This is a useful everyday variety distinction.",
+      "relation": "different-common-word",
+      "risk_rationale": "“Berhenti kerja” may also be encountered in both varieties as a more general or colloquial alternative.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Berhenti kerja” is understandable and usable in both varieties, but the proposed forms remain credible, useful Indonesian and Malaysian preferences for this sense.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The one-word cue “resign” is somewhat ambiguous; a short phrase is clearer."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "Both answers fit the narrowed sense of voluntarily leaving employment; the phrase avoids other senses of “resign.”",
+    "cue_rewrite": "leave a job voluntarily",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "berhenti kerja",
+      "language": "both",
+      "rationale": "This is a plausible everyday alternative in both varieties, though it does not eliminate the useful preference for the proposed forms.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "“Mengundurkan diri” is the ordinary Indonesian expression, while Malaysian Malay commonly uses “meletak jawatan” for voluntarily leaving a job. This is a useful everyday variety distinction.",
+    "relation": "different-common-word",
+    "risk_rationale": "“Berhenti kerja” may also be encountered in both varieties as a more general or colloquial alternative.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Berhenti kerja” is understandable and usable in both varieties, but the proposed forms remain credible, useful Indonesian and Malaysian preferences for this sense.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "21f5e1ed2cee89b21b03499056f0e66ab3262e6c28cea9e1c0a2d85b2611ca79"
+}

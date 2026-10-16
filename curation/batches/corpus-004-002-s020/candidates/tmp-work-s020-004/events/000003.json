@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:38:59.695686+00:00",
+  "input_digest": "81538b9c8b0d6d9ef15af6f22851049d3de51d656e8abdc4f5c105ef75974298",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s020:tmp-work-s020-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Part-time means working fewer hours than a full schedule, while full-time means working the standard full schedule; they are contrasting employment arrangements, not the same concept.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s020:tmp-work-s020-003",
+          "rationale": "Part-time means working fewer hours than a full schedule, while full-time means working the standard full schedule; they are contrasting employment arrangements, not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s020:tmp-work-s020-003",
+        "rationale": "Part-time means working fewer hours than a full schedule, while full-time means working the standard full schedule; they are contrasting employment arrangements, not the same concept.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "f202da45816738e3ba064ef749752ba8a6165f38ead1f4112a82602f891e1071"
+}

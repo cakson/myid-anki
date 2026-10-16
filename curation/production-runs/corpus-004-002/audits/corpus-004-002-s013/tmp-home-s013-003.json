@@ -1,0 +1,76 @@
+{
+  "attempt_id": "f5ab30327420ec11",
+  "candidate_id": "tmp-home-s013-003",
+  "claim_reviews": [
+    {
+      "conclusion": "The English cue and explanatory sense are accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=ventilate"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Misleading for this cue. Indonesian dictionary definitions emphasize drying/exposing to wind and indirect suggestion, not ventilating a room.",
+      "evidence_refs": [
+        "https://kbbi.web.id/buritan",
+        "https://kbbi.cari.co/mengangin"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: menganginkan"
+    },
+    {
+      "conclusion": "Correct and directly supported as meaning to introduce or circulate air.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Udara"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: mengudarakan"
+    },
+    {
+      "conclusion": "different-common-word is not reliable as stated because menganginkan is also documented in Malaysian usage for air-related meanings and as a translation of ventilate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=ventilate",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menganginkan%2C+mengangin-angin+1"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "A useful contrast exists: Indonesian menganginkan can mean exposing something to air/wind for drying or hinting indirectly, but this should be presented as a meaning contrast rather than a strict Indonesia-versus-Malaysia word split.",
+      "evidence_refs": [
+        "https://kbbi.web.id/buritan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menganginkan%2C+mengangin-angin+1"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "4b067b0e95892e73430cb739be8fad77b94e34e50ae093ff67d83641646c78cf",
+  "correction_refs": [],
+  "decision_digest": "68e3ebba4d5f8c20ea76bd5e32c2144bc2ee2242c51878781ed9497910fd84e4",
+  "elapsed_ms": 21899,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 76810,
+  "model_calls": 1,
+  "output_tokens": 1148,
+  "packet_digest": "5fbb7ea1358018e350cb8c0d7b621e81185e1be8d4ab9abdf6cf033a0c0b4db3",
+  "rationale": "The Malaysian answer mengudarakan correctly matches “to ventilate a room.” Indonesian menganginkan primarily means placing something in a windy place to dry or hinting at something indirectly, so presenting it as the standard Indonesian equivalent for ventilating a room is materially misleading. The claimed national contrast is also overstated: menganginkan is documented in Malaysian usage, including as a translation of “ventilate.”",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:49:40.561170+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s013/tmp-home-s013-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:preference-uncertainty"
+  ],
+  "slice_id": "corpus-004-002-s013",
+  "verdict": "needs-correction"
+}

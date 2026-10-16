@@ -1,0 +1,76 @@
+{
+  "attempt_id": "65931ca4b4f7aeeb",
+  "candidate_id": "tmp-food-cooking-s011-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Shallot” and “small pungent cooking bulb” are acceptable.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=shallot",
+        "https://www.kbbi.web.id/bawang"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary for shallot in Indonesian.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/bawang",
+        "https://hortikultura.pertanian.go.id/benih-biji-bawang-merah-true-seed-of-shallot-di-indonesia/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: bawang merah"
+    },
+    {
+      "conclusion": "Correct Malaysian term for shallot, but not an exclusive national equivalent.",
+      "evidence_refs": [
+        "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/statistik_tanaman/statistik_tanaman_sayur_tanaman_kontan_2024.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=bawang"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: bawang kecil"
+    },
+    {
+      "conclusion": "“different-common-word” is unsupported and should be changed to shared synonym, or qualified as a Malaysian preference alongside bawang merah.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=shallot",
+        "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=bawang",
+        "https://doa.sarawak.gov.my/web/subpage/webpage_view/108"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No genuine Indonesian–Malaysian false-friend contrast is present; the relevant contrast is usage preference, not divergent meaning.",
+      "evidence_limitation": "The cited dictionary and government sources establish overlap and terminology, but do not quantify regional frequency or conversational preference.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "73efe50f71a11f1739fa2feb5098d5fe159995a539a6deceeff7adae4e689e8b",
+  "correction_refs": [],
+  "decision_digest": "5a91bfd5c7c8c235bfb712c14c9f0efdc952932e214ea62ae8d84cb7c38fa257",
+  "elapsed_ms": 25284,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 59874,
+  "model_calls": 1,
+  "output_tokens": 1020,
+  "packet_digest": "edeab4e153b21aaab6e6d5dc79e950b9088917098bd2f358707ec26ba6f1f76c",
+  "rationale": "Both forms can denote shallot in Malaysian Malay, so the proposed Indonesian-versus-Malaysian contrast and different-common-word relation are misleading. “Bawang kecil” is a valid Malaysian term, but “bawang merah” is also established Malaysian usage; the card needs a shared-synonym or preference-qualified contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:47:51.235498+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s011/tmp-food-cooking-s011-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:preference-uncertainty"
+  ],
+  "slice_id": "corpus-004-002-s011",
+  "verdict": "needs-correction"
+}

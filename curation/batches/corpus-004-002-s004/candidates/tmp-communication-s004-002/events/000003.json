@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T13:16:38.200748+00:00",
+  "input_digest": "e704e48a6c6ac4a0e268a85f89144bfc6dc5ea17e0b24be44b1bd3f22789a64c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"communication-001:communication-03\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"Both refer to an exchange between people; the archive entry is specifically an informal conversation, while the candidate covers spoken or written exchanges more broadly.\"}, {\"other_id\": \"000012\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"The existing concept is casual conversation with matching Indonesian and Malaysian answers different from the candidate; the senses are closely related but not proven identical.\"}, {\"other_id\": \"fresh-work-001:work-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A meeting is a planned gathering, whereas conversation is the exchange itself and can occur without a meeting.\"}, {\"other_id\": \"tb25-actions-001:actions-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Discuss is an action of talking about a topic in detail; conversation is the spoken or written exchange, which may be informal or general.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "communication-001:communication-03",
+          "rationale": "Both refer to an exchange between people; the archive entry is specifically an informal conversation, while the candidate covers spoken or written exchanges more broadly.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000012",
+          "rationale": "The existing concept is casual conversation with matching Indonesian and Malaysian answers different from the candidate; the senses are closely related but not proven identical.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-02",
+          "rationale": "A meeting is a planned gathering, whereas conversation is the exchange itself and can occur without a meeting.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-actions-001:actions-02",
+          "rationale": "Discuss is an action of talking about a topic in detail; conversation is the spoken or written exchange, which may be informal or general.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "communication-001:communication-03",
+        "rationale": "Both refer to an exchange between people; the archive entry is specifically an informal conversation, while the candidate covers spoken or written exchanges more broadly.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      },
+      {
+        "other_id": "000012",
+        "rationale": "The existing concept is casual conversation with matching Indonesian and Malaysian answers different from the candidate; the senses are closely related but not proven identical.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-work-001:work-02",
+        "rationale": "A meeting is a planned gathering, whereas conversation is the exchange itself and can occur without a meeting.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "tb25-actions-001:actions-02",
+        "rationale": "Discuss is an action of talking about a topic in detail; conversation is the spoken or written exchange, which may be informal or general.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "284c705c9a0a3df784746ac5e21054dedcad8d499749be1d48c60b19925fe7b1"
+}

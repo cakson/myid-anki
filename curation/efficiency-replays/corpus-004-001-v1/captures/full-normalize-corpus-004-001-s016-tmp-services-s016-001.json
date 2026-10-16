@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-services-s016-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 9390,
+  "input_tokens": 30719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 328,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "75b3ffcaf050d6ef4f20d93652c5e1eaf206ffa2fdc7312d225ac8bf9feea7c2",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-food-001:food-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A cashier is a person who handles payments, whereas a service counter is a public-facing place or fixture for service or payment; the concepts and senses differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-06",
+          "rationale": "A cashier is a person who handles payments, whereas a service counter is a public-facing place or fixture for service or payment; the concepts and senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

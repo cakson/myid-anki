@@ -1,0 +1,109 @@
+{
+  "candidate_ids": [
+    "common-adjectives-contrast-002",
+    "common-adjectives-contrast-003"
+  ],
+  "effort": "medium",
+  "elapsed_ms": 24110,
+  "input_tokens": 47599,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1691,
+  "prompt_bytes": 5329,
+  "raw_text": "{\"results\":[{\"candidate_id\":\"common-adjectives-contrast-002\",\"response\":{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers accurately express sudden surprise. The relation is valid as a common-word preference: Indonesian commonly uses kaget, while Malaysian Malay commonly uses terkejut, though both forms can occur across varieties. No false-friend issue is present.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: kaget\",\"conclusion\":\"Correct for 'surprised' in Indonesian, especially colloquial usage.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemdikbud.go.id/entri/kaget\"],\"evidence_limitation\":\"Direct KBBI page was inaccessible during review.\"},{\"subject\":\"Malaysian Malay answer: terkejut\",\"conclusion\":\"Correct for 'surprised' in Malaysian Malay; the dictionary also records the sense of being startled or awakened.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut\"],\"evidence_limitation\":\"Dictionary evidence confirms meaning but does not establish comparative frequency.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue 'surprised' and sense 'feeling sudden surprise' align with both answers.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Semantic alignment assessed against standard dictionary meanings.\"},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"different-common-word is acceptable as a preference contrast, not an exclusive distinction; no false-friend contrast is claimed.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut\"],\"evidence_limitation\":\"The card gives no learner-facing explanation that the forms overlap across varieties.\"}]}},{\"candidate_id\":\"common-adjectives-contrast-003\",\"response\":{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Bingung and keliru both express inability to understand or decide clearly. Bingung is characteristic in Indonesian, while keliru is characteristic in Malaysian Malay; bingung is also understood in Malaysian Malay, so the relation is appropriately treated as a common-word preference rather than an exclusive distinction. No false-friend issue is present.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: bingung\",\"conclusion\":\"Correct for 'confused' in Indonesian.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemdikbud.go.id/entri/bingung\"],\"evidence_limitation\":\"Direct KBBI page was inaccessible during review.\"},{\"subject\":\"Malaysian Malay answer: keliru\",\"conclusion\":\"Correct and characteristic for 'confused' in Malaysian Malay.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terkeliru\"],\"evidence_limitation\":\"The available result confirms derived usage but not comparative frequency.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue 'confused' and sense 'unable to understand or decide clearly' align with both answers.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Semantic alignment assessed against standard usage.\"},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"different-common-word is acceptable as a national/common preference contrast, not an exclusive distinction; no false-friend contrast is claimed.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pening%20lalat\"],\"evidence_limitation\":\"Dictionary evidence shows bingung and keliru are synonymous in Malay but does not establish usage frequency.\"}]}}]}",
+  "response": {
+    "results": [
+      {
+        "candidate_id": "common-adjectives-contrast-002",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Correct for 'surprised' in Indonesian, especially colloquial usage.",
+              "evidence_limitation": "Direct KBBI page was inaccessible during review.",
+              "evidence_refs": [
+                "https://kbbi.kemdikbud.go.id/entri/kaget"
+              ],
+              "material_risk": false,
+              "subject": "Indonesian answer: kaget"
+            },
+            {
+              "conclusion": "Correct for 'surprised' in Malaysian Malay; the dictionary also records the sense of being startled or awakened.",
+              "evidence_limitation": "Dictionary evidence confirms meaning but does not establish comparative frequency.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut"
+              ],
+              "material_risk": false,
+              "subject": "Malaysian Malay answer: terkejut"
+            },
+            {
+              "conclusion": "The cue 'surprised' and sense 'feeling sudden surprise' align with both answers.",
+              "evidence_limitation": "Semantic alignment assessed against standard dictionary meanings.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "different-common-word is acceptable as a preference contrast, not an exclusive distinction; no false-friend contrast is claimed.",
+              "evidence_limitation": "The card gives no learner-facing explanation that the forms overlap across varieties.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut"
+              ],
+              "material_risk": false,
+              "subject": "Final relation and false-friend contrast"
+            }
+          ],
+          "finding_class": "none",
+          "rationale": "Both answers accurately express sudden surprise. The relation is valid as a common-word preference: Indonesian commonly uses kaget, while Malaysian Malay commonly uses terkejut, though both forms can occur across varieties. No false-friend issue is present.",
+          "schema_version": 1,
+          "verdict": "cleared"
+        }
+      },
+      {
+        "candidate_id": "common-adjectives-contrast-003",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Correct for 'confused' in Indonesian.",
+              "evidence_limitation": "Direct KBBI page was inaccessible during review.",
+              "evidence_refs": [
+                "https://kbbi.kemdikbud.go.id/entri/bingung"
+              ],
+              "material_risk": false,
+              "subject": "Indonesian answer: bingung"
+            },
+            {
+              "conclusion": "Correct and characteristic for 'confused' in Malaysian Malay.",
+              "evidence_limitation": "The available result confirms derived usage but not comparative frequency.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terkeliru"
+              ],
+              "material_risk": false,
+              "subject": "Malaysian Malay answer: keliru"
+            },
+            {
+              "conclusion": "The cue 'confused' and sense 'unable to understand or decide clearly' align with both answers.",
+              "evidence_limitation": "Semantic alignment assessed against standard usage.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "different-common-word is acceptable as a national/common preference contrast, not an exclusive distinction; no false-friend contrast is claimed.",
+              "evidence_limitation": "Dictionary evidence shows bingung and keliru are synonymous in Malay but does not establish usage frequency.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pening%20lalat"
+              ],
+              "material_risk": false,
+              "subject": "Final relation and false-friend contrast"
+            }
+          ],
+          "finding_class": "none",
+          "rationale": "Bingung and keliru both express inability to understand or decide clearly. Bingung is characteristic in Indonesian, while keliru is characteristic in Malaysian Malay; bingung is also understood in Malaysian Malay, so the relation is appropriately treated as a common-word preference rather than an exclusive distinction. No false-friend issue is present.",
+          "schema_version": 1,
+          "verdict": "cleared"
+        }
+      }
+    ]
+  },
+  "retrievals": null
+}

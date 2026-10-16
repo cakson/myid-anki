@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7577,
+  "input_digest": "6ea34dc49030feb0dc3fbea48fd966b6b32caefb0a2c3a176cfc30ff017711dd",
+  "input_tokens": 55449,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 380,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A service fee is a charge specifically for providing a service, whereas price is the general amount charged for something.\"},{\"other_id\":\"cal2-shopping-001:shopping-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A service fee is a specific charge; payment is the act or amount of paying and is broader.\"},{\"other_id\":\"cal2-shopping-001:shopping-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A service fee is an individual charge for a service, whereas a bill is a request for payment that may include multiple charges.\"},{\"other_id\":\"cal3-technology-001:technology-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A service fee concerns charges for providing a service generally; tuition fee is specifically payment for university study.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-01",
+          "rationale": "A service fee is a charge specifically for providing a service, whereas price is the general amount charged for something.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-06",
+          "rationale": "A service fee is a specific charge; payment is the act or amount of paying and is broader.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-05",
+          "rationale": "A service fee is an individual charge for a service, whereas a bill is a request for payment that may include multiple charges.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-technology-001:technology-10",
+          "rationale": "A service fee concerns charges for providing a service generally; tuition fee is specifically payment for university study.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T13:26:04.105302+00:00",
+  "input_digest": "b3cb06c12efbaf969e2f0682b02edf7150aa61e12788a446bf3b6334f116a4fb",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Indonesian rekening and Malaysian akaun are ordinary terms for a bank account, with a useful national vocabulary contrast.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers fit the exact sense of an account held at a bank; Malay commonly uses akaun in this context, while Indonesian uses rekening.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"No relevant shared synonym was identified that would materially weaken this contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"different-sense-only\", \"form\": \"akun\", \"language\": \"indonesian\", \"rationale\": \"Indonesian akun is common for online or user accounts, but it is not the ordinary preferred term for the bank-account sense here.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers fit the exact sense of an account held at a bank; Malay commonly uses akaun in this context, while Indonesian uses rekening.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "akun",
+        "language": "indonesian",
+        "rationale": "Indonesian akun is common for online or user accounts, but it is not the ordinary preferred term for the bank-account sense here.",
+        "signal": "different-sense-only"
+      },
+      "rationale": "Indonesian rekening and Malaysian akaun are ordinary terms for a bank account, with a useful national vocabulary contrast.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "No relevant shared synonym was identified that would materially weaken this contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the exact sense of an account held at a bank; Malay commonly uses akaun in this context, while Indonesian uses rekening.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "akun",
+      "language": "indonesian",
+      "rationale": "Indonesian akun is common for online or user accounts, but it is not the ordinary preferred term for the bank-account sense here.",
+      "signal": "different-sense-only"
+    },
+    "rationale": "Indonesian rekening and Malaysian akaun are ordinary terms for a bank account, with a useful national vocabulary contrast.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "No relevant shared synonym was identified that would materially weaken this contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "bf5741a11ed6d96fc594bf630ed8419c0fab18b6ce39df690f8de8ad4c4e6da3"
+}

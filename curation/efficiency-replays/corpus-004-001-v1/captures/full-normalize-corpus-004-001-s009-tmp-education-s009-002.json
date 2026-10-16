@@ -1,0 +1,36 @@
+{
+  "candidate_ids": [
+    "tmp-education-s009-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6480,
+  "input_tokens": 30715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 253,
+  "prompt_bytes": 67207,
+  "prompt_sha256": "173e51a8ebf790c98ab0c9e01075466cdd1a39cc3a766469e8f8fefecc86891b",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"school-001:topic-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A textbook is a subject-specific book used for structured study, whereas a book is the broader category of bound reading or study material.\"},{\"other_id\":\"corpus-004-001-s009:tmp-education-s009-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A textbook is instructional content for studying a subject, whereas a notebook is a blank book used for writing notes or schoolwork.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "school-001:topic-04",
+          "rationale": "A textbook is a subject-specific book used for structured study, whereas a book is the broader category of bound reading or study material.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s009:tmp-education-s009-003",
+          "rationale": "A textbook is instructional content for studying a subject, whereas a notebook is a blank book used for writing notes or schoolwork.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

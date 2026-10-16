@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:08.639186+00:00",
+  "result": {
+    "candidate_digest": "bf0df5768bd611b94bc77ae80055b2f7b0938f25ae3a5a27fdedd0e7ad5cb3b9",
+    "candidate_id": "common-adjectives-contrast-005",
+    "checked_at": "2026-10-16T02:10:08.639186+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): “Lucu” correctly expresses amusing in Indonesian, and “lawak” is a valid Malaysian Malay word for something humorous. However, the contrast is not language-exclusive: Indonesian also uses “lawak” for funny/ humorous, while Malaysian Malay also recognizes “lucu” and “kelakar.” Therefore, “different-common-word” overstates the distinction; the card should present these as overlapping alternatives or a contextual preference, not a clean contrast.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

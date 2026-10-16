@@ -1,0 +1,72 @@
+{
+  "attempt_id": "9c6a7dab6ede8571",
+  "candidate_id": "tmp-emotions-s010-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate common Indonesian term for being annoyed, displeased, or fed up.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kesal",
+        "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kesal"
+    },
+    {
+      "conclusion": "Acceptable Malaysian term for being bothered or disturbed by a person or situation; it also has a practical-disruption sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ganggu",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=terganggu"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: terganggu"
+    },
+    {
+      "conclusion": "The corrected cue, “bothered by an unpleasant situation or person,” aligns better with both answers than the broader “irritated.”",
+      "evidence_refs": [
+        "https://api.pageplace.de/preview/DT0400.9781000251845_A40102783/preview-9781000251845_A40102783.pdf",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=terganggu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is a valid relation: the Indonesian and Malaysian entries are distinct everyday forms with overlapping annoyance-related senses.",
+      "evidence_limitation": "The cited dictionary evidence establishes the individual senses; the relation judgment is an independent comparative assessment.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present. The polysemy of terganggu is a usage caveat, not a false friend.",
+      "evidence_limitation": "No dedicated false-friend source was necessary for this judgment.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "97276ecc6d52a8725533f76885efe11c5b6c7aeb4fb1f6ef0adefa83af3d12c4",
+  "correction_refs": [],
+  "decision_digest": "d77027b7d45717a37d370d12bb5519ed7c4dd94d54caa3779b080f0c75bc9a1f",
+  "elapsed_ms": 14575,
+  "finding_class": "none",
+  "input_tokens": 29367,
+  "model_calls": 1,
+  "output_tokens": 965,
+  "packet_digest": "c96f0555546c65d64f9a39717699935ee3527e88c940c1eb0c81e9630fcccc06",
+  "rationale": "Both answers are defensible for the corrected cue. Indonesian kesal directly expresses annoyance, while Malaysian terganggu means bothered or disturbed and fits an unpleasant situation or person, though it can also denote practical disruption. The different-common-word relation is accurate. No false-friend contrast is required or supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:59:51.315897+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s010/tmp-emotions-s010-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-001-s010",
+  "verdict": "cleared"
+}

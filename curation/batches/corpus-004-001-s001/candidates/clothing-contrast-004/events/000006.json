@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-16T01:24:24.405726+00:00",
+  "input_digest": "9bbe77bc8d1f1597c3ba17525e3b2772c235e686ca6ef674f383c1261619f643",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The cue denotes the broad underwear category, while Malaysian seluar dalam most directly denotes underpants.\"], \"material_concerns\": [\"Category\\u2013subtype mismatch may misteach learners because Indonesian pakaian dalam covers underwear generally, whereas Malaysian seluar dalam commonly specifies underpants.\"], \"rationale\": \"The proposed forms are credible everyday terms, but they do not reliably express the same exact sense: pakaian dalam is a broad category, while seluar dalam commonly refers to underpants.\", \"objection_assessments\": [], \"affirmative_defect\": \"category-subtype-mismatch\", \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"A concise cue rewrite cannot make both proposed answers fit the same exact sense: narrowing to underpants would make Indonesian pakaian dalam too broad, while keeping underwear makes Malaysian seluar dalam potentially too narrow.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Malaysian also uses pakaian dalam for the broad underwear category, so the proposed national contrast is not reliable for this cue; seluar dalam remains common for underpants.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"pakaian dalam\", \"language\": \"malaysian\", \"rationale\": \"Pakaian dalam is also a plausible Malaysian term for the same broad underwear sense, weakening the claimed preference for seluar dalam.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "category-subtype-mismatch",
+      "concerns": [
+        "The cue denotes the broad underwear category, while Malaysian seluar dalam most directly denotes underpants."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "A concise cue rewrite cannot make both proposed answers fit the same exact sense: narrowing to underpants would make Indonesian pakaian dalam too broad, while keeping underwear makes Malaysian seluar dalam potentially too narrow.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "Category–subtype mismatch may misteach learners because Indonesian pakaian dalam covers underwear generally, whereas Malaysian seluar dalam commonly specifies underpants."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "pakaian dalam",
+        "language": "malaysian",
+        "rationale": "Pakaian dalam is also a plausible Malaysian term for the same broad underwear sense, weakening the claimed preference for seluar dalam.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "The proposed forms are credible everyday terms, but they do not reliably express the same exact sense: pakaian dalam is a broad category, while seluar dalam commonly refers to underpants.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Malaysian also uses pakaian dalam for the broad underwear category, so the proposed national contrast is not reliable for this cue; seluar dalam remains common for underpants.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "category-subtype-mismatch",
+    "concerns": [
+      "The cue denotes the broad underwear category, while Malaysian seluar dalam most directly denotes underpants."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "A concise cue rewrite cannot make both proposed answers fit the same exact sense: narrowing to underpants would make Indonesian pakaian dalam too broad, while keeping underwear makes Malaysian seluar dalam potentially too narrow.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "Category–subtype mismatch may misteach learners because Indonesian pakaian dalam covers underwear generally, whereas Malaysian seluar dalam commonly specifies underpants."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "pakaian dalam",
+      "language": "malaysian",
+      "rationale": "Pakaian dalam is also a plausible Malaysian term for the same broad underwear sense, weakening the claimed preference for seluar dalam.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "The proposed forms are credible everyday terms, but they do not reliably express the same exact sense: pakaian dalam is a broad category, while seluar dalam commonly refers to underpants.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Malaysian also uses pakaian dalam for the broad underwear category, so the proposed national contrast is not reliable for this cue; seluar dalam remains common for underpants.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "bcb057c690d86c6c0e273a3dc2c118c6557a1674f01a1cc315f1bb324ab03515"
+}

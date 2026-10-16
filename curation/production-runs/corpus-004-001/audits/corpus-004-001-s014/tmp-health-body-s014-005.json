@@ -1,0 +1,71 @@
+{
+  "attempt_id": "c19bb8948b6e7bd4",
+  "candidate_id": "tmp-health-body-s014-005",
+  "claim_reviews": [
+    {
+      "conclusion": "“Pupil of the eye” correctly cues the dark central opening in the iris.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=anak+mata",
+        "https://kbbi.web.id/pupil"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Pupil” is a valid Indonesian term for the eye’s pupil.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pupil"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Anak mata” is a valid and well-established Malaysian Malay term for the pupil.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=anak+mata",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pupil"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable as a learner-oriented default usage contrast, but should not imply that Malaysian Malay never uses “pupil.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pupil"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is required; the forms refer to the intended anatomical sense.",
+      "evidence_limitation": "No dedicated false-friend source was necessary because the cited dictionary entries directly establish the relevant senses.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "7c540fc0bc87b1528ed368de7ee89eb2e260e03d7cd0f1c1b737d0b19d46271a",
+  "correction_refs": [],
+  "decision_digest": "71edc57d027c8aef575f232bd56e2dddf289a97a18ea4982eb1fce1b1e517114",
+  "elapsed_ms": 20210,
+  "finding_class": "none",
+  "input_tokens": 49431,
+  "model_calls": 1,
+  "output_tokens": 1137,
+  "packet_digest": "044d58c4fa3e2ac9d81bff3edb087bebeb319896e484299164555d516b4e9bf3",
+  "rationale": "Both answers identify the same anatomical sense. Indonesian uses “pupil,” while Malaysian Malay uses “anak mata”; “pupil” is also attested in Malaysian Malay, so the relation is a useful default-term contrast rather than an absolute language divide. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:05:22.862068+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s014/tmp-health-body-s014-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s014",
+  "verdict": "cleared"
+}

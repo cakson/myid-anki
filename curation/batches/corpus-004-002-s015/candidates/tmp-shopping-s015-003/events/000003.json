@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:32:57.059904+00:00",
+  "input_digest": "04284ae2121c36f2a5f8136870c2e0de6024c3aa0d2da66a1cd0d3199d823bb9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s003:tmp-common-verbs-s003-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Online shopping is shopping conducted through the internet, while \\u201cto shop\\u201d is the general activity without an online-channel restriction; the Indonesian and Malaysian answers also differ.\"}, {\"other_id\": \"places-001:places-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cShop\\u201d denotes a retail place, whereas \\u201conline shopping\\u201d denotes purchasing through the internet; the senses and both answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s003:tmp-common-verbs-s003-001",
+          "rationale": "Online shopping is shopping conducted through the internet, while “to shop” is the general activity without an online-channel restriction; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "places-001:places-02",
+          "rationale": "“Shop” denotes a retail place, whereas “online shopping” denotes purchasing through the internet; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s003:tmp-common-verbs-s003-001",
+        "rationale": "Online shopping is shopping conducted through the internet, while “to shop” is the general activity without an online-channel restriction; the Indonesian and Malaysian answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "places-001:places-02",
+        "rationale": "“Shop” denotes a retail place, whereas “online shopping” denotes purchasing through the internet; the senses and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "859c9e59fadeeec057bc0ed757fc3476b68db186ed96278a5f88105ebfc4ad16"
+}

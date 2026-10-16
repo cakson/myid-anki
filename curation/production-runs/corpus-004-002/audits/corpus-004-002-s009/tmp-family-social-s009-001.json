@@ -1,0 +1,71 @@
+{
+  "attempt_id": "d34dae476630f81a",
+  "candidate_id": "tmp-family-social-s009-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct Indonesian term for wife.",
+      "evidence_refs": [
+        "https://kbbi.web.id/istri"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer “istri”"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for wife; PRPM defines it as a woman who is a life partner or a married woman.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=Isteri"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer “isteri”"
+    },
+    {
+      "conclusion": "“Wife” matches the sense “a married woman in relation to her spouse.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/istri",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=Isteri"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable because Indonesian standard spelling is “istri” while Malaysian standard spelling is “isteri,” despite their shared meaning and origin.",
+      "evidence_refs": [
+        "https://kbbi.web.id/istri",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=Isteri"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No contrast is required; “istri” and “isteri” are not false friends.",
+      "evidence_limitation": "No dedicated false-friend source was necessary because both dictionary definitions directly establish the shared sense.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "05ac4b8847dc70cf6b3ae8e84bdbcfa19a8563ffa3ac77956bb35fa13b44a361",
+  "correction_refs": [],
+  "decision_digest": "71da73c499b7da8f3af52a0946bb96794485aa1585ec1d17dc7fe7d6dba5ac15",
+  "elapsed_ms": 25990,
+  "finding_class": "none",
+  "input_tokens": 49264,
+  "model_calls": 1,
+  "output_tokens": 1192,
+  "packet_digest": "e0bf9d90f0e82434b49f25ccb23d99df5db1f2e6c829b29d629bf3af9b0f1282",
+  "rationale": "Both forms are correct standard national variants for “wife,” the English cue and sense align, and the different-common-word relation is acceptable for learner-facing contrast. No false-friend contrast is needed because the forms share the same meaning.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:46:09.853890+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s009/tmp-family-social-s009-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s009",
+  "verdict": "cleared"
+}

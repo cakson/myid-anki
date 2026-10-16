@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T01:32:44.041745+00:00",
+  "input_digest": "d245d2396fd38bcec3f39fa201f1e670e6bf34fca09feeb7c4c440c6370de14f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Excited means eager and enthusiastic about something, whereas nervous means anxious before or during an event; the English cues and both translations differ.\"}, {\"other_id\": \"pros4-health-001:health-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Excited is eager enthusiasm about an anticipated event, whereas happy is general pleasure or joy; the cues and both translations differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+          "rationale": "Excited means eager and enthusiastic about something, whereas nervous means anxious before or during an event; the English cues and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-health-001:health-08",
+          "rationale": "Excited is eager enthusiasm about an anticipated event, whereas happy is general pleasure or joy; the cues and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+        "rationale": "Excited means eager and enthusiastic about something, whereas nervous means anxious before or during an event; the English cues and both translations differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "pros4-health-001:health-08",
+        "rationale": "Excited is eager enthusiasm about an anticipated event, whereas happy is general pleasure or joy; the cues and both translations differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "3f49920afd72ce04c9fd1f4d54d87a0c6f7aa5ac79b382dd8cf0ba1c29b9ff7d"
+}

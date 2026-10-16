@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-communication-s004-004"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7398,
+  "input_tokens": 30718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 179,
+  "prompt_bytes": 67215,
+  "prompt_sha256": "9e9accf2450af97b53ae2716e1c5a31f83d30fd1332c741f8ccaeb315e05e714",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s004:tmp-communication-s004-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A sentence is a grammatical unit of language, whereas a word is a single lexical unit; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-003",
+          "rationale": "A sentence is a grammatical unit of language, whereas a word is a single lexical unit; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

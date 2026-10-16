@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-services-s016-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6258,
+  "input_tokens": 30720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 203,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "12725994f0ec6fe978d24857f01639bc782033cca26ab37451239fe791072f32",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s004:tmp-communication-s004-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is the noun “complaint,” an expression of dissatisfaction, with answers “keluhan” and “aduan”; the archived item is the verb “complain,” meaning to express dissatisfaction, with answers “mengeluh” and “merungut.” The grammatical category and both translations differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-006",
+          "rationale": "The candidate is the noun “complaint,” an expression of dissatisfaction, with answers “keluhan” and “aduan”; the archived item is the verb “complain,” meaning to express dissatisfaction, with answers “mengeluh” and “merungut.” The grammatical category and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

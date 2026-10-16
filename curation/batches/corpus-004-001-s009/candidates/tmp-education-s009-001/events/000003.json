@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:31:59.249027+00:00",
+  "input_digest": "dece527145e168d03af2f36abb13bad72f851d35990814096846700eb257be13",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"school-001:topic-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Kindergarten is a specific school for young children before primary school, distinct from the general concept of a school.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "school-001:topic-01",
+          "rationale": "Kindergarten is a specific school for young children before primary school, distinct from the general concept of a school.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "school-001:topic-01",
+        "rationale": "Kindergarten is a specific school for young children before primary school, distinct from the general concept of a school.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "0c30354c08613b3b6d6eaf0a8b989c6ec341f8782759e769118a463717d91b96"
+}

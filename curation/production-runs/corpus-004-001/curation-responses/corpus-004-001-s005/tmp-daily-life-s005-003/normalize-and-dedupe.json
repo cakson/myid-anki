@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7259,
+  "input_digest": "3a6887e4bfe81340e8a736476d19355c9050e59b41b94e5136e1757f9ce502de",
+  "input_tokens": 45011,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 178,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s001:clothing-contrast-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A diaper is an absorbent garment for a baby, whereas underwear is clothing worn under outer clothes; the senses and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-004",
+          "rationale": "A diaper is an absorbent garment for a baby, whereas underwear is clothing worn under outer clothes; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

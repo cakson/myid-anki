@@ -1,0 +1,72 @@
+{
+  "attempt_id": "c270d986880adb98",
+  "candidate_id": "tmp-directions-location-s006-005",
+  "claim_reviews": [
+    {
+      "conclusion": "dead end correctly denotes a road closed at one end or without through passage.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/dead-end"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and standard for a dead-end road or cul-de-sac in Indonesian.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/jalan-buntu",
+        "https://id.wiktionary.org/wiki/jalan_buntu"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: jalan buntu"
+    },
+    {
+      "conclusion": "Correct for Malaysian Malay in the stated road sense; authoritative Malay dictionary material lists it for dead end and cul-de-sac contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jalan+mati",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/dead-end"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: jalan mati"
+    },
+    {
+      "conclusion": "different-common-word is appropriate as a learner-oriented variety contrast, though jalan buntu is also attested in Malaysian Malay with related meanings.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/dead-end",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jalan+mati"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed: both compounds transparently refer to a dead-end road, with variation in preferred wording by variety.",
+      "evidence_limitation": "The reviewed sources establish meanings and attestations but do not provide a corpus-based frequency comparison between the varieties.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "50ae9bc0f9bc58a6ef4aa042ef5fe2a7229978a77b488f019e2216ff31be995b",
+  "correction_refs": [],
+  "decision_digest": "463feed9fddee8a820c14eab6b3526f515d40ff1c9616c62d7a5fafa359cbab9",
+  "elapsed_ms": 17139,
+  "finding_class": "none",
+  "input_tokens": 32853,
+  "model_calls": 1,
+  "output_tokens": 1104,
+  "packet_digest": "203b0a488f065c3fa2ffcd7ab945b867ad0ecb5e1d84eb974b5810ebc7a9fd35",
+  "rationale": "Both answers are valid for the stated literal sense. Indonesian jalan buntu means a road with no continuation, while Malaysian jalan mati is an established equivalent for dead end. The different-common-word relation is justified; no false-friend contrast is required because the forms are synonymous rather than deceptively different.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:44:30.495539+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s006/tmp-directions-location-s006-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s006",
+  "verdict": "cleared"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:34:03.152233+00:00",
+  "input_digest": "287c3030c77571dfd58f5458f5ad4f0feab934e7de3603e14c85c170d923de4c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s016:tmp-technology-s016-004\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"The candidate's 'connection' sense may overlap with the existing connection concept, but its primary clickable-web-address sense is distinct and the supplied answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+          "rationale": "The candidate's 'connection' sense may overlap with the existing connection concept, but its primary clickable-web-address sense is distinct and the supplied answers differ.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+        "rationale": "The candidate's 'connection' sense may overlap with the existing connection concept, but its primary clickable-web-address sense is distinct and the supplied answers differ.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6997314ebb85017663acfb1872a3bde35c476a74d92ff75077d66b15301466fe"
+}

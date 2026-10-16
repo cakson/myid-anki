@@ -1,0 +1,75 @@
+{
+  "attempt_id": "a8527d6619c6be5f",
+  "candidate_id": "tmp-technology-s016-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for device or application settings in Indonesian.",
+      "evidence_refs": [
+        "https://support.apple.com/id-id/126643",
+        "https://support.google.com/android/answer/9083864?hl=id"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian: pengaturan"
+    },
+    {
+      "conclusion": "Correct and established for device or application settings in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=setting",
+        "https://www-support-downloads.sonymobile.com/f5121/userguide_MS-F5121-F5122-Android8.0.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian: tetapan"
+    },
+    {
+      "conclusion": "“Device/app settings” accurately narrows “settings” to configurable options in a device or application.",
+      "evidence_refs": [
+        "https://support.apple.com/id-id/126643",
+        "https://www-support-downloads.sonymobile.com/f5121/userguide_MS-F5121-F5122-Android8.0.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is justified: pengaturan and tetapan are the ordinary localized choices associated with Indonesian and Malaysian usage, respectively.",
+      "evidence_refs": [
+        "https://support.apple.com/id-id/126643",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=setting"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No learner-critical false-friend contrast is required. English “setting” may occur informally in both varieties, but that is a borrowing or register alternative, not evidence that either localized answer has a conflicting sense.",
+      "evidence_limitation": "Direct comparative corpus evidence for informal English borrowing frequency in both varieties was not located.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "f6735fdb603e3df7a0a8e8f6af8ad9122b29a49d4f109ca92dfc52c931f24a2e",
+  "correction_refs": [],
+  "decision_digest": "52fbc0b33bfd352beadf9245a5ba2ad69b06e5a7b37d56347b6d95d7a4bc70c8",
+  "elapsed_ms": 14722,
+  "finding_class": "none",
+  "input_tokens": 29282,
+  "model_calls": 1,
+  "output_tokens": 830,
+  "packet_digest": "8c32994b2b94948e4537ae4625572ce6eedaf91b9d50a162ff4f7dfb66a86ddb",
+  "rationale": "Both localized terms are valid and appropriately contrast common Indonesian and Malaysian usage for device or application settings. The narrowed English cue matches the sense. No material false-friend issue was found; informal use of English “setting” does not invalidate the localized distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:52:42.069715+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s016/tmp-technology-s016-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s016",
+  "verdict": "cleared"
+}

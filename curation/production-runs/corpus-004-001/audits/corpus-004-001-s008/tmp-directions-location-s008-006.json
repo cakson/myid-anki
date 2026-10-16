@@ -1,0 +1,71 @@
+{
+  "attempt_id": "91de6263c6cf3c06",
+  "candidate_id": "tmp-directions-location-s008-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and natural for ‘route’ or a way traveled between places in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/rute"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: rute"
+    },
+    {
+      "conclusion": "Correct in Malaysian Malay for a way, passage, or route used for movement or transport.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=laluan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: laluan"
+    },
+    {
+      "conclusion": "The cue ‘route’ and sense ‘way from one place to another’ align with both proposed answers.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/rute",
+        "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=laluan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Appropriate: rute and laluan are different commonly usable terms, with laluan broader toward passage/pathway meanings.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/rute",
+        "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=laluan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No material false-friend contrast is needed; neither answer has a misleading divergent meaning for this cue.",
+      "evidence_limitation": "No dedicated false-friend source was necessary because the dictionary senses directly support the intended meaning.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "9e34225b694407c7fa11393e72b38c52f4ff2c5768363efd44f470dbd1ed219c",
+  "correction_refs": [],
+  "decision_digest": "dd2d9425b7cc923c321bb629006b8f7c978999dbcf4056aea19e665c84c1ba4e",
+  "elapsed_ms": 23058,
+  "finding_class": "none",
+  "input_tokens": 73102,
+  "model_calls": 1,
+  "output_tokens": 1046,
+  "packet_digest": "0ff28c617310b840f7ee81b00869ebb834fbb7a490a1ebea3ba8315b188749c0",
+  "rationale": "Both answers fit the cue and sense. Indonesian rute directly means a route or road traveled, while Malaysian Malay laluan means a way, passage, or route used by people or transport. The relation different-common-word is appropriate as a variety-preference distinction. No material false-friend contrast is present or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:57:26.422744+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s008/tmp-directions-location-s008-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s008",
+  "verdict": "cleared"
+}

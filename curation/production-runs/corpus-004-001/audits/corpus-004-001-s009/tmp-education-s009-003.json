@@ -1,0 +1,78 @@
+{
+  "attempt_id": "390ccfdb04518df5",
+  "candidate_id": "tmp-education-s009-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for a blank writing or school notebook in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/notes",
+        "https://kbbi.web.id/tulis"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: buku tulis"
+    },
+    {
+      "conclusion": "Correct and attested for notebook in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=buku+nota",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=buku+nota"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: buku nota"
+    },
+    {
+      "conclusion": "The corrected cue appropriately narrows notebook to a blank book used for notes or schoolwork.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/notes",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=buku+catatan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is acceptable as a preference contrast, provided it is not interpreted as an exclusive dialect distinction.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=buku+catatan",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=buku+nota"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; buku nota and buku tulis retain the intended notebook sense.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/notes",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=buku+nota"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "6c6b27d3654c29006fd248dc0d690d24504ba0f113b7bbf20c90f49bce0f69c4",
+  "correction_refs": [],
+  "decision_digest": "99c24419a8569516e2dbd59630f59ae679237f39117fca82a1daaa253e389436",
+  "elapsed_ms": 18819,
+  "finding_class": "none",
+  "input_tokens": 51427,
+  "model_calls": 1,
+  "output_tokens": 1094,
+  "packet_digest": "9009c68c0ed15a6fcad6bb75036f0a85951a26b2fd725497993e2b912eb96120",
+  "rationale": "Both answers are credible for the narrowed sense. Buku tulis is ordinary Indonesian usage, while buku nota is attested Malaysian Malay usage. The forms are not exclusive dialect markers, but the stated preference relation is acceptable. No false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:58:05.132038+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s009/tmp-education-s009-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-001-s009",
+  "verdict": "cleared"
+}

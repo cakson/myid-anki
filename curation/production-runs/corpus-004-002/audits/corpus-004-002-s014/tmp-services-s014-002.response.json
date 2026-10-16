@@ -1,0 +1,46 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 14722,
+  "input_tokens": 28919,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 735,
+  "packet_digest": "b40d9b101ed054b58c7c6ee31abdc8e8f1e7410531b982379271dca2cc804a4a",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are accurate and natural for the stated service-order sense. Indonesian commonly uses “nomor antrean,” while Malaysian Malay uses “nombor giliran.” The forms are different common words, not false friends; “giliran” is broader and can mean a turn generally, but is valid here.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: nomor antrean\",\"conclusion\":\"Accurate and idiomatic for a number assigned in a service queue.\",\"material_risk\":false,\"evidence_refs\":[\"https://tulangbawangkab.go.id/berita/praktis-dan-cepat-ini-cara-daftar-antrean-di-puskesmas-mobile-jkn\",\"https://giliran.id/queue\"]},{\"subject\":\"Malaysian answer: nombor giliran\",\"conclusion\":\"Accurate and established Malaysian Malay wording for a queue or service-order number.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=254640&keyword=nombor\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=giliran\"]},{\"subject\":\"English cue, sense, relation, and contrast\",\"conclusion\":\"The cue and sense align with both answers; different-common-word is the correct relation. No false-friend contrast is required, though giliran has a broader general-turn sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=254640&keyword=nombor\",\"https://tulangbawangkab.go.id/berita/praktis-dan-cepat-ini-cara-daftar-antrean-di-puskesmas-mobile-jkn\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate and idiomatic for a number assigned in a service queue.",
+        "evidence_refs": [
+          "https://tulangbawangkab.go.id/berita/praktis-dan-cepat-ini-cara-daftar-antrean-di-puskesmas-mobile-jkn",
+          "https://giliran.id/queue"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: nomor antrean"
+      },
+      {
+        "conclusion": "Accurate and established Malaysian Malay wording for a queue or service-order number.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=nombor",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=giliran"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: nombor giliran"
+      },
+      {
+        "conclusion": "The cue and sense align with both answers; different-common-word is the correct relation. No false-friend contrast is required, though giliran has a broader general-turn sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=nombor",
+          "https://tulangbawangkab.go.id/berita/praktis-dan-cepat-ini-cara-daftar-antrean-di-puskesmas-mobile-jkn"
+        ],
+        "material_risk": false,
+        "subject": "English cue, sense, relation, and contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are accurate and natural for the stated service-order sense. Indonesian commonly uses “nomor antrean,” while Malaysian Malay uses “nombor giliran.” The forms are different common words, not false friends; “giliran” is broader and can mean a turn generally, but is valid here.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,75 @@
+{
+  "attempt_id": "dbc69f1164926d8e",
+  "candidate_id": "tmp-family-social-s009-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct Indonesian form meaning to marry or enter marriage.",
+      "evidence_refs": [
+        "https://kbbi.web.id/menikah",
+        "https://kbbi.web.id/nikah"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: menikah"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay form meaning to marry, be married, or enter marriage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=berkahwin"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: berkahwin"
+    },
+    {
+      "conclusion": "“To marry” and “to enter into marriage” align with both learner answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=berkahwin",
+        "https://kbbi.web.id/menikah"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a preference-based Indonesian–Malaysian Malay contrast, though not implying that menikah is unavailable in Malaysian Malay or berkahwin unavailable in Indonesian.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=nikah",
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kahwin"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present. Kawin/kahwin are related alternatives and can have broader or colloquial sexual senses, but this does not invalidate menikah versus berkahwin for the stated cue.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kawin",
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kahwin"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast and alternatives"
+    }
+  ],
+  "content_digest": "6d063adf6643fd4e434c22842ab970b210ef525b801a107a925390c916dd679f",
+  "correction_refs": [],
+  "decision_digest": "4b1704cf18fe72b68e3b40aa58d7b3fcf6902eebfcafe7ba78dc0c7e5f5dfc46",
+  "elapsed_ms": 20866,
+  "finding_class": "none",
+  "input_tokens": 60107,
+  "model_calls": 1,
+  "output_tokens": 1198,
+  "packet_digest": "07897d7635d5233b6981b398be5241a8a0850b10cb807e9fe53d209249cf4596",
+  "rationale": "Both answers accurately express “to marry” / “to enter into marriage.” Indonesian menikah and Malaysian berkahwin are valid standard forms. The relation is a useful variety-based lexical preference, not an absolute exclusivity claim. Kawin/kahwin are common related alternatives, but they do not create a false-friend contrast between these two entries.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:47:05.661720+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s009/tmp-family-social-s009-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s009",
+  "verdict": "cleared"
+}

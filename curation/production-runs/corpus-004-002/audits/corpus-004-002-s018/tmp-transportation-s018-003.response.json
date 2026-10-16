@@ -1,0 +1,53 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17776,
+  "input_tokens": 51557,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 991,
+  "packet_digest": "0009feceb62c785f135bdcf02f2b947a5c356bb539e7f47eed735878db4e8bf2",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers accurately express “bus fare.” Indonesian “ongkos bus” is idiomatic and valid, with “tarif bus” as a plausible formal alternative. Malaysian “tambang bas” is the standard Malay form. The contrast is materially useful; no false-friend issue affects the card.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Bus fare” correctly means money paid to ride a bus.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tambang+I\"]},{\"subject\":\"Indonesian answer: ongkos bus\",\"conclusion\":\"Valid Indonesian; “ongkos” means cost, payment, or fare, and “bus” is the standard Indonesian spelling.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemdikbud.go.id/entri/bus\",\"https://baru.kbbi.co.id/arti-kata/ongkos\"]},{\"subject\":\"Malaysian answer: tambang bas\",\"conclusion\":\"Valid Malaysian Malay; “tambang” means money paid for transport, and “bas” is the Malay form for bus.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tambang\",\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tambang+I\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"“Different-common-word” is appropriate. The spelling difference bus/bas is regular Indonesian–Malaysian variation, not a false friend; no learner-critical false-friend contrast is present.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tambang+I\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Bus fare” correctly means money paid to ride a bus.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tambang+I"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid Indonesian; “ongkos” means cost, payment, or fare, and “bus” is the standard Indonesian spelling.",
+        "evidence_refs": [
+          "https://kbbi.kemdikbud.go.id/entri/bus",
+          "https://baru.kbbi.co.id/arti-kata/ongkos"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: ongkos bus"
+      },
+      {
+        "conclusion": "Valid Malaysian Malay; “tambang” means money paid for transport, and “bas” is the Malay form for bus.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tambang",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tambang+I"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: tambang bas"
+      },
+      {
+        "conclusion": "“Different-common-word” is appropriate. The spelling difference bus/bas is regular Indonesian–Malaysian variation, not a false friend; no learner-critical false-friend contrast is present.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tambang+I"
+        ],
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers accurately express “bus fare.” Indonesian “ongkos bus” is idiomatic and valid, with “tarif bus” as a plausible formal alternative. Malaysian “tambang bas” is the standard Malay form. The contrast is materially useful; no false-friend issue affects the card.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

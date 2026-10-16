@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4964,
+  "input_digest": "d1dd05f16269ddd2621227650652f9b571af69dda8578b30f5fc7438197bae74",
+  "input_tokens": 45003,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 165,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s016:tmp-services-s016-003\",\"type\":\"morphology\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is the verb \\\"complain\\\" meaning to express dissatisfaction, while the existing concept is the noun \\\"complaint\\\" meaning an expression of dissatisfaction with a service; their parts of speech and senses are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s016:tmp-services-s016-003",
+          "rationale": "The candidate is the verb \"complain\" meaning to express dissatisfaction, while the existing concept is the noun \"complaint\" meaning an expression of dissatisfaction with a service; their parts of speech and senses are distinct.",
+          "resolution": "distinct",
+          "type": "morphology"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

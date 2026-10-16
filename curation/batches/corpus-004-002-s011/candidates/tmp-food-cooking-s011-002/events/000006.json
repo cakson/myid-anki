@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T13:27:29.381203+00:00",
+  "input_digest": "c4524a027493fef827055ce230e4dafe6906120bdf01fe52dde7f8cc69dd1b44",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"Indonesian kecambah is a broad term for a germinating sprout, while the ordinary culinary term for bean sprouts is tauge/tauge.\"], \"material_concerns\": [\"The pair may misteach kecambah as Indonesia's normal food term for bean sprouts; tauge is the more precise everyday Indonesian counterpart to Malaysian taugeh.\"], \"rationale\": \"Malaysian taugeh clearly denotes bean sprouts used in cooking. Indonesian kecambah can refer to sprouts, but is broader and less specifically the ordinary culinary label, so the proposed contrast is materially unreliable.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The exact cue bean sprouts fits Malaysian taugeh, but Indonesian kecambah is not a reliably equivalent culinary term; broadening the cue to sprouts would make taugeh too specific.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"The Indonesian culinary alternative tauge is the same-sense counterpart to Malaysian taugeh, weakening the claimed kecambah\\u2013taugeh contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"tauge\", \"language\": \"indonesian\", \"rationale\": \"Tauge is a plausible ordinary Indonesian culinary term for bean sprouts and competes directly with kecambah for this cue.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Indonesian kecambah is a broad term for a germinating sprout, while the ordinary culinary term for bean sprouts is tauge/tauge."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The exact cue bean sprouts fits Malaysian taugeh, but Indonesian kecambah is not a reliably equivalent culinary term; broadening the cue to sprouts would make taugeh too specific.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair may misteach kecambah as Indonesia's normal food term for bean sprouts; tauge is the more precise everyday Indonesian counterpart to Malaysian taugeh."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "tauge",
+        "language": "indonesian",
+        "rationale": "Tauge is a plausible ordinary Indonesian culinary term for bean sprouts and competes directly with kecambah for this cue.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Malaysian taugeh clearly denotes bean sprouts used in cooking. Indonesian kecambah can refer to sprouts, but is broader and less specifically the ordinary culinary label, so the proposed contrast is materially unreliable.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "The Indonesian culinary alternative tauge is the same-sense counterpart to Malaysian taugeh, weakening the claimed kecambah–taugeh contrast.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Indonesian kecambah is a broad term for a germinating sprout, while the ordinary culinary term for bean sprouts is tauge/tauge."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The exact cue bean sprouts fits Malaysian taugeh, but Indonesian kecambah is not a reliably equivalent culinary term; broadening the cue to sprouts would make taugeh too specific.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair may misteach kecambah as Indonesia's normal food term for bean sprouts; tauge is the more precise everyday Indonesian counterpart to Malaysian taugeh."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "tauge",
+      "language": "indonesian",
+      "rationale": "Tauge is a plausible ordinary Indonesian culinary term for bean sprouts and competes directly with kecambah for this cue.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Malaysian taugeh clearly denotes bean sprouts used in cooking. Indonesian kecambah can refer to sprouts, but is broader and less specifically the ordinary culinary label, so the proposed contrast is materially unreliable.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "The Indonesian culinary alternative tauge is the same-sense counterpart to Malaysian taugeh, weakening the claimed kecambah–taugeh contrast.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "cd5122e83b36be94dd352915d4709093c27edac0c48bba3e51be21381f32ef55"
+}

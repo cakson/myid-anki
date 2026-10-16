@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T13:25:49.679353+00:00",
+  "input_digest": "8f94c4d42a82bee8461d80afd1c3b0d44c7c91b1ee36b052c90eda2c50152747",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Indonesian janda and Malaysian balu are ordinary terms for a woman whose spouse has died, though janda also commonly refers to a divorced woman in Indonesian.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"woman whose husband has died\", \"cue_rationale\": \"The bare cue \\u201cwidow\\u201d is potentially ambiguous because Indonesian janda also commonly means divorced woman; the narrowed phrase identifies the intended shared sense.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"Balu exists in Indonesian but is less everyday/formal, while Malaysian janda commonly points to divorce rather than this widow sense; these alternatives do not defeat the proposed contrast.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Indonesian janda has an additional common divorcee sense that learners may need to distinguish.\", \"preference_risk\": {\"signal\": \"regional-or-register-competition\", \"form\": \"janda\", \"language\": \"indonesian\", \"rationale\": \"In Indonesian, janda is everyday but can refer either to a widow or a divorcee, creating a same-form sense distinction.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The bare cue “widow” is potentially ambiguous because Indonesian janda also commonly means divorced woman; the narrowed phrase identifies the intended shared sense.",
+      "cue_rewrite": "woman whose husband has died",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "janda",
+        "language": "indonesian",
+        "rationale": "In Indonesian, janda is everyday but can refer either to a widow or a divorcee, creating a same-form sense distinction.",
+        "signal": "regional-or-register-competition"
+      },
+      "rationale": "Indonesian janda and Malaysian balu are ordinary terms for a woman whose spouse has died, though janda also commonly refers to a divorced woman in Indonesian.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian janda has an additional common divorcee sense that learners may need to distinguish.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "Balu exists in Indonesian but is less everyday/formal, while Malaysian janda commonly points to divorce rather than this widow sense; these alternatives do not defeat the proposed contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The bare cue “widow” is potentially ambiguous because Indonesian janda also commonly means divorced woman; the narrowed phrase identifies the intended shared sense.",
+    "cue_rewrite": "woman whose husband has died",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "janda",
+      "language": "indonesian",
+      "rationale": "In Indonesian, janda is everyday but can refer either to a widow or a divorcee, creating a same-form sense distinction.",
+      "signal": "regional-or-register-competition"
+    },
+    "rationale": "Indonesian janda and Malaysian balu are ordinary terms for a woman whose spouse has died, though janda also commonly refers to a divorced woman in Indonesian.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian janda has an additional common divorcee sense that learners may need to distinguish.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Balu exists in Indonesian but is less everyday/formal, while Malaysian janda commonly points to divorce rather than this widow sense; these alternatives do not defeat the proposed contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "824530a47952cd0d06b0020015f7e76d54207bf3788b7386f54f2782a4ef9adc"
+}

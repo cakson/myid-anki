@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T13:15:51.137514+00:00",
+  "input_digest": "8a7af1f4a91bf23734fe3862f8885779464aa889f9021518db6f809bf46e5520",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian answer is formal and less natural for everyday usage than common alternatives such as \\u201cparkir/parking\\u201d or \\u201cmeletak kereta\\u201d.\"], \"material_concerns\": [\"The proposed contrast may mislead learners into treating \\u201cmeletakkan kenderaan\\u201d as the ordinary Malaysian equivalent, despite substantial everyday competition from \\u201cparkir/parking\\u201d and \\u201cmeletak kereta\\u201d.\"], \"rationale\": \"The sense is aligned, and \\u201cmemarkir\\u201d is ordinary Indonesian. However, \\u201cmeletakkan kenderaan\\u201d is a formal descriptive phrase rather than a reliably preferred everyday Malaysian counterpart, so the national contrast is weak.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers can mean leaving a vehicle in a parking place.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Malaysian \\u201cparkir/parking\\u201d and \\u201cmeletak kereta\\u201d are plausible everyday alternatives, weakening the claimed preference for \\u201cmeletakkan kenderaan.\\u201d\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"verifier-explicitly-questions-preference\", \"form\": \"parkir/parking; meletak kereta\", \"language\": \"malaysian\", \"rationale\": \"These competing forms may be more ordinary in Malaysian everyday usage than \\u201cmeletakkan kenderaan.\\u201d\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malaysian answer is formal and less natural for everyday usage than common alternatives such as “parkir/parking” or “meletak kereta”."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers can mean leaving a vehicle in a parking place.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The proposed contrast may mislead learners into treating “meletakkan kenderaan” as the ordinary Malaysian equivalent, despite substantial everyday competition from “parkir/parking” and “meletak kereta”."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "parkir/parking; meletak kereta",
+        "language": "malaysian",
+        "rationale": "These competing forms may be more ordinary in Malaysian everyday usage than “meletakkan kenderaan.”",
+        "signal": "verifier-explicitly-questions-preference"
+      },
+      "rationale": "The sense is aligned, and “memarkir” is ordinary Indonesian. However, “meletakkan kenderaan” is a formal descriptive phrase rather than a reliably preferred everyday Malaysian counterpart, so the national contrast is weak.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Malaysian “parkir/parking” and “meletak kereta” are plausible everyday alternatives, weakening the claimed preference for “meletakkan kenderaan.”",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malaysian answer is formal and less natural for everyday usage than common alternatives such as “parkir/parking” or “meletak kereta”."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers can mean leaving a vehicle in a parking place.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed contrast may mislead learners into treating “meletakkan kenderaan” as the ordinary Malaysian equivalent, despite substantial everyday competition from “parkir/parking” and “meletak kereta”."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "parkir/parking; meletak kereta",
+      "language": "malaysian",
+      "rationale": "These competing forms may be more ordinary in Malaysian everyday usage than “meletakkan kenderaan.”",
+      "signal": "verifier-explicitly-questions-preference"
+    },
+    "rationale": "The sense is aligned, and “memarkir” is ordinary Indonesian. However, “meletakkan kenderaan” is a formal descriptive phrase rather than a reliably preferred everyday Malaysian counterpart, so the national contrast is weak.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Malaysian “parkir/parking” and “meletak kereta” are plausible everyday alternatives, weakening the claimed preference for “meletakkan kenderaan.”",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "8a473168e1f4233edde3c6f65e5f4040dce27684832336f4dde3930396f3432c"
+}

@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T13:31:03.694942+00:00",
+  "input_digest": "f2769e3989e65f9ddc2ee9372ae1093d1912d884a7d81346a90ac19a853ef5b3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Both forms naturally mean the number assigned to determine service order, with Indonesian preferring nomor antrean and Malaysian preferring nombor giliran.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The cue precisely describes a number used to establish queue or service order, matching both answers.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Indonesian also uses nomor giliran for a turn/order number, but nomor antrean remains a credible Indonesian preference while nombor giliran is the natural Malaysian form.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Giliran can also refer to turn order outside a physical queue, though the service-order sense is clear here.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"nomor giliran\", \"language\": \"indonesian\", \"rationale\": \"Nomor giliran is a plausible Indonesian alternative for a number indicating service order, but it does not negate the useful preference for nomor antrean.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "The cue precisely describes a number used to establish queue or service order, matching both answers.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "nomor giliran",
+        "language": "indonesian",
+        "rationale": "Nomor giliran is a plausible Indonesian alternative for a number indicating service order, but it does not negate the useful preference for nomor antrean.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "Both forms naturally mean the number assigned to determine service order, with Indonesian preferring nomor antrean and Malaysian preferring nombor giliran.",
+      "relation": "different-common-word",
+      "risk_rationale": "Giliran can also refer to turn order outside a physical queue, though the service-order sense is clear here.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Indonesian also uses nomor giliran for a turn/order number, but nomor antrean remains a credible Indonesian preference while nombor giliran is the natural Malaysian form.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "The cue precisely describes a number used to establish queue or service order, matching both answers.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "nomor giliran",
+      "language": "indonesian",
+      "rationale": "Nomor giliran is a plausible Indonesian alternative for a number indicating service order, but it does not negate the useful preference for nomor antrean.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "Both forms naturally mean the number assigned to determine service order, with Indonesian preferring nomor antrean and Malaysian preferring nombor giliran.",
+    "relation": "different-common-word",
+    "risk_rationale": "Giliran can also refer to turn order outside a physical queue, though the service-order sense is clear here.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Indonesian also uses nomor giliran for a turn/order number, but nomor antrean remains a credible Indonesian preference while nombor giliran is the natural Malaysian form.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "c0646d0ee16613fd6ad133f2ca3d1214f01dd59aa8f03afa5014c9ad957a4ea6"
+}

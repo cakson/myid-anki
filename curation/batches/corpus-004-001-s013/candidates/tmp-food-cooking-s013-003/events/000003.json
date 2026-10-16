@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:38:44.529992+00:00",
+  "input_digest": "28415a86ba0ef3e3d575a3eee67332b8fb62db981e8d244864a2682cca4e9b5d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"produce-001:produce-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Pepper (merica/lada) is the dried spice used for heat or flavor, whereas chili pepper (cabai/cili) is the hot fresh chili fruit used as an ingredient; the senses and both answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "produce-001:produce-06",
+          "rationale": "Pepper (merica/lada) is the dried spice used for heat or flavor, whereas chili pepper (cabai/cili) is the hot fresh chili fruit used as an ingredient; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "produce-001:produce-06",
+        "rationale": "Pepper (merica/lada) is the dried spice used for heat or flavor, whereas chili pepper (cabai/cili) is the hot fresh chili fruit used as an ingredient; the senses and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "385cd03edce26d9df7f88b152b411ec8d595f4df4d295ae94521aef793d2507a"
+}

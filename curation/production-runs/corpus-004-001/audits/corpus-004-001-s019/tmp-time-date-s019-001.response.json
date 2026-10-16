@@ -1,0 +1,61 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 16787,
+  "input_tokens": 49579,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 930,
+  "packet_digest": "ca9eaf26e84dae64f71b01e3de03b8c147dcb2eb51b11ab18a1c85f5b9cf5f3b",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers correctly express 'tomorrow'. Besok is the ordinary Indonesian form, while esok is the ordinary Malaysian standard form. The relation is accurately described as different common words, with no false-friend contrast; besok also exists in Malaysian Malay as a colloquial variant.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: besok\",\n      \"conclusion\": \"Correct for 'tomorrow' in Indonesian.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.kemendikdasmen.go.id/entri/besok\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: esok\",\n      \"conclusion\": \"Correct and standard for 'tomorrow' in Malaysian Malay.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=15740&keyword=esok\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue 'tomorrow' and sense 'the day after today' are aligned with both answers.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.kemendikdasmen.go.id/entri/besok\",\n        \"https://prpm.dbp.gov.my/Cari1?d=15740&keyword=esok\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"Different-common-word is appropriate as a learner-facing national-variety contrast, provided it is not interpreted as exclusivity.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=besok\",\n        \"https://kbbi.kemendikdasmen.go.id/entri/esok\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false friend is present; both forms share the relevant meaning, with besok functioning as a colloquial Malaysian variant.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=besok\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for 'tomorrow' in Indonesian.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/besok"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: besok"
+      },
+      {
+        "conclusion": "Correct and standard for 'tomorrow' in Malaysian Malay.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=esok"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: esok"
+      },
+      {
+        "conclusion": "The cue 'tomorrow' and sense 'the day after today' are aligned with both answers.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/besok",
+          "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=esok"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Different-common-word is appropriate as a learner-facing national-variety contrast, provided it is not interpreted as exclusivity.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=besok",
+          "https://kbbi.kemendikdasmen.go.id/entri/esok"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false friend is present; both forms share the relevant meaning, with besok functioning as a colloquial Malaysian variant.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=besok"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers correctly express 'tomorrow'. Besok is the ordinary Indonesian form, while esok is the ordinary Malaysian standard form. The relation is accurately described as different common words, with no false-friend contrast; besok also exists in Malaysian Malay as a colloquial variant.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

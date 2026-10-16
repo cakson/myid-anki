@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:17:57.923175+00:00",
+  "input_digest": "d796b6e46fc20d7bb4408de3114eb8c3368b1dc3e1c37044579c5ffcbd2f1f00",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"home-001:topic-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is the toilet fixture or relieving facility, while the existing concept is the bathroom as the room containing a toilet and washing area; their senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "home-001:topic-01",
+          "rationale": "The candidate is the toilet fixture or relieving facility, while the existing concept is the bathroom as the room containing a toilet and washing area; their senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "home-001:topic-01",
+        "rationale": "The candidate is the toilet fixture or relieving facility, while the existing concept is the bathroom as the room containing a toilet and washing area; their senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c85cf8916b1ce95e87f9cac4d1e2b0be2e09927f322b49b7274668943233776b"
+}

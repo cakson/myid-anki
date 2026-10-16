@@ -1,0 +1,273 @@
+{
+  "accepted": 3,
+  "batch_id": "corpus-004-001-s005",
+  "confidence_distribution": {
+    "low": 1,
+    "medium": 2
+  },
+  "corrections": 0,
+  "created_at": "2026-10-16T01:29:49.262026+00:00",
+  "decisions": [
+    {
+      "candidate_id": "tmp-daily-life-s005-001",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "ranjang",
+          "language": "both",
+          "rationale": "“Ranjang” is an understood alternative in both varieties, though it is not the strongest everyday preference for this card.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both mean furniture used for sleeping. “Tempat tidur” is the ordinary Indonesian expression, while “katil” is the ordinary Malaysian Malay word. Review concern: “Ranjang” may also occur, especially in Indonesian, but this does not materially weaken the proposed contrast.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-003",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "concrete",
+        "preference_risk": {
+          "form": "diaper",
+          "language": "malaysian",
+          "rationale": "Diaper is a plausible everyday Malaysian alternative, particularly in casual speech and commercial contexts, although lampin remains a standard local term.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Popok is the ordinary Indonesian term and lampin is the ordinary Malaysian term for a baby's absorbent garment. The contrast is useful, though Malaysian diaper also occurs in casual or commercial usage. Review concern: Diaper may compete with lampin in Malaysian casual or product-related usage, so the national preference is not exclusive.",
+      "confidence_tier": "low",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "concrete-nonblocking-risk",
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-005",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "bel pintu",
+          "language": "malaysian",
+          "rationale": "\"Bel pintu\" is a plausible alternative in Malaysian usage, though \"loceng pintu\" is the stronger Malay-preference form.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms mean the household bell sounded when a visitor arrives. Indonesian commonly uses \"bel pintu\", while Malaysian Malay commonly uses \"loceng pintu\". Review concern: Borrowed or casual use of \"bel pintu\" may occur in Malaysian contexts.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-006",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "The English cue may misalign the two target-language senses.",
+        "The proposed answers do not reliably express the same exact sense: gagang pintu is broader than doorknob."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The proposed answers do not reliably express the same exact sense: gagang pintu is broader than doorknob.",
+          "The English cue may misalign the two target-language senses.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    }
+  ],
+  "duplicate_detections": 5,
+  "duplicate_resolutions": {
+    "distinct": 5
+  },
+  "evidence_failures": 1,
+  "further_investigation": [
+    "tmp-daily-life-s005-006"
+  ],
+  "generated": 4,
+  "held": 1,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "A shared ordinary synonym may defeat the claimed national preference.": 1,
+    "The English cue may misalign the two target-language senses.": 1,
+    "The proposed answers do not reliably express the same exact sense: gagang pintu is broader than doorknob.": 1,
+    "ordinary-verifier-agreement": 3
+  },
+  "rejected": 0,
+  "relation_distribution": {
+    "different-common-word": 3
+  },
+  "review_priority": [
+    "tmp-daily-life-s005-003",
+    "tmp-daily-life-s005-005",
+    "tmp-daily-life-s005-001"
+  ],
+  "status": "closed",
+  "verification_failures": 1
+}

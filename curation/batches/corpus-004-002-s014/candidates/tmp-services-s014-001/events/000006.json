@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T13:30:44.740072+00:00",
+  "input_digest": "6779649ef619f1812849f70613890d2b8c37cbd033f214b41e9f4cc370de5a92",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cResep\\u201d is the ordinary Indonesian term, while Malaysian Malay commonly uses the formal medical term \\u201cpreskripsi\\u201d for a document authorizing medicine. The contrast is useful and preserves the same sense.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both forms refer to a medical document authorizing or specifying medicine.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"Indonesian may use \\u201cpreskripsi\\u201d as a formal borrowing, but \\u201cresep\\u201d is the ordinary term; \\u201cresep\\u201d is not the usual Malaysian medical term.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"preskripsi\", \"language\": \"indonesian\", \"rationale\": \"\\u201cPreskripsi\\u201d exists in Indonesian as a formal alternative, but no everyday competition with \\u201cresep\\u201d is indicated.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both forms refer to a medical document authorizing or specifying medicine.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "preskripsi",
+        "language": "indonesian",
+        "rationale": "“Preskripsi” exists in Indonesian as a formal alternative, but no everyday competition with “resep” is indicated.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Resep” is the ordinary Indonesian term, while Malaysian Malay commonly uses the formal medical term “preskripsi” for a document authorizing medicine. The contrast is useful and preserves the same sense.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "Indonesian may use “preskripsi” as a formal borrowing, but “resep” is the ordinary term; “resep” is not the usual Malaysian medical term.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both forms refer to a medical document authorizing or specifying medicine.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "preskripsi",
+      "language": "indonesian",
+      "rationale": "“Preskripsi” exists in Indonesian as a formal alternative, but no everyday competition with “resep” is indicated.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Resep” is the ordinary Indonesian term, while Malaysian Malay commonly uses the formal medical term “preskripsi” for a document authorizing medicine. The contrast is useful and preserves the same sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Indonesian may use “preskripsi” as a formal borrowing, but “resep” is the ordinary term; “resep” is not the usual Malaysian medical term.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "c684e20ad0c31b05719be592e1d19d7e116d98e623229ac7b1dc7b856787c4fa"
+}

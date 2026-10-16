@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6795,
+  "input_digest": "6c91748d58dd5e5609897d69148d857e8e0f8ba1a5e397cf3b9ecd9ecab12c83",
+  "input_tokens": 54579,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 290,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-food-001:food-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are kitchen appliances used with heat, but a stove provides a cooking surface or burners while an oven is an enclosed appliance for baking or roasting; the English and answers differ.\"},{\"other_id\":\"home-001:topic-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate denotes the cooking appliance, while this row denotes the kitchen room; despite the shared Malaysian answer dapur, their senses and Indonesian answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-food-001:food-07",
+          "rationale": "Both are kitchen appliances used with heat, but a stove provides a cooking surface or burners while an oven is an enclosed appliance for baking or roasting; the English and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "home-001:topic-07",
+          "rationale": "The candidate denotes the cooking appliance, while this row denotes the kitchen room; despite the shared Malaysian answer dapur, their senses and Indonesian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

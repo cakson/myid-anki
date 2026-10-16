@@ -1,0 +1,65 @@
+{
+  "attempt_id": "0a417db1989a0aab",
+  "candidate_id": "tmp-family-social-s011-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct ordinary Indonesian translation for neighbor.",
+      "evidence_refs": [
+        "https://typoonline.com/amp/kbbi/tetangga"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tetangga"
+    },
+    {
+      "conclusion": "Correct ordinary Malaysian Malay translation for a nearby resident or neighbor.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: jiran"
+    },
+    {
+      "conclusion": "“Neighbor” and “person living nearby” are aligned with both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya",
+        "https://typoonline.com/amp/kbbi/tetangga"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate. No false-friend contrast is required; the words differ in common national preference, not meaning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tetangga",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "6f2785706ac06bc77ac3e7818e811e6cebde1722a2d7020c8498b29f6a842afa",
+  "correction_refs": [],
+  "decision_digest": "64b4c6e485ef2bf0efb7cae860062d051bd3bb757f51cfd98e0d0b50b83b75ee",
+  "elapsed_ms": 19871,
+  "finding_class": "none",
+  "input_tokens": 49436,
+  "model_calls": 1,
+  "output_tokens": 968,
+  "packet_digest": "faa954594dcf196990c184cc7838edf0e7fd224c724fb9a677100847b35a3113",
+  "rationale": "Both translations match the sense “person living nearby.” “Tetangga” is ordinary Indonesian; “jiran” is ordinary Malaysian Malay, although “tetangga” is also understood and documented in Malaysian usage. The different-common-word relation is valid, and there is no false-friend distinction to add.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:00:45.460287+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s011/tmp-family-social-s011-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s011",
+  "verdict": "cleared"
+}

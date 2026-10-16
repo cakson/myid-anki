@@ -1,0 +1,68 @@
+{
+  "attempt_id": "377b85a007d518b4",
+  "candidate_id": "tmp-emotions-s010-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Enthusiastic” appropriately narrows “excited” to eagerness and positive interest.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/enthusiastic",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=teruja"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Bersemangat is a valid Indonesian term for being spirited, energetic, or eager to act, fitting the intended sense.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/semangat"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: bersemangat"
+    },
+    {
+      "conclusion": "Teruja is a valid Malaysian Malay term meaning excited and strongly interested or eager.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=teruja",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/excited"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: teruja"
+    },
+    {
+      "conclusion": "Different-common-word is acceptable as a preference contrast: the forms differ, although bersemangat is also possible in Malaysian Malay and teruja should not be treated as Indonesian-exclusive. No material false-friend mismatch was found.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=202792&keyword=bersemangat",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=teruja"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "8315dbadab2bbb82b7983ab75e8f8f8049f437ac45e0209e4b4b6bbe6ae02817",
+  "correction_refs": [],
+  "decision_digest": "792b92a1c7bb85b2568ab459b45e9cce02a02cf3dab15d77cadba6f5d2a5cb4b",
+  "elapsed_ms": 24496,
+  "finding_class": "none",
+  "input_tokens": 78768,
+  "model_calls": 1,
+  "output_tokens": 1391,
+  "packet_digest": "d851cdb9bd09dce988ff6a49831791ec19d24202aabc90f3a05473f8e3e0dda3",
+  "rationale": "Both answers fit the corrected cue “enthusiastic” and the stated eager/positive sense. The relation is defensible as a contrastive common-word preference, not an exclusivity claim. No false-friend contrast is required; none is evident from the checked meanings.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:58:29.651835+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s010/tmp-emotions-s010-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-001-s010",
+  "verdict": "cleared"
+}

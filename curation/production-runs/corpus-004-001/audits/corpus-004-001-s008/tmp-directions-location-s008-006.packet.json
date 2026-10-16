@@ -1,0 +1,90 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-directions-location-s008-006",
+    "english": "route",
+    "indonesian": "rute",
+    "malaysian": "laluan",
+    "sense": "way from one place to another",
+    "tags": [
+      "directions-location",
+      "different-common-word"
+    ]
+  },
+  "candidate_id": "tmp-directions-location-s008-006",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "jalan",
+        "language": "both",
+        "rationale": "Jalan may serve as a general everyday route/way term in both varieties, though it is broader than the proposed forms.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Indonesian rute and Malaysian laluan are ordinary terms for a route between places, with a useful variety preference. Review concern: Laluan can also mean a passage, lane, or pathway, so context may slightly broaden its interpretation.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "shared-common-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "route",
+    "image": "",
+    "indonesian": "rute",
+    "malaysian": "laluan",
+    "relation": "different-common-word",
+    "tags": "directions-location different-common-word"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s008"
+}

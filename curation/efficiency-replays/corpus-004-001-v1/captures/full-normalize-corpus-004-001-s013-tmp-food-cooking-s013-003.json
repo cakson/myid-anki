@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-food-cooking-s013-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6822,
+  "input_tokens": 30722,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 163,
+  "prompt_bytes": 67213,
+  "prompt_sha256": "98c1980203b5804cb714adabccdb7f89adefc55b462f226df3bdfb58d56d23e5",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"produce-001:produce-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Pepper here is the spice used for heat or flavor, corresponding to merica/lada; chili pepper is the fresh hot chili ingredient, corresponding to cabai/cili, so the senses and answers differ clearly.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "produce-001:produce-06",
+          "rationale": "Pepper here is the spice used for heat or flavor, corresponding to merica/lada; chili pepper is the fresh hot chili ingredient, corresponding to cabai/cili, so the senses and answers differ clearly.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

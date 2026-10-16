@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7857,
+  "input_digest": "a005c2f6cd48b49a3a28ebaf5e83f5553e1c5870a475d58f063892f08b8af890",
+  "input_tokens": 54578,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 357,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s009:tmp-family-social-s009-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Engaged means promised to marry; unmarried means not married and does not imply a marriage promise.\"},{\"other_id\":\"corpus-004-002-s009:tmp-family-social-s009-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Engaged describes a relationship status, while to marry describes entering into marriage as an action.\"},{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Engaged is a premarital relationship status, whereas wedding is the marriage ceremony or event.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-003",
+          "rationale": "Engaged means promised to marry; unmarried means not married and does not imply a marriage promise.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-004",
+          "rationale": "Engaged describes a relationship status, while to marry describes entering into marriage as an action.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-008",
+          "rationale": "Engaged is a premarital relationship status, whereas wedding is the marriage ceremony or event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

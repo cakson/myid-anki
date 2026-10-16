@@ -1,0 +1,42 @@
+{
+  "candidate_ids": [
+    "tmp-directions-location-s008-004"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6982,
+  "input_tokens": 30720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 353,
+  "prompt_bytes": 67227,
+  "prompt_sha256": "0940f6e73d527d3a2c06c5699ec8a2b26943a9d799bca7c7a62a38f249b76d3a",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s008:tmp-directions-location-s008-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A sidewalk is a path beside a road for walking; a pedestrian crossing is a marked place for crossing the road.\"},{\"other_id\":\"corpus-004-001-s008:tmp-directions-location-s008-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A sidewalk is a pedestrian path alongside a road; a route is a way or course from one place to another.\"},{\"other_id\":\"corpus-004-001-s008:tmp-directions-location-s008-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A sidewalk is a physical pedestrian path, whereas a street sign is a sign identifying or directing along a road.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s008:tmp-directions-location-s008-003",
+          "rationale": "A sidewalk is a path beside a road for walking; a pedestrian crossing is a marked place for crossing the road.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s008:tmp-directions-location-s008-006",
+          "rationale": "A sidewalk is a pedestrian path alongside a road; a route is a way or course from one place to another.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s008:tmp-directions-location-s008-005",
+          "rationale": "A sidewalk is a physical pedestrian path, whereas a street sign is a sign identifying or directing along a road.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

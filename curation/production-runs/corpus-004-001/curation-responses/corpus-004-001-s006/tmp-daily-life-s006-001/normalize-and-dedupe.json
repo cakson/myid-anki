@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7229,
+  "input_digest": "6f22d601d7855736d5db6874c66ac0565da042c791a3fd94fc324448d1d78b9e",
+  "input_tokens": 45012,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 290,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"home-001:topic-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bathtub is a large container used for bathing, whereas a bathroom is the room containing washing and toilet facilities.\"},{\"other_id\":\"cal2-daily-001:daily-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bathtub is used for bathing the body; a sink or washbasin is a fixed basin used for washing.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "home-001:topic-01",
+          "rationale": "A bathtub is a large container used for bathing, whereas a bathroom is the room containing washing and toilet facilities.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-03",
+          "rationale": "A bathtub is used for bathing the body; a sink or washbasin is a fixed basin used for washing.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

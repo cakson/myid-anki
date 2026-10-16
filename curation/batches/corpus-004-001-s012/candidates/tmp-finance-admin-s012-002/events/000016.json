@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:09.430742+00:00",
+  "result": {
+    "candidate_digest": "1d4a3cc7810ad24737c28bb9fe89b664c31eeb406826dca2d6a5f856e89a2d5c",
+    "candidate_id": "tmp-finance-admin-s012-002",
+    "checked_at": "2026-10-16T02:10:09.430742+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): The English cue and intended sense are correct, and Indonesian “anggaran” is a standard equivalent. Malaysian “bajet” is understandable and used colloquially, but DBP identifies it as conversational and recommends “belanjawan” in formal or neutral contexts. The relation is broadly defensible, but the card should state this register distinction. No false-friend contrast is indicated.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

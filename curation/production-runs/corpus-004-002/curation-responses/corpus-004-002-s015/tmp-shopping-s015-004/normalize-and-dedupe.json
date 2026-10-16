@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5803,
+  "input_digest": "75a1eb18daa3d02c38e5a615b7a7ad31969a29696a73bf75a02aafb4b70907f8",
+  "input_tokens": 54579,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 211,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-food-001:food-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A shopping voucher is a coupon or prepaid credit used for purchases, whereas a discount is a reduction in the usual price; the concepts and both answer sets differ.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-08",
+          "rationale": "A shopping voucher is a coupon or prepaid credit used for purchases, whereas a discount is a reduction in the usual price; the concepts and both answer sets differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

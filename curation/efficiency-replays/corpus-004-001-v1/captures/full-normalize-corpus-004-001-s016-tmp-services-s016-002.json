@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-services-s016-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6667,
+  "input_tokens": 30716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 203,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "a2ed7bbeedcf506ae90819c98d295c231f104e194e33349ae6623ac2b928610f",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A waiting room is a physical room where service users wait; a queue is a line of people waiting, so the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-04",
+          "rationale": "A waiting room is a physical room where service users wait; a queue is a line of people waiting, so the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:31:12.634916+00:00",
+  "input_digest": "7d2976a8ebf2727d7d13e7bacd1a8d15466ef914117c22b763118d4bfa2c7f1c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Customer service is assistance provided to customers, whereas service is the broader concept of work provided for a customer; the senses and answers differ.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-08",
+          "rationale": "Customer service is assistance provided to customers, whereas service is the broader concept of work provided for a customer; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-08",
+        "rationale": "Customer service is assistance provided to customers, whereas service is the broader concept of work provided for a customer; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "67638319af0f4d653165ae4d32040ab55e3b677c147dcac49afcd0a3031adbc8"
+}

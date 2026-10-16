@@ -1,0 +1,72 @@
+{
+  "attempt_id": "992b8c1974263f2b",
+  "candidate_id": "tmp-work-s020-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and natural for part-time work in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/paruh-2",
+        "https://catalog.ihsn.org/catalog/4882/variable/F2/V118?name=b4p17"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: paruh waktu"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay expression for working fewer than full-time hours, though sambilan is also common.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=separuh+masa",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=sambilan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: separuh masa"
+    },
+    {
+      "conclusion": "Part-time and “working fewer hours than a full schedule” align with both Malay expressions in employment context.",
+      "evidence_refs": [
+        "https://catalog.ihsn.org/catalog/4882/variable/F2/V118?name=b4p17",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=separuh+masa"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a non-exclusive contrast between the selected Indonesian and Malaysian forms; it should not imply that sambilan is unavailable in either variety.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=sambilan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; the difference is lexical preference and usage, not divergent meaning.",
+      "evidence_limitation": "No dedicated comparative corpus evidence was consulted.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "5712dae1b416be0629af20df001378c6dd8b0e935264f5a9da18d6f312caa308",
+  "correction_refs": [],
+  "decision_digest": "9fc629d182c93cab54a27a4f91e6b8a5edde4d88a1cec62fcae91990bb49b941",
+  "elapsed_ms": 19760,
+  "finding_class": "none",
+  "input_tokens": 61251,
+  "model_calls": 1,
+  "output_tokens": 1166,
+  "packet_digest": "9ba91bdc78b1668356c33993722397dc1b1729f0b3e08e9dcb34e2061321d344",
+  "rationale": "Both answers are valid for the stated sense. “Paruh waktu” is established Indonesian usage, while “separuh masa” is understandable and attested Malaysian Malay usage for part-time work. The forms differ, but “sambilan” is also used in both varieties, so the relation is contrastive rather than exclusive. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:55:19.158087+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s020/tmp-work-s020-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s020",
+  "verdict": "cleared"
+}

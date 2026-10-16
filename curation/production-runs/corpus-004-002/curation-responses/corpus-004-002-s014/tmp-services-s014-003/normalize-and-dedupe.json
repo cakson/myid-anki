@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 8900,
+  "input_digest": "7d2976a8ebf2727d7d13e7bacd1a8d15466ef914117c22b763118d4bfa2c7f1c",
+  "input_tokens": 54582,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 198,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Customer service is assistance provided to customers, whereas service is the broader concept of work provided for a customer; the senses and answers differ.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-08",
+          "rationale": "Customer service is assistance provided to customers, whereas service is the broader concept of work provided for a customer; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,42 @@
+{
+  "candidate_ids": [
+    "tmp-directions-location-s008-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7680,
+  "input_tokens": 30724,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 394,
+  "prompt_bytes": 67227,
+  "prompt_sha256": "0cdb7055b53bcf73e272f899bc0c50d197cf862cc3738012fbae70601b5e5eef",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A one-way street is a road allowing traffic in one direction, whereas a one-way ticket permits travel in one direction; the concepts and senses differ.\"},{\"other_id\":\"cal2-travel-001:travel-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A one-way street is defined by traffic direction; a highway is defined as a major road, so the senses are distinct.\"},{\"other_id\":\"corpus-004-001-s008:tmp-directions-location-s008-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A route is a way from one place to another, while a one-way street is a specific road with directional traffic restriction.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-08",
+          "rationale": "A one-way street is a road allowing traffic in one direction, whereas a one-way ticket permits travel in one direction; the concepts and senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-travel-001:travel-03",
+          "rationale": "A one-way street is defined by traffic direction; a highway is defined as a major road, so the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s008:tmp-directions-location-s008-006",
+          "rationale": "A route is a way from one place to another, while a one-way street is a specific road with directional traffic restriction.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,58 @@
+{
+  "attempt_id": "addcd6c2a6b96969",
+  "candidate_id": "tmp-services-s014-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate and idiomatic for a number assigned in a service queue.",
+      "evidence_refs": [
+        "https://tulangbawangkab.go.id/berita/praktis-dan-cepat-ini-cara-daftar-antrean-di-puskesmas-mobile-jkn",
+        "https://giliran.id/queue"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: nomor antrean"
+    },
+    {
+      "conclusion": "Accurate and established Malaysian Malay wording for a queue or service-order number.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=nombor",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=giliran"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: nombor giliran"
+    },
+    {
+      "conclusion": "The cue and sense align with both answers; different-common-word is the correct relation. No false-friend contrast is required, though giliran has a broader general-turn sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=nombor",
+        "https://tulangbawangkab.go.id/berita/praktis-dan-cepat-ini-cara-daftar-antrean-di-puskesmas-mobile-jkn"
+      ],
+      "material_risk": false,
+      "subject": "English cue, sense, relation, and contrast"
+    }
+  ],
+  "content_digest": "2088f864efe7b62a3273f415bb5d50ca90a3554a771f45478a8049aebae2c1c5",
+  "correction_refs": [],
+  "decision_digest": "dab8dc434603c978a7316650b1be193519c758175a2dca4d14e83787db5967c4",
+  "elapsed_ms": 14722,
+  "finding_class": "none",
+  "input_tokens": 28919,
+  "model_calls": 1,
+  "output_tokens": 735,
+  "packet_digest": "b40d9b101ed054b58c7c6ee31abdc8e8f1e7410531b982379271dca2cc804a4a",
+  "rationale": "Both answers are accurate and natural for the stated service-order sense. Indonesian commonly uses “nomor antrean,” while Malaysian Malay uses “nombor giliran.” The forms are different common words, not false friends; “giliran” is broader and can mean a turn generally, but is valid here.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:49:55.306460+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s014/tmp-services-s014-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s014",
+  "verdict": "cleared"
+}

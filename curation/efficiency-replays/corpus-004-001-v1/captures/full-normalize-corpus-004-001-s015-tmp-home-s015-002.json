@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-home-s015-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6375,
+  "input_tokens": 30719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 175,
+  "prompt_bytes": 67197,
+  "prompt_sha256": "fcf8b9a07d98015ddf0107d49c5d2ccd80170689221dcb73b0b70f95cc5ed346",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"transportation-001:transportation-11\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A garage is a building or enclosed space for keeping a car, whereas a car parking area is an area designated for parking and need not be enclosed.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-11",
+          "rationale": "A garage is a building or enclosed space for keeping a car, whereas a car parking area is an area designated for parking and need not be enclosed.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

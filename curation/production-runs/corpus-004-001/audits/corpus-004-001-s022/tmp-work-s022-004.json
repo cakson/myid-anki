@@ -1,0 +1,75 @@
+{
+  "attempt_id": "b5fc8501a5b8eaef",
+  "candidate_id": "tmp-work-s022-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for an employment probation period; the phrase can also have legal meanings outside employment.",
+      "evidence_refs": [
+        "https://ditkapel.dephub.go.id/files/Document/UU_2003_-_013_-_Ketenagakerjaan.pdf",
+        "https://tutur.taratsa.id/kata/masa-percobaan/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: masa percobaan"
+    },
+    {
+      "conclusion": "Correct standard Malaysian Malay equivalent for a probationary employment period.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=percubaan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=trial"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tempoh percubaan"
+    },
+    {
+      "conclusion": "Probation period accurately cues the initial trial period used to assess an employee before permanent appointment.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=probation"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct: the Indonesian and Malaysian forms are semantically equivalent but differ lexically.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=percubaan",
+        "https://ditkapel.dephub.go.id/files/Document/UU_2003_-_013_-_Ketenagakerjaan.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: similar"
+    },
+    {
+      "conclusion": "No material false-friend contrast identified; percobaan and percubaan share the relevant trial/probation sense, though each may also occur in other contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=percubaan",
+        "https://tutur.taratsa.id/kata/masa-percobaan/"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "60c5f46e46c8b9cae9786a160c49d84acaa208738cb3baf4da908feebf6e8d33",
+  "correction_refs": [],
+  "decision_digest": "eae7ad6d32923abfe6bf5a391553148673bd00ac515b8eeb86280bf4bc0778f2",
+  "elapsed_ms": 19760,
+  "finding_class": "none",
+  "input_tokens": 49487,
+  "model_calls": 1,
+  "output_tokens": 834,
+  "packet_digest": "c7ca2422a5760d4fdcb9623684697e702d5ed960e156eb3d3838779768490724",
+  "rationale": "Both Malay forms correctly express an initial employment trial period. The varieties use different standard lexical choices, with no material false-friend contrast. English workplace borrowing may occur but does not invalidate the localized answers.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:09:39.635297+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s022/tmp-work-s022-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s022",
+  "verdict": "cleared"
+}

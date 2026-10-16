@@ -1,0 +1,74 @@
+{
+  "attempt_id": "212d26a22a108005",
+  "candidate_id": "tmp-shopping-s015-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Shopping voucher” correctly denotes a coupon, credit, or redeemable document used for shopping.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=baucar"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Voucher belanja” is natural and widely used Indonesian retail wording.",
+      "evidence_refs": [
+        "https://promo.bca.co.id/id/all/c/retail",
+        "https://www.bankmandiri.co.id/lp-e-voucher"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Baucar beli-belah” is valid Malaysian Malay and matches the intended sense; “baucar” is the localized equivalent of “voucher.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=baucar",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beli-belah"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable only as a preferred/localized-form contrast, not as an exclusive usage contrast, because Malaysian Malay also uses “voucher.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=voucher",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=baucar"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend distinction is involved; the forms are semantically aligned.",
+      "evidence_limitation": "The reviewed sources establish the meanings and usage equivalence but do not explicitly classify this pair as a false-friend case.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "0dd8fa59eee09cb4b208ccd2e95c976782213915847b3d0cbf545d10280af20f",
+  "correction_refs": [],
+  "decision_digest": "fe2bb4da2eca36baf8a292273f24e69affbc9a55ef360a2da48dfe2b49820cf7",
+  "elapsed_ms": 23899,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 74458,
+  "model_calls": 1,
+  "output_tokens": 1274,
+  "packet_digest": "2a23c3867165b83e50cb331079823f74c95e725ba21d8eb4a429be32dc464c7a",
+  "rationale": "Both translations and the English sense are valid. However, the relation label can overstate the contrast: Malaysian Malay also uses voucher, while baucar is the localized/preferred equivalent. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:52:12.851313+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s015/tmp-shopping-s015-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s015",
+  "verdict": "needs-correction"
+}

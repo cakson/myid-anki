@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20105,
+  "input_tokens": 61853,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1098,
+  "packet_digest": "ab85558585100ebc0951b24f3a0d9f4750127761b995db9c5a9e31bbbf34ac13",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The cue and Indonesian answer are accurate. The Malaysian answer is understandable and encountered in usage, but DBP prescribes “meletakkan jawatan” as the standard form; therefore the learner-facing answer should be corrected. The variety relation is valid, and no false-friend contrast is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“resign” narrowed to “leave a job voluntarily” is accurate and pedagogically appropriate.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/mengundurkan\"]},{\"subject\":\"Indonesian answer: mengundurkan diri\",\"conclusion\":\"Correct Indonesian expression for voluntarily resigning or withdrawing from a position.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/mengundurkan\",\"https://www.bkn.go.id/prosedur-dan-ketentuan-peserta-seleksi-casn-mengundurkan-diri/\"]},{\"subject\":\"Malaysian answer: meletak jawatan\",\"conclusion\":\"Meaning is recoverable, but the standard prescribed form is “meletakkan jawatan”; the card should use that form.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=di+kan\",\"https://prpm.dbp.gov.my/cari1?d=175768&keyword=meletakkan\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Valid: the varieties use distinct common expressions for the target sense, although shared alternatives such as “berhenti kerja” also exist.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/mengundurkan\",\"https://prpm.dbp.gov.my/cari1?d=175768&keyword=meletakkan\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supported or needed; the forms are semantically aligned rather than misleadingly divergent.\",\"material_risk\":false,\"evidence_limitation\":\"The reviewed dictionary evidence establishes the meanings and standard form, but does not explicitly classify the pair as a false-friend contrast.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“resign” narrowed to “leave a job voluntarily” is accurate and pedagogically appropriate.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/mengundurkan"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct Indonesian expression for voluntarily resigning or withdrawing from a position.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/mengundurkan",
+          "https://www.bkn.go.id/prosedur-dan-ketentuan-peserta-seleksi-casn-mengundurkan-diri/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: mengundurkan diri"
+      },
+      {
+        "conclusion": "Meaning is recoverable, but the standard prescribed form is “meletakkan jawatan”; the card should use that form.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=di+kan",
+          "https://prpm.dbp.gov.my/cari1?d=175768&keyword=meletakkan"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: meletak jawatan"
+      },
+      {
+        "conclusion": "Valid: the varieties use distinct common expressions for the target sense, although shared alternatives such as “berhenti kerja” also exist.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/mengundurkan",
+          "https://prpm.dbp.gov.my/cari1?d=175768&keyword=meletakkan"
+        ],
+        "material_risk": false,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported or needed; the forms are semantically aligned rather than misleadingly divergent.",
+        "evidence_limitation": "The reviewed dictionary evidence establishes the meanings and standard form, but does not explicitly classify the pair as a false-friend contrast.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The cue and Indonesian answer are accurate. The Malaysian answer is understandable and encountered in usage, but DBP prescribes “meletakkan jawatan” as the standard form; therefore the learner-facing answer should be corrected. The variety relation is valid, and no false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

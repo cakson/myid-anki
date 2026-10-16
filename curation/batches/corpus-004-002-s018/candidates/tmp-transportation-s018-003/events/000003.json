@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T13:36:33.528052+00:00",
+  "input_digest": "6a183887efb63d77efc6aea31dca9d1f3dd68c06773211a7734afb5dc0522d41",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-001:transportation-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bus is the passenger vehicle; bus fare is the money paid to ride it.\"}, {\"other_id\": \"cal2-shopping-001:shopping-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Price is a general amount charged for something; bus fare specifically denotes payment for bus travel.\"}, {\"other_id\": \"cal2-shopping-001:shopping-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Payment is a general act or amount of paying; bus fare is the specific charge for riding a bus.\"}, {\"other_id\": \"corpus-004-002-s014:tmp-services-s014-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Service fee is a charge for providing a service, whereas bus fare is specifically the charge for bus transportation.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-04",
+          "rationale": "Bus is the passenger vehicle; bus fare is the money paid to ride it.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-01",
+          "rationale": "Price is a general amount charged for something; bus fare specifically denotes payment for bus travel.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-06",
+          "rationale": "Payment is a general act or amount of paying; bus fare is the specific charge for riding a bus.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+          "rationale": "Service fee is a charge for providing a service, whereas bus fare is specifically the charge for bus transportation.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-001:transportation-04",
+        "rationale": "Bus is the passenger vehicle; bus fare is the money paid to ride it.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-shopping-001:shopping-01",
+        "rationale": "Price is a general amount charged for something; bus fare specifically denotes payment for bus travel.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-shopping-001:shopping-06",
+        "rationale": "Payment is a general act or amount of paying; bus fare is the specific charge for riding a bus.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+        "rationale": "Service fee is a charge for providing a service, whereas bus fare is specifically the charge for bus transportation.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1a09aa8418f94f5d0fdb34c9d46e17029b3c97616a3b49898972e8800e15b2bb"
+}

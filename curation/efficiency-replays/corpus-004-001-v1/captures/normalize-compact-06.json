@@ -1,0 +1,29 @@
+{
+  "candidate_ids": [
+    "common-adjectives-contrast-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 8685,
+  "input_tokens": 30718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 271,
+  "prompt_bytes": 67223,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-actions-001:actions-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate means being unable to understand or decide clearly, while “understand” means grasping meaning; the senses are related but distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-02",
+          "rationale": "The candidate means being unable to understand or decide clearly, while “understand” means grasping meaning; the senses are related but distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

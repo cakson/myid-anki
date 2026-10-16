@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-health-body-s014-004"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6698,
+  "input_tokens": 30722,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 206,
+  "prompt_bytes": 67211,
+  "prompt_sha256": "d6310f080ec8d5f2ecc4d524a60ea7906a1b966061494c81d5ffa3746d7e53c1",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s014:tmp-health-body-s014-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Sweat/keringat/peluh is moisture produced by the skin for cooling, whereas urine/air seni/air kencing is liquid excreted by the kidneys; they are distinct bodily fluids and senses.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s014:tmp-health-body-s014-003",
+          "rationale": "Sweat/keringat/peluh is moisture produced by the skin for cooling, whereas urine/air seni/air kencing is liquid excreted by the kidneys; they are distinct bodily fluids and senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

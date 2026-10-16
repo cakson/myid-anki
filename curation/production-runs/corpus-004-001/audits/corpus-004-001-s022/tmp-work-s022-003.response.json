@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18678,
+  "input_tokens": 49956,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1023,
+  "packet_digest": "beb49cc6d778de27a8dc63423a38b37dd4caba152169d8f0cf1739fa7ecf2836",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both answers can express advancement to a higher work position, but the claimed contrast is misleading: Malaysian promosi also means kenaikan pangkat, so the forms are not reliably different common words. Kenaikan pangkat is a clear Malaysian expression, while promosi is valid in both varieties in this sense.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: promosi\",\"conclusion\":\"Correct for work promotion or advancement in rank.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/promosi\"]},{\"subject\":\"Malaysian answer: kenaikan pangkat\",\"conclusion\":\"Correct and clear for advancement in rank or position.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=promosi\",\"https://www.moha.gov.my/utama/images/akta-pekeliling-garispanduan/bhg-pengurusan-sumber-manusia/garis-panduan/URUSAN_PEMANGKUAN_DAN_KENAIKAN_PANGKAT_DALAM_PERKHIDMATAN_AWAM.pdf\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The corrected cue “work promotion” appropriately narrows promotion to career advancement; the sense is accurate.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/promosi\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=promotion\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Not supported. Malaysian promosi is explicitly defined as kenaikan pangkat, so both varieties share promosi for this sense, although kenaikan pangkat is a clearer Malaysian-specific phrasing.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=promosi\",\"https://kbbi.kemendikdasmen.go.id/entri/promosi\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No meaningful Indonesian–Malaysian false-friend contrast is present for the specified work-promotion sense; promosi has additional marketing-related meanings in both contexts.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/promosi\",\"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=promosi\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for work promotion or advancement in rank.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/promosi"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: promosi"
+      },
+      {
+        "conclusion": "Correct and clear for advancement in rank or position.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=promosi",
+          "https://www.moha.gov.my/utama/images/akta-pekeliling-garispanduan/bhg-pengurusan-sumber-manusia/garis-panduan/URUSAN_PEMANGKUAN_DAN_KENAIKAN_PANGKAT_DALAM_PERKHIDMATAN_AWAM.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: kenaikan pangkat"
+      },
+      {
+        "conclusion": "The corrected cue “work promotion” appropriately narrows promotion to career advancement; the sense is accurate.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/promosi",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=promotion"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Not supported. Malaysian promosi is explicitly defined as kenaikan pangkat, so both varieties share promosi for this sense, although kenaikan pangkat is a clearer Malaysian-specific phrasing.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=promosi",
+          "https://kbbi.kemendikdasmen.go.id/entri/promosi"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No meaningful Indonesian–Malaysian false-friend contrast is present for the specified work-promotion sense; promosi has additional marketing-related meanings in both contexts.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/promosi",
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=promosi"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both answers can express advancement to a higher work position, but the claimed contrast is misleading: Malaysian promosi also means kenaikan pangkat, so the forms are not reliably different common words. Kenaikan pangkat is a clear Malaysian expression, while promosi is valid in both varieties in this sense.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

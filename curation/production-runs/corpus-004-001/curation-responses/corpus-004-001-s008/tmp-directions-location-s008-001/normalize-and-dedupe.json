@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5300,
+  "input_digest": "a2abfd2eb68b72d9a074e855120e666b30fffd71e465f895181c2ac6c356d2a8",
+  "input_tokens": 45016,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 157,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A roundabout is a circular road junction with traffic flowing around a central island, whereas an intersection is the broader concept of a place where roads meet; the candidate's cue and both answers are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-10",
+          "rationale": "A roundabout is a circular road junction with traffic flowing around a central island, whereas an intersection is the broader concept of a place where roads meet; the candidate's cue and both answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

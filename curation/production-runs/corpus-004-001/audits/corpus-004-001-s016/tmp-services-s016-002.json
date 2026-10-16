@@ -1,0 +1,73 @@
+{
+  "attempt_id": "fab54ae8170c9ecb",
+  "candidate_id": "tmp-services-s016-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Waiting room” correctly denotes a room or area where service users wait.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/ruang%20tunggu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Indonesian ruang tunggu is a correct and standard equivalent of “waiting room.”",
+      "evidence_refs": [
+        "https://en.wiktionary.org/wiki/ruang_tunggu",
+        "https://kbbi.web.id/ruangan.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Bilik menunggu is understandable, but it is not the best general Malaysian learner answer; ruang menunggu is the established standard expression, while bilik menunggu suggests a particular enclosed room.",
+      "evidence_limitation": "The cited sources establish ruang menunggu as standard but do not provide a corpus-based frequency comparison with bilik menunggu.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tunggu",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=aurat"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "Different-common-word is not supported: both languages commonly use ruang tunggu/ruang menunggu, with only the Indonesian-Malaysian morphological difference of tunggu versus menunggu.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tunggu",
+        "https://kbbi.kemdikbud.go.id/entri/ruang%20tunggu"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; the relevant issue is variant selection and grammatical form, not divergent meaning.",
+      "evidence_limitation": "No contrast data were supplied or identified.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "702da28e05a6b90617c72b883c3c5218a57126ef04518c9d5444a287c4319f18",
+  "correction_refs": [],
+  "decision_digest": "9424654f9f0e9935864489f87198d70d15fe46f1a02720520114c0667161d65c",
+  "elapsed_ms": 20025,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49799,
+  "model_calls": 1,
+  "output_tokens": 1040,
+  "packet_digest": "e84c2dee8cf54cfd9fd961cc404f187e284c20c35c1f360a6ffa90a1a80f3a74",
+  "rationale": "The English cue, sense, and Indonesian answer are correct. Malaysian bilik menunggu is interpretable and possible for a specifically enclosed waiting room, but ruang menunggu is the established general Malaysian equivalent. Therefore the claimed different-common-word relation is misleading, and the card should use a shared-form relation or qualify bilik menunggu contextually. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:06:05.422842+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s016/tmp-services-s016-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s016",
+  "verdict": "needs-correction"
+}

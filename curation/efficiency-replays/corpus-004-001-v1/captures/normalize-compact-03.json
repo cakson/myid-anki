@@ -1,0 +1,53 @@
+{
+  "candidate_ids": [
+    "clothing-contrast-004"
+  ],
+  "effort": "low",
+  "elapsed_ms": 8925,
+  "input_tokens": 30716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 415,
+  "prompt_bytes": 67205,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"clothing-001:clothing-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Underwear is clothing worn beneath outer garments; trousers are lower-body outer clothing.\"},{\"other_id\":\"tb25-home-001:home-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Underwear is undergarment worn beneath outer clothes; pajamas are sleepwear.\"},{\"other_id\":\"tb25-home-001:home-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Underwear is undergarment; shorts are short outer trousers.\"},{\"other_id\":\"tb25-home-001:home-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Underwear is worn beneath outer clothes; socks are foot coverings.\"},{\"other_id\":\"corpus-004-001-s005:tmp-daily-life-s005-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Underwear is ordinary underclothing; a diaper is an absorbent baby-care garment.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-01",
+          "rationale": "Underwear is clothing worn beneath outer garments; trousers are lower-body outer clothing.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-home-001:home-03",
+          "rationale": "Underwear is undergarment worn beneath outer clothes; pajamas are sleepwear.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-home-001:home-04",
+          "rationale": "Underwear is undergarment; shorts are short outer trousers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-home-001:home-01",
+          "rationale": "Underwear is worn beneath outer clothes; socks are foot coverings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s005:tmp-daily-life-s005-003",
+          "rationale": "Underwear is ordinary underclothing; a diaper is an absorbent baby-care garment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:33:48.643683+00:00",
+  "input_digest": "07e91255945dedd785ecfea283df628fa12c3667f91f0b9e5eb3a5a4042bb110",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Irritated means annoyed by an unpleasant situation or person, typically an immediate reaction; resentful means holding lasting anger about a wrong. The senses and both answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-008",
+          "rationale": "Irritated means annoyed by an unpleasant situation or person, typically an immediate reaction; resentful means holding lasting anger about a wrong. The senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-008",
+        "rationale": "Irritated means annoyed by an unpleasant situation or person, typically an immediate reaction; resentful means holding lasting anger about a wrong. The senses and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8b7fc1204283a19da5b9a0fb71e63800e70ebde55b760facb61d89d8cc22e5bf"
+}

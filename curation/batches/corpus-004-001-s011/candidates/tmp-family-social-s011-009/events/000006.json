@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T01:36:58.810139+00:00",
+  "input_digest": "9295b1fe6642670e6621c0edd4ec18662932f6b8bbbd4591426e85961c89862d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Both forms refer to a person\\u2019s birthday celebration. Indonesian commonly uses \\\"ulang tahun\\\", while Malaysian commonly uses \\\"hari jadi\\\".\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers fit the same sense: the annual celebration of a person\\u2019s birth.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\\"Ulang tahun\\\" is understood in Malaysian Malay but is not the usual everyday preference for a birthday; \\\"hari jadi\\\" is the ordinary Malaysian form. In Indonesian, \\\"hari jadi\\\" more commonly refers to an anniversary or founding date.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"ulang tahun\", \"language\": \"malaysian\", \"rationale\": \"\\\"Ulang tahun\\\" exists and is understood in Malaysian usage, but does not generally displace \\\"hari jadi\\\" as the ordinary birthday term.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers fit the same sense: the annual celebration of a person’s birth.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "ulang tahun",
+        "language": "malaysian",
+        "rationale": "\"Ulang tahun\" exists and is understood in Malaysian usage, but does not generally displace \"hari jadi\" as the ordinary birthday term.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "Both forms refer to a person’s birthday celebration. Indonesian commonly uses \"ulang tahun\", while Malaysian commonly uses \"hari jadi\".",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "\"Ulang tahun\" is understood in Malaysian Malay but is not the usual everyday preference for a birthday; \"hari jadi\" is the ordinary Malaysian form. In Indonesian, \"hari jadi\" more commonly refers to an anniversary or founding date.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the same sense: the annual celebration of a person’s birth.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "ulang tahun",
+      "language": "malaysian",
+      "rationale": "\"Ulang tahun\" exists and is understood in Malaysian usage, but does not generally displace \"hari jadi\" as the ordinary birthday term.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Both forms refer to a person’s birthday celebration. Indonesian commonly uses \"ulang tahun\", while Malaysian commonly uses \"hari jadi\".",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "\"Ulang tahun\" is understood in Malaysian Malay but is not the usual everyday preference for a birthday; \"hari jadi\" is the ordinary Malaysian form. In Indonesian, \"hari jadi\" more commonly refers to an anniversary or founding date.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "1269d75e0b5bb81261a3eb91ab5123b09721951e1b44438861abfab453adddee"
+}

@@ -1,0 +1,77 @@
+{
+  "attempt_id": "33015b23e115c8d8",
+  "candidate_id": "tmp-clothing-002-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and appropriate for handbag in Indonesian.",
+      "evidence_refs": [
+        "https://freedict.com/translate/english-indonesian/handbag",
+        "https://id.glosbe.com/en/id/handbag"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tas tangan"
+    },
+    {
+      "conclusion": "Correct and standard for handbag in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=beg+tangan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tas",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/handbag"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: beg tangan"
+    },
+    {
+      "conclusion": "“Handbag” and “a small bag carried by hand” are semantically aligned, though handbags may also be carried on the shoulder.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/handbag",
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=beg+tangan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a common-preference contrast between Indonesian tas tangan and Malaysian beg tangan, not as an exclusive language boundary.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=beg+tangan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tas"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is involved; the forms are transparent compounds with the intended handbag meaning. Cross-variety alternatives exist, so the contrast should remain preference-based.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tas",
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=beg+tangan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "5d04f22019be1b602125cb80f6679027c0a99248c8f4181641e781859004efc2",
+  "correction_refs": [],
+  "decision_digest": "ff261ffe84dfd9e4f07eca2ab6431a88315b831c415fc6b853e911aee35b9064",
+  "elapsed_ms": 16698,
+  "finding_class": "none",
+  "input_tokens": 33094,
+  "model_calls": 1,
+  "output_tokens": 1143,
+  "packet_digest": "a83eccc13d9f01e1290b0a15095668d059488c58c451776fb3ae0def45c8ee58",
+  "rationale": "Both answers match established usage for handbag. “Tas tangan” is appropriate Indonesian, while “beg tangan” is the standard Malaysian Malay term. The sense is accurate. The relation is valid as a contrast of common preferences, provided it is not interpreted as exclusive ownership; no false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:40:03.358996+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s001/tmp-clothing-002-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s001",
+  "verdict": "cleared"
+}

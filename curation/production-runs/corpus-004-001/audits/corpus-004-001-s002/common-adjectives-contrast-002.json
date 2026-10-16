@@ -1,0 +1,74 @@
+{
+  "attempt_id": "f758b337cc27b9d4",
+  "candidate_id": "common-adjectives-contrast-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “surprised,” especially in colloquial Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kaget.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kaget"
+    },
+    {
+      "conclusion": "Correct and standard for “surprised” or “startled” in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: terkejut"
+    },
+    {
+      "conclusion": "“Surprised” and “feeling sudden surprise” align with both target words.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kaget.html",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a contextual/common-preference contrast, provided it is not interpreted as an exclusive lexical difference between the languages.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kaget"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is involved; the two forms are semantic equivalents or near-equivalents in this sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terkejut",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kaget"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "bd73ace1811752127783439a71b3c3563194c6cea079095ee943bd4e1720504b",
+  "correction_refs": [],
+  "decision_digest": "40cd62f844f91c16a0f2b599d0a2ccd0dad5982986899f7307ff61cefac07dd9",
+  "elapsed_ms": 20620,
+  "finding_class": "none",
+  "input_tokens": 49657,
+  "model_calls": 1,
+  "output_tokens": 1307,
+  "packet_digest": "fce29b1325796913d424b0e33b88df5dee9224de0d685da59f8b319c1cc34b03",
+  "rationale": "Both answers correctly express sudden surprise. Kaget is a standard Indonesian word, while terkejut is standard Malaysian Malay; both forms also exist across the broader Malay continuum, so the relation is a preference contrast rather than an exclusive national distinction. No false-friend contrast is present or needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:49:23.960261+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s002/common-adjectives-contrast-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s002",
+  "verdict": "cleared"
+}

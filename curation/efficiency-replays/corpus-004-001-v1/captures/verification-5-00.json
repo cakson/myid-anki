@@ -1,0 +1,147 @@
+{
+  "candidate_ids": [
+    "clothing-contrast-001",
+    "clothing-contrast-002",
+    "clothing-contrast-003",
+    "clothing-contrast-004",
+    "common-adjectives-contrast-001"
+  ],
+  "effort": "medium",
+  "elapsed_ms": 18052,
+  "input_tokens": 13589,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1984,
+  "prompt_bytes": 7672,
+  "raw_text": "{\"results\":[{\"candidate_id\":\"clothing-contrast-001\",\"response\":{\"verdict\":\"agree\",\"relation\":\"different-common-word\",\"concerns\":[],\"material_concerns\":[],\"rationale\":\"Dasi is the ordinary Indonesian term, while tali leher is the ordinary Malaysian term for neckwear worn with a shirt.\",\"objection_assessments\":[],\"cue_alignment\":\"aligned\",\"cue_rewrite\":\"\",\"cue_rationale\":\"Both forms denote a necktie worn with a shirt.\",\"shared_synonym_case\":\"none\",\"shared_synonym_rationale\":\"none\",\"nonblocking_risk\":\"none\",\"risk_rationale\":\"\",\"preference_risk\":{\"signal\":\"no-preference-concern\",\"form\":\"\",\"language\":\"none\",\"rationale\":\"No concrete preference risk identified.\"}}},{\"candidate_id\":\"clothing-contrast-002\",\"response\":{\"verdict\":\"agree\",\"relation\":\"similar\",\"concerns\":[],\"material_concerns\":[],\"rationale\":\"Kerah and kolar have the same sense and are the ordinary Indonesian and Malaysian forms, respectively; the spelling difference provides a useful contrast.\",\"objection_assessments\":[],\"cue_alignment\":\"aligned\",\"cue_rewrite\":\"\",\"cue_rationale\":\"Both denote the upper part of a shirt around the neck.\",\"shared_synonym_case\":\"none\",\"shared_synonym_rationale\":\"none\",\"nonblocking_risk\":\"none\",\"risk_rationale\":\"\",\"preference_risk\":{\"signal\":\"no-preference-concern\",\"form\":\"\",\"language\":\"none\",\"rationale\":\"No concrete preference risk identified.\"}}},{\"candidate_id\":\"clothing-contrast-003\",\"response\":{\"verdict\":\"agree\",\"relation\":\"similar\",\"concerns\":[],\"material_concerns\":[],\"rationale\":\"Blus and blaus are corresponding ordinary forms for a light women's shirt in Indonesian and Malaysian Malay, with a useful spelling difference.\",\"objection_assessments\":[],\"cue_alignment\":\"aligned\",\"cue_rewrite\":\"\",\"cue_rationale\":\"Both forms denote a light women's shirt.\",\"shared_synonym_case\":\"none\",\"shared_synonym_rationale\":\"none\",\"nonblocking_risk\":\"none\",\"risk_rationale\":\"\",\"preference_risk\":{\"signal\":\"no-preference-concern\",\"form\":\"\",\"language\":\"none\",\"rationale\":\"No concrete preference risk identified.\"}}},{\"candidate_id\":\"clothing-contrast-004\",\"response\":{\"verdict\":\"object\",\"relation\":\"different-common-word\",\"concerns\":[\"The Indonesian form is a broad category term for underwear, while the Malaysian form specifically denotes underpants.\",\"The pair does not reliably express the same exact sense.\"],\"material_concerns\":[\"Category-versus-subtype mismatch: pakaian dalam covers underwear generally, whereas seluar dalam specifically means underpants.\"],\"rationale\":\"The proposed forms are not aligned for the stated broad cue: pakaian dalam is generic underwear, while seluar dalam narrows the meaning to lower-body underwear.\",\"objection_assessments\":[],\"cue_alignment\":\"material-risk\",\"cue_rewrite\":\"\",\"cue_rationale\":\"No concise cue preserves the stated broad concept while making both answers exact equivalents; narrowing to underpants would not make pakaian dalam equally specific.\",\"shared_synonym_case\":\"weak-contrast\",\"shared_synonym_rationale\":\"Pakaian dalam is also a plausible Malay alternative for generic underwear, so the national preference is not cleanly exclusive and the pair's category/subtype distinction can mislead.\",\"nonblocking_risk\":\"none\",\"risk_rationale\":\"\",\"preference_risk\":{\"signal\":\"same-sense-competition\",\"form\":\"pakaian dalam\",\"language\":\"malaysian\",\"rationale\":\"Pakaian dalam can compete with seluar dalam for the broader underwear sense in Malaysian Malay.\"}}},{\"candidate_id\":\"common-adjectives-contrast-001\",\"response\":{\"verdict\":\"agree\",\"relation\":\"different-common-word\",\"concerns\":[],\"material_concerns\":[],\"rationale\":\"Gratis is the ordinary Indonesian preference and percuma the ordinary Malaysian preference for something available without payment.\",\"objection_assessments\":[],\"cue_alignment\":\"aligned\",\"cue_rewrite\":\"\",\"cue_rationale\":\"Both forms express availability without payment.\",\"shared_synonym_case\":\"useful-preference\",\"shared_synonym_rationale\":\"Cuma-cuma is also ordinary in Indonesian for this sense, but gratis remains a credible everyday Indonesian preference while percuma is the usual Malaysian form.\",\"nonblocking_risk\":\"minor\",\"risk_rationale\":\"Cuma-cuma provides a common Indonesian alternative, though it does not defeat the proposed national preference.\",\"preference_risk\":{\"signal\":\"named-alternative-exists\",\"form\":\"cuma-cuma\",\"language\":\"indonesian\",\"rationale\":\"Cuma-cuma is an ordinary Indonesian alternative for 'free of charge,' but gratis remains a useful common preference.\"}}}]}",
+  "response": {
+    "results": [
+      {
+        "candidate_id": "clothing-contrast-001",
+        "response": {
+          "concerns": [],
+          "cue_alignment": "aligned",
+          "cue_rationale": "Both forms denote a necktie worn with a shirt.",
+          "cue_rewrite": "",
+          "material_concerns": [],
+          "nonblocking_risk": "none",
+          "objection_assessments": [],
+          "preference_risk": {
+            "form": "",
+            "language": "none",
+            "rationale": "No concrete preference risk identified.",
+            "signal": "no-preference-concern"
+          },
+          "rationale": "Dasi is the ordinary Indonesian term, while tali leher is the ordinary Malaysian term for neckwear worn with a shirt.",
+          "relation": "different-common-word",
+          "risk_rationale": "",
+          "shared_synonym_case": "none",
+          "shared_synonym_rationale": "none",
+          "verdict": "agree"
+        }
+      },
+      {
+        "candidate_id": "clothing-contrast-002",
+        "response": {
+          "concerns": [],
+          "cue_alignment": "aligned",
+          "cue_rationale": "Both denote the upper part of a shirt around the neck.",
+          "cue_rewrite": "",
+          "material_concerns": [],
+          "nonblocking_risk": "none",
+          "objection_assessments": [],
+          "preference_risk": {
+            "form": "",
+            "language": "none",
+            "rationale": "No concrete preference risk identified.",
+            "signal": "no-preference-concern"
+          },
+          "rationale": "Kerah and kolar have the same sense and are the ordinary Indonesian and Malaysian forms, respectively; the spelling difference provides a useful contrast.",
+          "relation": "similar",
+          "risk_rationale": "",
+          "shared_synonym_case": "none",
+          "shared_synonym_rationale": "none",
+          "verdict": "agree"
+        }
+      },
+      {
+        "candidate_id": "clothing-contrast-003",
+        "response": {
+          "concerns": [],
+          "cue_alignment": "aligned",
+          "cue_rationale": "Both forms denote a light women's shirt.",
+          "cue_rewrite": "",
+          "material_concerns": [],
+          "nonblocking_risk": "none",
+          "objection_assessments": [],
+          "preference_risk": {
+            "form": "",
+            "language": "none",
+            "rationale": "No concrete preference risk identified.",
+            "signal": "no-preference-concern"
+          },
+          "rationale": "Blus and blaus are corresponding ordinary forms for a light women's shirt in Indonesian and Malaysian Malay, with a useful spelling difference.",
+          "relation": "similar",
+          "risk_rationale": "",
+          "shared_synonym_case": "none",
+          "shared_synonym_rationale": "none",
+          "verdict": "agree"
+        }
+      },
+      {
+        "candidate_id": "clothing-contrast-004",
+        "response": {
+          "concerns": [
+            "The Indonesian form is a broad category term for underwear, while the Malaysian form specifically denotes underpants.",
+            "The pair does not reliably express the same exact sense."
+          ],
+          "cue_alignment": "material-risk",
+          "cue_rationale": "No concise cue preserves the stated broad concept while making both answers exact equivalents; narrowing to underpants would not make pakaian dalam equally specific.",
+          "cue_rewrite": "",
+          "material_concerns": [
+            "Category-versus-subtype mismatch: pakaian dalam covers underwear generally, whereas seluar dalam specifically means underpants."
+          ],
+          "nonblocking_risk": "none",
+          "objection_assessments": [],
+          "preference_risk": {
+            "form": "pakaian dalam",
+            "language": "malaysian",
+            "rationale": "Pakaian dalam can compete with seluar dalam for the broader underwear sense in Malaysian Malay.",
+            "signal": "same-sense-competition"
+          },
+          "rationale": "The proposed forms are not aligned for the stated broad cue: pakaian dalam is generic underwear, while seluar dalam narrows the meaning to lower-body underwear.",
+          "relation": "different-common-word",
+          "risk_rationale": "",
+          "shared_synonym_case": "weak-contrast",
+          "shared_synonym_rationale": "Pakaian dalam is also a plausible Malay alternative for generic underwear, so the national preference is not cleanly exclusive and the pair's category/subtype distinction can mislead.",
+          "verdict": "object"
+        }
+      },
+      {
+        "candidate_id": "common-adjectives-contrast-001",
+        "response": {
+          "concerns": [],
+          "cue_alignment": "aligned",
+          "cue_rationale": "Both forms express availability without payment.",
+          "cue_rewrite": "",
+          "material_concerns": [],
+          "nonblocking_risk": "minor",
+          "objection_assessments": [],
+          "preference_risk": {
+            "form": "cuma-cuma",
+            "language": "indonesian",
+            "rationale": "Cuma-cuma is an ordinary Indonesian alternative for 'free of charge,' but gratis remains a useful common preference.",
+            "signal": "named-alternative-exists"
+          },
+          "rationale": "Gratis is the ordinary Indonesian preference and percuma the ordinary Malaysian preference for something available without payment.",
+          "relation": "different-common-word",
+          "risk_rationale": "Cuma-cuma provides a common Indonesian alternative, though it does not defeat the proposed national preference.",
+          "shared_synonym_case": "useful-preference",
+          "shared_synonym_rationale": "Cuma-cuma is also ordinary in Indonesian for this sense, but gratis remains a credible everyday Indonesian preference while percuma is the usual Malaysian form.",
+          "verdict": "agree"
+        }
+      }
+    ]
+  },
+  "retrievals": null
+}

@@ -1,0 +1,97 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-finance-admin-s012-001",
+    "english": "savings",
+    "indonesian": "tabungan",
+    "malaysian": "simpanan",
+    "sense": "money kept in a bank or set aside for future use",
+    "tags": [
+      "different-common-word",
+      "banking"
+    ]
+  },
+  "candidate_id": "tmp-finance-admin-s012-001",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "correctable",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "simpanan",
+        "language": "both",
+        "rationale": "Simpanan is a plausible formal or shared alternative in Indonesian, while it is the ordinary Malaysian form; register and regional variation may soften the contrast.",
+        "signal": "regional-or-register-competition"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Tabungan is the ordinary Indonesian term, while simpanan is the ordinary Malaysian term for money saved or kept for future use. The contrast is useful without implying exclusive ownership. The concise cue is narrowed to money saved for future use. Review concern: Simpanan may be understood and occasionally used in Indonesian, particularly formally, so the preference is not absolute.",
+    "confidence_tier": "low",
+    "cue_correction": {
+      "from": "savings",
+      "to": "money saved for future use"
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "cue-corrected",
+      "regional-register-risk",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "money saved for future use",
+    "image": "",
+    "indonesian": "tabungan",
+    "malaysian": "simpanan",
+    "relation": "different-common-word",
+    "tags": "different-common-word banking"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s012"
+}

@@ -1,0 +1,56 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 24741,
+  "input_tokens": 50167,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1090,
+  "packet_digest": "359dc4577e881a69ae587ee7d649e827e293e7702f6f983481d2ff4a51669698",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both answers are valid, but the relation label is potentially misleading without noting overlap: Indonesian bangunan is also an ordinary word for building, while Malaysian gedung exists but is more restricted toward large buildings. No strong false-friend contrast is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue “building” and supplied structural sense are broadly appropriate, though “gedung” is narrower than generic English “building.”\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=384984&keyword=Building\",\"https://kbbi.co.id/arti-kata/gedung\"]},{\"subject\":\"Indonesian answer: gedung\",\"conclusion\":\"Correct for a large constructed building, especially offices, public buildings, commercial buildings, or venues; it is not the only ordinary Indonesian equivalent.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.co.id/arti-kata/gedung\",\"https://kbbi.web.id/bangunan\"]},{\"subject\":\"Malaysian answer: bangunan\",\"conclusion\":\"Correct and ordinary Malaysian Malay for a constructed building or structure.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1.aspx?d=10456&keyword=bangunan\",\"https://prpm.dbp.gov.my/Cari1?d=384984&keyword=Building\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"“Different-common-word” is defensible only as a preference claim, not as an exclusivity claim. Indonesian bangunan also covers this sense, and Malaysian gedung is attested for large buildings. The empty contrast field fails to warn learners about this overlap; there is no clear false-friend pair.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/bangunan\",\"https://prpm.dbp.gov.my/Cari1.aspx?d=10456&keyword=bangunan\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gedung\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The cue “building” and supplied structural sense are broadly appropriate, though “gedung” is narrower than generic English “building.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=384984&keyword=Building",
+          "https://kbbi.co.id/arti-kata/gedung"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct for a large constructed building, especially offices, public buildings, commercial buildings, or venues; it is not the only ordinary Indonesian equivalent.",
+        "evidence_refs": [
+          "https://kbbi.co.id/arti-kata/gedung",
+          "https://kbbi.web.id/bangunan"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: gedung"
+      },
+      {
+        "conclusion": "Correct and ordinary Malaysian Malay for a constructed building or structure.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1.aspx?d=10456&keyword=bangunan",
+          "https://prpm.dbp.gov.my/Cari1?d=384984&keyword=Building"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: bangunan"
+      },
+      {
+        "conclusion": "“Different-common-word” is defensible only as a preference claim, not as an exclusivity claim. Indonesian bangunan also covers this sense, and Malaysian gedung is attested for large buildings. The empty contrast field fails to warn learners about this overlap; there is no clear false-friend pair.",
+        "evidence_refs": [
+          "https://kbbi.web.id/bangunan",
+          "https://prpm.dbp.gov.my/Cari1.aspx?d=10456&keyword=bangunan",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gedung"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both answers are valid, but the relation label is potentially misleading without noting overlap: Indonesian bangunan is also an ordinary word for building, while Malaysian gedung exists but is more restricted toward large buildings. No strong false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

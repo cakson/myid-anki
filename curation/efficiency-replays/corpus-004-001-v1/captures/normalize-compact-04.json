@@ -1,0 +1,47 @@
+{
+  "candidate_ids": [
+    "common-adjectives-contrast-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7114,
+  "input_tokens": 30721,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 383,
+  "prompt_bytes": 67223,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Price is the amount charged; free (no cost) means no payment is required.\"},{\"other_id\":\"cal2-shopping-001:shopping-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Cash is physical money, whereas free (no cost) indicates that payment is not required.\"},{\"other_id\":\"cal2-shopping-001:shopping-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Payment is the act or amount of paying; free (no cost) means no payment is required.\"},{\"other_id\":\"000044\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A discount is a reduction in price, while free (no cost) means the price is zero.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-01",
+          "rationale": "Price is the amount charged; free (no cost) means no payment is required.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-02",
+          "rationale": "Cash is physical money, whereas free (no cost) indicates that payment is not required.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-06",
+          "rationale": "Payment is the act or amount of paying; free (no cost) means no payment is required.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000044",
+          "rationale": "A discount is a reduction in price, while free (no cost) means the price is zero.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

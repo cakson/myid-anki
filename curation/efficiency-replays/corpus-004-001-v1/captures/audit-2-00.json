@@ -1,0 +1,111 @@
+{
+  "candidate_ids": [
+    "clothing-contrast-001",
+    "common-adjectives-contrast-001"
+  ],
+  "effort": "medium",
+  "elapsed_ms": 10019,
+  "input_tokens": 13014,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 878,
+  "prompt_bytes": 5438,
+  "raw_text": "{\"results\":[{\"candidate_id\":\"clothing-contrast-001\",\"response\":{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are accurate for the specified neckwear sense. The English cue is sufficiently precise, the relation is correctly classified as different common words, and no false-friend issue is present.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: dasi\",\"conclusion\":\"Accurate ordinary Indonesian term for a necktie.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Independent linguistic assessment without external citation.\"},{\"subject\":\"Malaysian Malay answer: tali leher\",\"conclusion\":\"Accurate ordinary Malaysian Malay term for a necktie.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Independent linguistic assessment without external citation.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Necktie” correctly specifies neckwear worn with a shirt.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No material ambiguity identified.\"},{\"subject\":\"Final relation\",\"conclusion\":\"“Different-common-word” is correct for dasi versus tali leher.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Relation assessed from the supplied forms.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is claimed or needed.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No deceptive cross-variety similarity identified.\"}]}},{\"candidate_id\":\"common-adjectives-contrast-001\",\"response\":{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers accurately express the no-cost sense. The English cue is clear, the relation is correctly classified as different common words, and the possible informal use of English “free” does not create a learner-critical or false-friend risk.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: gratis\",\"conclusion\":\"Accurate common Indonesian term meaning free of charge.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Independent linguistic assessment without external citation.\"},{\"subject\":\"Malaysian Malay answer: percuma\",\"conclusion\":\"Accurate common Malaysian Malay term meaning free of charge.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Independent linguistic assessment without external citation.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Free (no cost)” clearly identifies the intended sense and avoids the unrelated meanings of free.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No material ambiguity identified.\"},{\"subject\":\"Final relation\",\"conclusion\":\"“Different-common-word” is correct for gratis versus percuma.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Relation assessed from the supplied forms.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is claimed or present; shared informal borrowing of “free” does not make the listed forms misleading.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No deceptive cross-variety similarity identified.\"}]}}]}",
+  "response": {
+    "results": [
+      {
+        "candidate_id": "clothing-contrast-001",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Accurate ordinary Indonesian term for a necktie.",
+              "evidence_limitation": "Independent linguistic assessment without external citation.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "Indonesian answer: dasi"
+            },
+            {
+              "conclusion": "Accurate ordinary Malaysian Malay term for a necktie.",
+              "evidence_limitation": "Independent linguistic assessment without external citation.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "Malaysian Malay answer: tali leher"
+            },
+            {
+              "conclusion": "“Necktie” correctly specifies neckwear worn with a shirt.",
+              "evidence_limitation": "No material ambiguity identified.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "“Different-common-word” is correct for dasi versus tali leher.",
+              "evidence_limitation": "Relation assessed from the supplied forms.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "Final relation"
+            },
+            {
+              "conclusion": "No false-friend contrast is claimed or needed.",
+              "evidence_limitation": "No deceptive cross-variety similarity identified.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "False-friend contrast"
+            }
+          ],
+          "finding_class": "none",
+          "rationale": "Both answers are accurate for the specified neckwear sense. The English cue is sufficiently precise, the relation is correctly classified as different common words, and no false-friend issue is present.",
+          "schema_version": 1,
+          "verdict": "cleared"
+        }
+      },
+      {
+        "candidate_id": "common-adjectives-contrast-001",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Accurate common Indonesian term meaning free of charge.",
+              "evidence_limitation": "Independent linguistic assessment without external citation.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "Indonesian answer: gratis"
+            },
+            {
+              "conclusion": "Accurate common Malaysian Malay term meaning free of charge.",
+              "evidence_limitation": "Independent linguistic assessment without external citation.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "Malaysian Malay answer: percuma"
+            },
+            {
+              "conclusion": "“Free (no cost)” clearly identifies the intended sense and avoids the unrelated meanings of free.",
+              "evidence_limitation": "No material ambiguity identified.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "“Different-common-word” is correct for gratis versus percuma.",
+              "evidence_limitation": "Relation assessed from the supplied forms.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "Final relation"
+            },
+            {
+              "conclusion": "No false-friend contrast is claimed or present; shared informal borrowing of “free” does not make the listed forms misleading.",
+              "evidence_limitation": "No deceptive cross-variety similarity identified.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "False-friend contrast"
+            }
+          ],
+          "finding_class": "none",
+          "rationale": "Both answers accurately express the no-cost sense. The English cue is clear, the relation is correctly classified as different common words, and the possible informal use of English “free” does not create a learner-critical or false-friend risk.",
+          "schema_version": 1,
+          "verdict": "cleared"
+        }
+      }
+    ]
+  },
+  "retrievals": null
+}

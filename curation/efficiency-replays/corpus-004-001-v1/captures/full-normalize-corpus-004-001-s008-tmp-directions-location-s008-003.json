@@ -1,0 +1,36 @@
+{
+  "candidate_ids": [
+    "tmp-directions-location-s008-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6179,
+  "input_tokens": 30712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 246,
+  "prompt_bytes": 67227,
+  "prompt_sha256": "aa85f96675d4b7166da095801728080285e51614b9959e516be9170b434eb30b",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s008:tmp-directions-location-s008-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A pedestrian crossing is a marked place for crossing the road, whereas a sidewalk is a path beside the road.\"},{\"other_id\":\"tb25-actions-001:actions-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A pedestrian crossing is a location or facility; to cross the road is the action of moving from one side to the other.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s008:tmp-directions-location-s008-004",
+          "rationale": "A pedestrian crossing is a marked place for crossing the road, whereas a sidewalk is a path beside the road.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-actions-001:actions-04",
+          "rationale": "A pedestrian crossing is a location or facility; to cross the road is the action of moving from one side to the other.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

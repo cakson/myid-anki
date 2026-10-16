@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T13:33:52.622250+00:00",
+  "result": {
+    "candidate_digest": "d76d15ba487d1d6f66f0c68e5b099e04a1dd9fdf95348841d005381cf8987909",
+    "candidate_id": "tmp-technology-s016-002",
+    "checked_at": "2026-10-16T13:33:52.622250+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "correctable",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "setting",
+        "language": "both",
+        "rationale": "The English borrowing may be understood and used informally in both varieties, though the proposed localized terms remain credible preferences.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Pengaturan is the ordinary Indonesian term, while tetapan is the ordinary Malaysian term for options used to configure a device or application. The concise cue is narrowed to device/app settings. Review concern: The English borrowing 'setting' may appear informally in either variety, especially in tech contexts.",
+    "confidence_tier": "low",
+    "cue_correction": {
+      "from": "settings",
+      "to": "device/app settings"
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "cue-corrected",
+      "shared-common-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

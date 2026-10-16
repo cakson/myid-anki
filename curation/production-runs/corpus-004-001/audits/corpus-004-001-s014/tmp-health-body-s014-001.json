@@ -1,0 +1,74 @@
+{
+  "attempt_id": "1f39aaae0e8022f1",
+  "candidate_id": "tmp-health-body-s014-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Pergelangan kaki” is a correct Indonesian term for ankle.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pergelangan%20kaki"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Buku lali” is the standard Malaysian Malay term for ankle.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=buku+lali"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“Ankle” and “joint connecting the foot and lower leg” accurately match both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=buku+lali",
+        "https://kbbi.web.id/pergelangan%20kaki"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate because the varieties use different ordinary terms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=buku+lali",
+        "https://kbbi.web.id/pergelangan%20kaki"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present. Indonesian “mata kaki” is a related alternative/description, not a misleading cognate conflict.",
+      "evidence_refs": [
+        "https://kbbi.co.id/arti-kata/mata",
+        "https://prpm.dbp.gov.my/cari1?keyword=mata+kaki"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "5b69e676776a93075a2a05372c022476d2ffb34e2e51e4a1e60fa8b2a12c43e6",
+  "correction_refs": [],
+  "decision_digest": "498aa80597ada25521b45a3bfdd6e27df7a1919603b7f70f87b30578a743f2f8",
+  "elapsed_ms": 19002,
+  "finding_class": "none",
+  "input_tokens": 49899,
+  "model_calls": 1,
+  "output_tokens": 889,
+  "packet_digest": "8b394035345d5725aed9b242c64106cead3739cc3229094889cbcb2c48969af0",
+  "rationale": "Both answers correctly identify the ankle region/joint: Indonesian “pergelangan kaki” and Malaysian Malay “buku lali.” The English cue and sense align, the different-common-word relation is valid, and no material false-friend issue is present. “Mata kaki” is a related Indonesian alternative, not a reason to reject the answer.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:04:43.689282+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s014/tmp-health-body-s014-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s014",
+  "verdict": "cleared"
+}

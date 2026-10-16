@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:32:59.092478+00:00",
+  "input_digest": "063ea973100eba54568ce3f77f76f7174ee37e9b71153edc3f152b3371f13aff",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-social-001:social-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both involve anxiety, but \\u201cnervous\\u201d specifically describes anxiousness before or during an event, whereas \\u201cworried\\u201d describes concern about a possible problem; the senses are clearly distinct.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-social-001:social-02",
+          "rationale": "Both involve anxiety, but “nervous” specifically describes anxiousness before or during an event, whereas “worried” describes concern about a possible problem; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-social-001:social-02",
+        "rationale": "Both involve anxiety, but “nervous” specifically describes anxiousness before or during an event, whereas “worried” describes concern about a possible problem; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "fc6c7d0304b746a98825e1ce4c9a01541ce3dc55f2eb4fc35fa70632f9c94e74"
+}

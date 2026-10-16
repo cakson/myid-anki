@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-emotions-s010-005"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6349,
+  "input_tokens": 30717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 262,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "9e8a8ef626ae5be61a7eccd33fdec7bd68420b4ebe76f54b20d27cdf6088282a",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Irritated means temporarily annoyed by an unpleasant situation or person, whereas resentful means holding lasting anger about a perceived wrong; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-008",
+          "rationale": "Irritated means temporarily annoyed by an unpleasant situation or person, whereas resentful means holding lasting anger about a perceived wrong; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6321,
+  "input_digest": "ee06a7f4189e9fbd02abedef034d7033dc12b5ccbcaea449b3b82f001fcc808f",
+  "input_tokens": 54574,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 281,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-travel-001:travel-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A tour guide is a person who guides tourists; a tourist is a person traveling for pleasure or sightseeing. The roles and senses are distinct.\"},{\"other_id\":\"transportation-001:transportation-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Although the Indonesian word pemandu overlaps, the existing concept means a road vehicle driver, while tour guide means a person guiding tourists; the senses and English cues are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-05",
+          "rationale": "A tour guide is a person who guides tourists; a tourist is a person traveling for pleasure or sightseeing. The roles and senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "transportation-001:transportation-07",
+          "rationale": "Although the Indonesian word pemandu overlaps, the existing concept means a road vehicle driver, while tour guide means a person guiding tourists; the senses and English cues are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

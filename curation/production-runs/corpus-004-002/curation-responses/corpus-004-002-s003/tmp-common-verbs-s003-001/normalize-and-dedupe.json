@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7177,
+  "input_digest": "39418da9ca3e2cbf87f0f92c055ec574ea66a51b022dfe62c3d8ca98a4618210",
+  "input_tokens": 54578,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 214,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s015:tmp-shopping-s015-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate means shopping as a general activity, while this entry specifically means shopping through the internet; the online modality creates a clear sense distinction.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s015:tmp-shopping-s015-003",
+          "rationale": "The candidate means shopping as a general activity, while this entry specifically means shopping through the internet; the online modality creates a clear sense distinction.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

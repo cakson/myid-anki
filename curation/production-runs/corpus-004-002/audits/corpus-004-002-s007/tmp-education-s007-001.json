@@ -1,0 +1,72 @@
+{
+  "attempt_id": "1ce50092561bfd66",
+  "candidate_id": "tmp-education-s007-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Blackboard” is narrower than a generic writing board: it conventionally refers to a board used for writing with chalk.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=papan+hitam"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and ordinary Indonesian for a classroom writing board, but semantically broader than “blackboard”; it may include a whiteboard and therefore is not an exact chalk-board equivalent.",
+      "evidence_refs": [
+        "https://kbbi.web.id/papan",
+        "https://kata.web.id/kamus/kbbi/arti-kata/papan-tulis"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: papan tulis"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay term matching a board normally painted black and used for writing with chalk.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=254640&keyword=papan+hitam",
+        "https://prpm.dbp.gov.my/Cari1?d=244840&keyword=papan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: papan hitam"
+    },
+    {
+      "conclusion": "“Different-common-word” is defensible only as a regional-preference label, not as a strict non-overlapping lexical distinction, because papan tulis and papan hitam can overlap in reference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=244840&keyword=papan",
+        "https://repositori.kemendikdasmen.go.id/2263/1/Masa%20Lampau%20Bahasa%20Indonesia.%20Sebuah%20bunga%20Rampai%20%281991%29.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No clear false friend is present. The issue is breadth and regional preference, not divergent meanings of otherwise similar-looking words.",
+      "evidence_limitation": "Available dictionary evidence supports semantic overlap and preference, but does not provide corpus frequency data sufficient to rank everyday usage across all Malaysian and Indonesian contexts.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ce8d96abf5509171c2efbff0c3fe90d1aa1436377699bbf9b6c08930b05d0c49",
+  "correction_refs": [],
+  "decision_digest": "d6c45d6e64d0c8be8e5fcc9cbece39cdea38967a03c49ecbc745012ce11e60ee",
+  "elapsed_ms": 19608,
+  "finding_class": "cue-content",
+  "input_tokens": 49520,
+  "model_calls": 1,
+  "output_tokens": 1098,
+  "packet_digest": "a811e9ed9747fdeb8c063afd662fba5548f832d2a5c70d169b3d7ab80afa1908",
+  "rationale": "Both forms are valid, but the Indonesian answer “papan tulis” is a generic writing board and does not specifically encode a black, chalk-writing board. Malaysian “papan hitam” directly matches the stated sense. The relation is better treated as a regional-preference/overlap contrast than as a strict different-common-word contrast. No false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:44:50.126362+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s007/tmp-education-s007-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s007",
+  "verdict": "needs-correction"
+}

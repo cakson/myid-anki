@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T01:38:53.897912+00:00",
+  "input_digest": "5459a6dc871f27b7a8a53e00c1c2ec90f352c6e54be01efd334953ebc51fbec8",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"For the spice sense, Indonesian commonly uses \\u201cmerica,\\u201d while Malaysian Malay commonly uses \\u201clada.\\u201d This is a useful national preference distinction.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"pepper spice\", \"cue_rationale\": \"\\u201cPepper\\u201d alone can also mean chili or bell pepper; \\u201cpepper spice\\u201d makes the intended seasoning sense clear for both answers.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\u201cMerica\\u201d may be understood in Malaysian Malay, but \\u201clada\\u201d is the ordinary Malaysian term; Indonesian uses \\u201cmerica\\u201d as the usual standalone term for this spice.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"\\u201cLada\\u201d appears in some Indonesian compounds, especially \\u201clada hitam,\\u201d so usage overlap exists without undermining the core contrast.\", \"preference_risk\": {\"signal\": \"regional-or-register-competition\", \"form\": \"lada\", \"language\": \"indonesian\", \"rationale\": \"\\u201cLada\\u201d occurs in Indonesian compounds and regional usage, but \\u201cmerica\\u201d remains the ordinary standalone term for pepper spice.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "correctable",
+      "cue_rationale": "“Pepper” alone can also mean chili or bell pepper; “pepper spice” makes the intended seasoning sense clear for both answers.",
+      "cue_rewrite": "pepper spice",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "lada",
+        "language": "indonesian",
+        "rationale": "“Lada” occurs in Indonesian compounds and regional usage, but “merica” remains the ordinary standalone term for pepper spice.",
+        "signal": "regional-or-register-competition"
+      },
+      "rationale": "For the spice sense, Indonesian commonly uses “merica,” while Malaysian Malay commonly uses “lada.” This is a useful national preference distinction.",
+      "relation": "different-common-word",
+      "risk_rationale": "“Lada” appears in some Indonesian compounds, especially “lada hitam,” so usage overlap exists without undermining the core contrast.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "“Merica” may be understood in Malaysian Malay, but “lada” is the ordinary Malaysian term; Indonesian uses “merica” as the usual standalone term for this spice.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "correctable",
+    "cue_rationale": "“Pepper” alone can also mean chili or bell pepper; “pepper spice” makes the intended seasoning sense clear for both answers.",
+    "cue_rewrite": "pepper spice",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "lada",
+      "language": "indonesian",
+      "rationale": "“Lada” occurs in Indonesian compounds and regional usage, but “merica” remains the ordinary standalone term for pepper spice.",
+      "signal": "regional-or-register-competition"
+    },
+    "rationale": "For the spice sense, Indonesian commonly uses “merica,” while Malaysian Malay commonly uses “lada.” This is a useful national preference distinction.",
+    "relation": "different-common-word",
+    "risk_rationale": "“Lada” appears in some Indonesian compounds, especially “lada hitam,” so usage overlap exists without undermining the core contrast.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "“Merica” may be understood in Malaysian Malay, but “lada” is the ordinary Malaysian term; Indonesian uses “merica” as the usual standalone term for this spice.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "6ea8e96d6a09f90c0c13c43d1623c1ea53b33c323e064359d20c5e0f4bbe4140"
+}

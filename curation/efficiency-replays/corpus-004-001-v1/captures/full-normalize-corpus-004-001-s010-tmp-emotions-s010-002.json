@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-emotions-s010-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 5635,
+  "input_tokens": 30714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 177,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "c573bee3fcd7f64c8c79ea058f982b33b56240f3fd65a9871f50e49e03dfa45a",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-002\",\"type\":\"synonym\",\"resolution\":\"distinct\",\"rationale\":\"Candidate 'nervous' describes anxiousness before or during an event, distinct from 'worried' as concern about a possible problem.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+          "rationale": "Candidate 'nervous' describes anxiousness before or during an event, distinct from 'worried' as concern about a possible problem.",
+          "resolution": "distinct",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

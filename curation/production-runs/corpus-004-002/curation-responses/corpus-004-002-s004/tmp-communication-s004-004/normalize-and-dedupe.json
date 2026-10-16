@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7254,
+  "input_digest": "b1b4dbf4647ba54e9e1cf344fbe45e559746a3bfd45ac48e0c77629a7977cf58",
+  "input_tokens": 54577,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 380,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-actions-001:actions-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"To explain means to make something clear by giving details; understand means to grasp meaning. The actions and senses differ.\"},{\"other_id\":\"corpus-004-002-s004:tmp-communication-s004-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"To explain is the act of clarifying something, whereas meaning is what a word, phrase, or message signifies.\"},{\"other_id\":\"corpus-004-002-s004:tmp-communication-s004-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"To explain involves clarifying a subject; conversation is an exchange between people.\"},{\"other_id\":\"corpus-004-002-s004:tmp-communication-s004-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"To explain gives details to clarify a subject; to translate expresses words in another language.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-02",
+          "rationale": "To explain means to make something clear by giving details; understand means to grasp meaning. The actions and senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s004:tmp-communication-s004-006",
+          "rationale": "To explain is the act of clarifying something, whereas meaning is what a word, phrase, or message signifies.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s004:tmp-communication-s004-002",
+          "rationale": "To explain involves clarifying a subject; conversation is an exchange between people.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s004:tmp-communication-s004-005",
+          "rationale": "To explain gives details to clarify a subject; to translate expresses words in another language.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

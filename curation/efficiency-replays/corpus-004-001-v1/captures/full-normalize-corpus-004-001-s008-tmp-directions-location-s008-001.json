@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-directions-location-s008-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 5845,
+  "input_tokens": 30724,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 171,
+  "prompt_bytes": 67227,
+  "prompt_sha256": "559b1ca0667fbf3df87df7775cc45e7bb603eb11222bec3ca7859c9f04c14f7e",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A roundabout is a circular road junction with circulating traffic, whereas an intersection is the general place where roads meet; the candidate's sense is more specific.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-10",
+          "rationale": "A roundabout is a circular road junction with circulating traffic, whereas an intersection is the general place where roads meet; the candidate's sense is more specific.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

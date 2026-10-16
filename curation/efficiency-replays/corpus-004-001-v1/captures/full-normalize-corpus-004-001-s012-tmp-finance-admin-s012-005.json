@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-finance-admin-s012-005"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7126,
+  "input_tokens": 30718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 226,
+  "prompt_bytes": 67224,
+  "prompt_sha256": "53bd3e338d01c04fd077c4854a5b6aa411dad0422be0b6664116e6055c33dc08",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-travel-001:travel-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Tax is money required by government from people or businesses; customs is the border authority/service that checks goods and collects duties. The shared Malay form in “bea cukai” does not indicate the same concept or matching answers.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-08",
+          "rationale": "Tax is money required by government from people or businesses; customs is the border authority/service that checks goods and collects duties. The shared Malay form in “bea cukai” does not indicate the same concept or matching answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

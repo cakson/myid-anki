@@ -1,0 +1,74 @@
+{
+  "attempt_id": "8b82a75ea31d5cb4",
+  "candidate_id": "tmp-transportation-s020-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Windshield correctly denotes the front glass panel above a car dashboard.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/kaca-depan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Kaca depan is an ordinary Indonesian term for windshield.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/windscreen"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Cermin depan is an established Malaysian Malay term for windshield; cermin hadapan is also used.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=mengelap",
+        "https://www.3mproshop.com.my/services/penggantian-cermin-depan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate because the ordinary forms differ across Indonesian and Malaysian Malay.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/windscreen",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=mengelap"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "The empty contrast field is a content omission: cermin in Malaysian cermin depan can correspond to Indonesian kaca in this automotive sense, so a brief contrast would reduce learner confusion with mirror-related vocabulary.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/kaca-depan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=mengelap"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d11731f933c7f0d4420a65883b0fde1c57972244f2009648bfbe3e8fa132b956",
+  "correction_refs": [],
+  "decision_digest": "42525a2111d0b32f34c5de7cdf6cee5b8941f002caa6092e1263997c9b285031",
+  "elapsed_ms": 21100,
+  "finding_class": "cue-content",
+  "input_tokens": 49900,
+  "model_calls": 1,
+  "output_tokens": 1132,
+  "packet_digest": "1fac5c51b0a5ebf3274daf163af0afea5c30cfe55708680c024e3501469b8a66",
+  "rationale": "Both target answers, the English cue, sense, and different-common-word relation are correct. However, the card omits a useful learner contrast: Indonesian kaca depan uses kaca, while Malaysian cermin depan uses cermin, which may otherwise be misread as 'mirror' by Indonesian-oriented learners. Malaysian cermin hadapan is also a documented variant, but this does not invalidate cermin depan.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:07:36.735179+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s020/tmp-transportation-s020-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s020",
+  "verdict": "needs-correction"
+}

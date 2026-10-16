@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5549,
+  "input_digest": "a6ae9032b949a4894e0f2a084539f324d3eafeb6cd14c43bb910b4cacade99a1",
+  "input_tokens": 45012,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 216,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s019:tmp-time-date-s019-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“tomorrow” means the day after today, while “yesterday” means the day before today; they are distinct temporal senses with different Indonesian and Malaysian answers.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s019:tmp-time-date-s019-002",
+          "rationale": "“tomorrow” means the day after today, while “yesterday” means the day before today; they are distinct temporal senses with different Indonesian and Malaysian answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

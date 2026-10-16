@@ -1,0 +1,74 @@
+{
+  "attempt_id": "28dcdba524f21818",
+  "candidate_id": "tmp-common-verbs-s003-006",
+  "claim_reviews": [
+    {
+      "conclusion": "“stay overnight” and “spend the night at a place” are aligned and accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bermalam",
+        "https://kbbi.cari.co/menginap"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "menginap is a correct, ordinary Indonesian expression for staying overnight.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/menginap"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "bermalam is a correct, ordinary Malaysian Malay expression for spending the night.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bermalam"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“different-common-word” is acceptable only as a preference contrast, not as an exclusive language boundary; the card should state that the forms overlap.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=menginap",
+        "https://kbbi.web.id/semalam"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend relationship is present; the forms are semantically equivalent overnight-stay verbs.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bermalam",
+        "https://kbbi.cari.co/menginap"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "b7c92225a553d926ad2d7dd2efdb65ab959353ef58fb2ab48d575b421a683404",
+  "correction_refs": [],
+  "decision_digest": "f22d92fcfc86f75fd7805e0b2124e001cb4d3574b4da3767a0e53458fb56a4b6",
+  "elapsed_ms": 21119,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49801,
+  "model_calls": 1,
+  "output_tokens": 1036,
+  "packet_digest": "33bd58169243f4749d9f1d1ddc518522aa9239fbb7969099778fc68023fae627",
+  "rationale": "Both translations correctly express spending the night, but the relation label should be qualified: menginap is common in Indonesian and bermalam is common in Malaysian Malay, yet both forms can occur across both varieties. There is no false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:52:58.856056+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s003/tmp-common-verbs-s003-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s003",
+  "verdict": "needs-correction"
+}
