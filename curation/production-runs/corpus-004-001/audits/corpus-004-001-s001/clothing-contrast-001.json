@@ -1,0 +1,73 @@
+{
+  "attempt_id": "83334bf72af0fa00",
+  "candidate_id": "clothing-contrast-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“dasi” is the standard Indonesian term for necktie.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Busana.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“tali leher” is the standard Malaysian Malay term for necktie.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=tali+leher",
+        "https://prpm.dbp.gov.my/cari1?keyword=tie"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“necktie” accurately specifies the intended neckwear worn under a shirt collar; bare “tie” would be ambiguous but is not used in the final learner content.",
+      "evidence_refs": [
+        "https://www.merriam-webster.com/dictionary/necktie"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate: the two varieties commonly use distinct terms for the same sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=tali+leher",
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Busana.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present. “dasi” and “tali leher” are different forms with the same necktie meaning, rather than similar-looking forms with divergent meanings.",
+      "evidence_limitation": "The conclusion is semantic and does not require a dedicated false-friends corpus entry.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "30e500e35f21f12464ba80985bda7674e05b7f2e1a1da30c221a38b85a7e0747",
+  "correction_refs": [],
+  "decision_digest": "de52fe69673303816820b0e9b2a3a1c75956d494da8599397a933f44a42ed68e",
+  "elapsed_ms": 18259,
+  "finding_class": "none",
+  "input_tokens": 29294,
+  "model_calls": 1,
+  "output_tokens": 724,
+  "packet_digest": "1f78a1aee9f4719b01765eb12a4afc8e486c7cd6b9c30032d8f36c4820049e7b",
+  "rationale": "Both target forms and the narrowed English cue are accurate for the necktie sense. The Indonesian–Malaysian contrast is a different-common-word relation, not a false friend. English “tie” is potentially ambiguous, but the learner card correctly uses “necktie.”",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:48:41.938868+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s001/clothing-contrast-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-001-s001",
+  "verdict": "cleared"
+}

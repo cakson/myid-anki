@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:19:41.352050+00:00",
+  "input_digest": "b84a93e9741864593d958d63e699008c7c3c1225c77901eed6fa4cbb5eb4e6ee",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A shopping mall is a specific type of large commercial building; the candidate denotes a general constructed structure with rooms or floors.\"}, {\"other_id\": \"corpus-004-002-s006:tmp-directions-location-s006-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A building floor is one level within a building, whereas the candidate denotes the complete constructed structure.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-09",
+          "rationale": "A shopping mall is a specific type of large commercial building; the candidate denotes a general constructed structure with rooms or floors.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-003",
+          "rationale": "A building floor is one level within a building, whereas the candidate denotes the complete constructed structure.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-09",
+        "rationale": "A shopping mall is a specific type of large commercial building; the candidate denotes a general constructed structure with rooms or floors.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s006:tmp-directions-location-s006-003",
+        "rationale": "A building floor is one level within a building, whereas the candidate denotes the complete constructed structure.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8f65958c050c51208bad5b362470f916fc4388fa3e777af8faac8db80c86fd71"
+}

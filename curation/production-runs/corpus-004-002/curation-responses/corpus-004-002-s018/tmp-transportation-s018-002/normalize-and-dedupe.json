@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 8245,
+  "input_digest": "e246df4f5399dc1a00d60dd2155843229d3638c3a6b7ea9267d9c6dc233e2ddb",
+  "input_tokens": 55455,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 183,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"transportation-001:transportation-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Gasoline is the fuel substance used in petrol-powered vehicles, while fuel station is a place where vehicles are refueled; the senses and both answer pairs differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-10",
+          "rationale": "Gasoline is the fuel substance used in petrol-powered vehicles, while fuel station is a place where vehicles are refueled; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

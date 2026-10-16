@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17115,
+  "input_tokens": 33073,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1203,
+  "packet_digest": "5b5b703d68e1f3301120bdc99939ac8d27ae177acce4ea7cd3b3d2d43f91db31",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both phrases are valid and match the homesick sense, but the relation label overstates a language-specific contrast. “Rindu rumah” and “rindu kampung” are overlapping Malay-family expressions, and both varieties can use broader alternatives such as “rindu kampung halaman.” No false-friend contrast is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“homesick” and “missing one's home while away” are correctly aligned.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.liputan6.com/feeds/read/5898360/apa-itu-homesick-memahami-rindu-rumah-dan-cara-mengatasinya\"]},{\"subject\":\"Indonesian answer: rindu rumah\",\"conclusion\":\"Valid, natural Indonesian expression for homesickness.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.liputan6.com/feeds/read/5898360/apa-itu-homesick-memahami-rindu-rumah-dan-cara-mengatasinya\",\"https://www.idntimes.com/life/inspiration/5-tanda-kamu-sedang-merindukan-rumah-gejala-homesick-01-qnqcw-1vcfr3\"]},{\"subject\":\"Malaysian answer: rindu kampung\",\"conclusion\":\"Plausible and understandable Malaysian Malay expression, especially for longing for one's kampung or home region, but not established here as an exclusive Malaysian preference.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.wordhippo.com/what-is/the-meaning-of/malay-word-9bafc04695e1f789314b0d7675d6333741fe452f.html\",\"https://www.reddit.com/r/malaysia/comments/gn4j2n/\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“different-common-word” is potentially misleading because the forms share the core word rindu, overlap in meaning, and are preferential rather than cleanly variety-exclusive.\",\"material_risk\":true,\"evidence_refs\":[\"https://www.wordhippo.com/what-is/the-meaning-of/malay-word-9bafc04695e1f789314b0d7675d6333741fe452f.html\",\"https://www.liputan6.com/lifestyle/read/2673280/ini-penyebab-anda-rindu-kampung-halaman\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supported or needed; the contrast field may remain empty, but the card should state that the distinction is a usage preference or overlapping variant choice.\",\"material_risk\":false,\"evidence_limitation\":\"Available evidence supports overlapping senses but is insufficient for a rigorous corpus-based regional exclusivity claim.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“homesick” and “missing one's home while away” are correctly aligned.",
+        "evidence_refs": [
+          "https://www.liputan6.com/feeds/read/5898360/apa-itu-homesick-memahami-rindu-rumah-dan-cara-mengatasinya"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid, natural Indonesian expression for homesickness.",
+        "evidence_refs": [
+          "https://www.liputan6.com/feeds/read/5898360/apa-itu-homesick-memahami-rindu-rumah-dan-cara-mengatasinya",
+          "https://www.idntimes.com/life/inspiration/5-tanda-kamu-sedang-merindukan-rumah-gejala-homesick-01-qnqcw-1vcfr3"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: rindu rumah"
+      },
+      {
+        "conclusion": "Plausible and understandable Malaysian Malay expression, especially for longing for one's kampung or home region, but not established here as an exclusive Malaysian preference.",
+        "evidence_refs": [
+          "https://www.wordhippo.com/what-is/the-meaning-of/malay-word-9bafc04695e1f789314b0d7675d6333741fe452f.html",
+          "https://www.reddit.com/r/malaysia/comments/gn4j2n/"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: rindu kampung"
+      },
+      {
+        "conclusion": "“different-common-word” is potentially misleading because the forms share the core word rindu, overlap in meaning, and are preferential rather than cleanly variety-exclusive.",
+        "evidence_refs": [
+          "https://www.wordhippo.com/what-is/the-meaning-of/malay-word-9bafc04695e1f789314b0d7675d6333741fe452f.html",
+          "https://www.liputan6.com/lifestyle/read/2673280/ini-penyebab-anda-rindu-kampung-halaman"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported or needed; the contrast field may remain empty, but the card should state that the distinction is a usage preference or overlapping variant choice.",
+        "evidence_limitation": "Available evidence supports overlapping senses but is insufficient for a rigorous corpus-based regional exclusivity claim.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both phrases are valid and match the homesick sense, but the relation label overstates a language-specific contrast. “Rindu rumah” and “rindu kampung” are overlapping Malay-family expressions, and both varieties can use broader alternatives such as “rindu kampung halaman.” No false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

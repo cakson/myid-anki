@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:27:28.507984+00:00",
+  "input_digest": "cb9158b8c291f090c11e88f28cad1d8754c0ed4c395f1bafa16db9cd294ef8a3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s004:tmp-communication-s004-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Question is information requested, while answer is the response to that question; their senses and Indonesian/Malaysian forms differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-002",
+          "rationale": "Question is information requested, while answer is the response to that question; their senses and Indonesian/Malaysian forms differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s004:tmp-communication-s004-002",
+        "rationale": "Question is information requested, while answer is the response to that question; their senses and Indonesian/Malaysian forms differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "e5de50263a5626271b8a1ebfecf6764e8e8a9b0d2874765d752684cb5b237879"
+}

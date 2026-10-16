@@ -1,0 +1,74 @@
+{
+  "attempt_id": "197a9382f3380fed",
+  "candidate_id": "tmp-transportation-s018-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Supported as an ordinary Indonesian term for a toll gate/payment point.",
+      "evidence_refs": [
+        "https://bpjt.pu.go.id/yuk-ketahui-kecepatan-transaksi-rata-rata-sesuai-standar-pelayanan-minimalnya/",
+        "https://korlantas.polri.go.id/solusi-mengatasi-saldo-e-toll-kurang-di-gerbang-tol/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: gerbang tol"
+    },
+    {
+      "conclusion": "Supported as an ordinary Malaysian term for a toll plaza/payment point.",
+      "evidence_refs": [
+        "https://www.llm.gov.my/pages/view/faq",
+        "https://www.llm.gov.my/announcement/news_detail/11910"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: plaza tol"
+    },
+    {
+      "conclusion": "Needs correction or narrowing: “toll-payment facility” is understandable but broader and less direct than “toll gate/toll plaza”; it does not precisely preserve “toll booth.”",
+      "evidence_refs": [
+        "https://bpjt.pu.go.id/yuk-ketahui-kecepatan-transaksi-rata-rata-sesuai-standar-pelayanan-minimalnya/",
+        "https://www.llm.gov.my/pages/view/faq"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate as a learner-oriented relation, though the terms differ somewhat in focus and granularity rather than being exact booth-for-booth equivalents.",
+      "evidence_refs": [
+        "https://bpjt.pu.go.id/yuk-ketahui-kecepatan-transaksi-rata-rata-sesuai-standar-pelayanan-minimalnya/",
+        "https://www.llm.gov.my/pages/view/faq"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the difference is lexical choice and scope, not misleading cross-language similarity.",
+      "evidence_limitation": "The cited official usage supports the terms and contexts but does not constitute a dedicated false-friend analysis.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2810e3559f2c9aecd207a4f4aefb3631cc3097f2cab00b1a5a039cf83ccf2d13",
+  "correction_refs": [],
+  "decision_digest": "72d90da6d8f036e592add9f9b7f00ea82957e2feab1e63e1ec786e05489d1a90",
+  "elapsed_ms": 15595,
+  "finding_class": "cue-content",
+  "input_tokens": 29062,
+  "model_calls": 1,
+  "output_tokens": 1053,
+  "packet_digest": "0128ba7cead2bdb02e8468e7d44b12cd78ba87d03dcd06e1316ca5f57c810758",
+  "rationale": "Both Malay answers are credible national terms for toll-payment points, and the relation is a useful lexical contrast. However, “toll-payment facility” is broader than the original “toll booth” and obscures the granularity difference: Indonesian gerbang tol is literally a toll gate, while Malaysian plaza tol denotes a toll plaza. No false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:54:07.549021+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s018/tmp-transportation-s018-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-002-s018",
+  "verdict": "needs-correction"
+}

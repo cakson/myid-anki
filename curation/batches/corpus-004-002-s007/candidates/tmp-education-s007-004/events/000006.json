@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T13:22:28.574740+00:00",
+  "input_digest": "7661aae58b697215fc11f2935ae1b0d39d17ba41d7058fc6726c0b58cd31b08e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cLes\\u201d is the ordinary Indonesian term for extra tutoring, while \\u201ctuisyen\\u201d is the ordinary Malaysian term. Both fit private tutoring outside regular classes.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers can refer to paid or organized tutoring received outside regular classroom instruction, including private or small-group instruction.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cKelas tambahan\\u201d is understandable and used in both varieties, but more generally denotes an extra class rather than the established tutoring service conveyed by \\u201cles\\u201d and \\u201ctuisyen.\\u201d\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"\\u201cLes\\u201d can also refer to a tutoring session or course more generally, while \\u201ctuisyen\\u201d may include group tuition, so the private aspect is somewhat flexible.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"kelas tambahan\", \"language\": \"both\", \"rationale\": \"\\u201cKelas tambahan\\u201d is a plausible everyday alternative in both varieties, though it is broader and need not imply private tutoring.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers can refer to paid or organized tutoring received outside regular classroom instruction, including private or small-group instruction.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kelas tambahan",
+        "language": "both",
+        "rationale": "“Kelas tambahan” is a plausible everyday alternative in both varieties, though it is broader and need not imply private tutoring.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "“Les” is the ordinary Indonesian term for extra tutoring, while “tuisyen” is the ordinary Malaysian term. Both fit private tutoring outside regular classes.",
+      "relation": "different-common-word",
+      "risk_rationale": "“Les” can also refer to a tutoring session or course more generally, while “tuisyen” may include group tuition, so the private aspect is somewhat flexible.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Kelas tambahan” is understandable and used in both varieties, but more generally denotes an extra class rather than the established tutoring service conveyed by “les” and “tuisyen.”",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers can refer to paid or organized tutoring received outside regular classroom instruction, including private or small-group instruction.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kelas tambahan",
+      "language": "both",
+      "rationale": "“Kelas tambahan” is a plausible everyday alternative in both varieties, though it is broader and need not imply private tutoring.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "“Les” is the ordinary Indonesian term for extra tutoring, while “tuisyen” is the ordinary Malaysian term. Both fit private tutoring outside regular classes.",
+    "relation": "different-common-word",
+    "risk_rationale": "“Les” can also refer to a tutoring session or course more generally, while “tuisyen” may include group tuition, so the private aspect is somewhat flexible.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Kelas tambahan” is understandable and used in both varieties, but more generally denotes an extra class rather than the established tutoring service conveyed by “les” and “tuisyen.”",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "6fdc8ce73f830d85dbe870db5284ed125d91612d510b9d5b3bc48489aedc5972"
+}

@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-16T01:47:14.570794+00:00",
+  "result": {
+    "candidate_digest": "55a352922f435d3c0ca625b7f2ba0d9001a5f8e12bb6adbe520ef434059c2a72",
+    "candidate_id": "tmp-travel-s021-003",
+    "checked_at": "2026-10-16T01:47:14.570794+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "itinerari",
+        "language": "both",
+        "rationale": "The borrowing “itinerari” is understood in both varieties, but its existence alone does not show that it competes with the proposed ordinary forms in everyday usage.",
+        "signal": "named-alternative-exists"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms naturally express a planned sequence of travel activities. “Rencana perjalanan” is the ordinary Indonesian choice, while “jadual perjalanan” is the ordinary Malaysian choice. Review concern: “Rencana perjalanan” can sometimes refer to a broader trip plan, though it is still a natural fit for this cue.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,66 @@
+{
+  "attempt_id": "1d0a63de4cd673a1",
+  "candidate_id": "tmp-home-s013-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“air conditioner” correctly matches a household appliance that cools indoor air.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyaman+udara"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“AC” is an ordinary Indonesian abbreviation for air conditioner/air conditioning and matches the intended appliance sense.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/16339/1/Senarai-Istilah-Asing-Indonesia-di-Ruang-Publik.pdf",
+        "https://id.wiktionary.org/wiki/Lampiran:Daftar_singkatan_dan_akronim_dalam_bahasa_Indonesia"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: AC"
+    },
+    {
+      "conclusion": "“pendingin hawa” is a valid Malaysian Malay term, but DBP characterizes it as an older term and identifies “penyaman udara” as the more precise/current term.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pendingin+hawa",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyaman+udara"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: pendingin hawa"
+    },
+    {
+      "conclusion": "“different-common-word” is too strong without a register qualifier because AC/aircond may also occur in Malaysian usage; there is no false-friend contrast between the listed forms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=air+conditioner",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pendingin+hawa"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1e097cf2f3020b5383f61c6003cfe75b35bfa19867e6eef6a60506b24aa2ae78",
+  "correction_refs": [],
+  "decision_digest": "1925a00f205707de048df75f495872c662a549cd7b617628baeae655cd852ac8",
+  "elapsed_ms": 25492,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 51263,
+  "model_calls": 1,
+  "output_tokens": 1137,
+  "packet_digest": "f944b1cbbda2dd73c618b12d1818b03c3413eab4ccb86dbac635299161952ff5",
+  "rationale": "The English cue and Indonesian answer are sound. Malaysian “pendingin hawa” is valid and understood, but Malaysian terminology guidance treats it as an older term and prefers “penyaman udara”; “aircond” is also common colloquially. The different-common-word relation therefore overstates the contrast, and no false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:49:18.637833+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s013/tmp-home-s013-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-002-s013",
+  "verdict": "needs-correction"
+}

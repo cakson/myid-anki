@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-16T01:36:29.400124+00:00",
+  "result": {
+    "candidate_digest": "1957d0493dcc15687994334200d8be2491faa94a7e5d9eec21bfef34ed9bdafd",
+    "candidate_id": "tmp-family-social-s011-007",
+    "checked_at": "2026-10-16T01:36:29.400124+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "keponakan",
+        "language": "malaysian",
+        "rationale": "Keponakan exists as an understood alternative in Malaysia, but it is not the ordinary preferred term there; anak saudara remains the useful Malaysian preference.",
+        "signal": "named-alternative-exists"
+      },
+      "shared_synonym_case": "nonpreferred-alternative",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Keponakan is the ordinary Indonesian term, while anak saudara is the ordinary Malaysian term for a sibling’s child. The contrast is meaningful and teaches a useful variety preference. Review concern: Family terminology can vary somewhat by region and speaker background.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "nonpreferred-alternative"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

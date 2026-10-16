@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5699,
+  "input_digest": "0352a6cef81c91c63f6a2c16cfd885d406bab114de5b9135ebdaa37ec9e69ac0",
+  "input_tokens": 45008,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 166,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A screenshot is an image captured from a device screen, whereas screen refers to the display surface itself; the senses and answers are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-06",
+          "rationale": "A screenshot is an image captured from a device screen, whereas screen refers to the display surface itself; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

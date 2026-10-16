@@ -1,0 +1,72 @@
+{
+  "attempt_id": "3473fe430c38674e",
+  "candidate_id": "tmp-finance-admin-s012-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate and ordinary for savings or saved money.",
+      "evidence_refs": [
+        "https://kbbi.web.id/menabungkan.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tabungan"
+    },
+    {
+      "conclusion": "Accurate and standard for something saved, including money savings.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=simpanan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: simpanan"
+    },
+    {
+      "conclusion": "Money saved for future use is an appropriate narrowing of savings and fits both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=wang"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a preference-based contrast: tabungan is strongly associated with Indonesian usage and simpanan with Malaysian usage, but the distinction is not exclusive.",
+      "evidence_refs": [
+        "https://kbbi.web.id/menyimpan",
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=simpanan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the blank contrast field creates no learner risk.",
+      "evidence_limitation": "No contrast claim was supplied to audit.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d9cd47cdb53f3c4b0ce88b0faf398f0ff1d67dc754c9340615e9d1eadde97b73",
+  "correction_refs": [],
+  "decision_digest": "71911a61ce520c98f41eb12cea59e06a62de04b5538875f50530f99d66654981",
+  "elapsed_ms": 20678,
+  "finding_class": "none",
+  "input_tokens": 50236,
+  "model_calls": 1,
+  "output_tokens": 1055,
+  "packet_digest": "722fad6f6a5b4787d4a518f99337fd2ea3a4e6a5549d2aebe295de73aac75ec8",
+  "rationale": "Both answers are accurate for the cue. Indonesian tabungan and Malaysian simpanan denote saved money, including bank savings. Simpanan also exists in Indonesian, so the relation is a common-word preference rather than an exclusive distinction; this does not create a learner-critical error. No false-friend contrast is asserted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:02:54.967317+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s012/tmp-finance-admin-s012-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s012",
+  "verdict": "cleared"
+}

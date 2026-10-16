@@ -1,0 +1,64 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18452,
+  "input_tokens": 33249,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1368,
+  "packet_digest": "9a749ef3176d5a8e573c821e57dfce8374c6796a87d984343713003a1c40f909",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers are accurate common terms for the stated sense. The relation is valid as a language-specific preference contrast, provided it is not interpreted as exclusive. No false-friend contrast is asserted or required.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: gang\",\n      \"conclusion\": \"Accurate and characteristic for 'alley' or a narrow urban street in Indonesian.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kamus.sabda.org/kamus/gang\",\n        \"https://dictionary.cambridge.org/dictionary/english-indonesian/alley\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: lorong\",\n      \"conclusion\": \"Accurate and standard for a small street, lane, or alley in Malaysian Malay.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lorong\",\n        \"https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lane\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue 'alley' and sense 'a narrow passage or small street' correctly cover both terms.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english-indonesian/alley\",\n        \"https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lane\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation: different-common-word\",\n      \"conclusion\": \"Acceptable as a preference contrast: Indonesian commonly favors gang, while Malaysian Malay commonly favors lorong. The terms are not exclusive; Indonesian lorong also means alley, and Malaysian Malay gang is recognized as an Indonesian-marked equivalent.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kamus.sabda.org/kamus/lorong\",\n        \"https://prpm.dbp.gov.my/Cari1?d=139128&keyword=gang\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is present or needed. The card does not claim that either word has a misleading unrelated meaning in the other language.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=139128&keyword=gang\",\n        \"https://kamus.sabda.org/kamus/gang\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate and characteristic for 'alley' or a narrow urban street in Indonesian.",
+        "evidence_refs": [
+          "https://kamus.sabda.org/kamus/gang",
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/alley"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: gang"
+      },
+      {
+        "conclusion": "Accurate and standard for a small street, lane, or alley in Malaysian Malay.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lorong",
+          "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lane"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: lorong"
+      },
+      {
+        "conclusion": "The cue 'alley' and sense 'a narrow passage or small street' correctly cover both terms.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/alley",
+          "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lane"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Acceptable as a preference contrast: Indonesian commonly favors gang, while Malaysian Malay commonly favors lorong. The terms are not exclusive; Indonesian lorong also means alley, and Malaysian Malay gang is recognized as an Indonesian-marked equivalent.",
+        "evidence_refs": [
+          "https://kamus.sabda.org/kamus/lorong",
+          "https://prpm.dbp.gov.my/Cari1?d=139128&keyword=gang"
+        ],
+        "material_risk": false,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or needed. The card does not claim that either word has a misleading unrelated meaning in the other language.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=139128&keyword=gang",
+          "https://kamus.sabda.org/kamus/gang"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are accurate common terms for the stated sense. The relation is valid as a language-specific preference contrast, provided it is not interpreted as exclusive. No false-friend contrast is asserted or required.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,76 @@
+{
+  "attempt_id": "9125829f4801dc98",
+  "candidate_id": "tmp-food-cooking-s011-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Acceptable for Indonesian “to bake,” including baking bread or cakes, though the term also covers grilling/roasting.",
+      "evidence_refs": [
+        "https://kbbi.web.id/panggang",
+        "https://kbbi.web.id/bakar"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: memanggang"
+    },
+    {
+      "conclusion": "Correct for Malaysian “to bake”; authoritative Malay dictionary usage explicitly includes cooking food in a ketuhar (oven).",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=142528&keyword=membakar",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=bake"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: membakar"
+    },
+    {
+      "conclusion": "The cue “to bake” and sense “cook food in an oven using dry heat” are aligned with the Malaysian entry and compatible with ordinary Indonesian usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=bake",
+        "https://kbbi.web.id/panggang"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid as a learner-facing contrast, but not an absolute lexical split because both varieties use related dry-heat terms across broader cooking contexts.",
+      "evidence_refs": [
+        "https://kbbi.web.id/panggang",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=142528&keyword=membakar"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No definite false-friend error is present. The empty contrast field omits an optional caution, but does not make the card misleading for the specified sense.",
+      "evidence_refs": [
+        "https://kbbi.web.id/bakar",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=142528&keyword=membakar"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "542221283481754cc774d0cb8f38223811c1c9e4db8227d70d353e98d37ed30e",
+  "correction_refs": [],
+  "decision_digest": "8c9a1544421817dc5fc964aa4788e269969e098cfb4b0763907acedd7fd19975",
+  "elapsed_ms": 20717,
+  "finding_class": "none",
+  "input_tokens": 49533,
+  "model_calls": 1,
+  "output_tokens": 1269,
+  "packet_digest": "5e24f4d4531569b9d9ad8ad7ae189222a2b9174ee07ec79d78b4ffaa6ad32d84",
+  "rationale": "Both forms fit the stated oven-baking sense in their respective varieties. Indonesian memanggang is a standard dry-heat cooking term, while Malaysian membakar explicitly includes cooking food in an oven. The different-common-word relation is valid, though the forms overlap in broader grilling/roasting contexts; no strict false-friend contrast is established or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:48:33.399525+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s011/tmp-food-cooking-s011-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s011",
+  "verdict": "cleared"
+}

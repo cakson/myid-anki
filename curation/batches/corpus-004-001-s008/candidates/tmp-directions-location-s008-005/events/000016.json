@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:09.018245+00:00",
+  "result": {
+    "candidate_digest": "802c6fed8f298ffe6de5cffa608f8cd101c43ce7206bb02382813fa2960ccc02",
+    "candidate_id": "tmp-directions-location-s008-005",
+    "checked_at": "2026-10-16T02:10:09.018245+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (cue-content): The Indonesian and Malaysian answers are plausible for the narrowed sense “road sign,” and the lexical contrast is real. However, the original cue “street sign” was silently changed to “road sign,” which changes the sense: “street sign” more specifically means a sign naming a street, for which Indonesian would more naturally be “papan nama jalan,” while Malaysian “papan tanda jalan” is supported. The contrast is not a false friend, but the cue correction must be explicit and the sense should be fixed.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

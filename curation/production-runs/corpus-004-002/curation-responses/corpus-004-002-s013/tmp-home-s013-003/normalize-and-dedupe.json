@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7268,
+  "input_digest": "f7a1f2eb9fef39f90435b4d97c8640a07beba6a9e089d4c12f81446ee133e774",
+  "input_tokens": 54579,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 296,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s013:tmp-home-s013-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Ventilating a room is the action of letting fresh air circulate; an air conditioner is an appliance that cools indoor air.\"},{\"other_id\":\"corpus-004-001-s007:tmp-daily-life-s007-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Ventilating a room is an air-circulation action; an electric fan is the household appliance used to circulate air.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s013:tmp-home-s013-001",
+          "rationale": "Ventilating a room is the action of letting fresh air circulate; an air conditioner is an appliance that cools indoor air.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s007:tmp-daily-life-s007-001",
+          "rationale": "Ventilating a room is an air-circulation action; an electric fan is the household appliance used to circulate air.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

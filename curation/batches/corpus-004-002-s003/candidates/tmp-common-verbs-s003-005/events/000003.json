@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T13:15:58.347606+00:00",
+  "input_digest": "a1e6cf20b31ddbfa4df372b29328d06d77b313ca647bc543f4f1152debddb110",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-health-001:health-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sneeze is an action of expelling air through the nose; common cold is an illness.\"}, {\"other_id\": \"cal3-health-001:health-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sneeze is a symptom/action, whereas flu is an illness; the cue and both answers differ.\"}, {\"other_id\": \"health-001:health-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sneeze is a respiratory reflex, whereas allergy is an immune reaction; the concepts are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-health-001:health-01",
+          "rationale": "Sneeze is an action of expelling air through the nose; common cold is an illness.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-health-001:health-02",
+          "rationale": "Sneeze is a symptom/action, whereas flu is an illness; the cue and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "health-001:health-06",
+          "rationale": "Sneeze is a respiratory reflex, whereas allergy is an immune reaction; the concepts are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-health-001:health-01",
+        "rationale": "Sneeze is an action of expelling air through the nose; common cold is an illness.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-health-001:health-02",
+        "rationale": "Sneeze is a symptom/action, whereas flu is an illness; the cue and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "health-001:health-06",
+        "rationale": "Sneeze is a respiratory reflex, whereas allergy is an immune reaction; the concepts are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "35f9c1882dfdbaf8ff027ca1e189d804bff644c4cfb6006af87bd95ba87068ca"
+}

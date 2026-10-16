@@ -1,0 +1,53 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 19871,
+  "input_tokens": 49436,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 968,
+  "packet_digest": "faa954594dcf196990c184cc7838edf0e7fd224c724fb9a677100847b35a3113",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both translations match the sense “person living nearby.” “Tetangga” is ordinary Indonesian; “jiran” is ordinary Malaysian Malay, although “tetangga” is also understood and documented in Malaysian usage. The different-common-word relation is valid, and there is no false-friend distinction to add.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: tetangga\",\"conclusion\":\"Correct ordinary Indonesian translation for neighbor.\",\"material_risk\":false,\"evidence_refs\":[\"https://typoonline.com/amp/kbbi/tetangga\"]},{\"subject\":\"Malaysian answer: jiran\",\"conclusion\":\"Correct ordinary Malaysian Malay translation for a nearby resident or neighbor.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Neighbor” and “person living nearby” are aligned with both answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya\",\"https://typoonline.com/amp/kbbi/tetangga\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"Different-common-word is appropriate. No false-friend contrast is required; the words differ in common national preference, not meaning.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tetangga\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct ordinary Indonesian translation for neighbor.",
+        "evidence_refs": [
+          "https://typoonline.com/amp/kbbi/tetangga"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: tetangga"
+      },
+      {
+        "conclusion": "Correct ordinary Malaysian Malay translation for a nearby resident or neighbor.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: jiran"
+      },
+      {
+        "conclusion": "“Neighbor” and “person living nearby” are aligned with both answers.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya",
+          "https://typoonline.com/amp/kbbi/tetangga"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Different-common-word is appropriate. No false-friend contrast is required; the words differ in common national preference, not meaning.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tetangga",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tetangga%20nya"
+        ],
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both translations match the sense “person living nearby.” “Tetangga” is ordinary Indonesian; “jiran” is ordinary Malaysian Malay, although “tetangga” is also understood and documented in Malaysian usage. The different-common-word relation is valid, and there is no false-friend distinction to add.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

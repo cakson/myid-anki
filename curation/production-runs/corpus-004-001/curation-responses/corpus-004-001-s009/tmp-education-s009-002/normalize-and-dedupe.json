@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5113,
+  "input_digest": "ce6a66048e062f5ac6e752506aec573947401bf55245b55e5c29279d64d8ee97",
+  "input_tokens": 45009,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 166,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"school-001:topic-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A textbook is a book specifically used to study a school subject, whereas the existing concept is the broader category of a bound book used for reading or study; the candidate's Indonesian and Malaysian answers also differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "school-001:topic-04",
+          "rationale": "A textbook is a book specifically used to study a school subject, whereas the existing concept is the broader category of a bound book used for reading or study; the candidate's Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,379 @@
+{
+  "accepted": 4,
+  "batch_id": "corpus-004-002-s005",
+  "confidence_distribution": {
+    "medium": 4
+  },
+  "corrections": 0,
+  "created_at": "2026-10-16T13:21:48.966788+00:00",
+  "decisions": [
+    {
+      "candidate_id": "tmp-daily-life-s005-001",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "toilet",
+          "language": "both",
+          "rationale": "“Toilet” is ordinary in Indonesia and plausibly ordinary in Malaysia as a borrowing, although “tandas” is the localized Malaysian preference.",
+          "signal": "shared-common-form"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both answers denote the same room or fixture used for relieving oneself. “Toilet” is the ordinary Indonesian preference, while “tandas” is the ordinary Malaysian preference; this is a useful contrast without exclusive word ownership. Review concern: Usage overlap in Malaysia may reduce the strength of the national preference slightly.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-common-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-002",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "The English cue may misalign the two target-language senses.",
+        "The Malaysian answer may misteach the learner because \"dapur\" alone does not reliably denote the household cooking appliance corresponding to English \"stove.\""
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "The Malaysian answer may misteach the learner because \"dapur\" alone does not reliably denote the household cooking appliance corresponding to English \"stove.\"",
+          "The English cue may misalign the two target-language senses."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-003",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "serokan sampah",
+          "language": "both",
+          "rationale": "An additional everyday alternative may occur in both varieties, but no clear evidence makes it strong enough to undermine the proposed preference.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms denote the same handheld tool used to collect swept-up dirt. “Pengki” is an ordinary Indonesian term, while “penyodok sampah” is an ordinary Malaysian Malay expression. Review concern: Regional variation may produce additional terms for this household tool.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-004",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "sponge",
+          "language": "both",
+          "rationale": "The English form may appear in product labels or casual speech in both varieties, though it does not displace the proposed local terms.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both answers naturally refer to a sponge used for washing dishes. Indonesian uses “spons cuci piring,” while Malaysian Malay commonly uses “span pencuci pinggan.” Review concern: Retail and colloquial usage may introduce the English borrowing “sponge,” especially in branded contexts.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-005",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "plastik sampah / beg plastik sampah",
+          "language": "both",
+          "rationale": "These are plausible everyday alternatives, but they do not undermine the useful national preference represented by the proposed forms.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms naturally mean a bag used to contain household waste. “Kantong sampah” is the ordinary Indonesian preference, while “beg sampah” is a natural Malaysian preference. Review concern: Malaysian usage may vary between “beg sampah” and the more explicit “beg plastik sampah.”.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-daily-life-s005-006",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "independent-verification",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "rejected",
+      "reason_codes": [
+        "confirmed-duplicate"
+      ],
+      "relation": "",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "missing",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    }
+  ],
+  "duplicate_detections": 4,
+  "duplicate_resolutions": {
+    "distinct": 3,
+    "merge": 1
+  },
+  "evidence_failures": 0,
+  "further_investigation": [
+    "tmp-daily-life-s005-002"
+  ],
+  "generated": 6,
+  "held": 1,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "The English cue may misalign the two target-language senses.": 1,
+    "The Malaysian answer may misteach the learner because \"dapur\" alone does not reliably denote the household cooking appliance corresponding to English \"stove.\"": 1,
+    "confirmed-duplicate": 1,
+    "ordinary-verifier-agreement": 4
+  },
+  "rejected": 1,
+  "relation_distribution": {
+    "different-common-word": 4
+  },
+  "review_priority": [
+    "tmp-daily-life-s005-001",
+    "tmp-daily-life-s005-004",
+    "tmp-daily-life-s005-005",
+    "tmp-daily-life-s005-003"
+  ],
+  "status": "closed",
+  "verification_failures": 1
+}

@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T01:30:21.760573+00:00",
+  "input_digest": "fe5f3fe48437d893a243e5d770073989a9910eead1bd7637515663ec249fe236",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"Indonesian speakers may also use \\u201ckipas\\u201d as a context-supported shortening of \\u201ckipas angin\\u201d.\"], \"material_concerns\": [], \"rationale\": \"\\u201cKipas angin\\u201d is the ordinary Indonesian term for a household electric fan, while Malaysian Malay commonly uses \\u201ckipas\\u201d for the same appliance. This is a useful national preference, not an exclusive distinction.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote a household fan that circulates air; \\u201celectric\\u201d is naturally understood for this appliance sense.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cKipas\\u201d can occur in Indonesian as a shortened contextual form, but \\u201ckipas angin\\u201d remains a credible Indonesian preference while Malaysian Malay commonly prefers \\u201ckipas.\\u201d\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"The Indonesian form \\u201ckipas\\u201d may also be understood in suitable context, so the contrast is preferential rather than exclusive.\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"kipas\", \"language\": \"both\", \"rationale\": \"\\u201cKipas\\u201d is plausibly ordinary in both varieties for a household fan, though \\u201ckipas angin\\u201d is the more explicit Indonesian form.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Indonesian speakers may also use “kipas” as a context-supported shortening of “kipas angin”."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote a household fan that circulates air; “electric” is naturally understood for this appliance sense.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kipas",
+        "language": "both",
+        "rationale": "“Kipas” is plausibly ordinary in both varieties for a household fan, though “kipas angin” is the more explicit Indonesian form.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "“Kipas angin” is the ordinary Indonesian term for a household electric fan, while Malaysian Malay commonly uses “kipas” for the same appliance. This is a useful national preference, not an exclusive distinction.",
+      "relation": "different-common-word",
+      "risk_rationale": "The Indonesian form “kipas” may also be understood in suitable context, so the contrast is preferential rather than exclusive.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Kipas” can occur in Indonesian as a shortened contextual form, but “kipas angin” remains a credible Indonesian preference while Malaysian Malay commonly prefers “kipas.”",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Indonesian speakers may also use “kipas” as a context-supported shortening of “kipas angin”."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote a household fan that circulates air; “electric” is naturally understood for this appliance sense.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kipas",
+      "language": "both",
+      "rationale": "“Kipas” is plausibly ordinary in both varieties for a household fan, though “kipas angin” is the more explicit Indonesian form.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "“Kipas angin” is the ordinary Indonesian term for a household electric fan, while Malaysian Malay commonly uses “kipas” for the same appliance. This is a useful national preference, not an exclusive distinction.",
+    "relation": "different-common-word",
+    "risk_rationale": "The Indonesian form “kipas” may also be understood in suitable context, so the contrast is preferential rather than exclusive.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Kipas” can occur in Indonesian as a shortened contextual form, but “kipas angin” remains a credible Indonesian preference while Malaysian Malay commonly prefers “kipas.”",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "886cae5ebe965a585c71f33645cd9223481d836d5b5034aadcd2f33064a0bb25"
+}

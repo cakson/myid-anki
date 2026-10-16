@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6441,
+  "input_digest": "af8c37af7eaca86f2264d38847da1d3c7dfdfb7b570c234b684d6058ca5a1482",
+  "input_tokens": 54577,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 154,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"tb25-food-001:food-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Shallot is a distinct small pungent bulb; the existing onion is the common round onion, and the English cue plus both Indonesian and Malaysian answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-food-001:food-02",
+          "rationale": "Shallot is a distinct small pungent bulb; the existing onion is the common round onion, and the English cue plus both Indonesian and Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,63 @@
+{
+  "attempt_id": "1aacd5548d8ec068",
+  "candidate_id": "tmp-services-s014-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid, ordinary Indonesian translation of “customer service”; “pelayanan pelanggan” is also a plausible alternative.",
+      "evidence_refs": [
+        "https://www.ibm.com/id-id/think/topics/customer-care",
+        "https://lingolandedu.com/id/english-indonesian-dictionary/customer-service"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian: layanan pelanggan"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay expression meaning customer service/customer assistance.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=khidmat%3B"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian: khidmat pelanggan"
+    },
+    {
+      "conclusion": "“Assistance for customers” is an accurate core sense of “customer service,” and the Indonesian–Malaysian forms appropriately represent different common lexical choices.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=khidmat%3B",
+        "https://www.ibm.com/id-id/think/topics/customer-service"
+      ],
+      "material_risk": false,
+      "subject": "English cue, sense, and relation"
+    },
+    {
+      "conclusion": "No material false-friend issue is present; the empty contrast field is acceptable for this pair.",
+      "evidence_limitation": "No dedicated false-friend source was necessary because both expressions directly denote customer service in their respective varieties.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "977f3136025bb21fd85499a4aa38996728828f0d0408277fe6c7056c97a3f271",
+  "correction_refs": [],
+  "decision_digest": "66e8b12fbe63452fd2460f0c27b67daccdbbb3d194f91cbffd079e79d45f3af8",
+  "elapsed_ms": 19913,
+  "finding_class": "none",
+  "input_tokens": 48432,
+  "model_calls": 1,
+  "output_tokens": 1055,
+  "packet_digest": "f48f77f04ac37f02654d057b9d35d47269cc7e95cb35c6b7ee04511720b7cea6",
+  "rationale": "Both translations are valid and convey customer service/customer assistance. The Indonesian form is established; Malaysian PRPM explicitly records “khidmat pelanggan” as “customer service.” The relation is correctly marked as different common words. No false-friend contrast is materially required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:50:15.245237+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s014/tmp-services-s014-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s014",
+  "verdict": "cleared"
+}

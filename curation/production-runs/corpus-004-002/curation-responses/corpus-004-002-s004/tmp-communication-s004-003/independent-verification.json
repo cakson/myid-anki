@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 15731,
+  "input_digest": "4db83152da49f987ff10b2cf3a1c3556751b43524e2ebcf7c0ec227d95afc15c",
+  "input_tokens": 14303,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1541,
+  "raw_text": "{\n  \"verdict\": \"object\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"The Indonesian answer gosip more strongly suggests gossip or social talk than a neutral rumor.\"\n  ],\n  \"material_concerns\": [\n    \"Kabar angin is also an ordinary Indonesian term for rumor, weakening the claimed national contrast.\"\n  ],\n  \"rationale\": \"Khabar angin is a natural Malaysian term for rumor, while Indonesian gosip commonly refers to gossip and may not express the same neutral sense. The pairing also overlooks ordinary Indonesian kabar angin.\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"correctable\",\n  \"cue_rewrite\": \"unverified talk about someone\",\n  \"cue_rationale\": \"This narrower cue allows gosip and khabar angin to overlap, though gosip retains a stronger gossip-related connotation.\",\n  \"shared_synonym_case\": \"weak-contrast\",\n  \"shared_synonym_rationale\": \"Kabar angin is also ordinary Indonesian usage for rumor, so the proposed forms do not establish a strong country-specific preference.\",\n  \"nonblocking_risk\": \"concrete\",\n  \"risk_rationale\": \"Indonesian usage may prefer rumor or kabar angin for neutral unverified information, while gosip often implies personal gossip.\",\n  \"preference_risk\": {\n    \"signal\": \"shared-common-form\",\n    \"form\": \"kabar angin\",\n    \"language\": \"both\",\n    \"rationale\": \"Kabar angin is ordinary for rumor in Malaysian Malay and is also used in Indonesian, undermining a clean national preference.\"\n  }\n}",
+  "response": {
+    "concerns": [
+      "The Indonesian answer gosip more strongly suggests gossip or social talk than a neutral rumor."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "This narrower cue allows gosip and khabar angin to overlap, though gosip retains a stronger gossip-related connotation.",
+    "cue_rewrite": "unverified talk about someone",
+    "material_concerns": [
+      "Kabar angin is also an ordinary Indonesian term for rumor, weakening the claimed national contrast."
+    ],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kabar angin",
+      "language": "both",
+      "rationale": "Kabar angin is ordinary for rumor in Malaysian Malay and is also used in Indonesian, undermining a clean national preference.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Khabar angin is a natural Malaysian term for rumor, while Indonesian gosip commonly refers to gossip and may not express the same neutral sense. The pairing also overlooks ordinary Indonesian kabar angin.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian usage may prefer rumor or kabar angin for neutral unverified information, while gosip often implies personal gossip.",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Kabar angin is also ordinary Indonesian usage for rumor, so the proposed forms do not establish a strong country-specific preference.",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

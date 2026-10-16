@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5845,
+  "input_digest": "168c3f3833f50888bda8967a793493ca6da930909447d742933c43e35fbdf29a",
+  "input_tokens": 45001,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 166,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-actions-001:actions-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“Resign” means voluntarily leave a job, while “depart” means leave for a destination; the English senses and Indonesian/Malaysian answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-05",
+          "rationale": "“Resign” means voluntarily leave a job, while “depart” means leave for a destination; the English senses and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

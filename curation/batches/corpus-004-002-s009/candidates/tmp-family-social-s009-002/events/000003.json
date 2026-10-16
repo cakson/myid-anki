@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T13:24:52.628323+00:00",
+  "input_digest": "a005c2f6cd48b49a3a28ebaf5e83f5553e1c5870a475d58f063892f08b8af890",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s009:tmp-family-social-s009-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Engaged means promised to marry; unmarried means not married and does not imply a marriage promise.\"}, {\"other_id\": \"corpus-004-002-s009:tmp-family-social-s009-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Engaged describes a relationship status, while to marry describes entering into marriage as an action.\"}, {\"other_id\": \"corpus-004-001-s011:tmp-family-social-s011-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Engaged is a premarital relationship status, whereas wedding is the marriage ceremony or event.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-003",
+          "rationale": "Engaged means promised to marry; unmarried means not married and does not imply a marriage promise.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-004",
+          "rationale": "Engaged describes a relationship status, while to marry describes entering into marriage as an action.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-008",
+          "rationale": "Engaged is a premarital relationship status, whereas wedding is the marriage ceremony or event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s009:tmp-family-social-s009-003",
+        "rationale": "Engaged means promised to marry; unmarried means not married and does not imply a marriage promise.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s009:tmp-family-social-s009-004",
+        "rationale": "Engaged describes a relationship status, while to marry describes entering into marriage as an action.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s011:tmp-family-social-s011-008",
+        "rationale": "Engaged is a premarital relationship status, whereas wedding is the marriage ceremony or event.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "bfba54300a61515c4b8b4f6a7f4d7c90e144a96922274e6ba9f4becadc45f1f1"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:29:08.673174+00:00",
+  "input_digest": "3a6887e4bfe81340e8a736476d19355c9050e59b41b94e5136e1757f9ce502de",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s001:clothing-contrast-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A diaper is an absorbent garment for a baby, whereas underwear is clothing worn under outer clothes; the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-004",
+          "rationale": "A diaper is an absorbent garment for a baby, whereas underwear is clothing worn under outer clothes; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s001:clothing-contrast-004",
+        "rationale": "A diaper is an absorbent garment for a baby, whereas underwear is clothing worn under outer clothes; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "40ad7aa32dfba487009755ef40531055975990476877d6414eb3108aefa04f78"
+}

@@ -1,0 +1,77 @@
+{
+  "attempt_id": "41c800e96f1e64f2",
+  "candidate_id": "tmp-time-date-s017-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Last week” and “the week immediately before the current week” are correctly aligned.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dua+kali+lima"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Minggu lalu” is a correct and ordinary Indonesian expression for last week.",
+      "evidence_refs": [
+        "https://kbbi.web.id/minggu",
+        "https://kbbi.web.id/tawaran.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian form"
+    },
+    {
+      "conclusion": "“Minggu lepas” is a standard and commonly attested Malaysian Malay expression for last week.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=lepas",
+        "https://prpm.dbp.gov.my/Cari1?d=228452&keyword=minggu"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian form"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable as a preference contrast, provided it is not interpreted as exclusivity; Malaysian Malay also permits “minggu lalu.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pangkor",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dua+kali+lima"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false friend is present; “lalu” and “lepas” function here as temporal equivalents.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=lepas",
+        "https://kbbi.web.id/melalui.html"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d232b138bfe10a67e1fdf384e4871858b5e4dc7b85369cb6943155bb2af7f967",
+  "correction_refs": [],
+  "decision_digest": "f74b49e204c4193c6e6fef8ec87de7f6e7e2ad460c3ea450dbb2b801883a3e4a",
+  "elapsed_ms": 19834,
+  "finding_class": "none",
+  "input_tokens": 48960,
+  "model_calls": 1,
+  "output_tokens": 1036,
+  "packet_digest": "f368e18792ee2b2360c141ef741269a25e59eae20fe86b4f6ff7212cb76dcd33",
+  "rationale": "Both target forms correctly express “last week.” “Minggu lalu” is standard Indonesian, while Malaysian Malay commonly uses “minggu lepas”; “minggu lalu” is also possible in Malaysian usage. The relation is a valid common-word preference contrast, not an exclusive national distinction. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:53:21.726886+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s017/tmp-time-date-s017-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s017",
+  "verdict": "cleared"
+}

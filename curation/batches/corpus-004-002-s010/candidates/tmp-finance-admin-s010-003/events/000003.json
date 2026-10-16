@@ -1,0 +1,121 @@
+{
+  "at": "2026-10-16T13:26:27.314341+00:00",
+  "input_digest": "0ead3d93487369d2787c7f0921726297690dc00e2c7c349205655e6d13d90dc0",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s010-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An official form is a document with fields to complete; an identity card is a completed identification card proving personal identity.\"}, {\"other_id\": \"corpus-004-002-s010-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An official form is completed to provide information; an invoice requests payment for goods or services.\"}, {\"other_id\": \"cal2-work-001:work-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An official form contains fields for completion; a report is a written account of information or findings.\"}, {\"other_id\": \"cal2-work-001:work-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An official form is a fill-in document; a certificate is an official document confirming achievement or completion.\"}, {\"other_id\": \"fresh-work-001:work-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A job application is a specific formal request for employment, whereas an official form is the broader document type with fields to complete.\"}, {\"other_id\": \"corpus-004-002-s014:tmp-services-s014-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A prescription authorizes medicine and has a medical function; an official form is a general fill-in document.\"}, {\"other_id\": \"corpus-004-002-s014:tmp-services-s014-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A license is official authorization to do something, while an official form is a document completed to provide required information.\"}, {\"other_id\": \"cal3-technology-001:technology-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A file is a digital or work document container; an official form specifically presents fields for completion.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s010-004",
+          "rationale": "An official form is a document with fields to complete; an identity card is a completed identification card proving personal identity.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s010-005",
+          "rationale": "An official form is completed to provide information; an invoice requests payment for goods or services.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-09",
+          "rationale": "An official form contains fields for completion; a report is a written account of information or findings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-10",
+          "rationale": "An official form is a fill-in document; a certificate is an official document confirming achievement or completion.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-08",
+          "rationale": "A job application is a specific formal request for employment, whereas an official form is the broader document type with fields to complete.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-001",
+          "rationale": "A prescription authorizes medicine and has a medical function; an official form is a general fill-in document.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-004",
+          "rationale": "A license is official authorization to do something, while an official form is a document completed to provide required information.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-technology-001:technology-01",
+          "rationale": "A file is a digital or work document container; an official form specifically presents fields for completion.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s010-004",
+        "rationale": "An official form is a document with fields to complete; an identity card is a completed identification card proving personal identity.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s010-005",
+        "rationale": "An official form is completed to provide information; an invoice requests payment for goods or services.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-09",
+        "rationale": "An official form contains fields for completion; a report is a written account of information or findings.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-10",
+        "rationale": "An official form is a fill-in document; a certificate is an official document confirming achievement or completion.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-work-001:work-08",
+        "rationale": "A job application is a specific formal request for employment, whereas an official form is the broader document type with fields to complete.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s014:tmp-services-s014-001",
+        "rationale": "A prescription authorizes medicine and has a medical function; an official form is a general fill-in document.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s014:tmp-services-s014-004",
+        "rationale": "A license is official authorization to do something, while an official form is a document completed to provide required information.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-technology-001:technology-01",
+        "rationale": "A file is a digital or work document container; an official form specifically presents fields for completion.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "72d4d9638bd7f5d1ffef8a989424a63f79ca820251a026d84dbaf6d2e9988b6f"
+}

@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 23899,
+  "input_tokens": 74458,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1274,
+  "packet_digest": "2a23c3867165b83e50cb331079823f74c95e725ba21d8eb4a429be32dc464c7a",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both translations and the English sense are valid. However, the relation label can overstate the contrast: Malaysian Malay also uses voucher, while baucar is the localized/preferred equivalent. No false-friend contrast is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Shopping voucher” correctly denotes a coupon, credit, or redeemable document used for shopping.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=baucar\"]},{\"subject\":\"Indonesian answer\",\"conclusion\":\"“Voucher belanja” is natural and widely used Indonesian retail wording.\",\"material_risk\":false,\"evidence_refs\":[\"https://promo.bca.co.id/id/all/c/retail\",\"https://www.bankmandiri.co.id/lp-e-voucher\"]},{\"subject\":\"Malaysian answer\",\"conclusion\":\"“Baucar beli-belah” is valid Malaysian Malay and matches the intended sense; “baucar” is the localized equivalent of “voucher.”\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=baucar\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beli-belah\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“Different-common-word” is acceptable only as a preferred/localized-form contrast, not as an exclusive usage contrast, because Malaysian Malay also uses “voucher.”\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=voucher\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=baucar\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend distinction is involved; the forms are semantically aligned.\",\"material_risk\":false,\"evidence_limitation\":\"The reviewed sources establish the meanings and usage equivalence but do not explicitly classify this pair as a false-friend case.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Shopping voucher” correctly denotes a coupon, credit, or redeemable document used for shopping.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=baucar"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Voucher belanja” is natural and widely used Indonesian retail wording.",
+        "evidence_refs": [
+          "https://promo.bca.co.id/id/all/c/retail",
+          "https://www.bankmandiri.co.id/lp-e-voucher"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "“Baucar beli-belah” is valid Malaysian Malay and matches the intended sense; “baucar” is the localized equivalent of “voucher.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=baucar",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beli-belah"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer"
+      },
+      {
+        "conclusion": "“Different-common-word” is acceptable only as a preferred/localized-form contrast, not as an exclusive usage contrast, because Malaysian Malay also uses “voucher.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=voucher",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=baucar"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend distinction is involved; the forms are semantically aligned.",
+        "evidence_limitation": "The reviewed sources establish the meanings and usage equivalence but do not explicitly classify this pair as a false-friend case.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both translations and the English sense are valid. However, the relation label can overstate the contrast: Malaysian Malay also uses voucher, while baucar is the localized/preferred equivalent. No false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

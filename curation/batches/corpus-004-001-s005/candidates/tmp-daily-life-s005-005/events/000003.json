@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:29:24.298338+00:00",
+  "input_digest": "2dfefbf4dd728980688f57461ed598af602d5e624f0856890f28757fde9994e1",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s005:tmp-daily-life-s005-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both relate to doors, but a doorbell is a signaling device sounded by a visitor, whereas a doorknob is a handle used to open a door; the cues and Indonesian/Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s005:tmp-daily-life-s005-006",
+          "rationale": "Both relate to doors, but a doorbell is a signaling device sounded by a visitor, whereas a doorknob is a handle used to open a door; the cues and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s005:tmp-daily-life-s005-006",
+        "rationale": "Both relate to doors, but a doorbell is a signaling device sounded by a visitor, whereas a doorknob is a handle used to open a door; the cues and Indonesian/Malaysian answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1a9d49733852c69f4c2d50463c05d0ac9e2ff9b741be5eecc00f37f599229e3c"
+}

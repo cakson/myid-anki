@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T01:33:32.188015+00:00",
+  "input_digest": "9cfd258397be66c20837fbc89f0b38d32e8698efb70d343dae061f726b4c27de",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Disgusted means feeling strong aversion toward something unpleasant, whereas irritated means annoyed by an unpleasant situation or person.\"}, {\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Disgusted describes immediate strong aversion; resentful describes lasting anger about a perceived wrong.\"}, {\"other_id\": \"tb25-health-001:health-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Disgusted is aversion toward something unpleasant, while nauseous is the feeling that one may vomit.\"}, {\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Disgusted expresses aversion, while heartbroken describes deep distress after romantic loss or rejection.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-005",
+          "rationale": "Disgusted means feeling strong aversion toward something unpleasant, whereas irritated means annoyed by an unpleasant situation or person.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-008",
+          "rationale": "Disgusted describes immediate strong aversion; resentful describes lasting anger about a perceived wrong.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-health-001:health-01",
+          "rationale": "Disgusted is aversion toward something unpleasant, while nauseous is the feeling that one may vomit.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-007",
+          "rationale": "Disgusted expresses aversion, while heartbroken describes deep distress after romantic loss or rejection.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-005",
+        "rationale": "Disgusted means feeling strong aversion toward something unpleasant, whereas irritated means annoyed by an unpleasant situation or person.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-008",
+        "rationale": "Disgusted describes immediate strong aversion; resentful describes lasting anger about a perceived wrong.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "tb25-health-001:health-01",
+        "rationale": "Disgusted is aversion toward something unpleasant, while nauseous is the feeling that one may vomit.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-007",
+        "rationale": "Disgusted expresses aversion, while heartbroken describes deep distress after romantic loss or rejection.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "3addb6a552fa26d7fd354b443f66b8204ae6d30e9c86388adaa6425083a0b85b"
+}

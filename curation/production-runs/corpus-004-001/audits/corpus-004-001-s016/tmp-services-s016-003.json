@@ -1,0 +1,63 @@
+{
+  "attempt_id": "5ddf115192fbb2d3",
+  "candidate_id": "tmp-services-s016-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate and natural for a complaint or expression of dissatisfaction, including about services.",
+      "evidence_refs": [
+        "https://web.lapor.go.id/",
+        "https://e-dumas.kemendagri.go.id/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: keluhan"
+    },
+    {
+      "conclusion": "Accurate and standard for a complaint submitted about a service or institution.",
+      "evidence_refs": [
+        "https://www.malaysia.gov.my/my/feedback",
+        "https://www.jpn.gov.my/soalan-lazim/sladuan/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: aduan"
+    },
+    {
+      "conclusion": "Complaint correctly matches the proposed terms; the service-dissatisfaction sense is narrower than the general English word but valid and aligned.",
+      "evidence_refs": [
+        "https://www.malaysia.gov.my/en/feedback/integrated-complaint-management-system-sispaa"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is an appropriate learner relation. Keluhan and aduan are not false friends; they are distinct conventional terms across the two varieties. Komplain is a shared informal borrowing and does not invalidate the contrast.",
+      "evidence_limitation": "The reviewed web evidence confirms institutional usage but does not directly quantify everyday frequency or register.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "7a07eff3c3ac8e7530eefdcc00f265251d51e637d2173d4f1b4053be083fcb5b",
+  "correction_refs": [],
+  "decision_digest": "32489ca59d0a03df47837f029a546f3df2e92a86acad467f58f743e0361efa15",
+  "elapsed_ms": 14440,
+  "finding_class": "none",
+  "input_tokens": 29112,
+  "model_calls": 1,
+  "output_tokens": 702,
+  "packet_digest": "2542cc3e6ec80e77c168437c6434d330e894cbffe4f03a6d4cbc367259abb92b",
+  "rationale": "Both answers are accurate common terms for a service complaint: Indonesian keluhan and Malaysian Malay aduan. The English cue and service-focused sense align. The relation different-common-word is useful; no false-friend contrast is present or required. Komplain is a shared informal alternative, not a correctness issue.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:06:19.891102+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s016/tmp-services-s016-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s016",
+  "verdict": "cleared"
+}

@@ -1,0 +1,64 @@
+{
+  "attempt_id": "eb936577a25b2fd2",
+  "candidate_id": "tmp-health-body-s012-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: “syringe” is a medical device used to inject or withdraw liquid.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/alat%20suntik",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=picagari"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Needs correction or qualification. Indonesian sources distinguish “alat suntik” as the small pump/device, while “jarum suntik” denotes a needle or needle-like medical implement; it is therefore not a precise standalone equivalent of “syringe.”",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/alat%20suntik",
+        "https://aspak.kemkes.go.id/aplikasi/nomenklatur/index/1599",
+        "https://kbbi.lektur.id/jarum-suntik"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: jarum suntik"
+    },
+    {
+      "conclusion": "Correct. Malaysian Malay “picagari” is defined as a device for drawing up and expelling liquid, including medical injection use.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=picagari"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: picagari"
+    },
+    {
+      "conclusion": "The relation “different-common-word” is unsafe as stated. “Picagari” and Indonesian “alat suntik” are cross-variety equivalents, while “jarum suntik” introduces a needle-versus-syringe distinction. The contrast should explicitly flag this semantic mismatch rather than present two equivalent national preferences.",
+      "evidence_limitation": "The consulted dictionary and health-authority entries establish the device/needle distinction but do not provide a corpus-based frequency comparison for everyday national preferences.",
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "79256cfd26818e3f887b277e2a709b47552f740547efe65abc0bc913d8153cd3",
+  "correction_refs": [],
+  "decision_digest": "b393ee557aedbb0f6d897543ce92bd1e3b8b5cd637d65bfa00c3194f7d7f5b40",
+  "elapsed_ms": 19692,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61946,
+  "model_calls": 1,
+  "output_tokens": 1038,
+  "packet_digest": "b47f543170020c7a5007025a3442297615f5f2aeeb49ca0e0b51d07d59261af8",
+  "rationale": "The Malaysian answer is correct, but Indonesian “jarum suntik” primarily denotes an injection needle, not the syringe body. “Alat suntik” or “spuit” is a safer Indonesian equivalent for “syringe.” Thus the proposed contrast conflates a device term with a needle term and is not a clean false-friend-free national contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:48:53.120050+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s012/tmp-health-body-s012-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s012",
+  "verdict": "needs-correction"
+}

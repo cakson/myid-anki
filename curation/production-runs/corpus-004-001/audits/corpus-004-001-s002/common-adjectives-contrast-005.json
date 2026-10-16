@@ -1,0 +1,69 @@
+{
+  "attempt_id": "e1b4ddbb4fbe3961",
+  "candidate_id": "common-adjectives-contrast-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for the sense “amusing” or “causing laughter.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/lucu"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lucu"
+    },
+    {
+      "conclusion": "Valid, especially for something humorous, a joke, or something intended to amuse; it is an acceptable answer but context-sensitive in part of speech and usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=lawak"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: lawak"
+    },
+    {
+      "conclusion": "The corrected cue “amusing” matches the intended sense of causing amusement and is preferable to the broader, potentially ambiguous “funny.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/lucu",
+        "https://prpm.dbp.gov.my/cari1?keyword=lucu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is misleading as a learner contrast. Indonesian also defines lawak as “lucu; jenaka,” and Malaysian Malay lists lucu, lawak, and kelakar as semantically overlapping. This is not a reliable false-friend contrast.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lawak",
+        "https://prpm.dbp.gov.my/cari1?keyword=lucu",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kelakar"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "d383374d1bd5cb2403c383db50fffc1b7f40708cdc615fdeb701bac40c3d3085",
+  "correction_refs": [],
+  "decision_digest": "13555db84cd470bb262fbe9fceea3ee424885352e15c81751f4a51c484e8e18a",
+  "elapsed_ms": 18150,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 59974,
+  "model_calls": 1,
+  "output_tokens": 1066,
+  "packet_digest": "0f52b00463ad956b6892fc7beb415a3cac2d277699689e23e2fc7d56f2e3e0d7",
+  "rationale": "“Lucu” correctly expresses amusing in Indonesian, and “lawak” is a valid Malaysian Malay word for something humorous. However, the contrast is not language-exclusive: Indonesian also uses “lawak” for funny/ humorous, while Malaysian Malay also recognizes “lucu” and “kelakar.” Therefore, “different-common-word” overstates the distinction; the card should present these as overlapping alternatives or a contextual preference, not a clean contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:50:31.957857+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s002/common-adjectives-contrast-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-001-s002",
+  "verdict": "needs-correction"
+}

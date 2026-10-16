@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T13:35:39.342992+00:00",
+  "input_digest": "b66ba799bdebda54401aea9a9e8fecb12ba8c32c9c9780f313993ba601804111",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s017:tmp-time-date-s017-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A weekday is a Monday\\u2013Friday day, whereas a weekend is the Saturday\\u2013Sunday period; the senses are complementary and distinct.\"}, {\"other_id\": \"corpus-004-001-s019:tmp-time-date-s019-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Monday is one specific weekday; weekday refers to the general Monday\\u2013Friday category.\"}, {\"other_id\": \"corpus-004-001-s019:tmp-time-date-s019-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sunday is not included in the candidate sense, which explicitly covers Monday through Friday.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s017:tmp-time-date-s017-001",
+          "rationale": "A weekday is a Monday–Friday day, whereas a weekend is the Saturday–Sunday period; the senses are complementary and distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s019:tmp-time-date-s019-003",
+          "rationale": "Monday is one specific weekday; weekday refers to the general Monday–Friday category.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s019:tmp-time-date-s019-004",
+          "rationale": "Sunday is not included in the candidate sense, which explicitly covers Monday through Friday.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s017:tmp-time-date-s017-001",
+        "rationale": "A weekday is a Monday–Friday day, whereas a weekend is the Saturday–Sunday period; the senses are complementary and distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s019:tmp-time-date-s019-003",
+        "rationale": "Monday is one specific weekday; weekday refers to the general Monday–Friday category.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s019:tmp-time-date-s019-004",
+        "rationale": "Sunday is not included in the candidate sense, which explicitly covers Monday through Friday.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "2ded4fd7d0cce5da3ed75008375603cbbdc9e47b84c0b1136d65a566e242c0dc"
+}

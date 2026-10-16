@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:26:56.601285+00:00",
+  "input_digest": "c1f4a20c997574eafad3855be970a5cef05427988f58d22042cca72b95d7b079",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-05\", \"type\": \"synonym\", \"resolution\": \"merge\", \"rationale\": \"\\u201cinvoice\\u201d and \\u201cbill\\u201d both mean a document requesting payment for goods or services in everyday usage; the Indonesian and Malaysian answers differ but express the same concept.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-05",
+          "rationale": "“invoice” and “bill” both mean a document requesting payment for goods or services in everyday usage; the Indonesian and Malaysian answers differ but express the same concept.",
+          "resolution": "merge",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-05",
+        "rationale": "“invoice” and “bill” both mean a document requesting payment for goods or services in everyday usage; the Indonesian and Malaysian answers differ but express the same concept.",
+        "resolution": "merge",
+        "type": "synonym"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c1788ad453e1144f3019d3e44c47abd42ae5e51925210d21769cef02172cda5f"
+}

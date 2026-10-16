@@ -1,0 +1,75 @@
+{
+  "attempt_id": "c2aab503ddec9f2c",
+  "candidate_id": "tmp-common-adjectives-s002-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Late” with the sense “not arriving or happening on time” is accurately specified and sufficiently disambiguated.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/terlambat",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terlambat"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct standard Indonesian form for being late or occurring after the निर्धारित time.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/terlambat"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: terlambat"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay form; DBP defines lewat as occurring after the proper time or being late.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=lewat"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: lewat"
+    },
+    {
+      "conclusion": "Acceptable for the selected forms, but it should not be read as claiming that the languages lack shared alternatives; Malay also has lambat and terlambat, and Indonesian commonly has colloquial telat.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=lambat",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terlambat",
+        "https://kbbi.co.id/arti-kata/telat"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No material false-friend error. Indonesian lewat has major senses such as ‘through/past/after,’ while Malaysian Malay lewat also includes the relevant ‘late’ sense; an explicit contrast would be optional learner guidance.",
+      "evidence_refs": [
+        "https://kbbi.web.id/index.php?w=lewat",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=lewat"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "824b8446832676ed650f4a3c69d0fb2e4ecd6d77251ec3d00d3203d7cb264a05",
+  "correction_refs": [],
+  "decision_digest": "a8ebe31bfafc9c96df3687f7323bac655dc3726feed457bf6f789ec5d764796b",
+  "elapsed_ms": 25861,
+  "finding_class": "none",
+  "input_tokens": 94646,
+  "model_calls": 1,
+  "output_tokens": 1466,
+  "packet_digest": "f843a1fbca076ba711de7f7cbce68c2ee7a6bd17118b970dd58ca244cb60e2dd",
+  "rationale": "Both answers correctly express the stated sense of English “late.” Indonesian terlambat is standard for being late, while Malaysian Malay lewat is a standard and natural equivalent. The relation is a valid contrast between selected common forms, though it does not imply exclusivity: Malay also uses lambat/terlambat, and Indonesian has colloquial telat. No material false-friend problem is present; Indonesian lewat has other prominent meanings, so an explicit contrast could be pedagogically useful but is not required for correctness.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:40:45.995932+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s002/tmp-common-adjectives-s002-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s002",
+  "verdict": "cleared"
+}

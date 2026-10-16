@@ -1,0 +1,69 @@
+{
+  "attempt_id": "9c83cc57b9f3c588",
+  "candidate_id": "tmp-emotions-s010-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Supported for nervous or unsettled behavior, including before an event.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/gugup"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: gugup"
+    },
+    {
+      "conclusion": "Supported, especially for apprehension or nervousness accompanied by trembling; the term can be more physically focused than the English cue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=gementar",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=gemuruh"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: gementar"
+    },
+    {
+      "conclusion": "Nervous with the sense anxious before or during an event aligns with both forms, although gementar may imply fear or bodily trembling more strongly.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=gementar",
+        "https://kbbi.kemdikbud.go.id/entri/gugup"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Defensible as a useful Indonesian–Malaysian variety distinction, but neither form should be treated as exclusive to its variety.",
+      "evidence_limitation": "The cited dictionary entries establish meanings, not comparative frequency or exclusivity across the two national varieties.",
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or implied; gementar is a related Malay-form meaning distinction rather than a misleading opposite or unrelated look-alike.",
+      "evidence_limitation": "No specific false-friend contrast was supplied for evaluation.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "68fd6c89f4da06299bb3a2b0bb876930dcc1286f01ef61944773368c6ee8fea3",
+  "correction_refs": [],
+  "decision_digest": "b24552e8566da51b813599407f5583b2170a08a97030cd67d8d655a6c4259953",
+  "elapsed_ms": 21286,
+  "finding_class": "none",
+  "input_tokens": 50132,
+  "model_calls": 1,
+  "output_tokens": 1232,
+  "packet_digest": "16185ef510f93a3a00cb13505daa9644c17bc60020beec35503c8af86c4fec68",
+  "rationale": "Both answers are valid and the cue broadly matches the intended sense. Indonesian gugup is an ordinary term for nervousness; Malaysian gementar is valid for apprehension, with an additional physical-trembling nuance. The different-common-word relation is defensible as a variety preference, though not exclusive. No false-friend contrast is asserted or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:58:50.962566+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s010/tmp-emotions-s010-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s010",
+  "verdict": "cleared"
+}

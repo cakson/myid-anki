@@ -1,0 +1,74 @@
+{
+  "attempt_id": "f0a64b81c58e2fe3",
+  "candidate_id": "tmp-directions-location-s008-005",
+  "claim_reviews": [
+    {
+      "conclusion": "The final cue “road sign” matches the two answers better than the original “street sign,” but the change is material and should not be presented as a mere narrowing.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=papan+tanda",
+        "https://kbbi.cari.co/rambu"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Rambu jalan” is semantically valid in Indonesian; KBBI-derived material lists “rambu jalan” under road signs. However, “rambu lalu lintas” is likely the more standard everyday collocation for traffic signs.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/rambu",
+        "https://www.reddit.com/r/indonesia/comments/1888f6l/why_does_jpj_make_drivers_speak_bahasa_melayu/"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: rambu jalan"
+    },
+    {
+      "conclusion": "“Papan tanda jalan” is valid Malaysian Malay for road/street signs and is attested in DBP material and Malaysian planning guidance.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=papan+tanda",
+        "https://www.planmalaysia.gov.my/uploads/content-downloads/file_20251114203828.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: papan tanda jalan"
+    },
+    {
+      "conclusion": "“Different common word” is broadly defensible for the narrowed road-sign sense, but the relation should be qualified because the Malaysian expression is also used for street-name signs and Indonesian has overlapping alternatives.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=papan",
+        "https://kbbi.cari.co/rambu"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No genuine false-friend contrast is established. The difference is lexical preference and category framing, not a misleading cognate with divergent meaning.",
+      "evidence_limitation": "The available dictionary and usage evidence supports meanings and collocations but does not establish a formal false-friend classification.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "f10fe381a5d750a394c3b55140c8155e4bc24e0a83f27dadd5062c062656480a",
+  "correction_refs": [],
+  "decision_digest": "91c960f921e5d62f99549e0684f1b506999c95e211d79a4382a1d0407e4e7cbf",
+  "elapsed_ms": 25058,
+  "finding_class": "cue-content",
+  "input_tokens": 62066,
+  "model_calls": 1,
+  "output_tokens": 1483,
+  "packet_digest": "51f18ac60cc124a578ef80375fa3fb9c67824d4417cc0cb0bd01afde7ec0a210",
+  "rationale": "The Indonesian and Malaysian answers are plausible for the narrowed sense “road sign,” and the lexical contrast is real. However, the original cue “street sign” was silently changed to “road sign,” which changes the sense: “street sign” more specifically means a sign naming a street, for which Indonesian would more naturally be “papan nama jalan,” while Malaysian “papan tanda jalan” is supported. The contrast is not a false friend, but the cue correction must be explicit and the sense should be fixed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:57:03.341893+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s008/tmp-directions-location-s008-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-001-s008",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:40:25.673701+00:00",
+  "input_digest": "bf2310f072a0a1aec25204ef41232a91bc1b7c6a08b5c72b996e66520ec52e15",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"000056\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Balcony is a platform extending from an upper floor of a home; the existing platform refers specifically to a raised railway waiting area, so the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000056",
+          "rationale": "Balcony is a platform extending from an upper floor of a home; the existing platform refers specifically to a raised railway waiting area, so the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000056",
+        "rationale": "Balcony is a platform extending from an upper floor of a home; the existing platform refers specifically to a raised railway waiting area, so the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "f4078c13d78a0f8d80c02defa81bcae8345a872d88cb67335bcc03080af80b5b"
+}

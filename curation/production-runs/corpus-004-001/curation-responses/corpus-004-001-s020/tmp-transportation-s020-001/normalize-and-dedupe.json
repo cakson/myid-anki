@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5587,
+  "input_digest": "3fba58c96764af77b09c2626de6c198bb6897c40f1c1b3afcf8948cd42b525f7",
+  "input_tokens": 45012,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 149,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"clothing-001:clothing-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is a vehicle passenger restraint, while the existing belt is a clothing strap worn around the waist; their senses and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-05",
+          "rationale": "The candidate is a vehicle passenger restraint, while the existing belt is a clothing strap worn around the waist; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

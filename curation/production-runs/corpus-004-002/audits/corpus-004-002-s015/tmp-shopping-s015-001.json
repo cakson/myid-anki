@@ -1,0 +1,72 @@
+{
+  "attempt_id": "3caf31b1b0982b20",
+  "candidate_id": "tmp-shopping-s015-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct ordinary Indonesian term for retail sale or sale in small quantities.",
+      "evidence_refs": [
+        "https://kamus.sabda.org/kamus/ecer",
+        "https://cambridge.org/dictionary/indonesian-english/menjual-eceran"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: eceran"
+    },
+    {
+      "conclusion": "Correct ordinary Malaysian Malay term for retail; jualan runcit denotes retail sales.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=runcit",
+        "https://www.dosm.gov.my/uploads/publications/20221018155400.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: runcit"
+    },
+    {
+      "conclusion": "Retail and “sale of goods individually to consumers” are semantically aligned.",
+      "evidence_refs": [
+        "https://cambridge.org/dictionary/indonesian-english/menjual-eceran"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate: eceran and runcit are distinct ordinary forms across Indonesian and Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=eceran",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=runcit"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present; the forms differ lexically but express the same retail concept.",
+      "evidence_limitation": "Evidence supports the shared sense and regional usage; it does not exhaust all regional or register-specific variation.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "4cb7022857edcda915f8379271404219a944d59e7297544b21c3e06cb60ce341",
+  "correction_refs": [],
+  "decision_digest": "55ea12f24de9a07725860a4b4d36844e4394581998faf1a3a7e1babb9436ac32",
+  "elapsed_ms": 15789,
+  "finding_class": "none",
+  "input_tokens": 29063,
+  "model_calls": 1,
+  "output_tokens": 913,
+  "packet_digest": "7cab7fc060f5a289ef7190fb54736932becd286b9ffc77729efc5c1ed03ca9f2",
+  "rationale": "Both answers match ordinary usage for the stated retail sense. The English cue and sense are aligned, the relation different-common-word is appropriate, and no false-friend contrast is indicated.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:51:28.680231+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s015/tmp-shopping-s015-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s015",
+  "verdict": "cleared"
+}

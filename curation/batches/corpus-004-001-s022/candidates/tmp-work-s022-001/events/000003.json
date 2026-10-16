@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:47:20.587527+00:00",
+  "input_digest": "168c3f3833f50888bda8967a793493ca6da930909447d742933c43e35fbdf29a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-actions-001:actions-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cResign\\u201d means voluntarily leave a job, while \\u201cdepart\\u201d means leave for a destination; the English senses and Indonesian/Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-05",
+          "rationale": "“Resign” means voluntarily leave a job, while “depart” means leave for a destination; the English senses and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-actions-001:actions-05",
+        "rationale": "“Resign” means voluntarily leave a job, while “depart” means leave for a destination; the English senses and Indonesian/Malaysian answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "3ad917ee01a5680a8712ba35f8692df46cc7e0fc3cb1c2fdb2152b8a9bb4f24d"
+}

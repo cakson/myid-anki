@@ -1,0 +1,68 @@
+{
+  "attempt_id": "1932a6a7301ca136",
+  "candidate_id": "tmp-emotions-s008-003",
+  "claim_reviews": [
+    {
+      "conclusion": "The corrected cue “loneliness” matches the noun sense “sad because of a lack of companionship.”",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/loneliness"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Indonesian kesepian is an appropriate answer for loneliness.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kesunyian"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Malaysian kesunyian is an appropriate and attested answer, but kesepian is also used and listed as a synonym/alternative.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kesunyian",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kesunyian%3B"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” should be qualified as a preferred/common-word distinction, not an exclusive contrast; there is no false-friend contrast between the forms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kesunyian",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/lonely"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "36c7865af7faddbf664580d529e7a3ab43764b18127af415ecc6b1a907c15876",
+  "correction_refs": [],
+  "decision_digest": "488e1772f77699116c3103a319df5ba3bafb7013e11e46c05afc859c32e1ff76",
+  "elapsed_ms": 17121,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 29285,
+  "model_calls": 1,
+  "output_tokens": 1003,
+  "packet_digest": "a9e864a3b406ee3505e298eaa6bc88543b1122a5e8772e531b4f016d56256847",
+  "rationale": "Both forms are valid for the intended loneliness sense, but the relation is overstated: kesepian is also an ordinary Malaysian Malay form, so this is a usage preference rather than a clean language-specific contrast. No false-friend distinction is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:45:43.837674+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s008/tmp-emotions-s008-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-002-s008",
+  "verdict": "needs-correction"
+}

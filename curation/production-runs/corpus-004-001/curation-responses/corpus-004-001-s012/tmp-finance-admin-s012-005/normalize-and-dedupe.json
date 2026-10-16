@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5417,
+  "input_digest": "460c7043d332fb5e866e35c34c694ada4356f2039732818152fdf69b5c7831bd",
+  "input_tokens": 45006,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 195,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-travel-001:travel-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is a government-imposed payment, whereas customs is the border authority or process that checks goods and collects duties; the senses and answer pairs differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-08",
+          "rationale": "The candidate is a government-imposed payment, whereas customs is the border authority or process that checks goods and collects duties; the senses and answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

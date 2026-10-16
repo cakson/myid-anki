@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7123,
+  "input_digest": "b84a93e9741864593d958d63e699008c7c3c1225c77901eed6fa4cbb5eb4e6ee",
+  "input_tokens": 54578,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 286,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A shopping mall is a specific type of large commercial building; the candidate denotes a general constructed structure with rooms or floors.\"},{\"other_id\":\"corpus-004-002-s006:tmp-directions-location-s006-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A building floor is one level within a building, whereas the candidate denotes the complete constructed structure.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-09",
+          "rationale": "A shopping mall is a specific type of large commercial building; the candidate denotes a general constructed structure with rooms or floors.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-003",
+          "rationale": "A building floor is one level within a building, whereas the candidate denotes the complete constructed structure.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

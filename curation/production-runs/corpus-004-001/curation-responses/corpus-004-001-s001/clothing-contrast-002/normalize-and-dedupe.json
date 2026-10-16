@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7230,
+  "input_digest": "a27ba582bff2da4e5dcc5855c84a4b82af0d547281d7becf49d7df56222897d8",
+  "input_tokens": 45009,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 170,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"clothing-001:clothing-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A collar is the upper neck part of a shirt, while a shirt is the complete upper-body garment; the concepts and both answer pairs are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-03",
+          "rationale": "A collar is the upper neck part of a shirt, while a shirt is the complete upper-body garment; the concepts and both answer pairs are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

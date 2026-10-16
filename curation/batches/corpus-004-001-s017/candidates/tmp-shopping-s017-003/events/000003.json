@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T01:42:50.816750+00:00",
+  "input_digest": "49029e9b3cb4dcb863ab8e66c83712c6e9d79327a1e731256d19108ef223ba73",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-food-001:food-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A store clerk assists customers generally, whereas a cashier specifically handles payment.\"}, {\"other_id\": \"fresh-work-001:work-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A store clerk is a specific shop role; employee is the broader concept of any person employed by an organization.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-06",
+          "rationale": "A store clerk assists customers generally, whereas a cashier specifically handles payment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-01",
+          "rationale": "A store clerk is a specific shop role; employee is the broader concept of any person employed by an organization.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-food-001:food-06",
+        "rationale": "A store clerk assists customers generally, whereas a cashier specifically handles payment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-work-001:work-01",
+        "rationale": "A store clerk is a specific shop role; employee is the broader concept of any person employed by an organization.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "00ae82476b09914c4912a90b37b658f7c5eb18d8e7a6fab54327964845f6fa28"
+}

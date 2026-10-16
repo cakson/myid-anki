@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7600,
+  "input_digest": "03816a5c418984eeb3db0dfd25aa2456c609d822aa6a9551e98c69794083fae4",
+  "input_tokens": 45007,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 195,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A tourist attraction is a place visited for sightseeing or tourism; a destination is the broader place someone is traveling to, so their senses are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-07",
+          "rationale": "A tourist attraction is a place visited for sightseeing or tourism; a destination is the broader place someone is traveling to, so their senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

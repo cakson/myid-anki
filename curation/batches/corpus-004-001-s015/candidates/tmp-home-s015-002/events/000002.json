@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-16T01:40:32.153806+00:00",
+  "result": {
+    "candidate_digest": "a1a1762f38d4cd7997be1ef11ea2e8adee5f71ed2898c93f88a01f8adfc943cd",
+    "candidate_id": "tmp-home-s015-002",
+    "checked_at": "2026-10-16T01:40:32.153806+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "pending",
+    "reason_codes": [
+      "missing-independent-verification"
+    ],
+    "relation": "",
+    "review_flags": [],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "missing",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,72 @@
+{
+  "attempt_id": "53b0771ed14f127f",
+  "candidate_id": "tmp-finance-admin-s012-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Budget” is correctly defined as a planned amount of money for income and expenditure.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=belanjawan",
+        "https://kbbi.web.id/anggaran.html"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Anggaran” is a standard Indonesian term for a financial budget, including projected receipts and expenditures.",
+      "evidence_refs": [
+        "https://kbbi.web.id/anggaran.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: anggaran"
+    },
+    {
+      "conclusion": "“Bajet” means budget in Malaysian Malay and is used in ordinary speech, but it is marked as conversational; “belanjawan” is preferred in formal or standard contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bajet",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=belanjawan"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: bajet"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable for contrasting Indonesian “anggaran” with colloquial Malaysian “bajet,” but it needs a register note because formal Malaysian usage favors “belanjawan.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=belanjawan",
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bajet"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present; the forms are related equivalents across varieties, with the main distinction being Malaysian register and preferred formal terminology.",
+      "evidence_limitation": "The reviewed dictionary evidence establishes equivalence and register, but does not explicitly classify the pair as a false-friend relationship.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d7278a496100561c1e07d67d3d77214092107f326d9f30547a3753ed0338a9d5",
+  "correction_refs": [],
+  "decision_digest": "dda14a403e378c568cb686990a5ea8e689c661f877daccea0d4f3d7bd6040232",
+  "elapsed_ms": 22838,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61799,
+  "model_calls": 1,
+  "output_tokens": 1275,
+  "packet_digest": "b1db2f96e8bdbee55932fcf7eee55d4147e1b96acbd772ac40d7e77dfefb423d",
+  "rationale": "The English cue and intended sense are correct, and Indonesian “anggaran” is a standard equivalent. Malaysian “bajet” is understandable and used colloquially, but DBP identifies it as conversational and recommends “belanjawan” in formal or neutral contexts. The relation is broadly defensible, but the card should state this register distinction. No false-friend contrast is indicated.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:03:17.832568+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s012/tmp-finance-admin-s012-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s012",
+  "verdict": "needs-correction"
+}

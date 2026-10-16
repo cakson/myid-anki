@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T13:36:42.936945+00:00",
+  "input_digest": "cc6d61af4d48a96b5cf37a1435aa2d10dc00c7f873e7aa1daba3cad47e086637",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cOngkos bus\\u201d is an ordinary Indonesian expression, while \\u201ctambang bas\\u201d is the ordinary Malaysian Malay expression for money paid to ride a bus.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers directly denote the money paid to ride a bus.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cTarif bus\\u201d may also be understood, especially in more formal usage, but \\u201congkos bus\\u201d is a credible everyday Indonesian preference while \\u201ctambang bas\\u201d is the natural Malaysian form.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"tarif bus\", \"language\": \"indonesian\", \"rationale\": \"\\u201cTarif bus\\u201d is a plausible formal or context-specific Indonesian alternative, but it does not undermine the useful contrast with Malaysian \\u201ctambang bas\\u201d.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers directly denote the money paid to ride a bus.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "tarif bus",
+        "language": "indonesian",
+        "rationale": "“Tarif bus” is a plausible formal or context-specific Indonesian alternative, but it does not undermine the useful contrast with Malaysian “tambang bas”.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "“Ongkos bus” is an ordinary Indonesian expression, while “tambang bas” is the ordinary Malaysian Malay expression for money paid to ride a bus.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Tarif bus” may also be understood, especially in more formal usage, but “ongkos bus” is a credible everyday Indonesian preference while “tambang bas” is the natural Malaysian form.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers directly denote the money paid to ride a bus.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "tarif bus",
+      "language": "indonesian",
+      "rationale": "“Tarif bus” is a plausible formal or context-specific Indonesian alternative, but it does not undermine the useful contrast with Malaysian “tambang bas”.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "“Ongkos bus” is an ordinary Indonesian expression, while “tambang bas” is the ordinary Malaysian Malay expression for money paid to ride a bus.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Tarif bus” may also be understood, especially in more formal usage, but “ongkos bus” is a credible everyday Indonesian preference while “tambang bas” is the natural Malaysian form.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "2d75a02927c3a1ebd20e123914f7257816209f9d1641b7c56f0e7cf6d46da933"
+}

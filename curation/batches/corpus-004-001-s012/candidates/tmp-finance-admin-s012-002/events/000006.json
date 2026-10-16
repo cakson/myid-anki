@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T01:37:29.848477+00:00",
+  "input_digest": "d9f8d00faec340cda250caaf8c2de33dc62e7d9e94f0e7b66142a1ea378a14cb",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cAnggaran\\u201d is the ordinary Indonesian term for budget, while Malaysian commonly uses \\u201cbajet\\u201d for the same planned spending amount.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers refer to a planned amount of money available for spending.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Indonesian also has \\u201cbujet,\\u201d while Malaysian uses formal \\u201cbelanjawan\\u201d; these alternatives do not erase the useful everyday contrast between \\u201canggaran\\u201d and \\u201cbajet.\\u201d\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Register and context may favor \\u201cbelanjawan\\u201d in formal Malaysian administration and \\u201cbujet\\u201d in some Indonesian contexts.\", \"preference_risk\": {\"signal\": \"regional-or-register-competition\", \"form\": \"belanjawan\", \"language\": \"malaysian\", \"rationale\": \"\\u201cBelanjawan\\u201d is a formal Malaysian alternative, especially in administrative contexts, though \\u201cbajet\\u201d remains an ordinary everyday term.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers refer to a planned amount of money available for spending.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "belanjawan",
+        "language": "malaysian",
+        "rationale": "“Belanjawan” is a formal Malaysian alternative, especially in administrative contexts, though “bajet” remains an ordinary everyday term.",
+        "signal": "regional-or-register-competition"
+      },
+      "rationale": "“Anggaran” is the ordinary Indonesian term for budget, while Malaysian commonly uses “bajet” for the same planned spending amount.",
+      "relation": "different-common-word",
+      "risk_rationale": "Register and context may favor “belanjawan” in formal Malaysian administration and “bujet” in some Indonesian contexts.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Indonesian also has “bujet,” while Malaysian uses formal “belanjawan”; these alternatives do not erase the useful everyday contrast between “anggaran” and “bajet.”",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers refer to a planned amount of money available for spending.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "belanjawan",
+      "language": "malaysian",
+      "rationale": "“Belanjawan” is a formal Malaysian alternative, especially in administrative contexts, though “bajet” remains an ordinary everyday term.",
+      "signal": "regional-or-register-competition"
+    },
+    "rationale": "“Anggaran” is the ordinary Indonesian term for budget, while Malaysian commonly uses “bajet” for the same planned spending amount.",
+    "relation": "different-common-word",
+    "risk_rationale": "Register and context may favor “belanjawan” in formal Malaysian administration and “bujet” in some Indonesian contexts.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Indonesian also has “bujet,” while Malaysian uses formal “belanjawan”; these alternatives do not erase the useful everyday contrast between “anggaran” and “bajet.”",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "d6713dcb6bad4f4eacf470e5db662889ee68d1115d51c84b7ea681227611f568"
+}

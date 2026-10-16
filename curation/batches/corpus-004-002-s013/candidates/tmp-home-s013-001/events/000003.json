@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:29:41.831644+00:00",
+  "input_digest": "a61ea59e437432f75edf8afd18d0bebbc7cc96f99bc90347a0461e473976698d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s007:tmp-daily-life-s007-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are household appliances related to indoor temperature and air, but an air conditioner cools indoor air while an electric fan circulates air without equivalent cooling.\"}, {\"other_id\": \"everyday-objects-001:everyday-objects-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are cooling appliances, but an air conditioner cools indoor room air whereas a refrigerator keeps food cold.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s007:tmp-daily-life-s007-001",
+          "rationale": "Both are household appliances related to indoor temperature and air, but an air conditioner cools indoor air while an electric fan circulates air without equivalent cooling.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "everyday-objects-001:everyday-objects-03",
+          "rationale": "Both are cooling appliances, but an air conditioner cools indoor room air whereas a refrigerator keeps food cold.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s007:tmp-daily-life-s007-001",
+        "rationale": "Both are household appliances related to indoor temperature and air, but an air conditioner cools indoor air while an electric fan circulates air without equivalent cooling.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "everyday-objects-001:everyday-objects-03",
+        "rationale": "Both are cooling appliances, but an air conditioner cools indoor room air whereas a refrigerator keeps food cold.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6a988716d7d9f8edbf41d2bfe8197cb86e06368fac5a2c0ac13d33767376cd0b"
+}

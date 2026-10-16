@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6537,
+  "input_digest": "d86e89fb40866d12ffe901c36378c03c5f3e094497d6c16ac1579b466ffea365",
+  "input_tokens": 45007,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 382,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both concern negative emotion, but heartbroken specifically means deeply distressed after romantic loss or rejection, whereas homesick means missing one's home while away.\"},{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both can involve emotional pain, but heartbroken centers on romantic loss or rejection, whereas resentful means holding lasting anger about a wrong.\"},{\"other_id\":\"cal2-social-001:social-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The Indonesian answer kecewa is related to disappointed, but the candidate's cue and both answers specify heartbreak after romantic loss or rejection; disappointed is broader unmet expectation.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-006",
+          "rationale": "Both concern negative emotion, but heartbroken specifically means deeply distressed after romantic loss or rejection, whereas homesick means missing one's home while away.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-008",
+          "rationale": "Both can involve emotional pain, but heartbroken centers on romantic loss or rejection, whereas resentful means holding lasting anger about a wrong.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-social-001:social-10",
+          "rationale": "The Indonesian answer kecewa is related to disappointed, but the candidate's cue and both answers specify heartbreak after romantic loss or rejection; disappointed is broader unmet expectation.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

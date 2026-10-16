@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 8075,
+  "input_digest": "ea282b39aabfd86abb39599a321305a3086f848c3e452ee8993e8566c6a4654a",
+  "input_tokens": 54575,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 236,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s015:tmp-shopping-s015-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Retail is the sale of goods individually to consumers, while wholesale is the sale of goods in bulk; the senses are clearly contrasted.\"},{\"other_id\":\"places-001:places-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Retail describes selling goods to consumers as a commercial activity or channel, while shop describes a physical retail place.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s015:tmp-shopping-s015-002",
+          "rationale": "Retail is the sale of goods individually to consumers, while wholesale is the sale of goods in bulk; the senses are clearly contrasted.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "places-001:places-02",
+          "rationale": "Retail describes selling goods to consumers as a commercial activity or channel, while shop describes a physical retail place.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

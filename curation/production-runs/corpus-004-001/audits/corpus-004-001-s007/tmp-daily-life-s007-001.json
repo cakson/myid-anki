@@ -1,0 +1,76 @@
+{
+  "attempt_id": "389008710066d79a",
+  "candidate_id": "tmp-daily-life-s007-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for an electric household fan.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/kipas",
+        "https://kbbi.web.id/kipas%20angin"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kipas angin"
+    },
+    {
+      "conclusion": "Acceptable as a common short form for a household fan, though “kipas angin” or “kipas elektrik” is more explicit.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kipas",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kipas+angin"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kipas"
+    },
+    {
+      "conclusion": "“Electric fan” and “household fan that circulates air” align with both answers in ordinary context.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kipas%20angin",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kipas+angin"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Misclassified; the relation should indicate shared form/shared synonym with national or register preference, not different common words.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/kipas",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kipas"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is present. “Kipas” retains the relevant fan meaning in both varieties.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/kipas",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kipas"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "6212f14df89f4f0066685439f2ecbdd30653838328ec40e69bd4ce06fc6fbc88",
+  "correction_refs": [],
+  "decision_digest": "e54f3bc4fe40c93a202b0a9e0830d7139379e7987b85519c117fca0dd59ee3d1",
+  "elapsed_ms": 18650,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49762,
+  "model_calls": 1,
+  "output_tokens": 1081,
+  "packet_digest": "d823b5e2ddf5dbe4f987747ca6ab1810c21e6078cc9c816474a6d12a981930d4",
+  "rationale": "Both answers are usable, but the relation label is misleading: this is a shared synonym/preference contrast, not a genuinely different common-word distinction. Indonesian also uses “kipas” in relevant contexts, while Malaysian “kipas” can be clarified as “kipas angin” or “kipas elektrik” when needed. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:55:48.751592+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s007/tmp-daily-life-s007-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s007",
+  "verdict": "needs-correction"
+}

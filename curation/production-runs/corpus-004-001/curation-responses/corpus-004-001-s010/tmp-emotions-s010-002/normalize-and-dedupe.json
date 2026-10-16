@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5930,
+  "input_digest": "063ea973100eba54568ce3f77f76f7174ee37e9b71153edc3f152b3371f13aff",
+  "input_tokens": 45008,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 176,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-social-001:social-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both involve anxiety, but “nervous” specifically describes anxiousness before or during an event, whereas “worried” describes concern about a possible problem; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-social-001:social-02",
+          "rationale": "Both involve anxiety, but “nervous” specifically describes anxiousness before or during an event, whereas “worried” describes concern about a possible problem; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

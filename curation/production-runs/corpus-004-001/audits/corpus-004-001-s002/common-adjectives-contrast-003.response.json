@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21060,
+  "input_tokens": 49525,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1197,
+  "packet_digest": "216749f43dfc9e2cfbb4a31b307c09b27a89f3dfde9efb6b6ded1b312e6af9f2",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers are valid for the cue. Indonesian bingung directly covers being unclear or not understanding, while Malaysian Malay keliru covers mistaken or confused understanding. The contrast is a preference/commonness distinction, not an exclusive lexical split: bingung also exists in Malaysian Malay. No false-friend contrast is applicable.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue confused and sense unable to understand or decide clearly are appropriately aligned.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/bingung\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: bingung\",\n      \"conclusion\": \"Correct and idiomatic Indonesian for being confused, unclear, or not understanding.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/bingung\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: keliru\",\n      \"conclusion\": \"Correct and characteristic Malaysian Malay choice for mistaken or confused understanding.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"Different-common-word is acceptable as a preference-based contrast, provided it is not interpreted as exclusivity; bingung is also attested in Malaysian Malay.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bingung\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is present or needed. The issue is shared vocabulary with differing national preference, not divergent meaning.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bingung\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The cue confused and sense unable to understand or decide clearly are appropriately aligned.",
+        "evidence_refs": [
+          "https://kbbi.web.id/bingung",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and idiomatic Indonesian for being confused, unclear, or not understanding.",
+        "evidence_refs": [
+          "https://kbbi.web.id/bingung"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: bingung"
+      },
+      {
+        "conclusion": "Correct and characteristic Malaysian Malay choice for mistaken or confused understanding.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: keliru"
+      },
+      {
+        "conclusion": "Different-common-word is acceptable as a preference-based contrast, provided it is not interpreted as exclusivity; bingung is also attested in Malaysian Malay.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bingung",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or needed. The issue is shared vocabulary with differing national preference, not divergent meaning.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bingung",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keliru"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are valid for the cue. Indonesian bingung directly covers being unclear or not understanding, while Malaysian Malay keliru covers mistaken or confused understanding. The contrast is a preference/commonness distinction, not an exclusive lexical split: bingung also exists in Malaysian Malay. No false-friend contrast is applicable.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,71 @@
+{
+  "attempt_id": "44e3718208b3bf5c",
+  "candidate_id": "tmp-education-s009-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Textbook” and the supplied sense, “book used for studying a school subject,” are accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=buku+teks"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and natural Indonesian for “textbook,” especially in an educational context.",
+      "evidence_refs": [
+        "https://buku.kemendikdasmen.go.id/",
+        "https://freedict.com/translate/english-indonesian/textbook"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: buku pelajaran"
+    },
+    {
+      "conclusion": "Valid and standard Malaysian Malay term meaning a textbook used for a particular subject.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=buku+teks"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: buku teks"
+    },
+    {
+      "conclusion": "The label “different-common-word” is misleading because buku teks is also used in Indonesian and buku pelajaran is not excluded from Malaysian Malay. A preference/shared-synonym relation is more accurate.",
+      "evidence_refs": [
+        "https://buku.kemendikdasmen.go.id/",
+        "https://prpm.dbp.gov.my/Cari1?d=156844&keyword=pelajaran"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false friend is present; both compounds transparently refer to an educational textbook.",
+      "evidence_limitation": "The reviewed sources establish meanings and attestation but do not provide a systematic corpus comparison of regional frequency.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c0df4147cf5a616a8f0f95424212d6637c74ffea77fda7e67bf659c5cb6cc49e",
+  "correction_refs": [],
+  "decision_digest": "4698b4eca1c8a95e33bc6f316749e4e40d07707a86a413982df6ffd0ea63b3cb",
+  "elapsed_ms": 19845,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 51991,
+  "model_calls": 1,
+  "output_tokens": 1018,
+  "packet_digest": "d83d3b0a7b62b0a470c5e548e8e3f8853c2b6edb90a8d3f171e270c9808aa53d",
+  "rationale": "The English cue and both Malay answers are semantically accurate. However, “buku teks” is also a valid Indonesian term, while “buku pelajaran” is understandable and attested in Malaysian Malay. The relation “different-common-word” therefore overstates the dialect contrast; this is better treated as a preference or usage-pattern contrast. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:57:46.289827+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s009/tmp-education-s009-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s009",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,445 @@
+{
+  "accepted": 3,
+  "batch_id": "corpus-004-001-s010",
+  "confidence_distribution": {
+    "low": 2,
+    "medium": 1
+  },
+  "corrections": 0,
+  "created_at": "2026-10-16T02:10:09.340987+00:00",
+  "decisions": [
+    {
+      "candidate_id": "tmp-emotions-s010-001",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "correctable",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "antusias",
+          "language": "both",
+          "rationale": "Antusias is a plausible everyday alternative in both Indonesian and Malaysian, though the proposed forms still provide a credible variety preference.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "For the narrowed sense of enthusiasm or eagerness, Indonesian bersemangat and Malaysian teruja are ordinary, useful variety-specific preferences. The concise cue is narrowed to enthusiastic. Review concern: Teruja can also convey being thrilled or delighted, so context may influence the preferred translation.",
+      "confidence_tier": "low",
+      "cue_correction": {
+        "from": "excited",
+        "to": "enthusiastic"
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "cue-corrected",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-emotions-s010-002",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "cemas",
+          "language": "both",
+          "rationale": "Cemas is a plausible everyday alternative for anxiety in both varieties, although it is somewhat broader than event-related nervousness.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Gugup is the ordinary Indonesian term for feeling nervous, while Malaysian Malay commonly uses gementar for nervousness or apprehension before an event. The pair teaches a useful variety preference. Review concern: Gementar may also foreground a trembling physical reaction in some contexts.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-emotions-s010-003",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Independent risk audit needs-correction (cue-content): Both answers fit the narrowed sense of curious, but the card omits an important cross-variety contrast: Indonesian penasaran corresponds to Malaysian panasaran, whose standard meaning is associated with frustrated desire, dissatisfaction, or anger; Malaysian Malay uses ingin tahu for inquisitive curiosity. Also, ingin tahu is possible in Indonesian, so the relation should not imply strict exclusivity.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-emotions-s010-004",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Independent risk audit needs-correction (cue-content): Both forms can express disgust, but Malaysian Malay geli is highly polysemous and commonly means ticklish or amused, so the missing false-friend contrast creates learner risk. The different-common-word relation is also too strong without usage evidence because Malay jijik is itself a direct disgust term and geli is not exclusive to Malaysian Malay.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-emotions-s010-005",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "correctable",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "geram",
+          "language": "malaysian",
+          "rationale": "“Geram” is also a plausible Malaysian everyday term for irritation, though it can carry additional frustration or exasperation.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "“Kesal” is an ordinary Indonesian choice for being annoyed, while “terganggu” is a common Malaysian choice for being bothered by an unpleasant person or situation. The contrast is useful after a concise cue adjustment. The concise cue is narrowed to bothered by an unpleasant situation or person. Review concern: “Terganggu” can sometimes describe practical disruption rather than an emotional reaction.",
+      "confidence_tier": "low",
+      "cue_correction": {
+        "from": "irritated",
+        "to": "bothered by an unpleasant situation or person"
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "cue-corrected",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-emotions-s010-006",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): Both phrases are valid and match the homesick sense, but the relation label overstates a language-specific contrast. “Rindu rumah” and “rindu kampung” are overlapping Malay-family expressions, and both varieties can use broader alternatives such as “rindu kampung halaman.” No false-friend contrast is present.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-emotions-s010-007",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "rejected",
+      "reason_codes": [
+        "artificial-synonym"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-emotions-s010-008",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): The meanings are broadly aligned, but the Indonesian form dendam is primarily a noun/adjective and is not the natural direct equivalent of the verbal cue “holding a grudge” without a construction such as menyimpan/menaruh dendam. Malaysian berdendam is a direct verbal match. The contrast is grammatical and usage-based, not a semantic false friend.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    }
+  ],
+  "duplicate_detections": 13,
+  "duplicate_resolutions": {
+    "distinct": 13
+  },
+  "evidence_failures": 0,
+  "further_investigation": [
+    "tmp-emotions-s010-003",
+    "tmp-emotions-s010-004",
+    "tmp-emotions-s010-006",
+    "tmp-emotions-s010-008"
+  ],
+  "generated": 8,
+  "held": 4,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "artificial-synonym": 1,
+    "material-unresolved-issue": 4,
+    "ordinary-verifier-agreement": 3
+  },
+  "rejected": 1,
+  "relation_distribution": {
+    "different-common-word": 3
+  },
+  "review_priority": [
+    "tmp-emotions-s010-001",
+    "tmp-emotions-s010-005",
+    "tmp-emotions-s010-002"
+  ],
+  "status": "closed",
+  "verification_failures": 1
+}

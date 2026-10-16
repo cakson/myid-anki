@@ -1,0 +1,77 @@
+{
+  "attempt_id": "78727234e9281aff",
+  "candidate_id": "tmp-family-social-s009-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Unmarried” and “not married” are aligned and appropriately specific.",
+      "evidence_refs": [
+        "https://kamus.sabda.org/kamus/lajang",
+        "https://prpm.dbp.gov.my/Cari1?d=259120&keyword=bujang"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct ordinary Indonesian term for single/unmarried; generally not gender-restricted.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lajang"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lajang"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for unmarried; usage may sometimes suggest a bachelor or unmarried man, but official Malay dictionary coverage also includes broader unmarried usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=259120&keyword=bujang",
+        "https://prpm.dbp.gov.my/Cari1?d=399108&keyword=single"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: bujang"
+    },
+    {
+      "conclusion": "“Different-common-word” is a defensible contrast between common Indonesian “lajang” and Malaysian Malay “bujang.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/lajang",
+        "https://prpm.dbp.gov.my/Cari1?d=259120&keyword=bujang"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false friend is present. “Bujang” has additional bachelor-related nuance and polysemy, but it does not contradict the unmarried sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=259120&keyword=bujang",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bachelor"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d062fb37fa62c03b1235e75bc1c1205292c73454fa57313e43f8bddf5865888d",
+  "correction_refs": [],
+  "decision_digest": "950a4818f5b270af21c173a695d854ede66dc71dda1ea691bec82aaec25b8d41",
+  "elapsed_ms": 17581,
+  "finding_class": "none",
+  "input_tokens": 29348,
+  "model_calls": 1,
+  "output_tokens": 996,
+  "packet_digest": "34000aca0d1d7a529b93759ca0fad8f30add547b248e87fd1bbeb073cae5e560",
+  "rationale": "Both answers correctly express “unmarried.” Indonesian “lajang” means single/not married, while Malaysian Malay “bujang” commonly means unmarried and can also carry a bachelor nuance. The variety relation “different-common-word” is supported. This is a nuance, not a false-friend contrast or learner-critical error.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:46:44.768225+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s009/tmp-family-social-s009-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s009",
+  "verdict": "cleared"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:15:10.072774+00:00",
+  "input_digest": "68cf4da869394905fd9befca23f7d741b3741454c0e18bdb5007cc5ebad6f31d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s004:tmp-communication-s004-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cto guess\\u201d means give an answer without certainty, while \\u201canswer\\u201d means a response to a question; the concepts are related but have distinct senses and cues.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-002",
+          "rationale": "“to guess” means give an answer without certainty, while “answer” means a response to a question; the concepts are related but have distinct senses and cues.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s004:tmp-communication-s004-002",
+        "rationale": "“to guess” means give an answer without certainty, while “answer” means a response to a question; the concepts are related but have distinct senses and cues.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "00bdb872ae52a36d2f03ee4ab8e7ce64388e408e8ad994f75de756c248fca5d0"
+}

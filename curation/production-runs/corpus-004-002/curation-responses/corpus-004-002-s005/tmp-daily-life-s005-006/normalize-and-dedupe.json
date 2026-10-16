@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6722,
+  "input_digest": "99ab85e6429b266e7ad06e2076b15b08073f86f158aaa917d865496a6564db8d",
+  "input_tokens": 54576,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 195,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-home-001:home-02\",\"type\":\"synonym\",\"resolution\":\"merge\",\"rationale\":\"\\\"clothes cabinet\\\" and \\\"wardrobe\\\" denote the same cabinet used to store clothes; \\\"lemari baju\\\"/\\\"almari baju\\\" are synonymous with the existing \\\"lemari pakaian\\\"/\\\"almari pakaian\\\" answers.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-02",
+          "rationale": "\"clothes cabinet\" and \"wardrobe\" denote the same cabinet used to store clothes; \"lemari baju\"/\"almari baju\" are synonymous with the existing \"lemari pakaian\"/\"almari pakaian\" answers.",
+          "resolution": "merge",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

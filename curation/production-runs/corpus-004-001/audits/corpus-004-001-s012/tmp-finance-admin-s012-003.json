@@ -1,0 +1,67 @@
+{
+  "attempt_id": "4981162663a08663",
+  "candidate_id": "tmp-finance-admin-s012-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for bank interest on deposits and loans.",
+      "evidence_refs": [
+        "https://kbbi.web.id/bunga-2",
+        "https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/data-suku-bunga-bi-saat-ini.aspx"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: bunga"
+    },
+    {
+      "conclusion": "Correct and the standard/default Malaysian Malay term for interest earned on savings or charged on loans.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=faedah",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=faedah"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: faedah"
+    },
+    {
+      "conclusion": "“Bank interest” and the stated sense accurately cover interest earned on balances and charged on loans.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=interest",
+        "https://www.ojk.go.id/id/ojk-pedia/default.aspx"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is suitable for the default learner contrast, with a caveat that Malaysian “bunga” is also attested as a financial synonym; this is not a false friend.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=faedah",
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=interest"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "63fa2dbe89a7f73c9d7dea292fcf2a9c16d812e741640a545602d88516e02f03",
+  "correction_refs": [],
+  "decision_digest": "0c2a1d2ec42b7263cfb94d392a4c6487ee700513abde9dae9a41e7da9fee2a45",
+  "elapsed_ms": 26089,
+  "finding_class": "none",
+  "input_tokens": 100218,
+  "model_calls": 1,
+  "output_tokens": 1186,
+  "packet_digest": "00c06bde101652b8e03f647a3b88781ab7be0cb3927e0e69b6e8983d66660345",
+  "rationale": "Both answers and the English cue are materially correct. “Bunga” is the ordinary Indonesian banking term; Malaysian Malay ordinarily uses “faedah,” although Malaysian dictionaries also recognize “bunga” as a financial synonym. Thus “different-common-word” is acceptable as a default-usage contrast, but not an absolute lexical distinction. No false-friend contrast is present or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:03:43.936726+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s012/tmp-finance-admin-s012-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s012",
+  "verdict": "cleared"
+}

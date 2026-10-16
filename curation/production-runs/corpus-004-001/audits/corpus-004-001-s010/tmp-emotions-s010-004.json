@@ -1,0 +1,75 @@
+{
+  "attempt_id": "7daaed012ffa74aa",
+  "candidate_id": "tmp-emotions-s010-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for disgusted/disgusting aversion caused by something dirty, vile, or unpleasant.",
+      "evidence_refs": [
+        "https://kbbi.web.id/jijik.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: jijik"
+    },
+    {
+      "conclusion": "Valid for disgust or revulsion, but also commonly means ticklish, amused, or physically uncomfortable.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=169476&keyword=geli"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian Malay answer: geli"
+    },
+    {
+      "conclusion": "The cue disgusted and the sense of strong aversion toward something unpleasant are broadly aligned, though geli may require contextual disambiguation.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=169476&keyword=geli",
+        "https://kbbi.web.id/jijik.html"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Not sufficiently supported as a clean variety contrast: Malay also has jijik for disgust, while geli is not uniquely Malaysian.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=jijik",
+        "https://prpm.dbp.gov.my/Cari1?d=169476&keyword=geli"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "A learner-critical contrast is missing: Malaysian Malay geli can mean ticklish or amused, not only disgusted.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=169476&keyword=geli"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "cbb1d3cc769f0182ca0beb79857750ee24a864a149a2bcc6fc50516125f2fc02",
+  "correction_refs": [],
+  "decision_digest": "b2e7d84597f22ab9510a42e3f75efd9ff654bdd0918ce5dc3b98df8a679600d6",
+  "elapsed_ms": 14150,
+  "finding_class": "cue-content",
+  "input_tokens": 32910,
+  "model_calls": 1,
+  "output_tokens": 957,
+  "packet_digest": "e0ed0bed04f4cba19d43af403262d833625bb9f7d19bb69d630e3cc80080d584",
+  "rationale": "Both forms can express disgust, but Malaysian Malay geli is highly polysemous and commonly means ticklish or amused, so the missing false-friend contrast creates learner risk. The different-common-word relation is also too strong without usage evidence because Malay jijik is itself a direct disgust term and geli is not exclusive to Malaysian Malay.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:59:36.716978+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s010/tmp-emotions-s010-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s010",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T13:11:54.304552+00:00",
+  "input_digest": "71e0c52650340606efece6f86581afa4547ee4a76d8bf3fb0da7cf1fc4936c94",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s001:clothing-contrast-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A scarf is a neck-worn accessory, distinct from a tie worn with a shirt; the English cue and both translations differ.\"}, {\"other_id\": \"corpus-004-001-s001:clothing-contrast-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A scarf is a wearable neck accessory, whereas a collar is the upper part of a shirt; the senses and answers differ.\"}, {\"other_id\": \"000141\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A scarf is distinct from a necktie: both are neckwear, but they are different garment types with different cues and translations.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-001",
+          "rationale": "A scarf is a neck-worn accessory, distinct from a tie worn with a shirt; the English cue and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-002",
+          "rationale": "A scarf is a wearable neck accessory, whereas a collar is the upper part of a shirt; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000141",
+          "rationale": "A scarf is distinct from a necktie: both are neckwear, but they are different garment types with different cues and translations.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s001:clothing-contrast-001",
+        "rationale": "A scarf is a neck-worn accessory, distinct from a tie worn with a shirt; the English cue and both translations differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s001:clothing-contrast-002",
+        "rationale": "A scarf is a wearable neck accessory, whereas a collar is the upper part of a shirt; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "000141",
+        "rationale": "A scarf is distinct from a necktie: both are neckwear, but they are different garment types with different cues and translations.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "f337a606df56c3aced2b1400ce8a0052130fe30d8979501d285698ae849617c5"
+}

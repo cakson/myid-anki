@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T13:33:38.614959+00:00",
+  "input_digest": "f119feb0f379ed65f2a6d6f60478b316f44044941ea24396b5edae89936a590e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The cue \\u201cnetwork\\u201d is broader than the intended technology sense.\"], \"material_concerns\": [], \"rationale\": \"\\u201cJaringan\\u201d is the ordinary Indonesian term and \\u201crangkaian\\u201d the ordinary Malaysian term for a computer or communications network.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"computer or communications network\", \"cue_rationale\": \"The narrowed cue makes the shared technology sense explicit; both answers fit it.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"The English loanword \\u201cnetwork\\u201d may occur in technical usage in both countries, but \\u201cjaringan\\u201d and \\u201crangkaian\\u201d remain useful localized preferences.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"English \\u201cnetwork\\u201d is also used informally in some technical contexts in both varieties.\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"network\", \"language\": \"both\", \"rationale\": \"The English loanword may be encountered in technical contexts in both varieties, though the proposed localized forms remain useful.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The cue “network” is broader than the intended technology sense."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The narrowed cue makes the shared technology sense explicit; both answers fit it.",
+      "cue_rewrite": "computer or communications network",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "network",
+        "language": "both",
+        "rationale": "The English loanword may be encountered in technical contexts in both varieties, though the proposed localized forms remain useful.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "“Jaringan” is the ordinary Indonesian term and “rangkaian” the ordinary Malaysian term for a computer or communications network.",
+      "relation": "different-common-word",
+      "risk_rationale": "English “network” is also used informally in some technical contexts in both varieties.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "The English loanword “network” may occur in technical usage in both countries, but “jaringan” and “rangkaian” remain useful localized preferences.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The cue “network” is broader than the intended technology sense."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The narrowed cue makes the shared technology sense explicit; both answers fit it.",
+    "cue_rewrite": "computer or communications network",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "network",
+      "language": "both",
+      "rationale": "The English loanword may be encountered in technical contexts in both varieties, though the proposed localized forms remain useful.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "“Jaringan” is the ordinary Indonesian term and “rangkaian” the ordinary Malaysian term for a computer or communications network.",
+    "relation": "different-common-word",
+    "risk_rationale": "English “network” is also used informally in some technical contexts in both varieties.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "The English loanword “network” may occur in technical usage in both countries, but “jaringan” and “rangkaian” remain useful localized preferences.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "c82c1c97b69e4e1e5fb22cb52ac2a895b703ce8d02effe9d102874e973bf8416"
+}

@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6974,
+  "input_digest": "a50119bd7a1978c888c21ab2863f47b49e6394fb151d1141e4f6a6969d5a76d6",
+  "input_tokens": 45008,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 230,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s004:tmp-communication-s004-006\",\"type\":\"morphology\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is the noun “complaint” meaning an expression of dissatisfaction, while the archived concept is the verb “complain” meaning to express dissatisfaction; their parts of speech and cues differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-006",
+          "rationale": "The candidate is the noun “complaint” meaning an expression of dissatisfaction, while the archived concept is the verb “complain” meaning to express dissatisfaction; their parts of speech and cues differ.",
+          "resolution": "distinct",
+          "type": "morphology"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:09.173196+00:00",
+  "result": {
+    "candidate_digest": "27923208b0cd846832963d9af50dd89d2a1189125dc5f1ce345235c91a30ca29",
+    "candidate_id": "tmp-emotions-s010-004",
+    "checked_at": "2026-10-16T02:10:09.173196+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (cue-content): Both forms can express disgust, but Malaysian Malay geli is highly polysemous and commonly means ticklish or amused, so the missing false-friend contrast creates learner risk. The different-common-word relation is also too strong without usage evidence because Malay jijik is itself a direct disgust term and geli is not exclusive to Malaysian Malay.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T13:20:00.273333+00:00",
+  "input_digest": "0fe8b5619ecbe20ca7f330a9969e8df5044bffbede940f2e83aafb6cf240dac4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s006:tmp-directions-location-s006-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A building is the constructed structure, while a building floor is one level within that structure; Indonesian and Malaysian answers also differ.\"}, {\"other_id\": \"cal3-home-001:home-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A floor tile is an individual flooring unit, whereas a building floor is a complete level of a multi-storey building.\"}, {\"other_id\": \"corpus-004-001-s015:tmp-home-s015-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A balcony is an outdoor platform extending from an upper floor, not the floor level itself; both answer pairs differ.\"}, {\"other_id\": \"fresh-travel-001:travel-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A railway platform is a raised passenger-waiting area, a different sense from a building floor; the answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-002",
+          "rationale": "A building is the constructed structure, while a building floor is one level within that structure; Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-home-001:home-09",
+          "rationale": "A floor tile is an individual flooring unit, whereas a building floor is a complete level of a multi-storey building.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s015:tmp-home-s015-001",
+          "rationale": "A balcony is an outdoor platform extending from an upper floor, not the floor level itself; both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-travel-001:travel-02",
+          "rationale": "A railway platform is a raised passenger-waiting area, a different sense from a building floor; the answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s006:tmp-directions-location-s006-002",
+        "rationale": "A building is the constructed structure, while a building floor is one level within that structure; Indonesian and Malaysian answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-home-001:home-09",
+        "rationale": "A floor tile is an individual flooring unit, whereas a building floor is a complete level of a multi-storey building.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s015:tmp-home-s015-001",
+        "rationale": "A balcony is an outdoor platform extending from an upper floor, not the floor level itself; both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-travel-001:travel-02",
+        "rationale": "A railway platform is a raised passenger-waiting area, a different sense from a building floor; the answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "558f9c9a578a11c81e3c8fec7d9db27d19fa9db3ab397f45676322a190d88381"
+}

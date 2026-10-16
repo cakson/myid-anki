@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7567,
+  "input_digest": "5a20051bb41513d0d3d413b1c141d036afa3dffb58f7555f822272a3d66e36dd",
+  "input_tokens": 54577,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 159,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s014:tmp-services-s014-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"License plate is a vehicle-identification plate displaying a registration number; license is official authorization to do something. The senses and both answer pairs differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-004",
+          "rationale": "License plate is a vehicle-identification plate displaying a registration number; license is official authorization to do something. The senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

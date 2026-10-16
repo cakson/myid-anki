@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T01:30:06.211547+00:00",
+  "input_digest": "fc40134f502b290fc4137ab5783b5a00a1d7a01d982c2ce870ff6eb50898c172",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The English cue \\u201cbathtub\\u201d is narrower than Indonesian \\u201cbak mandi,\\u201d which commonly refers to a bathing-water tub or reservoir.\"], \"material_concerns\": [], \"rationale\": \"\\u201cTab mandi\\u201d is the ordinary Malaysian term for a bathtub, while \\u201cbak mandi\\u201d is a common Indonesian term for a bathing tub/container. The national preference is useful after narrowing the cue slightly.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"bathing tub\", \"cue_rationale\": \"\\u201cBathing tub\\u201d accommodates Indonesian bak mandi while still fitting Malaysian tab mandi; the original \\u201cbathtub\\u201d can suggest a fixed Western-style tub.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\u201cBathtub\\u201d is understood in both varieties, but it is a borrowing or context-specific alternative rather than the strongest everyday term for this contrast.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"The Indonesian term can also denote a water-storage bathing container, so the exact physical design may vary.\", \"preference_risk\": {\"signal\": \"regional-or-register-competition\", \"form\": \"bathtub\", \"language\": \"both\", \"rationale\": \"\\u201cBathtub\\u201d occurs in both varieties, especially in hotel, upscale, or borrowing contexts, but does not generally displace bak mandi or tab mandi in ordinary local usage.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The English cue “bathtub” is narrower than Indonesian “bak mandi,” which commonly refers to a bathing-water tub or reservoir."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "“Bathing tub” accommodates Indonesian bak mandi while still fitting Malaysian tab mandi; the original “bathtub” can suggest a fixed Western-style tub.",
+      "cue_rewrite": "bathing tub",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "bathtub",
+        "language": "both",
+        "rationale": "“Bathtub” occurs in both varieties, especially in hotel, upscale, or borrowing contexts, but does not generally displace bak mandi or tab mandi in ordinary local usage.",
+        "signal": "regional-or-register-competition"
+      },
+      "rationale": "“Tab mandi” is the ordinary Malaysian term for a bathtub, while “bak mandi” is a common Indonesian term for a bathing tub/container. The national preference is useful after narrowing the cue slightly.",
+      "relation": "different-common-word",
+      "risk_rationale": "The Indonesian term can also denote a water-storage bathing container, so the exact physical design may vary.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "“Bathtub” is understood in both varieties, but it is a borrowing or context-specific alternative rather than the strongest everyday term for this contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The English cue “bathtub” is narrower than Indonesian “bak mandi,” which commonly refers to a bathing-water tub or reservoir."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "“Bathing tub” accommodates Indonesian bak mandi while still fitting Malaysian tab mandi; the original “bathtub” can suggest a fixed Western-style tub.",
+    "cue_rewrite": "bathing tub",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "bathtub",
+      "language": "both",
+      "rationale": "“Bathtub” occurs in both varieties, especially in hotel, upscale, or borrowing contexts, but does not generally displace bak mandi or tab mandi in ordinary local usage.",
+      "signal": "regional-or-register-competition"
+    },
+    "rationale": "“Tab mandi” is the ordinary Malaysian term for a bathtub, while “bak mandi” is a common Indonesian term for a bathing tub/container. The national preference is useful after narrowing the cue slightly.",
+    "relation": "different-common-word",
+    "risk_rationale": "The Indonesian term can also denote a water-storage bathing container, so the exact physical design may vary.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "“Bathtub” is understood in both varieties, but it is a borrowing or context-specific alternative rather than the strongest everyday term for this contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "00bce666f707f4fcc9f3593ccb345b8bbf79f47c5789ed8ab8538c17a1ad733e"
+}

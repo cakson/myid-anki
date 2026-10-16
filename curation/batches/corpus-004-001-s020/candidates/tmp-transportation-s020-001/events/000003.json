@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:45:27.490802+00:00",
+  "input_digest": "3fba58c96764af77b09c2626de6c198bb6897c40f1c1b3afcf8948cd42b525f7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"clothing-001:clothing-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is a vehicle passenger restraint, while the existing belt is a clothing strap worn around the waist; their senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-05",
+          "rationale": "The candidate is a vehicle passenger restraint, while the existing belt is a clothing strap worn around the waist; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "clothing-001:clothing-05",
+        "rationale": "The candidate is a vehicle passenger restraint, while the existing belt is a clothing strap worn around the waist; their senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "4a575f26479b50296f919120577a54c520336aa03f9d22057070fd74693ffa89"
+}

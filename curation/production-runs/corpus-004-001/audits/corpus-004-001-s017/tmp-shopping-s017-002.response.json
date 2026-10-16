@@ -1,0 +1,61 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17563,
+  "input_tokens": 50099,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 942,
+  "packet_digest": "ff4c627f2a6ccdf66dfaa29db6fb19d3e2fd74d0639d65b808ab43d587e20c4c",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are accurate national-standard terms for barcode, the English cue and sense align, and the relation is correctly classified as different common words. No false-friend contrast is warranted; the forms are equivalent terms, not misleading lookalikes.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Barcode” correctly matches a machine-readable code used for product identification.\",\"material_risk\":false,\"evidence_refs\":[\"https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-\"]},{\"subject\":\"Indonesian answer\",\"conclusion\":\"“Kode batang” is an established Indonesian equivalent of barcode.\",\"material_risk\":false,\"evidence_refs\":[\"https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992\",\"https://isbn.perpusnas.go.id/landing_page/isbn_info\"]},{\"subject\":\"Malaysian answer\",\"conclusion\":\"“Kod bar” is the standard Malaysian Malay term for barcode and is defined for labeling goods.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bar\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“Different-common-word” is appropriate: the Indonesian and Malaysian forms differ orthographically while denoting the same concept.\",\"material_risk\":false,\"evidence_refs\":[\"https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is needed; neither answer has a conflicting or misleading sense in the other variety.\",\"material_risk\":false,\"evidence_limitation\":\"No dedicated false-friend source was located; this conclusion follows from the matching authoritative definitions.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Barcode” correctly matches a machine-readable code used for product identification.",
+        "evidence_refs": [
+          "https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Kode batang” is an established Indonesian equivalent of barcode.",
+        "evidence_refs": [
+          "https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992",
+          "https://isbn.perpusnas.go.id/landing_page/isbn_info"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "“Kod bar” is the standard Malaysian Malay term for barcode and is defined for labeling goods.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bar"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer"
+      },
+      {
+        "conclusion": "“Different-common-word” is appropriate: the Indonesian and Malaysian forms differ orthographically while denoting the same concept.",
+        "evidence_refs": [
+          "https://web.usd.ac.id/fakultas/sastra/sasindo/detail.php?id=kolom&noid=992",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bar-"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is needed; neither answer has a conflicting or misleading sense in the other variety.",
+        "evidence_limitation": "No dedicated false-friend source was located; this conclusion follows from the matching authoritative definitions.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are accurate national-standard terms for barcode, the English cue and sense align, and the relation is correctly classified as different common words. No false-friend contrast is warranted; the forms are equivalent terms, not misleading lookalikes.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

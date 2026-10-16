@@ -1,0 +1,64 @@
+{
+  "attempt_id": "fa9c026c3cde0be0",
+  "candidate_id": "tmp-common-verbs-s003-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct; means to take/make a photograph, typically with a camera.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar",
+        "https://kbbi.cari.co/memotret"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: memotret"
+    },
+    {
+      "conclusion": "Correct and idiomatic in Malaysian Malay for taking a photograph.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=250764&keyword=gambar",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemotret"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: mengambil gambar"
+    },
+    {
+      "conclusion": "Aligned; “take a photo” matches creating a photograph with a camera.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemotret"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is acceptable as a pedagogical preference label, provided it is not read as exclusive usage. No false-friend contrast is needed.",
+      "evidence_limitation": "Dictionary evidence establishes meaning and usage, but does not independently quantify national-frequency preferences.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "85e65791819141b3524389f5e5a1ddc0cad7a882b73b783889c9fe1cf90f6ed4",
+  "correction_refs": [],
+  "decision_digest": "84c54dbe9338756f5b4c5da986915711436a84634f8232cfb590f09a7c899ce9",
+  "elapsed_ms": 23295,
+  "finding_class": "none",
+  "input_tokens": 49146,
+  "model_calls": 1,
+  "output_tokens": 943,
+  "packet_digest": "b4d82b9b4046f551241bb3d7e9157b5493fd04a1f9bc72d9c1e0d83db8292633",
+  "rationale": "Both answers accurately express “take a photo,” and the proposed contrast is a useful preference distinction rather than an exclusive language boundary. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:52:37.715879+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s003/tmp-common-verbs-s003-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s003",
+  "verdict": "cleared"
+}

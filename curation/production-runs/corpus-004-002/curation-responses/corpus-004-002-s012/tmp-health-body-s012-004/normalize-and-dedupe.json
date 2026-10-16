@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7087,
+  "input_digest": "c6666b894f69ab981692ea29f0a9b23cdf8000faccfb2a2cf1f0a81f0ebf4cd5",
+  "input_tokens": 54578,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 183,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"health-001:health-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Ointment is a medicated substance specifically applied to the skin, whereas medicine is the broader category of substances used to treat illness; the Indonesian and Malaysian answers also differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "health-001:health-01",
+          "rationale": "Ointment is a medicated substance specifically applied to the skin, whereas medicine is the broader category of substances used to treat illness; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

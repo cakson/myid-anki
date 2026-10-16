@@ -1,0 +1,68 @@
+{
+  "attempt_id": "6ba0b242aaad9c85",
+  "candidate_id": "tmp-daily-life-s005-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and natural for “garbage bag” in Indonesian.",
+      "evidence_refs": [
+        "https://goong.com/id/word/garbage_bag_dalam_bahasa_indonesia/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kantong sampah"
+    },
+    {
+      "conclusion": "Valid Malaysian usage for a garbage bag, though beg plastik sampah is a more explicit competing form.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beg+sampah",
+        "https://trienekens.com.my/wp-content/uploads/2019/01/Waste-Management-Guidebook.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: beg sampah"
+    },
+    {
+      "conclusion": "The cue and sense accurately identify a bag used to contain household waste.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beg+sampah"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Accurate: Indonesian kantong and Malaysian beg are different common lexical choices for the same concept.",
+      "evidence_limitation": "Comparative frequency/preference evidence across both varieties was not established.",
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; neither answer introduces a misleading cross-variety meaning.",
+      "evidence_limitation": "No dedicated false-friend reference was located.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "b3c601329f7e55f3d0bf824961d7969b94b1a024afdd2f6384de0ca01ba406af",
+  "correction_refs": [],
+  "decision_digest": "7a195a48a066b1129d6e3704203b35caecbb3abd212a05c0e7f55ea53a19e680",
+  "elapsed_ms": 13444,
+  "finding_class": "none",
+  "input_tokens": 29203,
+  "model_calls": 1,
+  "output_tokens": 730,
+  "packet_digest": "60bf482935ec8db8a1dbd777352727ee9171ce859ae3ffd519ddd7013978426a",
+  "rationale": "Both answers correctly express “garbage bag” for the stated household-waste sense. “Kantong sampah” is standard Indonesian, and “beg sampah” is attested and understandable in Malaysian usage; “beg plastik sampah” is a more explicit alternative. The forms differ lexically, with no false-friend issue.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:43:13.591589+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s005/tmp-daily-life-s005-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s005",
+  "verdict": "cleared"
+}

@@ -1,0 +1,71 @@
+{
+  "attempt_id": "258c270521cf162c",
+  "candidate_id": "tmp-education-s007-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid Indonesian term for lessons or supplementary instruction outside school hours; not inherently private.",
+      "evidence_refs": [
+        "https://kbbi.web.id/les"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: les"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay term for additional instruction, including instruction for an individual or small group; not inherently private.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tuisyen"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tuisyen"
+    },
+    {
+      "conclusion": "“Private tutoring” is narrower than the meanings established for both answers and can mislead learners about the private or one-to-one component.",
+      "evidence_refs": [
+        "https://kbbi.web.id/les",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tuisyen"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct: the forms are common variety-associated choices for the same broad concept, with “les” in Indonesian and “tuisyen” in Malaysian Malay.",
+      "evidence_refs": [
+        "https://kbbi.web.id/les",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tuisyen"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No meaningful false-friend contrast is present or required; the forms are semantically related to supplementary instruction rather than deceptive cross-variety lookalikes.",
+      "evidence_limitation": "No dedicated false-friend source was necessary; conclusion is based on the cited dictionary definitions.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2e5564156f397a6661253c7f27797f1f29c0bf6546e43b3dcf8a5d655d73ded0",
+  "correction_refs": [],
+  "decision_digest": "080f033ac46abd075daab485a5c80173b8cc81b494597076275af50702ff2959",
+  "elapsed_ms": 19582,
+  "finding_class": "cue-content",
+  "input_tokens": 52245,
+  "model_calls": 1,
+  "output_tokens": 949,
+  "packet_digest": "912f6cc1063b942d7d95e071831eb0c201d11ae381e693e80ae68f5e35cd7572",
+  "rationale": "“Les” and “tuisyen” are valid common terms for supplementary instruction, but both can include group or non-private tutoring. The English cue “private tutoring” over-specifies the sense; use “extra tutoring” or qualify the forms as “private tutoring” with “les privat”/“tuisyen peribadi.” No false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:45:26.690029+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s007/tmp-education-s007-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s007",
+  "verdict": "needs-correction"
+}

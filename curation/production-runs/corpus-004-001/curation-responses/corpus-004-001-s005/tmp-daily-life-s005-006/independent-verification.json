@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 10426,
+  "input_digest": "5d2c2a39ed833ca4216cf31ab777568db8cf8250dc006a33ec67bd33015b9e73",
+  "input_tokens": 14308,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 683,
+  "raw_text": "{\n  \"verdict\": \"object\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"The Indonesian answer means a general door handle, while the Malaysian answer more specifically denotes a doorknob.\"\n  ],\n  \"material_concerns\": [\n    \"The proposed answers do not reliably express the same exact sense: gagang pintu is broader than doorknob.\"\n  ],\n  \"rationale\": \"The cue doorknob is narrower than Indonesian gagang pintu, which commonly refers to a handle of various types. Malaysian tombol pintu can fit doorknob, but the pair is not aligned precisely.\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"material-risk\",\n  \"cue_rewrite\": \"\",\n  \"cue_rationale\": \"The answers differ in specificity: gagang pintu is a general door handle, whereas tombol pintu can refer to a knob.\",\n  \"shared_synonym_case\": \"weak-contrast\",\n  \"shared_synonym_rationale\": \"Indonesian kenop pintu is a plausible direct term for doorknob, while gagang pintu is also broadly understood for door handles; this makes the proposed contrast potentially misleading.\",\n  \"nonblocking_risk\": \"concrete\",\n  \"risk_rationale\": \"Regional and product-specific usage may vary between gagang, kenop, and tombol for door hardware.\",\n  \"preference_risk\": {\n    \"signal\": \"same-sense-competition\",\n    \"form\": \"kenop pintu\",\n    \"language\": \"indonesian\",\n    \"rationale\": \"Kenop pintu is a plausible Indonesian competitor for the exact doorknob sense, making gagang pintu an imprecise choice.\"\n  }\n}",
+  "response": {
+    "concerns": [
+      "The Indonesian answer means a general door handle, while the Malaysian answer more specifically denotes a doorknob."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The answers differ in specificity: gagang pintu is a general door handle, whereas tombol pintu can refer to a knob.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed answers do not reliably express the same exact sense: gagang pintu is broader than doorknob."
+    ],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kenop pintu",
+      "language": "indonesian",
+      "rationale": "Kenop pintu is a plausible Indonesian competitor for the exact doorknob sense, making gagang pintu an imprecise choice.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "The cue doorknob is narrower than Indonesian gagang pintu, which commonly refers to a handle of various types. Malaysian tombol pintu can fit doorknob, but the pair is not aligned precisely.",
+    "relation": "different-common-word",
+    "risk_rationale": "Regional and product-specific usage may vary between gagang, kenop, and tombol for door hardware.",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Indonesian kenop pintu is a plausible direct term for doorknob, while gagang pintu is also broadly understood for door handles; this makes the proposed contrast potentially misleading.",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

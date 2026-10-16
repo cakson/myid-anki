@@ -1,0 +1,68 @@
+{
+  "attempt_id": "5f74df79336de96f",
+  "candidate_id": "tmp-common-adjectives-s002-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “lucky” meaning fortunate or having good fortune.",
+      "evidence_refs": [
+        "https://kamuslengkap.com/kamus/kbbi/arti-kata/beruntung"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: beruntung"
+    },
+    {
+      "conclusion": "Correct and idiomatic for “lucky”; it means having good fortune or being fortunate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=bertuah",
+        "https://prpm.dbp.gov.my/Cari1?d=351284&keyword=lucky"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: bertuah"
+    },
+    {
+      "conclusion": "The cue “lucky” and sense “having good fortune” align with both translations.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=351284&keyword=lucky",
+        "https://kamuslengkap.com/kamus/kbbi/arti-kata/beruntung"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is defensible as a usage-preference contrast, but neither form is exclusive to one variety. No false-friend contrast is present or needed.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=bertuah",
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=beruntung"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "bd42e7932225bef6fea68959791096f1ce237def3c41637a96adae96767d24f9",
+  "correction_refs": [],
+  "decision_digest": "2554c6189a3601861a03a46a34bf1a68e178497f8cdcc023f50727cbfad574f8",
+  "elapsed_ms": 20672,
+  "finding_class": "none",
+  "input_tokens": 52666,
+  "model_calls": 1,
+  "output_tokens": 1106,
+  "packet_digest": "26fdb8235e3a3278c37160cfa2ce6b42d8c54e3c74c5ff94a3be0755c8458e5d",
+  "rationale": "Both answers fit the sense “having good fortune.” Indonesian beruntung is valid; Malaysian Malay bertuah is a valid and natural equivalent. The different-common-word relation is acceptable as a preference contrast, not an exclusive one. No false-friend contrast is warranted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:41:06.693057+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s002/tmp-common-adjectives-s002-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s002",
+  "verdict": "cleared"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:32:05.683687+00:00",
+  "input_digest": "54be2c992aef5455a71a3e7bffc50b9dd27d0232a9b185b7a8c7bf2e5f4f0dbb",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-travel-001:travel-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cOpening hours\\u201d means the period when a service is available, whereas \\u201cschedule\\u201d is a planned timetable of transport times; their senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-05",
+          "rationale": "“Opening hours” means the period when a service is available, whereas “schedule” is a planned timetable of transport times; their senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-travel-001:travel-05",
+        "rationale": "“Opening hours” means the period when a service is available, whereas “schedule” is a planned timetable of transport times; their senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7a471f280de4e3fbb82e1a39703a1c4c5d96c5f97a0264356ea71665e2f4c775"
+}

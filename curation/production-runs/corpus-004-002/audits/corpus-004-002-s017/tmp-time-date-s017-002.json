@@ -1,0 +1,66 @@
+{
+  "attempt_id": "ac83e15af5cf008f",
+  "candidate_id": "tmp-time-date-s017-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Next week” is correctly defined as the week following the current week.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lanjut",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=week"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Minggu depan” is a natural Indonesian expression for “next week.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/lanjut",
+        "https://www.indonesianpod101.com/lesson/3minute-indonesian-14-when-are-you-leaving?lp=32"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Minggu hadapan” is a standard Malaysian Malay expression for “next week.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=minggu"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Similar” is correct: Malaysian Malay also uses “minggu depan,” while “minggu hadapan” is a formal-preference variant. There is no false-friend contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hadapan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=minggu"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "b5964fa372d4d3353b39589459a398e774a2b5a8919e2f39ba86db9ee842f102",
+  "correction_refs": [],
+  "decision_digest": "2eca5d3df8d12dc7c628eec26a0fab95cf908c5f950f214899ed80ab74202c90",
+  "elapsed_ms": 19764,
+  "finding_class": "none",
+  "input_tokens": 49594,
+  "model_calls": 1,
+  "output_tokens": 887,
+  "packet_digest": "6a108527dac9defe7cd1ed1e64e3073346323ca4ec24b9634367e1abe0cbdca2",
+  "rationale": "Both forms correctly express “next week.” “Minggu depan” is normal Indonesian and also occurs in Malaysian Malay; “minggu hadapan” is a standard Malaysian Malay alternative, especially in formal writing. The relation “similar” is accurate. No false-friend contrast is present; the difference is preferential/register-based, not semantic.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:53:01.863266+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s017/tmp-time-date-s017-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s017",
+  "verdict": "cleared"
+}

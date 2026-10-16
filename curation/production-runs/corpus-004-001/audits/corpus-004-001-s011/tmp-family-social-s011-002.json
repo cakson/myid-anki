@@ -1,0 +1,66 @@
+{
+  "attempt_id": "7fd16871acdb392e",
+  "candidate_id": "tmp-family-social-s011-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct ordinary Indonesian term for a guest or visitor, including someone visiting another person or attending a gathering.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tamu"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tamu"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for an invited guest or attendee; Malaysian reference sources also recognize tamu as a synonym.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tetamu",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=tamu"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tetamu"
+    },
+    {
+      "conclusion": "Guest and “person invited to a home or event” accurately capture the shared core meaning, though both words can also cover visitors or hotel guests in broader contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=guest",
+        "https://kbbi.web.id/tamu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Similar is the appropriate relation. These are corresponding Malay/Indonesian terms with overlapping meaning, not false friends; no contrast is required.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tetamu",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=tamu"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "17973045b2510a85121ee9c896c8438e810549583226a687640c297d61013f40",
+  "correction_refs": [],
+  "decision_digest": "5ddcbdb7b8d41709eeb47f599a927d28a7a38b04d1b5cf3d0fb352570551b6cd",
+  "elapsed_ms": 17637,
+  "finding_class": "none",
+  "input_tokens": 58519,
+  "model_calls": 1,
+  "output_tokens": 851,
+  "packet_digest": "23d6c0a7a72a9a3194185e7183dd1a610c5e0197ca32300e3f11304d3134206a",
+  "rationale": "Both answers are accurate for the stated sense. Indonesian tamu and Malaysian Malay tetamu denote a guest or invited visitor; the relation is genuine similarity, not a false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:01:03.125344+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s011/tmp-family-social-s011-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s011",
+  "verdict": "cleared"
+}

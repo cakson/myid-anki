@@ -1,0 +1,34 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 16933,
+  "input_digest": "190facbc105a0436365bd86e917290229f8eda8bf78c50b59408166ebad9bbef",
+  "input_tokens": 14299,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 840,
+  "raw_text": "{\n  \"verdict\": \"agree\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"The original cue 'toll booth' is slightly narrower than Malaysian 'plaza tol', which commonly denotes a toll plaza or payment area.\"\n  ],\n  \"material_concerns\": [],\n  \"rationale\": \"Gerbang tol is the ordinary Indonesian term, while plaza tol is the ordinary Malaysian term for the toll-payment facility. The contrast is useful after a concise cue adjustment.\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"correctable\",\n  \"cue_rewrite\": \"toll-payment facility\",\n  \"cue_rationale\": \"Both answers fit a toll-payment facility: gerbang tol emphasizes the gate, while plaza tol emphasizes the toll plaza or payment area.\",\n  \"shared_synonym_case\": \"useful-preference\",\n  \"shared_synonym_rationale\": \"Pintu tol may be understood in both varieties, but gerbang tol and plaza tol remain credible ordinary national preferences.\",\n  \"nonblocking_risk\": \"minor\",\n  \"risk_rationale\": \"The two forms differ slightly in granularity, with the Indonesian form foregrounding the gate and the Malaysian form the plaza.\",\n  \"preference_risk\": {\n    \"signal\": \"named-alternative-exists\",\n    \"form\": \"pintu tol\",\n    \"language\": \"both\",\n    \"rationale\": \"Pintu tol can occur as an understandable alternative in both varieties, though the proposed forms remain useful national preferences.\"\n  }\n}",
+  "response": {
+    "concerns": [
+      "The original cue 'toll booth' is slightly narrower than Malaysian 'plaza tol', which commonly denotes a toll plaza or payment area."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "Both answers fit a toll-payment facility: gerbang tol emphasizes the gate, while plaza tol emphasizes the toll plaza or payment area.",
+    "cue_rewrite": "toll-payment facility",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "pintu tol",
+      "language": "both",
+      "rationale": "Pintu tol can occur as an understandable alternative in both varieties, though the proposed forms remain useful national preferences.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Gerbang tol is the ordinary Indonesian term, while plaza tol is the ordinary Malaysian term for the toll-payment facility. The contrast is useful after a concise cue adjustment.",
+    "relation": "different-common-word",
+    "risk_rationale": "The two forms differ slightly in granularity, with the Indonesian form foregrounding the gate and the Malaysian form the plaza.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Pintu tol may be understood in both varieties, but gerbang tol and plaza tol remain credible ordinary national preferences.",
+    "verdict": "agree"
+  },
+  "retrievals": null
+}

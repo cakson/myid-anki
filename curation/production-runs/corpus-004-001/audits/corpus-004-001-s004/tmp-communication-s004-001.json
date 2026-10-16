@@ -1,0 +1,73 @@
+{
+  "attempt_id": "9d613eb0a9e56cb5",
+  "candidate_id": "tmp-communication-s004-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and standard for “question” in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.app/k/pertanyaan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pertanyaan"
+    },
+    {
+      "conclusion": "Correct and standard for “question” in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=soalan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: soalan"
+    },
+    {
+      "conclusion": "“Question” and “a question asked to obtain information” correctly describe both target words.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=soalan",
+        "https://kbbi.app/k/pertanyaan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Accurate: pertanyaan is the common Indonesian choice, while soalan is the common Malaysian preference, despite lexical overlap across Malay varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pertanyaan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=soalan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed. Malaysian pertanyaan is related and understandable, not a misleadingly different word; it is mainly a register or preference issue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pertanyaan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "6ce7423718bd0aad3640972cf17918c76d12e25e06d84c79fa6fb0bdc9f09c1a",
+  "correction_refs": [],
+  "decision_digest": "dc4ed56a6448031e8c288118a6c87f525145766eecd7ed6c1f255ceb5ba18db9",
+  "elapsed_ms": 16586,
+  "finding_class": "none",
+  "input_tokens": 49617,
+  "model_calls": 1,
+  "output_tokens": 901,
+  "packet_digest": "c20b378fe92d143a297e31d67599306da50b89a72aee8166e61ba1b6fae10803",
+  "rationale": "Both answers are correct for their respective national varieties. The English cue and sense align, the relation is accurately labeled as different common words, and no material false-friend issue is present. Malaysian pertanyaan also exists, but soalan is an ordinary standard equivalent, so this is a preference distinction rather than an error.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:53:15.464448+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s004/tmp-communication-s004-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-001-s004",
+  "verdict": "cleared"
+}

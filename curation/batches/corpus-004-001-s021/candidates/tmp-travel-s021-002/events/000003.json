@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:46:49.045580+00:00",
+  "input_digest": "03816a5c418984eeb3db0dfd25aa2456c609d822aa6a9551e98c69794083fae4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-travel-001:travel-07\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A tourist attraction is a place visited for sightseeing or tourism; a destination is the broader place someone is traveling to, so their senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-07",
+          "rationale": "A tourist attraction is a place visited for sightseeing or tourism; a destination is the broader place someone is traveling to, so their senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-travel-001:travel-07",
+        "rationale": "A tourist attraction is a place visited for sightseeing or tourism; a destination is the broader place someone is traveling to, so their senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "a0eb5352f1d43c75f5e136228f092f4c992d41bdf5aaf98c25a33e5e82eeba1e"
+}

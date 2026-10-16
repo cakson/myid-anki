@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T13:35:31.614104+00:00",
+  "result": {
+    "candidate_digest": "ce5e98f73b3fc18946ea5bcd701fe14e89203cf7b2949deb537443e7ce7acb6c",
+    "candidate_id": "tmp-time-date-s017-004",
+    "checked_at": "2026-10-16T13:35:31.614104+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The pairing may mislead learners into treating fajar as the normal Indonesian choice and subuh as specifically Malaysian."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pairing may mislead learners into treating fajar as the normal Indonesian choice and subuh as specifically Malaysian.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:32:14.369003+00:00",
+  "input_digest": "ce6a66048e062f5ac6e752506aec573947401bf55245b55e5c29279d64d8ee97",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"school-001:topic-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A textbook is a book specifically used to study a school subject, whereas the existing concept is the broader category of a bound book used for reading or study; the candidate's Indonesian and Malaysian answers also differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "school-001:topic-04",
+          "rationale": "A textbook is a book specifically used to study a school subject, whereas the existing concept is the broader category of a bound book used for reading or study; the candidate's Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "school-001:topic-04",
+        "rationale": "A textbook is a book specifically used to study a school subject, whereas the existing concept is the broader category of a bound book used for reading or study; the candidate's Indonesian and Malaysian answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7e8ee8b0f73f5bc00aee731b0d0e714cae4a65bd071ef31a03b0f4d05faf8125"
+}

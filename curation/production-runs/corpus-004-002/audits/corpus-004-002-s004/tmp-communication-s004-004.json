@@ -1,0 +1,67 @@
+{
+  "attempt_id": "744a4caa94480812",
+  "candidate_id": "tmp-communication-s004-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “to explain” and for making something clear through explanation.",
+      "evidence_refs": [
+        "https://kbbi.lektur.id/menjelaskan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: menjelaskan"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay form for explaining or clarifying something by giving information or details.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menerangkan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: menerangkan"
+    },
+    {
+      "conclusion": "“To explain” and “make something clear by giving details” accurately describe the shared core sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menerangkan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menjelaskan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is supportable as a preference label, provided it does not imply that either form is exclusive to one language. No material false-friend contrast is present; both forms can overlap in Malay usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menjelaskan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menerangkan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "bccd34098a101fd7a7a292fa184f0f09505680da43cc9bb2cd1aa4070b4d0521",
+  "correction_refs": [],
+  "decision_digest": "6c66699d075676e46527acd9df01e6fbe8dff1979794eab4c33cc5f19c954010",
+  "elapsed_ms": 21870,
+  "finding_class": "none",
+  "input_tokens": 49625,
+  "model_calls": 1,
+  "output_tokens": 1100,
+  "packet_digest": "3f00dfeef4e2a9ded234cd307e890251398593125c1e22f21f731cb3ba31d228",
+  "rationale": "Both answers are valid for the stated explanatory sense. Indonesian menjelaskan and Malaysian menerangkan are common, semantically overlapping forms; the different-common-word relation is acceptable as a usage preference, not an exclusive distinction. No false-friend contrast is required by the supplied content.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:42:11.766574+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s004/tmp-communication-s004-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s004",
+  "verdict": "cleared"
+}

@@ -1,0 +1,53 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 24798,
+  "input_tokens": 96229,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1075,
+  "packet_digest": "bd9358ea338feba7543fc7bf2c562b04786b3607c9152b797f1016fa7924fec6",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both translations fit the stated sense, but the relation “different-common-word” overstates the contrast: Indonesian also commonly uses “selamat” for being safe or unharmed, while “aman” is the usual generic-safety choice. The card should mark this as a preference/context contrast, not a strict language split.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“safe” with the sense “free from danger or harm” is appropriately specified.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english-indonesian/safe\"]},{\"subject\":\"Indonesian answer: aman\",\"conclusion\":\"“Aman” is a correct and common Indonesian translation for being free from danger or harm.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english-indonesian/safe\"]},{\"subject\":\"Malaysian Malay answer: selamat\",\"conclusion\":\"“Selamat” is a correct Malaysian Malay word meaning protected or free from danger.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=selamat\"]},{\"subject\":\"Cross-variety relation and false-friend contrast\",\"conclusion\":\"The selected forms differ in preference, but they are not a strict Indonesian-versus-Malaysian lexical split: Indonesian “selamat” also means safe or unharmed. No genuine false-friend contrast is established.\",\"material_risk\":true,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/indonesian-english/selamat\",\"https://id.wiktionary.org/wiki/selamat\",\"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=selamat\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“safe” with the sense “free from danger or harm” is appropriately specified.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/safe"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Aman” is a correct and common Indonesian translation for being free from danger or harm.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/safe"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: aman"
+      },
+      {
+        "conclusion": "“Selamat” is a correct Malaysian Malay word meaning protected or free from danger.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=selamat"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: selamat"
+      },
+      {
+        "conclusion": "The selected forms differ in preference, but they are not a strict Indonesian-versus-Malaysian lexical split: Indonesian “selamat” also means safe or unharmed. No genuine false-friend contrast is established.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/indonesian-english/selamat",
+          "https://id.wiktionary.org/wiki/selamat",
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=selamat"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both translations fit the stated sense, but the relation “different-common-word” overstates the contrast: Indonesian also commonly uses “selamat” for being safe or unharmed, while “aman” is the usual generic-safety choice. The card should mark this as a preference/context contrast, not a strict language split.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

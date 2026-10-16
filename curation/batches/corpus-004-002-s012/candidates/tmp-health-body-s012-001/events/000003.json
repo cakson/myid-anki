@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:28:07.648067+00:00",
+  "input_digest": "17905d0a9f50a9a4ea391f4daf39a918babcc416c7191f423bc0814112e5e9cb",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-health-001:health-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Muscle cramp is a painful involuntary muscle tightening, whereas muscle ache is a more general aching sensation after exertion; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-health-001:health-01",
+          "rationale": "Muscle cramp is a painful involuntary muscle tightening, whereas muscle ache is a more general aching sensation after exertion; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-health-001:health-01",
+        "rationale": "Muscle cramp is a painful involuntary muscle tightening, whereas muscle ache is a more general aching sensation after exertion; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "4e0245099c0810b6bf1c36f419b6fa5a5977cabd2600c15579f8a4f73d55038b"
+}

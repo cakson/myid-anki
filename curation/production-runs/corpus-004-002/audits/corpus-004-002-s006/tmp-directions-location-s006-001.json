@@ -1,0 +1,76 @@
+{
+  "attempt_id": "e75d42c2eb89c360",
+  "candidate_id": "tmp-directions-location-s006-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate and characteristic for 'alley' or a narrow urban street in Indonesian.",
+      "evidence_refs": [
+        "https://kamus.sabda.org/kamus/gang",
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/alley"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: gang"
+    },
+    {
+      "conclusion": "Accurate and standard for a small street, lane, or alley in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lorong",
+        "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lane"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: lorong"
+    },
+    {
+      "conclusion": "The cue 'alley' and sense 'a narrow passage or small street' correctly cover both terms.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/alley",
+        "https://prpm.dbp.gov.my/Cari1?d=336480&keyword=lane"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a preference contrast: Indonesian commonly favors gang, while Malaysian Malay commonly favors lorong. The terms are not exclusive; Indonesian lorong also means alley, and Malaysian Malay gang is recognized as an Indonesian-marked equivalent.",
+      "evidence_refs": [
+        "https://kamus.sabda.org/kamus/lorong",
+        "https://prpm.dbp.gov.my/Cari1?d=139128&keyword=gang"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed. The card does not claim that either word has a misleading unrelated meaning in the other language.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=139128&keyword=gang",
+        "https://kamus.sabda.org/kamus/gang"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2b38687075785935fd6bb076146b1d5473aa0ee054dd6b343113e8db198c32bb",
+  "correction_refs": [],
+  "decision_digest": "940eaeeb5244c5cb68534d9013c54681affb09fb554611a14069da706631b3aa",
+  "elapsed_ms": 18452,
+  "finding_class": "none",
+  "input_tokens": 33249,
+  "model_calls": 1,
+  "output_tokens": 1368,
+  "packet_digest": "9a749ef3176d5a8e573c821e57dfce8374c6796a87d984343713003a1c40f909",
+  "rationale": "Both answers are accurate common terms for the stated sense. The relation is valid as a language-specific preference contrast, provided it is not interpreted as exclusive. No false-friend contrast is asserted or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:43:32.067027+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s006/tmp-directions-location-s006-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s006",
+  "verdict": "cleared"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:33:27.449135+00:00",
+  "input_digest": "d7e3ba7657e2ccd3e60c2f506bfcd4099c6b2bb03dd8a00f01031d2931983ef1",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s016:tmp-technology-s016-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A network is a connected computer or communications system, whereas a connection is access or linkage to a network or service; the senses and answers are distinct.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+          "rationale": "A network is a connected computer or communications system, whereas a connection is access or linkage to a network or service; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+        "rationale": "A network is a connected computer or communications system, whereas a connection is access or linkage to a network or service; the senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "a6fcebbe7e29526e5233de74a3a64abf22119da88d6a44015ad0818afa549345"
+}

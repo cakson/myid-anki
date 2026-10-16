@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:12:25.422696+00:00",
+  "input_digest": "5386379867e7dcaef5dde36bd80c23d506daa9ec445c76a84efac98214945674",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-home-001:home-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A handbag is a small personal bag carried by hand; a shopping bag is used to carry purchases.\"}, {\"other_id\": \"corpus-004-001-s021:tmp-travel-s021-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A handbag is a personal carry bag, whereas hand luggage is luggage permitted in an aircraft cabin.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-home-001:home-08",
+          "rationale": "A handbag is a small personal bag carried by hand; a shopping bag is used to carry purchases.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s021:tmp-travel-s021-001",
+          "rationale": "A handbag is a personal carry bag, whereas hand luggage is luggage permitted in an aircraft cabin.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-home-001:home-08",
+        "rationale": "A handbag is a small personal bag carried by hand; a shopping bag is used to carry purchases.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s021:tmp-travel-s021-001",
+        "rationale": "A handbag is a personal carry bag, whereas hand luggage is luggage permitted in an aircraft cabin.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "807463a94a1ecd88b305d46bdf476c2ba25b1c22ecca47a187ce8c2b20c59b03"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T01:31:28.343085+00:00",
+  "input_digest": "8165b737b491acba7d66417229593931c860be892f7e4c0984b0cd29d0025a0d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-001:transportation-12\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A street sign identifies or directs along a road, whereas a traffic light controls road traffic; their senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-12",
+          "rationale": "A street sign identifies or directs along a road, whereas a traffic light controls road traffic; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-001:transportation-12",
+        "rationale": "A street sign identifies or directs along a road, whereas a traffic light controls road traffic; their senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "029b1b66eae9b8f39d7788cd3c0ca8efaacb7a4155d477768dbbc36e481d61be"
+}

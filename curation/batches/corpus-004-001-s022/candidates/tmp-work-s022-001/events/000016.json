@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:09.706072+00:00",
+  "result": {
+    "candidate_digest": "680ebac40c00032c5477a11fb4a817761f3241f3ed221442256a38e29a03e2d7",
+    "candidate_id": "tmp-work-s022-001",
+    "checked_at": "2026-10-16T02:10:09.706072+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): The cue and Indonesian answer are accurate. The Malaysian answer is understandable and encountered in usage, but DBP prescribes “meletakkan jawatan” as the standard form; therefore the learner-facing answer should be corrected. The variety relation is valid, and no false-friend contrast is present.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:09.364653+00:00",
+  "result": {
+    "candidate_digest": "b5077c888ad7e4ea39d245b680131bc6006ef89c8744b9e7fbf512b104879611",
+    "candidate_id": "tmp-family-social-s011-004",
+    "checked_at": "2026-10-16T02:10:09.364653+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (cue-content): Both answers are usable, but the cue is too broad for the strongest dictionary senses and the card omits the important non-kinship address uses. Indonesian “paman” is commonly understood as uncle but KBBI defines it specifically as a parent’s younger brother; Malaysian “pak cik” is colloquial and can also address an older or middle-aged man. The relation remains different-common-word.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

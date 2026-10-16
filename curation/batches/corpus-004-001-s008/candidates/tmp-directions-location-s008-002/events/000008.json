@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T01:30:52.436121+00:00",
+  "result": {
+    "candidate_digest": "edeb60b2f72165af0d957c93a1d52330b26f393520bee1657016afa34e2e0e2b",
+    "candidate_id": "tmp-directions-location-s008-002",
+    "checked_at": "2026-10-16T01:30:52.436121+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "none",
+      "preference_risk": {
+        "form": "jalan searah",
+        "language": "indonesian",
+        "rationale": "“Jalan searah” is a plausible Indonesian same-sense alternative, though “jalan satu arah” remains a useful ordinary preference.",
+        "signal": "credible-everyday-alternative"
+      },
+      "shared_synonym_case": "nonpreferred-alternative",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms naturally mean a street where traffic travels in only one direction. “Jalan satu arah” is the ordinary Indonesian expression, while Malaysian Malay commonly uses “jalan sehala,” providing a useful form contrast.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "credible-competing-form",
+      "nonpreferred-alternative"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

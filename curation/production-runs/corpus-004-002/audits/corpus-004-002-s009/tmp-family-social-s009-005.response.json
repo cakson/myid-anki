@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20239,
+  "input_tokens": 52164,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1049,
+  "packet_digest": "a199e8c330db0e2a9a74c97294e7b2560f23cddb9fc6aaec3262260334d44688",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"The cue and Malaysian answer are correct: balu specifically means a woman whose husband has died. Indonesian janda is valid but not specific to widowhood; it also commonly covers a divorced woman. The card needs an explicit false-friend contrast, and the Indonesian sense should be labeled as broader than the cue.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Correct. 'Woman whose husband has died' accurately defines widow and appropriately narrows the intended sense.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=balu\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: janda\",\n      \"conclusion\": \"Lexically valid but semantically broader: Indonesian janda can refer to a woman divorced or widowed, so it is not an unambiguous equivalent of the narrowed cue.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/janda\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: balu\",\n      \"conclusion\": \"Correct and specific. Malaysian balu denotes a woman whose husband has died.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=balu\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"Different-common-word is appropriate for the intended widow sense, because Indonesian janda and Malaysian balu are the ordinary corresponding forms, subject to the Indonesian breadth noted above.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/janda\",\n        \"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=balu\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"Required but missing. Learners should be told that Indonesian janda includes both widow and divorcee, while Malaysian usage commonly contrasts janda (divorced woman) with balu (widow).\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=balu\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct. 'Woman whose husband has died' accurately defines widow and appropriately narrows the intended sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=balu"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Lexically valid but semantically broader: Indonesian janda can refer to a woman divorced or widowed, so it is not an unambiguous equivalent of the narrowed cue.",
+        "evidence_refs": [
+          "https://kbbi.web.id/janda"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: janda"
+      },
+      {
+        "conclusion": "Correct and specific. Malaysian balu denotes a woman whose husband has died.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=balu"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: balu"
+      },
+      {
+        "conclusion": "Different-common-word is appropriate for the intended widow sense, because Indonesian janda and Malaysian balu are the ordinary corresponding forms, subject to the Indonesian breadth noted above.",
+        "evidence_refs": [
+          "https://kbbi.web.id/janda",
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=balu"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "Required but missing. Learners should be told that Indonesian janda includes both widow and divorcee, while Malaysian usage commonly contrasts janda (divorced woman) with balu (widow).",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=balu"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The cue and Malaysian answer are correct: balu specifically means a woman whose husband has died. Indonesian janda is valid but not specific to widowhood; it also commonly covers a divorced woman. The card needs an explicit false-friend contrast, and the Indonesian sense should be labeled as broader than the cue.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

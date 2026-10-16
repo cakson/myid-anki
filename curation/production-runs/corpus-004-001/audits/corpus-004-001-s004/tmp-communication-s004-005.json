@@ -1,0 +1,66 @@
+{
+  "attempt_id": "eac4c7c4439dce9e",
+  "candidate_id": "tmp-communication-s004-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for pronunciation or the act/process of pronouncing.",
+      "evidence_refs": [
+        "https://www.kbbi.cari.co/pengucapan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pengucapan"
+    },
+    {
+      "conclusion": "Correct; Dewan terminology defines sebutan as the way of pronouncing or articulating words, and translates pronunciation as sebutan.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=sebutan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=sebutan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: sebutan"
+    },
+    {
+      "conclusion": "Pronunciation and “the way a word is spoken” are semantically aligned with both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=sebutan",
+        "https://www.kbbi.cari.co/pengucapan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is defensible because the listed common forms differ by variety. The contrast is not exclusive: Indonesian also has sebutan and pelafalan, so the card should not imply a strict national boundary. No false-friend contrast is present or necessary.",
+      "evidence_refs": [
+        "https://kbbi.web.id/sebutan",
+        "https://www.kbbi.cari.co/pengucapan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "367f84eb1bbaed765d131af04413e9316051dedfb359bcbd479629f0023b82f4",
+  "correction_refs": [],
+  "decision_digest": "ad46d46408a54da41434150f1c81064e2aeab6c0e94c8c25de2170c0ff4013b9",
+  "elapsed_ms": 24089,
+  "finding_class": "none",
+  "input_tokens": 78136,
+  "model_calls": 1,
+  "output_tokens": 1148,
+  "packet_digest": "31e7e416e52ad6aff9576f9abfed32f56d42c9d25552dc0fbe84caf8c056190e",
+  "rationale": "Both answers are valid for the stated sense. Indonesian pengucapan and Malaysian sebutan are ordinary terms for pronunciation. The relation is accurate as a contrast between common forms, though neither form is exclusive to its variety. No false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:54:08.250363+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s004/tmp-communication-s004-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s004",
+  "verdict": "cleared"
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T01:29:56.612459+00:00",
+  "input_digest": "6f22d601d7855736d5db6874c66ac0565da042c791a3fd94fc324448d1d78b9e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"home-001:topic-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bathtub is a large container used for bathing, whereas a bathroom is the room containing washing and toilet facilities.\"}, {\"other_id\": \"cal2-daily-001:daily-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bathtub is used for bathing the body; a sink or washbasin is a fixed basin used for washing.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "home-001:topic-01",
+          "rationale": "A bathtub is a large container used for bathing, whereas a bathroom is the room containing washing and toilet facilities.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-03",
+          "rationale": "A bathtub is used for bathing the body; a sink or washbasin is a fixed basin used for washing.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "home-001:topic-01",
+        "rationale": "A bathtub is a large container used for bathing, whereas a bathroom is the room containing washing and toilet facilities.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-daily-001:daily-03",
+        "rationale": "A bathtub is used for bathing the body; a sink or washbasin is a fixed basin used for washing.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "b1191160a75a5cf0e39c21453c09a3c23f271a331974721c4cdad8dc8a0fce2b"
+}

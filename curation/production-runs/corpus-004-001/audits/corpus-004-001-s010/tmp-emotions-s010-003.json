@@ -1,0 +1,69 @@
+{
+  "attempt_id": "7a84f841afd85103",
+  "candidate_id": "tmp-emotions-s010-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for the inquisitive sense of curious, though it also has additional meanings such as strong desire, dissatisfaction, or anger.",
+      "evidence_refs": [
+        "https://kbbi.web.id/penasaran"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: penasaran"
+    },
+    {
+      "conclusion": "Correct and standard for curious meaning eager or interested to know; it directly matches the stated sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=ambil+tahu"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: ingin tahu"
+    },
+    {
+      "conclusion": "The cue curious is appropriately narrowed by the sense wanting to know or find out more, avoiding the separate meaning odd or strange.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=ambil+tahu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is usable as a preference contrast, but it is potentially misleading because ingin tahu is also valid Indonesian and the forms are not mutually exclusive by language.",
+      "evidence_limitation": "The cited dictionary evidence establishes Indonesian penasaran and Malaysian ingin tahu, but does not quantify contemporary frequency across both varieties.",
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "A contrast should be added: Malaysian standard panasaran is spelled with a p and is associated with frustrated desire, dissatisfaction, or anger, not ordinary inquisitive curiosity.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=panasaran"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "0d125fab315fa91838de588825e10fbf2bae43939a2a6958e0b6ac1ab704e824",
+  "correction_refs": [],
+  "decision_digest": "f311fe97ebb8025c998fd0b7d2f6c5b5c99a983bed6cc4395c18574a6941391c",
+  "elapsed_ms": 31555,
+  "finding_class": "cue-content",
+  "input_tokens": 105680,
+  "model_calls": 1,
+  "output_tokens": 1346,
+  "packet_digest": "aa26098b36190e4efdaae712f68db57f408ccec96d31e6f5be5e7fd335fca71c",
+  "rationale": "Both answers fit the narrowed sense of curious, but the card omits an important cross-variety contrast: Indonesian penasaran corresponds to Malaysian panasaran, whose standard meaning is associated with frustrated desire, dissatisfaction, or anger; Malaysian Malay uses ingin tahu for inquisitive curiosity. Also, ingin tahu is possible in Indonesian, so the relation should not imply strict exclusivity.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:59:22.542963+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s010/tmp-emotions-s010-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s010",
+  "verdict": "needs-correction"
+}

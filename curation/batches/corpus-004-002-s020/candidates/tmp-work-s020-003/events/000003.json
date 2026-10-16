@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:38:44.175935+00:00",
+  "input_digest": "fdf4958a0082b6ffd6db095258eb1d3bf7fbe66c30b7d143140dfa5aa56f1574",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s020:tmp-work-s020-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Full-time and part-time describe contrasting work schedules; the candidate means working the standard full schedule, while the existing concept means working fewer hours.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s020:tmp-work-s020-004",
+          "rationale": "Full-time and part-time describe contrasting work schedules; the candidate means working the standard full schedule, while the existing concept means working fewer hours.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s020:tmp-work-s020-004",
+        "rationale": "Full-time and part-time describe contrasting work schedules; the candidate means working the standard full schedule, while the existing concept means working fewer hours.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "ef100197bdd36bbe60a67ce643b41eeb741c0973954b308e750a0566a740c968"
+}

@@ -1,0 +1,75 @@
+{
+  "attempt_id": "dc950b10d485cb98",
+  "candidate_id": "tmp-services-s014-005",
+  "claim_reviews": [
+    {
+      "conclusion": "“Service fee” correctly denotes an amount charged for providing a service.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=caj"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Semantically valid Indonesian wording for a fee or cost associated with a service.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/pelayanan",
+        "https://kbbi.web.id/biaya.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: biaya layanan"
+    },
+    {
+      "conclusion": "Standard Malaysian Malay equivalent for service charge or service fee.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=caj",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=caj+1"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: caj perkhidmatan"
+    },
+    {
+      "conclusion": "different-common-word is accurate because the Indonesian and Malaysian forms use distinct customary lexical choices.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=caj",
+        "https://kbbi.kemendikdasmen.go.id/entri/pelayanan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false friend is involved. Caj means a charge or payment in Malaysian Malay; yuran is a contextual alternative, not a misleading cognate contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=caj",
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=yuran"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e1b40e8f0e705dcc1da5172e0e6798034ca864bbb01dd47a739c6a93299e96c3",
+  "correction_refs": [],
+  "decision_digest": "8e079d1e710e87acc6b25dd7ca5152aac4ff8794760efc76d463e1709944cbe9",
+  "elapsed_ms": 18362,
+  "finding_class": "none",
+  "input_tokens": 49504,
+  "model_calls": 1,
+  "output_tokens": 939,
+  "packet_digest": "fdf8d5128a55459949b1e90800e3f624db6cd15d2a9e022eda827bc287501266",
+  "rationale": "Both answers accurately express “service fee.” Indonesian biaya layanan is semantically appropriate and attested in ordinary usage; Malaysian caj perkhidmatan is a standard equivalent. The different-common-word relation is correct. No false-friend contrast is present; tarif layanan and yuran perkhidmatan are contextual alternatives, not contradictions.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:50:55.885126+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s014/tmp-services-s014-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-002-s014",
+  "verdict": "cleared"
+}

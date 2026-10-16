@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T13:22:54.361446+00:00",
+  "input_digest": "26ba5efcdf444b71e70b370eebbfa4cfc720267ace2fad7b4574dbfc80cd046a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-social-001:social-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both involve negative emotion, but \\u201cscared\\u201d means feeling fear of a person, thing, or situation, whereas \\u201cworried\\u201d means feeling anxious about a possible problem.\"}, {\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both can involve anxiety, but \\u201cscared\\u201d denotes fear of a person, thing, or situation, whereas \\u201cnervous\\u201d specifically describes anxiety before or during an event.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-social-001:social-02",
+          "rationale": "Both involve negative emotion, but “scared” means feeling fear of a person, thing, or situation, whereas “worried” means feeling anxious about a possible problem.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+          "rationale": "Both can involve anxiety, but “scared” denotes fear of a person, thing, or situation, whereas “nervous” specifically describes anxiety before or during an event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-social-001:social-02",
+        "rationale": "Both involve negative emotion, but “scared” means feeling fear of a person, thing, or situation, whereas “worried” means feeling anxious about a possible problem.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+        "rationale": "Both can involve anxiety, but “scared” denotes fear of a person, thing, or situation, whereas “nervous” specifically describes anxiety before or during an event.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "99e42e7159e2872dbb2604064e265ffefb7dc945ee31b3f3ca2eb9e318920d56"
+}

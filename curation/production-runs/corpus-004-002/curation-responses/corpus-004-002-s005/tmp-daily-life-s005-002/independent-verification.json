@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 8884,
+  "input_digest": "c071f3b9a762525df0d60082cf04225feb9cd28bc39fb54b16054e17917ceba3",
+  "input_tokens": 14304,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 624,
+  "raw_text": "{\"verdict\":\"object\",\"relation\":\"different-common-word\",\"concerns\":[\"Bare Malaysian \\\"dapur\\\" commonly means \\\"kitchen,\\\" while the appliance sense is clearer in compounds such as \\\"dapur gas\\\" or with \\\"periuk\\\" context.\"],\"material_concerns\":[\"The Malaysian answer may misteach the learner because \\\"dapur\\\" alone does not reliably denote the household cooking appliance corresponding to English \\\"stove.\\\"\"],\"rationale\":\"Indonesian \\\"kompor\\\" directly means stove. Malaysian \\\"dapur\\\" can refer to a cooker/stove in context, but its ordinary bare meaning is often \\\"kitchen,\\\" so the proposed pair does not securely express the same exact appliance sense.\",\"objection_assessments\":[],\"cue_alignment\":\"material-risk\",\"cue_rewrite\":\"\",\"cue_rationale\":\"A concise cue such as \\\"cooking stove\\\" still leaves bare Malaysian \\\"dapur\\\" ambiguous with \\\"kitchen\\\"; the Malaysian answer would need a compound or different candidate.\",\"shared_synonym_case\":\"none\",\"shared_synonym_rationale\":\"none\",\"nonblocking_risk\":\"none\",\"risk_rationale\":\"\",\"preference_risk\":{\"signal\":\"same-sense-competition\",\"form\":\"dapur gas\",\"language\":\"malaysian\",\"rationale\":\"The Malaysian appliance sense is commonly made explicit as \\\"dapur gas,\\\" making bare \\\"dapur\\\" a potentially misleading answer for \\\"stove.\\\"\"}}",
+  "response": {
+    "concerns": [
+      "Bare Malaysian \"dapur\" commonly means \"kitchen,\" while the appliance sense is clearer in compounds such as \"dapur gas\" or with \"periuk\" context."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "A concise cue such as \"cooking stove\" still leaves bare Malaysian \"dapur\" ambiguous with \"kitchen\"; the Malaysian answer would need a compound or different candidate.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The Malaysian answer may misteach the learner because \"dapur\" alone does not reliably denote the household cooking appliance corresponding to English \"stove.\""
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "dapur gas",
+      "language": "malaysian",
+      "rationale": "The Malaysian appliance sense is commonly made explicit as \"dapur gas,\" making bare \"dapur\" a potentially misleading answer for \"stove.\"",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Indonesian \"kompor\" directly means stove. Malaysian \"dapur\" can refer to a cooker/stove in context, but its ordinary bare meaning is often \"kitchen,\" so the proposed pair does not securely express the same exact appliance sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

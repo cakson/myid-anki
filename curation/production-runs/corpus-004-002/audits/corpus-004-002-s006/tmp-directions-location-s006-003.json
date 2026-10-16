@@ -1,0 +1,63 @@
+{
+  "attempt_id": "a33cba3dd5d0c4ac",
+  "candidate_id": "tmp-directions-location-s006-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Building floor” and “one level of a multi-storey building” are aligned.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lantai",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tingkat"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary for a floor or level in a building.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lantai"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lantai"
+    },
+    {
+      "conclusion": "Correct and commonly used for a building level; aras is a credible alternative in some contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tingkat",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=aras"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tingkat"
+    },
+    {
+      "conclusion": "Different-common-word is an appropriate learner-facing relation, provided it is not interpreted as exclusivity. No false-friend contrast is present or required.",
+      "evidence_limitation": "Usage varies by region and register, so this review does not establish exclusive national distribution.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "047ba53ca63de5ff6a01dfb950b7f3b731aec6c81652f11c3614f43870aceefe",
+  "correction_refs": [],
+  "decision_digest": "a3226838522da6a6fb6abdd4dfdbde9d4c6aaf68e34ec761c223d7c6a56cda15",
+  "elapsed_ms": 16474,
+  "finding_class": "none",
+  "input_tokens": 49790,
+  "model_calls": 1,
+  "output_tokens": 777,
+  "packet_digest": "c1d4c087e13f2587611289f7849676c99983bac615c03d3c5da20ee9c1f694d6",
+  "rationale": "Both answers correctly express the intended sense. Indonesian lantai is standard for a building floor, while Malaysian Malay tingkat is a common ordinary term; aras is also a valid Malaysian alternative. The different-common-word relation is useful but not exclusive. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:44:13.329533+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s006/tmp-directions-location-s006-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:preference-uncertainty"
+  ],
+  "slice_id": "corpus-004-002-s006",
+  "verdict": "cleared"
+}

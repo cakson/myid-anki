@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:23:46.229882+00:00",
+  "input_digest": "3143c7b6919e7d16eac3c7e7a9925dce3f6e0c7c278ae6eb3dc535f9740e47f4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-social-001:social-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201crelieved\\u201d describes feeling less worried after a problem or danger ends, whereas \\u201cworried\\u201d describes ongoing anxiety about a possible problem; the senses are contrasting, not duplicate.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-social-001:social-02",
+          "rationale": "“relieved” describes feeling less worried after a problem or danger ends, whereas “worried” describes ongoing anxiety about a possible problem; the senses are contrasting, not duplicate.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-social-001:social-02",
+        "rationale": "“relieved” describes feeling less worried after a problem or danger ends, whereas “worried” describes ongoing anxiety about a possible problem; the senses are contrasting, not duplicate.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6b232b3b691218882f9a69cea0b4e26e7f183278cf1c1be1a721edcc08ddad15"
+}

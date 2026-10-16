@@ -1,0 +1,77 @@
+{
+  "attempt_id": "a16f684307cefc80",
+  "candidate_id": "common-adjectives-contrast-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for ‘difficult’; it also has additional senses such as secret or concealed.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/sulit"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: sulit"
+    },
+    {
+      "conclusion": "Correct for ‘difficult’; PRPM defines it as not easy, hard, or difficult.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=sukar"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: sukar"
+    },
+    {
+      "conclusion": "‘Difficult (formal/standard)’ matches the core sense, but the formal/standard qualification is insufficiently supported as a strict variety distinction.",
+      "evidence_limitation": "Dictionary definitions establish meaning, not comparative frequency or register dominance across Indonesian and Malaysian Malay.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/sulit",
+        "https://prpm.dbp.gov.my/cari1?keyword=sukar"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Potentially misleading. The words differ, but sukar is also Indonesian vocabulary and sulit is also Malay vocabulary with the difficult sense; a preferred-form or variety-tendency label is safer.",
+      "evidence_refs": [
+        "https://kbbi.co.id/arti-kata/sukar",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sulit"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No reliable false-friend contrast is present. Sulit’s ‘secret/concealed’ sense exists in both Indonesian and Malay, so it should not be framed as a cross-variety false friend.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/sulit",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sulit"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "281da90c2819105bee5405f98604de868b7b35fd96119e76565602ea92f0a97a",
+  "correction_refs": [],
+  "decision_digest": "2e14a7d557f2e345ea06a7037e1a606e57f168d4cbb881febdb954dc27158b65",
+  "elapsed_ms": 28722,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 91305,
+  "model_calls": 1,
+  "output_tokens": 1577,
+  "packet_digest": "9880dfd129383b3bfa3aefe868058202aa39d67d6d2421047ea375c63056eb39",
+  "rationale": "Both translations express the target sense, but the contrast is overstated: sukar and sulit are overlapping Malay/Indonesian vocabulary, and dictionary evidence does not establish the claimed formal/standard preference split. The card should present these as preferred varieties or usage tendencies, not as clearly distinct common words.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T01:50:13.783740+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s002/common-adjectives-contrast-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-001-s002",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T01:28:53.152454+00:00",
+  "input_digest": "e170d03373a0eef697b19cf82a5f8f877fe7fb23c3f57da743e528b0b9672fcc",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-home-001:home-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A mattress is the padded sleeping surface and a bed is the furniture used for sleeping; the concepts are related but distinct.\"}, {\"other_id\": \"cal2-daily-001:daily-07\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bedsheet is a covering for a bed, whereas a bed is the sleeping furniture itself.\"}, {\"other_id\": \"home-001:topic-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bedroom is a room used for sleeping, whereas a bed is furniture used for sleeping.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-01",
+          "rationale": "A mattress is the padded sleeping surface and a bed is the furniture used for sleeping; the concepts are related but distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-07",
+          "rationale": "A bedsheet is a covering for a bed, whereas a bed is the sleeping furniture itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "home-001:topic-02",
+          "rationale": "A bedroom is a room used for sleeping, whereas a bed is furniture used for sleeping.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-home-001:home-01",
+        "rationale": "A mattress is the padded sleeping surface and a bed is the furniture used for sleeping; the concepts are related but distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-daily-001:daily-07",
+        "rationale": "A bedsheet is a covering for a bed, whereas a bed is the sleeping furniture itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "home-001:topic-02",
+        "rationale": "A bedroom is a room used for sleeping, whereas a bed is furniture used for sleeping.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "34fccef7f9cd37300a51f672e27f829c42d765405466aedad8a4e8c7fc8d22f4"
+}

@@ -1,0 +1,58 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20678,
+  "input_tokens": 50236,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1055,
+  "packet_digest": "722fad6f6a5b4787d4a518f99337fd2ea3a4e6a5549d2aebe295de73aac75ec8",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are accurate for the cue. Indonesian tabungan and Malaysian simpanan denote saved money, including bank savings. Simpanan also exists in Indonesian, so the relation is a common-word preference rather than an exclusive distinction; this does not create a learner-critical error. No false-friend contrast is asserted.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: tabungan\",\"conclusion\":\"Accurate and ordinary for savings or saved money.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/menabungkan.html\"]},{\"subject\":\"Malaysian answer: simpanan\",\"conclusion\":\"Accurate and standard for something saved, including money savings.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=7120&keyword=simpanan\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"Money saved for future use is an appropriate narrowing of savings and fits both answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=wang\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Acceptable as a preference-based contrast: tabungan is strongly associated with Indonesian usage and simpanan with Malaysian usage, but the distinction is not exclusive.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/menyimpan\",\"https://prpm.dbp.gov.my/Cari1?d=7120&keyword=simpanan\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present or needed; the blank contrast field creates no learner risk.\",\"material_risk\":false,\"evidence_limitation\":\"No contrast claim was supplied to audit.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate and ordinary for savings or saved money.",
+        "evidence_refs": [
+          "https://kbbi.web.id/menabungkan.html"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: tabungan"
+      },
+      {
+        "conclusion": "Accurate and standard for something saved, including money savings.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=simpanan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: simpanan"
+      },
+      {
+        "conclusion": "Money saved for future use is an appropriate narrowing of savings and fits both answers.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=wang"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Acceptable as a preference-based contrast: tabungan is strongly associated with Indonesian usage and simpanan with Malaysian usage, but the distinction is not exclusive.",
+        "evidence_refs": [
+          "https://kbbi.web.id/menyimpan",
+          "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=simpanan"
+        ],
+        "material_risk": false,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or needed; the blank contrast field creates no learner risk.",
+        "evidence_limitation": "No contrast claim was supplied to audit.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are accurate for the cue. Indonesian tabungan and Malaysian simpanan denote saved money, including bank savings. Simpanan also exists in Indonesian, so the relation is a common-word preference rather than an exclusive distinction; this does not create a learner-critical error. No false-friend contrast is asserted.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

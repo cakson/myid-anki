@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6433,
+  "input_digest": "c47af8f02df9fd64fecd2a6195102458d355c2afc9cd9c3e31b1bf3828c1bae7",
+  "input_tokens": 54576,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 163,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Queue number is a number assigned to determine service order, whereas queue is the line of people waiting for service; the senses and both answer pairs differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-04",
+          "rationale": "Queue number is a number assigned to determine service order, whereas queue is the line of people waiting for service; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

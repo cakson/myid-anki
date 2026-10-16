@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6979,
+  "input_digest": "1cfd0c7d14edcd4d2f5e9ed7ede5ad83fcaf4c057573ddceefc98ae68c5c026c",
+  "input_tokens": 45014,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 303,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Traffic accident is a collision or incident involving road traffic, whereas traffic jam is congestion causing traffic to slow or stop.\"},{\"other_id\":\"pros4-actions-001:actions-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Traffic accident concerns a road-traffic incident; to trip means to stumble by catching a foot on something.\"},{\"other_id\":\"pros4-actions-001:actions-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Traffic accident concerns a road-traffic incident; to slip means to lose footing on a slippery surface.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-04",
+          "rationale": "Traffic accident is a collision or incident involving road traffic, whereas traffic jam is congestion causing traffic to slow or stop.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-actions-001:actions-03",
+          "rationale": "Traffic accident concerns a road-traffic incident; to trip means to stumble by catching a foot on something.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-actions-001:actions-04",
+          "rationale": "Traffic accident concerns a road-traffic incident; to slip means to lose footing on a slippery surface.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

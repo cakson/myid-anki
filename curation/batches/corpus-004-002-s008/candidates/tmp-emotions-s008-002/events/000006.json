@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-16T13:23:04.125808+00:00",
+  "input_digest": "e3c400fad65be1a2407be39b2271366348752ace8d7756cf32a1d517ab0005ea",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"In Malaysian Malay, takut is also the ordinary everyday word for scared; gerun is more marked and often suggests strong fear or dread.\"], \"material_concerns\": [\"The proposed pair risks teaching an artificial Indonesian\\u2013Malaysian contrast because takut is a shared common form and gerun is not the neutral Malaysian default.\"], \"rationale\": \"Both forms can express fear, but gerun is not a reliable Malaysian everyday counterpart to neutral English \\u201cscared\\u201d; the contrast would likely mislead learners.\", \"objection_assessments\": [], \"affirmative_defect\": \"artificial-synonym\", \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Takut and gerun can both describe feeling fear of a person, thing, or situation, though gerun is more marked in Malaysian usage.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"The shared form takut is ordinary in both Indonesian and Malaysian Malay and can directly translate \\u201cscared,\\u201d substantially weakening the proposed contrast with gerun.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"takut\", \"language\": \"both\", \"rationale\": \"Takut is plausibly ordinary in both varieties for the same everyday sense, while gerun is a marked Malaysian alternative rather than the default.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "In Malaysian Malay, takut is also the ordinary everyday word for scared; gerun is more marked and often suggests strong fear or dread."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Takut and gerun can both describe feeling fear of a person, thing, or situation, though gerun is more marked in Malaysian usage.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The proposed pair risks teaching an artificial Indonesian–Malaysian contrast because takut is a shared common form and gerun is not the neutral Malaysian default."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "takut",
+        "language": "both",
+        "rationale": "Takut is plausibly ordinary in both varieties for the same everyday sense, while gerun is a marked Malaysian alternative rather than the default.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Both forms can express fear, but gerun is not a reliable Malaysian everyday counterpart to neutral English “scared”; the contrast would likely mislead learners.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "The shared form takut is ordinary in both Indonesian and Malaysian Malay and can directly translate “scared,” substantially weakening the proposed contrast with gerun.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "In Malaysian Malay, takut is also the ordinary everyday word for scared; gerun is more marked and often suggests strong fear or dread."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Takut and gerun can both describe feeling fear of a person, thing, or situation, though gerun is more marked in Malaysian usage.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed pair risks teaching an artificial Indonesian–Malaysian contrast because takut is a shared common form and gerun is not the neutral Malaysian default."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "takut",
+      "language": "both",
+      "rationale": "Takut is plausibly ordinary in both varieties for the same everyday sense, while gerun is a marked Malaysian alternative rather than the default.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both forms can express fear, but gerun is not a reliable Malaysian everyday counterpart to neutral English “scared”; the contrast would likely mislead learners.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "The shared form takut is ordinary in both Indonesian and Malaysian Malay and can directly translate “scared,” substantially weakening the proposed contrast with gerun.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "0560cd78415917680cd24adffcd40275a369becbb01ad94af9d7d039b05819d3"
+}

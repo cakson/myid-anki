@@ -1,0 +1,70 @@
+{
+  "attempt_id": "0cc57b0d3481e843",
+  "candidate_id": "tmp-education-s007-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Academic subject” and “subject studied at school” are correctly aligned.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=subjek"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Mata pelajaran” is an appropriate Indonesian term for a school subject.",
+      "evidence_limitation": "No Indonesian dictionary source was independently retrieved; assessment relies on established usage knowledge.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Subjek” is a valid Malaysian Malay term meaning a school subject.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=subjek"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable as a usage-preference contrast, provided it does not imply that “mata pelajaran” is invalid or absent in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=subjek",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mata+pelajaran"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is required; “subjek” retains the relevant school-subject sense here, despite also having other meanings.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=subjek"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c955bd2b838676954714db796cbeb72c988e7e61e6c46a71b1e4cfc041bb5fcc",
+  "correction_refs": [],
+  "decision_digest": "9b8517b6b085ce73e766fdef6f0ff9948259f5dbcd147330fd0f4ffaa7352fad",
+  "elapsed_ms": 16937,
+  "finding_class": "none",
+  "input_tokens": 29111,
+  "model_calls": 1,
+  "output_tokens": 907,
+  "packet_digest": "fce0b82c701a239e7cc89e9303b072c644dba14379bcc89389defaaf7992a5a6",
+  "rationale": "Both answers correctly denote a school subject. Indonesian “mata pelajaran” and Malaysian “subjek” are appropriate common choices; the relation is a preference contrast, not an exclusive dialect split. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T13:45:07.083340+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-002/audits/corpus-004-002-s007/tmp-education-s007-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-002",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-002-s007",
+  "verdict": "cleared"
+}

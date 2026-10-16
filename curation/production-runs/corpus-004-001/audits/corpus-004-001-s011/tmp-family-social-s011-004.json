@@ -1,0 +1,75 @@
+{
+  "attempt_id": "384a670bf0f3a62b",
+  "candidate_id": "tmp-family-social-s011-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid common Indonesian answer for uncle, but the strict dictionary sense is a parent’s younger brother, so it is not a perfect unrestricted equivalent of “parent’s brother.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/paman"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: paman"
+    },
+    {
+      "conclusion": "Valid colloquial Malaysian Malay term for an uncle, though “bapa saudara” is the formal and more exact kinship term; “pak cik” also functions as a respectful address for a middle-aged or older man.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=pak+cik",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ibu+saudara"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: pak cik"
+    },
+    {
+      "conclusion": "“Parent’s brother” is understandable but should specify that “paman” may conventionally imply a younger brother and that “pak cik” is colloquial and broader than kinship.",
+      "evidence_refs": [
+        "https://kbbi.web.id/paman",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ibu+saudara"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct: the forms differ and represent ordinary national-language preferences, with Malaysian formal “bapa saudara” as an alternative rather than evidence against the relation.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=bapa+cik"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No direct false friend is present, but the card should include a usage contrast: both terms can extend beyond literal kinship, especially “pak cik” as a respectful address; the empty contrast field is a learner-relevant omission.",
+      "evidence_refs": [
+        "https://kbbi.web.id/paman",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pak+cik"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "46c2596b79e682990cef99a5f5ab524ffd63ff5a38153c34365afe938128d5c5",
+  "correction_refs": [],
+  "decision_digest": "47bf8dc62c20942c42461e760716698582ba1ef6da7a5334b409c23917a80d69",
+  "elapsed_ms": 24031,
+  "finding_class": "cue-content",
+  "input_tokens": 59786,
+  "model_calls": 1,
+  "output_tokens": 1310,
+  "packet_digest": "1bc6ead922fc32aa55631400924d8fdd9d56ef085f0a1a9d9d2d058d08061f9a",
+  "rationale": "Both answers are usable, but the cue is too broad for the strongest dictionary senses and the card omits the important non-kinship address uses. Indonesian “paman” is commonly understood as uncle but KBBI defines it specifically as a parent’s younger brother; Malaysian “pak cik” is colloquial and can also address an older or middle-aged man. The relation remains different-common-word.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:01:38.681857+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s011/tmp-family-social-s011-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-001-s011",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T13:21:15.904642+00:00",
+  "input_digest": "5e19c623768bdf7c1eeace3acf440d4a07a997460e452ee9e08a555918d81107",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-food-001:food-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are boards, but a blackboard is used for writing with chalk, while a cutting board is used for cutting food; the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-food-001:food-05",
+          "rationale": "Both are boards, but a blackboard is used for writing with chalk, while a cutting board is used for cutting food; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-food-001:food-05",
+        "rationale": "Both are boards, but a blackboard is used for writing with chalk, while a cutting board is used for cutting food; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6d3a15e86ac31ff2aa0485fcb219234cbb1201a7b2fb64cf2aef2d61818fe4dc"
+}

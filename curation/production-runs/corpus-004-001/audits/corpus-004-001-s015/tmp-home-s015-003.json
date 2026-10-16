@@ -1,0 +1,76 @@
+{
+  "attempt_id": "b9fa7b17fda15923",
+  "candidate_id": "tmp-home-s015-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Yard” meaning an open area around or beside a house is correctly specified and aligns with both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=halaman",
+        "https://kbbi.kemendikdasmen.go.id/entri/halaman"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and common for a house yard or grounds in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/halaman",
+        "https://typoonline.com/kbbi/pekarangan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: halaman"
+    },
+    {
+      "conclusion": "Correct and common for house grounds or a yard in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=241100&keyword=laman",
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=halaman"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: laman"
+    },
+    {
+      "conclusion": "“Different-common-word” is defensible as a national-preference contrast, but should not be interpreted as saying halaman is invalid in Malaysian Malay or laman is a normal Indonesian yard term.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=halaman",
+        "https://prpm.dbp.gov.my/Cari1?d=241100&keyword=laman"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is required for this card. Both forms have additional senses, including page-related uses, but the supplied house-yard sense disambiguates them adequately.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=halaman",
+        "https://kbbi.kemendikdasmen.go.id/entri/laman"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3fedfc54ab1d7b135ac8fefd792e8d1d46f1911ec2b2a7c8690cf61a90b86a3d",
+  "correction_refs": [],
+  "decision_digest": "b56207fecb9c4dbac6abe00688e2149f5129ba21dc327aa44eeb81c4cfd3d01b",
+  "elapsed_ms": 22490,
+  "finding_class": "none",
+  "input_tokens": 50226,
+  "model_calls": 1,
+  "output_tokens": 1712,
+  "packet_digest": "d81aa4811942bcf2b8ea4d8f3ff72bc31f0f447512a82886854b71e3dd245f0b",
+  "rationale": "Both answers correctly express the stated house-yard sense. “Halaman” is an ordinary Indonesian term, while “laman” is an ordinary Malaysian Malay term; the relation is valid as a national-preference contrast, not an exclusive dialect distinction. No required false-friend contrast is missing, though both words also have other senses.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-16T02:05:45.373434+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-001/audits/corpus-004-001-s015/tmp-home-s015-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-001",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-001-s015",
+  "verdict": "cleared"
+}

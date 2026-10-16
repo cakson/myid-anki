@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-16T13:12:18.215017+00:00",
+  "result": {
+    "candidate_digest": "5c875394f408adecf86cc8ba788176a969d2d8c17c274ca7b629acb29a9ff660",
+    "candidate_id": "tmp-clothing-002-003",
+    "checked_at": "2026-10-16T13:12:18.215017+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "normalize-and-dedupe",
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "independent-verification",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "pending",
+    "reason_codes": [
+      "missing-independent-verification"
+    ],
+    "relation": "",
+    "review_flags": [],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "missing",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "missing",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

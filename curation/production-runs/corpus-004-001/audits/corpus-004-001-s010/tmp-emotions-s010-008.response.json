@@ -1,0 +1,53 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17081,
+  "input_tokens": 33213,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1048,
+  "packet_digest": "bd74990060aee7d2ecca7f5e1edb22a3aa0b4fbdcffbdf79162bd859f5df9e58",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The meanings are broadly aligned, but the Indonesian form dendam is primarily a noun/adjective and is not the natural direct equivalent of the verbal cue “holding a grudge” without a construction such as menyimpan/menaruh dendam. Malaysian berdendam is a direct verbal match. The contrast is grammatical and usage-based, not a semantic false friend.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: dendam\",\"conclusion\":\"Semantically related, but needs a usage note or replacement such as menyimpan dendam for the cue “holding a grudge.”\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/dendam.html\"]},{\"subject\":\"Malaysian answer: berdendam\",\"conclusion\":\"Correct as a Malay verb meaning to hold or bear a grudge.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dendam\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Holding a grudge” is a good cue for berdendam and for the Indonesian construction menyimpan/menaruh dendam, but it is less directly matched by bare Indonesian dendam.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/dendam.html\",\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dendam\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"Similar is defensible at the semantic-root level, but the card should explicitly contrast Indonesian nominal/adjectival dendam with Malaysian verbal berdendam. There is no major false-friend meaning contrast.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/dendam.html\",\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dendam\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Semantically related, but needs a usage note or replacement such as menyimpan dendam for the cue “holding a grudge.”",
+        "evidence_refs": [
+          "https://kbbi.web.id/dendam.html"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: dendam"
+      },
+      {
+        "conclusion": "Correct as a Malay verb meaning to hold or bear a grudge.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dendam"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: berdendam"
+      },
+      {
+        "conclusion": "“Holding a grudge” is a good cue for berdendam and for the Indonesian construction menyimpan/menaruh dendam, but it is less directly matched by bare Indonesian dendam.",
+        "evidence_refs": [
+          "https://kbbi.web.id/dendam.html",
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dendam"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Similar is defensible at the semantic-root level, but the card should explicitly contrast Indonesian nominal/adjectival dendam with Malaysian verbal berdendam. There is no major false-friend meaning contrast.",
+        "evidence_refs": [
+          "https://kbbi.web.id/dendam.html",
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dendam"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The meanings are broadly aligned, but the Indonesian form dendam is primarily a noun/adjective and is not the natural direct equivalent of the verbal cue “holding a grudge” without a construction such as menyimpan/menaruh dendam. Malaysian berdendam is a direct verbal match. The contrast is grammatical and usage-based, not a semantic false friend.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

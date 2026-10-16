@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T02:10:08.850910+00:00",
+  "result": {
+    "candidate_digest": "86b545801c57ec247af594bdbb0129904684c61f40da9c623ce9afb9f24890f8",
+    "candidate_id": "tmp-communication-s004-003",
+    "checked_at": "2026-10-16T02:10:08.850910+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Independent risk audit needs-correction (learner-critical-answer): Both translations fit the cue, but the relation is overstated. Malaysian Malay uses perkataan for “word,” while kata is also a valid and common Malay word with the same core sense. This is a regional preference/overlap, not a clean different-common-word contrast or false friend.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}
