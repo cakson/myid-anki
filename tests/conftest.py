@@ -9,8 +9,23 @@ from pathlib import Path
 
 import pytest
 
+from indo_malay_anki.model import DECK_ID, MODEL_ID, stable_guid
+
 HEADER = ("id", "english", "indonesian", "malaysian", "relation", "image", "tags", "contrast")
 DEFAULT_ROWS = (("000001", "car", "mobil", "kereta", "", "transport"),)
+
+
+@pytest.fixture
+def corpus_scaling_baseline():
+    """Frozen pre-Feature-004 Anki identities for regression checks."""
+    fixture = Path(__file__).parent / "fixtures" / "corpus_scaling_baseline.json"
+    baseline = json.loads(fixture.read_text(encoding="utf-8"))
+    assert baseline["count"] == len(baseline["ids_to_guids"]) == 137
+    assert baseline["deck_id"] == DECK_ID and baseline["model_id"] == MODEL_ID
+    assert all(
+        stable_guid(concept_id) == guid for concept_id, guid in baseline["ids_to_guids"].items()
+    )
+    return baseline
 
 
 @pytest.fixture

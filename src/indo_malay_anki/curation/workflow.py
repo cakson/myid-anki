@@ -660,6 +660,36 @@ def reopen_candidate(store: BatchStore, candidate_id: str, reason: str) -> dict[
     return check_candidate(store, candidate_id)
 
 
+def reopen_accepted_for_correction(
+    store: BatchStore, candidate_id: str, reason: str
+) -> dict[str, Any]:
+    """Open a closed accepted slice for an evidenced material correction.
+
+    This only changes the slice's workflow state. The frozen v3.1 decision gate and
+    promotion eligibility rules still evaluate the corrected candidate afresh.
+    """
+    if not reason.strip() or candidate_id not in store.candidate_ids():
+        raise RecordError("correction reopen requires a candidate and reason")
+    manifest = store.manifest()
+    if manifest.status != "closed":
+        raise RecordError("correction reopen requires a closed slice")
+    decision = check_candidate(store, candidate_id)
+    if decision["outcome"] != "accepted":
+        raise RecordError("correction reopen requires a current accepted decision")
+    store.append_event(
+        candidate_id,
+        {
+            "role": "correction-reopen",
+            "status": "complete",
+            "reason": reason.strip(),
+            "prior_decision_digest": digest(decision),
+            "at": utc_now(),
+        },
+    )
+    store.save_manifest(replace(manifest, status="open"))
+    return {"candidate_id": candidate_id, "status": "open", "reason": reason.strip()}
+
+
 def revise_candidate(
     store: BatchStore, candidate_id: str, changes: dict[str, Any], reason: str
 ) -> dict[str, Any]:
