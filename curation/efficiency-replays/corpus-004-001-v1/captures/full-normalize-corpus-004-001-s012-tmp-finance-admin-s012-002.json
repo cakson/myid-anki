@@ -1,0 +1,48 @@
+{
+  "candidate_ids": [
+    "tmp-finance-admin-s012-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7219,
+  "input_tokens": 30714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 339,
+  "prompt_bytes": 67224,
+  "prompt_sha256": "d73ae5e9fa3fafb867e341a2889ddf2c9206894a40feeff181fbb1124d97c5ed",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s012:tmp-finance-admin-s012-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A budget is a planned spending amount, whereas savings are money set aside or kept for future use.\"},{\"other_id\":\"cal2-shopping-001:shopping-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A budget is a planned amount available for spending, whereas price is the amount charged for an individual item.\"},{\"other_id\":\"cal2-shopping-001:shopping-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A budget concerns planned available spending, whereas payment is the act or amount of paying.\"},{\"other_id\":\"pros4-home-001:home-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A budget is a spending plan, whereas an installment is one scheduled payment for a purchase.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s012:tmp-finance-admin-s012-001",
+          "rationale": "A budget is a planned spending amount, whereas savings are money set aside or kept for future use.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-01",
+          "rationale": "A budget is a planned amount available for spending, whereas price is the amount charged for an individual item.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-06",
+          "rationale": "A budget concerns planned available spending, whereas payment is the act or amount of paying.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-home-001:home-09",
+          "rationale": "A budget is a spending plan, whereas an installment is one scheduled payment for a purchase.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

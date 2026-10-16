@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-home-s015-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6364,
+  "input_tokens": 30718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 179,
+  "prompt_bytes": 67197,
+  "prompt_sha256": "0b73d52b58daf6553f355b2791dabba34b5b21f4e006491e9768df64647732b2",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"000056\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A balcony is a platform projecting from an upper floor of a building, whereas the existing platform is specifically a raised area beside railway tracks for train passengers; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000056",
+          "rationale": "A balcony is a platform projecting from an upper floor of a building, whereas the existing platform is specifically a raised area beside railway tracks for train passengers; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

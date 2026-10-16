@@ -1,0 +1,41 @@
+{
+  "candidate_ids": [
+    "clothing-contrast-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7955,
+  "input_tokens": 30721,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 372,
+  "prompt_bytes": 67205,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s001:clothing-contrast-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A collar is the upper part of a shirt around the neck, while a tie is neckwear worn with a shirt; the cues and both translations differ.\"},{\"other_id\":\"clothing-001:clothing-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A collar is a clothing part, whereas a shirt is the complete upper-body garment; the cues and both translations differ.\"},{\"other_id\":\"corpus-004-001-s001:clothing-contrast-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A collar is a clothing part around the neck, whereas a blouse is a complete light shirt-like garment; the cues and both translations differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-001",
+          "rationale": "A collar is the upper part of a shirt around the neck, while a tie is neckwear worn with a shirt; the cues and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "clothing-001:clothing-03",
+          "rationale": "A collar is a clothing part, whereas a shirt is the complete upper-body garment; the cues and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-003",
+          "rationale": "A collar is a clothing part around the neck, whereas a blouse is a complete light shirt-like garment; the cues and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

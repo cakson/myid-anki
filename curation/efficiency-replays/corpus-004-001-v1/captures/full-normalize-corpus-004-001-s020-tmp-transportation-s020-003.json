@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-transportation-s020-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6281,
+  "input_tokens": 30718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 188,
+  "prompt_bytes": 67217,
+  "prompt_sha256": "1ad711777df4bc82d26c32eb4c5e1556757c5ad89a001c9f3a766a3b4fe0ed65",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s020:tmp-transportation-s020-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A rearview mirror is used to see traffic behind a vehicle, while a windshield is the front glass panel; the senses and both answer pairs are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s020:tmp-transportation-s020-002",
+          "rationale": "A rearview mirror is used to see traffic behind a vehicle, while a windshield is the front glass panel; the senses and both answer pairs are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

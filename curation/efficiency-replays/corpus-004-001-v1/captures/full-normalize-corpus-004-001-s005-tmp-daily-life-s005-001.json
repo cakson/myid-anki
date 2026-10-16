@@ -1,0 +1,48 @@
+{
+  "candidate_ids": [
+    "tmp-daily-life-s005-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6955,
+  "input_tokens": 30718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 373,
+  "prompt_bytes": 67209,
+  "prompt_sha256": "b088ac49ac05194c7fc1a8bc1a70a0163fd1e088ca6b43c29a5f10652494bf50",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-home-001:home-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bed is the complete furniture used for sleeping, while a mattress is only its padded sleeping surface.\"},{\"other_id\":\"home-001:topic-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bed is furniture used for sleeping, while a bedroom is the room containing it.\"},{\"other_id\":\"cal2-daily-001:daily-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bed is sleeping furniture, while a bedsheet is fabric used to cover the bed.\"},{\"other_id\":\"tb25-home-001:home-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bed is sleeping furniture, while pajamas are clothing worn for sleeping.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-01",
+          "rationale": "A bed is the complete furniture used for sleeping, while a mattress is only its padded sleeping surface.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "home-001:topic-02",
+          "rationale": "A bed is furniture used for sleeping, while a bedroom is the room containing it.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-07",
+          "rationale": "A bed is sleeping furniture, while a bedsheet is fabric used to cover the bed.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-home-001:home-03",
+          "rationale": "A bed is sleeping furniture, while pajamas are clothing worn for sleeping.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

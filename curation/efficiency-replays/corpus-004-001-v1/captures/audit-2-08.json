@@ -1,0 +1,128 @@
+{
+  "candidate_ids": [
+    "tmp-common-verbs-s003-005",
+    "tmp-common-verbs-s003-006"
+  ],
+  "effort": "medium",
+  "elapsed_ms": 33980,
+  "input_tokens": 94273,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2259,
+  "prompt_bytes": 5279,
+  "raw_text": "{\"results\":[{\"candidate_id\":\"tmp-common-verbs-s003-005\",\"response\":{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are valid for the cue and sense. Memotret is standard Indonesian, while mengambil gambar is standard Malaysian Malay; both forms also occur across varieties, so the relation is a useful preference contrast rather than an exclusive distinction.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer memotret\",\"conclusion\":\"Correctly means to take or make a photograph with a camera.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar\"],\"evidence_limitation\":\"The reference confirms meaning but does not establish comparative national frequency.\"},{\"subject\":\"Malaysian answer mengambil gambar\",\"conclusion\":\"Correct and idiomatic for taking a photograph in Malaysian Malay.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Foto\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=gambar\"],\"evidence_limitation\":\"Reference evidence supports acceptability, not exclusive Malaysian distribution.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"Take a photo and create a photograph with a camera accurately match both answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=potret\"],\"evidence_limitation\":\"No issue found; the sense is broad enough to cover ordinary photo-taking.\"},{\"subject\":\"Final relation\",\"conclusion\":\"Different-common-word is acceptable as a preference contrast, provided it is not interpreted as exclusive.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Foto\"],\"evidence_limitation\":\"The sources show overlap, while comparative preference is inferred from general usage rather than quantified corpus data.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present or needed.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No contrast field was supplied.\"}]}},{\"candidate_id\":\"tmp-common-verbs-s003-006\",\"response\":{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Menginap and bermalam both correctly express spending the night at a place. The proposed Indonesian-versus-Malaysian distinction is a useful ordinary-use preference contrast, not an exclusive distribution claim.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer menginap\",\"conclusion\":\"Correctly means to stay or spend the night at a place.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"Independent dictionary evidence was not directly retrieved in the audit, though the meaning is standard and unambiguous.\"},{\"subject\":\"Malaysian answer bermalam\",\"conclusion\":\"Correctly means to spend the night or stay overnight; PRPM explicitly gives menginap as a synonym.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=132088&keyword=bermalam\"],\"evidence_limitation\":\"The reference supports meaning and synonymy but does not establish comparative national frequency.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"Stay overnight and spend the night at a place accurately match both answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=132088&keyword=bermalam\"],\"evidence_limitation\":\"No semantic mismatch found.\"},{\"subject\":\"Final relation\",\"conclusion\":\"Different-common-word is acceptable as a preference contrast, although both forms can occur across the varieties.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=132088&keyword=bermalam\"],\"evidence_limitation\":\"The evidence confirms overlap and meaning more strongly than national preference.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present or needed.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No contrast field was supplied.\"}]}}]}",
+  "response": {
+    "results": [
+      {
+        "candidate_id": "tmp-common-verbs-s003-005",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Correctly means to take or make a photograph with a camera.",
+              "evidence_limitation": "The reference confirms meaning but does not establish comparative national frequency.",
+              "evidence_refs": [
+                "https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar"
+              ],
+              "material_risk": false,
+              "subject": "Indonesian answer memotret"
+            },
+            {
+              "conclusion": "Correct and idiomatic for taking a photograph in Malaysian Malay.",
+              "evidence_limitation": "Reference evidence supports acceptability, not exclusive Malaysian distribution.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Foto",
+                "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=gambar"
+              ],
+              "material_risk": false,
+              "subject": "Malaysian answer mengambil gambar"
+            },
+            {
+              "conclusion": "Take a photo and create a photograph with a camera accurately match both answers.",
+              "evidence_limitation": "No issue found; the sense is broad enough to cover ordinary photo-taking.",
+              "evidence_refs": [
+                "https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar",
+                "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=potret"
+              ],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "Different-common-word is acceptable as a preference contrast, provided it is not interpreted as exclusive.",
+              "evidence_limitation": "The sources show overlap, while comparative preference is inferred from general usage rather than quantified corpus data.",
+              "evidence_refs": [
+                "https://kbbi.kemendikdasmen.go.id/entri/mengambil%20gambar",
+                "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Foto"
+              ],
+              "material_risk": false,
+              "subject": "Final relation"
+            },
+            {
+              "conclusion": "No false-friend contrast is present or needed.",
+              "evidence_limitation": "No contrast field was supplied.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "False-friend contrast"
+            }
+          ],
+          "finding_class": "none",
+          "rationale": "Both answers are valid for the cue and sense. Memotret is standard Indonesian, while mengambil gambar is standard Malaysian Malay; both forms also occur across varieties, so the relation is a useful preference contrast rather than an exclusive distinction.",
+          "schema_version": 1,
+          "verdict": "cleared"
+        }
+      },
+      {
+        "candidate_id": "tmp-common-verbs-s003-006",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Correctly means to stay or spend the night at a place.",
+              "evidence_limitation": "Independent dictionary evidence was not directly retrieved in the audit, though the meaning is standard and unambiguous.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "Indonesian answer menginap"
+            },
+            {
+              "conclusion": "Correctly means to spend the night or stay overnight; PRPM explicitly gives menginap as a synonym.",
+              "evidence_limitation": "The reference supports meaning and synonymy but does not establish comparative national frequency.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=132088&keyword=bermalam"
+              ],
+              "material_risk": false,
+              "subject": "Malaysian answer bermalam"
+            },
+            {
+              "conclusion": "Stay overnight and spend the night at a place accurately match both answers.",
+              "evidence_limitation": "No semantic mismatch found.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=132088&keyword=bermalam"
+              ],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "Different-common-word is acceptable as a preference contrast, although both forms can occur across the varieties.",
+              "evidence_limitation": "The evidence confirms overlap and meaning more strongly than national preference.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=132088&keyword=bermalam"
+              ],
+              "material_risk": false,
+              "subject": "Final relation"
+            },
+            {
+              "conclusion": "No false-friend contrast is present or needed.",
+              "evidence_limitation": "No contrast field was supplied.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "False-friend contrast"
+            }
+          ],
+          "finding_class": "none",
+          "rationale": "Menginap and bermalam both correctly express spending the night at a place. The proposed Indonesian-versus-Malaysian distinction is a useful ordinary-use preference contrast, not an exclusive distribution claim.",
+          "schema_version": 1,
+          "verdict": "cleared"
+        }
+      }
+    ]
+  },
+  "retrievals": null
+}

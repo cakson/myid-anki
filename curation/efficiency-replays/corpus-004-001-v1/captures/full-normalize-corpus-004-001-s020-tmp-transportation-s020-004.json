@@ -1,0 +1,36 @@
+{
+  "candidate_ids": [
+    "tmp-transportation-s020-004"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7775,
+  "input_tokens": 30726,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 275,
+  "prompt_bytes": 67217,
+  "prompt_sha256": "29a203319949cc384ccd2c35d66187ca2c8014f07dc0c21723a19c70fa36e750",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Traffic accident is a collision or incident involving road traffic, whereas traffic jam is congestion in which traffic moves slowly or stops.\"},{\"other_id\":\"000096\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Traffic accident is a collision or incident involving road traffic, whereas traffic congestion is a condition of overcrowded or slow-moving traffic.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-04",
+          "rationale": "Traffic accident is a collision or incident involving road traffic, whereas traffic jam is congestion in which traffic moves slowly or stops.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000096",
+          "rationale": "Traffic accident is a collision or incident involving road traffic, whereas traffic congestion is a condition of overcrowded or slow-moving traffic.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

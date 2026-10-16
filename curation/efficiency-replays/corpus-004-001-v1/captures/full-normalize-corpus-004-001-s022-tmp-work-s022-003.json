@@ -1,0 +1,54 @@
+{
+  "candidate_ids": [
+    "tmp-work-s022-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 8460,
+  "input_tokens": 30715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 414,
+  "prompt_bytes": 67197,
+  "prompt_sha256": "18bd59d7321b10cb39450d557f5ee5d923eb711731b28859f6ce3cb0322df0e1",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-work-001:work-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Promotion is advancement to a higher work position; salary is regular payment for work.\"},{\"other_id\":\"cal3-technology-001:technology-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Promotion is advancement of an employee; a job vacancy is an available position for employment.\"},{\"other_id\":\"corpus-004-001-s022:tmp-work-s022-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Promotion concerns career advancement; a department is an organizational workplace unit.\"},{\"other_id\":\"corpus-004-001-s022:tmp-work-s022-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Promotion is advancement to a higher position; a probation period is an initial trial period of employment.\"},{\"other_id\":\"fresh-work-001:work-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Promotion is a career event or advancement; an employee is a person employed by an organization.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-work-001:work-02",
+          "rationale": "Promotion is advancement to a higher work position; salary is regular payment for work.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-technology-001:technology-08",
+          "rationale": "Promotion is advancement of an employee; a job vacancy is an available position for employment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s022:tmp-work-s022-002",
+          "rationale": "Promotion concerns career advancement; a department is an organizational workplace unit.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s022:tmp-work-s022-004",
+          "rationale": "Promotion is advancement to a higher position; a probation period is an initial trial period of employment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-01",
+          "rationale": "Promotion is a career event or advancement; an employee is a person employed by an organization.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

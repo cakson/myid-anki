@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-travel-s021-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6438,
+  "input_tokens": 30717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 202,
+  "prompt_bytes": 67201,
+  "prompt_sha256": "7d5deb461bf4ae7d6816a619b2bdb5e109b409158fcad695e4f04b8e195b5aca",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-travel-001:travel-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Hand luggage is luggage permitted in the passenger cabin, while a suitcase is a case used to carry belongings; a suitcase may be hand luggage but the concepts are not identical.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-03",
+          "rationale": "Hand luggage is luggage permitted in the passenger cabin, while a suitcase is a case used to carry belongings; a suitcase may be hand luggage but the concepts are not identical.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

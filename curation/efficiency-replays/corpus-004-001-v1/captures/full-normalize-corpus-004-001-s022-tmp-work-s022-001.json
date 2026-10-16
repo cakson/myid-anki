@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-work-s022-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 5985,
+  "input_tokens": 30713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 194,
+  "prompt_bytes": 67197,
+  "prompt_sha256": "6f795fa11703cd2b0b510e202039a893c9b5f649c1941d7b8e81bc6c75aa6c66",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-actions-001:actions-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“Resign” means voluntarily leave a job, while “depart” means leave for a destination; the senses and answers are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-05",
+          "rationale": "“Resign” means voluntarily leave a job, while “depart” means leave for a destination; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

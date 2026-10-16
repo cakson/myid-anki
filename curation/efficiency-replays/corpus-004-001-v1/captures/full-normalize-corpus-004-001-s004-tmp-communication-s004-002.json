@@ -1,0 +1,36 @@
+{
+  "candidate_ids": [
+    "tmp-communication-s004-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7200,
+  "input_tokens": 30714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 302,
+  "prompt_bytes": 67215,
+  "prompt_sha256": "70eaab1d95f8908bfde8f8a43e85033495b05f223fed03f89a5e52b304252140",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s004:tmp-communication-s004-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Answer is the response provided to a question, whereas question is an inquiry seeking information; they are complementary concepts, not duplicates.\"},{\"other_id\":\"communication-001:communication-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Answering a question differs from replying to a message or communication; the cues and senses specify different response contexts.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s004:tmp-communication-s004-001",
+          "rationale": "Answer is the response provided to a question, whereas question is an inquiry seeking information; they are complementary concepts, not duplicates.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "communication-001:communication-05",
+          "rationale": "Answering a question differs from replying to a message or communication; the cues and senses specify different response contexts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

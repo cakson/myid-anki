@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-daily-life-s005-006"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7412,
+  "input_tokens": 30724,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 207,
+  "prompt_bytes": 67209,
+  "prompt_sha256": "b65a9f5ce9816be6ad43585c05df6881373d5ddc95cce4f51cfcb2c211487e0f",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s005:tmp-daily-life-s005-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Doorknob is a handle used to open a door, while doorbell is a bell sounded when someone visits; they are distinct household objects with different senses and answers.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s005:tmp-daily-life-s005-005",
+          "rationale": "Doorknob is a handle used to open a door, while doorbell is a bell sounded when someone visits; they are distinct household objects with different senses and answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

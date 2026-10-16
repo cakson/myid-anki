@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-emotions-s010-008"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7041,
+  "input_tokens": 30716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 187,
+  "prompt_bytes": 67205,
+  "prompt_sha256": "34995db5ff63682951825aabf498fd26e48fc1080c3d724ba7f7697617f6187c",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Resentful means holding lasting anger about a perceived wrong, whereas irritated means temporarily annoyed by an unpleasant situation or person.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-005",
+          "rationale": "Resentful means holding lasting anger about a perceived wrong, whereas irritated means temporarily annoyed by an unpleasant situation or person.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

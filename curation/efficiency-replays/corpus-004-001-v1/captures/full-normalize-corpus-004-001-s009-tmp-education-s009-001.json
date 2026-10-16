@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-education-s009-001"
+  ],
+  "effort": "low",
+  "elapsed_ms": 5982,
+  "input_tokens": 30710,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 194,
+  "prompt_bytes": 67207,
+  "prompt_sha256": "efe5692ce1bd79aa0f4f3853703284a08bc74ee66322f0b79d6e4c09f9cef8e0",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"school-001:topic-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Kindergarten is a specific pre-primary school for young children, whereas school is the broader institution for formal education; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "school-001:topic-01",
+          "rationale": "Kindergarten is a specific pre-primary school for young children, whereas school is the broader institution for formal education; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

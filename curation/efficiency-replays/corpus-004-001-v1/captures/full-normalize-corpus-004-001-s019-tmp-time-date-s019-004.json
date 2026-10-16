@@ -1,0 +1,30 @@
+{
+  "candidate_ids": [
+    "tmp-time-date-s019-004"
+  ],
+  "effort": "low",
+  "elapsed_ms": 6981,
+  "input_tokens": 30721,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 207,
+  "prompt_bytes": 67207,
+  "prompt_sha256": "cfcb49f14929708706842b32602543680482d46d2893bc6e107f46a131c461d2",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s019:tmp-time-date-s019-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Sunday and Monday are different weekdays with distinct English cues and Indonesian/Malaysian answers.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s019:tmp-time-date-s019-003",
+          "rationale": "Sunday and Monday are different weekdays with distinct English cues and Indonesian/Malaysian answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

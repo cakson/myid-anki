@@ -1,0 +1,36 @@
+{
+  "candidate_ids": [
+    "tmp-transportation-s020-002"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7338,
+  "input_tokens": 30719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 267,
+  "prompt_bytes": 67217,
+  "prompt_sha256": "a0b4d615b3f495a3db825b2e2950265ffc38b6c9f8517d474e6d1ca6ed1f1383",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"home-001:topic-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A windshield is the front glass panel of a car, while a window is a glass opening in a wall.\"},{\"other_id\":\"corpus-004-001-s020:tmp-transportation-s020-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A windshield is the front glass panel of a car; a rearview mirror is a mirror used to see traffic behind a vehicle.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "home-001:topic-04",
+          "rationale": "A windshield is the front glass panel of a car, while a window is a glass opening in a wall.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s020:tmp-transportation-s020-003",
+          "rationale": "A windshield is the front glass panel of a car; a rearview mirror is a mirror used to see traffic behind a vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

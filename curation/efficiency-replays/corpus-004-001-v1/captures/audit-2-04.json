@@ -1,0 +1,124 @@
+{
+  "candidate_ids": [
+    "common-adjectives-contrast-004",
+    "common-adjectives-contrast-005"
+  ],
+  "effort": "medium",
+  "elapsed_ms": 33539,
+  "input_tokens": 56307,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2759,
+  "prompt_bytes": 5715,
+  "raw_text": "{\"results\":[{\"candidate_id\":\"common-adjectives-contrast-004\",\"response\":{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers correctly express ‘difficult’, and the formal/standard cue is appropriate. The contrast is valid as a preferred standard-word pairing, though it should not imply that shared alternatives such as susah are unavailable.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer sulit\",\"conclusion\":\"Correct for ‘difficult’.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/sulit.html\"],\"evidence_limitation\":\"The cited dictionary does not quantify everyday frequency.\"},{\"subject\":\"Malaysian answer sukar\",\"conclusion\":\"Correct for ‘difficult’ and compatible with a formal/standard cue.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=24348&keyword=sukar\"],\"evidence_limitation\":\"The dictionary establishes meaning but not comparative frequency against susah.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"‘Difficult (formal/standard)’ accurately narrows the intended register and matches the sense.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No independent corpus-based register comparison was performed.\"},{\"subject\":\"Final relation\",\"conclusion\":\"Acceptable as a different preferred standard word, provided it is not read as exclusive.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=24348&keyword=sukar\"],\"evidence_limitation\":\"The evidence does not establish that sukar is the uniquely common Malaysian choice.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend claim is present; the empty contrast is appropriate.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No additional false-friend analysis was necessary.\"}]}},{\"candidate_id\":\"common-adjectives-contrast-005\",\"response\":{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Lucu and lawak/kelakar support the intended amusement sense, but the relation ‘different-common-word’ overstates the contrast because Malaysian Malay has competing ordinary forms and lawak is strongly associated with a joke or humorous act. The answers are usable with a preference/register qualification.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer lucu\",\"conclusion\":\"Correct for ‘funny’ or ‘amusing’.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/lucu\"],\"evidence_limitation\":\"The source confirms meaning but not cross-variety frequency.\"},{\"subject\":\"Malaysian answer lawak\",\"conclusion\":\"Plausible Malaysian form for humorous/amusing content, but often functions as ‘joke’ or ‘humour’ and is not an exclusive adjective equivalent.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=lawak\"],\"evidence_limitation\":\"Dictionary evidence does not fully resolve colloquial adjective usage.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"‘Amusing’ correctly narrows the intended sense and avoids unrelated meanings of ‘funny’.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No usage-context examples were supplied.\"},{\"subject\":\"Final relation\",\"conclusion\":\"Needs qualification as a preferred-word contrast rather than an unqualified different-common-word contrast.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=lawak\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kelakar\"],\"evidence_limitation\":\"The sources confirm alternatives but do not rank their regional frequency.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend claim is present; the empty contrast is appropriate.\",\"material_risk\":false,\"evidence_refs\":[],\"evidence_limitation\":\"No additional false-friend analysis was necessary.\"}]}}]}",
+  "response": {
+    "results": [
+      {
+        "candidate_id": "common-adjectives-contrast-004",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Correct for ‘difficult’.",
+              "evidence_limitation": "The cited dictionary does not quantify everyday frequency.",
+              "evidence_refs": [
+                "https://kbbi.web.id/sulit.html"
+              ],
+              "material_risk": false,
+              "subject": "Indonesian answer sulit"
+            },
+            {
+              "conclusion": "Correct for ‘difficult’ and compatible with a formal/standard cue.",
+              "evidence_limitation": "The dictionary establishes meaning but not comparative frequency against susah.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=sukar"
+              ],
+              "material_risk": false,
+              "subject": "Malaysian answer sukar"
+            },
+            {
+              "conclusion": "‘Difficult (formal/standard)’ accurately narrows the intended register and matches the sense.",
+              "evidence_limitation": "No independent corpus-based register comparison was performed.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "Acceptable as a different preferred standard word, provided it is not read as exclusive.",
+              "evidence_limitation": "The evidence does not establish that sukar is the uniquely common Malaysian choice.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=sukar"
+              ],
+              "material_risk": false,
+              "subject": "Final relation"
+            },
+            {
+              "conclusion": "No false-friend claim is present; the empty contrast is appropriate.",
+              "evidence_limitation": "No additional false-friend analysis was necessary.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "False-friend contrast"
+            }
+          ],
+          "finding_class": "none",
+          "rationale": "Both answers correctly express ‘difficult’, and the formal/standard cue is appropriate. The contrast is valid as a preferred standard-word pairing, though it should not imply that shared alternatives such as susah are unavailable.",
+          "schema_version": 1,
+          "verdict": "cleared"
+        }
+      },
+      {
+        "candidate_id": "common-adjectives-contrast-005",
+        "response": {
+          "claim_reviews": [
+            {
+              "conclusion": "Correct for ‘funny’ or ‘amusing’.",
+              "evidence_limitation": "The source confirms meaning but not cross-variety frequency.",
+              "evidence_refs": [
+                "https://kbbi.web.id/lucu"
+              ],
+              "material_risk": false,
+              "subject": "Indonesian answer lucu"
+            },
+            {
+              "conclusion": "Plausible Malaysian form for humorous/amusing content, but often functions as ‘joke’ or ‘humour’ and is not an exclusive adjective equivalent.",
+              "evidence_limitation": "Dictionary evidence does not fully resolve colloquial adjective usage.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=lawak"
+              ],
+              "material_risk": false,
+              "subject": "Malaysian answer lawak"
+            },
+            {
+              "conclusion": "‘Amusing’ correctly narrows the intended sense and avoids unrelated meanings of ‘funny’.",
+              "evidence_limitation": "No usage-context examples were supplied.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "English cue and sense"
+            },
+            {
+              "conclusion": "Needs qualification as a preferred-word contrast rather than an unqualified different-common-word contrast.",
+              "evidence_limitation": "The sources confirm alternatives but do not rank their regional frequency.",
+              "evidence_refs": [
+                "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=lawak",
+                "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kelakar"
+              ],
+              "material_risk": false,
+              "subject": "Final relation"
+            },
+            {
+              "conclusion": "No false-friend claim is present; the empty contrast is appropriate.",
+              "evidence_limitation": "No additional false-friend analysis was necessary.",
+              "evidence_refs": [],
+              "material_risk": false,
+              "subject": "False-friend contrast"
+            }
+          ],
+          "finding_class": "metadata-only",
+          "rationale": "Lucu and lawak/kelakar support the intended amusement sense, but the relation ‘different-common-word’ overstates the contrast because Malaysian Malay has competing ordinary forms and lawak is strongly associated with a joke or humorous act. The answers are usable with a preference/register qualification.",
+          "schema_version": 1,
+          "verdict": "needs-correction"
+        }
+      }
+    ]
+  },
+  "retrievals": null
+}

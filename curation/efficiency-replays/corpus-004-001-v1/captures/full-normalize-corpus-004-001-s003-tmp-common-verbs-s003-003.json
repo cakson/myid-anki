@@ -1,0 +1,36 @@
+{
+  "candidate_ids": [
+    "tmp-common-verbs-s003-003"
+  ],
+  "effort": "low",
+  "elapsed_ms": 7172,
+  "input_tokens": 30724,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 395,
+  "prompt_bytes": 67213,
+  "prompt_sha256": "2f75b0ad962665c14c2dd616f153e7b2adc46eab744131e4be540040a2aba49b",
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-06\",\"type\":\"morphology\",\"resolution\":\"distinct\",\"rationale\":\"Candidate is the verb arrive (tiba/sampai), meaning to reach a destination; this row is the noun arrival (kedatangan/ketibaan), meaning the act of reaching a destination.\"},{\"other_id\":\"000098\",\"type\":\"morphology\",\"resolution\":\"distinct\",\"rationale\":\"Candidate is the verb arrive (tiba/sampai), while this row is the noun arrival (kedatangan/ketibaan); the grammatical category and Indonesian/Malaysian answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-06",
+          "rationale": "Candidate is the verb arrive (tiba/sampai), meaning to reach a destination; this row is the noun arrival (kedatangan/ketibaan), meaning the act of reaching a destination.",
+          "resolution": "distinct",
+          "type": "morphology"
+        },
+        {
+          "other_id": "000098",
+          "rationale": "Candidate is the verb arrive (tiba/sampai), while this row is the noun arrival (kedatangan/ketibaan); the grammatical category and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "morphology"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}
