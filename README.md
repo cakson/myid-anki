@@ -111,8 +111,6 @@ assignments remain in the ledger and are never reused.
 
 ## AI-first vocabulary curation
 
-## AI-first vocabulary curation
-
 AI performs most vocabulary discovery, comparison, verification, and library growth. A generated
 answer is only a candidate. The active production policy is **v3.1** in
 `curation/config.json`: bounded contrastive generation → deterministic validation, duplicate and
@@ -122,7 +120,7 @@ external research. Concrete usage disputes use targeted evidence and the reusabl
 friends require stronger meaning, contrast, verifier, and adversarial support. A named synonym or
 missing frequency proof alone does not veto an otherwise natural ordinary pair.
 
-An ACCEPT is **not an automatic learner-source row**. Concrete production risk signals select cards for independent pre-promotion audit; selected cards require clearance. Guarded promotion through export checks closed decisions, final learner content, explicit eligibility, and batch safety brakes. Otherwise eligible clean cards can enter `data/vocabulary.tsv` without random-audit selection. Random or stratified audit remains ongoing QA monitoring and may discover corrections after release; corrections preserve the same concept ID and Anki GUID. This is an intentional optimistic-quality tradeoff. The current canonical learner source contains **137 concepts and 137 cards**.
+An ACCEPT is **not an automatic learner-source row**. Concrete production risk signals select cards for independent pre-promotion audit; selected cards require clearance. Guarded promotion through export checks closed decisions, final learner content, explicit eligibility, and batch safety brakes. Otherwise eligible clean cards can enter `data/vocabulary.tsv` without random-audit selection. Random or stratified audit remains ongoing QA monitoring and may discover corrections after release; corrections preserve the same concept ID and Anki GUID. This is an intentional optimistic-quality tradeoff. The current canonical learner source contains **270 concepts and 270 cards** after two Feature 004 batches.
 
 Independent verification and adversarial review remain distinct for risky claims. Dictionary
 inclusion can establish that a word exists or has a meaning; it does not establish that speakers
@@ -145,10 +143,9 @@ python -m indo_malay_anki.curation report --batch home-002
 ```
 
 Use `packet`/`ingest` or their bounded bundle forms for later roles. `check`, `report`, `reopen`,
-and `finalize-hold` keep decisions and interruptions inspectable. `curation export` is the
-only general curation command that can promote a closed batch, but it does not yet enforce
-independent audit clearance or every corrected final relation. Use a separately checked guarded
-promotion flow until those export safeguards are implemented. The [Feature 003 quickstart](specs/003-vocabulary-curation/quickstart.md)
+and `finalize-hold` keep decisions and interruptions inspectable. `curation export` guards
+each closed batch under v3.1 with current eligibility, required audit clearance, and final verified
+learner content. The [Feature 003 quickstart](specs/003-vocabulary-curation/quickstart.md)
 and [convergence report](specs/003-vocabulary-curation/convergence-report.md) describe the
 current audit and promotion boundary, historical experiments, and limitations.
 
@@ -157,8 +154,37 @@ Luna verifier, default Sol escalation, and universal cheap audit screen were tes
 **disabled** as production mechanisms. Their saved experiments remain useful research artifacts.
 Historical production-decision rates are not released-card throughput: audit, correction,
 withholding, and promotion work count too. The approximately 50× expert-human throughput aim is
-unproven; no empirical human benchmark exists. The remaining scaling question is which
-quality/cost tradeoff should govern larger releases.
+unproven; no empirical human benchmark exists. Two 100-candidate scaling batches demonstrated a
+repeatable workflow, while model and independent-audit cost remain substantial operating constraints.
+
+## Scaling the corpus
+
+Feature 004 coordinates repeatable production runs over the frozen v3.1 curation system.
+The maintainer reviews an editable category allocation, freezes it, then generates bounded
+slices and screens against canonical and historical concepts. Commands save model responses
+before ingest so interrupted work can resume. Risk-selected accepted cards require independent
+audit clearance before guarded promotion; random QA monitors a reproducible sample and gates
+run closure only. A safety brake pauses later promotion until its finding is investigated.
+
+```sh
+python -m indo_malay_anki.scaling create --run <run-id> --count 100 --proposal-cap 200
+python -m indo_malay_anki.scaling allocation --run <run-id>
+python -m indo_malay_anki.scaling approve --run <run-id> --reason "Reviewed category gaps"
+python -m indo_malay_anki.scaling generate --run <run-id>
+python -m indo_malay_anki.scaling curate --run <run-id>
+python -m indo_malay_anki.scaling risk-audit --run <run-id>
+python -m indo_malay_anki.scaling promote --run <run-id>
+python -m indo_malay_anki.scaling build --run <run-id>
+python -m indo_malay_anki.scaling qa-select --run <run-id>
+python -m indo_malay_anki.scaling qa-run --run <run-id>
+python -m indo_malay_anki.scaling close --run <run-id>
+```
+
+Inspect `status` and `report --json` after each step, and resolve any audit or QA findings
+before closure. See the [Feature 004 run guide](specs/004-corpus-scaling/quickstart.md)
+for corrections, brakes, and report interpretation. The
+[convergence report](specs/004-corpus-scaling/convergence-report.md) records both completed batches,
+the rejected efficiency experiments, and the 270-card baseline for future runs.
 
 ## Optional images
 
