@@ -101,6 +101,15 @@ def run_report(store: RunStore, *, final: bool = False) -> dict:
         else []
     )
     qa_counts = Counter(item["finding_class"] for item in findings)
+    material_qa = [
+        item
+        for item in findings
+        if item.get("finding_class") in {"learner-critical-answer", "cue-content"}
+    ]
+    qa_resolution_counts = Counter(
+        item.get("resolution_status", "unresolved") if item.get("resolved") else "unresolved"
+        for item in material_qa
+    )
     error_categories = Counter(
         item["error_category"] for item in findings if item.get("error_category")
     )
@@ -211,6 +220,7 @@ def run_report(store: RunStore, *, final: bool = False) -> dict:
             "sample_count": roster["sample_count"] if roster else None,
             "reviewed_count": len(findings),
             "findings": dict(qa_counts),
+            "material_resolution_statuses": dict(qa_resolution_counts),
         },
         "promotion": {
             "promotable": outcomes["accepted"],

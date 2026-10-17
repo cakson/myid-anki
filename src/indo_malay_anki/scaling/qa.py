@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import csv
 import hashlib
 import json
 import math
@@ -173,14 +174,68 @@ def resolve_finding(store: RunStore, slice_id: str, candidate_id: str, reason: s
         raise RunError("QA finding does not exist")
     finding = read_json(path)
     if finding["resolved"]:
-        return finding
+        current = qa_resolution_current(store, finding)
+        if not current and finding.get("resolution_status"):
+            raise RunError("QA resolution is stale")
+        if current:
+            if finding.get("resolution_status") is None and finding.get(
+                "corrected_decision_digest"
+            ):
+                slice_store = BatchStore(store.root, slice_id)
+                decision = next(
+                    item
+                    for item in read_json(slice_store.path / "report.json")["decisions"]
+                    if item["candidate_id"] == candidate_id
+                )
+                finding.update(
+                    resolution_status="resolved-corrected",
+                    corrected_candidate_digest=digest(slice_store.candidate(candidate_id)),
+                )
+                atomic_json(path, finding)
+            else:
+                return finding
     slice_store = BatchStore(store.root, slice_id)
     report = read_json(slice_store.path / "report.json")
     decision = next(
         (item for item in report["decisions"] if item["candidate_id"] == candidate_id), None
     )
-    if not decision or decision["outcome"] != "accepted":
-        raise RunError("QA resolution requires a current accepted decision")
+    if not decision:
+        raise RunError("QA resolution requires a current decision")
+    if decision["outcome"] in {"hold", "rejected"}:
+        from indo_malay_anki.curation.ids import assigned_id, load_ledger
+
+        concept_id = assigned_id(load_ledger(store.root), slice_id, candidate_id)
+        source = store.root / "data" / "vocabulary.tsv"
+        if concept_id is None or not source.exists():
+            raise RunError("withheld QA resolution requires a permanent withdrawn candidate")
+        with source.open(encoding="utf-8", newline="") as stream:
+            if any(row["id"] == concept_id for row in csv.DictReader(stream, delimiter="\t")):
+                raise RunError(
+                    "withheld QA resolution requires candidate absent from learner source"
+                )
+        finding.update(
+            resolved=True,
+            resolution_status="resolved-withheld",
+            resolution=reason,
+            resolved_at=utc_now(),
+            withheld_decision_digest=digest(decision),
+            withheld_candidate_digest=digest(slice_store.candidate(candidate_id)),
+            withheld_concept_id=concept_id,
+        )
+        atomic_json(path, finding)
+        store.append_event(
+            "qa-resolution",
+            "complete",
+            details={
+                "slice_id": slice_id,
+                "candidate_id": candidate_id,
+                "status": "resolved-withheld",
+                "reason": reason,
+            },
+        )
+        return finding
+    if decision["outcome"] != "accepted":
+        raise RunError("QA resolution requires a current accepted or terminal withheld decision")
     if digest(decision) == finding["original_decision_digest"]:
         raise RunError("QA resolution requires a corrected current decision")
     reasons = selection_reasons(decision)
@@ -189,9 +244,11 @@ def resolve_finding(store: RunStore, slice_id: str, candidate_id: str, reason: s
         raise RunError("QA resolution requires current risk audit clearance")
     finding.update(
         resolved=True,
+        resolution_status="resolved-corrected",
         resolution=reason,
         resolved_at=utc_now(),
         corrected_decision_digest=digest(decision),
+        corrected_candidate_digest=digest(slice_store.candidate(candidate_id)),
     )
     atomic_json(path, finding)
     store.append_event(
@@ -204,6 +261,65 @@ def resolve_finding(store: RunStore, slice_id: str, candidate_id: str, reason: s
         },
     )
     return finding
+
+
+def qa_resolution_current(store: RunStore, finding: dict) -> bool:
+    """Whether a terminal QA resolution still matches its current candidate state."""
+    status = finding.get("resolution_status")
+    if status == "resolved-corrected":
+        slice_id, candidate_id = finding["slice_id"], finding["candidate_id"]
+        slice_store = BatchStore(store.root, slice_id)
+        report = read_json(slice_store.path / "report.json")
+        decision = next(
+            (item for item in report["decisions"] if item["candidate_id"] == candidate_id), None
+        )
+        if not decision or decision.get("outcome") != "accepted":
+            return False
+        if digest(decision) != finding.get("corrected_decision_digest") or digest(
+            slice_store.candidate(candidate_id)
+        ) != finding.get("corrected_candidate_digest"):
+            return False
+        reasons = selection_reasons(decision)
+        audit = current_audit(store, slice_id, candidate_id, decision) if reasons else None
+        return not reasons or audit is not None and audit.get("verdict") == "cleared"
+    if status is None and finding.get("corrected_decision_digest"):
+        slice_id, candidate_id = finding["slice_id"], finding["candidate_id"]
+        report = read_json(BatchStore(store.root, slice_id).path / "report.json")
+        decision = next(
+            (item for item in report["decisions"] if item["candidate_id"] == candidate_id), None
+        )
+        if not decision or decision.get("outcome") != "accepted":
+            return False
+        if digest(decision) != finding["corrected_decision_digest"]:
+            return False
+        reasons = selection_reasons(decision)
+        audit = current_audit(store, slice_id, candidate_id, decision) if reasons else None
+        return not reasons or audit is not None and audit.get("verdict") == "cleared"
+    if status != "resolved-withheld":
+        return bool(finding.get("resolved"))
+    slice_id, candidate_id = finding["slice_id"], finding["candidate_id"]
+    report = read_json(BatchStore(store.root, slice_id).path / "report.json")
+    decision = next(
+        (item for item in report["decisions"] if item["candidate_id"] == candidate_id), None
+    )
+    if not decision or decision.get("outcome") not in {"hold", "rejected"}:
+        return False
+    from indo_malay_anki.curation.ids import assigned_id, load_ledger
+
+    concept_id = assigned_id(load_ledger(store.root), slice_id, candidate_id)
+    if concept_id != finding.get("withheld_concept_id"):
+        return False
+    if digest(decision) != finding.get("withheld_decision_digest"):
+        return False
+    if digest(BatchStore(store.root, slice_id).candidate(candidate_id)) != finding.get(
+        "withheld_candidate_digest"
+    ):
+        return False
+    source = store.root / "data" / "vocabulary.tsv"
+    if not source.exists():
+        return False
+    with source.open(encoding="utf-8", newline="") as stream:
+        return not any(row["id"] == concept_id for row in csv.DictReader(stream, delimiter="\t"))
 
 
 def evaluate_brakes(store: RunStore) -> list[dict]:

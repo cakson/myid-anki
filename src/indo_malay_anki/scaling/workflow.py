@@ -640,7 +640,7 @@ def build_run(store: RunStore) -> dict:
 
 
 def close_run(store: RunStore) -> dict:
-    from .qa import clean_population
+    from .qa import clean_population, qa_resolution_current
     from .report import run_report
 
     manifest = store.load()
@@ -652,6 +652,16 @@ def close_run(store: RunStore) -> dict:
         raise RunError("active safety brake blocks closure")
     if (store.root / "curation" / "export-journal.json").exists():
         raise RunError("unresolved export journal blocks closure")
+    findings_folder = store.path / "qa" / "findings"
+    if findings_folder.exists():
+        for path in findings_folder.glob("*.json"):
+            if path.name.endswith(".response.json"):
+                continue
+            finding = read_json(path)
+            if finding.get("finding_class") not in {"learner-critical-answer", "cue-content"}:
+                continue
+            if not finding.get("resolved") or not qa_resolution_current(store, finding):
+                raise RunError("unresolved material QA finding or stale resolution")
     roster_path = store.path / "qa" / "roster.json"
     if not roster_path.exists():
         raise RunError("random QA roster has not been selected")
@@ -665,6 +675,10 @@ def close_run(store: RunStore) -> dict:
         finding = read_json(path)
         if not finding["resolved"]:
             raise RunError("unresolved material QA finding")
+        if finding.get("resolution_status") == "resolved-withheld" and not qa_resolution_current(
+            store, finding
+        ):
+            raise RunError("withheld QA resolution is stale")
     build_path = store.path / "build.json"
     if not build_path.exists() or read_json(build_path)["source_digest"] != file_digest(
         store.root / "data" / "vocabulary.tsv"

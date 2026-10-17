@@ -52,10 +52,17 @@ def write_eligibility(store: RunStore, slice_id: str) -> dict:
         material_qa = False
         if finding_path.exists():
             finding = read_json(finding_path)
-            material_qa = finding.get("finding_class") in {
-                "learner-critical-answer",
-                "cue-content",
-            } and not finding.get("resolved")
+            if finding.get("resolution_status") == "resolved-withheld":
+                from .qa import qa_resolution_current
+
+                material_qa = not qa_resolution_current(store, finding)
+            else:
+                if finding.get("finding_class") in {"learner-critical-answer", "cue-content"}:
+                    from .qa import qa_resolution_current
+
+                    material_qa = not finding.get("resolved") or not qa_resolution_current(
+                        store, finding
+                    )
         eligible = not material_qa and (
             not reasons or audit is not None and audit["verdict"] == "cleared"
         )
