@@ -1,0 +1,76 @@
+{
+  "attempt_id": "dc00785fcdf60f1f",
+  "candidate_id": "tmp-family-social-s024-006",
+  "claim_reviews": [
+    {
+      "conclusion": "“Father-in-law” correctly denotes the father of one’s spouse.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua",
+        "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=mentua"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Semantically understandable and compositional, but usage/commonness is insufficiently supported and it is less idiomatic than “bapak mertua” or “ayah mertua.”",
+      "evidence_limitation": "The cited dictionary establishes the meaning of “mertua,” but does not establish that the full phrase “mertua laki-laki” is a preferred everyday Indonesian form.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: mertua laki-laki"
+    },
+    {
+      "conclusion": "Correct standard Malay expression for father-in-law; “mentua” means a parent of one’s spouse and “bapa” specifies male.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=mentua",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bapa"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: bapa mentua"
+    },
+    {
+      "conclusion": "“different-common-word” is defensible because the Indonesian and Malaysian forms differ lexically, assuming the Indonesian answer is replaced with a common form such as “bapak mertua.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua",
+        "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=mentua"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or necessary; the Indonesian–Malaysian difference is a spelling/lexical-form contrast, not a meaning divergence.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mentua"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a815dd1d820e0597a8e1392d593633a813972be5536e77c30714bcedafc9f6b2",
+  "correction_refs": [],
+  "decision_digest": "66980081258fb2c5b5b16ec43d9c60d2de36de18d94d7d90308515d594d1294b",
+  "elapsed_ms": 26778,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 75282,
+  "model_calls": 1,
+  "output_tokens": 1508,
+  "packet_digest": "013156b2209cee2a83e0ea8c16ba0856cbc6953fd32faa9cecde6736a9d9f434",
+  "rationale": "The sense and Malaysian answer are correct. Indonesian “mertua laki-laki” is interpretable but is not the safest common learner form; “bapak mertua” or “ayah mertua” is more natural. The relation is otherwise valid, and no false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:43:55.783912+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s024/tmp-family-social-s024-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s024",
+  "verdict": "needs-correction"
+}

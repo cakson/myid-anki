@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5471,
+  "input_digest": "cdc883c713ac86e3daf6ce9c41c259889c99b258a9fa6ce8dfe6cf90593c96e9",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 343,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s016:tmp-daily-life-s016-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Fabric softener is a laundry product used to soften clothes; the candidate is fabric as material used to make clothing.\"},{\"other_id\":\"corpus-004-003-s014:tmp-daily-life-s014-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Cleaning cloth is a cloth used for wiping surfaces; the candidate refers to fabric as clothing material.\"},{\"other_id\":\"corpus-004-003-s016:tmp-daily-life-s016-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Tablecloth is a specific cloth covering a table, whereas the candidate is generic fabric material used to make clothing.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-006",
+          "rationale": "Fabric softener is a laundry product used to soften clothes; the candidate is fabric as material used to make clothing.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-011",
+          "rationale": "Cleaning cloth is a cloth used for wiping surfaces; the candidate refers to fabric as clothing material.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-002",
+          "rationale": "Tablecloth is a specific cloth covering a table, whereas the candidate is generic fabric material used to make clothing.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

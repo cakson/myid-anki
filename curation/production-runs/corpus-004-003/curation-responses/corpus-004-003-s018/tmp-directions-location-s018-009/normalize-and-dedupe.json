@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4614,
+  "input_digest": "119d33a8880361a9ff06d6c14da8a17b7b5aa9faca639b07a0b8b0d55213e4be",
+  "input_tokens": 93723,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 219,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s018:tmp-directions-location-s018-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An escalator is a moving staircase, whereas an elevator is a machine that carries people between floors; their senses and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s018:tmp-directions-location-s018-010",
+          "rationale": "An escalator is a moving staircase, whereas an elevator is a machine that carries people between floors; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

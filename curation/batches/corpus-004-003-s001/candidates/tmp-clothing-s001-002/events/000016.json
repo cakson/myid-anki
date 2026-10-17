@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:39.033502+00:00",
+  "result": {
+    "candidate_digest": "ed5a8d688a9c8537df473244b1cfee9291b5a86b2dd4b95644783f0f6d7d433c",
+    "candidate_id": "tmp-clothing-s001-002",
+    "checked_at": "2026-10-17T06:21:39.033502+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The English cue and sense are correct, and both answers are semantically valid. However, the relation “different-common-word” overstates a national lexical distinction: Malaysian Malay officially recognizes both “coli” and “bra” for this item. The card should present “coli” as a Malaysian Malay preference or synonym, not as an exclusive contrast. No false-friend contrast is present. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

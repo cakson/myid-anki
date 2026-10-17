@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-16T19:57:44.890662+00:00",
+  "input_digest": "7b2ed7b0b3255e028f9b6f23f98155b45e47ba6e2e794cf9d4ec0cb05d49995c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s007:tmp-education-s007-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Academic year is a year-long period of organized study, distinct from a university as an institution.\"}, {\"other_id\": \"corpus-004-002-s007:tmp-education-s007-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Academic year is the overall study period, whereas academic subject is a field studied within it.\"}, {\"other_id\": \"cal2-work-001:work-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"School break is a shorter interruption within the academic year, not the full year-long study period.\"}, {\"other_id\": \"cal2-technology-001:technology-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Tuition fee is a payment for study, not the academic-calendar period itself.\"}, {\"other_id\": \"corpus-004-003-s044:tmp-time-date-s044-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Last year is a relative calendar period; academic year is an organized educational period that may not align exactly with the calendar year.\"}, {\"other_id\": \"corpus-004-003-s044:tmp-time-date-s044-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Next year is a relative calendar period; academic year is an organized educational period that may not align exactly with the calendar year.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s007:tmp-education-s007-002",
+          "rationale": "Academic year is a year-long period of organized study, distinct from a university as an institution.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s007:tmp-education-s007-003",
+          "rationale": "Academic year is the overall study period, whereas academic subject is a field studied within it.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-04",
+          "rationale": "School break is a shorter interruption within the academic year, not the full year-long study period.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-technology-001:technology-10",
+          "rationale": "Tuition fee is a payment for study, not the academic-calendar period itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s044:tmp-time-date-s044-008",
+          "rationale": "Last year is a relative calendar period; academic year is an organized educational period that may not align exactly with the calendar year.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s044:tmp-time-date-s044-009",
+          "rationale": "Next year is a relative calendar period; academic year is an organized educational period that may not align exactly with the calendar year.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s007:tmp-education-s007-002",
+        "rationale": "Academic year is a year-long period of organized study, distinct from a university as an institution.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s007:tmp-education-s007-003",
+        "rationale": "Academic year is the overall study period, whereas academic subject is a field studied within it.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-04",
+        "rationale": "School break is a shorter interruption within the academic year, not the full year-long study period.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-technology-001:technology-10",
+        "rationale": "Tuition fee is a payment for study, not the academic-calendar period itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s044:tmp-time-date-s044-008",
+        "rationale": "Last year is a relative calendar period; academic year is an organized educational period that may not align exactly with the calendar year.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s044:tmp-time-date-s044-009",
+        "rationale": "Next year is a relative calendar period; academic year is an organized educational period that may not align exactly with the calendar year.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c38c55885606d855c4ea597df55be95b6fe908fa42fd3233048527b363f13758"
+}

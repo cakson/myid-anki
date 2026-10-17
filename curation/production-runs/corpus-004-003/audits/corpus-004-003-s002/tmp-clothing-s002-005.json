@@ -1,0 +1,70 @@
+{
+  "attempt_id": "2c77fc3c9001a766",
+  "candidate_id": "tmp-clothing-s002-005",
+  "claim_reviews": [
+    {
+      "conclusion": "The narrowed cue, “traditional decorative brooch worn on clothing,” accurately describes the intended object, though it is narrower than generic English “brooch.”",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/brooch",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kerongsang"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "bros is a standard Indonesian word for a brooch or ornament pinned to clothing.",
+      "evidence_refs": [
+        "https://kbbi.web.id/bros.html",
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/bros"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: bros"
+    },
+    {
+      "conclusion": "kerongsang is a standard Malaysian Malay term for a brooch, particularly the traditional type used with clothing such as the kebaya.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kerongsang",
+        "https://www.malayheritage.gov.sg/-/media/mhc2017/document/mhckerongsang-resource-guide-en.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kerongsang"
+    },
+    {
+      "conclusion": "different-common-word is accurate: bros and kerongsang are distinct regional terms for overlapping brooch senses. There is no substantive false-friend contrast to state.",
+      "evidence_refs": [
+        "https://kbbi.web.id/bros.html",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kerongsang"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "e8c0447f8f00fbd6bae31b90142414ae97734fe8c25343e2b30e36f3b7b2fea5",
+  "correction_refs": [],
+  "decision_digest": "eae2aa7c5837b4ef5546780d18ccdd8a2c45d4dfdfde78fdab0fea7214198cd1",
+  "elapsed_ms": 14059,
+  "finding_class": "none",
+  "input_tokens": 33209,
+  "model_calls": 1,
+  "output_tokens": 1131,
+  "packet_digest": "c5bda203ca39ef6bbd0387f361132bec03cca8c02f7b41f23f438afef6bf0a5e",
+  "rationale": "Both answers are valid for the cue. Indonesian bros is the ordinary generic term for a brooch; Malaysian kerongsang is the standard term and is especially associated with traditional Malay clothing. The relation is correctly different-common-word. No false-friend contrast is warranted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:17:51.807432+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s002/tmp-clothing-s002-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:cue-corrected",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s002",
+  "verdict": "cleared"
+}

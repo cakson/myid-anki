@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:31:09.837411+00:00",
+  "input_digest": "500da0d36430015cf8f00cd29ad616389c1ad0b711b435b5448cee1bee48cfd4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s009:tmp-common-verbs-s009-011\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"Candidate \\u201cfollow\\u201d (mengikuti; ikut) broadly covers going after or acting according to someone or something, while \\u201cto obey\\u201d (menaati; mematuhi) specifically means following an instruction or rule. The senses overlap in the latter use but are not proven identical.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s009:tmp-common-verbs-s009-011",
+          "rationale": "Candidate “follow” (mengikuti; ikut) broadly covers going after or acting according to someone or something, while “to obey” (menaati; mematuhi) specifically means following an instruction or rule. The senses overlap in the latter use but are not proven identical.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s009:tmp-common-verbs-s009-011",
+        "rationale": "Candidate “follow” (mengikuti; ikut) broadly covers going after or acting according to someone or something, while “to obey” (menaati; mematuhi) specifically means following an instruction or rule. The senses overlap in the latter use but are not proven identical.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "69b1120838a0974219e6290ae6529ee31faa6f7b0473e10dd12ce8c0892eb65a"
+}

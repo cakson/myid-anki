@@ -1,0 +1,66 @@
+{
+  "attempt_id": "04c5f927ddcbb0bc",
+  "candidate_id": "tmp-finance-admin-s028-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate and idiomatic Indonesian for financial aid.",
+      "evidence_refs": [
+        "https://jdih.kemenkeu.go.id/kamus-hukum/bantuan-keuangan?id=63f4a67afd94633008b1ff3b78bdf75f",
+        "https://kbbi.kemendikdasmen.go.id/entri/bantuan%20lunak"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: bantuan keuangan"
+    },
+    {
+      "conclusion": "Accurate and established Malaysian Malay expression for financial assistance.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bantuan+kewangan",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bantuan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: bantuan kewangan"
+    },
+    {
+      "conclusion": "“Financial aid” and “money provided to help with expenses” are semantically aligned, though the English term can also specifically refer to educational assistance.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bantuan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Similar” is correct: the forms share meaning and structure while differing in the standard national lexical form keuangan versus kewangan. No false-friend contrast is present.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bantuan+kewangan",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bantuan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "a95f1b779701381b83220129d4970b1fb24b232ddf7587abfc267ddaa8b431c8",
+  "correction_refs": [],
+  "decision_digest": "6519698fb98422eda5a35477d8525dd9a3001e1174e9af493c71e791ca21f9e7",
+  "elapsed_ms": 15072,
+  "finding_class": "none",
+  "input_tokens": 48326,
+  "model_calls": 1,
+  "output_tokens": 802,
+  "packet_digest": "ca046a2c31725e4ad9bb971a76bd5a33bf546c7cfd82ae2e715c0f8064fe28cf",
+  "rationale": "Both answers are accurate standard forms for “financial aid.” The Indonesian–Malaysian difference is the regular keuangan/kewangan spelling contrast, not a false friend; the sense and “similar” relation are appropriate.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:50:29.003831+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s028/tmp-finance-admin-s028-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s028",
+  "verdict": "cleared"
+}

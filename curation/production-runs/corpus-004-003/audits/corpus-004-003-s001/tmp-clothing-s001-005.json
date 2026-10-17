@@ -1,0 +1,70 @@
+{
+  "attempt_id": "6ccb82b4c0ed4e55",
+  "candidate_id": "tmp-clothing-s001-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct common Indonesian term for boots and compatible with the stated footwear sense.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/sepatu",
+        "https://kbbi.web.id/sepatu"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: sepatu bot"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for boot(s); “kasut but” is an explicit fuller phrase but does not invalidate “but.”",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/boot",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=380380&keyword=kasut%20but"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: but"
+    },
+    {
+      "conclusion": "“Boots” appropriately denotes footwear extending at least to the ankle; the supplied sense is sufficiently aligned, though broader than some dictionary definitions.",
+      "evidence_refs": [
+        "https://kbbi.web.id/bot",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=boots"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate because Indonesian uses the phrase “sepatu bot” while Malaysian Malay commonly uses “but.”",
+      "evidence_limitation": "The relation is lexical and usage-based; no corpus-frequency comparison was available.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast between the two learner answers; Malaysian “but” may resemble English “but” orthographically but means boot in this context.",
+      "evidence_limitation": "No dedicated false-friend reference was consulted.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "4be1c447086b4a6df24068660830f8c5f2aa81fe0f3a5e42bd6c5f580e9cd150",
+  "correction_refs": [],
+  "decision_digest": "cf80693c1a4131402fb21a6a27f196e0577a904b7f0cdc81997158f0186c736c",
+  "elapsed_ms": 15835,
+  "finding_class": "none",
+  "input_tokens": 49907,
+  "model_calls": 1,
+  "output_tokens": 979,
+  "packet_digest": "96effbc197c3e92b7ad1355e29457604c5ff375bf55ef6e09bb36ccdfa35a892",
+  "rationale": "Both answers are valid common terms for boots. Indonesian “sepatu bot” and Malaysian Malay “but” align with the cue and sense; “kasut but” is a fuller Malaysian alternative, not a correction. No material false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:15:46.662319+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s001/tmp-clothing-s001-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s001",
+  "verdict": "cleared"
+}

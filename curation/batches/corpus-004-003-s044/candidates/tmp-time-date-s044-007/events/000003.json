@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:56:26.935060+00:00",
+  "input_digest": "4f7ecb4ac7585a4c8db3312ed5c00d8c3e56054bbb3e1aad73b856e9f23fa377",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s017:tmp-time-date-s017-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both express a future calendar period, but the candidate is the immediately following month while this entry is the immediately following week.\"}, {\"other_id\": \"corpus-004-003-s044:tmp-time-date-s044-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both express a future calendar period, but the candidate is the immediately following month while this entry is the immediately following year.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s017:tmp-time-date-s017-002",
+          "rationale": "Both express a future calendar period, but the candidate is the immediately following month while this entry is the immediately following week.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s044:tmp-time-date-s044-009",
+          "rationale": "Both express a future calendar period, but the candidate is the immediately following month while this entry is the immediately following year.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s017:tmp-time-date-s017-002",
+        "rationale": "Both express a future calendar period, but the candidate is the immediately following month while this entry is the immediately following week.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s044:tmp-time-date-s044-009",
+        "rationale": "Both express a future calendar period, but the candidate is the immediately following month while this entry is the immediately following year.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "04853f5cf1646de13b91295c4340759243d6d094ecc73585694a1b491966364b"
+}

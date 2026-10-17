@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T05:05:38.460803+00:00",
+  "input_digest": "5e13f3ebebd4217e9ac7ba7e52628d925da5ba5a1163c530d33ee103e49bbacf",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s002:tmp-common-adjectives-s002-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cflight delay\\u201d is a travel-specific delay affecting a flight\\u2019s scheduled departure or arrival, while \\u201clate\\u201d is a general adjective meaning not on time.\"}, {\"other_id\": \"cal2-travel-001:travel-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cflight delay\\u201d describes a disruption to a scheduled flight, whereas \\u201cschedule\\u201d is the planned timetable itself.\"}, {\"other_id\": \"cal2-travel-001:travel-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cflight delay\\u201d concerns lateness of a flight; \\u201carrival\\u201d is the act of reaching a destination.\"}, {\"other_id\": \"corpus-004-003-s049:tmp-travel-s049-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cflight delay\\u201d concerns a flight occurring later than scheduled, while \\u201cdeparture\\u201d is the act of leaving on a journey.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-001",
+          "rationale": "“flight delay” is a travel-specific delay affecting a flight’s scheduled departure or arrival, while “late” is a general adjective meaning not on time.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-travel-001:travel-05",
+          "rationale": "“flight delay” describes a disruption to a scheduled flight, whereas “schedule” is the planned timetable itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-travel-001:travel-06",
+          "rationale": "“flight delay” concerns lateness of a flight; “arrival” is the act of reaching a destination.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-002",
+          "rationale": "“flight delay” concerns a flight occurring later than scheduled, while “departure” is the act of leaving on a journey.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-001",
+        "rationale": "“flight delay” is a travel-specific delay affecting a flight’s scheduled departure or arrival, while “late” is a general adjective meaning not on time.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-travel-001:travel-05",
+        "rationale": "“flight delay” describes a disruption to a scheduled flight, whereas “schedule” is the planned timetable itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-travel-001:travel-06",
+        "rationale": "“flight delay” concerns lateness of a flight; “arrival” is the act of reaching a destination.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s049:tmp-travel-s049-002",
+        "rationale": "“flight delay” concerns a flight occurring later than scheduled, while “departure” is the act of leaving on a journey.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "50e76f3c141e30340f91af713a64b427a2fc590d9bd61d89c52dd756c7a98625"
+}

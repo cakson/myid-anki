@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4992,
+  "input_digest": "422b803485b7417d278cdce3de39b4e59304cadf974222b7a1d7553c691c6c0d",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 307,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s008-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"\\\"continue\\\" meaning keep doing something differs clearly from \\\"go straight,\\\" which means proceed without turning.\"},{\"other_id\":\"corpus-004-003-s013:tmp-communication-s013-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"\\\"continue\\\" meaning keep doing something differs clearly from \\\"to forward a message,\\\" which means send a received message to another recipient.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s008-004",
+          "rationale": "\"continue\" meaning keep doing something differs clearly from \"go straight,\" which means proceed without turning.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s013:tmp-communication-s013-010",
+          "rationale": "\"continue\" meaning keep doing something differs clearly from \"to forward a message,\" which means send a received message to another recipient.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

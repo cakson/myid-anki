@@ -1,0 +1,55 @@
+{
+  "attempt_id": "e8f3c14f7e4b3999",
+  "candidate_id": "tmp-work-s052-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct ordinary Indonesian expression for a meeting room.",
+      "evidence_limitation": "No external corpus evidence supplied; assessment based on independent linguistic knowledge.",
+      "material_risk": false,
+      "subject": "Indonesian answer: ruang rapat"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay expression for a meeting room.",
+      "evidence_limitation": "No external corpus evidence supplied; assessment based on independent linguistic knowledge.",
+      "material_risk": false,
+      "subject": "Malaysian answer: bilik mesyuarat"
+    },
+    {
+      "conclusion": "“Meeting room” correctly matches a room used for workplace meetings.",
+      "evidence_limitation": "Semantic assessment is direct; no external evidence required.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is accurate; the forms are not false friends, and no contrast is needed.",
+      "evidence_limitation": "Relation assessed from the supplied forms and meanings.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "12bb4e61f0f05ffb8ce82c254c799b465e7e11370dd089f393697d15129627cb",
+  "correction_refs": [],
+  "decision_digest": "740c5bf34260dddc15cb782108439dc0f92bc8a9adfffa137f7d9cdb286123e0",
+  "elapsed_ms": 7246,
+  "finding_class": "none",
+  "input_tokens": 12508,
+  "model_calls": 1,
+  "output_tokens": 472,
+  "packet_digest": "6867888a329980fd5f764e1d44f8b4aade2231288cb28dd386f58720dc339f51",
+  "rationale": "Both learner answers accurately express “meeting room” in their respective standard varieties. The English cue and workplace sense align, and the relation is correctly labeled as different common words. No false-friend contrast is present or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:19:42.715656+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s052/tmp-work-s052-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s052",
+  "verdict": "cleared"
+}

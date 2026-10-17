@@ -1,0 +1,75 @@
+{
+  "attempt_id": "bf06bf08a4dbf7c5",
+  "candidate_id": "tmp-services-s038-012",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue and sense are aligned: public housing refers to government-provided or supported housing, commonly targeting lower-income residents.",
+      "evidence_refs": [
+        "https://www.qld.gov.au/housing/public-community-housing/public-housing/about-public-housing"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Materially risky. Indonesian regulations use rumah umum for housing provided to meet low-income housing needs; perumahan umum is not established by the reviewed evidence as the ordinary direct equivalent and may denote housing more generally.",
+      "evidence_refs": [
+        "https://jdih.pu.go.id/internal/assets/assets/produk/PermenPUPR/2021/03/PermenPUPR16.pdf",
+        "https://ciptakarya.pu.go.id/btbgl/articles/pengertian-perumahan-dan-kawasan-permukiman-yang-harus-kamu-ketahui-33"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: perumahan umum"
+    },
+    {
+      "conclusion": "Supported. Malaysian government portals use perumahan awam for public-housing schemes, including PPR and related programs.",
+      "evidence_refs": [
+        "https://teduh.kpkt.gov.my/",
+        "https://www.malaysia.gov.my/my/digital-services/search-for-project-information-schemes-opened-for-public-housing-projects"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: perumahan awam"
+    },
+    {
+      "conclusion": "The different-common-word relation is materially overstated. The varieties have an overlapping semantic vocabulary: Malay awam means public and can also mean umum, while Indonesian official public-housing terminology uses umum in rumah umum. The forms are not a clean national opposition, and perumahan rakyat is also used in public-housing contexts in both countries, though often program-specific.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=399108&keyword=awam",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=umum",
+        "https://jdih.pu.go.id/internal/assets/assets/produk/PP/2019/07/PP47-2019.pdf",
+        "https://www.malaysia.gov.my/my/digital-services/permohonan-program-perumahan-rakyat-ppr"
+      ],
+      "material_risk": true,
+      "subject": "National split and relation"
+    },
+    {
+      "conclusion": "No contrast is supplied. The reviewed evidence does not support presenting umum and awam as false friends for this sense; they overlap as public/general terms. The missing contrast leaves the learner unable to understand the limited terminology and register differences.",
+      "evidence_limitation": "Learner content has an empty contrast field; no explicit false-friend explanation was provided.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ce4c210cd33f6ef6c4fb7153904b89708f0c3e3a9f2a8d0edc115789d7bd97be",
+  "correction_refs": [],
+  "decision_digest": "f8fe6a159df1c323411f271166c492476d7f1ffa6dfd1843bdfbcfbf88edc154",
+  "elapsed_ms": 38994,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 99119,
+  "model_calls": 1,
+  "output_tokens": 1857,
+  "packet_digest": "72d19e41b1eeeb27ec7de561f91b5d8b37a3d55ce8a124c6c04ad87d8fe16145",
+  "rationale": "The national split is materially overstated. Malaysian perumahan awam is an established public-housing term, but Indonesian official terminology defines rumah umum—not perumahan umum—as housing for low-income communities. Perumahan umum can therefore be interpreted more broadly as general housing. Moreover, umum and awam overlap semantically, and the learner content supplies no contrast explaining this. The Indonesian answer and relation should be corrected or withheld pending usage validation.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:07:14.987985+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s038/tmp-services-s038-012.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "needs-correction"
+}

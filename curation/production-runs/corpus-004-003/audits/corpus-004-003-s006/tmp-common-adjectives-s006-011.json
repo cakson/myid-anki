@@ -1,0 +1,67 @@
+{
+  "attempt_id": "f744574df5f90099",
+  "candidate_id": "tmp-common-adjectives-s006-011",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “bright” meaning illuminated, shining, or giving light.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/terang"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: terang"
+    },
+    {
+      "conclusion": "Correct; PRPM defines cerah as terang for days, moons, lamps, skies, and related contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cerah+l"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: cerah"
+    },
+    {
+      "conclusion": "“Giving or reflecting much light” is compatible with both terang and cerah, though context determines the most natural choice.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/terang",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cerah+l"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Similar is correct. There is no false-friend contrast; Malaysian terang also overlaps with this sense, so the Indonesian–Malaysian distinction is preferential rather than categorical.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terang",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cerah+l"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "5fccda0c3a9acc57b36ba183e0d8cee13725f8776db516144600985d0025c4bd",
+  "correction_refs": [],
+  "decision_digest": "4f6fdab6fbe62b1156e43b28022cf129e3194d5aa6a060b8b3ce0073b0c3750a",
+  "elapsed_ms": 19999,
+  "finding_class": "none",
+  "input_tokens": 92851,
+  "model_calls": 1,
+  "output_tokens": 1393,
+  "packet_digest": "3bafa5d18b1bfbb35974364bc6aa2bd11f3a3afa6dfa4205035641a3f63cbe15",
+  "rationale": "Both answers are valid for the stated light-related sense. Indonesian terang directly covers bright/illuminated and Malaysian cerah covers terang for days, lamps, skies, and similar contexts. The words overlap across both varieties, so similar is the correct relation; there is no false-friend contrast to add. Malaysian terang is also valid, making the national preference context-dependent but not incorrect.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:23:09.531281+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s006/tmp-common-adjectives-s006-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s006",
+  "verdict": "cleared"
+}

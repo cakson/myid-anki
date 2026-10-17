@@ -1,0 +1,91 @@
+{
+  "attempt_id": "127d04284296e56f",
+  "candidate_id": "tmp-home-s036-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate. Cupboard commonly denotes furniture with doors and usually shelves for storing items, matching the supplied sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/cupboard",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/cupboard"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct as the standard Indonesian form for a large storage cabinet; almari is listed as a nonstandard form.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/lemari"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lemari"
+    },
+    {
+      "conclusion": "Correct as the standard Malaysian Malay form for a tiered, usually doored storage cupboard.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=almari"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: almari"
+    },
+    {
+      "conclusion": "The split is useful but not exclusive. Malaysian Malay records lemari as a colloquial equivalent of almari, while Indonesian treats almari as nonstandard. This is register asymmetry, not a clean absence of cross-variety overlap.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lemari",
+        "https://kbbi.kemendikdasmen.go.id/entri/lemari"
+      ],
+      "material_risk": true,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "Kabinet overlaps across both varieties for particular cabinet/storage contexts, but dictionary definitions are narrower than generic cupboard and do not invalidate lemari versus almari as the primary contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=kabinet",
+        "https://kbbi.web.id/kabinet"
+      ],
+      "material_risk": true,
+      "subject": "Shared alternative kabinet"
+    },
+    {
+      "conclusion": "Different-common-word is defensible only with a qualification that the forms are related and have cross-variety colloquial/nonstandard overlap; an unqualified exclusive contrast would be overstated.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lemari",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=almari",
+        "https://kbbi.kemendikdasmen.go.id/entri/lemari"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "Missing. Add a contrast stating that Indonesian standard lemari corresponds to Malaysian Malay almari, while almari is nonstandard in Indonesian and lemari is colloquial in Malaysian Malay; kabinet is a context-limited shared alternative.",
+      "evidence_limitation": "The cited dictionary entries establish meanings and register labels but do not quantify everyday frequency across speakers.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3b289cf31980bb569042e02bb33d65e633c07742bdfef08177113d10ce90a2ea",
+  "correction_refs": [],
+  "decision_digest": "5aba3ba7c7ab748480422875c359daf7738a1da3896588ec6befe9d01bc53d41",
+  "elapsed_ms": 32436,
+  "finding_class": "cue-content",
+  "input_tokens": 97607,
+  "model_calls": 1,
+  "output_tokens": 2260,
+  "packet_digest": "cc3520b0cdaf1307ef56518988cd6b109c5f34bdd0bcbb098260719cb5f9ab6c",
+  "rationale": "The primary standard forms differ: Indonesian lemari and Malaysian Malay almari. However, the national split is not exclusive: Indonesian lists almari as a nonstandard variant, while Malaysian Malay records lemari as colloquial for almari. Kabinet is also an overlapping, narrower storage-furniture term. The English cue and both answers are broadly sound, but the blank contrast omits an important qualification about cross-variety overlap and register.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:04:55.808214+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s036/tmp-home-s036-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s036",
+  "verdict": "needs-correction"
+}

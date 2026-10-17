@@ -1,0 +1,76 @@
+{
+  "attempt_id": "e75e5a460c41c83c",
+  "candidate_id": "tmp-clothing-s002-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: \"shoe sole\" is the bottom part of a shoe that contacts the ground.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/sole?topic=shoes-and-shoemaking"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian wording for the shoe sole; Indonesian dictionary material explicitly uses \"sol sepatu.\"",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/tapak%20kasut",
+        "https://kbbi.web.id/tapak"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: sol sepatu"
+    },
+    {
+      "conclusion": "Valid Malaysian wording for the shoe sole; PRPM defines \"tapak kasut\" as the shoe sole.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=399108&keyword=tapak"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tapak kasut"
+    },
+    {
+      "conclusion": "Materially overstated. KBBI cross-references \"tapak kasut\" to \"sol sepatu,\" and PRPM labels \"sol\" as Indonesian (IB) for \"tapak kasut,\" demonstrating cross-variety overlap. \"Different-common-word\" should not be retained without a narrower usage qualification.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/tapak%20kasut",
+        "https://prpm.dbp.gov.my/Cari1?d=250608&keyword=sol"
+      ],
+      "material_risk": true,
+      "subject": "National split and relation"
+    },
+    {
+      "conclusion": "No contrast is supplied, and the available evidence does not support a false-friend distinction. The learner should be told that the forms overlap across Indonesian and Malaysian Malay, with differing preference or labeling rather than different meanings.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/tapak%20kasut",
+        "https://prpm.dbp.gov.my/Cari1?d=250608&keyword=sol",
+        "https://prpm.dbp.gov.my/Cari1?d=399108&keyword=tapak"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "86f41c3d903390ff81275ae4ac53a595c7cdb14b921ce9ec74590874d5731118",
+  "correction_refs": [],
+  "decision_digest": "e4469ffbec17faf1cd4abf67b99023da89cdc545353ca0ca0ba62230ec6dee73",
+  "elapsed_ms": 27417,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 95695,
+  "model_calls": 1,
+  "output_tokens": 1677,
+  "packet_digest": "234c83411b51367315277f53848202831708da32a78af574ed539f971e793f8a",
+  "rationale": "The English cue and sense are accurate, and both answers denote a shoe sole. However, the national split is materially overstated: Indonesian KBBI cross-references \"tapak kasut\" to \"sol sepatu,\" while Malaysian PRPM labels \"sol\" as Indonesian (IB) for \"tapak kasut.\" The proposed different-common-word relation is therefore unsupported and potentially misleading. The card also lacks a false-friend contrast; the evidence indicates shared equivalents rather than a contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:31:56.261371+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s002/tmp-clothing-s002-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s002",
+  "verdict": "needs-correction"
+}

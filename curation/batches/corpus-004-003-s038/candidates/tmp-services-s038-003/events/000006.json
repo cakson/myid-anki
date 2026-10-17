@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:43:32.293133+00:00",
+  "input_digest": "0c34f865a8720a75292146b9c6ad6d12d59acf342e29e7aa4c55f8b8eedd5949",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Both forms denote a police officer. Indonesian commonly uses \\u201cpolisi,\\u201d while Malaysian Malay commonly uses the more explicit \\u201cpegawai polis\\u201d; the contrast is useful, though \\u201cpolis\\u201d is also an ordinary Malaysian alternative.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The neutral cue \\u201cpolice officer\\u201d matches both answers without conflating an act, result, category, or subtype.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Malaysian \\u201cpolis\\u201d can also ordinarily refer to a police officer, but \\u201cpegawai polis\\u201d remains a useful explicit/formal preference; this does not invalidate the Indonesian\\u2013Malaysian contrast.\", \"nonblocking_risk\": \"concrete\", \"risk_rationale\": \"Malaysian learners may commonly encounter \\u201cpolis\\u201d instead of \\u201cpegawai polis,\\u201d especially in informal usage.\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"polis\", \"language\": \"malaysian\", \"rationale\": \"\\u201cPolis\\u201d is a plausible everyday Malaysian competitor for the same police-officer sense.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "The neutral cue “police officer” matches both answers without conflating an act, result, category, or subtype.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "concrete",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "polis",
+        "language": "malaysian",
+        "rationale": "“Polis” is a plausible everyday Malaysian competitor for the same police-officer sense.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Both forms denote a police officer. Indonesian commonly uses “polisi,” while Malaysian Malay commonly uses the more explicit “pegawai polis”; the contrast is useful, though “polis” is also an ordinary Malaysian alternative.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian learners may commonly encounter “polis” instead of “pegawai polis,” especially in informal usage.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Malaysian “polis” can also ordinarily refer to a police officer, but “pegawai polis” remains a useful explicit/formal preference; this does not invalidate the Indonesian–Malaysian contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "The neutral cue “police officer” matches both answers without conflating an act, result, category, or subtype.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "polis",
+      "language": "malaysian",
+      "rationale": "“Polis” is a plausible everyday Malaysian competitor for the same police-officer sense.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Both forms denote a police officer. Indonesian commonly uses “polisi,” while Malaysian Malay commonly uses the more explicit “pegawai polis”; the contrast is useful, though “polis” is also an ordinary Malaysian alternative.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian learners may commonly encounter “polis” instead of “pegawai polis,” especially in informal usage.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Malaysian “polis” can also ordinarily refer to a police officer, but “pegawai polis” remains a useful explicit/formal preference; this does not invalidate the Indonesian–Malaysian contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "fe2be7d08e13eb8109ee18d097ab4ab25a78edb7b69ca5659ef8911e6405f8ac"
+}

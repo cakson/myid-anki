@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:44:09.485320+00:00",
+  "input_digest": "41bf960623de9cb8cbf0de6f40d2f950d670dcd6f121f18b9927e44cdf17a216",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Both answers refer to a person or company that delivers parcels. Indonesian commonly uses \\u201ckurir,\\u201d while Malaysian commonly uses \\u201cpenghantar,\\u201d though \\u201ckurier\\u201d is also used in Malaysia.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The cue clearly denotes the delivery person or company, and both answers fit that same sense.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cKurier\\u201d is also ordinary in Malaysian usage, but \\u201cpenghantar\\u201d remains a credible Malaysian preference for a parcel deliverer; the contrast is useful as a contextual preference, not an exclusive ownership claim.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Malaysian learners may also encounter \\u201ckurier,\\u201d especially in commercial or service contexts.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"kurier\", \"language\": \"malaysian\", \"rationale\": \"\\u201cKurier\\u201d is a plausible everyday Malaysian alternative to \\u201cpenghantar\\u201d for parcel delivery.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "The cue clearly denotes the delivery person or company, and both answers fit that same sense.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kurier",
+        "language": "malaysian",
+        "rationale": "“Kurier” is a plausible everyday Malaysian alternative to “penghantar” for parcel delivery.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "Both answers refer to a person or company that delivers parcels. Indonesian commonly uses “kurir,” while Malaysian commonly uses “penghantar,” though “kurier” is also used in Malaysia.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian learners may also encounter “kurier,” especially in commercial or service contexts.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Kurier” is also ordinary in Malaysian usage, but “penghantar” remains a credible Malaysian preference for a parcel deliverer; the contrast is useful as a contextual preference, not an exclusive ownership claim.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "The cue clearly denotes the delivery person or company, and both answers fit that same sense.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kurier",
+      "language": "malaysian",
+      "rationale": "“Kurier” is a plausible everyday Malaysian alternative to “penghantar” for parcel delivery.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "Both answers refer to a person or company that delivers parcels. Indonesian commonly uses “kurir,” while Malaysian commonly uses “penghantar,” though “kurier” is also used in Malaysia.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian learners may also encounter “kurier,” especially in commercial or service contexts.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Kurier” is also ordinary in Malaysian usage, but “penghantar” remains a credible Malaysian preference for a parcel deliverer; the contrast is useful as a contextual preference, not an exclusive ownership claim.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "afa4d877bc159807375f42137bd96878f04dece7b66da1a151679217ae7cc8fb"
+}

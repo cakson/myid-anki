@@ -1,0 +1,61 @@
+{
+  "attempt_id": "18d69ecb6cc57d3d",
+  "candidate_id": "tmp-health-body-s033-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: “medical check-up” matches a routine examination of a person’s health.",
+      "evidence_limitation": "No external evidence supplied; assessment based on standard lexical meaning.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Cek kesehatan” is a natural, commonly understood Indonesian expression, with a somewhat colloquial register.",
+      "evidence_limitation": "Usage frequency and regional/register variation were not independently corpus-checked.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pemeriksaan kesihatan” is a standard and natural Malaysian Malay expression for a health examination.",
+      "evidence_limitation": "Usage frequency and contextual variation were not independently corpus-checked.",
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate: the varieties use distinct ordinary local forms, despite possible shared alternatives such as “check-up.”",
+      "evidence_limitation": "The relation is a pedagogical classification rather than an externally evidenced categorical fact.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or required; the forms are semantically aligned.",
+      "evidence_limitation": "No dedicated false-friend source was consulted.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a61567d9ddcb43f58e8216e9feb828062318eb6215d04dc91a7e6085c703fdc6",
+  "correction_refs": [],
+  "decision_digest": "73226bbd3390fa2eeca36d08878757e87f9c4d5e0e04f022b7a2a0a0c19c88bc",
+  "elapsed_ms": 7668,
+  "finding_class": "none",
+  "input_tokens": 12513,
+  "model_calls": 1,
+  "output_tokens": 624,
+  "packet_digest": "ea35456dc85cbf28162cb0c70a393a6582e9a49192ab0d62579c88318622ddc6",
+  "rationale": "Both answers accurately express a routine medical examination. “Cek kesehatan” is natural everyday Indonesian, while “pemeriksaan kesihatan” is standard Malaysian Malay. The answers form a valid useful contrast; no false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:58:14.654620+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s033/tmp-health-body-s033-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s033",
+  "verdict": "cleared"
+}

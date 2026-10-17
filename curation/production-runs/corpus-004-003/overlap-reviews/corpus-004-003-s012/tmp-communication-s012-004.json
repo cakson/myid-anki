@@ -1,0 +1,73 @@
+{
+  "attempt_id": "e07a52826d85f0d0",
+  "candidate_id": "tmp-communication-s012-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“To warn” meaning to alert someone to danger or trouble is accurate and aligned with the Malay dictionary sense of warn.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=diingatkan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian for warning or admonishing someone; it is not an erroneous answer.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/3124/1/MASALAH%20BAHASA%20YANG%20PATUT%20ANDA%20KETAHUI-I.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: memperingatkan"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay expression, especially for a strong warning or admonition.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=amaran",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=diingatkan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: memberi amaran"
+    },
+    {
+      "conclusion": "The relation different-common-word is overstated. Indonesian KBBI defines mengingatkan as giving advice or admonition, and DBP’s Malay dictionary maps warn both to mengingatkan and memberi amaran. DBP also explicitly accepts memperingatkan and mengingatkan for giving advice or warning.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/mengingatkan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=diingatkan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memperingati+1"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and final relation"
+    },
+    {
+      "conclusion": "No contrast is supplied, so there is no asserted false-friend distinction to validate; the omission prevents learners from understanding the overlap and pragmatic difference between reminder-like mengingatkan and stronger warning expressions.",
+      "evidence_limitation": "The learner content contains an empty contrast field, so no proposed false-friend claim is available for independent verification.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3edc113e9ba684125c0212ef8a84f2682681e1f26d8097656f52a5ef8e9ca880",
+  "correction_refs": [],
+  "decision_digest": "c98e7d90c40086c4fd10a29a6cb9bfe113c23722a83a025e100bf1ae37b3a16b",
+  "elapsed_ms": 27866,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 92728,
+  "model_calls": 1,
+  "output_tokens": 1847,
+  "packet_digest": "6e026a354779d1343f6722c5fec4b140616cfb6dace51522826b892a3f5b0a70",
+  "rationale": "The cue and both listed answers are valid, but the national contrast is materially overstated. Indonesian mengingatkan and Malaysian mengingatkan are ordinary accepted equivalents for warning, while Malaysian memperingatkan is also accepted. The card should present memberi amaran and memperingatkan as variety preferences rather than a clean different-common-word split. The empty contrast field also leaves the learner without a useful distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:40:57.147355+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s012/tmp-communication-s012-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s012",
+  "verdict": "needs-correction"
+}

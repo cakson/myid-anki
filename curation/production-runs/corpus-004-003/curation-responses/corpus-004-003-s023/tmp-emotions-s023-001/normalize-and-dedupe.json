@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5796,
+  "input_digest": "f961ff351a333970d4c7f8c135264f0bafb716089fae7e8a1f1995782e0d2951",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 329,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-005\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"Both describe a negative emotional reaction involving displeasure or annoyance; the supplied senses do not prove a clear distinction.\"},{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-008\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"Both involve anger, but the archive specifies lasting anger while the candidate specifies strong displeasure; this plausible relationship requires further proof.\"},{\"other_id\":\"corpus-004-003-s022:tmp-emotions-s022-004\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"Both describe feeling unhappy or displeased; the supplied wording does not establish a sufficiently clear sense distinction.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-005",
+          "rationale": "Both describe a negative emotional reaction involving displeasure or annoyance; the supplied senses do not prove a clear distinction.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-008",
+          "rationale": "Both involve anger, but the archive specifies lasting anger while the candidate specifies strong displeasure; this plausible relationship requires further proof.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-004",
+          "rationale": "Both describe feeling unhappy or displeased; the supplied wording does not establish a sufficiently clear sense distinction.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

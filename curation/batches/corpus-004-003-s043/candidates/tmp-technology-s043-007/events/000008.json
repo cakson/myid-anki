@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:54:50.097145+00:00",
+  "input_digest": "0f1af736b0182e6e588474a43dc2a36bd7e758517b2cfa9d79a2c8b7075c601f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Both forms denote the same web-interface field for entering a search query. \\u201cBilah pencarian\\u201d is a standard Indonesian rendering, while \\u201cbar carian\\u201d is an ordinary Malaysian Malay rendering.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The cue directly specifies the interface field, and both answers fit that exact sense.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"No relevant shared Malay synonym was identified that would substantially weaken the proposed variety contrast.\", \"nonblocking_risk\": \"concrete\", \"risk_rationale\": \"Indonesian users may also commonly encounter \\u201ckolom pencarian,\\u201d so \\u201cbilah pencarian\\u201d is a useful standard/UI preference rather than the only everyday form.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"kolom pencarian\", \"language\": \"indonesian\", \"rationale\": \"\\u201cKolom pencarian\\u201d is a plausible everyday Indonesian alternative for the same interface element, though it does not invalidate \\u201cbilah pencarian\\u201d as a standard rendering.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "The cue directly specifies the interface field, and both answers fit that exact sense.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "concrete",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kolom pencarian",
+        "language": "indonesian",
+        "rationale": "“Kolom pencarian” is a plausible everyday Indonesian alternative for the same interface element, though it does not invalidate “bilah pencarian” as a standard rendering.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "Both forms denote the same web-interface field for entering a search query. “Bilah pencarian” is a standard Indonesian rendering, while “bar carian” is an ordinary Malaysian Malay rendering.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian users may also commonly encounter “kolom pencarian,” so “bilah pencarian” is a useful standard/UI preference rather than the only everyday form.",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "No relevant shared Malay synonym was identified that would substantially weaken the proposed variety contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "The cue directly specifies the interface field, and both answers fit that exact sense.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kolom pencarian",
+      "language": "indonesian",
+      "rationale": "“Kolom pencarian” is a plausible everyday Indonesian alternative for the same interface element, though it does not invalidate “bilah pencarian” as a standard rendering.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "Both forms denote the same web-interface field for entering a search query. “Bilah pencarian” is a standard Indonesian rendering, while “bar carian” is an ordinary Malaysian Malay rendering.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian users may also commonly encounter “kolom pencarian,” so “bilah pencarian” is a useful standard/UI preference rather than the only everyday form.",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "No relevant shared Malay synonym was identified that would substantially weaken the proposed variety contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "0d856505d28b35af49ede9e3499c508116bc6f8ac1119d4cdecbc7ed25bab8e5"
+}

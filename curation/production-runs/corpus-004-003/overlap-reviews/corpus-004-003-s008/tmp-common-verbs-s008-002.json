@@ -1,0 +1,84 @@
+{
+  "attempt_id": "4f8ed8eea7253598",
+  "candidate_id": "tmp-common-verbs-s008-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Material overlap confirmed: menaruh is an Indonesian verb meaning ‘meletakkan; menempatkan,’ and Malaysian meletakkan means ‘menempatkan sesuatu’; Malaysian DBP material also lists menaruh as synonymous with meletakkan.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/menaruh",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan",
+        "https://prpm.dbp.gov.my/Forms/thesaurus?k=taruh&kt=menaruh"
+      ],
+      "material_risk": true,
+      "subject": "national split and answer overlap"
+    },
+    {
+      "conclusion": "The corrected cue ‘to place something somewhere’ is materially better than ‘to put’ and aligns with both answers. It is sufficiently specific for the intended physical-placement sense.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/menaruh",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "menaruh is an accepted Indonesian answer for the stated sense, with the official KBBI definition ‘meletakkan; menempatkan.’",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/menaruh"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "meletakkan is an accepted Malaysian answer for the stated sense, defined by DBP as ‘menempatkan sesuatu’ and exemplified with placing an object on a table.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan+1"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "different-common-word is not supported. The evidence supports shared-synonym or overlapping-equivalent treatment, with possible variety or register preference rather than a clean national lexical split.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/menaruh",
+        "https://prpm.dbp.gov.my/Forms/thesaurus?k=taruh&kt=menaruh",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan"
+      ],
+      "material_risk": true,
+      "subject": "final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present in the learner content. The reviewed dictionary evidence instead indicates semantic overlap, so a contrast should not be implied without additional, sense-specific evidence.",
+      "evidence_limitation": "The candidate supplies an empty contrast field; no independent false-friend distinction was established from the reviewed authoritative dictionary entries.",
+      "material_risk": true,
+      "subject": "false-friend contrast"
+    }
+  ],
+  "content_digest": "b4f22d60687ede79c676cfb49c161713fc8de4c2fb9b64a2c2f617a9dc9a9c34",
+  "correction_refs": [],
+  "decision_digest": "2c9cdd0b0b17074567df71da9f65afc43b415d11109d020d73161488cfedfcc9",
+  "elapsed_ms": 22827,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 98066,
+  "model_calls": 1,
+  "output_tokens": 1388,
+  "packet_digest": "d30008622c05824db37bdf7c22fe322f97c52b108b239d01ae9f666105057e1f",
+  "rationale": "The national split is materially overstated. Indonesian menaruh means ‘to put/place,’ while Malaysian meletakkan is also defined as ‘to place/put’; Malaysian reference material additionally treats menaruh as synonymous with meletakkan. Both learner answers are therefore valid cross-variety equivalents for this narrowed sense, although meletakkan and menaruh may differ in preference or register. The relation should not be different-common-word, and no false-friend contrast is supplied.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:36:57.431214+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s008/tmp-common-verbs-s008-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s008",
+  "verdict": "needs-correction"
+}

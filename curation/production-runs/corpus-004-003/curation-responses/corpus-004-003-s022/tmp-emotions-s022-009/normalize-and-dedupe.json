@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7943,
+  "input_digest": "0914f9724910acadcba2b704564876ccfddd8c3f280591c1116edf2a4a629534",
+  "input_tokens": 94587,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 500,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s023:tmp-emotions-s023-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Miserable means extremely unhappy or distressed, while sad denotes general sorrow; the candidate expresses greater severity and broader distress.\"},{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Miserable is general extreme unhappiness or distress, whereas heartbroken specifically concerns deep distress after romantic loss or rejection.\"},{\"other_id\":\"corpus-004-003-s022:tmp-emotions-s022-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Miserable describes extreme unhappiness or distress; disheartened specifically means losing confidence or motivation.\"},{\"other_id\":\"corpus-004-003-s023:tmp-emotions-s023-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Miserable expresses extreme unhappiness or distress, while glad expresses pleasure; they are contrasting but distinct emotional senses.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s023:tmp-emotions-s023-002",
+          "rationale": "Miserable means extremely unhappy or distressed, while sad denotes general sorrow; the candidate expresses greater severity and broader distress.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-007",
+          "rationale": "Miserable is general extreme unhappiness or distress, whereas heartbroken specifically concerns deep distress after romantic loss or rejection.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-010",
+          "rationale": "Miserable describes extreme unhappiness or distress; disheartened specifically means losing confidence or motivation.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s023:tmp-emotions-s023-003",
+          "rationale": "Miserable expresses extreme unhappiness or distress, while glad expresses pleasure; they are contrasting but distinct emotional senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

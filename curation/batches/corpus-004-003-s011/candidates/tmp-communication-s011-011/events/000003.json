@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:39:33.940518+00:00",
+  "input_digest": "a500154548d3377d60f11eacf7e9a0b978db32a0c4dc153c55e8b9309f3a550a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s002:tmp-common-adjectives-contrast-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cjoke\\u201d is a noun for a humorous story or utterance, while \\u201cfunny\\u201d is an adjective meaning causing amusement; the senses and parts of speech differ.\"}, {\"other_id\": \"tb25-actions-001:actions-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cjoke\\u201d is a humorous story or utterance, while \\u201cto laugh\\u201d is the vocal or physical response to amusement; related but distinct concepts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s002:tmp-common-adjectives-contrast-005",
+          "rationale": "“joke” is a noun for a humorous story or utterance, while “funny” is an adjective meaning causing amusement; the senses and parts of speech differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-actions-001:actions-01",
+          "rationale": "“joke” is a humorous story or utterance, while “to laugh” is the vocal or physical response to amusement; related but distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s002:tmp-common-adjectives-contrast-005",
+        "rationale": "“joke” is a noun for a humorous story or utterance, while “funny” is an adjective meaning causing amusement; the senses and parts of speech differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "tb25-actions-001:actions-01",
+        "rationale": "“joke” is a humorous story or utterance, while “to laugh” is the vocal or physical response to amusement; related but distinct concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "2d9ed0a2cd2b6168096db3a52f99ce89733ed82650e9d20e4109baaa0301a375"
+}

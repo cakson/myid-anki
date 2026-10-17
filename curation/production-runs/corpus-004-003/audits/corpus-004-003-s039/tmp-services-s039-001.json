@@ -1,0 +1,68 @@
+{
+  "attempt_id": "f710413ee1b93858",
+  "candidate_id": "tmp-services-s039-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Understandable, but ambiguous and not sufficiently specific for the appointment sense; prefer pengingat janji temu.",
+      "evidence_refs": [
+        "https://kbbi.web.id/janji",
+        "https://flowkirim.com/addons/calendar-reminder",
+        "https://www.murni.co.id/id/solusi/enterprise-customer-experience-solutions/enterprise-customer-experience-solution-smartappointment/"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: pengingat janji"
+    },
+    {
+      "conclusion": "Commonly understandable and attested in Malaysian official/academic usage, though DBP normatively prefers janji temu over temu janji; peringatan janji temu is the safer standard form.",
+      "evidence_refs": [
+        "https://ntf.go.gov.my/",
+        "https://ftsm.ukm.my/v6/public/assets/file/technicalreport/A188564_TReport.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berjanji"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: peringatan temu janji"
+    },
+    {
+      "conclusion": "The cue and sense correctly describe a notice reminding someone about a scheduled appointment.",
+      "evidence_refs": [
+        "https://www.murni.co.id/id/solusi/enterprise-customer-experience-solutions/enterprise-customer-experience-solution-smartappointment/"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different common forms are defensible, but the important learner contrast is Indonesian janji's promise/appointment ambiguity versus Malaysian's explicit temu/janji temu appointment expression; the current card does not state this contrast.",
+      "evidence_refs": [
+        "https://kbbi.web.id/janji",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berjanji"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "6fdf16875735b17bc6757eb49098f77145ebdb7898f7d3ce168a1223f38bea04",
+  "correction_refs": [],
+  "decision_digest": "26c1b4c5bbae9e5c92b2207e72a7c5848acc3b508e3cdf2f007cbb4747ddc06f",
+  "elapsed_ms": 18964,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61838,
+  "model_calls": 1,
+  "output_tokens": 1262,
+  "packet_digest": "b0e57f22d36c5015546d07aa069559805800952aa79440e95ab6c57f9b321806",
+  "rationale": "The Malaysian form is attested in official Malaysian usage, but the Indonesian form is underspecified: janji can mean either an appointment or a promise. For an appointment reminder, Indonesian pengingat janji temu is safer and clearer. The contrast is therefore learner-relevant, but the current Indonesian answer risks teaching ambiguity.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:03:23.092103+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s039/tmp-services-s039-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s039",
+  "verdict": "needs-correction"
+}

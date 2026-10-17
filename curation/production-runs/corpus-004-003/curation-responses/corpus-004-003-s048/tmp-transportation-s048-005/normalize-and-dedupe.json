@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4616,
+  "input_digest": "b810ae053761f4700232e359c8ca88d0bdcf13a5d9389cc5108388404a37ef00",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 209,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bus terminal is a station where buses arrive and depart, whereas a bus stop is a place where buses briefly stop for passengers; these are distinct facilities.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-02",
+          "rationale": "A bus terminal is a station where buses arrive and depart, whereas a bus stop is a place where buses briefly stop for passengers; these are distinct facilities.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

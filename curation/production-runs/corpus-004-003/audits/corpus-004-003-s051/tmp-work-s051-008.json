@@ -1,0 +1,77 @@
+{
+  "attempt_id": "03c7492046b36faa",
+  "candidate_id": "tmp-work-s051-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for retirement from employment, with an additional pension-benefit sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/pensiun",
+        "https://kbbi.web.id/pensiun"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pensiun"
+    },
+    {
+      "conclusion": "Correct noun for retirement, including retiring from or being retired from work.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=persaraan",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/retirement"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: persaraan"
+    },
+    {
+      "conclusion": "Retirement from employment accurately targets the intended sense and disambiguates Indonesian pensiun from its pension-benefit sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/retirement",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/retirement"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate: pensiun and persaraan are ordinary national terms for the targeted sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/pensiun",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=persaraan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is required. Indonesian pensiun also means pension benefit, but this is polysemy within Indonesian rather than a misleading Indonesian–Malaysian pair for the supplied cue.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pensiun",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=persaraan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a07ca770667ebb35013f122436f4985231ae7d731d27fbd865d0bdf1ffec9623",
+  "correction_refs": [],
+  "decision_digest": "1d5396ea5c53f4985e48fa4ad450e12f55cf26815f4b09b14018d50d017859a2",
+  "elapsed_ms": 19663,
+  "finding_class": "none",
+  "input_tokens": 62390,
+  "model_calls": 1,
+  "output_tokens": 1209,
+  "packet_digest": "b0d4e3ceb36e445a5012aecf459c4cde04fe031f831a972eaacd3fecaaad441a",
+  "rationale": "Both answers correctly express retirement from employment. The cue is appropriately narrowed, and the different-common-word relation is valid. Indonesian pensiun is polysemous and can also mean a pension benefit, but the employment cue resolves that ambiguity. Malaysian persaraan specifically denotes retirement; no material cross-language false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:18:58.780599+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s051/tmp-work-s051-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s051",
+  "verdict": "cleared"
+}

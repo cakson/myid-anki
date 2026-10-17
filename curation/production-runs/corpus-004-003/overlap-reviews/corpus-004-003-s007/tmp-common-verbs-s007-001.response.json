@@ -1,0 +1,72 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 26370,
+  "input_tokens": 96218,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1834,
+  "packet_digest": "33a009a27a9998800a30ff67391f55bf707836dcfb1a7eca3ad46d6571fdeda6",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Both answers fit the requested event-occurrence sense, but the national split is materially overstated: authoritative Malaysian Malay sources define terjadi as “sudah berlaku” and berlaku as “terjadi.” The card should be reframed as a useful preference distinction with explicit overlap, rather than an unqualified different-common-word relation. No true false-friend contrast is established, although berlaku has additional meanings such as “be valid,” “apply,” or “be enforced.”\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Happen” and “come about or take place” correctly identify the event-occurrence sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.oxfordlearnersdictionaries.com/us/definition/english/happen\",\"https://dictionary.cambridge.org/us/dictionary/english/happen\"]},{\"subject\":\"Indonesian answer: terjadi\",\"conclusion\":\"Terjadi is a valid Indonesian answer for the supplied sense; KBBI defines it, for events, as “sudah berlaku.”\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.lektur.id/terjadi\",\"https://kbbi.kemendikdasmen.go.id/\"]},{\"subject\":\"Malaysian answer: berlaku\",\"conclusion\":\"Berlaku is a valid Malaysian Malay answer for the supplied sense; DBP defines it as “sedang berjalan... terjadi.”\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku\"]},{\"subject\":\"Cross-variety overlap and national split\",\"conclusion\":\"The split is materially overstated. Malaysian Malay dictionaries accept terjadi for “sudah berlaku,” and DBP’s occurrence equivalence list includes both berlakunya and terjadinya, as well as berlaku and terjadi. The evidence supports a preference distinction, not exclusive national ownership.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terjadi\",\"https://prpm.dbp.gov.my/cari1?keyword=occurrence\"]},{\"subject\":\"Final relation\",\"conclusion\":\"Different-common-word is too categorical for this card. Replace or qualify it as shared-synonym-preference / different-preferred-common-word, with an overlap note.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terjadi\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No genuine false-friend contrast is demonstrated between the two answers: both forms retain the relevant occurrence meaning across varieties. However, berlaku has additional Malaysian Malay senses including “be valid,” “apply,” and “be enforced,” which could merit a brief polysemy warning. Comparative frequency or preference strength cannot be established from the dictionary evidence alone.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku\"],\"evidence_limitation\":\"The reviewed sources establish accepted meanings and overlap, but do not provide comparable corpus frequencies showing which form is ordinarily preferred in each national variety.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Happen” and “come about or take place” correctly identify the event-occurrence sense.",
+        "evidence_refs": [
+          "https://www.oxfordlearnersdictionaries.com/us/definition/english/happen",
+          "https://dictionary.cambridge.org/us/dictionary/english/happen"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Terjadi is a valid Indonesian answer for the supplied sense; KBBI defines it, for events, as “sudah berlaku.”",
+        "evidence_refs": [
+          "https://kbbi.lektur.id/terjadi",
+          "https://kbbi.kemendikdasmen.go.id/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: terjadi"
+      },
+      {
+        "conclusion": "Berlaku is a valid Malaysian Malay answer for the supplied sense; DBP defines it as “sedang berjalan... terjadi.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: berlaku"
+      },
+      {
+        "conclusion": "The split is materially overstated. Malaysian Malay dictionaries accept terjadi for “sudah berlaku,” and DBP’s occurrence equivalence list includes both berlakunya and terjadinya, as well as berlaku and terjadi. The evidence supports a preference distinction, not exclusive national ownership.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terjadi",
+          "https://prpm.dbp.gov.my/cari1?keyword=occurrence"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap and national split"
+      },
+      {
+        "conclusion": "Different-common-word is too categorical for this card. Replace or qualify it as shared-synonym-preference / different-preferred-common-word, with an overlap note.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terjadi",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No genuine false-friend contrast is demonstrated between the two answers: both forms retain the relevant occurrence meaning across varieties. However, berlaku has additional Malaysian Malay senses including “be valid,” “apply,” and “be enforced,” which could merit a brief polysemy warning. Comparative frequency or preference strength cannot be established from the dictionary evidence alone.",
+        "evidence_limitation": "The reviewed sources establish accepted meanings and overlap, but do not provide comparable corpus frequencies showing which form is ordinarily preferred in each national variety.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers fit the requested event-occurrence sense, but the national split is materially overstated: authoritative Malaysian Malay sources define terjadi as “sudah berlaku” and berlaku as “terjadi.” The card should be reframed as a useful preference distinction with explicit overlap, rather than an unqualified different-common-word relation. No true false-friend contrast is established, although berlaku has additional meanings such as “be valid,” “apply,” or “be enforced.”",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 7332,
+  "input_digest": "99f9fc8a6d2aa37c096f108ee12450625edbccb15da558be6e4e779af1988368",
+  "input_tokens": 14297,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 594,
+  "raw_text": "{\"verdict\":\"object\",\"relation\":\"different-common-word\",\"concerns\":[\"The answers do not denote equivalent administrative levels: Indonesian kecamatan is generally below kabupaten/kota, while Malaysian daerah is a district-level division below a state.\"],\"material_concerns\":[\"The broad cue “district” could misteach the learner by equating kecamatan with Malaysian daerah.\"],\"rationale\":\"The proposed forms are common in their respective varieties, but they are not aligned for the same exact administrative sense or hierarchy.\",\"objection_assessments\":[],\"cue_alignment\":\"material-risk\",\"cue_rewrite\":\"\",\"cue_rationale\":\"No concise neutral cue preserves both answers as equivalent administrative units because their usual hierarchical levels differ.\",\"shared_synonym_case\":\"none\",\"shared_synonym_rationale\":\"none\",\"nonblocking_risk\":\"none\",\"risk_rationale\":\"\",\"preference_risk\":{\"signal\":\"verifier-explicitly-questions-preference\",\"form\":\"daerah\",\"language\":\"malaysian\",\"rationale\":\"Malaysian daerah is a standard district term, but it is not an equivalent national preference for Indonesian kecamatan because the administrative levels differ.\"}}",
+  "response": {
+    "concerns": [
+      "The answers do not denote equivalent administrative levels: Indonesian kecamatan is generally below kabupaten/kota, while Malaysian daerah is a district-level division below a state."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise neutral cue preserves both answers as equivalent administrative units because their usual hierarchical levels differ.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The broad cue “district” could misteach the learner by equating kecamatan with Malaysian daerah."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "daerah",
+      "language": "malaysian",
+      "rationale": "Malaysian daerah is a standard district term, but it is not an equivalent national preference for Indonesian kecamatan because the administrative levels differ.",
+      "signal": "verifier-explicitly-questions-preference"
+    },
+    "rationale": "The proposed forms are common in their respective varieties, but they are not aligned for the same exact administrative sense or hierarchy.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

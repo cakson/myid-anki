@@ -1,0 +1,79 @@
+{
+  "attempt_id": "b81edc3c6a23aefa",
+  "candidate_id": "corpus-004-003-s020-edu-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: classmate means a person in the same class at school or college, matching the sense “student in the same class.”",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/classmate",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/classmate"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary Indonesian for “classmate.”",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/10651/1/Sahabatku%20Indonesia%20untuk%20Anak%20Sekolah%20Tingkat%20B-1.pdf",
+        "https://pbi.uii.ac.id/2022/01/10/various-terms-of-teman-in-english/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: teman sekelas"
+    },
+    {
+      "conclusion": "Correct and established in Malaysian Malay; DBP search results and Malaysian educational usage attest the expression.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=rakan+sekelas",
+        "https://www.twinkl.my/resource/aktiviti-menyusun-ayat-rakan-sekelas-kssr-1-my-bm-1751734916"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: rakan sekelas"
+    },
+    {
+      "conclusion": "The label different-common-word is overstated. Malaysian Malay also uses teman sekelas and kawan sekelas, and DBP treats kawan, teman, and rakan as related equivalents; the evidence supports a preference/register distinction rather than a hard national lexical contrast.",
+      "evidence_limitation": "No directly comparable Indonesian–Malaysian corpus-frequency study was located, so the exact strength of each national preference cannot be quantified.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=rakan+sekelas",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=rakan+sekelas",
+        "https://www.eprints.ums.edu.my/id/eprint/8509/1/ae0000002021.pdf"
+      ],
+      "material_risk": true,
+      "subject": "National split and relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is indicated or needed: teman, rakan, and kawan in these compounds retain the intended classmate-related sense. The empty contrast field is therefore not independently erroneous.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=rakan+sekelas",
+        "https://www.twinkl.my/resource/aktiviti-menyusun-ayat-rakan-sekelas-kssr-1-my-bm-1751734916"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "dfc7cd9052c7e343f82c6193e2cd14f46309f4a240d568a7d83e0d68a7e94b5e",
+  "correction_refs": [],
+  "decision_digest": "e65169dc1feae62c4e76a94e06eea93f5ef1cba38239b570b8b7cd6b814f492f",
+  "elapsed_ms": 30994,
+  "finding_class": "metadata-only",
+  "input_tokens": 121656,
+  "model_calls": 1,
+  "output_tokens": 1852,
+  "packet_digest": "0a2b2a247f7161cf6a190e2f85fe55446f437e72d2636f30c9a572d959bd2671",
+  "rationale": "Both answers correctly express “classmate,” and the English cue and sense are aligned. However, the relation different-common-word materially overstates the national split: Malaysian Malay also uses teman sekelas and kawan sekelas, while rakan sekelas is a conventional Malaysian form. The distinction is better represented as a common-synonym preference, not a strict lexical divide. No false-friend contrast is required because the forms do not create a misleading cross-language meaning contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:49:43.656380+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s020/corpus-004-003-s020-edu-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s020",
+  "verdict": "needs-correction"
+}

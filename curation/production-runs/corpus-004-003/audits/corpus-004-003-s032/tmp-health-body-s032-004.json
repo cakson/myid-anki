@@ -1,0 +1,63 @@
+{
+  "attempt_id": "5d931b8922530473",
+  "candidate_id": "tmp-health-body-s032-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Diabetes” correctly matches the sense of a chronic disease involving high blood sugar.",
+      "evidence_limitation": "No external evidence supplied; assessment based on standard lexical meaning.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Diabetes” is a correct and standard Indonesian answer.",
+      "evidence_limitation": "Usage frequency and register were not independently corpus-verified.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Kencing manis” is a correct Malaysian Malay term for diabetes; “diabetes” is also used in formal and medical contexts.",
+      "evidence_limitation": "Relative everyday frequency of “kencing manis” versus “diabetes” was not independently corpus-verified.",
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is defensible because the preferred common forms differ, despite overlap in Malaysian usage.",
+      "evidence_limitation": "The relation depends on intended register and frequency thresholds, which were not specified.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; the forms share the intended disease sense rather than creating a misleading near-equivalence.",
+      "evidence_limitation": "No dedicated false-friend lexicon or contrastive corpus was consulted.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "92632f46f20fe9f6621d8b9b81929c563100514c82da20b7b61501fd7eaf48dc",
+  "correction_refs": [],
+  "decision_digest": "9401618532895c19dbba02382c844571ca3df109bbb9b277e9e1ca0cd58f9f08",
+  "elapsed_ms": 8711,
+  "finding_class": "none",
+  "input_tokens": 12541,
+  "model_calls": 1,
+  "output_tokens": 720,
+  "packet_digest": "c52b0833e2a7de58e61a2988aa200570e58cd31479b1e8d32c20fddf9bc62178",
+  "rationale": "Both answers are valid equivalents for the cue “diabetes,” and the sense is accurate. “Diabetes” is standard in Indonesian; Malaysian Malay commonly uses “kencing manis,” while “diabetes” is also used, especially in clinical or formal contexts. The different-common-word relation is acceptable, though register-sensitive. No false-friend contrast is required or apparent.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:55:55.313770+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s032/tmp-health-body-s032-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "cleared"
+}

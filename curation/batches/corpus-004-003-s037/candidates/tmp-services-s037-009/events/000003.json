@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:42:03.072985+00:00",
+  "input_digest": "87ab3d142bc462c0dd85fd758bd0cd0a23a96a8d8adc448fb6a5d1115aa9466e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s011:tmp-communication-s011-003\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"A service application is a request to start or receive a service, while the existing concept is a general polite appeal; the senses overlap plausibly but are not proven identical, and the Indonesian and Malaysian answers are not the same.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-003",
+          "rationale": "A service application is a request to start or receive a service, while the existing concept is a general polite appeal; the senses overlap plausibly but are not proven identical, and the Indonesian and Malaysian answers are not the same.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s011:tmp-communication-s011-003",
+        "rationale": "A service application is a request to start or receive a service, while the existing concept is a general polite appeal; the senses overlap plausibly but are not proven identical, and the Indonesian and Malaysian answers are not the same.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "ecca83f36d8e0c8a3415bb3d541b5c1deb267e81f29697fd5a0c6a30605a191a"
+}

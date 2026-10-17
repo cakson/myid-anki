@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:04:40.248518+00:00",
+  "input_digest": "296259f37627947a812ad91cc772c8f03d2cdc19a09e5f448b424ab55b7fba2c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both refer to a spouse's parent, but the candidate is specifically the spouse's mother while the other concept is specifically the spouse's father; English cue and both answers differ.\"}, {\"other_id\": \"corpus-004-003-s011:tmp-family-social-s011-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Parents is a broader concept referring to one's mother and father collectively, whereas mother-in-law specifically means the mother of one's spouse; cues and both answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-006",
+          "rationale": "Both refer to a spouse's parent, but the candidate is specifically the spouse's mother while the other concept is specifically the spouse's father; English cue and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s011:tmp-family-social-s011-003",
+          "rationale": "Parents is a broader concept referring to one's mother and father collectively, whereas mother-in-law specifically means the mother of one's spouse; cues and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-006",
+        "rationale": "Both refer to a spouse's parent, but the candidate is specifically the spouse's mother while the other concept is specifically the spouse's father; English cue and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s011:tmp-family-social-s011-003",
+        "rationale": "Parents is a broader concept referring to one's mother and father collectively, whereas mother-in-law specifically means the mother of one's spouse; cues and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "18b5455bd06bfbd708569f2e924452f0668859eac09069c88dfd6f9b496d93a0"
+}

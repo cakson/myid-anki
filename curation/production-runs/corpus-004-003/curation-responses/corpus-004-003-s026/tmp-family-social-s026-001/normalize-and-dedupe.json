@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7797,
+  "input_digest": "ddcdfe8b6b7b3e11674220f81b9e31462cc3a0ac6bc72edbd245f331f155b9dd",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 468,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s011-003:tmp-family-social-s011-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“father” means a male parent, while “parents” refers collectively to both mother and father.\"},{\"other_id\":\"corpus-004-003-s024-006:tmp-family-social-s024-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“father” means one’s own male parent; “father-in-law” means the father of one’s spouse.\"},{\"other_id\":\"corpus-004-001-s011-006:tmp-family-social-s011-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“father” is a parent, whereas “grandfather” is a parent’s father.\"},{\"other_id\":\"corpus-004-003-s024-008:tmp-family-social-s024-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“father” means a biological or ordinary male parent; “stepfather” is the male spouse of one’s parent who is not one’s biological father.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s011-003:tmp-family-social-s011-003",
+          "rationale": "“father” means a male parent, while “parents” refers collectively to both mother and father.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-006:tmp-family-social-s024-006",
+          "rationale": "“father” means one’s own male parent; “father-in-law” means the father of one’s spouse.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s011-006:tmp-family-social-s011-006",
+          "rationale": "“father” is a parent, whereas “grandfather” is a parent’s father.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-008:tmp-family-social-s024-008",
+          "rationale": "“father” means a biological or ordinary male parent; “stepfather” is the male spouse of one’s parent who is not one’s biological father.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

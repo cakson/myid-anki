@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:20:14.090845+00:00",
+  "input_digest": "3548b1546a011c9d56486a06d91efddfe4c8b2b57d97723dca152d17947ef305",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Indonesian answer denotes a general head covering, while the Malaysian answer specifically denotes a garment hood.\"], \"material_concerns\": [\"The pair may teach a category-versus-subtype mismatch: \\u201ctudung kepala\\u201d need not be attached to clothing, unlike \\u201chud\\u201d.\"], \"rationale\": \"The proposed forms do not reliably express the same exact clothing sense. \\u201cHud\\u201d is a hood, whereas \\u201ctudung kepala\\u201d is broader and can refer to a head covering generally.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"A concise cue rewrite would either broaden the concept to \\u201chead covering,\\u201d which changes the intended hood sense, or retain \\u201chood,\\u201d which makes \\u201ctudung kepala\\u201d insufficiently precise.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"No relevant shared synonym concern was identified beyond the underlying sense mismatch.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"tudung\", \"language\": \"indonesian\", \"rationale\": \"The shorter \\u201ctudung\\u201d may compete with \\u201ctudung kepala,\\u201d but the larger issue is that Indonesian usage is broader than the specific garment-hood sense.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Indonesian answer denotes a general head covering, while the Malaysian answer specifically denotes a garment hood."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "A concise cue rewrite would either broaden the concept to “head covering,” which changes the intended hood sense, or retain “hood,” which makes “tudung kepala” insufficiently precise.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair may teach a category-versus-subtype mismatch: “tudung kepala” need not be attached to clothing, unlike “hud”."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "tudung",
+        "language": "indonesian",
+        "rationale": "The shorter “tudung” may compete with “tudung kepala,” but the larger issue is that Indonesian usage is broader than the specific garment-hood sense.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "The proposed forms do not reliably express the same exact clothing sense. “Hud” is a hood, whereas “tudung kepala” is broader and can refer to a head covering generally.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "No relevant shared synonym concern was identified beyond the underlying sense mismatch.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Indonesian answer denotes a general head covering, while the Malaysian answer specifically denotes a garment hood."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "A concise cue rewrite would either broaden the concept to “head covering,” which changes the intended hood sense, or retain “hood,” which makes “tudung kepala” insufficiently precise.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair may teach a category-versus-subtype mismatch: “tudung kepala” need not be attached to clothing, unlike “hud”."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "tudung",
+      "language": "indonesian",
+      "rationale": "The shorter “tudung” may compete with “tudung kepala,” but the larger issue is that Indonesian usage is broader than the specific garment-hood sense.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "The proposed forms do not reliably express the same exact clothing sense. “Hud” is a hood, whereas “tudung kepala” is broader and can refer to a head covering generally.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "No relevant shared synonym concern was identified beyond the underlying sense mismatch.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "4fe315725cee27788806c6c7d5dab83cbde272cd35cfdd0519d8200410609f99"
+}

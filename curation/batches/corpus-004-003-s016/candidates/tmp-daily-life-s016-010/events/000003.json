@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:50:41.315626+00:00",
+  "input_digest": "03b2d3dbc2100ebc86b6ab6681f4641ec30627d19b8ef43e71ec5b51f03d0a20",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s001:tmp-clothing-s001-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both cover the head, but a shower cap is specifically worn during bathing to keep hair dry, while a hood is a clothing component covering the head.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s001:tmp-clothing-s001-010",
+          "rationale": "Both cover the head, but a shower cap is specifically worn during bathing to keep hair dry, while a hood is a clothing component covering the head.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s001:tmp-clothing-s001-010",
+        "rationale": "Both cover the head, but a shower cap is specifically worn during bathing to keep hair dry, while a hood is a clothing component covering the head.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "5aa039465b76ca91c5ba9bd3f6689ab28e2b61a33cff9385828b20e9a718bc63"
+}

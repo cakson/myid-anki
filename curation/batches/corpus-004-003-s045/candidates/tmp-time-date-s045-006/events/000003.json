@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:58:36.369423+00:00",
+  "input_digest": "00031788994467e87db57401dcbd177792e4f0051d51e89afbe1443d7804fa7d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s045:tmp-time-date-s045-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A decade is a ten-year period, whereas a quarter of a year is a three-month period; the cues and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s045:tmp-time-date-s045-007",
+          "rationale": "A decade is a ten-year period, whereas a quarter of a year is a three-month period; the cues and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s045:tmp-time-date-s045-007",
+        "rationale": "A decade is a ten-year period, whereas a quarter of a year is a three-month period; the cues and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "cd6d893f49f4248d185bc4d7f63983bdb420c32163dadf2663735136b96143d4"
+}

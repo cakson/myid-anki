@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18270,
+  "input_tokens": 49822,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1226,
+  "packet_digest": "6d121df6817e5b75aca1cc8a0ff509659a83bc41ef5768072d7510256c1da1e8",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The card conflates a vehicle gear/transmission with the control used to select gears. Indonesian “persneling” commonly denotes the vehicle’s gear/transmission mechanism, while Malaysian DBP terminology for “gearshift” is “penganjak gear”; “gear” alone normally denotes a gear, not specifically the gear-shift control. The relation and cue therefore do not support a clean Indonesian–Malaysian contrast. No specific false-friend contrast is supplied.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: persneling\",\"conclusion\":\"The word is valid automotive Indonesian, but its dictionary sense is the gear/transmission mechanism used to regulate vehicle speed, not unambiguously the selector control.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/persneling\",\"https://kbbi.co.id/arti-kata/persneling\"]},{\"subject\":\"Malaysian answer: gear\",\"conclusion\":\"“Gear” is a valid Malaysian Malay automotive term, but it generally denotes a gear or gearing; it is not sufficiently precise as the answer to “vehicle gear-shift control.”\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gear\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The corrected cue “vehicle gear-shift control” is narrower than “gear shift,” but the supplied answers do not consistently express that sense. A term such as Malaysian “penganjak gear” is the documented match.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"The relation is unsupported for the stated sense because the two answers are not equivalent at the required level of specificity. The card should either change the cue to vehicle gear/transmission or replace the answers with terms for the selector control.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/persneling\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No explicit false-friend contrast is present. The main learner risk is semantic scope: “persneling” and “gear” can refer to transmission or gear components, whereas “gear-shift control” refers to the selector mechanism.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/persneling\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The word is valid automotive Indonesian, but its dictionary sense is the gear/transmission mechanism used to regulate vehicle speed, not unambiguously the selector control.",
+        "evidence_refs": [
+          "https://kbbi.web.id/persneling",
+          "https://kbbi.co.id/arti-kata/persneling"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: persneling"
+      },
+      {
+        "conclusion": "“Gear” is a valid Malaysian Malay automotive term, but it generally denotes a gear or gearing; it is not sufficiently precise as the answer to “vehicle gear-shift control.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gear",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: gear"
+      },
+      {
+        "conclusion": "The corrected cue “vehicle gear-shift control” is narrower than “gear shift,” but the supplied answers do not consistently express that sense. A term such as Malaysian “penganjak gear” is the documented match.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "The relation is unsupported for the stated sense because the two answers are not equivalent at the required level of specificity. The card should either change the cue to vehicle gear/transmission or replace the answers with terms for the selector control.",
+        "evidence_refs": [
+          "https://kbbi.web.id/persneling",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No explicit false-friend contrast is present. The main learner risk is semantic scope: “persneling” and “gear” can refer to transmission or gear components, whereas “gear-shift control” refers to the selector mechanism.",
+        "evidence_refs": [
+          "https://kbbi.web.id/persneling",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemandu+1"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The card conflates a vehicle gear/transmission with the control used to select gears. Indonesian “persneling” commonly denotes the vehicle’s gear/transmission mechanism, while Malaysian DBP terminology for “gearshift” is “penganjak gear”; “gear” alone normally denotes a gear, not specifically the gear-shift control. The relation and cue therefore do not support a clean Indonesian–Malaysian contrast. No specific false-friend contrast is supplied.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

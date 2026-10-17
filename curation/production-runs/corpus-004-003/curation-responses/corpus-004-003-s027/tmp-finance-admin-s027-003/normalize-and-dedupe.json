@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4990,
+  "input_digest": "713c50d853a59b0ff7b714fce7f566e8ee53698822a9c81ac47b45e872f1a7ca",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 224,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s014:tmp-services-s014-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is a specific official permit to drive, while the existing “license” is a general authorization to do something; their senses and learner answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-004",
+          "rationale": "The candidate is a specific official permit to drive, while the existing “license” is a general authorization to do something; their senses and learner answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

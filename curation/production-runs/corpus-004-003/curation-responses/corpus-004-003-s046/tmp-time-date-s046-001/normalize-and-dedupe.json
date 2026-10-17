@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5758,
+  "input_digest": "86e05dab9481bcb36eedda9655e614146b0a81a63d3277e816b7eee0c736629c",
+  "input_tokens": 93716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 333,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s019-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“date” means a numbered day of a month, while “date of birth” specifically identifies the day on which a person was born; the candidate adds a distinct birth-related sense.\"},{\"other_id\":\"corpus-004-003-s027-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“birth certificate” is an official document recording a birth, whereas “date of birth” is the specific date or personal-information field; related but clearly different concepts.\"},{\"other_id\":\"corpus-004-003-s011-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“birthday” is the annual celebration or recurrence of a person’s birth, whereas “date of birth” is the actual date on which the person was born.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s019-006",
+          "rationale": "“date” means a numbered day of a month, while “date of birth” specifically identifies the day on which a person was born; the candidate adds a distinct birth-related sense.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027-004",
+          "rationale": "“birth certificate” is an official document recording a birth, whereas “date of birth” is the specific date or personal-information field; related but clearly different concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s011-009",
+          "rationale": "“birthday” is the annual celebration or recurrence of a person’s birth, whereas “date of birth” is the actual date on which the person was born.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

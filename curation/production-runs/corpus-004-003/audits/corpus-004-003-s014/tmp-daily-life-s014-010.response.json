@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21804,
+  "input_tokens": 62571,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1920,
+  "packet_digest": "75fc271ca4ca86ad666ebc0c1c806664727265bc00dd2321a75a2411629f98dd",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Indonesian obat nyamuk is correct for a mosquito-repellent/insecticide product. Malaysian penghalau nyamuk is valid and product-compatible, but it is less everyday and narrower than the common Malaysian term ubat nyamuk, which can cover products that repel or kill mosquitoes. The cue is acceptable if explicitly product-based, but the card should state the Malaysian usage preference and add the obat/ubat lexicalized-compound contrast.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: obat nyamuk\",\"conclusion\":\"Correct. It denotes a mosquito-control product, including repellent or insecticidal products.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf\"]},{\"subject\":\"Malaysian answer: penghalau nyamuk\",\"conclusion\":\"Valid, especially as a formal or descriptive term for a mosquito-repelling device or product, but it is not the safest everyday Malaysian learner answer and is semantically narrower than a product that may kill mosquitoes.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=peranti+1\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"Mosquito-repellent product is a good narrowed cue. The added sense ‘repel or kill mosquitoes’ fits obat nyamuk and ubat nyamuk, but overstates penghalau nyamuk unless the Malaysian answer is qualified as repelling rather than killing.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Acceptable as a broad relation, since the Indonesian preferred form and the Malaysian formal/descriptive form differ. It should not imply that penghalau nyamuk is the only or dominant Malaysian everyday equivalent.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau\",\"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat+ubat\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"The empty contrast field omits a useful learner note: obat and Malaysian ubat are cognate-looking forms that usually mean ‘medicine’, but obat/ubat nyamuk is a lexicalized compound meaning mosquito repellent or mosquito-killing product. This is not a direct false-friend contrast between the two supplied answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat\",\"https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct. It denotes a mosquito-control product, including repellent or insecticidal products.",
+        "evidence_refs": [
+          "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: obat nyamuk"
+      },
+      {
+        "conclusion": "Valid, especially as a formal or descriptive term for a mosquito-repelling device or product, but it is not the safest everyday Malaysian learner answer and is semantically narrower than a product that may kill mosquitoes.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=peranti+1"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: penghalau nyamuk"
+      },
+      {
+        "conclusion": "Mosquito-repellent product is a good narrowed cue. The added sense ‘repel or kill mosquitoes’ fits obat nyamuk and ubat nyamuk, but overstates penghalau nyamuk unless the Malaysian answer is qualified as repelling rather than killing.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Acceptable as a broad relation, since the Indonesian preferred form and the Malaysian formal/descriptive form differ. It should not imply that penghalau nyamuk is the only or dominant Malaysian everyday equivalent.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau",
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat+ubat"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "The empty contrast field omits a useful learner note: obat and Malaysian ubat are cognate-looking forms that usually mean ‘medicine’, but obat/ubat nyamuk is a lexicalized compound meaning mosquito repellent or mosquito-killing product. This is not a direct false-friend contrast between the two supplied answers.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat",
+          "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Indonesian obat nyamuk is correct for a mosquito-repellent/insecticide product. Malaysian penghalau nyamuk is valid and product-compatible, but it is less everyday and narrower than the common Malaysian term ubat nyamuk, which can cover products that repel or kill mosquitoes. The cue is acceptable if explicitly product-based, but the card should state the Malaysian usage preference and add the obat/ubat lexicalized-compound contrast.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

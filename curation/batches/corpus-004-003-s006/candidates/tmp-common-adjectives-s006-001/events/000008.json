@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:27:42.694860+00:00",
+  "result": {
+    "candidate_digest": "e7e61410bc31fedc7a34c154357096ab53f2a5b529435c808e187454d317a616",
+    "candidate_id": "tmp-common-adjectives-s006-001",
+    "checked_at": "2026-10-16T19:27:42.694860+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "penting is also an ordinary Malaysian Malay word for “important,” so presenting mustahak as the Malaysian counterpart may mislead learners."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "penting is also an ordinary Malaysian Malay word for “important,” so presenting mustahak as the Malaysian counterpart may mislead learners.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

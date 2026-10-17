@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:41:13.519623+00:00",
+  "input_digest": "87068cdcdbe65300cfcbd3e048a5d04d34f794d0ba8cdbe483bd4bc318be2b69",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s037:tmp-services-s037-010\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"Both refer to a parcel sent through a delivery or postal service; the candidate is broader, while the existing concept specifically refers to postal delivery.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-010",
+          "rationale": "Both refer to a parcel sent through a delivery or postal service; the candidate is broader, while the existing concept specifically refers to postal delivery.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-010",
+        "rationale": "Both refer to a parcel sent through a delivery or postal service; the candidate is broader, while the existing concept specifically refers to postal delivery.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "b469445da97abe75a998a737eb3b68799d1ec590839849c496c3883a928c4578"
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:04:56.652965+00:00",
+  "input_digest": "5ad37374bbb79248e7ba0a301ce98562b473e426cc93e1e05b9cb155ae07238d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s018:tmp-transportation-s018-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Vehicle registration is the official registration process or status for a road vehicle; a license plate is the identifying number plate attached to the vehicle.\"}, {\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Vehicle registration is the official registration of a road vehicle; a registration fee is the payment charged for registering a service or event.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s018:tmp-transportation-s018-004",
+          "rationale": "Vehicle registration is the official registration process or status for a road vehicle; a license plate is the identifying number plate attached to the vehicle.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-011",
+          "rationale": "Vehicle registration is the official registration of a road vehicle; a registration fee is the payment charged for registering a service or event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s018:tmp-transportation-s018-004",
+        "rationale": "Vehicle registration is the official registration process or status for a road vehicle; a license plate is the identifying number plate attached to the vehicle.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-011",
+        "rationale": "Vehicle registration is the official registration of a road vehicle; a registration fee is the payment charged for registering a service or event.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "f08b5433cf7ebe5f5a50667bf97df5817779b9320fd80c4bf4884f2da433f941"
+}

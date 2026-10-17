@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:41:49.910488+00:00",
+  "input_digest": "821764599fb2d40ca8c811cb924ae811e17f82d23b0bf0469c73b897048a99b4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s037:tmp-services-s037-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A consultation is a professional advice session, whereas an appointment is a scheduled meeting for a service; the concepts can co-occur but are not equivalent.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-001",
+          "rationale": "A consultation is a professional advice session, whereas an appointment is a scheduled meeting for a service; the concepts can co-occur but are not equivalent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-001",
+        "rationale": "A consultation is a professional advice session, whereas an appointment is a scheduled meeting for a service; the concepts can co-occur but are not equivalent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7cdf206ec6582e1959d7ac3ab7024d55507c7221adffd43ac82a44f82ba8bdcf"
+}

@@ -1,0 +1,87 @@
+{
+  "attempt_id": "a6ebb4f24f384af6",
+  "candidate_id": "tmp-health-body-s034-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct. \"Tonsil\" denotes one of the two soft lymphoid organs at the back of the mouth/throat; the plural wording in the sense is compatible with the singular headword.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/tonsil",
+        "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tonsil"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary-looking Indonesian terminology for the target sense. Indonesian health guidance explicitly glosses amandel as tonsil.",
+      "evidence_refs": [
+        "https://www.kemkes.go.id/app_asset/file_content_download/17012266166566a878c14712.29105429.pdf",
+        "https://kamus.sabda.org/kamus/amandel"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer \"amandel\""
+    },
+    {
+      "conclusion": "Material overlap exists. \"Tonsil\" is recorded as an Indonesian equivalent of \"amandel\" and is used in Indonesian medical terminology, so it should not be presented as exclusively Malaysian.",
+      "evidence_limitation": "The reviewed sources establish acceptance and medical usage but do not provide a comparable corpus-based frequency measure for everyday Indonesian versus Malaysian usage.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/tonsil",
+        "https://www.kemkes.go.id/app_asset/file_content_download/17012266166566a878c14712.29105429.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian overlap with \"tonsil\""
+    },
+    {
+      "conclusion": "Correct and directly supported by the Malaysian DBP reference dictionary for the target throat tissue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tonsil"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer \"tonsil\""
+    },
+    {
+      "conclusion": "Needs revision or qualification. The forms differ in apparent everyday preference, but they are not cleanly different across the national varieties because Indonesian accepts and uses \"tonsil.\"",
+      "evidence_refs": [
+        "https://kbbi.cari.co/tonsil",
+        "https://www.kemkes.go.id/app_asset/file_content_download/17012266166566a878c14712.29105429.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tonsil"
+      ],
+      "material_risk": true,
+      "subject": "Final relation \"different-common-word\""
+    },
+    {
+      "conclusion": "No valid false-friend contrast is present. \"Amandel\" and \"tonsil\" refer to the same anatomical concept in the reviewed sources; the card's empty contrast field is preferable to inventing one.",
+      "evidence_refs": [
+        "https://kamus.sabda.org/kamus/amandel",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tonsil"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e205de90533fb4adba1128d7bdadf50d9f4ed55e938748207204ee7848f2858c",
+  "correction_refs": [],
+  "decision_digest": "43b94b54d92c4579fac9eeee58f06b76d24ce785b43565b70306c9b4d67607a3",
+  "elapsed_ms": 33497,
+  "finding_class": "metadata-only",
+  "input_tokens": 132482,
+  "model_calls": 1,
+  "output_tokens": 2024,
+  "packet_digest": "e6370e8634b2d84a7e742cb425df7bfbc3ce05bb0afa6464689bfa54dc87f77d",
+  "rationale": "The answers are valid, but the national split is materially overstated. Indonesian officially recognizes \"tonsil\" as an equivalent of \"amandel,\" and Indonesian medical usage also uses \"tonsil.\" Malaysian Malay clearly uses \"tonsil.\" The distinction is therefore a preference/register contrast, not a clean different-word contrast. No false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:03:36.569047+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s034/tmp-health-body-s034-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s034",
+  "verdict": "needs-correction"
+}

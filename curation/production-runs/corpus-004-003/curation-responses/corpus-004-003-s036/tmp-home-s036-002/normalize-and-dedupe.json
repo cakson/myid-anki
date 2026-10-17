@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5614,
+  "input_digest": "5bf15467a7392520369fce7bd701f3f47fe0176dfeaa21de903111f1cc610055",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 272,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s005:tmp-daily-life-s005-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both involve storage furniture, but the candidate is a general household cupboard while the existing concept is specifically a cabinet for storing clothes.\"},{\"other_id\":\"fresh-home-001:home-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are storage furniture, but the candidate is a general cupboard for household items, whereas wardrobe specifically stores clothes.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s005:tmp-daily-life-s005-006",
+          "rationale": "Both involve storage furniture, but the candidate is a general household cupboard while the existing concept is specifically a cabinet for storing clothes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-home-001:home-02",
+          "rationale": "Both are storage furniture, but the candidate is a general cupboard for household items, whereas wardrobe specifically stores clothes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:53:49.895782+00:00",
+  "input_digest": "71bf5e7074ba2b2bb149ffe9e23c7c15a6e953bcc1d894e62598f41c16544858",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s006:tmp-directions-location-s006-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A tunnel is an enclosed passage through or under something, whereas an alley is a narrow passage or small street; their senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-001",
+          "rationale": "A tunnel is an enclosed passage through or under something, whereas an alley is a narrow passage or small street; their senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s006:tmp-directions-location-s006-001",
+        "rationale": "A tunnel is an enclosed passage through or under something, whereas an alley is a narrow passage or small street; their senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "053300715f0ae1b6415d3ff5d241b3a47c8e9cdd20977daf8f4cb5b4e09a3338"
+}

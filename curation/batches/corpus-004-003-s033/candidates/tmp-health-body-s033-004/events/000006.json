@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:34:56.002074+00:00",
+  "input_digest": "0d675b4f751dbf8f72f2725f51b4e76ce8f6a4bfe19c244b7009bda060de2120",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cKegemukan\\u201d is an ordinary Indonesian term for obesity, while Malaysian Malay commonly uses the formal medical term \\u201cobesiti.\\u201d The pair teaches a useful national usage contrast for the same health-condition sense.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote excessive body fat as a health condition; the cue \\u201cobesity\\u201d is sufficiently specific.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Indonesian also uses \\u201cobesitas,\\u201d especially in medical or formal contexts, while \\u201ckegemukan\\u201d is more ordinary and accessible. Malaysian \\u201ckegemukan\\u201d may be understood, but \\u201cobesiti\\u201d remains the standard health term, so the contrast is still useful.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Indonesian \\u201ckegemukan\\u201d can sometimes suggest general overweight rather than clinically defined obesity in casual usage.\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"obesitas\", \"language\": \"indonesian\", \"rationale\": \"\\u201cObesitas\\u201d is a common formal or medical Indonesian alternative, though \\u201ckegemukan\\u201d remains an ordinary everyday choice.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote excessive body fat as a health condition; the cue “obesity” is sufficiently specific.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "obesitas",
+        "language": "indonesian",
+        "rationale": "“Obesitas” is a common formal or medical Indonesian alternative, though “kegemukan” remains an ordinary everyday choice.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Kegemukan” is an ordinary Indonesian term for obesity, while Malaysian Malay commonly uses the formal medical term “obesiti.” The pair teaches a useful national usage contrast for the same health-condition sense.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian “kegemukan” can sometimes suggest general overweight rather than clinically defined obesity in casual usage.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Indonesian also uses “obesitas,” especially in medical or formal contexts, while “kegemukan” is more ordinary and accessible. Malaysian “kegemukan” may be understood, but “obesiti” remains the standard health term, so the contrast is still useful.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote excessive body fat as a health condition; the cue “obesity” is sufficiently specific.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "obesitas",
+      "language": "indonesian",
+      "rationale": "“Obesitas” is a common formal or medical Indonesian alternative, though “kegemukan” remains an ordinary everyday choice.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Kegemukan” is an ordinary Indonesian term for obesity, while Malaysian Malay commonly uses the formal medical term “obesiti.” The pair teaches a useful national usage contrast for the same health-condition sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian “kegemukan” can sometimes suggest general overweight rather than clinically defined obesity in casual usage.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Indonesian also uses “obesitas,” especially in medical or formal contexts, while “kegemukan” is more ordinary and accessible. Malaysian “kegemukan” may be understood, but “obesiti” remains the standard health term, so the contrast is still useful.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "33b089cbcb0b668227653cf26e316405a7772bb8df969d5fce85c4469b5b54c0"
+}

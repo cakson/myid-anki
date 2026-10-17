@@ -1,0 +1,37 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 8197,
+  "input_digest": "f3ea92d74874d20c027471f3bf83e0c2ed34d0dee75268bad334a31a473ac10b",
+  "input_tokens": 14299,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 781,
+  "raw_text": "{\n  \"verdict\": \"object\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"The proposed Malay phrase is descriptive rather than a clearly distinct national preference.\"\n  ],\n  \"material_concerns\": [\n    \"Malay also commonly uses \\\"sembelit\\\" for constipation, making this pairing likely to mislead learners about the Indonesian–Malaysian contrast.\"\n  ],\n  \"rationale\": \"Both forms can express difficulty passing stool, but Malaysian Malay also ordinarily uses \\\"sembelit\\\". The pairing therefore presents an artificial contrast rather than a reliable everyday preference.\",\n  \"objection_assessments\": [],\n  \"affirmative_defect\": \"artificial-synonym\",\n  \"cue_alignment\": \"correctable\",\n  \"cue_rewrite\": \"difficulty passing stool\",\n  \"cue_rationale\": \"The original noun \\\"constipation\\\" is slightly narrower as a condition, while \\\"difficulty passing stool\\\" directly accommodates both the Indonesian noun and the Malaysian descriptive phrase.\",\n  \"shared_synonym_case\": \"weak-contrast\",\n  \"shared_synonym_rationale\": \"\\\"Sembelit\\\" is also an ordinary Malaysian Malay term for the same sense, so the proposed phrase does not establish a dependable Malaysia-specific preference.\",\n  \"nonblocking_risk\": \"none\",\n  \"risk_rationale\": \"\",\n  \"preference_risk\": {\n    \"signal\": \"shared-common-form\",\n    \"form\": \"sembelit\",\n    \"language\": \"both\",\n    \"rationale\": \"\\\"Sembelit\\\" is plausibly ordinary in both Indonesian and Malaysian Malay for constipation.\"\n  }\n}",
+  "response": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "The proposed Malay phrase is descriptive rather than a clearly distinct national preference."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The original noun \"constipation\" is slightly narrower as a condition, while \"difficulty passing stool\" directly accommodates both the Indonesian noun and the Malaysian descriptive phrase.",
+    "cue_rewrite": "difficulty passing stool",
+    "material_concerns": [
+      "Malay also commonly uses \"sembelit\" for constipation, making this pairing likely to mislead learners about the Indonesian–Malaysian contrast."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "sembelit",
+      "language": "both",
+      "rationale": "\"Sembelit\" is plausibly ordinary in both Indonesian and Malaysian Malay for constipation.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both forms can express difficulty passing stool, but Malaysian Malay also ordinarily uses \"sembelit\". The pairing therefore presents an artificial contrast rather than a reliable everyday preference.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "\"Sembelit\" is also an ordinary Malaysian Malay term for the same sense, so the proposed phrase does not establish a dependable Malaysia-specific preference.",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

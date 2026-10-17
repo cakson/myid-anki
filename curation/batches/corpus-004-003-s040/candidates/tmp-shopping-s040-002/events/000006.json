@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:46:20.679319+00:00",
+  "input_digest": "d55246cb2fd70b621b775ab110cf43f43569664e8814e706c906046b25393d25",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cGaransi\\u201d is the ordinary Indonesian term, while Malaysian Malay commonly uses \\u201cjaminan\\u201d for a seller or manufacturer\\u2019s product-defect coverage. Both match the same warranty sense.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote product warranty coverage: a seller or manufacturer\\u2019s promise covering defects.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cWaranti\\u201d is also a plausible Malaysian alternative, but \\u201cjaminan\\u201d remains a useful ordinary Malaysian preference; \\u201cgaransi\\u201d is the clearer Indonesian default.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Malaysian usage varies between \\u201cjaminan\\u201d and \\u201cwaranti,\\u201d especially by register or product context.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"waranti\", \"language\": \"malaysian\", \"rationale\": \"\\u201cWaranti\\u201d is a plausible everyday Malaysian alternative for product warranty, though \\u201cjaminan\\u201d remains an ordinary national preference.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote product warranty coverage: a seller or manufacturer’s promise covering defects.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "waranti",
+        "language": "malaysian",
+        "rationale": "“Waranti” is a plausible everyday Malaysian alternative for product warranty, though “jaminan” remains an ordinary national preference.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "“Garansi” is the ordinary Indonesian term, while Malaysian Malay commonly uses “jaminan” for a seller or manufacturer’s product-defect coverage. Both match the same warranty sense.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian usage varies between “jaminan” and “waranti,” especially by register or product context.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Waranti” is also a plausible Malaysian alternative, but “jaminan” remains a useful ordinary Malaysian preference; “garansi” is the clearer Indonesian default.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote product warranty coverage: a seller or manufacturer’s promise covering defects.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "waranti",
+      "language": "malaysian",
+      "rationale": "“Waranti” is a plausible everyday Malaysian alternative for product warranty, though “jaminan” remains an ordinary national preference.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "“Garansi” is the ordinary Indonesian term, while Malaysian Malay commonly uses “jaminan” for a seller or manufacturer’s product-defect coverage. Both match the same warranty sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian usage varies between “jaminan” and “waranti,” especially by register or product context.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Waranti” is also a plausible Malaysian alternative, but “jaminan” remains a useful ordinary Malaysian preference; “garansi” is the clearer Indonesian default.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "4e33320d098ed084df8ce87c75d2f876427aa092db18da9ecba6e40903bee46f"
+}

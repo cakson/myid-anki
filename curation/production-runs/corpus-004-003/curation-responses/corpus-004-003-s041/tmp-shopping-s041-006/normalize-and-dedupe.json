@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5843,
+  "input_digest": "733e6a5a8129d2de537f29c0109e6209c0b95928b8f13eededbffde590047765",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 369,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s041:tmp-shopping-s041-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A supermarket is a large self-service grocery store, whereas a department store sells a broad range of products in separate departments.\"},{\"other_id\":\"cal2-shopping-001:shopping-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A supermarket is one self-service grocery store; a shopping mall is a large building containing many separate shops.\"},{\"other_id\":\"corpus-004-003-s041:tmp-shopping-s041-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A supermarket is a large grocery store, while a convenience store is smaller and focuses on everyday essentials.\"},{\"other_id\":\"places-001:places-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Shop is a general retail term; supermarket specifically denotes a large self-service grocery store.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-008",
+          "rationale": "A supermarket is a large self-service grocery store, whereas a department store sells a broad range of products in separate departments.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-09",
+          "rationale": "A supermarket is one self-service grocery store; a shopping mall is a large building containing many separate shops.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-007",
+          "rationale": "A supermarket is a large grocery store, while a convenience store is smaller and focuses on everyday essentials.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "places-001:places-02",
+          "rationale": "Shop is a general retail term; supermarket specifically denotes a large self-service grocery store.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

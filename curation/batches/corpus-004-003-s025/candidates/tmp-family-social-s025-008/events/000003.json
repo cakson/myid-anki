@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:07:29.874266+00:00",
+  "input_digest": "c80913766a39c895a5e60f22cd051f16f326e9b4cb65f870acab2d1eba0b5916",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both concern a child of one's stepparent, but stepsister is specifically female while stepbrother is specifically male; the English cues and both answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-007",
+          "rationale": "Both concern a child of one's stepparent, but stepsister is specifically female while stepbrother is specifically male; the English cues and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-007",
+        "rationale": "Both concern a child of one's stepparent, but stepsister is specifically female while stepbrother is specifically male; the English cues and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "ad07978874a08cdc59b7f889ab85b12dfffec2bc3a5788eb03c8b83c1417cc08"
+}

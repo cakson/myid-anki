@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7075,
+  "input_digest": "1e7203c3474656e1d0a96aa3cdc0fdbbb35c766b9d300bfc413d95b28dde80b2",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 413,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s025:tmp-family-social-s025-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Brother-in-law is the corresponding male in-law relation; this candidate denotes a female in-law relation, with different English cue and answers.\"},{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Father-in-law is a spouse's father, whereas sister-in-law is a sibling's wife or spouse's sister.\"},{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Mother-in-law is a spouse's mother, whereas sister-in-law is a sibling's wife or spouse's sister.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-005",
+          "rationale": "Brother-in-law is the corresponding male in-law relation; this candidate denotes a female in-law relation, with different English cue and answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-006",
+          "rationale": "Father-in-law is a spouse's father, whereas sister-in-law is a sibling's wife or spouse's sister.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-007",
+          "rationale": "Mother-in-law is a spouse's mother, whereas sister-in-law is a sibling's wife or spouse's sister.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

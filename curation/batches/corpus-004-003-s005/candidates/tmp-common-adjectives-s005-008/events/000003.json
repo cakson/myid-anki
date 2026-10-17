@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:26:31.727077+00:00",
+  "input_digest": "5ef101eed466a30fe9157143196f603bd36d520ae7cb364e92dbf60d16e01dde",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s005:tmp-common-adjectives-s005-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cinternational\\u201d means involving more than one country, whereas \\u201cforeign\\u201d means from another country; related but clearly different senses and answers.\"}, {\"other_id\": \"corpus-004-003-s005:tmp-common-adjectives-s005-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cinternational\\u201d means involving multiple countries, whereas \\u201cnational\\u201d relates to one country as a whole; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-006",
+          "rationale": "“international” means involving more than one country, whereas “foreign” means from another country; related but clearly different senses and answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-007",
+          "rationale": "“international” means involving multiple countries, whereas “national” relates to one country as a whole; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-006",
+        "rationale": "“international” means involving more than one country, whereas “foreign” means from another country; related but clearly different senses and answers.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-007",
+        "rationale": "“international” means involving multiple countries, whereas “national” relates to one country as a whole; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "becc239ba6bdb8c2c6b0990252d6875643800b488536bc029a20be58127fb54c"
+}

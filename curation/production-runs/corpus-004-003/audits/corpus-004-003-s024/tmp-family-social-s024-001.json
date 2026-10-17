@@ -1,0 +1,76 @@
+{
+  "attempt_id": "cbdf391e86ada360",
+  "candidate_id": "tmp-family-social-s024-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Older brother” and “male sibling older than the speaker” are aligned.",
+      "evidence_refs": [
+        "https://api.pageplace.de/preview/DT0400.9781000251845_A40102783/preview-9781000251845_A40102783.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and understandable Indonesian; kakak commonly expresses older sibling, with laki-laki specifying male.",
+      "evidence_refs": [
+        "https://api.pageplace.de/preview/DT0400.9781000251845_A40102783/preview-9781000251845_A40102783.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kakak laki-laki"
+    },
+    {
+      "conclusion": "Correct and standard for an older male sibling in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=abang"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: abang"
+    },
+    {
+      "conclusion": "Needs correction or qualification. Abang is also an Indonesian word meaning older brother, so the forms are not cleanly different across languages; the contrast is one of preferred/common usage, not exclusive vocabulary.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/abang",
+        "https://api.pageplace.de/preview/DT0400.9781000251845_A40102783/preview-9781000251845_A40102783.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=abang"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is established; abang retains the relevant older-brother sense in both languages.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/abang",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=abang"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d4c184f4d533ccfca45f9f54a2438bf018419379db04d03f612c7c4850b1a495",
+  "correction_refs": [],
+  "decision_digest": "cd8b72d7bfeb9b02435499f9dc4cc7d7109af55e444912bd46d6ed60152f2673",
+  "elapsed_ms": 17271,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 55455,
+  "model_calls": 1,
+  "output_tokens": 1171,
+  "packet_digest": "870938879c8e91e17700d4e639a814328d3e3e1057f347a362933edf042a3b51",
+  "rationale": "The English cue, sense, and both individual answers are correct. However, labeling the pair as a different-common-word contrast is misleading: abang is also a documented Indonesian term for older brother, although kakak laki-laki is a valid descriptive Indonesian form. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:43:11.458493+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s024/tmp-family-social-s024-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s024",
+  "verdict": "needs-correction"
+}

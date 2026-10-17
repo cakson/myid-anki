@@ -1,0 +1,57 @@
+{
+  "attempt_id": "e30372e3af97123d",
+  "candidate_id": "tmp-clothing-s001-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for fabric or cloth used for clothing.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/Kain"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian kain"
+    },
+    {
+      "conclusion": "Correct: Malaysian Malay dictionaries define fabrik as woven cloth/material, including fabric used for clothing.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=fabrik"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian fabrik"
+    },
+    {
+      "conclusion": "Kain is also a general Malaysian Malay word for woven material and clothing fabric, so the card should not present kain versus fabrik as a simple different-common-word contrast.",
+      "evidence_limitation": "Dictionary evidence confirms meanings but does not establish comparative regional frequency or preference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1/Cari1/Cari1/cari1/cari1/Cari1?d=336480&keyword=kain",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=fabrik"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian kain and claimed contrast"
+    }
+  ],
+  "content_digest": "e7a357f052a5f76948b46561d6e51fd2e13b26bb600f416a44c95c56af6948c3",
+  "correction_refs": [],
+  "decision_digest": "3b4a987950ee5dd894bc22f0f971196aa6b6ef134a5c8b20e317cbc00451f934",
+  "elapsed_ms": 15677,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 59808,
+  "model_calls": 1,
+  "output_tokens": 910,
+  "packet_digest": "4b732facd699bdde8f45048fde95e3e9665b0e74679ff469b51132edae55fdb6",
+  "rationale": "Both answers fit the cue, but the relation “different-common-word” is misleading: kain is also a general Malaysian Malay word for fabric, while fabrik is a valid Malaysian term. No false-friend contrast is supported; the distinction is contextual or preferential, not a clean national split.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:16:02.380391+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s001/tmp-clothing-s001-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s001",
+  "verdict": "needs-correction"
+}

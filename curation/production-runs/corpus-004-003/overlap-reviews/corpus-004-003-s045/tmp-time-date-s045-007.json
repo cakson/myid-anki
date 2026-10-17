@@ -1,0 +1,86 @@
+{
+  "attempt_id": "80c24bed5419de8e",
+  "candidate_id": "tmp-time-date-s045-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“quarter of a year” correctly matches “one of four three-month periods in a year.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/kuartal",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kuartal"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian for the intended sense; Indonesian kuartal is defined as a quarter-year or three-month period, with triwulan as an equivalent.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kuartal",
+        "https://kbbi.kemendikdasmen.go.id/Beranda"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kuartal"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay wording for the intended sense; DBP documents suku tahun as the ordinary three-month/quarter-year expression.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jarak",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=suku+tahunan+"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: suku tahun"
+    },
+    {
+      "conclusion": "The national distinction is materially overstated. DBP records kuartal in Malay with the same three-month meaning, marked as Indonesian usage, and also records triwulan as three months/a quarter-year. Thus kuartal is not exclusively Indonesian and the relation should not be treated as an unqualified different-common-word contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kuartal",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=triwulan"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "different-common-word is not adequately supported for this card because the varieties share accepted equivalent forms. A shared/common-equivalent relation, or an explicitly qualified preference contrast, is more accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kuartal",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=triwulan"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No contrast is supplied: the contrast field is empty. The forms are related synonyms/alternatives for the same temporal sense, not a demonstrated false-friend pair.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kuartal",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kuartal"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "559759f90b6561696af1d751c6a3e937f05cec93c1ef0f613c8a6971ce370955",
+  "correction_refs": [],
+  "decision_digest": "75fbb7c9bc9e09436b656b79a3925e6ffb64fc08eb80e66506b29c10ac385418",
+  "elapsed_ms": 19903,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62415,
+  "model_calls": 1,
+  "output_tokens": 1507,
+  "packet_digest": "bf4111704788b0bf94f6f6f26a722f81ef2150e6dd1319e0044304a025b66dc4",
+  "rationale": "The English cue and sense are accurate, and both listed forms are valid for the intended sense. However, the national split is materially overstated: Indonesian kuartal and Malaysian Malay kuartal are overlapping accepted equivalents, while Malay triwulan is also documented. The different-common-word relation therefore does not reliably describe the lexical relationship. The false-friend contrast is empty, so the card lacks the requested contrast rather than demonstrating one.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:15:16.518490+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s045/tmp-time-date-s045-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "needs-correction"
+}

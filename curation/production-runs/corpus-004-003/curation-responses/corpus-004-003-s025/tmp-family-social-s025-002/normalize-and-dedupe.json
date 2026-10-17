@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6340,
+  "input_digest": "acae267bfdddd6410f1d3527f1ceb1ab0f5659ee97292edb15b393df30501ce5",
+  "input_tokens": 93711,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 379,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s009:tmp-family-social-s009-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is the noun for a man who is engaged to be married, with answers tunangan/tunang; the existing entry is the adjective/status engaged or promised to marry, with answers bertunangan/bertunang.\"},{\"other_id\":\"000233\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The accepted concept describes the status promised to marry, whereas the candidate names the male person in that status; the cue and both answers are not the same.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-002",
+          "rationale": "The candidate is the noun for a man who is engaged to be married, with answers tunangan/tunang; the existing entry is the adjective/status engaged or promised to marry, with answers bertunangan/bertunang.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000233",
+          "rationale": "The accepted concept describes the status promised to marry, whereas the candidate names the male person in that status; the cue and both answers are not the same.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

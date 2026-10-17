@@ -1,0 +1,59 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 33899,
+  "input_tokens": 140358,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2088,
+  "packet_digest": "d949cefbb2f5b33fe04dba76ea0c4a5e5db52cfa32bce7a332b35f80e317a35d",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"Buruk and teruk are valid preferred forms for the intended sense, but the national split is materially overstated: buruk is also an accepted Malay equivalent, while teruk is also an Indonesian dictionary entry, chiefly for severe or very bad conditions. The relation should not be different-common-word; it should indicate shared semantic overlap with regional preference. The English cue is sound, and no false-friend contrast is warranted.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue 'very bad or unpleasant' accurately represents the relevant sense of terrible.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"[Cambridge Dictionary: terrible](https://dictionary.cambridge.org/dictionary/english/terrible)\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer buruk\",\n      \"conclusion\": \"Buruk is a valid Indonesian answer for bad, unpleasant, or otherwise negative qualities.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"[KBBI entry: buruk](https://kbbi.web.id/buruk)\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer teruk\",\n      \"conclusion\": \"Teruk is a valid Malaysian Malay answer, including the sense of something being extremely bad, though it also strongly covers severity, seriousness, or difficulty.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"[PRPM/Kamus Dewan entry: teruk](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=teruk)\"\n      ]\n    },\n    {\n      \"subject\": \"Cross-variety overlap and final relation\",\n      \"conclusion\": \"The relation different-common-word is materially misleading. Malay buruk means not good or unpleasant, and Indonesian teruk is an accepted dictionary word meaning severe, hard, or very bad; therefore the forms are not cleanly variety-exclusive. They are better characterized as overlapping equivalents with regional preference and sense-frequency differences.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"[PRPM/Kamus Dewan entry: buruk](https://prpm.dbp.gov.my/Cari1.aspx?d=299476&keyword=buruk)\",\n        \"[KBBI entry: teruk](https://kbbi.web.id/teruk)\",\n        \"[PRPM/Kamus Dewan entry: teruk](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=teruk)\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is needed. The forms differ in preference and collocational emphasis, not through a deceptive opposing meaning; the empty contrast field is acceptable.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"Dictionary evidence establishes overlapping meanings but does not by itself quantify everyday national frequency or preference.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The cue 'very bad or unpleasant' accurately represents the relevant sense of terrible.",
+        "evidence_refs": [
+          "[Cambridge Dictionary: terrible](https://dictionary.cambridge.org/dictionary/english/terrible)"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Buruk is a valid Indonesian answer for bad, unpleasant, or otherwise negative qualities.",
+        "evidence_refs": [
+          "[KBBI entry: buruk](https://kbbi.web.id/buruk)"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer buruk"
+      },
+      {
+        "conclusion": "Teruk is a valid Malaysian Malay answer, including the sense of something being extremely bad, though it also strongly covers severity, seriousness, or difficulty.",
+        "evidence_refs": [
+          "[PRPM/Kamus Dewan entry: teruk](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=teruk)"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer teruk"
+      },
+      {
+        "conclusion": "The relation different-common-word is materially misleading. Malay buruk means not good or unpleasant, and Indonesian teruk is an accepted dictionary word meaning severe, hard, or very bad; therefore the forms are not cleanly variety-exclusive. They are better characterized as overlapping equivalents with regional preference and sense-frequency differences.",
+        "evidence_refs": [
+          "[PRPM/Kamus Dewan entry: buruk](https://prpm.dbp.gov.my/Cari1.aspx?d=299476&keyword=buruk)",
+          "[KBBI entry: teruk](https://kbbi.web.id/teruk)",
+          "[PRPM/Kamus Dewan entry: teruk](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=teruk)"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap and final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is needed. The forms differ in preference and collocational emphasis, not through a deceptive opposing meaning; the empty contrast field is acceptable.",
+        "evidence_limitation": "Dictionary evidence establishes overlapping meanings but does not by itself quantify everyday national frequency or preference.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Buruk and teruk are valid preferred forms for the intended sense, but the national split is materially overstated: buruk is also an accepted Malay equivalent, while teruk is also an Indonesian dictionary entry, chiefly for severe or very bad conditions. The relation should not be different-common-word; it should indicate shared semantic overlap with regional preference. The English cue is sound, and no false-friend contrast is warranted.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,72 @@
+{
+  "attempt_id": "b5f24bdf866cb0b9",
+  "candidate_id": "tmp-shopping-s041-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: “genuine product” means an authentic, non-counterfeit product.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=genuine"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and natural for “genuine/authentic product” in Indonesian.",
+      "evidence_limitation": "No direct Indonesian corpus or dictionary evidence was retrieved in this audit; assessment relies on standard Indonesian usage.",
+      "material_risk": false,
+      "subject": "Indonesian answer: produk asli"
+    },
+    {
+      "conclusion": "Correct and natural for an authentic, non-counterfeit product in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=168608&keyword=tulen",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=original"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: produk tulen"
+    },
+    {
+      "conclusion": "“different-common-word” is acceptable as a primary-preference contrast, but should not imply that asli is invalid or non-Malaysian.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=168608&keyword=tulen",
+        "https://prpm.dbp.gov.my/Cari1?d=244840&keyword=asli"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is involved; asli and tulen are relevant authenticity terms in these varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=168608&keyword=tulen",
+        "https://prpm.dbp.gov.my/Cari1?d=244840&keyword=asli"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ffa2084e957e21da47e0718480e97cd6e0e66ecb1148a94c2eec23d17b845380",
+  "correction_refs": [],
+  "decision_digest": "2fc5ece723a2ea788e172187ff1b84217311f4397175c7b3867cd4ed4e4baf79",
+  "elapsed_ms": 18225,
+  "finding_class": "none",
+  "input_tokens": 45789,
+  "model_calls": 1,
+  "output_tokens": 966,
+  "packet_digest": "1104d46326c17164a6c3ba15987b2874a28a27abed6790cb7acb97281e4ea4ba",
+  "rationale": "Both learner answers accurately express “genuine product,” and the sense correctly excludes counterfeit goods. “Produk asli” is appropriate Indonesian; “produk tulen” is appropriate Malaysian Malay. The relation is a valid primary-preference contrast, though not an exclusive one because asli is also understood and used in Malaysian Malay. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:05:40.347782+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s041/tmp-shopping-s041-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "cleared"
+}

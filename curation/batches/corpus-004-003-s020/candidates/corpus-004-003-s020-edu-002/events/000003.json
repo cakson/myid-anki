@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:56:23.690164+00:00",
+  "input_digest": "9792b25282c13c82a6bd49222e04eee6c6295eb421691029f7630d0201c5d06b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s020:corpus-004-003-s020-edu-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A pencil case is a small container specifically for pencils and writing tools, whereas a school bag carries school materials more broadly.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s020:corpus-004-003-s020-edu-003",
+          "rationale": "A pencil case is a small container specifically for pencils and writing tools, whereas a school bag carries school materials more broadly.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s020:corpus-004-003-s020-edu-003",
+        "rationale": "A pencil case is a small container specifically for pencils and writing tools, whereas a school bag carries school materials more broadly.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "58d1daf1f6a3b231fd297c5ec475be956b0ec68685e185f8857167b1f05bf18a"
+}

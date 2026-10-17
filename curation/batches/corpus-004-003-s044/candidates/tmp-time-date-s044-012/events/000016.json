@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:53.642466+00:00",
+  "result": {
+    "candidate_digest": "779d2cd7c24d543eebd185f41de136f82e4ac1aac8b3c1bf3f0bfb607f33a381",
+    "candidate_id": "tmp-time-date-s044-012",
+    "checked_at": "2026-10-17T06:21:53.642466+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both forms can express anniversary, but the card incorrectly presents them as distinct national words. Indonesian hari jadi and Malaysian ulang tahun are valid preferences in this sense, yet both languages use overlapping alternatives; the empty contrast does not explain the birthday-related false-friend risk. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

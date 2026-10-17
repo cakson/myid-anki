@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:08:41.780792+00:00",
+  "input_digest": "9c770c1ff5b9f403c5628935b988303a68de9c4355ea5315515f2b603b525e8a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s049:tmp-travel-s049-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cdeparture\\u201d means the act of leaving, while \\u201cdeparture board\\u201d is a board displaying departing transport services; the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-002",
+          "rationale": "“departure” means the act of leaving, while “departure board” is a board displaying departing transport services; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s049:tmp-travel-s049-002",
+        "rationale": "“departure” means the act of leaving, while “departure board” is a board displaying departing transport services; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1992aab2918f82ef1ff9405091f5da01ee29f6d3233556c705bc55fb78706042"
+}

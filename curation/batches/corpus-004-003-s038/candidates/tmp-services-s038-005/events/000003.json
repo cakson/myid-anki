@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:43:49.700784+00:00",
+  "input_digest": "9318c6ae585e3598b655e52e93ca41bca52c32cbe907e1d55dc437900ecb7274",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"places-001:places-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are emergency/public-service facilities, but a fire station houses firefighters and firefighting equipment, whereas a police station is a police facility; the cues, senses, and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "places-001:places-04",
+          "rationale": "Both are emergency/public-service facilities, but a fire station houses firefighters and firefighting equipment, whereas a police station is a police facility; the cues, senses, and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "places-001:places-04",
+        "rationale": "Both are emergency/public-service facilities, but a fire station houses firefighters and firefighting equipment, whereas a police station is a police facility; the cues, senses, and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d18ceb172437be42fc0068f1afbbb40c2cbe09458b9e39c87604cd9c4b26bc33"
+}

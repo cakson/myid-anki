@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:49.099115+00:00",
+  "result": {
+    "candidate_digest": "5a8f8933a74a4e2972a30740b6a23c079a059987a5a0ad2f4f8e04c3d415b4c9",
+    "candidate_id": "tmp-finance-admin-s028-007",
+    "checked_at": "2026-10-17T06:21:49.099115+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The English cue and physical-document sense are sound. Indonesian cap is valid, with stempel as a common alternative. Malaysian cop is not the standard Malay word for a document stamp; Malaysian standard usage is cap. Thus the proposed national contrast is false or materially misleading, and the relation should not be different-common-word. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

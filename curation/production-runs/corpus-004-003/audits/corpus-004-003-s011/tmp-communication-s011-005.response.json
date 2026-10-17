@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21287,
+  "input_tokens": 71857,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1071,
+  "packet_digest": "ac5a405c53c14df5aa331d03bf39a6b0d2915faf28d2dc66f862b9243e98a420",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers are standard forms meaning signature. The English cue and sense are accurate, the final relation 'similar' is appropriate, and no false-friend contrast is present. The spelling difference is a valid orthographic contrast.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: tanda tangan\",\n      \"conclusion\": \"Correct standard Indonesian form for signature.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/tanda_tangan\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: tandatangan\",\n      \"conclusion\": \"Correct standard Malaysian Malay form for signature.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Signature on a document accurately captures a handwritten name or mark used for personal authentication.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/tanda_tangan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"Similar is appropriate: the forms are near-equivalent in meaning and differ mainly in spacing.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/tanda_tangan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is substantiated; both forms refer to a signature.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/tanda_tangan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct standard Indonesian form for signature.",
+        "evidence_refs": [
+          "https://kbbi.web.id/tanda_tangan"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: tanda tangan"
+      },
+      {
+        "conclusion": "Correct standard Malaysian Malay form for signature.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: tandatangan"
+      },
+      {
+        "conclusion": "Signature on a document accurately captures a handwritten name or mark used for personal authentication.",
+        "evidence_refs": [
+          "https://kbbi.web.id/tanda_tangan",
+          "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Similar is appropriate: the forms are near-equivalent in meaning and differ mainly in spacing.",
+        "evidence_refs": [
+          "https://kbbi.web.id/tanda_tangan",
+          "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is substantiated; both forms refer to a signature.",
+        "evidence_refs": [
+          "https://kbbi.web.id/tanda_tangan",
+          "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are standard forms meaning signature. The English cue and sense are accurate, the final relation 'similar' is appropriate, and no false-friend contrast is present. The spelling difference is a valid orthographic contrast.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:12:27.521124+00:00",
+  "input_digest": "bcc7877f413832cb45641e74d077fd3d2b39c8dd0f57a568d6a6dfaaa18747f9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s014:tmp-services-s014-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Administrative fee is charged for administrative processing, whereas service fee is charged broadly for providing a service.\"}, {\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Administrative fee covers processing or administrative work; registration fee specifically covers registering for a service or event.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+          "rationale": "Administrative fee is charged for administrative processing, whereas service fee is charged broadly for providing a service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-011",
+          "rationale": "Administrative fee covers processing or administrative work; registration fee specifically covers registering for a service or event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+        "rationale": "Administrative fee is charged for administrative processing, whereas service fee is charged broadly for providing a service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-011",
+        "rationale": "Administrative fee covers processing or administrative work; registration fee specifically covers registering for a service or event.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "bfac2f35cd6814a38201312990fa438015c0f09108cc85d6e295ea9f3c6675d6"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:12:13.402698+00:00",
+  "input_digest": "4f64083a1e12278a883cd4bb7d87b753b677c5089e9a735d34b4f37d8703d0ae",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-work-001:work-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A payslip is a document showing an employee's pay, whereas salary is the regular payment itself; the Indonesian and Malaysian answers also differ (slip gaji/penyata gaji vs gaji).\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-work-001:work-02",
+          "rationale": "A payslip is a document showing an employee's pay, whereas salary is the regular payment itself; the Indonesian and Malaysian answers also differ (slip gaji/penyata gaji vs gaji).",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-work-001:work-02",
+        "rationale": "A payslip is a document showing an employee's pay, whereas salary is the regular payment itself; the Indonesian and Malaysian answers also differ (slip gaji/penyata gaji vs gaji).",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "0f1e23ddf5d93eda8ca3d6692f37a50cef7ef810728826ae391b12967e58a350"
+}

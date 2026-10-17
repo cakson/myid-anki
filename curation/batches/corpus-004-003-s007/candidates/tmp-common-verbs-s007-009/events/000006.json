@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-16T19:31:33.099390+00:00",
+  "input_digest": "24ef06a27e9f732e1ed404ebcd936e07e6e0d034b7b4642cd8f581831bebf979",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The national preference is overstated because jadi is also ordinary in Indonesian and menjadi is also ordinary in Malaysian Malay, especially across register and context.\"], \"material_concerns\": [\"The pair may mislead learners into treating menjadi as Indonesian-only and jadi as Malaysian-only.\"], \"rationale\": \"Both answers fit \\u201cbecome,\\u201d but the proposed contrast is not a reliable country-level distinction: jadi is common in Indonesian, while menjadi remains ordinary in Malaysian Malay. The pair is better framed as a register or contextual preference than a national one.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Menjadi and jadi can both mean \\u201cbecome\\u201d in the sense of changing into or coming to be.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"The competing forms jadi in Indonesian and menjadi in Malaysian Malay are both ordinary enough to weaken the claimed national contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"jadi / menjadi\", \"language\": \"both\", \"rationale\": \"Both forms are plausibly ordinary in both varieties, with register and contextual differences rather than exclusive national ownership.\"}, \"affirmative_defect\": \"artificial-synonym\"}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "The national preference is overstated because jadi is also ordinary in Indonesian and menjadi is also ordinary in Malaysian Malay, especially across register and context."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Menjadi and jadi can both mean “become” in the sense of changing into or coming to be.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair may mislead learners into treating menjadi as Indonesian-only and jadi as Malaysian-only."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "jadi / menjadi",
+        "language": "both",
+        "rationale": "Both forms are plausibly ordinary in both varieties, with register and contextual differences rather than exclusive national ownership.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Both answers fit “become,” but the proposed contrast is not a reliable country-level distinction: jadi is common in Indonesian, while menjadi remains ordinary in Malaysian Malay. The pair is better framed as a register or contextual preference than a national one.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "The competing forms jadi in Indonesian and menjadi in Malaysian Malay are both ordinary enough to weaken the claimed national contrast.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "The national preference is overstated because jadi is also ordinary in Indonesian and menjadi is also ordinary in Malaysian Malay, especially across register and context."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Menjadi and jadi can both mean “become” in the sense of changing into or coming to be.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair may mislead learners into treating menjadi as Indonesian-only and jadi as Malaysian-only."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "jadi / menjadi",
+      "language": "both",
+      "rationale": "Both forms are plausibly ordinary in both varieties, with register and contextual differences rather than exclusive national ownership.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both answers fit “become,” but the proposed contrast is not a reliable country-level distinction: jadi is common in Indonesian, while menjadi remains ordinary in Malaysian Malay. The pair is better framed as a register or contextual preference than a national one.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "The competing forms jadi in Indonesian and menjadi in Malaysian Malay are both ordinary enough to weaken the claimed national contrast.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "e38326ba20046498e2357719b7ed1dcc6dcba32e44ac5700f03a0377fa0d34cb"
+}

@@ -1,0 +1,75 @@
+{
+  "attempt_id": "c2b2f28888340ffa",
+  "candidate_id": "tmp-daily-life-s015-011",
+  "claim_reviews": [
+    {
+      "conclusion": "“Paper towel” and “disposable absorbent sheet for wiping” are correctly aligned.",
+      "evidence_refs": [
+        "https://goong.com/id/word/paper_towel_dalam_bahasa_indonesia/",
+        "https://en.wikipedia.org/wiki/Paper_towel"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Tisu dapur” is a valid and natural Indonesian expression for paper towel, especially in kitchen use.",
+      "evidence_refs": [
+        "https://goong.com/id/word/paper_towel_dalam_bahasa_indonesia/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tisu dapur"
+    },
+    {
+      "conclusion": "“Tuala kertas” is a valid Malaysian Malay expression for paper towel, but it is not exclusive or necessarily the sole everyday preference.",
+      "evidence_refs": [
+        "https://shopee.com.my/Tisu-Dapur-Tisu-Buluh-Tuala-Kertas-Paper-Towel-Bamboo-Pulp-Kitchen-Towel-2-Ply-%2860sheets-roll%29-i.132314709.24391403398",
+        "https://www.ebuy7.com/ms/kitchen-towels/",
+        "https://serbajadi.com.my/ms/blogs/learn-grow/the-easiest-ways-to-germinate-seeds"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: tuala kertas"
+    },
+    {
+      "conclusion": "“different-common-word” is potentially misleading without a qualifier; the forms are better treated as shared synonyms with regional or preference differences.",
+      "evidence_refs": [
+        "https://shopee.com.my/Tisu-Dapur-Tisu-Buluh-Tuala-Kertas-Paper-Towel-Bamboo-Pulp-Kitchen-Towel-2-Ply-%2860sheets-roll%29-i.132314709.24391403398",
+        "https://www.ebuy7.com/ms/kitchen-towels/"
+      ],
+      "material_risk": true,
+      "subject": "Final relation label"
+    },
+    {
+      "conclusion": "No meaningful false-friend contrast is established: both terms transparently refer to paper-based kitchen wiping material in this sense.",
+      "evidence_limitation": "Available usage evidence supports semantic overlap but does not provide a dedicated false-friend analysis.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3132acbba34937ba89276dabf8044b56617b979bc83d5325ac0c866b9ac4168d",
+  "correction_refs": [],
+  "decision_digest": "5dbd641e08ee1beaccc7d9b0f2312ff1ae5be60327ff01ea30a9d643008d81b8",
+  "elapsed_ms": 14804,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 33161,
+  "model_calls": 1,
+  "output_tokens": 1122,
+  "packet_digest": "2c5c4731a2f7cb1f8b11b4385b54d0dcc90503a8205a81906a705fa3e5f38629",
+  "rationale": "Both expressions can denote paper towel, but the Malaysian entry is not a clean national contrast: Malaysian usage also includes “tisu dapur,” while “tuala kertas” is a valid alternative. The card should qualify the forms as usage preferences rather than implying mutually exclusive national vocabulary. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:35:53.025534+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s015/tmp-daily-life-s015-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s015",
+  "verdict": "needs-correction"
+}

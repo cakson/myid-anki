@@ -1,0 +1,70 @@
+{
+  "attempt_id": "11f3121f271a609f",
+  "candidate_id": "tmp-communication-s013-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and standard for “press release” in Indonesian.",
+      "evidence_refs": [
+        "https://www.ina.go.id/id/press-release/",
+        "https://anri.go.id/en/publications/press-release?page=1"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: siaran pers"
+    },
+    {
+      "conclusion": "Correct and commonly used in Malaysian official communication for a press/media statement.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kenyataan",
+        "https://www.nres.gov.my/ms-my/pustakamedia/Pages/ArkibKenyataanMedia.aspx",
+        "https://www.npra.gov.my/index.php/my/information-2/general-information/siaran-akhbar.html"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kenyataan media"
+    },
+    {
+      "conclusion": "“Press release” and “official statement issued to news organizations” are semantically aligned.",
+      "evidence_refs": [
+        "https://www.ina.go.id/id/press-release/",
+        "https://www.npra.gov.my/index.php/my/information-2/general-information/siaran-akhbar.html"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate. “Siaran akhbar” is an additional Malaysian alternative, not a false friend or a contradiction.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kenyataan",
+        "https://www.npra.gov.my/index.php/my/information-2/general-information/siaran-akhbar.html"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "3fe9352eece59c2239e6e80da4271dd7bce69116e8ca204221bcf37aa3f25b06",
+  "correction_refs": [],
+  "decision_digest": "048f50c09c0fa4ef8ac35ce4fcc80f49c50e332744875871e39536fcc9aa9fa4",
+  "elapsed_ms": 17299,
+  "finding_class": "none",
+  "input_tokens": 35128,
+  "model_calls": 1,
+  "output_tokens": 989,
+  "packet_digest": "05985266d6e55f75565de77b57402a9dc562b8a7f046dab9e1df45694adea0e2",
+  "rationale": "Both answers are valid for the stated sense. “Siaran pers” is standard Indonesian for press release. Malaysian Malay uses “kenyataan media” for an official media statement/press release; “siaran akhbar” is also a valid alternative, but its existence does not make the answer incorrect. The different-common-word relation is appropriate, and no false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:32:12.856688+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s013/tmp-communication-s013-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s013",
+  "verdict": "cleared"
+}

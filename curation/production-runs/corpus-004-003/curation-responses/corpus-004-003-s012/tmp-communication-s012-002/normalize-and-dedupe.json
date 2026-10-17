@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4239,
+  "input_digest": "b92c5bc0a5758f3963c0ec7f7ba1ed15eb0920dca697ffa884ae5987dfb2716e",
+  "input_tokens": 93764,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 148,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s042:tmp-technology-s042-006\",\"type\":\"exact\",\"resolution\":\"distinct\",\"rationale\":\"Both use the cue “speaker,” but the candidate means a person who speaks to an audience, while the existing entry means an audio device that produces amplified sound; the Indonesian and Malaysian answers also differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s042:tmp-technology-s042-006",
+          "rationale": "Both use the cue “speaker,” but the candidate means a person who speaks to an audience, while the existing entry means an audio device that produces amplified sound; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "exact"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

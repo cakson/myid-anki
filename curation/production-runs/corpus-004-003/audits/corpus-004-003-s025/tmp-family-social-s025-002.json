@@ -1,0 +1,75 @@
+{
+  "attempt_id": "6ec4c14d23a63f5c",
+  "candidate_id": "tmp-family-social-s025-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct; means a prospective spouse or person engaged to marry.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tunang"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tunangan"
+    },
+    {
+      "conclusion": "Correct; means a prospective wife or husband, or person engaged to marry.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=7876&keyword=tunang"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tunang"
+    },
+    {
+      "conclusion": "The narrowed cue “person engaged to be married” is accurate. The original “fiancé” and masculine sense were too narrow because both Malay forms are gender-neutral.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tunang",
+        "https://prpm.dbp.gov.my/Cari1?d=7876&keyword=tunang"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Similar” is appropriate: the Indonesian and Malaysian forms are near-equivalent cognate vocabulary with a suffix difference, not a semantic contrast.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tunang",
+        "https://prpm.dbp.gov.my/Cari1?d=7876&keyword=tunang"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false friend identified. Both forms refer to an engaged partner or prospective spouse.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tunang",
+        "https://prpm.dbp.gov.my/Cari1?d=7876&keyword=tunang"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "7747cf13d82af4ebaa3e9b40a607dfca47250205e185f43ddea54dea99dda5d9",
+  "correction_refs": [],
+  "decision_digest": "a985c93594b8f8a297fb0bb98e916cb22ddae98794e55a5754792dc3ca65a606",
+  "elapsed_ms": 15616,
+  "finding_class": "none",
+  "input_tokens": 49767,
+  "model_calls": 1,
+  "output_tokens": 865,
+  "packet_digest": "5847c6a45e4009b9365a6f3e8ebea1d2f292694e0fa47424b9eee37256a095d3",
+  "rationale": "The corrected cue accurately covers both gender-neutral forms. Indonesian tunangan and Malaysian tunang mean a fiancé or fiancée, so the original masculine-only sense was appropriately broadened. The forms are close equivalents, with no material false-friend contrast; “similar” is appropriate.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:45:21.180594+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s025/tmp-family-social-s025-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s025",
+  "verdict": "cleared"
+}

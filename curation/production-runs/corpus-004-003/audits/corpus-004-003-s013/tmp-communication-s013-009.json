@@ -1,0 +1,72 @@
+{
+  "attempt_id": "64a814ae1ba85af0",
+  "candidate_id": "tmp-communication-s013-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “to quote,” including reproducing words or passages.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mengutip"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: mengutip"
+    },
+    {
+      "conclusion": "Correct and characteristic for quoting words, statements, passages, or citations in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ayat",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sudah+berlaku"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: memetik"
+    },
+    {
+      "conclusion": "The cue “to quote” and the supplied sense are aligned with both Malay answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ayat",
+        "https://kbbi.web.id/mengutip"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a preference-based contrast: mengutip is especially ordinary in Indonesian, while memetik is especially characteristic in Malaysian Malay. It should not imply that mengutip is invalid in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=250808&keyword=kutip",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ayat"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is present. The forms overlap semantically across the languages; the distinction is usage preference and frequency, not divergent meaning.",
+      "evidence_limitation": "The cited dictionary entries establish meanings and usage examples, but do not provide corpus-frequency comparisons.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "6f941b0611c50564358f2e3f317eae3a56a87be619eed1677f138ee4197b3411",
+  "correction_refs": [],
+  "decision_digest": "f4653438e997fd4c3641f4c3ee08a65d993baa20150d29c8c1996595774206a7",
+  "elapsed_ms": 18928,
+  "finding_class": "none",
+  "input_tokens": 49809,
+  "model_calls": 1,
+  "output_tokens": 1211,
+  "packet_digest": "6713daa2710b8f5a2f278a521383b63237455462d053da1ed9f3e2a190829632",
+  "rationale": "Both answers fit the cue and sense. Indonesian mengutip is the ordinary verb for quoting, while Malaysian memetik is a characteristic choice for quoting; mengutip also exists in Malaysian Malay. The relation is valid as a preference contrast, not an exclusive distinction. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:32:31.824939+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s013/tmp-communication-s013-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s013",
+  "verdict": "cleared"
+}

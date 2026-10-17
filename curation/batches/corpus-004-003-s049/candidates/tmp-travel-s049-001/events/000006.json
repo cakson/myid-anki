@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-17T05:05:17.514856+00:00",
+  "input_digest": "26de0ed3be7cb73fab9365d1721df2a163a6ba22256bbf719dacae33019c6934",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Indonesian form \\u201ckartu naik\\u201d is not an ordinary contemporary term for a boarding pass; \\u201cboarding pass\\u201d is commonly used instead.\", \"The shared form \\u201cboarding pass\\u201d is plausibly ordinary in both varieties, weakening the proposed contrast.\"], \"material_concerns\": [\"This is an artificial national pairing likely to misteach Indonesian learners.\"], \"rationale\": \"The cue and intended sense align, but \\u201ckartu naik\\u201d is not a credible Indonesian everyday preference, while \\u201cboarding pass\\u201d is widely understood and used in both Indonesia and Malaysia.\", \"objection_assessments\": [], \"affirmative_defect\": \"artificial-synonym\", \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers are intended to denote the document used to board a flight, so the English cue is sufficiently specific.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"\\u201cBoarding pass\\u201d is an ordinary shared form, especially in Indonesian and also in Malaysian usage, so it can defeat the claimed national contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"boarding pass\", \"language\": \"both\", \"rationale\": \"The common English form is plausibly ordinary in both Indonesia and Malaysia and competes directly with the proposed terms.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "The Indonesian form “kartu naik” is not an ordinary contemporary term for a boarding pass; “boarding pass” is commonly used instead.",
+        "The shared form “boarding pass” is plausibly ordinary in both varieties, weakening the proposed contrast."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers are intended to denote the document used to board a flight, so the English cue is sufficiently specific.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "This is an artificial national pairing likely to misteach Indonesian learners."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "boarding pass",
+        "language": "both",
+        "rationale": "The common English form is plausibly ordinary in both Indonesia and Malaysia and competes directly with the proposed terms.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "The cue and intended sense align, but “kartu naik” is not a credible Indonesian everyday preference, while “boarding pass” is widely understood and used in both Indonesia and Malaysia.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "“Boarding pass” is an ordinary shared form, especially in Indonesian and also in Malaysian usage, so it can defeat the claimed national contrast.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "The Indonesian form “kartu naik” is not an ordinary contemporary term for a boarding pass; “boarding pass” is commonly used instead.",
+      "The shared form “boarding pass” is plausibly ordinary in both varieties, weakening the proposed contrast."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers are intended to denote the document used to board a flight, so the English cue is sufficiently specific.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "This is an artificial national pairing likely to misteach Indonesian learners."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "boarding pass",
+      "language": "both",
+      "rationale": "The common English form is plausibly ordinary in both Indonesia and Malaysia and competes directly with the proposed terms.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "The cue and intended sense align, but “kartu naik” is not a credible Indonesian everyday preference, while “boarding pass” is widely understood and used in both Indonesia and Malaysia.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "“Boarding pass” is an ordinary shared form, especially in Indonesian and also in Malaysian usage, so it can defeat the claimed national contrast.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "1f383d98a474f82e136fe41a715fc1fb9416951aba9577859ecaaa3468488a95"
+}

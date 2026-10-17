@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:30:31.752791+00:00",
+  "result": {
+    "candidate_digest": "86d0d31f7c08ef4ba4fda407c9237cb2c5766c147f1fa02cc4b92815e450187a",
+    "candidate_id": "tmp-clothing-s001-007",
+    "checked_at": "2026-10-17T06:30:31.752791+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both answers fit the cue, but the relation “different-common-word” is misleading: kain is also a general Malaysian Malay word for fabric, while fabrik is a valid Malaysian term. No false-friend contrast is supported; the distinction is contextual or preferential, not a clean national split. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

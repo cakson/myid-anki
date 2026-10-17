@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:59:43.826205+00:00",
+  "input_digest": "a446eedb589c03e1dd0d284825dad23c7961a94a4eeb54d60a121140a3f3dbd4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Both phrases naturally mean the time during the night. \\u201cMalam hari\\u201d is a common Indonesian phrasing, while \\u201cwaktu malam\\u201d is a common Malaysian phrasing; the contrast is useful but not exclusive.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"\\u201cNighttime\\u201d directly denotes time during the night, matching both answers.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cMalam\\u201d is ordinary in both varieties for the same sense, but the longer phrases still represent credible Indonesian and Malaysian preferences.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"The shared form \\u201cmalam\\u201d may also be used alone in both varieties, reducing exclusivity without invalidating the phrase-level contrast.\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"malam\", \"language\": \"both\", \"rationale\": \"\\u201cMalam\\u201d is plausibly ordinary in both Indonesian and Malaysian for the same nighttime sense.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "“Nighttime” directly denotes time during the night, matching both answers.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "malam",
+        "language": "both",
+        "rationale": "“Malam” is plausibly ordinary in both Indonesian and Malaysian for the same nighttime sense.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Both phrases naturally mean the time during the night. “Malam hari” is a common Indonesian phrasing, while “waktu malam” is a common Malaysian phrasing; the contrast is useful but not exclusive.",
+      "relation": "different-common-word",
+      "risk_rationale": "The shared form “malam” may also be used alone in both varieties, reducing exclusivity without invalidating the phrase-level contrast.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Malam” is ordinary in both varieties for the same sense, but the longer phrases still represent credible Indonesian and Malaysian preferences.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "“Nighttime” directly denotes time during the night, matching both answers.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "malam",
+      "language": "both",
+      "rationale": "“Malam” is plausibly ordinary in both Indonesian and Malaysian for the same nighttime sense.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both phrases naturally mean the time during the night. “Malam hari” is a common Indonesian phrasing, while “waktu malam” is a common Malaysian phrasing; the contrast is useful but not exclusive.",
+    "relation": "different-common-word",
+    "risk_rationale": "The shared form “malam” may also be used alone in both varieties, reducing exclusivity without invalidating the phrase-level contrast.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Malam” is ordinary in both varieties for the same sense, but the longer phrases still represent credible Indonesian and Malaysian preferences.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "80bb5ce9b13fb8efc506024eae3742556bc811e0ad97de6476b2724439a46935"
+}

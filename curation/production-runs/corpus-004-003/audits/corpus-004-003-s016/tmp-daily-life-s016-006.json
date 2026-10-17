@@ -1,0 +1,67 @@
+{
+  "attempt_id": "759273f7acf92f52",
+  "candidate_id": "tmp-daily-life-s016-006",
+  "claim_reviews": [
+    {
+      "conclusion": "“Fabric softener” correctly matches a laundry product used to soften clothes or fabric.",
+      "evidence_refs": [
+        "https://www.pekerti.co.id/wp-content/uploads/2023/06/Panduan-KIE.pdf",
+        "https://mastic.mosti.gov.my/storage/2024/07/jimatmudah_v1.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Accurate and established Indonesian wording for fabric softener.",
+      "evidence_refs": [
+        "https://www.pekerti.co.id/wp-content/uploads/2023/06/Panduan-KIE.pdf",
+        "https://mysoklin.com/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pelembut pakaian"
+    },
+    {
+      "conclusion": "Accurate Malaysian Malay wording and documented local product term for fabric softener.",
+      "evidence_refs": [
+        "https://mastic.mosti.gov.my/storage/2024/07/jimatmudah_v1.pdf",
+        "https://dosm.gov.my/uploads/publications/20221012112034.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pelembut fabrik"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate as a useful Indonesian–Malaysian lexical contrast; pakaian means clothing and fabrik means fabric, with no misleading false-friend relationship.",
+      "evidence_refs": [
+        "https://www.pekerti.co.id/wp-content/uploads/2023/06/Panduan-KIE.pdf",
+        "https://mastic.mosti.gov.my/storage/2024/07/jimatmudah_v1.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "e96c7fe31b4b14e2f8aa7816c57998161ed402ea9e0d9ed20a7bb7281fa90a4a",
+  "correction_refs": [],
+  "decision_digest": "431db2bb5f22e26a7a4ad4d86854ee3a7e236df4e5176f441809390c115ba2b6",
+  "elapsed_ms": 11684,
+  "finding_class": "none",
+  "input_tokens": 33160,
+  "model_calls": 1,
+  "output_tokens": 837,
+  "packet_digest": "9ac6792ed0022bd8dfc490884b735456562dca79b4e599c66a080c7d1d266593",
+  "rationale": "Both answers accurately denote the same laundry product. Indonesian commonly uses “pelembut pakaian,” while Malaysian Malay uses “pelembut fabrik.” The contrast is a valid lexical preference, not a false friend; no material learner risk found.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:36:27.253834+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s016/tmp-daily-life-s016-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s016",
+  "verdict": "cleared"
+}

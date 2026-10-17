@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5088,
+  "input_digest": "aeb24315a25c13b6bfaf209c4b3af42d4d01186622a57c48c1efb9d50d6c7e2b",
+  "input_tokens": 93726,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 315,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s004:tmp-common-adjectives-s004-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Greedy means wanting more than one needs or deserves, while stingy means unwilling to spend or share money; the senses are related but distinct.\"},{\"other_id\":\"corpus-004-002-s008:tmp-emotions-s008-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Greedy concerns excessive desire for possessions or benefits; envious concerns resentment or desire arising from another person's advantage.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s004:tmp-common-adjectives-s004-004",
+          "rationale": "Greedy means wanting more than one needs or deserves, while stingy means unwilling to spend or share money; the senses are related but distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s008:tmp-emotions-s008-001",
+          "rationale": "Greedy concerns excessive desire for possessions or benefits; envious concerns resentment or desire arising from another person's advantage.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

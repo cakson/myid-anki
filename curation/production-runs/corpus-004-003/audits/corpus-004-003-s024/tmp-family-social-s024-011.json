@@ -1,0 +1,75 @@
+{
+  "attempt_id": "aac8482d86ccfb38",
+  "candidate_id": "tmp-family-social-s024-011",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct, with gender-neutral semantics: \"pacar\" means a romantic partner or sweetheart and can refer to either sex.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pacar",
+        "https://en.wikipedia.org/wiki/Indonesian_language"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pacar"
+    },
+    {
+      "conclusion": "Correct for \"boyfriend\"; the phrase identifies a male romantic partner.",
+      "evidence_refs": [
+        "https://ms.wiktionary.org/wiki/teman_lelaki",
+        "https://kamusbm.com/teman/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: teman lelaki"
+    },
+    {
+      "conclusion": "The cue \"boyfriend\" matches the stated sense \"male romantic partner\".",
+      "evidence_refs": [
+        "https://ms.wiktionary.org/wiki/teman_lelaki",
+        "https://kbbi.web.id/pacar"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Reasonable as a learner-card relation: the proposed Indonesian and Malaysian forms differ, while both varieties also have additional alternatives.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pacar",
+        "https://ms.wiktionary.org/wiki/teman_lelaki"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present. The gender-neutrality of Indonesian \"pacar\" is a usage distinction, not a false friend.",
+      "evidence_limitation": "The card provides no explicit contrast field; absence of a contrast was assessed from the supplied learner content.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "f180552a46b35d5cad4fac07ed6dfddd3a2bd96859aa95c564f51a0bf0b62533",
+  "correction_refs": [],
+  "decision_digest": "3dcd240bc0c6f01370857f43cdb76798a2164effbd266cd623874dbb03e9a54f",
+  "elapsed_ms": 14470,
+  "finding_class": "none",
+  "input_tokens": 29357,
+  "model_calls": 1,
+  "output_tokens": 1144,
+  "packet_digest": "28fef11ad04c8d8504654b96eeeabbb8f22208364548e922239e768b53be8ea2",
+  "rationale": "Both answers are semantically appropriate. Indonesian \"pacar\" is gender-neutral but can mean boyfriend in context; Malaysian \"teman lelaki\" specifically denotes a male romantic partner. The different-common-word relation is valid as a learner preference, though English \"boyfriend\" and colloquial alternatives may also occur. No false-friend contrast is supplied or required by the card.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:44:31.533240+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s024/tmp-family-social-s024-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s024",
+  "verdict": "cleared"
+}

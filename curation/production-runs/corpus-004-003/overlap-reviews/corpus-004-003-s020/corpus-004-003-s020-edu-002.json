@@ -1,0 +1,83 @@
+{
+  "attempt_id": "cd02308afcfe6f22",
+  "candidate_id": "corpus-004-003-s020-edu-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct. \"Pencil case\" denotes a small container or bag for pens, pencils, and related stationery.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/pencil-case"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian equivalent, but not demonstrably the sole or clearly dominant everyday form. \"Tempat pensil\" is also widely used for the same object.",
+      "evidence_limitation": "The available sources establish real Indonesian usage but do not provide a representative national frequency comparison between the two forms.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/produk/mainan-dan-kreativitas/kreativitas/solfagel-art-50556346",
+        "https://shopee.co.id/list/Tempat/Pensil"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: kotak pensil"
+    },
+    {
+      "conclusion": "Valid and clearly attested Malaysian Malay equivalent, but \"kotak pensel\" is also used for the same item.",
+      "evidence_limitation": "The sources show Malaysian usage and competing terminology but do not establish nationwide preference rankings.",
+      "evidence_refs": [
+        "https://stationery.lazada.com.my/guide-to-choosing-pencil-cases-and-organizers-under-rm20-for-school-students-my/",
+        "https://eperolehan2.mbip.gov.my/tender/bq/01kpgqbzkecewsycb9j370xs70",
+        "https://www.lazada.com.my/videodetail/?video_id=30014050229"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian Malay answer: bekas pensel"
+    },
+    {
+      "conclusion": "The relation \"different-common-word\" is too strong as currently presented. The answers differ in preferred lexical choice and spelling, but ordinary equivalents overlap across varieties: Indonesian \"tempat pensil\" and Malaysian \"kotak pensel\" are both attested, alongside the carded forms.",
+      "evidence_limitation": "Available evidence supports overlap and attestation, but not precise regional frequency or preference.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/pencil-case",
+        "https://www.ikea.co.id/in/produk/mainan-dan-kreativitas/kreativitas/solfagel-art-50556346",
+        "https://stationery.lazada.com.my/guide-to-choosing-pencil-cases-and-organizers-under-rm20-for-school-students-my/",
+        "https://www.lazada.com.my/videodetail/?video_id=30014050229"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and national split"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported. \"Kotak/bekas/tempat\" transparently refer to a container or place for writing tools, and \"pensil/pensel\" is a regular orthographic variety difference. The empty contrast field is therefore not itself a factual error, though an explicit note that these are near-equivalent alternatives would reduce learner confusion.",
+      "evidence_limitation": "No dedicated contrastive lexicographic source was located that explicitly labels these forms as non-false-friends.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/pencil-case",
+        "https://kbbi.kemdikbud.go.id/Content/Files/Petunjuk%20Pemakaian.PDF"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ea636fa4cfa3f48bba648e3d88fa178c10b5554f17de22628c1aec133d78d08e",
+  "correction_refs": [],
+  "decision_digest": "538c1521f4de6d3445a4d0053d855aa475806e6fa4dc79dca3615b6d1f3b0f1f",
+  "elapsed_ms": 28379,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 84727,
+  "model_calls": 1,
+  "output_tokens": 2039,
+  "packet_digest": "a46de9f60d3039838fe62ac928f0033f87088d5bce98e50910ae45ef4ed99bf0",
+  "rationale": "Both answers are semantically valid, but the national split is materially overstated. Indonesian uses both \"tempat pensil\" and \"kotak pensil\"; Malaysian Malay uses both \"bekas pensel\" and \"kotak pensel\". The forms are transparent cognate equivalents, not a meaningful false-friend contrast. The card should present these as variety-associated preferences or common alternatives rather than sharply different words.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:49:12.642808+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s020/corpus-004-003-s020-edu-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s020",
+  "verdict": "needs-correction"
+}

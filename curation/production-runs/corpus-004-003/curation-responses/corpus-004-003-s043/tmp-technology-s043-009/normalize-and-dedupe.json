@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4781,
+  "input_digest": "6f4bb49a4e7ed813c63b4ac494ba4b53805254741fe526403977b15847bd41ea",
+  "input_tokens": 93710,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 182,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s017:tmp-shopping-s017-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"QR code and barcode are both machine-readable codes, but the candidate specifically denotes a square code for digital information, while the existing concept denotes a product-identification barcode.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s017:tmp-shopping-s017-002",
+          "rationale": "QR code and barcode are both machine-readable codes, but the candidate specifically denotes a square code for digital information, while the existing concept denotes a product-identification barcode.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

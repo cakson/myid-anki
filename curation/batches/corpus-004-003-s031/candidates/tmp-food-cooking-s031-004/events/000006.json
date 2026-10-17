@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T04:30:05.294915+00:00",
+  "input_digest": "7097330deb33ddcf305f6160e22e11bdffbf51bda0c6eb83e1d4fd1c6e621b48",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The contrast is weaker than presented because Malaysian commonly uses bahan or bahan-bahan for ingredients.\"], \"material_concerns\": [\"The proposed Malaysian form ramuan is ordinary, but bahan is also a common everyday term for the same food sense, so the card may overstate the national preference.\"], \"rationale\": \"Bahan is the ordinary Indonesian term, while ramuan is a valid Malaysian term, especially in recipe and packaging contexts. However, Malaysian bahan is also common enough that this is not a clean national contrast.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both bahan and ramuan can mean a component used to make a dish.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Bahan is also an ordinary Malaysian term for food ingredients, so it can compete directly with ramuan in the same sense.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"bahan\", \"language\": \"both\", \"rationale\": \"Bahan is the standard everyday Indonesian choice but is also plausibly ordinary in Malaysian cooking usage for the same sense.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The contrast is weaker than presented because Malaysian commonly uses bahan or bahan-bahan for ingredients."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both bahan and ramuan can mean a component used to make a dish.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The proposed Malaysian form ramuan is ordinary, but bahan is also a common everyday term for the same food sense, so the card may overstate the national preference."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "bahan",
+        "language": "both",
+        "rationale": "Bahan is the standard everyday Indonesian choice but is also plausibly ordinary in Malaysian cooking usage for the same sense.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Bahan is the ordinary Indonesian term, while ramuan is a valid Malaysian term, especially in recipe and packaging contexts. However, Malaysian bahan is also common enough that this is not a clean national contrast.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Bahan is also an ordinary Malaysian term for food ingredients, so it can compete directly with ramuan in the same sense.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The contrast is weaker than presented because Malaysian commonly uses bahan or bahan-bahan for ingredients."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both bahan and ramuan can mean a component used to make a dish.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed Malaysian form ramuan is ordinary, but bahan is also a common everyday term for the same food sense, so the card may overstate the national preference."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "bahan",
+      "language": "both",
+      "rationale": "Bahan is the standard everyday Indonesian choice but is also plausibly ordinary in Malaysian cooking usage for the same sense.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Bahan is the ordinary Indonesian term, while ramuan is a valid Malaysian term, especially in recipe and packaging contexts. However, Malaysian bahan is also common enough that this is not a clean national contrast.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Bahan is also an ordinary Malaysian term for food ingredients, so it can compete directly with ramuan in the same sense.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "344879e2204ffa4120d6ff44e1c8caa96c36d0d7a6567e3b9cf3dad4cc385ce8"
+}

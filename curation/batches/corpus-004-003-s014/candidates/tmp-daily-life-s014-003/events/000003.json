@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T19:44:40.785325+00:00",
+  "input_digest": "29c9e7d03530477117898734048e3e7a7b59fe9f42acd2f54cec0c77c6cdea79",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s014:tmp-daily-life-s014-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An extension cord is a flexible cable used to extend an electrical connection; an electrical plug is the connector inserted into a socket.\"}, {\"other_id\": \"technology-001:technology-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An extension cord extends electrical reach between a source and device; a power outlet is the fixed wall socket receiving a plug.\"}, {\"other_id\": \"corpus-004-002-s016:tmp-technology-s016-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An extension cord is a physical electrical cable, whereas connection is the broader link to a network or service.\"}, {\"other_id\": \"corpus-004-003-s049:tmp-travel-s049-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A travel adapter changes plug compatibility for travel; an extension cord provides additional cable length.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-002",
+          "rationale": "An extension cord is a flexible cable used to extend an electrical connection; an electrical plug is the connector inserted into a socket.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "technology-001:technology-05",
+          "rationale": "An extension cord extends electrical reach between a source and device; a power outlet is the fixed wall socket receiving a plug.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+          "rationale": "An extension cord is a physical electrical cable, whereas connection is the broader link to a network or service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-008",
+          "rationale": "A travel adapter changes plug compatibility for travel; an extension cord provides additional cable length.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s014:tmp-daily-life-s014-002",
+        "rationale": "An extension cord is a flexible cable used to extend an electrical connection; an electrical plug is the connector inserted into a socket.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "technology-001:technology-05",
+        "rationale": "An extension cord extends electrical reach between a source and device; a power outlet is the fixed wall socket receiving a plug.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+        "rationale": "An extension cord is a physical electrical cable, whereas connection is the broader link to a network or service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s049:tmp-travel-s049-008",
+        "rationale": "A travel adapter changes plug compatibility for travel; an extension cord provides additional cable length.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "e523bca7aa589558f9975c287fd9eaac805c87de938d02734f0d8f8e3509c9d4"
+}

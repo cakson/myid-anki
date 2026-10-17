@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T20:07:38.597631+00:00",
+  "input_digest": "34d9c3481539228e454be8422962d04869b3f5df2cd2d60ed0a14e504ed43a93",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian answer \\u201ckakak tiri\\u201d specifically means an older stepsister, while the English cue and Indonesian answer are general.\"], \"material_concerns\": [\"The pair conflates a general category with an older subtype; learners may incorrectly map \\u201cstepsister\\u201d to \\u201ckakak tiri\\u201d in Malaysian Malay.\"], \"rationale\": \"The answers do not express the same exact sense: \\u201csaudara tiri perempuan\\u201d is a general female stepsibling, whereas \\u201ckakak tiri\\u201d is specifically an older female stepsibling.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue preserves the same exact concept for both answers: narrowing to \\u201colder stepsister\\u201d leaves the Indonesian form underspecified, while \\u201cstepsister\\u201d is too broad for \\u201ckakak tiri.\\u201d\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"\\u201cSaudara tiri perempuan\\u201d is plausibly ordinary in both varieties and expresses the general sense, weakening any claimed national preference for \\u201ckakak tiri.\\u201d\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"saudara tiri perempuan\", \"language\": \"both\", \"rationale\": \"This general form is plausibly usable in both Indonesian and Malaysian Malay, while \\u201ckakak tiri\\u201d adds the older-sister meaning.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malaysian answer “kakak tiri” specifically means an older stepsister, while the English cue and Indonesian answer are general."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue preserves the same exact concept for both answers: narrowing to “older stepsister” leaves the Indonesian form underspecified, while “stepsister” is too broad for “kakak tiri.”",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair conflates a general category with an older subtype; learners may incorrectly map “stepsister” to “kakak tiri” in Malaysian Malay."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "saudara tiri perempuan",
+        "language": "both",
+        "rationale": "This general form is plausibly usable in both Indonesian and Malaysian Malay, while “kakak tiri” adds the older-sister meaning.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "The answers do not express the same exact sense: “saudara tiri perempuan” is a general female stepsibling, whereas “kakak tiri” is specifically an older female stepsibling.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "“Saudara tiri perempuan” is plausibly ordinary in both varieties and expresses the general sense, weakening any claimed national preference for “kakak tiri.”",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malaysian answer “kakak tiri” specifically means an older stepsister, while the English cue and Indonesian answer are general."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue preserves the same exact concept for both answers: narrowing to “older stepsister” leaves the Indonesian form underspecified, while “stepsister” is too broad for “kakak tiri.”",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair conflates a general category with an older subtype; learners may incorrectly map “stepsister” to “kakak tiri” in Malaysian Malay."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "saudara tiri perempuan",
+      "language": "both",
+      "rationale": "This general form is plausibly usable in both Indonesian and Malaysian Malay, while “kakak tiri” adds the older-sister meaning.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "The answers do not express the same exact sense: “saudara tiri perempuan” is a general female stepsibling, whereas “kakak tiri” is specifically an older female stepsibling.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "“Saudara tiri perempuan” is plausibly ordinary in both varieties and expresses the general sense, weakening any claimed national preference for “kakak tiri.”",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "747b6cecbaa83892d70ef06e0d486b581b7f973a1dd317071b7cca45f06d5d70"
+}

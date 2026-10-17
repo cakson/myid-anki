@@ -1,0 +1,75 @@
+{
+  "attempt_id": "29f84f1be88af7d3",
+  "candidate_id": "tmp-food-cooking-s031-010",
+  "claim_reviews": [
+    {
+      "conclusion": "“microwave” is a valid common Indonesian term for the appliance; formal equivalents such as “oven gelombang mikro” also exist.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/microwave",
+        "https://www.memrise.com/en-us/learn-indonesian/indonesian-course/phrasebook/65725192012034/how-to-say-a-microwave"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“ketuhar gelombang mikro” is an established Malaysian Malay term for a microwave oven.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=mikro",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/microwave"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“microwave” and the supplied appliance sense correctly identify an oven that heats or cooks food using electromagnetic waves.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/microwave",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/microwave"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate because the Indonesian everyday loanword differs from the Malaysian Malay descriptive term, despite formal or alternative overlap.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/microwave",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=mikro"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; the forms refer to the same appliance and do not create a misleading cross-language meaning distinction.",
+      "evidence_limitation": "No dedicated false-friend reference was identified; conclusion is based on the cited bilingual dictionary definitions.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "718c4933a7637aa6c8ca9e39fb3312c300e292d2a7f8e2262a664316c1c4fe6b",
+  "correction_refs": [],
+  "decision_digest": "2f7299c45ef8ecde368ffc81aa3e95fb4bc64df70fbc6669fa3536c7c2745747",
+  "elapsed_ms": 17454,
+  "finding_class": "none",
+  "input_tokens": 64161,
+  "model_calls": 1,
+  "output_tokens": 1043,
+  "packet_digest": "8f81d513f7a66157165c9d95a4e833dfdc19f93a56de730046a2ef8a2ecd1667",
+  "rationale": "Both answers are semantically valid. Indonesian commonly uses “microwave” for the appliance, while Malaysian Malay has the established descriptive term “ketuhar gelombang mikro.” The English cue and sense align, the different-common-word relation is appropriate, and no false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:54:56.579516+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s031/tmp-food-cooking-s031-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s031",
+  "verdict": "cleared"
+}

@@ -1,0 +1,75 @@
+{
+  "attempt_id": "0f1fc773d1c04870",
+  "candidate_id": "tmp-communication-s011-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for the title/name of a book, chapter, story, drama, or similar work.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/judul"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: judul"
+    },
+    {
+      "conclusion": "Correct and standard for the title or heading of a written work and related content.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tajuk"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tajuk"
+    },
+    {
+      "conclusion": "“Title of a written or spoken work” is sufficiently aligned, though “written work” is the more directly supported formulation.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/judul",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tajuk"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a learner-facing contrast between the usual Indonesian and Malaysian choices, with the caveat that “judul” also exists in Malaysian as a synonym.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=judul",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tajuk"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend relationship is present; the forms are semantically overlapping rather than misleadingly divergent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=judul",
+        "https://kbbi.kemendikdasmen.go.id/entri/judul"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2db2f32a07b3d8a60cd6dca17be81d2ae3e974ba2a1848f39a0e20bb9c86873d",
+  "correction_refs": [],
+  "decision_digest": "04298f87f99255de0eb08eec3b4ed86cd9b52455dafd4c18b7c3921c17c9cf3f",
+  "elapsed_ms": 17544,
+  "finding_class": "none",
+  "input_tokens": 49382,
+  "model_calls": 1,
+  "output_tokens": 1375,
+  "packet_digest": "69bde824485cc040181b2ca333464cbdeac481791f1391e25c01a3d2f1be0519",
+  "rationale": "The Indonesian answer “judul” and Malaysian answer “tajuk” correctly express the intended sense. “Judul” is also recognized in Malaysian as a synonym, so the contrast is one of ordinary preference rather than an exclusive distinction. No false-friend contrast is present or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:28:42.618126+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s011/tmp-communication-s011-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s011",
+  "verdict": "cleared"
+}

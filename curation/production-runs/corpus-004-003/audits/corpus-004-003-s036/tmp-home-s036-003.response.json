@@ -1,0 +1,61 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17221,
+  "input_tokens": 49664,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1060,
+  "packet_digest": "9e767e8c9946c201b9c48c1d932d51de1ef7c1d85efd075efe883ec859df0a9f",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both translations match the English cue and sense. Indonesian usage supports sarung tangan oven, while Malaysian reference usage supports sarung tangan ketuhar. The forms represent a useful national-preference contrast, not a semantic contrast; Malaysian casual use of oven does not invalidate the card. No false-friend issue is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"oven mitt correctly denotes a heat-resistant glove for handling hot cookware.\",\"material_risk\":false,\"evidence_refs\":[\"https://en.wikipedia.org/wiki/Oven_glove\",\"https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883\"]},{\"subject\":\"Indonesian answer\",\"conclusion\":\"sarung tangan oven is an attested Indonesian term matching the cue and sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883\",\"https://www.electrolux.co.id/produk/aksesoris/peralatan-dapur/e4kpglo1/\"]},{\"subject\":\"Malaysian answer\",\"conclusion\":\"sarung tangan ketuhar is an established Malaysian term for an oven glove and matches the intended sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan\",\"https://www.ikea.com/my/ms/p/hildegun-sarung-tangan-ketuhar-80484051/\"]},{\"subject\":\"Final relation\",\"conclusion\":\"different-common-word is appropriate as a national-preference distinction: oven is used in Indonesian, while ketuhar is a recognized Malaysian standard/preferred form.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan\",\"https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is asserted or needed; the two expressions have the same meaning, and Malaysian casual use of oven is a usage variant rather than a semantic trap.\",\"material_risk\":false,\"evidence_limitation\":\"Available evidence supports the meanings and national usage preferences but does not quantify casual Malaysian frequency of sarung tangan oven.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "oven mitt correctly denotes a heat-resistant glove for handling hot cookware.",
+        "evidence_refs": [
+          "https://en.wikipedia.org/wiki/Oven_glove",
+          "https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "sarung tangan oven is an attested Indonesian term matching the cue and sense.",
+        "evidence_refs": [
+          "https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883",
+          "https://www.electrolux.co.id/produk/aksesoris/peralatan-dapur/e4kpglo1/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "sarung tangan ketuhar is an established Malaysian term for an oven glove and matches the intended sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan",
+          "https://www.ikea.com/my/ms/p/hildegun-sarung-tangan-ketuhar-80484051/"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer"
+      },
+      {
+        "conclusion": "different-common-word is appropriate as a national-preference distinction: oven is used in Indonesian, while ketuhar is a recognized Malaysian standard/preferred form.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan",
+          "https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is asserted or needed; the two expressions have the same meaning, and Malaysian casual use of oven is a usage variant rather than a semantic trap.",
+        "evidence_limitation": "Available evidence supports the meanings and national usage preferences but does not quantify casual Malaysian frequency of sarung tangan oven.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both translations match the English cue and sense. Indonesian usage supports sarung tangan oven, while Malaysian reference usage supports sarung tangan ketuhar. The forms represent a useful national-preference contrast, not a semantic contrast; Malaysian casual use of oven does not invalidate the card. No false-friend issue is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

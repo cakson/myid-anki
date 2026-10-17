@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4830,
+  "input_digest": "e1f3b6787e3f6e9f02516abe119e4f4e8b5efc75b612933175c83f0dc7d1a8c5",
+  "input_tokens": 93725,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 221,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-travel-001:travel-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A ferry is a vessel that transports passengers or vehicles across water, whereas a boat is a generic small watercraft for carrying people or goods; the senses are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-10",
+          "rationale": "A ferry is a vessel that transports passengers or vehicles across water, whereas a boat is a generic small watercraft for carrying people or goods; the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

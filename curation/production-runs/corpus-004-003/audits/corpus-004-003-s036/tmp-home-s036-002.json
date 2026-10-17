@@ -1,0 +1,74 @@
+{
+  "attempt_id": "3f56585c9aa675ad",
+  "candidate_id": "tmp-home-s036-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Cupboard correctly denotes furniture used to store household items, commonly with shelves or doors.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=34488&keyword=cabinet"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and standard Indonesian term for a large storage case or cupboard.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/lemari"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lemari"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for furniture with shelves and doors used to store clothing or other goods.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=34488&keyword=almari"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: almari"
+    },
+    {
+      "conclusion": "Supported: lemari and almari are distinct common forms associated with Indonesian and Malaysian Malay respectively, despite shared meaning and related morphology.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/lemari",
+        "https://prpm.dbp.gov.my/Cari1?d=34488&keyword=almari"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is present. The forms are semantically aligned; kabinet is a shared contextual alternative rather than a contradiction.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kabinet"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3b289cf31980bb569042e02bb33d65e633c07742bdfef08177113d10ce90a2ea",
+  "correction_refs": [],
+  "decision_digest": "5aba3ba7c7ab748480422875c359daf7738a1da3896588ec6befe9d01bc53d41",
+  "elapsed_ms": 22578,
+  "finding_class": "none",
+  "input_tokens": 76754,
+  "model_calls": 1,
+  "output_tokens": 1362,
+  "packet_digest": "c53dfa49f97ab05d2c4fd7ae80c41e34d626a4ce92d0d30f69e181471c458023",
+  "rationale": "The cue, sense, and answers are accurate. Indonesian lemari and Malaysian Malay almari are ordinary terms for storage cupboards. The contrast is valid as a difference in common form, though not exclusive because kabinet is also used in both varieties for some cupboard contexts. No false-friend contrast is present or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:59:32.584138+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s036/tmp-home-s036-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s036",
+  "verdict": "cleared"
+}

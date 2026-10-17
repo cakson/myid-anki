@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:48.882840+00:00",
+  "result": {
+    "candidate_digest": "3e8ce142731f759253aa1466d0549abe95fe5e457d26e1ce932cbbc9e8861e37",
+    "candidate_id": "tmp-finance-admin-s027-006",
+    "checked_at": "2026-10-17T06:21:48.882840+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The English cue and sense are correct, and “transfer bank” is ordinary Indonesian. However, “pindahan bank” is not sufficiently established as the safest common Malaysian Malay equivalent; authoritative Malaysian references support “pindahan wang” or “pemindahan wang,” including bank-to-bank transfers. The relation label is therefore overstated, and no false-friend contrast is present. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

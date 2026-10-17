@@ -1,0 +1,80 @@
+{
+  "attempt_id": "f64d6136d233d0cf",
+  "candidate_id": "tmp-health-body-s032-005",
+  "claim_reviews": [
+    {
+      "conclusion": "“Menstrual cramps” and “pain during menstruation” are aligned and sufficiently precise.",
+      "evidence_refs": [
+        "https://keslan.kemkes.go.id/view_artikel/2045/cara-mudah-atasi-nyeri-haid-tanpa-minum-obat",
+        "https://hq.moh.gov.my/bpkk/index.php/component/jdownloads/?Itemid=101&catid=21&id=990&m=0&task=download.send"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The answer is semantically appropriate Indonesian for menstrual cramps; Indonesian health guidance describes menstrual pain with “kram” and “menstruasi.”",
+      "evidence_refs": [
+        "https://keslan.kemkes.go.id/view_artikel/2045/cara-mudah-atasi-nyeri-haid-tanpa-minum-obat",
+        "https://www.unicef.org/indonesia/sites/unicef.org.indonesia/files/2019-05/MHM%20Guidance%20for%20Teacher%20and%20Parents-PMRC-Recommendation.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kram menstruasi"
+    },
+    {
+      "conclusion": "“Senggugut” is a valid Malaysian Malay term for menstrual pain/dysmenorrhoea.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=85408&keyword=senggugut",
+        "https://hq.moh.gov.my/bpkk/images/3.Penerbitan/2.Orang_Awam/7.Kesihatan_Remaja/2.PDF/4.Bahan_Promosi_Pendidikan_Kesihatan/4_rahsia_remaja_siri_1_rahsia_remaja.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: senggugut"
+    },
+    {
+      "conclusion": "The split is materially overstated because “senggugut” is also recorded in Indonesian as menstrual pain/dysmenorrhoea, so it is not Malaysia-exclusive. “Kram menstruasi” remains a valid Indonesian expression, but the answers overlap in accepted usage.",
+      "evidence_refs": [
+        "https://kbbi.web.id/senggugut",
+        "https://prpm.dbp.gov.my/Cari1?d=85408&keyword=senggugut"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "The relation is not supportable as an unqualified different-common-word contrast. A qualified preference contrast may be defensible, but national exclusivity or strong variety separation is not established.",
+      "evidence_limitation": "The cited dictionaries and official health material establish cross-variety acceptance but do not provide comparable frequency data sufficient to quantify which form is more common in each national variety.",
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present in the learner content, and the two answers are near-equivalent terms rather than a demonstrated false-friend pair.",
+      "evidence_limitation": "The supplied card has an empty contrast field; no independent false-friend distinction can be validated.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "b7f9024610710c3f0a8b9aee6d37bf6ddb5cd38b1b7f2784db58e532e0141331",
+  "correction_refs": [],
+  "decision_digest": "9325762a83c503545324b9291d02da7be3c585e5c00d7b4b3239a36a582b6c92",
+  "elapsed_ms": 16597,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 32976,
+  "model_calls": 1,
+  "output_tokens": 1251,
+  "packet_digest": "2635f41961763881597026a23deaa1cdf6882472eb4b617f4348873999dcd78a",
+  "rationale": "The national split is materially overstated: “senggugut” is an accepted Indonesian dictionary word for menstrual pain as well as an ordinary Malaysian Malay term. The Indonesian answer is valid, but the pair should not be presented as a clean different-common-word contrast without qualification. No false-friend contrast is supplied.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:01:25.568959+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s032/tmp-health-body-s032-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "needs-correction"
+}

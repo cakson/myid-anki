@@ -1,0 +1,74 @@
+{
+  "attempt_id": "1a98294f0949e9ba",
+  "candidate_id": "tmp-common-verbs-s008-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“To find” with the sense “locate or discover something” is coherent and correctly matches Indonesian menemukan.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/menemukan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct. Indonesian dictionary evidence defines menemukan as obtaining, discovering, or finding something.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/menemukan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: menemukan"
+    },
+    {
+      "conclusion": "Risky as the default answer. Malaysian Malay sources list menemui as meeting, visiting, or encountering someone, although they also attest a secondary sense equivalent to finding or discovering.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menemui",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menemukan"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: menemui"
+    },
+    {
+      "conclusion": "The label different-common-word is misleading for this cue. The safer standard contrast is Indonesian menemukan versus Malaysian menemukan, while menemui is chiefly a meet/visit form in Malaysian learner usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menemukan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menemui"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "A material contrast exists: Indonesian menemui commonly means meet, visit, encounter, or in some contexts find; Malaysian menemui likewise strongly carries meet/visit senses, so using it unqualified for “to find” can mislead learners.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/Menemui",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menemui"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "789401f72112e3baafb4eab3d461006c618512eab214b54221a898ebbcc79395",
+  "correction_refs": [],
+  "decision_digest": "c0aa8e94341024c5b2e91ddc48aed69b698db1405cfdafa754f3a1cd53d3cce5",
+  "elapsed_ms": 19497,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62493,
+  "model_calls": 1,
+  "output_tokens": 959,
+  "packet_digest": "ac39c0455e04a82140d3f43cafb272e9ea91e8f7e90f372d2dd5da6b0dbc9a68",
+  "rationale": "Indonesian menemukan correctly expresses “to find” as obtain/discover. Malaysian menemui has a dictionary sense of finding, but its primary learner-relevant senses include meeting, visiting, or encountering a person; Malaysian Malay uses menemukan more clearly for finding something sought. Presenting menemui as the straightforward Malaysian equivalent creates a material false-friend risk.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:24:49.837460+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s008/tmp-common-verbs-s008-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s008",
+  "verdict": "needs-correction"
+}

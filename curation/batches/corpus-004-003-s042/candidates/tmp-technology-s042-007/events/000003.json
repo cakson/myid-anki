@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T04:52:10.144522+00:00",
+  "input_digest": "4f9d8137d00246d230c61f1b1c75f79cd21544f894663529492555f1a579ef38",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s016:tmp-technology-s016-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Wireless describes communication without cables; network is the connected computer or communications system itself.\"}, {\"other_id\": \"corpus-004-002-s016:tmp-technology-s016-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Wireless describes radio-based communication; connection refers to access or linkage to a network or service.\"}, {\"other_id\": \"corpus-004-003-s043:tmp-technology-s043-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Wireless describes communication using radio instead of cables; airplane mode is a device setting that disables wireless communication.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-001",
+          "rationale": "Wireless describes communication without cables; network is the connected computer or communications system itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+          "rationale": "Wireless describes radio-based communication; connection refers to access or linkage to a network or service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-006",
+          "rationale": "Wireless describes communication using radio instead of cables; airplane mode is a device setting that disables wireless communication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s016:tmp-technology-s016-001",
+        "rationale": "Wireless describes communication without cables; network is the connected computer or communications system itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+        "rationale": "Wireless describes radio-based communication; connection refers to access or linkage to a network or service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s043:tmp-technology-s043-006",
+        "rationale": "Wireless describes communication using radio instead of cables; airplane mode is a device setting that disables wireless communication.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "bba0c78fb3a6df662fca598f4f99020bd537380d7c629a0e5da4cb3b94b5c8ae"
+}

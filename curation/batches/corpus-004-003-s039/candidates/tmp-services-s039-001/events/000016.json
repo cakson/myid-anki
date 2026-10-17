@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:52.255865+00:00",
+  "result": {
+    "candidate_digest": "4daf392193431b2ca8b2b20be39a1cbb1c2febb53230d73482fc4a9cc10cfe5a",
+    "candidate_id": "tmp-services-s039-001",
+    "checked_at": "2026-10-17T06:21:52.255865+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The Malaysian form is attested in official Malaysian usage, but the Indonesian form is underspecified: janji can mean either an appointment or a promise. For an appointment reminder, Indonesian pengingat janji temu is safer and clearer. The contrast is therefore learner-relevant, but the current Indonesian answer risks teaching ambiguity. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

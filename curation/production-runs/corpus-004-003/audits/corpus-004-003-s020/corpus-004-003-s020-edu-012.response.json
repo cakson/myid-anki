@@ -1,0 +1,56 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 13285,
+  "input_tokens": 33419,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1115,
+  "packet_digest": "39191280dd4ff66e5a16058cb16563c7718c2e73eb443370134dfd82000b5a87",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"OSIS is an Indonesian intraschool student organization, broadly comparable to a school student council. Majlis Perwakilan Pelajar is primarily Malaysia’s university-level Student Representative Council, so the two answers are not interchangeable across the full scope of “student council.” This is an institutional-level contrast, not a false-friend contrast.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: OSIS\",\"conclusion\":\"Acceptable for Indonesian school-level “student council,” though its literal scope is the intraschool student organization.\",\"material_risk\":false,\"evidence_refs\":[\"https://internal-portal.kemdikbud.go.id/siaran-pers/16011-snt-09-gowa-ruang-afni-mengasah-bakat-dan-jiwa-kepemimpinan\",\"https://download.garuda.kemdikbud.go.id/article.php?article=3606171&title=PERAN+ORGANISASI+SISWA+INTRA+SEKOLAH+OSIS+DALAM+MENGEMBANGKAN+KARAKTER+SISWA+SMK+AL-MUHTADIN&val=31269\"]},{\"subject\":\"Malaysian answer: majlis perwakilan pelajar\",\"conclusion\":\"Valid Malaysian term for a Student Representative Council, but institutional usage is principally at universities and higher-education institutions.\",\"material_risk\":true,\"evidence_refs\":[\"https://www.mohe.gov.my/hebahan/kenyataan-media/pelaksanaan-pilihanraya-kampus-oleh-pelajar\",\"https://hep.upm.edu.my/student_organization/student_representative_council/introduction-61394\",\"https://strategi.ums.edu.my/sustainability/studentgovernance.html\"]},{\"subject\":\"English cue and stated sense\",\"conclusion\":\"The cue “student council” and sense “student organization representing the student body” are broadly compatible, but they underspecify educational level and institutional structure.\",\"material_risk\":true,\"evidence_refs\":[\"https://www.mohe.gov.my/hebahan/kenyataan-media/pelaksanaan-pilihanraya-kampus-oleh-pelajar\",\"https://internal-portal.kemdikbud.go.id/siaran-pers/16011-snt-09-gowa-ruang-afni-mengasah-bakat-dan-jiwa-kepemimpinan\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Misleading as stated: the forms are not simply alternative common words for the same unrestricted concept; OSIS is school-focused, whereas MPP is chiefly university-focused. No evidence supports a false-friend relationship.\",\"material_risk\":true,\"evidence_refs\":[\"https://internal-portal.kemdikbud.go.id/siaran-pers/16011-snt-09-gowa-ruang-afni-mengasah-bakat-dan-jiwa-kepemimpinan\",\"https://www.mohe.gov.my/hebahan/kenyataan-media/pelaksanaan-pilihanraya-kampus-oleh-pelajar\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Acceptable for Indonesian school-level “student council,” though its literal scope is the intraschool student organization.",
+        "evidence_refs": [
+          "https://internal-portal.kemdikbud.go.id/siaran-pers/16011-snt-09-gowa-ruang-afni-mengasah-bakat-dan-jiwa-kepemimpinan",
+          "https://download.garuda.kemdikbud.go.id/article.php?article=3606171&title=PERAN+ORGANISASI+SISWA+INTRA+SEKOLAH+OSIS+DALAM+MENGEMBANGKAN+KARAKTER+SISWA+SMK+AL-MUHTADIN&val=31269"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: OSIS"
+      },
+      {
+        "conclusion": "Valid Malaysian term for a Student Representative Council, but institutional usage is principally at universities and higher-education institutions.",
+        "evidence_refs": [
+          "https://www.mohe.gov.my/hebahan/kenyataan-media/pelaksanaan-pilihanraya-kampus-oleh-pelajar",
+          "https://hep.upm.edu.my/student_organization/student_representative_council/introduction-61394",
+          "https://strategi.ums.edu.my/sustainability/studentgovernance.html"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: majlis perwakilan pelajar"
+      },
+      {
+        "conclusion": "The cue “student council” and sense “student organization representing the student body” are broadly compatible, but they underspecify educational level and institutional structure.",
+        "evidence_refs": [
+          "https://www.mohe.gov.my/hebahan/kenyataan-media/pelaksanaan-pilihanraya-kampus-oleh-pelajar",
+          "https://internal-portal.kemdikbud.go.id/siaran-pers/16011-snt-09-gowa-ruang-afni-mengasah-bakat-dan-jiwa-kepemimpinan"
+        ],
+        "material_risk": true,
+        "subject": "English cue and stated sense"
+      },
+      {
+        "conclusion": "Misleading as stated: the forms are not simply alternative common words for the same unrestricted concept; OSIS is school-focused, whereas MPP is chiefly university-focused. No evidence supports a false-friend relationship.",
+        "evidence_refs": [
+          "https://internal-portal.kemdikbud.go.id/siaran-pers/16011-snt-09-gowa-ruang-afni-mengasah-bakat-dan-jiwa-kepemimpinan",
+          "https://www.mohe.gov.my/hebahan/kenyataan-media/pelaksanaan-pilihanraya-kampus-oleh-pelajar"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "OSIS is an Indonesian intraschool student organization, broadly comparable to a school student council. Majlis Perwakilan Pelajar is primarily Malaysia’s university-level Student Representative Council, so the two answers are not interchangeable across the full scope of “student council.” This is an institutional-level contrast, not a false-friend contrast.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

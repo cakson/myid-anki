@@ -1,0 +1,52 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 12274,
+  "input_tokens": 29134,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 821,
+  "packet_digest": "01dc69e5861842f87fa787762812010d73ab307a1d867140c5f038c39e9df943",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers match the cue and sense. “Biaya administrasi” is standard Indonesian usage, while “caj pentadbiran” is a valid Malaysian expression for an administrative charge. “Yuran/fi pentadbiran” are also Malaysian alternatives, but this is a preference issue, not an answer error. No false-friend contrast is required.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Administrative fee” correctly denotes a fee charged for administrative processing.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.ojk.go.id/id/ojk-pedia/default.aspx?a=R2334K2\"]},{\"subject\":\"Indonesian answer\",\"conclusion\":\"“Biaya administrasi” is standard Indonesian for an administrative fee or charge.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.ojk.go.id/id/ojk-pedia/default.aspx?a=R2334K2\",\"https://sirusa.web.bps.go.id/metadata/variabel/3042601d-72fe-d2ff-f3a4-5f8b9900b0ae\"]},{\"subject\":\"Malaysian answer\",\"conclusion\":\"“Caj pentadbiran” is a valid Malaysian expression for an administrative charge; “fi pentadbiran” and “yuran pentadbiran” are also attested alternatives.\",\"material_risk\":false,\"evidence_refs\":[\"https://repositori.parlimen.gov.my/bitstream/123456789/3521/64/ST.79.2025\",\"https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=yuran\",\"https://www.malaysia.gov.my/my/digital-services/application-for-estate-administration\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"“Different-common-word” is appropriate because Indonesian and Malaysian use different common lexical choices. No misleading false-friend contrast is present.\",\"material_risk\":false,\"evidence_limitation\":\"Evidence confirms the meanings and attested usage, but does not establish corpus-level frequency rankings among Malaysian alternatives.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Administrative fee” correctly denotes a fee charged for administrative processing.",
+        "evidence_refs": [
+          "https://www.ojk.go.id/id/ojk-pedia/default.aspx?a=R2334K2"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Biaya administrasi” is standard Indonesian for an administrative fee or charge.",
+        "evidence_refs": [
+          "https://www.ojk.go.id/id/ojk-pedia/default.aspx?a=R2334K2",
+          "https://sirusa.web.bps.go.id/metadata/variabel/3042601d-72fe-d2ff-f3a4-5f8b9900b0ae"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "“Caj pentadbiran” is a valid Malaysian expression for an administrative charge; “fi pentadbiran” and “yuran pentadbiran” are also attested alternatives.",
+        "evidence_refs": [
+          "https://repositori.parlimen.gov.my/bitstream/123456789/3521/64/ST.79.2025",
+          "https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=yuran",
+          "https://www.malaysia.gov.my/my/digital-services/application-for-estate-administration"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer"
+      },
+      {
+        "conclusion": "“Different-common-word” is appropriate because Indonesian and Malaysian use different common lexical choices. No misleading false-friend contrast is present.",
+        "evidence_limitation": "Evidence confirms the meanings and attested usage, but does not establish corpus-level frequency rankings among Malaysian alternatives.",
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers match the cue and sense. “Biaya administrasi” is standard Indonesian usage, while “caj pentadbiran” is a valid Malaysian expression for an administrative charge. “Yuran/fi pentadbiran” are also Malaysian alternatives, but this is a preference issue, not an answer error. No false-friend contrast is required.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

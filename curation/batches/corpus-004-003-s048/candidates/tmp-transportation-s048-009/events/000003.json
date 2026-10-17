@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:04:42.622653+00:00",
+  "input_digest": "832f5a9b4bffa6f29eb7c46b33e9ddee43beed42ccca3f11ebde2d1745faf891",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s008:tmp-directions-location-s008-005\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"Traffic sign and street sign can overlap as road signs conveying information or directions, but the candidate may refer more broadly to regulatory, warning, or instructional signs.\"}, {\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-009\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"A directional sign is a type of traffic sign giving route instructions, so the candidate's broader sense may overlap; the supplied sense does not establish a clear distinction.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s008:tmp-directions-location-s008-005",
+          "rationale": "Traffic sign and street sign can overlap as road signs conveying information or directions, but the candidate may refer more broadly to regulatory, warning, or instructional signs.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-009",
+          "rationale": "A directional sign is a type of traffic sign giving route instructions, so the candidate's broader sense may overlap; the supplied sense does not establish a clear distinction.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s008:tmp-directions-location-s008-005",
+        "rationale": "Traffic sign and street sign can overlap as road signs conveying information or directions, but the candidate may refer more broadly to regulatory, warning, or instructional signs.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-009",
+        "rationale": "A directional sign is a type of traffic sign giving route instructions, so the candidate's broader sense may overlap; the supplied sense does not establish a clear distinction.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "b2862c1cf7c754fc33f4363a302699b882fa963c917a770bf5369fb35f9782ec"
+}

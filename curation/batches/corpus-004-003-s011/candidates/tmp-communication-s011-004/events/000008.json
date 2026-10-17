@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:38:22.893053+00:00",
+  "result": {
+    "candidate_digest": "b52601405ef12d8ed330309da391857d8a4b1413b0179afb2ff36490a271b009",
+    "candidate_id": "tmp-communication-s011-004",
+    "checked_at": "2026-10-16T19:38:22.893053+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "Using penghantar as the Malaysian counterpart for a person who sends a message may mislead learners: it more commonly suggests a deliverer or courier, while pengirim is the natural shared form."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "Using penghantar as the Malaysian counterpart for a person who sends a message may mislead learners: it more commonly suggests a deliverer or courier, while pengirim is the natural shared form.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

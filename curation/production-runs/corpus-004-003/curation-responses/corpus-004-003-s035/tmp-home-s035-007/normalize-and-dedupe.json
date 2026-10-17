@@ -1,0 +1,62 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7513,
+  "input_digest": "10ca14491186b838ccb1bd3355a40e42b60c198646244be47a64f8f01ab9d50b",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 463,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-daily-001:daily-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Electricity is electrical power used in a home; light switch is a control for turning a light on or off.\"},{\"other_id\":\"cal3-home-001:home-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Electricity is the power supply; light bulb is the replaceable device that produces light.\"},{\"other_id\":\"corpus-004-003-s014:tmp-daily-life-s014-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Electricity is electrical power; electrical plug is the connector inserted into a socket.\"},{\"other_id\":\"corpus-004-003-s014:tmp-daily-life-s014-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Electricity is electrical power; extension cord extends an electrical connection.\"},{\"other_id\":\"corpus-004-003-s035:tmp-home-s035-012\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Electricity is electrical power; ceiling fan is a fan mounted on a ceiling.\"},{\"other_id\":\"corpus-004-003-s014:tmp-daily-life-s014-012\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Electricity is electrical power used in a home; power outage is the loss of that power.\"},{\"other_id\":\"technology-001:technology-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Electricity is electrical power; power outlet is the fixed socket used to connect an electrical plug.\"} ]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-daily-001:daily-04",
+          "rationale": "Electricity is electrical power used in a home; light switch is a control for turning a light on or off.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-home-001:home-07",
+          "rationale": "Electricity is the power supply; light bulb is the replaceable device that produces light.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-002",
+          "rationale": "Electricity is electrical power; electrical plug is the connector inserted into a socket.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-003",
+          "rationale": "Electricity is electrical power; extension cord extends an electrical connection.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s035:tmp-home-s035-012",
+          "rationale": "Electricity is electrical power; ceiling fan is a fan mounted on a ceiling.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-012",
+          "rationale": "Electricity is electrical power used in a home; power outage is the loss of that power.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "technology-001:technology-005",
+          "rationale": "Electricity is electrical power; power outlet is the fixed socket used to connect an electrical plug.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

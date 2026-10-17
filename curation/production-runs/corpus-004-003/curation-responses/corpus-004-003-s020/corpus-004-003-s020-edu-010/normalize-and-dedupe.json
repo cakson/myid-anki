@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4479,
+  "input_digest": "8c022fa936aad59855e45ba7c0c644fb2cf8b2663239393421057de93d14fc9a",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 239,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s020:corpus-004-003-s020-edu-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An exam paper contains the questions for an examination, while an answer sheet is the paper on which the answers are written; these are distinct concepts.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s020:corpus-004-003-s020-edu-011",
+          "rationale": "An exam paper contains the questions for an examination, while an answer sheet is the paper on which the answers are written; these are distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4785,
+  "input_digest": "421315facf758143fa838cc5b53d3f96f069d59271f9817632328bda9c49fc8e",
+  "input_tokens": 93713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 185,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-food-001:food-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are kitchen appliances, but the candidate is specifically an appliance that heats food with microwaves, whereas the existing oven is for baking or roasting with conventional oven heat; the senses and both answer sets differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-food-001:food-07",
+          "rationale": "Both are kitchen appliances, but the candidate is specifically an appliance that heats food with microwaves, whereas the existing oven is for baking or roasting with conventional oven heat; the senses and both answer sets differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-16T19:26:54.814786+00:00",
+  "input_digest": "01bd947d29eecfc83afdd26385c255203c95ec9e36038c10932d3e6f122bacc5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"Indonesian utama is an ordinary natural choice for 'first in importance or priority'; primer is more formal or domain-specific and often means primary/basic.\"], \"material_concerns\": [\"The proposed national contrast is likely to mislead Indonesian learners by presenting primer as the ordinary counterpart of Malaysian utama for this exact sense.\"], \"rationale\": \"Both forms can relate to 'primary', but utama is also common in Indonesian for priority, while primer does not provide a reliable Indonesian-versus-Malaysian preference for this cue.\", \"objection_assessments\": [], \"affirmative_defect\": \"artificial-synonym\", \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The cue is sufficiently specific, but primer is a weaker and more register-limited fit in Indonesian than utama.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Utama is a plausible ordinary Indonesian alternative for the same priority sense, directly weakening the claimed contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"utama\", \"language\": \"indonesian\", \"rationale\": \"Utama is an ordinary Indonesian form for something first in importance or priority, so it competes directly with primer.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "Indonesian utama is an ordinary natural choice for 'first in importance or priority'; primer is more formal or domain-specific and often means primary/basic."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "The cue is sufficiently specific, but primer is a weaker and more register-limited fit in Indonesian than utama.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The proposed national contrast is likely to mislead Indonesian learners by presenting primer as the ordinary counterpart of Malaysian utama for this exact sense."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "utama",
+        "language": "indonesian",
+        "rationale": "Utama is an ordinary Indonesian form for something first in importance or priority, so it competes directly with primer.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Both forms can relate to 'primary', but utama is also common in Indonesian for priority, while primer does not provide a reliable Indonesian-versus-Malaysian preference for this cue.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Utama is a plausible ordinary Indonesian alternative for the same priority sense, directly weakening the claimed contrast.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "Indonesian utama is an ordinary natural choice for 'first in importance or priority'; primer is more formal or domain-specific and often means primary/basic."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "The cue is sufficiently specific, but primer is a weaker and more register-limited fit in Indonesian than utama.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed national contrast is likely to mislead Indonesian learners by presenting primer as the ordinary counterpart of Malaysian utama for this exact sense."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "utama",
+      "language": "indonesian",
+      "rationale": "Utama is an ordinary Indonesian form for something first in importance or priority, so it competes directly with primer.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Both forms can relate to 'primary', but utama is also common in Indonesian for priority, while primer does not provide a reliable Indonesian-versus-Malaysian preference for this cue.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Utama is a plausible ordinary Indonesian alternative for the same priority sense, directly weakening the claimed contrast.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "5641d23789bed8b18bbcb5dfb1197f0d2c3ac33965506eb1d824645b1da7498f"
+}

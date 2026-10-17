@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T12:22:20.305718+00:00",
+  "result": {
+    "candidate_digest": "4f70cc2d5b79e2006086b0378ec4dbfe887637c42450f331ca6925af067a9a6a",
+    "candidate_id": "tmp-work-s052-009",
+    "checked_at": "2026-10-17T12:22:20.305718+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "buku panduan karyawan",
+        "language": "indonesian",
+        "rationale": "This is a plausible everyday Indonesian alternative for the same sense, though it does not eliminate the useful contrast.",
+        "signal": "credible-everyday-alternative"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "The pair conveys the same workplace document. Indonesian commonly uses karyawan and pedoman, while Malaysian commonly uses pekerja and panduan. Review concern: Some Indonesian usage may prefer panduan in this context.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "credible-competing-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

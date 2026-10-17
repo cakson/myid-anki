@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5531,
+  "input_digest": "0ff255f63d38d6a4f1633232e8d8fc4e5a6188d1b2d8fd3760b7784af924f658",
+  "input_tokens": 93727,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 274,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-food-001:food-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bank teller is a bank employee handling customers’ counter transactions; a cashier handles payment in a shop.\"},{\"other_id\":\"corpus-004-003-s017:tmp-shopping-s017-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A bank teller works at a bank counter and handles banking transactions; a store clerk assists customers in a retail shop.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-food-001:food-06",
+          "rationale": "A bank teller is a bank employee handling customers’ counter transactions; a cashier handles payment in a shop.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-shopping-s017-003",
+          "rationale": "A bank teller works at a bank counter and handles banking transactions; a store clerk assists customers in a retail shop.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

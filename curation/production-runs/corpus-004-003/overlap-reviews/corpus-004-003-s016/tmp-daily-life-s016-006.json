@@ -1,0 +1,87 @@
+{
+  "attempt_id": "a4879fb5b061ea28",
+  "candidate_id": "tmp-daily-life-s016-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Aligned: fabric softener is a laundry liquid added to make clothes and other textiles softer.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/fabric-softener"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Accepted and ordinary in Indonesian usage; Indonesian government materials use pelembut pakaian as the product category.",
+      "evidence_refs": [
+        "https://jdih.kemkes.go.id/common/dokumen/2023sedirjenfarmalkes2379.pdf",
+        "https://keslan.kemkes.go.id/view_artikel/269/iritasi-kulit"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pelembut pakaian"
+    },
+    {
+      "conclusion": "Accepted Malaysian Malay term for fabric softener, attested in Malaysian government educational material and Malaysian product documentation.",
+      "evidence_refs": [
+        "https://mastic.mosti.gov.my/storage/2024/07/jimatmudah_pocket_size.pdf",
+        "https://www.amway.my/pdpcontent/MYBN/110480_bm.html"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pelembut fabrik"
+    },
+    {
+      "conclusion": "The split is overstated: Malaysian usage also attests pelembut pakaian, while Malay dictionaries translate fabric softener as pelembut. Therefore the two forms should not be presented as cleanly variety-exclusive.",
+      "evidence_refs": [
+        "https://www.mstar.com.my/xpose/i-suke/2021/07/18/jangan-main-tuang-ada-5-jenis-fabrik-tidak-boleh-dicampur-dengan-pelembut-pakaian",
+        "https://ms.glosbe.com/ms/en/pelembut",
+        "https://ms.glosbe.com/en/ms/fabric%20softener"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "Incorrectly strong as different-common-word. Use shared-synonym-preference or another overlap-preserving relation; pelembut fabrik remains a useful Malaysian preference, not an exclusive national form.",
+      "evidence_refs": [
+        "https://mastic.mosti.gov.my/storage/2024/07/jimatmudah_pocket_size.pdf",
+        "https://www.mstar.com.my/xpose/i-suke/2021/07/18/jangan-main-tuang-ada-5-jenis-fabrik-tidak-boleh-dicampur-dengan-pelembut-pakaian"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted: the forms are semantically transparent and refer to the same laundry product. The empty contrast field is acceptable only if the card system permits no-contrast entries.",
+      "evidence_limitation": "The reviewed sources establish meaning and attested usage but do not provide a balanced corpus frequency comparison across Indonesia and Malaysia.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/fabric-softener",
+        "https://ms.glosbe.com/en/ms/fabric%20softener"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e96c7fe31b4b14e2f8aa7816c57998161ed402ea9e0d9ed20a7bb7281fa90a4a",
+  "correction_refs": [],
+  "decision_digest": "431db2bb5f22e26a7a4ad4d86854ee3a7e236df4e5176f441809390c115ba2b6",
+  "elapsed_ms": 27653,
+  "finding_class": "metadata-only",
+  "input_tokens": 96642,
+  "model_calls": 1,
+  "output_tokens": 2051,
+  "packet_digest": "23328e404efdcb67ac0f8059795162a8895fbfea60d7a39b1a903ff3ce0316d1",
+  "rationale": "Both answers are valid, but the national split is materially overstated. Indonesian uses pelembut pakaian, while Malaysian sources also attest pelembut pakaian and the shorter pelembut; pelembut fabrik is a valid Malaysian term but not a Malaysia-exclusive equivalent. Change the relation from different-common-word to shared-synonym-preference or equivalent overlap. The English cue and sense are accurate, and no false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:47:28.563926+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s016/tmp-daily-life-s016-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s016",
+  "verdict": "needs-correction"
+}

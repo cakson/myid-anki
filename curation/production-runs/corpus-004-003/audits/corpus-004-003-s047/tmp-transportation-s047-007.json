@@ -1,0 +1,74 @@
+{
+  "attempt_id": "8f08382ed23ab9f5",
+  "candidate_id": "tmp-transportation-s047-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“Parking meter” correctly denotes a meter used to charge for street parking.",
+      "evidence_refs": [
+        "https://jdih.kemendag.go.id/peraturan/download/1075/2"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Meter parkir” is a valid and officially attested Indonesian term.",
+      "evidence_refs": [
+        "https://jdih.kemendag.go.id/peraturan/download/1075/2",
+        "https://peraturan.bpk.go.id/Home/Download/269198/Permendag%20Nomor%2026%20Tahun%202021.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Meter letak kereta” is a valid Malaysian Malay term and is used in Malaysian legal/administrative language.",
+      "evidence_refs": [
+        "https://www.mbpp.gov.my/images/perundangan/aktapengangkutanjalan.pdf",
+        "https://pbt.kedah.gov.my/wp-content/uploads/2021/04/20x.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is too categorical because “meter parkir” is also attested in Malaysian usage, while Malaysian dictionary evidence gives “meter tempat letak kereta” for parking meter.",
+      "evidence_refs": [
+        "https://www.mbi.gov.my/sumber/utc-perak?catid=4%3Asorotan-penting&id=3082%3Amajlis-penghargaan-pengurusan-tempat-letak-kereta-tahun-2025&view=article",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=parking"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the difference is lexical/preference-based rather than a meaning divergence.",
+      "evidence_limitation": "The reviewed sources establish attestation and formal usage but do not provide a systematic frequency comparison across Indonesian and Malaysian corpora.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "46c2dd63dd9fe5be6a4afca9d34fa66e4f45f1a29c1b7ea84ef66d08296e0aa1",
+  "correction_refs": [],
+  "decision_digest": "5305eb76456f48f2df99142692f80742ab2e03fa827d5bc74e9c9cb6cba1cdf8",
+  "elapsed_ms": 14092,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 33434,
+  "model_calls": 1,
+  "output_tokens": 1080,
+  "packet_digest": "b364c0f2d1917db890a39bb2b7e0591a439d5ad01df6cf87e05d1794605a7c16",
+  "rationale": "The English cue and sense are correct, and both Malay forms are semantically valid. However, presenting “meter letak kereta” as the distinct Malaysian common word with relation “different-common-word” is potentially misleading: Malaysian official and dictionary sources also use or recognize “meter parkir,” while “meter letak kereta” is an established formal/preferred term. No false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:13:50.305947+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s047/tmp-transportation-s047-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s047",
+  "verdict": "needs-correction"
+}

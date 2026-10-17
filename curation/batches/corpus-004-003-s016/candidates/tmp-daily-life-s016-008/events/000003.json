@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:50:18.182016+00:00",
+  "input_digest": "c6d64963186b3f3340c018de0665327fe34d17deeefba52b1a644e07f2891c83",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s015:tmp-daily-life-s015-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bedside lamp is a light placed beside a bed; a bedside table is furniture beside a bed, so the senses and answers are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-002",
+          "rationale": "A bedside lamp is a light placed beside a bed; a bedside table is furniture beside a bed, so the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s015:tmp-daily-life-s015-002",
+        "rationale": "A bedside lamp is a light placed beside a bed; a bedside table is furniture beside a bed, so the senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "55e5e419be869bc79d50cda5a76e8691b8397502da90d1ec77a922d1c16d6cbf"
+}

@@ -1,0 +1,75 @@
+{
+  "attempt_id": "b1057d591b280e91",
+  "candidate_id": "tmp-technology-s043-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary for airplane mode in Indonesian device terminology.",
+      "evidence_refs": [
+        "https://support.apple.com/id-id/108785"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian: mode pesawat"
+    },
+    {
+      "conclusion": "Needs correction for a learner card. Malaysian device terminology commonly uses “Mod Kapal Terbang”; “mod penerbangan” is not the best standard equivalent for this setting.",
+      "evidence_refs": [
+        "https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios",
+        "https://support.apple.com/ms-my/120745",
+        "https://gscs-b2c.lge.com/downloadFile?fileId=KROWM000300825.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian: mod penerbangan"
+    },
+    {
+      "conclusion": "Correct: airplane mode is a device setting that disables wireless communication, subject to device-specific exceptions such as Bluetooth or manually re-enabled Wi-Fi.",
+      "evidence_refs": [
+        "https://support.apple.com/id-id/108785"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate after correcting the Malaysian form to “mod kapal terbang”; pesawat and kapal terbang are regional lexical choices for airplane.",
+      "evidence_refs": [
+        "https://support.apple.com/id-id/108785",
+        "https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No strict false friend is established, but “penerbangan” means flight/aviation and is less directly equivalent to “pesawat” or “kapal terbang” in this device-setting label.",
+      "evidence_refs": [
+        "https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios",
+        "https://support.apple.com/ms-my/120745"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "5201e4ad887b175d2e60953177c849c7a34f37edfba47755a77fa5c005e8f3cc",
+  "correction_refs": [],
+  "decision_digest": "e10a980bc474a9f8ba0dd845062d20255f0aa0932386adad10328c2630a5afcd",
+  "elapsed_ms": 17127,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61943,
+  "model_calls": 1,
+  "output_tokens": 1004,
+  "packet_digest": "d97e0cf25349cc45f89aef42ffd12ea24c62c99311b45ec6ff22f57439bd2276",
+  "rationale": "The Indonesian answer and sense are correct, but the proposed Malaysian learner form is not the standard/common device label supported by Malaysian usage. Malaysian sources use “Mod Kapal Terbang”; “mod penerbangan” is attested mainly as a generic flight-mode term and is less suitable here. The relation remains different-common-word after correction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:08:35.198096+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s043/tmp-technology-s043-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s043",
+  "verdict": "needs-correction"
+}

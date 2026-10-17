@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5904,
+  "input_digest": "8eed0c7ec8219696ec1b355a6f9958a16ef1eeae53aca5c06a78c2970eeef247",
+  "input_tokens": 93716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 349,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-home-001:home-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Plastic bag is a material-specific bag for carrying purchases, while shopping bag is a general-purpose purchase-carrying bag.\"},{\"other_id\":\"corpus-004-003-s041:tmp-shopping-s041-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Plastic bag and paper bag are distinct material-specific concepts, despite sharing the purchase-carrying function.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-home-001:home-08",
+          "rationale": "Plastic bag is a material-specific bag for carrying purchases, while shopping bag is a general-purpose purchase-carrying bag.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-002",
+          "rationale": "Plastic bag and paper bag are distinct material-specific concepts, despite sharing the purchase-carrying function.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

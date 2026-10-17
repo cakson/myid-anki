@@ -1,0 +1,75 @@
+{
+  "attempt_id": "2d9b6f1daad42fc4",
+  "candidate_id": "tmp-services-s038-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Security guard” and “a person hired to protect a place or property” accurately describe the target concept.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/16339/1/Senarai-Istilah-Asing-Indonesia-di-Ruang-Publik.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=pengawal"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Satpam” is a standard and common Indonesian term for a security guard or security officer.",
+      "evidence_refs": [
+        "https://kbbi.web.id/satpam",
+        "https://kbbi.co.id/arti-kata/satpam"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pengawal keselamatan” is an established Malaysian Malay expression for a security guard; “pengawal” itself means guard/keeper and is broader.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=pengawal",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=penjaga"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is a valid learner-facing relation: the Indonesian and Malaysian forms are distinct conventional terms for the same concept.",
+      "evidence_refs": [
+        "https://kbbi.web.id/satpam",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=pengawal"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted. The difference is lexical/register-related rather than a misleading cross-variety meaning contrast.",
+      "evidence_limitation": "The cited dictionaries establish meanings and usage, but do not directly measure comparative everyday frequency across both speech communities.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "6590e0e2843d2868547903913c3c011615f60cd672654c03f34ba085ed07755b",
+  "correction_refs": [],
+  "decision_digest": "844e374ba3206e8cafe39fdd44a9e89b72da5fc24b903c0d3b73dcac64289b5d",
+  "elapsed_ms": 13717,
+  "finding_class": "none",
+  "input_tokens": 33278,
+  "model_calls": 1,
+  "output_tokens": 977,
+  "packet_digest": "449d3940ff6c5cd5d5b59250bda8dde8ee95196b4d8611dcf1f5a651cd3245aa",
+  "rationale": "Both answers correctly express “security guard” in their respective standard varieties. “Satpam” is the ordinary Indonesian term, while “pengawal keselamatan” is an established Malaysian Malay expression. The sense and English cue align, and the relation “different-common-word” is appropriate. No false-friend contrast is needed because the forms are straightforward lexical counterparts; the empty contrast field is therefore non-problematic.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:01:53.007189+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s038/tmp-services-s038-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "cleared"
+}

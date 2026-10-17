@@ -1,0 +1,80 @@
+{
+  "attempt_id": "4c4480cc8691683c",
+  "candidate_id": "corpus-004-003-s020-edu-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: whiteboard is a smooth white writing surface commonly used by teachers in classrooms.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/whiteboard",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/whiteboard"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and attested Indonesian term for a whiteboard.",
+      "evidence_refs": [
+        "https://www.indotrading.com/jual-whiteboard",
+        "https://www.tokopapantulis.web.id/",
+        "https://www.tebingtinggikota.go.id/files/shares/PERKADA%20NO%2022%20TAHUN%202024/LAMPIRAN%20PERKADA%20SSH%20TAHUN%202025.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: papan tulis putih"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay term; DBP defines it as a white writing board used with erasable ink and lists it as the equivalent of whiteboard/marker board.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=papan+putih",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=175768&keyword=papan+putih"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: papan putih"
+    },
+    {
+      "conclusion": "Defensible as a contrast in common national preferences, but not an exclusive distinction because “whiteboard” is also used and overlapping alternatives may occur.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=papan+putih",
+        "https://www.shopee.co.id/list/Papan/Tulis/White%20Board",
+        "https://www.shopee.com.my/Whiteboard-Whiteboard-Magnetic-Non-Magnetic-White-Board-whiteboard-white-board-Aluminium-Frame-Papan-Putih%E7%99%BD%E6%9D%BF-i.15115806.9726222129"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast: the Indonesian and Malaysian forms are transparent compounds referring to the same object and sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=papan+putih",
+        "https://dictionary.cambridge.org/us/dictionary/english/whiteboard"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "eaa028547e23cf6adadae77ae879f9821f9fb461c0d7fdaea714908bbd7642f2",
+  "correction_refs": [],
+  "decision_digest": "36a4c621f8086c704761d38c411c26041a604bec67971b5e158fc1b208c07b56",
+  "elapsed_ms": 20002,
+  "finding_class": "none",
+  "input_tokens": 61709,
+  "model_calls": 1,
+  "output_tokens": 1472,
+  "packet_digest": "b0155b57be2d069f0ce270c4c8869f4c147a6fa12a56706ed3adc5cf275d9518",
+  "rationale": "Both answers correctly denote a classroom whiteboard. Indonesian usage supports “papan tulis putih,” while Malaysian terminology explicitly supports “papan putih.” The different-common-word relation is defensible as a national preference, though both languages may also use the English borrowing “whiteboard.” No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:39:11.856317+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s020/corpus-004-003-s020-edu-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s020",
+  "verdict": "cleared"
+}

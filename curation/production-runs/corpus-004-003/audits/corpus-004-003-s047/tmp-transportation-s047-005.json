@@ -1,0 +1,67 @@
+{
+  "attempt_id": "ac1469e1945bac6d",
+  "candidate_id": "tmp-transportation-s047-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid Indonesian expression meaning car rental.",
+      "evidence_refs": [
+        "https://www.traveloka.com/id-id/car-rental",
+        "https://play.google.com/store/apps/details?hl=id&id=com.needmobil.app"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian: rental mobil"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay expression meaning car rental.",
+      "evidence_refs": [
+        "https://www.hertzmalaysia.com/",
+        "https://mysst.customs.gov.my/assets/document/Industry%20Guides/GI/Panduan%20Perkhidmatan%20Sewa%20Kenderaan%20Penumpang%203.9.2025.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian: sewa kereta"
+    },
+    {
+      "conclusion": "Car rental correctly matches “A service for renting a car.”",
+      "evidence_refs": [
+        "https://www.traveloka.com/id-id/car-rental",
+        "https://www.hertzmalaysia.com/"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate; the forms differ across varieties, and neither creates a misleading false-friend contrast.",
+      "evidence_refs": [
+        "https://www.traveloka.com/id-id/car-rental",
+        "https://www.hertzmalaysia.com/"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1fd0632f80d4633a00e03fb458bb62cd3ad329c1ef0352224f4ca325a9fe612d",
+  "correction_refs": [],
+  "decision_digest": "7db31393fc68a4dfa3225924b50867a059e6a88d158fbd69765c4fa2d4b4e2d1",
+  "elapsed_ms": 13196,
+  "finding_class": "none",
+  "input_tokens": 33246,
+  "model_calls": 1,
+  "output_tokens": 759,
+  "packet_digest": "bfe8ecd37dd7f6aae5a04713cb9ad86e198e87e0c697eb0ec9391656c9fe361a",
+  "rationale": "Both forms are valid ordinary expressions for a car-rental service in their respective varieties. The English cue and sense align, and the contrast is a genuine lexical/form difference without a false-friend issue.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:13:36.162182+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s047/tmp-transportation-s047-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s047",
+  "verdict": "cleared"
+}

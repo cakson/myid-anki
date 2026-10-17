@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T05:06:44.666283+00:00",
+  "input_digest": "a306dafe67ad799bbe48bcb9a7231ff8575e9fd0117001aedec0c614ae5e2ca9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s014:tmp-daily-life-s014-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A travel adapter enables electrical devices to connect to foreign socket types; an electrical plug is the connector inserted into a socket.\"}, {\"other_id\": \"corpus-004-003-s014:tmp-daily-life-s014-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A travel adapter changes socket compatibility for travel; an extension cord only extends the distance from an existing electrical connection.\"}, {\"other_id\": \"technology-001:technology-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A travel adapter allows a device to connect to incompatible sockets; a power outlet is the fixed wall socket itself.\"}, {\"other_id\": \"technology-001:technology-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A travel adapter provides socket compatibility; a charger replenishes a rechargeable battery.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-002",
+          "rationale": "A travel adapter enables electrical devices to connect to foreign socket types; an electrical plug is the connector inserted into a socket.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-003",
+          "rationale": "A travel adapter changes socket compatibility for travel; an extension cord only extends the distance from an existing electrical connection.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "technology-001:technology-05",
+          "rationale": "A travel adapter allows a device to connect to incompatible sockets; a power outlet is the fixed wall socket itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "technology-001:technology-03",
+          "rationale": "A travel adapter provides socket compatibility; a charger replenishes a rechargeable battery.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s014:tmp-daily-life-s014-002",
+        "rationale": "A travel adapter enables electrical devices to connect to foreign socket types; an electrical plug is the connector inserted into a socket.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s014:tmp-daily-life-s014-003",
+        "rationale": "A travel adapter changes socket compatibility for travel; an extension cord only extends the distance from an existing electrical connection.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "technology-001:technology-05",
+        "rationale": "A travel adapter allows a device to connect to incompatible sockets; a power outlet is the fixed wall socket itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "technology-001:technology-03",
+        "rationale": "A travel adapter provides socket compatibility; a charger replenishes a rechargeable battery.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "964fce6568163faad1192d4b089ac8c84dbda99ef53c358976ee48dfd67e087a"
+}

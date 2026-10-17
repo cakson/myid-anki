@@ -1,0 +1,66 @@
+{
+  "attempt_id": "ae5f881fb9af690b",
+  "candidate_id": "tmp-common-adjectives-s004-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and natural for “humble” meaning not boastful or not arrogant.",
+      "evidence_refs": [
+        "https://kbbi.web.id/rendah%20hati"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: rendah hati"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay expression for behaving or presenting oneself humbly; it can emphasize conduct or self-effacement more than a stable personality trait.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=merendahkan+diri",
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=rendah"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: merendah diri"
+    },
+    {
+      "conclusion": "The cue “humble” and sense “not boastful about one's abilities or status” align with both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=rendah+diri",
+        "https://kbbi.web.id/rendah%20hati"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The relation should be revised from “different-common-word” to shared synonym with regional or usage preference. No false-friend contrast is supported.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=rendah",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=merendahkan+diri"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "3bb4b0943eced83bff4fca9276058d5ab5ec8bed3a7a45bda66046d35e92e4cf",
+  "correction_refs": [],
+  "decision_digest": "99579641660c72d068da120fb68ef30941fe5f48f5ecd9d22a44d99c40ed9cc8",
+  "elapsed_ms": 19912,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 80022,
+  "model_calls": 1,
+  "output_tokens": 1131,
+  "packet_digest": "a2ce072f4c9e1a8e13dc072cc4140c2da569c17c774d38a27a31e03f6439fa3b",
+  "rationale": "Both Malay answers correctly express the intended sense, but the relation label \"different-common-word\" overstates the regional distinction. Malaysian references also attest rendah hati, while merendah diri is a valid humility expression. Treat this as a shared-synonym/preference contrast, with a possible aspect/register nuance rather than a false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:19:57.635734+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s004/tmp-common-adjectives-s004-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s004",
+  "verdict": "needs-correction"
+}

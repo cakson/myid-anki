@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T04:53:25.781710+00:00",
+  "input_digest": "b635c38c7f7bd08db1f7ff0ede18d77d6acee15b77cd114076747330dc0bd0b9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"technology-001:technology-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A desktop computer is a specific stationary computer designed for desk use, while computer is the broader category.\"}, {\"other_id\": \"corpus-004-003-s042:tmp-technology-s042-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A desktop computer is stationary and designed for desk use, whereas a laptop is portable.\"}, {\"other_id\": \"cal3-technology-001:technology-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Desktop computer is a specific computer form factor; hardware refers broadly to physical computer equipment.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-02",
+          "rationale": "A desktop computer is a specific stationary computer designed for desk use, while computer is the broader category.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s042:tmp-technology-s042-001",
+          "rationale": "A desktop computer is stationary and designed for desk use, whereas a laptop is portable.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-technology-001:technology-04",
+          "rationale": "Desktop computer is a specific computer form factor; hardware refers broadly to physical computer equipment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "technology-001:technology-02",
+        "rationale": "A desktop computer is a specific stationary computer designed for desk use, while computer is the broader category.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s042:tmp-technology-s042-001",
+        "rationale": "A desktop computer is stationary and designed for desk use, whereas a laptop is portable.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-technology-001:technology-04",
+        "rationale": "Desktop computer is a specific computer form factor; hardware refers broadly to physical computer equipment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c5cfb7722add119317d0ee79a7d20699954a99e239aa206f26a122548655fd53"
+}

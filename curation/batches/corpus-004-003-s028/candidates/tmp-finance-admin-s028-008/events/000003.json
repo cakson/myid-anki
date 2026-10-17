@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:26:17.679990+00:00",
+  "input_digest": "9e4f43f381a750d674b6799700c69429baf12a583c9cd2ca147994127e7c69b5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s028-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A photocopy is a document reproduction made by copying; a rubber stamp is a physical stamp used to mark or authenticate documents.\"}, {\"other_id\": \"cal3-technology-001:technology-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A photocopy is a reproduction of a document, whereas a printer is the device that prints documents.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s028-007",
+          "rationale": "A photocopy is a document reproduction made by copying; a rubber stamp is a physical stamp used to mark or authenticate documents.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-technology-001:technology-02",
+          "rationale": "A photocopy is a reproduction of a document, whereas a printer is the device that prints documents.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s028-007",
+        "rationale": "A photocopy is a document reproduction made by copying; a rubber stamp is a physical stamp used to mark or authenticate documents.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-technology-001:technology-02",
+        "rationale": "A photocopy is a reproduction of a document, whereas a printer is the device that prints documents.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "ad661a92272186e3665c3461c2ef7bf11e2d7dea2689c6f607ef00d4fd8dbba0"
+}

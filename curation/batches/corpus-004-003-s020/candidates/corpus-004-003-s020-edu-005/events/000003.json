@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:56:57.912404+00:00",
+  "input_digest": "5a4830ab686c743984b2dba353c1691869558105e16024f023a459890b2e4c13",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s007:tmp-education-s007-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Whiteboard and blackboard are classroom writing boards, but the candidate specifically denotes a smooth white board typically used with markers, while the existing concept denotes a board used with chalk; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s007:tmp-education-s007-001",
+          "rationale": "Whiteboard and blackboard are classroom writing boards, but the candidate specifically denotes a smooth white board typically used with markers, while the existing concept denotes a board used with chalk; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s007:tmp-education-s007-001",
+        "rationale": "Whiteboard and blackboard are classroom writing boards, but the candidate specifically denotes a smooth white board typically used with markers, while the existing concept denotes a board used with chalk; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "82891600505f9497caf6419f14caa856a155df833262fea696b744ce9ed53b71"
+}

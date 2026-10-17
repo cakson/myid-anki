@@ -1,0 +1,66 @@
+{
+  "attempt_id": "3fa3aa40e054dc16",
+  "candidate_id": "tmp-common-adjectives-s005-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary for “local” or relating to a particular area.",
+      "evidence_refs": [
+        "https://kbbi.co.id/arti-kata/lokal"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer lokal"
+    },
+    {
+      "conclusion": "Correct and ordinary for “local,” especially in institutional or geographically defined contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tempatan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer tempatan"
+    },
+    {
+      "conclusion": "“From the nearby area” is a valid narrowing of local, though it emphasizes origin/residence more than some uses of lokal or tempatan.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=setempat"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The different-common-word relation is materially misleading because setempat is also a standard local-area term in Malaysian Malay and Indonesian; no false-friend contrast is supported.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=setempat",
+        "https://kbbi.lektur.id/setempat"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "c6c20cc60d2aa03050a5ef94858d6eaec431c727baacc68598bba7a9789568e7",
+  "correction_refs": [],
+  "decision_digest": "8baf37b075662301c81ee93d0ff12950d41dc2b528155b0c9cb54f35c0176622",
+  "elapsed_ms": 19513,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 76888,
+  "model_calls": 1,
+  "output_tokens": 1023,
+  "packet_digest": "579fb9236d75d6be3dcbb7eecaef0849b4dc5167bbd77e1c6718ddccc09dd775",
+  "rationale": "Both answers are valid for the cue, but the different-common-word relation overstates the contrast: Malaysian Malay also uses setempat for local, and Indonesian has setempat as a local-area term. No false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:21:43.026620+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s005/tmp-common-adjectives-s005-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s005",
+  "verdict": "needs-correction"
+}

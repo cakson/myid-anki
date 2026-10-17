@@ -1,0 +1,84 @@
+{
+  "attempt_id": "a49fabd96f37fc0e",
+  "candidate_id": "tmp-home-s035-001",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue \"dust\" and sense \"fine particles that settle on household surfaces\" are accurate and aligned.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/dust"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Debu is a correct Indonesian term for fine dust or powdery particles.",
+      "evidence_refs": [
+        "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: debu"
+    },
+    {
+      "conclusion": "Habuk is a correct and well-supported Malaysian Malay term for dry fine particles found on surfaces or in the air.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: habuk"
+    },
+    {
+      "conclusion": "The split is materially overstated: Malaysian Malay also accepts debu for dust and explicitly treats it as a synonym or near-equivalent of habuk. The card may present habuk as a Malaysian preference, but not as a uniquely Malaysian common word contrasted with Indonesian debu.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk",
+        "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=dust"
+      ],
+      "material_risk": true,
+      "subject": "Overlap and national split"
+    },
+    {
+      "conclusion": "The relation \"different-common-word\" is not adequately supported because the two forms overlap across varieties. A preference-based or shared-synonym relation would be more accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or warranted. Debu and habuk refer to the same dust concept in the relevant usage, rather than creating a misleading cross-variety meaning contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3a73b04029adaece32ee737807a9c3a42e10d38ee55fe729b49d8cbf39690dd6",
+  "correction_refs": [],
+  "decision_digest": "479299dd8f23887c85fbeecf1e34e51b29271fdd165df8de8d1346bc9d9c41d5",
+  "elapsed_ms": 20696,
+  "finding_class": "metadata-only",
+  "input_tokens": 62513,
+  "model_calls": 1,
+  "output_tokens": 1512,
+  "packet_digest": "e01706cba9ece80bce54f9e3fd2a3d568977623c986eea604d0f2d6b02eb1077",
+  "rationale": "The answers are semantically correct, but the national split is materially overstated. Malaysian Malay dictionaries define habuk as dust and also define debu as fine dust, explicitly linking debu with habuk. Thus debu is an accepted Malaysian equivalent, although habuk may remain a useful Malaysian preference. The English cue is aligned, and no false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:03:57.285519+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s035/tmp-home-s035-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s035",
+  "verdict": "needs-correction"
+}

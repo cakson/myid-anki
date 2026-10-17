@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:32:00.621976+00:00",
+  "input_digest": "798d237b4a704a4b0110bd464786dee66d8f39783e85ac3d4c72c8f9f8168f5f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cInfeksi\\u201d is the ordinary Indonesian term, while Malaysian Malay commonly prefers \\u201cjangkitan\\u201d for the same concept of infection caused by germs.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote an infection caused by germs; the cue is sufficiently specific and aligned.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cInfeksi\\u201d can occur in Malaysian medical usage, but \\u201cjangkitan\\u201d remains a useful ordinary Malaysian Malay preference; the contrast is credible without implying exclusivity.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Malaysian medical or technical contexts may also use \\u201cinfeksi.\\u201d\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"infeksi\", \"language\": \"malaysian\", \"rationale\": \"\\u201cInfeksi\\u201d exists in Malaysian usage, especially in medical contexts, but this does not by itself defeat the ordinary preference for \\u201cjangkitan.\\u201d\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote an infection caused by germs; the cue is sufficiently specific and aligned.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "infeksi",
+        "language": "malaysian",
+        "rationale": "“Infeksi” exists in Malaysian usage, especially in medical contexts, but this does not by itself defeat the ordinary preference for “jangkitan.”",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Infeksi” is the ordinary Indonesian term, while Malaysian Malay commonly prefers “jangkitan” for the same concept of infection caused by germs.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian medical or technical contexts may also use “infeksi.”",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Infeksi” can occur in Malaysian medical usage, but “jangkitan” remains a useful ordinary Malaysian Malay preference; the contrast is credible without implying exclusivity.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote an infection caused by germs; the cue is sufficiently specific and aligned.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "infeksi",
+      "language": "malaysian",
+      "rationale": "“Infeksi” exists in Malaysian usage, especially in medical contexts, but this does not by itself defeat the ordinary preference for “jangkitan.”",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Infeksi” is the ordinary Indonesian term, while Malaysian Malay commonly prefers “jangkitan” for the same concept of infection caused by germs.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian medical or technical contexts may also use “infeksi.”",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Infeksi” can occur in Malaysian medical usage, but “jangkitan” remains a useful ordinary Malaysian Malay preference; the contrast is credible without implying exclusivity.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "712df76dad4d87bef40c938f5d06bb2e697f83a46fe0ea9ab3693af4d457041c"
+}

@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5883,
+  "input_digest": "c99ee353a02adb7490225bbe8bed5bc98d46a2b81f26d8cbffddedc8aecd2089",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 349,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A food court is a shared dining area with multiple food vendors, whereas a shopping mall is a large building containing many shops; a food court may be located inside a mall but is not synonymous with it.\"},{\"other_id\":\"corpus-004-003-s030:tmp-food-cooking-s030-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A food court contains multiple food vendors in a shared dining area, whereas a food stall is a single small place selling prepared food.\"},{\"other_id\":\"corpus-004-003-s021:tmp-education-s021-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A food court is a general commercial dining area with multiple vendors, whereas a school canteen specifically serves food at a school.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-09",
+          "rationale": "A food court is a shared dining area with multiple food vendors, whereas a shopping mall is a large building containing many shops; a food court may be located inside a mall but is not synonymous with it.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s030:tmp-food-cooking-s030-004",
+          "rationale": "A food court contains multiple food vendors in a shared dining area, whereas a food stall is a single small place selling prepared food.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s021:tmp-education-s021-007",
+          "rationale": "A food court is a general commercial dining area with multiple vendors, whereas a school canteen specifically serves food at a school.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

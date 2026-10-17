@@ -1,0 +1,64 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 25584,
+  "input_tokens": 101496,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1431,
+  "packet_digest": "c04b8bc9f3ee43378fbf3c77392d1cf89932a8265bc47aa7c357f6f7853a627d",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"The English cue and both answers are valid for the intended medical sense, but the national split is materially overstated. Indonesian and Malaysian Malay both accept overlapping forms, especially radang and peradangan; keradangan is a Malaysian medical form, not an exclusive contrast. The relation should not remain different-common-word. No true false-friend contrast is established; Malay radang additionally has an anger-related sense, but its medical sense matches the cue.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Inflammation in body tissue is correctly represented by the cue and sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://medlineplus.gov/download/genetics/gene/otulin.pdf\",\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=inflamasi\"]},{\"subject\":\"Indonesian answer: peradangan\",\"conclusion\":\"Peradangan is an accepted Indonesian medical noun for inflammation or the process of becoming inflamed.\",\"material_risk\":false,\"evidence_refs\":[\"https://typoonline.com/amp/kbbi/peradangan\",\"https://keslan.kemkes.go.id/view_artikel/4123/jenis-radang-usus-dan-upaya-pencegahannya\"]},{\"subject\":\"Malaysian answer: keradangan\",\"conclusion\":\"Keradangan is an accepted Malaysian medical noun for inflammation, including inflammation in body tissue.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=keradangan\",\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=keradangan\"]},{\"subject\":\"National split and overlap\",\"conclusion\":\"The distinction is materially overstated: Malaysian terminology sources also list peradangan for inflammation, and radang is shared across both varieties as a medical equivalent.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=peradangan\",\"https://prpm.dbp.gov.my/Cari1?d=206468&keyword=radang\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supported. Malay radang has an additional anger or heat-of-body sense, but it also directly means medical inflammation; this is polysemy, not a misleading cross-variety equivalent.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=206468&keyword=radang\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=keradangan\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Inflammation in body tissue is correctly represented by the cue and sense.",
+        "evidence_refs": [
+          "https://medlineplus.gov/download/genetics/gene/otulin.pdf",
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=inflamasi"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Peradangan is an accepted Indonesian medical noun for inflammation or the process of becoming inflamed.",
+        "evidence_refs": [
+          "https://typoonline.com/amp/kbbi/peradangan",
+          "https://keslan.kemkes.go.id/view_artikel/4123/jenis-radang-usus-dan-upaya-pencegahannya"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: peradangan"
+      },
+      {
+        "conclusion": "Keradangan is an accepted Malaysian medical noun for inflammation, including inflammation in body tissue.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=keradangan",
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=keradangan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: keradangan"
+      },
+      {
+        "conclusion": "The distinction is materially overstated: Malaysian terminology sources also list peradangan for inflammation, and radang is shared across both varieties as a medical equivalent.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=peradangan",
+          "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=radang"
+        ],
+        "material_risk": true,
+        "subject": "National split and overlap"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported. Malay radang has an additional anger or heat-of-body sense, but it also directly means medical inflammation; this is polysemy, not a misleading cross-variety equivalent.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=radang",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=keradangan"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "The English cue and both answers are valid for the intended medical sense, but the national split is materially overstated. Indonesian and Malaysian Malay both accept overlapping forms, especially radang and peradangan; keradangan is a Malaysian medical form, not an exclusive contrast. The relation should not remain different-common-word. No true false-friend contrast is established; Malay radang additionally has an anger-related sense, but its medical sense matches the cue.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

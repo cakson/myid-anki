@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:36:43.017463+00:00",
+  "input_digest": "fb9b3daf62f99e41b48e0dc037cb43407d6d7ad91565b7951bbf1db7fe3ca5a8",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-actions-001:actions-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cto improve\\u201d means to make something better generally, while \\u201crepair\\u201d means to fix something damaged; the senses and both answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-04",
+          "rationale": "“to improve” means to make something better generally, while “repair” means to fix something damaged; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-actions-001:actions-04",
+        "rationale": "“to improve” means to make something better generally, while “repair” means to fix something damaged; the senses and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1434c9e6aa8521471b0ee7b478e299f047c038cfb15e34d8983ae2765cc1a300"
+}

@@ -1,0 +1,50 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5846,
+  "input_digest": "1018ff0545f306f0be698e5f2451d251644be6ad410e0bea0aacf1b58fbe4230",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 420,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A son is a male child of a parent; an older brother is a male sibling older than the speaker.\"},{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A son is a male child of a parent; a younger brother is a male sibling younger than the speaker.\"},{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Family member is a broad category, while son specifically denotes a male child of a parent.\"},{\"other_id\":\"corpus-004-003-s026:tmp-family-social-s026-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A sibling is a brother or sister sharing a parent; son specifically denotes a male child of a parent.\"},{\"other_id\":\"corpus-004-003-s026:tmp-family-social-s026-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Father denotes a male parent, whereas son denotes a male child of a parent.\"} ]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-001",
+          "rationale": "A son is a male child of a parent; an older brother is a male sibling older than the speaker.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-003",
+          "rationale": "A son is a male child of a parent; a younger brother is a male sibling younger than the speaker.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-010",
+          "rationale": "Family member is a broad category, while son specifically denotes a male child of a parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+          "rationale": "A sibling is a brother or sister sharing a parent; son specifically denotes a male child of a parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-001",
+          "rationale": "Father denotes a male parent, whereas son denotes a male child of a parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

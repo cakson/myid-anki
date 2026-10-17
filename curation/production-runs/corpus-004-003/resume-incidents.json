@@ -1,0 +1,90 @@
+[
+  {
+    "stage": "generation",
+    "failure_sequence": 137,
+    "error": "generate model returned non-JSON output",
+    "resolution": "same run resumed; allocation and completed state retained; 500 admitted"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 632,
+    "error": "malformed independent-verification response: preference_risk rationale is required",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 850,
+    "error": "independent-verification model failed: ",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1023,
+    "error": "malformed independent-verification response: preference_risk rationale is required",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1106,
+    "error": "malformed independent-verification response: preference_risk rationale is required",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1171,
+    "error": "malformed independent-verification response: preference_risk rationale is required",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1225,
+    "error": "malformed independent-verification response: preference_risk rationale is required",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1269,
+    "error": "independent-verification model returned non-JSON output",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1362,
+    "error": "normalize-and-dedupe model returned non-JSON output",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1455,
+    "error": "malformed independent-verification response: preference_risk rationale is required",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 1626,
+    "error": "normalize-and-dedupe model returned non-JSON output",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 2105,
+    "error": "stale captured response: corpus-004-003-s001:tmp-clothing-s001-005:normalize-and-dedupe",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "production-curation",
+    "failure_sequence": 2116,
+    "error": "malformed independent-verification response: preference_risk rationale is required",
+    "resolution": "same run resumed; completed candidates reused"
+  },
+  {
+    "stage": "risk-audit",
+    "interruption": "SIGINT after safety brake activated and 4 audit records were complete",
+    "resolution": "resumed same 221-candidate original roster; no audit requirement was skipped; later one post-correction audit review was added"
+  },
+  {
+    "stage": "QA correction recuration",
+    "interruption": "stale captures for revised proposals and one malformed fresh verifier response",
+    "resolution": "old captures archived, same candidate IDs recurred under v3.1, malformed response archived; run paused after a fresh critical finding"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-17T04:31:24.434146+00:00",
+  "result": {
+    "candidate_digest": "a1c3992b9861eb26737d9fa9d04c7525b4341ecd3bcc998ea8e3cc4938d5ed78",
+    "candidate_id": "tmp-food-cooking-s031-010",
+    "checked_at": "2026-10-17T04:31:24.434146+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "concrete",
+      "preference_risk": {
+        "form": "microwave",
+        "language": "malaysian",
+        "rationale": "The Indonesian loanword is also a plausible everyday alternative in Malaysian usage, alongside the Malay descriptive term.",
+        "signal": "credible-everyday-alternative"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms refer to an appliance that heats food with microwaves. Indonesian commonly uses the loanword “microwave,” while Malaysian Malay favors the descriptive term “ketuhar gelombang mikro.” Review concern: Malaysian speakers may commonly use “microwave,” so the national preference is not exclusive.",
+    "confidence_tier": "low",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "concrete-nonblocking-risk",
+      "credible-competing-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

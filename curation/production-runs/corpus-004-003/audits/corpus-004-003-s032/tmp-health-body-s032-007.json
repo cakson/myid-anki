@@ -1,0 +1,79 @@
+{
+  "attempt_id": "014b0a1f6cad6375",
+  "candidate_id": "tmp-health-body-s032-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate for burn injury/burn wound, including injury caused by fire or heat.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/luka",
+        "https://kamuslengkap.id/kamus/kbbi/arti-kata/luka-bakar/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: luka bakar"
+    },
+    {
+      "conclusion": "Valid Malay word, but its core meaning is scalding/blistering or skin affected by hot liquid, steam, or similar heat; it is not a full semantic match for the broad cue burn injury.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=melecur",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=melecur"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: melecur"
+    },
+    {
+      "conclusion": "Burn injury is broader than the Malaysian sense melecur; the supplied sense 'skin injury caused by heat' is acceptable for Indonesian luka bakar but overbroad for melecur.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=melecur",
+        "https://baru.kbbi.co.id/arti-kata/luka"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Not safe as stated because the entries are not equivalent common-word alternatives for the same learner sense. The relation should be revised or qualified with a semantic/register contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=melecur",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=lecur"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "Missing. Learners should be told that Indonesian luka bakar is the broad burn-injury term, while Malaysian melecur commonly points to scalding/blistering, especially from hot liquid or steam; Malaysian lecur/terbakar terminology may be needed for broader burn types.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=melecur",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=melecur",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=lecur"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "41172fc92708d37808ab97934edee52fc0a8a36d6a995f187a066cced06f6799",
+  "correction_refs": [],
+  "decision_digest": "a6db799221f6e6e6311e4838ca97f89ef1d53418d1411e5c57161c435e7b7068",
+  "elapsed_ms": 18724,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 52090,
+  "model_calls": 1,
+  "output_tokens": 1214,
+  "packet_digest": "c60d7d72840fae7f853ebd60de38a8aa0fcb4beac1a977d8dc1c987d9b4ea1cf",
+  "rationale": "The Indonesian answer is appropriate, but Malaysian melecur is narrower than the cue: it primarily describes blistering/scalding, especially from hot liquid or steam, rather than burn injury from heat in general. The proposed shared sense and relation therefore risk teaching a false equivalence. A contrast should be added.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:56:52.507069+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s032/tmp-health-body-s032-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "needs-correction"
+}

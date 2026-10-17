@@ -1,0 +1,78 @@
+{
+  "attempt_id": "761bd0f905f3aea6",
+  "candidate_id": "tmp-technology-s042-006",
+  "claim_reviews": [
+    {
+      "conclusion": "“Loudspeaker” accurately denotes equipment that converts electrical signals into audible sound and matches the stated device sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/loudspeaker",
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/loudspeaker"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Pengeras suara” is a valid Indonesian equivalent for loudspeaker/amplifying equipment.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/loudspeaker",
+        "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pembesar suara” is a valid Malaysian Malay term for an apparatus that amplifies or reproduces sound.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembesar",
+        "https://dictionary.cambridge.org/dictionary/english/loudspeaker"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The split is materially overstated for contrastive learning: Malaysian official reference material explicitly uses English “speaker” for the same electrical-device sense, while Indonesian technical usage also uses “speaker” alongside “pengeras suara.” This supports a shared synonym, although comparative frequency evidence is limited.",
+      "evidence_limitation": "The sources establish acceptance/usage, not directly comparable everyday frequency in Indonesia versus Malaysia.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=siar+raya",
+        "https://dgip.go.id/uploads/berita_resmi/file/ad2dfc97bde2fad3ceb07c00ddc3de06.pdf"
+      ],
+      "material_risk": true,
+      "subject": "National split and shared synonym"
+    },
+    {
+      "conclusion": "“Different-common-word” is incomplete without qualification because the canonical forms differ but overlap exists through “speaker.” No false-friend contrast is evidenced: “pengeras suara” and “pembesar suara” are transparent, semantically aligned compounds rather than misleading cross-variety lookalikes. The empty contrast is therefore preferable to inventing one.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembesar",
+        "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "26b86fe40935c7f9ac0b61628114677996c92ab6b89dde20320d1780b016813e",
+  "correction_refs": [],
+  "decision_digest": "76b0d402ea5460a28d1d007aa38e9135f77b57865c5678ae9fde9fb3ef9db009",
+  "elapsed_ms": 24711,
+  "finding_class": "metadata-only",
+  "input_tokens": 96381,
+  "model_calls": 1,
+  "output_tokens": 1830,
+  "packet_digest": "ca9ca24469e1c3f21ba5fe24731fed9665168e6372cd3f73e7d81db06bd833fc",
+  "rationale": "Both learner answers are valid variety-associated equivalents for the loudspeaker sense, but the national split is materially overstated because “speaker” is also an accepted shared technical/everyday form in both varieties. The relation should acknowledge the shared synonym rather than presenting the forms as an unqualified national contrast. The English cue is accurate. No genuine false-friend contrast is established; the empty contrast should not be filled speculatively.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:12:36.429151+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s042/tmp-technology-s042-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s042",
+  "verdict": "needs-correction"
+}

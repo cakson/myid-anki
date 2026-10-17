@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5232,
+  "input_digest": "908460fa1cd8cb6d6e2a36afa72ca6771eaabc783375db9d08c1d9ed53386178",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 270,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s002:tmp-common-adjectives-s002-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The Malaysian answer selamat is shared, but the candidate means an expression of congratulations (Indonesian selamat; Malaysian tahniah), while the existing concept means safe (Indonesian aman; Malaysian selamat). The senses and both answer pairs differ.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-006",
+          "rationale": "The Malaysian answer selamat is shared, but the candidate means an expression of congratulations (Indonesian selamat; Malaysian tahniah), while the existing concept means safe (Indonesian aman; Malaysian selamat). The senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

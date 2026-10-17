@@ -1,0 +1,86 @@
+{
+  "attempt_id": "ed781032914a558b",
+  "candidate_id": "tmp-common-adjectives-s004-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Careless correctly matches “not paying enough attention” and avoiding mistakes.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/careless"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Ceroboh is a valid Indonesian answer for careless in the stated sense, including being careless, incautious, or inattentive.",
+      "evidence_refs": [
+        "https://kbbi.web.id/ceroboh.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: ceroboh"
+    },
+    {
+      "conclusion": "Cuai is a valid Malaysian Malay answer for careless, meaning not careful, negligent, or inattentive.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=cuai"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: cuai"
+    },
+    {
+      "conclusion": "The distinction is not exclusive: Malaysian Malay dictionaries record ceroboh with a “not careful” sense, while Indonesian and Malaysian dictionaries both record lalai for insufficient care or attention.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=ceroboh",
+        "https://kbbi.web.id/lalai",
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=lalai"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "different-common-word is too strong without qualification. A qualified relation such as “different-preferred-terms-with-shared-equivalents” would better reflect the evidence.",
+      "evidence_refs": [
+        "https://kbbi.web.id/ceroboh.html",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=cuai",
+        "https://kbbi.web.id/lalai",
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=lalai"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No contrast is supplied. Because ceroboh and cuai overlap with the target sense and ceroboh has additional Malaysian meanings, the card needs an explicit usage or false-friend note if retained.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=ceroboh",
+        "https://kbbi.web.id/ceroboh.html"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ae8041e3c1ebf9df5fc820f5869396b975bfab0d67a28d601538bb57779be8a7",
+  "correction_refs": [],
+  "decision_digest": "72de12411eeffe63b947546b99e3a9b4d818c04e5e0458c67c7e98cfc2760c2e",
+  "elapsed_ms": 26987,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 103159,
+  "model_calls": 1,
+  "output_tokens": 1422,
+  "packet_digest": "fb7a534c44ea1601475f21120c5fcdac90bb8fc01306daaa8928f6eb1059bff6",
+  "rationale": "Both answers are valid in their respective varieties, but the national split is materially overstated. Indonesian ceroboh and Malaysian cuai both overlap with the cue, and lalai is an accepted equivalent in both varieties. Malaysian references also document ceroboh in the relevant careless/inattentive sense. The card lacks a false-friend contrast, so it should not present ceroboh versus cuai as an exclusive national distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:33:13.126146+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s004/tmp-common-adjectives-s004-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s004",
+  "verdict": "needs-correction"
+}

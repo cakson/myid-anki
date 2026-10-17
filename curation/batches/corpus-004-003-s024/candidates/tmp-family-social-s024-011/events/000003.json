@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T20:05:29.474029+00:00",
+  "input_digest": "a6101c97c0bb1fae6c0075874fcb6765650b66e748992b579eea19157865ac54",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both refer to a romantic partner, but the candidate is specifically a male partner while this entry is specifically a female partner; the English cues and both language answers differ.\"}, {\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate means a current male romantic partner, whereas this entry means a former male romantic partner; the relationship-time distinction is explicit.\"}, {\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A boyfriend is a male romantic partner, while a fianc\\u00e9 is specifically a man engaged to be married; the relationship status differs.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-012",
+          "rationale": "Both refer to a romantic partner, but the candidate is specifically a male partner while this entry is specifically a female partner; the English cues and both language answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-003",
+          "rationale": "The candidate means a current male romantic partner, whereas this entry means a former male romantic partner; the relationship-time distinction is explicit.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-002",
+          "rationale": "A boyfriend is a male romantic partner, while a fiancé is specifically a man engaged to be married; the relationship status differs.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-012",
+        "rationale": "Both refer to a romantic partner, but the candidate is specifically a male partner while this entry is specifically a female partner; the English cues and both language answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-003",
+        "rationale": "The candidate means a current male romantic partner, whereas this entry means a former male romantic partner; the relationship-time distinction is explicit.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-002",
+        "rationale": "A boyfriend is a male romantic partner, while a fiancé is specifically a man engaged to be married; the relationship status differs.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "fdcb46a4728b44e3bdaf1e714264ff58b0c59cdb7c3190c21b3b45e90c6da09e"
+}

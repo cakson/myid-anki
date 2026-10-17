@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T20:02:56.516045+00:00",
+  "input_digest": "1735e2a6a2dab2a54d0230203b58a257516d10cef9af4225dd5535c44ae9db2d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both involve sadness, but \\u201csad\\u201d is general sorrow while \\u201cheartbroken\\u201d specifically denotes deep distress after romantic loss or rejection.\"}, {\"other_id\": \"corpus-004-003-s022:tmp-emotions-s022-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both describe unhappiness, but \\u201csad\\u201d is general sorrow while \\u201cmiserable\\u201d denotes extreme unhappiness or distress.\"}, {\"other_id\": \"corpus-004-003-s023:tmp-emotions-s023-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both involve sorrow, but \\u201csad\\u201d is general sorrow whereas \\u201cgrieving\\u201d specifically refers to sorrow after a loss.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-007",
+          "rationale": "Both involve sadness, but “sad” is general sorrow while “heartbroken” specifically denotes deep distress after romantic loss or rejection.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-009",
+          "rationale": "Both describe unhappiness, but “sad” is general sorrow while “miserable” denotes extreme unhappiness or distress.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s023:tmp-emotions-s023-004",
+          "rationale": "Both involve sorrow, but “sad” is general sorrow whereas “grieving” specifically refers to sorrow after a loss.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-007",
+        "rationale": "Both involve sadness, but “sad” is general sorrow while “heartbroken” specifically denotes deep distress after romantic loss or rejection.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s022:tmp-emotions-s022-009",
+        "rationale": "Both describe unhappiness, but “sad” is general sorrow while “miserable” denotes extreme unhappiness or distress.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s023:tmp-emotions-s023-004",
+        "rationale": "Both involve sorrow, but “sad” is general sorrow whereas “grieving” specifically refers to sorrow after a loss.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "0d53f3918f29e3ebafaae2fb59252f3b0a0f1866954384a5bc1f2ad8ed61bb81"
+}

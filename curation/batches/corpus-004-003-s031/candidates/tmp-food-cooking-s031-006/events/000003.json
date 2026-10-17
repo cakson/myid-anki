@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:30:22.682473+00:00",
+  "input_digest": "e4e2b70b0344b6b81acdea8b4d397296b33691a6e6ca69e1ba3853173812db43",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s030:tmp-food-cooking-s030-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are salty fermented sauces, but the candidate is soybean-based soy sauce while this entry is fish-based fish sauce; the ingredients and concepts are distinct.\"}, {\"other_id\": \"food-001:foods-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The existing entry is the broad category sauce, whereas the candidate names the specific soybean-based salty sauce soy sauce; the specific concept is not identical to the generic category.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s030:tmp-food-cooking-s030-008",
+          "rationale": "Both are salty fermented sauces, but the candidate is soybean-based soy sauce while this entry is fish-based fish sauce; the ingredients and concepts are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "food-001:foods-05",
+          "rationale": "The existing entry is the broad category sauce, whereas the candidate names the specific soybean-based salty sauce soy sauce; the specific concept is not identical to the generic category.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s030:tmp-food-cooking-s030-008",
+        "rationale": "Both are salty fermented sauces, but the candidate is soybean-based soy sauce while this entry is fish-based fish sauce; the ingredients and concepts are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "food-001:foods-05",
+        "rationale": "The existing entry is the broad category sauce, whereas the candidate names the specific soybean-based salty sauce soy sauce; the specific concept is not identical to the generic category.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "75e32859c0652ef399e19e39cd8412313cc21eed88b859d7b5a523561643704e"
+}

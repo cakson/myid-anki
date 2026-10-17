@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T11:45:01.952788+00:00",
+  "result": {
+    "candidate_digest": "8d3674ec24577313afcffc58d12b49fc8f095a183fe6627a76ac259f6ff269fb",
+    "candidate_id": "tmp-daily-life-s014-007",
+    "checked_at": "2026-10-17T11:45:01.952788+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Fresh independent review found material missing learner contrast: Malaysian penanak means a person who cooks, not the appliance. No verified correction was prepared under this investigation; hold and withdraw pending reviewed correction and fresh clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:28:00.890499+00:00",
+  "input_digest": "05b9251ce96e31cc147a39fed31946631566629f57849b6d2b6b139f59bb7181",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"common-adjectives-001:topic-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both concern positive appearance, but \\u201cbeautiful\\u201d means aesthetically pleasing, while \\u201ccute (person or animal)\\u201d means endearing or charming; the senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-adjectives-001:topic-01",
+          "rationale": "Both concern positive appearance, but “beautiful” means aesthetically pleasing, while “cute (person or animal)” means endearing or charming; the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "common-adjectives-001:topic-01",
+        "rationale": "Both concern positive appearance, but “beautiful” means aesthetically pleasing, while “cute (person or animal)” means endearing or charming; the senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "a9aa0886816a38958bd2835f45f3239ccc153f3d2dfe4630a916b879d2e43c27"
+}

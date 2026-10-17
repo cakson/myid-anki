@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T19:45:29.335401+00:00",
+  "input_digest": "15d3d15734d0fda9891c1a5a2ed0e7f5a173b1fc164d761a8dba9845546ba83b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-food-001:food-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are kitchen items, but a rice cooker is an electric appliance specifically for cooking rice, while a cooking pot is a general deep vessel for cooking food; the Indonesian and Malaysian answers also differ.\"}, {\"other_id\": \"cal3-food-001:food-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are kitchen appliances, but a rice cooker cooks rice whereas a kettle boils water; the cues and both answers differ.\"}, {\"other_id\": \"cal3-food-001:food-07\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are cooking appliances, but an oven is for baking or roasting and a rice cooker is specifically for cooking rice; the cues and both answers differ.\"}, {\"other_id\": \"corpus-004-003-s031:tmp-food-cooking-s031-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are electric kitchen appliances, but a microwave heats food with microwaves while a rice cooker cooks rice; the cues and both answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-food-001:food-08",
+          "rationale": "Both are kitchen items, but a rice cooker is an electric appliance specifically for cooking rice, while a cooking pot is a general deep vessel for cooking food; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-food-001:food-06",
+          "rationale": "Both are kitchen appliances, but a rice cooker cooks rice whereas a kettle boils water; the cues and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-food-001:food-07",
+          "rationale": "Both are cooking appliances, but an oven is for baking or roasting and a rice cooker is specifically for cooking rice; the cues and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-010",
+          "rationale": "Both are electric kitchen appliances, but a microwave heats food with microwaves while a rice cooker cooks rice; the cues and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-food-001:food-08",
+        "rationale": "Both are kitchen items, but a rice cooker is an electric appliance specifically for cooking rice, while a cooking pot is a general deep vessel for cooking food; the Indonesian and Malaysian answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-food-001:food-06",
+        "rationale": "Both are kitchen appliances, but a rice cooker cooks rice whereas a kettle boils water; the cues and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-food-001:food-07",
+        "rationale": "Both are cooking appliances, but an oven is for baking or roasting and a rice cooker is specifically for cooking rice; the cues and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-010",
+        "rationale": "Both are electric kitchen appliances, but a microwave heats food with microwaves while a rice cooker cooks rice; the cues and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7b9a3634acb630314a71cd9388d2b1ef0c39ca50ff28fda4ae3c2bb073c2ca40"
+}

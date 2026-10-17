@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6556,
+  "input_digest": "970e985c2a4d39d91ffc2d8478fb27f21915cea5e0f910741b530fed8d109890",
+  "input_tokens": 93721,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 318,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"clothing-001:clothing-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Boots are ankle-covering footwear, while shoes are a broader everyday footwear category and the existing cue does not specify boots.\"},{\"other_id\":\"corpus-004-003-s001:tmp-clothing-s001-012\",\"type\":\"morphology\",\"resolution\":\"distinct\",\"rationale\":\"Rain boots are a specialized waterproof subtype worn in rainy weather; the candidate refers to sturdy ankle-covering boots generally.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-02",
+          "rationale": "Boots are ankle-covering footwear, while shoes are a broader everyday footwear category and the existing cue does not specify boots.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s001:tmp-clothing-s001-012",
+          "rationale": "Rain boots are a specialized waterproof subtype worn in rainy weather; the candidate refers to sturdy ankle-covering boots generally.",
+          "resolution": "distinct",
+          "type": "morphology"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

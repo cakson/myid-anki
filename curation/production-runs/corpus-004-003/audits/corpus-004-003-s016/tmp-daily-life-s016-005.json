@@ -1,0 +1,65 @@
+{
+  "attempt_id": "be4bcabcf5321f5b",
+  "candidate_id": "tmp-daily-life-s016-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for bleach or a whitening agent used in cleaning.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/bleach",
+        "https://kamuslengkap.id/kamus/kbbi/arti-kata/pemutih/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pemutih"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for a bleaching substance or bleach.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=peluntur",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=v+putih"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: peluntur"
+    },
+    {
+      "conclusion": "“Bleach (cleaning liquid)” correctly narrows the intended noun sense; whitening and disinfecting are compatible uses.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/zat-pemutih",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=hipoklorit"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is accurate. The forms differ, but neither is a misleading false friend in this sense; no contrast text is required.",
+      "evidence_limitation": "The references establish dictionary meaning more directly than regional frequency or casual spoken preference.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "c376bea9f2b807157d8a8dce7aa79b5f52c87a25b020c3dbd0edcc36df4a2a87",
+  "correction_refs": [],
+  "decision_digest": "4e8d59af06a18a1c9cfd4bc5f8e74a9ebd971206d2075f2cd2dca305d179d704",
+  "elapsed_ms": 22456,
+  "finding_class": "none",
+  "input_tokens": 71215,
+  "model_calls": 1,
+  "output_tokens": 1356,
+  "packet_digest": "78d1521e4ee2d13377409f0fcaf5b8dbeffbc86e398b74252d1f3145eb3ef756",
+  "rationale": "Both translations fit the cleaning-bleach sense. Indonesian pemutih and Malaysian peluntur are distinct ordinary terms, with no false-friend issue. The narrowed English cue is sufficiently specific; product form may vary, but this is not learner-critical.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:36:15.521811+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s016/tmp-daily-life-s016-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s016",
+  "verdict": "cleared"
+}

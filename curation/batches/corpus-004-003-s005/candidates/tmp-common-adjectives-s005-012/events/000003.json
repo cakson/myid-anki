@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:27:25.881938+00:00",
+  "input_digest": "e6e221ee69c441f1cf5c9c7a904c78d6bf835ce45b825ac94d2a65b7e24546e3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s002:tmp-common-adjectives-s002-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Available means obtainable or free for use; ready means prepared for use or action, so the senses differ.\"}, {\"other_id\": \"corpus-004-003-s040:tmp-shopping-s040-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Available is a general adjective describing obtainability; product availability is a noun phrase specifically concerning whether a product can currently be obtained.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-004",
+          "rationale": "Available means obtainable or free for use; ready means prepared for use or action, so the senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s040:tmp-shopping-s040-011",
+          "rationale": "Available is a general adjective describing obtainability; product availability is a noun phrase specifically concerning whether a product can currently be obtained.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-004",
+        "rationale": "Available means obtainable or free for use; ready means prepared for use or action, so the senses differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s040:tmp-shopping-s040-011",
+        "rationale": "Available is a general adjective describing obtainability; product availability is a noun phrase specifically concerning whether a product can currently be obtained.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "4a3f1b887a7aa1a0a1f5568dc76ecba84dcc0a3b57089fefb5ea49665461bb39"
+}

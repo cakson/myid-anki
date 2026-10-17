@@ -1,0 +1,80 @@
+{
+  "attempt_id": "50f2dd3a86d85d9c",
+  "candidate_id": "corpus-004-003-s020-edu-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: whiteboard is a smooth white writing board commonly used in classrooms; the supplied sense is appropriately scoped.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/whiteboard"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and attested Indonesian wording for a whiteboard.",
+      "evidence_refs": [
+        "https://shopee.co.id/list/Papan/Tulis/White%20Board",
+        "https://peraturan.bpk.go.id/Download/385722/Perwal%20sukabumi%2033%202024.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: papan tulis putih"
+    },
+    {
+      "conclusion": "Valid and attested Malaysian wording for a whiteboard, including educational and product contexts.",
+      "evidence_refs": [
+        "https://saidina.com.my/product/whiteboard/",
+        "https://ir.uitm.edu.my/81183/1/81183.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: papan putih"
+    },
+    {
+      "conclusion": "Material overlap exists: “whiteboard” is used alongside local terms in Indonesian and Malaysian contexts, so the distinction is preference-level rather than a reliable different-common-word contrast.",
+      "evidence_refs": [
+        "https://shopee.co.id/list/Papan/Tulis/White%20Board",
+        "https://saidina.com.my/product/whiteboard/",
+        "https://dictionary.cambridge.org/us/dictionary/english/whiteboard"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and national split"
+    },
+    {
+      "conclusion": "different-common-word is not supported as a strong learner relation; shared synonym or regional-preference wording would be more accurate.",
+      "evidence_limitation": "Available sources establish usage overlap but do not provide comparable frequency data sufficient to rank everyday preference by country.",
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present. The two local forms are semantically transparent and refer to the same object; the empty contrast field leaves the learner without clarification of the overlap.",
+      "evidence_limitation": "No separate false-friend candidate or contrast text was supplied for verification.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "eaa028547e23cf6adadae77ae879f9821f9fb461c0d7fdaea714908bbd7642f2",
+  "correction_refs": [],
+  "decision_digest": "36a4c621f8086c704761d38c411c26041a604bec67971b5e158fc1b208c07b56",
+  "elapsed_ms": 23461,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 99980,
+  "model_calls": 1,
+  "output_tokens": 1383,
+  "packet_digest": "c680f74b23e25863e600f60a8cc401f541101f64736ffdd031fc630b69be2872",
+  "rationale": "The proposed national split is materially overstated. “Papan tulis putih” is an established Indonesian term, and “papan putih” is used in Malaysian educational/commercial contexts, but the shared borrowing “whiteboard” is also used in both varieties. The answers denote the same ordinary object, so different-common-word is not a robust relation. The English cue and sense are correct. The false-friend contrast is empty and provides no useful disambiguation.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:50:07.137229+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s020/corpus-004-003-s020-edu-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s020",
+  "verdict": "needs-correction"
+}

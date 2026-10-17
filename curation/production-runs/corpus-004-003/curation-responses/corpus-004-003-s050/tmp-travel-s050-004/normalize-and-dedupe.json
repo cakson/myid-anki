@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5732,
+  "input_digest": "f244e1ce982e9db32ef7915b8a037c5cd9d8f55a4b972d1aa28aed0c3137a136",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 311,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s019:tmp-travel-s019-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Passport is the travel document itself; passport control is the official inspection of that document, with different Indonesian and Malaysian answers.\"},{\"other_id\":\"000062\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Immigration refers to the process or authority governing entry and exit, while passport control specifically means checking a traveler's passport.\"},{\"other_id\":\"corpus-004-003-s038:tmp-services-s038-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Security screening checks for security risks before travel or entry; passport control verifies travel documents and identity.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s019:tmp-travel-s019-001",
+          "rationale": "Passport is the travel document itself; passport control is the official inspection of that document, with different Indonesian and Malaysian answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000062",
+          "rationale": "Immigration refers to the process or authority governing entry and exit, while passport control specifically means checking a traveler's passport.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-011",
+          "rationale": "Security screening checks for security risks before travel or entry; passport control verifies travel documents and identity.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

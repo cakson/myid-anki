@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5449,
+  "input_digest": "5c8c22a3e5b17c4c0e52702b00956f2616d4b12a9273eb0fb6a99460c63a9a18",
+  "input_tokens": 93720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 347,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s047:tmp-transportation-s047-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A subway train is the complete urban rail vehicle; a train carriage is one separate vehicle section within a train.\"},{\"other_id\":\"corpus-004-003-s047:tmp-transportation-s047-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A subway train is the vehicle operating on the railway; railway track is the infrastructure it travels on.\"},{\"other_id\":\"fresh-travel-001:travel-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A subway train is the rail vehicle, whereas a train station is the place where trains serve passengers.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s047:tmp-transportation-s047-001",
+          "rationale": "A subway train is the complete urban rail vehicle; a train carriage is one separate vehicle section within a train.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s047:tmp-transportation-s047-002",
+          "rationale": "A subway train is the vehicle operating on the railway; railway track is the infrastructure it travels on.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-travel-001:travel-01",
+          "rationale": "A subway train is the rail vehicle, whereas a train station is the place where trains serve passengers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

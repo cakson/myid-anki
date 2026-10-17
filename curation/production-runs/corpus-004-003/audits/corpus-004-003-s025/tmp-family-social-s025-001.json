@@ -1,0 +1,73 @@
+{
+  "attempt_id": "086e0d577dcf4e0e",
+  "candidate_id": "tmp-family-social-s025-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid for “a particularly close friend,” though not necessarily an exclusive equivalent of “best friend.”",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/sahabat",
+        "https://baru.kbbi.co.id/arti-kata/sahabat"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: sahabat karib"
+    },
+    {
+      "conclusion": "Understandable, but semantically weaker and potentially just “good friend,” so it is not a consistently reliable answer for “best friend.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=karib",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=sahabat"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: kawan baik"
+    },
+    {
+      "conclusion": "The cue “best friend” and sense “a particularly close friend” are broadly aligned, but the sense permits close friend rather than strict superlative best friend.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/sahabat",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=karib"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Misleading as a dialect contrast: “sahabat karib” is also valid Malay, and “kawan baik” is intelligible Indonesian; the forms are not cleanly variety-exclusive.",
+      "evidence_limitation": "Dictionary evidence confirms the meanings but does not establish corpus frequency or variety exclusivity for both phrases.",
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied or apparent.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/sahabat",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=sahabat"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "efdd8138df755ed7fb6132fb15c9e0679b4f25f26bd3980bf2712859a320f4ed",
+  "correction_refs": [],
+  "decision_digest": "9af393f48217b376bb8e6f4b95f7fcff3c6e4dbda0ef64cc67d2bb37b5934cad",
+  "elapsed_ms": 18276,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49670,
+  "model_calls": 1,
+  "output_tokens": 1146,
+  "packet_digest": "773cb12eedee9224f4a9e0e0171ee6d7dd1a8e2df06186978976fb4580522037",
+  "rationale": "Both expressions are understandable, but the card overstates the contrast. Indonesian “sahabat karib” means a close/intimate friend and is suitable for the stated sense. Malaysian “kawan baik” commonly means a good friend and does not reliably convey “best” or closest friend. Neither form is exclusive to one variety, so the claimed different-common-word relation is misleading. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:45:05.512630+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s025/tmp-family-social-s025-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s025",
+  "verdict": "needs-correction"
+}

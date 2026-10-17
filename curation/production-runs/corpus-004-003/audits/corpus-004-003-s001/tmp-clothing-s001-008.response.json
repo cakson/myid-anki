@@ -1,0 +1,54 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18898,
+  "input_tokens": 51115,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1281,
+  "packet_digest": "dbef8914f5cccbbb1f5ef744799c6891900e604ba530158f298ebd69465572e7",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Both answers fit the cue and sense, but the relation “different-common-word” overstates the contrast: motif is also valid in Malaysian Malay and corak is semantically available in Indonesian. Treat this as a cross-variety preference contrast, not an exclusive lexical split. No false-friend contrast is required or supported.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: motif\",\"conclusion\":\"Correct for “clothing pattern,” including decorative patterns on fabric or clothing.\",\"material_risk\":false,\"evidence_refs\":[\"[KBBI entry for motif](https://kbbi.web.id/motif)\"]},{\"subject\":\"Malaysian Malay answer: corak\",\"conclusion\":\"Correct and well-supported for a decorative design or pattern on cloth/clothing.\",\"material_risk\":false,\"evidence_refs\":[\"[PRPM entry for corak](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=corak+)\",\"[PRPM English-Malay entry for pattern](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=corak)\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Clothing pattern” and “decorative design on cloth or clothing” are aligned with both answers.\",\"material_risk\":false,\"evidence_refs\":[\"[KBBI entry for motif](https://kbbi.web.id/motif)\",\"[PRPM English-Malay entry for pattern](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=corak)\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"The forms differ in typical preference, but are not cleanly different common words: motif is also attested in Malay for a design or pattern, while corak is broadly understandable in Indonesian. The relation should be revised to a shared-form or preference-based contrast; no false-friend warning is substantiated.\",\"material_risk\":true,\"evidence_refs\":[\"[PRPM entry for motif](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=motif)\",\"[PRPM entry for corak](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=corak+)\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for “clothing pattern,” including decorative patterns on fabric or clothing.",
+        "evidence_refs": [
+          "[KBBI entry for motif](https://kbbi.web.id/motif)"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: motif"
+      },
+      {
+        "conclusion": "Correct and well-supported for a decorative design or pattern on cloth/clothing.",
+        "evidence_refs": [
+          "[PRPM entry for corak](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=corak+)",
+          "[PRPM English-Malay entry for pattern](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=corak)"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: corak"
+      },
+      {
+        "conclusion": "“Clothing pattern” and “decorative design on cloth or clothing” are aligned with both answers.",
+        "evidence_refs": [
+          "[KBBI entry for motif](https://kbbi.web.id/motif)",
+          "[PRPM English-Malay entry for pattern](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=corak)"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "The forms differ in typical preference, but are not cleanly different common words: motif is also attested in Malay for a design or pattern, while corak is broadly understandable in Indonesian. The relation should be revised to a shared-form or preference-based contrast; no false-friend warning is substantiated.",
+        "evidence_refs": [
+          "[PRPM entry for motif](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=motif)",
+          "[PRPM entry for corak](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=corak+)"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers fit the cue and sense, but the relation “different-common-word” overstates the contrast: motif is also valid in Malaysian Malay and corak is semantically available in Indonesian. Treat this as a cross-variety preference contrast, not an exclusive lexical split. No false-friend contrast is required or supported.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

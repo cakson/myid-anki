@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:22:19.199144+00:00",
+  "input_digest": "a8b5cb1ecc3db1732123d065b29f9b746c141bfa5b488f1090b9e83da3c8d426",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"clothing-001:clothing-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are lower-body garments, but a sarong is a tube-shaped garment wrapped around the body, while a skirt is worn from the waist downward and is not defined by wrapping.\"}, {\"other_id\": \"cal2-daily-001:daily-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The shared Indonesian word component \\u201csarung\\u201d is morphological coincidence across distinct concepts: sarong is a wrapped lower-body garment, whereas sarung bantal is a pillowcase.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-04",
+          "rationale": "Both are lower-body garments, but a sarong is a tube-shaped garment wrapped around the body, while a skirt is worn from the waist downward and is not defined by wrapping.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-06",
+          "rationale": "The shared Indonesian word component “sarung” is morphological coincidence across distinct concepts: sarong is a wrapped lower-body garment, whereas sarung bantal is a pillowcase.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "clothing-001:clothing-04",
+        "rationale": "Both are lower-body garments, but a sarong is a tube-shaped garment wrapped around the body, while a skirt is worn from the waist downward and is not defined by wrapping.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-daily-001:daily-06",
+        "rationale": "The shared Indonesian word component “sarung” is morphological coincidence across distinct concepts: sarong is a wrapped lower-body garment, whereas sarung bantal is a pillowcase.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "a6bc642e60cd176abca3122d06e786f88e53654dd6779ee1cef6bd859cf3e060"
+}

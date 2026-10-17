@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:53:21.153549+00:00",
+  "input_digest": "2786e09ec5ad544a851a2029facbaf805def8e95df6929b0637efd097b70f022",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cdead center\\u201d means exactly at the middle point of a place, while \\u201ccity center\\u201d means the central urban area of a city; their senses and answers are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-002",
+          "rationale": "“dead center” means exactly at the middle point of a place, while “city center” means the central urban area of a city; their senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-002",
+        "rationale": "“dead center” means exactly at the middle point of a place, while “city center” means the central urban area of a city; their senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "efb1183478820ea7347625647b46a4bada3fb498ab9e775c91c0df86cdbd62f9"
+}

@@ -1,0 +1,80 @@
+{
+  "attempt_id": "f723bdc88625084b",
+  "candidate_id": "tmp-common-verbs-s008-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Aligned: 'to worry about' means to feel anxious or concerned about a person, thing, or possible event; the stated sense is broadly accurate.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/worry",
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/worry"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid, but polysemous. Indonesian dictionary evidence gives both 'worry about a thing' and 'cause worry', so it can answer the cue in the intended transitive sense.",
+      "evidence_refs": [
+        "https://kbbi.web.id/khawatir.html",
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/concern"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer mengkhawatirkan"
+    },
+    {
+      "conclusion": "Material mismatch for the stated sense. PRPM defines membimbangkan as 'cause someone to feel worried' or 'make anxious', which is causative rather than simply 'feel concerned about'. A learner could incorrectly use it where bimbang/risau tentang is intended.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=105584&keyword=membimbangkan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membimbangkan"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer membimbangkan"
+    },
+    {
+      "conclusion": "Materially overstated. Malaysian PRPM explicitly records risau and merisaukan for being worried about something, while Indonesian dictionary evidence records risau and merisaukan with related worry meanings. This supports a shared accepted lexical family, even if mengkhawatirkan and membimbangkan remain useful variety-associated preferences.",
+      "evidence_limitation": "The Indonesian risau evidence is from an online KBBI mirror rather than the current official KBBI interface; it is sufficient to establish dictionary attestation but not relative frequency or national preference strength.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=risau",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=merisaukan",
+        "https://kbbi.web.id/risau-2"
+      ],
+      "material_risk": true,
+      "subject": "National split and ordinary overlap"
+    },
+    {
+      "conclusion": "The relation different-common-word should be softened or changed to a preference/overlap relation. The empty false-friend contrast is acceptable: the evidence shows semantic and argument-structure differences, not a misleading cognate with an unrelated meaning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=105584&keyword=membimbangkan",
+        "https://prpm.dbp.gov.my/cari1?keyword=risau",
+        "https://kbbi.web.id/khawatir.html"
+      ],
+      "material_risk": true,
+      "subject": "Relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "ed3c80b808a5d030c14ee2c8d4ebf8d5d7275dfedcc0c7d02a1f6b19c8f1661a",
+  "correction_refs": [],
+  "decision_digest": "828efeac5ffda608307d0fde141ca1a7188c0cbfa934b19c0fc369e2f739d3e9",
+  "elapsed_ms": 37506,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 196025,
+  "model_calls": 1,
+  "output_tokens": 2389,
+  "packet_digest": "02b0f551ed737bf5c22dd2b9f9234af212debf1d86c2075f27cb6192f80d0ab6",
+  "rationale": "The national distinction is materially overstated. Indonesian mengkhawatirkan is valid for 'worry about' but also means 'cause worry'. Malaysian membimbangkan is primarily causative ('cause someone to worry'), so it does not cleanly match the stated sense 'feel concerned about'. Malaysian risau/merisaukan provides an accepted overlapping alternative, and Indonesian also has risau/merisaukan. The card should correct the Malaysian answer or narrow the sense, and revise the relation label. No false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:38:01.805560+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s008/tmp-common-verbs-s008-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s008",
+  "verdict": "needs-correction"
+}

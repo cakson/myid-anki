@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:26:31.982256+00:00",
+  "input_digest": "aad72ab12c038e4d4914a7635a2aab629177c48b01eb2744b07d8faa44a88795",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-002\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201cbank card\\u201d used to access an account at an ATM may refer to a debit card, but the cue is broader and the supplied answers differ: \\u201ckartu ATM/kad ATM\\u201d versus \\u201ckartu debit/kad debit\\u201d; exact concept overlap is not proven.\"}, {\"other_id\": \"corpus-004-003-s028:tmp-finance-admin-s028-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is a card used by a person to access an account, whereas \\u201cATM\\u201d is the machine used for banking transactions; object senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-002",
+          "rationale": "“bank card” used to access an account at an ATM may refer to a debit card, but the cue is broader and the supplied answers differ: “kartu ATM/kad ATM” versus “kartu debit/kad debit”; exact concept overlap is not proven.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-005",
+          "rationale": "The candidate is a card used by a person to access an account, whereas “ATM” is the machine used for banking transactions; object senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-002",
+        "rationale": "“bank card” used to access an account at an ATM may refer to a debit card, but the cue is broader and the supplied answers differ: “kartu ATM/kad ATM” versus “kartu debit/kad debit”; exact concept overlap is not proven.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-005",
+        "rationale": "The candidate is a card used by a person to access an account, whereas “ATM” is the machine used for banking transactions; object senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d180b3de959a87d4a1f4891e5b4f6e5611ffd84979ba92434d504fc7693055ba"
+}

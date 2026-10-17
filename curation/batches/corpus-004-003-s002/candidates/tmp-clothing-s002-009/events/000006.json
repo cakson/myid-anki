@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:22:13.389880+00:00",
+  "input_digest": "3f47ee18a142389b6f8162d10ec1641ff60bb5a0f953623a228e1e1f6cfa5b8d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian answer is broader: \\\"hujung lengan\\\" means the end of a sleeve, not specifically the wrist cuff or cuff band.\"], \"material_concerns\": [\"The two answers do not reliably express the same exact sense; narrowing the cue cannot align them without making \\\"manset\\\" too specific.\"], \"rationale\": \"Indonesian \\\"manset\\\" fits \\\"cuff,\\\" but Malaysian \\\"hujung lengan\\\" is a general sleeve-end phrase and may include areas other than the cuff.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"\\\"Cuff\\\" precisely matches \\\"manset,\\\" while \\\"hujung lengan\\\" describes the sleeve end more broadly.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"manset\", \"language\": \"malaysian\", \"rationale\": \"The Malaysian answer may also use or understand \\\"manset\\\" for the precise cuff sense, so the proposed contrast is not securely established.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malaysian answer is broader: \"hujung lengan\" means the end of a sleeve, not specifically the wrist cuff or cuff band."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "\"Cuff\" precisely matches \"manset,\" while \"hujung lengan\" describes the sleeve end more broadly.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The two answers do not reliably express the same exact sense; narrowing the cue cannot align them without making \"manset\" too specific."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "manset",
+        "language": "malaysian",
+        "rationale": "The Malaysian answer may also use or understand \"manset\" for the precise cuff sense, so the proposed contrast is not securely established.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Indonesian \"manset\" fits \"cuff,\" but Malaysian \"hujung lengan\" is a general sleeve-end phrase and may include areas other than the cuff.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malaysian answer is broader: \"hujung lengan\" means the end of a sleeve, not specifically the wrist cuff or cuff band."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "\"Cuff\" precisely matches \"manset,\" while \"hujung lengan\" describes the sleeve end more broadly.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The two answers do not reliably express the same exact sense; narrowing the cue cannot align them without making \"manset\" too specific."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "manset",
+      "language": "malaysian",
+      "rationale": "The Malaysian answer may also use or understand \"manset\" for the precise cuff sense, so the proposed contrast is not securely established.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Indonesian \"manset\" fits \"cuff,\" but Malaysian \"hujung lengan\" is a general sleeve-end phrase and may include areas other than the cuff.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "84da15f997ea73a60912fb55045d7b8abec28b6c600cb3947b109031683475d0"
+}

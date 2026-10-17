@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T05:05:53.019243+00:00",
+  "input_digest": "f09331709785258aed800b5115543eeb9ca6141cbb1f58bbcb01036e07b1b0ae",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s049:tmp-travel-s049-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A boarding gate is the airport location where passengers board; a boarding pass is the document used to board a flight.\"}, {\"other_id\": \"corpus-004-003-s049:tmp-travel-s049-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A boarding gate is the location where passengers board; a check-in counter is where passengers complete check-in.\"}, {\"other_id\": \"corpus-004-003-s049:tmp-travel-s049-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A boarding gate is the boarding location, whereas a departure lounge is the airport waiting area before departure.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-001",
+          "rationale": "A boarding gate is the airport location where passengers board; a boarding pass is the document used to board a flight.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-005",
+          "rationale": "A boarding gate is the location where passengers board; a check-in counter is where passengers complete check-in.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-006",
+          "rationale": "A boarding gate is the boarding location, whereas a departure lounge is the airport waiting area before departure.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s049:tmp-travel-s049-001",
+        "rationale": "A boarding gate is the airport location where passengers board; a boarding pass is the document used to board a flight.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s049:tmp-travel-s049-005",
+        "rationale": "A boarding gate is the location where passengers board; a check-in counter is where passengers complete check-in.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s049:tmp-travel-s049-006",
+        "rationale": "A boarding gate is the boarding location, whereas a departure lounge is the airport waiting area before departure.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "ee7fdc30b2dc3324044dcc05c6abf9181bee6d3ad075e5bf5f0845e63df1d9c1"
+}

@@ -1,0 +1,73 @@
+{
+  "attempt_id": "070b68c10614c134",
+  "candidate_id": "tmp-common-adjectives-s004-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Aligned. Stingy means unwilling to spend money and can extend to unwillingness to share.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/stingy"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and appropriate for the intended sense. It denotes being miserly or unwilling to give/spend.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pelit"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pelit"
+    },
+    {
+      "conclusion": "Valid and appropriate for the intended sense; PRPM defines it as being very calculating about spending money and lists pelit, kikir, and lokek as synonyms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kedekut"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: kedekut"
+    },
+    {
+      "conclusion": "Materially overstated. Kedekut is a Malaysian preferred form, but pelit is recorded in Malaysian Malay lexicography as an accepted equivalent, and kikir/lokek overlap across both varieties. Use a preference or regional-default relation rather than different-common-word if that relation claims stronger separation.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kedekut",
+        "https://prpm.dbp.gov.my/cari1?keyword=pelit",
+        "https://kbbi.web.id/kikir",
+        "https://kbbi.web.id/pelit"
+      ],
+      "material_risk": true,
+      "subject": "National split and relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied, and none is indicated by the cited definitions; both answers express the intended stingy/miserly sense.",
+      "evidence_limitation": "The candidate contains an empty contrast field, so no explicit contrast claim can be independently evaluated.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "b35e9e73190984ec37fcb3f4fb49cf3dc672103c02d271c8f2f21aeda5052c50",
+  "correction_refs": [],
+  "decision_digest": "7a0cedbb761e10a8ca17a8c8ef5589eda0330f574f91dfc8c615b54e3f2f96e6",
+  "elapsed_ms": 22865,
+  "finding_class": "metadata-only",
+  "input_tokens": 62495,
+  "model_calls": 1,
+  "output_tokens": 1351,
+  "packet_digest": "df518f5f8913c640560e2907885bfe519f03b2bafcfdf6b1f952215357b8b4e4",
+  "rationale": "The answers are semantically valid, but the national split is materially overstated. Indonesian pelit and Malaysian kedekut are plausible everyday preferences, yet Malaysian PRPM explicitly lists pelit, kikir, and lokek as accepted equivalents of kedekut; Indonesian lexicographic sources likewise connect pelit/kikir/lokek/kedekut. The relation should not imply a clean variety-exclusive contrast. No false-friend contrast is present or supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:32:46.123643+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s004/tmp-common-adjectives-s004-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s004",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:40:22.203804+00:00",
+  "input_digest": "22b103272754034c3122495b770b4a1b3ab12e4af55c15256a91a9bff202540b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"warning is a noun meaning an alert about danger or trouble, while to warn is the verb action of giving that alert; different parts of speech and concepts.\"}, {\"other_id\": \"corpus-004-003-s011:tmp-communication-s011-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"warning can be a notice about possible danger or trouble, but notice is broader written information intended to inform people; the danger-alert sense is distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-004",
+          "rationale": "warning is a noun meaning an alert about danger or trouble, while to warn is the verb action of giving that alert; different parts of speech and concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-009",
+          "rationale": "warning can be a notice about possible danger or trouble, but notice is broader written information intended to inform people; the danger-alert sense is distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-004",
+        "rationale": "warning is a noun meaning an alert about danger or trouble, while to warn is the verb action of giving that alert; different parts of speech and concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s011:tmp-communication-s011-009",
+        "rationale": "warning can be a notice about possible danger or trouble, but notice is broader written information intended to inform people; the danger-alert sense is distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "79aa3e3567df5841e3eca84b90482a6fbb6725adcfbeb39f83c7fb5b12bd7ea2"
+}

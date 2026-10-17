@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:29:16.755180+00:00",
+  "input_digest": "79ee2b14b4b4b4771e52cd5e8c6cf4ca3a0b60c3a1af4f16d735860d46b3359b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s006:tmp-common-adjectives-s006-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Heavy means having substantial weight, whereas thick means having considerable depth; the cues, senses, and Indonesian/Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s006:tmp-common-adjectives-s006-007",
+          "rationale": "Heavy means having substantial weight, whereas thick means having considerable depth; the cues, senses, and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s006:tmp-common-adjectives-s006-007",
+        "rationale": "Heavy means having substantial weight, whereas thick means having considerable depth; the cues, senses, and Indonesian/Malaysian answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "85a850aa2a141ca2be5f639280c14091969f503401fcaf7c88b59cf617f1e948"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:02:19.477636+00:00",
+  "input_digest": "4f8cdf89bb3542944f90ceab3eb03720174fcda1e93235d536a26ebb04d1a53c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s022:tmp-emotions-s022-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cSympathetic\\u201d means sharing or expressing concern for another person\\u2019s hardship, while \\u201ccompassionate\\u201d additionally emphasizes a desire to help someone suffering; the cues and Indonesian/Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-012",
+          "rationale": "“Sympathetic” means sharing or expressing concern for another person’s hardship, while “compassionate” additionally emphasizes a desire to help someone suffering; the cues and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s022:tmp-emotions-s022-012",
+        "rationale": "“Sympathetic” means sharing or expressing concern for another person’s hardship, while “compassionate” additionally emphasizes a desire to help someone suffering; the cues and Indonesian/Malaysian answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "5bb8f09082e263c192ae58b663bfa0b7d605d757103e35e761d457d1aba5a089"
+}

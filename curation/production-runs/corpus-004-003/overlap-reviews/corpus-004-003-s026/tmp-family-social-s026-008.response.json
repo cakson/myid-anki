@@ -1,0 +1,66 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 24998,
+  "input_tokens": 62410,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2006,
+  "packet_digest": "1dbdb847c66d2cc81f6b94d68c6fe5230bb358c401980391330623cab327ca2a",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Both answers are valid and semantically aligned, but the national split is overstated if “different-common-word” implies non-overlap. “Pesta pertunangan” is also attested in Malaysian Malay, while “majlis pertunangan” is the established Malaysian preference. The relation should be framed as different preference rather than distinct national vocabulary. No false-friend contrast is supplied or warranted.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Engagement party” correctly denotes a celebration associated with an engagement.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/us/dictionary/english/engagement\"]},{\"subject\":\"Indonesian answer: pesta pertunangan\",\"conclusion\":\"The form is a valid Indonesian expression for an engagement celebration. Available evidence confirms usage, though not comparative national frequency.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.inews.id/amp/regional/jatim/viral-pesta-pertunangan-bocah-sd-dan-tk-di-sumenep-layaknya-orang-dewasa\"],\"evidence_limitation\":\"No frequency-comparable Indonesian corpus evidence was located.\"},{\"subject\":\"Malaysian answer: majlis pertunangan\",\"conclusion\":\"The form is valid and well-attested in Malaysian Malay for an engagement ceremony or celebration.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pertunangan\",\"https://www.muftiwp.gov.my/ms/artikel/al-kafi-li-al-fatawi/2624-al-kafi-819-hukum-bertunang-besar-besaran\"]},{\"subject\":\"Cross-variety overlap\",\"conclusion\":\"The national split is materially overstated as a lexical distinction: “pesta pertunangan” is explicitly attested in Malaysian sources, while “majlis pertunangan” is the Malaysian-preferred formulation. The contrast is better treated as preference/register, not mutually exclusive common vocabulary.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=274052&keyword=pertunangan\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pertunangan\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“different-common-word” is too strong without qualification. A shared-synonym or different-preferred-word relation would better represent the evidence.\",\"material_risk\":true,\"evidence_limitation\":\"The supplied taxonomy does not define whether “different-common-word” permits cross-variety synonyms that are ordinary but less preferred.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present or supported; the two Malay forms transparently express the same engagement-celebration sense.\",\"material_risk\":false,\"evidence_limitation\":\"The learner content has an empty contrast field, so no explicit false-friend claim can be independently reviewed.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Engagement party” correctly denotes a celebration associated with an engagement.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/engagement"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "The form is a valid Indonesian expression for an engagement celebration. Available evidence confirms usage, though not comparative national frequency.",
+        "evidence_limitation": "No frequency-comparable Indonesian corpus evidence was located.",
+        "evidence_refs": [
+          "https://www.inews.id/amp/regional/jatim/viral-pesta-pertunangan-bocah-sd-dan-tk-di-sumenep-layaknya-orang-dewasa"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: pesta pertunangan"
+      },
+      {
+        "conclusion": "The form is valid and well-attested in Malaysian Malay for an engagement ceremony or celebration.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pertunangan",
+          "https://www.muftiwp.gov.my/ms/artikel/al-kafi-li-al-fatawi/2624-al-kafi-819-hukum-bertunang-besar-besaran"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: majlis pertunangan"
+      },
+      {
+        "conclusion": "The national split is materially overstated as a lexical distinction: “pesta pertunangan” is explicitly attested in Malaysian sources, while “majlis pertunangan” is the Malaysian-preferred formulation. The contrast is better treated as preference/register, not mutually exclusive common vocabulary.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=pertunangan",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pertunangan"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap"
+      },
+      {
+        "conclusion": "“different-common-word” is too strong without qualification. A shared-synonym or different-preferred-word relation would better represent the evidence.",
+        "evidence_limitation": "The supplied taxonomy does not define whether “different-common-word” permits cross-variety synonyms that are ordinary but less preferred.",
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or supported; the two Malay forms transparently express the same engagement-celebration sense.",
+        "evidence_limitation": "The learner content has an empty contrast field, so no explicit false-friend claim can be independently reviewed.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers are valid and semantically aligned, but the national split is overstated if “different-common-word” implies non-overlap. “Pesta pertunangan” is also attested in Malaysian Malay, while “majlis pertunangan” is the established Malaysian preference. The relation should be framed as different preference rather than distinct national vocabulary. No false-friend contrast is supplied or warranted.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

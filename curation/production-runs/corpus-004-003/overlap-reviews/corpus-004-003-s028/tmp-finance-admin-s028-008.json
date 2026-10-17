@@ -1,0 +1,74 @@
+{
+  "attempt_id": "f26c777cc5315651",
+  "candidate_id": "tmp-finance-admin-s028-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and aligned: photocopy is a reproduction of printed or written material made photographically.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/fotokopi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fotokopi"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary in Indonesian; KBBI defines fotokopi as photographic reproduction of printed writing.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/fotokopi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: fotokopi"
+    },
+    {
+      "conclusion": "Correct and accepted, but not uniquely Malaysian. Malaysian DBP sources define fotokopi directly and state that fotostat has the same meaning; official Malaysian usage also attests salinan fotostat.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fotokopi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fotostat",
+        "https://lampiran1.hasil.gov.my/pdf/pdfam/FAQC_cp204.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: salinan fotostat"
+    },
+    {
+      "conclusion": "Materially overstated. Malaysian ordinary and dictionary-accepted usage overlaps with Indonesian fotokopi, so different-common-word is not defensible as a clean relation. A shared-synonym or different-preference relation would be more accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fotokopi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fotostat"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted: the forms refer to the same document-reproduction sense, and the card provides no misleading cross-variety meaning contrast.",
+      "evidence_limitation": "This is a semantic assessment of the candidate pair; no separate false-friend source is necessary.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a4e8f771ee2309b21d01269059064d0f6552c51209d96b7f0da8aa055b4ea196",
+  "correction_refs": [],
+  "decision_digest": "ef0c62558fbb590a65aa9837271196f73ae966cf88ccaf933e5702a8128dc247",
+  "elapsed_ms": 18953,
+  "finding_class": "metadata-only",
+  "input_tokens": 62359,
+  "model_calls": 1,
+  "output_tokens": 1296,
+  "packet_digest": "23a9c880cf57c5da30d7b922e8cb12b9a8a1cd09ad02fcbd054e7a8fb350ad02",
+  "rationale": "Both answers are valid for the stated sense, but the national distinction is materially overstated. Malaysian authoritative dictionary sources define \"fotokopi\" as a photographic copy and identify \"fotostat\" as equivalent to \"fotokopi\"; \"salinan fotostat\" is also an accepted Malaysian expression. Thus the relation should not be presented as a clean different-common-word contrast. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:57:18.535440+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s028/tmp-finance-admin-s028-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s028",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T19:45:02.950740+00:00",
+  "input_digest": "18b8898a544a65fb57163073b83c262e5a198e6480a853e8bd31358dbafebb66",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The English cue \\u201cmatch\\u201d is ambiguous without the intended object sense.\"], \"material_concerns\": [], \"rationale\": \"\\u201cKorek api\\u201d is the ordinary Indonesian term and \\u201cmancis\\u201d the ordinary Malaysian term for a matchstick; this is a useful everyday lexical difference.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"matchstick\", \"cue_rationale\": \"Both answers denote the small stick used to make a flame; \\u201cmatch\\u201d alone can also refer to other senses.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\u201cKorek api\\u201d may be understood in Malaysia, but \\u201cmancis\\u201d is the ordinary Malaysian preference for a matchstick; conversely, \\u201cmancis\\u201d is not the usual Indonesian choice.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"\\u201cKorek api\\u201d can also refer broadly to a lighter in Indonesian, but \\u201cmatchstick\\u201d removes the ambiguity.\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"korek api\", \"language\": \"malaysian\", \"rationale\": \"The Indonesian form may be understood in Malaysia, but it is not the ordinary preferred term for a matchstick there.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The English cue “match” is ambiguous without the intended object sense."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "Both answers denote the small stick used to make a flame; “match” alone can also refer to other senses.",
+      "cue_rewrite": "matchstick",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "korek api",
+        "language": "malaysian",
+        "rationale": "The Indonesian form may be understood in Malaysia, but it is not the ordinary preferred term for a matchstick there.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Korek api” is the ordinary Indonesian term and “mancis” the ordinary Malaysian term for a matchstick; this is a useful everyday lexical difference.",
+      "relation": "different-common-word",
+      "risk_rationale": "“Korek api” can also refer broadly to a lighter in Indonesian, but “matchstick” removes the ambiguity.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "“Korek api” may be understood in Malaysia, but “mancis” is the ordinary Malaysian preference for a matchstick; conversely, “mancis” is not the usual Indonesian choice.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The English cue “match” is ambiguous without the intended object sense."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "Both answers denote the small stick used to make a flame; “match” alone can also refer to other senses.",
+    "cue_rewrite": "matchstick",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "korek api",
+      "language": "malaysian",
+      "rationale": "The Indonesian form may be understood in Malaysia, but it is not the ordinary preferred term for a matchstick there.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Korek api” is the ordinary Indonesian term and “mancis” the ordinary Malaysian term for a matchstick; this is a useful everyday lexical difference.",
+    "relation": "different-common-word",
+    "risk_rationale": "“Korek api” can also refer broadly to a lighter in Indonesian, but “matchstick” removes the ambiguity.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "“Korek api” may be understood in Malaysia, but “mancis” is the ordinary Malaysian preference for a matchstick; conversely, “mancis” is not the usual Indonesian choice.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "293189060d8bdcf9f8eae02b7bbf141fc3c6f760cfeed080142a63d9de2d9d68"
+}

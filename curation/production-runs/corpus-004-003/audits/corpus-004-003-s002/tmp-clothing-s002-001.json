@@ -1,0 +1,76 @@
+{
+  "attempt_id": "4f04acd2747138b1",
+  "candidate_id": "tmp-clothing-s002-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Sleeveless garment worn over a shirt” correctly identifies the intended waistcoat/outer-vest sense, though “vest” can have additional senses.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=vest"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Rompi” is a standard Indonesian word for a sleeveless outer garment.",
+      "evidence_refs": [
+        "https://kbbi.web.id/rompi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Vest” should not be presented as the ordinary Malay learner answer without qualification. Malaysian reference material maps the garment to “rompi” and also records “ves” as an adapted term.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=vest",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=rompi"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is misleading because “rompi” is also documented in Malay; the two languages do not require a contrast here.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=rompi",
+        "https://kbbi.web.id/rompi"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No meaningful false-friend contrast is supported: Indonesian “rompi” and Malay “rompi” refer to substantially the same garment.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=rompi",
+        "https://kbbi.web.id/rompi"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "cfe872042b9667cf2cdee157e47fa365a37d3fb1954fd9c539bba6df3a46f02a",
+  "correction_refs": [],
+  "decision_digest": "2a8d694d78f82b8cb3e2f5961672e51a259276669a33a108d2c7e93befa02361",
+  "elapsed_ms": 16189,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49424,
+  "model_calls": 1,
+  "output_tokens": 1062,
+  "packet_digest": "061fedb80196c1ff11b921353345a4d733cbbee76056eb6d5e945b28fe8d23f4",
+  "rationale": "The English cue and Indonesian answer are sound, but Malaysian “vest” is not the best Malay learner answer. Standard Malay references give “rompi” for this garment and “ves” as an adapted form; “vest” is primarily an English spelling. The proposed contrast is therefore misleading, and no false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:16:59.594136+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s002/tmp-clothing-s002-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s002",
+  "verdict": "needs-correction"
+}

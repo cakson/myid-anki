@@ -1,0 +1,75 @@
+{
+  "attempt_id": "eb8c6bd2b84cb743",
+  "candidate_id": "tmp-shopping-s041-009",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue \"food court\" and sense \"shared dining area with multiple food vendors\" are aligned.",
+      "evidence_refs": [
+        "https://www.esb.id/id/inspirasi/apa-itu-food-court",
+        "https://www.mbs.gov.my/sites/default/files/2023-05/serembanlicious.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "\"Pujasera\" is an established Indonesian term for pusat jajanan serba ada and is a valid equivalent for the cue.",
+      "evidence_refs": [
+        "https://jadesta.kemenpar.go.id/atraksi/pusat_jajanan_serba_ada_pujasera",
+        "https://food.detik.com/info-kuliner/d-6196714/pujasera-berawal-dari-tren-food-court-begini-sejarahnya"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pujasera"
+    },
+    {
+      "conclusion": "\"Medan selera\" is an established Malaysian Malay term for a food court/shared eating area and is a valid equivalent for the cue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=384984&keyword=medan+selera",
+        "https://www.mbsj.gov.my/ms/premis-makanan-restoran-gred-ogos-2020"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: medan selera"
+    },
+    {
+      "conclusion": "\"Different-common-word\" is too strong as the final relation without qualification. The localized answers differ, but \"food court\" is also an ordinary shared form across both varieties; the card should be treated as a shared-synonym/local-preference contrast.",
+      "evidence_refs": [
+        "https://www.esb.id/id/inspirasi/apa-itu-food-court",
+        "https://www.mbs.gov.my/sites/default/files/2023-05/serembanlicious.pdf",
+        "https://www.mbsj.gov.my/ms/premis-makanan-restoran-gred-ogos-2020"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and national split"
+    },
+    {
+      "conclusion": "There is no apparent false-friend contrast between \"pujasera\" and \"medan selera\"; both denote the relevant shared dining facility. The empty contrast field should explicitly say that no false-friend distinction applies.",
+      "evidence_limitation": "The reviewed sources establish the meanings and usage of both terms but do not constitute a dedicated false-friend corpus or frequency study.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "cd7be8d6870615260633ec7de603dc47d1464a6174d547ac31e4de4cbc273320",
+  "correction_refs": [],
+  "decision_digest": "d5b882ad548da5c23548fb4ba7885abff7437b71060ef0f66556c1a0195713d2",
+  "elapsed_ms": 23270,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62385,
+  "model_calls": 1,
+  "output_tokens": 1683,
+  "packet_digest": "526b6caecc53358d81087c3120ccc08d4d9559d92e83b6569082e75bbab37ac1",
+  "rationale": "Both localized answers are valid ordinary varieties-specific preferences, but the national split is materially overstated because the English form \"food court\" is also accepted and used in both Indonesia and Malaysia. The relation should acknowledge a shared synonym/common form. The empty contrast field also fails to state that this is not a false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:12:11.696428+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s041/tmp-shopping-s041-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "needs-correction"
+}

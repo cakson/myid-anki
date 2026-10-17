@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4969,
+  "input_digest": "07717901b5872ba1506740c7c2abf907432ae7e8ef660aa02c26b7e0ec3efdad",
+  "input_tokens": 93713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 321,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s045:tmp-time-date-s045-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Daytime is the period during the day, whereas nighttime is the period during the night; they are contrasting time periods, not duplicate concepts.\"},{\"other_id\":\"corpus-004-003-s019:tmp-time-date-s019-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Afternoon is only the later part of the day before evening, while daytime covers the broader period from morning through before night.\"},{\"other_id\":\"corpus-004-003-s045:tmp-time-date-s045-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Time is a general temporal concept; daytime specifically denotes the period of daylight.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s045:tmp-time-date-s045-010",
+          "rationale": "Daytime is the period during the day, whereas nighttime is the period during the night; they are contrasting time periods, not duplicate concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s019:tmp-time-date-s019-005",
+          "rationale": "Afternoon is only the later part of the day before evening, while daytime covers the broader period from morning through before night.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s045:tmp-time-date-s045-001",
+          "rationale": "Time is a general temporal concept; daytime specifically denotes the period of daylight.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,62 @@
+{
+  "attempt_id": "92a791168aeff315",
+  "candidate_id": "tmp-emotions-s022-009",
+  "claim_reviews": [
+    {
+      "conclusion": "“Miserable” meaning extremely unhappy or distressed is accurate, though it can also describe wretched conditions or physical discomfort.",
+      "evidence_refs": [
+        "https://www.merriam-webster.com/dictionary/miserable"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Merana” is a valid Indonesian word for persistent sadness or suffering, but it also strongly suggests prolonged illness, decline, or languishing and is not a fully neutral everyday equivalent of “miserable.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/merana",
+        "https://kbbi.co.id/arti-kata/merana"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: merana"
+    },
+    {
+      "conclusion": "“Sengsara” is valid Malay for suffering, hardship, and a wretched or painful life, but it commonly emphasizes broader hardship or distress rather than solely emotional unhappiness.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=sengsara+"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: sengsara"
+    },
+    {
+      "conclusion": "“Different-common-word” correctly identifies distinct forms, but the card should state that the words are overlapping, not exact equivalents; no strong false-friend reversal is present, though their broader suffering/languishing connotations should be contrasted.",
+      "evidence_limitation": "Authoritative dictionary evidence establishes the semantic ranges but does not directly quantify contemporary everyday frequency or register.",
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "4d26b6020d1031cc37721b34f9bee0d4cece77f381b33572091b584a876527b2",
+  "correction_refs": [],
+  "decision_digest": "20bb8d52ae96d3b4df03b3097bf22656c39d0483c3fb9cdb92de0154e2950904",
+  "elapsed_ms": 23469,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 66509,
+  "model_calls": 1,
+  "output_tokens": 1155,
+  "packet_digest": "08592d4136fe48ff13dc7b5e40fc766112b54b2bcfbd1471e0341ba7cf4aadec",
+  "rationale": "Both answers are semantically related to “miserable,” but the card overstates equivalence and commonness. Indonesian “merana” primarily conveys prolonged illness, languishing, or persistent sadness and is less neutral/everyday than the English cue. Malaysian “sengsara” denotes hardship and suffering, often including severe life circumstances, rather than purely extreme unhappiness. The different-form relation is valid, but the absent contrast leaves important usage differences unstated.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:42:25.369219+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s022/tmp-emotions-s022-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s022",
+  "verdict": "needs-correction"
+}

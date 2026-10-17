@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5205,
+  "input_digest": "319c64e3bca94fcc9bb3c03f8a32fb1bc30bf81e43ac42147cc4d74b5e49d9af",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 289,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s023:tmp-emotions-s023-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Contented means satisfied and at ease with an ongoing situation, whereas glad means feeling pleased about something; related positive emotions but distinct senses.\"},{\"other_id\":\"pros4-health-001:health-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Contented describes calm satisfaction and ease, while happy describes broader pleasure or joy; the senses are related but not equivalent.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s023:tmp-emotions-s023-003",
+          "rationale": "Contented means satisfied and at ease with an ongoing situation, whereas glad means feeling pleased about something; related positive emotions but distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-health-001:health-08",
+          "rationale": "Contented describes calm satisfaction and ease, while happy describes broader pleasure or joy; the senses are related but not equivalent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

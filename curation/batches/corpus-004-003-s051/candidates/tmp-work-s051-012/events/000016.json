@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:56.906296+00:00",
+  "result": {
+    "candidate_digest": "7c13c9bc663a799adf7cd46b37c99e6d52a116a9a331f8c26ce49304e97a7130",
+    "candidate_id": "tmp-work-s051-012",
+    "checked_at": "2026-10-17T06:21:56.906296+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The Indonesian answer is appropriate. Malaysian “perjalanan kerja” is understandable and used, but it is not the clearest established equivalent for “business trip”; DBP recommends “lawatan kerja,” while “perjalanan perniagaan” is a formal alternative. Therefore the answer pair and “different-common-word” relation overstate a clean Indonesian–Malaysian contrast. No false-friend contrast is present. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

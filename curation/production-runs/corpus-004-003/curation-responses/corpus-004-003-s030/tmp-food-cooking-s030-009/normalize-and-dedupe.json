@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5260,
+  "input_digest": "b92992fd3d5f18e17458b5fcf41d01c0154949553a7e38a1eb38f7c06b3309d7",
+  "input_tokens": 93722,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 317,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s030:tmp-food-cooking-s030-012\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Pancake is a flat cake cooked in a pan, while cake is a sweet baked dessert; the senses are clearly distinct.\"},{\"other_id\":\"corpus-004-003-s031:tmp-food-cooking-s031-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Pancake is the finished cooked food, while batter is the pourable uncooked mixture used before cooking; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s030:tmp-food-cooking-s030-012",
+          "rationale": "Pancake is a flat cake cooked in a pan, while cake is a sweet baked dessert; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-009",
+          "rationale": "Pancake is the finished cooked food, while batter is the pourable uncooked mixture used before cooking; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

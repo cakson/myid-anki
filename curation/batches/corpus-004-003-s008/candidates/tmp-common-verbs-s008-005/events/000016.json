@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:42.424945+00:00",
+  "result": {
+    "candidate_digest": "adf0c062f19a67bd9c0e2f829a56e2a680924ef61ef072ff95ccc12d7fd498fd",
+    "candidate_id": "tmp-common-verbs-s008-005",
+    "checked_at": "2026-10-17T06:21:42.424945+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (metadata-only): The learner card is substantively correct: memeriksa fits Indonesian, menyemak fits Malaysian Malay, the narrowed cue matches both, and different-common-word is an appropriate relation. However, the production metadata incorrectly claims that mengecek is a shared informal synonym in both countries. Malaysian PRPM defines mengecek as chatting, persuading, or deceiving, creating a false-friend contrast with Indonesian usage. The card itself has no false-friend warning, but the metadata claim should be corrected. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,73 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 30986,
+  "input_tokens": 137473,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2121,
+  "packet_digest": "433c5114dde2a86bf2ef5761d0740cb6c1f90040057e63e19b997ce346b30585",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"Both answers are valid, but the national split is materially overstated. Indonesian uses permanen for the sense, while Malaysian Malay uses kekal; however, Malaysian PRPM also accepts permanen as a synonym for kekal/tetap, and tetap is an accepted equivalent in both varieties. The relation should be reframed as a preference contrast, and the absent contrast field should explicitly state that this is not a false-friend distinction.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Accurate. Permanent means lasting for a long time or forever, consistent with lasting indefinitely.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english/permanent\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: permanen\",\n      \"conclusion\": \"Valid and ordinary for the intended Indonesian sense; KBBI defines permanen as tetap, not temporary, and lasting without meaningful change.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/permanen\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: kekal\",\n      \"conclusion\": \"Valid and well-supported for Malaysian Malay; PRPM defines kekal as continuing, not disappearing or changing, and synonymous with tetap.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kekal\"\n      ]\n    },\n    {\n      \"subject\": \"Cross-variety overlap and national split\",\n      \"conclusion\": \"Material overlap exists. Malaysian PRPM records permanen as an accepted form meaning kekal or tetap, while tetap itself covers permanent or non-temporary meanings in both varieties. The pair therefore teaches a usage preference, not a clean national-exclusive contrast. Dictionary evidence confirms acceptance but does not establish comparative frequency.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen\",\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kekal+nya\",\n        \"https://kbbi.web.id/tetap\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"Different-common-word is too categorical for the current card. It should be revised to a preference-oriented relation or accompanied by an explicit note that permanen is also accepted in Malaysian Malay and tetap is shared.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen\",\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kekal+nya\",\n        \"https://kbbi.web.id/tetap\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false friend is present. Permanen and permanent are transparently related, and the Indonesian and Malaysian forms overlap semantically. The blank contrast field should explicitly say that this is a shared-equivalent/preference contrast rather than a false-friend contrast.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english/permanent\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen\",\n        \"https://kbbi.web.id/permanen\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate. Permanent means lasting for a long time or forever, consistent with lasting indefinitely.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/permanent"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid and ordinary for the intended Indonesian sense; KBBI defines permanen as tetap, not temporary, and lasting without meaningful change.",
+        "evidence_refs": [
+          "https://kbbi.web.id/permanen"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: permanen"
+      },
+      {
+        "conclusion": "Valid and well-supported for Malaysian Malay; PRPM defines kekal as continuing, not disappearing or changing, and synonymous with tetap.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kekal"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: kekal"
+      },
+      {
+        "conclusion": "Material overlap exists. Malaysian PRPM records permanen as an accepted form meaning kekal or tetap, while tetap itself covers permanent or non-temporary meanings in both varieties. The pair therefore teaches a usage preference, not a clean national-exclusive contrast. Dictionary evidence confirms acceptance but does not establish comparative frequency.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kekal+nya",
+          "https://kbbi.web.id/tetap"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap and national split"
+      },
+      {
+        "conclusion": "Different-common-word is too categorical for the current card. It should be revised to a preference-oriented relation or accompanied by an explicit note that permanen is also accepted in Malaysian Malay and tetap is shared.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kekal+nya",
+          "https://kbbi.web.id/tetap"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false friend is present. Permanen and permanent are transparently related, and the Indonesian and Malaysian forms overlap semantically. The blank contrast field should explicitly say that this is a shared-equivalent/preference contrast rather than a false-friend contrast.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/permanent",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen",
+          "https://kbbi.web.id/permanen"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers are valid, but the national split is materially overstated. Indonesian uses permanen for the sense, while Malaysian Malay uses kekal; however, Malaysian PRPM also accepts permanen as a synonym for kekal/tetap, and tetap is an accepted equivalent in both varieties. The relation should be reframed as a preference contrast, and the absent contrast field should explicitly state that this is not a false-friend distinction.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

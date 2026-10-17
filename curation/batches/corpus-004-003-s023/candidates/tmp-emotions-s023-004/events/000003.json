@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T20:03:19.353733+00:00",
+  "input_digest": "4c4488c0a4785ecfe6f500baebcf4e1b55e833d1c5334ee95a72b349a188b8c3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s023:tmp-emotions-s023-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Grieving is sorrow specifically following a loss, while sad is general sorrow; the senses are distinct.\"}, {\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Grieving concerns sorrow after any significant loss, while heartbroken is intense distress primarily from romantic loss or rejection.\"}, {\"other_id\": \"corpus-004-003-s022:tmp-emotions-s022-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Grieving is sorrow after a loss, while miserable means extremely unhappy or distressed without requiring bereavement.\"}, {\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Grieving is the mourner's emotional state after a loss, while condolences are an expression offered to someone after a death.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s023:tmp-emotions-s023-002",
+          "rationale": "Grieving is sorrow specifically following a loss, while sad is general sorrow; the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-007",
+          "rationale": "Grieving concerns sorrow after any significant loss, while heartbroken is intense distress primarily from romantic loss or rejection.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-009",
+          "rationale": "Grieving is sorrow after a loss, while miserable means extremely unhappy or distressed without requiring bereavement.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-006",
+          "rationale": "Grieving is the mourner's emotional state after a loss, while condolences are an expression offered to someone after a death.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s023:tmp-emotions-s023-002",
+        "rationale": "Grieving is sorrow specifically following a loss, while sad is general sorrow; the senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-007",
+        "rationale": "Grieving concerns sorrow after any significant loss, while heartbroken is intense distress primarily from romantic loss or rejection.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s022:tmp-emotions-s022-009",
+        "rationale": "Grieving is sorrow after a loss, while miserable means extremely unhappy or distressed without requiring bereavement.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-006",
+        "rationale": "Grieving is the mourner's emotional state after a loss, while condolences are an expression offered to someone after a death.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8bd12b2d3c8906a38a990fca716de29e6226321711020699880e253cc4a30ad2"
+}

@@ -1,0 +1,66 @@
+{
+  "attempt_id": "491bcece93ef9f11",
+  "candidate_id": "tmp-finance-admin-s027-007",
+  "claim_reviews": [
+    {
+      "conclusion": "\"Bank statement\" appropriately denotes a record or report of transactions in a bank account.",
+      "evidence_refs": [
+        "https://ojk.go.id/id/ojk-pedia/default.aspx"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and learner-usable for an account transaction record or bank-account statement; official Indonesian financial usage links account statements with laporan mutasi rekening.",
+      "evidence_refs": [
+        "https://www.ojk.go.id/id/regulasi/otoritas-jasa-keuangan/surat-edaran-ojk-dan-dewan-komisioner/Documents/Pages/%E2%80%8BSEOJK-Nomor-36032015-tentang-Produk-dan-Aktivitas-bus-uus/Kodifikasi%20Produk%20dan%20Aktivitas%20BUS%20UUS.pdf",
+        "https://ojk.go.id/id/ojk-pedia/default.aspx"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: mutasi rekening"
+    },
+    {
+      "conclusion": "Correct standard Malaysian Malay equivalent of \"bank statement,\" with \"penyata\" covering a financial account or report.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penyata",
+        "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/services/digital_banking/banking-bm.page"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: penyata bank"
+    },
+    {
+      "conclusion": "\"different-common-word\" is justified: the Indonesian and Malaysian forms are distinct conventional expressions for the same banking concept. No false-friend contrast is present or required.",
+      "evidence_refs": [
+        "https://www.ojk.go.id/id/regulasi/otoritas-jasa-keuangan/surat-edaran-ojk-dan-dewan-komisioner/Documents/Pages/%E2%80%8BSEOJK-Nomor-36032015-tentang-Produk-dan-Aktivitas-bus-uus/Kodifikasi%20Produk%20dan%20Aktivitas%20BUS%20UUS.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penyata"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1dc197cb252551e062100a3e8d0795e1d15b8645db815c6e80eaa3e77f15b33f",
+  "correction_refs": [],
+  "decision_digest": "8cf4b43994a76a1e2649e2b5b3646d25eb7a6f58da2a3ba4d75b9b43bd8bbfe9",
+  "elapsed_ms": 15725,
+  "finding_class": "none",
+  "input_tokens": 33253,
+  "model_calls": 1,
+  "output_tokens": 1374,
+  "packet_digest": "e0743dc509bc71295eee173b88ef749373a2b143233c683bda07bcdb6f5c3946",
+  "rationale": "Both answers match the cue and stated sense. Indonesian \"mutasi rekening\" is an attested term for an account transaction record or account statement, while Malaysian \"penyata bank\" is the standard equivalent of \"bank statement.\" The lexical contrast is valid, and no false-friend issue is present. \"Rekening koran\" is also a plausible Indonesian alternative but does not make the supplied answer incorrect.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:49:30.135364+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s027/tmp-finance-admin-s027-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s027",
+  "verdict": "cleared"
+}

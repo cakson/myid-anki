@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:33:35.905563+00:00",
+  "result": {
+    "candidate_digest": "6220d88508a5696318ebfc1241d024609c134bc8b3de61b632114dd15e01f485",
+    "candidate_id": "tmp-common-verbs-s008-006",
+    "checked_at": "2026-10-16T19:33:35.905563+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "The proposed Indonesian form does not reliably express the act of pasting material onto a surface, so the pair may misteach the target sense."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The proposed Indonesian form does not reliably express the act of pasting material onto a surface, so the pair may misteach the target sense.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

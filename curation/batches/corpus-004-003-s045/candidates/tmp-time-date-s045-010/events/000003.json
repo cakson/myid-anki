@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:59:37.341999+00:00",
+  "input_digest": "3d936987198307d5fc232f886fffa322abac4942b11c2a0fc2fa52b48930649d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s045:tmp-time-date-s045-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cnighttime\\u201d means the period during the night, while \\u201cdaytime\\u201d means the period during the day; they are contrasting, non-equivalent time periods.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s045:tmp-time-date-s045-009",
+          "rationale": "“nighttime” means the period during the night, while “daytime” means the period during the day; they are contrasting, non-equivalent time periods.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s045:tmp-time-date-s045-009",
+        "rationale": "“nighttime” means the period during the night, while “daytime” means the period during the day; they are contrasting, non-equivalent time periods.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "be22e9a37d9762e52ddfb6651a6c13fb49abdc8bdc58a922e5a03712f3e03edc"
+}

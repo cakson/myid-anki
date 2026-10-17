@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 29909,
+  "input_tokens": 95241,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1533,
+  "packet_digest": "f322600ea383b08b5742ab75f357186e22db2d1afc5b4b7d91572f618da5edfc",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both answers denote the same object, and Indonesian explicitly recognizes “sampul surat” as the equivalent of “amplop.” The national split is therefore materially overstated. The English sense is essentially correct, but the empty contrast fails to explain the overlap and the relation should not be different-common-word.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Envelope” correctly refers to a flat paper container for a letter; the learner sense is understandable, though “paper container for a letter” is more precise than “paper covering.”\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/us/dictionary/english/envelope\"]},{\"subject\":\"Indonesian answer: amplop\",\"conclusion\":\"“Amplop” is a valid Indonesian answer for this sense and is defined as “sampul surat.”\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/sampul\",\"https://fliphtml5.com/aludp/mlns/KBBI_-_Kamus_Besar_Bahasa_Indonesia/\"]},{\"subject\":\"Malaysian Malay answer: sampul surat\",\"conclusion\":\"“Sampul surat” is a standard Malaysian Malay term for the paper covering/container used for a letter.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sampul+surat\"]},{\"subject\":\"National split and final relation\",\"conclusion\":\"The relation “different-common-word” is materially overstated. Indonesian accepts “sampul surat” as an equivalent of “amplop,” while Malaysian Malay uses “sampul surat”; this is shared vocabulary with differing ordinary preference, not a clean national lexical split.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/sampul\",\"https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sampul+surat\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supported. The blank contrast should be replaced with an explicit overlap note, such as: Indonesian commonly prefers “amplop,” while “sampul surat” is also accepted; Malaysian Malay commonly uses “sampul surat.”\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/sampul\",\"https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sampul+surat\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Envelope” correctly refers to a flat paper container for a letter; the learner sense is understandable, though “paper container for a letter” is more precise than “paper covering.”",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/envelope"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Amplop” is a valid Indonesian answer for this sense and is defined as “sampul surat.”",
+        "evidence_refs": [
+          "https://kbbi.web.id/sampul",
+          "https://fliphtml5.com/aludp/mlns/KBBI_-_Kamus_Besar_Bahasa_Indonesia/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: amplop"
+      },
+      {
+        "conclusion": "“Sampul surat” is a standard Malaysian Malay term for the paper covering/container used for a letter.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sampul+surat"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: sampul surat"
+      },
+      {
+        "conclusion": "The relation “different-common-word” is materially overstated. Indonesian accepts “sampul surat” as an equivalent of “amplop,” while Malaysian Malay uses “sampul surat”; this is shared vocabulary with differing ordinary preference, not a clean national lexical split.",
+        "evidence_refs": [
+          "https://kbbi.web.id/sampul",
+          "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sampul+surat"
+        ],
+        "material_risk": true,
+        "subject": "National split and final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported. The blank contrast should be replaced with an explicit overlap note, such as: Indonesian commonly prefers “amplop,” while “sampul surat” is also accepted; Malaysian Malay commonly uses “sampul surat.”",
+        "evidence_refs": [
+          "https://kbbi.web.id/sampul",
+          "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sampul+surat"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both answers denote the same object, and Indonesian explicitly recognizes “sampul surat” as the equivalent of “amplop.” The national split is therefore materially overstated. The English sense is essentially correct, but the empty contrast fails to explain the overlap and the relation should not be different-common-word.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

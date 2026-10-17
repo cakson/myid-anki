@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T04:27:39.554671+00:00",
+  "input_digest": "edc6a11d4062f4b38513828f4ade5746ab20d65d6735ad2af507180a6e14f00c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The proposed national preference is weaker than stated because warung is also an ordinary Malaysian term for a small food stall.\"], \"material_concerns\": [\"The contrast may mislead learners about warung being specifically Indonesian; it is also common in Malaysian usage.\"], \"rationale\": \"Both answers fit the sense of a small place selling prepared food, but warung is not a reliably Indonesian-only preference. Gerai makanan is a standard Malaysian formulation, while warung remains ordinary in Malaysia as well.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Warung can mean a small food stall in Indonesian, and gerai makanan directly denotes a food stall in Malaysian Malay.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Warung is also an ordinary Malaysian term for a small food stall, so the proposed contrast may overstate national differentiation.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"warung\", \"language\": \"both\", \"rationale\": \"Warung is plausibly ordinary for a small food stall in both Indonesian and Malaysian Malay.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The proposed national preference is weaker than stated because warung is also an ordinary Malaysian term for a small food stall."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Warung can mean a small food stall in Indonesian, and gerai makanan directly denotes a food stall in Malaysian Malay.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The contrast may mislead learners about warung being specifically Indonesian; it is also common in Malaysian usage."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "warung",
+        "language": "both",
+        "rationale": "Warung is plausibly ordinary for a small food stall in both Indonesian and Malaysian Malay.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Both answers fit the sense of a small place selling prepared food, but warung is not a reliably Indonesian-only preference. Gerai makanan is a standard Malaysian formulation, while warung remains ordinary in Malaysia as well.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Warung is also an ordinary Malaysian term for a small food stall, so the proposed contrast may overstate national differentiation.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The proposed national preference is weaker than stated because warung is also an ordinary Malaysian term for a small food stall."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Warung can mean a small food stall in Indonesian, and gerai makanan directly denotes a food stall in Malaysian Malay.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The contrast may mislead learners about warung being specifically Indonesian; it is also common in Malaysian usage."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "warung",
+      "language": "both",
+      "rationale": "Warung is plausibly ordinary for a small food stall in both Indonesian and Malaysian Malay.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both answers fit the sense of a small place selling prepared food, but warung is not a reliably Indonesian-only preference. Gerai makanan is a standard Malaysian formulation, while warung remains ordinary in Malaysia as well.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Warung is also an ordinary Malaysian term for a small food stall, so the proposed contrast may overstate national differentiation.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "168a5ec5630645a9cabd6006dfbb1683202f63cd274d80e7e23921a7c97ff5e4"
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T04:25:58.182076+00:00",
+  "result": {
+    "candidate_digest": "ce5e9cce029d02931c0bb682b107934434b3e44c1938e608b2bc5deba3a874e0",
+    "candidate_id": "tmp-finance-admin-s028-006",
+    "checked_at": "2026-10-17T04:25:58.182076+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "pegawai bank means a bank employee or officer generally, not specifically the counter employee handling teller transactions; Malaysian alternatives such as juruwang bank or pegawai kaunter bank better express the cue."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "pegawai bank means a bank employee or officer generally, not specifically the counter employee handling teller transactions; Malaysian alternatives such as juruwang bank or pegawai kaunter bank better express the cue.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

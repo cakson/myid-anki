@@ -1,0 +1,72 @@
+{
+  "attempt_id": "7f0e4df0bfe81de7",
+  "candidate_id": "tmp-food-cooking-s031-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary for salty soy sauce.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/8072/7/Modul%20Biologi%20perikanlaut%20J.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kecap asin"
+    },
+    {
+      "conclusion": "Plausible and understandable for salty soy sauce, but not the only common Malaysian form; generic kicap and kicap cair are also used.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kicap",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kicap+I"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: kicap masin"
+    },
+    {
+      "conclusion": "The cue “soy sauce” is broader than the sense “the salty fermented soybean sauce”; the card should align them explicitly.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kicap",
+        "https://repositori.kemendikdasmen.go.id/8072/7/Modul%20Biologi%20perikanlaut%20J.pdf"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a learner-facing national-form contrast, though the forms are cognate correspondences rather than unrelated words.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kicap",
+        "https://repositori.kemendikdasmen.go.id/8072/7/Modul%20Biologi%20perikanlaut%20J.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is established; the contrast is lexical/national usage and the meanings overlap.",
+      "evidence_limitation": "No dedicated false-friend evidence was provided or found.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d3580f5e7d84b5f2e31c045ab748290313f07af67fcd005a3cc728d326912e8a",
+  "correction_refs": [],
+  "decision_digest": "daf01affae9518c62dc2616f59383391cc689bf043efb5ebebd48d9f077edafe",
+  "elapsed_ms": 18266,
+  "finding_class": "cue-content",
+  "input_tokens": 49913,
+  "model_calls": 1,
+  "output_tokens": 1047,
+  "packet_digest": "5996fdb4c3b1f400c67a99303bc6a21e874ecb12c49c05782dd5a30ff4025d30",
+  "rationale": "Both Malay forms are valid for salty soy sauce, and the Indonesian–Malaysian contrast is materially useful. However, the English cue “soy sauce” is broader than the stated salty sense; revise it to “salty soy sauce” or broaden the sense. No false-friend contrast is present. Malaysian usage also has competing forms such as “kicap cair” or generic “kicap,” so “kicap masin” should not be presented as the only Malaysian equivalent.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:53:56.476026+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s031/tmp-food-cooking-s031-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s031",
+  "verdict": "needs-correction"
+}

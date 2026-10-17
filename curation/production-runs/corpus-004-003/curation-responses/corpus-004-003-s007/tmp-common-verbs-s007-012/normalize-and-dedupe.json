@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5553,
+  "input_digest": "a832eb6085cf9d206214dee43485c8b94c506ebc3e4d2be139599c6e07ea4bee",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 210,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-actions-001:actions-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The Indonesian answer memakai overlaps, but the candidate cue and sense mean having clothing on the body, whereas the existing concept use means employing an object or method; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-03",
+          "rationale": "The Indonesian answer memakai overlaps, but the candidate cue and sense mean having clothing on the body, whereas the existing concept use means employing an object or method; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

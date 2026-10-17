@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:51:03.718492+00:00",
+  "input_digest": "91f6b0f4f18ec78f5244b83eaf69a8840ba9c0e9a16a95c5a580e34d96a94bab",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-travel-001:travel-10\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201ccorner\\u201d can denote a place where two streets meet, overlapping with \\u201cintersection,\\u201d whose sense is a place where roads meet; the added \\u201cor sides\\u201d wording does not clearly establish a distinct concept.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-10",
+          "rationale": "“corner” can denote a place where two streets meet, overlapping with “intersection,” whose sense is a place where roads meet; the added “or sides” wording does not clearly establish a distinct concept.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-travel-001:travel-10",
+        "rationale": "“corner” can denote a place where two streets meet, overlapping with “intersection,” whose sense is a place where roads meet; the added “or sides” wording does not clearly establish a distinct concept.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "35e5370e31c10a0741f0320b4c3894113bba3f60384314959b1cba21226b495d"
+}

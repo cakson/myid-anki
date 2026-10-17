@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:51:42.410004+00:00",
+  "input_digest": "4f4f47ac1897b4f2b9ed8b66b876a433e73a9ddda5e559d8696367fabf12746a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s007:tmp-common-verbs-s007-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cgo straight\\u201d means continue in the same direction without turning, while \\u201ccontinue\\u201d means keep doing something; the senses and both answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s007:tmp-common-verbs-s007-010",
+          "rationale": "“go straight” means continue in the same direction without turning, while “continue” means keep doing something; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s007:tmp-common-verbs-s007-010",
+        "rationale": "“go straight” means continue in the same direction without turning, while “continue” means keep doing something; the senses and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1249591dcb3677d14f1d72cf8611293f61389bf620624b99f05f670a469f5e5c"
+}

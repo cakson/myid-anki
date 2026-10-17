@@ -1,0 +1,75 @@
+{
+  "attempt_id": "e974f73e8933f826",
+  "candidate_id": "tmp-time-date-s044-009",
+  "claim_reviews": [
+    {
+      "conclusion": "“Next year” correctly matches “the calendar year immediately after this one.”",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/16351/1/Tata%20Bahasa%20Baku%20Bahasa%20Ind.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary Indonesian wording for the intended temporal sense.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/16351/1/Tata%20Bahasa%20Baku%20Bahasa%20Ind.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tahun depan"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay wording for the intended sense, but it is not exclusive; Malaysian references also recognize “tahun depan.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hadap",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=taklimat"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: tahun hadapan"
+    },
+    {
+      "conclusion": "“different-common-word” is materially inaccurate or overstated. DBP explicitly gives “tahun depan” as equivalent to “tahun hadapan” and says both can be used, so this is better treated as shared wording with a possible Malaysian preference for “tahun hadapan.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hadap",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=taklimat"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and national split"
+    },
+    {
+      "conclusion": "No false-friend contrast is required. “Depan” and “hadapan” can also refer to physical front/forward position, but in “tahun depan/tahun hadapan” both function transparently as temporal expressions; the empty contrast field is not misleading.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=depan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hadapan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3de4886382d58a72e68bfccaec04bac50ff2fe68a0ea7ac6bff26ffcf74cd817",
+  "correction_refs": [],
+  "decision_digest": "f7318f56b96dd29deefd70866f0cdcff6a2f9ca75778a7322c1d6f57b5899d06",
+  "elapsed_ms": 18373,
+  "finding_class": "metadata-only",
+  "input_tokens": 62729,
+  "model_calls": 1,
+  "output_tokens": 1511,
+  "packet_digest": "e0848519d017849e7130beca459c86b3530aa16b3fa24d5a135b10d5494fb43e",
+  "rationale": "Both answers are valid for the stated sense, but the national split is materially overstated: authoritative Malaysian references explicitly equate “tahun depan” with “tahun hadapan” and state that both forms may be used. The relation should not be different-common-word. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:14:56.592282+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s044/tmp-time-date-s044-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s044",
+  "verdict": "needs-correction"
+}

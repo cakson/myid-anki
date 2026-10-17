@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:45.064371+00:00",
+  "result": {
+    "candidate_digest": "b5af63f0aee93d3b549dbe4755a437c80944b29cc541059b196f0122637a5e09",
+    "candidate_id": "tmp-daily-life-s016-008",
+    "checked_at": "2026-10-17T06:21:45.064371+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The Malaysian answer is a valid direct equivalent. Indonesian “lampu tidur” is common but broader and can mean a night lamp, so it is not reliably equivalent to the specific cue “bedside lamp” without context. The relation remains different-common-word, and no major false-friend contrast is required. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6245,
+  "input_digest": "77e8e83270aae5977822f35afac92fd678dff488f3bd041eacb92a73a35f234c",
+  "input_tokens": 93710,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 241,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s037:tmp-services-s037-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Renewal is the act of extending validity; validity period is the duration for which a document or service remains valid.\"},{\"other_id\":\"corpus-004-003-s037:tmp-services-s037-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Renewal extends an existing service or document, whereas a service application requests starting or receiving a service.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-011",
+          "rationale": "Renewal is the act of extending validity; validity period is the duration for which a document or service remains valid.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-009",
+          "rationale": "Renewal extends an existing service or document, whereas a service application requests starting or receiving a service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

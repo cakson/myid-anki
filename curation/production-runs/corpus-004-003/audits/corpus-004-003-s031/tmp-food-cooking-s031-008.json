@@ -1,0 +1,75 @@
+{
+  "attempt_id": "160f37eaef9caa3e",
+  "candidate_id": "tmp-food-cooking-s031-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid ordinary Indonesian term; semantically broader than dough and also used for other mixtures.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/adonan",
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/dough"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: adonan"
+    },
+    {
+      "conclusion": "Valid specific Malaysian Malay term for flour mixed with liquid and kneaded into bread or pastry dough.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=doh"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: doh"
+    },
+    {
+      "conclusion": "The cue dough and the uncooked flour-and-liquid sense align with both translations, though adonan covers a wider class of mixtures.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/dough",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=doh"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is accurate for the ordinary regional equivalents.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/adonan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=doh"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No true false friend is established: Malaysian adunan overlaps with Indonesian adonan and can describe flour mixtures, while doh is the more specific dough term.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=adunan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=doh"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2eb3129cc733f6ae7d9ffed55c5c9a71a5cb8cfa16df5e9fc7e8344808c86d91",
+  "correction_refs": [],
+  "decision_digest": "e1fc7aa5e5819426e231ebc0fdcafbb1c8186da12d78c03e0cab6ccbd2e97b78",
+  "elapsed_ms": 23259,
+  "finding_class": "none",
+  "input_tokens": 97588,
+  "model_calls": 1,
+  "output_tokens": 1375,
+  "packet_digest": "55990099cfb6144c42f55b587db67f443216bff2e5b2d299dc02b931df98c753",
+  "rationale": "Both answers are valid. Indonesian adonan is broader than English dough but is the ordinary cooking term for dough; Malaysian doh specifically denotes kneaded flour-and-liquid dough. The different-common-word relation is accurate. Adunan is an overlapping broader Malay term, not a true false friend, so no material learner error is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:54:19.787224+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s031/tmp-food-cooking-s031-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s031",
+  "verdict": "cleared"
+}

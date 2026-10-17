@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T20:13:06.949394+00:00",
+  "input_digest": "493b01f54fe44045699919c60cba32212e19ab5ce967114bb23fed68d481c59a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s037:tmp-services-s037-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both involve an application or request, but this candidate specifically concerns obtaining a loan, whereas the existing concept concerns starting or receiving a service.\"}, {\"other_id\": \"fresh-work-001:work-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are formal applications, but this candidate requests a loan while the existing concept requests consideration for employment.\"}, {\"other_id\": \"corpus-004-003-s011:tmp-communication-s011-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A loan application is a submitted financial document or process; the existing concept is a general polite appeal for something.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-009",
+          "rationale": "Both involve an application or request, but this candidate specifically concerns obtaining a loan, whereas the existing concept concerns starting or receiving a service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-08",
+          "rationale": "Both are formal applications, but this candidate requests a loan while the existing concept requests consideration for employment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-003",
+          "rationale": "A loan application is a submitted financial document or process; the existing concept is a general polite appeal for something.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-009",
+        "rationale": "Both involve an application or request, but this candidate specifically concerns obtaining a loan, whereas the existing concept concerns starting or receiving a service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-work-001:work-08",
+        "rationale": "Both are formal applications, but this candidate requests a loan while the existing concept requests consideration for employment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s011:tmp-communication-s011-003",
+        "rationale": "A loan application is a submitted financial document or process; the existing concept is a general polite appeal for something.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c4053266828f3dda5ee24da4f07e35696111997befd03c1a38da7c795226d08b"
+}

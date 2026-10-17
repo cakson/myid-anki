@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5314,
+  "input_digest": "08b56c9d0e070746af3932a236361ddde9667da830f6af6aa3dcc0b116a0f4b5",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 331,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-work-001:work-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A report card is a school document recording a student's results, whereas grade is an individual score or evaluation.\"},{\"other_id\":\"cal2-work-001:work-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A report card is a school results document; report is a general written account of information or findings.\"},{\"other_id\":\"corpus-004-003-s021:tmp-education-s021-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A report card records a student's results across subjects or assessments, whereas exam result is the outcome of a particular examination.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-work-001:work-03",
+          "rationale": "A report card is a school document recording a student's results, whereas grade is an individual score or evaluation.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-09",
+          "rationale": "A report card is a school results document; report is a general written account of information or findings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s021:tmp-education-s021-006",
+          "rationale": "A report card records a student's results across subjects or assessments, whereas exam result is the outcome of a particular examination.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

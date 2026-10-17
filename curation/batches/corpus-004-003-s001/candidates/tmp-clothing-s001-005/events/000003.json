@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:19:12.627985+00:00",
+  "input_digest": "9b3388133b51b909d8d32fa0c43827ac900c957021ecb65b3dd61305c1ece7e3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"clothing-001:clothing-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cboots\\u201d denotes sturdy ankle-covering footwear, while \\u201cshoes\\u201d is a broader everyday footwear term without the ankle-covering sense; the candidate's answers also differ.\"}, {\"other_id\": \"corpus-004-003-s001:tmp-clothing-s001-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201crain boots\\u201d is a specific waterproof subtype worn in rainy weather, while \\u201cboots\\u201d is the general footwear category; the Indonesian and Malaysian answers also differ by the added rain qualifier.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-02",
+          "rationale": "“boots” denotes sturdy ankle-covering footwear, while “shoes” is a broader everyday footwear term without the ankle-covering sense; the candidate's answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s001:tmp-clothing-s001-012",
+          "rationale": "“rain boots” is a specific waterproof subtype worn in rainy weather, while “boots” is the general footwear category; the Indonesian and Malaysian answers also differ by the added rain qualifier.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "clothing-001:clothing-02",
+        "rationale": "“boots” denotes sturdy ankle-covering footwear, while “shoes” is a broader everyday footwear term without the ankle-covering sense; the candidate's answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s001:tmp-clothing-s001-012",
+        "rationale": "“rain boots” is a specific waterproof subtype worn in rainy weather, while “boots” is the general footwear category; the Indonesian and Malaysian answers also differ by the added rain qualifier.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "030e6ddc02d376a59c27eafc8f4d6ffff8c82be1d5057bf5914cb75e0cadbbda"
+}

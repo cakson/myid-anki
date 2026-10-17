@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:46.459839+00:00",
+  "result": {
+    "candidate_digest": "e26090ab08b20ef12d46ec4ca0a4e8f1b8977a8f71c79f7263d73d4549f58046",
+    "candidate_id": "tmp-emotions-s022-009",
+    "checked_at": "2026-10-17T06:21:46.459839+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both answers are semantically related to “miserable,” but the card overstates equivalence and commonness. Indonesian “merana” primarily conveys prolonged illness, languishing, or persistent sadness and is less neutral/everyday than the English cue. Malaysian “sengsara” denotes hardship and suffering, often including severe life circumstances, rather than purely extreme unhappiness. The different-form relation is valid, but the absent contrast leaves important usage differences unstated. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

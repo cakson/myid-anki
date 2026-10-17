@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:46:26.267730+00:00",
+  "input_digest": "a66544e345d9c348c8aa5bdf1513741690fe79af903d16ed1c680dbf698312f0",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-07\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Shipping fee is the charge for delivering a purchased item, whereas delivery is the act of bringing the item to the recipient.\"}, {\"other_id\": \"corpus-004-002-s014:tmp-services-s014-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A shipping fee is specifically charged for product delivery; service fee is a broader charge for providing a service.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-07",
+          "rationale": "Shipping fee is the charge for delivering a purchased item, whereas delivery is the act of bringing the item to the recipient.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+          "rationale": "A shipping fee is specifically charged for product delivery; service fee is a broader charge for providing a service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-07",
+        "rationale": "Shipping fee is the charge for delivering a purchased item, whereas delivery is the act of bringing the item to the recipient.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+        "rationale": "A shipping fee is specifically charged for product delivery; service fee is a broader charge for providing a service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c1d24538f4575d213ab99cee0f1b130cd376946ee3a82a29b6b6967951399c22"
+}

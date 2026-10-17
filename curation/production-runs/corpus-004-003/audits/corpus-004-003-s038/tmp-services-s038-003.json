@@ -1,0 +1,76 @@
+{
+  "attempt_id": "b7572c5b05c6b07a",
+  "candidate_id": "tmp-services-s038-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: both entries can express “police officer.”",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/polisi",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=polis"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and standard; KBBI includes the individual member of the police force.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/polisi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: polisi"
+    },
+    {
+      "conclusion": "Acceptable and semantically transparent for “police officer,” though polis alone is also a standard Malaysian term for a police member.",
+      "evidence_limitation": "The cited dictionary evidence directly establishes polis; it does not separately establish frequency or register for the compound pegawai polis.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=polis"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pegawai polis"
+    },
+    {
+      "conclusion": "Different-common-word is broadly serviceable, but it should not be presented as a false-friend contrast; the forms are closely corresponding Malay varieties with shared meaning.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/polisi",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=polis"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No genuine false-friend contrast is present. The false-friend tag should be removed or replaced with a note that Malaysian polis is a common competing form.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=polis"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "185c18dafaf3c1cdd97e928a7250f99a2bac38ce2f548fea2b5cc17a5a49a250",
+  "correction_refs": [],
+  "decision_digest": "e5a17d704fe3e3e23ffd24524697319b64d492f28b0179944c2764c8f03a13cd",
+  "elapsed_ms": 18653,
+  "finding_class": "metadata-only",
+  "input_tokens": 50034,
+  "model_calls": 1,
+  "output_tokens": 1086,
+  "packet_digest": "52afe7113cb9d2ca27b00f9eec13dac3a7217a5fb80cd16feb8cd60396404624",
+  "rationale": "Both answers fit the cue, but the false-friend tag and empty contrast are misleading. Indonesian polisi and Malaysian polis are closely corresponding terms, not a meaningful false-friend contrast; pegawai polis is a valid, more explicit Malaysian phrase, while polis is also ordinary for a police officer.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:01:39.237324+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s038/tmp-services-s038-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "needs-correction"
+}

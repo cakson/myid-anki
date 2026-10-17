@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T20:09:43.335519+00:00",
+  "input_digest": "2ec35caa66a5eea29b156d600573cc23c1c69bd2e2289871581da8db0539c970",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s022:tmp-emotions-s022-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201ccondolences\\u201d is an expression offered after a death; \\u201csympathetic\\u201d describes sharing or expressing concern and is not the same cue or answer pair.\"}, {\"other_id\": \"corpus-004-003-s023:tmp-emotions-s023-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201ccondolences\\u201d is a social expression after a death, whereas \\u201cgrieving\\u201d describes the bereaved person\\u2019s emotional state.\"}, {\"other_id\": \"corpus-004-003-s022:tmp-emotions-s022-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201ccondolences\\u201d is a conventional expression after a death; \\u201ccompassionate\\u201d describes a person\\u2019s disposition toward suffering.\"}, {\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are social expressions, but \\u201ccondolences\\u201d responds to a death while \\u201ccongratulations\\u201d celebrates an achievement or happy event.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-011",
+          "rationale": "“condolences” is an expression offered after a death; “sympathetic” describes sharing or expressing concern and is not the same cue or answer pair.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s023:tmp-emotions-s023-004",
+          "rationale": "“condolences” is a social expression after a death, whereas “grieving” describes the bereaved person’s emotional state.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-012",
+          "rationale": "“condolences” is a conventional expression after a death; “compassionate” describes a person’s disposition toward suffering.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-005",
+          "rationale": "Both are social expressions, but “condolences” responds to a death while “congratulations” celebrates an achievement or happy event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s022:tmp-emotions-s022-011",
+        "rationale": "“condolences” is an expression offered after a death; “sympathetic” describes sharing or expressing concern and is not the same cue or answer pair.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s023:tmp-emotions-s023-004",
+        "rationale": "“condolences” is a social expression after a death, whereas “grieving” describes the bereaved person’s emotional state.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s022:tmp-emotions-s022-012",
+        "rationale": "“condolences” is a conventional expression after a death; “compassionate” describes a person’s disposition toward suffering.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-005",
+        "rationale": "Both are social expressions, but “condolences” responds to a death while “congratulations” celebrates an achievement or happy event.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "67f935972a161ba7c5698761f87d12bd33d13fb9a9c4354eda282bd056e2d62e"
+}

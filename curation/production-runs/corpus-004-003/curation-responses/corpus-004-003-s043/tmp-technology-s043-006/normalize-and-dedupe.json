@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5759,
+  "input_digest": "78583e4d94c0e3916511eb407b2bc9d393ff17b0124839dc2c891f8349e425fd",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 380,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Airplane is an aircraft; airplane mode is a device setting that disables wireless communication.\"},{\"other_id\":\"corpus-004-002-s016:tmp-technology-s016-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Settings is a general collection of device or application configuration options; airplane mode is one specific wireless-disabling setting.\"},{\"other_id\":\"corpus-004-003-s042:tmp-technology-s042-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Wireless describes communication without cables; airplane mode is a device setting that disables wireless communication.\"},{\"other_id\":\"corpus-004-003-s043:tmp-technology-s043-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Mobile data is internet access through a mobile network; airplane mode is a setting that disables wireless communication, potentially including mobile data.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-01",
+          "rationale": "Airplane is an aircraft; airplane mode is a device setting that disables wireless communication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-002",
+          "rationale": "Settings is a general collection of device or application configuration options; airplane mode is one specific wireless-disabling setting.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s042:tmp-technology-s042-007",
+          "rationale": "Wireless describes communication without cables; airplane mode is a device setting that disables wireless communication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-005",
+          "rationale": "Mobile data is internet access through a mobile network; airplane mode is a setting that disables wireless communication, potentially including mobile data.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

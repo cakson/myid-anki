@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:51:51.036758+00:00",
+  "result": {
+    "candidate_digest": "287f88b6a4eee9a537babb0f69db10934dee402353e701b599f34d12c4fa9f9e",
+    "candidate_id": "tmp-directions-location-s017-004",
+    "checked_at": "2026-10-16T19:51:51.036758+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "\"Jalan terus\" is an ordinary same-sense Indonesian alternative, so presenting \"jalan lurus\" versus \"jalan terus\" as a clear national contrast may mislead learners.",
+      "A shared ordinary synonym may defeat the claimed national preference."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "\"Jalan terus\" is an ordinary same-sense Indonesian alternative, so presenting \"jalan lurus\" versus \"jalan terus\" as a clear national contrast may mislead learners.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

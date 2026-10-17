@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4574,
+  "input_digest": "27de95d31fcd667d3bd4cbbea0fa83b38d9171916c091580e9fab70719c3532a",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 246,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s025:tmp-family-social-s025-012\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Godmother and godfather share the religious-sponsor role but differ by gender; the candidate is specifically a woman.\"},{\"other_id\":\"corpus-004-003-s026:tmp-family-social-s026-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A godmother is a religious sponsor, not necessarily the child's biological female parent; this differs from father in both role and gender.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-012",
+          "rationale": "Godmother and godfather share the religious-sponsor role but differ by gender; the candidate is specifically a woman.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-001",
+          "rationale": "A godmother is a religious sponsor, not necessarily the child's biological female parent; this differs from father in both role and gender.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

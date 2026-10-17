@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:06:04.926837+00:00",
+  "input_digest": "c56043ea365ecc1b420b9331349abcf8623094bd792fa20a4d17f87394d6db81",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s016:tmp-services-s016-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An airport check-in counter is specifically for airline passenger check-in, while a service counter is a general public-facing counter for service or payment.\"}, {\"other_id\": \"corpus-004-003-s050:tmp-travel-s050-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A check-in counter is an airport facility for checking in for a flight; hotel reception is a hotel desk or staff handling hotel guests, despite both involving check-in.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s016:tmp-services-s016-001",
+          "rationale": "An airport check-in counter is specifically for airline passenger check-in, while a service counter is a general public-facing counter for service or payment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s050:tmp-travel-s050-001",
+          "rationale": "A check-in counter is an airport facility for checking in for a flight; hotel reception is a hotel desk or staff handling hotel guests, despite both involving check-in.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s016:tmp-services-s016-001",
+        "rationale": "An airport check-in counter is specifically for airline passenger check-in, while a service counter is a general public-facing counter for service or payment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s050:tmp-travel-s050-001",
+        "rationale": "A check-in counter is an airport facility for checking in for a flight; hotel reception is a hotel desk or staff handling hotel guests, despite both involving check-in.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "ae87691b5dafe1ea917f5aee442d057a5b5672bc9ca2f98c195cf13650983c4f"
+}

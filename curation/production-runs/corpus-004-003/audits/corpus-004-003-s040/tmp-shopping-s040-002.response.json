@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17761,
+  "input_tokens": 64868,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 980,
+  "packet_digest": "b69e4e48ecc5a133650f994a10bda34b38aca79f58e11fb148a7ea9e80423a36",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers accurately express the product-warranty sense. Indonesian garansi is standard; Malaysian Malay jaminan is an ordinary general equivalent, while waranti is a valid specialized or alternative term. The different-common-word relation is appropriate. No false-friend contrast is needed.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: garansi\",\"conclusion\":\"Correct ordinary Indonesian term for a seller or manufacturer warranty.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/garansi\"]},{\"subject\":\"Malaysian answer: jaminan\",\"conclusion\":\"Correct Malaysian Malay equivalent for a product warranty in general usage.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=warranty\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jaminan\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue warranty and the seller/manufacturer product-defect coverage sense align with both answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=waranti\",\"https://kbbi.web.id/garansi\"]},{\"subject\":\"Final relation\",\"conclusion\":\"different-common-word is justified: garansi and jaminan are the ordinary cross-variety choices, despite Malaysian waranti also being valid.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=warranty\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=waranti\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present or required; jaminan is also a valid product-warranty term in Indonesian, but that does not invalidate the Malaysian answer.\",\"material_risk\":false,\"evidence_refs\":[\"https://typoonline.com/kbbi/jaminan\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jaminan\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct ordinary Indonesian term for a seller or manufacturer warranty.",
+        "evidence_refs": [
+          "https://kbbi.web.id/garansi"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: garansi"
+      },
+      {
+        "conclusion": "Correct Malaysian Malay equivalent for a product warranty in general usage.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=warranty",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jaminan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: jaminan"
+      },
+      {
+        "conclusion": "The cue warranty and the seller/manufacturer product-defect coverage sense align with both answers.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=waranti",
+          "https://kbbi.web.id/garansi"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "different-common-word is justified: garansi and jaminan are the ordinary cross-variety choices, despite Malaysian waranti also being valid.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=warranty",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=waranti"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or required; jaminan is also a valid product-warranty term in Indonesian, but that does not invalidate the Malaysian answer.",
+        "evidence_refs": [
+          "https://typoonline.com/kbbi/jaminan",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jaminan"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers accurately express the product-warranty sense. Indonesian garansi is standard; Malaysian Malay jaminan is an ordinary general equivalent, while waranti is a valid specialized or alternative term. The different-common-word relation is appropriate. No false-friend contrast is needed.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

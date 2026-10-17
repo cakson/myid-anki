@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:01:30.556861+00:00",
+  "input_digest": "af600b3fa25cd86d0ea1ea94b5df10829cf3c9a94857e63d9b7dedfb962701f9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-001:transportation-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Car rental is a service for temporarily renting cars, whereas this entry is the passenger road vehicle itself.\"}, {\"other_id\": \"corpus-004-002-s003:tmp-common-verbs-s003-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Car rental is the customer-facing rental service; to rent out is the action of allowing someone to use property for payment.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-01",
+          "rationale": "Car rental is a service for temporarily renting cars, whereas this entry is the passenger road vehicle itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s003:tmp-common-verbs-s003-006",
+          "rationale": "Car rental is the customer-facing rental service; to rent out is the action of allowing someone to use property for payment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-001:transportation-01",
+        "rationale": "Car rental is a service for temporarily renting cars, whereas this entry is the passenger road vehicle itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s003:tmp-common-verbs-s003-006",
+        "rationale": "Car rental is the customer-facing rental service; to rent out is the action of allowing someone to use property for payment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "bfdf54482e89be4d9a8b3787dd89c78b326cbb4304f4468e66aa65c0a7ec7376"
+}

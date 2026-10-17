@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:27:35.933681+00:00",
+  "input_digest": "73e09c386b72a5b8f74247629a77c3e3e57e094e6a3a3ad0286489aea54be23f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s005:tmp-common-adjectives-s005-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cimportant\\u201d means having high importance generally, whereas \\u201cprimary\\u201d means first in importance or priority; the senses are related but distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-009",
+          "rationale": "“important” means having high importance generally, whereas “primary” means first in importance or priority; the senses are related but distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-009",
+        "rationale": "“important” means having high importance generally, whereas “primary” means first in importance or priority; the senses are related but distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "e35e7ce36a672e8affdf57a18450d3aff52a5dedb8806dee83e349806ba62a9b"
+}

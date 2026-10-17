@@ -1,0 +1,73 @@
+{
+  "attempt_id": "27549e517c639264",
+  "candidate_id": "tmp-services-s038-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for a claim involving recognition of a right or entitlement, including compensation-related claims.",
+      "evidence_refs": [
+        "https://kbbi.web.id/klaim"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: klaim"
+    },
+    {
+      "conclusion": "Correct and well-supported for a formal claim or demand, including an insurance or compensation claim.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=claims",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dakwaan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tuntutan"
+    },
+    {
+      "conclusion": "The cue and sense are semantically appropriate for both answers, though claim can also mean an assertion or entitlement outside compensation contexts.",
+      "evidence_refs": [
+        "https://kbbi.web.id/klaim",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dakwaan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Needs qualification: klaim versus tuntutan is a useful Indonesian–Malaysian preference, but not an exclusive different-common-word contrast because Indonesian also uses tuntutan in overlapping senses.",
+      "evidence_refs": [
+        "https://kbbi.web.id/klaim",
+        "https://kbbi.web.id/tuntutan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=claims"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No supported false-friend contrast is present; the blank contrast field is acceptable only if the item is explicitly presented as a preference/overlap distinction rather than a false-friend lesson.",
+      "evidence_limitation": "The consulted dictionary sources establish overlapping meanings and usage, but do not independently establish a false-friend contrast.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "846983ab3efe55ed4392bf8e2b1c3340c71443edaa7977fa4c974ffe6abe7e29",
+  "correction_refs": [],
+  "decision_digest": "ed416cc3aef58880d876304cb638dc9fb365d69a685807419d74cdb30d29fed7",
+  "elapsed_ms": 18675,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 51836,
+  "model_calls": 1,
+  "output_tokens": 1191,
+  "packet_digest": "4374d6dbf0791aab0fecd34211dc688414767b8e11375df2df2bb4b585ec6f10",
+  "rationale": "Both forms fit the cue, but the national contrast is overstated: Indonesian also uses tuntutan for a demand or legal claim, while Malaysian tuntutan is the standard translation for claim. The relation should be framed as a usage preference, not a clean different-common-word distinction. No false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:00:59.287163+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s038/tmp-services-s038-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "needs-correction"
+}

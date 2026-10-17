@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:04:21.486013+00:00",
+  "input_digest": "149c3139fce4d52e557c3b312820d52eabe00f547c1f3752f9011346c2fa5b12",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-travel-001:travel-01\", \"type\": \"synonym\", \"resolution\": \"merge\", \"rationale\": \"\\u201crailway station\\u201d and \\u201ctrain station\\u201d name the same station served by trains, with identical Indonesian and Malaysian answers.\"}, {\"other_id\": \"000055\", \"type\": \"synonym\", \"resolution\": \"merge\", \"rationale\": \"Matches the accepted learner concept \\u201ctrain station\\u201d; the cue is a synonymous wording and both answers agree exactly.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-01",
+          "rationale": "“railway station” and “train station” name the same station served by trains, with identical Indonesian and Malaysian answers.",
+          "resolution": "merge",
+          "type": "synonym"
+        },
+        {
+          "other_id": "000055",
+          "rationale": "Matches the accepted learner concept “train station”; the cue is a synonymous wording and both answers agree exactly.",
+          "resolution": "merge",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-travel-001:travel-01",
+        "rationale": "“railway station” and “train station” name the same station served by trains, with identical Indonesian and Malaysian answers.",
+        "resolution": "merge",
+        "type": "synonym"
+      },
+      {
+        "other_id": "000055",
+        "rationale": "Matches the accepted learner concept “train station”; the cue is a synonymous wording and both answers agree exactly.",
+        "resolution": "merge",
+        "type": "synonym"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "63144d3fd130eb9333e35f1d6547859bc4521313026fe11f84a0874fe5182776"
+}

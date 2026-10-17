@@ -1,0 +1,51 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17733,
+  "input_tokens": 49546,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 884,
+  "packet_digest": "24638afb0ef51095fe576211b9399f56ea7d570429e94667d2e26bac7dbf91bb",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"The English cue and sense are accurate. Pujasera is an established Indonesian term for food court, and medan selera is an established Malaysian Malay term for a place with many food stalls. The relation different-common-word is appropriate. No false-friend contrast is needed because neither item creates a misleading cross-language meaning.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Food court accurately denotes a shared dining area with multiple food vendors.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://en.wiktionary.org/wiki/pujasera\",\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=medan+selera\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: pujasera\",\n      \"conclusion\": \"Pujasera is an established Indonesian term meaning food court or food hall.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://en.wiktionary.org/wiki/pujasera\",\n        \"https://www.esb.id/id/inspirasi/apa-itu-food-court\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: medan selera\",\n      \"conclusion\": \"Medan selera is an established Malaysian Malay term for a place containing many food stalls serving various foods.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=medan+selera\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation and false-friend contrast\",\n      \"conclusion\": \"Different-common-word is an appropriate relation for the two national terms. No false-friend contrast is warranted.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"The sources establish the meanings and national usage labels but do not independently quantify comparative frequency or mall-specific preference.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Food court accurately denotes a shared dining area with multiple food vendors.",
+        "evidence_refs": [
+          "https://en.wiktionary.org/wiki/pujasera",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=medan+selera"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Pujasera is an established Indonesian term meaning food court or food hall.",
+        "evidence_refs": [
+          "https://en.wiktionary.org/wiki/pujasera",
+          "https://www.esb.id/id/inspirasi/apa-itu-food-court"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: pujasera"
+      },
+      {
+        "conclusion": "Medan selera is an established Malaysian Malay term for a place containing many food stalls serving various foods.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=medan+selera"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: medan selera"
+      },
+      {
+        "conclusion": "Different-common-word is an appropriate relation for the two national terms. No false-friend contrast is warranted.",
+        "evidence_limitation": "The sources establish the meanings and national usage labels but do not independently quantify comparative frequency or mall-specific preference.",
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "The English cue and sense are accurate. Pujasera is an established Indonesian term for food court, and medan selera is an established Malaysian Malay term for a place with many food stalls. The relation different-common-word is appropriate. No false-friend contrast is needed because neither item creates a misleading cross-language meaning.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

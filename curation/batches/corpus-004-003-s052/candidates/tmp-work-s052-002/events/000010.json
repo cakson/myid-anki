@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T05:12:21.740818+00:00",
+  "result": {
+    "candidate_digest": "f6d1deaf35f09bf9b946c28f2fc7c29ed135607760b241e0eb13f5ef0484beba",
+    "candidate_id": "tmp-work-s052-002",
+    "checked_at": "2026-10-17T05:12:21.740818+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The pairing may mislead learners into treating \"penyata gaji\" as the Malaysian-only preference, although \"slip gaji\" is commonly used in Malaysia."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pairing may mislead learners into treating \"penyata gaji\" as the Malaysian-only preference, although \"slip gaji\" is commonly used in Malaysia.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

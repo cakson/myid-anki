@@ -1,0 +1,71 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20696,
+  "input_tokens": 62513,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1512,
+  "packet_digest": "e01706cba9ece80bce54f9e3fd2a3d568977623c986eea604d0f2d6b02eb1077",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"The answers are semantically correct, but the national split is materially overstated. Malaysian Malay dictionaries define habuk as dust and also define debu as fine dust, explicitly linking debu with habuk. Thus debu is an accepted Malaysian equivalent, although habuk may remain a useful Malaysian preference. The English cue is aligned, and no false-friend contrast is supported.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue \\\"dust\\\" and sense \\\"fine particles that settle on household surfaces\\\" are accurate and aligned.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english/dust\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: debu\",\n      \"conclusion\": \"Debu is a correct Indonesian term for fine dust or powdery particles.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: habuk\",\n      \"conclusion\": \"Habuk is a correct and well-supported Malaysian Malay term for dry fine particles found on surfaces or in the air.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk\"\n      ]\n    },\n    {\n      \"subject\": \"Overlap and national split\",\n      \"conclusion\": \"The split is materially overstated: Malaysian Malay also accepts debu for dust and explicitly treats it as a synonym or near-equivalent of habuk. The card may present habuk as a Malaysian preference, but not as a uniquely Malaysian common word contrasted with Indonesian debu.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk\",\n        \"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=dust\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"The relation \\\"different-common-word\\\" is not adequately supported because the two forms overlap across varieties. A preference-based or shared-synonym relation would be more accurate.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is present or warranted. Debu and habuk refer to the same dust concept in the relevant usage, rather than creating a misleading cross-variety meaning contrast.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The cue \"dust\" and sense \"fine particles that settle on household surfaces\" are accurate and aligned.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/dust"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Debu is a correct Indonesian term for fine dust or powdery particles.",
+        "evidence_refs": [
+          "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: debu"
+      },
+      {
+        "conclusion": "Habuk is a correct and well-supported Malaysian Malay term for dry fine particles found on surfaces or in the air.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: habuk"
+      },
+      {
+        "conclusion": "The split is materially overstated: Malaysian Malay also accepts debu for dust and explicitly treats it as a synonym or near-equivalent of habuk. The card may present habuk as a Malaysian preference, but not as a uniquely Malaysian common word contrasted with Indonesian debu.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk",
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=dust"
+        ],
+        "material_risk": true,
+        "subject": "Overlap and national split"
+      },
+      {
+        "conclusion": "The relation \"different-common-word\" is not adequately supported because the two forms overlap across varieties. A preference-based or shared-synonym relation would be more accurate.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or warranted. Debu and habuk refer to the same dust concept in the relevant usage, rather than creating a misleading cross-variety meaning contrast.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Debu+",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=habuk"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "The answers are semantically correct, but the national split is materially overstated. Malaysian Malay dictionaries define habuk as dust and also define debu as fine dust, explicitly linking debu with habuk. Thus debu is an accepted Malaysian equivalent, although habuk may remain a useful Malaysian preference. The English cue is aligned, and no false-friend contrast is supported.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5105,
+  "input_digest": "092fa8304b6305d3a3e84896ac84ee4a910674c5936c655147d7eeb73555b8af",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 190,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"clothing-001:clothing-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A T-shirt is a casual short-sleeved top, whereas the existing shirt is specifically a collared or button-front upper-body garment; the English cue and both translations differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-03",
+          "rationale": "A T-shirt is a casual short-sleeved top, whereas the existing shirt is specifically a collared or button-front upper-body garment; the English cue and both translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

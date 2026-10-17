@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4179,
+  "input_digest": "106d55b1d5b1815670b92496dd69af247e158acbd1e5b655004c0df6f2d11f95",
+  "input_tokens": 93713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 171,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s022:tmp-work-s022-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“resignation letter” is a formal written document announcing an employee’s departure, whereas “resign” is the act of voluntarily leaving a job; the English cues and both language answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s022:tmp-work-s022-001",
+          "rationale": "“resignation letter” is a formal written document announcing an employee’s departure, whereas “resign” is the act of voluntarily leaving a job; the English cues and both language answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

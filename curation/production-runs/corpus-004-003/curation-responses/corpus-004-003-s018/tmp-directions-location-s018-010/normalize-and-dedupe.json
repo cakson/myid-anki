@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5948,
+  "input_digest": "ae427c57858df0204399d8bb99c947b393a0f329c9d15faa19451497283ca373",
+  "input_tokens": 93711,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 391,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s018:tmp-directions-location-s018-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An elevator is a machine that carries people between floors, whereas an escalator is a moving staircase.\"},{\"other_id\":\"corpus-004-003-s019:tmp-directions-location-s019-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An elevator is a transport device; upstairs refers to being located on a higher floor.\"},{\"other_id\":\"corpus-004-003-s019:tmp-directions-location-s019-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An elevator is a transport device; downstairs refers to being located on a lower floor.\"},{\"other_id\":\"corpus-004-002-s006:tmp-directions-location-s006-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An elevator carries people between floors, while a building floor is one level of a multi-storey building.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s018:tmp-directions-location-s018-009",
+          "rationale": "An elevator is a machine that carries people between floors, whereas an escalator is a moving staircase.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s019:tmp-directions-location-s019-001",
+          "rationale": "An elevator is a transport device; upstairs refers to being located on a higher floor.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s019:tmp-directions-location-s019-002",
+          "rationale": "An elevator is a transport device; downstairs refers to being located on a lower floor.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-003",
+          "rationale": "An elevator carries people between floors, while a building floor is one level of a multi-storey building.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,74 @@
+{
+  "attempt_id": "0802ae046ce11354",
+  "candidate_id": "tmp-work-s051-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and standard for the broad sense “employer,” including individuals, companies, and other employing entities.",
+      "evidence_refs": [
+        "https://jdih.kemenkeu.go.id/kamus-hukum/pemberi-kerja?id=673d723e81190833df313c8eb3c03592"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pemberi kerja"
+    },
+    {
+      "conclusion": "Correct and established Malaysian Malay term for a person or organization that employs or gives work to others.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=majikan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: majikan"
+    },
+    {
+      "conclusion": "The cue “employer” and sense “person or organization that employs a worker” align with both entries.",
+      "evidence_refs": [
+        "https://jdih.kemenkeu.go.id/kamus-hukum/pemberi-kerja?id=673d723e81190833df313c8eb3c03592",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=majikan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable only as a preference contrast, not as an exclusive language distinction: Indonesian also uses “majikan,” so the relation needs qualification.",
+      "evidence_refs": [
+        "https://kbbi.web.id/majikan",
+        "https://jdih.kemenkeu.go.id/kamus-hukum/pemberi-kerja?id=673d723e81190833df313c8eb3c03592"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No genuine false-friend contrast is present. The missing note should state that “majikan” is also Indonesian, often with boss or household-employer nuance, while “pemberi kerja” is broader and more neutral.",
+      "evidence_refs": [
+        "https://kbbi.web.id/majikan",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=majikan"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "45cd88882038d57b246d6084d45150b86b21d370d0076617a64c9e2b9bf37bfb",
+  "correction_refs": [],
+  "decision_digest": "b94b186f40fc36945024148fd8154d237f64ba3e527a91207dfd78856a1db7ea",
+  "elapsed_ms": 18724,
+  "finding_class": "cue-content",
+  "input_tokens": 62148,
+  "model_calls": 1,
+  "output_tokens": 1255,
+  "packet_digest": "ed8e4d1ff71f86bf19fda30a863b381113dc5a18d6137a5f70e604c74c917931",
+  "rationale": "Both answers and the English sense are correct, but the card omits a material shared-synonym contrast: Indonesian also uses “majikan.” Presenting the pair as simply different common words may lead learners to infer that “majikan” is not Indonesian. Malaysian “majikan” is directly supported as employer; Indonesian “pemberi kerja” is the broad, neutral term, while “majikan” is also valid and can carry boss/household-employer nuances.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:18:20.884094+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s051/tmp-work-s051-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s051",
+  "verdict": "needs-correction"
+}

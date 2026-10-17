@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:55:33.767510+00:00",
+  "result": {
+    "candidate_digest": "b756a7634f13fdc9e74d6839770fb1d64f7adc3886991a6ef4b44567b2ffc352",
+    "candidate_id": "tmp-directions-location-s018-011",
+    "checked_at": "2026-10-16T19:55:33.767510+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The pair may mislead learners into treating \"pesisir\" as the Indonesian equivalent and \"pantai\" as the Malaysian equivalent, although \"pantai\" is common in Indonesian coast names and descriptions."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pair may mislead learners into treating \"pesisir\" as the Indonesian equivalent and \"pantai\" as the Malaysian equivalent, although \"pantai\" is common in Indonesian coast names and descriptions.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

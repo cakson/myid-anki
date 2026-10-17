@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:53:16.499750+00:00",
+  "input_digest": "99f9fc8a6d2aa37c096f108ee12450625edbccb15da558be6e4e779af1988368",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The answers do not denote equivalent administrative levels: Indonesian kecamatan is generally below kabupaten/kota, while Malaysian daerah is a district-level division below a state.\"], \"material_concerns\": [\"The broad cue \\u201cdistrict\\u201d could misteach the learner by equating kecamatan with Malaysian daerah.\"], \"rationale\": \"The proposed forms are common in their respective varieties, but they are not aligned for the same exact administrative sense or hierarchy.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise neutral cue preserves both answers as equivalent administrative units because their usual hierarchical levels differ.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"verifier-explicitly-questions-preference\", \"form\": \"daerah\", \"language\": \"malaysian\", \"rationale\": \"Malaysian daerah is a standard district term, but it is not an equivalent national preference for Indonesian kecamatan because the administrative levels differ.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The answers do not denote equivalent administrative levels: Indonesian kecamatan is generally below kabupaten/kota, while Malaysian daerah is a district-level division below a state."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise neutral cue preserves both answers as equivalent administrative units because their usual hierarchical levels differ.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The broad cue “district” could misteach the learner by equating kecamatan with Malaysian daerah."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "daerah",
+        "language": "malaysian",
+        "rationale": "Malaysian daerah is a standard district term, but it is not an equivalent national preference for Indonesian kecamatan because the administrative levels differ.",
+        "signal": "verifier-explicitly-questions-preference"
+      },
+      "rationale": "The proposed forms are common in their respective varieties, but they are not aligned for the same exact administrative sense or hierarchy.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The answers do not denote equivalent administrative levels: Indonesian kecamatan is generally below kabupaten/kota, while Malaysian daerah is a district-level division below a state."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise neutral cue preserves both answers as equivalent administrative units because their usual hierarchical levels differ.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The broad cue “district” could misteach the learner by equating kecamatan with Malaysian daerah."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "daerah",
+      "language": "malaysian",
+      "rationale": "Malaysian daerah is a standard district term, but it is not an equivalent national preference for Indonesian kecamatan because the administrative levels differ.",
+      "signal": "verifier-explicitly-questions-preference"
+    },
+    "rationale": "The proposed forms are common in their respective varieties, but they are not aligned for the same exact administrative sense or hierarchy.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "c0c63f31cde45f5fa8965792a1678f03db0cb6ffb741738e32528528107c2a01"
+}

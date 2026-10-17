@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4288,
+  "input_digest": "6f596d565c00e6558ba67c64a62705276fd57641a04a3419e526ab37d0c3396a",
+  "input_tokens": 93713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 91,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s019:tmp-time-date-s019-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are time units, but second is a unit of one second while minute is a unit of sixty seconds; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s019:tmp-time-date-s019-007",
+          "rationale": "Both are time units, but second is a unit of one second while minute is a unit of sixty seconds; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

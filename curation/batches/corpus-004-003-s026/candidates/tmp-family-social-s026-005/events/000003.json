@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:09:29.904561+00:00",
+  "input_digest": "908460fa1cd8cb6d6e2a36afa72ca6771eaabc783375db9d08c1d9ed53386178",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s002:tmp-common-adjectives-s002-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The Malaysian answer selamat is shared, but the candidate means an expression of congratulations (Indonesian selamat; Malaysian tahniah), while the existing concept means safe (Indonesian aman; Malaysian selamat). The senses and both answer pairs differ.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-006",
+          "rationale": "The Malaysian answer selamat is shared, but the candidate means an expression of congratulations (Indonesian selamat; Malaysian tahniah), while the existing concept means safe (Indonesian aman; Malaysian selamat). The senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-006",
+        "rationale": "The Malaysian answer selamat is shared, but the candidate means an expression of congratulations (Indonesian selamat; Malaysian tahniah), while the existing concept means safe (Indonesian aman; Malaysian selamat). The senses and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "f58297faac09ee4814c4842ebc101ee2b6574d70f2b00f4ce5a4b83868f28195"
+}

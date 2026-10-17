@@ -1,0 +1,76 @@
+{
+  "attempt_id": "a1c856b4648199fe",
+  "candidate_id": "tmp-education-s021-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and idiomatic for “school laboratory” in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.web.id/laboratorium",
+        "https://baru.kbbi.co.id/arti-kata/laboratorium"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: laboratorium sekolah"
+    },
+    {
+      "conclusion": "Correct and idiomatic in Malaysian Malay; makmal means a place equipped for scientific experiments, and school is a natural modifier.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=makmal",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=makmal"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: makmal sekolah"
+    },
+    {
+      "conclusion": "The cue “school laboratory” and sense “school room equipped for practical experiments” align with both answers.",
+      "evidence_refs": [
+        "https://kbbi.web.id/laboratorium",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=makmal"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct: Indonesian ordinarily uses laboratorium, whereas Malaysian Malay ordinarily uses makmal. This is a regional/register contrast, not a meaning contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=laboratorium",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=makmal"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No true false friend is present. Laboratorium is identifiable in Malaysian Malay but is marked as Indonesian usage (IB) by DBP; makmal is also recognized in Indonesian as a synonym, though it is not the ordinary Indonesian choice.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=laboratorium",
+        "https://baru.kbbi.co.id/arti-kata/makmal"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "bfb30fcc4b4145945734eaa1eff0bcb44c46cc2db4b531d3c833270d4a1c1f2d",
+  "correction_refs": [],
+  "decision_digest": "9b5b64a52e99e699c238c5c22920ce971c159ddff6db10ed8786dc9ff8a736df",
+  "elapsed_ms": 20235,
+  "finding_class": "none",
+  "input_tokens": 86732,
+  "model_calls": 1,
+  "output_tokens": 1218,
+  "packet_digest": "56e94f858de64c50198ee16940834d95572271ab26223fd56a89ca75b953f608",
+  "rationale": "Both Malay answers are semantically correct. “Laboratorium sekolah” is standard Indonesian, while “makmal sekolah” is the ordinary Malaysian Malay form. The contrast is a regional lexical difference, not a false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:40:44.312140+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s021/tmp-education-s021-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s021",
+  "verdict": "cleared"
+}

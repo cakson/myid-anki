@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21654,
+  "input_tokens": 91336,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1295,
+  "packet_digest": "4f22865b75ae7cfa8dd502a2283699a63d0fb8c728babf047619966a1b06dd2f",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"The core answers and sense are supported: Indonesian “galat” means error/fault, while Malaysian Malay “pepijat” is the established computing term for a software or system error. However, the false-friend tag is misleading: these are different lexical forms, not a false-friend pair, and Malaysian Malay also recognizes English “bug” as “pepijat” in computing. The distinction is therefore terminological/register-based rather than a true false-friend contrast.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: galat\",\"conclusion\":\"Acceptable as a formal Indonesian term for an error/fault, including software error usage.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/galat\",\"https://kbbi.kemendikdasmen.go.id/entri/kekutu\"]},{\"subject\":\"Malaysian answer: pepijat\",\"conclusion\":\"Correct as a Malaysian Malay computing term for a software, system, or hardware error/bug.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pepijat\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The narrowed cue “formal term for a software bug” accurately describes the intended technical sense, though it excludes common informal borrowing “bug.”\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“different-common-word” is broadly defensible for formal terminology, but should be qualified as a formal/standardized contrast because “bug” is also used or understood in both varieties.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug\",\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pepijat\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"The false-friend label is not justified. The terms are not the same form with divergent meanings; the card presents different terms across varieties, with pepijat additionally having an insect sense.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pepijat\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Acceptable as a formal Indonesian term for an error/fault, including software error usage.",
+        "evidence_refs": [
+          "https://kbbi.web.id/galat",
+          "https://kbbi.kemendikdasmen.go.id/entri/kekutu"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: galat"
+      },
+      {
+        "conclusion": "Correct as a Malaysian Malay computing term for a software, system, or hardware error/bug.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pepijat",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: pepijat"
+      },
+      {
+        "conclusion": "The narrowed cue “formal term for a software bug” accurately describes the intended technical sense, though it excludes common informal borrowing “bug.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“different-common-word” is broadly defensible for formal terminology, but should be qualified as a formal/standardized contrast because “bug” is also used or understood in both varieties.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pepijat"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "The false-friend label is not justified. The terms are not the same form with divergent meanings; the card presents different terms across varieties, with pepijat additionally having an insect sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pepijat",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bug"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "The core answers and sense are supported: Indonesian “galat” means error/fault, while Malaysian Malay “pepijat” is the established computing term for a software or system error. However, the false-friend tag is misleading: these are different lexical forms, not a false-friend pair, and Malaysian Malay also recognizes English “bug” as “pepijat” in computing. The distinction is therefore terminological/register-based rather than a true false-friend contrast.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

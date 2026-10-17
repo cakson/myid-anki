@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5988,
+  "input_digest": "2a9040905ea898169c013ba7522583e093ffc65511ce6a5ad6f1588f7a1e73be",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 369,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s010-001:tmp-finance-admin-s010-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An account balance is the current amount of money in an account, whereas a bank account is the account itself.\"},{\"other_id\":\"corpus-004-003-s027:tmp-finance-admin-s027-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An account balance is an amount; a bank statement is a record of account transactions.\"},{\"other_id\":\"corpus-004-003-s028:tmp-finance-admin-s028-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An account balance is the money amount currently held; an account holder is the person registered to the account.\"},{\"other_id\":\"cal2-shopping-001:shopping-03\",\"type\":\"synonym\",\"resolution\":\"distinct\",\"rationale\":\"Malaysian baki overlaps lexically with the candidate's baki akaun, but change returned is money due after payment, distinct from a bank account balance.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s010-001:tmp-finance-admin-s010-001",
+          "rationale": "An account balance is the current amount of money in an account, whereas a bank account is the account itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-007",
+          "rationale": "An account balance is an amount; a bank statement is a record of account transactions.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-004",
+          "rationale": "An account balance is the money amount currently held; an account holder is the person registered to the account.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-shopping-001:shopping-03",
+          "rationale": "Malaysian baki overlaps lexically with the candidate's baki akaun, but change returned is money due after payment, distinct from a bank account balance.",
+          "resolution": "distinct",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

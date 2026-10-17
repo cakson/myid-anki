@@ -1,0 +1,72 @@
+{
+  "attempt_id": "fe7d16f5feddd5a7",
+  "candidate_id": "tmp-travel-s049-009",
+  "claim_reviews": [
+    {
+      "conclusion": "“Currency exchange” correctly matches the sense “exchanging one currency for another.”",
+      "evidence_refs": [
+        "https://www.bi.go.id/id/fungsi-utama/moneter/pasar-keuangan/default.aspx"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Penukaran mata uang” is a valid and natural Indonesian expression for currency exchange.",
+      "evidence_refs": [
+        "https://www.bi.go.id/id/edukasi/Pages/Penjualan-Valuta-Asing.aspx",
+        "https://www.bi.go.id/id/fungsi-utama/moneter/pasar-keuangan/default.aspx"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pertukaran mata wang” is a valid and established Malaysian Malay expression for currency exchange.",
+      "evidence_refs": [
+        "https://www.cimb.com.my/bm/personal/day-to-day-banking/currency-exchange/cimb-travel-currency/cce-counters.html",
+        "https://www.cimb.com.my/bm/personal/day-to-day-banking/currency-exchange.html"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable as a preference contrast, provided it is understood as non-exclusive; the counterpart forms remain broadly understandable and may occur across varieties.",
+      "evidence_refs": [
+        "https://www.bi.go.id/id/publikasi/peraturan/Pages/se_101408.aspx",
+        "https://www.cimb.com.my/bm/personal/day-to-day-banking/currency-exchange.html"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the forms are semantically aligned cognate expressions.",
+      "evidence_limitation": "No dedicated false-friend lexicographic source was found; this conclusion follows from the matching institutional usage contexts.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "93859a6897e0200e6b758d035f51800240ac6620c8a086932824310bcb289eb8",
+  "correction_refs": [],
+  "decision_digest": "0bd0b559dd20503c303d2bd76e4fd4d59e1968ee2840c5622cae302952881af6",
+  "elapsed_ms": 21338,
+  "finding_class": "none",
+  "input_tokens": 52407,
+  "model_calls": 1,
+  "output_tokens": 1304,
+  "packet_digest": "6bb5fcec53960defb0c4ec95af9706e7d3adc92bd00c84950296c8197d885921",
+  "rationale": "Both Malay forms accurately express exchanging one currency for another. “Penukaran mata uang” is appropriate in Indonesian, while “pertukaran mata wang” is well-established in Malaysian Malay. The distinction is a national lexical preference, not a strict exclusive contrast. No false-friend contrast is applicable.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:17:22.796413+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s049/tmp-travel-s049-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:preference-uncertainty"
+  ],
+  "slice_id": "corpus-004-003-s049",
+  "verdict": "cleared"
+}

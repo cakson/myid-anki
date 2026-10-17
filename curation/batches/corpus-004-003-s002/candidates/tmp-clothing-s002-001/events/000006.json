@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T19:20:47.000757+00:00",
+  "input_digest": "4f0ff6a9f2ac5509bb9e010a1c64f948f871ae712381c2d647cae05d8ec644a7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The cue \\\"vest\\\" is ambiguous across English varieties.\"], \"material_concerns\": [], \"rationale\": \"Rompi is the ordinary Indonesian term, while vest is a useful ordinary Malaysian preference for a sleeveless garment worn over a shirt.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"sleeveless garment worn over a shirt\", \"cue_rationale\": \"The narrowed cue identifies the shared garment sense and avoids other English senses of \\\"vest,\\\" such as an undershirt or waistcoat.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Rompi may be understood in Malaysia and vest may occur in Indonesian fashion usage, but rompi remains a credible Indonesian preference and vest a credible Malaysian preference for this sense.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Regional and fashion-context variation may produce occasional use of the alternative form.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"rompi\", \"language\": \"malaysian\", \"rationale\": \"Rompi may occur in Malaysian usage, but the proposed vest/rompi contrast remains a useful everyday preference.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The cue \"vest\" is ambiguous across English varieties."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The narrowed cue identifies the shared garment sense and avoids other English senses of \"vest,\" such as an undershirt or waistcoat.",
+      "cue_rewrite": "sleeveless garment worn over a shirt",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "rompi",
+        "language": "malaysian",
+        "rationale": "Rompi may occur in Malaysian usage, but the proposed vest/rompi contrast remains a useful everyday preference.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "Rompi is the ordinary Indonesian term, while vest is a useful ordinary Malaysian preference for a sleeveless garment worn over a shirt.",
+      "relation": "different-common-word",
+      "risk_rationale": "Regional and fashion-context variation may produce occasional use of the alternative form.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Rompi may be understood in Malaysia and vest may occur in Indonesian fashion usage, but rompi remains a credible Indonesian preference and vest a credible Malaysian preference for this sense.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The cue \"vest\" is ambiguous across English varieties."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The narrowed cue identifies the shared garment sense and avoids other English senses of \"vest,\" such as an undershirt or waistcoat.",
+    "cue_rewrite": "sleeveless garment worn over a shirt",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "rompi",
+      "language": "malaysian",
+      "rationale": "Rompi may occur in Malaysian usage, but the proposed vest/rompi contrast remains a useful everyday preference.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "Rompi is the ordinary Indonesian term, while vest is a useful ordinary Malaysian preference for a sleeveless garment worn over a shirt.",
+    "relation": "different-common-word",
+    "risk_rationale": "Regional and fashion-context variation may produce occasional use of the alternative form.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Rompi may be understood in Malaysia and vest may occur in Indonesian fashion usage, but rompi remains a credible Indonesian preference and vest a credible Malaysian preference for this sense.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "9f9b52db8aabac6f55538a552966f1fb0fe1929a6b0b2280ea23338785b2ebab"
+}

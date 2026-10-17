@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:49:55.720624+00:00",
+  "input_digest": "931985f62d75b69c8a87b13fa405bccc7d9ec55b0461ad7766281748aa00afaa",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s016:tmp-daily-life-s016-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Fabric softener is a laundry product used to soften clothes, while laundry detergent is used to clean clothes; the products and senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-010",
+          "rationale": "Fabric softener is a laundry product used to soften clothes, while laundry detergent is used to clean clothes; the products and senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s016:tmp-daily-life-s016-010",
+        "rationale": "Fabric softener is a laundry product used to soften clothes, while laundry detergent is used to clean clothes; the products and senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8b2629791748c767bfd91c7c197340456b96c8a671ef504e2d2ad56d707a2434"
+}

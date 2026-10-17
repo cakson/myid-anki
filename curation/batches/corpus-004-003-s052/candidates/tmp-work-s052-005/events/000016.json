@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:57.325236+00:00",
+  "result": {
+    "candidate_digest": "6b1b0a836d5990f86ec555b37aa7e7abb2e2559160f2a1f62fa257d8fa8b0a7b",
+    "candidate_id": "tmp-work-s052-005",
+    "checked_at": "2026-10-17T06:21:57.325236+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (cue-content): The translations and sense are correct, but the relation label and presentation overstate the regional split. Indonesian pengusaha is standard, while Malaysian usahawan is a strong default; however, Malaysian pengusaha is also established and usahawan exists in Indonesian. This is a preference/register contrast, not a strict false-friend distinction. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

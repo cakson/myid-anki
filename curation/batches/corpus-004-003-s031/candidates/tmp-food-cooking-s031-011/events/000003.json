@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:31:29.229166+00:00",
+  "input_digest": "bb1f61be2a70f2602dd612cd5dc728360e8bbedcbcd7b6fea0bf9373234cd864",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-food-001:food-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A food processor is a multifunctional appliance primarily used to chop or mix food, whereas a blender is an appliance primarily used to blend ingredients into a smooth mixture; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-food-001:food-10",
+          "rationale": "A food processor is a multifunctional appliance primarily used to chop or mix food, whereas a blender is an appliance primarily used to blend ingredients into a smooth mixture; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-food-001:food-10",
+        "rationale": "A food processor is a multifunctional appliance primarily used to chop or mix food, whereas a blender is an appliance primarily used to blend ingredients into a smooth mixture; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "fd74c2e13baaeff5f0d48e590409a6e5a634dc50fc374fe39ec018b1b8052dc3"
+}

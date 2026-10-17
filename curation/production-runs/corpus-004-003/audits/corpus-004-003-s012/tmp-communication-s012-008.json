@@ -1,0 +1,66 @@
+{
+  "attempt_id": "862810c2af8e138d",
+  "candidate_id": "tmp-communication-s012-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate and ordinary Indonesian for contact information.",
+      "evidence_refs": [
+        "https://sekolah.data.kemendikdasmen.go.id/informasi-kontak",
+        "https://interpol.go.id/kontak.php"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: informasi kontak"
+    },
+    {
+      "conclusion": "Accurate Malaysian Malay; DBP explicitly gives it as the equivalent of contact info/contact details.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=175768&keyword=maklumat%201",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=contact%20details"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: maklumat perhubungan"
+    },
+    {
+      "conclusion": "The cue and gloss correctly identify details used to contact a person.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=contact%20details"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate because the Indonesian and Malaysian forms use different conventional lexical choices. No false-friend contrast is present or required.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=175768&keyword=maklumat%201",
+        "https://sekolah.data.kemendikdasmen.go.id/informasi-kontak"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "7fcc0202720beb787da5aa3a4190ca57e1df2eae32601f4967c273952fbd5cd3",
+  "correction_refs": [],
+  "decision_digest": "4f62d3f5ae867420691919b4e45d5c32a40e39bed3cd4c15beaa08241cbbd8aa",
+  "elapsed_ms": 15236,
+  "finding_class": "none",
+  "input_tokens": 49803,
+  "model_calls": 1,
+  "output_tokens": 959,
+  "packet_digest": "4b9090fa5f7966ca6f41e8ad58d0e311fe7cc604bafae8127deb7e5445047359",
+  "rationale": "Both translations accurately express “contact information.” The Indonesian form is established in Indonesian government usage, and DBP explicitly validates “maklumat perhubungan” for Malaysian Malay. The relation is appropriately different-common-word; no false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:31:02.768583+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s012/tmp-communication-s012-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s012",
+  "verdict": "cleared"
+}

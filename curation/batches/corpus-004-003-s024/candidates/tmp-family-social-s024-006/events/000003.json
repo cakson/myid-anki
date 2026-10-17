@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T20:04:29.151082+00:00",
+  "input_digest": "2e54cd635ff72ab8950a65a237c34fd0be77b55b338347bafa79d3955158f4b7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are in-laws, but the candidate is the spouse's father and the other entry is the spouse's mother; gender and kinship role clearly differ.\"}, {\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is the father of one's spouse, whereas this entry is one's own male parent.\"}, {\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are male in-law relationships, but father-in-law is the spouse's father; brother-in-law is a sibling's husband or spouse's brother.\"}, {\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both refer to male family roles, but a father-in-law is the spouse's father and a stepfather is the non-biological spouse of one's parent.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-007",
+          "rationale": "Both are in-laws, but the candidate is the spouse's father and the other entry is the spouse's mother; gender and kinship role clearly differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-001",
+          "rationale": "The candidate is the father of one's spouse, whereas this entry is one's own male parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-005",
+          "rationale": "Both are male in-law relationships, but father-in-law is the spouse's father; brother-in-law is a sibling's husband or spouse's brother.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-008",
+          "rationale": "Both refer to male family roles, but a father-in-law is the spouse's father and a stepfather is the non-biological spouse of one's parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-007",
+        "rationale": "Both are in-laws, but the candidate is the spouse's father and the other entry is the spouse's mother; gender and kinship role clearly differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-001",
+        "rationale": "The candidate is the father of one's spouse, whereas this entry is one's own male parent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-005",
+        "rationale": "Both are male in-law relationships, but father-in-law is the spouse's father; brother-in-law is a sibling's husband or spouse's brother.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-008",
+        "rationale": "Both refer to male family roles, but a father-in-law is the spouse's father and a stepfather is the non-biological spouse of one's parent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d3c9257a1ffa2e3289e188c8a2405df668d2719a907a3bf8e1e61d9aa31aea8a"
+}

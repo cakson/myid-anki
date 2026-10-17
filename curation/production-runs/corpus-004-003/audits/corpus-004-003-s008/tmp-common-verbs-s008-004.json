@@ -1,0 +1,67 @@
+{
+  "attempt_id": "2e0011f71eb105ea",
+  "candidate_id": "tmp-common-verbs-s008-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid ordinary Indonesian equivalent of “to agree.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/setuju"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: setuju"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay form meaning to agree, have the same opinion, or consent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bersetuju"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: bersetuju"
+    },
+    {
+      "conclusion": "“To agree” and “have the same opinion or accept a proposal” accurately match both forms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bersetuju",
+        "https://kbbi.web.id/setuju"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Similar is correct, but the card should state that Malaysian Malay also commonly uses setuju; bersetuju is not an exclusive Malaysian replacement.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=setuju%3B",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bersetuju"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and contrast"
+    }
+  ],
+  "content_digest": "33f66b7c076bea53846e8c970acac8035d106492e99777799447833e0d332ddf",
+  "correction_refs": [],
+  "decision_digest": "1aa3824f61d037529ae3ace5ca95e3a3317d3d2ee6663388f3377eb43ebdbb27",
+  "elapsed_ms": 14579,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 60016,
+  "model_calls": 1,
+  "output_tokens": 904,
+  "packet_digest": "d6c8436c73ded1ead913faabd2b06a2b54bfafb1e6b43c092a57d17256cac3c5",
+  "rationale": "Both forms and the English sense are valid, and the relation is similar. However, Malaysian Malay also uses setuju; presenting bersetuju as the Malaysian counterpart without an explicit qualification may teach a false exclusivity contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:25:20.225586+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s008/tmp-common-verbs-s008-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s008",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21052,
+  "input_tokens": 49448,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1406,
+  "packet_digest": "c0c639891fae63c9eeca734bd4e8bcbf5c2c5c5585db8a92267d9624c2fb591c",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"Both Malay answers are correct for an official position or post in an organization. The corrected cue is materially better than “job title,” which is narrower. The national preference is valid but not exclusive: Indonesian jabatan and Malaysian jawatan are cognate forms, and posisi is also used in both varieties. Add a false-friend note because Malaysian jabatan commonly means ‘department,’ unlike Indonesian jabatan’s core sense here.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: jabatan\",\"conclusion\":\"Correct for an official position or post in an organization; it is not limited to a job title.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/jabatan%20struktural\",\"https://typoonline.com/kbbi/jabatan\"]},{\"subject\":\"Malaysian answer: jawatan\",\"conclusion\":\"Correct and standard for a position or post determining someone’s work duties.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/cari1/cari1/Cari1/Cari1?d=115704&keyword=jawatan\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Official organizational position” accurately matches both answers; “job title” would be narrower and potentially misleading.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/jabatan%20struktural\",\"https://prpm.dbp.gov.my/cari1/cari1/Cari1/Cari1?d=115704&keyword=jawatan\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“Different-common-word” is acceptable as a variety-preference label, but should not imply exclusive ownership or incompatibility; posisi is also usable in both varieties.\",\"material_risk\":false,\"evidence_limitation\":\"No directly cited corpus comparison for posisi usage was located in this audit.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"A contrast is advisable: in Malaysian Malay, jabatan commonly means a department or government division, while Indonesian jabatan commonly denotes a position or post.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/cari1/cari1/Cari1/Cari1?d=115704&keyword=jawatan\",\"https://typoonline.com/kbbi/jabatan\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for an official position or post in an organization; it is not limited to a job title.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/jabatan%20struktural",
+          "https://typoonline.com/kbbi/jabatan"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: jabatan"
+      },
+      {
+        "conclusion": "Correct and standard for a position or post determining someone’s work duties.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1/cari1/Cari1/Cari1?d=115704&keyword=jawatan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: jawatan"
+      },
+      {
+        "conclusion": "“Official organizational position” accurately matches both answers; “job title” would be narrower and potentially misleading.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/jabatan%20struktural",
+          "https://prpm.dbp.gov.my/cari1/cari1/Cari1/Cari1?d=115704&keyword=jawatan"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Different-common-word” is acceptable as a variety-preference label, but should not imply exclusive ownership or incompatibility; posisi is also usable in both varieties.",
+        "evidence_limitation": "No directly cited corpus comparison for posisi usage was located in this audit.",
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "A contrast is advisable: in Malaysian Malay, jabatan commonly means a department or government division, while Indonesian jabatan commonly denotes a position or post.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1/cari1/Cari1/Cari1?d=115704&keyword=jawatan",
+          "https://typoonline.com/kbbi/jabatan"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "Both Malay answers are correct for an official position or post in an organization. The corrected cue is materially better than “job title,” which is narrower. The national preference is valid but not exclusive: Indonesian jabatan and Malaysian jawatan are cognate forms, and posisi is also used in both varieties. Add a false-friend note because Malaysian jabatan commonly means ‘department,’ unlike Indonesian jabatan’s core sense here.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

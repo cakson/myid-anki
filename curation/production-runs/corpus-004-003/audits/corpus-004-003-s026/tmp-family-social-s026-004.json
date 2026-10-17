@@ -1,0 +1,76 @@
+{
+  "attempt_id": "767ca7c8e814765c",
+  "candidate_id": "tmp-family-social-s026-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and natural Indonesian equivalent of groom.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/pengantin-pria",
+        "https://baru.kbbi.co.id/arti-kata/pengantin"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pengantin pria"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for bridegroom/groom.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pengantin"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pengantin lelaki"
+    },
+    {
+      "conclusion": "Groom is accurately narrowed to a man getting married; the narrowed cue is learner-clear, though groom can also include a newly married man.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/pengantin-pria"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate: the languages use different gender modifiers, pria and lelaki, with the shared headword pengantin.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/pengantin-pria",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pengantin"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present; pengantin refers to a wedding participant, and the gendered phrases specify the male participant.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/pengantin",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pengantin"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "541d3037ea4c2a5a946247de6adbb9affb40b5ade3c5dc49512758648f976fd1",
+  "correction_refs": [],
+  "decision_digest": "1d29e28293de5b2c32bb0811dfba98c46858c75b53a463fa24bb5629fa09cad2",
+  "elapsed_ms": 15850,
+  "finding_class": "none",
+  "input_tokens": 61972,
+  "model_calls": 1,
+  "output_tokens": 978,
+  "packet_digest": "ac685d99ed8c944c28b71639002bf085406d6138d559ff5e4d6fd313d7aaa7e9",
+  "rationale": "Both Malay answers correctly express groom/man getting married. The English cue and narrowed sense are aligned. The forms differ by standard Indonesian pria versus Malaysian Malay lelaki; no false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:47:25.002201+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s026/tmp-family-social-s026-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s026",
+  "verdict": "cleared"
+}

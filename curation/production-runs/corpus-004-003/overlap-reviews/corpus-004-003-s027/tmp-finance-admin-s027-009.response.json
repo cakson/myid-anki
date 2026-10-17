@@ -1,0 +1,67 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 27145,
+  "input_tokens": 102530,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1735,
+  "packet_digest": "e73130b35d1899a8166e8ded3012125f6663b53dacde633f839ac2188fc97fd5",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"The national split is not materially overstated. Indonesian banking usage strongly supports setoran tunai, while Malaysian banking sources use deposit tunai. Deposit tunai is attested in Indonesian contexts but is less clearly the ordinary account-funding term and may also denote a security deposit. The English cue and sense are accurate, both answers are semantically valid, the relation different-common-word is defensible, and no material false-friend error is present.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Cash deposit correctly denotes money paid into an account in cash.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.bi.go.id/id/fungsi-utama/sistem-pembayaran/ritel/kanal-layanan/qris/qris-tuntas/default.aspx\",\n        \"https://www.bankmandiri.co.id/en/livin/edukasi/cara-setor-tunai-tanpa-kartu\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: setoran tunai\",\n      \"conclusion\": \"Setoran tunai is an ordinary and institutionally supported Indonesian banking expression for a cash deposit.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.ojk.go.id/id/regulasi/Documents/Pages/Layanan-Keuangan-Tanpa-Kantor-dalam-Rangka-Keuangan-Inklusif-/POJK%201%20-%2003%20-%202022.pdf\",\n        \"https://www.bankmandiri.co.id/en/livin/edukasi/cara-setor-tunai-tanpa-kartu\",\n        \"https://www.bi.go.id/id/fungsi-utama/sistem-pembayaran/ritel/kanal-layanan/qris/qris-tuntas/default.aspx\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: deposit tunai\",\n      \"conclusion\": \"Deposit tunai is a normal Malaysian banking expression for cash deposited into a savings or current account.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.bankislam.com/wp-content/uploads/Agent-Banking-Term-Sheet-2.pdf\",\n        \"https://www.maybank2u.com.my/iwov-resources/pdf/personal/services/agent-banking/agent-banking-depo-win-tnc-bm.pdf\",\n        \"https://museum.bnm.gov.my/Fintech/360vr/files/02evolution/EVOLUTION%20IN%20MALAYSIA.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"National split and overlap\",\n      \"conclusion\": \"The split remains useful: the forms are not interchangeable ordinary preferences across the two varieties, although deposit tunai is attested in Indonesian contexts. This overlap does not materially invalidate different-common-word.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.ojk.go.id/id/regulasi/Documents/Pages/Layanan-Keuangan-Tanpa-Kantor-dalam-Rangka-Keuangan-Inklusif-/POJK%201%20-%2003%20-%202022.pdf\",\n        \"https://www.bankislam.com/wp-content/uploads/Agent-Banking-Term-Sheet-2.pdf\",\n        \"https://www.maybank2u.com.my/iwov-resources/pdf/personal/services/agent-banking/agent-banking-depo-win-tnc-bm.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No material false-friend problem is present. Indonesian deposit tunai can occur in other senses, including security deposits, while Malaysian deposit has the standard banking sense; however, the learner's Indonesian answer avoids that ambiguity.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://jdih.kemenkeu.go.id/api/download/fulltext/2018/128TAHUN2018PERPRES.pdf\",\n        \"https://prpm.dbp.gov.my/Cari1?d=54140&keyword=deposit\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Cash deposit correctly denotes money paid into an account in cash.",
+        "evidence_refs": [
+          "https://www.bi.go.id/id/fungsi-utama/sistem-pembayaran/ritel/kanal-layanan/qris/qris-tuntas/default.aspx",
+          "https://www.bankmandiri.co.id/en/livin/edukasi/cara-setor-tunai-tanpa-kartu"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Setoran tunai is an ordinary and institutionally supported Indonesian banking expression for a cash deposit.",
+        "evidence_refs": [
+          "https://www.ojk.go.id/id/regulasi/Documents/Pages/Layanan-Keuangan-Tanpa-Kantor-dalam-Rangka-Keuangan-Inklusif-/POJK%201%20-%2003%20-%202022.pdf",
+          "https://www.bankmandiri.co.id/en/livin/edukasi/cara-setor-tunai-tanpa-kartu",
+          "https://www.bi.go.id/id/fungsi-utama/sistem-pembayaran/ritel/kanal-layanan/qris/qris-tuntas/default.aspx"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: setoran tunai"
+      },
+      {
+        "conclusion": "Deposit tunai is a normal Malaysian banking expression for cash deposited into a savings or current account.",
+        "evidence_refs": [
+          "https://www.bankislam.com/wp-content/uploads/Agent-Banking-Term-Sheet-2.pdf",
+          "https://www.maybank2u.com.my/iwov-resources/pdf/personal/services/agent-banking/agent-banking-depo-win-tnc-bm.pdf",
+          "https://museum.bnm.gov.my/Fintech/360vr/files/02evolution/EVOLUTION%20IN%20MALAYSIA.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: deposit tunai"
+      },
+      {
+        "conclusion": "The split remains useful: the forms are not interchangeable ordinary preferences across the two varieties, although deposit tunai is attested in Indonesian contexts. This overlap does not materially invalidate different-common-word.",
+        "evidence_refs": [
+          "https://www.ojk.go.id/id/regulasi/Documents/Pages/Layanan-Keuangan-Tanpa-Kantor-dalam-Rangka-Keuangan-Inklusif-/POJK%201%20-%2003%20-%202022.pdf",
+          "https://www.bankislam.com/wp-content/uploads/Agent-Banking-Term-Sheet-2.pdf",
+          "https://www.maybank2u.com.my/iwov-resources/pdf/personal/services/agent-banking/agent-banking-depo-win-tnc-bm.pdf"
+        ],
+        "material_risk": false,
+        "subject": "National split and overlap"
+      },
+      {
+        "conclusion": "No material false-friend problem is present. Indonesian deposit tunai can occur in other senses, including security deposits, while Malaysian deposit has the standard banking sense; however, the learner's Indonesian answer avoids that ambiguity.",
+        "evidence_refs": [
+          "https://jdih.kemenkeu.go.id/api/download/fulltext/2018/128TAHUN2018PERPRES.pdf",
+          "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=deposit"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "The national split is not materially overstated. Indonesian banking usage strongly supports setoran tunai, while Malaysian banking sources use deposit tunai. Deposit tunai is attested in Indonesian contexts but is less clearly the ordinary account-funding term and may also denote a security deposit. The English cue and sense are accurate, both answers are semantically valid, the relation different-common-word is defensible, and no material false-friend error is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

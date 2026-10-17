@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:46:53.709309+00:00",
+  "input_digest": "12a6d9aa44e78bfa57dc76c7350c757a34ebbe94bd5ca99026aa4380a540a494",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s040:tmp-shopping-s040-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both concern whether goods can be obtained, but stock means the quantity currently available for sale, while product availability means the product's obtainable status.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s040:tmp-shopping-s040-011",
+          "rationale": "Both concern whether goods can be obtained, but stock means the quantity currently available for sale, while product availability means the product's obtainable status.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s040:tmp-shopping-s040-011",
+        "rationale": "Both concern whether goods can be obtained, but stock means the quantity currently available for sale, while product availability means the product's obtainable status.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d88b08e564e2944202d26e8268d015f0e562c45e525f8b5082b2e80610d15602"
+}

@@ -1,0 +1,70 @@
+{
+  "attempt_id": "45feedb427704c69",
+  "candidate_id": "tmp-health-body-s032-002",
+  "claim_reviews": [
+    {
+      "conclusion": "The split is overstated. Malaysian Malay accepts \"infeksi\" as well as \"jangkitan\"; DBP defines infeksi as infection and lists both as translations of English \"infection\".",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=infeksi",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=penyerangan",
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=jangkitan"
+      ],
+      "material_risk": true,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "The cue \"infection\" and sense \"infection caused by germs\" are substantively aligned with the Indonesian and Malaysian definitions. The wording is slightly simplified but not misleading.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/infeksi",
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=jangkitan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "\"Infeksi\" is a valid Indonesian answer, and \"jangkitan\" is a valid Malaysian Malay answer. However, \"infeksi\" is also a valid Malaysian medical/technical equivalent, so the answers express a usage preference rather than a strict national lexical division.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/infeksi",
+        "https://prpm.dbp.gov.my/cari1?keyword=infeksi",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=infection"
+      ],
+      "material_risk": true,
+      "subject": "Both answers"
+    },
+    {
+      "conclusion": "The relation \"different-common-word\" is too categorical; \"shared-synonym-preference\" or an equivalent overlap-aware relation is more accurate. There is no false-friend contrast because \"infeksi\" and \"jangkitan\" share the intended infection sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=penyerangan",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=infection"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "9215e204aefa24c6ce78884a51dee74676eb7faadcc9201f61ec198b76cc12ed",
+  "correction_refs": [],
+  "decision_digest": "755018cdccfed1617068bf43e9846645ccd5034c40c7573923c46bca3e05128c",
+  "elapsed_ms": 18795,
+  "finding_class": "metadata-only",
+  "input_tokens": 59963,
+  "model_calls": 1,
+  "output_tokens": 1286,
+  "packet_digest": "388ff2e70f0166b3d287501a34c3e3ef6854d7f0bca20de48a592b9177611327",
+  "rationale": "Both answers are valid, but the national split is materially overstated: Malaysian Malay officially recognizes both \"jangkitan\" and \"infeksi\" for infection, with \"jangkitan\" a general/common term and \"infeksi\" also established in medical usage. The relation should not be presented as an unqualified different-common-word contrast, and the missing false-friend contrast should remain empty or explicitly state that no false friend exists.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:00:47.564398+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s032/tmp-health-body-s032-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "needs-correction"
+}

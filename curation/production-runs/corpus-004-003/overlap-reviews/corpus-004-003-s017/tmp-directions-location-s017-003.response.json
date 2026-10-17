@@ -1,0 +1,66 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 28854,
+  "input_tokens": 99967,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2249,
+  "packet_digest": "982e8ba741dd88366e094ca1c1dfa7ccc3595c6a839338ea14e58a95195f0eda",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"cue-content\",\n  \"rationale\": \"Both answers are defensible for the narrowed sense, and the national contrast is not materially overstated at the preferred-form level: Indonesian uses lingkungan for a local neighborhood unit, while Malaysian Malay standardly uses kejiranan, commonly in kawasan kejiranan. However, kawasan is also an accepted Indonesian area term, and lingkungan exists in Malaysian Malay with broader boundary/scope meanings. The empty contrast omits a useful cross-variety warning and leaves the distinction underexplained. Exact corpus-frequency evidence for ordinary preference is limited.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: lingkungan\",\n      \"conclusion\": \"Supported for a local residential/neighborhood area, including as a local administrative or settlement unit, though the word also has broader meanings such as environment or surroundings.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://sirusa.bps.go.id/metadata/variabel/b842c563-3c15-4dc1-81a9-70f0a7ef437d\",\n        \"https://sirusa.web.bps.go.id/metadata/variabel/233295\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: kawasan kejiranan\",\n      \"conclusion\": \"Supported and semantically precise for neighborhood/local residential area. PRPM defines kejiranan as relating to neighbors or living as neighbors and documents kawasan kejiranan in Malaysian usage.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan\"\n      ]\n    },\n    {\n      \"subject\": \"National split and relation\",\n      \"conclusion\": \"The different-common-word relation is broadly defensible for the preferred forms, but the split should be qualified rather than presented as a hard lexical boundary. Indonesian kawasan denotes a defined area and can occur in residential-area expressions; Malaysian kawasan is likewise a general area term.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/kawasan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Kawasan\",\n        \"https://ciptakarya.pu.go.id/btbgl/articles/pengertian-perumahan-dan-kawasan-permukiman-yang-harus-kamu-ketahui-33\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The corrected cue local residential area is better aligned than bare neighborhood because it narrows the intended sense of Indonesian lingkungan. It is acceptable, but the card should clarify that this is a neighborhood/residential locality rather than any surrounding environment.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://sirusa.bps.go.id/metadata/variabel/b842c563-3c15-4dc1-81a9-70f0a7ef437d\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"Missing. A concise contrast is warranted: Indonesian lingkungan can mean a neighborhood/locality and also environment/surroundings; Malaysian Malay lingkungan is documented mainly for boundary, scope, or what is encompassed, while kejiranan is the neighborhood term.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=lingkungan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=environment%20\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Supported for a local residential/neighborhood area, including as a local administrative or settlement unit, though the word also has broader meanings such as environment or surroundings.",
+        "evidence_refs": [
+          "https://sirusa.bps.go.id/metadata/variabel/b842c563-3c15-4dc1-81a9-70f0a7ef437d",
+          "https://sirusa.web.bps.go.id/metadata/variabel/233295"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: lingkungan"
+      },
+      {
+        "conclusion": "Supported and semantically precise for neighborhood/local residential area. PRPM defines kejiranan as relating to neighbors or living as neighbors and documents kawasan kejiranan in Malaysian usage.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: kawasan kejiranan"
+      },
+      {
+        "conclusion": "The different-common-word relation is broadly defensible for the preferred forms, but the split should be qualified rather than presented as a hard lexical boundary. Indonesian kawasan denotes a defined area and can occur in residential-area expressions; Malaysian kawasan is likewise a general area term.",
+        "evidence_refs": [
+          "https://kbbi.web.id/kawasan",
+          "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=Kawasan",
+          "https://ciptakarya.pu.go.id/btbgl/articles/pengertian-perumahan-dan-kawasan-permukiman-yang-harus-kamu-ketahui-33"
+        ],
+        "material_risk": true,
+        "subject": "National split and relation"
+      },
+      {
+        "conclusion": "The corrected cue local residential area is better aligned than bare neighborhood because it narrows the intended sense of Indonesian lingkungan. It is acceptable, but the card should clarify that this is a neighborhood/residential locality rather than any surrounding environment.",
+        "evidence_refs": [
+          "https://sirusa.bps.go.id/metadata/variabel/b842c563-3c15-4dc1-81a9-70f0a7ef437d",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Missing. A concise contrast is warranted: Indonesian lingkungan can mean a neighborhood/locality and also environment/surroundings; Malaysian Malay lingkungan is documented mainly for boundary, scope, or what is encompassed, while kejiranan is the neighborhood term.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=lingkungan",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kejiranan",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=environment%20"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "Both answers are defensible for the narrowed sense, and the national contrast is not materially overstated at the preferred-form level: Indonesian uses lingkungan for a local neighborhood unit, while Malaysian Malay standardly uses kejiranan, commonly in kawasan kejiranan. However, kawasan is also an accepted Indonesian area term, and lingkungan exists in Malaysian Malay with broader boundary/scope meanings. The empty contrast omits a useful cross-variety warning and leaves the distinction underexplained. Exact corpus-frequency evidence for ordinary preference is limited.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:30:31.772543+00:00",
+  "result": {
+    "candidate_digest": "b4d4805f36de8d6a51ff4739f6f83be414bc21600e65d2c67bf80f69b964bbcb",
+    "candidate_id": "tmp-clothing-s001-008",
+    "checked_at": "2026-10-17T06:30:31.772543+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (metadata-only): Both answers fit the cue and sense, but the relation “different-common-word” overstates the contrast: motif is also valid in Malaysian Malay and corak is semantically available in Indonesian. Treat this as a cross-variety preference contrast, not an exclusive lexical split. No false-friend contrast is required or supported. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

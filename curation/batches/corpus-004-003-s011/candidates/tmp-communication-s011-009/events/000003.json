@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T19:39:09.149795+00:00",
+  "input_digest": "50c244d09d5a252d69ab0b5815084e9da76bb9d93b12edf6ad453bb670eedf55",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-technology-001:technology-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are written information, but notice is general written information intended to inform people, whereas notification is specifically a message alert from an application or service.\"}, {\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A warning is specifically information about possible danger or trouble; notice is a broader category of written information and has a distinct general sense.\"}, {\"other_id\": \"corpus-004-003-s039:tmp-services-s039-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An appointment reminder is a specific notice reminding someone of a scheduled appointment, not the general written-information sense of notice.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-technology-001:technology-08",
+          "rationale": "Both are written information, but notice is general written information intended to inform people, whereas notification is specifically a message alert from an application or service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-003",
+          "rationale": "A warning is specifically information about possible danger or trouble; notice is a broader category of written information and has a distinct general sense.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s039:tmp-services-s039-001",
+          "rationale": "An appointment reminder is a specific notice reminding someone of a scheduled appointment, not the general written-information sense of notice.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-technology-001:technology-08",
+        "rationale": "Both are written information, but notice is general written information intended to inform people, whereas notification is specifically a message alert from an application or service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-003",
+        "rationale": "A warning is specifically information about possible danger or trouble; notice is a broader category of written information and has a distinct general sense.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s039:tmp-services-s039-001",
+        "rationale": "An appointment reminder is a specific notice reminding someone of a scheduled appointment, not the general written-information sense of notice.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "35060744ff708cd17e3a1215d47e3ac6853aa63c89101ff098f15e5494e9fb0d"
+}

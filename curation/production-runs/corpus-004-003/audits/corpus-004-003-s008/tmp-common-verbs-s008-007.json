@@ -1,0 +1,77 @@
+{
+  "attempt_id": "4ad0c33873c63b7f",
+  "candidate_id": "tmp-common-verbs-s008-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for deleting digital data.",
+      "evidence_refs": [
+        "https://kbbi.web.id/hapus"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer menghapus"
+    },
+    {
+      "conclusion": "Meaning is related to erase/delete, but memadamkan is the safer standard form for deleting data in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=155028&keyword=memadamkan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=dipadamkan"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer memadam"
+    },
+    {
+      "conclusion": "“To delete digital data” is appropriately narrowed and matches the intended sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=155028&keyword=memadamkan",
+        "https://kbbi.web.id/hapus"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid at the lemma level: Indonesian menghapus and Malaysian memadamkan are distinct localized forms for the same sense.",
+      "evidence_refs": [
+        "https://kbbi.web.id/hapus",
+        "https://prpm.dbp.gov.my/Cari1?d=155028&keyword=memadamkan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation different-common-word"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present; both forms can express deletion/erasure, despite broader literal uses of padam.",
+      "evidence_limitation": "The reviewed dictionary sources establish meaning and standard morphology but do not provide direct comparative learner-frequency data for memadam versus memadamkan in casual digital interfaces.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=36924&keyword=memadamkan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "250ade1733c74bcfcc2a5a741c61636c5e15f28b3ad22df35ddaacec741d789e",
+  "correction_refs": [],
+  "decision_digest": "34a197477e926564c828daf36808265a770b3179420ecd2830d12849c70e702c",
+  "elapsed_ms": 20154,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 98338,
+  "model_calls": 1,
+  "output_tokens": 1325,
+  "packet_digest": "bf2ac6f128ef879eda0c2e09a40befcf199eeaf1fa2a7aedf094c64e18d683ca",
+  "rationale": "Menghapus correctly means “to delete/remove” in Indonesian. In Malaysian Malay, memadam is semantically related, but standard transitive usage for deleting digital data is better represented by memadamkan; DBP technology terminology uses memadamkan data/content. The contrast is not a false friend, though the current Malaysian form may teach a less idiomatic collocation.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:26:08.637133+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s008/tmp-common-verbs-s008-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s008",
+  "verdict": "needs-correction"
+}

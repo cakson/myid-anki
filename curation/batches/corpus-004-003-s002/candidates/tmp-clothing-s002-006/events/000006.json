@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:21:48.531526+00:00",
+  "input_digest": "abecbcfad79ce1e01667034204fcafd8148b76461166880617ea1dd11bc62344",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The answers do not express the same exact sense: Indonesian \\\"jahitan\\\" can mean stitching/seam, while Malaysian \\\"kelim\\\" ordinarily means hem or edge finishing.\"], \"material_concerns\": [\"The card conflates a seam with a hem, which would misteach learners; a concise cue rewrite cannot make both answers fit.\"], \"rationale\": \"\\\"Jahitan\\\" and \\\"kelim\\\" are not a valid national pair for the cue \\\"seam\\\": \\\"kelim\\\" denotes a hem, not the line joining fabric pieces.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue preserves the seam concept while fitting both answers; \\\"kelim\\\" is a subtype/different garment feature rather than a general seam.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"The primary problem is sense misalignment, not a shared synonym weakening a valid preference.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"kampuh\", \"language\": \"indonesian\", \"rationale\": \"Indonesian has the more specific term \\\"kampuh\\\" for a seam joining fabric pieces, so \\\"jahitan\\\" is too broad for this contrast.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The answers do not express the same exact sense: Indonesian \"jahitan\" can mean stitching/seam, while Malaysian \"kelim\" ordinarily means hem or edge finishing."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue preserves the seam concept while fitting both answers; \"kelim\" is a subtype/different garment feature rather than a general seam.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The card conflates a seam with a hem, which would misteach learners; a concise cue rewrite cannot make both answers fit."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kampuh",
+        "language": "indonesian",
+        "rationale": "Indonesian has the more specific term \"kampuh\" for a seam joining fabric pieces, so \"jahitan\" is too broad for this contrast.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "\"Jahitan\" and \"kelim\" are not a valid national pair for the cue \"seam\": \"kelim\" denotes a hem, not the line joining fabric pieces.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "The primary problem is sense misalignment, not a shared synonym weakening a valid preference.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The answers do not express the same exact sense: Indonesian \"jahitan\" can mean stitching/seam, while Malaysian \"kelim\" ordinarily means hem or edge finishing."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue preserves the seam concept while fitting both answers; \"kelim\" is a subtype/different garment feature rather than a general seam.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The card conflates a seam with a hem, which would misteach learners; a concise cue rewrite cannot make both answers fit."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kampuh",
+      "language": "indonesian",
+      "rationale": "Indonesian has the more specific term \"kampuh\" for a seam joining fabric pieces, so \"jahitan\" is too broad for this contrast.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "\"Jahitan\" and \"kelim\" are not a valid national pair for the cue \"seam\": \"kelim\" denotes a hem, not the line joining fabric pieces.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "The primary problem is sense misalignment, not a shared synonym weakening a valid preference.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "a2c99759e0d06756ce6676c600e66b7c1064d1e2555580e29e06b6e3050f6996"
+}

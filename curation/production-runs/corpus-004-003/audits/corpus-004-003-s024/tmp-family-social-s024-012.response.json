@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 15601,
+  "input_tokens": 60087,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 963,
+  "packet_digest": "b0335b4b80fb992abd0ad0fb8648e241f8ce2291f9372793bcced050e2159fef",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers accurately express the intended sense. Indonesian pacar is gender-neutral for a romantic partner, while Malaysian Malay teman wanita is a standard term for a female romantic partner. The relation different-common-word is accurate, and there is no material false-friend issue.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: pacar\",\"conclusion\":\"Correct; pacar denotes a romantic partner and is not gender-specific.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/pacar\"]},{\"subject\":\"Malaysian answer: teman wanita\",\"conclusion\":\"Correct; Kamus Dewan defines teman wanita as a woman in a romantic relationship with a man.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"Girlfriend and female romantic partner are aligned with both answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/pacar\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita\"]},{\"subject\":\"Final relation\",\"conclusion\":\"different-common-word is appropriate: the Indonesian form is gender-neutral, whereas the Malaysian form explicitly marks a female romantic partner.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/pacar\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No material false-friend contrast is present. Although teman can mean friend or companion in isolation, the established phrase teman wanita has the romantic sense here.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+1\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct; pacar denotes a romantic partner and is not gender-specific.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/pacar"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: pacar"
+      },
+      {
+        "conclusion": "Correct; Kamus Dewan defines teman wanita as a woman in a romantic relationship with a man.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: teman wanita"
+      },
+      {
+        "conclusion": "Girlfriend and female romantic partner are aligned with both answers.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/pacar",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "different-common-word is appropriate: the Indonesian form is gender-neutral, whereas the Malaysian form explicitly marks a female romantic partner.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/pacar",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No material false-friend contrast is present. Although teman can mean friend or companion in isolation, the established phrase teman wanita has the romantic sense here.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+wanita",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teman+1"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers accurately express the intended sense. Indonesian pacar is gender-neutral for a romantic partner, while Malaysian Malay teman wanita is a standard term for a female romantic partner. The relation different-common-word is accurate, and there is no material false-friend issue.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

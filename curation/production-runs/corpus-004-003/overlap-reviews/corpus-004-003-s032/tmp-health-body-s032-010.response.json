@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 40515,
+  "input_tokens": 191507,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2272,
+  "packet_digest": "aa8476f9a544953d28e4ad0a81e2e9fddebee48584c999a057990b505fd10260",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"The national split is not materially overstated: Indonesian bangsal and Malaysian wad are supported as the ordinary standard equivalents for hospital ward, while Malaysian bangsal has different senses. The cue, both answers, and different-common-word relation are correct. However, the empty contrast omits a useful false-friend warning that Malaysian bangsal means a shed, covered market structure, barracks, or similar structure—not a hospital ward.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Accurate: hospital ward is a hospital room or area where patients stay, commonly with beds.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english/ward\",\"https://www.oxfordlearnersdictionaries.com/us/definition/english/ward_1\"]},{\"subject\":\"Indonesian answer: bangsal\",\"conclusion\":\"Supported as an Indonesian equivalent for hospital ward; the DBP MABBIM terminology table repeatedly lists Indonesian bangsal against Malaysian wad for medical ward terms.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=wad\"]},{\"subject\":\"Malaysian answer: wad\",\"conclusion\":\"Accurate and ordinary in Malaysian Malay; DBP defines wad as a hospital room or section where patients stay for treatment.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=wad\"]},{\"subject\":\"National split and relation\",\"conclusion\":\"Different-common-word is defensible and not materially overstated. The official terminology contrast maps Indonesian bangsal versus Malaysian wad for multiple hospital-ward compounds, including isolation, ophthalmic, paediatric, and orthopaedic ward.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=wad\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"A contrast is missing. Malaysian bangsal is a valid Malay word but is defined with non-hospital senses such as a long structure for storage, a covered market place, barracks, or a Javanese palace hall; learners should be warned to use wad for the hospital sense.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bangsal\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate: hospital ward is a hospital room or area where patients stay, commonly with beds.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/ward",
+          "https://www.oxfordlearnersdictionaries.com/us/definition/english/ward_1"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Supported as an Indonesian equivalent for hospital ward; the DBP MABBIM terminology table repeatedly lists Indonesian bangsal against Malaysian wad for medical ward terms.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=wad"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: bangsal"
+      },
+      {
+        "conclusion": "Accurate and ordinary in Malaysian Malay; DBP defines wad as a hospital room or section where patients stay for treatment.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=wad"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: wad"
+      },
+      {
+        "conclusion": "Different-common-word is defensible and not materially overstated. The official terminology contrast maps Indonesian bangsal versus Malaysian wad for multiple hospital-ward compounds, including isolation, ophthalmic, paediatric, and orthopaedic ward.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=wad"
+        ],
+        "material_risk": false,
+        "subject": "National split and relation"
+      },
+      {
+        "conclusion": "A contrast is missing. Malaysian bangsal is a valid Malay word but is defined with non-hospital senses such as a long structure for storage, a covered market place, barracks, or a Javanese palace hall; learners should be warned to use wad for the hospital sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bangsal"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "The national split is not materially overstated: Indonesian bangsal and Malaysian wad are supported as the ordinary standard equivalents for hospital ward, while Malaysian bangsal has different senses. The cue, both answers, and different-common-word relation are correct. However, the empty contrast omits a useful false-friend warning that Malaysian bangsal means a shed, covered market structure, barracks, or similar structure—not a hospital ward.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

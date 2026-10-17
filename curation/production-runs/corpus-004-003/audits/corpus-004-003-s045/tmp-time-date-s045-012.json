@@ -1,0 +1,66 @@
+{
+  "attempt_id": "f998ef0714af2f6f",
+  "candidate_id": "tmp-time-date-s045-012",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct; colloquial Indonesian for “just now,” “recently,” or “a short time ago.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/barusan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: barusan"
+    },
+    {
+      "conclusion": "Correct; Malaysian Malay usage meaning “a short time ago/just now.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=ada",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tadi+tadi"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: sebentar tadi"
+    },
+    {
+      "conclusion": "Aligned; “just now” appropriately matches the stated sense “a short time ago.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/barusan",
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=ada"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The different-common-word relation is defensible as a useful preference contrast. There is no material false-friend contrast; “sebentar tadi” is semantically transparent in this context.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=ada",
+        "https://kbbi.web.id/barusan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "addbf2f42e0fd2c8ad5c4d9637cda2862c822e6b79e9ff7aea1f644d5f671975",
+  "correction_refs": [],
+  "decision_digest": "07643e8d554e37eeb1722825711a247f4b830f421486c9682b24f621718ded91",
+  "elapsed_ms": 20088,
+  "finding_class": "none",
+  "input_tokens": 74184,
+  "model_calls": 1,
+  "output_tokens": 1020,
+  "packet_digest": "169026437357d101da60e9c9a175ad5d7b2df03e9392c5c93f0636736e269dbc",
+  "rationale": "Both answers express “just now/a short time ago.” Indonesian “barusan” is a colloquial adverb meaning recently, while Malaysian Malay “sebentar tadi” is an established expression for a short time ago. The different-common-word relation is useful as a preference contrast, not an exclusive-language claim. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:13:15.888140+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s045/tmp-time-date-s045-012.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "cleared"
+}

@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4212,
+  "input_digest": "931985f62d75b69c8a87b13fa405bccc7d9ec55b0461ad7766281748aa00afaa",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 190,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s016:tmp-daily-life-s016-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Fabric softener is a laundry product used to soften clothes, while laundry detergent is used to clean clothes; the products and senses are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-010",
+          "rationale": "Fabric softener is a laundry product used to soften clothes, while laundry detergent is used to clean clothes; the products and senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

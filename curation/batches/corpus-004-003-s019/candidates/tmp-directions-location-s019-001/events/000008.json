@@ -1,0 +1,71 @@
+{
+  "at": "2026-10-16T19:55:54.192590+00:00",
+  "result": {
+    "candidate_digest": "63ae9b962f40a46e87b71dc8d10ab5f54e53d0691b6d5a68ca1527476cfb3c8d",
+    "candidate_id": "tmp-directions-location-s019-001",
+    "checked_at": "2026-10-16T19:55:54.192590+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "correctable",
+      "evidence": "missing",
+      "nonblocking_risk": "none",
+      "preference_risk": {
+        "form": "",
+        "language": "none",
+        "rationale": "The proposed forms present a credible Indonesian–Malaysian lexical preference without a concrete competing-form concern.",
+        "signal": "no-preference-concern"
+      },
+      "shared_synonym_case": "none",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Lantai atas” is the ordinary Indonesian expression, while “tingkat atas” is the ordinary Malaysian expression for being on an upper floor. The concise cue is narrowed to on an upper floor.",
+    "confidence_tier": "low",
+    "cue_correction": {
+      "from": "upstairs",
+      "to": "on an upper floor"
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "cue-corrected"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

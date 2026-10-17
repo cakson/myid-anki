@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:47:09.576031+00:00",
+  "input_digest": "fa987cd5ae96604e2b3f01b35e3dd5f18553f731fe85c3adcc82b55f1015fa46",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-home-001:home-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Curtain rod is the supporting rod, while curtain is the fabric hung over a window; the senses and both answer pairs are distinct.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-04",
+          "rationale": "Curtain rod is the supporting rod, while curtain is the fabric hung over a window; the senses and both answer pairs are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-home-001:home-04",
+        "rationale": "Curtain rod is the supporting rod, while curtain is the fabric hung over a window; the senses and both answer pairs are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "88b1b4a62b4081963b55350900b934198d01d2848e12c95c5a71ec11fe5da2d3"
+}

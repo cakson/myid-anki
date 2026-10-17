@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:29:16.843170+00:00",
+  "input_digest": "b8fa71ac80ae78aebf3c8bea0ca0626c1387db5acc314994eb5808d595929d4d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Indonesian kue and Malaysian kek are ordinary terms for the same sweet baked dessert, with a meaningful national lexical preference.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"cake (sweet baked dessert)\", \"cue_rationale\": \"The bare cue \\u201ccake\\u201d is somewhat broad, while the parenthetical makes the intended dessert sense explicit; both kue and kek fit it.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"No relevant shared synonym was identified that would materially weaken this contrast.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Indonesian kue is somewhat broader than English cake and can include other snacks or pastries.\", \"preference_risk\": {\"signal\": \"different-sense-only\", \"form\": \"kuih\", \"language\": \"malaysian\", \"rationale\": \"Malaysian kuih is a broader traditional snack category, not a direct competitor for the cake sense represented by kek.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The bare cue “cake” is somewhat broad, while the parenthetical makes the intended dessert sense explicit; both kue and kek fit it.",
+      "cue_rewrite": "cake (sweet baked dessert)",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kuih",
+        "language": "malaysian",
+        "rationale": "Malaysian kuih is a broader traditional snack category, not a direct competitor for the cake sense represented by kek.",
+        "signal": "different-sense-only"
+      },
+      "rationale": "Indonesian kue and Malaysian kek are ordinary terms for the same sweet baked dessert, with a meaningful national lexical preference.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian kue is somewhat broader than English cake and can include other snacks or pastries.",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "No relevant shared synonym was identified that would materially weaken this contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The bare cue “cake” is somewhat broad, while the parenthetical makes the intended dessert sense explicit; both kue and kek fit it.",
+    "cue_rewrite": "cake (sweet baked dessert)",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kuih",
+      "language": "malaysian",
+      "rationale": "Malaysian kuih is a broader traditional snack category, not a direct competitor for the cake sense represented by kek.",
+      "signal": "different-sense-only"
+    },
+    "rationale": "Indonesian kue and Malaysian kek are ordinary terms for the same sweet baked dessert, with a meaningful national lexical preference.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian kue is somewhat broader than English cake and can include other snacks or pastries.",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "No relevant shared synonym was identified that would materially weaken this contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "ef9cfaf4271e0138cf4271a5a7cca5069aa9e946ff8e7c979ca358117955f0ee"
+}

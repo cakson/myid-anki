@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:29:06.607946+00:00",
+  "input_digest": "bd2c29ec248e594f5783ef5cc1d012b370c8f2800416c22aceecf5580751a66a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s006:tmp-common-adjectives-s006-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cblunt\\u201d means not sharp, while \\u201csharp\\u201d means having an edge or point that cuts easily; they are antonyms with clearly distinct senses, despite matching Indonesian and Malaysian answers being unrelated.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s006:tmp-common-adjectives-s006-008",
+          "rationale": "“blunt” means not sharp, while “sharp” means having an edge or point that cuts easily; they are antonyms with clearly distinct senses, despite matching Indonesian and Malaysian answers being unrelated.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s006:tmp-common-adjectives-s006-008",
+        "rationale": "“blunt” means not sharp, while “sharp” means having an edge or point that cuts easily; they are antonyms with clearly distinct senses, despite matching Indonesian and Malaysian answers being unrelated.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7faa9d00f7709d7a3614e274a979e14993f5f2e23627332efbe909fc5e8b9c36"
+}

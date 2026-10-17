@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5412,
+  "input_digest": "5cbeac8401c76d3f8b95c722b27bbe556b1afdf33d721a2d00860a141e3ed8c1",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 310,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s038:tmp-services-s038-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A security guard is a hired person protecting a place or property, whereas a police officer is a law-enforcement official.\"},{\"other_id\":\"corpus-004-003-s038:tmp-services-s038-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Security screening is a security-check process; a security guard is the person hired to protect a place or property.\"},{\"other_id\":\"corpus-004-003-s015:tmp-daily-life-s015-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A window grille is a physical security barrier, whereas a security guard is a person hired to provide protection.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-003",
+          "rationale": "A security guard is a hired person protecting a place or property, whereas a police officer is a law-enforcement official.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-011",
+          "rationale": "Security screening is a security-check process; a security guard is the person hired to protect a place or property.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-003",
+          "rationale": "A window grille is a physical security barrier, whereas a security guard is a person hired to provide protection.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

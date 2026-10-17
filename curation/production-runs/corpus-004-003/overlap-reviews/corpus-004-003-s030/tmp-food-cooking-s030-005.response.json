@@ -1,0 +1,65 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 43725,
+  "input_tokens": 240105,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2645,
+  "packet_digest": "e052fae123bed4e40d70f063e1907e71dc55beb9dcb58115375041774445b8e0",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"The English cue and both answers are semantically valid, but the national split is overstated as a hard lexical contrast. Malaysian Malay sources list koki as an Indonesian term meaning tukang masak, while pemasak is independently defined in both Indonesian and Malaysian dictionaries. The relation is therefore better framed as a usage/preference contrast, not a clean national division. The learner content also has no false-friend contrast; no false friend is evidenced here, so that absence should be stated explicitly. Dictionary evidence does not establish corpus-level frequency or ordinary-preference strength.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Aligned: cook as a person means someone who prepares or cooks food, matching the stated sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/us/dictionary/english/cook\"]},{\"subject\":\"Indonesian answer: koki\",\"conclusion\":\"Valid Indonesian answer. KBBI defines koki as juru masak/an expert in culinary arts.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/koki\"]},{\"subject\":\"Malaysian answer: tukang masak\",\"conclusion\":\"Valid Malaysian Malay answer. PRPM/Kamus Dewan defines tukang masak as a person employed to cook.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=orang+gajian\"]},{\"subject\":\"Cross-variety overlap\",\"conclusion\":\"Material overlap exists. Malaysian PRPM records koki as an Indonesian term for tukang masak, and pemasak is defined as a person who cooks in both Indonesian and Malaysian dictionaries. This weakens any implication that the concepts are nationally exclusive.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?keyword=koki\",\"https://kbbi.web.id/masak.html\",\"https://prpm.dbp.gov.my/Cari1?keyword=pemasak\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Partially supportable only as a preferred-form contrast: koki may be characteristically Indonesian, while tukang masak is a standard Malaysian form. It is not sufficiently supported as a strong national split because accepted equivalents overlap and frequency/preference evidence is unavailable.\",\"material_risk\":true,\"evidence_limitation\":\"The reviewed dictionary sources establish meanings and labels, but do not provide comparable Indonesian-versus-Malaysian corpus frequencies or ordinary-language preference rates.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present. Koki, tukang masak, and pemasak all denote a person who cooks; the card should explicitly say that this is an overlap/preference contrast rather than a false friend.\",\"material_risk\":true,\"evidence_limitation\":\"No learner contrast field was supplied, and no evidence indicates a form-level false-friend meaning difference.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Aligned: cook as a person means someone who prepares or cooks food, matching the stated sense.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/cook"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid Indonesian answer. KBBI defines koki as juru masak/an expert in culinary arts.",
+        "evidence_refs": [
+          "https://kbbi.web.id/koki"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: koki"
+      },
+      {
+        "conclusion": "Valid Malaysian Malay answer. PRPM/Kamus Dewan defines tukang masak as a person employed to cook.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=orang+gajian"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: tukang masak"
+      },
+      {
+        "conclusion": "Material overlap exists. Malaysian PRPM records koki as an Indonesian term for tukang masak, and pemasak is defined as a person who cooks in both Indonesian and Malaysian dictionaries. This weakens any implication that the concepts are nationally exclusive.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?keyword=koki",
+          "https://kbbi.web.id/masak.html",
+          "https://prpm.dbp.gov.my/Cari1?keyword=pemasak"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap"
+      },
+      {
+        "conclusion": "Partially supportable only as a preferred-form contrast: koki may be characteristically Indonesian, while tukang masak is a standard Malaysian form. It is not sufficiently supported as a strong national split because accepted equivalents overlap and frequency/preference evidence is unavailable.",
+        "evidence_limitation": "The reviewed dictionary sources establish meanings and labels, but do not provide comparable Indonesian-versus-Malaysian corpus frequencies or ordinary-language preference rates.",
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is present. Koki, tukang masak, and pemasak all denote a person who cooks; the card should explicitly say that this is an overlap/preference contrast rather than a false friend.",
+        "evidence_limitation": "No learner contrast field was supplied, and no evidence indicates a form-level false-friend meaning difference.",
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "The English cue and both answers are semantically valid, but the national split is overstated as a hard lexical contrast. Malaysian Malay sources list koki as an Indonesian term meaning tukang masak, while pemasak is independently defined in both Indonesian and Malaysian dictionaries. The relation is therefore better framed as a usage/preference contrast, not a clean national division. The learner content also has no false-friend contrast; no false friend is evidenced here, so that absence should be stated explicitly. Dictionary evidence does not establish corpus-level frequency or ordinary-preference strength.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

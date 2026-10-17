@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-17T06:29:20.489470+00:00",
+  "result": {
+    "candidate_digest": "e7a1bac695039de87aaab9c4b09b86f300e01b1823f18158b14bb943df7ce245",
+    "candidate_id": "tmp-health-body-s033-004",
+    "checked_at": "2026-10-17T06:29:20.489470+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "obesitas",
+        "language": "indonesian",
+        "rationale": "“Obesitas” is a common formal or medical Indonesian alternative, though “kegemukan” remains an ordinary everyday choice.",
+        "signal": "named-alternative-exists"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Kegemukan” is an ordinary Indonesian term for obesity, while Malaysian Malay commonly uses the formal medical term “obesiti.” The pair teaches a useful national usage contrast for the same health-condition sense. Review concern: Indonesian “kegemukan” can sometimes suggest general overweight rather than clinically defined obesity in casual usage.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

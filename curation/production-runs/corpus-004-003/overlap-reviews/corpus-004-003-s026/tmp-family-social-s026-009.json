@@ -1,0 +1,76 @@
+{
+  "attempt_id": "46ffc13fbb103f41",
+  "candidate_id": "tmp-family-social-s026-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Aligned: “childhood friend” means a friend known since childhood.",
+      "evidence_limitation": "Semantic review; no external evidence required.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid ordinary Indonesian phrasing for the cue. Indonesian educational material attests teman-teman masa kecil, and KBBI defines teman as kawan or sahabat.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Arian_dan_Naya.pdf",
+        "https://kbbi.web.id/pertemanan.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: teman masa kecil"
+    },
+    {
+      "conclusion": "Valid and understandable Malay phrasing. The lexical components kawan and zaman kanak-kanak are established Malay vocabulary, and the full phrase is attested in Malay usage.",
+      "evidence_refs": [
+        "https://ekamus.dbp.gov.my/Search.aspx?cari=kanak-kanak&type=1",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=teman+kawan",
+        "https://www.wordhippo.com/what-is/the/malay-word-for-7983e6833b97bf8aa6b8f476ec1a8e79e1364c21.html"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kawan zaman kanak-kanak"
+    },
+    {
+      "conclusion": "The relation different-common-word materially overstates the contrast. The forms are direct ordinary equivalents across Indonesian and Malaysian Malay, while Malaysian usage also attests kawan-kawan sejak kecil for the same temporal sense.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Arian_dan_Naya.pdf",
+        "https://ir.upsi.edu.my/sw_inc/doc.php?did=6712&id=15236612&t=d",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=teman+kawan"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported or needed: teman and kawan overlap in the relevant sense. The empty contrast is not a learner-answer error, but the card should avoid implying a lexical distinction that is not present.",
+      "evidence_refs": [
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=teman+kawan",
+        "https://kbbi.web.id/pertemanan.html"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "bed02c7adf6d3236d316f45eb25aeea35a4bf626f7bbd6f9ff9db56592d0cfd8",
+  "correction_refs": [],
+  "decision_digest": "98c2ecb78845cdb5ef6db158f5ca674a44eb52f599eba03e89ed034f104c8fdd",
+  "elapsed_ms": 25640,
+  "finding_class": "metadata-only",
+  "input_tokens": 99685,
+  "model_calls": 1,
+  "output_tokens": 1817,
+  "packet_digest": "081ad5f55df6208a7a6a2488f49013463ea5ccd7729d3e11874b450e245b95db",
+  "rationale": "Both answers correctly express the cue sense, but the national split is materially overstated: teman masa kecil and kawan zaman kanak-kanak are ordinary cross-variety equivalents, and kawan sejak kecil is also attested in Malaysian usage. The relation should be revised to reflect shared synonymy or preference rather than different-common-word. No false-friend contrast is warranted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:54:49.115613+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s026/tmp-family-social-s026-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s026",
+  "verdict": "needs-correction"
+}

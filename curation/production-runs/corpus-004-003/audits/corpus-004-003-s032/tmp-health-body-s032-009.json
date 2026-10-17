@@ -1,0 +1,65 @@
+{
+  "attempt_id": "98a4a3895fd734d6",
+  "candidate_id": "tmp-health-body-s032-009",
+  "claim_reviews": [
+    {
+      "conclusion": "“Anesthesia” and “loss of sensation during medical treatment” are aligned.",
+      "evidence_refs": [
+        "https://kbbi.web.id/anestesi",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=anestesia"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct standard Indonesian medical term for loss of bodily sensation caused by anesthetic.",
+      "evidence_refs": [
+        "https://kbbi.web.id/anestesi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: anestesi"
+    },
+    {
+      "conclusion": "Valid common Malay term, referring to anesthetic or the anesthetized/unconscious state; it is somewhat broader than the supplied sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=132444&keyword=bius"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: bius"
+    },
+    {
+      "conclusion": "“Different-common-word” is misleading as a language contrast because bius is also used in Indonesian and anestesia is documented in Malaysian Malay. This is a metadata/relationship correction, not an answer failure.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=anestesia",
+        "https://kbbi.web.id/anestesi"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1e685eab02a28c1f7e7a8df84996ce67edc081f6d4aa71abb3148a4c43a7302e",
+  "correction_refs": [],
+  "decision_digest": "e92cfb5783d7eb03808c093e6685f85846debe90a02582a4283a7bac50ec1a5d",
+  "elapsed_ms": 17947,
+  "finding_class": "metadata-only",
+  "input_tokens": 62160,
+  "model_calls": 1,
+  "output_tokens": 1135,
+  "packet_digest": "7407214d4f8b3fdb52e52d0787507e00d4e6410ae2f5d45b0b208b426d516dc0",
+  "rationale": "Both answers are valid for the medical sense, but the relation “different-common-word” overstates the contrast: Indonesian also uses bius, while Malaysian Malay uses anestesia in formal medical terminology. No true false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:57:28.603850+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s032/tmp-health-body-s032-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "needs-correction"
+}

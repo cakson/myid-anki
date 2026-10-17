@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:53:41.295335+00:00",
+  "input_digest": "da58dffeb49b67478439ba981735d29271079c5797849aa85b87cab89b76b704",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s043:tmp-technology-s043-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A smartwatch is a wearable computer worn like a watch, while a smartphone is a handheld mobile phone; the senses and both answer pairs are distinct.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-001",
+          "rationale": "A smartwatch is a wearable computer worn like a watch, while a smartphone is a handheld mobile phone; the senses and both answer pairs are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s043:tmp-technology-s043-001",
+        "rationale": "A smartwatch is a wearable computer worn like a watch, while a smartphone is a handheld mobile phone; the senses and both answer pairs are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "c3fd3677dcef3dfa440cce0c66922eab442db58e79bff695e9b597f367df19a9"
+}

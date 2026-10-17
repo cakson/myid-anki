@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4599,
+  "input_digest": "400335211bda7cb14d0a5fa255afac960d09e94e0b0a6e0d853be21d0cc7b1f5",
+  "input_tokens": 93720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 172,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s031:tmp-food-cooking-s031-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Dough is an uncooked mixture of flour and liquid, while batter is a pourable mixture used before cooking; Indonesian and Malaysian answers also distinguish them as adonan/adunan versus adonan cair/adunan.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-009",
+          "rationale": "Dough is an uncooked mixture of flour and liquid, while batter is a pourable mixture used before cooking; Indonesian and Malaysian answers also distinguish them as adonan/adunan versus adonan cair/adunan.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

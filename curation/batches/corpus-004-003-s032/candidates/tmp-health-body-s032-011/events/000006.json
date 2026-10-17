@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T04:33:50.699082+00:00",
+  "input_digest": "5c839375c34c2a86aa2b0ee956163d352a07433dd0657d95353f6b878cdf2e98",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"Indonesian \\\"rawat jalan\\\" refers to outpatient treatment or care, not the outpatient patient.\"], \"material_concerns\": [\"The Indonesian answer does not match the learner-visible sense \\\"outpatient\\\" as a patient; \\\"pasien rawat jalan\\\" would be needed.\"], \"rationale\": \"Malaysian \\\"pesakit luar\\\" matches an outpatient patient, but Indonesian \\\"rawat jalan\\\" names the treatment or care rather than the patient.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue preserves the exact patient sense for both answers: \\\"rawat jalan\\\" is care/treatment, while \\\"pesakit luar\\\" is the patient.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"No relevant shared synonym concern was identified; the main issue is a patient-versus-treatment mismatch.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"verifier-explicitly-questions-preference\", \"form\": \"pasien rawat jalan\", \"language\": \"indonesian\", \"rationale\": \"The Indonesian patient sense ordinarily requires \\\"pasien rawat jalan\\\"; bare \\\"rawat jalan\\\" risks teaching the treatment instead.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Indonesian \"rawat jalan\" refers to outpatient treatment or care, not the outpatient patient."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue preserves the exact patient sense for both answers: \"rawat jalan\" is care/treatment, while \"pesakit luar\" is the patient.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The Indonesian answer does not match the learner-visible sense \"outpatient\" as a patient; \"pasien rawat jalan\" would be needed."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "pasien rawat jalan",
+        "language": "indonesian",
+        "rationale": "The Indonesian patient sense ordinarily requires \"pasien rawat jalan\"; bare \"rawat jalan\" risks teaching the treatment instead.",
+        "signal": "verifier-explicitly-questions-preference"
+      },
+      "rationale": "Malaysian \"pesakit luar\" matches an outpatient patient, but Indonesian \"rawat jalan\" names the treatment or care rather than the patient.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "No relevant shared synonym concern was identified; the main issue is a patient-versus-treatment mismatch.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Indonesian \"rawat jalan\" refers to outpatient treatment or care, not the outpatient patient."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue preserves the exact patient sense for both answers: \"rawat jalan\" is care/treatment, while \"pesakit luar\" is the patient.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The Indonesian answer does not match the learner-visible sense \"outpatient\" as a patient; \"pasien rawat jalan\" would be needed."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "pasien rawat jalan",
+      "language": "indonesian",
+      "rationale": "The Indonesian patient sense ordinarily requires \"pasien rawat jalan\"; bare \"rawat jalan\" risks teaching the treatment instead.",
+      "signal": "verifier-explicitly-questions-preference"
+    },
+    "rationale": "Malaysian \"pesakit luar\" matches an outpatient patient, but Indonesian \"rawat jalan\" names the treatment or care rather than the patient.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "No relevant shared synonym concern was identified; the main issue is a patient-versus-treatment mismatch.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "49723d7fedfcc8a0b3c1a9249c072d45e6a76581e35fcd4ef2ff637dd2b8b29e"
+}

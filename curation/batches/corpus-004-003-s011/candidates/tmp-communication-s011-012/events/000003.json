@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:39:46.360016+00:00",
+  "input_digest": "0d97ccaf7494d635b5ebf8a2b55d1ba078fd67f3f5be32be10a65beaa52682b4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A greeting is words used when meeting or addressing someone; a handshake is a physical greeting by clasping hands, so the senses and learner answers differ.\"}, {\"other_id\": \"cal2-social-001:social-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Greeting words may occur when meeting someone, but greeting is the spoken expression while meeting is the act of coming together; the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-007",
+          "rationale": "A greeting is words used when meeting or addressing someone; a handshake is a physical greeting by clasping hands, so the senses and learner answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-social-001:social-04",
+          "rationale": "Greeting words may occur when meeting someone, but greeting is the spoken expression while meeting is the act of coming together; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-007",
+        "rationale": "A greeting is words used when meeting or addressing someone; a handshake is a physical greeting by clasping hands, so the senses and learner answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-social-001:social-04",
+        "rationale": "Greeting words may occur when meeting someone, but greeting is the spoken expression while meeting is the act of coming together; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7f688c95859a5e6fd626185b8a39c85c079eac67eddc5da2bd95339bd57773ff"
+}

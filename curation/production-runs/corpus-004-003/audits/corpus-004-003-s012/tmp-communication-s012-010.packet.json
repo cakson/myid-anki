@@ -1,0 +1,90 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-communication-s012-010",
+    "english": "read aloud",
+    "indonesian": "membaca nyaring",
+    "malaysian": "membaca kuat",
+    "sense": "read so that others can hear",
+    "tags": [
+      "different-common-word",
+      "action"
+    ]
+  },
+  "candidate_id": "tmp-communication-s012-010",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "membaca dengan kuat",
+        "language": "malaysian",
+        "rationale": "The expanded form is a common formal or careful Malaysian alternative to “membaca kuat,” creating minor register variation.",
+        "signal": "regional-or-register-competition"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms mean reading aloud so others can hear. “Membaca nyaring” is the ordinary Indonesian expression, while Malaysian Malay commonly uses “membaca kuat” (also “membaca dengan kuat”). Review concern: Malaysian usage may more naturally include “dengan” in formal contexts.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "regional-register-risk",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "read aloud",
+    "image": "",
+    "indonesian": "membaca nyaring",
+    "malaysian": "membaca kuat",
+    "relation": "different-common-word",
+    "tags": "different-common-word action"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s012"
+}

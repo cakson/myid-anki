@@ -1,0 +1,89 @@
+{
+  "attempt_id": "cc956044ca18632b",
+  "candidate_id": "tmp-home-s036-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Oven mitt” and the heat-resistant glove sense are correctly represented.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/mitten",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Sarung tangan oven” is an established Indonesian expression for the intended object.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883",
+        "https://www.electrolux.co.id/produk/aksesoris/peralatan-dapur/e4kpglo1/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Sarung tangan ketuhar” is the standard/officially documented Malaysian term and correctly answers the cue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan",
+        "https://www.ikea.com/my/ms/p/rinnig-sarung-tangan-ketuhar-kelabu-50476364/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The “different-common-word” relation is too categorical. Malaysian sources document “ketuhar,” but Malaysian commercial usage also uses “sarung tangan oven,” so the forms overlap in ordinary usage even though national preference differs.",
+      "evidence_limitation": "The cited commercial examples establish attestation, not relative frequency or broad acceptability across Malaysian speakers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan",
+        "https://www.ikea.com/my/ms/p/rinnig-sarung-tangan-ketuhar-kelabu-50476364/",
+        "https://shopee.com.my/KT017-Oven-Glove-Ketuhar-Sarung-Tangan-Ketuhar-Glove-Microwave-Sarung-Tangan-Microwave-Glove-%E7%83%98%E5%9F%B9%E6%89%8B%E5%A5%97-%E5%BE%AE%E6%B3%A2%E7%82%89%E6%89%8B%E5%A5%97-%E7%83%A4%E7%AE%B1%E6%89%8B%E5%A5%97-%E9%98%B2%E7%83%83%E6%89%8B%E5%A5%97-i.463914047.11333243952"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied. A useful contrast would state that Indonesian commonly retains the loanword “oven,” whereas Malaysian standard terminology uses “ketuhar,” while “oven” can still occur in Malaysian casual/commercial usage; this is a preference contrast, not a semantic false friend.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/oven",
+        "https://www.ikea.co.id/in/produk/peralatan-memasak/lap-dapur-celemek-dan-sarung-tangan-oven/sandviva-art-00587883",
+        "https://www.ikea.com/my/ms/p/rinnig-sarung-tangan-ketuhar-kelabu-50476364/"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    },
+    {
+      "conclusion": "The relation should be revised to a preference/variant relation, or retained only with an explicit non-exclusive contrast; the missing contrast is not safely clearable as-is.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sarung+tangan",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/oven"
+      ],
+      "material_risk": true,
+      "subject": "Final metadata classification"
+    }
+  ],
+  "content_digest": "c86bd1cb2b9875f6f6e7e0b4fd1e4e7997e6045f062aa790385e52405b46482c",
+  "correction_refs": [],
+  "decision_digest": "6d78bfd482b1044bcfe87e8401b7dc02d834cdaaab95f4d01aec67fbd715c057",
+  "elapsed_ms": 22277,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61847,
+  "model_calls": 1,
+  "output_tokens": 1653,
+  "packet_digest": "d3311debe5978c3a28b098065d20c5ae6ec85334cde14d5b3d26c4aecd94b2cb",
+  "rationale": "Both answers are valid and the sense is aligned, but the national split is materially overstated: Malaysian standard usage prefers “sarung tangan ketuhar,” while “sarung tangan oven” is also an attested Malaysian commercial/everyday form. The relation should be softened or relabeled, and the empty contrast should explain preference rather than imply exclusivity.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:05:18.104702+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s036/tmp-home-s036-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s036",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:28:15.114417+00:00",
+  "input_digest": "4072b5a1b41549e3b886ade2ad79e368801fd07b03e0f1f62c2084312fdd4102",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-health-001:health-09\", \"type\": \"synonym\", \"resolution\": \"merge\", \"rationale\": \"\\u201csmart\\u201d with Indonesian \\u201ccerdas\\u201d and Malaysian \\u201cbijak\\u201d has the same sense as existing \\u201cclever\\u201d with \\u201cpintar\\u201d and \\u201cpandai\\u201d: quick to learn or understand.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-health-001:health-09",
+          "rationale": "“smart” with Indonesian “cerdas” and Malaysian “bijak” has the same sense as existing “clever” with “pintar” and “pandai”: quick to learn or understand.",
+          "resolution": "merge",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-health-001:health-09",
+        "rationale": "“smart” with Indonesian “cerdas” and Malaysian “bijak” has the same sense as existing “clever” with “pintar” and “pandai”: quick to learn or understand.",
+        "resolution": "merge",
+        "type": "synonym"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "cb5a033881380b30aa8f7285260175549ed2e98ddb3de9b39cdc2072b83faf2d"
+}

@@ -1,0 +1,73 @@
+{
+  "attempt_id": "9b86f05e41a9d4e8",
+  "candidate_id": "tmp-shopping-s040-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Product packaging is an appropriate cue, but the sense should distinguish the package/material from the packaging process.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/kemasan",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembungkusan"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct for product packaging, especially the protective package or wrapping of merchandise.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/kemasan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kemasan"
+    },
+    {
+      "conclusion": "Lexically valid, but its dictionary sense is the act, process, or manner of wrapping; it is not the clearest match for packaging as a physical package or presentation.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembungkusan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=BUNGKUS"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: pembungkusan"
+    },
+    {
+      "conclusion": "Different-common-word is broadly correct because the Indonesian and Malaysian entries use different standard forms, though the senses are not perfectly parallel as currently glossed.",
+      "evidence_limitation": "The relation depends on whether the intended Malaysian sense is the packaging process or the physical package/material.",
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No strict false friend is established; the main issue is a derivational and sense distinction between Indonesian kemasan and Malaysian pembungkusan.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/kemasan",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembungkusan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "06ba5ebf597872151e1a4fa84f550ac1b4554edfd0b14690ba5ba16a78282d80",
+  "correction_refs": [],
+  "decision_digest": "c4ce3e46246271762b53de2727d9d66a8dff76cd568d31aa7016f3067c7fc5a3",
+  "elapsed_ms": 17735,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49279,
+  "model_calls": 1,
+  "output_tokens": 1063,
+  "packet_digest": "cbab8a28a0a45f709eeb303c2c274fd40841a2aecb7077cd671102f7a029dde1",
+  "rationale": "Indonesian kemasan correctly denotes product packaging or a protective package. Malaysian pembungkusan is a valid term but primarily denotes the act or process of wrapping/packaging, so it does not cleanly match the stated sense of material or presentation. This is a learner-relevant contrast, not a strict false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:03:40.870712+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s040/tmp-shopping-s040-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s040",
+  "verdict": "needs-correction"
+}

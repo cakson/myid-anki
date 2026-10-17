@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5223,
+  "input_digest": "e716d18fc5fdb1f869d2caedcf205b260f088710134368ba14210009f46cc9bb",
+  "input_tokens": 93709,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 294,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"common-verbs-001:everyday-actions-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Read aloud means vocalizing written text so others can hear; speak is generic talking and does not require reading text.\"},{\"other_id\":\"corpus-004-003-s012:tmp-communication-s012-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Read aloud is the act of vocalizing text, whereas public speaking is formal speaking before an audience.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-verbs-001:everyday-actions-06",
+          "rationale": "Read aloud means vocalizing written text so others can hear; speak is generic talking and does not require reading text.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-009",
+          "rationale": "Read aloud is the act of vocalizing text, whereas public speaking is formal speaking before an audience.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

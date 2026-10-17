@@ -1,0 +1,76 @@
+{
+  "attempt_id": "8cadfc6eb87e0082",
+  "candidate_id": "tmp-time-date-s045-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for general time reference.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/waktu"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: waktu"
+    },
+    {
+      "conclusion": "Correct and common for general time reference, but not uniquely Malaysian; waktu is also standard.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=masa",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=waktu"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: masa"
+    },
+    {
+      "conclusion": "“Time in general” is understandable but too broad for a clean contrast because both languages use both words across overlapping senses.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ruang+waktu",
+        "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=masa"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Defensible only as a loose preference contrast, not as a language-exclusive distinction.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ruang+waktu"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No strong false-friend contrast is present. Indonesian masa commonly retains temporal meanings such as period or era, while Malaysian masa and waktu overlap substantially.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=masa",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=waktu"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "fc9dc077d3f8f59a9de8db6a35b7b8059d1ef262963f3bfb39373ef7377aee7b",
+  "correction_refs": [],
+  "decision_digest": "54bc78b8aa7dc90569839cb205fb6405bb50149f93b86f1e42c5920a7163f856",
+  "elapsed_ms": 20579,
+  "finding_class": "cue-content",
+  "input_tokens": 53655,
+  "model_calls": 1,
+  "output_tokens": 1117,
+  "packet_digest": "65fa0261494346452b32320b7f36e28a10002f49570e5c0eb68824d917102607",
+  "rationale": "Both answers are valid, but the card overstates a country-specific contrast. Indonesian uses waktu for general time, while masa is also valid, especially for a period or era. Malaysian Malay uses masa for general time, but waktu is likewise standard and common. This is not a strict false-friend pair; the learner needs an explicit usage/preference caveat.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:11:22.905173+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s045/tmp-time-date-s045-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "needs-correction"
+}

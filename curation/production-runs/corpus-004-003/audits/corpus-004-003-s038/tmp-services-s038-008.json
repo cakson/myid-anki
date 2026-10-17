@@ -1,0 +1,66 @@
+{
+  "attempt_id": "4ae05168b25eed6f",
+  "candidate_id": "tmp-services-s038-008",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue and sense are aligned: a place providing information to visitors is a tourist information center.",
+      "evidence_refs": [
+        "https://jdih.kemenpar.go.id/proxy-api/assets/5735ad9a-2426-494f-9c78-8ead574eef76"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and natural Indonesian for “tourist information center”; an official Indonesian tourism regulation uses the exact phrase “Pusat Informasi Wisata/TIC.”",
+      "evidence_refs": [
+        "https://jdih.kemenpar.go.id/proxy-api/assets/5735ad9a-2426-494f-9c78-8ead574eef76",
+        "https://tic.pangkalpinangkota.go.id/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pusat informasi wisata"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay. Malaysian government and planning sources use “pusat maklumat pelancongan,” and DBP defines pelancongan in the relevant tourism sense.",
+      "evidence_refs": [
+        "https://ppkl.dbkl.gov.my/wp-content/uploads/2024/01/Pelan-Struktur-KL-2020.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=Pelancongan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pusat maklumat pelancongan"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate because Indonesian uses informasi wisata while Malaysian uses maklumat pelancongan. This is ordinary lexical divergence, not a false-friend contrast.",
+      "evidence_refs": [
+        "https://jdih.kemenpar.go.id/proxy-api/assets/5735ad9a-2426-494f-9c78-8ead574eef76",
+        "https://ppkl.dbkl.gov.my/wp-content/uploads/2024/01/Pelan-Struktur-KL-2020.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "a70574583cffa1a8da7e23d9de9168ea219e067edc26e1783e823c53567316c1",
+  "correction_refs": [],
+  "decision_digest": "b48104d4a5ea6b01caf132987d0d9cbb5b313b56de6fc1d704e7da4363c79380",
+  "elapsed_ms": 19893,
+  "finding_class": "none",
+  "input_tokens": 52226,
+  "model_calls": 1,
+  "output_tokens": 1263,
+  "packet_digest": "7fea7d89183f6a7a46c4ed72d2b7e1fd36894d78d06241366aaa8e7aec67b914",
+  "rationale": "Both answers accurately express “tourist information center” and match the stated sense. The Indonesian phrase is attested in official tourism guidance, and Malaysian usage supports “pusat maklumat pelancongan.” The different-common-word relation is correct. No false-friend contrast is present or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:02:45.506281+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s038/tmp-services-s038-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "cleared"
+}

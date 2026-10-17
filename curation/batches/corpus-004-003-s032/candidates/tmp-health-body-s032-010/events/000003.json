@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:33:30.513120+00:00",
+  "input_digest": "64b11d5f20b045743abd873d78da4f9eccb7ab566b1cfb53fa8cdf84ad0fd11f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"health-001:health-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cHospital ward\\u201d is a specific area within a hospital where patients stay, while \\u201chospital\\u201d is the medical facility as a whole; the Indonesian and Malaysian answers also differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "health-001:health-03",
+          "rationale": "“Hospital ward” is a specific area within a hospital where patients stay, while “hospital” is the medical facility as a whole; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "health-001:health-03",
+        "rationale": "“Hospital ward” is a specific area within a hospital where patients stay, while “hospital” is the medical facility as a whole; the Indonesian and Malaysian answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "83f1c53f83836f64c3b28ac687d8aa17be8b4affd5d187955f80899b2dee4990"
+}

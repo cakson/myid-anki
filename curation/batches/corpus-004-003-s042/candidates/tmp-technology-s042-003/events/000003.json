@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:51:25.462472+00:00",
+  "input_digest": "a3dd3f44c73e7022bbdb6a75d1f4dd45be2b2967f83f5ff0f022405600e273b0",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-technology-001:technology-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Operating system is system software that manages device resources and provides the platform for applications; the existing software concept is broader computer programs and applications, so the senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-technology-001:technology-03",
+          "rationale": "Operating system is system software that manages device resources and provides the platform for applications; the existing software concept is broader computer programs and applications, so the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-technology-001:technology-03",
+        "rationale": "Operating system is system software that manages device resources and provides the platform for applications; the existing software concept is broader computer programs and applications, so the senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7e5a48d6897ae3b85355fdb3768ea4bc20fd17772b4aa9de53ca55dcfbc31487"
+}

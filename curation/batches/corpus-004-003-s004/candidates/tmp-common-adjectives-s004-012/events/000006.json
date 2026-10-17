@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:24:56.878444+00:00",
+  "input_digest": "1fc2c023eae1fce16253784ebe6112772c4c37cfc26092586edca3f341913721",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"false-friend\", \"concerns\": [\"The Malay answer \\u201cpudar\\u201d ordinarily means faded or less vivid in color, not pale-faced.\"], \"material_concerns\": [\"The proposed pair does not express the same exact sense: Indonesian \\u201cpucat\\u201d fits pallor of the face, while Malaysian \\u201cpudar\\u201d generally describes fading color.\"], \"rationale\": \"\\u201cPucat\\u201d is the ordinary Indonesian word for a pale face or complexion. Malaysian Malay normally uses \\u201cpucat\\u201d for that sense; \\u201cpudar\\u201d is mainly \\u2018faded/dull\\u2019 in color, so this pairing risks teaching a false equivalent.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The current cue specifically includes reduced facial color. \\u201cPucat\\u201d fits, but \\u201cpudar\\u201d does not ordinarily express facial pallor in Malaysian Malay.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"pucat\", \"language\": \"malaysian\", \"rationale\": \"Malaysian Malay uses \\u201cpucat\\u201d for the same facial-pallor sense, competing directly with the proposed \\u201cpudar\\u201d.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malay answer “pudar” ordinarily means faded or less vivid in color, not pale-faced."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The current cue specifically includes reduced facial color. “Pucat” fits, but “pudar” does not ordinarily express facial pallor in Malaysian Malay.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The proposed pair does not express the same exact sense: Indonesian “pucat” fits pallor of the face, while Malaysian “pudar” generally describes fading color."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "pucat",
+        "language": "malaysian",
+        "rationale": "Malaysian Malay uses “pucat” for the same facial-pallor sense, competing directly with the proposed “pudar”.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "“Pucat” is the ordinary Indonesian word for a pale face or complexion. Malaysian Malay normally uses “pucat” for that sense; “pudar” is mainly ‘faded/dull’ in color, so this pairing risks teaching a false equivalent.",
+      "relation": "false-friend",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malay answer “pudar” ordinarily means faded or less vivid in color, not pale-faced."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The current cue specifically includes reduced facial color. “Pucat” fits, but “pudar” does not ordinarily express facial pallor in Malaysian Malay.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed pair does not express the same exact sense: Indonesian “pucat” fits pallor of the face, while Malaysian “pudar” generally describes fading color."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "pucat",
+      "language": "malaysian",
+      "rationale": "Malaysian Malay uses “pucat” for the same facial-pallor sense, competing directly with the proposed “pudar”.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "“Pucat” is the ordinary Indonesian word for a pale face or complexion. Malaysian Malay normally uses “pucat” for that sense; “pudar” is mainly ‘faded/dull’ in color, so this pairing risks teaching a false equivalent.",
+    "relation": "false-friend",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "27df6ac386f360126c520a490d5554ffca7699b0ed28dc529633b4b7031aa663"
+}

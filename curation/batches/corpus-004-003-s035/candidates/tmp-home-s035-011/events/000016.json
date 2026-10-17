@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:51.177416+00:00",
+  "result": {
+    "candidate_digest": "4424c99bb49504e0cadca432f3bfe60941b3b9980ee259854c0fcd7d5e0ecb23",
+    "candidate_id": "tmp-home-s035-011",
+    "checked_at": "2026-10-17T06:21:51.177416+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (cue-content): Both answers and the garden-hose sense are correct, and the relation different-common-word is appropriate. However, the empty contrast field omits a useful learner warning: Indonesian selang means hose, while standard Malaysian Malay uses hos for this object and selang has unrelated interval/gap meanings. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

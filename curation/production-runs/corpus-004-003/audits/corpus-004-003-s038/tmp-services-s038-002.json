@@ -1,0 +1,73 @@
+{
+  "attempt_id": "9ff3842f389f0995",
+  "candidate_id": "tmp-services-s038-002",
+  "claim_reviews": [
+    {
+      "conclusion": "The narrowed cue, equipment or facility maintenance, correctly expresses ongoing work intended to keep items functioning.",
+      "evidence_refs": [
+        "https://jdih.kemenkeu.go.id/kamus-hukum/pemeliharaan?id=02399bd3670f0794c63a0a5c9a07dd03",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyelenggaraan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and standard; Indonesian dictionary definitions include maintenance, care, and keeping production equipment in good condition.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pemelihara"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pemeliharaan"
+    },
+    {
+      "conclusion": "Correct and usable for maintenance of buildings, vehicles, and related facilities. Malaysian usage may prefer penyenggaraan for technical equipment, but that preference does not make penyelenggaraan wrong.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyelenggaraan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: penyelenggaraan"
+    },
+    {
+      "conclusion": "Different-common-word is defensible for the selected Indonesian/Malaysian pair, since the displayed forms differ while both express the relevant maintenance sense.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pemelihara",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyelenggaraan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No contrast is supplied, and no false-friend claim is made; therefore there is no incorrect contrast to correct.",
+      "evidence_limitation": "The empty contrast field prevents assessment of any intended additional contrast.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3f93adcc0241268cdf6bed95fe56d1911e36ef19d58d6d47dfc6a5b8c935411e",
+  "correction_refs": [],
+  "decision_digest": "db58388fb378f54c09bd0f89995ce300441df952a227a61fce9550e4cd98729c",
+  "elapsed_ms": 21182,
+  "finding_class": "none",
+  "input_tokens": 59708,
+  "model_calls": 1,
+  "output_tokens": 1188,
+  "packet_digest": "e7527dde72f5402c720270c594974c2ff1ddb0c54a97bc9604b1a40f6b9ef57c",
+  "rationale": "Both forms are valid for the narrowed maintenance sense. Indonesian pemeliharaan directly covers maintaining equipment or durable facilities; Malaysian penyelenggaraan also means maintaining buildings, vehicles, and similar items. Penyenggaraan may be more technically preferred for equipment in Malaysian usage, but penyelenggaraan remains acceptable. No false-friend contrast is asserted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:01:20.525930+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s038/tmp-services-s038-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "cleared"
+}

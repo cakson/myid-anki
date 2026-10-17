@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:43:11.277208+00:00",
+  "input_digest": "e91a7019c8c3ceb774aa5153abe17b880005162df4fec79c313d50e9663ab7b7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The national preference is overstated because \\u201ceditor\\u201d is also ordinary in Malaysian Malay.\"], \"material_concerns\": [\"The pair may mislead learners into treating \\u201ceditor\\u201d as Indonesian-only and \\u201cpenyunting\\u201d as Malaysian-only.\"], \"rationale\": \"The cue and senses align, and \\u201cpenyunting\\u201d is a standard Malaysian term. However, \\u201ceditor\\u201d is also a common Malaysian job and media term, so the contrast is weak rather than a reliable national preference.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both forms denote a person who edits written material.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"\\u201cEditor\\u201d is plausibly ordinary in both Indonesian and Malaysian Malay, while \\u201cpenyunting\\u201d is the more formal or localized Malay preference; this overlap can defeat the intended contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"editor\", \"language\": \"both\", \"rationale\": \"\\u201cEditor\\u201d is an ordinary form in both varieties, especially in professional, publishing, and media contexts.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The national preference is overstated because “editor” is also ordinary in Malaysian Malay."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both forms denote a person who edits written material.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair may mislead learners into treating “editor” as Indonesian-only and “penyunting” as Malaysian-only."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "editor",
+        "language": "both",
+        "rationale": "“Editor” is an ordinary form in both varieties, especially in professional, publishing, and media contexts.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "The cue and senses align, and “penyunting” is a standard Malaysian term. However, “editor” is also a common Malaysian job and media term, so the contrast is weak rather than a reliable national preference.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "“Editor” is plausibly ordinary in both Indonesian and Malaysian Malay, while “penyunting” is the more formal or localized Malay preference; this overlap can defeat the intended contrast.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The national preference is overstated because “editor” is also ordinary in Malaysian Malay."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both forms denote a person who edits written material.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair may mislead learners into treating “editor” as Indonesian-only and “penyunting” as Malaysian-only."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "editor",
+      "language": "both",
+      "rationale": "“Editor” is an ordinary form in both varieties, especially in professional, publishing, and media contexts.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "The cue and senses align, and “penyunting” is a standard Malaysian term. However, “editor” is also a common Malaysian job and media term, so the contrast is weak rather than a reliable national preference.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "“Editor” is plausibly ordinary in both Indonesian and Malaysian Malay, while “penyunting” is the more formal or localized Malay preference; this overlap can defeat the intended contrast.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "85354603eb1c5ca472d34c4c3525948752b6af7f5dcdd72458ac0ed49ae867e6"
+}

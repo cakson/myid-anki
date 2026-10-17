@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-16T20:04:54.324050+00:00",
+  "input_digest": "1b9e396aae0968b940e9fd463c2c080d1e16a143cd1dfd8e2ca1dd9b859b5883",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stepfather is a mother's or parent's male spouse who is not the learner's biological father; father is a male parent.\"}, {\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stepfather is the spouse of one's parent, whereas stepbrother is a male child of one's stepparent.\"}, {\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stepfather is a male parental spouse, whereas stepsister is a female child of one's stepparent.\"}, {\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stepfather denotes a parental spouse, while sibling denotes a brother or sister sharing a parent.\"}, {\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Family member is a broad category; stepfather is a specific male parental-spouse relation.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-001",
+          "rationale": "Stepfather is a mother's or parent's male spouse who is not the learner's biological father; father is a male parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-007",
+          "rationale": "Stepfather is the spouse of one's parent, whereas stepbrother is a male child of one's stepparent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-008",
+          "rationale": "Stepfather is a male parental spouse, whereas stepsister is a female child of one's stepparent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+          "rationale": "Stepfather denotes a parental spouse, while sibling denotes a brother or sister sharing a parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-010",
+          "rationale": "Family member is a broad category; stepfather is a specific male parental-spouse relation.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-001",
+        "rationale": "Stepfather is a mother's or parent's male spouse who is not the learner's biological father; father is a male parent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-007",
+        "rationale": "Stepfather is the spouse of one's parent, whereas stepbrother is a male child of one's stepparent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-008",
+        "rationale": "Stepfather is a male parental spouse, whereas stepsister is a female child of one's stepparent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+        "rationale": "Stepfather denotes a parental spouse, while sibling denotes a brother or sister sharing a parent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-010",
+        "rationale": "Family member is a broad category; stepfather is a specific male parental-spouse relation.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1f350c3da69f4e3fc8483983fd73e0a80739b1a174bf062096f55da698fb0eb4"
+}

@@ -1,0 +1,76 @@
+{
+  "attempt_id": "0fdc693f6f3b0a14",
+  "candidate_id": "tmp-family-social-s024-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“Mother-in-law” correctly matches “mother of one's spouse.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ibu+mentua"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Mertua perempuan” conveys the intended meaning, but “ibu mertua” is the preferable standard Indonesian learner answer.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua",
+        "https://kamus.sabda.org/kamus/ibu%2Bmertua",
+        "https://glosbe.com/en/id/mother-in-law"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Ibu mentua” is correct Malaysian Malay for the mother of one's spouse.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ibu+mentua"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is incorrect. The answers represent equivalent cognate forms, primarily differing in lexical preference and the Indonesian/Malaysian spelling distinction mertua/mentua.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mentua"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "There is no false-friend contrast: mertua and mentua have the same kinship meaning in the two standards.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mertua",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ibu+mentua"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e2f3824a05e24569ff79d54f07dd67c92070bcbefd3aafbc1b3c760920ec23ec",
+  "correction_refs": [],
+  "decision_digest": "ac2e30400674e60899455bba8313db33e13390bdd0a4c007738d8746306a21f6",
+  "elapsed_ms": 21189,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 74861,
+  "model_calls": 1,
+  "output_tokens": 1144,
+  "packet_digest": "bcf2a665c8b4cb8082f265b6eb4b480be086c1b7934d4f79ba9fc740f054e810",
+  "rationale": "The sense and Malaysian answer are correct. Indonesian “mertua perempuan” is understandable and attested, but “ibu mertua” is the standard, more idiomatic learner form. The proposed relation “different-common-word” is inaccurate: the forms are cognate equivalents, with Indonesian mertua versus Malaysian mentua, not a false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:44:17.013312+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s024/tmp-family-social-s024-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s024",
+  "verdict": "needs-correction"
+}

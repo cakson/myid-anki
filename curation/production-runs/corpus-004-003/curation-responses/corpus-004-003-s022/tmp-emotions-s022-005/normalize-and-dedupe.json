@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4450,
+  "input_digest": "a6bcae0d7d4e89cfaa3f3805570cb41193ca07c88632b8f54a61bbbd9180c853",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 202,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-001\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"The candidate “eager” and existing “excited” overlap substantially because the existing sense explicitly includes feeling eager, though eager can emphasize strong desire while excited emphasizes emotional arousal; this plausible overlap requires further review.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-001",
+          "rationale": "The candidate “eager” and existing “excited” overlap substantially because the existing sense explicitly includes feeling eager, though eager can emphasize strong desire while excited emphasizes emotional arousal; this plausible overlap requires further review.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

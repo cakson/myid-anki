@@ -1,0 +1,81 @@
+{
+  "attempt_id": "1e283f93ca199e30",
+  "candidate_id": "tmp-time-date-s044-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: duration means the length of time that something lasts, matching the supplied sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/duration"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary for the intended sense; KBBI defines durasi as the length or span of time something lasts.",
+      "evidence_refs": [
+        "https://kbbi.web.id/durasi.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: durasi"
+    },
+    {
+      "conclusion": "Correct and ordinary for a specified duration or period, though tempoh has additional meanings such as time, opportunity, and postponement.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=tempoh"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: tempoh"
+    },
+    {
+      "conclusion": "The exact selected forms differ, but the split is materially qualified by overlapping accepted expressions. Malaysian Malay identifies jangka masa and jangka waktu as synonyms associated with tempoh, and Indonesian usage also supports jangka waktu for a time span. The card should not imply that the concept is uniquely divided by nation.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tempoh%20masa",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=jangka%20waktu",
+        "https://kbbi.co.id/arti-kata/masa"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and national split"
+    },
+    {
+      "conclusion": "Acceptable for the two selected headwords: both are common, and the forms are different. It becomes misleading if interpreted as excluding shared phrases or ordinary equivalents.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=tempoh",
+        "https://kbbi.web.id/durasi.html"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed: durasi and tempoh are not deceptively similar forms. The empty contrast field is semantically appropriate, but an overlap note should be added elsewhere to prevent overclaiming the national contrast.",
+      "evidence_limitation": "This conclusion is based on the forms and dictionary meanings; no dedicated false-friend lexicon was identified or required.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "cb648457cd34d6977c1d5e7ef56721bab83d991648b392945549a9f5483dd4e0",
+  "correction_refs": [],
+  "decision_digest": "0d5425c17a2e7eda310e078e7147bb262093f5f5aacd3ac13e13ef7fac01b51b",
+  "elapsed_ms": 31685,
+  "finding_class": "cue-content",
+  "input_tokens": 120652,
+  "model_calls": 1,
+  "output_tokens": 2435,
+  "packet_digest": "c1c8425c2ce9dc39946b37f5c0f235cf8a2b6a37473823a795452f06df001515",
+  "rationale": "The headwords are valid and the English sense is aligned, so the national distinction is not materially false at the single-word level. However, the card omits that ordinary duration expressions overlap across varieties: Indonesian uses durasi and jangka waktu, while Malaysian Malay uses tempoh and jangka masa/jangka waktu. The relation is therefore defensible only with an explicit usage/overlap qualification. No false-friend contrast is warranted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:14:17.838756+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s044/tmp-time-date-s044-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s044",
+  "verdict": "needs-correction"
+}

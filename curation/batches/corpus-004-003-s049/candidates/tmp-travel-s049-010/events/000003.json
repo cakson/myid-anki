@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:07:09.654054+00:00",
+  "input_digest": "528109d10e6058d9e65da1793dbba983582f3d311740f3394d7503d4de0af358",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s049:tmp-travel-s049-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are aircraft seats, but the candidate is beside a window while the other is beside the aisle; their locations and learner answers differ.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-011",
+          "rationale": "Both are aircraft seats, but the candidate is beside a window while the other is beside the aisle; their locations and learner answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s049:tmp-travel-s049-011",
+        "rationale": "Both are aircraft seats, but the candidate is beside a window while the other is beside the aisle; their locations and learner answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "3edc137df8830a39882055caf7f85c46b53efe8e686f2d275716f999c21d42fa"
+}

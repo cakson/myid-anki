@@ -1,0 +1,92 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-family-social-s026-007",
+    "english": "handshake",
+    "indonesian": "jabat tangan",
+    "malaysian": "bersalaman",
+    "sense": "a greeting by clasping hands",
+    "tags": [
+      "family-social",
+      "useful-similar"
+    ]
+  },
+  "candidate_id": "tmp-family-social-s026-007",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "concrete",
+      "preference_risk": {
+        "form": "bersalaman",
+        "language": "both",
+        "rationale": "Bersalaman can be ordinary in both varieties, although jabat tangan remains a natural Indonesian noun phrase and bersalaman is natural Malaysian Malay for the act.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "none",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms refer to greeting or greeting someone by shaking hands. Indonesian jabat tangan is a noun phrase, while Malaysian bersalaman is a verbal form, giving a useful grammatical and lexical contrast. Review concern: Bersalaman is also understandable and used in Indonesian, while berjabat tangan may occur in Malaysian Malay, so the contrast should not be taught as exclusive.",
+    "confidence_tier": "low",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "similar",
+    "review_flags": [
+      "concrete-nonblocking-risk",
+      "shared-common-form"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "handshake",
+    "image": "",
+    "indonesian": "jabat tangan",
+    "malaysian": "bersalaman",
+    "relation": "similar",
+    "tags": "family-social useful-similar"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s026"
+}

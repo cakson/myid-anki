@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T19:19:19.652407+00:00",
+  "input_digest": "9a9e46ff820d472097d647f4148df9c0126aa259402016e2dbf0fe1a30bdc481",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Indonesian commonly uses \\u201csepatu bot,\\u201d while Malaysian Malay commonly uses \\u201cbut\\u201d for boots. Both denote sturdy footwear covering the ankle.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers fit the same footwear sense: boots as sturdy footwear covering the ankle.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\u201cSepatu bot\\u201d is understandable in Malaysia but is not the usual concise Malaysian form; \\u201cbut\\u201d is the ordinary Malaysian preference.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Malaysian usage may also use the fuller phrase \\u201ckasut but\\u201d when explicitly referring to footwear.\", \"preference_risk\": {\"signal\": \"regional-or-register-competition\", \"form\": \"kasut but\", \"language\": \"malaysian\", \"rationale\": \"\\u201cKasut but\\u201d can occur in explicit footwear contexts, though \\u201cbut\\u201d remains a common concise Malaysian form.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers fit the same footwear sense: boots as sturdy footwear covering the ankle.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kasut but",
+        "language": "malaysian",
+        "rationale": "“Kasut but” can occur in explicit footwear contexts, though “but” remains a common concise Malaysian form.",
+        "signal": "regional-or-register-competition"
+      },
+      "rationale": "Indonesian commonly uses “sepatu bot,” while Malaysian Malay commonly uses “but” for boots. Both denote sturdy footwear covering the ankle.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian usage may also use the fuller phrase “kasut but” when explicitly referring to footwear.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "“Sepatu bot” is understandable in Malaysia but is not the usual concise Malaysian form; “but” is the ordinary Malaysian preference.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the same footwear sense: boots as sturdy footwear covering the ankle.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kasut but",
+      "language": "malaysian",
+      "rationale": "“Kasut but” can occur in explicit footwear contexts, though “but” remains a common concise Malaysian form.",
+      "signal": "regional-or-register-competition"
+    },
+    "rationale": "Indonesian commonly uses “sepatu bot,” while Malaysian Malay commonly uses “but” for boots. Both denote sturdy footwear covering the ankle.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian usage may also use the fuller phrase “kasut but” when explicitly referring to footwear.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "“Sepatu bot” is understandable in Malaysia but is not the usual concise Malaysian form; “but” is the ordinary Malaysian preference.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "a3ff2e562126270a59e5272aa4d9db0bb81933c6f5d6a06ab6afb5d258e92cb8"
+}

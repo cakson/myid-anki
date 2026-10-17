@@ -1,0 +1,77 @@
+{
+  "attempt_id": "4f80f8d904d27727",
+  "candidate_id": "tmp-emotions-s022-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“Pessimistic” correctly means expecting or viewing outcomes negatively/unfavorably.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/pessimistic"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Pesimis” is a valid Indonesian word but is dictionary-defined as a noun referring to a pessimistic person; “pesimistis” is the standard adjective matching the English cue.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/pesimis",
+        "https://kbbi.web.id/pesimistis"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pesimistik” is a valid Malaysian Malay adjective meaning pessimistic and is an appropriate answer.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=105584&keyword=pesimistik"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "The meanings are closely related, but “similar” without a grammatical-category qualification is misleading because the Indonesian entry supplied is noun-like while the Malaysian entry is adjectival.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/pesimis",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=105584&keyword=pesimistik"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "A learner-critical contrast is missing: Indonesian “pesimis” commonly denotes “a pessimist,” whereas Indonesian “pesimistis” and Malaysian “pesimistik” denote the adjective “pessimistic.”",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/pesimis",
+        "https://kbbi.web.id/pesimistis",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=105584&keyword=pesimistik"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "8e411e3284db5e40f8c8609e368417698d85ffc51d2bf34908325007e04da1e4",
+  "correction_refs": [],
+  "decision_digest": "03cf1f8cda09da42d38adcb03951ebbc3148b8d8fd878a8db14710852ef01086",
+  "elapsed_ms": 21673,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 71058,
+  "model_calls": 1,
+  "output_tokens": 1314,
+  "packet_digest": "826875bc3f7a8ff5bd21b6fcee79415287e3dbd9a5daf39dd1d05c7c5867c2cd",
+  "rationale": "The English cue and Malaysian answer are semantically aligned, but Indonesian “pesimis” is primarily a noun meaning “a pessimist”; the adjective matching “pessimistic” is “pesimistis.” The proposed similar relation also omits this grammatical false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:42:01.852578+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s022/tmp-emotions-s022-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s022",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T05:13:36.745841+00:00",
+  "result": {
+    "candidate_digest": "554f61d8cd4f5a09f5048d453d1a28bb6563635b0e6d0f99027809ea93009d25",
+    "candidate_id": "tmp-work-s052-008",
+    "checked_at": "2026-10-17T05:13:36.745841+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "\"Kontrak kerja\" is plausibly ordinary in both Indonesian and Malaysian Malay, so the pair may mislead learners about national preference.",
+      "A shared ordinary synonym may defeat the claimed national preference."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "\"Kontrak kerja\" is plausibly ordinary in both Indonesian and Malaysian Malay, so the pair may mislead learners about national preference.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

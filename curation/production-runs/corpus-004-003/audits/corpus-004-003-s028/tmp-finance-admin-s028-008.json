@@ -1,0 +1,76 @@
+{
+  "attempt_id": "06bd3ce675bd5ed8",
+  "candidate_id": "tmp-finance-admin-s028-008",
+  "claim_reviews": [
+    {
+      "conclusion": "“Photocopy” correctly matches a reproduction made by photocopying a document.",
+      "evidence_refs": [
+        "https://kbbi.web.id/fotokopi",
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=fotokopi"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Fotokopi” is the standard Indonesian noun for a photocopy or photographic reproduction.",
+      "evidence_refs": [
+        "https://kbbi.web.id/fotokopi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Salinan fotostat” is valid Malaysian Malay for a photocopy; DBP also recognizes “fotostat” and “fotokopi.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salinan",
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=fotostat",
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=fotokopi"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate because the Indonesian and Malaysian entries use distinct, established forms for the same sense.",
+      "evidence_refs": [
+        "https://kbbi.web.id/fotokopi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salinan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; the forms are semantically aligned rather than misleadingly divergent.",
+      "evidence_refs": [
+        "https://kbbi.web.id/fotokopi",
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=fotostat"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a4e8f771ee2309b21d01269059064d0f6552c51209d96b7f0da8aa055b4ea196",
+  "correction_refs": [],
+  "decision_digest": "ef0c62558fbb590a65aa9837271196f73ae966cf88ccaf933e5702a8128dc247",
+  "elapsed_ms": 22068,
+  "finding_class": "none",
+  "input_tokens": 67040,
+  "model_calls": 1,
+  "output_tokens": 1172,
+  "packet_digest": "7dd133869a635d2e8ab4da4c087666f401f61a9e08ea70081da588611d56af5c",
+  "rationale": "Both answers accurately express the cue and sense. Indonesian “fotokopi” and Malaysian “salinan fotostat” are valid, semantically aligned terms. The relation “different-common-word” is appropriate. No false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:51:27.378536+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s028/tmp-finance-admin-s028-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s028",
+  "verdict": "cleared"
+}

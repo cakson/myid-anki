@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4867,
+  "input_digest": "c0387fd357c2f49eaf3026d05ca67b8631779a9887cab11d188e9dec72a477ed",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 232,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"clothing-001:clothing-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is the bottom part of footwear, whereas the existing concept is the complete footwear item.\"},{\"other_id\":\"pros4-health-001:health-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A shoe sole is a footwear component; a heel is the back underside part of the foot, so the senses are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "clothing-001:clothing-02",
+          "rationale": "The candidate is the bottom part of footwear, whereas the existing concept is the complete footwear item.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-health-001:health-07",
+          "rationale": "A shoe sole is a footwear component; a heel is the back underside part of the foot, so the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:36:30.586603+00:00",
+  "input_digest": "1e8ede554f493aeeefbed452ef2e0f358528d22114009a1cda75514da6e02605",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s007:tmp-common-verbs-s007-008\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"The candidate 'to obey' means to comply with an instruction or rule, while the existing 'follow' includes acting according to someone or something; these senses substantially overlap, but the candidate is narrower and the Indonesian/Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s007:tmp-common-verbs-s007-008",
+          "rationale": "The candidate 'to obey' means to comply with an instruction or rule, while the existing 'follow' includes acting according to someone or something; these senses substantially overlap, but the candidate is narrower and the Indonesian/Malaysian answers differ.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s007:tmp-common-verbs-s007-008",
+        "rationale": "The candidate 'to obey' means to comply with an instruction or rule, while the existing 'follow' includes acting according to someone or something; these senses substantially overlap, but the candidate is narrower and the Indonesian/Malaysian answers differ.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "73a6952c14737810dcca6e944c170f373a7958b247c44ca81ae68263d0948e3e"
+}

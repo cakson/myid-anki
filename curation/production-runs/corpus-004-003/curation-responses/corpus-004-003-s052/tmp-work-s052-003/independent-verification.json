@@ -1,0 +1,34 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 10206,
+  "input_digest": "923b79e46535eec1b4974912953926d4a59efe3394eb69776b39b1d66d891c61",
+  "input_tokens": 14297,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 782,
+  "raw_text": "{\n  \"verdict\": \"agree\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"The cue can suggest the title label itself, while both answers more directly denote the organizational position held.\"\n  ],\n  \"material_concerns\": [],\n  \"rationale\": \"Jabatan is the ordinary Indonesian term and jawatan the ordinary Malaysian term for an official position in an organization. This is a useful national word preference, not an exclusive ownership distinction.\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"correctable\",\n  \"cue_rewrite\": \"official organizational position\",\n  \"cue_rationale\": \"Both answers clearly fit an official position held in an organization; the rewrite removes the possible label-versus-position ambiguity in “job title.”\",\n  \"shared_synonym_case\": \"useful-preference\",\n  \"shared_synonym_rationale\": \"Posisi is understood and used in both varieties for a work position, but jabatan remains a credible Indonesian preference and jawatan a credible Malaysian preference in formal organizational usage.\",\n  \"nonblocking_risk\": \"minor\",\n  \"risk_rationale\": \"Posisi may be used conversationally in both varieties, especially in less formal contexts.\",\n  \"preference_risk\": {\n    \"signal\": \"shared-common-form\",\n    \"form\": \"posisi\",\n    \"language\": \"both\",\n    \"rationale\": \"Posisi can refer to a work position in both Indonesian and Malaysian Malay, although jabatan and jawatan remain useful formal preferences in their respective varieties.\"\n  }\n}",
+  "response": {
+    "concerns": [
+      "The cue can suggest the title label itself, while both answers more directly denote the organizational position held."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "Both answers clearly fit an official position held in an organization; the rewrite removes the possible label-versus-position ambiguity in “job title.”",
+    "cue_rewrite": "official organizational position",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "posisi",
+      "language": "both",
+      "rationale": "Posisi can refer to a work position in both Indonesian and Malaysian Malay, although jabatan and jawatan remain useful formal preferences in their respective varieties.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Jabatan is the ordinary Indonesian term and jawatan the ordinary Malaysian term for an official position in an organization. This is a useful national word preference, not an exclusive ownership distinction.",
+    "relation": "different-common-word",
+    "risk_rationale": "Posisi may be used conversationally in both varieties, especially in less formal contexts.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Posisi is understood and used in both varieties for a work position, but jabatan remains a credible Indonesian preference and jawatan a credible Malaysian preference in formal organizational usage.",
+    "verdict": "agree"
+  },
+  "retrievals": null
+}

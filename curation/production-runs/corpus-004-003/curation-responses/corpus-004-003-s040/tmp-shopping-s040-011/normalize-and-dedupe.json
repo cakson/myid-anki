@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6278,
+  "input_digest": "367cb1a8ba319be4db437ca668befed16b01d92a4021ab5bddc555f97fc2f522",
+  "input_tokens": 93711,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 408,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s005:tmp-common-adjectives-s005-012\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"Product availability concerns whether a product can currently be obtained, plausibly overlapping with available (ready for use or obtainable), but the candidate is a product-specific noun concept while the archived item is a general adjective.\"},{\"other_id\":\"corpus-004-003-s040:tmp-shopping-s040-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Product availability is the current obtainable status of a product; stock is the quantity of that product held for sale.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-012",
+          "rationale": "Product availability concerns whether a product can currently be obtained, plausibly overlapping with available (ready for use or obtainable), but the candidate is a product-specific noun concept while the archived item is a general adjective.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s040:tmp-shopping-s040-005",
+          "rationale": "Product availability is the current obtainable status of a product; stock is the quantity of that product held for sale.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

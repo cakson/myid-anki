@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5733,
+  "input_digest": "56001789080fac11bca3f438c5f9da1c866090b45f451f22cc913d1d38d1fc06",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 322,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Laptop is a portable personal computer, while computer is a broad generic category; the candidate specifies portability and personal use.\"},{\"other_id\":\"corpus-004-003-s043:tmp-technology-s043-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Laptop and desktop computer are distinct computer form factors; laptop is portable, whereas desktop computer is designed for use at a desk.\"},{\"other_id\":\"corpus-004-003-s043:tmp-technology-s043-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A laptop is a portable computer, while a smartphone is a mobile phone with advanced computing functions; they are different device categories.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-02",
+          "rationale": "Laptop is a portable personal computer, while computer is a broad generic category; the candidate specifies portability and personal use.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-002",
+          "rationale": "Laptop and desktop computer are distinct computer form factors; laptop is portable, whereas desktop computer is designed for use at a desk.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-001",
+          "rationale": "A laptop is a portable computer, while a smartphone is a mobile phone with advanced computing functions; they are different device categories.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

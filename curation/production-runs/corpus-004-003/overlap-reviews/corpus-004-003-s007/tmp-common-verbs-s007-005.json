@@ -1,0 +1,84 @@
+{
+  "attempt_id": "0218ca2f39536226",
+  "candidate_id": "tmp-common-verbs-s007-005",
+  "claim_reviews": [
+    {
+      "conclusion": "“need” with the sense “require something” correctly matches both answer meanings.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=perlu+1",
+        "https://kbbi.web.id/perlu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Membutuhkan is a valid Indonesian verb meaning to need or require something.",
+      "evidence_refs": [
+        "https://kbbi.web.id/butuh",
+        "https://typoonline.com/kbbi/membutuhkan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: membutuhkan"
+    },
+    {
+      "conclusion": "Memerlukan is a valid and standard Malaysian Malay verb meaning to need or require something.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memerlukan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=perlu+1"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: memerlukan"
+    },
+    {
+      "conclusion": "The contrast is not exclusive by nation: Indonesian references also accept memerlukan, while perlu is an ordinary accepted equivalent in both varieties. The pair can remain as a preference contrast only if explicitly labeled non-exclusive and register/context dependent.",
+      "evidence_refs": [
+        "https://kbbi.web.id/perlu",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=perlu+1",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memerlukan"
+      ],
+      "material_risk": true,
+      "subject": "National contrast and overlap"
+    },
+    {
+      "conclusion": "A contrast is required. Indonesian butuh/membutuhkan expresses need, but Malaysian Malay butuh is recorded as a vulgar term for male genitalia; Malaysian learners should use perlu or memerlukan for this sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=butuh",
+        "https://kbbi.web.id/butuh"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    },
+    {
+      "conclusion": "The supplied claim that membutuhkan is the ordinary Indonesian preference and memerlukan the ordinary Malaysian preference is plausible, but the reviewed dictionary evidence does not establish comparative frequency. Treat it as a preference claim requiring corpus evidence, not as an exclusive distribution.",
+      "evidence_limitation": "No comparable Indonesian/Malaysian corpus-frequency evidence was supplied or verified in this review.",
+      "material_risk": true,
+      "subject": "Usage-frequency claim"
+    }
+  ],
+  "content_digest": "b9ed8de6c24b31ed8fbbdb07c53eb17b8d1348f4bd8c1213f391066b18b1640e",
+  "correction_refs": [],
+  "decision_digest": "e2cd55ebd2d363a077d361128600fa0eee85fda0dcc406e8d24c40f483239e57",
+  "elapsed_ms": 27284,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 97205,
+  "model_calls": 1,
+  "output_tokens": 1555,
+  "packet_digest": "dd2c3984c65e312526c5658b4715689d363c91b1f16bcd975134d8b50e3e3391",
+  "rationale": "The English cue and sense are aligned, and both listed forms are semantically valid: membutuhkan is normal Indonesian, while memerlukan is standard Malaysian Malay. However, the national split is materially overstated because memerlukan is also accepted Indonesian, and perlu is a shared everyday equivalent. The empty contrast omits an important false-friend warning: Malaysian Malay butuh is vulgar, whereas Indonesian butuh/membutuhkan means need. The relation should be qualified rather than presented as a clean national distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:36:34.587599+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s007/tmp-common-verbs-s007-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s007",
+  "verdict": "needs-correction"
+}

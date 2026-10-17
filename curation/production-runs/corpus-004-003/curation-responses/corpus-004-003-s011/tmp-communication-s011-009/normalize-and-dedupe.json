@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5039,
+  "input_digest": "50c244d09d5a252d69ab0b5815084e9da76bb9d93b12edf6ad453bb670eedf55",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 353,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"pros4-technology-001:technology-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are written information, but notice is general written information intended to inform people, whereas notification is specifically a message alert from an application or service.\"},{\"other_id\":\"corpus-004-003-s012:tmp-communication-s012-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A warning is specifically information about possible danger or trouble; notice is a broader category of written information and has a distinct general sense.\"},{\"other_id\":\"corpus-004-003-s039:tmp-services-s039-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An appointment reminder is a specific notice reminding someone of a scheduled appointment, not the general written-information sense of notice.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-technology-001:technology-08",
+          "rationale": "Both are written information, but notice is general written information intended to inform people, whereas notification is specifically a message alert from an application or service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-003",
+          "rationale": "A warning is specifically information about possible danger or trouble; notice is a broader category of written information and has a distinct general sense.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s039:tmp-services-s039-001",
+          "rationale": "An appointment reminder is a specific notice reminding someone of a scheduled appointment, not the general written-information sense of notice.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

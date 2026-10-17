@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:41.379865+00:00",
+  "result": {
+    "candidate_digest": "c1efc3cd1d30849c64acaf14621d5430a47bdf85cbf8edc9b9770cd8711151e0",
+    "candidate_id": "tmp-common-verbs-s007-004",
+    "checked_at": "2026-10-17T06:21:41.379865+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (metadata-only): Both Malay answers correctly express ‘give permission’. However, the national contrast is overstated: membolehkan is also common in both varieties, and membenarkan has additional meanings such as ‘confirm’ or ‘agree’. Add a learner-facing contrast and qualify the relation as a common-preference difference rather than an exclusive national split. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

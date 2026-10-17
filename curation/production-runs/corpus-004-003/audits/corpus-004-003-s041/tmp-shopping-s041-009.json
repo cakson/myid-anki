@@ -1,0 +1,65 @@
+{
+  "attempt_id": "1ed8625267d03866",
+  "candidate_id": "tmp-shopping-s041-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Food court accurately denotes a shared dining area with multiple food vendors.",
+      "evidence_refs": [
+        "https://en.wiktionary.org/wiki/pujasera",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=medan+selera"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Pujasera is an established Indonesian term meaning food court or food hall.",
+      "evidence_refs": [
+        "https://en.wiktionary.org/wiki/pujasera",
+        "https://www.esb.id/id/inspirasi/apa-itu-food-court"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pujasera"
+    },
+    {
+      "conclusion": "Medan selera is an established Malaysian Malay term for a place containing many food stalls serving various foods.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=medan+selera"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: medan selera"
+    },
+    {
+      "conclusion": "Different-common-word is an appropriate relation for the two national terms. No false-friend contrast is warranted.",
+      "evidence_limitation": "The sources establish the meanings and national usage labels but do not independently quantify comparative frequency or mall-specific preference.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "cd7be8d6870615260633ec7de603dc47d1464a6174d547ac31e4de4cbc273320",
+  "correction_refs": [],
+  "decision_digest": "d5b882ad548da5c23548fb4ba7885abff7437b71060ef0f66556c1a0195713d2",
+  "elapsed_ms": 17733,
+  "finding_class": "none",
+  "input_tokens": 49546,
+  "model_calls": 1,
+  "output_tokens": 884,
+  "packet_digest": "24638afb0ef51095fe576211b9399f56ea7d570429e94667d2e26bac7dbf91bb",
+  "rationale": "The English cue and sense are accurate. Pujasera is an established Indonesian term for food court, and medan selera is an established Malaysian Malay term for a place with many food stalls. The relation different-common-word is appropriate. No false-friend contrast is needed because neither item creates a misleading cross-language meaning.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:06:41.452505+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s041/tmp-shopping-s041-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "cleared"
+}

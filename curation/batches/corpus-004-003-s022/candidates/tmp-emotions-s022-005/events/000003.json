@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:01:09.094698+00:00",
+  "input_digest": "a6bcae0d7d4e89cfaa3f3805570cb41193ca07c88632b8f54a61bbbd9180c853",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-001\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"The candidate \\u201ceager\\u201d and existing \\u201cexcited\\u201d overlap substantially because the existing sense explicitly includes feeling eager, though eager can emphasize strong desire while excited emphasizes emotional arousal; this plausible overlap requires further review.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-001",
+          "rationale": "The candidate “eager” and existing “excited” overlap substantially because the existing sense explicitly includes feeling eager, though eager can emphasize strong desire while excited emphasizes emotional arousal; this plausible overlap requires further review.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-001",
+        "rationale": "The candidate “eager” and existing “excited” overlap substantially because the existing sense explicitly includes feeling eager, though eager can emphasize strong desire while excited emphasizes emotional arousal; this plausible overlap requires further review.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "0c736433d0413a43ff1b5067990ebc766a6907eca23346656b8bb4c578a7bdbf"
+}

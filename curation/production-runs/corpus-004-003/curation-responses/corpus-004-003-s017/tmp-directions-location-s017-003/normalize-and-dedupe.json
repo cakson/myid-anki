@@ -1,0 +1,56 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6869,
+  "input_digest": "c7964effd01605fe2378038c0a9d7966d7003bbcb3183160c4c121d73311e6fd",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 569,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"neighbor is a person living nearby, whereas neighborhood is a local residential area.\"},{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"suburb is an area outside a city center; neighborhood is a local residential area and need not be suburban.\"},{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"district is an administrative area, whereas neighborhood is a local residential area.\"},{\"other_id\":\"corpus-004-003-s005:tmp-common-adjectives-s005-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"local is an adjective meaning related to a nearby area; neighborhood is the residential area itself.\"},{\"other_id\":\"corpus-004-002-s006:tmp-directions-location-s006-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"nearby describes proximity, whereas neighborhood names a local residential area.\"},{\"other_id\":\"corpus-004-001-s015:tmp-home-s015-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"yard is an open area around a house, not a residential locality containing multiple homes.\"} ]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-001",
+          "rationale": "neighbor is a person living nearby, whereas neighborhood is a local residential area.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-008",
+          "rationale": "suburb is an area outside a city center; neighborhood is a local residential area and need not be suburban.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-011",
+          "rationale": "district is an administrative area, whereas neighborhood is a local residential area.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-005",
+          "rationale": "local is an adjective meaning related to a nearby area; neighborhood is the residential area itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-006",
+          "rationale": "nearby describes proximity, whereas neighborhood names a local residential area.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s015:tmp-home-s015-003",
+          "rationale": "yard is an open area around a house, not a residential locality containing multiple homes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

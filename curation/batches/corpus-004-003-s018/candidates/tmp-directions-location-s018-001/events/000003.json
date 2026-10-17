@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:53:30.975646+00:00",
+  "input_digest": "153bf5e03eb4f3ff7b36e6b8776f5a77a04b655f2c2d33cbcb009c18698df6fc",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s018:tmp-directions-location-s018-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bridge is a structure spanning an obstacle such as a river or road, whereas a tunnel is a passage through or under something; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s018:tmp-directions-location-s018-003",
+          "rationale": "A bridge is a structure spanning an obstacle such as a river or road, whereas a tunnel is a passage through or under something; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s018:tmp-directions-location-s018-003",
+        "rationale": "A bridge is a structure spanning an obstacle such as a river or road, whereas a tunnel is a passage through or under something; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1a61f28d6f1644980021d0db50cfa78d9eeba91fa46af8c5e1151b782b3aa866"
+}

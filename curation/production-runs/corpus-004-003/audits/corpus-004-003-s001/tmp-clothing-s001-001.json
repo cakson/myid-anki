@@ -1,0 +1,75 @@
+{
+  "attempt_id": "47e3241aa7f6b7ff",
+  "candidate_id": "tmp-clothing-s001-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for the intended T-shirt sense; kaus can mean a shirt made of knit fabric, including a short-sleeved shirt.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/kaus%20%281%29"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kaus"
+    },
+    {
+      "conclusion": "Valid and attested Malaysian Malay usage, but not safely presented as the sole or uniquely Malaysian equivalent; kemeja-T is an established reference term and T-shirt is also used.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=t-shirt",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/t",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=t+I"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: baju-T"
+    },
+    {
+      "conclusion": "T-shirt and casual short-sleeved top are semantically aligned with both answers.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/kaus%20%281%29",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=t-shirt"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different written forms are present, but different-common-word is misleading because Malaysian usage overlaps with T-shirt and includes competing forms. Use shared-synonym-preference or regional-variation.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=t-shirt",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/t"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed: the forms are semantically equivalent for this sense.",
+      "evidence_limitation": "The supplied card contains no explicit false-friend claim to verify.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "13b43a72e31d033458484c69c9142b468466f0fc0d3c2e0248c7c93c84f09f03",
+  "correction_refs": [],
+  "decision_digest": "7289776b6063e8a976fb305328d2ea7fc7e272037524acecb3f0c65f100a93e5",
+  "elapsed_ms": 21072,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 73816,
+  "model_calls": 1,
+  "output_tokens": 1356,
+  "packet_digest": "26f4226b7bd42c1867fcac701f619ac8bbffc8adffe4b12aeda6d830a1076bdd",
+  "rationale": "Both forms denote a casual short-sleeved top, but the card overstates a national lexical contrast. Indonesian kaus is well supported; Malaysian baju-T is used, but Malaysian reference terminology also includes kemeja-T, and T-shirt remains common. The relation should be framed as a preference or variation, not an exclusive different-common-word contrast. No false-friend contrast is indicated.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:15:08.777401+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s001/tmp-clothing-s001-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s001",
+  "verdict": "needs-correction"
+}

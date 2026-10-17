@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T20:10:04.875711+00:00",
+  "result": {
+    "candidate_digest": "e6e45550a5e5ee6b5f4f20df5da42ad795fdef7120ea523d756eafa6a1487879",
+    "candidate_id": "tmp-family-social-s026-007",
+    "checked_at": "2026-10-16T20:10:04.875711+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "concrete",
+      "preference_risk": {
+        "form": "bersalaman",
+        "language": "both",
+        "rationale": "Bersalaman can be ordinary in both varieties, although jabat tangan remains a natural Indonesian noun phrase and bersalaman is natural Malaysian Malay for the act.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "none",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms refer to greeting or greeting someone by shaking hands. Indonesian jabat tangan is a noun phrase, while Malaysian bersalaman is a verbal form, giving a useful grammatical and lexical contrast. Review concern: Bersalaman is also understandable and used in Indonesian, while berjabat tangan may occur in Malaysian Malay, so the contrast should not be taught as exclusive.",
+    "confidence_tier": "low",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "similar",
+    "review_flags": [
+      "concrete-nonblocking-risk",
+      "shared-common-form"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

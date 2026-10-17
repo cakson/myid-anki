@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T05:11:10.513765+00:00",
+  "input_digest": "c43d38325b4e404d80175e973e541c28c8d5c981c7a2b4847bbe81b8a5d25c8b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-work-001:work-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Overtime work is the work performed beyond normal hours; overtime pay is the compensation received for that work.\"}, {\"other_id\": \"cal2-work-001:work-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Salary is regular work compensation, whereas overtime pay is compensation specifically for work beyond regular hours.\"}, {\"other_id\": \"corpus-004-003-s051:tmp-work-s051-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Employee benefits are non-salary benefits provided by an employer; overtime pay is earnings for extra hours worked.\"}, {\"other_id\": \"corpus-004-003-s051:tmp-work-s051-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Pension is a regular payment after retirement, unlike overtime pay earned for work beyond regular hours.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-work-001:work-10",
+          "rationale": "Overtime work is the work performed beyond normal hours; overtime pay is the compensation received for that work.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-02",
+          "rationale": "Salary is regular work compensation, whereas overtime pay is compensation specifically for work beyond regular hours.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s051:tmp-work-s051-011",
+          "rationale": "Employee benefits are non-salary benefits provided by an employer; overtime pay is earnings for extra hours worked.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s051:tmp-work-s051-009",
+          "rationale": "Pension is a regular payment after retirement, unlike overtime pay earned for work beyond regular hours.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-work-001:work-10",
+        "rationale": "Overtime work is the work performed beyond normal hours; overtime pay is the compensation received for that work.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-02",
+        "rationale": "Salary is regular work compensation, whereas overtime pay is compensation specifically for work beyond regular hours.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s051:tmp-work-s051-011",
+        "rationale": "Employee benefits are non-salary benefits provided by an employer; overtime pay is earnings for extra hours worked.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s051:tmp-work-s051-009",
+        "rationale": "Pension is a regular payment after retirement, unlike overtime pay earned for work beyond regular hours.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8720fb4ba783db725251b0ffe177479c0b0381d682ec2998c90688f7f36b504b"
+}

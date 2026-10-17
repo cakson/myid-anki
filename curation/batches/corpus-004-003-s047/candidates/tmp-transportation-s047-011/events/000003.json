@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:02:43.923615+00:00",
+  "input_digest": "c164d5c1ba84e8e99835a9c4bfe682dbda5a55b9dc50e9f1b5bfe005aec294d3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"transportation-001:transportation-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A motorcycle taxi is a passenger-for-hire service using a motorcycle; a taxi is specifically a hired car, so the vehicle type and concept differ.\"}, {\"other_id\": \"transportation-001:transportation-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A motorcycle taxi is a motorcycle used to carry passengers for payment, whereas motorcycle is the general vehicle concept without the passenger-for-hire sense.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-05",
+          "rationale": "A motorcycle taxi is a passenger-for-hire service using a motorcycle; a taxi is specifically a hired car, so the vehicle type and concept differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "transportation-001:transportation-02",
+          "rationale": "A motorcycle taxi is a motorcycle used to carry passengers for payment, whereas motorcycle is the general vehicle concept without the passenger-for-hire sense.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "transportation-001:transportation-05",
+        "rationale": "A motorcycle taxi is a passenger-for-hire service using a motorcycle; a taxi is specifically a hired car, so the vehicle type and concept differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "transportation-001:transportation-02",
+        "rationale": "A motorcycle taxi is a motorcycle used to carry passengers for payment, whereas motorcycle is the general vehicle concept without the passenger-for-hire sense.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1c7189c02e43ee0cb1135231e7c8bc6c1f7921d0c5ffa571569e1dd98306a2a2"
+}

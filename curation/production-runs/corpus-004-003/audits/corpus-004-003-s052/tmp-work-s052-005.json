@@ -1,0 +1,84 @@
+{
+  "attempt_id": "1ecd99b0d08908b3",
+  "candidate_id": "tmp-work-s052-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: entrepreneur denotes a person who starts or runs a business.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/pengusaha",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=usahawan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary in Indonesian for a person engaged in business, trade, or industry.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/pengusaha"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pengusaha"
+    },
+    {
+      "conclusion": "Correct and a strong Malaysian Malay default for entrepreneur.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=usahawan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: usahawan"
+    },
+    {
+      "conclusion": "The candidate correctly recognizes pengusaha as possible in Malaysian usage, but its established meanings include a person managing or operating an enterprise; it is not an erroneous or excluded form.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pengusaha"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian pengusaha contrast"
+    },
+    {
+      "conclusion": "Usahawan is also attested in Indonesian and defined as a person leading a company or as pengusaha, so the forms are not strict variety-exclusive equivalents.",
+      "evidence_refs": [
+        "https://kbbi.web.id/usahawan.html"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian usahawan cross-use"
+    },
+    {
+      "conclusion": "Different-common-word is potentially misleading; a relation such as regional-preference or different-preferred-terms would better capture the overlap.",
+      "evidence_limitation": "The supplied relation taxonomy was not independently defined, so this assessment is based on the learner-facing wording and dictionary evidence.",
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No genuine false-friend contrast is present. The card should explicitly say these are related, overlapping terms with different default preferences by variety.",
+      "evidence_limitation": "False-friend status is a pedagogical classification inferred from the documented meanings rather than a dictionary label.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "177f0422df71f6dfe0a31d74dbc0b991f095441eb2bd677a3800aaaf0ec5ef2a",
+  "correction_refs": [],
+  "decision_digest": "7bdae0dc20318b778813bc1543d25f2a522fa35cc800e9d4290efbeeeca091cf",
+  "elapsed_ms": 20024,
+  "finding_class": "cue-content",
+  "input_tokens": 61973,
+  "model_calls": 1,
+  "output_tokens": 1179,
+  "packet_digest": "02702855e4371294cc678b9441396e95f7b894c59e6a4599fffe23e5ed9d46e5",
+  "rationale": "The translations and sense are correct, but the relation label and presentation overstate the regional split. Indonesian pengusaha is standard, while Malaysian usahawan is a strong default; however, Malaysian pengusaha is also established and usahawan exists in Indonesian. This is a preference/register contrast, not a strict false-friend distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:20:23.915237+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s052/tmp-work-s052-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s052",
+  "verdict": "needs-correction"
+}

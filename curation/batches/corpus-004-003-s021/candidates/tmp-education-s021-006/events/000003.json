@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:59:29.685908+00:00",
+  "input_digest": "9e12b799a44ee05b949dbbf02f2c11045641f417864a57ae78d4d433867d8ed7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-work-001:work-03\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201cExam result\\u201d is the outcome reported after an examination, while \\u201cgrade\\u201d is a score or evaluation for schoolwork; exam grades may constitute exam results, so overlap is plausible but not proven.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-work-001:work-03",
+          "rationale": "“Exam result” is the outcome reported after an examination, while “grade” is a score or evaluation for schoolwork; exam grades may constitute exam results, so overlap is plausible but not proven.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-work-001:work-03",
+        "rationale": "“Exam result” is the outcome reported after an examination, while “grade” is a score or evaluation for schoolwork; exam grades may constitute exam results, so overlap is plausible but not proven.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c96e86ba600d9575e95fb6bdbdd2f82110acd465661ebc9873be070a13bea82f"
+}

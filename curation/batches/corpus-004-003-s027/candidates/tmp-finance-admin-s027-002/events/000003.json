@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:10:47.819051+00:00",
+  "input_digest": "feddff155a1fdf4f89645b5a3d8cf5ac7c937fddcebeb05b946abbf71ffe94a4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Debit card and credit card are both payment cards, but debit card purchases draw directly from a bank account while credit card purchases use borrowed credit.\"}, {\"other_id\": \"corpus-004-003-s028:tmp-finance-admin-s028-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bank card is defined here as a card used to access an account at an ATM, whereas a debit card is used for direct account-funded payments; the senses are related but distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-001",
+          "rationale": "Debit card and credit card are both payment cards, but debit card purchases draw directly from a bank account while credit card purchases use borrowed credit.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-009",
+          "rationale": "Bank card is defined here as a card used to access an account at an ATM, whereas a debit card is used for direct account-funded payments; the senses are related but distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-001",
+        "rationale": "Debit card and credit card are both payment cards, but debit card purchases draw directly from a bank account while credit card purchases use borrowed credit.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-009",
+        "rationale": "Bank card is defined here as a card used to access an account at an ATM, whereas a debit card is used for direct account-funded payments; the senses are related but distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "536ff2db2fd1ba7d6b02ddd42b1fab0e619ac03ed4f5d6b3983e39de2ff9fbaa"
+}

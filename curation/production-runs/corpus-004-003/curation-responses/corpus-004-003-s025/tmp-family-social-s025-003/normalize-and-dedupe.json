@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7519,
+  "input_digest": "b9b5b57494124097fd179fbb4e025acc5e6d715e36d34a30dbfa41da5cb6ef7c",
+  "input_tokens": 94588,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 236,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both refer to a male romantic partner, but the candidate specifically denotes a former partner while the existing concept denotes a current boyfriend.\"},{\"other_id\":\"corpus-004-003-s025:tmp-family-social-s025-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both denote former romantic partners, but the candidate is specifically male and the existing concept is specifically female.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-011",
+          "rationale": "Both refer to a male romantic partner, but the candidate specifically denotes a former partner while the existing concept denotes a current boyfriend.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-004",
+          "rationale": "Both denote former romantic partners, but the candidate is specifically male and the existing concept is specifically female.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,78 @@
+{
+  "attempt_id": "530796514787fb29",
+  "candidate_id": "tmp-finance-admin-s028-004",
+  "claim_reviews": [
+    {
+      "conclusion": "\"account holder\" correctly denotes the person registered as holding or owning a bank account.",
+      "evidence_refs": [
+        "https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf",
+        "https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "\"pemilik rekening\" is an ordinary, accurate Indonesian banking term, but \"pemegang rekening\" is also used for the account holder in Indonesian banking and regulatory contexts.",
+      "evidence_refs": [
+        "https://e-form.kbbanksyariah.co.id/eformbsb/term/5",
+        "https://perpajakan.ddtc.co.id/id/data-informasi/glosarium/pemegang-rekening-keuangan",
+        "https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "\"pemegang akaun\" is an ordinary, accurate Malaysian banking term, but \"pemilik akaun\" is also used in Malaysian bank materials for the account owner or holder.",
+      "evidence_refs": [
+        "https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf",
+        "https://www.hlb.com.my/ms/personal-banking/help-support/product-faq/deposit-info-centre.html",
+        "https://www.bsn.com.my/page/operate-account-by-representative?lang=ms-MY"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The label \"different-common-word\" is too strong as a national distinction. The forms differ orthographically (rekening versus akaun), but ordinary accepted equivalents overlap across varieties; a shared-synonym or non-exclusive preference relation is more accurate.",
+      "evidence_refs": [
+        "https://perpajakan.ddtc.co.id/id/data-informasi/glosarium/pemegang-rekening-keuangan",
+        "https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf",
+        "https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf",
+        "https://www.hlb.com.my/ms/personal-banking/help-support/product-faq/deposit-info-centre.html"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted: the two terms transparently refer to the same banking concept, with lexical variation rather than misleading cross-variety meanings. The empty contrast is acceptable if no contrast field is required, but the card should not imply exclusivity.",
+      "evidence_limitation": "The cited banking sources establish ordinary meanings and cross-variety usage, but do not constitute an exhaustive false-friend inventory.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "4a5f24435a649f74896ba9629feb211b421aafedb9d5efd6bc2bf29c6e26628b",
+  "correction_refs": [],
+  "decision_digest": "b81080d03b5bdae2983cca44cfa8623795daed47091111de209957086073dbdb",
+  "elapsed_ms": 18786,
+  "finding_class": "metadata-only",
+  "input_tokens": 33475,
+  "model_calls": 1,
+  "output_tokens": 1733,
+  "packet_digest": "f7833dbd32abd9dcd97d8c25965ecd1a02a3ea6eeba61105bdb34ee469613235",
+  "rationale": "Both answers are valid and the English cue/sense is aligned. However, the national split is materially overstated: Indonesian official banking usage also uses \"pemegang rekening,\" while Malaysian banking usage also uses \"pemilik akaun.\" The relation should reflect shared accepted synonyms or a non-exclusive preference, not an unqualified different-common-word contrast. No genuine false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:56:59.562221+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s028/tmp-finance-admin-s028-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s028",
+  "verdict": "needs-correction"
+}

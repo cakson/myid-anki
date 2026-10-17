@@ -1,0 +1,67 @@
+{
+  "attempt_id": "581ff86b1cc079cb",
+  "candidate_id": "tmp-health-body-s033-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid and natural for undernutrition or lack of nutrients, but narrower than the full medical sense of malnutrition.",
+      "evidence_refs": [
+        "https://ayosehat.kemkes.go.id/topik-penyakit/kesehatan-lainnya/malnutrisi-pada-remaja",
+        "https://kbbi.web.id/gizi"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: kekurangan gizi"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay terminology; PRPM lists it as an equivalent of malnutrition, though it foregrounds deficiency rather than the broader clinical category.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=382696&keyword=malnutrisi",
+        "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=zat"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: kekurangan zat makanan"
+    },
+    {
+      "conclusion": "The cue is correct, but the supplied sense is materially incomplete because malnutrition includes inadequate, excessive, or imbalanced nutrient intake, not only poor health caused by insufficient nutrients.",
+      "evidence_refs": [
+        "https://ayosehat.kemkes.go.id/topik-penyakit/kesehatan-lainnya/malnutrisi-pada-remaja",
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=mencukupi"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is not well supported. The expressions are transparent localized equivalents, and there is no evident false-friend contrast requiring a warning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=382696&keyword=malnutrisi",
+        "https://ayosehat.kemkes.go.id/topik-penyakit/kesehatan-lainnya/malnutrisi-pada-remaja"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "0f8c3ca150a6c5f7c52481d92a1a7d408bc246897db29376c993b8a685425f9c",
+  "correction_refs": [],
+  "decision_digest": "352460338e548efdd1486f49722e9f4ffbc1d1704e9f9f0159e05d6da90e3b98",
+  "elapsed_ms": 19297,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 50159,
+  "model_calls": 1,
+  "output_tokens": 1324,
+  "packet_digest": "2c773545e97b2d862db574167a1e2568b8befa99ef5e45ae5ce221db49f0d58d",
+  "rationale": "Both Malay phrases are plausible deficiency-oriented expressions, but the English sense is too narrow for malnutrition, which can include undernutrition, overnutrition, or nutrient imbalance. The proposed relation is also misleading: the forms are transparent descriptive equivalents, not a meaningful false-friend contrast, and Malaysian references explicitly list “kekurangan zat makanan” as a translation of malnutrition.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:58:06.933860+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s033/tmp-health-body-s033-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s033",
+  "verdict": "needs-correction"
+}

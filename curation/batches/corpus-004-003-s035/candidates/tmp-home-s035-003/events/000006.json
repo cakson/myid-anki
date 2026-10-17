@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:37:22.183858+00:00",
+  "input_digest": "d5c353dcc137f08665e5d3748ef63d099ce016bde968d6f5e0fb541a928ff290",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Kecoak is the ordinary Indonesian term, while lipas is the ordinary Malaysian Malay term for the same household insect.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote the same common household insect, cockroach.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"Kecoak or kecoa may be understood in Malaysia, but lipas is the ordinary preferred Malaysian term; lipas is not the usual Indonesian choice.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"kecoak/kecoa\", \"language\": \"malaysian\", \"rationale\": \"The Indonesian form may be understood in Malaysia, but ordinary Malaysian usage prefers lipas.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote the same common household insect, cockroach.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kecoak/kecoa",
+        "language": "malaysian",
+        "rationale": "The Indonesian form may be understood in Malaysia, but ordinary Malaysian usage prefers lipas.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "Kecoak is the ordinary Indonesian term, while lipas is the ordinary Malaysian Malay term for the same household insect.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "Kecoak or kecoa may be understood in Malaysia, but lipas is the ordinary preferred Malaysian term; lipas is not the usual Indonesian choice.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote the same common household insect, cockroach.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kecoak/kecoa",
+      "language": "malaysian",
+      "rationale": "The Indonesian form may be understood in Malaysia, but ordinary Malaysian usage prefers lipas.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Kecoak is the ordinary Indonesian term, while lipas is the ordinary Malaysian Malay term for the same household insect.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Kecoak or kecoa may be understood in Malaysia, but lipas is the ordinary preferred Malaysian term; lipas is not the usual Indonesian choice.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "2efddc8da50983be60f17bc00d7a0c999bfa9a4c6678b40040acd66274d52d7b"
+}

@@ -1,0 +1,69 @@
+{
+  "attempt_id": "3dbb8c199cfa1081",
+  "candidate_id": "tmp-directions-location-s017-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for a local neighborhood or surrounding residential area, though it also has broader senses such as environment or surroundings.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/lingkungan",
+        "https://bpiw.pu.go.id/bankdata/dictionary/words?q=Lingkungan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian: lingkungan"
+    },
+    {
+      "conclusion": "Correct and natural for a residential neighborhood; Malaysian reference material attests kawasan kejiranan and defines kejiranan in relation to living as neighbors.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=kejiranan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jiran"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay: kawasan kejiranan"
+    },
+    {
+      "conclusion": "“Local residential area” appropriately narrows neighborhood to the intended geographic/residential sense and reduces ambiguity in Indonesian lingkungan.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/lingkungan",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=kejiranan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate as a learner-facing variety contrast. No false-friend contrast is present: the forms are distinct, and lingkungan is not being presented as a misleading cognate of kawasan kejiranan.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/lingkungan",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=Kawasan",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=kejiranan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1f0bea4a571bb9f8e93023e39b49675378e19ea75025052fbf6a2b4bf9b5e78a",
+  "correction_refs": [],
+  "decision_digest": "b018c3a8e79b9b9b63640fcfd59229d4a30d9695f8f2aa7633be0efe0a0dd217",
+  "elapsed_ms": 18099,
+  "finding_class": "none",
+  "input_tokens": 50045,
+  "model_calls": 1,
+  "output_tokens": 982,
+  "packet_digest": "d73659929581d72fe7dcffc16f99ba1dec627a146e9bf6cdaef41dc3d689d559",
+  "rationale": "Both answers fit the narrowed sense “local residential area.” Indonesian lingkungan is a standard neighborhood/local-area term, while Malaysian Malay kawasan kejiranan is a well-attested residential-neighborhood expression. The contrast is a legitimate variety preference, not a false-friend distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:37:21.332701+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s017/tmp-directions-location-s017-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s017",
+  "verdict": "cleared"
+}

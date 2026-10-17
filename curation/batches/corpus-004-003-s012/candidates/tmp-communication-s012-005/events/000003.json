@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:40:45.084671+00:00",
+  "input_digest": "17edd76a1f34c7334052543445e7179dc0a7f026192936b8df12c57429746b9b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A nickname is an informal substitute name, whereas a full name is a person's complete official or identifying name.\"}, {\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A nickname is an informal substitute name, whereas a first name is the given name appearing first in a person's name.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-006",
+          "rationale": "A nickname is an informal substitute name, whereas a full name is a person's complete official or identifying name.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-007",
+          "rationale": "A nickname is an informal substitute name, whereas a first name is the given name appearing first in a person's name.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-006",
+        "rationale": "A nickname is an informal substitute name, whereas a full name is a person's complete official or identifying name.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-007",
+        "rationale": "A nickname is an informal substitute name, whereas a first name is the given name appearing first in a person's name.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "11f2ee102c8f1141019ab057a991ddc574443553f65f8566c4f5a6c07b1f7024"
+}

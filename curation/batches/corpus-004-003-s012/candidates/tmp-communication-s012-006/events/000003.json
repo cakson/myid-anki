@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:40:58.097301+00:00",
+  "input_digest": "c5ae4b17470f89525ba47f47b2d820012497ce3d7106f0ced286511446f6a849",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cfull name\\u201d means a person's complete name, whereas \\u201cfirst name\\u201d means only the given name appearing first.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-007",
+          "rationale": "“full name” means a person's complete name, whereas “first name” means only the given name appearing first.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-007",
+        "rationale": "“full name” means a person's complete name, whereas “first name” means only the given name appearing first.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "90f24eb3d8b35dc86475d2958b775c53cbbdc601dad491eb558a60bdb4a0bb5f"
+}

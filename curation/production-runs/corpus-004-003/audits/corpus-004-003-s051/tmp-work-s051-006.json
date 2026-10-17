@@ -1,0 +1,71 @@
+{
+  "attempt_id": "fce8f4d60818281c",
+  "candidate_id": "tmp-work-s051-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for work performance and worker job performance.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kinerja.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian kinerja"
+    },
+    {
+      "conclusion": "Usable in performance contexts, but bare prestasi is semantically broad; prestasi kerja is more precise for the supplied cue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian prestasi"
+    },
+    {
+      "conclusion": "The cue 'work performance' and sense are accurate for kinerja but under-specify the Malaysian answer unless prestasi kerja is used or the sense is broadened.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi",
+        "https://kbbi.web.id/kinerja.html"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is reasonable for this specific work-performance sense.",
+      "evidence_limitation": "Usage-frequency comparison across Indonesian and Malaysian Malay was not independently established.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No strict false friend: prestasi can denote performance or achievement in both varieties, though its broader achievement sense creates learner ambiguity.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi",
+        "https://kbbi.web.id/prestasi"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "52269dc60d2c4776d35d2310852cdd29f45212ad91189904201961ba3ca22596",
+  "correction_refs": [],
+  "decision_digest": "95c8a1154f4c71cf4f00b1dc7408ac1c60b4731d30dc512e7b4ba0b450a84a8c",
+  "elapsed_ms": 18116,
+  "finding_class": "cue-content",
+  "input_tokens": 49601,
+  "model_calls": 1,
+  "output_tokens": 931,
+  "packet_digest": "025c8084958d4fe0ce32cfee7d5edb44c0465f14c0d6cac25060e801c476cc61",
+  "rationale": "Indonesian kinerja correctly matches work performance. Malaysian prestasi is valid but broader, commonly meaning achievement or result; prestasi kerja is the clearer exact match for a worker’s job performance. The different-common-word relation is otherwise justified, and there is no strict false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:18:39.060691+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s051/tmp-work-s051-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s051",
+  "verdict": "needs-correction"
+}

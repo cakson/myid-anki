@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5009,
+  "input_digest": "04f5a1d4728b5f477e19b38bb03bcf2c389c7d6f4791514fc504bc3fdb116e9c",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 286,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"pros4-home-001:home-01\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"Both entries use the same Indonesian and Malaysian answers ('jemuran' and 'ampaian'), and the archived sense explicitly includes a rack for hanging washed clothes. However, the candidate specifies a freestanding drying rack while the existing cue is 'clothesline', which can denote a line or rack; the distinction cannot be proven from the supplied records.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-home-001:home-01",
+          "rationale": "Both entries use the same Indonesian and Malaysian answers ('jemuran' and 'ampaian'), and the archived sense explicitly includes a rack for hanging washed clothes. However, the candidate specifies a freestanding drying rack while the existing cue is 'clothesline', which can denote a line or rack; the distinction cannot be proven from the supplied records.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

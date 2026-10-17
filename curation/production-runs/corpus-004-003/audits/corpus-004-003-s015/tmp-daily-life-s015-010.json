@@ -1,0 +1,64 @@
+{
+  "attempt_id": "50f804d4a291851e",
+  "candidate_id": "tmp-daily-life-s015-010",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid common Indonesian term for an alarm clock; beker is the standard dictionary form.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/weker",
+        "https://baru.kbbi.co.id/arti-kata/beker"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: jam weker"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay term meaning a clock that rings at a set time.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=jam+loceng",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jam"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: jam loceng"
+    },
+    {
+      "conclusion": "“Alarm clock” and “clock that sounds an alarm” accurately match both proposed terms.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/beker",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=jam+loceng"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate as a non-exclusive learner contrast. No false-friend contrast is present or required; jam alarm may occur in both varieties as a shared alternative.",
+      "evidence_limitation": "The cited dictionary sources establish the meanings but do not quantify national frequency or exclusivity.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "b3ea9a3e2bfdd7eae0d3eae89870f1173b9b91b21fac4f1c484500d9c5ee4296",
+  "correction_refs": [],
+  "decision_digest": "34236b6b39e612586decdc7f11f4527d9000299596e290e2cc6a5dcf66050273",
+  "elapsed_ms": 18414,
+  "finding_class": "none",
+  "input_tokens": 49744,
+  "model_calls": 1,
+  "output_tokens": 924,
+  "packet_digest": "b1df948fea9446e8d2ea7a921c4d8c112992e101bc11857be906703454c394bc",
+  "rationale": "Both answers accurately express “alarm clock”: Indonesian jam weker is a common everyday form (with standard beker also used), and Malaysian jam loceng is the established Malay term. The English cue and sense align. The contrast is a valid preference-level lexical difference, not a false friend; shared forms such as jam alarm do not invalidate it.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:35:38.174514+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s015/tmp-daily-life-s015-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s015",
+  "verdict": "cleared"
+}

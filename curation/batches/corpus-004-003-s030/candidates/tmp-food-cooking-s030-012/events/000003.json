@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:29:08.713310+00:00",
+  "input_digest": "908f179d18ef162bc7ebe464979d38a3a337a04c90b5b727dffb60cee2e17f9e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"tb25-food-001:food-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Cake is a specific sweet baked dessert, while dessert is the broader sweet course served after a meal; the senses and answers differ.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-food-001:food-01",
+          "rationale": "Cake is a specific sweet baked dessert, while dessert is the broader sweet course served after a meal; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "tb25-food-001:food-01",
+        "rationale": "Cake is a specific sweet baked dessert, while dessert is the broader sweet course served after a meal; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "3833d22cce0e2136d33104235c42874ce0a1ce24f23cefb1068daacc7d8a9441"
+}

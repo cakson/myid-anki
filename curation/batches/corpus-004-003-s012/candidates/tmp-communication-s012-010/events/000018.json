@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:30:49.473431+00:00",
+  "result": {
+    "candidate_digest": "bd1dc542b2b989510d2a612c0a73326358f222b3fc3e022a17273c358bc44e0a",
+    "candidate_id": "tmp-communication-s012-010",
+    "checked_at": "2026-10-17T06:30:49.473431+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The English cue and sense are correct, and both Malay forms can express reading aloud. However, the card overstates the regional contrast: “membaca nyaring” is also used in Malaysian Malay, while Malaysian sources support “membaca dengan kuat” as a natural construction. The relation should not imply that the two forms are cleanly Indonesia-versus-Malaysia alternatives. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

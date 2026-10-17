@@ -1,0 +1,61 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 12169,
+  "input_tokens": 29104,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 880,
+  "packet_digest": "c8ce2f89bae7022b11da478345b985860bcc3f8f4b7a513e9f9b2bf9f1dbba43",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are accurate standard terms for the official birth record. The English cue and sense align, and different-common-word is an appropriate relation. No false-friend contrast is needed.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Birth certificate” correctly denotes the official record of a person’s birth.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.malaysia.gov.my/en/digital-services/permohonan-cabutan-salinan-sijil-kelahiran-yang-diperakui-dalam-talian\"]},{\"subject\":\"Indonesian answer: akta kelahiran\",\"conclusion\":\"Correct standard Indonesian term for a birth certificate/birth record.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.kemkes.go.id/id/integrasi-satusehat-siak-bayi-lahir-bisa-dapat-akta-kelahiran-kk-dan-kia-sekaligus\"]},{\"subject\":\"Malaysian answer: sijil kelahiran\",\"conclusion\":\"Correct standard Malaysian administrative term for a birth certificate.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.jpn.gov.my/perkhidmatan/kelahiran/\"]},{\"subject\":\"Final relation\",\"conclusion\":\"different-common-word is accurate: the Indonesian and Malaysian standard terms differ lexically while referring to the same document.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.kemkes.go.id/id/integrasi-satusehat-siak-bayi-lahir-bisa-dapat-akta-kelahiran-kk-dan-kia-sekaligus\",\"https://www.jpn.gov.my/perkhidmatan/kelahiran/\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is applicable; the forms are straightforward equivalents, though Malaysian colloquial surat beranak may also occur.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.jpn.gov.my/perkhidmatan/kelahiran/\",\"https://www.kln.gov.my/documents/34658/0/Birth%2BRegistration%28Sijil%2BLahir%29Form%2BD/b913e3f0-3548-4d2a-a2fc-32048a78a889?version=1.1\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Birth certificate” correctly denotes the official record of a person’s birth.",
+        "evidence_refs": [
+          "https://www.malaysia.gov.my/en/digital-services/permohonan-cabutan-salinan-sijil-kelahiran-yang-diperakui-dalam-talian"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct standard Indonesian term for a birth certificate/birth record.",
+        "evidence_refs": [
+          "https://www.kemkes.go.id/id/integrasi-satusehat-siak-bayi-lahir-bisa-dapat-akta-kelahiran-kk-dan-kia-sekaligus"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: akta kelahiran"
+      },
+      {
+        "conclusion": "Correct standard Malaysian administrative term for a birth certificate.",
+        "evidence_refs": [
+          "https://www.jpn.gov.my/perkhidmatan/kelahiran/"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: sijil kelahiran"
+      },
+      {
+        "conclusion": "different-common-word is accurate: the Indonesian and Malaysian standard terms differ lexically while referring to the same document.",
+        "evidence_refs": [
+          "https://www.kemkes.go.id/id/integrasi-satusehat-siak-bayi-lahir-bisa-dapat-akta-kelahiran-kk-dan-kia-sekaligus",
+          "https://www.jpn.gov.my/perkhidmatan/kelahiran/"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is applicable; the forms are straightforward equivalents, though Malaysian colloquial surat beranak may also occur.",
+        "evidence_refs": [
+          "https://www.jpn.gov.my/perkhidmatan/kelahiran/",
+          "https://www.kln.gov.my/documents/34658/0/Birth%2BRegistration%28Sijil%2BLahir%29Form%2BD/b913e3f0-3548-4d2a-a2fc-32048a78a889?version=1.1"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are accurate standard terms for the official birth record. The English cue and sense align, and different-common-word is an appropriate relation. No false-friend contrast is needed.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

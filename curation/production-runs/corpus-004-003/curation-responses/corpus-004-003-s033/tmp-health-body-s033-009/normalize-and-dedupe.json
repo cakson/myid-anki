@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4446,
+  "input_digest": "a63b0a5f7a34f609a2d26de0d2d5cb32a1e8866478a2f3b49aead1b3be324605",
+  "input_tokens": 93723,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 210,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s033:tmp-health-body-s033-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A medical cast is a rigid covering used to support and immobilize a broken bone, whereas fracture means the broken or cracked bone itself; the cues, senses, and Indonesian/Malaysian answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s033:tmp-health-body-s033-008",
+          "rationale": "A medical cast is a rigid covering used to support and immobilize a broken bone, whereas fracture means the broken or cracked bone itself; the cues, senses, and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

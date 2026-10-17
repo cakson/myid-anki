@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:12:41.866424+00:00",
+  "input_digest": "695e60aa328585c7e1d32344d3d436a3c53ffc5b7dee3eb71a2775c9bfe9294c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A registration fee is paid to enroll or register for a service or event, whereas an administrative fee covers administrative processing; the senses and answers differ.\"}, {\"other_id\": \"corpus-004-002-s014:tmp-services-s014-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A registration fee is tied specifically to registration or enrollment, while a service fee is a general charge for providing a service; the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-010",
+          "rationale": "A registration fee is paid to enroll or register for a service or event, whereas an administrative fee covers administrative processing; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+          "rationale": "A registration fee is tied specifically to registration or enrollment, while a service fee is a general charge for providing a service; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-010",
+        "rationale": "A registration fee is paid to enroll or register for a service or event, whereas an administrative fee covers administrative processing; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s014:tmp-services-s014-005",
+        "rationale": "A registration fee is tied specifically to registration or enrollment, while a service fee is a general charge for providing a service; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "9d3788fc8e577c9e93c580a595b78bd77707120a7d01df25e2f19c3e7da273df"
+}

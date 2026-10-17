@@ -1,0 +1,81 @@
+{
+  "attempt_id": "1796f542a9582818",
+  "candidate_id": "tmp-communication-s013-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correctly matches the stated sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/misunderstanding"
+      ],
+      "material_risk": false,
+      "subject": "English cue “misunderstanding”"
+    },
+    {
+      "conclusion": "Valid standard Indonesian noun meaning “misunderstanding.”",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/misunderstanding",
+        "https://en.wiktionary.org/wiki/kesalahpahaman"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian “kesalahpahaman”"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay phrase meaning misunderstanding or mistaken understanding.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salah+faham"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay “salah faham”"
+    },
+    {
+      "conclusion": "“Failure to understand someone or something correctly” is accurate for both forms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salah+faham",
+        "https://id.wiktionary.org/wiki/salah_paham"
+      ],
+      "material_risk": false,
+      "subject": "Sense"
+    },
+    {
+      "conclusion": "Needs correction: the distinction is not reliably between different national common words, because Indonesian also uses “salah paham”; “kesalahpahaman” is a derived noun and “salah faham” is the Malay spelling/form.",
+      "evidence_refs": [
+        "https://id.wiktionary.org/wiki/salah_paham",
+        "https://tesaurus.kemendikdasmen.go.id/tematis/lema/salah%2Bpaham",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salah+faham"
+      ],
+      "material_risk": true,
+      "subject": "Final relation “different-common-word”"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or warranted; the forms are semantically aligned cognate expressions.",
+      "evidence_limitation": "No dedicated false-friend source was necessary; dictionary definitions directly align the senses.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ba47e399a092151e98047a5e0c3196451473b9c3010831d1e83854f18826ee7c",
+  "correction_refs": [],
+  "decision_digest": "d78f97e678b01df7620467df412718dc22556bbf8502e174e0b90c83a9b5007b",
+  "elapsed_ms": 18607,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 32855,
+  "model_calls": 1,
+  "output_tokens": 1074,
+  "packet_digest": "d786ca85310a8c05978b770a6d80c3047f56a9c00bf2d25b0c4ddf73bc132574",
+  "rationale": "Both translations and the sense are valid, but “different-common-word” overstates the contrast: Indonesian also commonly uses “salah paham,” while “kesalahpahaman” is the derived noun. Malaysian “salah faham” is the corresponding Malay phrase. No false-friend contrast is supported or needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:31:55.505945+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s013/tmp-communication-s013-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s013",
+  "verdict": "needs-correction"
+}

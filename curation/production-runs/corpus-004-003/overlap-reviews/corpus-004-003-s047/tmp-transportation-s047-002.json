@@ -1,0 +1,78 @@
+{
+  "attempt_id": "a38d05c2bccea9cb",
+  "candidate_id": "tmp-transportation-s047-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: railway track refers to the rail/track on which trains travel.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=landasan",
+        "https://jdih.kemenkeu.go.id/kamus-hukum/kereta-api?id=1e36432fea30b1bb46ae63696a38cd68"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary in Indonesian for a railway rail/track.",
+      "evidence_refs": [
+        "https://tutur.taratsa.id/kata/rel/",
+        "https://knkt.go.id/Repo/Files/Laporan/Perkeretaapian/2019/KNKT.19.03.01.02-Final-Report.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer rel"
+    },
+    {
+      "conclusion": "Correct, but not uniquely Malaysian: Malaysian dictionaries define landasan kereta api as the iron structure/place where trains travel and give rel as its equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=landasan+1",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=rel"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer landasan"
+    },
+    {
+      "conclusion": "The relation different-common-word is incorrect or materially misleading. Malaysian rel is explicitly defined as railway rail/track, so rel overlaps across Indonesian and Malaysian Malay; landasan is also a Malaysian equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=rel",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=landasan+1",
+        "https://tutur.taratsa.id/kata/rel/"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and relation"
+    },
+    {
+      "conclusion": "No genuine false-friend contrast is supported. The empty contrast should be replaced with an explicit overlap note, such as: rel is also valid in Malaysian Malay, while landasan kereta api is a Malaysian equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=rel",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=landasan+1"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "6e94d5de52575afb7f636e92e126cfdfc53c5517c9d57074867202b2e1199cbd",
+  "correction_refs": [],
+  "decision_digest": "2eb8bafdcd42c2f5a6fca1cb20b9c17a598e431b0aa831dcac9203d2d44802d2",
+  "elapsed_ms": 17852,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62472,
+  "model_calls": 1,
+  "output_tokens": 1331,
+  "packet_digest": "deb1b3927d5e3906a5f1a0c20e3e52f57341d917f046816b036fa5c69cb44e81",
+  "rationale": "The national split is materially overstated. Indonesian rel and Malaysian Malay rel are both accepted terms for railway rail/track, while Malaysian landasan kereta api is also an accepted equivalent. The cue and sense are sound, but the two answers support a shared-synonym relationship rather than different-common-word. The empty contrast also fails to explain the overlap.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:16:21.304172+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s047/tmp-transportation-s047-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s047",
+  "verdict": "needs-correction"
+}

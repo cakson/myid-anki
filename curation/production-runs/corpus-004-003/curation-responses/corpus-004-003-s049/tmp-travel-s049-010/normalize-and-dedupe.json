@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4833,
+  "input_digest": "528109d10e6058d9e65da1793dbba983582f3d311740f3394d7503d4de0af358",
+  "input_tokens": 93709,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 223,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are aircraft seats, but the candidate is beside a window while the other is beside the aisle; their locations and learner answers differ.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-011",
+          "rationale": "Both are aircraft seats, but the candidate is beside a window while the other is beside the aisle; their locations and learner answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

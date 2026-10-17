@@ -1,0 +1,66 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 28465,
+  "input_tokens": 98961,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1730,
+  "packet_digest": "4cdf8825936f3b78ab4fef2937e5312e49c739ba7ce629d536b59e88151e89f8",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"The English cue and Indonesian answer are sound, but the Malaysian side is not cleanly distinct: siaran akhbar is the DBP-listed translation of press release, while kenyataan media is an established Malaysian institutional label for a closely overlapping media statement. Thus the national split and different-common-word relation are materially overstated without a usage or register qualifier. The blank contrast also fails to explain this overlap.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Correct. “Press release” is adequately represented by “official statement issued to news organizations.”\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=press+release\",\n        \"https://jdih.kemenpppa.go.id/dokumen-hukum/produk-hukum/351/download\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: siaran pers\",\n      \"conclusion\": \"Correct and ordinary in Indonesian official usage. Indonesian government sources use siaran pers for press-release materials.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://jdih.kemenpppa.go.id/dokumen-hukum/produk-hukum/351/download\",\n        \"https://www.ina.go.id/id/press-release/\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: kenyataan media\",\n      \"conclusion\": \"Accepted and widely used in Malaysian institutional communication, but it is not the only ordinary equivalent. Malaysian official sources use kenyataan media for formal statements to the public and media.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://dbook.penerangan.gov.my/dbook/dmdocuments/mpa/files/basic-html/page14.html\",\n        \"https://www.pmo.gov.my/ms/media/?category=kenyataan-media\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=khususnya\"\n      ]\n    },\n    {\n      \"subject\": \"National split and final relation\",\n      \"conclusion\": \"Materially overstated as “different-common-word” without qualification. DBP explicitly lists siaran akhbar as the Malay translation of press release, and Malaysian government records use siaran akhbar alongside kenyataan media. The card should distinguish preferred institutional labels or register rather than imply non-overlapping national vocabulary.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=press+release\",\n        \"https://www.miti.gov.my/miti/resources/Pengurusan%20Rekod/Manual_Klasifikasi_MITI.pdf\",\n        \"https://npra.gov.my/index.php/my/information-2/general-information/siaran-akhbar.html\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is supported. The blank field is a content omission: the relevant learner note should state that Indonesian siaran pers, Malaysian siaran akhbar, and Malaysian kenyataan media overlap substantially, with possible institutional or register preferences.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=press+release\",\n        \"https://dbook.penerangan.gov.my/dbook/dmdocuments/mpa/files/basic-html/page14.html\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct. “Press release” is adequately represented by “official statement issued to news organizations.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=press+release",
+          "https://jdih.kemenpppa.go.id/dokumen-hukum/produk-hukum/351/download"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and ordinary in Indonesian official usage. Indonesian government sources use siaran pers for press-release materials.",
+        "evidence_refs": [
+          "https://jdih.kemenpppa.go.id/dokumen-hukum/produk-hukum/351/download",
+          "https://www.ina.go.id/id/press-release/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: siaran pers"
+      },
+      {
+        "conclusion": "Accepted and widely used in Malaysian institutional communication, but it is not the only ordinary equivalent. Malaysian official sources use kenyataan media for formal statements to the public and media.",
+        "evidence_refs": [
+          "https://dbook.penerangan.gov.my/dbook/dmdocuments/mpa/files/basic-html/page14.html",
+          "https://www.pmo.gov.my/ms/media/?category=kenyataan-media",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=khususnya"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: kenyataan media"
+      },
+      {
+        "conclusion": "Materially overstated as “different-common-word” without qualification. DBP explicitly lists siaran akhbar as the Malay translation of press release, and Malaysian government records use siaran akhbar alongside kenyataan media. The card should distinguish preferred institutional labels or register rather than imply non-overlapping national vocabulary.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=press+release",
+          "https://www.miti.gov.my/miti/resources/Pengurusan%20Rekod/Manual_Klasifikasi_MITI.pdf",
+          "https://npra.gov.my/index.php/my/information-2/general-information/siaran-akhbar.html"
+        ],
+        "material_risk": true,
+        "subject": "National split and final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported. The blank field is a content omission: the relevant learner note should state that Indonesian siaran pers, Malaysian siaran akhbar, and Malaysian kenyataan media overlap substantially, with possible institutional or register preferences.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=press+release",
+          "https://dbook.penerangan.gov.my/dbook/dmdocuments/mpa/files/basic-html/page14.html"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and Indonesian answer are sound, but the Malaysian side is not cleanly distinct: siaran akhbar is the DBP-listed translation of press release, while kenyataan media is an established Malaysian institutional label for a closely overlapping media statement. Thus the national split and different-common-word relation are materially overstated without a usage or register qualifier. The blank contrast also fails to explain this overlap.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

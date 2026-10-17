@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:01:34.162749+00:00",
+  "input_digest": "6cccce5e97b5e746ccf7528b1e0bfd32fcba9c38ae93f150c534b318569afbfa",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s022:tmp-emotions-s022-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Pessimistic and optimistic are contrasting outlooks: pessimistic means expecting unfavorable results, while optimistic means expecting favorable results; the cues and both language answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-006",
+          "rationale": "Pessimistic and optimistic are contrasting outlooks: pessimistic means expecting unfavorable results, while optimistic means expecting favorable results; the cues and both language answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s022:tmp-emotions-s022-006",
+        "rationale": "Pessimistic and optimistic are contrasting outlooks: pessimistic means expecting unfavorable results, while optimistic means expecting favorable results; the cues and both language answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "ca6520fb34a95696ffcfceec02b0da1452722226b62b27762004fff4e9dd6514"
+}

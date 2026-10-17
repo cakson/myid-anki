@@ -1,0 +1,84 @@
+{
+  "attempt_id": "dc4cce5f53d900c9",
+  "candidate_id": "tmp-common-verbs-s008-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for placing or putting an object somewhere.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/menaruh",
+        "https://kbbi.web.id/menaruh"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: menaruh"
+    },
+    {
+      "conclusion": "Correct standard Malaysian Malay form for placing or putting something somewhere.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: meletakkan"
+    },
+    {
+      "conclusion": "The narrowed cue “to place something somewhere” accurately matches both answers and avoids the broader polysemy of “to put.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/meletakkan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Appropriate: the Indonesian and Malaysian entries are distinct forms serving the same core placement sense.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/menaruh",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted; the meanings overlap rather than diverge materially.",
+      "evidence_refs": [
+        "https://kbbi.web.id/meletakkan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meletakkan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    },
+    {
+      "conclusion": "Meletakkan is confirmed as valid; the asserted everyday preference for colloquial letak remains insufficiently evidenced but does not undermine the learner card.",
+      "evidence_limitation": "The reviewed dictionary evidence confirms meletakkan and its meaning but does not independently establish frequency or register preference between letak and meletakkan.",
+      "material_risk": false,
+      "subject": "Malaysian register note about letak"
+    }
+  ],
+  "content_digest": "b4f22d60687ede79c676cfb49c161713fc8de4c2fb9b64a2c2f617a9dc9a9c34",
+  "correction_refs": [],
+  "decision_digest": "2c9cdd0b0b17074567df71da9f65afc43b415d11109d020d73161488cfedfcc9",
+  "elapsed_ms": 15713,
+  "finding_class": "none",
+  "input_tokens": 49638,
+  "model_calls": 1,
+  "output_tokens": 1047,
+  "packet_digest": "7a973634c5e1dde5eeff33b3c9a9c260678391b128ff007431ce678a09af030b",
+  "rationale": "Both answers correctly express the narrowed sense “to place something somewhere.” Indonesian menaruh and Malaysian meletakkan are valid, ordinary forms. They are different lexical forms with overlapping placement meaning; no false-friend contrast is present. The register claim that colloquial Malaysian often prefers letak is plausible but not material and is not independently established here.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:25:05.598284+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s008/tmp-common-verbs-s008-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:cue-corrected",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s008",
+  "verdict": "cleared"
+}

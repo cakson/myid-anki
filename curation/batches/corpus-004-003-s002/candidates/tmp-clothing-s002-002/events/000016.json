@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:39.850163+00:00",
+  "result": {
+    "candidate_digest": "5e847fb673e0676bbd0aa6590c6293a5a2422ca0efad251a02b2053c07df6df0",
+    "candidate_id": "tmp-clothing-s002-002",
+    "checked_at": "2026-10-17T06:21:39.850163+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): “Sut” correctly denotes a matching suit in Malaysian Malay, but Indonesian “jas” primarily denotes the formal jacket, not the complete matching jacket-and-trousers suit. The Indonesian answer should be “setelan jas” (or equivalent), so the proposed contrast and sense are materially misleading. No genuine false-friend contrast is established; this is mainly a scope distinction. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

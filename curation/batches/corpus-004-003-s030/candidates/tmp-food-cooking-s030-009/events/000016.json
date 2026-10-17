@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:49.283573+00:00",
+  "result": {
+    "candidate_digest": "2bfd2172a9d7b477befe6055fd0e8cdb0cfe9eccfd9d64e2cba8d5b23282382b",
+    "candidate_id": "tmp-food-cooking-s030-009",
+    "checked_at": "2026-10-17T06:21:49.283573+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both localized answers are defensible, but the relation overstates a strict variety split: pancake is also used in both varieties, while lempeng is a Malaysian pancake term rather than an exclusive translation. Add an explicit shared-form/usage caveat and a false-friend note for Indonesian lempeng’s non-food senses. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

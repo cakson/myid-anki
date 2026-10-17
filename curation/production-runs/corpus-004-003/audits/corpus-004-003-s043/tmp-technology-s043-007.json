@@ -1,0 +1,77 @@
+{
+  "attempt_id": "da31d6ce8f1666aa",
+  "candidate_id": "tmp-technology-s043-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“Search bar” correctly describes a web-interface field for entering a search query.",
+      "evidence_refs": [
+        "https://lingolandedu.com/ms/english-malay-dictionary/search-bar"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Bilah pencarian” is semantically correct and attested in Indonesian technology/UI usage; “kolom pencarian” is a common alternative, not a correction.",
+      "evidence_refs": [
+        "https://conferences.ittelkom-pwt.ac.id/index.php/centive/article/download/305/296/",
+        "https://help.fliphtml5.com/id/docs/toolbar-settings-of-flipbooks/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Bar carian” is an ordinary and attested Malaysian Malay rendering of “search bar.”",
+      "evidence_refs": [
+        "https://lingolandedu.com/ms/english-malay-dictionary/search-bar",
+        "https://www.mygdx.gov.my/ms/docs/develop/search-bar"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate because the Indonesian and Malaysian forms differ lexically while expressing the same concept.",
+      "evidence_refs": [
+        "https://lingolandedu.com/ms/english-malay-dictionary/search-bar",
+        "https://help.fliphtml5.com/id/docs/toolbar-settings-of-flipbooks/"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No learner-critical false friend is involved. “Bilah” and “bar” have literal lexical senses related to a bar/strip, but in these compounds both function as the UI term for the search field.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=bar",
+        "https://lingolandedu.com/ms/english-malay-dictionary/search-bar"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "47bf5b89cae28f2b21543ea08cadd8596be3d1a4081895035840120071e30c2d",
+  "correction_refs": [],
+  "decision_digest": "967e746d141059328816907edfaf8ad8648e43dfc0e31ce65e086d71cf43f5ae",
+  "elapsed_ms": 17410,
+  "finding_class": "none",
+  "input_tokens": 62615,
+  "model_calls": 1,
+  "output_tokens": 1016,
+  "packet_digest": "6c9912cd2b18f739b2be74b030bf73cc4fd9beef258280d1d2b2bcb94f58ebb4",
+  "rationale": "Both Malay answers accurately denote a search bar, and the English cue and sense are aligned. “Bilah pencarian” is a valid Indonesian UI rendering, though “kolom pencarian” is also common. “Bar carian” is an attested Malaysian Malay form. No material false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:08:52.658826+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s043/tmp-technology-s043-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s043",
+  "verdict": "cleared"
+}

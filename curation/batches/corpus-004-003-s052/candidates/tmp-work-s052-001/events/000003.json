@@ -1,0 +1,109 @@
+{
+  "at": "2026-10-17T05:11:47.484394+00:00",
+  "input_digest": "aa519041c0c74a26d13e3fa79f50f7276e054e65facac4155680e4b3f29f5ac6",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-work-001:work-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A meeting room is a physical room used for workplace meetings, whereas this entry denotes the meeting event itself.\"}, {\"other_id\": \"cal2-work-001:work-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A staff room is specifically for teachers at a school, not a general workplace meeting room.\"}, {\"other_id\": \"corpus-004-003-s016:tmp-services-s016-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A waiting room is used for service users to wait, not for workplace meetings.\"}, {\"other_id\": \"corpus-004-002-s019:tmp-travel-s019-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A hotel room is guest accommodation, distinct from a workplace meeting room.\"}, {\"other_id\": \"cal2-daily-001:daily-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A living room is a home room for sitting and receiving visitors, distinct from a workplace meeting room.\"}, {\"other_id\": \"fresh-work-001:work-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A classroom is a room for teaching a class, distinct from a workplace meeting room.\"}, {\"other_id\": \"places-001:places-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An office is a general workplace or administrative space, not specifically a meeting room.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-work-001:work-02",
+          "rationale": "A meeting room is a physical room used for workplace meetings, whereas this entry denotes the meeting event itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-05",
+          "rationale": "A staff room is specifically for teachers at a school, not a general workplace meeting room.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s016:tmp-services-s016-002",
+          "rationale": "A waiting room is used for service users to wait, not for workplace meetings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s019:tmp-travel-s019-003",
+          "rationale": "A hotel room is guest accommodation, distinct from a workplace meeting room.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-08",
+          "rationale": "A living room is a home room for sitting and receiving visitors, distinct from a workplace meeting room.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-04",
+          "rationale": "A classroom is a room for teaching a class, distinct from a workplace meeting room.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "places-001:places-01",
+          "rationale": "An office is a general workplace or administrative space, not specifically a meeting room.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-work-001:work-02",
+        "rationale": "A meeting room is a physical room used for workplace meetings, whereas this entry denotes the meeting event itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-05",
+        "rationale": "A staff room is specifically for teachers at a school, not a general workplace meeting room.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s016:tmp-services-s016-002",
+        "rationale": "A waiting room is used for service users to wait, not for workplace meetings.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s019:tmp-travel-s019-003",
+        "rationale": "A hotel room is guest accommodation, distinct from a workplace meeting room.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-daily-001:daily-08",
+        "rationale": "A living room is a home room for sitting and receiving visitors, distinct from a workplace meeting room.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-work-001:work-04",
+        "rationale": "A classroom is a room for teaching a class, distinct from a workplace meeting room.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "places-001:places-01",
+        "rationale": "An office is a general workplace or administrative space, not specifically a meeting room.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "f67b8fd0bb5bb3458aa8c597a4e334348a3c6e76763dc97a00bb9aa69cae524f"
+}

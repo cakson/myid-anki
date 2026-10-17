@@ -1,0 +1,75 @@
+{
+  "attempt_id": "3b970daaf246a1aa",
+  "candidate_id": "tmp-home-s035-011",
+  "claim_reviews": [
+    {
+      "conclusion": "Garden hose is correctly defined as a flexible tube used for watering a garden.",
+      "evidence_refs": [
+        "https://www.dgip.go.id/uploads/berita_resmi/file/415aefc3a8811936444fee6bed067ebf.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hos"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Selang taman is an appropriate Indonesian term for garden hose.",
+      "evidence_refs": [
+        "https://www.dgip.go.id/uploads/berita_resmi/file/415aefc3a8811936444fee6bed067ebf.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Hos taman is an appropriate Malaysian Malay term for garden hose.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hos",
+        "https://www2.moh.gov.my/images/04-penerbitan/garis-panduan-awam/10.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "Different-common-word accurately describes the variety-specific preference contrast, although selang may be understood or encountered outside the preferred Malaysian form.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hos",
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=selang"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "A contrast should be added: Indonesian selang is the hose term, whereas Malaysian Malay selang is primarily associated with interval/gap meanings and hos is the standard hose term.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=selang",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hos"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "f824e2fabadb94a782457af12ed32fb1074609b618fd57659ed1b9a0499cf9f8",
+  "correction_refs": [],
+  "decision_digest": "d09e6e08c25e02fc8a8b10ce8941771486f55c805d0aece69501e5e264438893",
+  "elapsed_ms": 19124,
+  "finding_class": "cue-content",
+  "input_tokens": 61709,
+  "model_calls": 1,
+  "output_tokens": 1301,
+  "packet_digest": "656d2a714c36eeafa3da3890827fdc66b4a10e6adaedd1a148af5bbd96e236e6",
+  "rationale": "Both answers and the garden-hose sense are correct, and the relation different-common-word is appropriate. However, the empty contrast field omits a useful learner warning: Indonesian selang means hose, while standard Malaysian Malay uses hos for this object and selang has unrelated interval/gap meanings.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:59:09.948703+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s035/tmp-home-s035-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s035",
+  "verdict": "needs-correction"
+}

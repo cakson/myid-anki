@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4608,
+  "input_digest": "16e57cc257a86ff556ec23c170a9e63ec1e60593fcbeea27ce2d991fbdfd8304",
+  "input_tokens": 93763,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 161,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s012:tmp-communication-s012-002\",\"type\":\"exact\",\"resolution\":\"distinct\",\"rationale\":\"The English cue “speaker” is identical, but the candidate means an audio device that produces amplified sound, while the existing entry means a person who speaks to an audience; Indonesian and Malaysian answers also differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-002",
+          "rationale": "The English cue “speaker” is identical, but the candidate means an audio device that produces amplified sound, while the existing entry means a person who speaks to an audience; Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "exact"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

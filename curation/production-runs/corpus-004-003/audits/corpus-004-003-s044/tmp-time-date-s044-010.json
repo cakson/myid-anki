@@ -1,0 +1,66 @@
+{
+  "attempt_id": "6f6b05b02049e802",
+  "candidate_id": "tmp-time-date-s044-010",
+  "claim_reviews": [
+    {
+      "conclusion": "Acceptable in broad context but underspecified for the public-holiday sense; replace or qualify as “hari libur nasional.”",
+      "evidence_refs": [
+        "https://kemenkopmk.go.id/pemerintah-tetapkan-17-hari-libur-nasional-dan-8-cuti-bersama-tahun-2026",
+        "https://jdih.kemnaker.go.id/peraturan/detail/2723/keputusan-bersama-menteri-agama-menteri-ketenagakerjaan-dan-menteri-pendayagunaan-aparatur-negara-dan-reformasi-birokrasi-republik-indonesia-nomor-2-tahun-2025"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: hari libur"
+    },
+    {
+      "conclusion": "Correct and idiomatic equivalent of “public holiday.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cuti+umum",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=am+"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: cuti umum"
+    },
+    {
+      "conclusion": "The cue and sense correctly target an officially designated non-working day, but the Indonesian form does not encode the public or national restriction by itself.",
+      "evidence_refs": [
+        "https://kemenkopmk.go.id/pemerintah-tetapkan-17-hari-libur-nasional-dan-8-cuti-bersama-tahun-2026",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cuti+umum"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is correct. There is no false-friend contrast: the forms are regional equivalents, not misleadingly similar words.",
+      "evidence_limitation": "No dedicated false-friend reference was necessary; the conclusion follows from the distinct forms and their dictionary/government usage.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "b1753da763170b86d4a0cf0d05115307ab452f342011c429d40ed24aaa2d9e21",
+  "correction_refs": [],
+  "decision_digest": "cb37954afaa4e1f694f61f2451bdd5645d5e16a516ff1cc97de8363b94d87f04",
+  "elapsed_ms": 18613,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 60879,
+  "model_calls": 1,
+  "output_tokens": 1255,
+  "packet_digest": "92d90fd50b8eff789858828fdf1c9ecc31904609e7fd3ea39b47e67e2a7a71b3",
+  "rationale": "“Cuti umum” is an exact Malaysian equivalent for “public holiday.” Indonesian “hari libur” is understandable and common but broader, including any day off; “hari libur nasional” is the safer precise learner answer. The relation label is otherwise correct, and no false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:10:36.274502+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s044/tmp-time-date-s044-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s044",
+  "verdict": "needs-correction"
+}

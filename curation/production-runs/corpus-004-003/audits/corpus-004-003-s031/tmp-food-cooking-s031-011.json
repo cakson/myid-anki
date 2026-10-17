@@ -1,0 +1,78 @@
+{
+  "attempt_id": "9a19178e55d3f0e4",
+  "candidate_id": "tmp-food-cooking-s031-011",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct Indonesian term for a food processor; formal culinary references define it as a machine for cutting, slicing, and mixing food.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Boga.pdf",
+        "https://repositori.kemendikdasmen.go.id/4417/1/Bahasa%20dan%20Susastra%20Dalam%20Guntingan%20-%20Desember%201996%20Nomor%20137.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pengolah makanan"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term; DBP lists pemproses makanan as an example of pemproses, and Malaysian educational/product sources use the phrase for the appliance.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pemproses",
+        "https://sites.google.com/moe-dl.edu.my/e-pta/nota-pembelajaran/bab-3-pembangunan/penyediaan-bahan-peralatan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pemproses makanan"
+    },
+    {
+      "conclusion": "“Food processor” correctly matches an electric appliance used to chop or mix food; the stated sense is adequate though not exhaustive.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Boga.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pemproses"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Similar is appropriate because the Indonesian and Malaysian forms are closely related morphological equivalents with the same sense.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Boga.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pemproses"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted; the forms are transparent cognate equivalents rather than misleading lookalikes.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Boga.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=pemproses"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "764cc2f629fb0e0f3e4ed09de89cbda6cc8a4008a1f2faa7b2d81a958fb357d6",
+  "correction_refs": [],
+  "decision_digest": "a88875b603ec0adb06b2f5324495ea745bae3875613b8b1d558ec4f0617ed745",
+  "elapsed_ms": 19204,
+  "finding_class": "none",
+  "input_tokens": 62096,
+  "model_calls": 1,
+  "output_tokens": 1276,
+  "packet_digest": "5cab680975eeb5a0eabc2bae201db4e55560726dc853afdbb0ecfd64eac75dee",
+  "rationale": "Both Malay answers are valid variety-specific terms for the same electric kitchen appliance. The English cue and sense align, the similar relation is appropriate, and no false-friend contrast is needed. The English loan “food processor” may also occur in both varieties but does not invalidate the proposed forms.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:55:15.845383+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s031/tmp-food-cooking-s031-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s031",
+  "verdict": "cleared"
+}

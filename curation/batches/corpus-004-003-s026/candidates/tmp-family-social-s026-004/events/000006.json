@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T20:09:24.623591+00:00",
+  "input_digest": "7a881437313e39b6c33a81aa048b9d5091c95b491f7abcbd3a068dc22ae23484",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The English cue 'groom' is somewhat ambiguous outside the wedding sense.\"], \"material_concerns\": [], \"rationale\": \"For the wedding sense, Indonesian 'pengantin pria' and Malaysian 'pengantin lelaki' are ordinary, natural terms for a man getting married.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"man getting married\", \"cue_rationale\": \"This short rewrite makes the intended wedding sense explicit; both answers fit it directly.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"Cross-variety alternatives such as 'pengantin lelaki' in Indonesian or 'pengantin pria' in Malaysia may be understood, but the proposed forms reflect the ordinary national preferences.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Indonesian also commonly uses 'pengantin laki-laki', which may be preferred in some contexts.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"pengantin laki-laki\", \"language\": \"indonesian\", \"rationale\": \"This is a plausible everyday Indonesian alternative for the same male-wedding-partner sense, though it does not invalidate 'pengantin pria'.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The English cue 'groom' is somewhat ambiguous outside the wedding sense."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "This short rewrite makes the intended wedding sense explicit; both answers fit it directly.",
+      "cue_rewrite": "man getting married",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "pengantin laki-laki",
+        "language": "indonesian",
+        "rationale": "This is a plausible everyday Indonesian alternative for the same male-wedding-partner sense, though it does not invalidate 'pengantin pria'.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "For the wedding sense, Indonesian 'pengantin pria' and Malaysian 'pengantin lelaki' are ordinary, natural terms for a man getting married.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian also commonly uses 'pengantin laki-laki', which may be preferred in some contexts.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "Cross-variety alternatives such as 'pengantin lelaki' in Indonesian or 'pengantin pria' in Malaysia may be understood, but the proposed forms reflect the ordinary national preferences.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The English cue 'groom' is somewhat ambiguous outside the wedding sense."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "This short rewrite makes the intended wedding sense explicit; both answers fit it directly.",
+    "cue_rewrite": "man getting married",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "pengantin laki-laki",
+      "language": "indonesian",
+      "rationale": "This is a plausible everyday Indonesian alternative for the same male-wedding-partner sense, though it does not invalidate 'pengantin pria'.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "For the wedding sense, Indonesian 'pengantin pria' and Malaysian 'pengantin lelaki' are ordinary, natural terms for a man getting married.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian also commonly uses 'pengantin laki-laki', which may be preferred in some contexts.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Cross-variety alternatives such as 'pengantin lelaki' in Indonesian or 'pengantin pria' in Malaysia may be understood, but the proposed forms reflect the ordinary national preferences.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "b30685c5b782fde67930069b11f8c7a97bcff5d2fa3d84abc6e7a464eed56f3d"
+}

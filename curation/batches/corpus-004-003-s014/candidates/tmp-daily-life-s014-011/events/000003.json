@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:46:14.609592+00:00",
+  "input_digest": "8053337cf6a4f3c67f851b674d5a1bcf045bf756f90aafdf25e9b0d91cb6937e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s002:tmp-clothing-s002-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are cloth items, but a handkerchief is a small cloth for wiping the nose or face, whereas a cleaning cloth is used for wiping household surfaces.\"}, {\"other_id\": \"corpus-004-003-s015:tmp-daily-life-s015-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are used for wiping, but a paper towel is a disposable absorbent sheet, whereas a cleaning cloth is a reusable cloth for wiping surfaces.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s002:tmp-clothing-s002-004",
+          "rationale": "Both are cloth items, but a handkerchief is a small cloth for wiping the nose or face, whereas a cleaning cloth is used for wiping household surfaces.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-011",
+          "rationale": "Both are used for wiping, but a paper towel is a disposable absorbent sheet, whereas a cleaning cloth is a reusable cloth for wiping surfaces.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s002:tmp-clothing-s002-004",
+        "rationale": "Both are cloth items, but a handkerchief is a small cloth for wiping the nose or face, whereas a cleaning cloth is used for wiping household surfaces.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s015:tmp-daily-life-s015-011",
+        "rationale": "Both are used for wiping, but a paper towel is a disposable absorbent sheet, whereas a cleaning cloth is a reusable cloth for wiping surfaces.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "029915bf6bab55b25e7547ddefd626c3c07303a1748d8968e87f341a3963fad9"
+}

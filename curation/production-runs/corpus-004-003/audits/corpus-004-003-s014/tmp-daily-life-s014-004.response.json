@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17585,
+  "input_tokens": 49595,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1294,
+  "packet_digest": "b33e6cd1c9d266d968ca32598d004570fe33d30b7cd612edc75ccb5f2f89f800",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"The core pairing is valid for the intended sense: Indonesian korek api can denote a match, and Malaysian mancis is the ordinary specific term for a matchstick. However, korek api is broader and can also mean a lighter/fire-lighter, while mancis is more specifically a match. The card should state this contrast; the relation is better qualified as different preferred/common terms rather than an absolute lexical separation.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“matchstick” correctly narrows the intended object, but the Indonesian term remains semantically broader than the cue.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/korek%20api\",\"https://kbbi.kemendikdasmen.go.id/entri/korek\"]},{\"subject\":\"Indonesian answer: korek api\",\"conclusion\":\"Valid and common for a match/matchstick, but it may also refer to a lighter or fire-starting tool.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/korek%20api\",\"https://kbbi.kemendikdasmen.go.id/entri/korek\"]},{\"subject\":\"Malaysian answer: mancis\",\"conclusion\":\"Valid; Malaysian dictionaries define mancis as a small combustible-tipped stick used to make fire and list it as the standard term.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mancis\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“different-common-word” is acceptable only as a qualified contrast in preferred usage; the terms are not strict equivalents with no overlap, since Malay references also record korek api as a synonym.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mancis\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=korek\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"A learner-relevant contrast is missing: Indonesian korek api can mean a lighter/fire-lighter as well as a match, whereas Malaysian mancis specifically denotes a match.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.kemendikdasmen.go.id/entri/korek\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mancis\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“matchstick” correctly narrows the intended object, but the Indonesian term remains semantically broader than the cue.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/korek%20api",
+          "https://kbbi.kemendikdasmen.go.id/entri/korek"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid and common for a match/matchstick, but it may also refer to a lighter or fire-starting tool.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/korek%20api",
+          "https://kbbi.kemendikdasmen.go.id/entri/korek"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: korek api"
+      },
+      {
+        "conclusion": "Valid; Malaysian dictionaries define mancis as a small combustible-tipped stick used to make fire and list it as the standard term.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mancis"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: mancis"
+      },
+      {
+        "conclusion": "“different-common-word” is acceptable only as a qualified contrast in preferred usage; the terms are not strict equivalents with no overlap, since Malay references also record korek api as a synonym.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mancis",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=korek"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "A learner-relevant contrast is missing: Indonesian korek api can mean a lighter/fire-lighter as well as a match, whereas Malaysian mancis specifically denotes a match.",
+        "evidence_refs": [
+          "https://kbbi.kemendikdasmen.go.id/entri/korek",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mancis"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "The core pairing is valid for the intended sense: Indonesian korek api can denote a match, and Malaysian mancis is the ordinary specific term for a matchstick. However, korek api is broader and can also mean a lighter/fire-lighter, while mancis is more specifically a match. The card should state this contrast; the relation is better qualified as different preferred/common terms rather than an absolute lexical separation.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

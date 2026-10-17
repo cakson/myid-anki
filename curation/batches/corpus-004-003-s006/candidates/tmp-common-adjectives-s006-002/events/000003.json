@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:27:47.955315+00:00",
+  "input_digest": "088609019adf6084a29970b920bc3249c6e2cc1cb264e369f127fb5b8395d992",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-health-001:health-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\\"terrible\\\" means very bad or unpleasant generally, while \\\"ugly\\\" specifically concerns unpleasant appearance; the senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-health-001:health-08",
+          "rationale": "\"terrible\" means very bad or unpleasant generally, while \"ugly\" specifically concerns unpleasant appearance; the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-health-001:health-08",
+        "rationale": "\"terrible\" means very bad or unpleasant generally, while \"ugly\" specifically concerns unpleasant appearance; the senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "fe106dff01f50c0aa024c7d85640735d0514ed7e9126709efac300071ba11016"
+}

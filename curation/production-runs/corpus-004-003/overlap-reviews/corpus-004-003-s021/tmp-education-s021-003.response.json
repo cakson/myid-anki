@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 28342,
+  "input_tokens": 102921,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1615,
+  "packet_digest": "7800d8b5c00300b8dbc53934f621f60028331f5948a6a7d1689d9943b45537a7",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The answers are semantically valid, but the national split is materially overstated. “Kelompok” is an accepted Malay synonym for “kumpulan,” while “kelompok belajar” is established Indonesian usage and “kumpulan belajar” is established Malaysian usage. The relation should not be labelled different-common-word without qualification. The English cue and sense are accurate. No false-friend contrast is present or warranted.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: kelompok belajar\",\"conclusion\":\"Correct and ordinary Indonesian for a group of students studying together.\",\"material_risk\":false,\"evidence_refs\":[\"https://jdih.kemenkeu.go.id/kamus-hukum/kelompok-belajar?id=337382fbc9df917ec50ce0bc139e23e6\",\"https://pusatinformasi.rumahpendidikan.kemendikdasmen.go.id/hc/id/articles/52512656815385-Apa-Itu-Ruang-GTK\"]},{\"subject\":\"Malaysian answer: kumpulan belajar\",\"conclusion\":\"Correct and attested Malaysian Malay usage for a study group.\",\"material_risk\":false,\"evidence_refs\":[\"https://fliphtml5.com/oqrxp/jptk/\",\"https://www.ukm.my/mapum/wp-content/uploads/2018/07/KERTAS-47.pdf\"]},{\"subject\":\"National split and relation\",\"conclusion\":\"Materially overstated. PRPM defines kelompok as a small kumpulan and lists kumpulan as a synonym, so the forms overlap in Malay semantics. The relation different-common-word is therefore not robust as a national distinction; it should be revised to shared-equivalent or preference-based.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=15740&keyword=kelompok\",\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=group\",\"https://jdih.kemenkeu.go.id/kamus-hukum/kelompok-belajar?id=337382fbc9df917ec50ce0bc139e23e6\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Study group” and “group of students studying together” are aligned, natural, and sufficiently specific.\",\"material_risk\":false,\"evidence_limitation\":\"No separate dictionary citation was necessary for this transparent English cue-sense pairing.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supported. The two compounds are transparent and closely related; the card should explicitly state that the difference is chiefly a variety preference or common collocation, not a misleading semantic contrast.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=15740&keyword=kelompok\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=perkumpulan\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and ordinary Indonesian for a group of students studying together.",
+        "evidence_refs": [
+          "https://jdih.kemenkeu.go.id/kamus-hukum/kelompok-belajar?id=337382fbc9df917ec50ce0bc139e23e6",
+          "https://pusatinformasi.rumahpendidikan.kemendikdasmen.go.id/hc/id/articles/52512656815385-Apa-Itu-Ruang-GTK"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: kelompok belajar"
+      },
+      {
+        "conclusion": "Correct and attested Malaysian Malay usage for a study group.",
+        "evidence_refs": [
+          "https://fliphtml5.com/oqrxp/jptk/",
+          "https://www.ukm.my/mapum/wp-content/uploads/2018/07/KERTAS-47.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: kumpulan belajar"
+      },
+      {
+        "conclusion": "Materially overstated. PRPM defines kelompok as a small kumpulan and lists kumpulan as a synonym, so the forms overlap in Malay semantics. The relation different-common-word is therefore not robust as a national distinction; it should be revised to shared-equivalent or preference-based.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=kelompok",
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=group",
+          "https://jdih.kemenkeu.go.id/kamus-hukum/kelompok-belajar?id=337382fbc9df917ec50ce0bc139e23e6"
+        ],
+        "material_risk": true,
+        "subject": "National split and relation"
+      },
+      {
+        "conclusion": "“Study group” and “group of students studying together” are aligned, natural, and sufficiently specific.",
+        "evidence_limitation": "No separate dictionary citation was necessary for this transparent English cue-sense pairing.",
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported. The two compounds are transparent and closely related; the card should explicitly state that the difference is chiefly a variety preference or common collocation, not a misleading semantic contrast.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=15740&keyword=kelompok",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=perkumpulan"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The answers are semantically valid, but the national split is materially overstated. “Kelompok” is an accepted Malay synonym for “kumpulan,” while “kelompok belajar” is established Indonesian usage and “kumpulan belajar” is established Malaysian usage. The relation should not be labelled different-common-word without qualification. The English cue and sense are accurate. No false-friend contrast is present or warranted.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:53:12.656418+00:00",
+  "input_digest": "e96f209837bd4482e1e3bb581974632f6e3a87a472c613b14b16239d7fb3eab7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"technology-001:technology-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A smartphone is an advanced mobile phone with computing functions, while the existing cell phone concept is a generic portable telephone for calls and messaging; the candidate's cue and both answers are not duplicates.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-01",
+          "rationale": "A smartphone is an advanced mobile phone with computing functions, while the existing cell phone concept is a generic portable telephone for calls and messaging; the candidate's cue and both answers are not duplicates.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "technology-001:technology-01",
+        "rationale": "A smartphone is an advanced mobile phone with computing functions, while the existing cell phone concept is a generic portable telephone for calls and messaging; the candidate's cue and both answers are not duplicates.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6de9803fc34401a2b4dc6ac5c98afad662fb3261d1d954d50628c73f6dad300c"
+}

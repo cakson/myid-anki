@@ -1,0 +1,55 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 13071,
+  "input_tokens": 29190,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 829,
+  "packet_digest": "428b80500379f4f31a1b0de4c7ca29fa257f38c0933134512de0f80c96e5c0e4",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers are semantically accurate and idiomatic for their respective varieties. The cue correctly specifies a sale involving reduced prices. The forms differ, so the relation is valid; no false-friend contrast is required.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: obral\",\n      \"conclusion\": \"Accurate: obral means selling goods at low prices, often to clear stock.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/obral\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: jualan murah\",\n      \"conclusion\": \"Accurate and standard: jualan murah denotes a sale of goods with substantial price reductions.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jualan\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Discount sale event is a valid narrowing of sale for this shopping sense, though slightly redundant stylistically.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/cari1?d=175768&keyword=sale\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"Different-common-word is appropriate: the languages use distinct ordinary expressions for the same concept.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"The evidence confirms the meanings but does not quantify comparative everyday frequency across both countries.\"\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is needed; the two expressions are straightforward equivalents rather than misleadingly similar forms.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"No dedicated false-friend source was necessary because the forms are lexically distinct and their dictionary senses align.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate: obral means selling goods at low prices, often to clear stock.",
+        "evidence_refs": [
+          "https://kbbi.web.id/obral"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: obral"
+      },
+      {
+        "conclusion": "Accurate and standard: jualan murah denotes a sale of goods with substantial price reductions.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jualan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: jualan murah"
+      },
+      {
+        "conclusion": "Discount sale event is a valid narrowing of sale for this shopping sense, though slightly redundant stylistically.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1?d=175768&keyword=sale"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Different-common-word is appropriate: the languages use distinct ordinary expressions for the same concept.",
+        "evidence_limitation": "The evidence confirms the meanings but does not quantify comparative everyday frequency across both countries.",
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is needed; the two expressions are straightforward equivalents rather than misleadingly similar forms.",
+        "evidence_limitation": "No dedicated false-friend source was necessary because the forms are lexically distinct and their dictionary senses align.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are semantically accurate and idiomatic for their respective varieties. The cue correctly specifies a sale involving reduced prices. The forms differ, so the relation is valid; no false-friend contrast is required.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

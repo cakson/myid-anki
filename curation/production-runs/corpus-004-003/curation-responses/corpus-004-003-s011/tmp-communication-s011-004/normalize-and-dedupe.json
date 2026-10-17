@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5092,
+  "input_digest": "976a3ab90fc9df1d9d30efb109539564924097996abceb1dec8cb3a85d928184",
+  "input_tokens": 93711,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 327,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"common-verbs-001:everyday-actions-01\",\"type\":\"morphology\",\"resolution\":\"distinct\",\"rationale\":\"“sender” is the person who sends a message, while “send” is the action; noun and verb concepts are distinct.\"},{\"other_id\":\"corpus-004-003-s038:tmp-services-s038-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A sender transmits a message, whereas a courier delivers parcels; the roles and communication senses differ.\"},{\"other_id\":\"corpus-004-003-s012:tmp-communication-s012-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A sender sends a message, whereas a speaker communicates by speaking to an audience; the roles and modalities differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-verbs-001:everyday-actions-01",
+          "rationale": "“sender” is the person who sends a message, while “send” is the action; noun and verb concepts are distinct.",
+          "resolution": "distinct",
+          "type": "morphology"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-006",
+          "rationale": "A sender transmits a message, whereas a courier delivers parcels; the roles and communication senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-002",
+          "rationale": "A sender sends a message, whereas a speaker communicates by speaking to an audience; the roles and modalities differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T04:30:05.313745+00:00",
+  "result": {
+    "candidate_digest": "577685c9a1936f6517b7242a5e86e0175155d4e0313d57f3a82ab9ebb175a2c5",
+    "candidate_id": "tmp-food-cooking-s031-004",
+    "checked_at": "2026-10-17T04:30:05.313745+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The proposed Malaysian form ramuan is ordinary, but bahan is also a common everyday term for the same food sense, so the card may overstate the national preference."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The proposed Malaysian form ramuan is ordinary, but bahan is also a common everyday term for the same food sense, so the card may overstate the national preference.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

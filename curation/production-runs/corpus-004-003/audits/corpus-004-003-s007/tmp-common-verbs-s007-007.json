@@ -1,0 +1,75 @@
+{
+  "attempt_id": "6db215d04421ac57",
+  "candidate_id": "tmp-common-verbs-s007-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid Indonesian verb meaning to hate or strongly dislike.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: membenci"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay form meaning dislike or strongly dislike; it can function verbally and adjectivally.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=benci"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: benci"
+    },
+    {
+      "conclusion": "The contrast is not variety-exclusive: benci and membenci can occur across both varieties, so the card should label this as a common morphological or usage preference rather than a strict language split.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=benci",
+        "https://prpm.dbp.gov.my/cari1?keyword=membenci"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian–Malaysian form contrast"
+    },
+    {
+      "conclusion": "Strongly dislike is an acceptable learner-oriented gloss for hate, though it is slightly less intense than the English cue.",
+      "evidence_limitation": "No bilingual corpus or graded semantic scale was supplied.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct: the answers are near-equivalents expressing the same core concept, with morphological and usage differences rather than a false-friend contrast.",
+      "evidence_limitation": "Relation taxonomy and intended contrast policy were not supplied.",
+      "material_risk": false,
+      "subject": "Final relation: similar"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present.",
+      "evidence_limitation": "No broader contextual examples were supplied.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "bbe7d92a37255501e3f9923bca5657c3c251b1b46974125c61c4e8cb0bc05d94",
+  "correction_refs": [],
+  "decision_digest": "f6c5a3793f6f8aa4c42c464e9d3b66aaf45579c93eaf4eced2fdf7ec2b00cedc",
+  "elapsed_ms": 14279,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 29130,
+  "model_calls": 1,
+  "output_tokens": 1012,
+  "packet_digest": "cfc4c37975479e18bd8dd6f307f040155026dcb15c5256913ec9918d5d3eb7f3",
+  "rationale": "Both entries express the intended sense, but the variety assignment is too categorical: Indonesian also uses benci, and Malaysian Malay also uses membenci. Presenting the bare versus prefixed forms as a reliable Indonesian–Malaysian contrast may mislead learners. The narrowed cue is acceptable, the sense is broadly correct, and similar is an appropriate relation. No false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:24:14.809402+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s007/tmp-common-verbs-s007-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s007",
+  "verdict": "needs-correction"
+}

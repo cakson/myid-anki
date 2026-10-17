@@ -1,0 +1,83 @@
+{
+  "attempt_id": "442b304289fea620",
+  "candidate_id": "tmp-common-adjectives-s005-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: \"international\" means involving or relating to more than one country.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/international"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and standard for the stated sense. Indonesian KBBI defines \"internasional\" as concerning nations or countries worldwide and equates it with \"antarbangsa\".",
+      "evidence_refs": [
+        "https://kbbi.web.id/internasional"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: internasional"
+    },
+    {
+      "conclusion": "Correct and standard for the stated sense. Malaysia's PRPM/Kamus Dewan defines \"antarabangsa\" as involving two or more countries.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: antarabangsa"
+    },
+    {
+      "conclusion": "Material overlap is established. Malaysian DBP lists \"internasional\" as \"antarabangsa\", and Indonesian KBBI lists \"antarbangsa\" as an accepted equivalent of \"internasional\". The distinction is therefore preferential/register-based rather than a clean national lexical split.",
+      "evidence_limitation": "The dictionary evidence establishes acceptance, but does not quantify relative everyday frequency in Indonesia versus Malaysia.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa",
+        "https://kbbi.web.id/internasional",
+        "https://kbbi.web.id/antarbangsa"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "Needs correction. This relation materially overstates the difference; a shared-synonym or preference-based relation is more accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa",
+        "https://kbbi.web.id/internasional",
+        "https://kbbi.web.id/antarbangsa"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied. This is acceptable because the two forms share the relevant meaning, but the empty field provides no learner-facing explanation of the overlap or preference difference.",
+      "evidence_limitation": "No contrast text was provided in the learner content.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ba4c38be8d66dc7b8726e7fd3d6dbc640a04b37d16c84f422e5d2d203f04f869",
+  "correction_refs": [],
+  "decision_digest": "3bca139aa0d358259d46952be43d2cf2d52ee228cc469fb0a9305bb9e841aeb3",
+  "elapsed_ms": 31730,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 140109,
+  "model_calls": 1,
+  "output_tokens": 2211,
+  "packet_digest": "e4778bcde85e9ff47a46cacaf21cec0cd96ddb0e1c4e88f8f7721216c9d52d49",
+  "rationale": "The English cue and sense are correct, and both supplied forms are valid equivalents. However, the national split is materially overstated: Malaysian DBP explicitly lists \"internasional\" as meaning \"antarabangsa\", while Indonesian KBBI recognizes both \"internasional\" and \"antarbangsa\" for the same sense. The relation \"different-common-word\" therefore misrepresents accepted cross-variety overlap. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:35:06.979962+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s005/tmp-common-adjectives-s005-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s005",
+  "verdict": "needs-correction"
+}

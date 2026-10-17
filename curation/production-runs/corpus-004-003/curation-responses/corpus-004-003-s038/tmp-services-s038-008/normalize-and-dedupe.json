@@ -1,0 +1,50 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6297,
+  "input_digest": "508ffd22618519866e9b07bdb331d26c063a2c27816b2bb2adf7a8dbc9db3feb",
+  "input_tokens": 93711,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 468,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s050:tmp-travel-s050-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A tourist information center is a physical service location providing visitor information; a tourist map is a map showing places of interest.\"},{\"other_id\":\"corpus-004-002-s019:tmp-travel-s019-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A tourist information center is a place or service, whereas a tour guide is a person who guides tourists.\"},{\"other_id\":\"corpus-004-003-s021:tmp-education-s021-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A tourist information center serves visitors with travel information; a tourist attraction is a destination visited for tourism.\"},{\"other_id\":\"corpus-004-003-s016:tmp-services-s016-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A tourist information center is an information-providing facility, while a service counter is a public-facing counter for service or payment.\"},{\"other_id\":\"corpus-004-003-s050:tmp-travel-s050-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A tourist information center provides visitor and travel information; hotel reception handles hotel guest check-in and related services.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s050:tmp-travel-s050-003",
+          "rationale": "A tourist information center is a physical service location providing visitor information; a tourist map is a map showing places of interest.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s019:tmp-travel-s019-002",
+          "rationale": "A tourist information center is a place or service, whereas a tour guide is a person who guides tourists.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s021:tmp-education-s021-004",
+          "rationale": "A tourist information center serves visitors with travel information; a tourist attraction is a destination visited for tourism.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s016:tmp-services-s016-001",
+          "rationale": "A tourist information center is an information-providing facility, while a service counter is a public-facing counter for service or payment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s050:tmp-travel-s050-001",
+          "rationale": "A tourist information center provides visitor and travel information; hotel reception handles hotel guest check-in and related services.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

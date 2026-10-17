@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:45:50.314624+00:00",
+  "input_digest": "f11e967a35730b99b738451d6b8e43ca781ec91d50c463e0e2ea661de1659e98",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s015:tmp-daily-life-s015-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An air freshener adds a pleasant scent to indoor air, whereas an air purifier removes pollutants; the products and senses are distinct.\"}, {\"other_id\": \"corpus-004-002-s013:tmp-home-s013-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An air freshener is a scent-producing product, whereas ventilating a room means allowing air to circulate; the senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-009",
+          "rationale": "An air freshener adds a pleasant scent to indoor air, whereas an air purifier removes pollutants; the products and senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s013:tmp-home-s013-003",
+          "rationale": "An air freshener is a scent-producing product, whereas ventilating a room means allowing air to circulate; the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s015:tmp-daily-life-s015-009",
+        "rationale": "An air freshener adds a pleasant scent to indoor air, whereas an air purifier removes pollutants; the products and senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s013:tmp-home-s013-003",
+        "rationale": "An air freshener is a scent-producing product, whereas ventilating a room means allowing air to circulate; the senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6a5e073e9d602685bb890555990880e2a65913908e14e45c7da0ef80880c74f0"
+}

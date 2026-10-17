@@ -1,0 +1,75 @@
+{
+  "attempt_id": "abac55fb8e6aee37",
+  "candidate_id": "tmp-communication-s011-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct standard Indonesian form for signature.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tanda_tangan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: tanda tangan"
+    },
+    {
+      "conclusion": "Correct standard Malaysian Malay form for signature.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tandatangan"
+    },
+    {
+      "conclusion": "Signature on a document accurately captures a handwritten name or mark used for personal authentication.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tanda_tangan",
+        "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Similar is appropriate: the forms are near-equivalent in meaning and differ mainly in spacing.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tanda_tangan",
+        "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is substantiated; both forms refer to a signature.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tanda_tangan",
+        "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tandatangan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2436fedebccbee188bb97f30630f542d89776b359014a07c183d1488c15f01a4",
+  "correction_refs": [],
+  "decision_digest": "04bdd6ab56d418f00c2fbb70270f9d47cc50aa222ea37d5a6712fb33b7c225ce",
+  "elapsed_ms": 21287,
+  "finding_class": "none",
+  "input_tokens": 71857,
+  "model_calls": 1,
+  "output_tokens": 1071,
+  "packet_digest": "ac5a405c53c14df5aa331d03bf39a6b0d2915faf28d2dc66f862b9243e98a420",
+  "rationale": "Both answers are standard forms meaning signature. The English cue and sense are accurate, the final relation 'similar' is appropriate, and no false-friend contrast is present. The spelling difference is a valid orthographic contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:28:25.037298+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s011/tmp-communication-s011-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s011",
+  "verdict": "cleared"
+}

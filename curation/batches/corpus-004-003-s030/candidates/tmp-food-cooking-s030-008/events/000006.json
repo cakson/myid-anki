@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-17T04:28:29.207108+00:00",
+  "input_digest": "fa5d97d2b65b02af0cd978102a01011a5594da9b9154483aebd0e72effa7e78c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"Indonesian also commonly uses \\\"saus ikan\\\" in some contexts.\"], \"material_concerns\": [], \"rationale\": \"Both forms denote fish sauce, a salty sauce made from fermented fish. \\\"Kecap ikan\\\" is the ordinary Indonesian term, while Malaysian Malay commonly uses \\\"sos ikan\\\"; this is a useful national preference.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers fit the same exact sense of fish sauce.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"No single competing synonym was identified as ordinary enough in both varieties to weaken the contrast.\", \"nonblocking_risk\": \"concrete\", \"risk_rationale\": \"The Indonesian alternative \\\"saus ikan\\\" may compete with \\\"kecap ikan\\\" in everyday usage.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"saus ikan\", \"language\": \"indonesian\", \"rationale\": \"\\\"Saus ikan\\\" is a plausible everyday Indonesian alternative for the same sense, though \\\"kecap ikan\\\" remains a credible standard preference.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Indonesian also commonly uses \"saus ikan\" in some contexts."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers fit the same exact sense of fish sauce.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "concrete",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "saus ikan",
+        "language": "indonesian",
+        "rationale": "\"Saus ikan\" is a plausible everyday Indonesian alternative for the same sense, though \"kecap ikan\" remains a credible standard preference.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "Both forms denote fish sauce, a salty sauce made from fermented fish. \"Kecap ikan\" is the ordinary Indonesian term, while Malaysian Malay commonly uses \"sos ikan\"; this is a useful national preference.",
+      "relation": "different-common-word",
+      "risk_rationale": "The Indonesian alternative \"saus ikan\" may compete with \"kecap ikan\" in everyday usage.",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "No single competing synonym was identified as ordinary enough in both varieties to weaken the contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Indonesian also commonly uses \"saus ikan\" in some contexts."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the same exact sense of fish sauce.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "saus ikan",
+      "language": "indonesian",
+      "rationale": "\"Saus ikan\" is a plausible everyday Indonesian alternative for the same sense, though \"kecap ikan\" remains a credible standard preference.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "Both forms denote fish sauce, a salty sauce made from fermented fish. \"Kecap ikan\" is the ordinary Indonesian term, while Malaysian Malay commonly uses \"sos ikan\"; this is a useful national preference.",
+    "relation": "different-common-word",
+    "risk_rationale": "The Indonesian alternative \"saus ikan\" may compete with \"kecap ikan\" in everyday usage.",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "No single competing synonym was identified as ordinary enough in both varieties to weaken the contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "ce29cf837102b9d5b4cee40d54463d82235a624c2d81f66cfde0f8e0c9e30c50"
+}

@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6022,
+  "input_digest": "d14d0a2a96dd12ec9b8f049d8794971df0921deaec77c6a85b1351009dad5901",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 389,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s005:tmp-common-adjectives-s005-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"public housing is government-provided or government-supported housing; public is the general adjective meaning open to or serving the general public.\"},{\"other_id\":\"corpus-004-003-s037:tmp-services-s037-012\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"public housing concerns government-provided residences, whereas public clinic is a government-operated medical facility.\"},{\"other_id\":\"pros4-technology-001:technology-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"public housing concerns residential accommodation, whereas public library is a library serving the general public.\"},{\"other_id\":\"tb25-technology-001:technology-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"public housing concerns residential accommodation, whereas public transport is shared passenger transportation available to the public.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-003",
+          "rationale": "public housing is government-provided or government-supported housing; public is the general adjective meaning open to or serving the general public.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-012",
+          "rationale": "public housing concerns government-provided residences, whereas public clinic is a government-operated medical facility.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-technology-001:technology-05",
+          "rationale": "public housing concerns residential accommodation, whereas public library is a library serving the general public.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-technology-001:technology-04",
+          "rationale": "public housing concerns residential accommodation, whereas public transport is shared passenger transportation available to the public.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

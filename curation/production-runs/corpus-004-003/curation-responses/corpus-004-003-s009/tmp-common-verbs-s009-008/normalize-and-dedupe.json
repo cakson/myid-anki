@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4886,
+  "input_digest": "36b595a9961fe8a7bbff5ceb8a38ae34ab84808a49455df5f5c96b5d248f1575",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 263,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"common-verbs-001:everyday-actions-02\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"“To bathe” means to wash the body, while “wash” is broader and can include washing the body; the senses plausibly overlap without a sufficiently clear distinction.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-verbs-001:everyday-actions-02",
+          "rationale": "“To bathe” means to wash the body, while “wash” is broader and can include washing the body; the senses plausibly overlap without a sufficiently clear distinction.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

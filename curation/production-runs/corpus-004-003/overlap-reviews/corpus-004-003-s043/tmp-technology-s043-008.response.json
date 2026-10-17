@@ -1,0 +1,66 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 23160,
+  "input_tokens": 103071,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1699,
+  "packet_digest": "c388a22a3d0415f76de1f8ce26814707327f1a78d7cb180de635191c5dc66a34",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"The national split is not materially overstated. Indonesian menggulir and Malaysian menatal are distinct, standard technology terms for scrolling screen content. The shared English form scroll occurs in casual technology usage, but available evidence does not show that it displaces either localized answer as the ordinary national term. The English cue and sense are aligned, the relation different-common-word is appropriate, and no false-friend contrast is warranted.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: menggulir\",\n      \"conclusion\": \"Cleared. Menggulir is used in Indonesian for moving through screen content vertically or horizontally.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://diskominfo.nttprov.go.id/wp-content/uploads/2024/06/1._basic_digital_skills_bhs_2nd_edition.final_.pdf\",\n        \"https://learn.microsoft.com/id-id/windows/apps/develop/ui/controls/scroll-controls\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: menatal\",\n      \"conclusion\": \"Cleared. DBP defines menatal in computing as moving displayed text or pages progressively up or down on a screen, and maps English scroll to menatal as a verb.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=scroll\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Cleared. To scroll and the sense move through content on a screen accurately describe the operation covered by both answers.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://learn.microsoft.com/id-id/windows/apps/develop/ui/controls/scroll-controls\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal\"\n      ]\n    },\n    {\n      \"subject\": \"National split and relation\",\n      \"conclusion\": \"Cleared. The localized forms differ materially: Indonesian uses menggulir, while Malaysian standard terminology uses menatal. Shared casual use of English scroll does not by itself invalidate a different-common-word learner contrast.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://diskominfo.nttprov.go.id/wp-content/uploads/2024/06/1._basic_digital_skills_bhs_2nd_edition.final_.pdf\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=scroll\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal\"\n      ],\n      \"evidence_limitation\": \"The sources establish standard acceptance and attested usage, but do not provide comparable frequency measurements for everyday Indonesian versus Malaysian speech.\"\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"Cleared. No false-friend contrast is needed: the two answers express the same screen-scrolling action in their respective varieties, rather than deceptively different meanings. The blank contrast field is therefore not materially defective.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://diskominfo.nttprov.go.id/wp-content/uploads/2024/06/1._basic_digital_skills_bhs_2nd_edition.final_.pdf\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Cleared. Menggulir is used in Indonesian for moving through screen content vertically or horizontally.",
+        "evidence_refs": [
+          "https://diskominfo.nttprov.go.id/wp-content/uploads/2024/06/1._basic_digital_skills_bhs_2nd_edition.final_.pdf",
+          "https://learn.microsoft.com/id-id/windows/apps/develop/ui/controls/scroll-controls"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: menggulir"
+      },
+      {
+        "conclusion": "Cleared. DBP defines menatal in computing as moving displayed text or pages progressively up or down on a screen, and maps English scroll to menatal as a verb.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=scroll"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: menatal"
+      },
+      {
+        "conclusion": "Cleared. To scroll and the sense move through content on a screen accurately describe the operation covered by both answers.",
+        "evidence_refs": [
+          "https://learn.microsoft.com/id-id/windows/apps/develop/ui/controls/scroll-controls",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Cleared. The localized forms differ materially: Indonesian uses menggulir, while Malaysian standard terminology uses menatal. Shared casual use of English scroll does not by itself invalidate a different-common-word learner contrast.",
+        "evidence_limitation": "The sources establish standard acceptance and attested usage, but do not provide comparable frequency measurements for everyday Indonesian versus Malaysian speech.",
+        "evidence_refs": [
+          "https://diskominfo.nttprov.go.id/wp-content/uploads/2024/06/1._basic_digital_skills_bhs_2nd_edition.final_.pdf",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=scroll",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal"
+        ],
+        "material_risk": false,
+        "subject": "National split and relation"
+      },
+      {
+        "conclusion": "Cleared. No false-friend contrast is needed: the two answers express the same screen-scrolling action in their respective varieties, rather than deceptively different meanings. The blank contrast field is therefore not materially defective.",
+        "evidence_refs": [
+          "https://diskominfo.nttprov.go.id/wp-content/uploads/2024/06/1._basic_digital_skills_bhs_2nd_edition.final_.pdf",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menatal"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "The national split is not materially overstated. Indonesian menggulir and Malaysian menatal are distinct, standard technology terms for scrolling screen content. The shared English form scroll occurs in casual technology usage, but available evidence does not show that it displaces either localized answer as the ordinary national term. The English cue and sense are aligned, the relation different-common-word is appropriate, and no false-friend contrast is warranted.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

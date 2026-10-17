@@ -1,0 +1,65 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21836,
+  "input_tokens": 98432,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1446,
+  "packet_digest": "a902da04a23ccab962b1b5dfc4f21e07947cdd4d537a26a9f0571206bb139166",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Both localized answers are valid and semantically aligned, but the national split is materially overstated: the shared English borrowing “paper bag” is documented in ordinary retail usage in both Indonesia and Malaysia. The relation should not be asserted as an unqualified different-common-word contrast, and the missing false-friend contrast should be explicitly recorded as none.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Paper bag” correctly denotes a paper container used to hold food or other goods, including purchases.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/us/dictionary/english/bag\"]},{\"subject\":\"Indonesian answer: tas kertas\",\"conclusion\":\"“Tas kertas” is a valid and ordinary Indonesian equivalent for a paper shopping bag.\",\"material_risk\":false,\"evidence_refs\":[\"https://peraturan.bpk.go.id/Download/193273/Pergub%20DIY%20No%2051%20Tahun%202021.pdf\",\"https://paperbag.id/\"]},{\"subject\":\"Malaysian answer: beg kertas\",\"conclusion\":\"“Beg kertas” is a valid Malaysian Malay equivalent. DBP’s English-Malay dictionary maps “paper bag” to “beg kertas,” and Malaysian retail usage confirms it.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=bunga+kertas\",\"https://shopee.com.my/list/paper/bag\"]},{\"subject\":\"National split and final relation\",\"conclusion\":\"The relation “different-common-word” is materially overstated. “Tas kertas” and “beg kertas” are distinct localized forms, but “paper bag” is also used as a shared borrowing in Indonesian and Malaysian retail contexts, so the card should be marked as a localized-preference contrast or shared-synonym case rather than a clean national lexical split.\",\"material_risk\":true,\"evidence_refs\":[\"https://paperbag.id/\",\"https://shopee.co.id/Paperbag-Tas-Kertas-Paper-Bag-Kraft-150-gsm-26-x-13-x-25-Serbaguna-%281-pcs%29-i.227895286.4750431540\",\"https://shopee.com.my/list/paper/bag\",\"https://www.cetak.com.my/other-products/printing/paper-bag/price-paper-bag\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present or supported. The two answers are transparent compositional equivalents meaning a bag made of paper; the empty contrast field should be explicitly represented as none rather than left ambiguous.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beg\",\"https://peraturan.bpk.go.id/Download/193273/Pergub%20DIY%20No%2051%20Tahun%202021.pdf\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Paper bag” correctly denotes a paper container used to hold food or other goods, including purchases.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/bag"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Tas kertas” is a valid and ordinary Indonesian equivalent for a paper shopping bag.",
+        "evidence_refs": [
+          "https://peraturan.bpk.go.id/Download/193273/Pergub%20DIY%20No%2051%20Tahun%202021.pdf",
+          "https://paperbag.id/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: tas kertas"
+      },
+      {
+        "conclusion": "“Beg kertas” is a valid Malaysian Malay equivalent. DBP’s English-Malay dictionary maps “paper bag” to “beg kertas,” and Malaysian retail usage confirms it.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=bunga+kertas",
+          "https://shopee.com.my/list/paper/bag"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: beg kertas"
+      },
+      {
+        "conclusion": "The relation “different-common-word” is materially overstated. “Tas kertas” and “beg kertas” are distinct localized forms, but “paper bag” is also used as a shared borrowing in Indonesian and Malaysian retail contexts, so the card should be marked as a localized-preference contrast or shared-synonym case rather than a clean national lexical split.",
+        "evidence_refs": [
+          "https://paperbag.id/",
+          "https://shopee.co.id/Paperbag-Tas-Kertas-Paper-Bag-Kraft-150-gsm-26-x-13-x-25-Serbaguna-%281-pcs%29-i.227895286.4750431540",
+          "https://shopee.com.my/list/paper/bag",
+          "https://www.cetak.com.my/other-products/printing/paper-bag/price-paper-bag"
+        ],
+        "material_risk": true,
+        "subject": "National split and final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or supported. The two answers are transparent compositional equivalents meaning a bag made of paper; the empty contrast field should be explicitly represented as none rather than left ambiguous.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beg",
+          "https://peraturan.bpk.go.id/Download/193273/Pergub%20DIY%20No%2051%20Tahun%202021.pdf"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both localized answers are valid and semantically aligned, but the national split is materially overstated: the shared English borrowing “paper bag” is documented in ordinary retail usage in both Indonesia and Malaysia. The relation should not be asserted as an unqualified different-common-word contrast, and the missing false-friend contrast should be explicitly recorded as none.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

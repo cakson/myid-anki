@@ -1,0 +1,49 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 9488,
+  "input_tokens": 12495,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 894,
+  "packet_digest": "594cbaf29a2b993ab5be1d7d2773e0f2e5554c76f3a56a6fd3934eac38c5bb86",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The English cue and sense are accurate, and both Malay forms are valid. However, treating Indonesian nasional versus Malaysian kebangsaan as a clean different-common-word contrast is potentially misleading: Malaysian Malay also uses nasional productively, especially in formal and institutional compounds. The card should mark kebangsaan as a frequent/preferred contextual equivalent rather than imply that nasional is not Malaysian Malay.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: nasional\",\"conclusion\":\"Correct and ordinary for “national” in Indonesian.\",\"material_risk\":false,\"evidence_limitation\":\"No external corpus or dictionary evidence supplied in the record.\"},{\"subject\":\"Malaysian answer: kebangsaan\",\"conclusion\":\"Correct and idiomatic, particularly in established or institutional expressions such as Hari Kebangsaan and pendidikan kebangsaan.\",\"material_risk\":false,\"evidence_limitation\":\"No external corpus or dictionary evidence supplied in the record.\"},{\"subject\":\"English cue and sense\",\"conclusion\":\"“National” and “relating to a country as a whole” align with both answers.\",\"material_risk\":false,\"evidence_limitation\":\"Semantic assessment based on the supplied content.\"},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Potentially overstrong or underqualified. The forms differ in preferred usage in some contexts, but nasional is also used in Malaysian Malay.\",\"material_risk\":true,\"evidence_limitation\":\"The record lacks independent Malaysian usage evidence and contextual examples.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false friend is present, but the empty contrast field misses the important shared-form/preference qualification.\",\"material_risk\":true,\"evidence_limitation\":\"Assessment based on the supplied candidate and decision metadata.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and ordinary for “national” in Indonesian.",
+        "evidence_limitation": "No external corpus or dictionary evidence supplied in the record.",
+        "material_risk": false,
+        "subject": "Indonesian answer: nasional"
+      },
+      {
+        "conclusion": "Correct and idiomatic, particularly in established or institutional expressions such as Hari Kebangsaan and pendidikan kebangsaan.",
+        "evidence_limitation": "No external corpus or dictionary evidence supplied in the record.",
+        "material_risk": false,
+        "subject": "Malaysian answer: kebangsaan"
+      },
+      {
+        "conclusion": "“National” and “relating to a country as a whole” align with both answers.",
+        "evidence_limitation": "Semantic assessment based on the supplied content.",
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Potentially overstrong or underqualified. The forms differ in preferred usage in some contexts, but nasional is also used in Malaysian Malay.",
+        "evidence_limitation": "The record lacks independent Malaysian usage evidence and contextual examples.",
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false friend is present, but the empty contrast field misses the important shared-form/preference qualification.",
+        "evidence_limitation": "Assessment based on the supplied candidate and decision metadata.",
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and sense are accurate, and both Malay forms are valid. However, treating Indonesian nasional versus Malaysian kebangsaan as a clean different-common-word contrast is potentially misleading: Malaysian Malay also uses nasional productively, especially in formal and institutional compounds. The card should mark kebangsaan as a frequent/preferred contextual equivalent rather than imply that nasional is not Malaysian Malay.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

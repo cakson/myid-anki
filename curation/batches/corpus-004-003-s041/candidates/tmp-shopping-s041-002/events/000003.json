@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:48:57.594220+00:00",
+  "input_digest": "debdfbaed46317213c8b78da3da35eac1aa048d82288eb3d1fd7f90585660e5a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s041:tmp-shopping-s041-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are bags for carrying purchases, but the candidate specifically denotes a paper bag while the other denotes a plastic bag; the material distinction is explicit and meaningful.\"}, {\"other_id\": \"cal3-home-001:home-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Paper bag is a material-specific subtype, whereas shopping bag is the broader purchase-carrying concept; the candidate's paper-material sense is clear.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-001",
+          "rationale": "Both are bags for carrying purchases, but the candidate specifically denotes a paper bag while the other denotes a plastic bag; the material distinction is explicit and meaningful.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-home-001:home-08",
+          "rationale": "Paper bag is a material-specific subtype, whereas shopping bag is the broader purchase-carrying concept; the candidate's paper-material sense is clear.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s041:tmp-shopping-s041-001",
+        "rationale": "Both are bags for carrying purchases, but the candidate specifically denotes a paper bag while the other denotes a plastic bag; the material distinction is explicit and meaningful.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-home-001:home-08",
+        "rationale": "Paper bag is a material-specific subtype, whereas shopping bag is the broader purchase-carrying concept; the candidate's paper-material sense is clear.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "b493ff1e5338e1251924c1048a0b9fc30654eaa44bc5608d7d0ab5bf8927b642"
+}

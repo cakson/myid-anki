@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:10:23.677677+00:00",
+  "input_digest": "e3feea73eae083f8cc46e59b2b90f1f333e7b1bb359963d57ba949e84868c4b4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A childhood friend is defined by when the friendship began, whereas a best friend is defined by exceptional closeness; the concepts and both answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-001",
+          "rationale": "A childhood friend is defined by when the friendship began, whereas a best friend is defined by exceptional closeness; the concepts and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-001",
+        "rationale": "A childhood friend is defined by when the friendship began, whereas a best friend is defined by exceptional closeness; the concepts and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "44300df73d87d92d79bab329bbf3855f9a97b5168c4eaac9b5cbdf9f78b7cb45"
+}

@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4939,
+  "input_digest": "2049592342de614b527b5d6ed91eb8da92b4d9cfed20ee08c1a2e2e74a8244f7",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 272,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s025:tmp-family-social-s025-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both refer to former romantic partners, but the candidate is specifically female while the existing concept is specifically male.\"},{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-012\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both refer to a female romantic partner, but the candidate is former/ex-romantic status while the existing concept is current or unspecified status.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-003",
+          "rationale": "Both refer to former romantic partners, but the candidate is specifically female while the existing concept is specifically male.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-012",
+          "rationale": "Both refer to a female romantic partner, but the candidate is former/ex-romantic status while the existing concept is current or unspecified status.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T19:38:43.626695+00:00",
+  "input_digest": "3b9044820553c90f6380cd0ddd861535b5df56cc7605b14a862950367a2d056b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"For the sense of a work\\u2019s name, Indonesian commonly uses \\u201cjudul\\u201d and Malaysian commonly uses \\u201ctajuk\\u201d; this is a useful everyday lexical contrast.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"title of a written or spoken work\", \"cue_rationale\": \"The bare cue \\u201ctitle\\u201d is broader, but both answers align clearly when narrowed to the name of a work.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\u201cJudul\\u201d is understood in Malaysian but \\u201ctajuk\\u201d is the ordinary preferred form for this sense; this does not materially weaken the contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"judul\", \"language\": \"malaysian\", \"rationale\": \"\\u201cJudul\\u201d exists and may be understood in Malaysian, but no concrete evidence indicates it competes with the ordinary preference for \\u201ctajuk\\u201d.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The bare cue “title” is broader, but both answers align clearly when narrowed to the name of a work.",
+      "cue_rewrite": "title of a written or spoken work",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "judul",
+        "language": "malaysian",
+        "rationale": "“Judul” exists and may be understood in Malaysian, but no concrete evidence indicates it competes with the ordinary preference for “tajuk”.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "For the sense of a work’s name, Indonesian commonly uses “judul” and Malaysian commonly uses “tajuk”; this is a useful everyday lexical contrast.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "“Judul” is understood in Malaysian but “tajuk” is the ordinary preferred form for this sense; this does not materially weaken the contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The bare cue “title” is broader, but both answers align clearly when narrowed to the name of a work.",
+    "cue_rewrite": "title of a written or spoken work",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "judul",
+      "language": "malaysian",
+      "rationale": "“Judul” exists and may be understood in Malaysian, but no concrete evidence indicates it competes with the ordinary preference for “tajuk”.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "For the sense of a work’s name, Indonesian commonly uses “judul” and Malaysian commonly uses “tajuk”; this is a useful everyday lexical contrast.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "“Judul” is understood in Malaysian but “tajuk” is the ordinary preferred form for this sense; this does not materially weaken the contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "fda7e1333310a0bef0cc957ad14806e6450f093b4a7d23db13cb00202dac5078"
+}

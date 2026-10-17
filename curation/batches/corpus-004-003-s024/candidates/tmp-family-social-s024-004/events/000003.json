@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:04:06.742348+00:00",
+  "input_digest": "75200d0ec285f7306e522f926fbfc4e9d3e05129866fe181e578483994995b8b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Younger sister is a specific female younger sibling; sibling is the broader gender-neutral concept.\"}, {\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Younger sister is a specific kinship relation; family member is a broader category.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+          "rationale": "Younger sister is a specific female younger sibling; sibling is the broader gender-neutral concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-010",
+          "rationale": "Younger sister is a specific kinship relation; family member is a broader category.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+        "rationale": "Younger sister is a specific female younger sibling; sibling is the broader gender-neutral concept.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-010",
+        "rationale": "Younger sister is a specific kinship relation; family member is a broader category.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "68b7f9efbdc0818e716472ffd59dff82d225767b15dac587d9913a9cc33aa502"
+}

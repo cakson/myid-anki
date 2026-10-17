@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T04:46:12.573500+00:00",
+  "input_digest": "cfb55b2cba90c791c78dbbe1862b0af46a23177c7bf6e3daf9092ea450e1726d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s040:tmp-shopping-s040-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A warranty is a seller or manufacturer promise covering defects; a product defect is the fault itself.\"}, {\"other_id\": \"corpus-004-003-s016:tmp-services-s016-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A warranty covers product defects under a seller or manufacturer promise, whereas insurance is broader financial protection against specified risks.\"}, {\"other_id\": \"corpus-004-003-s038:tmp-services-s038-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A warranty is the coverage promise; a claim is the formal request for compensation or benefit under such coverage.\"}, {\"other_id\": \"corpus-004-003-s040:tmp-shopping-s040-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A warranty covers product defects, while a return policy governs the rules for returning purchases.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s040:tmp-shopping-s040-006",
+          "rationale": "A warranty is a seller or manufacturer promise covering defects; a product defect is the fault itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s016:tmp-services-s016-004",
+          "rationale": "A warranty covers product defects under a seller or manufacturer promise, whereas insurance is broader financial protection against specified risks.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-001",
+          "rationale": "A warranty is the coverage promise; a claim is the formal request for compensation or benefit under such coverage.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s040:tmp-shopping-s040-008",
+          "rationale": "A warranty covers product defects, while a return policy governs the rules for returning purchases.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s040:tmp-shopping-s040-006",
+        "rationale": "A warranty is a seller or manufacturer promise covering defects; a product defect is the fault itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s016:tmp-services-s016-004",
+        "rationale": "A warranty covers product defects under a seller or manufacturer promise, whereas insurance is broader financial protection against specified risks.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s038:tmp-services-s038-001",
+        "rationale": "A warranty is the coverage promise; a claim is the formal request for compensation or benefit under such coverage.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s040:tmp-shopping-s040-008",
+        "rationale": "A warranty covers product defects, while a return policy governs the rules for returning purchases.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "2bc3ff96fc750ff283831af48d064db4458866ee114d60debc1f3cb3ea7d9a74"
+}

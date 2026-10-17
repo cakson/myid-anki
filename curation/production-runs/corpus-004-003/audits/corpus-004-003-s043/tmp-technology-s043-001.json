@@ -1,0 +1,82 @@
+{
+  "attempt_id": "40ef3da1e3259959",
+  "candidate_id": "tmp-technology-s043-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct cue for the target concept.",
+      "evidence_refs": [
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=34&k=telefon+pintar"
+      ],
+      "material_risk": false,
+      "subject": "English cue: smartphone"
+    },
+    {
+      "conclusion": "Correct and established Indonesian expression for smartphone.",
+      "evidence_refs": [
+        "https://indonesiabaik.id/infografis/jumlah-pengguna-smartphone-di-indonesia-18",
+        "https://download.garuda.kemdikbud.go.id/article.php?article=1254727&title=Penerapan+Pendekatan+Model+HCI+dalam+Analisa+Penggunaan+Ponsel+Pintar+Mobile+Phone+Android&val=15085"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: ponsel pintar"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term; DBP explicitly gives it as the equivalent of smartphone.",
+      "evidence_refs": [
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=34&k=telefon+pintar",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=telefon"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: telefon pintar"
+    },
+    {
+      "conclusion": "Accurate description of a smartphone.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=telefon"
+      ],
+      "material_risk": false,
+      "subject": "Sense: mobile phone with advanced computing functions"
+    },
+    {
+      "conclusion": "Appropriate for contrasting the localized Indonesian and Malaysian forms, while recognizing that English smartphone is also used informally in both contexts.",
+      "evidence_refs": [
+        "https://indonesiabaik.id/infografis/jumlah-pengguna-smartphone-di-indonesia-18",
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=34&k=telefon+pintar"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is present; ponsel pintar and telefon pintar are transparent, semantically matching compounds rather than misleading cross-variety forms.",
+      "evidence_limitation": "No dedicated false-friend source was necessary; the conclusion follows from the matching definitions and direct equivalence evidence.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "0fba1e30eeab011d1074a5dbf70d37f9ef093042f85b7ed5565b7055694c6d09",
+  "correction_refs": [],
+  "decision_digest": "6fa35ad92c462d2a07a4793d340c2d95235560bf92b75aa435cfd23360187b32",
+  "elapsed_ms": 21237,
+  "finding_class": "none",
+  "input_tokens": 94897,
+  "model_calls": 1,
+  "output_tokens": 1207,
+  "packet_digest": "2acaf263d45991c4835c916c4c9318c41fc7369beb32ad61297cc6d5ef9b7ef7",
+  "rationale": "Both localized answers are accurate and learner-useful. The English cue and sense align, and different-common-word is appropriate for the localized forms despite informal shared use of “smartphone.” No false-friend contrast is present or needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:08:03.561367+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s043/tmp-technology-s043-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s043",
+  "verdict": "cleared"
+}

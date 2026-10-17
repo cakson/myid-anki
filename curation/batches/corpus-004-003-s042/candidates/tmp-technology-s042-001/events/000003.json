@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T04:51:02.191957+00:00",
+  "input_digest": "56001789080fac11bca3f438c5f9da1c866090b45f451f22cc913d1d38d1fc06",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"technology-001:technology-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Laptop is a portable personal computer, while computer is a broad generic category; the candidate specifies portability and personal use.\"}, {\"other_id\": \"corpus-004-003-s043:tmp-technology-s043-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Laptop and desktop computer are distinct computer form factors; laptop is portable, whereas desktop computer is designed for use at a desk.\"}, {\"other_id\": \"corpus-004-003-s043:tmp-technology-s043-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A laptop is a portable computer, while a smartphone is a mobile phone with advanced computing functions; they are different device categories.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-02",
+          "rationale": "Laptop is a portable personal computer, while computer is a broad generic category; the candidate specifies portability and personal use.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-002",
+          "rationale": "Laptop and desktop computer are distinct computer form factors; laptop is portable, whereas desktop computer is designed for use at a desk.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-001",
+          "rationale": "A laptop is a portable computer, while a smartphone is a mobile phone with advanced computing functions; they are different device categories.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "technology-001:technology-02",
+        "rationale": "Laptop is a portable personal computer, while computer is a broad generic category; the candidate specifies portability and personal use.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s043:tmp-technology-s043-002",
+        "rationale": "Laptop and desktop computer are distinct computer form factors; laptop is portable, whereas desktop computer is designed for use at a desk.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s043:tmp-technology-s043-001",
+        "rationale": "A laptop is a portable computer, while a smartphone is a mobile phone with advanced computing functions; they are different device categories.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "094f97e89b50332db781558d5c67f9b73a7d6fd2553f4ee72b87c593f2dc6b31"
+}

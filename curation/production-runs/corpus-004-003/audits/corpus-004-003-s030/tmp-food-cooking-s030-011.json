@@ -1,0 +1,77 @@
+{
+  "attempt_id": "eba8f0914e2eb2ab",
+  "candidate_id": "tmp-food-cooking-s030-011",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for chips/crisps or thin fried snack pieces in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.web.id/keripik",
+        "https://en.wiktionary.org/wiki/keripik"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: keripik"
+    },
+    {
+      "conclusion": "Correct for chips/crisps or thin fried snack pieces in Malaysian Malay.",
+      "evidence_refs": [
+        "https://en.wiktionary.org/wiki/kerepek",
+        "https://www.uitm.edu.my/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kerepek"
+    },
+    {
+      "conclusion": "Thin crispy snack pieces is an accurate narrowing of snack chips, although the broader cue could include other chip types.",
+      "evidence_refs": [
+        "https://en.wiktionary.org/wiki/kerepek",
+        "https://kbbi.web.id/keripik"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate for the Indonesian–Malaysian lexical contrast.",
+      "evidence_refs": [
+        "https://en.wiktionary.org/wiki/kerepek",
+        "https://en.wiktionary.org/wiki/keripik"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present; keripik and kerepek are closely related regional forms with substantially overlapping meanings.",
+      "evidence_refs": [
+        "https://en.wiktionary.org/wiki/kerepek",
+        "https://en.wiktionary.org/wiki/keripik"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "62e21eaac53269cc30002115c7028d4f7b85aedab449628ffbab676348fb4daf",
+  "correction_refs": [],
+  "decision_digest": "9a6560e67a178084da44f6ba71618ab7cf264a312f6a0bbbcb51075344f60814",
+  "elapsed_ms": 13458,
+  "finding_class": "none",
+  "input_tokens": 29119,
+  "model_calls": 1,
+  "output_tokens": 870,
+  "packet_digest": "016498e54e4bfa39cbd1470fe24ac013786b4d3c0c9150f02aa7719e62904f78",
+  "rationale": "Both answers are standard everyday terms for thin fried/crispy snack pieces: Indonesian keripik and Malaysian Malay kerepek. The corrected English cue is semantically suitable. The relation different-common-word is valid, though the terms are closely related regional cognates rather than false friends.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:53:09.414668+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s030/tmp-food-cooking-s030-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "cleared"
+}

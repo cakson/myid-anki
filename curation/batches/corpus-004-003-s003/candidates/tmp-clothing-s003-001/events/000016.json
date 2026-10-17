@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:40.208984+00:00",
+  "result": {
+    "candidate_digest": "8cf9a188489a1c2b9fc36b044c228fc8d7ddf751a685140a006c40d7243647a1",
+    "candidate_id": "tmp-clothing-s003-001",
+    "checked_at": "2026-10-17T06:21:40.208984+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both translations and the English sense are valid, but the relation is misleading: Indonesian sarung and Malaysian kain sarung are not different common words; Malaysian Malay also has sarung for this garment. No false-friend contrast is substantiated. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

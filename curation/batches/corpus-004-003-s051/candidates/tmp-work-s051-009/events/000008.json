@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T05:11:04.557094+00:00",
+  "result": {
+    "candidate_digest": "5ce60d8a3cd838718d671ef05c785940da8d3e6e80ea960e0184a264452a699f",
+    "candidate_id": "tmp-work-s051-009",
+    "checked_at": "2026-10-17T05:11:04.557094+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "The pair does not express the same exact sense: Indonesian dana pensiun is a fund, whereas Malaysian pencen is the retirement payment."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pair does not express the same exact sense: Indonesian dana pensiun is a fund, whereas Malaysian pencen is the retirement payment.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

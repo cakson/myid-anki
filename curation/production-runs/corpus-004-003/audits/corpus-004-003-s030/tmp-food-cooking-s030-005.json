@@ -1,0 +1,67 @@
+{
+  "attempt_id": "b4b25cee43dd6c73",
+  "candidate_id": "tmp-food-cooking-s030-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for a person who prepares food or a cook/chef.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Boga.pdf",
+        "https://kbbi.web.id/koki"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: koki"
+    },
+    {
+      "conclusion": "Correct and directly means a person who cooks/prepares food.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemasak",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=371996&keyword=masak+"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: tukang masak"
+    },
+    {
+      "conclusion": "“Cook (person)” and “person who prepares food” are aligned and unambiguous.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Boga.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemasak"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate; the forms differ by variety without a misleading false-friend relationship.",
+      "evidence_refs": [
+        "https://kbbi.web.id/koki",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=371996&keyword=masak+"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1027600018a857deb6afff24949809204507c74659cc4fb91b11f1b1ec6e184f",
+  "correction_refs": [],
+  "decision_digest": "a519db827601b85d6d9c93c57a6f0721a845defed73f285ff405f3c18ae49e55",
+  "elapsed_ms": 16167,
+  "finding_class": "none",
+  "input_tokens": 49827,
+  "model_calls": 1,
+  "output_tokens": 853,
+  "packet_digest": "7e57e4130b05a742abfde84af5c5ee4691765f692d414d9962b00e2502780cd1",
+  "rationale": "Both answers accurately express the person sense of “cook.” Indonesian koki and Malaysian Malay tukang masak are established terms; the proposed relation is a useful variety contrast, with no false-friend issue identified.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:52:04.142510+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s030/tmp-food-cooking-s030-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "cleared"
+}
