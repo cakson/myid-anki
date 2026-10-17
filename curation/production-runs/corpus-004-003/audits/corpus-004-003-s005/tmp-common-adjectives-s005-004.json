@@ -1,0 +1,67 @@
+{
+  "attempt_id": "dd03ab5626918f64",
+  "candidate_id": "tmp-common-adjectives-s005-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and usable for personal/private contexts, including non-public ownership or information.",
+      "evidence_refs": [
+        "https://kbbi.web.id/pribadi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pribadi"
+    },
+    {
+      "conclusion": "Correct and especially appropriate for private ownership, property, roads, or non-public use.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=PRIVATE",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=persendirian"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: persendirian"
+    },
+    {
+      "conclusion": "“Private (not public)” appropriately narrows the intended sense and supports both answers, though pribadi is broader and often means personal or individual.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=PRIVATE",
+        "https://kbbi.web.id/pribadi"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is defensible. No strict false friend is present, but the card should state that Malaysian peribadi means personal/individual and is not the clearest choice for private/non-public contexts; persendirian is preferred there.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=peribadi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=PRIVATE"
+      ],
+      "material_risk": true,
+      "subject": "Relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "a43effacb781b9a1d29201cc1ebf987a540b77b8d5ca338921db9c1e2ba4e463",
+  "correction_refs": [],
+  "decision_digest": "09c869ce153b5f8fd195dd82fd68f8fb9e04a52a7e2c9373fe9597fcc35cfc48",
+  "elapsed_ms": 20417,
+  "finding_class": "metadata-only",
+  "input_tokens": 60181,
+  "model_calls": 1,
+  "output_tokens": 1536,
+  "packet_digest": "d68f086332026aab5e679c38fbc6ecd38a4e4246360a7f6c0567219b28eb632d",
+  "rationale": "Both answers and the narrowed cue are acceptable. However, the empty contrast omits a useful learner warning: Malaysian peribadi primarily means personal/individual, while persendirian is the clearer term for private or non-public contexts. This is a clarification issue, not an answer error.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:21:23.469600+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s005/tmp-common-adjectives-s005-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s005",
+  "verdict": "needs-correction"
+}

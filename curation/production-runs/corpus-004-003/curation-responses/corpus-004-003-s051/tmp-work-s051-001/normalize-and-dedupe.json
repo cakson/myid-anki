@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5281,
+  "input_digest": "81aa6e6974512e77ef566ffd6a02d1264e274d0a4cc2ee72bb8c25578d3fbcca",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 257,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-work-001:work-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Employer is the person or organization that employs a worker; employee is the worker employed, so the roles are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-work-001:work-01",
+          "rationale": "Employer is the person or organization that employs a worker; employee is the worker employed, so the roles are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

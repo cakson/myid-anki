@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:27:04.616607+00:00",
+  "input_digest": "104b9852b91c5625e0dc5474e85183de5b595afe999dab1a3f7ead9121615b45",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s031:tmp-food-cooking-s031-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Seasoning is an ingredient added to flavor food, while ingredient is any component used to make a dish; seasoning is a narrower subtype, not the same concept.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-004",
+          "rationale": "Seasoning is an ingredient added to flavor food, while ingredient is any component used to make a dish; seasoning is a narrower subtype, not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-004",
+        "rationale": "Seasoning is an ingredient added to flavor food, while ingredient is any component used to make a dish; seasoning is a narrower subtype, not the same concept.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "3c1efd9309cfba6eb72d1c72c25dc5806ce3e44892c454e3f49d28b69a1f17d4"
+}

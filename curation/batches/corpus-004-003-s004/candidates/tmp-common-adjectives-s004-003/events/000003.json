@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:22:57.522391+00:00",
+  "input_digest": "15e862213645b75c251abc7e3fd34eb5b80148e0c0978b9fe0253c6177512c11",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s002:tmp-common-adjectives-s002-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate means fully developed and ready to eat, specifically describing fruit ripeness; the existing concept means prepared for use or action.\"}, {\"other_id\": \"corpus-004-003-s005:tmp-common-adjectives-s005-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate describes biological ripeness of fruit, whereas the existing concept means obtainable or ready for use; the senses and answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-004",
+          "rationale": "The candidate means fully developed and ready to eat, specifically describing fruit ripeness; the existing concept means prepared for use or action.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-012",
+          "rationale": "The candidate describes biological ripeness of fruit, whereas the existing concept means obtainable or ready for use; the senses and answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-004",
+        "rationale": "The candidate means fully developed and ready to eat, specifically describing fruit ripeness; the existing concept means prepared for use or action.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-012",
+        "rationale": "The candidate describes biological ripeness of fruit, whereas the existing concept means obtainable or ready for use; the senses and answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "2dd945afde595e20d49f02562f5e977e9841224bec1525fb7e50c7ff25b4715a"
+}

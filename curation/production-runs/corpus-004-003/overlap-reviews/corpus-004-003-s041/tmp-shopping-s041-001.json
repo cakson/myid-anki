@@ -1,0 +1,86 @@
+{
+  "attempt_id": "76cb78e942414657",
+  "candidate_id": "tmp-shopping-s041-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Plastic bag” correctly matches a thin plastic bag used for carrying purchases.",
+      "evidence_refs": [
+        "https://www.collinsdictionary.com/dictionary/english/plastic-bag",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/shopping-bag"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Kantong plastik is an ordinary Indonesian term for a plastic shopping/carry bag; Indonesian consumer material uses it directly in contrast with reusable shopping bags.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/campaigns/hari-bebas-kantong-plastik",
+        "https://kbbi.co.id/arti-kata/kantong"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kantong plastik"
+    },
+    {
+      "conclusion": "Beg plastik is an established Malaysian Malay expression for plastic bags used in shopping and product packaging.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beg",
+        "https://dewan.selangor.gov.my/assets/pdf/sessions/2017/Sesi%201/mulut_1701.pdf",
+        "https://www.mbsp.gov.my/brgonline/personalization/perniagaan/beg-plastik.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: beg plastik"
+    },
+    {
+      "conclusion": "The two expressions denote the same ordinary object and therefore overlap in sense, but the learner forms themselves are distinct and supported as ordinary regional preferences. No evidence found that kantong plastik is the normal Malaysian answer or beg plastik the normal Indonesian answer. A frequency-balanced cross-variety corpus was not available, so exclusivity cannot be claimed.",
+      "evidence_limitation": "Sources establish usage in each variety but do not provide comparable national frequency or comprehension data.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/campaigns/hari-bebas-kantong-plastik",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beg",
+        "https://www.mbsp.gov.my/brgonline/personalization/perniagaan/beg-plastik.pdf"
+      ],
+      "material_risk": false,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "different-common-word is appropriate: the answers are common lexical alternatives across the two varieties, not identical forms.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/campaigns/hari-bebas-kantong-plastik",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=beg"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed. Kantong plastik and beg plastik transparently describe the same concept, and neither answer creates a misleading cross-language interpretation.",
+      "evidence_limitation": "No dedicated false-friend source is necessary because the reviewed forms are straightforward compositional equivalents and no misleading cognate was identified.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "97555af3fd252fd923aa373531aa41e2c5de5e6379b01bd93b31668c4cfe2aac",
+  "correction_refs": [],
+  "decision_digest": "1dedf239c818e3f7a7e6e9a6e783f78c1c338e2155fed9a38a400cfd74e3f1de",
+  "elapsed_ms": 26324,
+  "finding_class": "none",
+  "input_tokens": 99824,
+  "model_calls": 1,
+  "output_tokens": 2006,
+  "packet_digest": "fb2d393a8a4fb4259a2330db9baa1c76c09dab10d9bb858f96208f0096edad1e",
+  "rationale": "The cue, sense, and both answers are accurate ordinary forms for their respective varieties. The forms are semantically equivalent but not lexically overlapping: Indonesian kantong plastik and Malaysian beg plastik. Available evidence does not show the national split to be materially overstated. The empty contrast is appropriate because neither answer is a false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:09:10.628959+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s041/tmp-shopping-s041-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "cleared"
+}

@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:27:07.469622+00:00",
+  "input_digest": "cc38dba060dd7c63ff84ccff2d71dbf3b006ed736bd6a2267a9eadbee3fd812e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian answer menengah normally denotes secondary/intermediate level or education, not generally 'less important or following a primary item.'\"], \"material_concerns\": [\"The pair does not express the same exact sense: Indonesian sekunder fits the priority/order sense, while Malaysian menengah introduces a category or level sense. Malaysian sekunder is the ordinary counterpart for the intended sense.\"], \"rationale\": \"Sekunder fits 'less important or following a primary item' in Indonesian. Menengah is not a reliable Malaysian equivalent for that sense; it commonly means secondary-level or intermediate.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue preserving the stated priority/order concept makes both answers ordinary equivalents; menengah shifts toward a level or category sense.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Sekunder is plausibly ordinary in both varieties for the intended sense, so it defeats the proposed Indonesian\\u2013Malaysian preference.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"sekunder\", \"language\": \"malaysian\", \"rationale\": \"In Malaysian, sekunder is a plausible ordinary competitor for the intended 'following or less important than primary' sense, making menengah misleading here.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malaysian answer menengah normally denotes secondary/intermediate level or education, not generally 'less important or following a primary item.'"
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue preserving the stated priority/order concept makes both answers ordinary equivalents; menengah shifts toward a level or category sense.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair does not express the same exact sense: Indonesian sekunder fits the priority/order sense, while Malaysian menengah introduces a category or level sense. Malaysian sekunder is the ordinary counterpart for the intended sense."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "sekunder",
+        "language": "malaysian",
+        "rationale": "In Malaysian, sekunder is a plausible ordinary competitor for the intended 'following or less important than primary' sense, making menengah misleading here.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Sekunder fits 'less important or following a primary item' in Indonesian. Menengah is not a reliable Malaysian equivalent for that sense; it commonly means secondary-level or intermediate.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Sekunder is plausibly ordinary in both varieties for the intended sense, so it defeats the proposed Indonesian–Malaysian preference.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malaysian answer menengah normally denotes secondary/intermediate level or education, not generally 'less important or following a primary item.'"
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue preserving the stated priority/order concept makes both answers ordinary equivalents; menengah shifts toward a level or category sense.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair does not express the same exact sense: Indonesian sekunder fits the priority/order sense, while Malaysian menengah introduces a category or level sense. Malaysian sekunder is the ordinary counterpart for the intended sense."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "sekunder",
+      "language": "malaysian",
+      "rationale": "In Malaysian, sekunder is a plausible ordinary competitor for the intended 'following or less important than primary' sense, making menengah misleading here.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Sekunder fits 'less important or following a primary item' in Indonesian. Menengah is not a reliable Malaysian equivalent for that sense; it commonly means secondary-level or intermediate.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Sekunder is plausibly ordinary in both varieties for the intended sense, so it defeats the proposed Indonesian–Malaysian preference.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "d56254d42486c52eaaf569df71b338ae1ec14b15b5c57f2e1c5adffaddc10131"
+}

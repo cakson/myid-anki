@@ -1,0 +1,65 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 32206,
+  "input_tokens": 145070,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2023,
+  "packet_digest": "014f848128bcefbe7d12e8dd3b1c776f66327888cb648ce9b9a7e3f33c09dace",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both answers correctly express the cue, but the national split is materially overstated. Indonesian officially uses menyikat gigi, while Malaysian references also document menggosok gigi as correct and memberus gigi as valid. Gosok/menggosok gigi is therefore an ordinary accepted equivalent across both varieties. The two forms are not a meaningful false-friend contrast; they are transparent near-equivalents with differing preferences. Retain the answers only if the card explicitly labels them as variety preferences and adds the shared alternative.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Correct: “to brush teeth” means to clean the teeth using a small brush, normally with toothpaste; the supplied sense is aligned.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english/brush\"]},{\"subject\":\"Indonesian answer: menyikat gigi\",\"conclusion\":\"Correct and well-supported as Indonesian usage. Indonesian government health materials define menyikat gigi as cleaning teeth with a toothbrush or similar tool.\",\"material_risk\":false,\"evidence_refs\":[\"https://kemkes.go.id/app_asset/file_content_download/17169067256655eae5553985.98376730.pdf\",\"https://keslan.kemkes.go.id/view_artikel/2116/pengaruh-perilaku-pemeliharaan-gigi-dan-mulut-pada-karies\"]},{\"subject\":\"Malaysian answer: memberus gigi\",\"conclusion\":\"Correct and well-supported. DBP defines memberus as cleaning with a brush and gives brushing teeth as its example.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memberus\",\"https://prpm.dbp.gov.my/Cari1?d=10456&keyword=berus\"]},{\"subject\":\"Shared-equivalent overlap and national split\",\"conclusion\":\"Material overlap is established. Indonesian official materials use gosok gigi, and DBP records menggosok gigi as correct Malaysian usage, including explicit guidance that it is the more precise expression in this context. Thus the contrast is preference-based, not a clean national separation.\",\"material_risk\":true,\"evidence_refs\":[\"https://keslan.kemkes.go.id/view_artikel/3392/apakah-putra-ibu-menolak-gosok-gigi\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menggosok\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memberus\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"The relation different-common-word is defensible only if explicitly interpreted as differing preferred forms. It is misleading without that qualification. No false-friend contrast is supported: Indonesian menyikat and Malaysian memberus both transparently refer to cleaning with a brush, and Malay references also list menyikat as meaning cleaning with a sikat/memberus.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=sikat\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=memberus\",\"https://kemkes.go.id/app_asset/file_content_download/17169067256655eae5553985.98376730.pdf\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct: “to brush teeth” means to clean the teeth using a small brush, normally with toothpaste; the supplied sense is aligned.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/brush"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and well-supported as Indonesian usage. Indonesian government health materials define menyikat gigi as cleaning teeth with a toothbrush or similar tool.",
+        "evidence_refs": [
+          "https://kemkes.go.id/app_asset/file_content_download/17169067256655eae5553985.98376730.pdf",
+          "https://keslan.kemkes.go.id/view_artikel/2116/pengaruh-perilaku-pemeliharaan-gigi-dan-mulut-pada-karies"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: menyikat gigi"
+      },
+      {
+        "conclusion": "Correct and well-supported. DBP defines memberus as cleaning with a brush and gives brushing teeth as its example.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memberus",
+          "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=berus"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: memberus gigi"
+      },
+      {
+        "conclusion": "Material overlap is established. Indonesian official materials use gosok gigi, and DBP records menggosok gigi as correct Malaysian usage, including explicit guidance that it is the more precise expression in this context. Thus the contrast is preference-based, not a clean national separation.",
+        "evidence_refs": [
+          "https://keslan.kemkes.go.id/view_artikel/3392/apakah-putra-ibu-menolak-gosok-gigi",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menggosok",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memberus"
+        ],
+        "material_risk": true,
+        "subject": "Shared-equivalent overlap and national split"
+      },
+      {
+        "conclusion": "The relation different-common-word is defensible only if explicitly interpreted as differing preferred forms. It is misleading without that qualification. No false-friend contrast is supported: Indonesian menyikat and Malaysian memberus both transparently refer to cleaning with a brush, and Malay references also list menyikat as meaning cleaning with a sikat/memberus.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=sikat",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=memberus",
+          "https://kemkes.go.id/app_asset/file_content_download/17169067256655eae5553985.98376730.pdf"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both answers correctly express the cue, but the national split is materially overstated. Indonesian officially uses menyikat gigi, while Malaysian references also document menggosok gigi as correct and memberus gigi as valid. Gosok/menggosok gigi is therefore an ordinary accepted equivalent across both varieties. The two forms are not a meaningful false-friend contrast; they are transparent near-equivalents with differing preferences. Retain the answers only if the card explicitly labels them as variety preferences and adds the shared alternative.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

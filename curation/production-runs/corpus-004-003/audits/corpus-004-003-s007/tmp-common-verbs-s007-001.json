@@ -1,0 +1,72 @@
+{
+  "attempt_id": "96ce45d55b1ebd7c",
+  "candidate_id": "tmp-common-verbs-s007-001",
+  "claim_reviews": [
+    {
+      "conclusion": "“Happen” accurately matches “come about or take place.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Terjadi” is a correct and ordinary Indonesian equivalent for the stated sense.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: terjadi"
+    },
+    {
+      "conclusion": "“Berlaku” is a correct Malaysian Malay equivalent meaning to occur, take place, or happen.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: berlaku"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable as a preference contrast, provided it is not read as claiming that each form is exclusive to one language variety.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku",
+        "https://kbbi.kemendikdasmen.go.id/"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No mandatory false-friend contrast is present. “Berlaku” has additional meanings including “apply” and “be valid,” but those do not invalidate the event-occurrence sense here.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlaku"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e0a15ce27b414209dea9b578acfa54447b1b0fa05469e52a35bf79685a247de1",
+  "correction_refs": [],
+  "decision_digest": "3fed9cfedc5eede37daaba3c393a04f44064e9a63d651dcee568755f113b4df7",
+  "elapsed_ms": 15220,
+  "finding_class": "none",
+  "input_tokens": 52249,
+  "model_calls": 1,
+  "output_tokens": 1059,
+  "packet_digest": "8dacc9518b61d2923e41bd769ecac5ee5b916c83149a76ac3f45c492bd38dee0",
+  "rationale": "Both answers fit the requested sense. “Terjadi” is appropriate Indonesian for “happen,” and Malaysian “berlaku” directly includes the sense “occur/take place.” The distinction is a useful national preference, not an exclusive contrast. “Berlaku” also has meanings such as “apply” or “be valid,” but this is ordinary polysemy rather than a false friend for the given cue.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:23:24.792627+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s007/tmp-common-verbs-s007-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s007",
+  "verdict": "cleared"
+}

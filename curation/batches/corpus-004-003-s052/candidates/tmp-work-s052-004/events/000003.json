@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T05:12:43.038087+00:00",
+  "input_digest": "300af1bc98e78aa49dac1a893020b964490f64eb2e5ed2c5e09ed1536fa453b7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s020:tmp-work-s020-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A company director is a person who directs or governs a company; a manager manages a team or organization, so the roles are related but not the same concept.\"}, {\"other_id\": \"corpus-004-003-s051:tmp-work-s051-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A company director is a senior company-directing role, whereas a supervisor directly oversees workers; their responsibilities and level differ.\"}, {\"other_id\": \"corpus-004-003-s052:tmp-work-s052-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Company director names a specific senior organizational role; job title is a general term for any official position.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s020:tmp-work-s020-001",
+          "rationale": "A company director is a person who directs or governs a company; a manager manages a team or organization, so the roles are related but not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s051:tmp-work-s051-002",
+          "rationale": "A company director is a senior company-directing role, whereas a supervisor directly oversees workers; their responsibilities and level differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s052:tmp-work-s052-003",
+          "rationale": "Company director names a specific senior organizational role; job title is a general term for any official position.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s020:tmp-work-s020-001",
+        "rationale": "A company director is a person who directs or governs a company; a manager manages a team or organization, so the roles are related but not the same concept.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s051:tmp-work-s051-002",
+        "rationale": "A company director is a senior company-directing role, whereas a supervisor directly oversees workers; their responsibilities and level differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s052:tmp-work-s052-003",
+        "rationale": "Company director names a specific senior organizational role; job title is a general term for any official position.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "1fa56e0ca14dbc45050499e9bc0b6afbb3a4a28a17ceefa8786a707f7ef37efe"
+}

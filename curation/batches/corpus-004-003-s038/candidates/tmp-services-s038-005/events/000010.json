@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T04:44:27.552125+00:00",
+  "result": {
+    "candidate_digest": "de43a81642b7ad0ca8e9b5070db965dad40dbc03c78a699b8deef4a0c6d1570b",
+    "candidate_id": "tmp-services-s038-005",
+    "checked_at": "2026-10-17T04:44:27.552125+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "The answers do not express the same exact sense: Malaysian \"balai bomba\" is a fire station, while Indonesian \"pemadam kebakaran\" is not specifically a station."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The answers do not express the same exact sense: Malaysian \"balai bomba\" is a fire station, while Indonesian \"pemadam kebakaran\" is not specifically a station.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:49:26.834516+00:00",
+  "input_digest": "4a523e0605f51136f11a393bed972a018519542abfda6445bd2f6638d3b6dfa9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s041:tmp-shopping-s041-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Counterfeit product means an imitation or fake item, while genuine product means an authentic item; the concepts are opposites, not duplicates.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-004",
+          "rationale": "Counterfeit product means an imitation or fake item, while genuine product means an authentic item; the concepts are opposites, not duplicates.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s041:tmp-shopping-s041-004",
+        "rationale": "Counterfeit product means an imitation or fake item, while genuine product means an authentic item; the concepts are opposites, not duplicates.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8af42573fe3a6b2f383162b118cc63abde8b26010dd57b90bcb2bdcd023ef1a2"
+}

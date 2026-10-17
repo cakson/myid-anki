@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T04:44:14.468056+00:00",
+  "input_digest": "7698ad93a00b85c7eec65052d17925863e4665dde6ccaaab14fb3d2f9fdaeb9b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A waiting list is a list of people awaiting a service or place; a queue is the ordered line or process in which people wait. The senses and both answer sets differ.\"}, {\"other_id\": \"corpus-004-002-s014:tmp-services-s014-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A waiting list records people awaiting service or placement, whereas a queue number identifies a person's service order; the senses and both answer sets differ.\"}, {\"other_id\": \"corpus-004-003-s016:tmp-daily-life-s016-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A waiting list is a list of people awaiting service or a place, while a laundry room is a physical room for washing clothes; no cue or answer overlap.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-04",
+          "rationale": "A waiting list is a list of people awaiting a service or place; a queue is the ordered line or process in which people wait. The senses and both answer sets differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-002",
+          "rationale": "A waiting list records people awaiting service or placement, whereas a queue number identifies a person's service order; the senses and both answer sets differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-006",
+          "rationale": "A waiting list is a list of people awaiting service or a place, while a laundry room is a physical room for washing clothes; no cue or answer overlap.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-04",
+        "rationale": "A waiting list is a list of people awaiting a service or place; a queue is the ordered line or process in which people wait. The senses and both answer sets differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s014:tmp-services-s014-002",
+        "rationale": "A waiting list records people awaiting service or placement, whereas a queue number identifies a person's service order; the senses and both answer sets differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s016:tmp-daily-life-s016-006",
+        "rationale": "A waiting list is a list of people awaiting service or a place, while a laundry room is a physical room for washing clothes; no cue or answer overlap.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "b35467db12d033ba4d366eed63d8f53efd59b83bf60daeab0b694e1b6413737b"
+}

@@ -1,0 +1,51 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 13230,
+  "input_tokens": 33272,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 927,
+  "packet_digest": "60969a6ccb2e46a1fbfe49178f5af7a3e46b17c4f1af87f18fc2da3cfe0854cc",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers identify the same vehicle device. Indonesian “wiper kaca” is a common colloquial automotive form, though “wiper kaca depan” is more explicit; Malaysian “pengelap cermin” is well supported as the standard Malay term. The English cue and sense are accurate, and the relation “different-common-word” is appropriate. No false-friend contrast is required.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Accurate: “windshield wiper” is a device that clears rain from a vehicle windshield.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.hyundai.com/content/dam/hyundai/id/en/data/marketing/manual/ioniq-electric/2020/Ionic-EV-Owners-Manual_INA_OKE2.pdf\"]},{\"subject\":\"Indonesian answer: wiper kaca\",\"conclusion\":\"Acceptable common Indonesian usage for an automotive wiper, but less precise than “wiper kaca depan”; the phrase can also refer to a glass-cleaning squeegee in other contexts.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.hyundai.com/content/dam/hyundai/id/en/data/marketing/manual/ioniq-electric/2020/Ionic-EV-Owners-Manual_INA_OKE2.pdf\",\"https://productnation.co/id/17757/wiper-pembersih-kaca-bagus-indonesia/\"]},{\"subject\":\"Malaysian answer: pengelap cermin\",\"conclusion\":\"Accurate and established Malaysian Malay terminology for a vehicle windshield wiper.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.proton.com/assets/pdf/Persona%20MC2/PERSONA_Owners_Manual_Jan2024_compressed.pdf\",\"https://metrodriving.com.my/en/wp-content/uploads/KPP_DABm.pdf\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"“different-common-word” is appropriate because the Indonesian borrowing and Malaysian Malay lexical form are synonymous regional alternatives. No false-friend contrast is present or needed.\",\"material_risk\":false,\"evidence_limitation\":\"Evidence supports the meanings and regional terminology; it does not establish absolute frequency rankings across all speakers.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate: “windshield wiper” is a device that clears rain from a vehicle windshield.",
+        "evidence_refs": [
+          "https://www.hyundai.com/content/dam/hyundai/id/en/data/marketing/manual/ioniq-electric/2020/Ionic-EV-Owners-Manual_INA_OKE2.pdf"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Acceptable common Indonesian usage for an automotive wiper, but less precise than “wiper kaca depan”; the phrase can also refer to a glass-cleaning squeegee in other contexts.",
+        "evidence_refs": [
+          "https://www.hyundai.com/content/dam/hyundai/id/en/data/marketing/manual/ioniq-electric/2020/Ionic-EV-Owners-Manual_INA_OKE2.pdf",
+          "https://productnation.co/id/17757/wiper-pembersih-kaca-bagus-indonesia/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: wiper kaca"
+      },
+      {
+        "conclusion": "Accurate and established Malaysian Malay terminology for a vehicle windshield wiper.",
+        "evidence_refs": [
+          "https://www.proton.com/assets/pdf/Persona%20MC2/PERSONA_Owners_Manual_Jan2024_compressed.pdf",
+          "https://metrodriving.com.my/en/wp-content/uploads/KPP_DABm.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: pengelap cermin"
+      },
+      {
+        "conclusion": "“different-common-word” is appropriate because the Indonesian borrowing and Malaysian Malay lexical form are synonymous regional alternatives. No false-friend contrast is present or needed.",
+        "evidence_limitation": "Evidence supports the meanings and regional terminology; it does not establish absolute frequency rankings across all speakers.",
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers identify the same vehicle device. Indonesian “wiper kaca” is a common colloquial automotive form, though “wiper kaca depan” is more explicit; Malaysian “pengelap cermin” is well supported as the standard Malay term. The English cue and sense are accurate, and the relation “different-common-word” is appropriate. No false-friend contrast is required.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

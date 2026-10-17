@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:09:14.666492+00:00",
+  "input_digest": "81aa6e6974512e77ef566ffd6a02d1264e274d0a4cc2ee72bb8c25578d3fbcca",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-work-001:work-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Employer is the person or organization that employs a worker; employee is the worker employed, so the roles are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-work-001:work-01",
+          "rationale": "Employer is the person or organization that employs a worker; employee is the worker employed, so the roles are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-work-001:work-01",
+        "rationale": "Employer is the person or organization that employs a worker; employee is the worker employed, so the roles are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "468a04f98b2415721dc255d7a32885e3961e08e8c823ef1a672b87d63fef63ee"
+}

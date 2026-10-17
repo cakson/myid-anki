@@ -1,0 +1,69 @@
+{
+  "attempt_id": "a90730ab33df9437",
+  "candidate_id": "tmp-directions-location-s019-001",
+  "claim_reviews": [
+    {
+      "conclusion": "\"On an upper floor\" correctly specifies a static location and is clearer than bare \"upstairs\" for this card.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=atas",
+        "https://elon.io/grammar/malay/relators/spatial"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "\"Lantai atas\" means \"upper floor,\" but for the stated locative sense the learner-facing phrase should be \"di lantai atas.\"",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/lantai-atas",
+        "https://repositori.kemendikdasmen.go.id/14330/1/Pengindonesiaan%20kata%20dan%20ungkapan%20asing.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "\"Tingkat atas\" is the appropriate Malaysian Malay lexical expression, but the static-location answer should be \"di tingkat atas.\"",
+      "evidence_refs": [
+        "https://elon.io/grammar/malay/relators/spatial",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=atas"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "\"Different-common-word\" is reasonable: Indonesian prefers \"lantai\" while Malaysian Malay commonly uses \"tingkat\" in this expression. There is no identified false-friend contrast; \"atas\" has the expected upper/up meaning in both.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/indonesian-english/lantai-atas",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=atas",
+        "https://admin.opentran.net/pdf/upload/en-ms.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "7fadd58195bd392d78b8fa8bff2dbdb45fb1eedf3968b0e6b3a30c9222f8e6f3",
+  "correction_refs": [],
+  "decision_digest": "0c53405c1c1988ad63c1220ecce09eed9328935d103ac60b5cb27fe92eac53d3",
+  "elapsed_ms": 14502,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 33054,
+  "model_calls": 1,
+  "output_tokens": 1094,
+  "packet_digest": "8691ec61b63826f68fc97dfa7b4c9c51c19a7288e79124d6c3aa8f3df5f63c5f",
+  "rationale": "The lexical choices are appropriate, but the answers omit the locative preposition required for the stated sense. Use Indonesian \"di lantai atas\" and Malaysian Malay \"di tingkat atas\" for \"on an upper floor.\" No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:38:17.950672+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s019/tmp-directions-location-s019-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s019",
+  "verdict": "needs-correction"
+}

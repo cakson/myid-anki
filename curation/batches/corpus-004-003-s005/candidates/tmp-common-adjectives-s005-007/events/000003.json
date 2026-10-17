@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:26:19.615371+00:00",
+  "input_digest": "7cfd29070d35135a170f9ef6a762894ebd5561268f7bdcb3c5ac6709dbc81261",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s005:tmp-common-adjectives-s005-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"National means relating to a country as a whole, while foreign means from another country; the senses are contrasting but distinct.\"}, {\"other_id\": \"corpus-004-003-s005:tmp-common-adjectives-s005-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"National concerns one country as a whole, while international involves more than one country; these are clearly distinct senses.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-006",
+          "rationale": "National means relating to a country as a whole, while foreign means from another country; the senses are contrasting but distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-008",
+          "rationale": "National concerns one country as a whole, while international involves more than one country; these are clearly distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-006",
+        "rationale": "National means relating to a country as a whole, while foreign means from another country; the senses are contrasting but distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-008",
+        "rationale": "National concerns one country as a whole, while international involves more than one country; these are clearly distinct senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "df88ff2e3f5c4737437fc0659ad47168d94eae72bca0d4adf8971bf8986268c5"
+}

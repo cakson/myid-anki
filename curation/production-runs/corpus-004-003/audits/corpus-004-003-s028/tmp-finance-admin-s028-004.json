@@ -1,0 +1,64 @@
+{
+  "attempt_id": "8473e357dbbefab4",
+  "candidate_id": "tmp-finance-admin-s028-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Account holder” correctly matches a person officially associated with or owning a bank account registered in their name.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/pl/example/english/account-holder",
+        "https://dictionary.cambridge.org/us/dictionary/english/holder"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Pemilik rekening” is a valid and natural Indonesian expression for the account owner/holder in banking contexts.",
+      "evidence_refs": [
+        "https://iasc.ojk.go.id/",
+        "https://www.ojk.go.id/id/kanal/perbankan/Documents/Pages/Sistem-Layanan-Informasi-Keuangan/PEDOMAN%20PENYUSUNAN%20LAPORAN%20DEBITUR%20V6.1-20170119.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pemegang akaun” is a standard Malaysian Malay expression for account holder; DBP usage supports the term and “akaun” denotes a bank account.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=account+for",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Akaun"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate because the proposed national preferences differ lexically, while cross-variety alternatives remain possible. There is no misleading false-friend relationship.",
+      "evidence_limitation": "Available references establish the meanings and usage of the proposed forms but do not provide a comprehensive frequency comparison across Indonesian and Malaysian corpora.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "4a5f24435a649f74896ba9629feb211b421aafedb9d5efd6bc2bf29c6e26628b",
+  "correction_refs": [],
+  "decision_digest": "b81080d03b5bdae2983cca44cfa8623795daed47091111de209957086073dbdb",
+  "elapsed_ms": 18092,
+  "finding_class": "none",
+  "input_tokens": 49901,
+  "model_calls": 1,
+  "output_tokens": 999,
+  "packet_digest": "a674ae470451c5d2fef848c2532537c41e89a0a5d29f8d67231a6dccac079303",
+  "rationale": "Both Malay answers accurately express “account holder” in the stated banking sense. Indonesian “pemilik rekening” and Malaysian “pemegang akaun” are natural variety-appropriate forms. The relation “different-common-word” is justified as a learner preference contrast, not an exclusive distinction. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:50:47.144263+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s028/tmp-finance-admin-s028-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s028",
+  "verdict": "cleared"
+}

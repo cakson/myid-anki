@@ -1,0 +1,75 @@
+{
+  "attempt_id": "e7fc12c994d7c858",
+  "candidate_id": "tmp-daily-life-s016-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Napkin correctly denotes a small cloth or paper item used while eating.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/napkin",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/napkin"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Serbet is an appropriate Indonesian equivalent for a dining napkin.",
+      "evidence_refs": [
+        "https://kbbi.web.id/serbet",
+        "https://kateglo.lostfocus.org/?action=view&mod=dictionary&phrase=serbet"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: serbet"
+    },
+    {
+      "conclusion": "Napkin is an attested and appropriate Malaysian Malay term for the stated dining sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lampin%20I%201",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/napkin"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: napkin"
+    },
+    {
+      "conclusion": "Different-common-word is accurate: Indonesian uses serbet, while Malaysian Malay commonly uses napkin for this sense.",
+      "evidence_refs": [
+        "https://kbbi.web.id/serbet",
+        "https://dictionary.cambridge.org/us/dictionary/english-malaysian/napkin"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is required. Malaysian napkin can also occur in a diaper-related sense in dictionary material, but the dining sense is explicit and unambiguous here.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lampin%20I%201"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "844f5afc530598923c4ae59b846981c0f17365d085c65586aaeae3cc5ce3b21b",
+  "correction_refs": [],
+  "decision_digest": "10dcd6b262d98a6e253ab18ee0de2dcccdf027a52b904828d017e7ede83c6a6b",
+  "elapsed_ms": 15613,
+  "finding_class": "none",
+  "input_tokens": 49938,
+  "model_calls": 1,
+  "output_tokens": 1004,
+  "packet_digest": "c7998da47e2af9e9df340f9f66e6485ea2832b74d3866e3034805dd2ebb5aafd",
+  "rationale": "Both answers match the dining sense. Indonesian serbet is the standard term for a cloth used to wipe the hands or mouth after eating, while Malaysian Malay napkin is documented for the same cloth-or-paper dining item. The relation different-common-word is appropriate. No material false-friend risk is present; tissue/tisu may be a broader colloquial alternative, but that does not invalidate the card.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:37:03.184730+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s016/tmp-daily-life-s016-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s016",
+  "verdict": "cleared"
+}

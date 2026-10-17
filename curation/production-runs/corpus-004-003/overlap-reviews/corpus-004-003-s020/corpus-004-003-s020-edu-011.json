@@ -1,0 +1,96 @@
+{
+  "attempt_id": "1c6fe16b818b904e",
+  "candidate_id": "corpus-004-003-s020-edu-011",
+  "claim_reviews": [
+    {
+      "conclusion": "“Answer sheet” correctly denotes paper on which test or examination answers are written.",
+      "evidence_refs": [
+        "https://dictionary.reverso.net/english-definition/answer%2Bsheet",
+        "https://www.cambridgeenglish.org/pt/Images/168143-cambridge-english-preliminary-for-schools-teachers-handbook.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Lembar jawaban” is a valid and well-attested Indonesian examination term, but it is not an exclusive Indonesian form.",
+      "evidence_refs": [
+        "https://pusatprestasinasional.kemdikbud.go.id/uploads/lampiran/Pedoman%20OSN%20SMA_MA%202024%20fix.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lembar jawaban"
+    },
+    {
+      "conclusion": "“Kertas jawaban” is also attested in Indonesian educational usage, so treating it as specifically Malaysian materially overstates the variety distinction.",
+      "evidence_refs": [
+        "https://download.garuda.kemdikbud.go.id/article.php?article=690253&title=PROFIL%20PEMECAHAN%20MASALAH%20MATEMATIKA%20SISWA%20SMP%20KELAS%20VII%20PADA%20MATERI%20BANGUN%20DATAR%20DITINJAU%20DARI%20TINGKAT%20EFIKASI%20DIRI&val=5148",
+        "https://download.garuda.kemdikbud.go.id/article.php?article=115692&title=Evaluasi%20Sistem%20Penilaian%20di%20PTAI&val=5279"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian alternative: kertas jawaban"
+    },
+    {
+      "conclusion": "“Kertas jawapan” is a standard and ordinary Malaysian examination expression; DBP materials use it for examination answer papers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=calon%201",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jawapan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kertas jawapan"
+    },
+    {
+      "conclusion": "The lexical components overlap substantially: Malaysian DBP defines “jawapan” as “jawaban,” and “lembar/lembaran” is also a Malay word for a sheet or leaf of paper. The forms are cross-variety intelligible equivalents rather than a clean national opposition.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jawapan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=lembar",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=lembaran"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "“different-common-word” is not supported. The relation should be revised to a shared/overlapping equivalent or preference distinction, if that relation exists in the taxonomy.",
+      "evidence_refs": [
+        "https://pusatprestasinasional.kemdikbud.go.id/uploads/lampiran/Pedoman%20OSN%20SMA_MA%202024%20fix.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jawapan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=calon%201"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported. Both expressions transparently refer to an examination answer sheet; the empty contrast field is preferable to inventing a semantic divergence.",
+      "evidence_refs": [
+        "https://dictionary.reverso.net/english-definition/answer%2Bsheet",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jawapan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "96bb1fcea4132b583d23bc513a0aa2afc3570332caf957469a862342b6a0f0a0",
+  "correction_refs": [],
+  "decision_digest": "0dddc506a4a4afa048df36d6eb8050be00f705a8015f60a3f1bc5a2a1985c3e0",
+  "elapsed_ms": 31753,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 137466,
+  "model_calls": 1,
+  "output_tokens": 2215,
+  "packet_digest": "32fa3d601ff46c0e2db4c9a28c7045d804c142885a01947c23dc6e9caac3cb0f",
+  "rationale": "The English sense is correct, and both answers are valid examination-paper expressions. However, the national split is materially overstated: “kertas jawaban” is also attested in Indonesian usage, while “jawapan” is explicitly treated by Malaysia’s DBP dictionary as equivalent to “jawaban.” The pair therefore does not support a different-common-word relation or a false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:51:06.323626+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s020/corpus-004-003-s020-edu-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s020",
+  "verdict": "needs-correction"
+}

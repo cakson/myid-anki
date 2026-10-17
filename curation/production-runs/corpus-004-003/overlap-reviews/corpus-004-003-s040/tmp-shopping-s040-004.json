@@ -1,0 +1,83 @@
+{
+  "attempt_id": "58277fbb8f2a8d20",
+  "candidate_id": "tmp-shopping-s040-004",
+  "claim_reviews": [
+    {
+      "conclusion": "The distinction between obral and jualan murah is materially supported; both denote discounted sales, but the forms are variety-associated rather than identical.",
+      "evidence_refs": [
+        "https://kbbi.web.id/obral",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=jualan",
+        "https://absenqr.uinjkt.ac.id/index.php?bid=9538&fid=897&p=fstream-pdf"
+      ],
+      "material_risk": false,
+      "subject": "national_split"
+    },
+    {
+      "conclusion": "obral is an accepted Indonesian term for selling goods cheaply, often in bulk or to clear stock.",
+      "evidence_refs": [
+        "https://kbbi.web.id/obral",
+        "https://repositori.kemendikdasmen.go.id/2871/1/kamus%20bahasa%20indonesia%20-%20pasir%20%20%20%20546h.pdf"
+      ],
+      "material_risk": false,
+      "subject": "indonesian_answer"
+    },
+    {
+      "conclusion": "jualan murah is an established Malaysian Malay expression for a sale offering substantial price reductions.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=jualan",
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=sale"
+      ],
+      "material_risk": false,
+      "subject": "malaysian_answer"
+    },
+    {
+      "conclusion": "discount sale event is a clear and accurate narrowing of sale to the intended retail sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=sale"
+      ],
+      "material_risk": false,
+      "subject": "english_cue_and_sense"
+    },
+    {
+      "conclusion": "different-common-word is supportable for the two listed local forms, provided it does not imply exclusive national ownership or deny shared equivalents.",
+      "evidence_refs": [
+        "https://kbbi.web.id/obral",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=jualan"
+      ],
+      "material_risk": false,
+      "subject": "relation"
+    },
+    {
+      "conclusion": "No contrast is supplied. The card should state that obral and jualan murah are semantically aligned equivalents, not false friends; English sale may also occur in Malaysian retail usage.",
+      "evidence_limitation": "The learner content contains an empty contrast field, so no existing false-friend explanation can be validated.",
+      "material_risk": true,
+      "subject": "false_friend_contrast"
+    }
+  ],
+  "content_digest": "133edd5039ea4275e5770a1b9694638a0d2b2c6b1eb3ab9f1ca704fdc0a698de",
+  "correction_refs": [],
+  "decision_digest": "34988fcf300e498cbcddf8237a9affc7e30894cf55e94a6456ba7c86a0ab3f72",
+  "elapsed_ms": 36690,
+  "finding_class": "cue-content",
+  "input_tokens": 116011,
+  "model_calls": 1,
+  "output_tokens": 1867,
+  "packet_digest": "8dc283358134d44603da92a8131bf9275ae2304b049308148775f732b462c673",
+  "rationale": "The national split is not materially overstated: Indonesian obral and Malaysian Malay jualan murah are distinct, established equivalents for a discounted sale, although English sale may also appear in Malaysian retail contexts. The cue is accurate, but the required false-friend contrast is absent and should explicitly state that neither answer is a false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:08:19.986081+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s040/tmp-shopping-s040-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s040",
+  "verdict": "needs-correction"
+}

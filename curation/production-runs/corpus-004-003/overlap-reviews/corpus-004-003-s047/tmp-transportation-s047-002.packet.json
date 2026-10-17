@@ -1,0 +1,90 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-transportation-s047-002",
+    "english": "railway track",
+    "indonesian": "rel",
+    "malaysian": "landasan",
+    "sense": "The rails or track on which trains travel.",
+    "tags": [
+      "transportation",
+      "different-common-word"
+    ]
+  },
+  "candidate_id": "tmp-transportation-s047-002",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "rel",
+        "language": "malaysian",
+        "rationale": "“Rel” exists as an understandable Malaysian alternative, but no evidence here shows it competes strongly with the ordinary preference “landasan” for this cue.",
+        "signal": "named-alternative-exists"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Rel” is the ordinary Indonesian term, while Malaysian Malay commonly uses “landasan” for railway track. The pair teaches a useful national preference for the same concept. Review concern: Malaysian technical or informal usage may occasionally use “rel,” but this does not materially undermine the contrast.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "railway track",
+    "image": "",
+    "indonesian": "rel",
+    "malaysian": "landasan",
+    "relation": "different-common-word",
+    "tags": "transportation different-common-word"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s047"
+}

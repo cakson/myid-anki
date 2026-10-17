@@ -1,0 +1,82 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 31437,
+  "input_tokens": 138670,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2231,
+  "packet_digest": "dfa11efa3b6e93b20e35cf4625592c6c01d9cd9a47c474bbf01d5b119fe4e75b",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"The national split is not materially overstated: Indonesian “penanak nasi” is established for an electric rice-cooking appliance, while Malaysian “periuk nasi” is an accepted Malay term, with “periuk nasi elektrik” specifying the electric appliance. The shared English cue does not invalidate the local contrast. However, the learner card omits the important false-friend contrast: Malaysian “penanak” means a person who cooks, not the appliance. Add this contrast and clarify that “periuk nasi” can be broader than the electric appliance.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Rice cooker” correctly denotes an electric appliance designed for cooking rice, matching the stated sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english/rice-cooker\"]},{\"subject\":\"Indonesian answer: penanak nasi\",\"conclusion\":\"The Indonesian answer is valid for the appliance; Indonesian lexical documentation describes “penanak nasi” as a device for cooking rice using electricity.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.idntimes.com/life/education/kosakata-bahasa-indonesia-yang-baru-terdaftar-00-rqp85-75pnt9\",\"https://lamansitu.kemendag.go.id/domestic-product/detail/penanak-nasi-rice-cooker\"]},{\"subject\":\"Malaysian answer: periuk nasi\",\"conclusion\":\"The Malaysian answer is accepted, but the base term is broader: PRPM defines “periuk nasi” as a pot/container for cooking rice; DBP separately records “periuk nasi elektrik” for an electric rice cooker.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=24348&keyword=periuk+nasi\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=nasi\"]},{\"subject\":\"Overlap and national split\",\"conclusion\":\"The split is useful but should not be presented as absolute. Both varieties can use the English expression “rice cooker,” and Malaysian has the more explicit “periuk nasi elektrik”; nevertheless, the supplied local answers remain distinct accepted variety-associated terms.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english/rice-cooker\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=nasi\"],\"evidence_limitation\":\"The sources establish dictionary acceptance and terminology, not comparative corpus frequencies or casual spoken-preference rates across Indonesia and Malaysia.\"},{\"subject\":\"Both answers and semantic alignment\",\"conclusion\":\"Both answers refer to rice-cooking equipment in context, but “periuk nasi” may denote a rice-cooking pot generally, whereas “penanak nasi” is the Indonesian appliance term in the cited usage.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=24348&keyword=periuk+nasi\",\"https://www.idntimes.com/life/education/kosakata-bahasa-indonesia-yang-baru-terdaftar-00-rqp85-75pnt9\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"The relation is defensible as a pedagogical variety contrast, but it should be qualified because the English cue is shared and the Malaysian term has broader literal scope.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=24348&keyword=periuk+nasi\",\"https://dictionary.cambridge.org/dictionary/english/rice-cooker\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"A material pedagogical contrast is missing. In Malaysian Malay, “penanak” means a person who cooks or a cook, not the rice-cooker appliance; this should be added to prevent transferring the Indonesian compound meaning.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penanak\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemasak\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Rice cooker” correctly denotes an electric appliance designed for cooking rice, matching the stated sense.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/rice-cooker"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "The Indonesian answer is valid for the appliance; Indonesian lexical documentation describes “penanak nasi” as a device for cooking rice using electricity.",
+        "evidence_refs": [
+          "https://www.idntimes.com/life/education/kosakata-bahasa-indonesia-yang-baru-terdaftar-00-rqp85-75pnt9",
+          "https://lamansitu.kemendag.go.id/domestic-product/detail/penanak-nasi-rice-cooker"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: penanak nasi"
+      },
+      {
+        "conclusion": "The Malaysian answer is accepted, but the base term is broader: PRPM defines “periuk nasi” as a pot/container for cooking rice; DBP separately records “periuk nasi elektrik” for an electric rice cooker.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=periuk+nasi",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=nasi"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: periuk nasi"
+      },
+      {
+        "conclusion": "The split is useful but should not be presented as absolute. Both varieties can use the English expression “rice cooker,” and Malaysian has the more explicit “periuk nasi elektrik”; nevertheless, the supplied local answers remain distinct accepted variety-associated terms.",
+        "evidence_limitation": "The sources establish dictionary acceptance and terminology, not comparative corpus frequencies or casual spoken-preference rates across Indonesia and Malaysia.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/rice-cooker",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=nasi"
+        ],
+        "material_risk": false,
+        "subject": "Overlap and national split"
+      },
+      {
+        "conclusion": "Both answers refer to rice-cooking equipment in context, but “periuk nasi” may denote a rice-cooking pot generally, whereas “penanak nasi” is the Indonesian appliance term in the cited usage.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=periuk+nasi",
+          "https://www.idntimes.com/life/education/kosakata-bahasa-indonesia-yang-baru-terdaftar-00-rqp85-75pnt9"
+        ],
+        "material_risk": false,
+        "subject": "Both answers and semantic alignment"
+      },
+      {
+        "conclusion": "The relation is defensible as a pedagogical variety contrast, but it should be qualified because the English cue is shared and the Malaysian term has broader literal scope.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=periuk+nasi",
+          "https://dictionary.cambridge.org/dictionary/english/rice-cooker"
+        ],
+        "material_risk": false,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "A material pedagogical contrast is missing. In Malaysian Malay, “penanak” means a person who cooks or a cook, not the rice-cooker appliance; this should be added to prevent transferring the Indonesian compound meaning.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penanak",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemasak"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "The national split is not materially overstated: Indonesian “penanak nasi” is established for an electric rice-cooking appliance, while Malaysian “periuk nasi” is an accepted Malay term, with “periuk nasi elektrik” specifying the electric appliance. The shared English cue does not invalidate the local contrast. However, the learner card omits the important false-friend contrast: Malaysian “penanak” means a person who cooks, not the appliance. Add this contrast and clarify that “periuk nasi” can be broader than the electric appliance.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

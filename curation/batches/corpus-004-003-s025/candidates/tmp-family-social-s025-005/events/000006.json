@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T20:06:56.058034+00:00",
+  "input_digest": "6fd796ee04882e954246af82239ffa9d4c396b70cc0746541ba7b9dfb6fe6c57",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian form abang ipar specifically means an older brother-in-law, while Indonesian ipar laki-laki is broader.\"], \"material_concerns\": [\"The pair mismatches a category with a subtype and may misteach the English cue brother-in-law.\"], \"rationale\": \"Indonesian ipar laki-laki covers both relevant brother-in-law relationships without encoding age. Malaysian abang ipar normally specifies an older brother-in-law, so the answers do not express the same exact sense.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue rewrite preserves the same concept for both forms: the Malaysian answer adds an older-brother restriction absent from the Indonesian answer.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"concrete\", \"risk_rationale\": \"Malaysian also has the broader form ipar lelaki, creating a preference issue that should be reviewed separately.\", \"preference_risk\": {\"signal\": \"verifier-explicitly-questions-preference\", \"form\": \"ipar lelaki\", \"language\": \"malaysian\", \"rationale\": \"The broader Malaysian form may be ordinary for the general sense brother-in-law, so abang ipar should not be presented as the unqualified national equivalent.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malaysian form abang ipar specifically means an older brother-in-law, while Indonesian ipar laki-laki is broader."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue rewrite preserves the same concept for both forms: the Malaysian answer adds an older-brother restriction absent from the Indonesian answer.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair mismatches a category with a subtype and may misteach the English cue brother-in-law."
+      ],
+      "nonblocking_risk": "concrete",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "ipar lelaki",
+        "language": "malaysian",
+        "rationale": "The broader Malaysian form may be ordinary for the general sense brother-in-law, so abang ipar should not be presented as the unqualified national equivalent.",
+        "signal": "verifier-explicitly-questions-preference"
+      },
+      "rationale": "Indonesian ipar laki-laki covers both relevant brother-in-law relationships without encoding age. Malaysian abang ipar normally specifies an older brother-in-law, so the answers do not express the same exact sense.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian also has the broader form ipar lelaki, creating a preference issue that should be reviewed separately.",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malaysian form abang ipar specifically means an older brother-in-law, while Indonesian ipar laki-laki is broader."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue rewrite preserves the same concept for both forms: the Malaysian answer adds an older-brother restriction absent from the Indonesian answer.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair mismatches a category with a subtype and may misteach the English cue brother-in-law."
+    ],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "ipar lelaki",
+      "language": "malaysian",
+      "rationale": "The broader Malaysian form may be ordinary for the general sense brother-in-law, so abang ipar should not be presented as the unqualified national equivalent.",
+      "signal": "verifier-explicitly-questions-preference"
+    },
+    "rationale": "Indonesian ipar laki-laki covers both relevant brother-in-law relationships without encoding age. Malaysian abang ipar normally specifies an older brother-in-law, so the answers do not express the same exact sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian also has the broader form ipar lelaki, creating a preference issue that should be reviewed separately.",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "54c57ee6879162a938f26027986d7c5a16ab17915fa90b77764cea738df5b664"
+}

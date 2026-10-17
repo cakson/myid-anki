@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-17T04:32:12.340330+00:00",
+  "result": {
+    "candidate_digest": "5f0632a86a3a355c6e24e23c2f273b690159f6737226d0c9b652ac6a9e764ba7",
+    "candidate_id": "tmp-health-body-s032-003",
+    "checked_at": "2026-10-17T04:32:12.340330+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The English cue may misalign the two target-language senses.",
+      "The answers do not reliably express the same exact sense: Indonesian \"kruk\" means crutch, while Malaysian \"tongkat\" commonly denotes a cane or walking stick."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The answers do not reliably express the same exact sense: Indonesian \"kruk\" means crutch, while Malaysian \"tongkat\" commonly denotes a cane or walking stick.",
+        "The English cue may misalign the two target-language senses.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

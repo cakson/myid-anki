@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:56:36.602284+00:00",
+  "input_digest": "c0d3a52fa605a7d79107bd841e6f42b868ae7e2e5211ca81cb5c233544c87353",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s020-edu-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A school bag carries school materials, while a school bus transports students; different object and sense.\"}, {\"other_id\": \"corpus-003-home-001:home-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A school bag is used to carry school materials, whereas a shopping bag carries purchases; the purposes and senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s020-edu-006",
+          "rationale": "A school bag carries school materials, while a school bus transports students; different object and sense.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-003-home-001:home-08",
+          "rationale": "A school bag is used to carry school materials, whereas a shopping bag carries purchases; the purposes and senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s020-edu-006",
+        "rationale": "A school bag carries school materials, while a school bus transports students; different object and sense.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-003-home-001:home-08",
+        "rationale": "A school bag is used to carry school materials, whereas a shopping bag carries purchases; the purposes and senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "278b523e7c0cec47b94da6e718d36ecb400e9aa1c8aa6d8044ac21f1c78ecda1"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:26:43.422399+00:00",
+  "input_digest": "6e68315580ece4ca51ada6e36e9bc9465c5ec113ddf873c8858da8fe3cab63c8",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"000177\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stamp duty is a specific tax imposed on certain legal or financial documents, whereas tax is the general concept of government-required payments; the cues and both answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000177",
+          "rationale": "Stamp duty is a specific tax imposed on certain legal or financial documents, whereas tax is the general concept of government-required payments; the cues and both answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "000177",
+        "rationale": "Stamp duty is a specific tax imposed on certain legal or financial documents, whereas tax is the general concept of government-required payments; the cues and both answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "edae216121874f63b60f5f039d17d66431228f6daba032cd99c87e58f7c42c9c"
+}

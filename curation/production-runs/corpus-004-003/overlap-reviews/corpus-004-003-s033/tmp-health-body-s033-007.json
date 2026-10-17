@@ -1,0 +1,78 @@
+{
+  "attempt_id": "5a67e9aba9ab44ab",
+  "candidate_id": "tmp-health-body-s033-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“Medical check-up” appropriately cues a routine examination of a person’s health; the sense is aligned.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=medical"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Cek kesehatan” is an established everyday Indonesian expression, but “pemeriksaan kesehatan” is also an accepted formal equivalent.",
+      "evidence_refs": [
+        "https://ayosehat.kemkes.go.id/diet-sehat/cek-kesehatan-gratis",
+        "https://jdih.kemkes.go.id/storage/documents/pdfs/2026kepmenkes084.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pemeriksaan kesihatan” is an established Malaysian Malay term for medical examination/health inspection and is suitable for the intended sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=medical",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kesihatan",
+        "https://www.moh.gov.my/moh/modules_resources/bookshelf/GP_PERKHIDMATAN_PEMERIKSAAN_PERUBATAN_RUTIN_DI_KLINIK_KESIHATAN_22112022/GP_PERKHIDMATAN_PEMERIKSAAN_PERUBATAN_RUTIN_DI_KLINIK_KESIHATAN_22112022.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is too strong without a register qualifier. The formal Indonesian expression “pemeriksaan kesehatan” and Malaysian “pemeriksaan kesihatan” are ordinary cognate equivalents, differing mainly in spelling; Malaysian terminology also maps English “check-up” to “pemeriksaan.”",
+      "evidence_refs": [
+        "https://jdih.kemkes.go.id/storage/documents/pdfs/2026kepmenkes084.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=check+in",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=medical"
+      ],
+      "material_risk": true,
+      "subject": "National split and relation"
+    },
+    {
+      "conclusion": "No contrast is supplied. A qualified contrast would be useful: Indonesian “cek” is an everyday check/examination form, whereas Malaysian “cek” primarily denotes a cheque but also has a colloquial inspect sense; this is not an absolute false friend.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cek",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=check+in"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a61567d9ddcb43f58e8216e9feb828062318eb6215d04dc91a7e6085c703fdc6",
+  "correction_refs": [],
+  "decision_digest": "73226bbd3390fa2eeca36d08878757e87f9c4d5e0e04f022b7a2a0a0c19c88bc",
+  "elapsed_ms": 32389,
+  "finding_class": "metadata-only",
+  "input_tokens": 145466,
+  "model_calls": 1,
+  "output_tokens": 2186,
+  "packet_digest": "3b9449be5577308a9aace28c647d3e97b4cb052cb52e218f79dfe98549ba12c6",
+  "rationale": "Both answers express the intended sense, but the national split is materially overstated. Indonesian also uses the formal equivalent “pemeriksaan kesehatan,” while Malaysian Malay standard terminology includes “pemeriksaan kesihatan”; “cek” additionally exists in Malaysian Malay as a colloquial verb meaning to inspect. The relation should be revised or qualified by register. The empty contrast field also misses a useful, but non-absolute, cek/cek distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:03:03.053264+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s033/tmp-health-body-s033-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s033",
+  "verdict": "needs-correction"
+}

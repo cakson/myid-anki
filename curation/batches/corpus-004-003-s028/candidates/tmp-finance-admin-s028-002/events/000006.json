@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T20:13:14.071671+00:00",
+  "input_digest": "12f8ed168ad3d1c06a6891314a64b300e0b0eedb44c03bef3d8d8ef374b96320",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cPengajuan pinjaman\\u201d is the ordinary Indonesian form, while \\u201cpermohonan pinjaman\\u201d is the ordinary Malaysian form; both denote a request submitted to obtain a loan.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers clearly express the same sense: a submitted request to obtain a loan.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\u201cAplikasi pinjaman\\u201d may occur in both varieties, but it is a borrowing and can ambiguously mean a loan app; it does not weaken the formal, ordinary contrast between \\u201cpengajuan\\u201d and \\u201cpermohonan.\\u201d\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Informal financial contexts may occasionally use \\u201caplikasi pinjaman,\\u201d creating limited register variation.\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"aplikasi pinjaman\", \"language\": \"both\", \"rationale\": \"This alternative can be understood in both varieties, but its borrowing and possible app-related ambiguity make it less preferred for this formal sense.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers clearly express the same sense: a submitted request to obtain a loan.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "aplikasi pinjaman",
+        "language": "both",
+        "rationale": "This alternative can be understood in both varieties, but its borrowing and possible app-related ambiguity make it less preferred for this formal sense.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Pengajuan pinjaman” is the ordinary Indonesian form, while “permohonan pinjaman” is the ordinary Malaysian form; both denote a request submitted to obtain a loan.",
+      "relation": "different-common-word",
+      "risk_rationale": "Informal financial contexts may occasionally use “aplikasi pinjaman,” creating limited register variation.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "“Aplikasi pinjaman” may occur in both varieties, but it is a borrowing and can ambiguously mean a loan app; it does not weaken the formal, ordinary contrast between “pengajuan” and “permohonan.”",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers clearly express the same sense: a submitted request to obtain a loan.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "aplikasi pinjaman",
+      "language": "both",
+      "rationale": "This alternative can be understood in both varieties, but its borrowing and possible app-related ambiguity make it less preferred for this formal sense.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Pengajuan pinjaman” is the ordinary Indonesian form, while “permohonan pinjaman” is the ordinary Malaysian form; both denote a request submitted to obtain a loan.",
+    "relation": "different-common-word",
+    "risk_rationale": "Informal financial contexts may occasionally use “aplikasi pinjaman,” creating limited register variation.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "“Aplikasi pinjaman” may occur in both varieties, but it is a borrowing and can ambiguously mean a loan app; it does not weaken the formal, ordinary contrast between “pengajuan” and “permohonan.”",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "e03122a5b5d1f6a1425a034a2eca25844af4923ecb8c8d65badc613109ae38c1"
+}

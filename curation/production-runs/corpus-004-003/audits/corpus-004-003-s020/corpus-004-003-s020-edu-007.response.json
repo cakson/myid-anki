@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17904,
+  "input_tokens": 54639,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1354,
+  "packet_digest": "478948741a6eb45bf2c9c554cdd8d2eb06aa67b0711b134a801851a89510ba46",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers match the English cue and sense. Indonesian “biaya sekolah” is a valid ordinary expression for school costs or fees, while Malaysian “yuran sekolah” directly denotes school fees. The relation “different-common-word” is appropriate as a learner-oriented contrast, though Indonesian also commonly uses “uang sekolah.” No material false-friend error is present.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"“School fee” and “money charged for attending school” are aligned.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=registration\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: biaya sekolah\",\n      \"conclusion\": \"Valid and understandable Indonesian for school fees or school-related costs; “uang sekolah” is also a credible everyday alternative.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=biaya\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: yuran sekolah\",\n      \"conclusion\": \"Correct Malaysian Malay expression for school fees.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=382696&keyword=yuran\",\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=registration\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"“Different-common-word” is justified as a contrast between ordinary Indonesian and Malaysian preferences, with some synonym overlap.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=biaya\",\n        \"https://prpm.dbp.gov.my/Cari1?d=382696&keyword=yuran\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No material false-friend contrast is required. “Yuran” specifically denotes a fee or periodic payment; “biaya” denotes cost or expenditure more broadly, so treating them as exact morphological equivalents would be misleading, but the card does not make that error.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=382696&keyword=yuran\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=biaya\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“School fee” and “money charged for attending school” are aligned.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=registration"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid and understandable Indonesian for school fees or school-related costs; “uang sekolah” is also a credible everyday alternative.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=biaya"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: biaya sekolah"
+      },
+      {
+        "conclusion": "Correct Malaysian Malay expression for school fees.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=382696&keyword=yuran",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=registration"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: yuran sekolah"
+      },
+      {
+        "conclusion": "“Different-common-word” is justified as a contrast between ordinary Indonesian and Malaysian preferences, with some synonym overlap.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=biaya",
+          "https://prpm.dbp.gov.my/Cari1?d=382696&keyword=yuran"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No material false-friend contrast is required. “Yuran” specifically denotes a fee or periodic payment; “biaya” denotes cost or expenditure more broadly, so treating them as exact morphological equivalents would be misleading, but the card does not make that error.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=382696&keyword=yuran",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=biaya"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers match the English cue and sense. Indonesian “biaya sekolah” is a valid ordinary expression for school costs or fees, while Malaysian “yuran sekolah” directly denotes school fees. The relation “different-common-word” is appropriate as a learner-oriented contrast, though Indonesian also commonly uses “uang sekolah.” No material false-friend error is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

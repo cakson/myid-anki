@@ -1,0 +1,78 @@
+{
+  "attempt_id": "f3fedbb9a296e1d7",
+  "candidate_id": "tmp-travel-s049-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: a departure lounge is the airport area where passengers wait before boarding.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/departure-lounge"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and natural: ruang tunggu keberangkatan denotes the airport departure waiting area.",
+      "evidence_refs": [
+        "https://hubud.kemenhub.go.id/upbu/komodo/album/ruang-tunggu-afb8f/detail",
+        "https://repo.poltekbangsby.ac.id/2329/1/30622028-OJT_1.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Needs correction or qualification: ruang menunggu pelepasan is not the established dictionary equivalent; balai berlepas is the DBP-defined term. Malaysian usage also commonly uses ruang menunggu descriptively.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=balai+berlepas",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=departure",
+        "https://www.mot.gov.my/my/aviation/infrastructure/list-of-airports/KKIA"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The different-common-word relation is not reliable as presented because the Malaysian item is a questionable form rather than a securely established parallel term.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=balai+berlepas",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=departure"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "A learner-critical contrast is missing: Malaysian perlepasan means departure, while pelepasan primarily means releasing/release and can mislead learners.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pelepasan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=perlepasan"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c6fabd2f294af3d4c4b25ff35827aea98a83c497c153545a8617de063316bcef",
+  "correction_refs": [],
+  "decision_digest": "b42209da6d60e49e4620cb811c823367145b2e12423cb0c31aa44453710af733",
+  "elapsed_ms": 22838,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 99882,
+  "model_calls": 1,
+  "output_tokens": 1245,
+  "packet_digest": "fccb8b92e4f55c5cff14583619723a74d13f51e1e65a9700038b163fd30b2096",
+  "rationale": "The English cue and Indonesian answer are sound. The Malaysian answer is not the best standard equivalent: DBP gives balai berlepas for departure lounge and distinguishes perlepasan (departure) from pelepasan (release/discharge). The proposed relation is therefore overstated, and the missing contrast leaves a learner-critical lexical distinction unexplained.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:16:22.907051+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s049/tmp-travel-s049-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s049",
+  "verdict": "needs-correction"
+}

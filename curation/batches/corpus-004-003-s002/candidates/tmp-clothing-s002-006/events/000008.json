@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:21:48.544269+00:00",
+  "result": {
+    "candidate_digest": "bdb2aa15a1314282f2aa4b6ba9fd5274068b3828a299234da71e18dbb55a1b29",
+    "candidate_id": "tmp-clothing-s002-006",
+    "checked_at": "2026-10-16T19:21:48.544269+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "The card conflates a seam with a hem, which would misteach learners; a concise cue rewrite cannot make both answers fit."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The card conflates a seam with a hem, which would misteach learners; a concise cue rewrite cannot make both answers fit.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

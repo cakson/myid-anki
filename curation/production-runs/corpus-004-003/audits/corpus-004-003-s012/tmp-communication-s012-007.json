@@ -1,0 +1,65 @@
+{
+  "attempt_id": "d2df6ca1b66a2ce4",
+  "candidate_id": "tmp-communication-s012-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: 'first name' matches a given name appearing first in a personal name.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=nama",
+        "https://support.airasia.com/s/article/How-should-I-fill-up-the-guest-name-and-contact-details?language=ms"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and natural: 'nama depan' is used for first name in Indonesian administrative and institutional contexts.",
+      "evidence_refs": [
+        "https://disnaker.palembang.go.id/profile",
+        "https://pajak.go.id/sites/default/files/2020-02/Petunjuk_self_validation_pap.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Acceptable and well supported: 'nama pertama' is used in Malaysian Malay for first name, especially in forms and travel contexts.",
+      "evidence_refs": [
+        "https://support.airasia.com/s/article/How-should-I-fill-up-the-guest-name-and-contact-details?language=ms",
+        "https://www.prpm.dbp.gov.my/Cari1?d=243192&keyword=nama",
+        "https://www.prpm.dbp.gov.my/Cari1?d=175768&keyword=first+name"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The 'different-common-word' relation is defensible as a preferred-variety contrast, but not as an exclusive one. 'Nama depan' is also understandable in Malaysia, so there is no material false-friend risk.",
+      "evidence_limitation": "Available evidence establishes Malaysian use of 'nama pertama' and recognition of 'nama depan', but does not quantify regional frequency or register preference.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "f79115da7f4b8193ef40f528251f94027bd12300c1d70cbc68675b4eff8aa59c",
+  "correction_refs": [],
+  "decision_digest": "3d5310dd38053159f0823402b693bb1c821ef343288ecab6630033d3cca22dd3",
+  "elapsed_ms": 17244,
+  "finding_class": "none",
+  "input_tokens": 61824,
+  "model_calls": 1,
+  "output_tokens": 1176,
+  "packet_digest": "f11e77d2b96ecc3f179e02be1f45c7c91e7daccac959a03aa6ff716300ce3e2e",
+  "rationale": "Both answers express the sense 'first/given name'. 'Nama depan' is well attested in Indonesian official usage, while Malaysian sources use 'nama pertama' for the same concept. Malaysian 'nama depan' remains understandable and is not a false friend, so the contrast is a valid preferred-term distinction rather than an absolute prohibition.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:30:47.482451+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s012/tmp-communication-s012-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s012",
+  "verdict": "cleared"
+}

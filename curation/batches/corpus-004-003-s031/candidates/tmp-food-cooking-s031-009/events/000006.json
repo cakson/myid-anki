@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:31:09.585544+00:00",
+  "input_digest": "e8a1dde1174209b7eca439db990a2e829c86817c099b1c85b6d0fdca078bf9ba",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Indonesian commonly specifies batter as \\u201cadonan cair,\\u201d while Malaysian Malay uses \\u201cadunan\\u201d for the same pourable cooking mixture. The contrast is useful and does not change the sense.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers can denote a pourable mixture prepared before cooking, matching \\u201cbatter.\\u201d\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cAdunan cair\\u201d is also understandable in Malaysian Malay, but \\u201cadunan\\u201d remains a credible ordinary Malaysian preference, while Indonesian commonly uses the explicit \\u201cadonan cair.\\u201d\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"\\u201cAdunan\\u201d is somewhat broader in Malaysian Malay and may also cover other mixtures, though the cooking context supports the batter sense.\", \"preference_risk\": {\"signal\": \"preference-strength-uncertain\", \"form\": \"adunan cair\", \"language\": \"malaysian\", \"rationale\": \"The explicit phrase \\u201cadunan cair\\u201d may also be used in Malaysian Malay, so the national preference is useful but not absolute.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers can denote a pourable mixture prepared before cooking, matching “batter.”",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "adunan cair",
+        "language": "malaysian",
+        "rationale": "The explicit phrase “adunan cair” may also be used in Malaysian Malay, so the national preference is useful but not absolute.",
+        "signal": "preference-strength-uncertain"
+      },
+      "rationale": "Indonesian commonly specifies batter as “adonan cair,” while Malaysian Malay uses “adunan” for the same pourable cooking mixture. The contrast is useful and does not change the sense.",
+      "relation": "different-common-word",
+      "risk_rationale": "“Adunan” is somewhat broader in Malaysian Malay and may also cover other mixtures, though the cooking context supports the batter sense.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Adunan cair” is also understandable in Malaysian Malay, but “adunan” remains a credible ordinary Malaysian preference, while Indonesian commonly uses the explicit “adonan cair.”",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers can denote a pourable mixture prepared before cooking, matching “batter.”",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "adunan cair",
+      "language": "malaysian",
+      "rationale": "The explicit phrase “adunan cair” may also be used in Malaysian Malay, so the national preference is useful but not absolute.",
+      "signal": "preference-strength-uncertain"
+    },
+    "rationale": "Indonesian commonly specifies batter as “adonan cair,” while Malaysian Malay uses “adunan” for the same pourable cooking mixture. The contrast is useful and does not change the sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "“Adunan” is somewhat broader in Malaysian Malay and may also cover other mixtures, though the cooking context supports the batter sense.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Adunan cair” is also understandable in Malaysian Malay, but “adunan” remains a credible ordinary Malaysian preference, while Indonesian commonly uses the explicit “adonan cair.”",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "842cf2a6188fa5ccf96dfbdac681cbfe9e5506f0e2b34debd57cda57e2de279d"
+}

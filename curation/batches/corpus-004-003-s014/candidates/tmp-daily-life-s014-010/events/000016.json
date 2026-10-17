@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:44.200454+00:00",
+  "result": {
+    "candidate_digest": "b6892ee0e0ab0854d00843afbd59185f50d900e90ac9d356ffb49cd57e8985cf",
+    "candidate_id": "tmp-daily-life-s014-010",
+    "checked_at": "2026-10-17T06:21:44.200454+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Indonesian obat nyamuk is correct for a mosquito-repellent/insecticide product. Malaysian penghalau nyamuk is valid and product-compatible, but it is less everyday and narrower than the common Malaysian term ubat nyamuk, which can cover products that repel or kill mosquitoes. The cue is acceptable if explicitly product-based, but the card should state the Malaysian usage preference and add the obat/ubat lexicalized-compound contrast. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

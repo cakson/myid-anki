@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 38994,
+  "input_tokens": 99119,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1857,
+  "packet_digest": "72d19e41b1eeeb27ec7de561f91b5d8b37a3d55ce8a124c6c04ad87d8fe16145",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The national split is materially overstated. Malaysian perumahan awam is an established public-housing term, but Indonesian official terminology defines rumah umum—not perumahan umum—as housing for low-income communities. Perumahan umum can therefore be interpreted more broadly as general housing. Moreover, umum and awam overlap semantically, and the learner content supplies no contrast explaining this. The Indonesian answer and relation should be corrected or withheld pending usage validation.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue and sense are aligned: public housing refers to government-provided or supported housing, commonly targeting lower-income residents.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.qld.gov.au/housing/public-community-housing/public-housing/about-public-housing\"]},{\"subject\":\"Indonesian answer: perumahan umum\",\"conclusion\":\"Materially risky. Indonesian regulations use rumah umum for housing provided to meet low-income housing needs; perumahan umum is not established by the reviewed evidence as the ordinary direct equivalent and may denote housing more generally.\",\"material_risk\":true,\"evidence_refs\":[\"https://jdih.pu.go.id/internal/assets/assets/produk/PermenPUPR/2021/03/PermenPUPR16.pdf\",\"https://ciptakarya.pu.go.id/btbgl/articles/pengertian-perumahan-dan-kawasan-permukiman-yang-harus-kamu-ketahui-33\"]},{\"subject\":\"Malaysian answer: perumahan awam\",\"conclusion\":\"Supported. Malaysian government portals use perumahan awam for public-housing schemes, including PPR and related programs.\",\"material_risk\":false,\"evidence_refs\":[\"https://teduh.kpkt.gov.my/\",\"https://www.malaysia.gov.my/my/digital-services/search-for-project-information-schemes-opened-for-public-housing-projects\"]},{\"subject\":\"National split and relation\",\"conclusion\":\"The different-common-word relation is materially overstated. The varieties have an overlapping semantic vocabulary: Malay awam means public and can also mean umum, while Indonesian official public-housing terminology uses umum in rumah umum. The forms are not a clean national opposition, and perumahan rakyat is also used in public-housing contexts in both countries, though often program-specific.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=399108&keyword=awam\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=umum\",\"https://jdih.pu.go.id/internal/assets/assets/produk/PP/2019/07/PP47-2019.pdf\",\"https://www.malaysia.gov.my/my/digital-services/permohonan-program-perumahan-rakyat-ppr\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No contrast is supplied. The reviewed evidence does not support presenting umum and awam as false friends for this sense; they overlap as public/general terms. The missing contrast leaves the learner unable to understand the limited terminology and register differences.\",\"material_risk\":true,\"evidence_limitation\":\"Learner content has an empty contrast field; no explicit false-friend explanation was provided.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The cue and sense are aligned: public housing refers to government-provided or supported housing, commonly targeting lower-income residents.",
+        "evidence_refs": [
+          "https://www.qld.gov.au/housing/public-community-housing/public-housing/about-public-housing"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Materially risky. Indonesian regulations use rumah umum for housing provided to meet low-income housing needs; perumahan umum is not established by the reviewed evidence as the ordinary direct equivalent and may denote housing more generally.",
+        "evidence_refs": [
+          "https://jdih.pu.go.id/internal/assets/assets/produk/PermenPUPR/2021/03/PermenPUPR16.pdf",
+          "https://ciptakarya.pu.go.id/btbgl/articles/pengertian-perumahan-dan-kawasan-permukiman-yang-harus-kamu-ketahui-33"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: perumahan umum"
+      },
+      {
+        "conclusion": "Supported. Malaysian government portals use perumahan awam for public-housing schemes, including PPR and related programs.",
+        "evidence_refs": [
+          "https://teduh.kpkt.gov.my/",
+          "https://www.malaysia.gov.my/my/digital-services/search-for-project-information-schemes-opened-for-public-housing-projects"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: perumahan awam"
+      },
+      {
+        "conclusion": "The different-common-word relation is materially overstated. The varieties have an overlapping semantic vocabulary: Malay awam means public and can also mean umum, while Indonesian official public-housing terminology uses umum in rumah umum. The forms are not a clean national opposition, and perumahan rakyat is also used in public-housing contexts in both countries, though often program-specific.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=399108&keyword=awam",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=umum",
+          "https://jdih.pu.go.id/internal/assets/assets/produk/PP/2019/07/PP47-2019.pdf",
+          "https://www.malaysia.gov.my/my/digital-services/permohonan-program-perumahan-rakyat-ppr"
+        ],
+        "material_risk": true,
+        "subject": "National split and relation"
+      },
+      {
+        "conclusion": "No contrast is supplied. The reviewed evidence does not support presenting umum and awam as false friends for this sense; they overlap as public/general terms. The missing contrast leaves the learner unable to understand the limited terminology and register differences.",
+        "evidence_limitation": "Learner content has an empty contrast field; no explicit false-friend explanation was provided.",
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The national split is materially overstated. Malaysian perumahan awam is an established public-housing term, but Indonesian official terminology defines rumah umum—not perumahan umum—as housing for low-income communities. Perumahan umum can therefore be interpreted more broadly as general housing. Moreover, umum and awam overlap semantically, and the learner content supplies no contrast explaining this. The Indonesian answer and relation should be corrected or withheld pending usage validation.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

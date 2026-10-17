@@ -1,0 +1,88 @@
+{
+  "attempt_id": "cf0d42c2f53a46cd",
+  "candidate_id": "tmp-communication-s011-011",
+  "claim_reviews": [
+    {
+      "conclusion": "Aligned. “Joke” includes something said or done to make people laugh, including a funny story; the supplied sense is adequate.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/joke",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/joke_1"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian answer for the cue. KBBI defines lelucon as a funny act/utterance or humorous conversation.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lelucon.html",
+        "https://kbbi.kemendikdasmen.go.id/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lelucon"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay answer. PRPM/Kamus Dewan defines jenaka as an amusing act or utterance and gives lawak as a synonym.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=jenaka"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: jenaka"
+    },
+    {
+      "conclusion": "Material overlap is documented. PRPM lists lelucon in the Malay dictionary, defines it as kelakar/jenaka/lawak, and separately lists jenaka and lawak as synonyms. Therefore lelucon versus jenaka does not support an unqualified Indonesia-versus-Malaysia different-common-word relation.",
+      "evidence_limitation": "The dictionary evidence establishes accepted lexical overlap, but does not quantify contemporary frequency by country or register.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=lelucon",
+        "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=jenaka",
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=lawak"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and national split"
+    },
+    {
+      "conclusion": "Needs correction or qualification. “different-common-word” is too categorical; the evidence supports shared equivalents with possible register or preference differences, and lawak is another documented Malaysian alternative.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=jenaka",
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=lawak",
+        "https://prpm.dbp.gov.my/cari1?keyword=lelucon"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported or needed: lelucon and jenaka share the target humorous sense rather than creating a misleading cross-language meaning contrast. The blank is not a learner-critical error, but an explicit “none identified” value would improve auditability.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lelucon.html",
+        "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=jenaka"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "83bd0fc1d738cd80ffec4e9428b258049cdd65f1ff79a8fa115ccb8177dfc1b6",
+  "correction_refs": [],
+  "decision_digest": "2cf272c2471365d91053a3b039776982935db47b67af095c0d4e8bb4354381ad",
+  "elapsed_ms": 27939,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 96055,
+  "model_calls": 1,
+  "output_tokens": 2001,
+  "packet_digest": "55a2ccf4c9af8b4f9560161cd2f57fa9993af10e5fb18226bf4b18f8bec8d214",
+  "rationale": "Both answers are semantically valid, but the national split is materially overstated: Malaysian Malay dictionaries explicitly list lelucon as an accepted synonym/equivalent of jenaka, while jenaka is the ordinary Malaysian term for something humorous. The English cue is aligned. No false-friend contrast is indicated; the empty contrast is defensible, though an explicit “none identified” note would be clearer. The relation should be revised or qualified as a variety/register preference rather than a clean national contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:40:29.264180+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s011/tmp-communication-s011-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s011",
+  "verdict": "needs-correction"
+}

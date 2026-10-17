@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:48:49.038270+00:00",
+  "input_digest": "53cca960f2dba6c6d864d9092f7d641d7336bb67040f1ed075a9e57cb483a334",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s036:tmp-home-s036-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A rain gutter channels rainwater from a roof, whereas a drain carries wastewater away; these are distinct home-plumbing concepts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s036:tmp-home-s036-005",
+          "rationale": "A rain gutter channels rainwater from a roof, whereas a drain carries wastewater away; these are distinct home-plumbing concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s036:tmp-home-s036-005",
+        "rationale": "A rain gutter channels rainwater from a roof, whereas a drain carries wastewater away; these are distinct home-plumbing concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "524a8e2a1bb9c1335ba9abcc105fb8412b534ca234944896c144ddd52705769d"
+}

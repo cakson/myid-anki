@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5743,
+  "input_digest": "322c269da33932d86b2bb25e27ad581d603293abc8253914e47744a9874bf653",
+  "input_tokens": 93706,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 166,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"000044\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Sale is an event or period when goods are offered at reduced prices, whereas discount is the price reduction itself; the senses are clearly distinct.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "000044",
+          "rationale": "Sale is an event or period when goods are offered at reduced prices, whereas discount is the price reduction itself; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

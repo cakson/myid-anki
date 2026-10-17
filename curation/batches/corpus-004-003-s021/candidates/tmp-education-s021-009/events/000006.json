@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T20:00:11.129911+00:00",
+  "input_digest": "0ab66cdf25b219b26d331afcd065aaa2a414dad3ffe979a31257a7a308900079",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Indonesian term ordinarily suggests a school ceremony, often a flag ceremony, rather than a generic school assembly.\"], \"material_concerns\": [\"The answers do not reliably express the same exact sense: Malaysian perhimpunan sekolah is a school assembly, while Indonesian upacara sekolah is typically a school ceremony.\"], \"rationale\": \"Perhimpunan sekolah is the ordinary Malaysian term for a school assembly. Upacara sekolah is commonly understood in Indonesian as a ceremonial school event, so the pair risks teaching a category-versus-subtype mismatch.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The original cue denotes a general assembly, but upacara sekolah ordinarily carries a stronger ceremony meaning in Indonesian.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"No shared synonym was identified that resolves the ceremony-versus-assembly mismatch.\", \"nonblocking_risk\": \"concrete\", \"risk_rationale\": \"Indonesian usage may vary by school context, with terms such as apel sekolah or upacara bendera used for particular assembly-like events.\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"apel sekolah\", \"language\": \"indonesian\", \"rationale\": \"Apel sekolah can be used for an organized school gathering or assembly-like event, creating competition with upacara sekolah in some Indonesian contexts.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Indonesian term ordinarily suggests a school ceremony, often a flag ceremony, rather than a generic school assembly."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The original cue denotes a general assembly, but upacara sekolah ordinarily carries a stronger ceremony meaning in Indonesian.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The answers do not reliably express the same exact sense: Malaysian perhimpunan sekolah is a school assembly, while Indonesian upacara sekolah is typically a school ceremony."
+      ],
+      "nonblocking_risk": "concrete",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "apel sekolah",
+        "language": "indonesian",
+        "rationale": "Apel sekolah can be used for an organized school gathering or assembly-like event, creating competition with upacara sekolah in some Indonesian contexts.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "Perhimpunan sekolah is the ordinary Malaysian term for a school assembly. Upacara sekolah is commonly understood in Indonesian as a ceremonial school event, so the pair risks teaching a category-versus-subtype mismatch.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian usage may vary by school context, with terms such as apel sekolah or upacara bendera used for particular assembly-like events.",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "No shared synonym was identified that resolves the ceremony-versus-assembly mismatch.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Indonesian term ordinarily suggests a school ceremony, often a flag ceremony, rather than a generic school assembly."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The original cue denotes a general assembly, but upacara sekolah ordinarily carries a stronger ceremony meaning in Indonesian.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The answers do not reliably express the same exact sense: Malaysian perhimpunan sekolah is a school assembly, while Indonesian upacara sekolah is typically a school ceremony."
+    ],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "apel sekolah",
+      "language": "indonesian",
+      "rationale": "Apel sekolah can be used for an organized school gathering or assembly-like event, creating competition with upacara sekolah in some Indonesian contexts.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Perhimpunan sekolah is the ordinary Malaysian term for a school assembly. Upacara sekolah is commonly understood in Indonesian as a ceremonial school event, so the pair risks teaching a category-versus-subtype mismatch.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian usage may vary by school context, with terms such as apel sekolah or upacara bendera used for particular assembly-like events.",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "No shared synonym was identified that resolves the ceremony-versus-assembly mismatch.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "7e68eb0de3723448201256acde85aebc7128e107c58e1dbd55d37824e4eb2288"
+}

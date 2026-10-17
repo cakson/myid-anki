@@ -1,0 +1,73 @@
+{
+  "attempt_id": "6d5038ea5b5ab0cc",
+  "candidate_id": "tmp-shopping-s040-012",
+  "claim_reviews": [
+    {
+      "conclusion": "Store aisle accurately identifies a passage between product rows in a store.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/193/1/BIPA%20B1%20PPSDK.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "lorong toko is a valid Indonesian expression for a store aisle.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/193/1/BIPA%20B1%20PPSDK.pdf",
+        "https://kikp-pertanian.id/psekp/uploaded_files/temporary/DigitalCollection/YWRkOTgwN2VlZDNjM2VlYjUyYWQwNDNiNTk3NWEzYjBkMjQ1ZTY3ZQ%3D%3D.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "lorong kedai is attested in Malaysian retail usage for an aisle with shelves and merchandise.",
+      "evidence_refs": [
+        "https://kopenberhad.com/wp-content/uploads/2024/07/BUKU-LAPORAN-2024.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jalan+kecil"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "different-common-word is appropriate because lorong is shared while toko and kedai are the Indonesian and Malaysian regional terms for a shop/store.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kedai",
+        "https://repositori.kemendikdasmen.go.id/193/1/BIPA%20B1%20PPSDK.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is required; the difference is ordinary regional vocabulary rather than a misleading divergent meaning.",
+      "evidence_limitation": "No dedicated false-friend reference was located, but the cited usage evidence supports the shared aisle sense.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "fa78a25d1e8ec0062c6a2b92e426e8b57f1957c8eedcb2980e6327a63502a97d",
+  "correction_refs": [],
+  "decision_digest": "d3eb8bc6b3f180e8515baaf7defaa03aa010d1859dbff4dc1255ddaf2f792218",
+  "elapsed_ms": 18339,
+  "finding_class": "none",
+  "input_tokens": 52278,
+  "model_calls": 1,
+  "output_tokens": 1196,
+  "packet_digest": "1bcd9e937797e10b7a1df9d1ac4d93e3c1d808338531dc27a3d181c58effd380",
+  "rationale": "Both forms express a store aisle: Indonesian lorong toko and Malaysian lorong kedai. The cue and sense are accurate, the relation is a regional lexical contrast in toko versus kedai, and no material false-friend distinction is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:04:42.354461+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s040/tmp-shopping-s040-012.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s040",
+  "verdict": "cleared"
+}

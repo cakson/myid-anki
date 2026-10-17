@@ -1,0 +1,79 @@
+{
+  "attempt_id": "84c0fc52c6165545",
+  "candidate_id": "tmp-work-s051-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Skill” with the sense “ability developed for work” is aligned with both target terms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kemahiran",
+        "https://kbbi.kemdikbud.go.id/entri/keterampilan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Keterampilan is a standard Indonesian term meaning competence or ability to complete a task, and fits work-related skill.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/keterampilan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: keterampilan"
+    },
+    {
+      "conclusion": "Kemahiran is a standard Malaysian term for competence, proficiency, or skill and fits the cue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=kemahiran",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kemahiran"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kemahiran"
+    },
+    {
+      "conclusion": "The relation “different-common-word” is materially too strong. Malaysian PRPM recognizes keterampilan as competence or high ability, while Indonesian KBBI recognizes kemahiran as ability or proficiency; therefore both forms are accepted equivalents across the varieties. A preference-based relation would be safer, though comparative frequency evidence is unavailable here.",
+      "evidence_limitation": "The cited dictionaries establish acceptance and meaning, but do not quantify current national frequency or preference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=97396&keyword=Keterampilan",
+        "https://kbbi.kemdikbud.go.id/entri/kemahiran"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No contrast is supplied. These forms are not shown to have a misleading divergent meaning; the card should explicitly state that both mean skill/competence, with the difference primarily being variety preference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=97396&keyword=Keterampilan",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=kemahiran",
+        "https://kbbi.kemdikbud.go.id/entri/keterampilan",
+        "https://kbbi.kemdikbud.go.id/entri/kemahiran"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "f8d9b5a51022acc36ff2d59ea3d547b267c1088714b6e842208e02ad4bc153cd",
+  "correction_refs": [],
+  "decision_digest": "383f21a774893440e4bc6e5b19b49012dfa441b78ec3a71f0168d7ab77426a79",
+  "elapsed_ms": 18560,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62274,
+  "model_calls": 1,
+  "output_tokens": 1426,
+  "packet_digest": "e5297e3365a71ed371fa5389390b6bf97b390ed69766064f72b39d15bf387e1e",
+  "rationale": "Both answers correctly denote skill, but the national split is materially overstated: keterampilan is an accepted Malay term in Malaysia, while kemahiran is also an accepted Indonesian term. The distinction may reflect preference, not a reliable different-common-word contrast. The English cue is suitable, but the card lacks the required false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:18:55.427404+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s051/tmp-work-s051-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s051",
+  "verdict": "needs-correction"
+}

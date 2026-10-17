@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T20:08:36.639581+00:00",
+  "input_digest": "ddcdfe8b6b7b3e11674220f81b9e31462cc3a0ac6bc72edbd245f331f155b9dd",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s011-003:tmp-family-social-s011-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cfather\\u201d means a male parent, while \\u201cparents\\u201d refers collectively to both mother and father.\"}, {\"other_id\": \"corpus-004-003-s024-006:tmp-family-social-s024-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cfather\\u201d means one\\u2019s own male parent; \\u201cfather-in-law\\u201d means the father of one\\u2019s spouse.\"}, {\"other_id\": \"corpus-004-001-s011-006:tmp-family-social-s011-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cfather\\u201d is a parent, whereas \\u201cgrandfather\\u201d is a parent\\u2019s father.\"}, {\"other_id\": \"corpus-004-003-s024-008:tmp-family-social-s024-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cfather\\u201d means a biological or ordinary male parent; \\u201cstepfather\\u201d is the male spouse of one\\u2019s parent who is not one\\u2019s biological father.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s011-003:tmp-family-social-s011-003",
+          "rationale": "“father” means a male parent, while “parents” refers collectively to both mother and father.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-006:tmp-family-social-s024-006",
+          "rationale": "“father” means one’s own male parent; “father-in-law” means the father of one’s spouse.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s011-006:tmp-family-social-s011-006",
+          "rationale": "“father” is a parent, whereas “grandfather” is a parent’s father.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-008:tmp-family-social-s024-008",
+          "rationale": "“father” means a biological or ordinary male parent; “stepfather” is the male spouse of one’s parent who is not one’s biological father.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s011-003:tmp-family-social-s011-003",
+        "rationale": "“father” means a male parent, while “parents” refers collectively to both mother and father.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024-006:tmp-family-social-s024-006",
+        "rationale": "“father” means one’s own male parent; “father-in-law” means the father of one’s spouse.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s011-006:tmp-family-social-s011-006",
+        "rationale": "“father” is a parent, whereas “grandfather” is a parent’s father.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024-008:tmp-family-social-s024-008",
+        "rationale": "“father” means a biological or ordinary male parent; “stepfather” is the male spouse of one’s parent who is not one’s biological father.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "616c9a8dfe67bd88e7a8b60ccdf3ca2e1db6956f3e3ba545a0cd7f9ab02e6dfe"
+}

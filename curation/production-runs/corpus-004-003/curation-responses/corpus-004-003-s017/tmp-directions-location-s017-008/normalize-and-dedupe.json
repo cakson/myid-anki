@@ -1,0 +1,56 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6766,
+  "input_digest": "84965257f4996dd49f07d418b5e7a00f7285ac06208366c79dea456ee11f6bd5",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 541,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A suburb is an area outside a city's central part, whereas a city center is the central urban area.\"},{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A suburb is specifically an area outside the central city; a neighborhood is any local residential area and need not be outside the center.\"},{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A suburb is an urban or metropolitan peripheral area, whereas a village is a small rural settlement.\"},{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A suburb is a part of or area around a city, whereas a city is the entire urban settlement.\"},{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A suburb is a peripheral urban area, whereas a capital city is a country's seat of government.\"},{\"other_id\":\"corpus-004-003-s017:tmp-directions-location-s017-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A suburb is a residential or urban location concept, whereas a district is an administrative area.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-002",
+          "rationale": "A suburb is an area outside a city's central part, whereas a city center is the central urban area.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-003",
+          "rationale": "A suburb is specifically an area outside the central city; a neighborhood is any local residential area and need not be outside the center.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-005",
+          "rationale": "A suburb is an urban or metropolitan peripheral area, whereas a village is a small rural settlement.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-006",
+          "rationale": "A suburb is a part of or area around a city, whereas a city is the entire urban settlement.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-007",
+          "rationale": "A suburb is a peripheral urban area, whereas a capital city is a country's seat of government.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-011",
+          "rationale": "A suburb is a residential or urban location concept, whereas a district is an administrative area.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

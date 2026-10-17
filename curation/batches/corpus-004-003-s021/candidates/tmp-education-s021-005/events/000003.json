@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:59:16.912293+00:00",
+  "input_digest": "deb2cbe460ad38827a39233a2a7674fb55dd6bd29f9e5acf3cd1eeb5699f66a5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"school-001:topic-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A school counselor is a staff member providing student guidance and support, whereas a teacher primarily teaches classes; the roles are distinct.\"}, {\"other_id\": \"fresh-work-001:work-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A school counselor provides student guidance, whereas a school principal heads and administers the school; these are distinct roles.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "school-001:topic-02",
+          "rationale": "A school counselor is a staff member providing student guidance and support, whereas a teacher primarily teaches classes; the roles are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-05",
+          "rationale": "A school counselor provides student guidance, whereas a school principal heads and administers the school; these are distinct roles.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "school-001:topic-02",
+        "rationale": "A school counselor is a staff member providing student guidance and support, whereas a teacher primarily teaches classes; the roles are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-work-001:work-05",
+        "rationale": "A school counselor provides student guidance, whereas a school principal heads and administers the school; these are distinct roles.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "227eff973c1219364b2bbdc155088b1ad7a60684fbc28c4e29f50bf6ecb70619"
+}

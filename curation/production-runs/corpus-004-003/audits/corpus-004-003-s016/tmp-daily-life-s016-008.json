@@ -1,0 +1,72 @@
+{
+  "attempt_id": "582d5ba085c8d910",
+  "candidate_id": "tmp-daily-life-s016-008",
+  "claim_reviews": [
+    {
+      "conclusion": "“Bedside lamp” correctly means a lamp positioned beside a bed; the supplied sense is accurate.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/inspirasi/lampu-nakas-untuk-kamar-tidur-yang-nyaman"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Common Indonesian usage supports “lampu tidur,” but the term can also denote a general night or sleep lamp and does not specifically guarantee a lamp beside the bed. “Lampu samping tempat tidur” or “lampu meja samping tempat tidur” is more precise.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/inspirasi/lampu-tidur-kamar",
+        "https://www.ikea.co.id/in/inspirasi/lampu-nakas-untuk-kamar-tidur-yang-nyaman"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: lampu tidur"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay expression for a bedside lamp and directly supported by Malaysian usage.",
+      "evidence_refs": [
+        "https://www.mdph.gov.my/images/pdf/osc/buku_panduan_cekap_tenaga.pdf",
+        "https://www.softayo.com/ms/products/softayo-touch-desk-lamp"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: lampu sisi katil"
+    },
+    {
+      "conclusion": "“Different-common-word” is defensible because the Indonesian and Malaysian forms differ, although the Indonesian form is less semantically specific.",
+      "evidence_refs": [
+        "https://www.ikea.co.id/in/inspirasi/lampu-tidur-kamar",
+        "https://www.mdph.gov.my/images/pdf/osc/buku_panduan_cekap_tenaga.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No established false-friend contrast is needed; the main issue is Indonesian underspecification rather than a misleading cross-language meaning.",
+      "evidence_limitation": "Available usage evidence shows semantic breadth for “lampu tidur” but does not establish a conventional false-friend pair.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "5ca1c2da359ec5b1933ed9080e81eb9b6a394dc865294fbf4194fdfb59dbd1ac",
+  "correction_refs": [],
+  "decision_digest": "95b0ed83452cbae69e3ebc0293cd74be5055b1fe5f5f37a07ac6d9820f35be36",
+  "elapsed_ms": 20234,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 56545,
+  "model_calls": 1,
+  "output_tokens": 1293,
+  "packet_digest": "f7f013616ff4a50f568b806c947264a61ba01acfaafa289bcf0166f66f97712e",
+  "rationale": "The Malaysian answer is a valid direct equivalent. Indonesian “lampu tidur” is common but broader and can mean a night lamp, so it is not reliably equivalent to the specific cue “bedside lamp” without context. The relation remains different-common-word, and no major false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:36:47.530708+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s016/tmp-daily-life-s016-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s016",
+  "verdict": "needs-correction"
+}

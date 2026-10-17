@@ -1,0 +1,64 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 15080,
+  "input_tokens": 29235,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1178,
+  "packet_digest": "34693281afd1acee75e6beb519f33611a3c47cd2d70734c90778b883250cdd92",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"Both answers are valid translations for the cake sense, and the different-common-word relation is correct. However, Indonesian kue is broader than “sweet baked dessert,” including steamed and other sweet snacks. Malaysian kek is specifically cake. The card should either broaden the cue or add a contrast noting Malaysian kuih is a broader snack/dessert category, not a strict false friend.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: kue\",\"conclusion\":\"Valid for English cake, but broader than the stated baked-dessert sense.\",\"material_risk\":true,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/indonesian-english/kue\",\"https://kbbi.web.id/kue%20kering\"]},{\"subject\":\"Malaysian answer: kek\",\"conclusion\":\"Correct for cake as a baked flour-based dessert.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kek\",\"https://dictionary.cambridge.org/dictionary/english-malaysian/cake\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue is understandable but overly narrow for Indonesian kue; “cake” or “cake/dessert” would better accommodate the Indonesian term.\",\"material_risk\":true,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/indonesian-english/kue\",\"https://kbbi.web.id/kue%20kering\"]},{\"subject\":\"Final relation\",\"conclusion\":\"different-common-word is correct: Indonesian uses kue and Malaysian uses kek for the ordinary cake translation.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english-indonesian/cake\",\"https://dictionary.cambridge.org/dictionary/english-malaysian/cake\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No strict false friend is present, but a learner-useful contrast is missing: Malaysian kuih is a broader traditional snack/dessert category and is not equivalent to kek in this sense.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kek\",\"https://en.wikipedia.org/wiki/Kuih\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Valid for English cake, but broader than the stated baked-dessert sense.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/indonesian-english/kue",
+          "https://kbbi.web.id/kue%20kering"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: kue"
+      },
+      {
+        "conclusion": "Correct for cake as a baked flour-based dessert.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kek",
+          "https://dictionary.cambridge.org/dictionary/english-malaysian/cake"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: kek"
+      },
+      {
+        "conclusion": "The cue is understandable but overly narrow for Indonesian kue; “cake” or “cake/dessert” would better accommodate the Indonesian term.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/indonesian-english/kue",
+          "https://kbbi.web.id/kue%20kering"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "different-common-word is correct: Indonesian uses kue and Malaysian uses kek for the ordinary cake translation.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/cake",
+          "https://dictionary.cambridge.org/dictionary/english-malaysian/cake"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No strict false friend is present, but a learner-useful contrast is missing: Malaysian kuih is a broader traditional snack/dessert category and is not equivalent to kek in this sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kek",
+          "https://en.wikipedia.org/wiki/Kuih"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "Both answers are valid translations for the cake sense, and the different-common-word relation is correct. However, Indonesian kue is broader than “sweet baked dessert,” including steamed and other sweet snacks. Malaysian kek is specifically cake. The card should either broaden the cue or add a contrast noting Malaysian kuih is a broader snack/dessert category, not a strict false friend.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,66 @@
+{
+  "attempt_id": "4e4b8adf5d240b04",
+  "candidate_id": "tmp-health-body-s034-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct Indonesian term for tonsil, including the palatine throat tissues.",
+      "evidence_refs": [
+        "https://kbbi.web.id/amandel",
+        "https://kbbi.web.id/tonsil"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: amandel"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for the tissue structure at the back of the mouth or throat.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tonsil"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: tonsil"
+    },
+    {
+      "conclusion": "“Tonsil” and the supplied anatomical definition are aligned; the plural wording refers to the paired palatine tonsils.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tonsil",
+        "https://kbbi.web.id/tonsil"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is justified as an Indonesian–Malaysian Malay vocabulary contrast. No false-friend contrast is present or required; Indonesian also recognizes “tonsil” as a synonym, especially in medical usage.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tonsil",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=tonsil"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "e205de90533fb4adba1128d7bdadf50d9f4ed55e938748207204ee7848f2858c",
+  "correction_refs": [],
+  "decision_digest": "43b94b54d92c4579fac9eeee58f06b76d24ce785b43565b70306c9b4d67607a3",
+  "elapsed_ms": 14850,
+  "finding_class": "none",
+  "input_tokens": 48968,
+  "model_calls": 1,
+  "output_tokens": 769,
+  "packet_digest": "8293bd5f4dbc732794ea33c198c3fa9c40af83ce19a0742613dafcb433f60888",
+  "rationale": "Both language answers match the intended anatomical sense. Indonesian uses “amandel”; Malaysian Malay uses “tonsil.” The relation is a valid contrast of different common terms, with no false-friend issue. “Tonsil” is also recognized in Indonesian, but that does not make the answer incorrect.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:58:50.771689+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s034/tmp-health-body-s034-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s034",
+  "verdict": "cleared"
+}

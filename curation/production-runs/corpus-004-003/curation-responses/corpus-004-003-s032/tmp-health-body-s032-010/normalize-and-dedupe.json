@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6381,
+  "input_digest": "64b11d5f20b045743abd873d78da4f9eccb7ab566b1cfb53fa8cdf84ad0fd11f",
+  "input_tokens": 94593,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 170,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"health-001:health-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“Hospital ward” is a specific area within a hospital where patients stay, while “hospital” is the medical facility as a whole; the Indonesian and Malaysian answers also differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "health-001:health-03",
+          "rationale": "“Hospital ward” is a specific area within a hospital where patients stay, while “hospital” is the medical facility as a whole; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

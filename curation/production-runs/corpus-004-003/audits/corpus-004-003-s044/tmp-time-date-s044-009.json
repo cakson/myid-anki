@@ -1,0 +1,64 @@
+{
+  "attempt_id": "d8b29510063bc931",
+  "candidate_id": "tmp-time-date-s044-009",
+  "claim_reviews": [
+    {
+      "conclusion": "“next year” and the stated calendar-year sense are accurate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=next"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“tahun depan” is a correct and ordinary Indonesian equivalent.",
+      "evidence_refs": [
+        "https://bipa.kemendikdasmen.go.id/filebelajar/3Umum_BIPA_1.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“tahun hadapan” is a correct Malaysian equivalent; “tahun depan” is also accepted in Malaysian usage, so the preference is non-exclusive.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tahun",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=baharu+baru"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“different-common-word” is acceptable for distinct forms with the same sense. There is no false-friend contrast to report.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tahun"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "3de4886382d58a72e68bfccaec04bac50ff2fe68a0ea7ac6bff26ffcf74cd817",
+  "correction_refs": [],
+  "decision_digest": "f7318f56b96dd29deefd70866f0cdcff6a2f9ca75778a7322c1d6f57b5899d06",
+  "elapsed_ms": 20406,
+  "finding_class": "none",
+  "input_tokens": 51695,
+  "model_calls": 1,
+  "output_tokens": 1154,
+  "packet_digest": "de6f68ef3080517d2436c19c6ba1a112e649b7205140bea014e145ad9e21762c",
+  "rationale": "Both Malay forms correctly express the calendar year immediately after the current year. Indonesian tahun depan is ordinary; Malaysian tahun hadapan is standard, while tahun depan also occurs in Malaysian usage. The relation is appropriately lexical variation without a false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:10:17.601580+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s044/tmp-time-date-s044-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s044",
+  "verdict": "cleared"
+}

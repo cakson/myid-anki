@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:42:38.707871+00:00",
+  "input_digest": "dcc59484e82a3e33709b32afdedb020902d2259cf28084351388afc14ddd17c0",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-actions-001:actions-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cmisunderstanding\\u201d is a failure or incorrect interpretation, whereas \\u201cunderstand\\u201d means grasping meaning; the senses are opposites but not duplicate concepts.\"}, {\"other_id\": \"corpus-004-001-s002:tmp-common-adjectives-contrast-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cmisunderstanding\\u201d denotes an incorrect interpretation or communication failure, whereas \\u201cconfused\\u201d describes a person's unclear mental state; related but distinct senses.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-02",
+          "rationale": "“misunderstanding” is a failure or incorrect interpretation, whereas “understand” means grasping meaning; the senses are opposites but not duplicate concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s002:tmp-common-adjectives-contrast-003",
+          "rationale": "“misunderstanding” denotes an incorrect interpretation or communication failure, whereas “confused” describes a person's unclear mental state; related but distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-actions-001:actions-02",
+        "rationale": "“misunderstanding” is a failure or incorrect interpretation, whereas “understand” means grasping meaning; the senses are opposites but not duplicate concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s002:tmp-common-adjectives-contrast-003",
+        "rationale": "“misunderstanding” denotes an incorrect interpretation or communication failure, whereas “confused” describes a person's unclear mental state; related but distinct senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "3050f0e2672b22aba55451cf0a6a20043fe3d668cfc4302a51f55c8db7d7a1ac"
+}

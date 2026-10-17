@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-17T04:34:40.307544+00:00",
+  "result": {
+    "candidate_digest": "f7a54686f5c6d0e3a3e3236de0c3f1809483a46c418fe8645198f3e4c96a3a34",
+    "candidate_id": "tmp-health-body-s033-003",
+    "checked_at": "2026-10-17T04:34:40.307544+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "Unresolved semantic overlap could create a duplicate concept."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "Unresolved semantic overlap could create a duplicate concept."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

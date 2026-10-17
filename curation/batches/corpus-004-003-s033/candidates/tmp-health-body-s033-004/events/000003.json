@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T04:34:46.082769+00:00",
+  "input_digest": "911113c59bbcdee227dfa802fab34a0337f65158a1773a2f8e0f7b82d62ea6d4",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s032:tmp-health-body-s032-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Obesity is excessive body fat; diabetes is a chronic high-blood-sugar disease. The senses and Indonesian/Malaysian answers differ.\"}, {\"other_id\": \"corpus-004-003-s033:tmp-health-body-s033-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Obesity concerns excessive body fat, whereas malnutrition concerns insufficient or unbalanced nutrients; the answers also differ.\"}, {\"other_id\": \"common-adjectives-001:topic-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Obesity is a health condition, while healthy means being in good physical health; the answers differ.\"}, {\"other_id\": \"pros4-health-001:health-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Obesity is excessive body fat as a condition, whereas fit means physically fit and energetic; the answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s032:tmp-health-body-s032-004",
+          "rationale": "Obesity is excessive body fat; diabetes is a chronic high-blood-sugar disease. The senses and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s033:tmp-health-body-s033-005",
+          "rationale": "Obesity concerns excessive body fat, whereas malnutrition concerns insufficient or unbalanced nutrients; the answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "common-adjectives-001:topic-05",
+          "rationale": "Obesity is a health condition, while healthy means being in good physical health; the answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-health-001:health-02",
+          "rationale": "Obesity is excessive body fat as a condition, whereas fit means physically fit and energetic; the answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s032:tmp-health-body-s032-004",
+        "rationale": "Obesity is excessive body fat; diabetes is a chronic high-blood-sugar disease. The senses and Indonesian/Malaysian answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s033:tmp-health-body-s033-005",
+        "rationale": "Obesity concerns excessive body fat, whereas malnutrition concerns insufficient or unbalanced nutrients; the answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "common-adjectives-001:topic-05",
+        "rationale": "Obesity is a health condition, while healthy means being in good physical health; the answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "pros4-health-001:health-02",
+        "rationale": "Obesity is excessive body fat as a condition, whereas fit means physically fit and energetic; the answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "5663c3550c0cc5848aaaf1718caf7f1d9b75217479390facaac9006fc10ec7c9"
+}

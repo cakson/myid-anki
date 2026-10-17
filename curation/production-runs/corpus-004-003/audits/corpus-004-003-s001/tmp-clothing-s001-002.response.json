@@ -1,0 +1,61 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21955,
+  "input_tokens": 70398,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1334,
+  "packet_digest": "f04629556cc82ef2dcf1e99a708effcd85403cf7c3e7411791e1e8005c15d74c",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The English cue and sense are correct, and both answers are semantically valid. However, the relation “different-common-word” overstates a national lexical distinction: Malaysian Malay officially recognizes both “coli” and “bra” for this item. The card should present “coli” as a Malaysian Malay preference or synonym, not as an exclusive contrast. No false-friend contrast is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Correct: “bra” matches a women’s breast-supporting undergarment.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli\"]},{\"subject\":\"Indonesian answer: bra\",\"conclusion\":\"Plausible and correct for Indonesian; the available Indonesian terminology evidence supports “bra” as a clothing term, though direct usage-frequency evidence is limited.\",\"material_risk\":false,\"evidence_refs\":[\"https://bahasa-dev.kemendikdasmen.go.id/resource/doc/files/Prosiding_SLI_2022_compressed.pdf\"]},{\"subject\":\"Malaysian answer: coli\",\"conclusion\":\"Correct: PRPM defines “coli” as women’s underwear supporting the breasts.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Needs correction or qualification. “Coli” is a valid Malaysian Malay term, but “bra” is also listed in PRPM with the same meaning, so this is better classified as a shared synonym with a Malaysian preference rather than a clean different-common-word contrast.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli\",\"https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bra\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supplied, and none is needed for these forms; the distinction is lexical preference/usage overlap rather than divergent meaning.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli\",\"https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bra\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct: “bra” matches a women’s breast-supporting undergarment.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Plausible and correct for Indonesian; the available Indonesian terminology evidence supports “bra” as a clothing term, though direct usage-frequency evidence is limited.",
+        "evidence_refs": [
+          "https://bahasa-dev.kemendikdasmen.go.id/resource/doc/files/Prosiding_SLI_2022_compressed.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: bra"
+      },
+      {
+        "conclusion": "Correct: PRPM defines “coli” as women’s underwear supporting the breasts.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: coli"
+      },
+      {
+        "conclusion": "Needs correction or qualification. “Coli” is a valid Malaysian Malay term, but “bra” is also listed in PRPM with the same meaning, so this is better classified as a shared synonym with a Malaysian preference rather than a clean different-common-word contrast.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli",
+          "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bra"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is supplied, and none is needed for these forms; the distinction is lexical preference/usage overlap rather than divergent meaning.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coli",
+          "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bra"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and sense are correct, and both answers are semantically valid. However, the relation “different-common-word” overstates a national lexical distinction: Malaysian Malay officially recognizes both “coli” and “bra” for this item. The card should present “coli” as a Malaysian Malay preference or synonym, not as an exclusive contrast. No false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

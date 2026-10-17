@@ -1,0 +1,89 @@
+{
+  "attempt_id": "ed294d3f5ef0babd",
+  "candidate_id": "tmp-shopping-s041-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Genuine product” correctly conveys an authentic product rather than a counterfeit.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=authentic",
+        "https://dgip.go.id/artikel/detail-artikel-berita/waspadai-barang-palsu-kenali-ciri-ciri-produk-yang-dibajak?kategori=liputan-humas"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and ordinary for the intended sense; Indonesian asli means genuine/not imitation, and Indonesian official consumer usage contrasts produk asli with counterfeit goods.",
+      "evidence_refs": [
+        "https://kbbi.web.id/asli.html",
+        "https://dgip.go.id/artikel/detail-artikel-berita/waspadai-barang-palsu-kenali-ciri-ciri-produk-yang-dibajak?kategori=liputan-humas"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: produk asli"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay wording for a genuine product; tulen is defined as not imitation and synonymous with asli.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=168608&keyword=tulen",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=original"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: produk tulen"
+    },
+    {
+      "conclusion": "Materially overstated. Malaysian Malay explicitly recognizes asli with the relevant meaning, and Malaysian product-related usage documents produk asli; therefore produk asli is not an Indonesian-only form. Indonesian tulen is also accepted as meaning asli, so the distinction is preferential rather than categorical.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=asli",
+        "https://www.myipo.gov.my/ms/asas-petunjuk-geografi-2/",
+        "https://kbbi.web.id/tulen"
+      ],
+      "material_risk": true,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "“different-common-word” is not supportable as a strong variety distinction. Replace it with a relation indicating shared synonymy or useful preference, while retaining that produk asli is especially associated with Indonesian everyday usage and produk tulen is a useful Malaysian preference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=asli",
+        "https://prpm.dbp.gov.my/Cari1?d=168608&keyword=tulen",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=original"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No true false-friend contrast is present. Asli and tulen overlap semantically across both varieties for authenticity; asli also has other senses such as native/original, so the learner card should explicitly warn that context determines whether it means genuine, original, or native.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=asli",
+        "https://kbbi.web.id/asli.html",
+        "https://kbbi.web.id/tulen"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ffa2084e957e21da47e0718480e97cd6e0e66ecb1148a94c2eec23d17b845380",
+  "correction_refs": [],
+  "decision_digest": "2fc5ece723a2ea788e172187ff1b84217311f4397175c7b3867cd4ed4e4baf79",
+  "elapsed_ms": 23896,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 98920,
+  "model_calls": 1,
+  "output_tokens": 1704,
+  "packet_digest": "2e35da9a324ecbcb1e3bed9aa326be9407630d9a7dd4d70464f0a4d912be0332",
+  "rationale": "The cue and both answers express the intended counterfeit-versus-authentic sense, but the national split is materially overstated. Malaysian Malay dictionaries define asli as tulen and not imitation, and Malaysian usage includes produk asli. Indonesian tulen is also an accepted synonym of asli. The relation should be revised from different-common-word to a shared-synonym/useful-preference relation, with an explicit overlap contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:10:26.267358+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s041/tmp-shopping-s041-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "needs-correction"
+}

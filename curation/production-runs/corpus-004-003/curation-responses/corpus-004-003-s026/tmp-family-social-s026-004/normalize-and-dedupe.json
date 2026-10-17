@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5701,
+  "input_digest": "4c3dae7e33b3e366de928c45ab61028fd3f9b13863de589705d2da5d03d1f6fb",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 387,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s025-002:tmp-family-social-s025-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A groom is a man getting married, whereas a fiancé is a man promised to marry; wedding-stage person versus pre-marriage relationship status.\"},{\"other_id\":\"corpus-004-003-s026:tmp-family-social-s026-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Groom and bride are complementary gender-specific roles at a wedding, not duplicate concepts.\"},{\"other_id\":\"corpus-004-003-s011:tmp-family-social-s011-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A groom is the man getting married; a wedding is the marriage ceremony or event.\"},{\"other_id\":\"corpus-004-002-s009:tmp-family-social-s009-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A groom is a person participating in a marriage; to marry is the action of entering into marriage.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025-002:tmp-family-social-s025-002",
+          "rationale": "A groom is a man getting married, whereas a fiancé is a man promised to marry; wedding-stage person versus pre-marriage relationship status.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-003",
+          "rationale": "Groom and bride are complementary gender-specific roles at a wedding, not duplicate concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s011:tmp-family-social-s011-008",
+          "rationale": "A groom is the man getting married; a wedding is the marriage ceremony or event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-004",
+          "rationale": "A groom is a person participating in a marriage; to marry is the action of entering into marriage.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

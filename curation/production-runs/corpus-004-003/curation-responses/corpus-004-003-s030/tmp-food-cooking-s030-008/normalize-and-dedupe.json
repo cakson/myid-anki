@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5268,
+  "input_digest": "f32318d409c17d128a6e56973c6894a4294a6f56a056b1698755a195e1f5003f",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 308,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s031:tmp-food-cooking-s031-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Fish sauce is a salty fermented fish sauce, distinct from soy sauce, which is made from fermented soybeans; the Indonesian and Malaysian answers also differ.\"},{\"other_id\":\"food-001:foods-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Fish sauce is a specific fermented-fish condiment, whereas sauce is a generic condiment category; the cue and both answers are not the same concept.\"},{\"other_id\":\"corpus-004-003-s030:tmp-food-cooking-s030-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Fish sauce is a specific prepared condiment, whereas seasoning is the broader category of ingredients added for flavor; their cues and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-006",
+          "rationale": "Fish sauce is a salty fermented fish sauce, distinct from soy sauce, which is made from fermented soybeans; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "food-001:foods-05",
+          "rationale": "Fish sauce is a specific fermented-fish condiment, whereas sauce is a generic condiment category; the cue and both answers are not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s030:tmp-food-cooking-s030-002",
+          "rationale": "Fish sauce is a specific prepared condiment, whereas seasoning is the broader category of ingredients added for flavor; their cues and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

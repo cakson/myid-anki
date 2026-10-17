@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-17T05:03:46.480166+00:00",
+  "input_digest": "d079ccf48f40416d0afa16a5ae07fd3054f3b477c9c5f9c546cd4151d670672a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s048-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A gear shift selects a vehicle gear; a steering wheel controls direction, so the senses and answers are distinct.\"}, {\"other_id\": \"corpus-004-003-s048-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A gear shift selects a vehicle gear; a brake slows or stops the vehicle, so the controls have distinct functions.\"}, {\"other_id\": \"corpus-004-003-s048-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A gear shift selects a vehicle gear; an accelerator pedal increases speed, so the controls have distinct functions.\"}, {\"other_id\": \"corpus-004-003-s047-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A gear shift selects a vehicle gear, whereas an engine powers the vehicle; these are distinct components and senses.\"}, {\"other_id\": \"corpus-004-003-s020-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A gear shift is a vehicle control, whereas a seat belt is a passenger restraint; the senses and answers are distinct.\"}, {\"other_id\": \"corpus-004-003-s018-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A gear shift is a vehicle control, whereas gasoline is vehicle fuel; the senses and answers are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s048-001",
+          "rationale": "A gear shift selects a vehicle gear; a steering wheel controls direction, so the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s048-002",
+          "rationale": "A gear shift selects a vehicle gear; a brake slows or stops the vehicle, so the controls have distinct functions.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s048-003",
+          "rationale": "A gear shift selects a vehicle gear; an accelerator pedal increases speed, so the controls have distinct functions.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s047-003",
+          "rationale": "A gear shift selects a vehicle gear, whereas an engine powers the vehicle; these are distinct components and senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s020-001",
+          "rationale": "A gear shift is a vehicle control, whereas a seat belt is a passenger restraint; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s018-002",
+          "rationale": "A gear shift is a vehicle control, whereas gasoline is vehicle fuel; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s048-001",
+        "rationale": "A gear shift selects a vehicle gear; a steering wheel controls direction, so the senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s048-002",
+        "rationale": "A gear shift selects a vehicle gear; a brake slows or stops the vehicle, so the controls have distinct functions.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s048-003",
+        "rationale": "A gear shift selects a vehicle gear; an accelerator pedal increases speed, so the controls have distinct functions.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s047-003",
+        "rationale": "A gear shift selects a vehicle gear, whereas an engine powers the vehicle; these are distinct components and senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s020-001",
+        "rationale": "A gear shift is a vehicle control, whereas a seat belt is a passenger restraint; the senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s018-002",
+        "rationale": "A gear shift is a vehicle control, whereas gasoline is vehicle fuel; the senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "285b447b0b2d9fa29e7ba28859f6500967ae6ecdd59925efdafa83c0a9ba2bed"
+}

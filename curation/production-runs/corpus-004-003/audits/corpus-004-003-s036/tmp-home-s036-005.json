@@ -1,0 +1,75 @@
+{
+  "attempt_id": "74df0513b1bc2e41",
+  "candidate_id": "tmp-home-s036-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Understandable but too general for the specified wastewater-drain sense; replace with “got” or “selokan”.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/got",
+        "https://en.wiktionary.org/wiki/selokan",
+        "https://kamus.sabda.org/kamus/saluran"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: saluran air"
+    },
+    {
+      "conclusion": "Correct and idiomatic for a drain carrying dirty or wastewater.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=longkang"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: longkang"
+    },
+    {
+      "conclusion": "“Wastewater drain” accurately narrows “drain” to the intended sense; the definition is consistent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=longkang",
+        "https://typoonline.com/kbbi/got"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Broadly correct because the forms differ by national variety, though the Indonesian form is less specific and less natural for this cue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=longkang",
+        "https://typoonline.com/kbbi/got"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied, but no significant false-friend hazard is evident between these two forms.",
+      "evidence_limitation": "No dedicated contrast evidence was provided; assessment is based on the dictionary senses reviewed.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "b00c9b418025818a71c633ee52a3ac62c2a7525710c48ab7216ed50914ea594c",
+  "correction_refs": [],
+  "decision_digest": "0839f849505fe59d055cf0c4629cab2f989e066b52a9646e01b08ebb8c743edf",
+  "elapsed_ms": 12667,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 29360,
+  "model_calls": 1,
+  "output_tokens": 916,
+  "packet_digest": "7813900d5d80b9d3c32540d92bea4dc3e37bd860265b0005fc14623672945324",
+  "rationale": "“Longkang” is a valid Malaysian Malay term for a drain carrying dirty water. Indonesian “saluran air” is understandable but overly broad and can mean a water channel or conduit; “got” or “selokan” is more learner-appropriate for a household wastewater drain. The cue and sense are aligned, and the relation is broadly valid, but the Indonesian answer needs correction. No false-friend contrast is present or materially required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:00:02.570088+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s036/tmp-home-s036-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s036",
+  "verdict": "needs-correction"
+}

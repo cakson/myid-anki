@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T19:18:53.229275+00:00",
+  "input_digest": "672ec600e1a96753a10fa26c96fa1e5943b4fab49938ec3c483af3c962f67ff2",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s001:tmp-clothing-002-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A necklace is an ornamental chain worn around the neck, whereas a scarf is a fabric clothing accessory.\"}, {\"other_id\": \"corpus-004-001-s001:clothing-contrast-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A necklace is ornamental jewelry, whereas a tie is neckwear worn with a shirt.\"}, {\"other_id\": \"clothing-001:clothing-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A necklace is an accessory worn around the neck, whereas a shirt is an upper-body garment.\"}, {\"other_id\": \"corpus-004-001-s001:clothing-contrast-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A necklace is an ornamental chain, whereas a collar is the upper part of a shirt around the neck.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s001:tmp-clothing-002-001",
+          "rationale": "A necklace is an ornamental chain worn around the neck, whereas a scarf is a fabric clothing accessory.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-001",
+          "rationale": "A necklace is ornamental jewelry, whereas a tie is neckwear worn with a shirt.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "clothing-001:clothing-03",
+          "rationale": "A necklace is an accessory worn around the neck, whereas a shirt is an upper-body garment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-002",
+          "rationale": "A necklace is an ornamental chain, whereas a collar is the upper part of a shirt around the neck.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s001:tmp-clothing-002-001",
+        "rationale": "A necklace is an ornamental chain worn around the neck, whereas a scarf is a fabric clothing accessory.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s001:clothing-contrast-001",
+        "rationale": "A necklace is ornamental jewelry, whereas a tie is neckwear worn with a shirt.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "clothing-001:clothing-03",
+        "rationale": "A necklace is an accessory worn around the neck, whereas a shirt is an upper-body garment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s001:clothing-contrast-002",
+        "rationale": "A necklace is an ornamental chain, whereas a collar is the upper part of a shirt around the neck.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "afc2835a9c4ce09fd820b0f0102d37c851446982fdea95ef79f015685d158376"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:05:23.476953+00:00",
+  "input_digest": "8e96cc431702d1124498657f57d74c48cf68e298da1260fee45884e8a155145f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-actions-001:actions-05\", \"type\": \"morphology\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cdeparture\\u201d is the noun for the act or event of leaving on a journey, while \\u201cdepart\\u201d is the verb meaning to leave; the existing archive separately preserves arrival and arrive as distinct concepts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-05",
+          "rationale": "“departure” is the noun for the act or event of leaving on a journey, while “depart” is the verb meaning to leave; the existing archive separately preserves arrival and arrive as distinct concepts.",
+          "resolution": "distinct",
+          "type": "morphology"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-actions-001:actions-05",
+        "rationale": "“departure” is the noun for the act or event of leaving on a journey, while “depart” is the verb meaning to leave; the existing archive separately preserves arrival and arrive as distinct concepts.",
+        "resolution": "distinct",
+        "type": "morphology"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d1e18ef84bd77aafa0a002e6f7dee407c2fed9183eb8b2911e6ed80b16e2b57b"
+}

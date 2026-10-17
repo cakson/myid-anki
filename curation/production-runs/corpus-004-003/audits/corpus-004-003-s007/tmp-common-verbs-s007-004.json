@@ -1,0 +1,73 @@
+{
+  "attempt_id": "a97c8e6682fff292",
+  "candidate_id": "tmp-common-verbs-s007-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary for ‘allow’ meaning ‘give permission’.",
+      "evidence_refs": [
+        "https://kbbi.web.id/izin"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: mengizinkan"
+    },
+    {
+      "conclusion": "Correct for ‘allow’ meaning ‘give permission’, though the word also means ‘confirm’, ‘affirm’, or ‘agree’.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membenarkan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: membenarkan"
+    },
+    {
+      "conclusion": "The cue ‘allow’ and sense ‘give permission’ are aligned with both answers.",
+      "evidence_refs": [
+        "https://kbbi.web.id/izin",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membenarkan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "‘Different-common-word’ is directionally valid but should be qualified: membolehkan is also common in both Indonesian and Malaysian Malay, so the distinction is not exclusive.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membolehkan",
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=boleh"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No explicit contrast is supplied. A useful learner note is that Malaysian membenarkan can also mean ‘confirm/affirm/agree’, not only ‘allow’.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membenarkan"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "16d134897d2c337ad0fe96fbc012671c1762f38eb8dea9a62a42a33ccf9233fa",
+  "correction_refs": [],
+  "decision_digest": "0f4aa49e0f06e9223ad8de3712b2ac7fab0ce1d841562a034cc08e772ff00ed3",
+  "elapsed_ms": 21094,
+  "finding_class": "metadata-only",
+  "input_tokens": 49670,
+  "model_calls": 1,
+  "output_tokens": 1143,
+  "packet_digest": "8bd4076d004ded01ad9b32092f5ca59686eb78c0177f1040993e195633a8caf7",
+  "rationale": "Both Malay answers correctly express ‘give permission’. However, the national contrast is overstated: membolehkan is also common in both varieties, and membenarkan has additional meanings such as ‘confirm’ or ‘agree’. Add a learner-facing contrast and qualify the relation as a common-preference difference rather than an exclusive national split.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:23:45.933586+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s007/tmp-common-verbs-s007-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s007",
+  "verdict": "needs-correction"
+}

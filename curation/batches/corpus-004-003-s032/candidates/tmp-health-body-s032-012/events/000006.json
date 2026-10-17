@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:34:03.482968+00:00",
+  "input_digest": "90e4912d3683f93a95e4ddd3aa0c093386302cc927b54db54afaf01fbb7c20d6",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cApoteker\\u201d is the ordinary Indonesian term, while Malaysian Malay commonly uses \\u201cahli farmasi\\u201d for the same medication-dispensing profession.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote a professional who prepares and dispenses medicines.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"\\u201cFarmasis\\u201d exists as a formal Indonesian synonym but is less preferred than \\u201capoteker\\u201d; \\u201capoteker\\u201d is not the ordinary Malaysian term for this sense.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"farmasis\", \"language\": \"indonesian\", \"rationale\": \"A formal Indonesian alternative exists, but it does not materially compete with the ordinary term \\u201capoteker\\u201d.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote a professional who prepares and dispenses medicines.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "farmasis",
+        "language": "indonesian",
+        "rationale": "A formal Indonesian alternative exists, but it does not materially compete with the ordinary term “apoteker”.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Apoteker” is the ordinary Indonesian term, while Malaysian Malay commonly uses “ahli farmasi” for the same medication-dispensing profession.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "“Farmasis” exists as a formal Indonesian synonym but is less preferred than “apoteker”; “apoteker” is not the ordinary Malaysian term for this sense.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote a professional who prepares and dispenses medicines.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "farmasis",
+      "language": "indonesian",
+      "rationale": "A formal Indonesian alternative exists, but it does not materially compete with the ordinary term “apoteker”.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Apoteker” is the ordinary Indonesian term, while Malaysian Malay commonly uses “ahli farmasi” for the same medication-dispensing profession.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "“Farmasis” exists as a formal Indonesian synonym but is less preferred than “apoteker”; “apoteker” is not the ordinary Malaysian term for this sense.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "ee11b8102abc2e3eb70078a55cf39181482879a531f0ec45a0a655b8b991b94c"
+}

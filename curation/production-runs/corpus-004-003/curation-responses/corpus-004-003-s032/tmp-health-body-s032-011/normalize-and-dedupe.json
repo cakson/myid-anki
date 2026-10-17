@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5163,
+  "input_digest": "1dcedc66414cb5df4e4bc998e3fc5626aa61e117210b93e4fef509a1493c281c",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 232,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-actions-001:action-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Outpatient is a patient treated without overnight admission; patient is the person receiving medical care, so the concepts differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-actions-001:action-08",
+          "rationale": "Outpatient is a patient treated without overnight admission; patient is the person receiving medical care, so the concepts differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

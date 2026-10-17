@@ -1,0 +1,59 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18116,
+  "input_tokens": 49601,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 931,
+  "packet_digest": "025c8084958d4fe0ce32cfee7d5edb44c0465f14c0d6cac25060e801c476cc61",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"Indonesian kinerja correctly matches work performance. Malaysian prestasi is valid but broader, commonly meaning achievement or result; prestasi kerja is the clearer exact match for a worker’s job performance. The different-common-word relation is otherwise justified, and there is no strict false-friend contrast.\",\"claim_reviews\":[{\"subject\":\"Indonesian kinerja\",\"conclusion\":\"Correct for work performance and worker job performance.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/kinerja.html\"]},{\"subject\":\"Malaysian prestasi\",\"conclusion\":\"Usable in performance contexts, but bare prestasi is semantically broad; prestasi kerja is more precise for the supplied cue.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue 'work performance' and sense are accurate for kinerja but under-specify the Malaysian answer unless prestasi kerja is used or the sense is broadened.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi\",\"https://kbbi.web.id/kinerja.html\"]},{\"subject\":\"Final relation\",\"conclusion\":\"different-common-word is reasonable for this specific work-performance sense.\",\"material_risk\":false,\"evidence_limitation\":\"Usage-frequency comparison across Indonesian and Malaysian Malay was not independently established.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No strict false friend: prestasi can denote performance or achievement in both varieties, though its broader achievement sense creates learner ambiguity.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi\",\"https://kbbi.web.id/prestasi\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for work performance and worker job performance.",
+        "evidence_refs": [
+          "https://kbbi.web.id/kinerja.html"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian kinerja"
+      },
+      {
+        "conclusion": "Usable in performance contexts, but bare prestasi is semantically broad; prestasi kerja is more precise for the supplied cue.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian prestasi"
+      },
+      {
+        "conclusion": "The cue 'work performance' and sense are accurate for kinerja but under-specify the Malaysian answer unless prestasi kerja is used or the sense is broadened.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi",
+          "https://kbbi.web.id/kinerja.html"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "different-common-word is reasonable for this specific work-performance sense.",
+        "evidence_limitation": "Usage-frequency comparison across Indonesian and Malaysian Malay was not independently established.",
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No strict false friend: prestasi can denote performance or achievement in both varieties, though its broader achievement sense creates learner ambiguity.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prestasi",
+          "https://kbbi.web.id/prestasi"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "Indonesian kinerja correctly matches work performance. Malaysian prestasi is valid but broader, commonly meaning achievement or result; prestasi kerja is the clearer exact match for a worker’s job performance. The different-common-word relation is otherwise justified, and there is no strict false-friend contrast.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

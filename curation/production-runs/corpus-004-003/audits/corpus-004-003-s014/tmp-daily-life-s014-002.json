@@ -1,0 +1,71 @@
+{
+  "attempt_id": "1e1acea795459ddf",
+  "candidate_id": "tmp-daily-life-s014-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: steker denotes the connector fitted to the end of an electrical cable and inserted into a power outlet.",
+      "evidence_refs": [
+        "https://kbbi.web.id/steker.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: steker"
+    },
+    {
+      "conclusion": "Correct: palam denotes a two- or three-pin electrical device connected by wire and inserted into a socket; plag is also listed as a synonym.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=palam"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: palam"
+    },
+    {
+      "conclusion": "Correctly specifies an electrical plug inserted into an electrical socket, distinguishing it from other senses of plug.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=palam",
+        "https://kbbi.web.id/steker.html"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is accurate for the localized standard/common terms steker and palam, despite possible informal use of plug in both varieties.",
+      "evidence_limitation": "The cited dictionary entries establish meanings but do not quantify informal frequency of plug in either variety.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false friend is present. Palam also has a general stopper/seal sense, but the electrical sense is explicitly established and matches the cue; steker is not misleading for this sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=palam",
+        "https://kbbi.web.id/steker.html"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e021b816fee7ed5c66e41e2b38308696e9388600f1f3c9a147f4fc17f55e254f",
+  "correction_refs": [],
+  "decision_digest": "cc0bd830d2747047a40dfc79bd2b04edeb39f3c240f9ea5f998a8b8208937fbe",
+  "elapsed_ms": 18680,
+  "finding_class": "none",
+  "input_tokens": 49798,
+  "model_calls": 1,
+  "output_tokens": 854,
+  "packet_digest": "e2ca4226a182dd44649414d1c00c291ae0189c23ea70ad4ac3417c5bf95ddadd",
+  "rationale": "Both answers accurately denote an electrical plug in their respective varieties. Indonesian steker and Malaysian Malay palam are established terms; the English cue and sense are aligned. The relation different-common-word is appropriate. No material false-friend contrast is present, though informal plug may occur in both varieties.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:32:50.541474+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s014/tmp-daily-life-s014-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s014",
+  "verdict": "cleared"
+}

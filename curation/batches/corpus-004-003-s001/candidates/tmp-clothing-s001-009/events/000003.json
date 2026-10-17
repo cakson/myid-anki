@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:19:57.951973+00:00",
+  "input_digest": "646554418f72c6cea0ea39cfeab881c061cdfa35659412eae4c50dcee4abf4f5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s002:tmp-clothing-s002-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A sleeve is the garment part covering the arm, whereas a cuff is only the end section around the wrist; these are distinct clothing-part senses.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s002:tmp-clothing-s002-009",
+          "rationale": "A sleeve is the garment part covering the arm, whereas a cuff is only the end section around the wrist; these are distinct clothing-part senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s002:tmp-clothing-s002-009",
+        "rationale": "A sleeve is the garment part covering the arm, whereas a cuff is only the end section around the wrist; these are distinct clothing-part senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "37675e76215925b3e3ceb9697d7939672f9aa9d8faa433a28528f56978ec346e"
+}

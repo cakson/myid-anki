@@ -1,0 +1,67 @@
+{
+  "attempt_id": "9ce6cf21d65982e3",
+  "candidate_id": "tmp-daily-life-s014-012",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and idiomatic for “power outage,” especially colloquially.",
+      "evidence_refs": [
+        "https://web.pln.co.id/statics/uploads/2024/07/Materi-Listrik-Aman-dan-Produktif_Final_v1.pdf",
+        "https://regional.kompas.com/read/2021/09/22/203341878/pemadaman-listrik-di-bangka-belitung-ini-penjelasan-pln"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: mati lampu"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay expression meaning that the electricity supply is interrupted; formal/service-related register is plausible.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bekalan",
+        "https://www.tnb.com.my/assets/newsclip/17052023a.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=terputus"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: bekalan elektrik terputus"
+    },
+    {
+      "conclusion": "The cue “power outage” and sense “loss of electrical power in an area or building” align with both answers.",
+      "evidence_refs": [
+        "https://web.pln.co.id/statics/uploads/2024/07/Materi-Listrik-Aman-dan-Produktif_Final_v1.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=type"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The answers are different expressions, but “different-common-word” is imprecise because the Malaysian item is a multiword formal phrase; there is no false-friend contrast.",
+      "evidence_limitation": "Usage evidence supports correctness and register, but does not establish that the Malaysian phrase is a common everyday lexical counterpart.",
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "37dd96428688fabcc86fdd04f441efb02a7aeb29543940d2691ed20d5a11bf41",
+  "correction_refs": [],
+  "decision_digest": "16c5cf2c1c52968b6c8d4ec1515f6e3440f3c34b92b5c8ae1f175002b9e317c2",
+  "elapsed_ms": 18542,
+  "finding_class": "metadata-only",
+  "input_tokens": 62721,
+  "model_calls": 1,
+  "output_tokens": 1339,
+  "packet_digest": "69cfd1fb71e71f7c0bfefb8556062a804375e199b0e7ef3e2b8272c93bc33022",
+  "rationale": "Both language answers correctly express “power outage.” “Mati lampu” is a common Indonesian colloquial expression, while “bekalan elektrik terputus” is valid Malaysian Malay but is a formal/descriptive phrase rather than a distinct common word. The relation label is therefore somewhat misleading. No false-friend contrast is present or needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:34:47.451967+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s014/tmp-daily-life-s014-012.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s014",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5381,
+  "input_digest": "605a370a25133598bb6d8628aee817cd45df3953b9ca6c569808b6e2b9d737c2",
+  "input_tokens": 93716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 381,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An engagement party is a celebration for an engagement before marriage, whereas a wedding is the marriage ceremony or event.\"},{\"other_id\":\"corpus-004-002-s009:tmp-family-social-s009-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Engagement party names an event; engaged names the relationship status of being promised to marry.\"},{\"other_id\":\"corpus-004-003-s025:tmp-family-social-s025-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An engagement party is a specific celebration for an engagement, whereas a family gathering is a general occasion for extended family to meet.\"},{\"other_id\":\"corpus-004-003-s010:tmp-common-verbs-s010-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Engagement party is a noun naming an event; to celebrate is the action of marking an event with enjoyment.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-008",
+          "rationale": "An engagement party is a celebration for an engagement before marriage, whereas a wedding is the marriage ceremony or event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s009:tmp-family-social-s009-002",
+          "rationale": "Engagement party names an event; engaged names the relationship status of being promised to marry.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-010",
+          "rationale": "An engagement party is a specific celebration for an engagement, whereas a family gathering is a general occasion for extended family to meet.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s010:tmp-common-verbs-s010-002",
+          "rationale": "Engagement party is a noun naming an event; to celebrate is the action of marking an event with enjoyment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,38 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 13718,
+  "input_tokens": 28715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 720,
+  "raw_text": "{\"finding_class\":\"metadata-only\",\"rationale\":\"Both localized answers match the English sense, and the different-common-word relation is valid. The cue/contrast field is empty, so cue review is incomplete but does not affect answer correctness.\",\"error_category\":\"missing-cue\",\"claim_reviews\":[{\"claim\":\"English sense\",\"verdict\":\"pass\"},{\"claim\":\"Indonesian answer: pemurni udara\",\"verdict\":\"pass\"},{\"claim\":\"Malaysian answer: penapis udara\",\"verdict\":\"pass\"},{\"claim\":\"Relation: different-common-word\",\"verdict\":\"pass\"},{\"claim\":\"Cue/contrast\",\"verdict\":\"fail\",\"rationale\":\"Field is empty.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "claim": "English sense",
+        "verdict": "pass"
+      },
+      {
+        "claim": "Indonesian answer: pemurni udara",
+        "verdict": "pass"
+      },
+      {
+        "claim": "Malaysian answer: penapis udara",
+        "verdict": "pass"
+      },
+      {
+        "claim": "Relation: different-common-word",
+        "verdict": "pass"
+      },
+      {
+        "claim": "Cue/contrast",
+        "rationale": "Field is empty.",
+        "verdict": "fail"
+      }
+    ],
+    "error_category": "missing-cue",
+    "finding_class": "metadata-only",
+    "rationale": "Both localized answers match the English sense, and the different-common-word relation is valid. The cue/contrast field is empty, so cue review is incomplete but does not affect answer correctness."
+  },
+  "retrievals": null
+}

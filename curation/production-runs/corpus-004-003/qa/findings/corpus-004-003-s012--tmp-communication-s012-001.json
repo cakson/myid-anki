@@ -1,0 +1,56 @@
+{
+  "candidate_id": "tmp-communication-s012-001",
+  "claim_reviews": [
+    {
+      "claim": "English sense",
+      "review": "Correct: a newspaper is a periodic printed news publication.",
+      "status": "supported"
+    },
+    {
+      "claim": "Indonesian answer: koran",
+      "review": "Correct and common.",
+      "status": "supported"
+    },
+    {
+      "claim": "Malaysian answer: akhbar",
+      "review": "Correct and common in Malaysian Malay.",
+      "status": "supported"
+    },
+    {
+      "claim": "Relation: different-common-word",
+      "review": "Appropriate; the forms are common preferences, though shared alternatives exist.",
+      "status": "supported"
+    },
+    {
+      "claim": "Cue/contrast",
+      "review": "Missing from learner content.",
+      "status": "issue"
+    }
+  ],
+  "error_category": "missing-cue",
+  "finding_class": "cue-content",
+  "original_decision_digest": "a1cd9672f04a2df56992ce7bd12ba9897dfcdb5261bafc5287603cb109b067d6",
+  "population_digest": "b473771d8ad79c5a2b28e60e840b1c49f700bf6ff12d2a70769d3240278ecdb0",
+  "rationale": "English sense, Indonesian answer \"koran,\" Malaysian answer \"akhbar,\" and relation \"different-common-word\" are accurate. The cue/contrast is empty, so the learner-facing distinction is missing despite the forms being valid.",
+  "recorded_at": "2026-10-17T06:24:51.585493+00:00",
+  "resolution": "Resolved by permanent HOLD and withdrawal after fresh review found the unqualified national split misleading; no safe corrected ACCEPT is established.",
+  "resolution_status": "resolved-withheld",
+  "resolved": true,
+  "resolved_at": "2026-10-17T13:08:44.844384+00:00",
+  "schema_version": 1,
+  "slice_id": "corpus-004-003-s012",
+  "usage": {
+    "elapsed_ms": 5780,
+    "input_tokens": 12412,
+    "model_calls": 1,
+    "output_tokens": 303,
+    "retrievals": null
+  },
+  "withdrawal": {
+    "id": "000315",
+    "status": "withdrawn"
+  },
+  "withheld_candidate_digest": "e14463cd52cbcde908222d62d1da7b4333aa9a20094ccec9ff49cb8bac7237bf",
+  "withheld_concept_id": "000315",
+  "withheld_decision_digest": "161b94517e835a8a96f9001b0bbeb6f2d9842b56b2a54e0e183bdae33313437d"
+}

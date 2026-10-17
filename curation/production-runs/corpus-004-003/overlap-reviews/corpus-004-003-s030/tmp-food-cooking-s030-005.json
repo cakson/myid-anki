@@ -1,0 +1,78 @@
+{
+  "attempt_id": "1cb53f6c273e2a16",
+  "candidate_id": "tmp-food-cooking-s030-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Aligned: cook as a person means someone who prepares or cooks food, matching the stated sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/cook"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian answer. KBBI defines koki as juru masak/an expert in culinary arts.",
+      "evidence_refs": [
+        "https://kbbi.web.id/koki"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: koki"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay answer. PRPM/Kamus Dewan defines tukang masak as a person employed to cook.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=orang+gajian"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tukang masak"
+    },
+    {
+      "conclusion": "Material overlap exists. Malaysian PRPM records koki as an Indonesian term for tukang masak, and pemasak is defined as a person who cooks in both Indonesian and Malaysian dictionaries. This weakens any implication that the concepts are nationally exclusive.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?keyword=koki",
+        "https://kbbi.web.id/masak.html",
+        "https://prpm.dbp.gov.my/Cari1?keyword=pemasak"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "Partially supportable only as a preferred-form contrast: koki may be characteristically Indonesian, while tukang masak is a standard Malaysian form. It is not sufficiently supported as a strong national split because accepted equivalents overlap and frequency/preference evidence is unavailable.",
+      "evidence_limitation": "The reviewed dictionary sources establish meanings and labels, but do not provide comparable Indonesian-versus-Malaysian corpus frequencies or ordinary-language preference rates.",
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present. Koki, tukang masak, and pemasak all denote a person who cooks; the card should explicitly say that this is an overlap/preference contrast rather than a false friend.",
+      "evidence_limitation": "No learner contrast field was supplied, and no evidence indicates a form-level false-friend meaning difference.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "1027600018a857deb6afff24949809204507c74659cc4fb91b11f1b1ec6e184f",
+  "correction_refs": [],
+  "decision_digest": "a519db827601b85d6d9c93c57a6f0721a845defed73f285ff405f3c18ae49e55",
+  "elapsed_ms": 43725,
+  "finding_class": "cue-content",
+  "input_tokens": 240105,
+  "model_calls": 1,
+  "output_tokens": 2645,
+  "packet_digest": "e052fae123bed4e40d70f063e1907e71dc55beb9dcb58115375041774445b8e0",
+  "rationale": "The English cue and both answers are semantically valid, but the national split is overstated as a hard lexical contrast. Malaysian Malay sources list koki as an Indonesian term meaning tukang masak, while pemasak is independently defined in both Indonesian and Malaysian dictionaries. The relation is therefore better framed as a usage/preference contrast, not a clean national division. The learner content also has no false-friend contrast; no false friend is evidenced here, so that absence should be stated explicitly. Dictionary evidence does not establish corpus-level frequency or ordinary-preference strength.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:59:03.956320+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s030/tmp-food-cooking-s030-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "needs-correction"
+}

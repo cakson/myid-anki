@@ -1,0 +1,65 @@
+{
+  "attempt_id": "b2ffc5d23b85d751",
+  "candidate_id": "tmp-family-social-s024-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Older sister” and “female sibling older than the speaker” are correctly aligned.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/kakak",
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kakak"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and appropriately gender-specific for “older sister.”",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/kakak"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kakak perempuan"
+    },
+    {
+      "conclusion": "Correct for an older sister in Malaysian Malay kinship usage, although the word also has broader address and lexical uses.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kakak"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: kakak"
+    },
+    {
+      "conclusion": "“different-common-word” is inaccurate because both entries contain the shared form kakak. The card should identify a shared form with different gender specificity and add the contrast that Indonesian kakak can refer to an older sibling of either gender, whereas kakak commonly specifies an older sister in Malaysian Malay kinship usage.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/kakak",
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kakak"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "f22c93b7d56ef596f7a743e6a7b59349cb7d2fe982163f151b7f2e0ff4b417ab",
+  "correction_refs": [],
+  "decision_digest": "5489102c38b2ff93cc8aa4a00d99a9914b5216eb6b84f7d063a0f9cbca912c7c",
+  "elapsed_ms": 17451,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49718,
+  "model_calls": 1,
+  "output_tokens": 1043,
+  "packet_digest": "2a28c946f931d2ac7ee2195fd7c2ce40dd05376b944b01ab46cfad26f5b1ed18",
+  "rationale": "Both answers are valid for the cue, but the relation label is misleading and the absent contrast omits a material learner distinction: Indonesian kakak is generally gender-neutral for an older sibling, while Malaysian Malay kakak commonly means older sister in kinship usage. Indonesian kakak perempuan explicitly disambiguates gender.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:43:28.953772+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s024/tmp-family-social-s024-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s024",
+  "verdict": "needs-correction"
+}

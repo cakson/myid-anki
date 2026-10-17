@@ -1,0 +1,74 @@
+{
+  "attempt_id": "4163394397f0a6bf",
+  "candidate_id": "tmp-time-date-s045-011",
+  "claim_reviews": [
+    {
+      "conclusion": "“Nowadays” and “in the present period” are aligned.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=today"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian wording for the present period, though it can also mean “now/currently” depending on context.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kini",
+        "https://repositori.kemendikdasmen.go.id/26305/2/Petunjuk%20Praktis%20Berbahasa%20Indonesia%201992.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: sekarang ini"
+    },
+    {
+      "conclusion": "Valid standard Malay wording meaning “sekarang ini” or “waktu ini,” and it can express “nowadays.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=kini",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=today"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: kini"
+    },
+    {
+      "conclusion": "“Different-common-word” is not accurate as a national distinction because kini is also established Indonesian usage; the relation should indicate shared synonym with regional or register preference.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kini",
+        "https://prpm.dbp.gov.my/Cari1?d=150348&keyword=kini"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported; the forms are closely related and semantically overlapping.",
+      "evidence_limitation": "The reviewed dictionary evidence establishes shared meaning and usage, but does not constitute a dedicated false-friend analysis.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "78d1810bc12cbe288213bf6cf9207b0c903999ef8d76644e13ea2c5208089a95",
+  "correction_refs": [],
+  "decision_digest": "f0b023c21818e8a99b735d865b593fbe3d7c6b347b480dca16ddbbc67bbf2483",
+  "elapsed_ms": 20216,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 64650,
+  "model_calls": 1,
+  "output_tokens": 1249,
+  "packet_digest": "248eb4c45bc355cc1a2117ed59c35b4bcfdfbd128285020bf028e560fc3a360f",
+  "rationale": "Both translations express the intended present-period sense, but the relation is misleading: kini is also a standard Indonesian word, so this is a cross-variety preference rather than a different-common-word contrast. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:12:55.749740+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s045/tmp-time-date-s045-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "needs-correction"
+}

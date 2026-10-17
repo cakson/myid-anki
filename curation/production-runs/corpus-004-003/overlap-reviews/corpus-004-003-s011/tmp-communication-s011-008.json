@@ -1,0 +1,95 @@
+{
+  "attempt_id": "9bab693f3e3626c7",
+  "candidate_id": "tmp-communication-s011-008",
+  "claim_reviews": [
+    {
+      "conclusion": "“Accent” and the supplied sense, a pronunciation associated with a region or group, are well aligned.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=aksen",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=loghat"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Aksen” is an accepted Indonesian term for characteristic pronunciation or accent.",
+      "evidence_refs": [
+        "https://kbbi.web.id/aksen"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: aksen"
+    },
+    {
+      "conclusion": "“Loghat” is an accepted Malaysian Malay term for dialect and for a person’s pronunciation style, so it is a valid answer for the cue.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=382696&keyword=loghat"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: loghat"
+    },
+    {
+      "conclusion": "The split is materially overstated: Malaysian Malay also defines “aksen” as the way a person from a region pronounces words, and Indonesian “logat” means accent/dialect. The forms and ordinary equivalents therefore overlap across varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=aksen",
+        "https://kbbi.web.id/logat",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=loghat"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "“Different-common-word” is not supported. The card should be classified as a shared-synonym or preference/register contrast, with an explicit note that “loghat” is more locally characteristic in some Malaysian contexts but “aksen” is also accepted.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=loghat",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=aksen",
+        "https://kbbi.web.id/aksen",
+        "https://kbbi.web.id/logat"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or evidenced. “Aksen” and “loghat” overlap semantically in the relevant pronunciation sense; the learner content should not imply a misleading semantic divergence.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=aksen",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=loghat",
+        "https://kbbi.web.id/aksen",
+        "https://kbbi.web.id/logat"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    },
+    {
+      "conclusion": "Authoritative dictionary evidence is sufficient for lexical validity and overlap, but it does not quantify everyday frequency or regional preference; the preference claim should therefore remain qualified.",
+      "evidence_limitation": "Dictionaries establish accepted senses, not comparative corpus frequency or nationwide ordinary-use rates.",
+      "material_risk": false,
+      "subject": "Evidence completeness"
+    }
+  ],
+  "content_digest": "82e93002cad99d5000366e3ab478deab7fb322b0e3abb348bbf77d8fc1648e8f",
+  "correction_refs": [],
+  "decision_digest": "7c16a2092a3b704b5a461260176c0487514980f64360d44d9546479ba5eaacc5",
+  "elapsed_ms": 25935,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 99898,
+  "model_calls": 1,
+  "output_tokens": 1642,
+  "packet_digest": "74d2797332750a609b1987de3bedc9ba49df0850c4e71a7534dfdb0b56ea06ae",
+  "rationale": "The national split is materially overstated. Indonesian “aksen” is valid for a characteristic pronunciation, while Malaysian Malay also officially defines “aksen” with that sense. Indonesian “logat” likewise means accent/dialect, and Malaysian “loghat” covers dialect and pronunciation style. The cue is sound, but the answers are ordinary overlapping equivalents rather than reliably different national terms. No false-friend contrast is established, and the relation should not be different-common-word.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:39:38.700166+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s011/tmp-communication-s011-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s011",
+  "verdict": "needs-correction"
+}

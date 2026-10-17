@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4938,
+  "input_digest": "b905379592de0617f3f55c5c7edcc5960f51881e92fff03d136166cd3b847385",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 306,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s043:tmp-technology-s043-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Mobile data is the internet data accessed through a mobile network, whereas a data plan is the service package that provides an allowance of such data.\"},{\"other_id\":\"corpus-004-002-s016:tmp-technology-s016-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Mobile data is the data service accessed over a mobile network; network refers to the connected communications system itself.\"},{\"other_id\":\"corpus-004-002-s016:tmp-technology-s016-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Mobile data is internet data accessed through a mobile network; connection refers to the link to a network or service, not the data allowance or usage.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-004",
+          "rationale": "Mobile data is the internet data accessed through a mobile network, whereas a data plan is the service package that provides an allowance of such data.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-001",
+          "rationale": "Mobile data is the data service accessed over a mobile network; network refers to the connected communications system itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+          "rationale": "Mobile data is internet data accessed through a mobile network; connection refers to the link to a network or service, not the data allowance or usage.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

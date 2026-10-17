@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7937,
+  "input_digest": "f09331709785258aed800b5115543eeb9ca6141cbb1f58bbcb01036e07b1b0ae",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 363,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A boarding gate is the airport location where passengers board; a boarding pass is the document used to board a flight.\"},{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A boarding gate is the location where passengers board; a check-in counter is where passengers complete check-in.\"},{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A boarding gate is the boarding location, whereas a departure lounge is the airport waiting area before departure.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-001",
+          "rationale": "A boarding gate is the airport location where passengers board; a boarding pass is the document used to board a flight.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-005",
+          "rationale": "A boarding gate is the location where passengers board; a check-in counter is where passengers complete check-in.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-006",
+          "rationale": "A boarding gate is the boarding location, whereas a departure lounge is the airport waiting area before departure.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:35:07.961930+00:00",
+  "input_digest": "214a98fd9f274fd17979a67f2b1111c1020ba439227dd7b037d64f0d3df1b47e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-actions-001:actions-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Remembering means retaining or recalling information, whereas forgetting means failing to remember; they are contrasting senses, not duplicates.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-actions-001:actions-01",
+          "rationale": "Remembering means retaining or recalling information, whereas forgetting means failing to remember; they are contrasting senses, not duplicates.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-actions-001:actions-01",
+        "rationale": "Remembering means retaining or recalling information, whereas forgetting means failing to remember; they are contrasting senses, not duplicates.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "25a2a4cf7e52744db73c366fae1e58da2b7978043b2472c29e6621d3ac416075"
+}

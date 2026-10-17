@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:40:19.288534+00:00",
+  "input_digest": "402ff13d37074f44a1f810290578b5d10f4cf3c929487851b081a846b3d21ad3",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s015:tmp-daily-life-s015-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are household water channels, but drain carries wastewater away while rain gutter carries rainwater from a roof; the senses and answers differ.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-012",
+          "rationale": "Both are household water channels, but drain carries wastewater away while rain gutter carries rainwater from a roof; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s015:tmp-daily-life-s015-012",
+        "rationale": "Both are household water channels, but drain carries wastewater away while rain gutter carries rainwater from a roof; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "baa6771f684a9fa4cadc1ddd76b8de3b203aa9a26fd998a0b4a8f41fb26674f3"
+}

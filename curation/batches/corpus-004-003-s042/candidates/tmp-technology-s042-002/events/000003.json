@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:51:14.562932+00:00",
+  "input_digest": "53df0676b6bfc48a3e48cac1bb004f4454c99c426f3531eb99f24b8018835d64",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"technology-001:technology-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A touchscreen is a display controlled by touch, whereas the existing screen concept is a general display surface; the interactive-control sense is distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-06",
+          "rationale": "A touchscreen is a display controlled by touch, whereas the existing screen concept is a general display surface; the interactive-control sense is distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "technology-001:technology-06",
+        "rationale": "A touchscreen is a display controlled by touch, whereas the existing screen concept is a general display surface; the interactive-control sense is distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7539f5a20d981c58a4ee496ecde7e92ad7f6b6bc3c1e9b90c0e154ab16c058fc"
+}

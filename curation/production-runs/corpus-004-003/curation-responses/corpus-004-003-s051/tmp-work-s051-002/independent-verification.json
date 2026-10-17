@@ -1,0 +1,37 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 9613,
+  "input_digest": "a7c7b65c6fcdbd8b9280438058ed7057be0dc600f087a408071418e440187434",
+  "input_tokens": 14289,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 826,
+  "raw_text": "{\"verdict\":\"object\",\"relation\":\"different-common-word\",\"concerns\":[\"Indonesian atasan usually means a superior or boss, not specifically a person who directly supervises workers.\",\"The proposed distinction is weakened because supervisor is also an ordinary workplace term in both varieties.\"],\"material_concerns\":[\"The answers do not reliably express the same exact sense: Malaysian penyelia specifically denotes a supervisor, while Indonesian atasan is broader.\"],\"rationale\":\"Penyelia is the ordinary Malaysian term for a direct workplace supervisor. Indonesian atasan commonly means one's superior or boss and need not directly oversee workers, so the pair risks teaching a broader Indonesian category as an exact equivalent.\",\"objection_assessments\":[],\"cue_alignment\":\"material-risk\",\"cue_rewrite\":\"\",\"cue_rationale\":\"A concise cue preserving the specific sense of direct workplace supervision does not fit atasan reliably; narrowing the cue to superior or boss would no longer preserve penyelia's exact sense.\",\"shared_synonym_case\":\"weak-contrast\",\"shared_synonym_rationale\":\"Supervisor is a plausible ordinary workplace form in both Indonesia and Malaysia, weakening the claimed national preference between atasan and penyelia.\",\"nonblocking_risk\":\"concrete\",\"risk_rationale\":\"Workplace register and organizational context may affect whether supervisor, atasan, or penyelia is preferred, even after the sense problem is addressed.\",\"preference_risk\":{\"signal\":\"shared-common-form\",\"form\":\"supervisor\",\"language\":\"both\",\"rationale\":\"Supervisor is plausibly ordinary in workplace usage in both Indonesian and Malaysian Malay and can compete with the proposed forms.\"}}",
+  "response": {
+    "concerns": [
+      "Indonesian atasan usually means a superior or boss, not specifically a person who directly supervises workers.",
+      "The proposed distinction is weakened because supervisor is also an ordinary workplace term in both varieties."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "A concise cue preserving the specific sense of direct workplace supervision does not fit atasan reliably; narrowing the cue to superior or boss would no longer preserve penyelia's exact sense.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The answers do not reliably express the same exact sense: Malaysian penyelia specifically denotes a supervisor, while Indonesian atasan is broader."
+    ],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "supervisor",
+      "language": "both",
+      "rationale": "Supervisor is plausibly ordinary in workplace usage in both Indonesian and Malaysian Malay and can compete with the proposed forms.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Penyelia is the ordinary Malaysian term for a direct workplace supervisor. Indonesian atasan commonly means one's superior or boss and need not directly oversee workers, so the pair risks teaching a broader Indonesian category as an exact equivalent.",
+    "relation": "different-common-word",
+    "risk_rationale": "Workplace register and organizational context may affect whether supervisor, atasan, or penyelia is preferred, even after the sense problem is addressed.",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Supervisor is a plausible ordinary workplace form in both Indonesia and Malaysia, weakening the claimed national preference between atasan and penyelia.",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

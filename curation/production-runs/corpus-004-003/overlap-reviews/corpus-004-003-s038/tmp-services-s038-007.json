@@ -1,0 +1,81 @@
+{
+  "attempt_id": "f3a88b01a50721bc",
+  "candidate_id": "tmp-services-s038-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“Waiting list” correctly denotes a list of people waiting for something unavailable immediately; the supplied sense is accurate but narrower than the general definition.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/waiting-list"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian wording for “waiting list.” Indonesian official terminology also recognizes “senarai tunggu” as an alternative.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_UPW.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: daftar tunggu"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay wording; DBP’s Kamus Inggeris-Melayu Dewan gives “senarai menunggu” for “waiting-list.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=senarai",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=list%27s"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: senarai menunggu"
+    },
+    {
+      "conclusion": "The split is materially overstated. MABBIM records Indonesian “daftar tunggu/senarai tunggu” and Malaysian “senarai tunggu,” while DBP identifies “daftar” as a synonym of “senarai.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=senarai"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and national split"
+    },
+    {
+      "conclusion": "“Different-common-word” is defensible for the exact displayed forms, but misleading as a national-contrast label because an ordinary accepted equivalent overlaps across varieties. It should be revised or qualified as shared terminology with variant preferences.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present, and none is warranted: the forms are semantically aligned, transparent equivalents. The card should explicitly state the overlap/variant-preference point.",
+      "evidence_limitation": "No dedicated false-friend source was located; this conclusion follows from the matching authoritative definitions and terminology mappings cited above.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a1f0ff9ecd038d586425cfa0f3a837accb273c6d0ea4caa8bab6dc203ab97b82",
+  "correction_refs": [],
+  "decision_digest": "ea212619949e1ba0950e1e3dc05cf5b0f5699680cc598500da41c6dcb0fab9d2",
+  "elapsed_ms": 30883,
+  "finding_class": "metadata-only",
+  "input_tokens": 97041,
+  "model_calls": 1,
+  "output_tokens": 1962,
+  "packet_digest": "fb8fbfa16c17698dd389683e04cc359670537099a562f5600f393f0e27915780",
+  "rationale": "Both supplied answers are valid for their respective varieties, and the English cue is accurate. However, the national split is materially overstated: authoritative MABBIM terminology lists Indonesian as “daftar tunggu/senarai tunggu” and Malaysian as “senarai tunggu,” demonstrating an accepted cross-variety overlap. The blank contrast also fails to explain that these are transparent equivalents rather than false friends.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:06:35.975335+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s038/tmp-services-s038-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "needs-correction"
+}

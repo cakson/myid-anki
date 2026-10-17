@@ -1,0 +1,76 @@
+{
+  "attempt_id": "b68b7c5d61c27078",
+  "candidate_id": "tmp-daily-life-s015-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Accepted Indonesian usage for an air purifier; official Indonesian product sources use pemurni udara for devices removing indoor pollutants.",
+      "evidence_refs": [
+        "https://www.panasonic.com/id/air-solutions/products/air-purifier/air-purifier.pro.html",
+        "https://www.dyson.co.id/id-ID/products/air-treatment/purifiers"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pemurni udara"
+    },
+    {
+      "conclusion": "Accepted Malaysian Malay usage; PRPM defines penapis as a filtering device, and Malaysian commercial sources use penapis udara for air-purifier products.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=penapis",
+        "https://cowayofficial.com/product/penapis-udara/noble2/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: penapis udara"
+    },
+    {
+      "conclusion": "The split is not exclusive. Indonesian sources also show pembersih/penjernih udara and occasional penapis udara, while Malaysian official materials use pembersih udara and penulen udara alongside penapis udara. This supports overlap, but not enough to make the different-common-word relation materially false.",
+      "evidence_refs": [
+        "https://acc.philips.co.id/id/c-m-ho/pemurni-udara-dan-pelembap-udara/air-purifier",
+        "https://www.mosti.gov.my/wp-content/uploads/repository/covid-19_immunisation_task_force/Garis%20Panduan%20Pengudaraan%20Pusat%20Pemberian%20Vaksin.pdf",
+        "https://elearningjknj.moh.gov.my/mod/resource/view.php?id=618",
+        "https://www.filtercoway.com/2026/08/19/air-purifier-coway-tangerang/"
+      ],
+      "material_risk": false,
+      "subject": "National-overlap risk"
+    },
+    {
+      "conclusion": "Air purifier correctly names a machine that removes harmful substances or pollutants from air; the supplied sense is accurate and appropriately specific.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/purifier",
+        "https://www.dyson.co.id/id-ID/products/air-treatment/purifiers"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is defensible as a preference-based variety contrast, provided it is not interpreted as exclusivity. The empty contrast field is acceptable: the forms are transparent, semantically aligned, and not false friends.",
+      "evidence_limitation": "No dedicated comparative corpus was located quantifying frequency or exclusivity across Indonesian and Malaysian Malay; the conclusion is based on dictionary, government, and major product-source attestations.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "fb41dfc60e2cd6dc90de22cbed8134a1f2bbd48b0533c2e7319a301bb3643bfe",
+  "correction_refs": [],
+  "decision_digest": "db5d58b8b37fcec71c3939f84c6f332ad3af863694688101435c5498b2b8b4c1",
+  "elapsed_ms": 30300,
+  "finding_class": "none",
+  "input_tokens": 144354,
+  "model_calls": 1,
+  "output_tokens": 1954,
+  "packet_digest": "3357e7b132c6286a5b6cfbf4e307082ae5ae450d52b4e200212ab21ef4b51a7b",
+  "rationale": "The national split is useful but non-exclusive: both varieties also use broader or alternate equivalents, especially pembersih/penjernih udara and the English borrowing. However, the supplied Indonesian pemurni udara and Malaysian penapis udara are each attested, semantically aligned, and sufficiently distinct for a different-common-word learner contrast. No false-friend contrast is needed because neither answer introduces a materially misleading sense distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:45:18.602953+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s015/tmp-daily-life-s015-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s015",
+  "verdict": "cleared"
+}

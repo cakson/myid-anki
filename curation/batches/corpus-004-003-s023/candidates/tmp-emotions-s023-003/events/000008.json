@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-16T20:03:13.578596+00:00",
+  "result": {
+    "candidate_digest": "d76a5b8f51358ff5011a16c12e5f0e9bd5d1a8b613a6591511b0eaf05ce44ef7",
+    "candidate_id": "tmp-emotions-s023-003",
+    "checked_at": "2026-10-16T20:03:13.578596+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The pairing may mislead learners by implying that senang is specifically Indonesian and gembira specifically Malaysian.",
+      "Unresolved semantic overlap could create a duplicate concept."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pairing may mislead learners by implying that senang is specifically Indonesian and gembira specifically Malaysian.",
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "Unresolved semantic overlap could create a duplicate concept."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

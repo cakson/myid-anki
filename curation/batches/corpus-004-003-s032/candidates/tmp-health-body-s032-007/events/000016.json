@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:50.329898+00:00",
+  "result": {
+    "candidate_digest": "6a230b72d2db67085a19caf13a22e6482117a9b562c2d2d09e9e8c9e231b2d2f",
+    "candidate_id": "tmp-health-body-s032-007",
+    "checked_at": "2026-10-17T06:21:50.329898+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The Indonesian answer is appropriate, but Malaysian melecur is narrower than the cue: it primarily describes blistering/scalding, especially from hot liquid or steam, rather than burn injury from heat in general. The proposed shared sense and relation therefore risk teaching a false equivalence. A contrast should be added. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

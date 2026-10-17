@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4759,
+  "input_digest": "12a6d9aa44e78bfa57dc76c7350c757a34ebbe94bd5ca99026aa4380a540a494",
+  "input_tokens": 93711,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 212,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s040:tmp-shopping-s040-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both concern whether goods can be obtained, but stock means the quantity currently available for sale, while product availability means the product's obtainable status.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s040:tmp-shopping-s040-011",
+          "rationale": "Both concern whether goods can be obtained, but stock means the quantity currently available for sale, while product availability means the product's obtainable status.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

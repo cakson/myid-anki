@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T12:22:16.830413+00:00",
+  "result": {
+    "candidate_digest": "5a764cd9825c30239f9ed4b5b4c58d1d314cda8c9ffa8f6a483a657f7f422347",
+    "candidate_id": "corpus-004-003-s020-edu-004",
+    "checked_at": "2026-10-17T12:22:16.830413+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "none",
+      "preference_risk": {
+        "form": "kawan sekelas",
+        "language": "both",
+        "rationale": "This alternative may be ordinary in both varieties, though the proposed forms still reflect common national preferences.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Teman sekelas” is the ordinary Indonesian term, while Malaysian Malay commonly prefers “rakan sekelas”; both mean a student in the same class.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "shared-common-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

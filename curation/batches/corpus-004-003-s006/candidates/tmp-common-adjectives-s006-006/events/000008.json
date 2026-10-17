@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:28:41.358440+00:00",
+  "result": {
+    "candidate_digest": "4c8350812b834a9e2ced6c8dc89ba1c24965406dc9ee93e6a7f808f5652fbbed",
+    "candidate_id": "tmp-common-adjectives-s006-006",
+    "checked_at": "2026-10-16T19:28:41.358440+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The pair may teach an overstated Indonesian–Malaysian preference: \"kasar\" is ordinary in Malaysian Malay for a rude or harsh manner, while \"biadab\" can sound stronger or more condemnatory."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pair may teach an overstated Indonesian–Malaysian preference: \"kasar\" is ordinary in Malaysian Malay for a rude or harsh manner, while \"biadab\" can sound stronger or more condemnatory.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

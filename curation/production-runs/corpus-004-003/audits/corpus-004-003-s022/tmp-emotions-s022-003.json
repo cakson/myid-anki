@@ -1,0 +1,70 @@
+{
+  "attempt_id": "b7c396eae4b79692",
+  "candidate_id": "tmp-emotions-s022-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Contented” and “satisfied and at ease with a situation” are appropriate for the proposed meanings.",
+      "evidence_limitation": "No issue requiring correction identified.",
+      "evidence_refs": [],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid for “satisfied/contented” in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/puas"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: puas"
+    },
+    {
+      "conclusion": "Valid and idiomatic for being satisfied or content with a situation in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=puas+hati"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: puas hati"
+    },
+    {
+      "conclusion": "The label “different-common-word” is misleading because Malaysian Malay also has puas for the relevant sense; puas hati is a common, more explicit expression rather than a wholly distinct Malaysian-only word.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=puas"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No meaningful false-friend contrast is supported; puas has the relevant satisfaction sense in both varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=puas"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2591b559bf41b66ca84d34fe23bfd1c599a97369d954202bbbfb71d242144004",
+  "correction_refs": [],
+  "decision_digest": "0b550ea13a01800bb521dec3cd90f386c7e7c16b196e5e279800ed539fb1794a",
+  "elapsed_ms": 19869,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 51647,
+  "model_calls": 1,
+  "output_tokens": 926,
+  "packet_digest": "29e34c69c73f256fefd9f9a47838f3527a3642557f61654871a6e36981bbaa03",
+  "rationale": "Both translations fit the cue, but the relation “different-common-word” overstates the contrast: Malaysian Malay also uses puas for this sense, while puas hati is a common explicit expression. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:41:23.320062+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s022/tmp-emotions-s022-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s022",
+  "verdict": "needs-correction"
+}

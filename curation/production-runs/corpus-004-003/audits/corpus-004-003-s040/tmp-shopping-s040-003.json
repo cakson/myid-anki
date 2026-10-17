@@ -1,0 +1,62 @@
+{
+  "attempt_id": "bd2be0690137134e",
+  "candidate_id": "tmp-shopping-s040-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and common for shipping fee/shipping cost in Indonesian.",
+      "evidence_refs": [
+        "https://admin-piol.posindonesia.co.id/media/Peraturan%20Komisi%20Informasi%20Republik%20Indonesia%20Nomor%201%20Tahun%202021%20Tentang%20Standar%20Layanan%20Informasi%20Publik.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: ongkos kirim"
+    },
+    {
+      "conclusion": "Semantically correct Malaysian Malay wording for a delivery or shipping charge.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hantar-menghantar%201",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penghantaran"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: caj penghantaran"
+    },
+    {
+      "conclusion": "The cue “shipping fee” and the defined sense are aligned with both Malay forms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penghantaran"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate. There is no false-friend issue; “biaya pengiriman” is a valid Indonesian synonym or competing form, not a contradiction.",
+      "evidence_limitation": "No single cited source directly compares Indonesian “ongkos kirim” with Malaysian “caj penghantaran”; the assessment relies on lexical meaning and usage evidence for the component terms.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "d3af3c06a1e6ca9acea79c10c64dd4e04489145b6aa7c04a28d148f7e7dccb78",
+  "correction_refs": [],
+  "decision_digest": "9570a8f958885eaa313be42f734f4f1c76f004377d1ca7ee68648ebf54e4899a",
+  "elapsed_ms": 12096,
+  "finding_class": "none",
+  "input_tokens": 29039,
+  "model_calls": 1,
+  "output_tokens": 750,
+  "packet_digest": "1a42d7e63ec2c19f0b44174bd4757128cd8cba90449d6251aef51941fb91455c",
+  "rationale": "Both answers accurately express the shipping fee charged for delivering a purchased item. “Ongkos kirim” is ordinary Indonesian usage, while “caj penghantaran” is an acceptable Malaysian Malay formulation. The contrast is lexical, not a false friend; the Indonesian alternative “biaya pengiriman” does not invalidate the proposed pair.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:04:10.833466+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s040/tmp-shopping-s040-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s040",
+  "verdict": "cleared"
+}

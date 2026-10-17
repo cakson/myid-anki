@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6565,
+  "input_digest": "2a19960f730cd16b266873c310422f9a20f5a95dceb15aaaf5d59165386de758",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 230,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s031:tmp-food-cooking-s031-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Batter is a pourable mixture used before cooking, whereas dough is a thicker, non-pourable uncooked flour-and-liquid mixture; the senses are clearly distinct despite Indonesian adonan overlap.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s031:tmp-food-cooking-s031-008",
+          "rationale": "Batter is a pourable mixture used before cooking, whereas dough is a thicker, non-pourable uncooked flour-and-liquid mixture; the senses are clearly distinct despite Indonesian adonan overlap.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

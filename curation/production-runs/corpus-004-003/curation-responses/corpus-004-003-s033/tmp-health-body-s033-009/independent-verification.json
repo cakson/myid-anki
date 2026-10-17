@@ -1,0 +1,34 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 7533,
+  "input_digest": "f6b9058e9abe744876503bd9492bc91ca50d8cae326f40daafdd89a9d1ac08e8",
+  "input_tokens": 14304,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 634,
+  "raw_text": "{\"verdict\":\"agree\",\"relation\":\"different-common-word\",\"concerns\":[\"The cue could more clearly specify the noun sense.\"],\"material_concerns\":[],\"rationale\":\"Indonesian gips and Malaysian simen are ordinary terms for a rigid medical cast supporting a broken bone.\",\"objection_assessments\":[],\"cue_alignment\":\"correctable\",\"cue_rewrite\":\"rigid cast for a broken bone\",\"cue_rationale\":\"This short noun phrase removes the possible verb sense of “cast” while preserving the intended medical concept.\",\"shared_synonym_case\":\"nonpreferred-alternative\",\"shared_synonym_rationale\":\"Forms such as plaster or gips may be understood in Malaysian usage, but simen is the ordinary local preference for this medical cast sense.\",\"nonblocking_risk\":\"minor\",\"risk_rationale\":\"Medical terminology can vary somewhat by institution or register.\",\"preference_risk\":{\"signal\":\"named-alternative-exists\",\"form\":\"plaster\",\"language\":\"malaysian\",\"rationale\":\"Plaster may occur in Malaysian medical or English-influenced usage, but it does not displace the ordinary Malay term simen.\"}}",
+  "response": {
+    "concerns": [
+      "The cue could more clearly specify the noun sense."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "This short noun phrase removes the possible verb sense of “cast” while preserving the intended medical concept.",
+    "cue_rewrite": "rigid cast for a broken bone",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "plaster",
+      "language": "malaysian",
+      "rationale": "Plaster may occur in Malaysian medical or English-influenced usage, but it does not displace the ordinary Malay term simen.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Indonesian gips and Malaysian simen are ordinary terms for a rigid medical cast supporting a broken bone.",
+    "relation": "different-common-word",
+    "risk_rationale": "Medical terminology can vary somewhat by institution or register.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Forms such as plaster or gips may be understood in Malaysian usage, but simen is the ordinary local preference for this medical cast sense.",
+    "verdict": "agree"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-17T06:21:50.308176+00:00",
+  "result": {
+    "candidate_digest": "6a230b72d2db67085a19caf13a22e6482117a9b562c2d2d09e9e8c9e231b2d2f",
+    "candidate_id": "tmp-health-body-s032-007",
+    "checked_at": "2026-10-17T06:21:50.308176+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "concrete",
+      "preference_risk": {
+        "form": "luka bakar",
+        "language": "malaysian",
+        "rationale": "\"Luka bakar\" can occur in Malaysian medical or broader Malay contexts alongside the more characteristic everyday term \"melecur\".",
+        "signal": "regional-or-register-competition"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms denote a skin injury caused by heat. Indonesian commonly uses \"luka bakar\", while Malaysian commonly uses \"melecur\". Review concern: Malaysian usage may also include \"luka bakar\" in some medical or cross-border contexts, so the preference is not exclusive.",
+    "confidence_tier": "low",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "concrete-nonblocking-risk",
+      "regional-register-risk",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

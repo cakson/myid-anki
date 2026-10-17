@@ -1,0 +1,73 @@
+{
+  "attempt_id": "56cbfe36ac742085",
+  "candidate_id": "tmp-family-social-s026-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for condolences or an expression of sympathy after a death.",
+      "evidence_refs": [
+        "https://kbbi.web.id/belasungkawa"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: belasungkawa"
+    },
+    {
+      "conclusion": "Correct; takziah denotes an expression of sympathy or condolence and can also refer to visiting the bereaved.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=takziah"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: takziah"
+    },
+    {
+      "conclusion": "Condolences and the sense 'an expression of sympathy after a death' align with both terms.",
+      "evidence_refs": [
+        "https://kbbi.web.id/belasungkawa",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=takziah"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable only as a preference label, not as an exclusive language distinction; both terms occur in Malaysian Malay and are treated as synonyms there.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=takziah",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=belasungkawa"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is present. The relevant learner note is shared synonymy plus takziah's broader possible reference to a condolence visit or act.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=takziah"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "8610d708c2f01453740fe531004ed1cccabe2099b7fceb49c2c515d6ad36c663",
+  "correction_refs": [],
+  "decision_digest": "2e2bf2ae1154f258771f222b0136fdcc43d225f868eeab4cc2d7c9851fbc1c6f",
+  "elapsed_ms": 19978,
+  "finding_class": "metadata-only",
+  "input_tokens": 60166,
+  "model_calls": 1,
+  "output_tokens": 1193,
+  "packet_digest": "f1e0dc201cf5c9e6fe3836207ae10e61ebb53b27d5b5febd382df13e164dcb8e",
+  "rationale": "Both answers and the English sense are correct, but the relation label can imply an exclusive Indonesian-versus-Malaysian split. Malaysian Malay dictionaries list takziah as synonymous with belasungkawa, and belasungkawa is also attested in Malay. Add a contrast note that these are shared synonyms with different common preferences; takziah may also refer to a condolence visit or act. No false-friend contrast is warranted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:48:10.562743+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s026/tmp-family-social-s026-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s026",
+  "verdict": "needs-correction"
+}

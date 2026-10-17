@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T05:08:29.090602+00:00",
+  "input_digest": "f244e1ce982e9db32ef7915b8a037c5cd9d8f55a4b972d1aa28aed0c3137a136",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s019:tmp-travel-s019-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Passport is the travel document itself; passport control is the official inspection of that document, with different Indonesian and Malaysian answers.\"}, {\"other_id\": \"000062\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Immigration refers to the process or authority governing entry and exit, while passport control specifically means checking a traveler's passport.\"}, {\"other_id\": \"corpus-004-003-s038:tmp-services-s038-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Security screening checks for security risks before travel or entry; passport control verifies travel documents and identity.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s019:tmp-travel-s019-001",
+          "rationale": "Passport is the travel document itself; passport control is the official inspection of that document, with different Indonesian and Malaysian answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000062",
+          "rationale": "Immigration refers to the process or authority governing entry and exit, while passport control specifically means checking a traveler's passport.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-011",
+          "rationale": "Security screening checks for security risks before travel or entry; passport control verifies travel documents and identity.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s019:tmp-travel-s019-001",
+        "rationale": "Passport is the travel document itself; passport control is the official inspection of that document, with different Indonesian and Malaysian answers.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "000062",
+        "rationale": "Immigration refers to the process or authority governing entry and exit, while passport control specifically means checking a traveler's passport.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s038:tmp-services-s038-011",
+        "rationale": "Security screening checks for security risks before travel or entry; passport control verifies travel documents and identity.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d678854bf2783e8636f6a32bdb8165f9c885e4f05a96a86419472600acc1728f"
+}

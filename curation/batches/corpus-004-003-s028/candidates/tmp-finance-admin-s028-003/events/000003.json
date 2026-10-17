@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:13:19.081145+00:00",
+  "input_digest": "046a43519c2b82a3a44885cb96eba1f048820ddcfb57c6606376e86fa5d6bece",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"university-001:university-study-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Financial aid is general money provided to help with expenses, while scholarship is financial support specifically awarded to help a student pay for education; the senses are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "university-001:university-study-03",
+          "rationale": "Financial aid is general money provided to help with expenses, while scholarship is financial support specifically awarded to help a student pay for education; the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "university-001:university-study-03",
+        "rationale": "Financial aid is general money provided to help with expenses, while scholarship is financial support specifically awarded to help a student pay for education; the senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "4a516a378df7e83946056e7313b720b0b5f8a655e7f4bed13f6221ca1b4653f7"
+}

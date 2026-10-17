@@ -1,0 +1,73 @@
+{
+  "attempt_id": "8454ff3c25731c6a",
+  "candidate_id": "tmp-technology-s043-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Smartwatch” correctly matches a wearable computer worn like a watch.",
+      "evidence_refs": [
+        "https://ekkb.customs.gov.my/upload/data/KK/wawKK_20250903104856.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Jam pintar” is a valid Indonesian term for smartwatch; “smartwatch” and other variants also occur.",
+      "evidence_refs": [
+        "https://openlibrary.telkomuniversity.ac.id/pustaka/files/140018/bab1/pemanfaatan-api-smartwatch-untuk-membuat-notifikasi-kesehatan-pasien-rumah-sakit.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Jam tangan pintar” is a valid Malaysian Malay term for smartwatch; “jam pintar” and the English borrowing also occur.",
+      "evidence_refs": [
+        "https://ekkb.customs.gov.my/upload/data/KK/wawKK_20250903104856.pdf",
+        "https://www.systempublications.com.my/SystemClassroom/Thn5/BM/BMthn5-Jawapan.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable as a contextual preference label, but it should not imply an exclusive Indonesia/Malaysia distinction.",
+      "evidence_refs": [
+        "https://ekkb.customs.gov.my/upload/data/KK/wawKK_20250903104856.pdf",
+        "https://openlibrary.telkomuniversity.ac.id/pustaka/files/140018/bab1/pemanfaatan-api-smartwatch-untuk-membuat-notifikasi-kesehatan-pasien-rumah-sakit.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast applies; the Indonesian and Malaysian terms denote the same object and sense.",
+      "evidence_limitation": "No dedicated false-friend lexicographic source was needed because the forms are transparent compounds and the cited usage sources identify the same device.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c7fd9aaa20c3b1cbcc66773e38c93160e86501bf45ebb3bf9c4b22429649e901",
+  "correction_refs": [],
+  "decision_digest": "3c741598343ef9d392f7a1cddc7166ba07134592362fd9e06c3dfe39bf48dde0",
+  "elapsed_ms": 14406,
+  "finding_class": "none",
+  "input_tokens": 29800,
+  "model_calls": 1,
+  "output_tokens": 883,
+  "packet_digest": "d395e7b7b95db6ebac5a618762fcaa285b1b95da83b83b547d6c4129c8040e38",
+  "rationale": "Both Malay answers accurately refer to a smartwatch, and the English cue and sense are correct. The localized forms are valid usage preferences, though neither is exclusive; no false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:08:18.012611+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s043/tmp-technology-s043-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s043",
+  "verdict": "cleared"
+}

@@ -1,0 +1,83 @@
+{
+  "attempt_id": "80178cc4e512aa96",
+  "candidate_id": "tmp-health-body-s032-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Diabetes” matches the intended sense, though the wording is a general learner gloss rather than a clinical definition.",
+      "evidence_refs": [
+        "https://keslan.kemkes.go.id/view_artikel/2972/apa-itu-diet-diabetes-melitus",
+        "https://prpm.dbp.gov.my/Cari1?d=85408&keyword=diabetes"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and standard in Indonesian; Indonesian health materials use diabetes/diabetes melitus for the chronic high-blood-sugar disease.",
+      "evidence_refs": [
+        "https://keslan.kemkes.go.id/view_artikel/2972/apa-itu-diet-diabetes-melitus",
+        "https://www.kbbi.web.id/diabetes"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: diabetes"
+    },
+    {
+      "conclusion": "Correct and established in Malaysian Malay; PRPM defines kencing manis as diabetes, and Malaysian Ministry of Health materials use the term.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=28648&keyword=kencing+manis",
+        "https://www.moh.gov.my/moh/resources/nhmsreport2015vol1.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kencing manis"
+    },
+    {
+      "conclusion": "Materially overstated. Malaysian Malay also accepts and uses diabetes, while Indonesian also uses kencing manis; official materials in both varieties explicitly pair the terms as equivalents. “Different-common-word” is therefore misleading unless qualified as a register or preference contrast.",
+      "evidence_limitation": "The sources establish acceptance and cross-variety overlap, but do not quantify which form is more frequent in everyday speech in each country.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=85408&keyword=diabetes",
+        "https://www.moh.gov.my/moh/resources/nhmsreport2015vol1.pdf",
+        "https://keslan.kemkes.go.id/view_artikel/949/komplikasi-kaki-pada-penyandang-kencing-manis",
+        "https://www.kbbi.web.id/kencingmanis"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported: both expressions refer to the same disease, and the apparent difference is lexical/register preference rather than divergent meaning.",
+      "evidence_limitation": "No dedicated false-friend corpus analysis was located; the conclusion follows from dictionary equivalence and official health usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=28648&keyword=kencing+manis",
+        "https://prpm.dbp.gov.my/Cari1?d=85408&keyword=diabetes",
+        "https://www.kbbi.web.id/diabetes",
+        "https://www.kbbi.web.id/kencingmanis"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "92632f46f20fe9f6621d8b9b81929c563100514c82da20b7b61501fd7eaf48dc",
+  "correction_refs": [],
+  "decision_digest": "9401618532895c19dbba02382c844571ca3df109bbb9b277e9e1ca0cd58f9f08",
+  "elapsed_ms": 21375,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61165,
+  "model_calls": 1,
+  "output_tokens": 1628,
+  "packet_digest": "6fdc61c3e02ba038d59a7298a262193fe0784da18090873e6364c3ee0d49f3a6",
+  "rationale": "The forms are semantically correct, but the national split is materially overstated: “diabetes” and “kencing manis” are accepted equivalents in both Indonesian and Malaysian Malay. The relation should not be presented as a variety-exclusive different-common-word contrast. No false-friend contrast is warranted. Exact ordinary-frequency ranking by variety was not established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:01:08.958053+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s032/tmp-health-body-s032-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "needs-correction"
+}

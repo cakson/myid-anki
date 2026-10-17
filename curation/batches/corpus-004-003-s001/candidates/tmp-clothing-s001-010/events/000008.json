@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:20:14.106721+00:00",
+  "result": {
+    "candidate_digest": "1872909e5565860aab3daf138958779d5b8c3fda37bc5da24605bcb7ee4c31c4",
+    "candidate_id": "tmp-clothing-s001-010",
+    "checked_at": "2026-10-16T19:20:14.106721+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "The pair may teach a category-versus-subtype mismatch: “tudung kepala” need not be attached to clothing, unlike “hud”."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pair may teach a category-versus-subtype mismatch: “tudung kepala” need not be attached to clothing, unlike “hud”.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

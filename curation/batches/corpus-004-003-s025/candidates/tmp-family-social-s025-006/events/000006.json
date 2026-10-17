@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T20:07:11.134540+00:00",
+  "input_digest": "930b1223a4c0eeadcac28ada9fd0c7a33e7110ca92a251a6ee45b475c500575a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The answers do not express the same exact sense: \\\"ipar perempuan\\\" is a generic female in-law, while \\\"kakak ipar\\\" specifically means an older sister-in-law.\"], \"material_concerns\": [\"The English cue conflates multiple relations, and the proposed forms do not align on whether the in-law is specifically an older sister or simply female.\"], \"rationale\": \"The Indonesian answer is broader than the Malaysian answer, so this pairing would misteach the learner about the relation and age distinction.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue preserves the original sense while fitting both answers: \\\"female in-law\\\" is too broad for \\\"kakak ipar,\\\" while \\\"older sister-in-law\\\" is too specific for \\\"ipar perempuan.\\\"\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"verifier-explicitly-questions-preference\", \"form\": \"kakak ipar\", \"language\": \"both\", \"rationale\": \"The issue is not a national lexical preference: \\\"kakak ipar\\\" adds the meaning 'older,' whereas \\\"ipar perempuan\\\" does not.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The answers do not express the same exact sense: \"ipar perempuan\" is a generic female in-law, while \"kakak ipar\" specifically means an older sister-in-law."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue preserves the original sense while fitting both answers: \"female in-law\" is too broad for \"kakak ipar,\" while \"older sister-in-law\" is too specific for \"ipar perempuan.\"",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The English cue conflates multiple relations, and the proposed forms do not align on whether the in-law is specifically an older sister or simply female."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kakak ipar",
+        "language": "both",
+        "rationale": "The issue is not a national lexical preference: \"kakak ipar\" adds the meaning 'older,' whereas \"ipar perempuan\" does not.",
+        "signal": "verifier-explicitly-questions-preference"
+      },
+      "rationale": "The Indonesian answer is broader than the Malaysian answer, so this pairing would misteach the learner about the relation and age distinction.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The answers do not express the same exact sense: \"ipar perempuan\" is a generic female in-law, while \"kakak ipar\" specifically means an older sister-in-law."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue preserves the original sense while fitting both answers: \"female in-law\" is too broad for \"kakak ipar,\" while \"older sister-in-law\" is too specific for \"ipar perempuan.\"",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The English cue conflates multiple relations, and the proposed forms do not align on whether the in-law is specifically an older sister or simply female."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kakak ipar",
+      "language": "both",
+      "rationale": "The issue is not a national lexical preference: \"kakak ipar\" adds the meaning 'older,' whereas \"ipar perempuan\" does not.",
+      "signal": "verifier-explicitly-questions-preference"
+    },
+    "rationale": "The Indonesian answer is broader than the Malaysian answer, so this pairing would misteach the learner about the relation and age distinction.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "a49c5f19eb6f42ac55e2bb4568b32882965faf8942524f0a3372ad6ff636e1a4"
+}

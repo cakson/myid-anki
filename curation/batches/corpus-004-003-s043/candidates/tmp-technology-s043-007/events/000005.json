@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:54:41.457757+00:00",
+  "input_digest": "fcfda747a3344c4b96b6048c0aa23e4fe62cb92189a7741f8cd92b288a7b8734",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"tb25-technology-001:technology-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A search bar is a user-interface field for entering a query, whereas a search engine is the tool or service that searches the internet; their senses and Indonesian/Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-technology-001:technology-02",
+          "rationale": "A search bar is a user-interface field for entering a query, whereas a search engine is the tool or service that searches the internet; their senses and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "tb25-technology-001:technology-02",
+        "rationale": "A search bar is a user-interface field for entering a query, whereas a search engine is the tool or service that searches the internet; their senses and Indonesian/Malaysian answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "35a259578bbde7e8ea716c5994ebeb9c49c28f7eea7adf6eb05b7405eadfa92f"
+}

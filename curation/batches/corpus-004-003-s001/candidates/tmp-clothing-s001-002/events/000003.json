@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:18:40.198732+00:00",
+  "input_digest": "8d35375e078ef1e46bab42e6854f53455bbfe2545fe91bb6229cc15d06ca07c7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s001:clothing-contrast-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bra is a specific women's undergarment supporting the breasts, whereas underwear is the broader category of clothing worn under outer clothes; the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s001:clothing-contrast-004",
+          "rationale": "A bra is a specific women's undergarment supporting the breasts, whereas underwear is the broader category of clothing worn under outer clothes; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s001:clothing-contrast-004",
+        "rationale": "A bra is a specific women's undergarment supporting the breasts, whereas underwear is the broader category of clothing worn under outer clothes; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "839a304fb23947224a01c3fc38617c0e7fbed3372adc3a1fda4d60a3176b9fff"
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T04:44:53.762963+00:00",
+  "input_digest": "a5a16f5ad19159d1483fa2c561f07cd5e354c138aa4d8c7da0732e0840c84d7e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"tb25-technology-001:technology-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Public transport is the shared transport service itself; the candidate is a card used to pay for that service.\"}, {\"other_id\": \"corpus-004-003-s028:tmp-finance-admin-s028-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bank card accesses a bank account at an ATM, whereas the candidate is specifically a fare-payment card for public transport.\"}, {\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A credit card is a general-purpose borrowed-credit payment card; the candidate is specifically used to pay for public transport.\"}, {\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A debit card draws directly from a bank account for general purchases; the candidate is specifically a public-transport payment card.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-technology-001:technology-04",
+          "rationale": "Public transport is the shared transport service itself; the candidate is a card used to pay for that service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-009",
+          "rationale": "A bank card accesses a bank account at an ATM, whereas the candidate is specifically a fare-payment card for public transport.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-001",
+          "rationale": "A credit card is a general-purpose borrowed-credit payment card; the candidate is specifically used to pay for public transport.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-002",
+          "rationale": "A debit card draws directly from a bank account for general purchases; the candidate is specifically a public-transport payment card.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "tb25-technology-001:technology-04",
+        "rationale": "Public transport is the shared transport service itself; the candidate is a card used to pay for that service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-009",
+        "rationale": "A bank card accesses a bank account at an ATM, whereas the candidate is specifically a fare-payment card for public transport.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-001",
+        "rationale": "A credit card is a general-purpose borrowed-credit payment card; the candidate is specifically used to pay for public transport.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-002",
+        "rationale": "A debit card draws directly from a bank account for general purchases; the candidate is specifically a public-transport payment card.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "878f8825e27c588e636263d8c6488cf9e0db232d05b97c8e6c894c74f8335bc1"
+}

@@ -1,0 +1,70 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 31730,
+  "input_tokens": 140109,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2211,
+  "packet_digest": "e4778bcde85e9ff47a46cacaf21cec0cd96ddb0e1c4e88f8f7721216c9d52d49",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"The English cue and sense are correct, and both supplied forms are valid equivalents. However, the national split is materially overstated: Malaysian DBP explicitly lists \\\"internasional\\\" as meaning \\\"antarabangsa\\\", while Indonesian KBBI recognizes both \\\"internasional\\\" and \\\"antarbangsa\\\" for the same sense. The relation \\\"different-common-word\\\" therefore misrepresents accepted cross-variety overlap. No false-friend contrast is present.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Correct: \\\"international\\\" means involving or relating to more than one country.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english/international\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: internasional\",\n      \"conclusion\": \"Correct and standard for the stated sense. Indonesian KBBI defines \\\"internasional\\\" as concerning nations or countries worldwide and equates it with \\\"antarbangsa\\\".\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/internasional\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: antarabangsa\",\n      \"conclusion\": \"Correct and standard for the stated sense. Malaysia's PRPM/Kamus Dewan defines \\\"antarabangsa\\\" as involving two or more countries.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa\"\n      ]\n    },\n    {\n      \"subject\": \"Cross-variety overlap\",\n      \"conclusion\": \"Material overlap is established. Malaysian DBP lists \\\"internasional\\\" as \\\"antarabangsa\\\", and Indonesian KBBI lists \\\"antarbangsa\\\" as an accepted equivalent of \\\"internasional\\\". The distinction is therefore preferential/register-based rather than a clean national lexical split.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa\",\n        \"https://kbbi.web.id/internasional\",\n        \"https://kbbi.web.id/antarbangsa\"\n      ],\n      \"evidence_limitation\": \"The dictionary evidence establishes acceptance, but does not quantify relative everyday frequency in Indonesia versus Malaysia.\"\n    },\n    {\n      \"subject\": \"Final relation: different-common-word\",\n      \"conclusion\": \"Needs correction. This relation materially overstates the difference; a shared-synonym or preference-based relation is more accurate.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa\",\n        \"https://kbbi.web.id/internasional\",\n        \"https://kbbi.web.id/antarbangsa\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is supplied. This is acceptable because the two forms share the relevant meaning, but the empty field provides no learner-facing explanation of the overlap or preference difference.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"No contrast text was provided in the learner content.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct: \"international\" means involving or relating to more than one country.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/international"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and standard for the stated sense. Indonesian KBBI defines \"internasional\" as concerning nations or countries worldwide and equates it with \"antarbangsa\".",
+        "evidence_refs": [
+          "https://kbbi.web.id/internasional"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: internasional"
+      },
+      {
+        "conclusion": "Correct and standard for the stated sense. Malaysia's PRPM/Kamus Dewan defines \"antarabangsa\" as involving two or more countries.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: antarabangsa"
+      },
+      {
+        "conclusion": "Material overlap is established. Malaysian DBP lists \"internasional\" as \"antarabangsa\", and Indonesian KBBI lists \"antarbangsa\" as an accepted equivalent of \"internasional\". The distinction is therefore preferential/register-based rather than a clean national lexical split.",
+        "evidence_limitation": "The dictionary evidence establishes acceptance, but does not quantify relative everyday frequency in Indonesia versus Malaysia.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa",
+          "https://kbbi.web.id/internasional",
+          "https://kbbi.web.id/antarbangsa"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap"
+      },
+      {
+        "conclusion": "Needs correction. This relation materially overstates the difference; a shared-synonym or preference-based relation is more accurate.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=antarabangsa",
+          "https://kbbi.web.id/internasional",
+          "https://kbbi.web.id/antarbangsa"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is supplied. This is acceptable because the two forms share the relevant meaning, but the empty field provides no learner-facing explanation of the overlap or preference difference.",
+        "evidence_limitation": "No contrast text was provided in the learner content.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and sense are correct, and both supplied forms are valid equivalents. However, the national split is materially overstated: Malaysian DBP explicitly lists \"internasional\" as meaning \"antarabangsa\", while Indonesian KBBI recognizes both \"internasional\" and \"antarbangsa\" for the same sense. The relation \"different-common-word\" therefore misrepresents accepted cross-variety overlap. No false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

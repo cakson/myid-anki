@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:55:54.203248+00:00",
+  "input_digest": "6f596d565c00e6558ba67c64a62705276fd57641a04a3419e526ab37d0c3396a",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s019:tmp-time-date-s019-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are time units, but second is a unit of one second while minute is a unit of sixty seconds; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s019:tmp-time-date-s019-007",
+          "rationale": "Both are time units, but second is a unit of one second while minute is a unit of sixty seconds; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s019:tmp-time-date-s019-007",
+        "rationale": "Both are time units, but second is a unit of one second while minute is a unit of sixty seconds; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "e3d1011aa1ca740a6c361df4b6dbb2dd919585607e5930e1507bd3a0cc10148f"
+}

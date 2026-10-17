@@ -1,0 +1,67 @@
+{
+  "attempt_id": "144cd3e5422216b8",
+  "candidate_id": "tmp-family-social-s026-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“bride” and “a woman getting married” are accurate and aligned.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct Indonesian expression for a female bride.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/pengantin"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pengantin wanita"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay expression for a female bride.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=7876&keyword=perempuan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pengantin perempuan"
+    },
+    {
+      "conclusion": "The label “different-common-word” is too strong because the forms overlap across varieties; at most, this is a regional preference contrast.",
+      "evidence_limitation": "Available dictionary evidence confirms meaning and usage but does not establish comparative national frequency.",
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "There is no false-friend distinction: both expressions refer to a bride.",
+      "evidence_limitation": "No dedicated false-friend contrast was supplied; semantic equivalence is clear from the cited dictionary usage.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "8b6ad4bb5b3ba58402bd94c622e8eb66d113b31a3551b1ebbb59537d96a2f39d",
+  "correction_refs": [],
+  "decision_digest": "96f1b96203e58ce9b82b4e32f63591dd97af598486385c14e1fdafad50cab945",
+  "elapsed_ms": 13339,
+  "finding_class": "metadata-only",
+  "input_tokens": 29156,
+  "model_calls": 1,
+  "output_tokens": 866,
+  "packet_digest": "ae4fcf9a42c92722a246279e2877aa1f7b982d6bc0aeaf4b9bdac287c5020321",
+  "rationale": "Both Malay forms correctly mean “bride,” and the English cue and sense are aligned. However, “different-common-word” overstates the contrast: pengantin perempuan is also used in Indonesian, while pengantin wanita is understandable in Malaysian. No false-friend contrast is present or needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:47:09.099902+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s026/tmp-family-social-s026-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s026",
+  "verdict": "needs-correction"
+}

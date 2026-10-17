@@ -1,0 +1,90 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-time-date-s044-003",
+    "english": "duration",
+    "indonesian": "durasi",
+    "malaysian": "tempoh",
+    "sense": "length of time",
+    "tags": [
+      "time-date",
+      "different-common-word"
+    ]
+  },
+  "candidate_id": "tmp-time-date-s044-003",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "jangka waktu / jangka masa",
+        "language": "both",
+        "rationale": "These phrases can express duration in ordinary usage, though they do not eliminate the useful durasi–tempoh preference.",
+        "signal": "credible-everyday-alternative"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Durasi” is the ordinary Indonesian noun for duration, while Malaysian Malay commonly uses “tempoh” for the same concept. The contrast is useful and does not change the sense. Review concern: Alternative phrases such as “jangka waktu/jangka masa” may occur in formal or contextual usage.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "credible-competing-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "duration",
+    "image": "",
+    "indonesian": "durasi",
+    "malaysian": "tempoh",
+    "relation": "different-common-word",
+    "tags": "time-date different-common-word"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s044"
+}

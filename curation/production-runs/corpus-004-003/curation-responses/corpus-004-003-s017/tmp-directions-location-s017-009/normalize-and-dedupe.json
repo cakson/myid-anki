@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5838,
+  "input_digest": "0574d12854f6a21fc1d1720a13f13b6435fb07ce7731001caedd8ffafe6dad50",
+  "input_tokens": 93720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 375,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s008:tmp-directions-location-s008-005\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"A directional sign is potentially the same concept as a street sign that directs along a road; the supplied senses overlap, though the candidate may be broader.\"},{\"other_id\":\"corpus-004-003-s048:tmp-transportation-s048-009\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"A traffic sign can include signs giving directional information, so the candidate's sense may overlap despite the existing entry emphasizing traffic information or instructions.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s008:tmp-directions-location-s008-005",
+          "rationale": "A directional sign is potentially the same concept as a street sign that directs along a road; the supplied senses overlap, though the candidate may be broader.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s048:tmp-transportation-s048-009",
+          "rationale": "A traffic sign can include signs giving directional information, so the candidate's sense may overlap despite the existing entry emphasizing traffic information or instructions.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

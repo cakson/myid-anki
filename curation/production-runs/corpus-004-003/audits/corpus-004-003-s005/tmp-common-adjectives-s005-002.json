@@ -1,0 +1,74 @@
+{
+  "attempt_id": "41e3914b4b6d0c0d",
+  "candidate_id": "tmp-common-adjectives-s005-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Permanent” with the sense “lasting indefinitely” is accurate.",
+      "evidence_refs": [
+        "https://kbbi.web.id/permanen",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kekal"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Indonesian permanen is an appropriate ordinary answer for “permanent.”",
+      "evidence_refs": [
+        "https://kbbi.web.id/permanen"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Malaysian Malay kekal is an appropriate standard/general answer for “permanent” in the stated duration sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kekal",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "different-common-word is acceptable as a preference-level contrast, provided it is not interpreted as exclusivity; Malaysian Malay also has colloquial permanen and overlapping tetap.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=tetap"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the forms are semantically related equivalents with different variety preferences.",
+      "evidence_limitation": "The cited dictionary entries establish meanings and usage labels, but do not constitute a corpus-frequency comparison across Indonesian and Malaysian Malay.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "459de4442a256a3dbf8c0b9447f0a795c1803b72e7fa70d8ffd8318491020226",
+  "correction_refs": [],
+  "decision_digest": "ccade53a4ec6b7fcf7fec75faccda52702a6d83cd8ed58463e544d335e801eca",
+  "elapsed_ms": 20262,
+  "finding_class": "none",
+  "input_tokens": 74926,
+  "model_calls": 1,
+  "output_tokens": 1335,
+  "packet_digest": "37bb3a82794dc960babae02cbe6e00f9145f3878007bb9c276ad56e4eaf5390f",
+  "rationale": "Both answers fit the general sense “lasting indefinitely”: Indonesian permanen is standard, while Malaysian Malay kekal is the preferred formal/general equivalent. The relation is valid as a variety-preference contrast, though not an absolute exclusion: Malaysian Malay also records permanen as colloquial, and tetap overlaps in some contexts. No false-friend contrast is warranted.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:20:45.049230+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s005/tmp-common-adjectives-s005-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s005",
+  "verdict": "cleared"
+}

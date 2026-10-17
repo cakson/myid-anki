@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:35:41.504726+00:00",
+  "input_digest": "b6f1ba6b9c5d6a452fa003dc8a67f08d07866149e4eee7d49265c25fb7f6e355",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is the verb/action \\u201cto queue\\u201d (mengantre, beratur), meaning to wait in an ordered line; the existing entry is the noun \\u201cqueue\\u201d (antrean, barisan), meaning the line itself. The senses and both answer sets differ clearly.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-04",
+          "rationale": "The candidate is the verb/action “to queue” (mengantre, beratur), meaning to wait in an ordered line; the existing entry is the noun “queue” (antrean, barisan), meaning the line itself. The senses and both answer sets differ clearly.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-04",
+        "rationale": "The candidate is the verb/action “to queue” (mengantre, beratur), meaning to wait in an ordered line; the existing entry is the noun “queue” (antrean, barisan), meaning the line itself. The senses and both answer sets differ clearly.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "e1395dc053ba0601456f9ebed26de9131a85bcb6e9ca0161bfa54aa26950891d"
+}

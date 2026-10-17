@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:34:32.128380+00:00",
+  "input_digest": "c96a259bce81fdd66b089c4b21df1ca712083bf976def26001697892e8a1ea47",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"common-adjectives-001:topic-03\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201cfatigue\\u201d and \\u201ctired\\u201d overlap as states of reduced energy, but the candidate specifies extreme tiredness or lack of energy while the existing concept specifies needing rest after activity; the distinction is plausible but not conclusive.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "common-adjectives-001:topic-03",
+          "rationale": "“fatigue” and “tired” overlap as states of reduced energy, but the candidate specifies extreme tiredness or lack of energy while the existing concept specifies needing rest after activity; the distinction is plausible but not conclusive.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "common-adjectives-001:topic-03",
+        "rationale": "“fatigue” and “tired” overlap as states of reduced energy, but the candidate specifies extreme tiredness or lack of energy while the existing concept specifies needing rest after activity; the distinction is plausible but not conclusive.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "eeeb18821455e558556abcb339f32d682a8c371648db5545f319494c4e3f7a26"
+}

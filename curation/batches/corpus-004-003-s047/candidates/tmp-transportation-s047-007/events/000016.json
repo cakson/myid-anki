@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:54.758815+00:00",
+  "result": {
+    "candidate_digest": "8200e11a1911e26f4390b40e2d2c6d74f2f2d45c7fc44c5e0fd8a00719994d1d",
+    "candidate_id": "tmp-transportation-s047-007",
+    "checked_at": "2026-10-17T06:21:54.758815+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The English cue and sense are correct, and both Malay forms are semantically valid. However, presenting “meter letak kereta” as the distinct Malaysian common word with relation “different-common-word” is potentially misleading: Malaysian official and dictionary sources also use or recognize “meter parkir,” while “meter letak kereta” is an established formal/preferred term. No false-friend contrast is supported. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

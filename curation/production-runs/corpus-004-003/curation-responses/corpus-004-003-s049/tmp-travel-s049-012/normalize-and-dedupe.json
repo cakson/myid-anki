@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6051,
+  "input_digest": "ee3536694ef53e1a00655363490e0868b04d118dcc366cf7577f37cb48558b38",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 390,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s038:tmp-services-s038-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate means an airport area for collecting checked baggage, while the existing concept means a formal request for compensation or benefit.\"},{\"other_id\":\"corpus-004-003-s021:tmp-travel-s021-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Hand luggage is luggage carried in the passenger cabin; baggage claim is the airport area where checked baggage is collected.\"},{\"other_id\":\"corpus-004-003-s048:tmp-transportation-s048-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Car trunk means a vehicle storage compartment, whereas baggage claim means an airport baggage-collection area.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-001",
+          "rationale": "The candidate means an airport area for collecting checked baggage, while the existing concept means a formal request for compensation or benefit.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s021:tmp-travel-s021-001",
+          "rationale": "Hand luggage is luggage carried in the passenger cabin; baggage claim is the airport area where checked baggage is collected.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s048:tmp-transportation-s048-008",
+          "rationale": "Car trunk means a vehicle storage compartment, whereas baggage claim means an airport baggage-collection area.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

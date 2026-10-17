@@ -2,13 +2,20 @@ from __future__ import annotations
 
 import pytest
 
+from indo_malay_anki.curation.export import export_batches
 from indo_malay_anki.curation.store import BatchStore, atomic_json, read_json
 from indo_malay_anki.scaling.audit import audit_run
 from indo_malay_anki.scaling.coverage import approve_allocation, inventory
 from indo_malay_anki.scaling.promotion import promote_run, withdraw_candidate
-from indo_malay_anki.scaling.qa import record_finding, select_sample
+from indo_malay_anki.scaling.qa import record_finding, resolve_finding, select_sample
 from indo_malay_anki.scaling.store import RunError, RunStore
-from indo_malay_anki.scaling.workflow import build_run, close_run, curate_run, generate_run
+from indo_malay_anki.scaling.workflow import (
+    build_run,
+    close_run,
+    curate_run,
+    generate_run,
+    resolve_candidate,
+)
 
 
 def _curated_fixture(root, *, risky=False):
@@ -164,6 +171,57 @@ def test_withdrawal_and_guarded_restoration_keep_permanent_id(repo_factory):
     from indo_malay_anki.curation.ids import assigned_id, load_ledger
 
     assert assigned_id(load_ledger(root), slice_id, "biscuit-01") == concept_id
+
+
+def test_material_qa_can_resolve_by_withholding_without_restoring_eligibility(repo_factory):
+    root = repo_factory(rows=[("000001", "plane", "pesawat", "kapal terbang", "", "transport")])
+    atomic_json(
+        root / "curation" / "id-ledger.json",
+        {
+            "schema_version": 1,
+            "assignments": [
+                {
+                    "id": "000001",
+                    "batch_id": "legacy",
+                    "candidate_id": "plane",
+                    "assigned_at": "2026-10-01",
+                    "semantic_concept_key": "airplane",
+                }
+            ],
+        },
+    )
+    store = _curated_fixture(root)
+    audit_run(store)
+    promotion = promote_run(store)
+    concept_id = promotion["new_ids"][0]
+    slice_id = store.load()["slices"][0]["slice_id"]
+    select_sample(store)
+    record_finding(
+        store,
+        slice_id,
+        "biscuit-01",
+        {"finding_class": "cue-content", "rationale": "The learner cue is materially misleading."},
+    )
+    resolve_candidate(store, f"{slice_id}:biscuit-01", "hold", "withhold unsafe learner content")
+
+    resolved = resolve_finding(store, slice_id, "biscuit-01", "Candidate is held and withdrawn.")
+    assert resolved["resolution_status"] == "resolved-withheld"
+    assert resolve_finding(store, slice_id, "biscuit-01", "retry") == resolved
+
+    from indo_malay_anki.scaling.promotion import _rows, write_eligibility
+
+    eligibility = write_eligibility(store, slice_id)
+    assert "biscuit-01" not in eligibility["candidates"]
+    assert concept_id not in {row["id"] for row in _rows(root)}
+    assert promote_run(store)["active_promoted_count"] == 0
+    assert export_batches(root, [slice_id]) == []
+
+    slice_store = BatchStore(root, slice_id)
+    candidate = slice_store.candidate("biscuit-01")
+    candidate["sense"] = "changed after QA resolution"
+    atomic_json(slice_store.candidate_path("biscuit-01") / "proposal.json", candidate)
+    with pytest.raises(RunError, match="stale"):
+        resolve_finding(store, slice_id, "biscuit-01", "retry after content change")
 
 
 def test_risk_selected_card_needs_independent_clearance_before_promotion(repo_factory):

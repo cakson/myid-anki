@@ -1,0 +1,73 @@
+{
+  "attempt_id": "c81cac0fbd995adf",
+  "candidate_id": "tmp-shopping-s041-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: “paper bag” appropriately matches a paper shopping bag used to carry purchases.",
+      "evidence_refs": [
+        "https://paperbag.id/",
+        "https://www.cetak.com.my/other-products/printing/paper-bag/price-paper-bag"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Tas kertas” is a valid and ordinary Indonesian term for a paper bag, including shopping or retail bags.",
+      "evidence_refs": [
+        "https://paperbag.id/",
+        "https://shopee.co.id/list/Tas/Paper%20Bag"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Beg kertas” is a valid and ordinary Malaysian term for a paper bag, including shopping, gift, and takeaway bags.",
+      "evidence_refs": [
+        "https://www.cetak.com.my/other-products/printing/paper-bag/price-paper-bag",
+        "https://www.mbs.gov.my/sites/default/files/inline-files/CONTOHBEGKERTAS.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate for the localized Indonesian and Malaysian forms, despite the shared English loan “paper bag” also occurring in both markets.",
+      "evidence_refs": [
+        "https://paperbag.id/",
+        "https://www.cetak.com.my/other-products/printing/paper-bag/price-paper-bag"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is implicated: the compounds are semantically transparent and correspond directly to paper plus bag.",
+      "evidence_limitation": "No dedicated false-friend or learner-dictionary source was located; this conclusion follows from the transparent morphology and usage evidence.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "518284c6ffd625287564cc61ca2ca5ef2b91849abc991888c901b8ca72350ecf",
+  "correction_refs": [],
+  "decision_digest": "4a4c1ed35b79cd117571565673dff968b27decec12400926212ad50c6d620622",
+  "elapsed_ms": 20386,
+  "finding_class": "none",
+  "input_tokens": 54617,
+  "model_calls": 1,
+  "output_tokens": 1386,
+  "packet_digest": "8211d10f4ccac9e205836f18fed36eb8053d8b236db0eefbb6406aa951838811",
+  "rationale": "Both translations are accurate for the stated shopping sense. “Tas kertas” is an ordinary Indonesian expression and “beg kertas” an ordinary Malaysian expression. The different-common-word relation is valid for localized forms, although the English loan “paper bag” is also used in both varieties. No false-friend contrast is present or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:05:02.795138+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s041/tmp-shopping-s041-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "cleared"
+}

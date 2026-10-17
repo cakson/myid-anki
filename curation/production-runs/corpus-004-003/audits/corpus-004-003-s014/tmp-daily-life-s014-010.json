@@ -1,0 +1,78 @@
+{
+  "attempt_id": "94528b1ab5d66823",
+  "candidate_id": "tmp-daily-life-s014-010",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct. It denotes a mosquito-control product, including repellent or insecticidal products.",
+      "evidence_refs": [
+        "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: obat nyamuk"
+    },
+    {
+      "conclusion": "Valid, especially as a formal or descriptive term for a mosquito-repelling device or product, but it is not the safest everyday Malaysian learner answer and is semantically narrower than a product that may kill mosquitoes.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=peranti+1"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: penghalau nyamuk"
+    },
+    {
+      "conclusion": "Mosquito-repellent product is a good narrowed cue. The added sense ‘repel or kill mosquitoes’ fits obat nyamuk and ubat nyamuk, but overstates penghalau nyamuk unless the Malaysian answer is qualified as repelling rather than killing.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Acceptable as a broad relation, since the Indonesian preferred form and the Malaysian formal/descriptive form differ. It should not imply that penghalau nyamuk is the only or dominant Malaysian everyday equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penghalau",
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat+ubat"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "The empty contrast field omits a useful learner note: obat and Malaysian ubat are cognate-looking forms that usually mean ‘medicine’, but obat/ubat nyamuk is a lexicalized compound meaning mosquito repellent or mosquito-killing product. This is not a direct false-friend contrast between the two supplied answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ubat",
+        "https://www.kemhan.go.id/itjen/wp-content/uploads/2017/04/KAMUS-BESAR-BAHASA-INDONESIA_Mutatis-Mutandis-Hal-1078.pdf"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c8e05442b03e9ad3150be1fabc3ff33031d89656600752f293018ccdd7c7775e",
+  "correction_refs": [],
+  "decision_digest": "7e06e1b6921a8949bfd4f230e75360c88893a72d52a0f111143c29f9effab94b",
+  "elapsed_ms": 21804,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62571,
+  "model_calls": 1,
+  "output_tokens": 1920,
+  "packet_digest": "75fc271ca4ca86ad666ebc0c1c806664727265bc00dd2321a75a2411629f98dd",
+  "rationale": "Indonesian obat nyamuk is correct for a mosquito-repellent/insecticide product. Malaysian penghalau nyamuk is valid and product-compatible, but it is less everyday and narrower than the common Malaysian term ubat nyamuk, which can cover products that repel or kill mosquitoes. The cue is acceptable if explicitly product-based, but the card should state the Malaysian usage preference and add the obat/ubat lexicalized-compound contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:34:28.862360+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s014/tmp-daily-life-s014-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s014",
+  "verdict": "needs-correction"
+}

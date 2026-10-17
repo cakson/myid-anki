@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5779,
+  "input_digest": "75105a7824114518f8714d467f4e99d7795ef1e365546c96e2987a85b252cd1b",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 377,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"places-001:places-01\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"Government office is a plausible narrower administrative-office sense of the existing generic office concept; both Indonesian and Malaysian answers are identical (kantor, pejabat), so a distinct concept cannot be established conclusively.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "places-001:places-01",
+          "rationale": "Government office is a plausible narrower administrative-office sense of the existing generic office concept; both Indonesian and Malaysian answers are identical (kantor, pejabat), so a distinct concept cannot be established conclusively.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,58 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 19618,
+  "input_tokens": 62002,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1187,
+  "packet_digest": "c0b713593d8510fdec0d178150d90d8dfed5b48aeefd4d00946a156cfa398320",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"The Indonesian answer and electrical-device sense are sound. Malaysian penyesuai is an official equivalent of adapter, but penyesuai perjalanan is not independently established as a common Malaysian collocation, and adapter/adaptor also remains usable. Therefore the card overstates a clean different-common-word contrast and should present the Malaysian form as a formal/standard alternative rather than a categorical regional distinction.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Travel adapter correctly denotes an electrical adapter used while traveling.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://en.wikipedia.org/wiki/Adapter\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: adaptor perjalanan\",\n      \"conclusion\": \"Adaptor is a standard Indonesian word for an electrical adapter, and adaptor perjalanan is semantically transparent and acceptable.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/adaptor\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: penyesuai perjalanan\",\n      \"conclusion\": \"Penyesuai is an authoritative Malaysian equivalent for adapter, so the phrase is understandable and formally defensible; however, evidence does not establish the full phrase as a common everyday collocation.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=penyesuai\",\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penyesuai\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation: different-common-word\",\n      \"conclusion\": \"Not adequately supported. The contrast is better labeled as a standard-term or register/preference contrast, since Indonesian adaptor and Malaysian penyesuai are corresponding terms and Malaysian adaptor/adaptor usage is also possible.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penyesuai\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false friend is present; adaptor and penyesuai refer to the same device concept rather than misleadingly different meanings.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"No dedicated false-friend source was found; conclusion follows from the dictionary equivalence.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Travel adapter correctly denotes an electrical adapter used while traveling.",
+        "evidence_refs": [
+          "https://en.wikipedia.org/wiki/Adapter"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Adaptor is a standard Indonesian word for an electrical adapter, and adaptor perjalanan is semantically transparent and acceptable.",
+        "evidence_refs": [
+          "https://kbbi.web.id/adaptor"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: adaptor perjalanan"
+      },
+      {
+        "conclusion": "Penyesuai is an authoritative Malaysian equivalent for adapter, so the phrase is understandable and formally defensible; however, evidence does not establish the full phrase as a common everyday collocation.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=penyesuai",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penyesuai"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: penyesuai perjalanan"
+      },
+      {
+        "conclusion": "Not adequately supported. The contrast is better labeled as a standard-term or register/preference contrast, since Indonesian adaptor and Malaysian penyesuai are corresponding terms and Malaysian adaptor/adaptor usage is also possible.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penyesuai"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false friend is present; adaptor and penyesuai refer to the same device concept rather than misleadingly different meanings.",
+        "evidence_limitation": "No dedicated false-friend source was found; conclusion follows from the dictionary equivalence.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The Indonesian answer and electrical-device sense are sound. Malaysian penyesuai is an official equivalent of adapter, but penyesuai perjalanan is not independently established as a common Malaysian collocation, and adapter/adaptor also remains usable. Therefore the card overstates a clean different-common-word contrast and should present the Malaysian form as a formal/standard alternative rather than a categorical regional distinction.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,58 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 19563,
+  "input_tokens": 65251,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1177,
+  "packet_digest": "1e4fa2787e63f34afc281fdcef74317c2c9fbc6272702682a201943f8147b77d",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"The national split is materially overstated for the supplied cue. Indonesian bros is a standard term for a decorative item pinned to clothing, while Malaysian Malay kerongsang is the dictionary translation and definition for brooch. The cue is broadly compatible with both, so different-common-word is not defensible without a more culturally specific sense. The English cue is otherwise accurate. The false-friend contrast is empty and provides no learner protection.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The sense is accurate for brooch, although adding traditional unnecessarily narrows the ordinary English meaning.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/us/dictionary/english/brooch\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: bros\",\n      \"conclusion\": \"Bros is an accepted Indonesian term for jewelry pinned to clothing, including the supplied generic brooch sense.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/bros\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: kerongsang\",\n      \"conclusion\": \"Kerongsang is an accepted Malaysian Malay term for a decorative ornament pinned to clothing and is explicitly given as the Malay equivalent of brooch.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kerongsang\"\n      ]\n    },\n    {\n      \"subject\": \"National split and final relation\",\n      \"conclusion\": \"The answers materially overlap for the generic cue, so different-common-word overstates the distinction. Kerongsang may be culturally or register-specific in some contexts, but that does not make bros non-equivalent here.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/bros\",\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kerongsang\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No contrast is supplied, so the card does not explain the contextual or cultural difference between the two overlapping terms.\",\n      \"material_risk\": true,\n      \"evidence_limitation\": \"The learner content contains an empty contrast field; no separate false-friend claim can be verified.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The sense is accurate for brooch, although adding traditional unnecessarily narrows the ordinary English meaning.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/brooch"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Bros is an accepted Indonesian term for jewelry pinned to clothing, including the supplied generic brooch sense.",
+        "evidence_refs": [
+          "https://kbbi.web.id/bros"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: bros"
+      },
+      {
+        "conclusion": "Kerongsang is an accepted Malaysian Malay term for a decorative ornament pinned to clothing and is explicitly given as the Malay equivalent of brooch.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kerongsang"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian Malay answer: kerongsang"
+      },
+      {
+        "conclusion": "The answers materially overlap for the generic cue, so different-common-word overstates the distinction. Kerongsang may be culturally or register-specific in some contexts, but that does not make bros non-equivalent here.",
+        "evidence_refs": [
+          "https://kbbi.web.id/bros",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kerongsang"
+        ],
+        "material_risk": true,
+        "subject": "National split and final relation"
+      },
+      {
+        "conclusion": "No contrast is supplied, so the card does not explain the contextual or cultural difference between the two overlapping terms.",
+        "evidence_limitation": "The learner content contains an empty contrast field; no separate false-friend claim can be verified.",
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The national split is materially overstated for the supplied cue. Indonesian bros is a standard term for a decorative item pinned to clothing, while Malaysian Malay kerongsang is the dictionary translation and definition for brooch. The cue is broadly compatible with both, so different-common-word is not defensible without a more culturally specific sense. The English cue is otherwise accurate. The false-friend contrast is empty and provides no learner protection.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

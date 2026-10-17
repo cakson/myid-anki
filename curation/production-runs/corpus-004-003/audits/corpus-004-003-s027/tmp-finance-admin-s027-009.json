@@ -1,0 +1,63 @@
+{
+  "attempt_id": "8518b107f9b61c0d",
+  "candidate_id": "tmp-finance-admin-s027-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and natural for cash deposited into an account.",
+      "evidence_refs": [
+        "https://www.bi.go.id/id/publikasi/peraturan/Documents/pbi_172415_f.pdf",
+        "https://www.bca.co.id/id/bisnis/solusi/cash-management/Collection/Cash-Pickup"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: setoran tunai"
+    },
+    {
+      "conclusion": "Correct and established Malaysian banking terminology for cash deposit.",
+      "evidence_refs": [
+        "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/services/agent_banking/agent_banking-bm.page",
+        "https://www.bsn.com.my/page/interbank-cash-deposit-via-cdm-crm"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: deposit tunai"
+    },
+    {
+      "conclusion": "Cash deposit accurately cues money paid into an account in cash; the supplied sense removes potential ambiguity.",
+      "evidence_refs": [
+        "https://www.cimb.com.my/bm/personal/help-support/faq/self-service-banking/cash-deposit-machines/what-are-the-services-or-facilities-available-via-cash-deposit-machines.html"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate as a learner-oriented preference contrast. There is no false-friend distinction: both expressions share the same banking sense.",
+      "evidence_limitation": "The relation judgment is based on parallel official banking usage rather than a corpus-frequency comparison.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "697eb44093fded152d75cfb9109e4f32d84a948a1fef369a06aaed986f813992",
+  "correction_refs": [],
+  "decision_digest": "44eea445a34053ddf001db6d276e06421f9d7a7e753fa8a83c22f0d7642b0770",
+  "elapsed_ms": 13504,
+  "finding_class": "none",
+  "input_tokens": 33211,
+  "model_calls": 1,
+  "output_tokens": 856,
+  "packet_digest": "3965881d183f5f34cf8f8130b168db34b1abee58dcc26ff6f2649ca5912d4962",
+  "rationale": "Both forms are valid for the stated banking sense. Indonesian setoran tunai and Malaysian deposit tunai are established expressions meaning cash deposited into an account. The contrast is a useful difference in common terminology, not a false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:49:43.694403+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s027/tmp-finance-admin-s027-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s027",
+  "verdict": "cleared"
+}

@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5978,
+  "input_digest": "6a452e5f5901cd9fc3343418f886d4a12a5af9a5d9d90bec9ad572a362d08b29",
+  "input_tokens": 93721,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 368,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s003:tmp-common-verbs-s003-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both involve placing something, but the candidate is general placement while the archived concept specifically means leaving a vehicle in a parking place; Indonesian and Malaysian answers also differ.\"},{\"other_id\":\"cal2-daily-001:daily-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The archived concept means organizing things in order, whereas the candidate means placing something somewhere; the senses and both answer pairs differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s003:tmp-common-verbs-s003-004",
+          "rationale": "Both involve placing something, but the candidate is general placement while the archived concept specifically means leaving a vehicle in a parking place; Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-10",
+          "rationale": "The archived concept means organizing things in order, whereas the candidate means placing something somewhere; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

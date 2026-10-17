@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:45:14.583369+00:00",
+  "input_digest": "cba2e0b416ff7ea0b0498fc2cf84f3b31d332888bea0fa16879317bfe81e16a7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"Indonesian \\\"kendali jarak jauh\\\" is less idiomatic in everyday speech than \\\"remot\\\" or \\\"remote\\\".\"], \"material_concerns\": [\"The proposed contrast may misteach ordinary usage because \\\"remote/remot\\\" is a common shared form, while \\\"kendali jarak jauh\\\" is formal or translation-like in Indonesian.\"], \"rationale\": \"The cue and device sense align, and \\\"alat kawalan jauh\\\" is a standard Malaysian term. However, the Indonesian answer is not the strongest ordinary everyday choice, so the claimed national contrast is weak.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers refer to the handheld device used to control a television or other appliance.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"\\\"Remote\\\" or \\\"remot\\\" is plausibly ordinary in both varieties and may be more natural in Indonesian than \\\"kendali jarak jauh,\\\" weakening the proposed contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"remote/remot\", \"language\": \"both\", \"rationale\": \"A shared colloquial form is plausibly ordinary in both varieties and competes with the proposed national terms.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Indonesian \"kendali jarak jauh\" is less idiomatic in everyday speech than \"remot\" or \"remote\"."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers refer to the handheld device used to control a television or other appliance.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The proposed contrast may misteach ordinary usage because \"remote/remot\" is a common shared form, while \"kendali jarak jauh\" is formal or translation-like in Indonesian."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "remote/remot",
+        "language": "both",
+        "rationale": "A shared colloquial form is plausibly ordinary in both varieties and competes with the proposed national terms.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "The cue and device sense align, and \"alat kawalan jauh\" is a standard Malaysian term. However, the Indonesian answer is not the strongest ordinary everyday choice, so the claimed national contrast is weak.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "\"Remote\" or \"remot\" is plausibly ordinary in both varieties and may be more natural in Indonesian than \"kendali jarak jauh,\" weakening the proposed contrast.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Indonesian \"kendali jarak jauh\" is less idiomatic in everyday speech than \"remot\" or \"remote\"."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers refer to the handheld device used to control a television or other appliance.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed contrast may misteach ordinary usage because \"remote/remot\" is a common shared form, while \"kendali jarak jauh\" is formal or translation-like in Indonesian."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "remote/remot",
+      "language": "both",
+      "rationale": "A shared colloquial form is plausibly ordinary in both varieties and competes with the proposed national terms.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "The cue and device sense align, and \"alat kawalan jauh\" is a standard Malaysian term. However, the Indonesian answer is not the strongest ordinary everyday choice, so the claimed national contrast is weak.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "\"Remote\" or \"remot\" is plausibly ordinary in both varieties and may be more natural in Indonesian than \"kendali jarak jauh,\" weakening the proposed contrast.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "24243abca227b707332716dbf0a254caeaa45efcf384b08330db842de22da561"
+}

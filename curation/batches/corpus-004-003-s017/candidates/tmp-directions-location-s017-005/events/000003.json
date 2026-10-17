@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-16T19:51:55.995455+00:00",
+  "input_digest": "1b128c6c54a3187c3c73297a5ceb71b6c8ac130b746d808b74cde9c2468996d7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A village is a small rural settlement, whereas a neighborhood is a local residential area within a broader locality.\"}, {\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A village is a small rural settlement, whereas a city is a large urban settlement.\"}, {\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A village is a rural settlement; a suburb is an area outside the central part of a city.\"}, {\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A village is a settlement, whereas a district is an administrative area within a region.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-003",
+          "rationale": "A village is a small rural settlement, whereas a neighborhood is a local residential area within a broader locality.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-006",
+          "rationale": "A village is a small rural settlement, whereas a city is a large urban settlement.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-008",
+          "rationale": "A village is a rural settlement; a suburb is an area outside the central part of a city.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-011",
+          "rationale": "A village is a settlement, whereas a district is an administrative area within a region.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-003",
+        "rationale": "A village is a small rural settlement, whereas a neighborhood is a local residential area within a broader locality.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-006",
+        "rationale": "A village is a small rural settlement, whereas a city is a large urban settlement.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-008",
+        "rationale": "A village is a rural settlement; a suburb is an area outside the central part of a city.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-011",
+        "rationale": "A village is a settlement, whereas a district is an administrative area within a region.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "aabc03d865c878e95d15b1523ee50c014503f963be4d7833a45d1f5b75ff022a"
+}

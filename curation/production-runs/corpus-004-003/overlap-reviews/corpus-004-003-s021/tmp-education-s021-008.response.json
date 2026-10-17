@@ -1,0 +1,68 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 29906,
+  "input_tokens": 100504,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2221,
+  "packet_digest": "a7b1e994e9c2f8ed5b4324c32bc1327ac83b4b7df3fd9e04ff1edbc6f360467c",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"The English cue and sense are correct, and both answers are understandable. However, the national split is materially overstated: Malaysian institutional usage supports \\\"rancangan pengajaran,\\\" while Indonesian official educational usage more commonly uses \\\"rencana pembelajaran\\\" or \\\"rencana pelaksanaan pembelajaran (RPP),\\\" making \\\"rencana pelajaran\\\" an insufficiently verified national counterpart. Malaysian also uses related forms such as \\\"rancangan pelajaran\\\" and \\\"rancangan mengajar.\\\" The relation should be weakened or reframed as a register/lexical-preference contrast. No genuine false-friend contrast is present; \\\"pelajaran\\\" and \\\"pengajaran\\\" are ordinary related terms whose distinction here is contextual.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Cleared: \\\"lesson plan\\\" means a teacher-created plan for the structure or progression of a lesson.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.oxfordlearnersdictionaries.com/us/definition/english/lesson-plan\",\n        \"https://learning.cambridgeinternational.org/classroom/pluginfile.php/162707/mod_resource/content/1/0610_Teacher_Guide.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: rencana pelajaran\",\n      \"conclusion\": \"Understandable but not sufficiently established as the ordinary current Indonesian educational term. Indonesian institutional sources predominantly use \\\"rencana pembelajaran\\\" and \\\"rencana pelaksanaan pembelajaran (RPP)\\\" for lesson planning.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://repositori.kemdikbud.go.id/18555/1/Rencana%20Pelaksanaan%20Pembelajaran%20%283%29.pdf\",\n        \"https://pusatinformasi.guru.kemdikbud.go.id/hc/id/articles/8711183669529-Kategori-Karya-pada-Bukti-Karya\",\n        \"https://download.garuda.kemdikbud.go.id/article.php?article=1687748&title=WORKSHOP+PERENCANAAN+PEMBELAJARAN+PENDIDIKAN+ANAK+USIA+DINi+BERBASIS+LOOSE+PARTS&val=18365\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: rancangan pengajaran\",\n      \"conclusion\": \"Cleared as an accepted Malaysian term for lesson plan/instructional plan, especially in educational and teacher-training contexts.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://caes.utem.edu.my/ms/staff-2/muat-turun/3-materials/5-teaching-and-learning-module.html?download=10%3Amodul-pengajaran-dan-pembelajaran-bhgn1\",\n        \"https://ir.unimas.my/id/eprint/31842/1/amalan_terbaik_pembudayaan_ict.pdf\",\n        \"https://ir.upsi.edu.my/files/docs/2020/1757_1757.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"National split and overlap\",\n      \"conclusion\": \"The claimed different-common-word relation is too strong. Malaysian sources also attest related forms such as \\\"rancangan pelajaran\\\" and \\\"rancangan mengajar,\\\" while Indonesian uses overlapping planning terminology built around \\\"rencana pembelajaran.\\\" The contrast is better characterized as regional/register preference than a clean national lexical division.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Rancangan\",\n        \"https://ir.unimas.my/id/eprint/31842/1/amalan_terbaik_pembudayaan_ict.pdf\",\n        \"https://pusatinformasi.guru.kemdikbud.go.id/hc/id/articles/14151391154969-Konsep-Alur-Tujuan-Pembelajaran-ATP\",\n        \"https://repositori.kemdikbud.go.id/18555/1/Rencana%20Pelaksanaan%20Pembelajaran%20%283%29.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is supported. \\\"Pelajaran\\\" and \\\"pengajaran\\\" differ in focus, but both are normal educational vocabulary and the two full phrases refer to lesson planning. The learner content leaves the contrast field empty, so it should not imply a false-friend distinction.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pengajaran\",\n        \"https://caes.utem.edu.my/ms/staff-2/muat-turun/3-materials/5-teaching-and-learning-module.html?download=10%3Amodul-pengajaran-dan-pembelajaran-bhgn1\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Cleared: \"lesson plan\" means a teacher-created plan for the structure or progression of a lesson.",
+        "evidence_refs": [
+          "https://www.oxfordlearnersdictionaries.com/us/definition/english/lesson-plan",
+          "https://learning.cambridgeinternational.org/classroom/pluginfile.php/162707/mod_resource/content/1/0610_Teacher_Guide.pdf"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Understandable but not sufficiently established as the ordinary current Indonesian educational term. Indonesian institutional sources predominantly use \"rencana pembelajaran\" and \"rencana pelaksanaan pembelajaran (RPP)\" for lesson planning.",
+        "evidence_refs": [
+          "https://repositori.kemdikbud.go.id/18555/1/Rencana%20Pelaksanaan%20Pembelajaran%20%283%29.pdf",
+          "https://pusatinformasi.guru.kemdikbud.go.id/hc/id/articles/8711183669529-Kategori-Karya-pada-Bukti-Karya",
+          "https://download.garuda.kemdikbud.go.id/article.php?article=1687748&title=WORKSHOP+PERENCANAAN+PEMBELAJARAN+PENDIDIKAN+ANAK+USIA+DINi+BERBASIS+LOOSE+PARTS&val=18365"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: rencana pelajaran"
+      },
+      {
+        "conclusion": "Cleared as an accepted Malaysian term for lesson plan/instructional plan, especially in educational and teacher-training contexts.",
+        "evidence_refs": [
+          "https://caes.utem.edu.my/ms/staff-2/muat-turun/3-materials/5-teaching-and-learning-module.html?download=10%3Amodul-pengajaran-dan-pembelajaran-bhgn1",
+          "https://ir.unimas.my/id/eprint/31842/1/amalan_terbaik_pembudayaan_ict.pdf",
+          "https://ir.upsi.edu.my/files/docs/2020/1757_1757.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: rancangan pengajaran"
+      },
+      {
+        "conclusion": "The claimed different-common-word relation is too strong. Malaysian sources also attest related forms such as \"rancangan pelajaran\" and \"rancangan mengajar,\" while Indonesian uses overlapping planning terminology built around \"rencana pembelajaran.\" The contrast is better characterized as regional/register preference than a clean national lexical division.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Rancangan",
+          "https://ir.unimas.my/id/eprint/31842/1/amalan_terbaik_pembudayaan_ict.pdf",
+          "https://pusatinformasi.guru.kemdikbud.go.id/hc/id/articles/14151391154969-Konsep-Alur-Tujuan-Pembelajaran-ATP",
+          "https://repositori.kemdikbud.go.id/18555/1/Rencana%20Pelaksanaan%20Pembelajaran%20%283%29.pdf"
+        ],
+        "material_risk": true,
+        "subject": "National split and overlap"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported. \"Pelajaran\" and \"pengajaran\" differ in focus, but both are normal educational vocabulary and the two full phrases refer to lesson planning. The learner content leaves the contrast field empty, so it should not imply a false-friend distinction.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pengajaran",
+          "https://caes.utem.edu.my/ms/staff-2/muat-turun/3-materials/5-teaching-and-learning-module.html?download=10%3Amodul-pengajaran-dan-pembelajaran-bhgn1"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and sense are correct, and both answers are understandable. However, the national split is materially overstated: Malaysian institutional usage supports \"rancangan pengajaran,\" while Indonesian official educational usage more commonly uses \"rencana pembelajaran\" or \"rencana pelaksanaan pembelajaran (RPP),\" making \"rencana pelajaran\" an insufficiently verified national counterpart. Malaysian also uses related forms such as \"rancangan pelajaran\" and \"rancangan mengajar.\" The relation should be weakened or reframed as a register/lexical-preference contrast. No genuine false-friend contrast is present; \"pelajaran\" and \"pengajaran\" are ordinary related terms whose distinction here is contextual.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

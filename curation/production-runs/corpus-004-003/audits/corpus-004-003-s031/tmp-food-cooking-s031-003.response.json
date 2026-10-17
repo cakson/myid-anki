@@ -1,0 +1,65 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 13564,
+  "input_tokens": 33132,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1022,
+  "packet_digest": "40bbbf13a6efdb4d9783169043c891b5afcb1b944193523a330f162cf173b9f9",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both terms are attested culinary names for basil-related Ocimum herbs, but the card presents them as a clean Indonesian-versus-Malaysian contrast. Usage overlaps: Indonesian also uses selasih, and Malaysian sources attest both selasih and kemangi. The botanical referent can vary by cultivar, so the relation needs qualification and an explicit false-friend/overlap note.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: kemangi\",\"conclusion\":\"Acceptable for the culinary herb commonly called kemangi in Indonesian, especially lemon basil used in Indonesian cooking.\",\"material_risk\":false,\"evidence_refs\":[\"https://en.wikipedia.org/wiki/Lemon_basil\",\"https://prosea.prota4u.org/view.aspx?id=582\"]},{\"subject\":\"Malaysian answer: selasih\",\"conclusion\":\"Acceptable and directly supported as the Malay term for basil (Ocimum basilicum), including culinary use.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=selasih\",\"https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/buku/100_spesis_herba_khasiat_penggunaan_v2.pdf\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue “basil” and sense “the aromatic herb used in cooking” are broadly correct, but basil is a broad category with multiple regional Ocimum varieties.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.worldfoods.com.my/news/stories/24\",\"https://prosea.prota4u.org/view.aspx?id=582\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Misleading without qualification. The terms are useful regional preferences, but not mutually exclusive language-specific equivalents; Indonesian uses selasih and Malaysian sources also attest kemangi.\",\"material_risk\":true,\"evidence_refs\":[\"https://prosea.prota4u.org/view.aspx?id=582\",\"https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/buku/100_spesis_herba_khasiat_penggunaan_v2.pdf\",\"https://jpn.penang.gov.my/index.php?Itemid=57&catid=26&id=286%3Akemangi-selasih&lang=en&option=com_content&view=article\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"Missing. The card should warn that kemangi and selasih overlap in regional usage and may denote different basil cultivars or related Ocimum plants depending on context.\",\"material_risk\":true,\"evidence_refs\":[\"https://www.worldfoods.com.my/news/stories/24\",\"https://rri.co.id/purwokerto/berita-lain/1415396/perbedaan-selasih-dan-kemangi\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Acceptable for the culinary herb commonly called kemangi in Indonesian, especially lemon basil used in Indonesian cooking.",
+        "evidence_refs": [
+          "https://en.wikipedia.org/wiki/Lemon_basil",
+          "https://prosea.prota4u.org/view.aspx?id=582"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: kemangi"
+      },
+      {
+        "conclusion": "Acceptable and directly supported as the Malay term for basil (Ocimum basilicum), including culinary use.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=selasih",
+          "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/buku/100_spesis_herba_khasiat_penggunaan_v2.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: selasih"
+      },
+      {
+        "conclusion": "The cue “basil” and sense “the aromatic herb used in cooking” are broadly correct, but basil is a broad category with multiple regional Ocimum varieties.",
+        "evidence_refs": [
+          "https://www.worldfoods.com.my/news/stories/24",
+          "https://prosea.prota4u.org/view.aspx?id=582"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Misleading without qualification. The terms are useful regional preferences, but not mutually exclusive language-specific equivalents; Indonesian uses selasih and Malaysian sources also attest kemangi.",
+        "evidence_refs": [
+          "https://prosea.prota4u.org/view.aspx?id=582",
+          "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/penerbitan/buku/100_spesis_herba_khasiat_penggunaan_v2.pdf",
+          "https://jpn.penang.gov.my/index.php?Itemid=57&catid=26&id=286%3Akemangi-selasih&lang=en&option=com_content&view=article"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "Missing. The card should warn that kemangi and selasih overlap in regional usage and may denote different basil cultivars or related Ocimum plants depending on context.",
+        "evidence_refs": [
+          "https://www.worldfoods.com.my/news/stories/24",
+          "https://rri.co.id/purwokerto/berita-lain/1415396/perbedaan-selasih-dan-kemangi"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both terms are attested culinary names for basil-related Ocimum herbs, but the card presents them as a clean Indonesian-versus-Malaysian contrast. Usage overlaps: Indonesian also uses selasih, and Malaysian sources attest both selasih and kemangi. The botanical referent can vary by cultivar, so the relation needs qualification and an explicit false-friend/overlap note.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

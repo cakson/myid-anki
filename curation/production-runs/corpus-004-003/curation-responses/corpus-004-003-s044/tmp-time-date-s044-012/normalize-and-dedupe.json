@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5022,
+  "input_digest": "c701381be237e88c44375fc6c0c31764ca6e07ca63d3870fdb25b307cbe1a3f8",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 178,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s011:tmp-family-social-s011-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate means a yearly recurrence of any event date, whereas the existing birthday concept specifically means the annual celebration of a person’s birth; the Indonesian and Malaysian answers are reversed but correspond to these distinct senses.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s011:tmp-family-social-s011-009",
+          "rationale": "The candidate means a yearly recurrence of any event date, whereas the existing birthday concept specifically means the annual celebration of a person’s birth; the Indonesian and Malaysian answers are reversed but correspond to these distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

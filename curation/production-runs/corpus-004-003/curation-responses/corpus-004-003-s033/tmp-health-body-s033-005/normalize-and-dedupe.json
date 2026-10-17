@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5392,
+  "input_digest": "20817520bef4a6c8dc7373509dad1eab0d532cc1d293968ccf50182b79ee0212",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 240,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s033:tmp-health-body-s033-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Malnutrition is poor health from insufficient or unbalanced nutrients, whereas obesity is excessive body fat as a health condition; the concepts are distinct despite possible nutritional overlap.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s033:tmp-health-body-s033-004",
+          "rationale": "Malnutrition is poor health from insufficient or unbalanced nutrients, whereas obesity is excessive body fat as a health condition; the concepts are distinct despite possible nutritional overlap.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

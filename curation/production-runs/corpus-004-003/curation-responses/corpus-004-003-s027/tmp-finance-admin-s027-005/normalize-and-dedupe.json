@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5778,
+  "input_digest": "8b99083ca899d0c991b78d1229a255cc910f0e695d246a8a0e1d735d5fe5825c",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 321,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-work-001:work-10\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are official documents, but a marriage certificate records a marriage whereas a certificate is a general document confirming an achievement or completion.\"},{\"other_id\":\"corpus-004-003-s027:tmp-finance-admin-s027-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are civil-record documents, but a marriage certificate records a marriage and a birth certificate records a person's birth.\"},{\"other_id\":\"corpus-004-003-s011:tmp-family-social-s011-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A marriage certificate is the official document recording a marriage; a wedding is the marriage ceremony or event.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-work-001:work-10",
+          "rationale": "Both are official documents, but a marriage certificate records a marriage whereas a certificate is a general document confirming an achievement or completion.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-004",
+          "rationale": "Both are civil-record documents, but a marriage certificate records a marriage and a birth certificate records a person's birth.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s011:tmp-family-social-s011-008",
+          "rationale": "A marriage certificate is the official document recording a marriage; a wedding is the marriage ceremony or event.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

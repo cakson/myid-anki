@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:46.671104+00:00",
+  "result": {
+    "candidate_digest": "1b025c61401276026372a9ebbf43245cb53e06f727b976556f917a81643f6c70",
+    "candidate_id": "tmp-emotions-s023-004",
+    "checked_at": "2026-10-17T06:21:46.671104+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both forms express grief or sorrow after a loss, and the English cue is aligned. However, “different-common-word” is misleading: berduka is valid Indonesian and also occurs in Malaysian Malay, while berdukacita is a valid Malaysian Malay synonym. The claimed Malaysian preference/register contrast is not sufficiently evidenced and should be presented cautiously, if at all. No false-friend contrast is present. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

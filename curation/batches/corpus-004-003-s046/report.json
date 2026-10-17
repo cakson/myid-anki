@@ -1,0 +1,136 @@
+{
+  "accepted": 1,
+  "batch_id": "corpus-004-003-s046",
+  "confidence_distribution": {
+    "high": 1
+  },
+  "corrections": 0,
+  "created_at": "2026-10-17T12:22:20.243613+00:00",
+  "decisions": [
+    {
+      "candidate_id": "tmp-time-date-s046-001",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete competing preference was identified.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "“Tanggal lahir” is the ordinary Indonesian term and “tarikh lahir” the ordinary Malaysian Malay term for the same concept: a person’s date of birth.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-time-date-s046-002",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Fresh independent review returned finding_class=metadata-only but at least one learner-content claim_review has material_risk=true and identifies a cross-variety overlap or materially misleading national split. Treat as material learner-content finding; hold and withdraw pending a vetted correction and fresh clearance.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    }
+  ],
+  "duplicate_detections": 3,
+  "duplicate_resolutions": {
+    "distinct": 3
+  },
+  "evidence_failures": 0,
+  "further_investigation": [
+    "tmp-time-date-s046-002"
+  ],
+  "generated": 2,
+  "held": 1,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "material-unresolved-issue": 1,
+    "ordinary-verifier-agreement": 1
+  },
+  "rejected": 0,
+  "relation_distribution": {
+    "different-common-word": 1
+  },
+  "review_priority": [
+    "tmp-time-date-s046-001"
+  ],
+  "status": "closed",
+  "verification_failures": 0
+}

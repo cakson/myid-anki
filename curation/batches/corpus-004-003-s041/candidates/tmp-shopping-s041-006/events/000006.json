@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T04:50:13.899615+00:00",
+  "input_digest": "bcfc2dc33bf8b6a0923cff6e845bedf9bca136e8985cd63d4c4f5a284f8c21fc",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The proposed contrast is weakened because \\u201csupermarket\\u201d is also ordinary in Malaysian usage.\"], \"material_concerns\": [\"The pair may mislead learners into treating \\u201csupermarket\\u201d as specifically Indonesian and \\u201cpasar raya\\u201d as exclusively Malaysian.\"], \"rationale\": \"Both forms denote a large self-service grocery store, but the national preference is overstated because Malaysian speakers also commonly use \\u201csupermarket.\\u201d\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers fit the exact sense of a large self-service grocery store.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"\\u201cSupermarket\\u201d is an ordinary competing form in Malaysia as well as Indonesia, so the proposed preference is not reliably national.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"supermarket\", \"language\": \"both\", \"rationale\": \"\\u201cSupermarket\\u201d is plausibly ordinary in both Indonesian and Malaysian Malay, weakening the claimed contrast with \\u201cpasar raya.\\u201d\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The proposed contrast is weakened because “supermarket” is also ordinary in Malaysian usage."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers fit the exact sense of a large self-service grocery store.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair may mislead learners into treating “supermarket” as specifically Indonesian and “pasar raya” as exclusively Malaysian."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "supermarket",
+        "language": "both",
+        "rationale": "“Supermarket” is plausibly ordinary in both Indonesian and Malaysian Malay, weakening the claimed contrast with “pasar raya.”",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Both forms denote a large self-service grocery store, but the national preference is overstated because Malaysian speakers also commonly use “supermarket.”",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "“Supermarket” is an ordinary competing form in Malaysia as well as Indonesia, so the proposed preference is not reliably national.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The proposed contrast is weakened because “supermarket” is also ordinary in Malaysian usage."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the exact sense of a large self-service grocery store.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair may mislead learners into treating “supermarket” as specifically Indonesian and “pasar raya” as exclusively Malaysian."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "supermarket",
+      "language": "both",
+      "rationale": "“Supermarket” is plausibly ordinary in both Indonesian and Malaysian Malay, weakening the claimed contrast with “pasar raya.”",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both forms denote a large self-service grocery store, but the national preference is overstated because Malaysian speakers also commonly use “supermarket.”",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "“Supermarket” is an ordinary competing form in Malaysia as well as Indonesia, so the proposed preference is not reliably national.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "1afa9d40a778aad059680718c123827fa3777cf92a8b2f59daf90f46439c0ba7"
+}

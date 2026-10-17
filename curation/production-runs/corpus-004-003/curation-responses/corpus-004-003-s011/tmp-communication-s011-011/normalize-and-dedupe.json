@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5328,
+  "input_digest": "a500154548d3377d60f11eacf7e9a0b978db32a0c4dc153c55e8b9309f3a550a",
+  "input_tokens": 93722,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 303,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s002:tmp-common-adjectives-contrast-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“joke” is a noun for a humorous story or utterance, while “funny” is an adjective meaning causing amusement; the senses and parts of speech differ.\"},{\"other_id\":\"tb25-actions-001:actions-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“joke” is a humorous story or utterance, while “to laugh” is the vocal or physical response to amusement; related but distinct concepts.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s002:tmp-common-adjectives-contrast-005",
+          "rationale": "“joke” is a noun for a humorous story or utterance, while “funny” is an adjective meaning causing amusement; the senses and parts of speech differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-actions-001:actions-01",
+          "rationale": "“joke” is a humorous story or utterance, while “to laugh” is the vocal or physical response to amusement; related but distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

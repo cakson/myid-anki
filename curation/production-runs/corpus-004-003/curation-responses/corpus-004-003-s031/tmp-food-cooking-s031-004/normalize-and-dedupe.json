@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4836,
+  "input_digest": "fdcd8ea49fa4315ebf2e6ba9e643e4918b41aa55349a5f390ce37fbb8e45b6a9",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 202,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s030:tmp-food-cooking-s030-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Ingredient is a broad component used to make a dish, whereas seasoning is specifically an ingredient added for flavor; seasoning is a narrower subtype, not the same concept.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s030:tmp-food-cooking-s030-002",
+          "rationale": "Ingredient is a broad component used to make a dish, whereas seasoning is specifically an ingredient added for flavor; seasoning is a narrower subtype, not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

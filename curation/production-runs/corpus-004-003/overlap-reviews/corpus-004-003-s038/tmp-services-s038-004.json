@@ -1,0 +1,80 @@
+{
+  "attempt_id": "8b8c5ca008ee35fe",
+  "candidate_id": "tmp-services-s038-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Security guard” and “a person hired to protect a place or property” are accurate and sufficiently specific.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/16339/1/Senarai-Istilah-Asing-Indonesia-di-Ruang-Publik.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=security"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Satpam is an established Indonesian term and directly denotes personnel responsible for security in a specified environment.",
+      "evidence_refs": [
+        "https://kbbi.web.id/satpam",
+        "https://pid.kepri.polri.go.id/satpam/",
+        "https://repositori.kemendikdasmen.go.id/16339/1/Senarai-Istilah-Asing-Indonesia-di-Ruang-Publik.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: satpam"
+    },
+    {
+      "conclusion": "Pengawal keselamatan is the standard Malaysian Malay equivalent of “security guard” and is used in official and institutional Malaysian contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=security",
+        "https://www.msig.com.my/BusinessSafeGuardInsuranceProposalForm_F_AD_P66_V1.pdf",
+        "https://www.cgso.gov.my/wp-content/uploads/2022/02/Borang-Senarai-Semak-Inspektorat-Pematuhan-Keselamatan-Perlindungan-KPKK-7-Pin.2021.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: pengawal keselamatan"
+    },
+    {
+      "conclusion": "The split is not materially overstated. English security/security guard can appear in Indonesian and Malaysian workplace or casual usage, but the evidence supports satpam and pengawal keselamatan as the respective established local forms; the shared English usage is a secondary overlap rather than an equal replacement.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/16339/1/Senarai-Istilah-Asing-Indonesia-di-Ruang-Publik.pdf",
+        "https://mediaindonesia.com/politik-dan-hukum/730227/perbedaan-satpam-dan-security-peran-strategis-dalam-menjaga-keamanan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=security"
+      ],
+      "material_risk": false,
+      "subject": "National split and shared equivalents"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate. Satpam and pengawal keselamatan refer to the same general occupation without a misleading false-friend divergence; the empty contrast field is acceptable.",
+      "evidence_refs": [
+        "https://kbbi.web.id/satpam",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=security"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "6590e0e2843d2868547903913c3c011615f60cd672654c03f34ba085ed07755b",
+  "correction_refs": [],
+  "decision_digest": "844e374ba3206e8cafe39fdd44a9e89b72da5fc24b903c0d3b73dcac64289b5d",
+  "elapsed_ms": 17653,
+  "finding_class": "none",
+  "input_tokens": 33488,
+  "model_calls": 1,
+  "output_tokens": 1451,
+  "packet_digest": "56ea3197940fa89a399e4a2bcd9605fcec283c0274f491c641bb5e59210c3dbe",
+  "rationale": "The national split is materially supported. Indonesian satpam is the established term for a security guard, while Malaysian Malay pengawal keselamatan is the standard Malay equivalent. English security guard may occur as code-switching or an imported workplace label in both countries, but it does not displace the distinct ordinary Malay forms. The cue, sense, answers, and relation are aligned. No false-friend contrast is needed because neither answer has a misleading cross-variety meaning.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:06:05.069775+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s038/tmp-services-s038-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "cleared"
+}

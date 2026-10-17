@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4646,
+  "input_digest": "9318c6ae585e3598b655e52e93ca41bca52c32cbe907e1d55dc437900ecb7274",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 198,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"places-001:places-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are emergency/public-service facilities, but a fire station houses firefighters and firefighting equipment, whereas a police station is a police facility; the cues, senses, and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "places-001:places-04",
+          "rationale": "Both are emergency/public-service facilities, but a fire station houses firefighters and firefighting equipment, whereas a police station is a police facility; the cues, senses, and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

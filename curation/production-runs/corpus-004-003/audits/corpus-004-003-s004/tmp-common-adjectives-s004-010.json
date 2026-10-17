@@ -1,0 +1,81 @@
+{
+  "attempt_id": "87d0a39ee11fe231",
+  "candidate_id": "tmp-common-adjectives-s004-010",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for messy meaning disorganized or untidy.",
+      "evidence_refs": [
+        "https://kbbi.lektur.id/berantakan",
+        "https://typoonline.com/amp/kbbi/berantakan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: berantakan"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay form for things being scattered, untidy, or not well arranged.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=berselerak"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: berselerak"
+    },
+    {
+      "conclusion": "The cue messy and the sense disorganized or spread untidily align with both answers.",
+      "evidence_refs": [
+        "https://kbbi.lektur.id/berantakan",
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=berselerak"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate because the Indonesian and Malaysian forms differ while expressing corresponding meanings.",
+      "evidence_limitation": "Dictionaries establish the meanings but do not by themselves quantify comparative everyday frequency.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed or supported; the forms are straightforward semantic counterparts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=berselerak"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    },
+    {
+      "conclusion": "Bersepah is also a valid Malaysian alternative for scattered or untidy, so berselerak should not be treated as exclusive.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bersepah"
+      ],
+      "material_risk": false,
+      "subject": "Competing Malaysian form: bersepah"
+    }
+  ],
+  "content_digest": "5ff835933558634025dab58c61fc247ad451807f5b4387c4d9f7bdb5022e717d",
+  "correction_refs": [],
+  "decision_digest": "4ae7ddd69b10cf3f03b8f101d0ca08ec651a2a970562b230766ab8cabb15487e",
+  "elapsed_ms": 14011,
+  "finding_class": "none",
+  "input_tokens": 59770,
+  "model_calls": 1,
+  "output_tokens": 884,
+  "packet_digest": "8ce73e6450e4907ef0b68caba6ec703eb7b13fa634aa3d25cb6db7f4c5c75f61",
+  "rationale": "Both answers are valid for the stated sense. Indonesian berantakan means disordered or untidy, while Malaysian Malay berselerak means scattered, untidily arranged, or not well organized. The different-common-word relation is appropriate. No false-friend contrast is present. Berselerak is not exclusive; bersepah is also a valid Malaysian alternative, but this is a preference/coverage issue rather than a learner-critical error.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:20:24.745478+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s004/tmp-common-adjectives-s004-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s004",
+  "verdict": "cleared"
+}

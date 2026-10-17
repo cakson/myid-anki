@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:01:20.287820+00:00",
+  "input_digest": "e02cfa95ba402565d0235930ae7dce56c85dede4c10e4e1d6745f8bbadde3896",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s038:tmp-services-s038-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Traffic police are police specialized in road-traffic control, whereas a police officer is a general police role; the candidate has a distinct narrower sense.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-003",
+          "rationale": "Traffic police are police specialized in road-traffic control, whereas a police officer is a general police role; the candidate has a distinct narrower sense.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s038:tmp-services-s038-003",
+        "rationale": "Traffic police are police specialized in road-traffic control, whereas a police officer is a general police role; the candidate has a distinct narrower sense.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "0b579582ba44188b9e65ca98c97bae3a541e69dc8f40c748c0e30d3e2d22725d"
+}

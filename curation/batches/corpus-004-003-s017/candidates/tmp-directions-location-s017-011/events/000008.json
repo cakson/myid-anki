@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:53:16.517180+00:00",
+  "result": {
+    "candidate_digest": "dbc6d382dbd6b536ec5ec1a728a80eaf4d6b69dece6ba90f09dd359efc1bbe5a",
+    "candidate_id": "tmp-directions-location-s017-011",
+    "checked_at": "2026-10-16T19:53:16.517180+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "The broad cue “district” could misteach the learner by equating kecamatan with Malaysian daerah."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The broad cue “district” could misteach the learner by equating kecamatan with Malaysian daerah.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

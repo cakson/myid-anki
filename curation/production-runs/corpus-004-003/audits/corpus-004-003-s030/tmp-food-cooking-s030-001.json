@@ -1,0 +1,61 @@
+{
+  "attempt_id": "4e290ddc3380f3ee",
+  "candidate_id": "tmp-food-cooking-s030-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Tofu accurately corresponds to soybean curd.",
+      "evidence_limitation": "Assessment based on established lexical knowledge; no external sources supplied.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Tahu is a standard everyday Indonesian word for tofu.",
+      "evidence_limitation": "Assessment based on established lexical knowledge; no external sources supplied.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Tauhu is a standard Malaysian Malay word for tofu.",
+      "evidence_limitation": "Assessment based on established lexical knowledge; no external sources supplied.",
+      "material_risk": false,
+      "subject": "Malaysian Malay answer"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate because the varieties commonly prefer tahu and tauhu respectively, despite shared use and understanding of tofu.",
+      "evidence_limitation": "Assessment based on established lexical knowledge; no external sources supplied.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present for this food sense.",
+      "evidence_limitation": "Assessment based on established lexical knowledge; no external sources supplied.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "9b2adfbeeffc4f0e84c1b9d35164e4366e934471e3c8e5a0cae5e8742ab35ac2",
+  "correction_refs": [],
+  "decision_digest": "6fbe58626ec1988c5cd3ce41123345a321fe003e1876b363e3b71c0e1dacebc5",
+  "elapsed_ms": 7492,
+  "finding_class": "none",
+  "input_tokens": 12490,
+  "model_calls": 1,
+  "output_tokens": 531,
+  "packet_digest": "f8cf8686d92f33793491db88614e3abb7287a2e9cd17682a4bc97191a554de76",
+  "rationale": "The English cue and sense are accurate. Indonesian tahu and Malaysian Malay tauhu both denote soybean curd and are appropriate common forms. The relation different-common-word is valid, with no material false-friend issue; tofu is an additional shared international/commercial form.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:51:34.917477+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s030/tmp-food-cooking-s030-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "cleared"
+}

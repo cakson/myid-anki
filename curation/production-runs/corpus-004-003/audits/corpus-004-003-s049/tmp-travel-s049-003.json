@@ -1,0 +1,77 @@
+{
+  "attempt_id": "6190349c0b3974e5",
+  "candidate_id": "tmp-travel-s049-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“keterlambatan penerbangan” correctly means flight delay in Indonesian.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/keterlambatan",
+        "https://jdih.dephub.go.id/api/media?data=557Yulvd5zw5VX1QiN6kJX8QnoRxeRusq4DqrRHIvkCT4fZKPHlSpTp4JCC4y1b5uj8LV4qyCfiiJ4JJw15c2ndD8bSukkaznUM4ZJ2DDk40Ki2Phv6061FYKGxTdsZsigvk4qC0Rcdhye6IqyXNrhaxgLJMJllE2RJnNI1FjxdMMEZ53Q6iEidLLKQ02IOorTo43Iltj2MEKfSBAMxPmsENW"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“kelewatan penerbangan” correctly means flight delay in Malaysian Malay.",
+      "evidence_refs": [
+        "https://www.caam.gov.my/bm/pengguna/di-lapangan-terbang/kelewatan-dan-pembatalan-penerbangan/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“flight delay” and “a flight arriving or leaving later than scheduled” are semantically aligned.",
+      "evidence_refs": [
+        "https://www.caam.gov.my/bm/pengguna/di-lapangan-terbang/kelewatan-dan-pembatalan-penerbangan/",
+        "https://jdih.dephub.go.id/api/media?data=557Yulvd5zw5VX1QiN6kJX8QnoRxeRusq4DqrRHIvkCT4fZKPHlSpTp4JCC4y1b5uj8LV4qyCfiiJ4JJw15c2ndD8bSukkaznUM4ZJ2DDk40Ki2Phv6061FYKGxTdsZsigvk4qC0Rcdhye6IqyXNrhaxgLJMJllE2RJnNI1FjxdMMEZ53Q6iEidLLKQ02IOorTo43Iltj2MEKfSBAMxPmsENW"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is an appropriate relation because the varieties use distinct ordinary terms.",
+      "evidence_refs": [
+        "https://www.caam.gov.my/bm/pengguna/di-lapangan-terbang/kelewatan-dan-pembatalan-penerbangan/",
+        "https://baru.kbbi.co.id/arti-kata/keterlambatan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "The contrast field is empty but should warn that Malaysian “kelewatan” should not be assumed to be interchangeable with Indonesian “kelewatan”; the latter has different context-dependent meanings.",
+      "evidence_limitation": "The available evidence for Indonesian “kelewatan” is informal rather than an authoritative dictionary entry; the warning is nevertheless materially prudent for learners.",
+      "evidence_refs": [
+        "https://www.reddit.com/r/indonesian/comments/1x25r0z/kelewat_vs_kelewatan_apa_bedanya/"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ca6cce47a609cd8f29c903d9aa880038ee0ed161f4df2146836659cfbf2752aa",
+  "correction_refs": [],
+  "decision_digest": "09e42e863a35e2ed71cfee7cbd5be776d62cf87de4530b4d585e5beaeb7c51dd",
+  "elapsed_ms": 15843,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 33367,
+  "model_calls": 1,
+  "output_tokens": 1313,
+  "packet_digest": "06ac6517f1a8d18c009383572cb4b7af1dbc6ae42f98afba3bbb1fa5342904ec",
+  "rationale": "Both translations and the English sense are correct. However, the empty contrast field omits a useful learner-critical false-friend warning: Malaysian Malay “kelewatan” means delay, while Indonesian “kelewatan” can convey excessiveness or being missed/overlooked depending on context. The relation “different-common-word” is appropriate, but the card should explicitly state this contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:16:00.008341+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s049/tmp-travel-s049-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s049",
+  "verdict": "needs-correction"
+}

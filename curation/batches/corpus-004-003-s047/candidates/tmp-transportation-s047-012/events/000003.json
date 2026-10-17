@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:02:57.912368+00:00",
+  "input_digest": "d988d204c2b95f2a7032ff88f1aae1fbe94592ccb7c1cc52d4879f01932ab986",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s015:tmp-home-s015-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A vehicle repair shop is a place where vehicles are serviced or repaired, whereas a garage is primarily a building or enclosed space for keeping a car; the senses are distinct.\"}, {\"other_id\": \"cal3-actions-001:actions-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate denotes a repair facility, while the existing concept denotes the action of fixing something damaged; place and action are distinct concepts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s015:tmp-home-s015-002",
+          "rationale": "A vehicle repair shop is a place where vehicles are serviced or repaired, whereas a garage is primarily a building or enclosed space for keeping a car; the senses are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-actions-001:actions-04",
+          "rationale": "The candidate denotes a repair facility, while the existing concept denotes the action of fixing something damaged; place and action are distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s015:tmp-home-s015-002",
+        "rationale": "A vehicle repair shop is a place where vehicles are serviced or repaired, whereas a garage is primarily a building or enclosed space for keeping a car; the senses are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-actions-001:actions-04",
+        "rationale": "The candidate denotes a repair facility, while the existing concept denotes the action of fixing something damaged; place and action are distinct concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "f625b118f26dae4837d373d6082d926c88275d7fde065bff1cf8fdfc9b1b0121"
+}

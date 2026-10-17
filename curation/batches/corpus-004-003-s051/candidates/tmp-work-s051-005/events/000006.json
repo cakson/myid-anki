@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T05:10:17.198519+00:00",
+  "input_digest": "60dd6d66cebb8bbe472bb62695e87bd29d09ec3ae3ec9225d38c9b13ef18533e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"For job qualifications or requirements, Indonesian commonly uses \\u201ckualifikasi,\\u201d while Malaysian commonly prefers \\u201ckelayakan.\\u201d The distinction is useful and credible, though \\u201ckualifikasi\\u201d is also understood and used in Malaysia.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"job qualification\", \"cue_rationale\": \"The original cue can be broad, but \\u201cjob qualification\\u201d makes the shared credential-or-requirement sense explicit for both answers.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cKualifikasi\\u201d is also used in Malaysia, but \\u201ckelayakan\\u201d remains a useful ordinary Malaysian preference for job qualifications; the contrast is contextual rather than exclusive.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Malaysian usage may also use the Indonesian-style borrowing \\u201ckualifikasi,\\u201d especially in some professional contexts.\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"kualifikasi\", \"language\": \"both\", \"rationale\": \"\\u201cKualifikasi\\u201d is plausibly ordinary in both varieties, although Malaysian usage commonly prefers \\u201ckelayakan\\u201d for this job-related sense.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The original cue can be broad, but “job qualification” makes the shared credential-or-requirement sense explicit for both answers.",
+      "cue_rewrite": "job qualification",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kualifikasi",
+        "language": "both",
+        "rationale": "“Kualifikasi” is plausibly ordinary in both varieties, although Malaysian usage commonly prefers “kelayakan” for this job-related sense.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "For job qualifications or requirements, Indonesian commonly uses “kualifikasi,” while Malaysian commonly prefers “kelayakan.” The distinction is useful and credible, though “kualifikasi” is also understood and used in Malaysia.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian usage may also use the Indonesian-style borrowing “kualifikasi,” especially in some professional contexts.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Kualifikasi” is also used in Malaysia, but “kelayakan” remains a useful ordinary Malaysian preference for job qualifications; the contrast is contextual rather than exclusive.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The original cue can be broad, but “job qualification” makes the shared credential-or-requirement sense explicit for both answers.",
+    "cue_rewrite": "job qualification",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kualifikasi",
+      "language": "both",
+      "rationale": "“Kualifikasi” is plausibly ordinary in both varieties, although Malaysian usage commonly prefers “kelayakan” for this job-related sense.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "For job qualifications or requirements, Indonesian commonly uses “kualifikasi,” while Malaysian commonly prefers “kelayakan.” The distinction is useful and credible, though “kualifikasi” is also understood and used in Malaysia.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian usage may also use the Indonesian-style borrowing “kualifikasi,” especially in some professional contexts.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Kualifikasi” is also used in Malaysia, but “kelayakan” remains a useful ordinary Malaysian preference for job qualifications; the contrast is contextual rather than exclusive.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "b2044f1f6cf8c03cf1d560909785f5a798ba10ae42aa474027af50eecc42e11f"
+}

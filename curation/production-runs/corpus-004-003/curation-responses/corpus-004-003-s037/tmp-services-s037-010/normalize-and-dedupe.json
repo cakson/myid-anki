@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5119,
+  "input_digest": "a7b4c8dac2deba102f7161c198ae476fd8918d2cb0bf1e2e48e4acb5c651e296",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 286,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s037:tmp-services-s037-003\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"“Postal parcel” overlaps substantially with “parcel”; the candidate specifies postal-service shipment, while the existing sense covers an item sent through a delivery service. The Indonesian and Malaysian answers also differ, so exact equivalence is not proven.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-003",
+          "rationale": "“Postal parcel” overlaps substantially with “parcel”; the candidate specifies postal-service shipment, while the existing sense covers an item sent through a delivery service. The Indonesian and Malaysian answers also differ, so exact equivalence is not proven.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

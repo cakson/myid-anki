@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5840,
+  "input_digest": "e55a1743b0983ac1e3733bb8aeaf593c488d7574a1d4facc455243ee10964d52",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 391,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s042:tmp-technology-s042-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A memory card is removable storage hardware, whereas data backup is a copy of data kept for recovery.\"},{\"other_id\":\"cal3-technology-001:technology-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A flash drive is a portable storage device, whereas data backup is the recovery copy or process.\"},{\"other_id\":\"pros4-technology-001:technology-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Cloud storage is online storage accessed through the internet; data backup is a recovery copy that may use cloud storage but is not equivalent.\"},{\"other_id\":\"tb25-technology-001:technology-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A database is an organized collection of information, not specifically a copy retained for recovery.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s042:tmp-technology-s042-005",
+          "rationale": "A memory card is removable storage hardware, whereas data backup is a copy of data kept for recovery.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-technology-001:technology-05",
+          "rationale": "A flash drive is a portable storage device, whereas data backup is the recovery copy or process.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-technology-001:technology-07",
+          "rationale": "Cloud storage is online storage accessed through the internet; data backup is a recovery copy that may use cloud storage but is not equivalent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-technology-001:technology-01",
+          "rationale": "A database is an organized collection of information, not specifically a copy retained for recovery.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

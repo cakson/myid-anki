@@ -1,0 +1,69 @@
+{
+  "attempt_id": "598c14c9bf758fb3",
+  "candidate_id": "tmp-shopping-s041-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct Indonesian term for department store, commonly understood as an abbreviation of toko serba ada.",
+      "evidence_refs": [
+        "https://kbbi.co.id/arti-kata/toserba",
+        "https://repositori.kemendikdasmen.go.id/4603/1/Bahasa%20dan%20Susastra%20dalam%20Guntingan%20Juni%201995%20119.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: toserba"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for department store; official Malaysian usage maps it to department stores.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=store",
+        "https://www.dosm.gov.my/uploads/release-content/file_20241028142846.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: gedung serbaneka"
+    },
+    {
+      "conclusion": "Department store and the supplied sense of a large store with multiple product departments are aligned with both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=store",
+        "https://repositori.kemendikdasmen.go.id/4603/1/Bahasa%20dan%20Susastra%20dalam%20Guntingan%20Juni%201995%20119.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is correct. No false-friend contrast is required for the submitted forms; however, Malaysian kedai serbaneka is a distinct term commonly associated with convenience stores, so it should not replace gedung serbaneka here.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=serbaneka",
+        "https://www.ukm.my/jana-ukm/taklimat-dan-lawatan-tapak-bidaan-penjanaan-bagi-menjalankan-dan-menguruskan-kedai-serbaneka-di-fep/"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "9bd84f1444430c0763edf8c4adc953f7633a72294bb0b98137119eec95806cf4",
+  "correction_refs": [],
+  "decision_digest": "c36634ee0f795c1664bd0a095bf4ffb3308424f8b7819585b965e9ed3dd136f0",
+  "elapsed_ms": 17730,
+  "finding_class": "none",
+  "input_tokens": 33343,
+  "model_calls": 1,
+  "output_tokens": 1127,
+  "packet_digest": "b59f6e5e3df20c1c082fd1127ac3ec98e504b3fe8c127ce69864be833a72eb8e",
+  "rationale": "Both answers accurately denote a department store in their respective varieties. The English cue and sense align, the relation is correctly different-common-word, and no answer-level false friend is present. Malaysian kedai serbaneka can mean convenience store, but the submitted gedung serbaneka is the department-store term.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:06:23.674400+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s041/tmp-shopping-s041-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "cleared"
+}

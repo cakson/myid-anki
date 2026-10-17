@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T04:25:58.167534+00:00",
+  "input_digest": "c9dbdc3eb240ec3fdd8481eadd581f7317859936e40c1d524449866fa558d486",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian answer is broader than the exact sense of bank teller.\"], \"material_concerns\": [\"pegawai bank means a bank employee or officer generally, not specifically the counter employee handling teller transactions; Malaysian alternatives such as juruwang bank or pegawai kaunter bank better express the cue.\"], \"rationale\": \"teller bank is an ordinary Indonesian term for a bank teller, but Malaysian pegawai bank is not specific enough for the same exact sense.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The answers do not align on the same exact sense: teller bank is specific, while pegawai bank is a broader category.\", \"shared_synonym_case\": \"none\", \"shared_synonym_rationale\": \"none\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"juruwang bank\", \"language\": \"malaysian\", \"rationale\": \"Juruwang bank is a plausible Malaysian term for the same teller sense, so pegawai bank should not be presented as the precise Malaysian counterpart.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The Malaysian answer is broader than the exact sense of bank teller."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The answers do not align on the same exact sense: teller bank is specific, while pegawai bank is a broader category.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "pegawai bank means a bank employee or officer generally, not specifically the counter employee handling teller transactions; Malaysian alternatives such as juruwang bank or pegawai kaunter bank better express the cue."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "juruwang bank",
+        "language": "malaysian",
+        "rationale": "Juruwang bank is a plausible Malaysian term for the same teller sense, so pegawai bank should not be presented as the precise Malaysian counterpart.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "teller bank is an ordinary Indonesian term for a bank teller, but Malaysian pegawai bank is not specific enough for the same exact sense.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "none",
+      "shared_synonym_rationale": "none",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The Malaysian answer is broader than the exact sense of bank teller."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The answers do not align on the same exact sense: teller bank is specific, while pegawai bank is a broader category.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "pegawai bank means a bank employee or officer generally, not specifically the counter employee handling teller transactions; Malaysian alternatives such as juruwang bank or pegawai kaunter bank better express the cue."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "juruwang bank",
+      "language": "malaysian",
+      "rationale": "Juruwang bank is a plausible Malaysian term for the same teller sense, so pegawai bank should not be presented as the precise Malaysian counterpart.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "teller bank is an ordinary Indonesian term for a bank teller, but Malaysian pegawai bank is not specific enough for the same exact sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "dd13af8958cf5bd430669d3ca8616b919c11b27e1d8f69cbab9013a89415f695"
+}

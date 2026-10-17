@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-16T19:25:32.153187+00:00",
+  "input_digest": "54bd23dcd5940848331c718ef229c25ad355aba08f0e3ef28081bbbe4c78b706",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-technology-001:technology-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both concern public access, but the candidate is the general adjective public, while this entry specifically means a library serving the public.\"}, {\"other_id\": \"tb25-technology-001:technology-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both concern public availability, but the candidate is a general adjective and this entry specifically means shared passenger transport.\"}, {\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate means open to or serving the general public; this entry specifically means the activity of speaking before an audience.\"}, {\"other_id\": \"corpus-004-003-s037:tmp-services-s037-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is a broad adjective; this entry specifically denotes a government-operated clinic.\"}, {\"other_id\": \"corpus-004-003-s038:tmp-services-s038-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is a broad adjective; this entry specifically denotes housing provided or supported by government.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-technology-001:technology-05",
+          "rationale": "Both concern public access, but the candidate is the general adjective public, while this entry specifically means a library serving the public.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-technology-001:technology-04",
+          "rationale": "Both concern public availability, but the candidate is a general adjective and this entry specifically means shared passenger transport.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-009",
+          "rationale": "The candidate means open to or serving the general public; this entry specifically means the activity of speaking before an audience.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-012",
+          "rationale": "The candidate is a broad adjective; this entry specifically denotes a government-operated clinic.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-012",
+          "rationale": "The candidate is a broad adjective; this entry specifically denotes housing provided or supported by government.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-technology-001:technology-05",
+        "rationale": "Both concern public access, but the candidate is the general adjective public, while this entry specifically means a library serving the public.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "tb25-technology-001:technology-04",
+        "rationale": "Both concern public availability, but the candidate is a general adjective and this entry specifically means shared passenger transport.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-009",
+        "rationale": "The candidate means open to or serving the general public; this entry specifically means the activity of speaking before an audience.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-012",
+        "rationale": "The candidate is a broad adjective; this entry specifically denotes a government-operated clinic.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s038:tmp-services-s038-012",
+        "rationale": "The candidate is a broad adjective; this entry specifically denotes housing provided or supported by government.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "610033b83c8697a114496d0111c1220cff9453dbcae3af62052ac40f7eaf4357"
+}

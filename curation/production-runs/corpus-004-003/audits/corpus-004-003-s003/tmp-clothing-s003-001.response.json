@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20653,
+  "input_tokens": 91312,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1264,
+  "packet_digest": "8bc89f5f5c290f9c43de0d9cbfbb52c7a2a041ef771f65fe5d27d285a24c6a03",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both translations and the English sense are valid, but the relation is misleading: Indonesian sarung and Malaysian kain sarung are not different common words; Malaysian Malay also has sarung for this garment. No false-friend contrast is substantiated.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: sarung\",\"conclusion\":\"Correct for the garment sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.co.id/arti-kata/sarung\"]},{\"subject\":\"Malaysian Malay answer: kain sarung\",\"conclusion\":\"Correct and dictionary-supported, but not exclusive; sarung is also used in Malaysian Malay for this sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kain+sarung\",\"https://prpm.dbp.gov.my/Cari1?d=299476&keyword=sarung\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"Sarong and the lower-body garment definition align with the proposed answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english-indonesian/sarong\",\"https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kain+sarung\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Incorrect or materially misleading. The forms are a shared lexical item with an optional classifier-like kain in Malaysian Malay, not distinct common words.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=299476&keyword=sarung\",\"https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kain+sarung\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No relevant Indonesian–Malaysian false-friend contrast is established for this card. Sarung has broader sheath/cover senses in both varieties, but that is polysemy rather than a cross-variety false friend.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.co.id/arti-kata/sarung\",\"https://prpm.dbp.gov.my/Cari1?d=299476&keyword=sarung\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for the garment sense.",
+        "evidence_refs": [
+          "https://kbbi.co.id/arti-kata/sarung"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: sarung"
+      },
+      {
+        "conclusion": "Correct and dictionary-supported, but not exclusive; sarung is also used in Malaysian Malay for this sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kain+sarung",
+          "https://prpm.dbp.gov.my/Cari1?d=299476&keyword=sarung"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: kain sarung"
+      },
+      {
+        "conclusion": "Sarong and the lower-body garment definition align with the proposed answers.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/sarong",
+          "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kain+sarung"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Incorrect or materially misleading. The forms are a shared lexical item with an optional classifier-like kain in Malaysian Malay, not distinct common words.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=299476&keyword=sarung",
+          "https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kain+sarung"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No relevant Indonesian–Malaysian false-friend contrast is established for this card. Sarung has broader sheath/cover senses in both varieties, but that is polysemy rather than a cross-variety false friend.",
+        "evidence_refs": [
+          "https://kbbi.co.id/arti-kata/sarung",
+          "https://prpm.dbp.gov.my/Cari1?d=299476&keyword=sarung"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both translations and the English sense are valid, but the relation is misleading: Indonesian sarung and Malaysian kain sarung are not different common words; Malaysian Malay also has sarung for this garment. No false-friend contrast is substantiated.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

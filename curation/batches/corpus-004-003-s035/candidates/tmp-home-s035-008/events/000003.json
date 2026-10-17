@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:38:17.768507+00:00",
+  "input_digest": "79f13d8dc1b47f09c03e0f01d4dc72d6f82a17d22ca8fd66f96cbfa39065faed",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s035:tmp-home-s035-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Door frame and window frame are both fixed architectural frames, but they surround different openings and have distinct senses; the Indonesian and Malaysian answers also differ accordingly.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s035:tmp-home-s035-009",
+          "rationale": "Door frame and window frame are both fixed architectural frames, but they surround different openings and have distinct senses; the Indonesian and Malaysian answers also differ accordingly.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s035:tmp-home-s035-009",
+        "rationale": "Door frame and window frame are both fixed architectural frames, but they surround different openings and have distinct senses; the Indonesian and Malaysian answers also differ accordingly.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "3b68494934fb6d77c316b6356fcacfe994c96cef5c60ecf514339c24a2cf737b"
+}

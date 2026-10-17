@@ -1,0 +1,76 @@
+{
+  "attempt_id": "280e18a47484b720",
+  "candidate_id": "tmp-food-cooking-s030-010",
+  "claim_reviews": [
+    {
+      "conclusion": "“Meatball” appropriately denotes a seasoned ball of ground meat; the cue is sufficiently aligned.",
+      "evidence_refs": [
+        "https://www.collinsdictionary.com/dictionary/english/meatball"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Bakso is an established Indonesian term for a rounded food made from minced meat or seafood mixed with starch and other ingredients. It is a valid ordinary answer for the intended meatball sense, though somewhat culturally specific.",
+      "evidence_refs": [
+        "https://kbbi.web.id/bakso"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: bakso"
+    },
+    {
+      "conclusion": "Bebola daging is an accepted and ordinary Malaysian Malay term for meatball/meatballs.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bebola",
+        "https://www.halal.gov.my/directory/slm_viewdetail.php?comp_code=COMP-20230417-143236&ty=CO&type=C"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: bebola daging"
+    },
+    {
+      "conclusion": "The distinction is not materially overstated. Malaysia has some usage of bakso for the Indonesian-style dish, but official Malaysian usage also clearly uses bebola daging as the general term; the overlap is referential and cultural, not a shared ordinary default equivalent.",
+      "evidence_refs": [
+        "https://www.mpib.gov.my/en/pineapple-based-food-products/",
+        "https://www.mpb.gov.my/mpb/images/penerbitan/resepi/resepi-masakan-berasaskan-lada.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bebola"
+      ],
+      "material_risk": false,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate. No false-friend contrast is necessary because bakso and bebola daging are different forms; bakso’s Malaysian occurrence is better treated as an Indonesian culinary loan/reference, not a misleading same-form false friend.",
+      "evidence_refs": [
+        "https://kbbi.web.id/bakso",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bebola"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "7b7cd69712fa83e638a3534e7ccd96a1ea8735f9e9fa53ee2c5121ca8755a454",
+  "correction_refs": [],
+  "decision_digest": "a03b20955769a0a4d95277407b5e9134e33c40d9632da501b4a55809ec60ee41",
+  "elapsed_ms": 31764,
+  "finding_class": "none",
+  "input_tokens": 141443,
+  "model_calls": 1,
+  "output_tokens": 2090,
+  "packet_digest": "9caf35d2974b13409d519aa1702604e90ef867bf7ad62a81edb9c132e228ad74",
+  "rationale": "The split is materially supported: bakso is the ordinary Indonesian term, while bebola daging is the standard Malaysian Malay equivalent. Bakso is recognizable and sometimes used in Malaysia for an Indonesian-style dish, but this is cultural/loanword overlap rather than evidence that the national distinction is overstated. The cue, answers, relation, and absence of a false-friend contrast are acceptable.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:59:35.735817+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s030/tmp-food-cooking-s030-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "cleared"
+}

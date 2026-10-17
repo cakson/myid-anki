@@ -1,0 +1,87 @@
+{
+  "attempt_id": "73fadd4412b628dd",
+  "candidate_id": "tmp-work-s052-009",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue employee handbook and sense book explaining workplace rules and procedures are aligned.",
+      "evidence_refs": [
+        "https://pakarhr.com/insights/contoh-buku-panduan-pekerja/",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=manual"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and semantically appropriate Indonesian. Karyawan denotes a paid employee or worker, and Indonesian usage attests Buku Pedoman Karyawan for a company policy handbook.",
+      "evidence_refs": [
+        "https://kbbi.web.id/karyawan",
+        "https://id.scribd.com/document/361105508/Pedoman-Karyawan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: buku pedoman karyawan"
+    },
+    {
+      "conclusion": "Valid and idiomatic Malaysian Malay for employee handbook. Pekerja is defined broadly as a person who works or holds a position, and Malaysian usage contains multiple workplace-handbook attestations.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=259120&keyword=pekerja",
+        "https://pakarhr.com/insights/contoh-buku-panduan-pekerja/",
+        "https://discovery.ums.edu.my/cgi-bin/koha/opac-detail.pl?biblionumber=179767"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: buku panduan pekerja"
+    },
+    {
+      "conclusion": "Materially overstated. The lexical choices are preferred or more characteristic in the proposed varieties, but they are not exclusive: Malay pedoman overlaps with panduan, pekerja is a broad employee term, and Indonesian official material uses Buku Panduan Pekerja.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pedoman",
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=panduan",
+        "https://kemlu.go.id/files/repositori/72859/1730900222672b70febd672_Buku_Panduan_Pekerja_Migran_Indonesia__PMI__di_Hongaria_2024__A5__31_Oct_24.pdf",
+        "https://kbbi.web.id/karyawan"
+      ],
+      "material_risk": true,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "Not supported as currently stated. The pair represents a preference or tendency contrast at most, not a robust different-common-word distinction, because ordinary accepted equivalents overlap across the varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pedoman",
+        "https://prpm.dbp.gov.my/Cari1?d=25872&keyword=panduan",
+        "https://kemlu.go.id/files/repositori/72859/1730900222672b70febd672_Buku_Panduan_Pekerja_Migran_Indonesia__PMI__di_Hongaria_2024__A5__31_Oct_24.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or supported. The forms are semantically overlapping equivalents, not misleading lookalikes with divergent meanings. The empty contrast field is a metadata/content omission that should be corrected by removing the contrast claim or explicitly labeling the difference as regional preference.",
+      "evidence_limitation": "The supplied learner card contains no contrast text, and the reviewed dictionary and usage evidence supports overlap rather than a false-friend distinction.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "9bb7c2c3849614ea32d0138b0aa7ba4673b780326651f3e39af98ef11907cf42",
+  "correction_refs": [],
+  "decision_digest": "3e10ae81dc25a1787a6215d6a958613e1ed900c98cb8683fe104b62210247252",
+  "elapsed_ms": 29401,
+  "finding_class": "metadata-only",
+  "input_tokens": 139897,
+  "model_calls": 1,
+  "output_tokens": 2084,
+  "packet_digest": "2a1b51a3c94a77abd68bd1bbe177f81ad4ac54a66eb8c51ce5a514250cc20448",
+  "rationale": "Both answers are understandable and valid, but the national split is materially overstated. Indonesian and Malaysian usage permits substantial overlap: pekerja is a general employee term in Malaysian Malay, karyawan means an employee/worker in Indonesian, and Malay dictionaries treat panduan and pedoman as overlapping guide/handbook terms. Indonesian official usage also includes Buku Panduan Pekerja. The different-common-word relation is therefore not defensible as a strong variety distinction. The blank contrast should also be populated or the relation removed; no genuine false-friend contrast is established.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:20:20.435471+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s052/tmp-work-s052-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s052",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T04:56:33.486829+00:00",
+  "result": {
+    "candidate_digest": "d0b6e9a6e581b29725a9ee5483f848022ec9081e93cb17f345130410ccd6ba54",
+    "candidate_id": "tmp-time-date-s044-007",
+    "checked_at": "2026-10-17T04:56:33.486829+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The pair may mislead learners into treating “bulan depan” as Indonesian-only and “bulan hadapan” as Malaysian-only."
+    ],
+    "relation": "similar",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The pair may mislead learners into treating “bulan depan” as Indonesian-only and “bulan hadapan” as Malaysian-only.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

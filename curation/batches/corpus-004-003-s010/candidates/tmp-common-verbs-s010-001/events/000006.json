@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-16T19:37:04.941870+00:00",
+  "input_digest": "4c16725604d7fb769f177da41fffa80a260e0da483517b02b3550b078290bfab",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The national preference is overstated: Malaysian Malay also commonly uses tersenyum, while Indonesian colloquial usage also uses senyum.\"], \"material_concerns\": [\"The proposed contrast may mislead learners by presenting overlapping ordinary forms as a clear country distinction.\"], \"rationale\": \"Both answers fit the same sense of smiling, but the pairing is not a reliable Indonesian\\u2013Malaysian lexical contrast because both forms occur in both varieties.\", \"objection_assessments\": [], \"affirmative_defect\": \"artificial-synonym\", \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both tersenyum and senyum mean showing happiness with the face, i.e. to smile.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Tersenyum is ordinary in Malaysian Malay, and senyum is also used in Indonesian, especially colloquially; this weakens the claimed national preference.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"senyum / tersenyum\", \"language\": \"both\", \"rationale\": \"Both forms are plausibly ordinary in both Indonesian and Malaysian Malay, so the proposed preference is not robust.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "The national preference is overstated: Malaysian Malay also commonly uses tersenyum, while Indonesian colloquial usage also uses senyum."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both tersenyum and senyum mean showing happiness with the face, i.e. to smile.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The proposed contrast may mislead learners by presenting overlapping ordinary forms as a clear country distinction."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "senyum / tersenyum",
+        "language": "both",
+        "rationale": "Both forms are plausibly ordinary in both Indonesian and Malaysian Malay, so the proposed preference is not robust.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Both answers fit the same sense of smiling, but the pairing is not a reliable Indonesian–Malaysian lexical contrast because both forms occur in both varieties.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Tersenyum is ordinary in Malaysian Malay, and senyum is also used in Indonesian, especially colloquially; this weakens the claimed national preference.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "The national preference is overstated: Malaysian Malay also commonly uses tersenyum, while Indonesian colloquial usage also uses senyum."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both tersenyum and senyum mean showing happiness with the face, i.e. to smile.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed contrast may mislead learners by presenting overlapping ordinary forms as a clear country distinction."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "senyum / tersenyum",
+      "language": "both",
+      "rationale": "Both forms are plausibly ordinary in both Indonesian and Malaysian Malay, so the proposed preference is not robust.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both answers fit the same sense of smiling, but the pairing is not a reliable Indonesian–Malaysian lexical contrast because both forms occur in both varieties.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Tersenyum is ordinary in Malaysian Malay, and senyum is also used in Indonesian, especially colloquially; this weakens the claimed national preference.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "cb3f28b0fbc9d1f30863dee7685e2c69f5dfa7621a93b2262bdc2e1214b104bc"
+}

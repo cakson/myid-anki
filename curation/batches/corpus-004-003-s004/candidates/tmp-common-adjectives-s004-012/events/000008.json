@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:24:56.889429+00:00",
+  "result": {
+    "candidate_digest": "d0821a08d8575d88a150b9d1456807fab7785576036853b94350e79e5f2fef28",
+    "candidate_id": "tmp-common-adjectives-s004-012",
+    "checked_at": "2026-10-16T19:24:56.889429+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "The English cue may misalign the two target-language senses.",
+      "The proposed pair does not express the same exact sense: Indonesian “pucat” fits pallor of the face, while Malaysian “pudar” generally describes fading color."
+    ],
+    "relation": "false-friend",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "high",
+      "triggers": [
+        "The proposed pair does not express the same exact sense: Indonesian “pucat” fits pallor of the face, while Malaysian “pudar” generally describes fading color.",
+        "The English cue may misalign the two target-language senses."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

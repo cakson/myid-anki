@@ -1,0 +1,66 @@
+{
+  "attempt_id": "e5161051cb4a3d3f",
+  "candidate_id": "tmp-health-body-s033-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Obesity” correctly denotes excessive body fat as a health condition.",
+      "evidence_refs": [
+        "https://kbbi.web.id/obesitas",
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=obesiti"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Indonesian “obesitas” is a correct term for excessive accumulation of body fat or excessive corpulence.",
+      "evidence_refs": [
+        "https://kbbi.web.id/obesitas",
+        "https://www.kemkes.go.id/id/pnpk-tata-laksana-obesitas-dewasa"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Malaysian Malay “obesiti” is a correct standard term meaning obesity caused by excess fat.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=obesiti"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate because the national forms differ while sharing the same sense. This is a cognate/form contrast, not a false friend; shared “kegemukan” is a broader or less technical alternative and does not invalidate the card.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=obesiti",
+        "https://prpm.dbp.gov.my/Cari1?d=139128&keyword=gemuk"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "3be03eca5a27a782f9ed5d149ab1f0f434db4755fa0f99e336862f8faca7625c",
+  "correction_refs": [],
+  "decision_digest": "44fcf451ef6897e45ad8d1e98efd8c38dbd7b4387acf4852e64ae9a9fec32f7a",
+  "elapsed_ms": 16748,
+  "finding_class": "none",
+  "input_tokens": 48954,
+  "model_calls": 1,
+  "output_tokens": 842,
+  "packet_digest": "c20372f909ebc655db424e4bbe282324fcbc30177e8f2b3ab85789def7e402d0",
+  "rationale": "Both answers are correct standard terms for obesity. The English cue and health-condition sense align. The forms differ by national standard usage, not by meaning, and there is no false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:32:20.442290+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s033/tmp-health-body-s033-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s033",
+  "verdict": "cleared"
+}

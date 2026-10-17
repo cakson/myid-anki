@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T05:07:43.776288+00:00",
+  "input_digest": "afba22810b6cda2cbdae12f087d019e3b1d81ecf2ff5ad0863f4f5d585b95b85",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Both forms are ordinary airport labels for the baggage-claim area: Indonesian uses pengambilan bagasi, while Malaysian commonly uses tuntutan bagasi.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers refer to the airport area where checked baggage is collected, despite differing literal wording.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"Pengambilan bagasi may be understood in Malaysia, but tuntutan bagasi is the more characteristic Malaysian label; this does not undermine the contrast.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Airport signage and institutional wording may vary slightly by venue.\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"klaim bagasi\", \"language\": \"indonesian\", \"rationale\": \"The borrowed phrase klaim bagasi may occur in Indonesian, but pengambilan bagasi remains a credible ordinary label for this airport context.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers refer to the airport area where checked baggage is collected, despite differing literal wording.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "klaim bagasi",
+        "language": "indonesian",
+        "rationale": "The borrowed phrase klaim bagasi may occur in Indonesian, but pengambilan bagasi remains a credible ordinary label for this airport context.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "Both forms are ordinary airport labels for the baggage-claim area: Indonesian uses pengambilan bagasi, while Malaysian commonly uses tuntutan bagasi.",
+      "relation": "different-common-word",
+      "risk_rationale": "Airport signage and institutional wording may vary slightly by venue.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "Pengambilan bagasi may be understood in Malaysia, but tuntutan bagasi is the more characteristic Malaysian label; this does not undermine the contrast.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers refer to the airport area where checked baggage is collected, despite differing literal wording.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "klaim bagasi",
+      "language": "indonesian",
+      "rationale": "The borrowed phrase klaim bagasi may occur in Indonesian, but pengambilan bagasi remains a credible ordinary label for this airport context.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Both forms are ordinary airport labels for the baggage-claim area: Indonesian uses pengambilan bagasi, while Malaysian commonly uses tuntutan bagasi.",
+    "relation": "different-common-word",
+    "risk_rationale": "Airport signage and institutional wording may vary slightly by venue.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Pengambilan bagasi may be understood in Malaysia, but tuntutan bagasi is the more characteristic Malaysian label; this does not undermine the contrast.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "4ccac134310284fc435b93d8e93e1b5158a8f58bfd726d691338e31e1213764a"
+}

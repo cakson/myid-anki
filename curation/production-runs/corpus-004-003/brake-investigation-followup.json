@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "run_id": "corpus-004-003",
+  "trigger": "two-learner-critical-errors",
+  "candidate": {
+    "slice_id": "corpus-004-003-s012",
+    "candidate_id": "tmp-communication-s012-001"
+  },
+  "prior_audit": {
+    "verdict": "cleared",
+    "finding_class": "none",
+    "rationale": "Both answers correctly denote newspaper, the English cue and sense are aligned, and the different-common-word relation is useful without implying exclusivity. No false-friend contrast is required or evidenced.",
+    "archived_response": "curation/production-runs/corpus-004-003/audits/corpus-004-003-s012/failed/tmp-communication-s012-001.response-attempt-001.json"
+  },
+  "fresh_audit": {
+    "verdict": "needs-correction",
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and both target forms are substantively correct, but the relation “different-common-word” overstates the contrast. Indonesian koran and Malaysian Malay akhbar are valid preferred forms, while surat kabar/surat khabar is also shared and ordinary. No direct false-friend contrast is established; akhbar additionally means news/report(s) in Malay, so that nuance should be noted.",
+    "claim_reviews": [
+      {
+        "conclusion": "Correct: newspaper as a daily or periodic printed news publication matches the intended sense.",
+        "evidence_refs": [
+          "https://kbbi.web.id/koran.html",
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=surat+khabar"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and ordinary for Indonesian newspaper; the Indonesian dictionary definition directly gives newspaper/daily/periodical publication.",
+        "evidence_refs": [
+          "https://kbbi.web.id/koran.html"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: koran"
+      },
+      {
+        "conclusion": "Correct and standard in Malaysian Malay for newspaper, though akhbar also has the broader meaning news/report(s).",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=akhbar"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: akhbar"
+      },
+      {
+        "conclusion": "Needs correction: “different-common-word” is too categorical because surat kabar/surat khabar is documented as a newspaper term in both varieties. A relation such as shared-synonym-preference or different-preferred-form is safer.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=surat+khabar",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=koran",
+          "https://kbbi.web.id/akhbar"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No robust false-friend contrast is present. The useful learner note is that Malay akhbar can also mean news/reports, whereas Indonesian KBBI marks akhbar as Malaysian for the newspaper sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=akhbar",
+          "https://kbbi.web.id/akhbar"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "reviewed_at": "2026-10-17T06:32:03.189806+00:00"
+  },
+  "qa_finding": {
+    "finding_class": "cue-content",
+    "error_category": "missing-cue",
+    "rationale": "English sense, Indonesian answer \"koran,\" Malaysian answer \"akhbar,\" and relation \"different-common-word\" are accurate. The cue/contrast is empty, so the learner-facing distinction is missing despite the forms being valid."
+  },
+  "disposition": "Candidate held and kept withdrawn. The fresh independent review found the national relation label still overstates overlap after a cue clarification. This is a recurrence of the learner-critical overlap pattern after the first brake disposition. Batch paused under the existing two-learner-critical-errors brake; no further promotion, QA correction, or closure was attempted.",
+  "policy": "Production policy v3.1 and risk-audit selection thresholds unchanged."
+}

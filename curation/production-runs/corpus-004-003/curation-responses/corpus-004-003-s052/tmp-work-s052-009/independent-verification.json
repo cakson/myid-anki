@@ -1,0 +1,32 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 6483,
+  "input_digest": "d10aecb74a463de03f088082e807a226903890af06b064ed13b245830df01dd8",
+  "input_tokens": 14300,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 499,
+  "raw_text": "{\n  \"verdict\": \"agree\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [],\n  \"material_concerns\": [],\n  \"rationale\": \"The pair conveys the same workplace document. Indonesian commonly uses karyawan and pedoman, while Malaysian commonly uses pekerja and panduan.\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"aligned\",\n  \"cue_rewrite\": \"\",\n  \"cue_rationale\": \"Both answers naturally mean a book explaining workplace rules and procedures.\",\n  \"shared_synonym_case\": \"useful-preference\",\n  \"shared_synonym_rationale\": \"Buku panduan karyawan is also understandable and ordinary in Indonesian, but buku pedoman karyawan remains a credible Indonesian preference; the proposed Malaysian wording is natural for Malaysia.\",\n  \"nonblocking_risk\": \"minor\",\n  \"risk_rationale\": \"Some Indonesian usage may prefer panduan in this context.\",\n  \"preference_risk\": {\n    \"signal\": \"credible-everyday-alternative\",\n    \"form\": \"buku panduan karyawan\",\n    \"language\": \"indonesian\",\n    \"rationale\": \"This is a plausible everyday Indonesian alternative for the same sense, though it does not eliminate the useful contrast.\"\n  }\n}",
+  "response": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers naturally mean a book explaining workplace rules and procedures.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "buku panduan karyawan",
+      "language": "indonesian",
+      "rationale": "This is a plausible everyday Indonesian alternative for the same sense, though it does not eliminate the useful contrast.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "The pair conveys the same workplace document. Indonesian commonly uses karyawan and pedoman, while Malaysian commonly uses pekerja and panduan.",
+    "relation": "different-common-word",
+    "risk_rationale": "Some Indonesian usage may prefer panduan in this context.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Buku panduan karyawan is also understandable and ordinary in Indonesian, but buku pedoman karyawan remains a credible Indonesian preference; the proposed Malaysian wording is natural for Malaysia.",
+    "verdict": "agree"
+  },
+  "retrievals": null
+}

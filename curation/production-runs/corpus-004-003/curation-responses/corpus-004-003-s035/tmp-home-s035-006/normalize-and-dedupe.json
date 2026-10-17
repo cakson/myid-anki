@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5970,
+  "input_digest": "8336a5e3a9aa25d9335c8658f2bd391c5b8d4ccf43e4e10caa01bc4e74357db5",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 388,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-home-001:home-01\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A roof tile is an individual tile covering a sloped roof; a roof is the complete top covering of a house.\"},{\"other_id\":\"cal3-home-001:home-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A roof tile is an exterior construction component, whereas a ceiling is the interior upper surface of a room.\"},{\"other_id\":\"cal3-home-001:home-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A roof tile covers a sloped roof; a floor tile is an individual hard tile used on a floor. The applications are clearly different.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-home-001:home-01",
+          "rationale": "A roof tile is an individual tile covering a sloped roof; a roof is the complete top covering of a house.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-home-001:home-02",
+          "rationale": "A roof tile is an exterior construction component, whereas a ceiling is the interior upper surface of a room.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-home-001:home-09",
+          "rationale": "A roof tile covers a sloped roof; a floor tile is an individual hard tile used on a floor. The applications are clearly different.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

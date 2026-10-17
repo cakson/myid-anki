@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6497,
+  "input_digest": "6aeb44021ce4beebff910a78cb602078a391bc3f477c221eff46a940e307bf94",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 430,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s014:tmp-daily-life-s014-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An air purifier removes pollutants from indoor air, whereas an air freshener makes indoor air smell pleasant; the devices and functions differ.\"},{\"other_id\":\"corpus-004-002-s013:tmp-home-s013-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An air purifier removes airborne pollutants, whereas an air conditioner primarily cools indoor air.\"},{\"other_id\":\"corpus-004-001-s007:tmp-daily-life-s007-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An air purifier filters or removes pollutants, whereas an electric fan circulates air without purifying it.\"},{\"other_id\":\"corpus-004-002-s013:tmp-home-s013-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Air purifier is a device; to ventilate a room is an action involving fresh-air circulation, not the same concept.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s014:tmp-daily-life-s014-009",
+          "rationale": "An air purifier removes pollutants from indoor air, whereas an air freshener makes indoor air smell pleasant; the devices and functions differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s013:tmp-home-s013-001",
+          "rationale": "An air purifier removes airborne pollutants, whereas an air conditioner primarily cools indoor air.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s007:tmp-daily-life-s007-001",
+          "rationale": "An air purifier filters or removes pollutants, whereas an electric fan circulates air without purifying it.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s013:tmp-home-s013-003",
+          "rationale": "Air purifier is a device; to ventilate a room is an action involving fresh-air circulation, not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

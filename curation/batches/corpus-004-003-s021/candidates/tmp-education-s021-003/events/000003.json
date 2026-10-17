@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:58:56.028801+00:00",
+  "input_digest": "517180152bebea2f8402d8a0f58ad5c418af3e7ed5677a489ee7b83cf6a22725",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s020:tmp-work-s020-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cstudy group\\u201d is a group of students studying together, whereas \\u201cteam\\u201d is a general group working together; the learner wording and sense are distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s020:tmp-work-s020-002",
+          "rationale": "“study group” is a group of students studying together, whereas “team” is a general group working together; the learner wording and sense are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s020:tmp-work-s020-002",
+        "rationale": "“study group” is a group of students studying together, whereas “team” is a general group working together; the learner wording and sense are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "df74620f85ed440b2b6b8c0493140a9db6079791bb1d35e480e04474b4aacaf4"
+}

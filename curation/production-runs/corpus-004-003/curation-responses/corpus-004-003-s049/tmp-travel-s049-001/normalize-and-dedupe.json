@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6222,
+  "input_digest": "820e1b74642fb9b6b92dd65a3b84096b36680f1ff96c2eb5324e0bbbfa41452f",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 193,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A boarding pass is a document used to board a flight, whereas a boarding gate is the airport location where passengers board; the senses and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-004",
+          "rationale": "A boarding pass is a document used to board a flight, whereas a boarding gate is the airport location where passengers board; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

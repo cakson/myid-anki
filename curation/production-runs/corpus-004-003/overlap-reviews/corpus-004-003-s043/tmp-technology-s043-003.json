@@ -1,0 +1,74 @@
+{
+  "attempt_id": "5b312cf42c039c5e",
+  "candidate_id": "tmp-technology-s043-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Smartwatch correctly denotes a small computing device worn on the wrist; the supplied sense is accurate.",
+      "evidence_refs": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/smartwatch"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid Indonesian usage for smartwatch. Indonesian government health guidance explicitly pairs jam pintar and jam tangan pintar with smartwatch.",
+      "evidence_refs": [
+        "https://kemkes.go.id/app_asset/file_content_download/166563342563478c9139d9e3.48246315.pdf",
+        "https://bidtik.kepri.polri.go.id/cara-menggunakan-smartwatch-praktis-dengan-mudah/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: jam pintar"
+    },
+    {
+      "conclusion": "Valid Malaysian usage for smartwatch. Malaysian official and broadcaster sources use jam tangan pintar for the device.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=jam+tangan",
+        "https://www.u.com.my/bm/personal/support/faqs/mobile-plans/u-watchshare"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: jam tangan pintar"
+    },
+    {
+      "conclusion": "The label different-common-word is materially overstated. Both jam pintar and jam tangan pintar occur in Indonesian and Malaysian usage, while smartwatch is also shared. The relation should be revised to shared-common-form or useful-preference/contextual-variant.",
+      "evidence_refs": [
+        "https://kemkes.go.id/app_asset/file_content_download/166563342563478c9139d9e3.48246315.pdf",
+        "https://berita.rtm.gov.my/fokus/perspektif/senarai-berita-fokus/perspektif/senarai-artikel/evolusi-jam-tangan-dari-sekadar-masa-ke-gaya-hidup-pintar/",
+        "https://eperolehan2.mbip.gov.my/tender/bq/01kpgqbzkecewsycb9j370xs70"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is apparent: the two answers refer to the same wearable device and do not create a misleading unrelated sense. The empty contrast field is acceptable, though an explicit no-contrast value could improve metadata completeness.",
+      "evidence_limitation": "No dedicated false-friend source was necessary; this conclusion follows from the aligned definitions and usage evidence for both forms.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "c7fd9aaa20c3b1cbcc66773e38c93160e86501bf45ebb3bf9c4b22429649e901",
+  "correction_refs": [],
+  "decision_digest": "3c741598343ef9d392f7a1cddc7166ba07134592362fd9e06c3dfe39bf48dde0",
+  "elapsed_ms": 21959,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 97985,
+  "model_calls": 1,
+  "output_tokens": 1672,
+  "packet_digest": "5021c96ff1bfa088e20b9327a8cbafbb8ae2329c28358c76ab4b15be22a330e0",
+  "rationale": "The English cue and both Malay answers express the intended sense, but the national split is materially overstated. Indonesian and Malaysian sources both use jam pintar and jam tangan pintar for smartwatch, and smartwatch itself is a shared borrowing. The relation should not be different-common-word; at most it is a contextual wording preference. No false-friend contrast is indicated.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:13:22.951425+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s043/tmp-technology-s043-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s043",
+  "verdict": "needs-correction"
+}

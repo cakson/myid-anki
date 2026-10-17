@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:51:17.786146+00:00",
+  "input_digest": "f4df9e61cb39bafc1b563ee8f237e6f85456d59edb757e1cf6b2838233076cf5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201ccity\\u201d names the entire urban settlement, whereas \\u201ccity center\\u201d names its central area; the senses are clearly distinct.\"}, {\"other_id\": \"corpus-004-003-s017:tmp-directions-location-s017-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cdead center\\u201d means exactly in the middle of a place generally, while \\u201ccity center\\u201d specifically denotes the central part of a city; the cues and senses differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-006",
+          "rationale": "“city” names the entire urban settlement, whereas “city center” names its central area; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s017:tmp-directions-location-s017-012",
+          "rationale": "“dead center” means exactly in the middle of a place generally, while “city center” specifically denotes the central part of a city; the cues and senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-006",
+        "rationale": "“city” names the entire urban settlement, whereas “city center” names its central area; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s017:tmp-directions-location-s017-012",
+        "rationale": "“dead center” means exactly in the middle of a place generally, while “city center” specifically denotes the central part of a city; the cues and senses differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "56bb73ac28f2171a121b14ab5ed717a88465c4699bc6f72bf814377b8c7ed8a5"
+}

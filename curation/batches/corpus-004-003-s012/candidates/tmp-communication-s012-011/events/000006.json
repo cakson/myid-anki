@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-16T19:42:03.678993+00:00",
+  "input_digest": "c0e88770c6c8d1ca009f4cc1f5d82d4182d2c38da31a5e88680f5b8d266e4c6e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"Malaysian menipu primarily means deceive, cheat, or trick; it is not the precise ordinary equivalent of 'to deliberately say something untrue.'\"], \"material_concerns\": [\"The pair mismatches the exact sense: Indonesian berbohong means 'to lie,' while Malaysian berbohong is the ordinary Malaysian equivalent; menipu broadens the act to deception or cheating.\"], \"rationale\": \"The candidates do not express the same exact action. Berbohong is the appropriate form in both varieties for deliberately saying something untrue; menipu is a misleading Malaysian substitution for this cue.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue preserves the exact sense for both forms: berbohong fits 'to lie,' whereas menipu generally denotes deceiving, cheating, or tricking.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"The shared form berbohong is ordinary for this sense in both Indonesia and Malaysia, directly defeating the proposed national contrast.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"berbohong\", \"language\": \"both\", \"rationale\": \"Berbohong is a credible everyday competitor\\u2014and the precise ordinary term\\u2014for the same sense in both varieties.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Malaysian menipu primarily means deceive, cheat, or trick; it is not the precise ordinary equivalent of 'to deliberately say something untrue.'"
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue preserves the exact sense for both forms: berbohong fits 'to lie,' whereas menipu generally denotes deceiving, cheating, or tricking.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair mismatches the exact sense: Indonesian berbohong means 'to lie,' while Malaysian berbohong is the ordinary Malaysian equivalent; menipu broadens the act to deception or cheating."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "berbohong",
+        "language": "both",
+        "rationale": "Berbohong is a credible everyday competitor—and the precise ordinary term—for the same sense in both varieties.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "The candidates do not express the same exact action. Berbohong is the appropriate form in both varieties for deliberately saying something untrue; menipu is a misleading Malaysian substitution for this cue.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "The shared form berbohong is ordinary for this sense in both Indonesia and Malaysia, directly defeating the proposed national contrast.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Malaysian menipu primarily means deceive, cheat, or trick; it is not the precise ordinary equivalent of 'to deliberately say something untrue.'"
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue preserves the exact sense for both forms: berbohong fits 'to lie,' whereas menipu generally denotes deceiving, cheating, or tricking.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair mismatches the exact sense: Indonesian berbohong means 'to lie,' while Malaysian berbohong is the ordinary Malaysian equivalent; menipu broadens the act to deception or cheating."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "berbohong",
+      "language": "both",
+      "rationale": "Berbohong is a credible everyday competitor—and the precise ordinary term—for the same sense in both varieties.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "The candidates do not express the same exact action. Berbohong is the appropriate form in both varieties for deliberately saying something untrue; menipu is a misleading Malaysian substitution for this cue.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "The shared form berbohong is ordinary for this sense in both Indonesia and Malaysia, directly defeating the proposed national contrast.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "2662568fdcbb8441c954286ce64b53e08f153bcccb12dc1efcaf10ff5726df87"
+}

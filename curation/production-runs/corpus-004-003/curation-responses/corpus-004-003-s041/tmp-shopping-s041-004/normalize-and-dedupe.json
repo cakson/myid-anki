@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4959,
+  "input_digest": "437ced8f2d145436ca7d286f9439afe9f9d0f72bd2607153ccd06779c048db9c",
+  "input_tokens": 93710,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 183,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s041:tmp-shopping-s041-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“genuine product” means an authentic, non-counterfeit product, while “counterfeit product” means an imitation; they are contrasting senses, not duplicates.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-003",
+          "rationale": "“genuine product” means an authentic, non-counterfeit product, while “counterfeit product” means an imitation; they are contrasting senses, not duplicates.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

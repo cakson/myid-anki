@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:41:02.105914+00:00",
+  "input_digest": "b0eb29d7a53bb2a7d48c367e5a7b05e34f94da8c56e8f071949c766cc41a47fe",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s037:tmp-services-s037-012\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"A community medical facility may overlap with a government-operated public clinic, but the candidate does not specify government operation; the distinction cannot be proven from the supplied senses.\"}, {\"other_id\": \"health-001:health-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A health center is a community medical facility, whereas a hospital is a facility for treating seriously ill or injured patients; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-012",
+          "rationale": "A community medical facility may overlap with a government-operated public clinic, but the candidate does not specify government operation; the distinction cannot be proven from the supplied senses.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "health-001:health-03",
+          "rationale": "A health center is a community medical facility, whereas a hospital is a facility for treating seriously ill or injured patients; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-012",
+        "rationale": "A community medical facility may overlap with a government-operated public clinic, but the candidate does not specify government operation; the distinction cannot be proven from the supplied senses.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      },
+      {
+        "other_id": "health-001:health-03",
+        "rationale": "A health center is a community medical facility, whereas a hospital is a facility for treating seriously ill or injured patients; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "cf459c8a847859bf9223031d32fb8d8479c7bc41ecad1d8d6246e029b4ad462d"
+}

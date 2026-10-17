@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5779,
+  "input_digest": "8194b2076b519963eac1584f65c36e3093d6aa001a98ed7fefe0339c80e6c176",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 288,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s006:tmp-directions-location-s006-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A shopping aisle is a passage between product rows inside a store, distinct from an alley, which is a narrow passage or small street.\"},{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-011\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A shopping aisle is an in-store passage between products, distinct from an aisle seat, which is a seat beside an aisle on an aircraft.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-001",
+          "rationale": "A shopping aisle is a passage between product rows inside a store, distinct from an alley, which is a narrow passage or small street.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-011",
+          "rationale": "A shopping aisle is an in-store passage between products, distinct from an aisle seat, which is a seat beside an aisle on an aircraft.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,75 @@
+{
+  "attempt_id": "ddf878ed853cdf8f",
+  "candidate_id": "tmp-work-s052-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct formal Indonesian expression for a resignation letter.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/mengundurkan",
+        "https://kbbi.web.id/pengunduran"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: surat pengunduran diri"
+    },
+    {
+      "conclusion": "Correct standard Malaysian Malay expression for a resignation letter.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=peletakan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=peletakan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: surat peletakan jawatan"
+    },
+    {
+      "conclusion": "“Resignation letter” and the supplied formal employment-related sense match both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=peletakan",
+        "https://kbbi.kemdikbud.go.id/entri/mengundurkan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Different-common-word” is justified: the varieties use distinct conventional formal terms for the same concept.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/mengundurkan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=peletakan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is required. Although peletakan can mean placement in other contexts, peletakan jawatan specifically means resignation from a position.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=peletakan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "546c15cb1ac7873724827d0c2438749ad7b02e226cb253e1ac518479bfc6f972",
+  "correction_refs": [],
+  "decision_digest": "508f760d6745cb62d7227c5523869a14158b49937ace0d3c5f07fedd0853b456",
+  "elapsed_ms": 16111,
+  "finding_class": "none",
+  "input_tokens": 61357,
+  "model_calls": 1,
+  "output_tokens": 1042,
+  "packet_digest": "639b0d8b28d94220c534bf8ea6114dd369c7fdb0dc0adec2ba2e1e340c350ecf",
+  "rationale": "Both forms accurately express “resignation letter” in their respective varieties. The English cue and sense align, the relation “different-common-word” is appropriate, and no material false-friend error is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:20:40.088738+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s052/tmp-work-s052-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s052",
+  "verdict": "cleared"
+}

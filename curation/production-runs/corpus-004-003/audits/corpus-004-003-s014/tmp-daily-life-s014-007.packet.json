@@ -1,0 +1,94 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-daily-life-s014-007",
+    "english": "rice cooker",
+    "indonesian": "penanak nasi",
+    "malaysian": "periuk nasi",
+    "sense": "electric appliance for cooking rice",
+    "tags": [
+      "daily-life",
+      "kitchen",
+      "different-common-word"
+    ]
+  },
+  "candidate_id": "tmp-daily-life-s014-007",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "concrete",
+      "preference_risk": {
+        "form": "rice cooker",
+        "language": "both",
+        "rationale": "The English borrowing is plausibly ordinary in both varieties for the same appliance, though it does not eliminate the useful local-term contrast.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Penanak nasi” is the ordinary Indonesian term, while “periuk nasi” is the ordinary Malaysian term for an electric appliance used to cook rice. The contrast is useful despite the shared English borrowing. Review concern: The shared borrowing “rice cooker” may compete with the proposed local forms in casual or commercial usage in both varieties.",
+    "confidence_tier": "low",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "concrete-nonblocking-risk",
+      "shared-common-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "rice cooker",
+    "image": "",
+    "indonesian": "penanak nasi",
+    "malaysian": "periuk nasi",
+    "relation": "different-common-word",
+    "tags": "daily-life kitchen different-common-word"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s014"
+}

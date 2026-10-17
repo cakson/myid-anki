@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:33:41.054087+00:00",
+  "input_digest": "677dfbcb3c47e2c8eaf810210e65b10a18fcb4f2683dd7bec36d7215ca5d9c5f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s008:tmp-common-verbs-s008-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both involve removing or disabling something, but the candidate means deleting digital data, while the existing concept means switching off a device or light; the cues and translations differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s008:tmp-common-verbs-s008-003",
+          "rationale": "Both involve removing or disabling something, but the candidate means deleting digital data, while the existing concept means switching off a device or light; the cues and translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s008:tmp-common-verbs-s008-003",
+        "rationale": "Both involve removing or disabling something, but the candidate means deleting digital data, while the existing concept means switching off a device or light; the cues and translations differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "86cd1c3006092499bd7de66854fa55c54f6628395cfd32ed76432c0d0c40c94e"
+}

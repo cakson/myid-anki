@@ -1,0 +1,73 @@
+{
+  "attempt_id": "0cf5d60643465d5d",
+  "candidate_id": "tmp-time-date-s046-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: month-end means the end period of a calendar month.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/end"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary for Indonesian; KBBI-based references define akhir bulan as habis bulan and identify ujung bulan as an equivalent.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/akhir",
+        "https://kbbi.lektur.id/akhir-bulan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: akhir bulan"
+    },
+    {
+      "conclusion": "Correct and ordinary for Malaysian Malay; PRPM/Kamus Dewan defines hujung bulan as akhir bulan and gives related end-of-month usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=Hujung+bulan",
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=hujung"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: hujung bulan"
+    },
+    {
+      "conclusion": "The relation different-common-word is materially overstated. akhir bulan is explicitly accepted in Malaysian Malay, so the pair is better labeled shared-synonym-preference or overlap-aware preference, with hujung bulan as a Malaysian-leaning alternative.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=Hujung+bulan",
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=hujung"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No false friend is present. The forms are semantically transparent and overlap in meaning; the learner content currently supplies no contrast, and none is warranted.",
+      "evidence_limitation": "Dictionary and attested-usage evidence establish shared meaning and acceptability, but do not quantify relative frequency by country.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "f976cf01dd29b2902be56a268d20e2c87cb4748c295b047bd6d0827e49a5b94e",
+  "correction_refs": [],
+  "decision_digest": "897fcf749b19f90aa4fe799671d0782063d63d1d94b57cdd870ffa6f105f3900",
+  "elapsed_ms": 26651,
+  "finding_class": "metadata-only",
+  "input_tokens": 140175,
+  "model_calls": 1,
+  "output_tokens": 1834,
+  "packet_digest": "2b3c71e60b1077ca45c9727860914c4f81dde49a23fd7ae937c340cae3d0b703",
+  "rationale": "Both answers express the same ordinary sense. Indonesian akhir bulan is also an accepted Malay expression, while Malaysian references explicitly define hujung bulan as akhir bulan. The national split is therefore materially overstated as a categorical different-common-word relation, although hujung bulan remains a useful Malaysian preference. No false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:16:03.436606+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s046/tmp-time-date-s046-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s046",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:30:20.924977+00:00",
+  "input_digest": "7955b1c266badd0ae2785d80d1882a0dcf8872673cf290caeab4d942760ddb11",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s011:tmp-communication-s011-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate is the verb \\u201callow\\u201d meaning to give permission, while the existing concept is the noun \\u201cpermission\\u201d meaning authorization; their grammatical roles and cues differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-002",
+          "rationale": "The candidate is the verb “allow” meaning to give permission, while the existing concept is the noun “permission” meaning authorization; their grammatical roles and cues differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s011:tmp-communication-s011-002",
+        "rationale": "The candidate is the verb “allow” meaning to give permission, while the existing concept is the noun “permission” meaning authorization; their grammatical roles and cues differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8cb1b193286e4c51932d89fa0a79170a938b27432ade01835c2d0bd27a8c3305"
+}

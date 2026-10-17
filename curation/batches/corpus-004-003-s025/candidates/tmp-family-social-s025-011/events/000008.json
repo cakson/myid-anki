@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T20:08:13.804460+00:00",
+  "result": {
+    "candidate_digest": "e63df996b55d77fd7eb7214b1b2188a266283dfe2be68271837d5f2682520866",
+    "candidate_id": "tmp-family-social-s025-011",
+    "checked_at": "2026-10-16T20:08:13.804460+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "“Ibu wali” ordinarily means a female guardian or trustee, while “ibu baptis” is the relevant term for godmother; presenting them as national equivalents could misteach learners."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "“Ibu wali” ordinarily means a female guardian or trustee, while “ibu baptis” is the relevant term for godmother; presenting them as national equivalents could misteach learners.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

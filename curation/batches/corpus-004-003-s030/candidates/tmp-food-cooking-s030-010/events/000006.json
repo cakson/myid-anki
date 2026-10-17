@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-17T04:28:51.175303+00:00",
+  "input_digest": "2f3194c9be34ed78c95477276516449ae46b279ebd0e6b575e5e5c6562d411c2",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"Bakso is the ordinary Indonesian term, while bebola daging is the ordinary Malaysian Malay term for a round ball of seasoned ground meat.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote a meatball, not the dish, serving, or quantity.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Bakso may be understood in Malaysia as an Indonesian food term, but bebola daging is the general Malaysian Malay form; the contrast remains useful.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"bakso\", \"language\": \"malaysian\", \"rationale\": \"Bakso is recognizable in Malaysia as an Indonesian culinary term, but it does not displace the general Malaysian Malay term bebola daging.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote a meatball, not the dish, serving, or quantity.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "bakso",
+        "language": "malaysian",
+        "rationale": "Bakso is recognizable in Malaysia as an Indonesian culinary term, but it does not displace the general Malaysian Malay term bebola daging.",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "Bakso is the ordinary Indonesian term, while bebola daging is the ordinary Malaysian Malay term for a round ball of seasoned ground meat.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Bakso may be understood in Malaysia as an Indonesian food term, but bebola daging is the general Malaysian Malay form; the contrast remains useful.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote a meatball, not the dish, serving, or quantity.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "bakso",
+      "language": "malaysian",
+      "rationale": "Bakso is recognizable in Malaysia as an Indonesian culinary term, but it does not displace the general Malaysian Malay term bebola daging.",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "Bakso is the ordinary Indonesian term, while bebola daging is the ordinary Malaysian Malay term for a round ball of seasoned ground meat.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Bakso may be understood in Malaysia as an Indonesian food term, but bebola daging is the general Malaysian Malay form; the contrast remains useful.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "895378736e7d96f98db5e619f5bd12e0c8057c6f1669626fb385b2dc25f19e7a"
+}

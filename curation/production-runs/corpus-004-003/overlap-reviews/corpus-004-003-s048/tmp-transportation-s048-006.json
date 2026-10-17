@@ -1,0 +1,86 @@
+{
+  "attempt_id": "08b2b489b2319ef2",
+  "candidate_id": "tmp-transportation-s048-006",
+  "claim_reviews": [
+    {
+      "conclusion": "“Bicycle lane” correctly describes a designated route or lane for bicycles, matching both supplied answers.",
+      "evidence_refs": [
+        "https://jdih.kemenkoinfra.go.id/cfind/source/files/permenparekraf/salinan-permenparekraf-nomor-2-tahun-2021_jdih.pdf",
+        "https://www.planmalaysia.gov.my/uploads/content-downloads/file_20251114202715.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The form is ordinary and institutionally established in Indonesian usage for bicycle facilities or lanes.",
+      "evidence_refs": [
+        "https://www.jakarta.go.id/jalur-sepeda-bike-sharing",
+        "https://binamarga.pu.go.id/uploads/files/883/pedoman-perancangan-fasilitas-pesepeda.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: jalur sepeda"
+    },
+    {
+      "conclusion": "The form is ordinary and established in Malaysian usage for a bicycle lane. It is not an invented or marginal equivalent.",
+      "evidence_refs": [
+        "https://mbip.gov.my/smart-city-program/smart-mobility",
+        "https://www.dbkl.gov.my/garis-panduan/",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cycle"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: lorong basikal"
+    },
+    {
+      "conclusion": "The split is lexical preference, not a strict national-exclusive distinction: Malaysian official materials also use “laluan basikal” for the same general facility, and “lorong basikal” and “laluan basikal” occur in closely related contexts. This overlap does not materially invalidate the selected pair, but it limits any claim that the forms are categorically separated by variety.",
+      "evidence_refs": [
+        "https://www.planmalaysia.gov.my/uploads/content-downloads/file_20251114202715.pdf",
+        "https://www.dbkl.gov.my/garis-panduan/",
+        "https://dewan.selangor.gov.my/question/laluan-basikal-di-pbt/"
+      ],
+      "material_risk": false,
+      "subject": "Overlap and national split"
+    },
+    {
+      "conclusion": "The relation is acceptable when interpreted as two common preferred forms across Indonesian and Malaysian Malay, with a usage-overlap caveat. It would be misleading only if intended to assert that “jalur sepeda” is unavailable in Malaysian Malay or that “laluan basikal” is not Malaysian usage.",
+      "evidence_refs": [
+        "https://www.jakarta.go.id/jalur-sepeda-bike-sharing",
+        "https://mbip.gov.my/smart-city-program/smart-mobility",
+        "https://www.planmalaysia.gov.my/uploads/content-downloads/file_20251114202715.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is supported: the two answers share the same bicycle-lane sense. Leaving the contrast blank is appropriate for this candidate.",
+      "evidence_limitation": "The reviewed sources establish the shared sense and usage, but do not constitute a dedicated false-friend corpus; no contrary sense distinction was found.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "db084b7fd8110b821fd6bde64f8e8a856dbb0d2ef414f0c7fb1ac9c5ffaf0d38",
+  "correction_refs": [],
+  "decision_digest": "4baae4c86253390f3477e54c8ed7c750125e9ee3d630f09c44b5b945a14548c5",
+  "elapsed_ms": 15680,
+  "finding_class": "none",
+  "input_tokens": 33446,
+  "model_calls": 1,
+  "output_tokens": 1489,
+  "packet_digest": "0826ddde2a528d382531d609843612123d83fe0a975980d9d888b031cae7fca9",
+  "rationale": "The national split is not materially overstated for this card: “jalur sepeda” is an established Indonesian term, while “lorong basikal” is an established Malaysian term. Malaysian usage also includes “laluan basikal,” so the distinction is a useful preferred-form contrast rather than an exclusive national boundary. The English cue and sense align with both answers. No false-friend contrast is warranted because no misleading cross-variety meaning difference is evidenced; the empty contrast is acceptable.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:17:06.686442+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s048/tmp-transportation-s048-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s048",
+  "verdict": "cleared"
+}

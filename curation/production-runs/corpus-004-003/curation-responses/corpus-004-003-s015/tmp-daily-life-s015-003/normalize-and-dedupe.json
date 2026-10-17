@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4764,
+  "input_digest": "ff8320b6ccf4e3b57ca2f7ecd62d2207a00b02eab83f8d00a8d5b978bae64c04",
+  "input_tokens": 93720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 237,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"home-001:topic-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A window is the glass opening itself, whereas a window grille is the metal security bars fitted over it.\"},{\"other_id\":\"corpus-004-003-s035:tmp-home-s035-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A window frame is the fixed surround of a window; a window grille is a separate metal bar structure fitted over the window.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "home-001:topic-04",
+          "rationale": "A window is the glass opening itself, whereas a window grille is the metal security bars fitted over it.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s035:tmp-home-s035-009",
+          "rationale": "A window frame is the fixed surround of a window; a window grille is a separate metal bar structure fitted over the window.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

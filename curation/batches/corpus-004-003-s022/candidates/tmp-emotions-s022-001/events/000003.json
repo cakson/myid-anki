@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:00:17.169277+00:00",
+  "input_digest": "22e7453965c3e700c9fa62fe68b5ec18b6cc1aa9e5191dbe9a168f0c9314411f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-social-001:social-02\", \"type\": \"synonym\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201canxious\\u201d and \\u201cworried\\u201d overlap closely in the sense of feeling concerned or uneasy; the candidate\\u2019s answers differ, but this does not prove a distinct concept.\"}, {\"other_id\": \"corpus-004-001-s010:tmp-emotions-s010-002\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201cnervous\\u201d can overlap with \\u201canxious,\\u201d though the archived sense is specifically anxiety before or during an event; the distinction is plausible but not conclusive.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-social-001:social-02",
+          "rationale": "“anxious” and “worried” overlap closely in the sense of feeling concerned or uneasy; the candidate’s answers differ, but this does not prove a distinct concept.",
+          "resolution": "unresolved",
+          "type": "synonym"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+          "rationale": "“nervous” can overlap with “anxious,” though the archived sense is specifically anxiety before or during an event; the distinction is plausible but not conclusive.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-social-001:social-02",
+        "rationale": "“anxious” and “worried” overlap closely in the sense of feeling concerned or uneasy; the candidate’s answers differ, but this does not prove a distinct concept.",
+        "resolution": "unresolved",
+        "type": "synonym"
+      },
+      {
+        "other_id": "corpus-004-001-s010:tmp-emotions-s010-002",
+        "rationale": "“nervous” can overlap with “anxious,” though the archived sense is specifically anxiety before or during an event; the distinction is plausible but not conclusive.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "174550bb16777dda86f413ab7a9f1c80fb9220709fa91befe229b459c6ce6a96"
+}

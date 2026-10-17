@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6227,
+  "input_digest": "be72b567000fbfc9ee1c883f4694893b343e16d9d17f1a53015d1db3a63bd167",
+  "input_tokens": 93716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 426,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s037:tmp-services-s037-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An appointment reminder is a notice sent to prompt attendance at a scheduled appointment; an appointment is the scheduled meeting itself.\"},{\"other_id\":\"corpus-004-003-s011:tmp-communication-s011-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A reminder is a specific notice prompting someone about an appointment, whereas a notice is generic written information intended to inform people.\"},{\"other_id\":\"corpus-004-003-s038:tmp-services-s038-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A booking confirmation confirms that a reservation exists; an appointment reminder prompts the recipient before the scheduled appointment.\"},{\"other_id\":\"pros4-technology-001:technology-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A notification is a broad alert from an application or service; an appointment reminder is specifically a notice about a scheduled appointment.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-001",
+          "rationale": "An appointment reminder is a notice sent to prompt attendance at a scheduled appointment; an appointment is the scheduled meeting itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-009",
+          "rationale": "A reminder is a specific notice prompting someone about an appointment, whereas a notice is generic written information intended to inform people.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-010",
+          "rationale": "A booking confirmation confirms that a reservation exists; an appointment reminder prompts the recipient before the scheduled appointment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-technology-001:technology-08",
+          "rationale": "A notification is a broad alert from an application or service; an appointment reminder is specifically a notice about a scheduled appointment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

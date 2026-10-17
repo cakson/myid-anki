@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:03:59.317839+00:00",
+  "input_digest": "b810ae053761f4700232e359c8ca88d0bdcf13a5d9389cc5108388404a37ef00",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-travel-001:travel-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bus terminal is a station where buses arrive and depart, whereas a bus stop is a place where buses briefly stop for passengers; these are distinct facilities.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-02",
+          "rationale": "A bus terminal is a station where buses arrive and depart, whereas a bus stop is a place where buses briefly stop for passengers; these are distinct facilities.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-travel-001:travel-02",
+        "rationale": "A bus terminal is a station where buses arrive and depart, whereas a bus stop is a place where buses briefly stop for passengers; these are distinct facilities.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "bc4c2c42909e0f3f959bf51cc28739f132d06a9bd2523fd14605fbbfd1b266eb"
+}

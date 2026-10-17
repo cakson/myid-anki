@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:47:45.242913+00:00",
+  "input_digest": "04f5a1d4728b5f477e19b38bb03bcf2c389c7d6f4791514fc504bc3fdb116e9c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-home-001:home-01\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"Both entries use the same Indonesian and Malaysian answers ('jemuran' and 'ampaian'), and the archived sense explicitly includes a rack for hanging washed clothes. However, the candidate specifies a freestanding drying rack while the existing cue is 'clothesline', which can denote a line or rack; the distinction cannot be proven from the supplied records.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-home-001:home-01",
+          "rationale": "Both entries use the same Indonesian and Malaysian answers ('jemuran' and 'ampaian'), and the archived sense explicitly includes a rack for hanging washed clothes. However, the candidate specifies a freestanding drying rack while the existing cue is 'clothesline', which can denote a line or rack; the distinction cannot be proven from the supplied records.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-home-001:home-01",
+        "rationale": "Both entries use the same Indonesian and Malaysian answers ('jemuran' and 'ampaian'), and the archived sense explicitly includes a rack for hanging washed clothes. However, the candidate specifies a freestanding drying rack while the existing cue is 'clothesline', which can denote a line or rack; the distinction cannot be proven from the supplied records.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "fe84170b5521d6909f3b43735a47a7af40acc43e2afe0ca919985beca0a205e2"
+}

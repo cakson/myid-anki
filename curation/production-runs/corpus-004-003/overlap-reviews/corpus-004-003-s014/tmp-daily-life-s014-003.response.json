@@ -1,0 +1,72 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 26887,
+  "input_tokens": 95806,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1772,
+  "packet_digest": "e245324817b72a1726616a7794ae261410b46fb24bf2b82d222cd2cd40ace242",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"Both answers are valid ordinary equivalents, but the different-common-word relation materially overstates the national split. English extension cord is also used in Malaysian contexts, and Indonesian usage includes overlapping kabel sambungan terminology. The cue and sense are accurate; no false-friend contrast is needed because the forms do not create a documented cross-variety false friend.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"National split and overlap\",\n      \"conclusion\": \"The national distinction is overstated. Malaysian sources use extension cord, extension wire, wayar penyambung, and wayar sambungan; Indonesian sources use kabel ekstensi and kabel sambungan.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://oshmo.umpsa.edu.my/images/manual/OCP-L3-013-Prosedur-KKP-Pejabat-Pentadbiran.pdf\",\n        \"https://www.tnb.com.my/assets/newsclip/27062016b.pdf\",\n        \"https://www.detik.com/properti/tips-dan-panduan/d-8516329/infografis-barang-yang-aman-dan-berisiko-dicolokkan-ke-kabel-ekstensi\",\n        \"https://shopee.co.id/list/Kabel/Extension\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue extension cord correctly denotes an extra wire used to bring electricity to equipment farther from a socket; the supplied sense is aligned.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english/extension-cord\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer\",\n      \"conclusion\": \"kabel ekstensi is an attested Indonesian term for the target object, though kabel sambungan and related commercial forms also occur.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.detik.com/properti/tips-dan-panduan/d-8516329/infografis-barang-yang-aman-dan-berisiko-dicolokkan-ke-kabel-ekstensi\",\n        \"https://www.indotrading.com/jual-kabel-ekstensi\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer\",\n      \"conclusion\": \"wayar sambungan is understandable and attested as a Malaysian equivalent, but it is not uniquely Malaysian; wayar penyambung and English extension cord or extension wire are also used.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://oshmo.umpsa.edu.my/images/manual/OCP-L3-013-Prosedur-KKP-Pejabat-Pentadbiran.pdf\",\n        \"https://www.tnb.com.my/assets/newsclip/27062016b.pdf\",\n        \"https://saidina.com.my/product/extension-wire/\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"different-common-word is not supported as a clean variety contrast. A shared-common-form or shared-synonym-preference relation is more accurate.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://oshmo.umpsa.edu.my/images/manual/OCP-L3-013-Prosedur-KKP-Pejabat-Pentadbiran.pdf\",\n        \"https://www.detik.com/properti/tips-dan-panduan/d-8516329/infografis-barang-yang-aman-dan-berisiko-dicolokkan-ke-kabel-ekstensi\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is required. The reviewed forms refer to the same electrical-extension concept, and the evidence does not indicate a misleading cross-variety sense divergence.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"No dedicated false-friend dictionary or contrastive corpus evidence was located; conclusion is based on the cited definitions and usage examples.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The national distinction is overstated. Malaysian sources use extension cord, extension wire, wayar penyambung, and wayar sambungan; Indonesian sources use kabel ekstensi and kabel sambungan.",
+        "evidence_refs": [
+          "https://oshmo.umpsa.edu.my/images/manual/OCP-L3-013-Prosedur-KKP-Pejabat-Pentadbiran.pdf",
+          "https://www.tnb.com.my/assets/newsclip/27062016b.pdf",
+          "https://www.detik.com/properti/tips-dan-panduan/d-8516329/infografis-barang-yang-aman-dan-berisiko-dicolokkan-ke-kabel-ekstensi",
+          "https://shopee.co.id/list/Kabel/Extension"
+        ],
+        "material_risk": true,
+        "subject": "National split and overlap"
+      },
+      {
+        "conclusion": "The cue extension cord correctly denotes an extra wire used to bring electricity to equipment farther from a socket; the supplied sense is aligned.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/extension-cord"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "kabel ekstensi is an attested Indonesian term for the target object, though kabel sambungan and related commercial forms also occur.",
+        "evidence_refs": [
+          "https://www.detik.com/properti/tips-dan-panduan/d-8516329/infografis-barang-yang-aman-dan-berisiko-dicolokkan-ke-kabel-ekstensi",
+          "https://www.indotrading.com/jual-kabel-ekstensi"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "wayar sambungan is understandable and attested as a Malaysian equivalent, but it is not uniquely Malaysian; wayar penyambung and English extension cord or extension wire are also used.",
+        "evidence_refs": [
+          "https://oshmo.umpsa.edu.my/images/manual/OCP-L3-013-Prosedur-KKP-Pejabat-Pentadbiran.pdf",
+          "https://www.tnb.com.my/assets/newsclip/27062016b.pdf",
+          "https://saidina.com.my/product/extension-wire/"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer"
+      },
+      {
+        "conclusion": "different-common-word is not supported as a clean variety contrast. A shared-common-form or shared-synonym-preference relation is more accurate.",
+        "evidence_refs": [
+          "https://oshmo.umpsa.edu.my/images/manual/OCP-L3-013-Prosedur-KKP-Pejabat-Pentadbiran.pdf",
+          "https://www.detik.com/properti/tips-dan-panduan/d-8516329/infografis-barang-yang-aman-dan-berisiko-dicolokkan-ke-kabel-ekstensi"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is required. The reviewed forms refer to the same electrical-extension concept, and the evidence does not indicate a misleading cross-variety sense divergence.",
+        "evidence_limitation": "No dedicated false-friend dictionary or contrastive corpus evidence was located; conclusion is based on the cited definitions and usage examples.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers are valid ordinary equivalents, but the different-common-word relation materially overstates the national split. English extension cord is also used in Malaysian contexts, and Indonesian usage includes overlapping kabel sambungan terminology. The cue and sense are accurate; no false-friend contrast is needed because the forms do not create a documented cross-variety false friend.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

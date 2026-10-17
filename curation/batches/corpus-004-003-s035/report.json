@@ -1,0 +1,680 @@
+{
+  "accepted": 8,
+  "batch_id": "corpus-004-003-s035",
+  "confidence_distribution": {
+    "high": 6,
+    "medium": 2
+  },
+  "corrections": 0,
+  "created_at": "2026-10-17T13:13:04.664897+00:00",
+  "decisions": [
+    {
+      "candidate_id": "tmp-home-s035-001",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Fresh independent review returned finding_class=metadata-only but at least one learner-content claim_review has material_risk=true and identifies a cross-variety overlap or materially misleading national split. Treat as material learner-content finding; hold and withdraw pending a vetted correction and fresh clearance.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-002",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "kapang",
+          "language": "indonesian",
+          "rationale": "Kapang is a recognized Indonesian term for mold, but it is more technical and does not clearly displace the ordinary household term jamur.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both answers commonly describe fungus or mold growing on damp household surfaces, with jamur preferred in Indonesian and kulat in Malaysian Malay. Review concern: Both forms can also refer broadly to fungi, but the household-surface context sufficiently narrows the intended sense.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-003",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "kecoak/kecoa",
+          "language": "malaysian",
+          "rationale": "The Indonesian form may be understood in Malaysia, but ordinary Malaysian usage prefers lipas.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Kecoak is the ordinary Indonesian term, while lipas is the ordinary Malaysian Malay term for the same household insect.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-004",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "The spelling distinction is a clear national variant, not a disputed usage preference.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Indonesian semen and Malaysian simen are ordinary national spelling variants for the same building material used to bind masonry.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-005",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "kuas cat",
+          "language": "malaysian",
+          "rationale": "Kuas cat may occur as an understood alternative in Malaysia, but no concrete evidence indicates everyday competition with berus cat.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Indonesian kuas and Malaysian berus cat are ordinary terms for a brush used to apply paint, with a useful national vocabulary contrast.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-006",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Material random-QA cue-content finding: the learner card lacks a contrast cue; keep it withdrawn pending a vetted correction.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-007",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "The proposed forms provide a clear, useful Indonesian–Malaysian Malay lexical contrast.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "“Listrik” is the ordinary Indonesian term, while “elektrik” is the ordinary Malaysian Malay term for household electrical power.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-008",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "The proposed forms represent a credible Indonesian–Malaysian Malay lexical preference.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Kusen pintu is the ordinary Indonesian term, while bingkai pintu is a natural Malaysian Malay term for the fixed frame surrounding a door.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-009",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "bingkai jendela",
+          "language": "indonesian",
+          "rationale": "The phrase is understandable as an alternative description in Indonesian, but it does not materially weaken the preference for \"kusen jendela\".",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "nonpreferred-alternative",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "The answers denote the same fixed frame surrounding a window. Indonesian commonly uses \"kusen jendela\", while Malaysian Malay commonly uses \"bingkai tingkap\".",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "nonpreferred-alternative"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-010",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Fresh independent overlap investigation found learner-critical overstatement of a different-common-word split; hold and withdraw pending reviewed correction and current clearance.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-011",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "decision_reason": "Withhold after independent risk audit (cue-content): Both answers and the garden-hose sense are correct, and the relation different-common-word is appropriate. However, the empty contrast field omits a useful learner warning: Indonesian selang means hose, while standard Malaysian Malay uses hos for this object and selang has unrelated interval/gap meanings. Retain outside promotion pending a vetted correction and fresh current clearance.",
+      "outcome": "hold",
+      "reason_codes": [
+        "material-unresolved-issue"
+      ],
+      "relation": "",
+      "risk": {
+        "path": "not-assessed",
+        "triggers": []
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-home-s035-012",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "kipas angin plafon",
+          "language": "indonesian",
+          "rationale": "A descriptive Indonesian variant exists, though “kipas plafon” remains a credible ordinary product term.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "“Kipas plafon” is an ordinary Indonesian term, while “kipas siling” is the ordinary Malaysian term for a fan mounted on a ceiling. The contrast is useful and refers to the same sense. Review concern: Indonesian may also use descriptive variants such as “kipas angin plafon,” but this does not undermine the proposed ordinary form.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    }
+  ],
+  "duplicate_detections": 15,
+  "duplicate_resolutions": {
+    "distinct": 15
+  },
+  "evidence_failures": 0,
+  "further_investigation": [
+    "tmp-home-s035-001",
+    "tmp-home-s035-006",
+    "tmp-home-s035-010",
+    "tmp-home-s035-011"
+  ],
+  "generated": 12,
+  "held": 4,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "material-unresolved-issue": 4,
+    "ordinary-verifier-agreement": 8
+  },
+  "rejected": 0,
+  "relation_distribution": {
+    "different-common-word": 7,
+    "similar": 1
+  },
+  "review_priority": [
+    "tmp-home-s035-002",
+    "tmp-home-s035-012",
+    "tmp-home-s035-003",
+    "tmp-home-s035-005",
+    "tmp-home-s035-009",
+    "tmp-home-s035-004",
+    "tmp-home-s035-007",
+    "tmp-home-s035-008"
+  ],
+  "status": "closed",
+  "verification_failures": 0
+}

@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:41.168764+00:00",
+  "result": {
+    "candidate_digest": "6d37680e975309869d2f61123576e734377354ab88b9d97e7d7ec81d02273a89",
+    "candidate_id": "tmp-common-adjectives-s005-007",
+    "checked_at": "2026-10-17T06:21:41.168764+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The English cue and sense are accurate, and both Malay forms are valid. However, treating Indonesian nasional versus Malaysian kebangsaan as a clean different-common-word contrast is potentially misleading: Malaysian Malay also uses nasional productively, especially in formal and institutional compounds. The card should mark kebangsaan as a frequent/preferred contextual equivalent rather than imply that nasional is not Malaysian Malay. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

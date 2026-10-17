@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6023,
+  "input_digest": "d6ada2ec22ecf91613a08499e976bc59faf13a74067d78d0c25f58910b2ca4c6",
+  "input_tokens": 93714,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 294,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s022:tmp-emotions-s022-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Optimistic means expecting favorable results, whereas eager means strongly wanting to do or experience something; the senses and translations differ.\"},{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Optimistic means expecting favorable results, whereas excited describes an eager or energized emotional state; the senses differ.\"},{\"other_id\":\"corpus-004-003-s022:tmp-emotions-s022-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Optimistic and pessimistic are opposite outlooks about expected results, not the same concept.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-005",
+          "rationale": "Optimistic means expecting favorable results, whereas eager means strongly wanting to do or experience something; the senses and translations differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-001",
+          "rationale": "Optimistic means expecting favorable results, whereas excited describes an eager or energized emotional state; the senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s022:tmp-emotions-s022-007",
+          "rationale": "Optimistic and pessimistic are opposite outlooks about expected results, not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

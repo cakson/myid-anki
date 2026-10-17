@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5810,
+  "input_digest": "4607ae361e70ab28a587f7570a45895140194447ca76b90dc255280cd8057580",
+  "input_tokens": 93708,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 386,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-travel-001:travel-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Departure is the act of leaving, whereas departure lounge is the airport waiting area before leaving.\"},{\"other_id\":\"corpus-004-003-s016:tmp-services-s016-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A waiting room is a generic room where service users wait; a departure lounge is specifically an airport area for passengers awaiting departure.\"},{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A boarding gate is the airport location where passengers board, while a departure lounge is the waiting area before boarding.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-travel-001:travel-06",
+          "rationale": "Departure is the act of leaving, whereas departure lounge is the airport waiting area before leaving.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s016:tmp-services-s016-002",
+          "rationale": "A waiting room is a generic room where service users wait; a departure lounge is specifically an airport area for passengers awaiting departure.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-004",
+          "rationale": "A boarding gate is the airport location where passengers board, while a departure lounge is the waiting area before boarding.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

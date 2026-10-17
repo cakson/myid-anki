@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:09:56.612940+00:00",
+  "input_digest": "fc3c9ecac8ac4d7c36ef943c521fb02880ba84cda032c5353b825013c54f8249",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s011:tmp-communication-s011-012\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A handshake is a physical greeting by clasping hands, whereas greeting is the words used when meeting or addressing someone; the senses and answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-012",
+          "rationale": "A handshake is a physical greeting by clasping hands, whereas greeting is the words used when meeting or addressing someone; the senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s011:tmp-communication-s011-012",
+        "rationale": "A handshake is a physical greeting by clasping hands, whereas greeting is the words used when meeting or addressing someone; the senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d9c729b8501ae126fd669bdb35c56a5e81162d353e508143a741f586c69dec38"
+}

@@ -1,0 +1,69 @@
+{
+  "attempt_id": "4fadde928b2b92e4",
+  "candidate_id": "tmp-time-date-s045-010",
+  "claim_reviews": [
+    {
+      "conclusion": "“nighttime” and “time during the night” are correctly aligned.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=waktu+ini"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“malam hari” is a valid Indonesian expression for nighttime.",
+      "evidence_limitation": "No direct KBBI entry for the exact phrase was located, but Indonesian dictionary evidence confirms the relevant malam sense.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“waktu malam” is understandable and valid Malay phrasing for nighttime; “malam” alone is also standard.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=waktu+ini",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=malam"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“different-common-word” is too strong or misleading because both forms share “malam”; use a relation such as “different-phrase-preference” or “shared-common-form.”",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=waktu+ini",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=malam"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No Indonesian–Malaysian false-friend contrast is present for this item.",
+      "evidence_limitation": "The available dictionary evidence supports shared meaning but does not constitute a corpus-based false-friend survey.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "21be1a9df3152e7ec5da267c0b2803983953c501c75516cb8aad7e7cb55cd968",
+  "correction_refs": [],
+  "decision_digest": "a149604cb8a10ca536109f74d5441ecf6b74bc5f27d793bcd33d24204c093265",
+  "elapsed_ms": 14967,
+  "finding_class": "metadata-only",
+  "input_tokens": 29226,
+  "model_calls": 1,
+  "output_tokens": 1016,
+  "packet_digest": "ae5fa182172374dfb30213d3b5e4c4c3e069f8b1dd26a13c50f0e22576f37862",
+  "rationale": "Both language answers correctly express “nighttime,” and the English cue and sense are aligned. There is no false-friend issue. However, “different-common-word” overstates the contrast: both expressions share the common word “malam,” and Malay also independently uses “malam” for nighttime. The distinction is better characterized as different phrasing or modifier preference, not different core words.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:12:35.482600+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s045/tmp-time-date-s045-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "needs-correction"
+}

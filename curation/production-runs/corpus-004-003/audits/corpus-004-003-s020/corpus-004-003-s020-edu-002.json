@@ -1,0 +1,76 @@
+{
+  "attempt_id": "b277d5a434fcba40",
+  "candidate_id": "corpus-004-003-s020-edu-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Pencil case” correctly matches a container for pencils and other writing tools.",
+      "evidence_refs": [
+        "https://www.binamandiristationery.co.id/alat-alat-kantor/pensil/kotak-pena-dan-pensil.html",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bekas"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and common Indonesian wording for a pencil case; tempat pensil is also a credible alternative.",
+      "evidence_refs": [
+        "https://www.monotaro.id/k/store/kotak%20pensil",
+        "https://www.binamandiristationery.co.id/alat-alat-kantor/pensil/kotak-pena-dan-pensil.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kotak pensil"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay wording, with bekas pensel explicitly attested for the container meaning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bekas",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Pensel"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: bekas pensel"
+    },
+    {
+      "conclusion": "different-common-word is appropriate because the Indonesian and Malaysian answers use distinct ordinary lexical forms, despite being semantically equivalent.",
+      "evidence_refs": [
+        "https://www.binamandiristationery.co.id/alat-alat-kantor/pensil/kotak-pena-dan-pensil.html",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bekas"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is required. Bekas means a container in this compound, not only trace/former, and pensil versus pensel reflects spelling variation rather than a sense difference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bekas",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Pensel"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ea636fa4cfa3f48bba648e3d88fa178c10b5554f17de22628c1aec133d78d08e",
+  "correction_refs": [],
+  "decision_digest": "538c1521f4de6d3445a4d0053d855aa475806e6fa4dc79dca3615b6d1f3b0f1f",
+  "elapsed_ms": 16106,
+  "finding_class": "none",
+  "input_tokens": 62397,
+  "model_calls": 1,
+  "output_tokens": 1225,
+  "packet_digest": "d56219daf0d257af699b491a19b78caf8e18b29911cae3dfbedc4e1147dfe411",
+  "rationale": "Both target forms are valid common terms for a pencil case: Indonesian kotak pensil and Malaysian Malay bekas pensel. The English cue and sense align, the forms are genuinely different local expressions, and no material false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:38:34.104012+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s020/corpus-004-003-s020-edu-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s020",
+  "verdict": "cleared"
+}

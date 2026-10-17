@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4802,
+  "input_digest": "b6f1ba6b9c5d6a452fa003dc8a67f08d07866149e4eee7d49265c25fb7f6e355",
+  "input_tokens": 93720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 227,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"The candidate is the verb/action “to queue” (mengantre, beratur), meaning to wait in an ordered line; the existing entry is the noun “queue” (antrean, barisan), meaning the line itself. The senses and both answer sets differ clearly.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-04",
+          "rationale": "The candidate is the verb/action “to queue” (mengantre, beratur), meaning to wait in an ordered line; the existing entry is the noun “queue” (antrean, barisan), meaning the line itself. The senses and both answer sets differ clearly.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

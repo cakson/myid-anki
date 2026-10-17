@@ -1,0 +1,50 @@
+{
+  "effort": "low",
+  "elapsed_ms": 9261,
+  "input_digest": "c9139d504f0e1823af27db9765686ec306c2a7b87cd3ec6aa721523b958a1b9f",
+  "input_tokens": 93711,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 496,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s037:tmp-services-s037-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Renewal extends validity; validity period is the time span during which a document or service remains valid.\"},{\"other_id\":\"corpus-004-002-s014:tmp-services-s014-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Opening hours describe when a service operates, not the validity duration of a service document.\"},{\"other_id\":\"corpus-004-003-s044:tmp-time-date-s044-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Duration is a general length of time, whereas validity period specifically concerns how long a service document remains valid.\"},{\"other_id\":\"fresh-food-001:food-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Expiry date is a specific cutoff date for packaged food, not the validity period of a service document.\"},{\"other_id\":\"corpus-004-002-s022:tmp-work-s022-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Probation period is an employment trial period, distinct from the validity period of a service document.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-004",
+          "rationale": "Renewal extends validity; validity period is the time span during which a document or service remains valid.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-006",
+          "rationale": "Opening hours describe when a service operates, not the validity duration of a service document.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s044:tmp-time-date-s044-003",
+          "rationale": "Duration is a general length of time, whereas validity period specifically concerns how long a service document remains valid.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-food-001:food-09",
+          "rationale": "Expiry date is a specific cutoff date for packaged food, not the validity period of a service document.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s022:tmp-work-s022-004",
+          "rationale": "Probation period is an employment trial period, distinct from the validity period of a service document.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

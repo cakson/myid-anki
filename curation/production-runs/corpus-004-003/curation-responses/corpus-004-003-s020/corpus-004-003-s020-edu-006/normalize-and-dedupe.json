@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4650,
+  "input_digest": "0dfb4abe1af1e56ccc53ae7330cb6b43cf5b9292e24c19225374da5d8be31681",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 215,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"transportation-001:transportation-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A school bus is a bus specifically used to transport students to and from school; the existing concept is the general vehicle category.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "transportation-001:transportation-04",
+          "rationale": "A school bus is a bus specifically used to transport students to and from school; the existing concept is the general vehicle category.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

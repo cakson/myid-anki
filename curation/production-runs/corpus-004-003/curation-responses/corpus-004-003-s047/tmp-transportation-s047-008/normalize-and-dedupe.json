@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4712,
+  "input_digest": "26fe6b9d392b2262e486915f1abc39458c9c07dc45654567117d82717dc9a50b",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 163,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s020:tmp-transportation-s020-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Windshield wiper is the device that clears rain from a windshield, while windshield is the vehicle's front glass panel; related components but clearly distinct concepts and answers.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s020:tmp-transportation-s020-002",
+          "rationale": "Windshield wiper is the device that clears rain from a windshield, while windshield is the vehicle's front glass panel; related components but clearly distinct concepts and answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

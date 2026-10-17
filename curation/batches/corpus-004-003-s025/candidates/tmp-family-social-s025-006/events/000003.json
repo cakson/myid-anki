@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T20:07:03.201510+00:00",
+  "input_digest": "1e7203c3474656e1d0a96aa3cdc0fdbbb35c766b9d300bfc413d95b28dde80b2",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Brother-in-law is the corresponding male in-law relation; this candidate denotes a female in-law relation, with different English cue and answers.\"}, {\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Father-in-law is a spouse's father, whereas sister-in-law is a sibling's wife or spouse's sister.\"}, {\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Mother-in-law is a spouse's mother, whereas sister-in-law is a sibling's wife or spouse's sister.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-005",
+          "rationale": "Brother-in-law is the corresponding male in-law relation; this candidate denotes a female in-law relation, with different English cue and answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-006",
+          "rationale": "Father-in-law is a spouse's father, whereas sister-in-law is a sibling's wife or spouse's sister.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-007",
+          "rationale": "Mother-in-law is a spouse's mother, whereas sister-in-law is a sibling's wife or spouse's sister.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-005",
+        "rationale": "Brother-in-law is the corresponding male in-law relation; this candidate denotes a female in-law relation, with different English cue and answers.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-006",
+        "rationale": "Father-in-law is a spouse's father, whereas sister-in-law is a sibling's wife or spouse's sister.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-007",
+        "rationale": "Mother-in-law is a spouse's mother, whereas sister-in-law is a sibling's wife or spouse's sister.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "226e19f8ca4d28f2f0d03570328a4ac2a4edf7dac67ebeb7cf5e4e1a40b36007"
+}

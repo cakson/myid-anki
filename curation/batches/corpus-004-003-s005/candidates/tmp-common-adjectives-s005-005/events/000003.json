@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:25:59.911121+00:00",
+  "input_digest": "63095351ebabc0058f038eea3ada1ab486dcb0f734d38d76d217ee6332aa6707",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s006:tmp-directions-location-s006-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201clocal\\u201d means from or relating to the nearby area, while \\u201cnearby\\u201d means located close to a stated place; related location concepts but different parts of speech and senses.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-006",
+          "rationale": "“local” means from or relating to the nearby area, while “nearby” means located close to a stated place; related location concepts but different parts of speech and senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s006:tmp-directions-location-s006-006",
+        "rationale": "“local” means from or relating to the nearby area, while “nearby” means located close to a stated place; related location concepts but different parts of speech and senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "167484450cb826c0349f136ff917f7ccefdcff6d9df5347dd9e3e0a9f1344b29"
+}

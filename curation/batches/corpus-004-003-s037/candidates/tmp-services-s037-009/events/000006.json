@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-17T04:42:13.276793+00:00",
+  "input_digest": "a1946bb969b575458092271a6b276445bd5aad81a19375e21f381e1d988e16e7",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The cue 'service application' can ambiguously suggest a software application.\"], \"material_concerns\": [], \"rationale\": \"Both forms denote a request to start or receive a service. 'Pengajuan layanan' is a natural Indonesian choice, while 'permohonan perkhidmatan' is the corresponding formal Malaysian Malay preference.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"request for a service\", \"cue_rationale\": \"The rewritten cue removes the software-application reading while preserving the intended request sense for both answers.\", \"shared_synonym_case\": \"nonpreferred-alternative\", \"shared_synonym_rationale\": \"Forms such as 'permohonan layanan' may be understood in Indonesian, but are more formal or less usual there; this does not undermine the useful Indonesian\\u2013Malaysian preference.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Register may vary by institution, with Indonesian sometimes using more formal 'permohonan' in administrative contexts.\", \"preference_risk\": {\"signal\": \"regional-or-register-competition\", \"form\": \"permohonan layanan\", \"language\": \"indonesian\", \"rationale\": \"This formal Indonesian alternative can occur in administrative contexts, though 'pengajuan layanan' remains a credible everyday choice.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The cue 'service application' can ambiguously suggest a software application."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "The rewritten cue removes the software-application reading while preserving the intended request sense for both answers.",
+      "cue_rewrite": "request for a service",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "permohonan layanan",
+        "language": "indonesian",
+        "rationale": "This formal Indonesian alternative can occur in administrative contexts, though 'pengajuan layanan' remains a credible everyday choice.",
+        "signal": "regional-or-register-competition"
+      },
+      "rationale": "Both forms denote a request to start or receive a service. 'Pengajuan layanan' is a natural Indonesian choice, while 'permohonan perkhidmatan' is the corresponding formal Malaysian Malay preference.",
+      "relation": "different-common-word",
+      "risk_rationale": "Register may vary by institution, with Indonesian sometimes using more formal 'permohonan' in administrative contexts.",
+      "shared_synonym_case": "nonpreferred-alternative",
+      "shared_synonym_rationale": "Forms such as 'permohonan layanan' may be understood in Indonesian, but are more formal or less usual there; this does not undermine the useful Indonesian–Malaysian preference.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The cue 'service application' can ambiguously suggest a software application."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "The rewritten cue removes the software-application reading while preserving the intended request sense for both answers.",
+    "cue_rewrite": "request for a service",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "permohonan layanan",
+      "language": "indonesian",
+      "rationale": "This formal Indonesian alternative can occur in administrative contexts, though 'pengajuan layanan' remains a credible everyday choice.",
+      "signal": "regional-or-register-competition"
+    },
+    "rationale": "Both forms denote a request to start or receive a service. 'Pengajuan layanan' is a natural Indonesian choice, while 'permohonan perkhidmatan' is the corresponding formal Malaysian Malay preference.",
+    "relation": "different-common-word",
+    "risk_rationale": "Register may vary by institution, with Indonesian sometimes using more formal 'permohonan' in administrative contexts.",
+    "shared_synonym_case": "nonpreferred-alternative",
+    "shared_synonym_rationale": "Forms such as 'permohonan layanan' may be understood in Indonesian, but are more formal or less usual there; this does not undermine the useful Indonesian–Malaysian preference.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "a4e1b824fe399c56a5c223ae5ae9ff6ca67b17f2b8a0f839021f22931fc0a708"
+}

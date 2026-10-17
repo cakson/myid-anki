@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 24919,
+  "input_tokens": 100407,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1724,
+  "packet_digest": "b903a843a5e2c23740a48c57d6bb203e30dbd594b6f3c24c478ea7025311b5cd",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"Both answers are acceptable, but the national contrast is materially overstated. Indonesian mantan pacar and Malaysian bekas teman wanita are natural equivalents, while bekas pacar is also a plausible Indonesian form and bekas kekasih is an ordinary Malaysian alternative. The relation should be shared-synonym-preference rather than different-common-word. No meaningful false-friend contrast is present.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Correct: ex-girlfriend denotes a former female romantic partner.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=teman+wanita\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: mantan pacar\",\n      \"conclusion\": \"Accepted and semantically correct. Pacar means a romantic partner, and mantan is used for a former status; everyday Indonesian also uses bekas pacar.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.web.id/pacar\",\n        \"https://kbbi.lektur.id/mantan\",\n        \"https://literasihukum.bphn.go.id/konsultasi-hukum/28939\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: bekas teman wanita\",\n      \"conclusion\": \"Accepted and semantically correct. Malaysian reference sources define teman wanita as girlfriend, bekas as former, and Malaysian media use the full phrase.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=teman+wanita\",\n        \"https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bekas\",\n        \"https://www.astroawani.com/topic/bekas-teman-wanita\"\n      ]\n    },\n    {\n      \"subject\": \"National relation: different-common-word\",\n      \"conclusion\": \"Overstated. The forms differ, but the ordinary equivalents overlap cross-variety: Indonesian bekas pacar is possible, while Malaysian bekas kekasih is also common. This is better modeled as shared-synonym-preference.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://literasihukum.bphn.go.id/konsultasi-hukum/28939\",\n        \"https://www.mstar.com.my/lokal/viral/2018/12/24/sahabat-isteri-bekas-teman-wanita\",\n        \"https://www.kosmo.com.my/2023/10/18/tampar-bekas-teman-wanita-kerana-salah-faham/\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No substantive false-friend contrast is supported. Teman wanita is a Malaysian expression for girlfriend; its literal components may invite an Indonesian learner inference of female friend, but that is not enough to justify a false-friend claim.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"Available sources establish Malaysian usage but do not provide a controlled cross-variety false-friend analysis.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct: ex-girlfriend denotes a former female romantic partner.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=teman+wanita"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Accepted and semantically correct. Pacar means a romantic partner, and mantan is used for a former status; everyday Indonesian also uses bekas pacar.",
+        "evidence_refs": [
+          "https://kbbi.web.id/pacar",
+          "https://kbbi.lektur.id/mantan",
+          "https://literasihukum.bphn.go.id/konsultasi-hukum/28939"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: mantan pacar"
+      },
+      {
+        "conclusion": "Accepted and semantically correct. Malaysian reference sources define teman wanita as girlfriend, bekas as former, and Malaysian media use the full phrase.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=teman+wanita",
+          "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bekas",
+          "https://www.astroawani.com/topic/bekas-teman-wanita"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: bekas teman wanita"
+      },
+      {
+        "conclusion": "Overstated. The forms differ, but the ordinary equivalents overlap cross-variety: Indonesian bekas pacar is possible, while Malaysian bekas kekasih is also common. This is better modeled as shared-synonym-preference.",
+        "evidence_refs": [
+          "https://literasihukum.bphn.go.id/konsultasi-hukum/28939",
+          "https://www.mstar.com.my/lokal/viral/2018/12/24/sahabat-isteri-bekas-teman-wanita",
+          "https://www.kosmo.com.my/2023/10/18/tampar-bekas-teman-wanita-kerana-salah-faham/"
+        ],
+        "material_risk": true,
+        "subject": "National relation: different-common-word"
+      },
+      {
+        "conclusion": "No substantive false-friend contrast is supported. Teman wanita is a Malaysian expression for girlfriend; its literal components may invite an Indonesian learner inference of female friend, but that is not enough to justify a false-friend claim.",
+        "evidence_limitation": "Available sources establish Malaysian usage but do not provide a controlled cross-variety false-friend analysis.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers are acceptable, but the national contrast is materially overstated. Indonesian mantan pacar and Malaysian bekas teman wanita are natural equivalents, while bekas pacar is also a plausible Indonesian form and bekas kekasih is an ordinary Malaysian alternative. The relation should be shared-synonym-preference rather than different-common-word. No meaningful false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

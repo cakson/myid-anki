@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5280,
+  "input_digest": "1f41d530c8144f3ed39cc7fcaf678a2fdfd9833f0ae0f65c650491927b98b4f5",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 224,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"tb25-health-001:health-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Dentist is a health professional specializing in teeth, whereas doctor is a general medical professional; the cues and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-health-001:health-02",
+          "rationale": "Dentist is a health professional specializing in teeth, whereas doctor is a general medical professional; the cues and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

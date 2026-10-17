@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-16T20:04:48.479751+00:00",
+  "input_digest": "8e1e9b6778163287a59cc8cc6d5170741bb70fcf1ea03dead978848001b4c6ea",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"Indonesian commonly also uses \\\"ibu mertua\\\" for this sense.\"], \"material_concerns\": [], \"rationale\": \"Both answers denote the mother of one's spouse. \\\"Mertua perempuan\\\" is a valid Indonesian form, while Malaysian commonly uses \\\"ibu mentua\\\"; the contrast is useful but not exclusive.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers fit the specific sense \\\"mother of one's spouse.\\\"\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Indonesian also commonly uses \\\"ibu mertua,\\\" but this does not eliminate the useful contrast with Malaysian \\\"ibu mentua\\\" and Indonesian \\\"mertua perempuan.\\\"\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"The Indonesian answer is somewhat less usual than \\\"ibu mertua\\\" in many contexts.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"ibu mertua\", \"language\": \"indonesian\", \"rationale\": \"\\\"Ibu mertua\\\" is a plausible everyday Indonesian alternative for the same sense.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "Indonesian commonly also uses \"ibu mertua\" for this sense."
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers fit the specific sense \"mother of one's spouse.\"",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "ibu mertua",
+        "language": "indonesian",
+        "rationale": "\"Ibu mertua\" is a plausible everyday Indonesian alternative for the same sense.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "Both answers denote the mother of one's spouse. \"Mertua perempuan\" is a valid Indonesian form, while Malaysian commonly uses \"ibu mentua\"; the contrast is useful but not exclusive.",
+      "relation": "different-common-word",
+      "risk_rationale": "The Indonesian answer is somewhat less usual than \"ibu mertua\" in many contexts.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Indonesian also commonly uses \"ibu mertua,\" but this does not eliminate the useful contrast with Malaysian \"ibu mentua\" and Indonesian \"mertua perempuan.\"",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "Indonesian commonly also uses \"ibu mertua\" for this sense."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers fit the specific sense \"mother of one's spouse.\"",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "ibu mertua",
+      "language": "indonesian",
+      "rationale": "\"Ibu mertua\" is a plausible everyday Indonesian alternative for the same sense.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "Both answers denote the mother of one's spouse. \"Mertua perempuan\" is a valid Indonesian form, while Malaysian commonly uses \"ibu mentua\"; the contrast is useful but not exclusive.",
+    "relation": "different-common-word",
+    "risk_rationale": "The Indonesian answer is somewhat less usual than \"ibu mertua\" in many contexts.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Indonesian also commonly uses \"ibu mertua,\" but this does not eliminate the useful contrast with Malaysian \"ibu mentua\" and Indonesian \"mertua perempuan.\"",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "4a70bbdbd464d0332fe064f5a87b32327dbe39c42e04bf10754e759761c8534f"
+}

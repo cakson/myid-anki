@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 11386,
+  "input_digest": "58726b125f9a1d81b6bc85b222d0ddbe63279e02d4028948cb9fd79ae4a77ae0",
+  "input_tokens": 14299,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1114,
+  "raw_text": "{\n  \"verdict\": \"object\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"The Indonesian answer menempel is normally intransitive ('to stick/be attached'); the transitive form for applying material is menempelkan.\"\n  ],\n  \"material_concerns\": [\n    \"The proposed Indonesian form does not reliably express the act of pasting material onto a surface, so the pair may misteach the target sense.\"\n  ],\n  \"rationale\": \"Malaysian menampal is a normal transitive verb for pasting or affixing material. Indonesian menempel usually describes something sticking or being attached, while menempelkan is the clearer form for attaching it.\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"material-risk\",\n  \"cue_rewrite\": \"\",\n  \"cue_rationale\": \"No concise cue preserves the exact transitive act while making bare Indonesian menempel and Malaysian menampal equally precise.\",\n  \"shared_synonym_case\": \"useful-preference\",\n  \"shared_synonym_rationale\": \"Forms such as melekatkan may be understood in both varieties, but Indonesian menempelkan and Malaysian menampal remain useful ordinary preferences for this action.\",\n  \"nonblocking_risk\": \"none\",\n  \"risk_rationale\": \"\",\n  \"preference_risk\": {\n    \"signal\": \"same-sense-competition\",\n    \"form\": \"menempelkan\",\n    \"language\": \"indonesian\",\n    \"rationale\": \"Menempelkan is the same-sense Indonesian competitor and is more precise for the transitive act of pasting material onto a surface.\"\n  }\n}",
+  "response": {
+    "concerns": [
+      "The Indonesian answer menempel is normally intransitive ('to stick/be attached'); the transitive form for applying material is menempelkan."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue preserves the exact transitive act while making bare Indonesian menempel and Malaysian menampal equally precise.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed Indonesian form does not reliably express the act of pasting material onto a surface, so the pair may misteach the target sense."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "menempelkan",
+      "language": "indonesian",
+      "rationale": "Menempelkan is the same-sense Indonesian competitor and is more precise for the transitive act of pasting material onto a surface.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Malaysian menampal is a normal transitive verb for pasting or affixing material. Indonesian menempel usually describes something sticking or being attached, while menempelkan is the clearer form for attaching it.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Forms such as melekatkan may be understood in both varieties, but Indonesian menempelkan and Malaysian menampal remain useful ordinary preferences for this action.",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

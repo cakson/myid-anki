@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:47:53.609502+00:00",
+  "input_digest": "4ccbe20b1228f7c3147baf2073c9104b8809342d460ca6c096e80cac342a9ea9",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s040:tmp-shopping-s040-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A product description is written information about a product's features or qualities, whereas packaging is the material or presentation used to package it.\"}, {\"other_id\": \"cal2-work-001:work-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A product description specifically describes a product; a report is a broader written account of information or findings.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s040:tmp-shopping-s040-001",
+          "rationale": "A product description is written information about a product's features or qualities, whereas packaging is the material or presentation used to package it.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-09",
+          "rationale": "A product description specifically describes a product; a report is a broader written account of information or findings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s040:tmp-shopping-s040-001",
+        "rationale": "A product description is written information about a product's features or qualities, whereas packaging is the material or presentation used to package it.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-09",
+        "rationale": "A product description specifically describes a product; a report is a broader written account of information or findings.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "a25c6171c7c92c25585f982a5627be44a4e4a295c08fade2d710326068f78925"
+}

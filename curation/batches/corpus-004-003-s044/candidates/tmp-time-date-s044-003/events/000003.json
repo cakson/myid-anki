@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-17T04:55:42.896448+00:00",
+  "input_digest": "37442d69dad6e6d7ea43e3c42d34744f86238d970856ef8eba59585bdd785b08",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s037:tmp-services-s037-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cduration\\u201d means the length of time something lasts generally, while \\u201cvalidity period\\u201d specifically means the interval during which a document or service remains valid.\"}, {\"other_id\": \"corpus-004-003-s045:tmp-time-date-s045-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cduration\\u201d denotes elapsed length, whereas \\u201ctime\\u201d is a broad general reference to time.\"}, {\"other_id\": \"corpus-004-003-s045:tmp-time-date-s045-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cduration\\u201d is a general length of time; \\u201cdecade\\u201d is a fixed period of ten years.\"}, {\"other_id\": \"corpus-004-003-s044:tmp-time-date-s044-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cduration\\u201d is a general length of time; \\u201cleap year\\u201d is a calendar year containing an extra day.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-011",
+          "rationale": "“duration” means the length of time something lasts generally, while “validity period” specifically means the interval during which a document or service remains valid.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s045:tmp-time-date-s045-001",
+          "rationale": "“duration” denotes elapsed length, whereas “time” is a broad general reference to time.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s045:tmp-time-date-s045-006",
+          "rationale": "“duration” is a general length of time; “decade” is a fixed period of ten years.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s044:tmp-time-date-s044-011",
+          "rationale": "“duration” is a general length of time; “leap year” is a calendar year containing an extra day.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-011",
+        "rationale": "“duration” means the length of time something lasts generally, while “validity period” specifically means the interval during which a document or service remains valid.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s045:tmp-time-date-s045-001",
+        "rationale": "“duration” denotes elapsed length, whereas “time” is a broad general reference to time.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s045:tmp-time-date-s045-006",
+        "rationale": "“duration” is a general length of time; “decade” is a fixed period of ten years.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s044:tmp-time-date-s044-011",
+        "rationale": "“duration” is a general length of time; “leap year” is a calendar year containing an extra day.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "e88ef2ee5ef389fae713e131bc0ccc998e9662dddf049db96c16c272e8375596"
+}

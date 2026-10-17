@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:57:04.759099+00:00",
+  "input_digest": "ddae33e5f1a568da12484a5120d0b223d2635507f252b12faa05335de66d1765",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s005:tmp-common-adjectives-s005-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"public is an adjective meaning open to or serving the general public; public holiday is an official non-working day.\"}, {\"other_id\": \"fresh-travel-001:travel-06\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"vacation is a period away from work or school, while public holiday is a specific official non-working day.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-003",
+          "rationale": "public is an adjective meaning open to or serving the general public; public holiday is an official non-working day.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-travel-001:travel-06",
+          "rationale": "vacation is a period away from work or school, while public holiday is a specific official non-working day.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-003",
+        "rationale": "public is an adjective meaning open to or serving the general public; public holiday is an official non-working day.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-travel-001:travel-06",
+        "rationale": "vacation is a period away from work or school, while public holiday is a specific official non-working day.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8a1e22d5b67c05ad0ded9e4fb89c02c84fd04148bd1362ef701c3dcb4efa6cea"
+}

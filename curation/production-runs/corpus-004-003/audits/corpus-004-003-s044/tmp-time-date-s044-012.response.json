@@ -1,0 +1,57 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 25955,
+  "input_tokens": 97125,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1303,
+  "packet_digest": "ed367ac137fe41fb260ca4a83ec56d2c40adc1135fc8604617263245ee2f0864",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both forms can express anniversary, but the card incorrectly presents them as distinct national words. Indonesian hari jadi and Malaysian ulang tahun are valid preferences in this sense, yet both languages use overlapping alternatives; the empty contrast does not explain the birthday-related false-friend risk.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Anniversary correctly denotes the yearly recurrence of an event date.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemdikbud.go.id/entri/ulang%20tahun\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ulang+tahun\"]},{\"subject\":\"Indonesian hari jadi\",\"conclusion\":\"Valid for an anniversary of an event, institution, or place, but it also means birthday and establishment/inauguration day; it is not an exclusive Indonesian equivalent.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/hari\",\"https://kbbi.web.id/ulang%20tahun\"]},{\"subject\":\"Malaysian Malay ulang tahun\",\"conclusion\":\"Valid for an annual anniversary or commemoration, and also used for birthdays; the proposed Malaysian answer is sound for the stated sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ulang+tahun\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hari+jadi\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"different-common-word is misleading because hari jadi and ulang tahun overlap across Indonesian and Malaysian Malay. The blank contrast fails to warn that both may refer to birthdays, while event anniversaries are context-dependent.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/hari\",\"https://kbbi.web.id/ulang%20tahun\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ulang+tahun\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hari+jadi\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Anniversary correctly denotes the yearly recurrence of an event date.",
+        "evidence_refs": [
+          "https://kbbi.kemdikbud.go.id/entri/ulang%20tahun",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ulang+tahun"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid for an anniversary of an event, institution, or place, but it also means birthday and establishment/inauguration day; it is not an exclusive Indonesian equivalent.",
+        "evidence_refs": [
+          "https://kbbi.web.id/hari",
+          "https://kbbi.web.id/ulang%20tahun"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian hari jadi"
+      },
+      {
+        "conclusion": "Valid for an annual anniversary or commemoration, and also used for birthdays; the proposed Malaysian answer is sound for the stated sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ulang+tahun",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hari+jadi"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay ulang tahun"
+      },
+      {
+        "conclusion": "different-common-word is misleading because hari jadi and ulang tahun overlap across Indonesian and Malaysian Malay. The blank contrast fails to warn that both may refer to birthdays, while event anniversaries are context-dependent.",
+        "evidence_refs": [
+          "https://kbbi.web.id/hari",
+          "https://kbbi.web.id/ulang%20tahun",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ulang+tahun",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hari+jadi"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both forms can express anniversary, but the card incorrectly presents them as distinct national words. Indonesian hari jadi and Malaysian ulang tahun are valid preferences in this sense, yet both languages use overlapping alternatives; the empty contrast does not explain the birthday-related false-friend risk.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,66 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 24918,
+  "input_tokens": 98922,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 2015,
+  "packet_digest": "5791e8300c5d9de970748caa4940987afa7b91a3362d7e6f830b885a0bf8abb6",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"The national split is a useful lexical-preference contrast, not a categorical exclusive distinction. Indonesian airline usage supports \\\"konter check-in,\\\" while Malaysian institutional usage supports \\\"kaunter daftar masuk.\\\" Mixed forms such as \\\"kaunter check-in\\\" also occur in Malaysia, so the distinction should be understood as a variety preference. The English cue and sense are accurate, both answers are acceptable, the relation is appropriately different-common-word, and no genuine false-friend contrast is present.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Accurate: a check-in counter is the airport service counter where passengers complete check-in and related baggage or document procedures.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581\",\n        \"https://www.malaysiaairlines.com/content/dam/mas/pdf/fly-confidence/Fly-with-confidence/MS/e-leaflet%20mobile-19%20June%20-%20BM.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: konter check-in\",\n      \"conclusion\": \"Accepted and ordinary in Indonesian aviation usage. Garuda Indonesia repeatedly uses \\\"konter check-in\\\" for the airport check-in counter.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581\",\n        \"https://www.airasia.com/aa/about-us/id/id/terms-and-conditions-z2.html\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: kaunter daftar masuk\",\n      \"conclusion\": \"Accepted and well-attested in Malaysian Malay. Malaysian Airlines, Bernama, Malaysia Airports-related reporting, and DBP terminology use kaunter for a service counter and daftar masuk for check-in.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.bernama.com/bm/news.php?id=2572182\",\n        \"https://www.malaysiaairlines.com/content/dam/mas/pdf/fly-confidence/Fly-with-confidence/MS/e-leaflet%20mobile-19%20June%20-%20BM.pdf\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kaunter\"\n      ]\n    },\n    {\n      \"subject\": \"National-overlap risk and relation\",\n      \"conclusion\": \"The split is not materially overstated if framed as a common lexical preference rather than an exclusive national rule. Malaysia also uses the mixed form kaunter check-in, and check-in itself is shared; nevertheless, the submitted pair remains a valid different-common-word contrast.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://support.airasia.com/s/article/COUNTER-CHECK-IN-SERVICE?language=ms\",\n        \"https://www.malaysiaairlines.com/content/dam/mas/pdf/fly-confidence/Fly-with-confidence/MS/e-leaflet%20mobile-19%20June%20-%20BM.pdf\",\n        \"https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is warranted. Konter and kaunter are corresponding adaptations of English counter, and check-in is shared terminology; the distinction is varietal preference, not divergent meaning. The empty contrast field does not create a learner-critical error.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kaunter\",\n        \"https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate: a check-in counter is the airport service counter where passengers complete check-in and related baggage or document procedures.",
+        "evidence_refs": [
+          "https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581",
+          "https://www.malaysiaairlines.com/content/dam/mas/pdf/fly-confidence/Fly-with-confidence/MS/e-leaflet%20mobile-19%20June%20-%20BM.pdf"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Accepted and ordinary in Indonesian aviation usage. Garuda Indonesia repeatedly uses \"konter check-in\" for the airport check-in counter.",
+        "evidence_refs": [
+          "https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581",
+          "https://www.airasia.com/aa/about-us/id/id/terms-and-conditions-z2.html"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: konter check-in"
+      },
+      {
+        "conclusion": "Accepted and well-attested in Malaysian Malay. Malaysian Airlines, Bernama, Malaysia Airports-related reporting, and DBP terminology use kaunter for a service counter and daftar masuk for check-in.",
+        "evidence_refs": [
+          "https://www.bernama.com/bm/news.php?id=2572182",
+          "https://www.malaysiaairlines.com/content/dam/mas/pdf/fly-confidence/Fly-with-confidence/MS/e-leaflet%20mobile-19%20June%20-%20BM.pdf",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kaunter"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: kaunter daftar masuk"
+      },
+      {
+        "conclusion": "The split is not materially overstated if framed as a common lexical preference rather than an exclusive national rule. Malaysia also uses the mixed form kaunter check-in, and check-in itself is shared; nevertheless, the submitted pair remains a valid different-common-word contrast.",
+        "evidence_refs": [
+          "https://support.airasia.com/s/article/COUNTER-CHECK-IN-SERVICE?language=ms",
+          "https://www.malaysiaairlines.com/content/dam/mas/pdf/fly-confidence/Fly-with-confidence/MS/e-leaflet%20mobile-19%20June%20-%20BM.pdf",
+          "https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581"
+        ],
+        "material_risk": false,
+        "subject": "National-overlap risk and relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is warranted. Konter and kaunter are corresponding adaptations of English counter, and check-in is shared terminology; the distinction is varietal preference, not divergent meaning. The empty contrast field does not create a learner-critical error.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kaunter",
+          "https://www.garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/check-in/index.html?lang=id&loc=id&v=8773d521-5ddd-48bd-963d-10beb7c08581"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "The national split is a useful lexical-preference contrast, not a categorical exclusive distinction. Indonesian airline usage supports \"konter check-in,\" while Malaysian institutional usage supports \"kaunter daftar masuk.\" Mixed forms such as \"kaunter check-in\" also occur in Malaysia, so the distinction should be understood as a variety preference. The English cue and sense are accurate, both answers are acceptable, the relation is appropriately different-common-word, and no genuine false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

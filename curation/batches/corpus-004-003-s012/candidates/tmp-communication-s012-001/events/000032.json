@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:33:29.804747+00:00",
+  "result": {
+    "candidate_digest": "e14463cd52cbcde908222d62d1da7b4333aa9a20094ccec9ff49cb8bac7237bf",
+    "candidate_id": "tmp-communication-s012-001",
+    "checked_at": "2026-10-17T06:33:29.804747+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Fresh independent audit after QA cue correction found a learner-critical overlap issue: koran and akhbar are preferred forms but shared alternatives are ordinary, so the relation remains overstated. Keep withdrawn and held pending a reviewed correction and fresh independent clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

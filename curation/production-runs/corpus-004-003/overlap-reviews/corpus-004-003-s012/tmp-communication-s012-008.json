@@ -1,0 +1,77 @@
+{
+  "attempt_id": "51f26d2d418685ba",
+  "candidate_id": "tmp-communication-s012-008",
+  "claim_reviews": [
+    {
+      "conclusion": "“Contact information” and “details used to contact a person” are correctly aligned.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=contact+details"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Ordinary Indonesian usage is supported by official government pages using “Informasi Kontak” for address, telephone, email, and related contact details.",
+      "evidence_refs": [
+        "https://formasi.menpan.go.id/contact",
+        "https://www.kemhan.go.id/pusdatin/hubungi-kami"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: informasi kontak"
+    },
+    {
+      "conclusion": "Correct and standard Malaysian Malay; DBP explicitly gives “maklumat perhubungan” as the equivalent of “contact info,” and Malaysian government sites use it as a contact-information heading.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Perhubungan",
+        "https://portalddms.malaysia.gov.my/hubungi-kami/maklumat-perhubungan/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: maklumat perhubungan"
+    },
+    {
+      "conclusion": "The forms differ lexically, but the distinction is a usage preference rather than exclusive ownership. Malaysian also has accepted alternatives such as “butiran perhubungan,” and “perhubungan” overlaps broadly with Indonesian “hubungan.” The relation remains defensible if understood as different common wording, not a strict national boundary.",
+      "evidence_refs": [
+        "https://dbook.penerangan.gov.my/dbook/dmdocuments/mpa/files/basic-html/page13.html",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=butiran",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Perhubungan"
+      ],
+      "material_risk": false,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted: both answers retain the intended contact-information sense. The empty contrast field is acceptable.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=contact+details",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Perhubungan"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "7fcc0202720beb787da5aa3a4190ca57e1df2eae32601f4967c273952fbd5cd3",
+  "correction_refs": [],
+  "decision_digest": "4f62d3f5ae867420691919b4e45d5c32a40e39bed3cd4c15beaa08241cbbd8aa",
+  "elapsed_ms": 29053,
+  "finding_class": "none",
+  "input_tokens": 97403,
+  "model_calls": 1,
+  "output_tokens": 1928,
+  "packet_digest": "edb83c7d0a63bc6b5aaf740c62ae98d45f72a9a003f0be8fd7a89183c801c0e7",
+  "rationale": "The two answers are ordinary, semantically aligned forms: Indonesian “informasi kontak” is evidenced in official Indonesian government usage, while Malaysian DBP explicitly recommends “maklumat perhubungan” for “contact info.” Related alternatives and cross-variety intelligibility mean the distinction should not imply exclusive national ownership, but the different-common-word relation is not materially overstated. No false-friend contrast is required because neither answer has a misleading divergent sense.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:41:26.211549+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s012/tmp-communication-s012-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s012",
+  "verdict": "cleared"
+}

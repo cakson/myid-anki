@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T20:11:42.968866+00:00",
+  "input_digest": "b63ee2b3e7e8b0a16e76707de3d090daf487edd24a0e0b1e71ea2b5d479eb70d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cTransfer bank\\u201d is ordinary Indonesian, while Malaysian Malay commonly uses \\u201cpindahan bank\\u201d for the same movement of money between accounts.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote a bank transfer, specifically movement of money between bank accounts.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cPemindahan wang\\u201d is also understandable and used in Malaysian Malay, especially in formal contexts, but \\u201cpindahan bank\\u201d remains a useful Malaysian preference against Indonesian \\u201ctransfer bank.\\u201d\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Malaysian usage also varies between \\u201cpindahan bank\\u201d and \\u201cpemindahan wang\\u201d by context and register.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"pemindahan wang\", \"language\": \"malaysian\", \"rationale\": \"\\u201cPemindahan wang\\u201d is a plausible ordinary Malaysian alternative, particularly in formal or descriptive contexts.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote a bank transfer, specifically movement of money between bank accounts.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "pemindahan wang",
+        "language": "malaysian",
+        "rationale": "“Pemindahan wang” is a plausible ordinary Malaysian alternative, particularly in formal or descriptive contexts.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "“Transfer bank” is ordinary Indonesian, while Malaysian Malay commonly uses “pindahan bank” for the same movement of money between accounts.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian usage also varies between “pindahan bank” and “pemindahan wang” by context and register.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Pemindahan wang” is also understandable and used in Malaysian Malay, especially in formal contexts, but “pindahan bank” remains a useful Malaysian preference against Indonesian “transfer bank.”",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote a bank transfer, specifically movement of money between bank accounts.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "pemindahan wang",
+      "language": "malaysian",
+      "rationale": "“Pemindahan wang” is a plausible ordinary Malaysian alternative, particularly in formal or descriptive contexts.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "“Transfer bank” is ordinary Indonesian, while Malaysian Malay commonly uses “pindahan bank” for the same movement of money between accounts.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian usage also varies between “pindahan bank” and “pemindahan wang” by context and register.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Pemindahan wang” is also understandable and used in Malaysian Malay, especially in formal contexts, but “pindahan bank” remains a useful Malaysian preference against Indonesian “transfer bank.”",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "8a1c1637f846dacf28789873d62d62407a89651966b50d1147bec8767ea89d60"
+}

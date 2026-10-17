@@ -1,0 +1,72 @@
+{
+  "attempt_id": "65964bea52a0384f",
+  "candidate_id": "tmp-common-adjectives-s005-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Appropriately narrows the broad English cue ‘public’ to the intended sense.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/umum"
+      ],
+      "material_risk": false,
+      "subject": "English cue: ‘for the general public’"
+    },
+    {
+      "conclusion": "Correct; KBBI defines umum as ‘for many people/anyone’ and as the general public.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/umum"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: umum"
+    },
+    {
+      "conclusion": "Correct; PRPM defines awam as concerning the public and as intended for or open to everyone.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=Awam"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: awam"
+    },
+    {
+      "conclusion": "Acceptable as a contrast of ordinary local preferences: umum is a natural Indonesian choice, while awam is a natural Malaysian choice. The relation should not imply that umum is unavailable in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=Awam",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=publik"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present; neither answer is misleading for the stated sense.",
+      "evidence_limitation": "No contrast field was supplied, so this review assesses only the absence of an apparent false-friend issue.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a9cd7af685a3d4af37125b0dbcc0d57d8dd73cb50614469d827944eb94177388",
+  "correction_refs": [],
+  "decision_digest": "5ea3e88a16e73aba21f888e656afba49c5aa1fd231e25b4ad4000372c93eecc6",
+  "elapsed_ms": 17909,
+  "finding_class": "none",
+  "input_tokens": 51330,
+  "model_calls": 1,
+  "output_tokens": 1252,
+  "packet_digest": "7532f9b07e0859784d8053c50392ccb500d7fb433a54db1ab9f099cd9407ea93",
+  "rationale": "Both answers fit the narrowed cue. Indonesian umum directly covers ‘for the general public’; Malaysian awam directly covers things involving or open to the public. The different-common-word relation is acceptable as a preference contrast, though umum also exists in Malaysian Malay. No false-friend contrast is supplied or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:21:03.004207+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s005/tmp-common-adjectives-s005-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s005",
+  "verdict": "cleared"
+}

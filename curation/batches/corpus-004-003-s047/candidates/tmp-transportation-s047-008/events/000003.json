@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T05:02:06.368583+00:00",
+  "input_digest": "26fe6b9d392b2262e486915f1abc39458c9c07dc45654567117d82717dc9a50b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s020:tmp-transportation-s020-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Windshield wiper is the device that clears rain from a windshield, while windshield is the vehicle's front glass panel; related components but clearly distinct concepts and answers.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s020:tmp-transportation-s020-002",
+          "rationale": "Windshield wiper is the device that clears rain from a windshield, while windshield is the vehicle's front glass panel; related components but clearly distinct concepts and answers.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s020:tmp-transportation-s020-002",
+        "rationale": "Windshield wiper is the device that clears rain from a windshield, while windshield is the vehicle's front glass panel; related components but clearly distinct concepts and answers.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "8713f6b6ca3002c68f76024c003c8bfa2d5f5d24d8e5c59d6b4eef5e7c2c282f"
+}

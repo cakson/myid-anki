@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4907,
+  "input_digest": "0b7784982ee44b0bebd706e4781fe894c1805cec9b64e268e4cfbb38904d8041",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 235,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s016:tmp-services-s016-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A ticket office is specifically a place where travel tickets are sold, while a service counter is a general public-facing counter for service or payment; their senses and answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s016:tmp-services-s016-001",
+          "rationale": "A ticket office is specifically a place where travel tickets are sold, while a service counter is a general public-facing counter for service or payment; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

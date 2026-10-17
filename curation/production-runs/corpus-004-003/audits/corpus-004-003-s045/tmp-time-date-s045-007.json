@@ -1,0 +1,67 @@
+{
+  "attempt_id": "2b8a9c580a4fadf6",
+  "candidate_id": "tmp-time-date-s045-007",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: “quarter of a year” means one of four three-month periods.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kuartal",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=suku"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct Indonesian term; it denotes a three-month period and is synonymous with triwulan.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kuartal",
+        "https://baru.kbbi.co.id/arti-kata/triwulan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kuartal"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay expression for a quarter of a year.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=suku",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=suku+tahunan%20"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: suku tahun"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate for the selected forms. They are semantic equivalents, not false friends; the existence of Malaysian kuartal and Indonesian triwulan reflects shared or alternative terminology, not an error.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=januari",
+        "https://kbbi.web.id/kuartal"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "559759f90b6561696af1d751c6a3e937f05cec93c1ef0f613c8a6971ce370955",
+  "correction_refs": [],
+  "decision_digest": "75fbb7c9bc9e09436b656b79a3925e6ffb64fc08eb80e66506b29c10ac385418",
+  "elapsed_ms": 18658,
+  "finding_class": "none",
+  "input_tokens": 52093,
+  "model_calls": 1,
+  "output_tokens": 1267,
+  "packet_digest": "39bf960d8e2d7218de5da7254284c7566aae7ad71bb6c2b7ffdda7a3eb34e4c6",
+  "rationale": "Both answers express the same three-month period. Indonesian kuartal is valid and synonymous with triwulan; Malaysian Malay suku tahun is the ordinary equivalent. The differing forms support different-common-word, with no false-friend issue. Triwulan is an additional Indonesian synonym, not a learner-critical error.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:11:41.621331+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s045/tmp-time-date-s045-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "cleared"
+}

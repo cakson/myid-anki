@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T19:37:57.666660+00:00",
+  "input_digest": "a0c83964bf00418460ca14fb22476e64e518e3a6e8aa740e5e475fe41a067325",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s028:tmp-finance-admin-s028-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A generic polite appeal for something differs from a specific loan application submitted to obtain a loan.\"}, {\"other_id\": \"corpus-004-003-s037:tmp-services-s037-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A generic request differs from a service application, which specifically requests starting or receiving a service.\"}, {\"other_id\": \"fresh-work-001:work-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A generic polite request differs from a job application, which formally requests consideration for employment.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-002",
+          "rationale": "A generic polite appeal for something differs from a specific loan application submitted to obtain a loan.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-009",
+          "rationale": "A generic request differs from a service application, which specifically requests starting or receiving a service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-08",
+          "rationale": "A generic polite request differs from a job application, which formally requests consideration for employment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-002",
+        "rationale": "A generic polite appeal for something differs from a specific loan application submitted to obtain a loan.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-009",
+        "rationale": "A generic request differs from a service application, which specifically requests starting or receiving a service.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "fresh-work-001:work-08",
+        "rationale": "A generic polite request differs from a job application, which formally requests consideration for employment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "20291e349f42ab2360b62261ae830b5cbeabf4342d92961bc087aee9a4ca97cd"
+}

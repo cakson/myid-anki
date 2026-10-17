@@ -1,0 +1,52 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20072,
+  "input_tokens": 49713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 927,
+  "packet_digest": "62999e035aaec3125266c545e549e17f3f997949f7d878d50df2dfe5ed237e3a",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers accurately express the validity-period sense. Indonesian \\\"masa berlaku\\\" and Malaysian Malay \\\"tempoh sah\\\" are established, common forms. \\\"Tempoh sah laku\\\" is also common in Malaysian Malay, but its existence does not make \\\"tempoh sah\\\" incorrect. No false-friend contrast is present.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: masa berlaku\",\n      \"conclusion\": \"Correct and idiomatic for the period during which a document remains valid.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://peraturan.bpk.go.id/Details/352504/permen-imipas-no-11-tahun-2026\",\n        \"https://jdih.kemenkeu.go.id/api/download/fulltext/2013/24TAHUN2013UU.htm\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay answer: tempoh sah\",\n      \"conclusion\": \"Correct and established for validity period; Malaysian sources also use the expanded form tempoh sah laku.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=jangka+waktu\",\n        \"https://www.penerangan.gov.my/5-mac-2024-malaysia-tribune-japen-umum-tempoh-sah-laku-baharu-kad-perakuan-media/\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Validity period and the stated document-validity sense align with both Malay answers.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=jangka+waktu\",\n        \"https://peraturan.bpk.go.id/Details/352504/permen-imipas-no-11-tahun-2026\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation and false-friend contrast\",\n      \"conclusion\": \"Different-common-word is appropriate. The forms differ lexically across Indonesian and Malaysian Malay but share the same sense; no misleading false-friend contrast is required.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"Assessment is based on authoritative dictionary and government usage evidence rather than a dedicated false-friend corpus.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and idiomatic for the period during which a document remains valid.",
+        "evidence_refs": [
+          "https://peraturan.bpk.go.id/Details/352504/permen-imipas-no-11-tahun-2026",
+          "https://jdih.kemenkeu.go.id/api/download/fulltext/2013/24TAHUN2013UU.htm"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: masa berlaku"
+      },
+      {
+        "conclusion": "Correct and established for validity period; Malaysian sources also use the expanded form tempoh sah laku.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=jangka+waktu",
+          "https://www.penerangan.gov.my/5-mac-2024-malaysia-tribune-japen-umum-tempoh-sah-laku-baharu-kad-perakuan-media/"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay answer: tempoh sah"
+      },
+      {
+        "conclusion": "Validity period and the stated document-validity sense align with both Malay answers.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=jangka+waktu",
+          "https://peraturan.bpk.go.id/Details/352504/permen-imipas-no-11-tahun-2026"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Different-common-word is appropriate. The forms differ lexically across Indonesian and Malaysian Malay but share the same sense; no misleading false-friend contrast is required.",
+        "evidence_limitation": "Assessment is based on authoritative dictionary and government usage evidence rather than a dedicated false-friend corpus.",
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers accurately express the validity-period sense. Indonesian \"masa berlaku\" and Malaysian Malay \"tempoh sah\" are established, common forms. \"Tempoh sah laku\" is also common in Malaysian Malay, but its existence does not make \"tempoh sah\" incorrect. No false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

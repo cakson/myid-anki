@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 26837,
+  "input_tokens": 98534,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1682,
+  "packet_digest": "f459b18d147f6d56fce74bb479d85c40830b7e4b784ac643b4975f70e6489fa9",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"The national split is not materially overstated. Berbagi is the ordinary Indonesian form, while Malaysian PRPM records berkongsi as the standard Malay form for sharing or using something together. The forms are distinct, although their meanings overlap as direct equivalents. The English cue is acceptable, both answers fit the intended sense, the relation is correctly different-common-word, and no false-friend contrast is required.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: berbagi\",\n      \"conclusion\": \"Supported as the ordinary Indonesian equivalent for sharing or giving part of something to others.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.kemdikbud.go.id/entri/berbagi\"\n      ],\n      \"evidence_limitation\": \"The official KBBI entry was not retrievable during review; confirmation relies on the established Indonesian lexical usage of berbagi.\"\n    },\n    {\n      \"subject\": \"Malaysian answer: berkongsi\",\n      \"conclusion\": \"Supported as standard Malaysian Malay; PRPM defines berkongsi as acting jointly, sharing use, or sharing something with others.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi\"\n      ]\n    },\n    {\n      \"subject\": \"National split and overlap\",\n      \"conclusion\": \"The forms are not the same, and PRPM reports berbagi as absent from its current dictionary while recording berkongsi. The semantic equivalence does not materially invalidate the national distinction.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi\",\n        \"https://prpm.dbp.gov.my/Cari1?d=123312&keyword=berbagi\"\n      ],\n      \"evidence_limitation\": \"Dictionary evidence establishes standard lexical status, not comparative everyday frequency across all Malaysian and Indonesian speech communities.\"\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"To share something with others is an acceptable cue for giving some of what one has or making information, knowledge, or resources available to others. It is narrower than every sense of share but correctly matches this card.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.oxfordlearnersdictionaries.com/definition/english/share_1\"\n      ]\n    },\n    {\n      \"subject\": \"Relation and false-friend contrast\",\n      \"conclusion\": \"Different-common-word is correct. Berbagi and berkongsi are direct cross-variety equivalents rather than false friends, so an empty contrast field is appropriate.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi\",\n        \"https://prpm.dbp.gov.my/Cari1?d=123312&keyword=berbagi\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Supported as the ordinary Indonesian equivalent for sharing or giving part of something to others.",
+        "evidence_limitation": "The official KBBI entry was not retrievable during review; confirmation relies on the established Indonesian lexical usage of berbagi.",
+        "evidence_refs": [
+          "https://kbbi.kemdikbud.go.id/entri/berbagi"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: berbagi"
+      },
+      {
+        "conclusion": "Supported as standard Malaysian Malay; PRPM defines berkongsi as acting jointly, sharing use, or sharing something with others.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: berkongsi"
+      },
+      {
+        "conclusion": "The forms are not the same, and PRPM reports berbagi as absent from its current dictionary while recording berkongsi. The semantic equivalence does not materially invalidate the national distinction.",
+        "evidence_limitation": "Dictionary evidence establishes standard lexical status, not comparative everyday frequency across all Malaysian and Indonesian speech communities.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi",
+          "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=berbagi"
+        ],
+        "material_risk": false,
+        "subject": "National split and overlap"
+      },
+      {
+        "conclusion": "To share something with others is an acceptable cue for giving some of what one has or making information, knowledge, or resources available to others. It is narrower than every sense of share but correctly matches this card.",
+        "evidence_refs": [
+          "https://www.oxfordlearnersdictionaries.com/definition/english/share_1"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Different-common-word is correct. Berbagi and berkongsi are direct cross-variety equivalents rather than false friends, so an empty contrast field is appropriate.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi",
+          "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=berbagi"
+        ],
+        "material_risk": false,
+        "subject": "Relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "The national split is not materially overstated. Berbagi is the ordinary Indonesian form, while Malaysian PRPM records berkongsi as the standard Malay form for sharing or using something together. The forms are distinct, although their meanings overlap as direct equivalents. The English cue is acceptable, both answers fit the intended sense, the relation is correctly different-common-word, and no false-friend contrast is required.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

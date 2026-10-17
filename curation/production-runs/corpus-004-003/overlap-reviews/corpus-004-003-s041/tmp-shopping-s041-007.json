@@ -1,0 +1,71 @@
+{
+  "attempt_id": "5f00a62e43642750",
+  "candidate_id": "tmp-shopping-s041-007",
+  "claim_reviews": [
+    {
+      "conclusion": "“Convenience store” correctly denotes a small shop selling food and other everyday goods, commonly with extended hours. The supplied sense is acceptable but omits the frequent extended-hours nuance.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/convenience-store",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/convenience-store"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid for the Indonesian answer. Indonesian regulatory usage defines minimarket as a modern retail shop selling everyday consumer goods, especially food and household products.",
+      "evidence_refs": [
+        "https://peraturan.bpk.go.id/Download/312980/Perbup%20Brebes%20No%206%20Tahun%202011.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: minimarket"
+    },
+    {
+      "conclusion": "The form is Malay, but authoritative Malaysian reference material describes kedai serbaneka as a very large store selling many kinds of goods in separate sections. That is not a clean match for a small convenience store.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=serbaneka"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: kedai serbaneka"
+    },
+    {
+      "conclusion": "The different-common-word relation is materially overstated. “Minimarket” is explicitly used for a Malaysian chain, showing that the Indonesian form overlaps with Malaysian usage rather than being nationally exclusive.",
+      "evidence_refs": [
+        "https://www.99speedmart.com.my/"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and relation"
+    },
+    {
+      "conclusion": "No contrast is present in learner content. Available evidence does not establish a false-friend distinction; the main issue is answer scope and cross-variety overlap.",
+      "evidence_limitation": "The record contains no contrast field, and no dedicated comparative corpus evidence was located for a false-friend distinction.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ef9ed9c028f51ddbe556423770642f4e941c8b806011de9b6ddafa3fd658a248",
+  "correction_refs": [],
+  "decision_digest": "fcbef6763f4aee3bc68bb5811df8b4a756ee59d1263f8391be70126faf06792d",
+  "elapsed_ms": 22062,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 101760,
+  "model_calls": 1,
+  "output_tokens": 1625,
+  "packet_digest": "075bb0798e60570e09b17da8820e7f9f59d08b97ed4421526017e1d4adbc346b",
+  "rationale": "The national split is materially overstated. Indonesian “minimarket” is valid, but the same form is established in Malaysian usage; meanwhile, authoritative Malaysian usage describes “kedai serbaneka” as a large, multi-section store, which does not cleanly match the cue’s small-store sense. The different-common-word relation is therefore unsupported. The English cue is broadly correct. No false-friend contrast is supplied.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:11:19.944367+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s041/tmp-shopping-s041-007.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "needs-correction"
+}

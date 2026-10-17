@@ -1,0 +1,69 @@
+{
+  "attempt_id": "c7979ee40b612299",
+  "candidate_id": "tmp-work-s051-012",
+  "claim_reviews": [
+    {
+      "conclusion": "“Business trip” and “trip taken for work purposes” are aligned, though the cue can specifically imply business-related travel rather than any work trip.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=trip"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary Indonesian terminology for an official or business trip.",
+      "evidence_refs": [
+        "https://www.proz.com/kudoz/indonesian-to-english/business-commerce-general/5439907-perjalanan-dinas.html",
+        "https://bijb.co.id/sites/default/files/Annual-Report-PT-BIJB-2018.pdf?usp=sharing"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: perjalanan dinas"
+    },
+    {
+      "conclusion": "Understandable and plausible, but not securely the preferred standard equivalent for “business trip.” DBP’s terminology advice recommends “lawatan kerja”; “perjalanan perniagaan” is also a plausible formal rendering.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=trip",
+        "https://goong.com/ms/word/business-trip-dalam-bahasa-melayu/"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: perjalanan kerja"
+    },
+    {
+      "conclusion": "The relation is too strong as stated. The forms reflect a regional/register preference, but Malaysian usage is variable and the proposed Malaysian form is not clearly the dominant contrastive equivalent.",
+      "evidence_limitation": "No corpus-frequency or dialect-specific usage evidence was supplied to establish “perjalanan kerja” as the common Malaysian preference.",
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied, and none is needed for this pair; the issue is lexical preference and register, not a misleadingly similar form.",
+      "evidence_limitation": "The card contains no explicit contrast field.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "2cfffdb25e1bbcccc489b547d2b749280a86c210420e0716706784b1a53cfea8",
+  "correction_refs": [],
+  "decision_digest": "7887e2ed95bebc42f5cc808ed4eaf251a3e2434029153ff227bd3368e79897b2",
+  "elapsed_ms": 18106,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 51732,
+  "model_calls": 1,
+  "output_tokens": 1113,
+  "packet_digest": "424df910b32f316e3d71dacac3a16cfdad62b12f5f2e70aeb857371b2657285b",
+  "rationale": "The Indonesian answer is appropriate. Malaysian “perjalanan kerja” is understandable and used, but it is not the clearest established equivalent for “business trip”; DBP recommends “lawatan kerja,” while “perjalanan perniagaan” is a formal alternative. Therefore the answer pair and “different-common-word” relation overstate a clean Indonesian–Malaysian contrast. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:19:35.407680+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s051/tmp-work-s051-012.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s051",
+  "verdict": "needs-correction"
+}

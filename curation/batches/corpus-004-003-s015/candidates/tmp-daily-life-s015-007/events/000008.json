@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-16T19:47:53.393966+00:00",
+  "result": {
+    "candidate_digest": "c85cdea097d82b1f4a9fac4f33ef77aad2bbb84bc96d5ec42188ef974e5d28e0",
+    "candidate_id": "tmp-daily-life-s015-007",
+    "checked_at": "2026-10-16T19:47:53.393966+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "Unresolved semantic overlap could create a duplicate concept."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "Unresolved semantic overlap could create a duplicate concept."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

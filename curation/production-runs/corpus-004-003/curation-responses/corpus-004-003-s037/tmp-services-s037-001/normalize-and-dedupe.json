@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6041,
+  "input_digest": "19a59b761db34a6ef72e8d681a45192e09417985a6e96a2c91c9d6feb1c6ff36",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 365,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s039:tmp-services-s039-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An appointment is the scheduled service meeting itself; an appointment reminder is a notice about that meeting.\"},{\"other_id\":\"fresh-travel-001:travel-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A reservation is an advance arrangement securing a seat, room, or service; an appointment is a scheduled meeting for a service.\"},{\"other_id\":\"fresh-work-001:work-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A meeting is a general planned gathering; an appointment specifically denotes a scheduled service meeting.\"},{\"other_id\":\"corpus-004-003-s013:tmp-communication-s013-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An interview is a question-and-answer conversation for assessment or information; an appointment is a scheduled service meeting.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s039:tmp-services-s039-001",
+          "rationale": "An appointment is the scheduled service meeting itself; an appointment reminder is a notice about that meeting.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-travel-001:travel-04",
+          "rationale": "A reservation is an advance arrangement securing a seat, room, or service; an appointment is a scheduled meeting for a service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "fresh-work-001:work-02",
+          "rationale": "A meeting is a general planned gathering; an appointment specifically denotes a scheduled service meeting.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s013:tmp-communication-s013-001",
+          "rationale": "An interview is a question-and-answer conversation for assessment or information; an appointment is a scheduled service meeting.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,86 @@
+{
+  "attempt_id": "50352e0af1a75123",
+  "candidate_id": "tmp-common-adjectives-s005-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate. Permanent means lasting for a long time or forever, consistent with lasting indefinitely.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/permanent"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and ordinary for the intended Indonesian sense; KBBI defines permanen as tetap, not temporary, and lasting without meaningful change.",
+      "evidence_refs": [
+        "https://kbbi.web.id/permanen"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: permanen"
+    },
+    {
+      "conclusion": "Valid and well-supported for Malaysian Malay; PRPM defines kekal as continuing, not disappearing or changing, and synonymous with tetap.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kekal"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kekal"
+    },
+    {
+      "conclusion": "Material overlap exists. Malaysian PRPM records permanen as an accepted form meaning kekal or tetap, while tetap itself covers permanent or non-temporary meanings in both varieties. The pair therefore teaches a usage preference, not a clean national-exclusive contrast. Dictionary evidence confirms acceptance but does not establish comparative frequency.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kekal+nya",
+        "https://kbbi.web.id/tetap"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and national split"
+    },
+    {
+      "conclusion": "Different-common-word is too categorical for the current card. It should be revised to a preference-oriented relation or accompanied by an explicit note that permanen is also accepted in Malaysian Malay and tetap is shared.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kekal+nya",
+        "https://kbbi.web.id/tetap"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false friend is present. Permanen and permanent are transparently related, and the Indonesian and Malaysian forms overlap semantically. The blank contrast field should explicitly say that this is a shared-equivalent/preference contrast rather than a false-friend contrast.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/permanent",
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=permanen",
+        "https://kbbi.web.id/permanen"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "459de4442a256a3dbf8c0b9447f0a795c1803b72e7fa70d8ffd8318491020226",
+  "correction_refs": [],
+  "decision_digest": "ccade53a4ec6b7fcf7fec75faccda52702a6d83cd8ed58463e544d335e801eca",
+  "elapsed_ms": 30986,
+  "finding_class": "metadata-only",
+  "input_tokens": 137473,
+  "model_calls": 1,
+  "output_tokens": 2121,
+  "packet_digest": "433c5114dde2a86bf2ef5761d0740cb6c1f90040057e63e19b997ce346b30585",
+  "rationale": "Both answers are valid, but the national split is materially overstated. Indonesian uses permanen for the sense, while Malaysian Malay uses kekal; however, Malaysian PRPM also accepts permanen as a synonym for kekal/tetap, and tetap is an accepted equivalent in both varieties. The relation should be reframed as a preference contrast, and the absent contrast field should explicitly state that this is not a false-friend distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:34:09.403246+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s005/tmp-common-adjectives-s005-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s005",
+  "verdict": "needs-correction"
+}

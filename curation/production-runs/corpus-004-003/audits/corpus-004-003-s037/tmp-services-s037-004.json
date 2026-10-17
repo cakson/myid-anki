@@ -1,0 +1,63 @@
+{
+  "attempt_id": "0a07bc8043096f3f",
+  "candidate_id": "tmp-services-s037-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for renewal or extension of a document or service validity.",
+      "evidence_refs": [
+        "https://kamuslengkap.id/kamus/kbbi/arti-kata/perpanjangan/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: perpanjangan"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for renewal, including renewal of licences, certificates, agreements, and validity periods.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=membaharui",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembaharuan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pembaharuan"
+    },
+    {
+      "conclusion": "The cue “renewal” and sense “extending the validity of a service or document” align with both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=membaharui",
+        "https://kamuslengkap.id/kamus/kbbi/arti-kata/perpanjangan/"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate as a preference-level relation. No false-friend contrast is present or needed.",
+      "evidence_limitation": "The evidence confirms the meanings and administrative usage, but does not quantify relative frequency across all Indonesian and Malaysian contexts.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "5218f8cdd2a285b9de41884e325ee6854b02f220770b6555a129a0914cd13e47",
+  "correction_refs": [],
+  "decision_digest": "a1e065bd39b4840de2eff3c30b2569a6bc22385bc68446f703188b4a55bcd540",
+  "elapsed_ms": 17812,
+  "finding_class": "none",
+  "input_tokens": 49378,
+  "model_calls": 1,
+  "output_tokens": 840,
+  "packet_digest": "6a9a4ece99e99b8e16412bb8a5118824f783acb5201b7edf61f8388b105c9261",
+  "rationale": "Both answers are valid for “renewal” in the stated administrative sense. Indonesian perpanjangan denotes extending validity, while Malaysian Malay pembaharuan is an established equivalent for renewal of licences, certificates, agreements, and similar items. The forms are distinct common preferences, not false friends; no contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:00:20.440572+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s037/tmp-services-s037-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s037",
+  "verdict": "cleared"
+}

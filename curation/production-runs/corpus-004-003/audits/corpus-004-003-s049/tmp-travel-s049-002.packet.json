@@ -1,0 +1,90 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-travel-s049-002",
+    "english": "departure",
+    "indonesian": "keberangkatan",
+    "malaysian": "pelepasan",
+    "sense": "act of leaving on a journey",
+    "tags": [
+      "travel",
+      "different-common-word"
+    ]
+  },
+  "candidate_id": "tmp-travel-s049-002",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "berlepas",
+        "language": "malaysian",
+        "rationale": "“Berlepas” is a common Malaysian Malay verb for departing and may be preferred in conversational usage, though “pelepasan” is a standard travel noun.",
+        "signal": "regional-or-register-competition"
+      },
+      "shared_synonym_case": "nonpreferred-alternative",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Keberangkatan” is the ordinary Indonesian noun for departure, while Malaysian Malay commonly uses “pelepasan” in travel and airport contexts. Both express the act of leaving on a journey. Review concern: Malaysian usage may prefer the verb “berlepas” in ordinary sentences, while “pelepasan” is especially common in airport and formal travel contexts.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "nonpreferred-alternative",
+      "regional-register-risk"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "departure",
+    "image": "",
+    "indonesian": "keberangkatan",
+    "malaysian": "pelepasan",
+    "relation": "different-common-word",
+    "tags": "travel different-common-word"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s049"
+}

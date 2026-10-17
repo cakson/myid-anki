@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 28169,
+  "input_tokens": 74429,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1661,
+  "packet_digest": "6a39d9d10c5fef4cdc20b7c21ccb329ae56c8b4c1b0d2dcd1d2769ed2183da37",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"The learner card is substantively correct: memeriksa fits Indonesian, menyemak fits Malaysian Malay, the narrowed cue matches both, and different-common-word is an appropriate relation. However, the production metadata incorrectly claims that mengecek is a shared informal synonym in both countries. Malaysian PRPM defines mengecek as chatting, persuading, or deceiving, creating a false-friend contrast with Indonesian usage. The card itself has no false-friend warning, but the metadata claim should be corrected.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: memeriksa\",\"conclusion\":\"Correct for inspecting, examining, investigating, or verifying something.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/periksa\",\"https://kamuslengkap.id/kamus/kbbi/arti-kata/memeriksa/\"]},{\"subject\":\"Malaysian answer: menyemak\",\"conclusion\":\"Correct and ordinary for examining, reviewing, or rechecking information, documents, or answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyemak+1\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"To inspect or verify something is a suitable narrowed cue for both answers and is safer than the broader to check.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/periksa\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyemak+1\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Valid as a regional lexical contrast, provided it is not interpreted as exclusivity; both languages may have additional alternatives.\",\"material_risk\":false,\"evidence_limitation\":\"The cited dictionaries establish meanings but do not by themselves quantify national frequency or preference.\"},{\"subject\":\"Shared-synonym claim for mengecek\",\"conclusion\":\"Incorrect or materially misleading for Malaysian Malay: PRPM defines mengecek as chatting, persuading, or deceiving, not checking.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=105584&keyword=mengecek\",\"https://www.kbbi.web.id/mengecek\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct for inspecting, examining, investigating, or verifying something.",
+        "evidence_refs": [
+          "https://kbbi.web.id/periksa",
+          "https://kamuslengkap.id/kamus/kbbi/arti-kata/memeriksa/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: memeriksa"
+      },
+      {
+        "conclusion": "Correct and ordinary for examining, reviewing, or rechecking information, documents, or answers.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyemak+1"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: menyemak"
+      },
+      {
+        "conclusion": "To inspect or verify something is a suitable narrowed cue for both answers and is safer than the broader to check.",
+        "evidence_refs": [
+          "https://kbbi.web.id/periksa",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyemak+1"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid as a regional lexical contrast, provided it is not interpreted as exclusivity; both languages may have additional alternatives.",
+        "evidence_limitation": "The cited dictionaries establish meanings but do not by themselves quantify national frequency or preference.",
+        "material_risk": false,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "Incorrect or materially misleading for Malaysian Malay: PRPM defines mengecek as chatting, persuading, or deceiving, not checking.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=105584&keyword=mengecek",
+          "https://www.kbbi.web.id/mengecek"
+        ],
+        "material_risk": true,
+        "subject": "Shared-synonym claim for mengecek"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "The learner card is substantively correct: memeriksa fits Indonesian, menyemak fits Malaysian Malay, the narrowed cue matches both, and different-common-word is an appropriate relation. However, the production metadata incorrectly claims that mengecek is a shared informal synonym in both countries. Malaysian PRPM defines mengecek as chatting, persuading, or deceiving, creating a false-friend contrast with Indonesian usage. The card itself has no false-friend warning, but the metadata claim should be corrected.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

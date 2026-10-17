@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4651,
+  "input_digest": "a3c6bfba03cd14d202cf93d17a0c416272d8bbafb2eb469c9cc71728f7a344b5",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 189,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s008:tmp-emotions-s008-002\",\"type\":\"synonym\",\"resolution\":\"merge\",\"rationale\":\"“frightened” and “scared” both express feeling fear; the candidate’s sense is the same core concept, despite different Indonesian and Malaysian answers.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s008:tmp-emotions-s008-002",
+          "rationale": "“frightened” and “scared” both express feeling fear; the candidate’s sense is the same core concept, despite different Indonesian and Malaysian answers.",
+          "resolution": "merge",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

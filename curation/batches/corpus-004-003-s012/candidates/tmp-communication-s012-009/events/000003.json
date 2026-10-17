@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:41:29.979486+00:00",
+  "input_digest": "260dab6dbfc211688afe6681afef584533441e0620eda4bd46bfbfc68dc59efe",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-work-001:work-06\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"Public speaking as formally speaking before an audience substantially overlaps with presentation as a formal talk given to an audience; the supplied senses do not establish a clear distinction.\"}, {\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Public speaking is the activity or skill of speaking formally before an audience, whereas speaker is the person who speaks.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-work-001:work-06",
+          "rationale": "Public speaking as formally speaking before an audience substantially overlaps with presentation as a formal talk given to an audience; the supplied senses do not establish a clear distinction.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-002",
+          "rationale": "Public speaking is the activity or skill of speaking formally before an audience, whereas speaker is the person who speaks.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-work-001:work-06",
+        "rationale": "Public speaking as formally speaking before an audience substantially overlaps with presentation as a formal talk given to an audience; the supplied senses do not establish a clear distinction.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-002",
+        "rationale": "Public speaking is the activity or skill of speaking formally before an audience, whereas speaker is the person who speaks.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "db6966d795efcb7536920a0b3a57ac62022c994cfc90bf9f88517b7c8ff6a17a"
+}

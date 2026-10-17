@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T20:07:16.664751+00:00",
+  "input_digest": "879b2f081b74b6270614e7b1107b714c3c626fc4f7a85202b62c7bc0e23b3b2f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s025:tmp-family-social-s025-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stepbrother is a male child of one's stepparent, while stepsister is the corresponding female relation; the senses and answers are distinct.\"}, {\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stepbrother is a child of one's stepparent, whereas stepfather is the male spouse of one's parent; these are distinct kinship roles.\"}, {\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sibling is the broader relation of a brother or sister sharing a parent; stepbrother specifically denotes a male child of one's stepparent.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-008",
+          "rationale": "Stepbrother is a male child of one's stepparent, while stepsister is the corresponding female relation; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-008",
+          "rationale": "Stepbrother is a child of one's stepparent, whereas stepfather is the male spouse of one's parent; these are distinct kinship roles.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+          "rationale": "Sibling is the broader relation of a brother or sister sharing a parent; stepbrother specifically denotes a male child of one's stepparent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s025:tmp-family-social-s025-008",
+        "rationale": "Stepbrother is a male child of one's stepparent, while stepsister is the corresponding female relation; the senses and answers are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-008",
+        "rationale": "Stepbrother is a child of one's stepparent, whereas stepfather is the male spouse of one's parent; these are distinct kinship roles.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+        "rationale": "Sibling is the broader relation of a brother or sister sharing a parent; stepbrother specifically denotes a male child of one's stepparent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "c9e7cb2ef83233eae3232c1e4e54c3d7380cb6cd3d87fa22f8abcdf8569aa881"
+}

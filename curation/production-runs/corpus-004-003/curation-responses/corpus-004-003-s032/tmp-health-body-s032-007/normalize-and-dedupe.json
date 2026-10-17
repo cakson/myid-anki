@@ -1,0 +1,50 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7081,
+  "input_digest": "f3b988b29478d09cb0ec48aaf85b1f40e006a1bd3eaefb02e5247368059678cd",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 527,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"MODEL/TOOL\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-health-001:health-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A burn injury is skin damage caused by heat, distinct from a bruise caused by bleeding under the skin.\"},{\"other_id\":\"cal3-health-001:health-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A burn injury is an active heat-caused skin injury, distinct from a scar left after a wound heals.\"},{\"other_id\":\"corpus-004-003-s032:tmp-health-body-s032-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A burn injury is caused by heat, whereas a sprain is caused by twisting a joint.\"},{\"other_id\":\"corpus-004-003-s033:tmp-health-body-s033-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A burn injury affects skin or tissue through heat; a fracture is a broken or cracked bone.\"},{\"other_id\":\"tb25-health-001:health-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A burn injury is the injury itself, whereas a bandage is material used to cover a wound.\"}]}}",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-health-001:health-04",
+          "rationale": "A burn injury is skin damage caused by heat, distinct from a bruise caused by bleeding under the skin.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-health-001:health-05",
+          "rationale": "A burn injury is an active heat-caused skin injury, distinct from a scar left after a wound heals.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s032:tmp-health-body-s032-006",
+          "rationale": "A burn injury is caused by heat, whereas a sprain is caused by twisting a joint.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s033:tmp-health-body-s033-008",
+          "rationale": "A burn injury affects skin or tissue through heat; a fracture is a broken or cracked bone.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "tb25-health-001:health-05",
+          "rationale": "A burn injury is the injury itself, whereas a bandage is material used to cover a wound.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

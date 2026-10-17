@@ -1,0 +1,68 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 30883,
+  "input_tokens": 97041,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1962,
+  "packet_digest": "fb8fbfa16c17698dd389683e04cc359670537099a562f5600f393f0e27915780",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Both supplied answers are valid for their respective varieties, and the English cue is accurate. However, the national split is materially overstated: authoritative MABBIM terminology lists Indonesian as “daftar tunggu/senarai tunggu” and Malaysian as “senarai tunggu,” demonstrating an accepted cross-variety overlap. The blank contrast also fails to explain that these are transparent equivalents rather than false friends.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Waiting list” correctly denotes a list of people waiting for something unavailable immediately; the supplied sense is accurate but narrower than the general definition.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/us/dictionary/english/waiting-list\"]},{\"subject\":\"Indonesian answer: daftar tunggu\",\"conclusion\":\"Valid Indonesian wording for “waiting list.” Indonesian official terminology also recognizes “senarai tunggu” as an alternative.\",\"material_risk\":false,\"evidence_refs\":[\"https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_UPW.pdf\",\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I\"]},{\"subject\":\"Malaysian answer: senarai menunggu\",\"conclusion\":\"Valid Malaysian Malay wording; DBP’s Kamus Inggeris-Melayu Dewan gives “senarai menunggu” for “waiting-list.”\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=74812&keyword=senarai\",\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=list%27s\"]},{\"subject\":\"Cross-variety overlap and national split\",\"conclusion\":\"The split is materially overstated. MABBIM records Indonesian “daftar tunggu/senarai tunggu” and Malaysian “senarai tunggu,” while DBP identifies “daftar” as a synonym of “senarai.”\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I\",\"https://prpm.dbp.gov.my/Cari1?d=74812&keyword=senarai\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“Different-common-word” is defensible for the exact displayed forms, but misleading as a national-contrast label because an ordinary accepted equivalent overlaps across varieties. It should be revised or qualified as shared terminology with variant preferences.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present, and none is warranted: the forms are semantically aligned, transparent equivalents. The card should explicitly state the overlap/variant-preference point.\",\"material_risk\":true,\"evidence_limitation\":\"No dedicated false-friend source was located; this conclusion follows from the matching authoritative definitions and terminology mappings cited above.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Waiting list” correctly denotes a list of people waiting for something unavailable immediately; the supplied sense is accurate but narrower than the general definition.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/waiting-list"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid Indonesian wording for “waiting list.” Indonesian official terminology also recognizes “senarai tunggu” as an alternative.",
+        "evidence_refs": [
+          "https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Kamus_UPW.pdf",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: daftar tunggu"
+      },
+      {
+        "conclusion": "Valid Malaysian Malay wording; DBP’s Kamus Inggeris-Melayu Dewan gives “senarai menunggu” for “waiting-list.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=senarai",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=list%27s"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: senarai menunggu"
+      },
+      {
+        "conclusion": "The split is materially overstated. MABBIM records Indonesian “daftar tunggu/senarai tunggu” and Malaysian “senarai tunggu,” while DBP identifies “daftar” as a synonym of “senarai.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I",
+          "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=senarai"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap and national split"
+      },
+      {
+        "conclusion": "“Different-common-word” is defensible for the exact displayed forms, but misleading as a national-contrast label because an ordinary accepted equivalent overlaps across varieties. It should be revised or qualified as shared terminology with variant preferences.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=tunggu+I"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present, and none is warranted: the forms are semantically aligned, transparent equivalents. The card should explicitly state the overlap/variant-preference point.",
+        "evidence_limitation": "No dedicated false-friend source was located; this conclusion follows from the matching authoritative definitions and terminology mappings cited above.",
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both supplied answers are valid for their respective varieties, and the English cue is accurate. However, the national split is materially overstated: authoritative MABBIM terminology lists Indonesian as “daftar tunggu/senarai tunggu” and Malaysian as “senarai tunggu,” demonstrating an accepted cross-variety overlap. The blank contrast also fails to explain that these are transparent equivalents rather than false friends.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,82 @@
+{
+  "attempt_id": "ea6aea72e2d7b832",
+  "candidate_id": "tmp-time-date-s045-012",
+  "claim_reviews": [
+    {
+      "conclusion": "“Just now” / “a short time ago” accurately matches both answers.",
+      "evidence_refs": [
+        "https://kbbi.web.id/barusan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tadi+tadi"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct ordinary Indonesian usage, though colloquial; KBBI-derived references define it as baru saja, belum lama, baru sebentar.",
+      "evidence_refs": [
+        "https://kbbi.web.id/barusan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: barusan"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay usage; PRPM/Kamus Dewan equates sebentar tadi with baru saja.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tadi+tadi"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: sebentar tadi"
+    },
+    {
+      "conclusion": "The forms differ, but the contrast is preference-based rather than exclusive. Shared ordinary equivalents are attested: Indonesian baru saja and Malaysian baru sahaja, with Malaysian sebentar tadi also defined as baru saja.",
+      "evidence_refs": [
+        "https://kbbi.web.id/barusan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=baru+sahaja",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tadi+tadi"
+      ],
+      "material_risk": false,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "different-common-word is acceptable because the two supplied answers are distinct, ordinary forms; it does not by itself assert that no cross-variety synonyms exist.",
+      "evidence_refs": [
+        "https://kbbi.web.id/barusan",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tadi+tadi"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed: barusan and sebentar tadi are semantically aligned and are not misleading cognate forms with divergent meanings.",
+      "evidence_limitation": "This negative assessment is based on the cited dictionary meanings; no dedicated false-friend corpus or learner-error study was located.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "addbf2f42e0fd2c8ad5c4d9637cda2862c822e6b79e9ff7aea1f644d5f671975",
+  "correction_refs": [],
+  "decision_digest": "07643e8d554e37eeb1722825711a247f4b830f421486c9682b24f621718ded91",
+  "elapsed_ms": 20235,
+  "finding_class": "none",
+  "input_tokens": 62609,
+  "model_calls": 1,
+  "output_tokens": 1465,
+  "packet_digest": "dadb4482e781aa95d3cdb7823eed53103eeea37b4bbeee1906011fc3c7080d9f",
+  "rationale": "The national split is not materially overstated. Indonesian barusan is a colloquial equivalent of baru saja (‘just now’), while Malaysian Malay sebentar tadi is explicitly defined as baru saja (‘just now’). Shared equivalents exist, including baru saja/baru sahaja, but the proposed forms remain ordinary variety-associated preferences rather than exclusive forms. The English cue and sense are aligned. No false-friend contrast is required because neither answer misleadingly resembles the other with a divergent meaning; the empty contrast field is therefore acceptable.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:15:36.772555+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s045/tmp-time-date-s045-012.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "cleared"
+}

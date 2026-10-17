@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:03:32.569883+00:00",
+  "input_digest": "c434f76d97ed464b4a8fb0ab9c1153a8daf3daac12b00a2e1ffaa187b8f8d311",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s026:tmp-family-social-s026-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The candidate means a specifically male sibling older than the speaker, while the existing concept means any sibling sharing a parent.\"}, {\"other_id\": \"corpus-004-003-s024:tmp-family-social-s024-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both concern a male sibling, but the candidate is older than the speaker and the existing concept is younger.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+          "rationale": "The candidate means a specifically male sibling older than the speaker, while the existing concept means any sibling sharing a parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-003",
+          "rationale": "Both concern a male sibling, but the candidate is older than the speaker and the existing concept is younger.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+        "rationale": "The candidate means a specifically male sibling older than the speaker, while the existing concept means any sibling sharing a parent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024:tmp-family-social-s024-003",
+        "rationale": "Both concern a male sibling, but the candidate is older than the speaker and the existing concept is younger.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "520062b540ddd5974e21871b2b1d69a360cb58c10ffd8b033a7e06c84b10794a"
+}

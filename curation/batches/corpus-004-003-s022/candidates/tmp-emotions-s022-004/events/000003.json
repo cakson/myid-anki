@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T20:00:56.178347+00:00",
+  "input_digest": "90f0749b2f252530f8d3b5f6fafd3c6f1c37c7bd865706ddcbafadf837bb8fea",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s010-005:tmp-emotions-s010-005\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"Displeased and irritated both describe negative feelings about an unpleasant situation, but the candidate is broader and does not clearly share the same sense.\"}, {\"other_id\": \"cal2-social-001:social-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Displeased means generally unhappy or dissatisfied, whereas disappointed specifically results from an unmet expectation.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010-005:tmp-emotions-s010-005",
+          "rationale": "Displeased and irritated both describe negative feelings about an unpleasant situation, but the candidate is broader and does not clearly share the same sense.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-social-001:social-10",
+          "rationale": "Displeased means generally unhappy or dissatisfied, whereas disappointed specifically results from an unmet expectation.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s010-005:tmp-emotions-s010-005",
+        "rationale": "Displeased and irritated both describe negative feelings about an unpleasant situation, but the candidate is broader and does not clearly share the same sense.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-social-001:social-10",
+        "rationale": "Displeased means generally unhappy or dissatisfied, whereas disappointed specifically results from an unmet expectation.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "d9c01bac20ad3ad5dc351d5c574aea70094c9e1e36be582e2bc24c7e63c0061b"
+}

@@ -1,0 +1,74 @@
+{
+  "attempt_id": "cc303204de5bc52e",
+  "candidate_id": "tmp-emotions-s022-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct adjective meaning optimistic or full of hope.",
+      "evidence_refs": [
+        "https://kbbi.co.id/index.php/arti-kata/optimistis"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: optimistis"
+    },
+    {
+      "conclusion": "Correct Malay adjective meaning full of good hope; optimistic.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=optimistik"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: optimistik"
+    },
+    {
+      "conclusion": "“Optimistic” and “expecting favorable results” align with both dictionary definitions.",
+      "evidence_refs": [
+        "https://kbbi.co.id/index.php/arti-kata/optimistis",
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=optimistik"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Similar” is appropriate because the forms have the same core meaning but differ in national standard usage.",
+      "evidence_refs": [
+        "https://kbbi.co.id/index.php/arti-kata/optimistis",
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=optimistik"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present. The shared form “optimis” is also attested in both varieties, so the listed forms should not be treated as exclusive alternatives.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=274052&keyword=optimis",
+        "https://kbbi.web.id/optimis"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e3032f15f7c7591a05f79ebfb3d2b22cf1df5c231dcbc09c78bdf076c124acb0",
+  "correction_refs": [],
+  "decision_digest": "c4e3aac5cff61239166afe1272312095945813d1d6dcc03c432b0758bedd9c30",
+  "elapsed_ms": 16753,
+  "finding_class": "none",
+  "input_tokens": 61769,
+  "model_calls": 1,
+  "output_tokens": 1133,
+  "packet_digest": "a3594b2636bc6c5bae9d159e048a2f78816f682caac7fceff7af1c2064cc65b2",
+  "rationale": "Both forms are valid standard adjectives matching “optimistic” and the sense “expecting favorable results.” The relation is similar rather than a false-friend contrast. Indonesian and Malaysian also share the form “optimis,” so the contrast should not be interpreted as exclusive, but this omission does not make the card materially misleading.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:41:40.125760+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s022/tmp-emotions-s022-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s022",
+  "verdict": "cleared"
+}

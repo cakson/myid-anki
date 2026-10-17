@@ -1,0 +1,73 @@
+{
+  "attempt_id": "c42826dcd2118926",
+  "candidate_id": "tmp-finance-admin-s027-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Birth certificate” correctly denotes the official record of a person’s birth.",
+      "evidence_refs": [
+        "https://www.malaysia.gov.my/en/digital-services/permohonan-cabutan-salinan-sijil-kelahiran-yang-diperakui-dalam-talian"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct standard Indonesian term for a birth certificate/birth record.",
+      "evidence_refs": [
+        "https://www.kemkes.go.id/id/integrasi-satusehat-siak-bayi-lahir-bisa-dapat-akta-kelahiran-kk-dan-kia-sekaligus"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: akta kelahiran"
+    },
+    {
+      "conclusion": "Correct standard Malaysian administrative term for a birth certificate.",
+      "evidence_refs": [
+        "https://www.jpn.gov.my/perkhidmatan/kelahiran/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: sijil kelahiran"
+    },
+    {
+      "conclusion": "different-common-word is accurate: the Indonesian and Malaysian standard terms differ lexically while referring to the same document.",
+      "evidence_refs": [
+        "https://www.kemkes.go.id/id/integrasi-satusehat-siak-bayi-lahir-bisa-dapat-akta-kelahiran-kk-dan-kia-sekaligus",
+        "https://www.jpn.gov.my/perkhidmatan/kelahiran/"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is applicable; the forms are straightforward equivalents, though Malaysian colloquial surat beranak may also occur.",
+      "evidence_refs": [
+        "https://www.jpn.gov.my/perkhidmatan/kelahiran/",
+        "https://www.kln.gov.my/documents/34658/0/Birth%2BRegistration%28Sijil%2BLahir%29Form%2BD/b913e3f0-3548-4d2a-a2fc-32048a78a889?version=1.1"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "043fded7bc741007fdcbab04c8f46564c1b545869462a18679d2fd81b5df79ae",
+  "correction_refs": [],
+  "decision_digest": "44a621b612cffc0ef3ca3ee41d61f2aa41336c14e6cd7b3752083da3e7bb4fdb",
+  "elapsed_ms": 12169,
+  "finding_class": "none",
+  "input_tokens": 29104,
+  "model_calls": 1,
+  "output_tokens": 880,
+  "packet_digest": "c8ce2f89bae7022b11da478345b985860bcc3f8f4b7a513e9f9b2bf9f1dbba43",
+  "rationale": "Both answers are accurate standard terms for the official birth record. The English cue and sense align, and different-common-word is an appropriate relation. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:48:56.235640+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s027/tmp-finance-admin-s027-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s027",
+  "verdict": "cleared"
+}

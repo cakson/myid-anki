@@ -1,0 +1,69 @@
+{
+  "attempt_id": "c11c02e4c082c3e6",
+  "candidate_id": "tmp-shopping-s040-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: obral means selling goods at low prices, often to clear stock.",
+      "evidence_refs": [
+        "https://kbbi.web.id/obral"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: obral"
+    },
+    {
+      "conclusion": "Accurate and standard: jualan murah denotes a sale of goods with substantial price reductions.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jualan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: jualan murah"
+    },
+    {
+      "conclusion": "Discount sale event is a valid narrowing of sale for this shopping sense, though slightly redundant stylistically.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?d=175768&keyword=sale"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is appropriate: the languages use distinct ordinary expressions for the same concept.",
+      "evidence_limitation": "The evidence confirms the meanings but does not quantify comparative everyday frequency across both countries.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; the two expressions are straightforward equivalents rather than misleadingly similar forms.",
+      "evidence_limitation": "No dedicated false-friend source was necessary because the forms are lexically distinct and their dictionary senses align.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "133edd5039ea4275e5770a1b9694638a0d2b2c6b1eb3ab9f1ca704fdc0a698de",
+  "correction_refs": [],
+  "decision_digest": "34988fcf300e498cbcddf8237a9affc7e30894cf55e94a6456ba7c86a0ab3f72",
+  "elapsed_ms": 13071,
+  "finding_class": "none",
+  "input_tokens": 29190,
+  "model_calls": 1,
+  "output_tokens": 829,
+  "packet_digest": "428b80500379f4f31a1b0de4c7ca29fa257f38c0933134512de0f80c96e5c0e4",
+  "rationale": "Both answers are semantically accurate and idiomatic for their respective varieties. The cue correctly specifies a sale involving reduced prices. The forms differ, so the relation is valid; no false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:04:23.959476+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s040/tmp-shopping-s040-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s040",
+  "verdict": "cleared"
+}

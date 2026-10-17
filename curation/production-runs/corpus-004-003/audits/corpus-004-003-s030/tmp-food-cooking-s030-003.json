@@ -1,0 +1,66 @@
+{
+  "attempt_id": "fbc7383df36ddddc",
+  "candidate_id": "tmp-food-cooking-s030-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“Appetizer” correctly denotes a small dish or food served before the main meal.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembuka"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Hidangan pembuka” is semantically appropriate Indonesian for appetizer.",
+      "evidence_limitation": "No Indonesian dictionary source was independently retrieved; assessment is based on standard Indonesian usage and transparent composition.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pembuka selera” is an established Malaysian Malay equivalent of appetizer.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pembuka",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=selera"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate because the card presents distinct localized forms in Indonesian and Malaysian Malay.",
+      "evidence_limitation": "Relation classification is an editorial judgment based on the two validated forms.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is required; neither answer introduces a misleading cross-language meaning.",
+      "evidence_limitation": "No contrast-specific dictionary evidence was necessary because no false-friend issue was identified.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3505aceae5837c6e0881a8cdadcc7a9f6caf7797632a4bf5f37316da258b112f",
+  "correction_refs": [],
+  "decision_digest": "7414e52764694e98402a94fb505aec2311899bebc173e8deb961baa179d5d17f",
+  "elapsed_ms": 12963,
+  "finding_class": "none",
+  "input_tokens": 29241,
+  "model_calls": 1,
+  "output_tokens": 819,
+  "packet_digest": "a18b57066c77e022a327d9eaa56ac724c7c8058be1a69f85c448bbf1787aea96",
+  "rationale": "The English cue and sense are accurate. “Hidangan pembuka” is a valid Indonesian equivalent, and “pembuka selera” is the established Malaysian Malay equivalent for appetizer. The two localized forms support the different-common-word relation. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:51:47.929159+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s030/tmp-food-cooking-s030-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "cleared"
+}

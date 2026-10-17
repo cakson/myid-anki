@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:48:29.749288+00:00",
+  "input_digest": "8eed0c7ec8219696ec1b355a6f9958a16ef1eeae53aca5c06a78c2970eeef247",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-home-001:home-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Plastic bag is a material-specific bag for carrying purchases, while shopping bag is a general-purpose purchase-carrying bag.\"}, {\"other_id\": \"corpus-004-003-s041:tmp-shopping-s041-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Plastic bag and paper bag are distinct material-specific concepts, despite sharing the purchase-carrying function.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-home-001:home-08",
+          "rationale": "Plastic bag is a material-specific bag for carrying purchases, while shopping bag is a general-purpose purchase-carrying bag.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-002",
+          "rationale": "Plastic bag and paper bag are distinct material-specific concepts, despite sharing the purchase-carrying function.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-home-001:home-08",
+        "rationale": "Plastic bag is a material-specific bag for carrying purchases, while shopping bag is a general-purpose purchase-carrying bag.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s041:tmp-shopping-s041-002",
+        "rationale": "Plastic bag and paper bag are distinct material-specific concepts, despite sharing the purchase-carrying function.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "3324881a751508d0bd3cc9156b6767cf979044d6e59bee084c360e5214fb85f5"
+}

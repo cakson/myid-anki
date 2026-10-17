@@ -1,0 +1,80 @@
+{
+  "attempt_id": "78e6e033972adca1",
+  "candidate_id": "tmp-communication-s013-009",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue to quote with the sense 'to repeat someone’s exact words in speech or writing' is aligned and sufficiently specific.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=quote"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Mengutip is a standard Indonesian verb meaning to take or reproduce words or sentences from a book or other source, including quoting written material.",
+      "evidence_refs": [
+        "https://kbbi.web.id/mengutip"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: mengutip"
+    },
+    {
+      "conclusion": "Memetik is an established Malaysian Malay verb for taking or copying part of a book or composition, and is used for quoting.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=memetik",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=quote"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: memetik"
+    },
+    {
+      "conclusion": "The relation different-common-word is materially overstated. PRPM defines Malaysian mengutip in the quotation sense as memetik, and its thesaurus lists memetik and mengutip as equivalents. KBBI likewise cross-defines Indonesian mengutip and memetik.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kutip",
+        "https://prpm.dbp.gov.my/Forms/thesaurus?k=petik&kt=memetik",
+        "https://prpm.dbp.gov.my/Forms/thesaurus?k=kutip&kt=mengutip",
+        "https://kbbi.web.id/mengutip",
+        "https://kbbi.web.id/petik"
+      ],
+      "material_risk": true,
+      "subject": "National split and relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is evidenced: the two forms overlap in the target quotation sense rather than diverging in meaning. The empty contrast field is substantively appropriate, but the relation should be revised to reflect cross-variety synonymy or preference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kutip",
+        "https://prpm.dbp.gov.my/Forms/thesaurus?k=petik&kt=memetik",
+        "https://kbbi.web.id/mengutip",
+        "https://kbbi.web.id/petik"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "6f941b0611c50564358f2e3f317eae3a56a87be619eed1677f138ee4197b3411",
+  "correction_refs": [],
+  "decision_digest": "f4653438e997fd4c3641f4c3ee08a65d993baa20150d29c8c1996595774206a7",
+  "elapsed_ms": 22393,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61738,
+  "model_calls": 1,
+  "output_tokens": 1432,
+  "packet_digest": "d8f81324f2e974b41e37c361577f966ee6360d0fad864385129a2958c47e09c2",
+  "rationale": "The cue and both answers are semantically appropriate, but the national split is materially overstated. Indonesian mengutip and Malaysian Malay memetik are ordinary equivalents for quoting, and Malaysian mengutip is also explicitly defined for taking or reproducing words from writing. The relation different-common-word therefore teaches an unreliable variety distinction. No false-friend contrast is supported or needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:43:20.426482+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s013/tmp-communication-s013-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s013",
+  "verdict": "needs-correction"
+}

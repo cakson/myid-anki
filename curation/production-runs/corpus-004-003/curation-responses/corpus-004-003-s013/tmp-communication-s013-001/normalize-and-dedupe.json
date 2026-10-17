@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4825,
+  "input_digest": "96015a6bc0bf3bb7bacbea4958d498b23f1650cf52ca24cdcbfb58f079bc004c",
+  "input_tokens": 93710,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 203,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"fresh-work-001:work-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A general interview is a question-and-answer conversation, while the existing job interview is specifically an employment-assessment meeting; the senses and intended usage are distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-work-001:work-07",
+          "rationale": "A general interview is a question-and-answer conversation, while the existing job interview is specifically an employment-assessment meeting; the senses and intended usage are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

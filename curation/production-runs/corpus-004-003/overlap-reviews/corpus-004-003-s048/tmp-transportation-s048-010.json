@@ -1,0 +1,78 @@
+{
+  "attempt_id": "f96353959154d5bb",
+  "candidate_id": "tmp-transportation-s048-010",
+  "claim_reviews": [
+    {
+      "conclusion": "“Vehicle registration” correctly matches the sense of official registration of a road vehicle.",
+      "evidence_refs": [
+        "https://korlantas.polri.go.id/panduan-stnk/",
+        "https://www.jpj.gov.my/wp-content/uploads/2022/11/Borang-Permohonan-Pendataran-Kenderaan-Motor-JPJ-K1.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Registrasi kendaraan” is a valid official Indonesian expression, but “pendaftaran kendaraan bermotor” is also established official usage. Therefore it is not an exclusive Indonesian contrast against Malaysian “pendaftaran kenderaan.”",
+      "evidence_refs": [
+        "https://k3i.korlantas.polri.go.id/api/web/uploads/regulation_doc/UNDANG-UNDANG-NOMOR-22-TAHUN-2009-TENTANG-LALU-LINTAS-DAN-ANGKUTAN-JALAN.pdf",
+        "https://polri.go.id/layanan/bpkb-stnk",
+        "https://korlantas.polri.go.id/2026-05-11-korlantas-polri-percepat-digitalisasi-regident-e-bpkb-berlaku-nasional-mulai-2027/"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Pendaftaran kenderaan” is well supported as Malaysian official usage for vehicle registration.",
+      "evidence_refs": [
+        "https://www.jpj.gov.my/wp-content/uploads/2022/11/Borang-Permohonan-Pendataran-Kenderaan-Motor-JPJ-K1.pdf",
+        "https://www.jpj.gov.my/pusat-media-3/soalan-lazim/soalan-lazim-kenderaan/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is misleading because Indonesian also commonly uses the equivalent “pendaftaran kendaraan,” and the distinction is primarily preference plus the kendaraan/kenderaan spelling difference. A shared-synonym or different-preferred-word relation is more accurate.",
+      "evidence_refs": [
+        "https://polri.go.id/layanan/bpkb-stnk",
+        "https://korlantas.polri.go.id/2026-05-11-korlantas-polri-percepat-digitalisasi-regident-e-bpkb-berlaku-nasional-mulai-2027/",
+        "https://www.jpj.gov.my/wp-content/uploads/2022/11/Borang-Permohonan-Pendataran-Kenderaan-Motor-JPJ-K1.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "There is no substantive false friend: Indonesian “registrasi” has the expected registration meaning, and Malaysian reference usage recognizes registrasi as meaning pendaftaran. The learner card currently supplies no contrast, so it should explicitly state that the difference is lexical preference rather than meaning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pendaftaran"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "4242f754e0632e52e35dacbf01d65aae4c6cdfeb443bcf87011eeb0befbe1ebb",
+  "correction_refs": [],
+  "decision_digest": "da95b8a7499ca2b57c3bdb414d57f84093d1aa0f553e65fbfa8330f76d8fe38f",
+  "elapsed_ms": 21997,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62684,
+  "model_calls": 1,
+  "output_tokens": 1702,
+  "packet_digest": "0736529c0e9206a2bee0cf0f2c80622e5dc57d0a02c5784abb6f46b300bd7802",
+  "rationale": "The national split is materially overstated. Indonesian officially uses both “registrasi kendaraan” and “pendaftaran kendaraan bermotor,” while Malaysian official usage strongly supports “pendaftaran kenderaan.” The answers are semantically aligned, with only lexical preference and the Indonesian/Malaysian spelling difference in kendaraan/kenderaan. “Registrasi” is not a false friend here. The relation should be revised to a shared-synonym or different-preferred-word relation, and an explicit contrast should be added.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:17:28.704445+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s048/tmp-transportation-s048-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s048",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,73 @@
+{
+  "attempt_id": "cee29b84cdd4a5c8",
+  "candidate_id": "tmp-communication-s011-011",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct ordinary Indonesian noun for “joke,” including a humorous utterance or conversation.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lelucon.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lelucon"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for a joke or something intended to make people laugh.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=jenaka"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: jenaka"
+    },
+    {
+      "conclusion": "“Joke” and the stated sense of words or stories intended to make people laugh are aligned with both answers.",
+      "evidence_refs": [
+        "https://kbbi.web.id/lelucon.html",
+        "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=jenaka"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is acceptable for this Indonesian–Malaysian Malay pairing, although lawak is also a valid Malaysian synonym and may be preferred in colloquial usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=24348&keyword=jenaka",
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=lawak"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the two entries are semantically equivalent in this sense.",
+      "evidence_limitation": "Dictionary evidence confirms the shared sense but does not establish a full corpus-based comparison of regional frequency or register.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "83bd0fc1d738cd80ffec4e9428b258049cdd65f1ff79a8fa115ccb8177dfc1b6",
+  "correction_refs": [],
+  "decision_digest": "2cf272c2471365d91053a3b039776982935db47b67af095c0d4e8bb4354381ad",
+  "elapsed_ms": 24241,
+  "finding_class": "none",
+  "input_tokens": 95650,
+  "model_calls": 1,
+  "output_tokens": 1379,
+  "packet_digest": "1c0de94a0bca336ba1e4c4fd31dd98169f503bb9f94a756370ffc2c014703cb3",
+  "rationale": "Both translations match the English cue and sense. Indonesian lelucon is a noun meaning a joke or humorous utterance, while Malaysian Malay jenaka denotes a joke or humorous act/utterance. Lawak is also a valid Malaysian synonym and may be more colloquial in some contexts, but this does not make jenaka incorrect. The different-common-word relation is defensible; no false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:29:37.791815+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s011/tmp-communication-s011-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s011",
+  "verdict": "cleared"
+}

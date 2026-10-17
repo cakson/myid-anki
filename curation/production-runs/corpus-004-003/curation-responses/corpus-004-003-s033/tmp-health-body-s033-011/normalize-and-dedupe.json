@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5811,
+  "input_digest": "c7a87b1485376e9aa50d8222063e54c14cfa9613400543ea963003c681e57c00",
+  "input_tokens": 93710,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 353,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s012:tmp-health-body-s012-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are localized pain symptoms, but toothache is pain in a tooth while backache is pain in the back; the body locations and concepts differ.\"},{\"other_id\":\"cal3-health-001:health-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are localized pain symptoms, but toothache concerns a tooth and sore throat concerns the throat; the senses are clearly distinct.\"},{\"other_id\":\"corpus-004-003-s033:tmp-health-body-s033-010\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A toothache is a symptom involving tooth pain, whereas a dentist is a healthcare professional who treats teeth; related but not duplicate concepts.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s012:tmp-health-body-s012-002",
+          "rationale": "Both are localized pain symptoms, but toothache is pain in a tooth while backache is pain in the back; the body locations and concepts differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-health-001:health-03",
+          "rationale": "Both are localized pain symptoms, but toothache concerns a tooth and sore throat concerns the throat; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s033:tmp-health-body-s033-010",
+          "rationale": "A toothache is a symptom involving tooth pain, whereas a dentist is a healthcare professional who treats teeth; related but not duplicate concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

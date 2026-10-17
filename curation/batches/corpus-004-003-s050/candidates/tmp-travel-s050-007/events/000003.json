@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T05:09:04.727353+00:00",
+  "input_digest": "e8aa6b0c41b24da8425ca206d5474c2250544378e60a32b40ed94dd498474092",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-travel-001:travel-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A travel companion is a person traveling together with someone, whereas a tourist is a person traveling for pleasure or sightseeing; the senses and both answer pairs differ.\"}, {\"other_id\": \"corpus-004-002-s019:tmp-travel-s019-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A travel companion accompanies another traveler, whereas a tour guide leads or guides tourists; the roles and both answer pairs differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-05",
+          "rationale": "A travel companion is a person traveling together with someone, whereas a tourist is a person traveling for pleasure or sightseeing; the senses and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s019:tmp-travel-s019-002",
+          "rationale": "A travel companion accompanies another traveler, whereas a tour guide leads or guides tourists; the roles and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-travel-001:travel-05",
+        "rationale": "A travel companion is a person traveling together with someone, whereas a tourist is a person traveling for pleasure or sightseeing; the senses and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s019:tmp-travel-s019-002",
+        "rationale": "A travel companion accompanies another traveler, whereas a tour guide leads or guides tourists; the roles and both answer pairs differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6f9106ccda03643af108cd0b47b8d77aaa36cbf22953a402c915f57eb277584a"
+}

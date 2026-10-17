@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5320,
+  "input_digest": "955ac0fb3c7b2e2ca0af5b8a4c8ba51e8ccd031015cd8a5c8be979f1c71f8739",
+  "input_tokens": 93722,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 276,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"home-001:topic-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Window frame is the fixed structural frame surrounding a window; window is the opening or glazed feature itself.\"},{\"other_id\":\"corpus-004-003-s035:tmp-home-s035-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Window frame surrounds a window, whereas door frame surrounds a door; they are parallel but distinct concepts.\"},{\"other_id\":\"corpus-004-003-s015:tmp-daily-life-s015-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Window frame is the surrounding structural frame, whereas window grille consists of metal security bars fitted over the window.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "home-001:topic-04",
+          "rationale": "Window frame is the fixed structural frame surrounding a window; window is the opening or glazed feature itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s035:tmp-home-s035-008",
+          "rationale": "Window frame surrounds a window, whereas door frame surrounds a door; they are parallel but distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-003",
+          "rationale": "Window frame is the surrounding structural frame, whereas window grille consists of metal security bars fitted over the window.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

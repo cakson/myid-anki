@@ -1,0 +1,53 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 14681,
+  "input_tokens": 51564,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 839,
+  "packet_digest": "ef90bf31127bc683bc12ca3616e243135d3ee44b8d037e6cc2a67a3312c23011",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"The English cue, both Malay-language forms, sense alignment, and different-common-word relation are accurate. No material false-friend issue is present; Indonesian also has the nonstandard or variant form mengantri, but that does not invalidate mengantre.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue: to queue\",\n      \"conclusion\": \"Accurate for waiting or joining an ordered line.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/us/dictionary/english/queue\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian: mengantre\",\n      \"conclusion\": \"Accurate standard Indonesian form meaning to stand in line while waiting for one's turn.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.co.id/arti-kata/antre\",\n        \"https://kbbi.kemendikdasmen.go.id/\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian Malay: beratur\",\n      \"conclusion\": \"Accurate Malay form meaning to be or stand in a line; it also has broader senses involving orderly arrangement.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=83916&keyword=beratur\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation and false-friend contrast\",\n      \"conclusion\": \"Different-common-word is correct: the Indonesian and Malaysian forms differ lexically while sharing the relevant queueing sense. No false-friend contrast is required.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://kbbi.co.id/arti-kata/antre\",\n        \"https://prpm.dbp.gov.my/Cari1?d=83916&keyword=beratur\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate for waiting or joining an ordered line.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/queue"
+        ],
+        "material_risk": false,
+        "subject": "English cue: to queue"
+      },
+      {
+        "conclusion": "Accurate standard Indonesian form meaning to stand in line while waiting for one's turn.",
+        "evidence_refs": [
+          "https://kbbi.co.id/arti-kata/antre",
+          "https://kbbi.kemendikdasmen.go.id/"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian: mengantre"
+      },
+      {
+        "conclusion": "Accurate Malay form meaning to be or stand in a line; it also has broader senses involving orderly arrangement.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=83916&keyword=beratur"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian Malay: beratur"
+      },
+      {
+        "conclusion": "Different-common-word is correct: the Indonesian and Malaysian forms differ lexically while sharing the relevant queueing sense. No false-friend contrast is required.",
+        "evidence_refs": [
+          "https://kbbi.co.id/arti-kata/antre",
+          "https://prpm.dbp.gov.my/Cari1?d=83916&keyword=beratur"
+        ],
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "The English cue, both Malay-language forms, sense alignment, and different-common-word relation are accurate. No material false-friend issue is present; Indonesian also has the nonstandard or variant form mengantri, but that does not invalidate mengantre.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

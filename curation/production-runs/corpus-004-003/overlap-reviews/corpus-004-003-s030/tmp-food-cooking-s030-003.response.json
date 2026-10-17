@@ -1,0 +1,61 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 28079,
+  "input_tokens": 99509,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1981,
+  "packet_digest": "34325acccf481c796dc16699ad0dd12a5f2048de5e968dce06e18f54e5a33e68",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Both answers correctly express the sense, but the national split is materially overstated. Indonesian usage also includes pembuka selera, Malaysian usage uses the broader hidangan pembuka selera, and appetizer is an accepted shared borrowing. The relation should be softened to shared-synonym preference, and the empty contrast field should explain the literal/idiomatic distinction rather than imply a false friend.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Appetizer correctly denotes a small dish served before the main meal.\",\"material_risk\":false,\"evidence_refs\":[\"https://repositori.kemendikdasmen.go.id/11835/1/5-Tata-Boga-FIX.pdf\"]},{\"subject\":\"Indonesian answer: hidangan pembuka\",\"conclusion\":\"Valid and well-supported Indonesian equivalent for appetizer.\",\"material_risk\":false,\"evidence_refs\":[\"https://repositori.kemendikdasmen.go.id/11835/1/5-Tata-Boga-FIX.pdf\"]},{\"subject\":\"Malaysian answer: pembuka selera\",\"conclusion\":\"Valid and established Malaysian Malay equivalent for appetizer.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=selera\",\"https://www.moh.gov.my/images/04-penerbitan/rujukan/pemakanan/589d765ac6e80.pdf\"]},{\"subject\":\"National split and relation\",\"conclusion\":\"The different-common-word relation is materially overstated. Indonesian restaurant usage attests pembuka selera, while Malaysian official and culinary materials use hidangan pembuka selera; appetizer is also explicitly paired with pembuka selera in Malaysian terminology. The forms are preferentially associated, but not cleanly variety-exclusive.\",\"material_risk\":true,\"evidence_refs\":[\"https://aahhbali.com/aahh-bali-restoran/\",\"https://id.scribd.com/document/1006995566/Feb-2026-Menu-Book-Esteh-Specialtea\",\"https://www.tvet.gov.my/awam-kursus/kursus?id_kursus=49676\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=selera\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"The contrast field is empty. A useful contrast would state that selera literally relates to appetite/taste, but pembuka selera is the established idiom for an appetizer; hidangan pembuka is a more transparent equivalent. This is a missing explanatory metadata field, not an answer error.\",\"material_risk\":false,\"evidence_limitation\":\"No contrast is present in the supplied learner content, so there is nothing current to validate beyond the usage evidence cited above.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Appetizer correctly denotes a small dish served before the main meal.",
+        "evidence_refs": [
+          "https://repositori.kemendikdasmen.go.id/11835/1/5-Tata-Boga-FIX.pdf"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid and well-supported Indonesian equivalent for appetizer.",
+        "evidence_refs": [
+          "https://repositori.kemendikdasmen.go.id/11835/1/5-Tata-Boga-FIX.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: hidangan pembuka"
+      },
+      {
+        "conclusion": "Valid and established Malaysian Malay equivalent for appetizer.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=selera",
+          "https://www.moh.gov.my/images/04-penerbitan/rujukan/pemakanan/589d765ac6e80.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: pembuka selera"
+      },
+      {
+        "conclusion": "The different-common-word relation is materially overstated. Indonesian restaurant usage attests pembuka selera, while Malaysian official and culinary materials use hidangan pembuka selera; appetizer is also explicitly paired with pembuka selera in Malaysian terminology. The forms are preferentially associated, but not cleanly variety-exclusive.",
+        "evidence_refs": [
+          "https://aahhbali.com/aahh-bali-restoran/",
+          "https://id.scribd.com/document/1006995566/Feb-2026-Menu-Book-Esteh-Specialtea",
+          "https://www.tvet.gov.my/awam-kursus/kursus?id_kursus=49676",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=selera"
+        ],
+        "material_risk": true,
+        "subject": "National split and relation"
+      },
+      {
+        "conclusion": "The contrast field is empty. A useful contrast would state that selera literally relates to appetite/taste, but pembuka selera is the established idiom for an appetizer; hidangan pembuka is a more transparent equivalent. This is a missing explanatory metadata field, not an answer error.",
+        "evidence_limitation": "No contrast is present in the supplied learner content, so there is nothing current to validate beyond the usage evidence cited above.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers correctly express the sense, but the national split is materially overstated. Indonesian usage also includes pembuka selera, Malaysian usage uses the broader hidangan pembuka selera, and appetizer is an accepted shared borrowing. The relation should be softened to shared-synonym preference, and the empty contrast field should explain the literal/idiomatic distinction rather than imply a false friend.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:47:57.991173+00:00",
+  "input_digest": "de58d5633cd7641d914b3502db3eb12a4f3ff69c50d7ef17198d0ec5ea8a515d",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-home-001:home-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An ironing board is the supporting board used during ironing, while clothes iron is the heated appliance; they are separate objects with distinct senses.\"}, {\"other_id\": \"cal2-daily-001:daily-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Ironing board is a household object, whereas to iron clothes is the action performed with an iron; the senses are clearly distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-05",
+          "rationale": "An ironing board is the supporting board used during ironing, while clothes iron is the heated appliance; they are separate objects with distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-09",
+          "rationale": "Ironing board is a household object, whereas to iron clothes is the action performed with an iron; the senses are clearly distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-home-001:home-05",
+        "rationale": "An ironing board is the supporting board used during ironing, while clothes iron is the heated appliance; they are separate objects with distinct senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-daily-001:daily-09",
+        "rationale": "Ironing board is a household object, whereas to iron clothes is the action performed with an iron; the senses are clearly distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "0c5ab635edda419f0bb995a359a03b61d6b9ab653433579695fa9820612d3ef3"
+}

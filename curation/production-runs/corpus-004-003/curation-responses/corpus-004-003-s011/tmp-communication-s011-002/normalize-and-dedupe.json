@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5641,
+  "input_digest": "bedf92420d7d2d16cb8f4cec998da12dfae638b896da328c37633862a3eb40bc",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 325,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s014:tmp-services-s014-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Permission is authorization or consent to do something generally, while license is an official authorization or permit; Indonesian overlaps as izin, but Malaysian answers and senses differ.\"},{\"other_id\":\"corpus-004-003-s007:tmp-common-verbs-s007-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Permission is the authorization itself, while allow is the verb meaning to give permission; the noun/verb distinction and both translated answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-004",
+          "rationale": "Permission is authorization or consent to do something generally, while license is an official authorization or permit; Indonesian overlaps as izin, but Malaysian answers and senses differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s007:tmp-common-verbs-s007-004",
+          "rationale": "Permission is the authorization itself, while allow is the verb meaning to give permission; the noun/verb distinction and both translated answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

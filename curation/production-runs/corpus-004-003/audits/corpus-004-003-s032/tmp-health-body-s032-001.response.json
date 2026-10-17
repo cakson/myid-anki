@@ -1,0 +1,59 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 30646,
+  "input_tokens": 56661,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1062,
+  "packet_digest": "2ceae51dced0ee96a8a225c6dfb57b57d4f0211c37a37cfdf38d23cfd54913b3",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"cleared\",\n  \"finding_class\": \"none\",\n  \"rationale\": \"Both answers are valid standard medical terms for inflammation in body tissue. The Indonesian–Malaysian distinction is useful for learners: peradangan/inflamasi in Indonesian versus keradangan in Malaysian Malay. No false-friend contrast is present.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: peradangan\",\n      \"conclusion\": \"Correct and semantically appropriate for inflammation.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://en.wiktionary.org/wiki/Appendix:Terminology_differences_between_Indonesian_and_Standard_Malay_(I)\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: keradangan\",\n      \"conclusion\": \"Correct and appropriate as the Malaysian Malay medical term for inflammation.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=keradangan\",\n        \"https://en.wiktionary.org/wiki/Appendix:Terminology_differences_between_Indonesian_and_Standard_Malay_(I)\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue inflammation and the sense inflammation in body tissue are accurate and sufficiently specific.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english-indonesian/inflammation\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation: different-common-word\",\n      \"conclusion\": \"Acceptable as a learner-facing contrast, although both varieties also share the base form radang and Indonesian has the medical synonym inflamasi.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://en.wiktionary.org/wiki/Appendix:Terminology_differences_between_Indonesian_and_Standard_Malay_(I)\",\n        \"https://prpm.dbp.gov.my/Cari1?d=115704&keyword=peradangan\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is needed; the terms retain the same medical meaning across the varieties.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"No dedicated false-friend source was necessary because the available comparative evidence shows equivalent meanings.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and semantically appropriate for inflammation.",
+        "evidence_refs": [
+          "https://en.wiktionary.org/wiki/Appendix:Terminology_differences_between_Indonesian_and_Standard_Malay_(I)"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: peradangan"
+      },
+      {
+        "conclusion": "Correct and appropriate as the Malaysian Malay medical term for inflammation.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=keradangan",
+          "https://en.wiktionary.org/wiki/Appendix:Terminology_differences_between_Indonesian_and_Standard_Malay_(I)"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: keradangan"
+      },
+      {
+        "conclusion": "The cue inflammation and the sense inflammation in body tissue are accurate and sufficiently specific.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english-indonesian/inflammation"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Acceptable as a learner-facing contrast, although both varieties also share the base form radang and Indonesian has the medical synonym inflamasi.",
+        "evidence_refs": [
+          "https://en.wiktionary.org/wiki/Appendix:Terminology_differences_between_Indonesian_and_Standard_Malay_(I)",
+          "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=peradangan"
+        ],
+        "material_risk": false,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is needed; the terms retain the same medical meaning across the varieties.",
+        "evidence_limitation": "No dedicated false-friend source was necessary because the available comparative evidence shows equivalent meanings.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are valid standard medical terms for inflammation in body tissue. The Indonesian–Malaysian distinction is useful for learners: peradangan/inflamasi in Indonesian versus keradangan in Malaysian Malay. No false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

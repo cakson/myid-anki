@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:47.449021+00:00",
+  "result": {
+    "candidate_digest": "1c0f6653c63a8f4e32bfc83c035f8b2538537ef51658421da97b7de91d6c29a3",
+    "candidate_id": "tmp-family-social-s024-007",
+    "checked_at": "2026-10-17T06:21:47.449021+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The sense and Malaysian answer are correct. Indonesian “mertua perempuan” is understandable and attested, but “ibu mertua” is the standard, more idiomatic learner form. The proposed relation “different-common-word” is inaccurate: the forms are cognate equivalents, with Indonesian mertua versus Malaysian mentua, not a false-friend contrast. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

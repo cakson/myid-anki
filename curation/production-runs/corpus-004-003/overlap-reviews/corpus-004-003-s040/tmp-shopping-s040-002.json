@@ -1,0 +1,78 @@
+{
+  "attempt_id": "60b20b21fd60fd96",
+  "candidate_id": "tmp-shopping-s040-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Warranty” and the sense “seller or manufacturer promise covering product defects” are accurate.",
+      "evidence_refs": [
+        "[PRPM warranty entries](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=warranty)"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Garansi” is a valid Indonesian term meaning jaminan/tanggungan and is appropriate for product warranty.",
+      "evidence_refs": [
+        "[KBBI garansi entry](https://kbbi.web.id/garansi)"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: garansi"
+    },
+    {
+      "conclusion": "“Jaminan” is an ordinary Malaysian Malay equivalent for warranty in general product usage.",
+      "evidence_refs": [
+        "[DBP guidance on warranty versus jaminan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=warranty)",
+        "[DBP warranty terminology](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=warranty)"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: jaminan"
+    },
+    {
+      "conclusion": "The relation “different-common-word” is not supported. Indonesian also uses “jaminan” for product-defect warranty, while Malaysian uses both “jaminan” and “waranti”; the displayed answers therefore overlap across varieties.",
+      "evidence_limitation": "The sources establish accepted meanings and alternatives, but do not quantify relative everyday frequency by country.",
+      "evidence_refs": [
+        "[KBBI jaminan definition](https://typoonline.com/kbbi/garansi)",
+        "[DBP warranty standard and jaminan](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=warranty)",
+        "[DBP waranti definition](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=waranti)"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or warranted. “Garansi,” “jaminan,” and Malaysian “waranti” refer to the same warranty/guarantee domain in this cue.",
+      "evidence_refs": [
+        "[KBBI garansi entry](https://kbbi.web.id/garansi)",
+        "[DBP waranti entry](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=waranti)",
+        "[DBP warranty-to-jaminan guidance](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=warranty)"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "36d1fb3459d4d229db986bf16c489f3bd8cc5afe1ddd67492ee66858cb26adaf",
+  "correction_refs": [],
+  "decision_digest": "fe8613cd60fe66209b374476490a5d71cf9743619c6e0c6821cea8e505362dd4",
+  "elapsed_ms": 28272,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 99894,
+  "model_calls": 1,
+  "output_tokens": 1519,
+  "packet_digest": "72d19476772309431695e6717058e2e7772a4d636b757e710eeda67f009428d9",
+  "rationale": "The national split is materially overstated. Indonesian “garansi” is valid, but Indonesian “jaminan” also covers product-defect warranty; Malaysian Malay likewise uses “jaminan,” with “waranti” as an accepted alternative. Thus the forms are overlapping equivalents, not reliably different national words. The English cue and sense are accurate, and no false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:07:43.275479+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s040/tmp-shopping-s040-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s040",
+  "verdict": "needs-correction"
+}

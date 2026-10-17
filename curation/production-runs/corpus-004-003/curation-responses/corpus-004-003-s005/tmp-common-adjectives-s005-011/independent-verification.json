@@ -1,0 +1,37 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 6806,
+  "input_digest": "d901ed40b80d3877a2eed67238092ac7911e8a1e75d16ed5aef1f43c7bf2968d",
+  "input_tokens": 14305,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 643,
+  "raw_text": "{\n  \"verdict\": \"object\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"Indonesian juga lazim menggunakan \\\"sementara\\\" untuk makna ini.\"\n  ],\n  \"material_concerns\": [\n    \"The proposed contrast overstates a national preference: \\\"sementara\\\" is an ordinary everyday form in both Indonesian and Malaysian Malay.\"\n  ],\n  \"rationale\": \"Both answers fit the sense of lasting for a limited period, but the pairing is misleading because Indonesian commonly uses \\\"sementara\\\" as well as \\\"temporer\\\".\",\n  \"objection_assessments\": [],\n  \"affirmative_defect\": \"artificial-synonym\",\n  \"cue_alignment\": \"aligned\",\n  \"cue_rewrite\": \"\",\n  \"cue_rationale\": \"Both \\\"temporer\\\" and \\\"sementara\\\" can mean lasting for a limited period.\",\n  \"shared_synonym_case\": \"weak-contrast\",\n  \"shared_synonym_rationale\": \"\\\"Sementara\\\" is plausibly ordinary in both varieties for the same general sense, so it can defeat the claimed Indonesian–Malaysian preference.\",\n  \"nonblocking_risk\": \"none\",\n  \"risk_rationale\": \"\",\n  \"preference_risk\": {\n    \"signal\": \"shared-common-form\",\n    \"form\": \"sementara\",\n    \"language\": \"both\",\n    \"rationale\": \"\\\"Sementara\\\" is an ordinary form in both varieties for the same cue sense.\"\n  }\n}",
+  "response": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "Indonesian juga lazim menggunakan \"sementara\" untuk makna ini."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both \"temporer\" and \"sementara\" can mean lasting for a limited period.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The proposed contrast overstates a national preference: \"sementara\" is an ordinary everyday form in both Indonesian and Malaysian Malay."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "sementara",
+      "language": "both",
+      "rationale": "\"Sementara\" is an ordinary form in both varieties for the same cue sense.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both answers fit the sense of lasting for a limited period, but the pairing is misleading because Indonesian commonly uses \"sementara\" as well as \"temporer\".",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "\"Sementara\" is plausibly ordinary in both varieties for the same general sense, so it can defeat the claimed Indonesian–Malaysian preference.",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

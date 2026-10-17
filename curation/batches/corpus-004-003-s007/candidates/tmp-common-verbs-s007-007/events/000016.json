@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:41.583071+00:00",
+  "result": {
+    "candidate_digest": "5e9f720e677484d57e7484165d396008d671af126176f91d294affcc31e00ebd",
+    "candidate_id": "tmp-common-verbs-s007-007",
+    "checked_at": "2026-10-17T06:21:41.583071+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both entries express the intended sense, but the variety assignment is too categorical: Indonesian also uses benci, and Malaysian Malay also uses membenci. Presenting the bare versus prefixed forms as a reliable Indonesian–Malaysian contrast may mislead learners. The narrowed cue is acceptable, the sense is broadly correct, and similar is an appropriate relation. No false-friend contrast is established. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,76 @@
+{
+  "attempt_id": "a3f608a7fe670bc4",
+  "candidate_id": "tmp-common-verbs-s008-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct ordinary Indonesian equivalent for sharing something with others.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/berbagi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: berbagi"
+    },
+    {
+      "conclusion": "Correct ordinary Malaysian Malay equivalent, including sharing information or resources with others.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=berkongsi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: berkongsi"
+    },
+    {
+      "conclusion": "To share something with others accurately narrows the broad cue and matches both forms.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/berbagi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct: berbagi and berkongsi are distinct ordinary national forms for the same learner sense.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/berbagi",
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=berkongsi"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No material false-friend contrast is needed; the forms are semantic equivalents in this sense, despite possible English borrowing share in informal digital usage.",
+      "evidence_refs": [
+        "https://typoonline.com/kbbi/berbagi",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkongsi"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "0d5939852166b45fcca337cbe6effb137c42bbd00c3eb8439a1d6a4d5367f503",
+  "correction_refs": [],
+  "decision_digest": "ef1c57aeb207941c0ca5853b62e7603fcce2ec8e5ebfa46fb05cf7fe1dac32ef",
+  "elapsed_ms": 20546,
+  "finding_class": "none",
+  "input_tokens": 74760,
+  "model_calls": 1,
+  "output_tokens": 1244,
+  "packet_digest": "418b7e48a96559363dff94df8f59db0490a40f28616dda2d61251bda0a351dba",
+  "rationale": "Both answers are ordinary forms for the stated sense. The narrowed English cue is accurate, the relation is correctly labeled as different common words, and no false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:26:29.229613+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s008/tmp-common-verbs-s008-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s008",
+  "verdict": "cleared"
+}

@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-16T20:12:14.613726+00:00",
+  "input_digest": "28de5da571230200413d3a30359fcf959c8e56874372e34beabdb132b7e3a950",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Cash is physical money in notes or coins; cash deposit is the act of paying that money into an account.\"}, {\"other_id\": \"corpus-004-001-s012:tmp-finance-admin-s012-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Savings is money kept for future use; cash deposit is a specific account-funding transaction.\"}, {\"other_id\": \"corpus-004-001-s012:tmp-finance-admin-s012-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Withdrawal removes money from an account, whereas cash deposit puts cash into an account.\"}, {\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bank transfer moves money between accounts; cash deposit specifically pays physical cash into an account.\"}, {\"other_id\": \"corpus-004-002-s010:tmp-finance-admin-s010-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bank account is the account itself; cash deposit is a transaction made into that account.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-02",
+          "rationale": "Cash is physical money in notes or coins; cash deposit is the act of paying that money into an account.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s012:tmp-finance-admin-s012-001",
+          "rationale": "Savings is money kept for future use; cash deposit is a specific account-funding transaction.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-001-s012:tmp-finance-admin-s012-004",
+          "rationale": "Withdrawal removes money from an account, whereas cash deposit puts cash into an account.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-006",
+          "rationale": "Bank transfer moves money between accounts; cash deposit specifically pays physical cash into an account.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s010:tmp-finance-admin-s010-001",
+          "rationale": "Bank account is the account itself; cash deposit is a transaction made into that account.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-02",
+        "rationale": "Cash is physical money in notes or coins; cash deposit is the act of paying that money into an account.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s012:tmp-finance-admin-s012-001",
+        "rationale": "Savings is money kept for future use; cash deposit is a specific account-funding transaction.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-001-s012:tmp-finance-admin-s012-004",
+        "rationale": "Withdrawal removes money from an account, whereas cash deposit puts cash into an account.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-006",
+        "rationale": "Bank transfer moves money between accounts; cash deposit specifically pays physical cash into an account.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s010:tmp-finance-admin-s010-001",
+        "rationale": "Bank account is the account itself; cash deposit is a transaction made into that account.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "80410a1949e36939e674bdca4767dd7d5096e71491a81228bd783e6772ae2ccc"
+}

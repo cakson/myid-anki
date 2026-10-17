@@ -1,0 +1,60 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17311,
+  "input_tokens": 49040,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1368,
+  "packet_digest": "6c78ca08b99582fce0e8f3319a51ece655e3c51bc25fe404419e22384d3cfebd",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"“Kusyen” is an accurate Malaysian Malay term for a seat cushion. “Bantal sofa” is understandable Indonesian and attested, but it is a context-specific compound rather than the most general everyday equivalent of English “cushion”; “bantal kursi” or “bantalan” may better fit the stated sense. The different-common-word relation is broadly defensible, but the card should signal the Indonesian form’s sofa-specific nuance.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"Indonesian answer: “bantal sofa”\",\n      \"conclusion\": \"Plausible and understandable Indonesian expression for a cushion used on a sofa, but narrower than the generic cue and not clearly the preferred general equivalent.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://ejurnal.itats.ac.id/sntekpan/article/download/396/261\",\n        \"https://dgip.go.id/uploads/berita_resmi/file/36e5a95f064073bba19943bf7010c755.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: “kusyen”\",\n      \"conclusion\": \"Correct ordinary Malaysian Malay term for a small padded item used as a seat covering or support.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=34488&keyword=kusyen\"\n      ]\n    },\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"The cue “cushion” and sense “soft pad used on a seat” align with both answers, although “bantal sofa” adds an unmarked sofa restriction.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1.aspx?d=142528&keyword=cushion\",\n        \"https://prpm.dbp.gov.my/Cari1?d=34488&keyword=kusyen\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation: “different-common-word”\",\n      \"conclusion\": \"Broadly defensible as a contrast between Indonesian’s descriptive “bantal sofa” and Malaysian Malay’s lexicalized “kusyen”, but it should not imply that Indonesian lacks “kusyen” as a possible understood or borrowed form.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=34488&keyword=kusyen\",\n        \"https://ejurnal.itats.ac.id/sntekpan/article/download/396/261\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No meaningful false-friend contrast is present. “Kusyen” is semantically transparent in Malaysian Malay and corresponds directly to the intended seat-cushion sense.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"The supplied card contains no contrast field, and the evidence reviewed does not establish a misleading cross-language false-friend pair.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Plausible and understandable Indonesian expression for a cushion used on a sofa, but narrower than the generic cue and not clearly the preferred general equivalent.",
+        "evidence_refs": [
+          "https://ejurnal.itats.ac.id/sntekpan/article/download/396/261",
+          "https://dgip.go.id/uploads/berita_resmi/file/36e5a95f064073bba19943bf7010c755.pdf"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: “bantal sofa”"
+      },
+      {
+        "conclusion": "Correct ordinary Malaysian Malay term for a small padded item used as a seat covering or support.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=34488&keyword=kusyen"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: “kusyen”"
+      },
+      {
+        "conclusion": "The cue “cushion” and sense “soft pad used on a seat” align with both answers, although “bantal sofa” adds an unmarked sofa restriction.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1.aspx?d=142528&keyword=cushion",
+          "https://prpm.dbp.gov.my/Cari1?d=34488&keyword=kusyen"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Broadly defensible as a contrast between Indonesian’s descriptive “bantal sofa” and Malaysian Malay’s lexicalized “kusyen”, but it should not imply that Indonesian lacks “kusyen” as a possible understood or borrowed form.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=34488&keyword=kusyen",
+          "https://ejurnal.itats.ac.id/sntekpan/article/download/396/261"
+        ],
+        "material_risk": false,
+        "subject": "Final relation: “different-common-word”"
+      },
+      {
+        "conclusion": "No meaningful false-friend contrast is present. “Kusyen” is semantically transparent in Malaysian Malay and corresponds directly to the intended seat-cushion sense.",
+        "evidence_limitation": "The supplied card contains no contrast field, and the evidence reviewed does not establish a misleading cross-language false-friend pair.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "“Kusyen” is an accurate Malaysian Malay term for a seat cushion. “Bantal sofa” is understandable Indonesian and attested, but it is a context-specific compound rather than the most general everyday equivalent of English “cushion”; “bantal kursi” or “bantalan” may better fit the stated sense. The different-common-word relation is broadly defensible, but the card should signal the Indonesian form’s sofa-specific nuance.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

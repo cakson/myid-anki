@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T12:22:17.806079+00:00",
+  "result": {
+    "candidate_digest": "7bf5256272bfc9d523c36283ff9d7bfa7df76be66f7997dc23f767858b0bf8da",
+    "candidate_id": "tmp-food-cooking-s030-003",
+    "checked_at": "2026-10-17T12:22:17.806079+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "appetizer",
+        "language": "both",
+        "rationale": "The English borrowing may be understood and used in restaurant or menu contexts in both Indonesia and Malaysia, though it does not displace the localized forms.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Both forms mean a small dish served before the main meal. “Hidangan pembuka” is the ordinary Indonesian term, while “pembuka selera” is a natural Malaysian Malay preference. Review concern: Restaurant and menu usage may also use the English borrowing “appetizer” in both varieties.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "shared-common-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

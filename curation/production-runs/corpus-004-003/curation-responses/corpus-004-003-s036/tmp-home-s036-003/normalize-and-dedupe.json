@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6172,
+  "input_digest": "88b6e7e675d2b53e8d37381f3e37678712ff34e62f75a2886f409083f9c5c618",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 302,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal3-food-001:food-07\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An oven is a cooking appliance, whereas an oven mitt is a heat-resistant glove used to handle hot cookware.\"},{\"other_id\":\"cal3-home-001:home-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"An apron is protective clothing for the torso, whereas an oven mitt is a heat-resistant hand covering.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-food-001:food-07",
+          "rationale": "An oven is a cooking appliance, whereas an oven mitt is a heat-resistant glove used to handle hot cookware.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-home-001:home-05",
+          "rationale": "An apron is protective clothing for the torso, whereas an oven mitt is a heat-resistant hand covering.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

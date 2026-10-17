@@ -1,0 +1,72 @@
+{
+  "attempt_id": "3e73fbdbc8db7685",
+  "candidate_id": "tmp-transportation-s047-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Correctly matched to a vessel transporting passengers or vehicles across water.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=feri",
+        "https://kbbi.web.id/feri"
+      ],
+      "material_risk": false,
+      "subject": "English cue: ferry"
+    },
+    {
+      "conclusion": "Correct and idiomatic for Indonesian; KBBI identifies kapal feri as a vessel used for regular inter-island crossing.",
+      "evidence_refs": [
+        "https://kbbi.co.id/arti-kata/kapal",
+        "https://kbbi.web.id/feri"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kapal feri"
+    },
+    {
+      "conclusion": "Correct and dictionary-supported Malaysian Malay terminology for a boat or ship carrying passengers, vehicles, or goods across waterways.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=feri"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: feri"
+    },
+    {
+      "conclusion": "Accurately captures the core sense, including passenger and vehicle transport across water.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=feri",
+        "https://kbbi.web.id/feri"
+      ],
+      "material_risk": false,
+      "subject": "Sense definition"
+    },
+    {
+      "conclusion": "Similar is appropriate. There is no false-friend contrast; the difference is lexical packaging or preference, and kapal feri may also occur in Malaysian Malay.",
+      "evidence_limitation": "The reviewed dictionary sources establish validity and sense, but do not provide a corpus-based frequency comparison between feri and kapal feri across Malaysian contexts.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "2aa8f2c3d55b6fc951ab398c7fc9a4d38a90ef5f72be13b4374a755e20865384",
+  "correction_refs": [],
+  "decision_digest": "ebfe4fd15ccb1fdf1387e4b2cbc8703098d852261adac657c560714c141c8c60",
+  "elapsed_ms": 18390,
+  "finding_class": "none",
+  "input_tokens": 59895,
+  "model_calls": 1,
+  "output_tokens": 1091,
+  "packet_digest": "f6ea34fcaf3662f048ba6ca98cd4e0463a01e56c0a438ca388928d30165ba724",
+  "rationale": "Both forms are valid for the stated sense. Indonesian commonly uses kapal feri, while Malaysian Malay independently defines feri as a boat or ship carrying passengers and vehicles across water. The distinction is a useful form preference, not a false friend or meaning contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:14:22.034986+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s047/tmp-transportation-s047-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s047",
+  "verdict": "cleared"
+}

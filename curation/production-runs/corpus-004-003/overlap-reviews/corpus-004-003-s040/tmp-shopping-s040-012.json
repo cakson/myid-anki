@@ -1,0 +1,74 @@
+{
+  "attempt_id": "057aa856e6d530eb",
+  "candidate_id": "tmp-shopping-s040-012",
+  "claim_reviews": [
+    {
+      "conclusion": "Cleared. Store aisle accurately denotes the passage between rows of shelves in a store.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/aisle"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Accepted and natural for the stated sense, but not uniquely Indonesian; the phrase is documented in Indonesian retail vocabulary and toko means store/shop.",
+      "evidence_refs": [
+        "https://www.sederet.com/tutorial/vocabulary-shopping-belanja/",
+        "https://rri.co.id/cirebon/hiburan/2769152/tak-harus-belanja-mengapa-jalan-jalan-ke-toko-bisa-menyenangkan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lorong toko"
+    },
+    {
+      "conclusion": "Accepted and natural for the stated sense. Malaysian dictionary evidence defines kedai as a shop/store and documents lorong kedai usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kedai",
+        "https://www.parlimen.gov.my/files/hindex/pdf/DR-17081995.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: lorong kedai"
+    },
+    {
+      "conclusion": "Needs correction. The difference is preferential rather than a strict national lexical split: lorong is shared, and official Malay lexicography lists toko as a synonym of kedai; Indonesian lexical data also lists kedai as a store/shop equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kedai",
+        "https://kateglo.lostfocus.org/?action=view&dc=%2Aumum%2A&lang=id&mod=dictionary&op=2&phrase=kedai",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=lorong"
+      ],
+      "material_risk": true,
+      "subject": "National relation"
+    },
+    {
+      "conclusion": "Cleared as not applicable. No false-friend meaning contrast is evidenced between lorong toko and lorong kedai; the empty contrast field is therefore not learner-critical.",
+      "evidence_limitation": "No dedicated false-friend source was necessary because the cited lexicographic definitions support the same shop/store and passage meanings.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "fa78a25d1e8ec0062c6a2b92e426e8b57f1957c8eedcb2980e6327a63502a97d",
+  "correction_refs": [],
+  "decision_digest": "d3eb8bc6b3f180e8515baaf7defaa03aa010d1859dbff4dc1255ddaf2f792218",
+  "elapsed_ms": 24277,
+  "finding_class": "metadata-only",
+  "input_tokens": 62531,
+  "model_calls": 1,
+  "output_tokens": 1766,
+  "packet_digest": "da03002a27f879da29ed9a179a815a8529c008031a74ae3b43667e4f2c20e20c",
+  "rationale": "Both answers fit the store-aisle sense, but the national split is materially overstated: lorong is shared, and kedai is an accepted Malay equivalent of toko while Indonesian usage also accepts kedai for shop/store. The relation should be revised from different-common-word to a regional-preference or shared-synonym relation. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:08:44.284167+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s040/tmp-shopping-s040-012.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s040",
+  "verdict": "needs-correction"
+}

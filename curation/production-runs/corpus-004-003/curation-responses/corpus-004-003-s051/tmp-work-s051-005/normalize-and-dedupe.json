@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5647,
+  "input_digest": "7f8bd6e543d3dac79d35aa3595e12829cc1470c8309e286c072371b9187fd2fe",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 330,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"pros4-technology-001:technology-02\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"An academic degree is a type of qualification, but the candidate covers the broader sense of a credential or job requirement; overlap is plausible but not proven identical.\"},{\"other_id\":\"cal2-work-001:work-10\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"A certificate can be a job qualification or credential, but the candidate also includes requirements and is broader; overlap is plausible but not proven identical.\"},{\"other_id\":\"corpus-004-002-s014:tmp-services-s014-004\",\"type\":\"semantic\",\"resolution\":\"unresolved\",\"rationale\":\"A license may be a job requirement or qualification, but it is a specific authorization sense rather than necessarily the candidate's broader credential sense.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-technology-001:technology-02",
+          "rationale": "An academic degree is a type of qualification, but the candidate covers the broader sense of a credential or job requirement; overlap is plausible but not proven identical.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-10",
+          "rationale": "A certificate can be a job qualification or credential, but the candidate also includes requirements and is broader; overlap is plausible but not proven identical.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s014:tmp-services-s014-004",
+          "rationale": "A license may be a job requirement or qualification, but it is a specific authorization sense rather than necessarily the candidate's broader credential sense.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

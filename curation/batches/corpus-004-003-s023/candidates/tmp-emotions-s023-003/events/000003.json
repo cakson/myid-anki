@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T20:03:07.143914+00:00",
+  "input_digest": "2e0b382560ee87fd7ce68616695a2383ad6e13985b318ff0836ce6fbd614849e",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-health-001:health-08\", \"type\": \"synonym\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201cglad\\u201d and \\u201chappy\\u201d are near-synonyms in the positive-emotion sense, but the Indonesian answers differ (\\u201csenang\\u201d vs \\u201cbahagia\\u201d); no clear sense distinction proves them distinct.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-health-001:health-08",
+          "rationale": "“glad” and “happy” are near-synonyms in the positive-emotion sense, but the Indonesian answers differ (“senang” vs “bahagia”); no clear sense distinction proves them distinct.",
+          "resolution": "unresolved",
+          "type": "synonym"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-health-001:health-08",
+        "rationale": "“glad” and “happy” are near-synonyms in the positive-emotion sense, but the Indonesian answers differ (“senang” vs “bahagia”); no clear sense distinction proves them distinct.",
+        "resolution": "unresolved",
+        "type": "synonym"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7cf8613d11e80263a538f22a241834e16fdd31366c0a3f35a40500d5d95bdb25"
+}

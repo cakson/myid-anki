@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-17T11:54:29.716118+00:00",
+  "result": {
+    "candidate_digest": "9a4f7fa392c21dc4df362ab30e4b844b5418bc164927ee27d2806c8433c9ab0d",
+    "candidate_id": "tmp-family-social-s026-005",
+    "checked_at": "2026-10-17T11:54:29.716118+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "syabas",
+        "language": "malaysian",
+        "rationale": "Syabas is a plausible everyday Malaysian alternative for congratulatory praise, though tahniah is the clearer general equivalent.",
+        "signal": "credible-everyday-alternative"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Indonesian selamat and Malaysian tahniah are ordinary ways to express congratulations, with a useful national preference contrast. Review concern: Selamat has additional meanings and uses, so learners may need contextual reinforcement.",
+    "confidence_tier": "medium",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "credible-competing-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

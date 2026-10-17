@@ -1,0 +1,96 @@
+{
+  "attempt_id": "486db72a0cc804bf",
+  "candidate_id": "tmp-common-adjectives-s004-002",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: “shallow” can mean having a short distance from top to bottom, matching “not deep.”",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/shallow"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and appropriate as the stronger general Indonesian answer for the physical sense.",
+      "evidence_limitation": "The dictionary establishes meaning and acceptance, but not comparative national frequency.",
+      "evidence_refs": [
+        "https://kbbi.web.id/dangkal.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: dangkal"
+    },
+    {
+      "conclusion": "Cetek is also an accepted Indonesian equivalent, although the KBBI entry marks it as Jakarta Malay; therefore it is not a strictly Malaysian-only form.",
+      "evidence_refs": [
+        "https://kbbi.web.id/cetek"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian overlap: cetek"
+    },
+    {
+      "conclusion": "Correct and standard for Malaysian Malay; DBP defines it as “tidak dalam” and explicitly gives dangkal as an equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cetek"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: cetek"
+    },
+    {
+      "conclusion": "Dangkal is also a valid Malaysian Malay equivalent for the same physical sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dangkal"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian Malay overlap: dangkal"
+    },
+    {
+      "conclusion": "“Different-common-word” is too categorical for this card. A relation such as preferred-overlap or shared-synonym-preference would better represent dangkal as the Indonesian default and cetek as the Malaysian preference without implying exclusivity.",
+      "evidence_limitation": "The cited dictionaries demonstrate overlap and equivalence but do not quantify everyday usage frequencies by country.",
+      "evidence_refs": [
+        "https://kbbi.web.id/dangkal.html",
+        "https://kbbi.web.id/cetek",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cetek",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dangkal"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted: the two forms have the same relevant physical meaning across the cited dictionaries. The empty contrast field is not a learner-critical error, though an explicit note that the forms overlap could improve metadata clarity.",
+      "evidence_refs": [
+        "https://kbbi.web.id/dangkal.html",
+        "https://kbbi.web.id/cetek",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cetek",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dangkal"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "5cec125e0fab347baa11cd8d2040d6e9198b6d15a19b9879ed4e3569cca52828",
+  "correction_refs": [],
+  "decision_digest": "91ca057e20b3a79f9211ff7d6814ae5d946ee8731a4981c6c40474a35c8e8020",
+  "elapsed_ms": 26961,
+  "finding_class": "metadata-only",
+  "input_tokens": 92453,
+  "model_calls": 1,
+  "output_tokens": 1971,
+  "packet_digest": "6d2dd4584b6f0a74ab3ddc1de9b8e096b723a2d9050182888914ba0a0b0bd29d",
+  "rationale": "Both answers are valid for the physical sense of “shallow,” but the national split is materially overstated if “different-common-word” implies exclusivity. Indonesian dangkal is the stronger general answer, while cetek is also an accepted Indonesian form marked as Jakarta Malay; Malaysian Malay dictionaries explicitly define both cetek and dangkal as synonyms. The answers need not change, but the relation should reflect preferred overlap rather than a clean national divide. No false-friend contrast is supported or required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:32:23.242311+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s004/tmp-common-adjectives-s004-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s004",
+  "verdict": "needs-correction"
+}

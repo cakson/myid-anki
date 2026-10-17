@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T04:27:31.256704+00:00",
+  "input_digest": "39fbe9971866c753f1f8b131f36462a34d7f2059212b0352ee09e959a3c39162",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"places-001:places-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A food stall sells prepared food, while this entry is a general retail shop; their senses and answers differ.\"}, {\"other_id\": \"corpus-004-003-s041:tmp-shopping-s041-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A food stall is an individual small food-selling place, whereas a food court is a shared dining area containing multiple vendors.\"}, {\"other_id\": \"corpus-004-003-s021:tmp-education-s021-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A school canteen is specifically a school-based food venue; food stall is a general small place selling prepared food.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "places-001:places-02",
+          "rationale": "A food stall sells prepared food, while this entry is a general retail shop; their senses and answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-009",
+          "rationale": "A food stall is an individual small food-selling place, whereas a food court is a shared dining area containing multiple vendors.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s021:tmp-education-s021-007",
+          "rationale": "A school canteen is specifically a school-based food venue; food stall is a general small place selling prepared food.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "places-001:places-02",
+        "rationale": "A food stall sells prepared food, while this entry is a general retail shop; their senses and answers differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s041:tmp-shopping-s041-009",
+        "rationale": "A food stall is an individual small food-selling place, whereas a food court is a shared dining area containing multiple vendors.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s021:tmp-education-s021-007",
+        "rationale": "A school canteen is specifically a school-based food venue; food stall is a general small place selling prepared food.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "b4b9c40ac57787bb51de9c9e62d593281c0a44bd53ae3a6625672c382addf23e"
+}

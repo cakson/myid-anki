@@ -1,0 +1,50 @@
+{
+  "effort": "low",
+  "elapsed_ms": 7356,
+  "input_digest": "67ea48af81124f0fc44af11a56b8412ca34e839bdd21114f6faadc8d91377826",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 404,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A department store has multiple product departments within one retailer; a shopping mall is a building or complex containing many separate shops.\"},{\"other_id\":\"corpus-004-003-s041:tmp-shopping-s041-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A department store sells varied product categories through departments, while a supermarket is primarily a large self-service grocery store.\"},{\"other_id\":\"corpus-004-003-s041:tmp-shopping-s041-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A department store is larger and organized into multiple product departments; a convenience store is a small shop for everyday essentials.\"},{\"other_id\":\"places-001:places-02\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Shop is a generic retail establishment, whereas department store specifies a large multi-department retail format.\"},{\"other_id\":\"corpus-004-003-s022:tmp-work-s022-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Department store uses department in the retail-unit sense; the archived department entry refers to an organizational unit in a workplace.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-09",
+          "rationale": "A department store has multiple product departments within one retailer; a shopping mall is a building or complex containing many separate shops.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-006",
+          "rationale": "A department store sells varied product categories through departments, while a supermarket is primarily a large self-service grocery store.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s041:tmp-shopping-s041-007",
+          "rationale": "A department store is larger and organized into multiple product departments; a convenience store is a small shop for everyday essentials.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "places-001:places-02",
+          "rationale": "Shop is a generic retail establishment, whereas department store specifies a large multi-department retail format.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s022:tmp-work-s022-002",
+          "rationale": "Department store uses department in the retail-unit sense; the archived department entry refers to an organizational unit in a workplace.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

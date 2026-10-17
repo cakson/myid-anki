@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:45:14.599087+00:00",
+  "result": {
+    "candidate_digest": "b532924c09546250af203d69aa5bf57d203ffe6c5253ff6a6ce1fe894762ed1a",
+    "candidate_id": "tmp-daily-life-s014-005",
+    "checked_at": "2026-10-16T19:45:14.599087+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The proposed contrast may misteach ordinary usage because \"remote/remot\" is a common shared form, while \"kendali jarak jauh\" is formal or translation-like in Indonesian."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The proposed contrast may misteach ordinary usage because \"remote/remot\" is a common shared form, while \"kendali jarak jauh\" is formal or translation-like in Indonesian.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

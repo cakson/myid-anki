@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5281,
+  "input_digest": "86d80d9b19894c19c04929b96ebc8d676c67eca2d4aeb918e43817156f59488c",
+  "input_tokens": 93713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 320,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s011:tmp-communication-s011-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A press release is an official statement issued to news organizations; a notice is general written information intended to inform people.\"},{\"other_id\":\"cal2-work-001:work-09\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A press release is a media-distributed official statement, whereas a report is a written account of information or findings.\"},{\"other_id\":\"corpus-004-003-s012:tmp-communication-s012-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A press release is an issued statement for news organizations; a newspaper is a periodic news publication.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-009",
+          "rationale": "A press release is an official statement issued to news organizations; a notice is general written information intended to inform people.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-09",
+          "rationale": "A press release is a media-distributed official statement, whereas a report is a written account of information or findings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-001",
+          "rationale": "A press release is an issued statement for news organizations; a newspaper is a periodic news publication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

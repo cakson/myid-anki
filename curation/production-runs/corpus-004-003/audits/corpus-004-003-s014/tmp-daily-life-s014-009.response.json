@@ -1,0 +1,65 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17319,
+  "input_tokens": 62114,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1220,
+  "packet_digest": "49ccd5d1ebe3828a429b64698b31fbfcea0600572dbdfe04b9d17dea8f8f290b",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Both translations fit the stated sense. However, the national contrast is overstated: “pengharum ruangan” is strongly established in Indonesian, while Malaysian usage also commonly includes “pewangi udara,” “pewangi bilik/rumah,” and “pewangi/penyegar udara.” Thus “penyegar udara” is valid Malaysian Malay but not a clean Malaysia-versus-Indonesia lexical distinction. No false-friend contrast is present.\",\"claim_reviews\":[{\"subject\":\"Indonesian: pengharum ruangan\",\"conclusion\":\"Correct and natural for “air freshener,” especially for a room or indoor space.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.ruparupa.com/azko/c/home-living/pengharum-ruangan/pengharum-ruangan/air-fresheners.html\",\"https://www.monotaro.id/k/store/pengharum%20ruangan\"]},{\"subject\":\"Malaysian: penyegar udara\",\"conclusion\":\"Correct and attested Malaysian Malay term for an air freshener.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.pacificwise.com.my/air-freshener-glade-aerosol.html\",\"https://ep.penang.gov.my/download_file.php?file=28643%2FPELAWAAN+CUCI+DALAM+MAF+1.1.2024+-+31.12.2025++final.pdf&fjenis=perolehan\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue “air freshener” and sense “product used to make indoor air smell pleasant” align with both proposed terms.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.ecocare.id/hygiene-solution/product/pengharum-ruangan\",\"https://www.pacificwise.com.my/air-freshener-glade-aerosol.html\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Needs correction or qualification: the terms are valid variety-preferred forms, but Malaysian Malay also uses overlapping alternatives such as “pewangi udara” and “pewangi/penyegar udara,” so the distinction is not categorical.\",\"material_risk\":true,\"evidence_refs\":[\"https://ep.penang.gov.my/download_file.php?file=28643%2FPELAWAAN+CUCI+DALAM+MAF+1.1.2024+-+31.12.2025++final.pdf&fjenis=perolehan\",\"https://www.lazada.com.my/tag/air-freshener-for-room/\",\"https://www.monotaro.id/c25/c2512.html\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false friend: both compounds transparently denote a product that freshens or scents air/rooms; the issue is lexical preference and overlap, not divergent meaning.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.ruparupa.com/azko/c/home-living/pengharum-ruangan/pengharum-ruangan/air-fresheners.html\",\"https://www.pacificwise.com.my/air-freshener-glade-aerosol.html\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and natural for “air freshener,” especially for a room or indoor space.",
+        "evidence_refs": [
+          "https://www.ruparupa.com/azko/c/home-living/pengharum-ruangan/pengharum-ruangan/air-fresheners.html",
+          "https://www.monotaro.id/k/store/pengharum%20ruangan"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian: pengharum ruangan"
+      },
+      {
+        "conclusion": "Correct and attested Malaysian Malay term for an air freshener.",
+        "evidence_refs": [
+          "https://www.pacificwise.com.my/air-freshener-glade-aerosol.html",
+          "https://ep.penang.gov.my/download_file.php?file=28643%2FPELAWAAN+CUCI+DALAM+MAF+1.1.2024+-+31.12.2025++final.pdf&fjenis=perolehan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian: penyegar udara"
+      },
+      {
+        "conclusion": "The cue “air freshener” and sense “product used to make indoor air smell pleasant” align with both proposed terms.",
+        "evidence_refs": [
+          "https://www.ecocare.id/hygiene-solution/product/pengharum-ruangan",
+          "https://www.pacificwise.com.my/air-freshener-glade-aerosol.html"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Needs correction or qualification: the terms are valid variety-preferred forms, but Malaysian Malay also uses overlapping alternatives such as “pewangi udara” and “pewangi/penyegar udara,” so the distinction is not categorical.",
+        "evidence_refs": [
+          "https://ep.penang.gov.my/download_file.php?file=28643%2FPELAWAAN+CUCI+DALAM+MAF+1.1.2024+-+31.12.2025++final.pdf&fjenis=perolehan",
+          "https://www.lazada.com.my/tag/air-freshener-for-room/",
+          "https://www.monotaro.id/c25/c2512.html"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false friend: both compounds transparently denote a product that freshens or scents air/rooms; the issue is lexical preference and overlap, not divergent meaning.",
+        "evidence_refs": [
+          "https://www.ruparupa.com/azko/c/home-living/pengharum-ruangan/pengharum-ruangan/air-fresheners.html",
+          "https://www.pacificwise.com.my/air-freshener-glade-aerosol.html"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Both translations fit the stated sense. However, the national contrast is overstated: “pengharum ruangan” is strongly established in Indonesian, while Malaysian usage also commonly includes “pewangi udara,” “pewangi bilik/rumah,” and “pewangi/penyegar udara.” Thus “penyegar udara” is valid Malaysian Malay but not a clean Malaysia-versus-Indonesia lexical distinction. No false-friend contrast is present.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

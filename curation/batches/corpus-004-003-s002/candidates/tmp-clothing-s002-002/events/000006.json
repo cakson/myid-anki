@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T19:20:59.869272+00:00",
+  "input_digest": "e1ad1b5a9b21df1ab5362f0e0986fbf3ebbd8cb010078b9cc65a26de0810d79f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cJas\\u201d is the ordinary Indonesian term, while \\u201csut\\u201d is the standard Malaysian Malay term for a matching formal jacket and trousers. The contrast is useful without implying exclusive ownership.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"formal suit\", \"cue_rationale\": \"\\u201cSuit\\u201d is ambiguous in isolation, but \\u201cformal suit\\u201d clearly identifies the matching formal jacket-and-trousers sense covered by both answers.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"The English borrowing \\u201csuit\\u201d may occur in Malaysian retail or colloquial usage, but \\u201csut\\u201d remains a credible standard Malay preference; Indonesian commonly uses \\u201cjas.\\u201d\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Malaysian speakers may encounter the English form \\u201csuit,\\u201d creating some contextual overlap.\", \"preference_risk\": {\"signal\": \"named-alternative-exists\", \"form\": \"suit\", \"language\": \"malaysian\", \"rationale\": \"The English borrowing may appear in Malaysian retail or colloquial contexts, though it does not clearly displace standard \\u201csut.\\u201d\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "correctable",
+      "cue_rationale": "“Suit” is ambiguous in isolation, but “formal suit” clearly identifies the matching formal jacket-and-trousers sense covered by both answers.",
+      "cue_rewrite": "formal suit",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "suit",
+        "language": "malaysian",
+        "rationale": "The English borrowing may appear in Malaysian retail or colloquial contexts, though it does not clearly displace standard “sut.”",
+        "signal": "named-alternative-exists"
+      },
+      "rationale": "“Jas” is the ordinary Indonesian term, while “sut” is the standard Malaysian Malay term for a matching formal jacket and trousers. The contrast is useful without implying exclusive ownership.",
+      "relation": "different-common-word",
+      "risk_rationale": "Malaysian speakers may encounter the English form “suit,” creating some contextual overlap.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "The English borrowing “suit” may occur in Malaysian retail or colloquial usage, but “sut” remains a credible standard Malay preference; Indonesian commonly uses “jas.”",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "correctable",
+    "cue_rationale": "“Suit” is ambiguous in isolation, but “formal suit” clearly identifies the matching formal jacket-and-trousers sense covered by both answers.",
+    "cue_rewrite": "formal suit",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "suit",
+      "language": "malaysian",
+      "rationale": "The English borrowing may appear in Malaysian retail or colloquial contexts, though it does not clearly displace standard “sut.”",
+      "signal": "named-alternative-exists"
+    },
+    "rationale": "“Jas” is the ordinary Indonesian term, while “sut” is the standard Malaysian Malay term for a matching formal jacket and trousers. The contrast is useful without implying exclusive ownership.",
+    "relation": "different-common-word",
+    "risk_rationale": "Malaysian speakers may encounter the English form “suit,” creating some contextual overlap.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "The English borrowing “suit” may occur in Malaysian retail or colloquial usage, but “sut” remains a credible standard Malay preference; Indonesian commonly uses “jas.”",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "d6fee1b01628ca95841ecb2d8d97ec5627c631e659ce609370ee6babaf98ed4d"
+}

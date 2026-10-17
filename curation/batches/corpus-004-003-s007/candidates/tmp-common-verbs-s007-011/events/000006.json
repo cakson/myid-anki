@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-16T19:31:59.427363+00:00",
+  "input_digest": "be2e3223a065765d0912fb2f25d5c4c073404d68e2f5888a6ff56aec56ddeb82",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Malaysian answer does not reliably express the precise transfer-between-containers sense; mencurah commonly suggests pouring or flowing out more generally.\", \"Menuang is also ordinary in Malaysian Malay for this exact sense, weakening the proposed national contrast.\"], \"material_concerns\": [\"The pairing risks teaching an artificial synonym contrast and may mislead learners about Malaysian usage.\"], \"rationale\": \"Indonesian menuang fits the exact act of pouring liquid from one container to another. Malaysian mencurah can mean pour, but is less specific and menuang is also a normal Malaysian form for the same sense.\", \"objection_assessments\": [], \"affirmative_defect\": \"artificial-synonym\", \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"No concise cue rewrite resolves the issue: mencurah does not securely encode the same precise container-to-container act, while menuang is also ordinary in Malaysian Malay.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Menuang is a plausible ordinary Malaysian alternative for the same sense, so the proposed Indonesian\\u2013Malaysian contrast could mislead.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"menuang\", \"language\": \"both\", \"rationale\": \"Menuang is plausibly ordinary in both Indonesian and Malaysian Malay for pouring liquid from one container to another.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "The Malaysian answer does not reliably express the precise transfer-between-containers sense; mencurah commonly suggests pouring or flowing out more generally.",
+        "Menuang is also ordinary in Malaysian Malay for this exact sense, weakening the proposed national contrast."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "No concise cue rewrite resolves the issue: mencurah does not securely encode the same precise container-to-container act, while menuang is also ordinary in Malaysian Malay.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pairing risks teaching an artificial synonym contrast and may mislead learners about Malaysian usage."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "menuang",
+        "language": "both",
+        "rationale": "Menuang is plausibly ordinary in both Indonesian and Malaysian Malay for pouring liquid from one container to another.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Indonesian menuang fits the exact act of pouring liquid from one container to another. Malaysian mencurah can mean pour, but is less specific and menuang is also a normal Malaysian form for the same sense.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Menuang is a plausible ordinary Malaysian alternative for the same sense, so the proposed Indonesian–Malaysian contrast could mislead.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "The Malaysian answer does not reliably express the precise transfer-between-containers sense; mencurah commonly suggests pouring or flowing out more generally.",
+      "Menuang is also ordinary in Malaysian Malay for this exact sense, weakening the proposed national contrast."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue rewrite resolves the issue: mencurah does not securely encode the same precise container-to-container act, while menuang is also ordinary in Malaysian Malay.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pairing risks teaching an artificial synonym contrast and may mislead learners about Malaysian usage."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "menuang",
+      "language": "both",
+      "rationale": "Menuang is plausibly ordinary in both Indonesian and Malaysian Malay for pouring liquid from one container to another.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Indonesian menuang fits the exact act of pouring liquid from one container to another. Malaysian mencurah can mean pour, but is less specific and menuang is also a normal Malaysian form for the same sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Menuang is a plausible ordinary Malaysian alternative for the same sense, so the proposed Indonesian–Malaysian contrast could mislead.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "ca2bbf4da8284133bd8bbf4e047cccd1b0f8e35800edaa19054ac6fc8c64ec79"
+}

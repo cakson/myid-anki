@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T06:30:58.664996+00:00",
+  "input_digest": "9b1049730766cfa561acaf2143a343aa608323eea3388b589f2389486ff3692f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-home-001:home-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An ironing board is a board used to support clothes during ironing, distinct from a clothes iron, the heated appliance itself.\"}, {\"other_id\": \"cal2-daily-001:daily-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An ironing board is equipment used for ironing, distinct from the action of pressing clothes with a heated iron.\"}, {\"other_id\": \"corpus-004-003-s015:tmp-daily-life-s015-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An ironing board supports ironing; a clothes drying rack is used to air-dry clothes, so the senses and functions differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-home-001:home-05",
+          "rationale": "An ironing board is a board used to support clothes during ironing, distinct from a clothes iron, the heated appliance itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-daily-001:daily-09",
+          "rationale": "An ironing board is equipment used for ironing, distinct from the action of pressing clothes with a heated iron.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-007",
+          "rationale": "An ironing board supports ironing; a clothes drying rack is used to air-dry clothes, so the senses and functions differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-home-001:home-05",
+        "rationale": "An ironing board is a board used to support clothes during ironing, distinct from a clothes iron, the heated appliance itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-daily-001:daily-09",
+        "rationale": "An ironing board is equipment used for ironing, distinct from the action of pressing clothes with a heated iron.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s015:tmp-daily-life-s015-007",
+        "rationale": "An ironing board supports ironing; a clothes drying rack is used to air-dry clothes, so the senses and functions differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7d3f14a17716d1a399bc8a052163fda513fc8d9f73f45238ee38ff012696aad8"
+}

@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:45.264365+00:00",
+  "result": {
+    "candidate_digest": "0e78c26443db5ec508ccf6fb6f80dc08d801b08c328c961854929203186fa19a",
+    "candidate_id": "tmp-directions-location-s017-010",
+    "checked_at": "2026-10-17T06:21:45.264365+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The Malaysian answer and English cue are sound, but Indonesian “tengara” means “sign” or “omen,” not a recognizable navigational landmark. The proposed contrast is therefore invalid and creates a false-friend risk. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,85 @@
+{
+  "attempt_id": "1128a43033932268",
+  "candidate_id": "tmp-health-body-s033-004",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: obesity refers to abnormal or excessive body-fat accumulation that can impair or risk health.",
+      "evidence_refs": [
+        "https://www.who.int/health-topics/obesity"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary in Indonesian health usage; Indonesian Ministry of Health material defines obesitas as excessive accumulation of body fat.",
+      "evidence_refs": [
+        "https://www.kemkes.go.id/id/dianggap-bukan-penyakit-obesitas-justru-ancam-picu-komplikasi",
+        "https://keslan.kemkes.go.id/view_artikel/3617/mengenal-obesitas"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: obesitas"
+    },
+    {
+      "conclusion": "Correct and established in Malaysian Malay; DBP lists obesiti as excess-fat-related kegemukan and states that the term is accepted by users.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=obesiti"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: obesiti"
+    },
+    {
+      "conclusion": "Material overlap exists. Indonesian health material explicitly pairs kegemukan with obesitas, while Malaysian DBP defines obesiti through kegemukan; Malaysian health material also uses kegemukan alongside obesity terminology. The current different-common-word relation therefore overstates national separation unless presented as a preferred technical form rather than an exclusive equivalent.",
+      "evidence_refs": [
+        "https://p2ptm.kemkes.go.id/uploads/VHcrbkVobjRzUDN3UCs4eUJ0dVBndz09/2019/03/Buku_Pintar_Kader_POSBINDU.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=obesiti",
+        "https://www.moh.gov.my/images/04-penerbitan/rujukan/penyakit-berjangkit/kospen/MODUL%20LATIHAN_KOSPEN.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and national split"
+    },
+    {
+      "conclusion": "Needs qualification or metadata correction. Different-common-word is defensible only as a preferred/conventional national-form contrast; it is misleading if it implies that obesitas is not accepted in Malaysian Malay, obesiti is not accepted in Indonesian, or kegemukan is not ordinary in both.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=obesiti",
+        "https://p2ptm.kemkes.go.id/uploads/VHcrbkVobjRzUDN3UCs4eUJ0dVBndz09/2019/03/Buku_Pintar_Kader_POSBINDU.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted. Obesitas and obesiti are spelling variants with the same medical sense, not deceptive cross-variety forms. The empty contrast field is acceptable, though the card could explicitly mark the forms as cognate equivalents.",
+      "evidence_refs": [
+        "https://www.who.int/health-topics/obesity",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=obesiti"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3be03eca5a27a782f9ed5d149ab1f0f434db4755fa0f99e336862f8faca7625c",
+  "correction_refs": [],
+  "decision_digest": "44fcf451ef6897e45ad8d1e98efd8c38dbd7b4387acf4852e64ae9a9fec32f7a",
+  "elapsed_ms": 24527,
+  "finding_class": "metadata-only",
+  "input_tokens": 62268,
+  "model_calls": 1,
+  "output_tokens": 1523,
+  "packet_digest": "71466335c0d3e87e95e9e444729f2e3f8635c9985ce8a3e7f202e4c458f9deb4",
+  "rationale": "Obesitas and obesiti are valid Indonesian and Malaysian Malay health terms, respectively, but the national split is materially overstated as an exclusive distinction: kegemukan is an ordinary accepted equivalent in both varieties. The relation should be framed as a national preference or conventional technical-form contrast, not a strict vocabulary boundary. The English cue and sense are accurate. The two answers are semantically correct. There is no false-friend contrast: the forms are transparent cognates with the same meaning.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:02:30.646969+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s033/tmp-health-body-s033-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s033",
+  "verdict": "needs-correction"
+}

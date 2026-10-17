@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-16T20:03:02.391098+00:00",
+  "input_digest": "44720a765e1c6098b741c1fe58669787e5a2a3bdb77e04761c25167a14a9d939",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"hiba is formal/literary and not the ordinary Malaysian equivalent of everyday \\u201csad\\u201d\"], \"material_concerns\": [\"The pairing misleadingly suggests Indonesian sedih versus Malaysian hiba, although sedih is also the ordinary Malaysian word for this sense.\"], \"rationale\": \"Sedih is the ordinary everyday Indonesian term. Hiba can mean sorrowful or deeply moved, but is marked and less direct for ordinary Malaysian \\u201csad\\u201d; this is an artificial national contrast.\", \"objection_assessments\": [], \"affirmative_defect\": \"artificial-synonym\", \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both forms can relate to sorrow, but hiba is a marked, literary expression rather than the ordinary Malaysian equivalent.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Sedih is plausibly ordinary in both Indonesia and Malaysia for the same sense, which defeats the proposed national preference.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"sedih\", \"language\": \"both\", \"rationale\": \"Sedih is plausibly the ordinary everyday form in both varieties for \\u201csad,\\u201d while hiba is marked and less direct.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "hiba is formal/literary and not the ordinary Malaysian equivalent of everyday “sad”"
+      ],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both forms can relate to sorrow, but hiba is a marked, literary expression rather than the ordinary Malaysian equivalent.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pairing misleadingly suggests Indonesian sedih versus Malaysian hiba, although sedih is also the ordinary Malaysian word for this sense."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "sedih",
+        "language": "both",
+        "rationale": "Sedih is plausibly the ordinary everyday form in both varieties for “sad,” while hiba is marked and less direct.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "Sedih is the ordinary everyday Indonesian term. Hiba can mean sorrowful or deeply moved, but is marked and less direct for ordinary Malaysian “sad”; this is an artificial national contrast.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Sedih is plausibly ordinary in both Indonesia and Malaysia for the same sense, which defeats the proposed national preference.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "hiba is formal/literary and not the ordinary Malaysian equivalent of everyday “sad”"
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both forms can relate to sorrow, but hiba is a marked, literary expression rather than the ordinary Malaysian equivalent.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pairing misleadingly suggests Indonesian sedih versus Malaysian hiba, although sedih is also the ordinary Malaysian word for this sense."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "sedih",
+      "language": "both",
+      "rationale": "Sedih is plausibly the ordinary everyday form in both varieties for “sad,” while hiba is marked and less direct.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Sedih is the ordinary everyday Indonesian term. Hiba can mean sorrowful or deeply moved, but is marked and less direct for ordinary Malaysian “sad”; this is an artificial national contrast.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Sedih is plausibly ordinary in both Indonesia and Malaysia for the same sense, which defeats the proposed national preference.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "f6656df2244b9789e2386185d2f9fbe8d6299534f6fdb7878b1de1767ab9270f"
+}

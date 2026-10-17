@@ -1,0 +1,77 @@
+{
+  "attempt_id": "9872e71341412e83",
+  "candidate_id": "tmp-travel-s049-010",
+  "claim_reviews": [
+    {
+      "conclusion": "“kursi dekat jendela” correctly means a seat beside a window and is natural Indonesian usage.",
+      "evidence_refs": [
+        "https://www.resourcefulindonesian.com/uploads/1/1/2/5/11252883/indonesian_2000_core_words___phrases.pdf",
+        "https://www.pelita-air.com/content_travel/detail/ingin-duduk-dekat-jendela-cek-caranya-berikut-ini"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“tempat duduk tepi tingkap” is correct Malaysian Malay for “window seat”; it is also the form given by Kamus Inggeris-Melayu Dewan.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tempat+duduk"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The cue “window seat” and sense “aircraft seat beside a window” are aligned with both answers.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tempat+duduk",
+        "https://www.resourcefulindonesian.com/uploads/1/1/2/5/11252883/indonesian_2000_core_words___phrases.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate: Indonesian uses jendela and kursi, while Malaysian Malay uses tingkap and tempat duduk/kerusi. The forms are not synonyms within one variety, but regional equivalents.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tempat+duduk",
+        "https://www.resourcefulindonesian.com/uploads/1/1/2/5/11252883/indonesian_2000_core_words___phrases.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or required. The lexical differences are ordinary Indonesian–Malaysian regional differences, and “kerusi tepi tingkap” is a plausible Malaysian alternative but does not invalidate the submitted form.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tempat+duduk",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tepi+1"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "ebd8038282e3f23491f08faea2e18734637e99d89010f9f0967bda7821cd0255",
+  "correction_refs": [],
+  "decision_digest": "6d1006ca53c6776bfffb9800533cfd4cab5f348e181ef4ec2f4f3dd8fa7ff8db",
+  "elapsed_ms": 14094,
+  "finding_class": "none",
+  "input_tokens": 33454,
+  "model_calls": 1,
+  "output_tokens": 1079,
+  "packet_digest": "1dba11d88bd5cdfd99ec9425e435cf1bab6e6f1e228149ffec18a99f69e26c71",
+  "rationale": "Both answers correctly express “window seat” in the aircraft sense. The Malaysian form is a standard dictionary translation; the Indonesian form is natural and well-attested. The contrast is regional vocabulary, not a false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:17:36.950616+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s049/tmp-travel-s049-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s049",
+  "verdict": "cleared"
+}

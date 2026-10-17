@@ -1,0 +1,75 @@
+{
+  "attempt_id": "6847372d34e67635",
+  "candidate_id": "tmp-shopping-s041-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and idiomatic for “counterfeit product” in Indonesian.",
+      "evidence_refs": [
+        "https://dgip.go.id/artikel/detail-artikel-berita/waspadai-barang-palsu-kenali-ciri-ciri-produk-bajakan?kategori=liputan-humas"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: barang palsu"
+    },
+    {
+      "conclusion": "Correct and conventional Malaysian Malay wording for counterfeit goods.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tiruan",
+        "https://www.muftiselangor.gov.my/2023/10/17/10-taudhih-al-hukmi-hukum-jual-beli-barangan-tiruan/"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: barangan tiruan"
+    },
+    {
+      "conclusion": "The cue and definition correctly identify a product imitating a genuine product.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tiruan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Different-common-word is defensible as a conventional-preference label, but both varieties also permit overlapping alternatives such as palsu and tiruan.",
+      "evidence_limitation": "The cited sources establish meaning and attested usage more clearly than comparative frequency; they do not prove that the preferred forms are exclusive.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=palsu",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tiruan"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is required: the two expressions share the intended counterfeit/imitation sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tiruan",
+        "https://prpm.dbp.gov.my/Cari1?d=7120&keyword=palsu"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "089cb1c7092a68cb01d89d61c35149f5f0816583fc223adbfcbe7d4d7cdbc1e1",
+  "correction_refs": [],
+  "decision_digest": "b64ac22786ccbd1d28e5414c994d2cff4efeeb1a276dbe5eb944460416ebf05d",
+  "elapsed_ms": 19233,
+  "finding_class": "none",
+  "input_tokens": 62019,
+  "model_calls": 1,
+  "output_tokens": 1370,
+  "packet_digest": "a8c4ed7f4680200c757a2a7bb7585978d4fcbc5c928307bb45da6f5569966166",
+  "rationale": "Both answers accurately express “counterfeit product.” “Barang palsu” is established Indonesian usage, while “barangan tiruan” is well-supported Malaysian Malay usage. The forms are not false friends. “Different-common-word” is acceptable as a preference-level relation, though not an absolute exclusivity claim.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:05:22.071988+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s041/tmp-shopping-s041-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "cleared"
+}

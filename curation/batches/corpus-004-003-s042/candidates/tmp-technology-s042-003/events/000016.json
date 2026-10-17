@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:52.594912+00:00",
+  "result": {
+    "candidate_digest": "f542b5d61e23ad2524c32b18097ec3ad6d1a3713ca61172526310f8e6f205e0b",
+    "candidate_id": "tmp-technology-s042-003",
+    "checked_at": "2026-10-17T06:21:52.594912+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both translations and the sense are correct. However, Malaysian Malay also uses “sistem operasi,” while “sistem pengendalian” is the formal/preferred standard. Labeling the relation simply as “different-common-word” may misleadingly imply the terms are mutually distinct rather than shared synonyms with a register or preference contrast. No false-friend contrast is applicable. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,73 @@
+{
+  "attempt_id": "5dd7bca3829e930d",
+  "candidate_id": "tmp-common-verbs-s007-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “need” meaning “require something.”",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/",
+        "https://kbbi.web.id/butuh"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer membutuhkan"
+    },
+    {
+      "conclusion": "Correct and standard in Malaysian Malay for requiring or needing something.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memerlukan",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=perlu-memerlukan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer memerlukan"
+    },
+    {
+      "conclusion": "“Need” and “require something” are aligned with both Malay forms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=perlu-memerlukan",
+        "https://kbbi.web.id/perlu.html"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is accurate: the Indonesian and Malaysian entries are different lexical forms, although related synonyms such as perlu may be used in both varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=perlu-memerlukan",
+        "https://kbbi.web.id/perlu.html"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is present or required.",
+      "evidence_limitation": "No contrast-specific source is necessary because the forms share the intended sense and are not misleading cross-variety false friends.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "b9ed8de6c24b31ed8fbbdb07c53eb17b8d1348f4bd8c1213f391066b18b1640e",
+  "correction_refs": [],
+  "decision_digest": "e2cd55ebd2d363a077d361128600fa0eee85fda0dcc406e8d24c40f483239e57",
+  "elapsed_ms": 14504,
+  "finding_class": "none",
+  "input_tokens": 61318,
+  "model_calls": 1,
+  "output_tokens": 893,
+  "packet_digest": "ee7f54843750fa920988b3ae3194ee8c3ee0334aae645aade2d5d93d76ff9341",
+  "rationale": "Both answers are valid and match the cue “need” in the sense “require something.” Indonesian membutuhkan is supported as meaning “sangat perlu menggunakan; memerlukan,” while Malaysian memerlukan means “menjadikan perlu” or “menghendaki.” They are distinct common words, so the relation label is appropriate. No false-friend contrast is warranted; the blank contrast field is acceptable.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:24:00.483952+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s007/tmp-common-verbs-s007-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s007",
+  "verdict": "cleared"
+}

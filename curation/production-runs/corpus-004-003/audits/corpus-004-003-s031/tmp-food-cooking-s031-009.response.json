@@ -1,0 +1,66 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 19242,
+  "input_tokens": 59689,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1280,
+  "packet_digest": "f869febeb3fee9573c73dd20f56446ddb6e377ae5b03ae14434ee11fd948abc9",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"Indonesian “adonan cair” appropriately conveys batter. Malaysian “adunan” is a broader flour mixture term; authoritative Malaysian sources define “batter” as “bater,” specifically an “adunan cair.” The card therefore understates the Malaysian specificity. The forms are related cognates, not a false-friend contrast; the issue is specificity, not opposite meaning.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: adonan cair\",\"conclusion\":\"Accurate for the stated sense of a pourable cooking mixture.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.cari.co/adonan\",\"https://kbbi.web.id/cair\"]},{\"subject\":\"Malaysian answer: adunan\",\"conclusion\":\"Usable in cooking context but overly broad; “bater” is the more precise Malaysian Malay equivalent for batter, while “adunan” means a flour mixture used for cakes or similar foods.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=adunan\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bater\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=tepung+I+1\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue “batter” and sense “a pourable mixture used before cooking” are coherent, though the sense could mention cakes or coating food to align more explicitly with the Malaysian dictionary definition.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=tepung+I+1\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bater\"]},{\"subject\":\"Final relation: different-common-word\",\"conclusion\":\"Partly defensible because the spellings differ, but it misses that Indonesian adonan and Malaysian adunan are closely related cognates and that the Malaysian form is broader rather than a fully distinct equivalent.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.cari.co/adonan\",\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=adunan\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supported. The words share a related mixture meaning; the relevant contrast is Indonesian explicit cair versus Malaysian broader adunan, with bater as the precise Malaysian term.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.cari.co/adonan\",\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=adunan\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bater\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate for the stated sense of a pourable cooking mixture.",
+        "evidence_refs": [
+          "https://kbbi.cari.co/adonan",
+          "https://kbbi.web.id/cair"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: adonan cair"
+      },
+      {
+        "conclusion": "Usable in cooking context but overly broad; “bater” is the more precise Malaysian Malay equivalent for batter, while “adunan” means a flour mixture used for cakes or similar foods.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=adunan",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bater",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=tepung+I+1"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: adunan"
+      },
+      {
+        "conclusion": "The cue “batter” and sense “a pourable mixture used before cooking” are coherent, though the sense could mention cakes or coating food to align more explicitly with the Malaysian dictionary definition.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=tepung+I+1",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bater"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Partly defensible because the spellings differ, but it misses that Indonesian adonan and Malaysian adunan are closely related cognates and that the Malaysian form is broader rather than a fully distinct equivalent.",
+        "evidence_refs": [
+          "https://kbbi.cari.co/adonan",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=adunan"
+        ],
+        "material_risk": true,
+        "subject": "Final relation: different-common-word"
+      },
+      {
+        "conclusion": "No false-friend contrast is supported. The words share a related mixture meaning; the relevant contrast is Indonesian explicit cair versus Malaysian broader adunan, with bater as the precise Malaysian term.",
+        "evidence_refs": [
+          "https://kbbi.cari.co/adonan",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=adunan",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bater"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "Indonesian “adonan cair” appropriately conveys batter. Malaysian “adunan” is a broader flour mixture term; authoritative Malaysian sources define “batter” as “bater,” specifically an “adunan cair.” The card therefore understates the Malaysian specificity. The forms are related cognates, not a false-friend contrast; the issue is specificity, not opposite meaning.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-16T19:51:12.703179+00:00",
+  "input_digest": "ea2f4785d516c6b1dd88b480192dc77d65f2de811a3ff7b97425c72f48212f02",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [\"The bare cue \\u201ccorner\\u201d is somewhat broad; the street/side-meeting sense should be made explicit.\", \"Indonesian also commonly uses \\u201cpojok,\\u201d so \\u201csudut\\u201d is not the only everyday choice.\"], \"material_concerns\": [], \"rationale\": \"\\u201cSudut\\u201d is an ordinary Indonesian term for a corner, while Malaysian Malay commonly uses \\u201cpenjuru\\u201d for a corner or street-side location. The contrast is useful but not exclusive.\", \"objection_assessments\": [], \"cue_alignment\": \"correctable\", \"cue_rewrite\": \"corner where two streets or sides meet\", \"cue_rationale\": \"Both \\u201csudut\\u201d and \\u201cpenjuru\\u201d can express this location sense; the rewrite removes broader senses such as an angle or corner of an object.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"Malaysian Malay also uses \\u201csudut\\u201d in some contexts, and Indonesian commonly uses \\u201cpojok,\\u201d but \\u201csudut\\u201d versus \\u201cpenjuru\\u201d remains a credible contextual preference for this location sense.\", \"nonblocking_risk\": \"concrete\", \"risk_rationale\": \"Indonesian \\u201cpojok\\u201d is a plausible everyday alternative, and Malaysian \\u201csudut\\u201d is also understood, so the national preference should not be taught as exclusive.\", \"preference_risk\": {\"signal\": \"credible-everyday-alternative\", \"form\": \"pojok\", \"language\": \"indonesian\", \"rationale\": \"\\u201cPojok\\u201d is a common Indonesian alternative for a corner, including a street or location corner.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [
+        "The bare cue “corner” is somewhat broad; the street/side-meeting sense should be made explicit.",
+        "Indonesian also commonly uses “pojok,” so “sudut” is not the only everyday choice."
+      ],
+      "cue_alignment": "correctable",
+      "cue_rationale": "Both “sudut” and “penjuru” can express this location sense; the rewrite removes broader senses such as an angle or corner of an object.",
+      "cue_rewrite": "corner where two streets or sides meet",
+      "material_concerns": [],
+      "nonblocking_risk": "concrete",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "pojok",
+        "language": "indonesian",
+        "rationale": "“Pojok” is a common Indonesian alternative for a corner, including a street or location corner.",
+        "signal": "credible-everyday-alternative"
+      },
+      "rationale": "“Sudut” is an ordinary Indonesian term for a corner, while Malaysian Malay commonly uses “penjuru” for a corner or street-side location. The contrast is useful but not exclusive.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian “pojok” is a plausible everyday alternative, and Malaysian “sudut” is also understood, so the national preference should not be taught as exclusive.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "Malaysian Malay also uses “sudut” in some contexts, and Indonesian commonly uses “pojok,” but “sudut” versus “penjuru” remains a credible contextual preference for this location sense.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [
+      "The bare cue “corner” is somewhat broad; the street/side-meeting sense should be made explicit.",
+      "Indonesian also commonly uses “pojok,” so “sudut” is not the only everyday choice."
+    ],
+    "cue_alignment": "correctable",
+    "cue_rationale": "Both “sudut” and “penjuru” can express this location sense; the rewrite removes broader senses such as an angle or corner of an object.",
+    "cue_rewrite": "corner where two streets or sides meet",
+    "material_concerns": [],
+    "nonblocking_risk": "concrete",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "pojok",
+      "language": "indonesian",
+      "rationale": "“Pojok” is a common Indonesian alternative for a corner, including a street or location corner.",
+      "signal": "credible-everyday-alternative"
+    },
+    "rationale": "“Sudut” is an ordinary Indonesian term for a corner, while Malaysian Malay commonly uses “penjuru” for a corner or street-side location. The contrast is useful but not exclusive.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian “pojok” is a plausible everyday alternative, and Malaysian “sudut” is also understood, so the national preference should not be taught as exclusive.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "Malaysian Malay also uses “sudut” in some contexts, and Indonesian commonly uses “pojok,” but “sudut” versus “penjuru” remains a credible contextual preference for this location sense.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "04cd75a683e4a5aff5d87fe797cef84ac11dcb38837afae5a710cd96002fb76b"
+}

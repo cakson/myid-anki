@@ -1,0 +1,55 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18748,
+  "input_tokens": 61599,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1053,
+  "packet_digest": "d3613c306a4f2b56a95bffef379b426ec59202f120f1501e4a829ebd55d19eab",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both language answers are valid for the stated sense. Indonesian official immigration sources use “visa wisata,” while Malaysian government sources use “visa pelancong.” The terms differ lexically but are semantically equivalent here. No false-friend contrast is present; “pelancong” means tourist, whereas “pelancongan” means tourism.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: visa wisata\",\"conclusion\":\"Correct and ordinary Indonesian for a tourist visa.\",\"material_risk\":false,\"evidence_refs\":[\"https://kanwilsultra.imigrasi.go.id/wna/daftar-visa-indonesia\",\"https://bontang.imigrasi.go.id/public/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia\"]},{\"subject\":\"Malaysian answer: visa pelancong\",\"conclusion\":\"Valid and attested Malaysian Malay expression for a tourist visa; not materially wrong despite possible formal alternatives such as visa pelawat.\",\"material_risk\":false,\"evidence_refs\":[\"https://motac.spab.gov.my/eApps/system/index.do?showPage=faq\",\"https://mof.gov.my/portal/ms/berita/akhbar/pm-anwar-bimbang-warga-asing-salah-guna-visa-jejas-peluang-pekerjaan-tempatan\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Tourist visa” and “visa for visiting as a tourist” align with both supplied answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://kanwilsultra.imigrasi.go.id/wna/daftar-visa-indonesia\",\"https://motac.spab.gov.my/eApps/system/index.do?showPage=faq\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"different-common-word is appropriate: Indonesian wisata and Malaysian pelancong are different regional lexical choices for the same concept. There is no false-friend issue; Malaysian pelancong denotes a tourist, while pelancongan denotes tourism.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=250808&keyword=pelancong\",\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pelancongan+1\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and ordinary Indonesian for a tourist visa.",
+        "evidence_refs": [
+          "https://kanwilsultra.imigrasi.go.id/wna/daftar-visa-indonesia",
+          "https://bontang.imigrasi.go.id/public/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: visa wisata"
+      },
+      {
+        "conclusion": "Valid and attested Malaysian Malay expression for a tourist visa; not materially wrong despite possible formal alternatives such as visa pelawat.",
+        "evidence_refs": [
+          "https://motac.spab.gov.my/eApps/system/index.do?showPage=faq",
+          "https://mof.gov.my/portal/ms/berita/akhbar/pm-anwar-bimbang-warga-asing-salah-guna-visa-jejas-peluang-pekerjaan-tempatan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: visa pelancong"
+      },
+      {
+        "conclusion": "“Tourist visa” and “visa for visiting as a tourist” align with both supplied answers.",
+        "evidence_refs": [
+          "https://kanwilsultra.imigrasi.go.id/wna/daftar-visa-indonesia",
+          "https://motac.spab.gov.my/eApps/system/index.do?showPage=faq"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "different-common-word is appropriate: Indonesian wisata and Malaysian pelancong are different regional lexical choices for the same concept. There is no false-friend issue; Malaysian pelancong denotes a tourist, while pelancongan denotes tourism.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=250808&keyword=pelancong",
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pelancongan+1"
+        ],
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both language answers are valid for the stated sense. Indonesian official immigration sources use “visa wisata,” while Malaysian government sources use “visa pelancong.” The terms differ lexically but are semantically equivalent here. No false-friend contrast is present; “pelancong” means tourist, whereas “pelancongan” means tourism.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,49 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 7668,
+  "input_tokens": 12513,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 624,
+  "packet_digest": "ea35456dc85cbf28162cb0c70a393a6582e9a49192ab0d62579c88318622ddc6",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers accurately express a routine medical examination. “Cek kesehatan” is natural everyday Indonesian, while “pemeriksaan kesihatan” is standard Malaysian Malay. The answers form a valid useful contrast; no false-friend issue is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Accurate: “medical check-up” matches a routine examination of a person’s health.\",\"material_risk\":false,\"evidence_limitation\":\"No external evidence supplied; assessment based on standard lexical meaning.\"},{\"subject\":\"Indonesian answer\",\"conclusion\":\"“Cek kesehatan” is a natural, commonly understood Indonesian expression, with a somewhat colloquial register.\",\"material_risk\":false,\"evidence_limitation\":\"Usage frequency and regional/register variation were not independently corpus-checked.\"},{\"subject\":\"Malaysian Malay answer\",\"conclusion\":\"“Pemeriksaan kesihatan” is a standard and natural Malaysian Malay expression for a health examination.\",\"material_risk\":false,\"evidence_limitation\":\"Usage frequency and contextual variation were not independently corpus-checked.\"},{\"subject\":\"Final relation\",\"conclusion\":\"“Different-common-word” is appropriate: the varieties use distinct ordinary local forms, despite possible shared alternatives such as “check-up.”\",\"material_risk\":false,\"evidence_limitation\":\"The relation is a pedagogical classification rather than an externally evidenced categorical fact.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is present or required; the forms are semantically aligned.\",\"material_risk\":false,\"evidence_limitation\":\"No dedicated false-friend source was consulted.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Accurate: “medical check-up” matches a routine examination of a person’s health.",
+        "evidence_limitation": "No external evidence supplied; assessment based on standard lexical meaning.",
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "“Cek kesehatan” is a natural, commonly understood Indonesian expression, with a somewhat colloquial register.",
+        "evidence_limitation": "Usage frequency and regional/register variation were not independently corpus-checked.",
+        "material_risk": false,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "“Pemeriksaan kesihatan” is a standard and natural Malaysian Malay expression for a health examination.",
+        "evidence_limitation": "Usage frequency and contextual variation were not independently corpus-checked.",
+        "material_risk": false,
+        "subject": "Malaysian Malay answer"
+      },
+      {
+        "conclusion": "“Different-common-word” is appropriate: the varieties use distinct ordinary local forms, despite possible shared alternatives such as “check-up.”",
+        "evidence_limitation": "The relation is a pedagogical classification rather than an externally evidenced categorical fact.",
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is present or required; the forms are semantically aligned.",
+        "evidence_limitation": "No dedicated false-friend source was consulted.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers accurately express a routine medical examination. “Cek kesehatan” is natural everyday Indonesian, while “pemeriksaan kesihatan” is standard Malaysian Malay. The answers form a valid useful contrast; no false-friend issue is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:50:08.611770+00:00",
+  "input_digest": "1671ece267cb55adc4d61bdc80ffba08d6cf1a6cd0e06bab9cb385cc2315f10f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"tb25-food-001:food-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are racks, but this candidate stores shoes while the existing concept stores or dries dishes.\"}, {\"other_id\": \"corpus-004-003-s015:tmp-daily-life-s015-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are racks, but this candidate stores shoes while the existing concept is specifically for drying clothes.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-food-001:food-03",
+          "rationale": "Both are racks, but this candidate stores shoes while the existing concept stores or dries dishes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-007",
+          "rationale": "Both are racks, but this candidate stores shoes while the existing concept is specifically for drying clothes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "tb25-food-001:food-03",
+        "rationale": "Both are racks, but this candidate stores shoes while the existing concept stores or dries dishes.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s015:tmp-daily-life-s015-007",
+        "rationale": "Both are racks, but this candidate stores shoes while the existing concept is specifically for drying clothes.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "55954fde9182c07b66e8a7b4d5807e694dd9e7a0177ba0d4ac26c00e39481841"
+}

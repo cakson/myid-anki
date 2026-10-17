@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 8255,
+  "input_digest": "116d5675138e93d23317462d07f8b67030b6d53b216ec1e21273e4c15ce381f1",
+  "input_tokens": 14305,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 781,
+  "raw_text": "{\n  \"verdict\": \"object\",\n  \"relation\": \"different-common-word\",\n  \"concerns\": [\n    \"The proposed contrast is weakened because \\\"slip gaji\\\" is also an ordinary Malaysian term.\"\n  ],\n  \"material_concerns\": [\n    \"The pairing may mislead learners into treating \\\"penyata gaji\\\" as the Malaysian-only preference, although \\\"slip gaji\\\" is commonly used in Malaysia.\"\n  ],\n  \"rationale\": \"Both answers denote a document showing an employee's pay, but the national contrast is weak because Malaysian usage also commonly includes \\\"slip gaji\\\".\",\n  \"objection_assessments\": [],\n  \"cue_alignment\": \"aligned\",\n  \"cue_rewrite\": \"\",\n  \"cue_rationale\": \"Both forms fit the same sense: a document showing an employee's pay.\",\n  \"shared_synonym_case\": \"weak-contrast\",\n  \"shared_synonym_rationale\": \"\\\"Slip gaji\\\" is ordinary in Indonesian and also plausibly ordinary in Malaysian usage, where it competes directly with \\\"penyata gaji\\\" for the same payslip sense.\",\n  \"nonblocking_risk\": \"none\",\n  \"risk_rationale\": \"\",\n  \"preference_risk\": {\n    \"signal\": \"shared-common-form\",\n    \"form\": \"slip gaji\",\n    \"language\": \"both\",\n    \"rationale\": \"\\\"Slip gaji\\\" is the Indonesian answer and is also a plausible everyday Malaysian term, weakening the proposed national preference for \\\"penyata gaji\\\".\"\n  }\n}",
+  "response": {
+    "concerns": [
+      "The proposed contrast is weakened because \"slip gaji\" is also an ordinary Malaysian term."
+    ],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both forms fit the same sense: a document showing an employee's pay.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pairing may mislead learners into treating \"penyata gaji\" as the Malaysian-only preference, although \"slip gaji\" is commonly used in Malaysia."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "slip gaji",
+      "language": "both",
+      "rationale": "\"Slip gaji\" is the Indonesian answer and is also a plausible everyday Malaysian term, weakening the proposed national preference for \"penyata gaji\".",
+      "signal": "shared-common-form"
+    },
+    "rationale": "Both answers denote a document showing an employee's pay, but the national contrast is weak because Malaysian usage also commonly includes \"slip gaji\".",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "\"Slip gaji\" is ordinary in Indonesian and also plausibly ordinary in Malaysian usage, where it competes directly with \"penyata gaji\" for the same payslip sense.",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

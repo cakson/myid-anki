@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5516,
+  "input_digest": "faee047e8eef4d43a3c83806aadc956f38ff4e91b8bcb98df6ee029a6c36c8ed",
+  "input_tokens": 93719,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 183,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s019:tmp-travel-s019-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“room key” is an access key used to enter a hotel room, whereas “hotel room” is the guest accommodation itself; the senses and both answer sets differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s019:tmp-travel-s019-003",
+          "rationale": "“room key” is an access key used to enter a hotel room, whereas “hotel room” is the guest accommodation itself; the senses and both answer sets differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

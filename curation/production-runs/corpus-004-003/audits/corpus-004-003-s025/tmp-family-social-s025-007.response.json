@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 19770,
+  "input_tokens": 65290,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1253,
+  "packet_digest": "3f65d5ee379b114d6a3ac127e47feea496b608a01e48baf41fe84c94505d0d30",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The Malaysian answer matches “older stepbrother,” but Indonesian saudara tiri laki-laki identifies a male stepbrother without encoding that he is older. The original broad cue “stepbrother” fit both more accurately. Also, saudara tiri can overlap with “half-sibling” in Malay usage, so a false-friend note is warranted.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"The corrected cue “older stepbrother” is semantically clear, but it creates an age-specific requirement that the Indonesian answer does not express.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=abang+tiri\"]},{\"subject\":\"Indonesian answer: saudara tiri laki-laki\",\"conclusion\":\"Acceptable for “male stepbrother,” but it does not specify older brother; it is therefore broader than the corrected cue.\",\"material_risk\":true,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/indonesian-english/saudara-tiri\",\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tiri\"]},{\"subject\":\"Malaysian answer: abang tiri\",\"conclusion\":\"Correct for an older male stepbrother. PRPM defines abang tiri as an older brother who is the child of a stepparent from an earlier marriage.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=abang+tiri\"]},{\"subject\":\"Final relation label\",\"conclusion\":\"Different-common-word is reasonable because the Indonesian and Malaysian forms differ lexically, but the relation is not fully equivalent under the corrected older-specific cue.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=abang+tiri\",\"https://dictionary.cambridge.org/dictionary/indonesian-english/saudara-tiri\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"A contrast is missing: saudara tiri may also refer to a half-sibling in Malay lexicographic usage, while Indonesian dictionaries and bilingual references support stepbrother as a meaning. Learners should not assume tiri always unambiguously means step- rather than half-sibling across Malay varieties.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tiri\",\"https://dictionary.cambridge.org/dictionary/indonesian-english/saudara-tiri\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "The corrected cue “older stepbrother” is semantically clear, but it creates an age-specific requirement that the Indonesian answer does not express.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=abang+tiri"
+        ],
+        "material_risk": true,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Acceptable for “male stepbrother,” but it does not specify older brother; it is therefore broader than the corrected cue.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/indonesian-english/saudara-tiri",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tiri"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer: saudara tiri laki-laki"
+      },
+      {
+        "conclusion": "Correct for an older male stepbrother. PRPM defines abang tiri as an older brother who is the child of a stepparent from an earlier marriage.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=abang+tiri"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: abang tiri"
+      },
+      {
+        "conclusion": "Different-common-word is reasonable because the Indonesian and Malaysian forms differ lexically, but the relation is not fully equivalent under the corrected older-specific cue.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=abang+tiri",
+          "https://dictionary.cambridge.org/dictionary/indonesian-english/saudara-tiri"
+        ],
+        "material_risk": true,
+        "subject": "Final relation label"
+      },
+      {
+        "conclusion": "A contrast is missing: saudara tiri may also refer to a half-sibling in Malay lexicographic usage, while Indonesian dictionaries and bilingual references support stepbrother as a meaning. Learners should not assume tiri always unambiguously means step- rather than half-sibling across Malay varieties.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tiri",
+          "https://dictionary.cambridge.org/dictionary/indonesian-english/saudara-tiri"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The Malaysian answer matches “older stepbrother,” but Indonesian saudara tiri laki-laki identifies a male stepbrother without encoding that he is older. The original broad cue “stepbrother” fit both more accurately. Also, saudara tiri can overlap with “half-sibling” in Malay usage, so a false-friend note is warranted.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

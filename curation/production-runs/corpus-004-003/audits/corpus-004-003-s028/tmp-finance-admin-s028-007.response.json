@@ -1,0 +1,55 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18068,
+  "input_tokens": 62327,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1006,
+  "packet_digest": "59ea39eba1f3299898bdf19c88fc9b3b14ecc876b7f4fa648223e5e24e132429",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The English cue and physical-document sense are sound. Indonesian cap is valid, with stempel as a common alternative. Malaysian cop is not the standard Malay word for a document stamp; Malaysian standard usage is cap. Thus the proposed national contrast is false or materially misleading, and the relation should not be different-common-word.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Rubber stamp for documents correctly denotes a device used to print dates, names, symbols, or similar marks on documents.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/dictionary/english/rubber-stamp\",\"https://www.oxfordlearnersdictionaries.com/us/definition/english/rubber-stamp_1\"]},{\"subject\":\"Indonesian answer: cap\",\"conclusion\":\"Cap is a valid Indonesian term for a stamp or stamped mark on paper or documents; stempel is also a valid everyday alternative.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/cap\",\"https://kbbi.co.id/arti-kata/stempel\"]},{\"subject\":\"Malaysian answer: cop\",\"conclusion\":\"Cop should not be presented as the standard Malaysian Malay equivalent for a document stamp. DBP/PRPM identifies cap for this sense and does not define cop as a document stamp.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/cari1?d=175768&keyword=cap\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cop\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"The proposed different-common-word relation is incorrect for standard usage: Indonesian cap and Malaysian Malay cap overlap. There is no supported false-friend contrast between cap and cop for this sense.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/cari1?d=175768&keyword=cap\",\"https://kbbi.web.id/cap\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Rubber stamp for documents correctly denotes a device used to print dates, names, symbols, or similar marks on documents.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/rubber-stamp",
+          "https://www.oxfordlearnersdictionaries.com/us/definition/english/rubber-stamp_1"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Cap is a valid Indonesian term for a stamp or stamped mark on paper or documents; stempel is also a valid everyday alternative.",
+        "evidence_refs": [
+          "https://kbbi.web.id/cap",
+          "https://kbbi.co.id/arti-kata/stempel"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: cap"
+      },
+      {
+        "conclusion": "Cop should not be presented as the standard Malaysian Malay equivalent for a document stamp. DBP/PRPM identifies cap for this sense and does not define cop as a document stamp.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1?d=175768&keyword=cap",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cop"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: cop"
+      },
+      {
+        "conclusion": "The proposed different-common-word relation is incorrect for standard usage: Indonesian cap and Malaysian Malay cap overlap. There is no supported false-friend contrast between cap and cop for this sense.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1?d=175768&keyword=cap",
+          "https://kbbi.web.id/cap"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and physical-document sense are sound. Indonesian cap is valid, with stempel as a common alternative. Malaysian cop is not the standard Malay word for a document stamp; Malaysian standard usage is cap. Thus the proposed national contrast is false or materially misleading, and the relation should not be different-common-word.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4452,
+  "input_digest": "c5ae4b17470f89525ba47f47b2d820012497ce3d7106f0ced286511446f6a849",
+  "input_tokens": 93713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 184,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s012:tmp-communication-s012-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“full name” means a person's complete name, whereas “first name” means only the given name appearing first.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-007",
+          "rationale": "“full name” means a person's complete name, whereas “first name” means only the given name appearing first.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

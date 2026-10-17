@@ -1,0 +1,67 @@
+{
+  "attempt_id": "0705bfa3e0882e92",
+  "candidate_id": "tmp-communication-s011-009",
+  "claim_reviews": [
+    {
+      "conclusion": "“Notice” with the sense “written information intended to inform people” is correctly specified.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=notis"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Pemberitahuan” is an appropriate Indonesian equivalent for this sense.",
+      "evidence_limitation": "No direct Indonesian dictionary source was consulted in this audit.",
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Notis” is an appropriate Malaysian Malay term for a written announcement or notice.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=notis"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable if understood as differing ordinary preferences; the terms are not mutually exclusive across the varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=notis"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or required.",
+      "evidence_limitation": "This conclusion is based on the matched dictionary senses and the supplied card content.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "aae7bc2c6196b8174164845c1a111845802e6e7fbccdc9d9692a4e403c3d5b6e",
+  "correction_refs": [],
+  "decision_digest": "800656616f4882abb73f27fb587879a418eb2460c78cda983709fc4841d81b48",
+  "elapsed_ms": 15531,
+  "finding_class": "none",
+  "input_tokens": 29020,
+  "model_calls": 1,
+  "output_tokens": 1096,
+  "packet_digest": "34079a63dde8f54a699aa7e10ab5686b5a9b747724962171e4c29b6344890a3f",
+  "rationale": "Both answers match the intended written-information sense. “Pemberitahuan” is an appropriate ordinary Indonesian equivalent, while Malaysian Malay uses “notis” for announcements or written notices. The different-common-word relation is defensible as a preference contrast, not an exclusive dialect distinction. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:29:13.514086+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s011/tmp-communication-s011-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s011",
+  "verdict": "cleared"
+}

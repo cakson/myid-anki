@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 17127,
+  "input_tokens": 61943,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1004,
+  "packet_digest": "d97e0cf25349cc45f89aef42ffd12ea24c62c99311b45ec6ff22f57439bd2276",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The Indonesian answer and sense are correct, but the proposed Malaysian learner form is not the standard/common device label supported by Malaysian usage. Malaysian sources use “Mod Kapal Terbang”; “mod penerbangan” is attested mainly as a generic flight-mode term and is less suitable here. The relation remains different-common-word after correction.\",\"claim_reviews\":[{\"subject\":\"Indonesian: mode pesawat\",\"conclusion\":\"Correct and ordinary for airplane mode in Indonesian device terminology.\",\"material_risk\":false,\"evidence_refs\":[\"https://support.apple.com/id-id/108785\"]},{\"subject\":\"Malaysian: mod penerbangan\",\"conclusion\":\"Needs correction for a learner card. Malaysian device terminology commonly uses “Mod Kapal Terbang”; “mod penerbangan” is not the best standard equivalent for this setting.\",\"material_risk\":true,\"evidence_refs\":[\"https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios\",\"https://support.apple.com/ms-my/120745\",\"https://gscs-b2c.lge.com/downloadFile?fileId=KROWM000300825.pdf\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"Correct: airplane mode is a device setting that disables wireless communication, subject to device-specific exceptions such as Bluetooth or manually re-enabled Wi-Fi.\",\"material_risk\":false,\"evidence_refs\":[\"https://support.apple.com/id-id/108785\"]},{\"subject\":\"Final relation\",\"conclusion\":\"Different-common-word is appropriate after correcting the Malaysian form to “mod kapal terbang”; pesawat and kapal terbang are regional lexical choices for airplane.\",\"material_risk\":false,\"evidence_refs\":[\"https://support.apple.com/id-id/108785\",\"https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No strict false friend is established, but “penerbangan” means flight/aviation and is less directly equivalent to “pesawat” or “kapal terbang” in this device-setting label.\",\"material_risk\":true,\"evidence_refs\":[\"https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios\",\"https://support.apple.com/ms-my/120745\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and ordinary for airplane mode in Indonesian device terminology.",
+        "evidence_refs": [
+          "https://support.apple.com/id-id/108785"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian: mode pesawat"
+      },
+      {
+        "conclusion": "Needs correction for a learner card. Malaysian device terminology commonly uses “Mod Kapal Terbang”; “mod penerbangan” is not the best standard equivalent for this setting.",
+        "evidence_refs": [
+          "https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios",
+          "https://support.apple.com/ms-my/120745",
+          "https://gscs-b2c.lge.com/downloadFile?fileId=KROWM000300825.pdf"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian: mod penerbangan"
+      },
+      {
+        "conclusion": "Correct: airplane mode is a device setting that disables wireless communication, subject to device-specific exceptions such as Bluetooth or manually re-enabled Wi-Fi.",
+        "evidence_refs": [
+          "https://support.apple.com/id-id/108785"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Different-common-word is appropriate after correcting the Malaysian form to “mod kapal terbang”; pesawat and kapal terbang are regional lexical choices for airplane.",
+        "evidence_refs": [
+          "https://support.apple.com/id-id/108785",
+          "https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No strict false friend is established, but “penerbangan” means flight/aviation and is less directly equivalent to “pesawat” or “kapal terbang” in this device-setting label.",
+        "evidence_refs": [
+          "https://support.apple.com/ms-my/guide/iphone/-iph59095ec58/ios",
+          "https://support.apple.com/ms-my/120745"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The Indonesian answer and sense are correct, but the proposed Malaysian learner form is not the standard/common device label supported by Malaysian usage. Malaysian sources use “Mod Kapal Terbang”; “mod penerbangan” is attested mainly as a generic flight-mode term and is less suitable here. The relation remains different-common-word after correction.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

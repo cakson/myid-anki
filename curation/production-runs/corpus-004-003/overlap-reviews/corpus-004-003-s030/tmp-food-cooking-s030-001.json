@@ -1,0 +1,83 @@
+{
+  "attempt_id": "14a5ffe3c9ac8e5c",
+  "candidate_id": "tmp-food-cooking-s030-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: English tofu denotes a soft food made from soybeans/soya, also called bean curd.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/tofu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct. Indonesian reference material defines tahu as soybean curd/food made from soybeans, and official Indonesian material maps bean curd to tahu.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tahu-2.html",
+        "https://repositori.kemendikdasmen.go.id/14330/1/Pengindonesiaan%20kata%20dan%20ungkapan%20asing.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer tahu"
+    },
+    {
+      "conclusion": "Correct. Malaysia’s DBP dictionary defines tauhu as food made from soybean curd or soybean starch, and DBP identifies tauhu as the Malay equivalent of English tofu.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tauhu",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kedu"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer tauhu"
+    },
+    {
+      "conclusion": "The split is a useful preferred-form contrast, not a materially false opposition. Tahu and tauhu are separate written forms associated with Indonesian and Malaysian Malay respectively. Tofu is an international/shared label, but the reviewed sources do not establish it as the ordinary preferred replacement in both varieties.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tahu-2.html",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tauhu",
+        "https://repository.pertanian.go.id/server/api/core/bitstreams/201eab92-8328-433b-aa52-6b10438e35f3/content"
+      ],
+      "material_risk": false,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "different-common-word is defensible for the listed national preferred forms, although the card should be understood as a preference contrast rather than mutually exclusive vocabulary.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tahu-2.html",
+        "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tauhu"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is required. The two answers are related equivalents for the same food, and no misleading unrelated meaning is evidenced.",
+      "evidence_limitation": "No dedicated false-friend source is applicable because the candidate does not present a false-friend pair.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "9b2adfbeeffc4f0e84c1b9d35164e4366e934471e3c8e5a0cae5e8742ab35ac2",
+  "correction_refs": [],
+  "decision_digest": "6fbe58626ec1988c5cd3ce41123345a321fe003e1876b363e3b71c0e1dacebc5",
+  "elapsed_ms": 33563,
+  "finding_class": "none",
+  "input_tokens": 179490,
+  "model_calls": 1,
+  "output_tokens": 2015,
+  "packet_digest": "727e9c4bc4b5f6fb55aa885410fd4baec057928cd62fc7f5978f6042b1b23dc6",
+  "rationale": "The national split is not materially overstated for preferred standard forms: Indonesian tahu and Malaysian Malay tauhu are distinct established forms for the same food. The international term tofu is understandable and used, but available evidence does not show it displacing either national preference or invalidating the different-common-word relation. The English cue and soybean-curd sense are accurate, both answers are correct, and the empty false-friend contrast is appropriate because no misleading cross-language form is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:57:52.117994+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s030/tmp-food-cooking-s030-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "cleared"
+}

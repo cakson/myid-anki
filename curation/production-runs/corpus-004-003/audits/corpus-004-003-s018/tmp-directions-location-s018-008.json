@@ -1,0 +1,74 @@
+{
+  "attempt_id": "508bf8db8e86884a",
+  "candidate_id": "tmp-directions-location-s018-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary for the map-symbol key sense in Indonesian.",
+      "evidence_refs": [
+        "https://webgis-st2023.web.bps.go.id/",
+        "https://webgis-st2023.web.bps.go.id/metadata"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: legenda peta"
+    },
+    {
+      "conclusion": "Correct and attested in Malaysian Malay, including official Malaysian planning and geospatial usage.",
+      "evidence_refs": [
+        "https://www.planmalaysia.gov.my/planmalaysia/resources/epublisiti/turun/rt_perbandarankangar_perlis2035/ringkasan.pdf",
+        "https://myplan.planmalaysia.gov.my/portal-main/publication-log?id=2&type=pdf",
+        "https://www.mygeoportal.gov.my/sites/default/files/Dokumen%20Spek%20Produk%20_Portal.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: petunjuk peta"
+    },
+    {
+      "conclusion": "“Map legend” and “key explaining map symbols” are accurately aligned with both Malay answers.",
+      "evidence_refs": [
+        "https://webgis-st2023.web.bps.go.id/metadata",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Legenda"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Potentially misleading if read as an exclusive Indonesian-versus-Malaysian distinction; Malaysian Malay also officially recognizes “legenda” for map or chart explanations.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Legenda",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=Legenda"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present; the difference is lexical preference or terminology, with overlapping intelligibility and usage.",
+      "evidence_limitation": "The reviewed sources establish overlapping meanings and official usage but do not provide corpus-frequency comparisons across the two national varieties.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "9526e86058f4ba6b3d486b235b215a6863d4700d6960922ac0a6c966019762a0",
+  "correction_refs": [],
+  "decision_digest": "5895812afef7ed74505d8537ff5cb9c12bbb267d670ac8b514b15284722b31c6",
+  "elapsed_ms": 19412,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 62017,
+  "model_calls": 1,
+  "output_tokens": 1400,
+  "packet_digest": "582c1c8855e0aed5cd8d47272987d120829a257bd5d0ffb6627c0ad85a058f9f",
+  "rationale": "Both answers match the English cue and sense, but the contrast is preference-based rather than exclusive: Indonesian commonly uses “legenda peta,” while Malaysian official usage uses “petunjuk peta”; however, “legenda” also denotes a map key in Malaysian Malay. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:38:03.399058+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s018/tmp-directions-location-s018-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s018",
+  "verdict": "needs-correction"
+}

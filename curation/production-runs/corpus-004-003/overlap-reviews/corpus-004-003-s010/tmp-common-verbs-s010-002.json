@@ -1,0 +1,76 @@
+{
+  "attempt_id": "c5a68739cecd5109",
+  "candidate_id": "tmp-common-verbs-s010-002",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue 'to celebrate' and sense 'mark an event with enjoyment' are acceptable for the event-celebration sense, though the sense is narrower than the full English verb.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/celebrate"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary for celebrating or commemorating an important event in Indonesian.",
+      "evidence_refs": [
+        "https://www.typoonline.com/kbbi/merayakan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: merayakan"
+    },
+    {
+      "conclusion": "Correct and ordinary in Malaysian Malay, but not exclusive to Malaysian Malay: DBP's English-Malay dictionary gives both merayakan and meraikan for celebrate.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=merayakan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=celebrate"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: meraikan"
+    },
+    {
+      "conclusion": "The production flag is substantively credible. Malaysian DBP guidance explicitly says menyambut and meraikan can both be used for celebrations; Indonesian dictionary evidence also includes occasion-related senses of menyambut. This overlap further weakens a strict national split.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyambut+1",
+        "https://typoonline.com/kbbi/menyambut"
+      ],
+      "material_risk": true,
+      "subject": "Shared accepted equivalent: menyambut"
+    },
+    {
+      "conclusion": "The relation 'different-common-word' is misleading as a learner-facing contrast because both varieties accept overlapping forms, especially merayakan and menyambut. The forms are not false friends; they are semantically overlapping cognate or shared Malay forms. The empty contrast field is therefore not a valid false-friend warning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=merayakan",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyambut+1",
+        "https://typoonline.com/kbbi/menyambut"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "79c47d9341f7e3ab1f569a015a82899ed794cc5e2a417819430c645d8235f313",
+  "correction_refs": [],
+  "decision_digest": "78730346774aab518b0afa190154ba1162f3d8cd950cbed4201b686d17c9843c",
+  "elapsed_ms": 38696,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 195378,
+  "model_calls": 1,
+  "output_tokens": 2062,
+  "packet_digest": "95f2c72654499dcffe9002d26b5c65ece4828ce36a1bfb6d6b5a76811d5ba159",
+  "rationale": "The proposed forms are valid and useful preferences, but the national split is materially overstated: Malaysian reference sources explicitly list both merayakan and meraikan for English celebrate, and menyambut is also accepted for celebrations. The relation should not be presented as a clean different-common-word contrast. No false-friend contrast is supported.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:39:12.744474+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s010/tmp-common-verbs-s010-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s010",
+  "verdict": "needs-correction"
+}

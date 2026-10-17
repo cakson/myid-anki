@@ -1,0 +1,67 @@
+{
+  "attempt_id": "8ef981cb08ec2fcd",
+  "candidate_id": "tmp-work-s051-010",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid Indonesian expression meaning pay/wages for overtime work.",
+      "evidence_refs": [
+        "https://bphn.go.id/data/documents/ketenagakerjaan.pdf",
+        "https://jdih.kemnaker.go.id/berita/detail/bagaimana-pengaturan-lembur-bagi-pekerjaburuh-di-perusahaan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: upah lembur"
+    },
+    {
+      "conclusion": "Valid Malaysian Malay expression for payment for work performed beyond regular hours; official Malaysian sources use this wording.",
+      "evidence_refs": [
+        "https://jtksm.gov.my/ms/kalkulator/pengiraan-anggaran-bayaran-bekerja-lebih-masa-bergaji-bulanan",
+        "https://www.parlimen.gov.my/files/jindex/pdf/JBL30112023.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: bayaran kerja lebih masa"
+    },
+    {
+      "conclusion": "The cue “overtime pay” and sense “pay received for work beyond regular hours” align with both answers.",
+      "evidence_refs": [
+        "https://bphn.go.id/data/documents/ketenagakerjaan.pdf",
+        "https://jtksm.gov.my/ms/kalkulator/pengiraan-anggaran-bayaran-bekerja-lebih-masa-bergaji-bulanan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“different-common-word” is appropriate as a learner-level contrast. There is no misleading false-friend relationship; the forms differ lexically while sharing the same sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=228452&keyword=lembur",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kerja+lebih+masa"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "11b3ed288a8c1d2521d19817648e286df1c7c0600975e0f900208389d27daeb3",
+  "correction_refs": [],
+  "decision_digest": "468c686a19f89a0ec3177f02355c2ce8bf2dcb9b60f4f52a44a18a198cd15147",
+  "elapsed_ms": 18405,
+  "finding_class": "none",
+  "input_tokens": 62201,
+  "model_calls": 1,
+  "output_tokens": 1143,
+  "packet_digest": "c014e4ee0e60cd8288b80800c08cb9c2ea1b38fddf36be1c617e8fb8b3ee1707",
+  "rationale": "Both answers express overtime pay in their respective varieties. The Indonesian form is standard and well-attested; the Malaysian form is official and idiomatic. The proposed relation is a valid contrast between common Indonesian and Malaysian Malay expressions. No false-friend issue is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:19:17.240089+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s051/tmp-work-s051-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s051",
+  "verdict": "cleared"
+}

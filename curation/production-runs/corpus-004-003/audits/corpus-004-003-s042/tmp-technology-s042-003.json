@@ -1,0 +1,68 @@
+{
+  "attempt_id": "044aaa526d787fcd",
+  "candidate_id": "tmp-technology-s042-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary Indonesian terminology for operating system.",
+      "evidence_refs": [
+        "https://lspbpptik.komdigi.go.id/Web/skema/MzY%3D",
+        "https://sipaola.komdigi.go.id/storage/regulasi/Regulasi_Bidang_Pos/Peraturan_BPS/BPS_NOMOR_2_TAHUN_2020.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: sistem operasi"
+    },
+    {
+      "conclusion": "Correct formal or standard Malaysian Malay term for operating system.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=Operating+system",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/operating-system"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: sistem pengendalian"
+    },
+    {
+      "conclusion": "“Operating system” and “software that manages a device” are semantically aligned, though “computer/device” would be slightly more precise than the broad “device.”",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/operating-system",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=mengurus"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The relation should indicate shared meaning with Malaysian standard-term preference rather than unqualified different common words. There is no false-friend contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=Operating+system",
+        "https://kaikki.org/dictionary/Malay/meaning/s/si/sistem%20pengendalian.html",
+        "https://sites.google.com/moe-dl.edu.my/dka1022coa/home/content/course-3-0/3-1"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "489c36ba79ee6e1e395b56fedba0ed1df68af41f35e9dd2e5fc749b391e9abdf",
+  "correction_refs": [],
+  "decision_digest": "29c6832f8bc50c0347479a53a4398230fdcb105050c8f35f4458b9d76b6e1cea",
+  "elapsed_ms": 19974,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61870,
+  "model_calls": 1,
+  "output_tokens": 1222,
+  "packet_digest": "1bcb1e2174d3b8fe5b87fb762eb1a555005ad666e36a8617ec47852499281f99",
+  "rationale": "Both translations and the sense are correct. However, Malaysian Malay also uses “sistem operasi,” while “sistem pengendalian” is the formal/preferred standard. Labeling the relation simply as “different-common-word” may misleadingly imply the terms are mutually distinct rather than shared synonyms with a register or preference contrast. No false-friend contrast is applicable.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:07:01.486349+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s042/tmp-technology-s042-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s042",
+  "verdict": "needs-correction"
+}

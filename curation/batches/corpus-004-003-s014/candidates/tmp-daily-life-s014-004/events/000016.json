@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:43.788889+00:00",
+  "result": {
+    "candidate_digest": "b77e2dba40862d19e6cff2dd1bfaf253b2b1e0b30b2fbd9cbddc2b9b21ec7249",
+    "candidate_id": "tmp-daily-life-s014-004",
+    "checked_at": "2026-10-17T06:21:43.788889+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (cue-content): The core pairing is valid for the intended sense: Indonesian korek api can denote a match, and Malaysian mancis is the ordinary specific term for a matchstick. However, korek api is broader and can also mean a lighter/fire-lighter, while mancis is more specifically a match. The card should state this contrast; the relation is better qualified as different preferred/common terms rather than an absolute lexical separation. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

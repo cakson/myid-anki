@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-17T04:54:36.127209+00:00",
+  "result": {
+    "candidate_digest": "f40827e7ac0c07daab04ed01f68cb18ccbea17f2def147576490af81551b1bbb",
+    "candidate_id": "tmp-technology-s043-001",
+    "checked_at": "2026-10-17T04:54:36.127209+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "aligned",
+      "evidence": "missing",
+      "nonblocking_risk": "concrete",
+      "preference_risk": {
+        "form": "smartphone",
+        "language": "both",
+        "rationale": "The English borrowing is plausibly ordinary in both varieties, though “ponsel pintar” and “telefon pintar” remain useful localized preferences.",
+        "signal": "shared-common-form"
+      },
+      "shared_synonym_case": "useful-preference",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "“Ponsel pintar” is the ordinary Indonesian term, while “telefon pintar” is the ordinary Malaysian Malay term for a smartphone. The contrast is useful despite shared casual use of “smartphone.” Review concern: The English borrowing “smartphone” is plausibly common in both countries and may compete with the localized forms in informal technology usage.",
+    "confidence_tier": "low",
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "concrete-nonblocking-risk",
+      "shared-common-form",
+      "shared-synonym-preference"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5846,
+  "input_digest": "ac2c77b52057c7dbcbed2e0da347aac007347b8ee594734088212ef9998112fc",
+  "input_tokens": 93709,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 362,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s016:tmp-daily-life-s016-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A coaster is a small mat placed under a drink, whereas a tablecloth covers a dining table.\"},{\"other_id\":\"corpus-004-003-s016:tmp-daily-life-s016-009\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A coaster supports a drink; a napkin is used for wiping during eating.\"},{\"other_id\":\"pros4-home-001:home-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A coaster is placed under a drink, whereas a doormat is placed at an entrance for wiping feet.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-002",
+          "rationale": "A coaster is a small mat placed under a drink, whereas a tablecloth covers a dining table.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-009",
+          "rationale": "A coaster supports a drink; a napkin is used for wiping during eating.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-home-001:home-03",
+          "rationale": "A coaster is placed under a drink, whereas a doormat is placed at an entrance for wiping feet.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:42:18.449665+00:00",
+  "input_digest": "a7b4c8dac2deba102f7161c198ae476fd8918d2cb0bf1e2e48e4acb5c651e296",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s037:tmp-services-s037-003\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"\\u201cPostal parcel\\u201d overlaps substantially with \\u201cparcel\\u201d; the candidate specifies postal-service shipment, while the existing sense covers an item sent through a delivery service. The Indonesian and Malaysian answers also differ, so exact equivalence is not proven.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s037:tmp-services-s037-003",
+          "rationale": "“Postal parcel” overlaps substantially with “parcel”; the candidate specifies postal-service shipment, while the existing sense covers an item sent through a delivery service. The Indonesian and Malaysian answers also differ, so exact equivalence is not proven.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s037:tmp-services-s037-003",
+        "rationale": "“Postal parcel” overlaps substantially with “parcel”; the candidate specifies postal-service shipment, while the existing sense covers an item sent through a delivery service. The Indonesian and Malaysian answers also differ, so exact equivalence is not proven.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "ce421ec621b6415893880a9ab060469e1c42c5b9f20d4b67648c86240a3af75e"
+}

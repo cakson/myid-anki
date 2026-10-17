@@ -1,0 +1,72 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 20024,
+  "input_tokens": 61973,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1179,
+  "packet_digest": "02702855e4371294cc678b9441396e95f7b894c59e6a4599fffe23e5ed9d46e5",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"cue-content\",\"rationale\":\"The translations and sense are correct, but the relation label and presentation overstate the regional split. Indonesian pengusaha is standard, while Malaysian usahawan is a strong default; however, Malaysian pengusaha is also established and usahawan exists in Indonesian. This is a preference/register contrast, not a strict false-friend distinction.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Correct: entrepreneur denotes a person who starts or runs a business.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemdikbud.go.id/entri/pengusaha\",\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=usahawan\"]},{\"subject\":\"Indonesian answer: pengusaha\",\"conclusion\":\"Correct and ordinary in Indonesian for a person engaged in business, trade, or industry.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.kemdikbud.go.id/entri/pengusaha\"]},{\"subject\":\"Malaysian answer: usahawan\",\"conclusion\":\"Correct and a strong Malaysian Malay default for entrepreneur.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=243192&keyword=usahawan\"]},{\"subject\":\"Malaysian pengusaha contrast\",\"conclusion\":\"The candidate correctly recognizes pengusaha as possible in Malaysian usage, but its established meanings include a person managing or operating an enterprise; it is not an erroneous or excluded form.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pengusaha\"]},{\"subject\":\"Indonesian usahawan cross-use\",\"conclusion\":\"Usahawan is also attested in Indonesian and defined as a person leading a company or as pengusaha, so the forms are not strict variety-exclusive equivalents.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/usahawan.html\"]},{\"subject\":\"Final relation\",\"conclusion\":\"Different-common-word is potentially misleading; a relation such as regional-preference or different-preferred-terms would better capture the overlap.\",\"material_risk\":true,\"evidence_limitation\":\"The supplied relation taxonomy was not independently defined, so this assessment is based on the learner-facing wording and dictionary evidence.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No genuine false-friend contrast is present. The card should explicitly say these are related, overlapping terms with different default preferences by variety.\",\"material_risk\":true,\"evidence_limitation\":\"False-friend status is a pedagogical classification inferred from the documented meanings rather than a dictionary label.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct: entrepreneur denotes a person who starts or runs a business.",
+        "evidence_refs": [
+          "https://kbbi.kemdikbud.go.id/entri/pengusaha",
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=usahawan"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and ordinary in Indonesian for a person engaged in business, trade, or industry.",
+        "evidence_refs": [
+          "https://kbbi.kemdikbud.go.id/entri/pengusaha"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: pengusaha"
+      },
+      {
+        "conclusion": "Correct and a strong Malaysian Malay default for entrepreneur.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=243192&keyword=usahawan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: usahawan"
+      },
+      {
+        "conclusion": "The candidate correctly recognizes pengusaha as possible in Malaysian usage, but its established meanings include a person managing or operating an enterprise; it is not an erroneous or excluded form.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pengusaha"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian pengusaha contrast"
+      },
+      {
+        "conclusion": "Usahawan is also attested in Indonesian and defined as a person leading a company or as pengusaha, so the forms are not strict variety-exclusive equivalents.",
+        "evidence_refs": [
+          "https://kbbi.web.id/usahawan.html"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian usahawan cross-use"
+      },
+      {
+        "conclusion": "Different-common-word is potentially misleading; a relation such as regional-preference or different-preferred-terms would better capture the overlap.",
+        "evidence_limitation": "The supplied relation taxonomy was not independently defined, so this assessment is based on the learner-facing wording and dictionary evidence.",
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No genuine false-friend contrast is present. The card should explicitly say these are related, overlapping terms with different default preferences by variety.",
+        "evidence_limitation": "False-friend status is a pedagogical classification inferred from the documented meanings rather than a dictionary label.",
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "cue-content",
+    "rationale": "The translations and sense are correct, but the relation label and presentation overstate the regional split. Indonesian pengusaha is standard, while Malaysian usahawan is a strong default; however, Malaysian pengusaha is also established and usahawan exists in Indonesian. This is a preference/register contrast, not a strict false-friend distinction.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

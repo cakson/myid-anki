@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5473,
+  "input_digest": "879b2f081b74b6270614e7b1107b714c3c626fc4f7a85202b62c7bc0e23b3b2f",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 353,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s025:tmp-family-social-s025-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Stepbrother is a male child of one's stepparent, while stepsister is the corresponding female relation; the senses and answers are distinct.\"},{\"other_id\":\"corpus-004-003-s024:tmp-family-social-s024-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Stepbrother is a child of one's stepparent, whereas stepfather is the male spouse of one's parent; these are distinct kinship roles.\"},{\"other_id\":\"corpus-004-003-s026:tmp-family-social-s026-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Sibling is the broader relation of a brother or sister sharing a parent; stepbrother specifically denotes a male child of one's stepparent.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s025:tmp-family-social-s025-008",
+          "rationale": "Stepbrother is a male child of one's stepparent, while stepsister is the corresponding female relation; the senses and answers are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024:tmp-family-social-s024-008",
+          "rationale": "Stepbrother is a child of one's stepparent, whereas stepfather is the male spouse of one's parent; these are distinct kinship roles.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s026:tmp-family-social-s026-002",
+          "rationale": "Sibling is the broader relation of a brother or sister sharing a parent; stepbrother specifically denotes a male child of one's stepparent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

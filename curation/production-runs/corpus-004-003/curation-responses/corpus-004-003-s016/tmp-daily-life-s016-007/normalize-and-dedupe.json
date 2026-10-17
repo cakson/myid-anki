@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5197,
+  "input_digest": "1671ece267cb55adc4d61bdc80ffba08d6cf1a6cd0e06bab9cb385cc2315f10f",
+  "input_tokens": 93720,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 273,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"tb25-food-001:food-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are racks, but this candidate stores shoes while the existing concept stores or dries dishes.\"},{\"other_id\":\"corpus-004-003-s015:tmp-daily-life-s015-007\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both are racks, but this candidate stores shoes while the existing concept is specifically for drying clothes.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-food-001:food-03",
+          "rationale": "Both are racks, but this candidate stores shoes while the existing concept stores or dries dishes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s015:tmp-daily-life-s015-007",
+          "rationale": "Both are racks, but this candidate stores shoes while the existing concept is specifically for drying clothes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

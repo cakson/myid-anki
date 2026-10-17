@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-16T19:46:21.126499+00:00",
+  "result": {
+    "candidate_digest": "ae2ae67275c2384b462afeba1b55777bbaf2720fc90443d194fa623baeb8ffd3",
+    "candidate_id": "tmp-daily-life-s014-011",
+    "checked_at": "2026-10-16T19:46:21.126499+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "hold",
+    "reason_codes": [
+      "A shared ordinary synonym may defeat the claimed national preference.",
+      "The proposed national contrast may mislead learners because kain lap is plausibly common in Malaysian usage as well as Indonesian."
+    ],
+    "relation": "different-common-word",
+    "review_flags": [],
+    "risk": {
+      "path": "escalated",
+      "tier": "medium",
+      "triggers": [
+        "The proposed national contrast may mislead learners because kain lap is plausibly common in Malaysian usage as well as Indonesian.",
+        "A shared ordinary synonym may defeat the claimed national preference."
+      ]
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

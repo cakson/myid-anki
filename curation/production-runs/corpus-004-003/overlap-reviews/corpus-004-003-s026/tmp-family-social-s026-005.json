@@ -1,0 +1,77 @@
+{
+  "attempt_id": "12cfb088c3718edc",
+  "candidate_id": "tmp-family-social-s026-005",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue “congratulations” and sense “an expression of congratulations” are aligned and sufficiently clear.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english-indonesian/congratulate",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/congratulation"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Selamat is an ordinary Indonesian expression for congratulations, but it is polysemous and also covers safety, greetings, and well-wishing contexts.",
+      "evidence_refs": [
+        "https://bipa.kemendikdasmen.go.id/filebelajar/814MBI_Inggris.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: selamat"
+    },
+    {
+      "conclusion": "Tahniah is a standard Malaysian Malay term for congratulatory wishes and is explicitly defined by DBP for achievements, marriage, childbirth, and promotion.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=tahniah",
+        "https://dictionary.cambridge.org/dictionary/english-malaysian/congratulation"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tahniah"
+    },
+    {
+      "conclusion": "The different-common-word relation is not defensible as a strong national distinction: Indonesian dictionaries recognize tahniah as “ucapan selamat” and a synonym of selamat, while Malaysian DBP defines selamat as a well-wishing/congratulatory expression and defines ucap selamat as expressing congratulations. The card should be revised toward shared-synonym preference or qualified overlap.",
+      "evidence_refs": [
+        "https://kbbi.web.id/tahniah",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=selamat",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ucap+selamat"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied. Selamat’s additional meanings are ordinary polysemy and broader contextual usage, not evidence that the Malaysian and Indonesian forms contrast as false friends.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=selamat",
+        "https://bipa.kemendikdasmen.go.id/filebelajar/814MBI_Inggris.pdf"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "9e12be9529cce219cb7f52bb51ac0f3483fa2d4cf37bde887b1121bb453b9a81",
+  "correction_refs": [],
+  "decision_digest": "40c8e7288e171020cdbf7f1c6951be365513cd65f414998901d4f822e7436632",
+  "elapsed_ms": 20587,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 61783,
+  "model_calls": 1,
+  "output_tokens": 1365,
+  "packet_digest": "5107d0f79a7fede76e31a817e9bd799c271a191cd1096e64e59a958e9c8c4946",
+  "rationale": "The English cue and both forms are valid, but the national split is materially overstated. Indonesian tahniah is an accepted, though formal, synonym of selamat, while Malaysian Malay selamat can function in congratulatory expressions and tahniah is synonymous with syabas. Therefore, the relation should not be presented as a clean different-common-word contrast. The missing contrast also fails to explain that selamat has broader greeting, safety, and well-wishing uses; this is polysemy, not a true false friend.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:53:58.441032+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s026/tmp-family-social-s026-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s026",
+  "verdict": "needs-correction"
+}

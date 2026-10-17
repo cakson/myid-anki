@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:56.068644+00:00",
+  "result": {
+    "candidate_digest": "c2b10b7a06d4e33749890654cf6e2d30c649cc4526387c50b9eae0b354fff9da",
+    "candidate_id": "tmp-travel-s049-008",
+    "checked_at": "2026-10-17T06:21:56.068644+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): The Indonesian answer and electrical-device sense are sound. Malaysian penyesuai is an official equivalent of adapter, but penyesuai perjalanan is not independently established as a common Malaysian collocation, and adapter/adaptor also remains usable. Therefore the card overstates a clean different-common-word contrast and should present the Malaysian form as a formal/standard alternative rather than a categorical regional distinction. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

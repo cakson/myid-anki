@@ -1,0 +1,78 @@
+{
+  "attempt_id": "7fd24614519ba518",
+  "candidate_id": "tmp-daily-life-s016-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct. Bleach is a chemical liquid or powder used for cleaning, whitening, or removing colour; the narrowed cue is appropriate.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/bleach"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Accepted for household bleach, including whitening and disinfecting clothing.",
+      "evidence_limitation": "The available evidence confirms practical usage but does not provide a quantitative frequency comparison against alternatives.",
+      "evidence_refs": [
+        "https://digipaysatu.kemenkeu.go.id/shop/products/870960-bayclin-1-liter-%7C-dunia-atk",
+        "https://repository.badankebijakan.kemkes.go.id/id/eprint/5608/1/PED-Keracunan-Alami-Non-Alami.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pemutih"
+    },
+    {
+      "conclusion": "Correct and well-supported as a Malay term for a substance used to remove colour or whiten fabric.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=178260&keyword=peluntur",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: peluntur"
+    },
+    {
+      "conclusion": "Materially overstated. Malaysia's official PRPM terminology lists bleaching agent as both agen peluntur and bahan pemutih, so pemutih is an accepted Malay equivalent alongside peluntur. Indonesian household usage also uses pemutih for bleach.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih",
+        "https://digipaysatu.kemenkeu.go.id/shop/products/870960-bayclin-1-liter-%7C-dunia-atk"
+      ],
+      "material_risk": true,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "The relation different-common-word is not reliable as currently stated, and the blank contrast omits an important learner warning. This is not a false friend; the forms overlap in meaning, with peluntur more specifically associated with bleaching in Malay and pemutih also accepted there.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih",
+        "https://prpm.dbp.gov.my/Cari1?d=178260&keyword=peluntur",
+        "https://dictionary.cambridge.org/dictionary/english/bleach"
+      ],
+      "material_risk": true,
+      "subject": "Relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "c376bea9f2b807157d8a8dce7aa79b5f52c87a25b020c3dbd0edcc36df4a2a87",
+  "correction_refs": [],
+  "decision_digest": "4e8d59af06a18a1c9cfd4bc5f8e74a9ebd971206d2075f2cd2dca305d179d704",
+  "elapsed_ms": 31741,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 106863,
+  "model_calls": 1,
+  "output_tokens": 1981,
+  "packet_digest": "497c9e4c3651919d448f64facd0a2dbb79fd53331a47833c0fd2207e142881cc",
+  "rationale": "The English cue and sense are accurate, and both answers are semantically valid. However, the national split is materially overstated: Malaysian DBP resources explicitly recognize both peluntur and bahan pemutih for bleaching agent, while Indonesian usage clearly uses pemutih for household bleach. The relation different-common-word and any implied false-friend contrast therefore require correction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:47:00.889082+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s016/tmp-daily-life-s016-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s016",
+  "verdict": "needs-correction"
+}

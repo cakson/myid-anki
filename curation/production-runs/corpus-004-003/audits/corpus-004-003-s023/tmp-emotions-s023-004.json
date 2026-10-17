@@ -1,0 +1,81 @@
+{
+  "attempt_id": "ba1136361d0da893",
+  "candidate_id": "tmp-emotions-s023-004",
+  "claim_reviews": [
+    {
+      "conclusion": "“Grieving” meaning feeling sorrow after a loss is correctly represented by both terms.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/duka",
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=berdukacita"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct; Indonesian dictionaries define berduka as bersedih or bersusah.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/duka",
+        "https://kbbi.cari.co/berduka"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: berduka"
+    },
+    {
+      "conclusion": "Correct; Malaysian Malay dictionaries define berdukacita as feeling sad or troubled, including over a death.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=berdukacita"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: berdukacita"
+    },
+    {
+      "conclusion": "“Different-common-word” is not adequately supported and is misleading because berduka is also attested in Malaysian Malay and the two terms are synonymous in meaning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=273844&keyword=berduka",
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=berdukacita"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "The claim that berduka is the stronger everyday Indonesian preference and berdukacita is the Malaysian formal/default preference cannot be established from the cited dictionary evidence alone.",
+      "evidence_limitation": "Authoritative dictionary definitions confirm meaning but do not establish comparative everyday frequency or regional register preference.",
+      "material_risk": true,
+      "subject": "Preference and register contrast"
+    },
+    {
+      "conclusion": "No false-friend contrast is present; the words share the relevant sorrow/grief sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=82736&keyword=berdukacita",
+        "https://kbbi.kemendikdasmen.go.id/entri/duka"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "7124c92267a218411ff052db3ffc914bc02ad126429265eb2ad250f684f617c3",
+  "correction_refs": [],
+  "decision_digest": "06c111ed7218713e8973c7919ebb407ee8564c6cd01ebda4a283fb0dd77c0e77",
+  "elapsed_ms": 28716,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 136435,
+  "model_calls": 1,
+  "output_tokens": 1407,
+  "packet_digest": "ac9a4f83ac6f3f2db476cf77191c210cdb2bf570e550c10521b7cfe23cf67b45",
+  "rationale": "Both forms express grief or sorrow after a loss, and the English cue is aligned. However, “different-common-word” is misleading: berduka is valid Indonesian and also occurs in Malaysian Malay, while berdukacita is a valid Malaysian Malay synonym. The claimed Malaysian preference/register contrast is not sufficiently evidenced and should be presented cautiously, if at all. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:42:54.135614+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s023/tmp-emotions-s023-004.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s023",
+  "verdict": "needs-correction"
+}

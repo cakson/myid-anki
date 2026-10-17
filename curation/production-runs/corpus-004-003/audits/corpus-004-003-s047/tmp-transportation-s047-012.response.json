@@ -1,0 +1,49 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 8911,
+  "input_tokens": 12480,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 763,
+  "packet_digest": "f15741b829190c601bfd2994937582e3edbb06664216c8548178a81901b4edd1",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are valid for the narrowed cue “car repair shop.” Indonesian “bengkel” commonly denotes a repair workshop, including vehicle repair, while Malaysian “bengkel kereta” explicitly means car repair shop. The relation is similar, with no false-friend contrast.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Car repair shop” accurately expresses the intended sense, though “vehicle repair shop” would also be supportable.\",\"material_risk\":false,\"evidence_limitation\":\"No external corpus evidence supplied; assessment relies on standard usage.\"},{\"subject\":\"Indonesian answer: bengkel\",\"conclusion\":\"Valid, but broader than an explicitly car-specific term such as “bengkel mobil.”\",\"material_risk\":false,\"evidence_limitation\":\"Context-dependent vehicle interpretation is conventional but not exclusive.\"},{\"subject\":\"Malaysian answer: bengkel kereta\",\"conclusion\":\"Valid and specifically means car repair shop in Malaysian Malay.\",\"material_risk\":false,\"evidence_limitation\":\"No external corpus evidence supplied; assessment relies on standard usage.\"},{\"subject\":\"Final relation\",\"conclusion\":\"“Similar” is correct because the Indonesian term is broader while the Malaysian term is car-specific.\",\"material_risk\":false,\"evidence_limitation\":\"No false-friend evidence is indicated or needed.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No material false-friend contrast exists between these forms.\",\"material_risk\":false,\"evidence_limitation\":\"Assessment based on ordinary meanings of both terms.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Car repair shop” accurately expresses the intended sense, though “vehicle repair shop” would also be supportable.",
+        "evidence_limitation": "No external corpus evidence supplied; assessment relies on standard usage.",
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Valid, but broader than an explicitly car-specific term such as “bengkel mobil.”",
+        "evidence_limitation": "Context-dependent vehicle interpretation is conventional but not exclusive.",
+        "material_risk": false,
+        "subject": "Indonesian answer: bengkel"
+      },
+      {
+        "conclusion": "Valid and specifically means car repair shop in Malaysian Malay.",
+        "evidence_limitation": "No external corpus evidence supplied; assessment relies on standard usage.",
+        "material_risk": false,
+        "subject": "Malaysian answer: bengkel kereta"
+      },
+      {
+        "conclusion": "“Similar” is correct because the Indonesian term is broader while the Malaysian term is car-specific.",
+        "evidence_limitation": "No false-friend evidence is indicated or needed.",
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No material false-friend contrast exists between these forms.",
+        "evidence_limitation": "Assessment based on ordinary meanings of both terms.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are valid for the narrowed cue “car repair shop.” Indonesian “bengkel” commonly denotes a repair workshop, including vehicle repair, while Malaysian “bengkel kereta” explicitly means car repair shop. The relation is similar, with no false-friend contrast.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

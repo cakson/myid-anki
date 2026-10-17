@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-16T19:57:19.720492+00:00",
+  "input_digest": "c99ba0012c506840f2c00ecdc14e5106896bea756c57ee5dbdfcaae59e4105c5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s020:corpus-004-003-s020-edu-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"School fee means money charged for attending a school, while academic year is a study-period concept; no overlap.\"}, {\"other_id\": \"cal3-technology-001:technology-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"School fee applies to school attendance, whereas tuition fee is explicitly a fee for university study; the education level and sense differ.\"}, {\"other_id\": \"000128\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"The archived tuition fee concept is specifically for university study, while school fee concerns attending school; distinct senses.\"}, {\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-011\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Registration fee is paid to register for a service or event, not the ongoing or general fee charged for attending school.\"}, {\"other_id\": \"000252\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Service fee is a charge for providing a service, whereas school fee is the education attendance charge; distinct concepts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s020:corpus-004-003-s020-edu-009",
+          "rationale": "School fee means money charged for attending a school, while academic year is a study-period concept; no overlap.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-technology-001:technology-10",
+          "rationale": "School fee applies to school attendance, whereas tuition fee is explicitly a fee for university study; the education level and sense differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000128",
+          "rationale": "The archived tuition fee concept is specifically for university study, while school fee concerns attending school; distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-011",
+          "rationale": "Registration fee is paid to register for a service or event, not the ongoing or general fee charged for attending school.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "000252",
+          "rationale": "Service fee is a charge for providing a service, whereas school fee is the education attendance charge; distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s020:corpus-004-003-s020-edu-009",
+        "rationale": "School fee means money charged for attending a school, while academic year is a study-period concept; no overlap.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-technology-001:technology-10",
+        "rationale": "School fee applies to school attendance, whereas tuition fee is explicitly a fee for university study; the education level and sense differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "000128",
+        "rationale": "The archived tuition fee concept is specifically for university study, while school fee concerns attending school; distinct senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-011",
+        "rationale": "Registration fee is paid to register for a service or event, not the ongoing or general fee charged for attending school.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "000252",
+        "rationale": "Service fee is a charge for providing a service, whereas school fee is the education attendance charge; distinct concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "6e4ac496eb0e807fb610c881e3c2b809a80597a43920816828aaf9ff780f4a5f"
+}

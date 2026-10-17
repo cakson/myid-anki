@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:40:09.442110+00:00",
+  "input_digest": "0b360f90947cf88a1654b5daa5a886adcd1817c97a8037141523a177cdd9eb29",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s016:tmp-daily-life-s016-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bottle opener removes bottle caps, whereas a can opener opens metal food cans; they are different tools with distinct senses.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-004",
+          "rationale": "A bottle opener removes bottle caps, whereas a can opener opens metal food cans; they are different tools with distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s016:tmp-daily-life-s016-004",
+        "rationale": "A bottle opener removes bottle caps, whereas a can opener opens metal food cans; they are different tools with distinct senses.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "05f598b520378b301a63302acd9b047176342d958180d4c0ad49e809ad2bffa5"
+}

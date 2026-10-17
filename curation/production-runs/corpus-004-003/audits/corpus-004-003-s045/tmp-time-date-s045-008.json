@@ -1,0 +1,76 @@
+{
+  "attempt_id": "887e4099956fef7e",
+  "candidate_id": "tmp-time-date-s045-008",
+  "claim_reviews": [
+    {
+      "conclusion": "“Dry season” correctly matches “season with relatively little rain.”",
+      "evidence_refs": [
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=kemarau",
+        "https://gaw-bariri.bmkg.go.id/publikasi/gawsarium/348-musim"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Musim kemarau” is a standard Indonesian term for dry season.",
+      "evidence_refs": [
+        "https://gaw-bariri.bmkg.go.id/publikasi/gawsarium/348-musim",
+        "https://repositori.kemendikdasmen.go.id/2929/1/Kamus%20Klimatologi%20Dept%20Pendidikan%20dan%20Kebudayaan%20%20-%20149h.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Musim kering” is valid Malaysian Malay for dry season, but “musim kemarau” is also established Malaysian usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kering",
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=kemarau",
+        "https://ekamus.dbp.gov.my/Makna.aspx?kid=251487"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is misleading because the forms overlap across the two varieties; a shared-term-with-preference relation would be more accurate.",
+      "evidence_refs": [
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=kemarau",
+        "https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kering"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or needed; the two expressions have the same relevant sense.",
+      "evidence_limitation": "The supplied card has an empty contrast field, and the dictionary evidence supports semantic equivalence rather than a false-friend distinction.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "e3e63366858787e7efa06358bcb6325e88f3b60005ee3cc57f90fde690cac110",
+  "correction_refs": [],
+  "decision_digest": "63fda4283044ede51954f3f97d37f19040d032fa032cd5efe58ec2ef5f3c32b0",
+  "elapsed_ms": 14281,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 32957,
+  "model_calls": 1,
+  "output_tokens": 1055,
+  "packet_digest": "f9b9500aa251fc03ea3e39550ba45a71d23f423767a6486456836785c1ea9131",
+  "rationale": "Both answers and the English sense are correct. However, the relation “different-common-word” overstates a national distinction: Malaysian Malay also uses “musim kemarau,” while “musim kering” is a valid equivalent. This is a preference/usage contrast, not a false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:11:55.958810+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s045/tmp-time-date-s045-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s045",
+  "verdict": "needs-correction"
+}

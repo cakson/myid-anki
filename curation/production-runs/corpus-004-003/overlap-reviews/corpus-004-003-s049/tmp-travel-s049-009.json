@@ -1,0 +1,83 @@
+{
+  "attempt_id": "966e2554929decff",
+  "candidate_id": "tmp-travel-s049-009",
+  "claim_reviews": [
+    {
+      "conclusion": "“Currency exchange” and the sense “exchanging one currency for another” are accurate and aligned.",
+      "evidence_refs": [
+        "https://www.bi.go.id/id/publikasi/peraturan/Documents/PADG_241022.pdf",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=105584&keyword=pertukaran"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Valid and attested Indonesian wording for currency exchange, but not uniquely Indonesian; Indonesian usage also includes “pertukaran mata uang.”",
+      "evidence_refs": [
+        "https://www.jakarta.go.id/penukaran-mata-uang",
+        "https://www.panin.co.id/id/layanan-perbankan/foreign-currency-exchange",
+        "https://www.bi.go.id/id/publikasi/peraturan/Documents/PADG_241022.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Indonesian answer: penukaran mata uang"
+    },
+    {
+      "conclusion": "Valid and strongly attested Malaysian wording, but not uniquely Malaysian; Malaysian official and commercial sources also use “penukaran mata wang.”",
+      "evidence_refs": [
+        "https://www.cimb.com.my/bm/personal/day-to-day-banking/currency-exchange.html",
+        "https://www.anm.gov.my/bisnes/pertukaran-mata-wang-asing",
+        "https://www.hlb.com.my/ms/personal-banking/credit-cards/credit-card-services/consumer-services/dynamic-currency-conversion.html"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: pertukaran mata wang"
+    },
+    {
+      "conclusion": "“Different-common-word” materially overstates the distinction. The forms overlap across varieties, with the main cross-national differences being mata uang versus mata wang and a preference tendency between penukaran and pertukaran, not exclusive lexical ownership.",
+      "evidence_refs": [
+        "https://www.bi.go.id/id/publikasi/peraturan/Documents/PADG_241022.pdf",
+        "https://www.panin.co.id/id/layanan-perbankan/foreign-currency-exchange",
+        "https://www.cimb.com.my/bm/personal/day-to-day-banking/currency-exchange.html",
+        "https://www.hlb.com.my/ms/personal-banking/credit-cards/credit-card-services/consumer-services/dynamic-currency-conversion.html",
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=8&k=barangan"
+      ],
+      "material_risk": true,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No contrast is supplied. Available dictionary evidence treats pertukaran and penukaran as related derivatives with overlapping exchange meanings, so presenting them as false friends would be misleading. A brief note should say they are overlapping cognate alternatives with context or national preference differences.",
+      "evidence_limitation": "The sources establish attestation and overlapping definitions but do not provide a corpus-based frequency comparison between Indonesian and Malaysian varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=105584&keyword=pertukaran",
+        "https://ekamus.dbp.gov.my/Makna.aspx?kid=281410"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "93859a6897e0200e6b758d035f51800240ac6620c8a086932824310bcb289eb8",
+  "correction_refs": [],
+  "decision_digest": "0bd0b559dd20503c303d2bd76e4fd4d59e1968ee2840c5622cae302952881af6",
+  "elapsed_ms": 22854,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 100485,
+  "model_calls": 1,
+  "output_tokens": 1588,
+  "packet_digest": "a093ef97759b74a272ed374b26be9e14a498cf575c1e539a65223f5747a24f3d",
+  "rationale": "Both entries express the cue sense, but the national split is materially overstated. Indonesian sources use both “penukaran mata uang” and “pertukaran mata uang”; Malaysian sources use both “pertukaran mata wang” and “penukaran mata wang.” The contrast is therefore a useful spelling/lexical-preference distinction, not a reliable different-common-word division. The false-friend contrast is absent and should not imply a semantic trap.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:18:16.515581+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s049/tmp-travel-s049-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s049",
+  "verdict": "needs-correction"
+}

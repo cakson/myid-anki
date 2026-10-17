@@ -1,0 +1,44 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5877,
+  "input_digest": "5e13f3ebebd4217e9ac7ba7e52628d925da5ba5a1163c530d33ee103e49bbacf",
+  "input_tokens": 93716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 364,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s002:tmp-common-adjectives-s002-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“flight delay” is a travel-specific delay affecting a flight’s scheduled departure or arrival, while “late” is a general adjective meaning not on time.\"},{\"other_id\":\"cal2-travel-001:travel-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“flight delay” describes a disruption to a scheduled flight, whereas “schedule” is the planned timetable itself.\"},{\"other_id\":\"cal2-travel-001:travel-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“flight delay” concerns lateness of a flight; “arrival” is the act of reaching a destination.\"},{\"other_id\":\"corpus-004-003-s049:tmp-travel-s049-002\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“flight delay” concerns a flight occurring later than scheduled, while “departure” is the act of leaving on a journey.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s002:tmp-common-adjectives-s002-001",
+          "rationale": "“flight delay” is a travel-specific delay affecting a flight’s scheduled departure or arrival, while “late” is a general adjective meaning not on time.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-travel-001:travel-05",
+          "rationale": "“flight delay” describes a disruption to a scheduled flight, whereas “schedule” is the planned timetable itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-travel-001:travel-06",
+          "rationale": "“flight delay” concerns lateness of a flight; “arrival” is the act of reaching a destination.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s049:tmp-travel-s049-002",
+          "rationale": "“flight delay” concerns a flight occurring later than scheduled, while “departure” is the act of leaving on a journey.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

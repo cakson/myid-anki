@@ -1,0 +1,63 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 14864,
+  "input_tokens": 29123,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 795,
+  "packet_digest": "ea53fa34f1f65e11958c541823bff92aa90169bd4698474c3181759928b41f2c",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both localized answers are valid, commonly used terms for an air-purifying device. The English cue and sense align, and the contrast is lexical rather than a false friend. Malaysian penapis udara can also literally refer to an air filter, but is used for air purifiers in Malaysian commercial contexts.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: pemurni udara\",\"conclusion\":\"Correct Indonesian term for an air purifier.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.panasonic.com/id/air-solutions/products/air-purifier/air-purifier.pro.html\",\"https://www.dyson.co.id/id-ID/products/air-treatment/purifiers\"]},{\"subject\":\"Malaysian answer: penapis udara\",\"conclusion\":\"Correct Malaysian term used for an air purifier.\",\"material_risk\":false,\"evidence_refs\":[\"https://cowaycom.my/ms/products\",\"https://eazy.my/air-purifiers-malaysia-sep-2026-ms/\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"Air purifier matches the stated device that removes pollutants from indoor air.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.dyson.co.id/id-ID/products/air-treatment/purifiers\"]},{\"subject\":\"Final relation\",\"conclusion\":\"different-common-word is appropriate: the varieties use distinct localized compounds for the same referent.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.panasonic.com/id/air-solutions/products/air-purifier/air-purifier.pro.html\",\"https://cowaycom.my/ms/products\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No material false friend. Penapis literally relates to filtering and may be broader than purifier, but Malaysian usage clearly includes air-purifying appliances.\",\"material_risk\":false,\"evidence_refs\":[\"https://cowaycom.my/ms/products\",\"https://www.youtube.com/watch?v=bXiS-91u4CU\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct Indonesian term for an air purifier.",
+        "evidence_refs": [
+          "https://www.panasonic.com/id/air-solutions/products/air-purifier/air-purifier.pro.html",
+          "https://www.dyson.co.id/id-ID/products/air-treatment/purifiers"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: pemurni udara"
+      },
+      {
+        "conclusion": "Correct Malaysian term used for an air purifier.",
+        "evidence_refs": [
+          "https://cowaycom.my/ms/products",
+          "https://eazy.my/air-purifiers-malaysia-sep-2026-ms/"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: penapis udara"
+      },
+      {
+        "conclusion": "Air purifier matches the stated device that removes pollutants from indoor air.",
+        "evidence_refs": [
+          "https://www.dyson.co.id/id-ID/products/air-treatment/purifiers"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "different-common-word is appropriate: the varieties use distinct localized compounds for the same referent.",
+        "evidence_refs": [
+          "https://www.panasonic.com/id/air-solutions/products/air-purifier/air-purifier.pro.html",
+          "https://cowaycom.my/ms/products"
+        ],
+        "material_risk": false,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No material false friend. Penapis literally relates to filtering and may be broader than purifier, but Malaysian usage clearly includes air-purifying appliances.",
+        "evidence_refs": [
+          "https://cowaycom.my/ms/products",
+          "https://www.youtube.com/watch?v=bXiS-91u4CU"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both localized answers are valid, commonly used terms for an air-purifying device. The English cue and sense align, and the contrast is lexical rather than a false friend. Malaysian penapis udara can also literally refer to an air filter, but is used for air purifiers in Malaysian commercial contexts.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

@@ -1,0 +1,95 @@
+{
+  "candidate": {
+    "candidate_id": "tmp-work-s051-008",
+    "english": "retirement",
+    "indonesian": "pensiun",
+    "malaysian": "persaraan",
+    "sense": "leaving employment permanently due to age",
+    "tags": [
+      "work",
+      "different-common-word"
+    ]
+  },
+  "candidate_id": "tmp-work-s051-008",
+  "decision": {
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "cue_alignment": "correctable",
+      "evidence": "missing",
+      "nonblocking_risk": "minor",
+      "preference_risk": {
+        "form": "pencen",
+        "language": "malaysian",
+        "rationale": "Pencen commonly denotes the pension or benefit, not the retirement-from-employment sense targeted here.",
+        "signal": "different-sense-only"
+      },
+      "shared_synonym_case": "nonpreferred-alternative",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "confidence_rationale": "Pensiun is the ordinary Indonesian term and persaraan the ordinary Malaysian noun for leaving employment permanently due to age; this is a useful national vocabulary contrast. The concise cue is narrowed to retirement from employment. Review concern: Pensiun can also refer to pension benefits in Indonesian, creating limited residual ambiguity.",
+    "confidence_tier": "low",
+    "cue_correction": {
+      "from": "retirement",
+      "to": "retirement from employment"
+    },
+    "decision_policy_version": "3.1.0",
+    "outcome": "accepted",
+    "reason_codes": [
+      "ordinary-verifier-agreement"
+    ],
+    "relation": "different-common-word",
+    "review_flags": [
+      "cue-corrected",
+      "nonpreferred-alternative"
+    ],
+    "risk": {
+      "path": "ordinary-fast",
+      "tier": "low",
+      "triggers": []
+    },
+    "skipped_stages": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "relation-proposal": "skipped-by-policy"
+    },
+    "stage_statuses": {
+      "adversarial-review": "skipped-by-policy",
+      "evidence-audit": "skipped-by-policy",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "skipped-by-policy",
+      "malaysian-usage": "skipped-by-policy",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "skipped-by-policy"
+    }
+  },
+  "learner_content": {
+    "contrast": "",
+    "english": "retirement from employment",
+    "image": "",
+    "indonesian": "pensiun",
+    "malaysian": "persaraan",
+    "relation": "different-common-word",
+    "tags": "work different-common-word"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s051"
+}

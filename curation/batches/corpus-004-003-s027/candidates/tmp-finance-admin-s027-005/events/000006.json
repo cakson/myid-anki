@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-16T20:11:29.961096+00:00",
+  "input_digest": "11e5d6a5d822a0f4933f54d446192e8ce2f4ff20138044bc587c77f9686fd686",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"object\", \"relation\": \"different-common-word\", \"concerns\": [\"The Indonesian form buku nikah is specifically associated with official Muslim marriage documentation, while the Malaysian form sijil perkahwinan is broader and may refer to a civil marriage certificate.\"], \"material_concerns\": [\"The pair does not reliably express the same exact sense across all marriages; it conflates a religiously specific document with a general marriage certificate.\"], \"rationale\": \"The forms are not safely aligned for the broad cue \\u201cmarriage certificate.\\u201d buku nikah commonly denotes the official Muslim marriage book in Indonesia, whereas sijil perkahwinan is a broader Malaysian term. A narrower Islamic-marriage cue would require a more precise Malaysian counterpart such as sijil nikah.\", \"objection_assessments\": [], \"cue_alignment\": \"material-risk\", \"cue_rewrite\": \"\", \"cue_rationale\": \"The broad cue includes civil and Islamic marriage certificates, but buku nikah does not cover that full category.\", \"shared_synonym_case\": \"weak-contrast\", \"shared_synonym_rationale\": \"Malaysian sijil nikah is a plausible everyday term for the Islamic sense, while sijil perkahwinan is broader; this makes the proposed contrast potentially misleading rather than a clean national preference.\", \"nonblocking_risk\": \"none\", \"risk_rationale\": \"\", \"preference_risk\": {\"signal\": \"same-sense-competition\", \"form\": \"sijil nikah\", \"language\": \"malaysian\", \"rationale\": \"For the Islamic marriage-document sense, sijil nikah is a plausible everyday Malaysian competitor and may be more directly equivalent to Indonesian buku nikah.\"}, \"affirmative_defect\": \"artificial-synonym\"}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "affirmative_defect": "artificial-synonym",
+      "concerns": [
+        "The Indonesian form buku nikah is specifically associated with official Muslim marriage documentation, while the Malaysian form sijil perkahwinan is broader and may refer to a civil marriage certificate."
+      ],
+      "cue_alignment": "material-risk",
+      "cue_rationale": "The broad cue includes civil and Islamic marriage certificates, but buku nikah does not cover that full category.",
+      "cue_rewrite": "",
+      "material_concerns": [
+        "The pair does not reliably express the same exact sense across all marriages; it conflates a religiously specific document with a general marriage certificate."
+      ],
+      "nonblocking_risk": "none",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "sijil nikah",
+        "language": "malaysian",
+        "rationale": "For the Islamic marriage-document sense, sijil nikah is a plausible everyday Malaysian competitor and may be more directly equivalent to Indonesian buku nikah.",
+        "signal": "same-sense-competition"
+      },
+      "rationale": "The forms are not safely aligned for the broad cue “marriage certificate.” buku nikah commonly denotes the official Muslim marriage book in Indonesia, whereas sijil perkahwinan is a broader Malaysian term. A narrower Islamic-marriage cue would require a more precise Malaysian counterpart such as sijil nikah.",
+      "relation": "different-common-word",
+      "risk_rationale": "",
+      "shared_synonym_case": "weak-contrast",
+      "shared_synonym_rationale": "Malaysian sijil nikah is a plausible everyday term for the Islamic sense, while sijil perkahwinan is broader; this makes the proposed contrast potentially misleading rather than a clean national preference.",
+      "verdict": "object"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "affirmative_defect": "artificial-synonym",
+    "concerns": [
+      "The Indonesian form buku nikah is specifically associated with official Muslim marriage documentation, while the Malaysian form sijil perkahwinan is broader and may refer to a civil marriage certificate."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "The broad cue includes civil and Islamic marriage certificates, but buku nikah does not cover that full category.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair does not reliably express the same exact sense across all marriages; it conflates a religiously specific document with a general marriage certificate."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "sijil nikah",
+      "language": "malaysian",
+      "rationale": "For the Islamic marriage-document sense, sijil nikah is a plausible everyday Malaysian competitor and may be more directly equivalent to Indonesian buku nikah.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "The forms are not safely aligned for the broad cue “marriage certificate.” buku nikah commonly denotes the official Muslim marriage book in Indonesia, whereas sijil perkahwinan is a broader Malaysian term. A narrower Islamic-marriage cue would require a more precise Malaysian counterpart such as sijil nikah.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "weak-contrast",
+    "shared_synonym_rationale": "Malaysian sijil nikah is a plausible everyday term for the Islamic sense, while sijil perkahwinan is broader; this makes the proposed contrast potentially misleading rather than a clean national preference.",
+    "verdict": "object"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "6c65608eaceba8e34cda6389a6cd0060ee8f29d1e04639a2df99fa861321b2e3"
+}

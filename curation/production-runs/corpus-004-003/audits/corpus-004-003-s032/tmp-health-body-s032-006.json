@@ -1,0 +1,67 @@
+{
+  "attempt_id": "fbdf0a9bcaa26d9e",
+  "candidate_id": "tmp-health-body-s032-006",
+  "claim_reviews": [
+    {
+      "conclusion": "Sprain correctly denotes an injury involving twisting or overstretching a joint ligament.",
+      "evidence_refs": [
+        "https://keslan.kemkes.go.id/view_artikel/2488/keseleo-ingat-rice"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Keseleo is a valid Indonesian term meaning terkilir or salah urat; terkilir is a plausible alternative, not a correction.",
+      "evidence_refs": [
+        "https://kbbi.web.id/keseleo"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: keseleo"
+    },
+    {
+      "conclusion": "Terseliuh is a valid Malaysian Malay term for sprain or an injury caused by twisting.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=172780&keyword=terseliuh"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: terseliuh"
+    },
+    {
+      "conclusion": "Different-common-word is accurate because the selected Indonesian and Malaysian terms differ while expressing the same sense.",
+      "evidence_limitation": "The relation judgment is based on the cited dictionary meanings and does not quantify regional frequency.",
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted; the two forms are semantically aligned rather than misleadingly similar.",
+      "evidence_limitation": "No dedicated false-friend source was necessary because the dictionary definitions directly align.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a2080c1a788d4e4e7af0316a5a8f431fe4cf713968f464ef2eee5b6ab7e9caaa",
+  "correction_refs": [],
+  "decision_digest": "337cbf231e2af6c4784bacf7b389f92f9627573a74039b280d4e9827da5bb8c5",
+  "elapsed_ms": 17157,
+  "finding_class": "none",
+  "input_tokens": 49312,
+  "model_calls": 1,
+  "output_tokens": 777,
+  "packet_digest": "ec20d0bd0565c1f6dcdc19970ab7136e6ce986587a305d2acebcbea5bab858ef",
+  "rationale": "Both answers correctly express the sprain sense. Indonesian keseleo and Malaysian Malay terseliuh are valid, commonly recognized terms, and the different-common-word relation is appropriate. No false-friend contrast is needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:56:33.716091+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s032/tmp-health-body-s032-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "cleared"
+}

@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4775,
+  "input_digest": "7cfd29070d35135a170f9ef6a762894ebd5561268f7bdcb3c5ac6709dbc81261",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 246,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s005:tmp-common-adjectives-s005-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"National means relating to a country as a whole, while foreign means from another country; the senses are contrasting but distinct.\"},{\"other_id\":\"corpus-004-003-s005:tmp-common-adjectives-s005-008\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"National concerns one country as a whole, while international involves more than one country; these are clearly distinct senses.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-006",
+          "rationale": "National means relating to a country as a whole, while foreign means from another country; the senses are contrasting but distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s005:tmp-common-adjectives-s005-008",
+          "rationale": "National concerns one country as a whole, while international involves more than one country; these are clearly distinct senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

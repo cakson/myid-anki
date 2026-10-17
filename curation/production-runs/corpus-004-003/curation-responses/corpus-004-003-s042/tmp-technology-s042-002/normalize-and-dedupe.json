@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4877,
+  "input_digest": "53df0676b6bfc48a3e48cac1bb004f4454c99c426f3531eb99f24b8018835d64",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 203,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"technology-001:technology-06\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"A touchscreen is a display controlled by touch, whereas the existing screen concept is a general display surface; the interactive-control sense is distinct.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "technology-001:technology-06",
+          "rationale": "A touchscreen is a display controlled by touch, whereas the existing screen concept is a general display surface; the interactive-control sense is distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

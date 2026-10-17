@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5315,
+  "input_digest": "2618005c889157436d7c0b47d0cfa21c9d601b4ad01961e1be7807c847d999b1",
+  "input_tokens": 93717,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 244,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s019:tmp-directions-location-s019-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Downstairs means located on a lower floor, while upstairs means located on a higher floor; they are contrasting but distinct location concepts.\"},{\"other_id\":\"corpus-004-002-s006:tmp-directions-location-s006-003\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Downstairs describes location on a lower floor; building floor denotes one level of a multi-storey building without specifying its relative position.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s019:tmp-directions-location-s019-001",
+          "rationale": "Downstairs means located on a lower floor, while upstairs means located on a higher floor; they are contrasting but distinct location concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-003",
+          "rationale": "Downstairs describes location on a lower floor; building floor denotes one level of a multi-storey building without specifying its relative position.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

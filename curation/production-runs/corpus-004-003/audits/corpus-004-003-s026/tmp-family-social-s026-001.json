@@ -1,0 +1,73 @@
+{
+  "attempt_id": "9e09320f32bd519c",
+  "candidate_id": "tmp-family-social-s026-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for “father” or “a male parent” in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.web.id/ayah"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: ayah"
+    },
+    {
+      "conclusion": "Correct for “father” or “a male parent” in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=128916&keyword=bapa"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: bapa"
+    },
+    {
+      "conclusion": "The cue “father” and sense “a male parent” align with both forms.",
+      "evidence_refs": [
+        "https://kbbi.web.id/ayah",
+        "https://prpm.dbp.gov.my/Cari1?d=128916&keyword=bapa"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Needs correction or qualification: ayah is also used in Malaysian Malay, so the contrast is preferential/overlapping rather than a clean national lexical split.",
+      "evidence_refs": [
+        "https://research-repository.uwa.edu.au/files/3230109/Mohd_Hussain_Rosila_Bee_2012.pdf",
+        "https://prpm.dbp.gov.my/Cari1?d=128916&keyword=bapa"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is needed; the two words share the relevant parental sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=128916&keyword=bapa"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a8803647f9a3825f5364ddd04909ef8c506a911835ea9d4135dbe886e77d99fa",
+  "correction_refs": [],
+  "decision_digest": "da0d755bc19da254ce5c69bec02cf473e3a2d8411bfe439af999b67f5e6d92b8",
+  "elapsed_ms": 14210,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 33163,
+  "model_calls": 1,
+  "output_tokens": 919,
+  "packet_digest": "fe45897e06f5629d062a7ba2369dfac851f72f9eac3b97bca9a2cb1d72484582",
+  "rationale": "Both answers and the English sense are correct, but Malaysian Malay also commonly uses ayah. Presenting ayah versus bapa as a country-level different-common-word contrast may mislead learners; the relation should indicate overlapping synonyms or preference, not exclusive distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:46:55.706464+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s026/tmp-family-social-s026-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s026",
+  "verdict": "needs-correction"
+}

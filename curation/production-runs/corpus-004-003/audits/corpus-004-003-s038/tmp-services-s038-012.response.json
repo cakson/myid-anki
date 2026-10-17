@@ -1,0 +1,52 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18503,
+  "input_tokens": 61607,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1208,
+  "packet_digest": "af1ae7ffcacd4589f9abd6cc05d78631f42570973e9678f358390b59c14b7f7e",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers are valid variety-specific terms for public housing. Indonesian perumahan umum is an official term for housing serving low-income residents; Malaysian perumahan awam is the established government term. The cue is semantically compatible, and umum versus awam is a legitimate lexical contrast, not a false friend.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: perumahan umum\",\"conclusion\":\"Valid, though formal and somewhat policy-oriented.\",\"material_risk\":false,\"evidence_refs\":[\"https://jdih.pu.go.id/internal/assets/plugins/pdfjs/web/viewer.html?file=https%3A%2F%2Fjdih.pu.go.id%2Finternal%2Fassets%2Fassets%2Fproduk%2FPermenPUPR%2F2018%2F02%2FPermenPUPR03-2018.pdf\",\"https://jdih.pu.go.id/internal/assets/assets/produk/PermenPUPR/2022/06/2022pmpupr7.pdf\"]},{\"subject\":\"Malaysian answer: perumahan awam\",\"conclusion\":\"Valid and established for government public-housing schemes.\",\"material_risk\":false,\"evidence_refs\":[\"https://www.malaysia.gov.my/my/digital-services/search-for-project-information-schemes-opened-for-public-housing-projects\",\"https://www.dbkl.gov.my/perumahan/pejabat-zon-dan-perumahan-awam\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"The cue public housing and the government-provided-or-supported sense appropriately cover both terms, although Indonesian usage can specifically emphasize lower-income housing.\",\"material_risk\":false,\"evidence_refs\":[\"https://jdih.pu.go.id/internal/assets/assets/produk/PermenPUPR/2022/06/2022pmpupr7.pdf\",\"https://www.ihsanmadani.gov.my/inisiatif/perumahan/program-residensi-rakyat-prr\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"different-common-word is correct. Umum and awam are corresponding variety preferences here; no false-friend hazard is present.\",\"material_risk\":false,\"evidence_limitation\":\"No dedicated contrastive dictionary source was located, but official usage independently supports the intended senses.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Valid, though formal and somewhat policy-oriented.",
+        "evidence_refs": [
+          "https://jdih.pu.go.id/internal/assets/plugins/pdfjs/web/viewer.html?file=https%3A%2F%2Fjdih.pu.go.id%2Finternal%2Fassets%2Fassets%2Fproduk%2FPermenPUPR%2F2018%2F02%2FPermenPUPR03-2018.pdf",
+          "https://jdih.pu.go.id/internal/assets/assets/produk/PermenPUPR/2022/06/2022pmpupr7.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: perumahan umum"
+      },
+      {
+        "conclusion": "Valid and established for government public-housing schemes.",
+        "evidence_refs": [
+          "https://www.malaysia.gov.my/my/digital-services/search-for-project-information-schemes-opened-for-public-housing-projects",
+          "https://www.dbkl.gov.my/perumahan/pejabat-zon-dan-perumahan-awam"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: perumahan awam"
+      },
+      {
+        "conclusion": "The cue public housing and the government-provided-or-supported sense appropriately cover both terms, although Indonesian usage can specifically emphasize lower-income housing.",
+        "evidence_refs": [
+          "https://jdih.pu.go.id/internal/assets/assets/produk/PermenPUPR/2022/06/2022pmpupr7.pdf",
+          "https://www.ihsanmadani.gov.my/inisiatif/perumahan/program-residensi-rakyat-prr"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "different-common-word is correct. Umum and awam are corresponding variety preferences here; no false-friend hazard is present.",
+        "evidence_limitation": "No dedicated contrastive dictionary source was located, but official usage independently supports the intended senses.",
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers are valid variety-specific terms for public housing. Indonesian perumahan umum is an official term for housing serving low-income residents; Malaysian perumahan awam is the established government term. The cue is semantically compatible, and umum versus awam is a legitimate lexical contrast, not a false friend.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

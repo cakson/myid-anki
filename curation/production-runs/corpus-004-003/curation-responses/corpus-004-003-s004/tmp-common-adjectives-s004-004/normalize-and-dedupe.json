@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5638,
+  "input_digest": "778365a647d447bb442edcd0256ed57d2b7ef68e08bd8a8cfb22fae2dd5767b8",
+  "input_tokens": 93718,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 263,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-social-001:social-03\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Stingy describes unwillingness to spend or share, while generous describes willingness to give or share; they are contrasting senses, not the same concept.\"},{\"other_id\":\"corpus-004-003-s004:tmp-common-adjectives-s004-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Stingy concerns reluctance to spend or share resources; greedy concerns wanting more than one needs or deserves. These personality traits overlap contextually but have distinct core senses.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-social-001:social-03",
+          "rationale": "Stingy describes unwillingness to spend or share, while generous describes willingness to give or share; they are contrasting senses, not the same concept.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s004:tmp-common-adjectives-s004-006",
+          "rationale": "Stingy concerns reluctance to spend or share resources; greedy concerns wanting more than one needs or deserves. These personality traits overlap contextually but have distinct core senses.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

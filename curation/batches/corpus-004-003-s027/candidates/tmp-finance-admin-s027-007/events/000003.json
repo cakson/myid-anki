@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T20:11:48.753181+00:00",
+  "input_digest": "6b83a778d7cc724e45ad51379d1cc4b7e6c5c58c282f7305d1fcc9cd92e1c0c5",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bank statement records account transactions, whereas account balance is the amount currently held.\"}, {\"other_id\": \"corpus-004-002-s010:tmp-finance-admin-s010-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bank statement is a transaction-record document; a bank account is the account itself.\"}, {\"other_id\": \"corpus-004-003-s027:tmp-finance-admin-s027-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A bank statement records transactions over time; a bank transfer is the movement of money between accounts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-008",
+          "rationale": "A bank statement records account transactions, whereas account balance is the amount currently held.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s010:tmp-finance-admin-s010-001",
+          "rationale": "A bank statement is a transaction-record document; a bank account is the account itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-006",
+          "rationale": "A bank statement records transactions over time; a bank transfer is the movement of money between accounts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-008",
+        "rationale": "A bank statement records account transactions, whereas account balance is the amount currently held.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s010:tmp-finance-admin-s010-001",
+        "rationale": "A bank statement is a transaction-record document; a bank account is the account itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s027:tmp-finance-admin-s027-006",
+        "rationale": "A bank statement records transactions over time; a bank transfer is the movement of money between accounts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "21089fa891357c2d7b8482815ff7ce85f02bd9fcb9fbb6776e718750b9102f7d"
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:39:05.508269+00:00",
+  "input_digest": "a0a28d4911d08aa22ffdb8e9a9020b60f464f74f409b061a6937ef1749689683",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s007:tmp-daily-life-s007-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A ceiling fan is specifically mounted on a ceiling, whereas an electric fan is a general household fan; the mounting and appliance concept are distinct.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s007:tmp-daily-life-s007-001",
+          "rationale": "A ceiling fan is specifically mounted on a ceiling, whereas an electric fan is a general household fan; the mounting and appliance concept are distinct.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s007:tmp-daily-life-s007-001",
+        "rationale": "A ceiling fan is specifically mounted on a ceiling, whereas an electric fan is a general household fan; the mounting and appliance concept are distinct.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "069eba0c3080c1407c11429ccc04a88bd5fc0b55883ab4f2d462b3a5cd4432f1"
+}

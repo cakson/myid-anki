@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18373,
+  "input_tokens": 62729,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1511,
+  "packet_digest": "e0848519d017849e7130beca459c86b3530aa16b3fa24d5a135b10d5494fb43e",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"Both answers are valid for the stated sense, but the national split is materially overstated: authoritative Malaysian references explicitly equate “tahun depan” with “tahun hadapan” and state that both forms may be used. The relation should not be different-common-word. No false-friend contrast is needed.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"“Next year” correctly matches “the calendar year immediately after this one.”\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://repositori.kemendikdasmen.go.id/16351/1/Tata%20Bahasa%20Baku%20Bahasa%20Ind.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: tahun depan\",\n      \"conclusion\": \"Correct and ordinary Indonesian wording for the intended temporal sense.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://repositori.kemendikdasmen.go.id/16351/1/Tata%20Bahasa%20Baku%20Bahasa%20Ind.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer: tahun hadapan\",\n      \"conclusion\": \"Correct Malaysian Malay wording for the intended sense, but it is not exclusive; Malaysian references also recognize “tahun depan.”\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hadap\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=taklimat\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation and national split\",\n      \"conclusion\": \"“different-common-word” is materially inaccurate or overstated. DBP explicitly gives “tahun depan” as equivalent to “tahun hadapan” and says both can be used, so this is better treated as shared wording with a possible Malaysian preference for “tahun hadapan.”\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hadap\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=taklimat\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is required. “Depan” and “hadapan” can also refer to physical front/forward position, but in “tahun depan/tahun hadapan” both function transparently as temporal expressions; the empty contrast field is not misleading.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=depan\",\n        \"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hadapan\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Next year” correctly matches “the calendar year immediately after this one.”",
+        "evidence_refs": [
+          "https://repositori.kemendikdasmen.go.id/16351/1/Tata%20Bahasa%20Baku%20Bahasa%20Ind.pdf"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and ordinary Indonesian wording for the intended temporal sense.",
+        "evidence_refs": [
+          "https://repositori.kemendikdasmen.go.id/16351/1/Tata%20Bahasa%20Baku%20Bahasa%20Ind.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: tahun depan"
+      },
+      {
+        "conclusion": "Correct Malaysian Malay wording for the intended sense, but it is not exclusive; Malaysian references also recognize “tahun depan.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hadap",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=taklimat"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer: tahun hadapan"
+      },
+      {
+        "conclusion": "“different-common-word” is materially inaccurate or overstated. DBP explicitly gives “tahun depan” as equivalent to “tahun hadapan” and says both can be used, so this is better treated as shared wording with a possible Malaysian preference for “tahun hadapan.”",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hadap",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=taklimat"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and national split"
+      },
+      {
+        "conclusion": "No false-friend contrast is required. “Depan” and “hadapan” can also refer to physical front/forward position, but in “tahun depan/tahun hadapan” both function transparently as temporal expressions; the empty contrast field is not misleading.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=depan",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hadapan"
+        ],
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers are valid for the stated sense, but the national split is materially overstated: authoritative Malaysian references explicitly equate “tahun depan” with “tahun hadapan” and state that both forms may be used. The relation should not be different-common-word. No false-friend contrast is needed.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

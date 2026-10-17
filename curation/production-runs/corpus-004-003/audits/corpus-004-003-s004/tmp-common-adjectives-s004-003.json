@@ -1,0 +1,65 @@
+{
+  "attempt_id": "5cfbf752f3cfb435",
+  "candidate_id": "tmp-common-adjectives-s004-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: “ripe fruit” means fruit fully developed and ready to eat.",
+      "evidence_refs": [
+        "https://kamuslengkap.id/kamus/kbbi/arti-kata/matang/",
+        "https://prpm.dbp.gov.my/Cari1?keyword=masak+"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary for ripe fruit in Indonesian.",
+      "evidence_refs": [
+        "https://kamuslengkap.id/kamus/kbbi/arti-kata/matang/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: matang"
+    },
+    {
+      "conclusion": "Correct and ordinary for ripe fruit in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?keyword=masak+"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer: masak"
+    },
+    {
+      "conclusion": "Needs revision: “different-common-word” is usable only if explicitly framed as a preference contrast, because the forms overlap across varieties; there is no false-friend contrast.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=matang",
+        "https://prpm.dbp.gov.my/Cari1?keyword=masak+"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and contrast"
+    }
+  ],
+  "content_digest": "02a8b3bc424f4e36bffeb826ca23ed644596f4b4a38476da5b9b09b9d61660e6",
+  "correction_refs": [],
+  "decision_digest": "b252d8a52ed7d24c5b369690a708fd9d0df7f13701823eb54a7fbf43d7ad4316",
+  "elapsed_ms": 19723,
+  "finding_class": "cue-content",
+  "input_tokens": 82555,
+  "model_calls": 1,
+  "output_tokens": 1191,
+  "packet_digest": "c38f2cbd67cd76dbc3e0a30b18e7cab59bee89b1edaf1b6edb100d01c12c8b7b",
+  "rationale": "Both answers and the English sense are correct, but the relation overstates the variety split. Indonesian matang is well supported for ripe fruit, while Malaysian Malay masak is supported; however, Malaysian matang and Indonesian masak can also express this sense. Add an explicit shared-synonym/preference contrast. This is not a false-friend distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:18:51.056962+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s004/tmp-common-adjectives-s004-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s004",
+  "verdict": "needs-correction"
+}

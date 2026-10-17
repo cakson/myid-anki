@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-16T19:57:31.922082+00:00",
+  "input_digest": "a9258af049b0f2784db96cb9f05cb060c2c32fc173cab5739b203d1646eb4b46",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-technology-001:technology-01\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A graduate is a person who completed a course; a graduation ceremony is the event marking completion.\"}, {\"other_id\": \"pros4-technology-001:technology-02\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A graduate is a person; an academic degree is the qualification awarded after higher education.\"}, {\"other_id\": \"cal2-work-001:work-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A graduate is a person who completed study; a certificate is an official document confirming achievement or completion.\"}, {\"other_id\": \"pros4-technology-001:technology-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A graduate is a person with completed study; a resume is a document summarizing education and work history.\"}, {\"other_id\": \"school-001:topic-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A graduate has completed a course, whereas a student is currently enrolled in study.\"}, {\"other_id\": \"corpus-004-003-s051:tmp-work-s051-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A graduate is a person who completed study; a qualification is a credential or job requirement.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-technology-001:technology-01",
+          "rationale": "A graduate is a person who completed a course; a graduation ceremony is the event marking completion.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-technology-001:technology-02",
+          "rationale": "A graduate is a person; an academic degree is the qualification awarded after higher education.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-10",
+          "rationale": "A graduate is a person who completed study; a certificate is an official document confirming achievement or completion.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-technology-001:technology-09",
+          "rationale": "A graduate is a person with completed study; a resume is a document summarizing education and work history.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "school-001:topic-03",
+          "rationale": "A graduate has completed a course, whereas a student is currently enrolled in study.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s051:tmp-work-s051-005",
+          "rationale": "A graduate is a person who completed study; a qualification is a credential or job requirement.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-technology-001:technology-01",
+        "rationale": "A graduate is a person who completed a course; a graduation ceremony is the event marking completion.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "pros4-technology-001:technology-02",
+        "rationale": "A graduate is a person; an academic degree is the qualification awarded after higher education.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-10",
+        "rationale": "A graduate is a person who completed study; a certificate is an official document confirming achievement or completion.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "pros4-technology-001:technology-09",
+        "rationale": "A graduate is a person with completed study; a resume is a document summarizing education and work history.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "school-001:topic-03",
+        "rationale": "A graduate has completed a course, whereas a student is currently enrolled in study.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s051:tmp-work-s051-005",
+        "rationale": "A graduate is a person who completed study; a qualification is a credential or job requirement.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "a7c4a1d3cfb352e667d3beb8a59e3ea8fdbcf7027bd6f9c056d8ec495b593429"
+}

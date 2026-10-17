@@ -1,0 +1,71 @@
+{
+  "attempt_id": "8dfd4465fdc43a8a",
+  "candidate_id": "tmp-common-verbs-s007-010",
+  "claim_reviews": [
+    {
+      "conclusion": "Valid and natural for “continue/keep doing something” in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.kemdikbud.go.id/entri/melanjutkan"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: melanjutkan"
+    },
+    {
+      "conclusion": "Valid and natural for continuing an activity in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=meneruskan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: meneruskan"
+    },
+    {
+      "conclusion": "“Continue” with the sense “keep doing something” is correctly represented by both forms.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=meneruskan",
+        "https://kbbi.kemdikbud.go.id/entri/melanjutkan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Incorrect or materially misleading as a learner contrast; both forms occur as synonyms in both varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=meneruskan",
+        "https://kbbi.kemdikbud.go.id/entri/melanjutkan"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No meaningful false-friend contrast is present. The forms differ lexically but substantially overlap in meaning and usage.",
+      "evidence_limitation": "The cited dictionary evidence establishes synonymy and meanings, but does not provide corpus-frequency data sufficient to quantify regional preference.",
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "f0dfc0b1999c6ebfd18ef8c27637187e62881201bc9c6b26850ddd788c1bf46c",
+  "correction_refs": [],
+  "decision_digest": "1d65876ff2d6a32c4602e8b744cd90ab0f9b280f6e7f9179113524dcd2a2fa7b",
+  "elapsed_ms": 15445,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 49675,
+  "model_calls": 1,
+  "output_tokens": 836,
+  "packet_digest": "37b12ef35b9f8c74ba86dd6a0cf16617f9ef170607828756f0f8d22e82155baf",
+  "rationale": "Both answers are valid for “continue” and the English cue/sense are aligned. However, the proposed contrast “different-common-word” is misleading: melanjutkan and meneruskan are established synonyms across Indonesian and Malaysian Malay, so this is not a reliable variety-specific distinction or false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:24:30.294207+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s007/tmp-common-verbs-s007-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s007",
+  "verdict": "needs-correction"
+}

@@ -1,0 +1,78 @@
+{
+  "attempt_id": "6b9bea40829629fa",
+  "candidate_id": "tmp-health-body-s033-002",
+  "claim_reviews": [
+    {
+      "conclusion": "“Body temperature” and “temperature of a person’s body” are correctly aligned.",
+      "evidence_refs": [
+        "https://kbbi.web.id/suhu",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=suhu"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and natural Indonesian for body temperature.",
+      "evidence_refs": [
+        "https://keslan.kemkes.go.id/view_artikel/2874/penanganan-gizi-buruk-dan-upaya-pencegahannya",
+        "https://kesprimkom.kemkes.go.id/konten/158/150/0/posyandu-semakin-siap-melayani-masyarakat-semua-usia"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: suhu tubuh"
+    },
+    {
+      "conclusion": "Correct and standard Malaysian Malay expression for body temperature.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=suhu",
+        "https://infosihat.moh.gov.my/penerbitan-multimedia/garis-panduan.raw?args%5B0%5D=0&element=0dd7fb66-93a8-4ec5-8aad-fe0319bf0722&item_id=9342&method=download&task=callelement"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: suhu badan"
+    },
+    {
+      "conclusion": "The relation “similar” is accurate because the expressions share the same meaning while reflecting a useful lexical preference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=suhu",
+        "https://keslan.kemkes.go.id/view_artikel/2874/penanganan-gizi-buruk-dan-upaya-pencegahannya"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend contrast is present. The forms are not semantically misleading; “suhu badan” also occurs in Indonesian, so any claim of strict exclusivity would be unsafe.",
+      "evidence_refs": [
+        "https://komdigi.go.id/berita/berita-hoaks/detail/hoaks-mandi-di-3-waktu-ini-bisa-sebabkan-kematian-mendadak",
+        "https://kemkes.go.id/id/%20kenali-tanda-tanda-heat-stroke"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "7f1203b239e36b20babe22ef64d87815d1a4211f9fe141a23ade841d623a81ca",
+  "correction_refs": [],
+  "decision_digest": "dc867d688ffdaad40fbefa18549eda7767926c2e3979b047be6e6becddab6208",
+  "elapsed_ms": 18925,
+  "finding_class": "none",
+  "input_tokens": 61517,
+  "model_calls": 1,
+  "output_tokens": 1230,
+  "packet_digest": "f4bd761439448be88751a150bc02eebcf7b592135134f991b4b8f98556df1b3e",
+  "rationale": "Both translations correctly express “body temperature,” and the sense is accurate. “Suhu tubuh” is well-attested in Indonesian, while “suhu badan” is standard in Malaysian Malay. The relation “similar” is appropriate. No false-friend contrast is supplied or required; however, neither form should be taught as exclusive to one national variety.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:57:47.585233+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s033/tmp-health-body-s033-002.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s033",
+  "verdict": "cleared"
+}

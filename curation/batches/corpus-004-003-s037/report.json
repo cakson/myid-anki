@@ -1,0 +1,553 @@
+{
+  "accepted": 4,
+  "batch_id": "corpus-004-003-s037",
+  "confidence_distribution": {
+    "high": 1,
+    "medium": 3
+  },
+  "corrections": 0,
+  "created_at": "2026-10-17T06:31:21.731750+00:00",
+  "decisions": [
+    {
+      "candidate_id": "tmp-services-s037-001",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "",
+          "language": "none",
+          "rationale": "No concrete competing preference weakens this straightforward word-order contrast.",
+          "signal": "no-preference-concern"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms ordinarily mean a scheduled meeting for a service; they use the same words in different conventional order, creating a useful but transparent contrast.",
+      "confidence_tier": "high",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-002",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "Unresolved semantic overlap could create a duplicate concept."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "Unresolved semantic overlap could create a duplicate concept."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-003",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "Unresolved semantic overlap could create a duplicate concept."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "Unresolved semantic overlap could create a duplicate concept."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-004",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "pembaruan/perbaharuan",
+          "language": "both",
+          "rationale": "Related renewal forms may occur across varieties, but the proposed forms remain credible national preferences for extending service or document validity.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms mean extending the validity of a service or document. Indonesian commonly uses perpanjangan, while Malaysian Malay commonly uses pembaharuan for this administrative sense.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form",
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-005",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "none",
+        "preference_risk": {
+          "form": "penyedia jasa",
+          "language": "indonesian",
+          "rationale": "A common Indonesian alternative exists, but it does not create a meaningful same-form competition across both varieties.",
+          "signal": "named-alternative-exists"
+        },
+        "shared_synonym_case": "useful-preference",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms ordinarily mean a company or person offering a service; the difference is a useful Indonesian–Malaysian lexical preference: layanan versus perkhidmatan.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "similar",
+      "review_flags": [
+        "shared-synonym-preference"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-006",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "A shared ordinary synonym may defeat the claimed national preference.",
+        "The English cue may misalign the two target-language senses.",
+        "The proposed pair would misteach the learner by presenting a negotiation term as the Malaysian equivalent of professional consultation."
+      ],
+      "relation": "false-friend",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "high",
+        "triggers": [
+          "The proposed pair would misteach the learner by presenting a negotiation term as the Malaysian equivalent of professional consultation.",
+          "The English cue may misalign the two target-language senses.",
+          "A shared ordinary synonym may defeat the claimed national preference."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-009",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "Unresolved semantic overlap could create a duplicate concept."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "Unresolved semantic overlap could create a duplicate concept."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-010",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "Unresolved semantic overlap could create a duplicate concept."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "Unresolved semantic overlap could create a duplicate concept."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-011",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "cue_alignment": "aligned",
+        "evidence": "missing",
+        "nonblocking_risk": "minor",
+        "preference_risk": {
+          "form": "tempoh sah laku",
+          "language": "malaysian",
+          "rationale": "“Tempoh sah laku” is a plausible everyday Malaysian alternative for the same validity-period sense.",
+          "signal": "credible-everyday-alternative"
+        },
+        "shared_synonym_case": "none",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "confidence_rationale": "Both forms mean the period during which a document or service remains valid. “Masa berlaku” is ordinary Indonesian, while “tempoh sah” is an ordinary Malaysian Malay preference. Review concern: Malaysian Malay also commonly uses “tempoh sah laku,” but this does not materially undermine “tempoh sah.”.",
+      "confidence_tier": "medium",
+      "decision_policy_version": "3.1.0",
+      "outcome": "accepted",
+      "reason_codes": [
+        "ordinary-verifier-agreement"
+      ],
+      "relation": "different-common-word",
+      "review_flags": [
+        "credible-competing-form"
+      ],
+      "risk": {
+        "path": "ordinary-fast",
+        "tier": "low",
+        "triggers": []
+      },
+      "skipped_stages": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "relation-proposal": "skipped-by-policy"
+      },
+      "stage_statuses": {
+        "adversarial-review": "skipped-by-policy",
+        "evidence-audit": "skipped-by-policy",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "skipped-by-policy",
+        "malaysian-usage": "skipped-by-policy",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "skipped-by-policy"
+      }
+    },
+    {
+      "candidate_id": "tmp-services-s037-012",
+      "confidence_basis": {
+        "completed_stages": [
+          "generate",
+          "normalize-and-dedupe",
+          "independent-verification"
+        ],
+        "evidence": "missing",
+        "uncompleted_stages": [
+          "indonesian-usage",
+          "malaysian-usage",
+          "relation-proposal",
+          "evidence-audit",
+          "adversarial-review"
+        ]
+      },
+      "decision_policy_version": "3.1.0",
+      "outcome": "hold",
+      "reason_codes": [
+        "Unresolved semantic overlap could create a duplicate concept."
+      ],
+      "relation": "different-common-word",
+      "review_flags": [],
+      "risk": {
+        "path": "escalated",
+        "tier": "medium",
+        "triggers": [
+          "Unresolved semantic overlap could create a duplicate concept."
+        ]
+      },
+      "skipped_stages": {},
+      "stage_statuses": {
+        "adversarial-review": "missing",
+        "evidence-audit": "missing",
+        "generate": "complete",
+        "independent-verification": "complete",
+        "indonesian-usage": "missing",
+        "malaysian-usage": "missing",
+        "normalize-and-dedupe": "complete",
+        "relation-proposal": "missing"
+      }
+    }
+  ],
+  "duplicate_detections": 19,
+  "duplicate_resolutions": {
+    "distinct": 14,
+    "unresolved": 5
+  },
+  "evidence_failures": 1,
+  "further_investigation": [
+    "tmp-services-s037-002",
+    "tmp-services-s037-003",
+    "tmp-services-s037-006",
+    "tmp-services-s037-009",
+    "tmp-services-s037-010",
+    "tmp-services-s037-012"
+  ],
+  "generated": 10,
+  "held": 6,
+  "no_contrast_rejected": 0,
+  "outcomes_by_relation": {},
+  "pending": 0,
+  "proposed_relation_distribution": {},
+  "reason_code_distribution": {
+    "A shared ordinary synonym may defeat the claimed national preference.": 1,
+    "The English cue may misalign the two target-language senses.": 1,
+    "The proposed pair would misteach the learner by presenting a negotiation term as the Malaysian equivalent of professional consultation.": 1,
+    "Unresolved semantic overlap could create a duplicate concept.": 5,
+    "ordinary-verifier-agreement": 4
+  },
+  "rejected": 0,
+  "relation_distribution": {
+    "different-common-word": 2,
+    "similar": 2
+  },
+  "review_priority": [
+    "tmp-services-s037-004",
+    "tmp-services-s037-005",
+    "tmp-services-s037-011",
+    "tmp-services-s037-001"
+  ],
+  "status": "closed",
+  "verification_failures": 1
+}

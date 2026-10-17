@@ -1,0 +1,69 @@
+{
+  "attempt_id": "f6fc9e82f7a77c56",
+  "candidate_id": "tmp-transportation-s048-010",
+  "claim_reviews": [
+    {
+      "conclusion": "Vehicle registration accurately matches the stated official registration of a road vehicle.",
+      "evidence_refs": [
+        "https://k3i.korlantas.polri.go.id/api/web/uploads/regulation_doc/UNDANG-UNDANG-NOMOR-22-TAHUN-2009-TENTANG-LALU-LINTAS-DAN-ANGKUTAN-JALAN.pdf",
+        "https://www.jpj.gov.my/wp-content/uploads/2026/04/GARIS-PANDUAN-PENDAFTARAN-DAN-PELESENAN-KENDERAAN-REKREASI-RV.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Registrasi kendaraan is a valid and established Indonesian term for vehicle registration; pendaftaran kendaraan is also possible, so this is preferential rather than exclusive.",
+      "evidence_refs": [
+        "https://k3i.korlantas.polri.go.id/api/web/uploads/regulation_doc/UNDANG-UNDANG-NOMOR-22-TAHUN-2009-TENTANG-LALU-LINTAS-DAN-ANGKUTAN-JALAN.pdf",
+        "https://korlantas.polri.go.id/2026-05-11-korlantas-polri-percepat-digitalisasi-regident-e-bpkb-berlaku-nasional-mulai-2027/"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "Pendaftaran kenderaan is an official Malaysian Malay expression. The different-common-word relation is acceptable as a learner contrast, with the caveat that the distinction is usage preference, not a strict semantic or exclusive language boundary.",
+      "evidence_refs": [
+        "https://www.jpj.gov.my/wp-content/uploads/2022/11/Borang-Permohonan-Pendataran-Kenderaan-Motor-JPJ-K1.pdf",
+        "https://www.jpj.gov.my/wp-content/uploads/2026/04/GARIS-PANDUAN-PENDAFTARAN-DAN-PELESENAN-KENDERAAN-REKREASI-RV.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian Malay answer and final relation"
+    },
+    {
+      "conclusion": "No false friend is present. Registrasi and pendaftaran are near-synonymous registration terms, while kendaraan and kenderaan are orthographic variants across Indonesian and Malaysian Malay.",
+      "evidence_refs": [
+        "https://k3i.korlantas.polri.go.id/api/web/uploads/regulation_doc/UNDANG-UNDANG-NOMOR-22-TAHUN-2009-TENTANG-LALU-LINTAS-DAN-ANGKUTAN-JALAN.pdf",
+        "https://www.jpj.gov.my/wp-content/uploads/2022/11/Borang-Permohonan-Pendataran-Kenderaan-Motor-JPJ-K1.pdf"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "4242f754e0632e52e35dacbf01d65aae4c6cdfeb443bcf87011eeb0befbe1ebb",
+  "correction_refs": [],
+  "decision_digest": "da95b8a7499ca2b57c3bdb414d57f84093d1aa0f553e65fbfa8330f76d8fe38f",
+  "elapsed_ms": 14704,
+  "finding_class": "none",
+  "input_tokens": 33333,
+  "model_calls": 1,
+  "output_tokens": 1187,
+  "packet_digest": "494c1af0363fa642fd823f89cb8f042dbaa0b887b72a17d5c05171b19c60d3ed",
+  "rationale": "Both language forms are accurate for the stated sense. Indonesian uses registrasi kendaraan, while Malaysian Malay officially uses pendaftaran kenderaan. The relation is a valid cross-language lexical preference, not an exclusive contrast. No false-friend contrast is required: registrasi/pendaftaran are near-synonymous registration terms, and kendaraan/kenderaan is a spelling difference.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:15:27.815059+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s048/tmp-transportation-s048-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s048",
+  "verdict": "cleared"
+}

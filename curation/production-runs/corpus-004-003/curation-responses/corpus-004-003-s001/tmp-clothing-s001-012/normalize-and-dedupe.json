@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5239,
+  "input_digest": "f4237255f8ef8d7abc7216f063567818e26f41dcb7eecd172a14113958a2d95e",
+  "input_tokens": 93715,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 295,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-003-s001:tmp-clothing-s001-005\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Rain boots are a waterproof footwear subtype for rainy weather, while boots is the broader sturdy ankle-covering footwear concept; the identical Indonesian and Malaysian answers do not make the senses identical.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s001:tmp-clothing-s001-005",
+          "rationale": "Rain boots are a waterproof footwear subtype for rainy weather, while boots is the broader sturdy ankle-covering footwear concept; the identical Indonesian and Malaysian answers do not make the senses identical.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

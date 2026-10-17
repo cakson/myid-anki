@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-16T19:52:02.534890+00:00",
+  "input_digest": "0038ff840a9e70ecfdeaa86220fd50683411587a156dfa7be388cd574f984cad",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"independent-verification\", \"model\": \"gpt-5.6-luna\", \"result\": {\"verdict\": \"agree\", \"relation\": \"different-common-word\", \"concerns\": [], \"material_concerns\": [], \"rationale\": \"\\u201cDesa\\u201d is the ordinary Indonesian term for a village or small rural settlement, while Malaysian Malay commonly uses \\u201ckampung\\u201d for the same concept. The pair teaches a useful national preference.\", \"objection_assessments\": [], \"cue_alignment\": \"aligned\", \"cue_rewrite\": \"\", \"cue_rationale\": \"Both answers denote a small rural settlement in ordinary usage; \\u201ckampung\\u201d may be somewhat broader in Indonesian but fits the intended sense.\", \"shared_synonym_case\": \"useful-preference\", \"shared_synonym_rationale\": \"\\u201cKampung\\u201d is also ordinary in Indonesian, but \\u201cdesa\\u201d remains a standard and useful Indonesian preference, while \\u201ckampung\\u201d is the usual Malaysian form.\", \"nonblocking_risk\": \"minor\", \"risk_rationale\": \"Indonesian \\u201ckampung\\u201d can also refer to a neighborhood or hamlet, creating slight contextual breadth.\", \"preference_risk\": {\"signal\": \"shared-common-form\", \"form\": \"kampung\", \"language\": \"both\", \"rationale\": \"\\u201cKampung\\u201d is plausibly ordinary for a village in both varieties, although \\u201cdesa\\u201d is the more standard Indonesian counterpart and \\u201ckampung\\u201d is strongly preferred in Malaysian Malay.\"}}}",
+  "relation_proposal_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "reported_model": "gpt-5.6-luna",
+  "response": {
+    "model": "gpt-5.6-luna",
+    "result": {
+      "concerns": [],
+      "cue_alignment": "aligned",
+      "cue_rationale": "Both answers denote a small rural settlement in ordinary usage; “kampung” may be somewhat broader in Indonesian but fits the intended sense.",
+      "cue_rewrite": "",
+      "material_concerns": [],
+      "nonblocking_risk": "minor",
+      "objection_assessments": [],
+      "preference_risk": {
+        "form": "kampung",
+        "language": "both",
+        "rationale": "“Kampung” is plausibly ordinary for a village in both varieties, although “desa” is the more standard Indonesian counterpart and “kampung” is strongly preferred in Malaysian Malay.",
+        "signal": "shared-common-form"
+      },
+      "rationale": "“Desa” is the ordinary Indonesian term for a village or small rural settlement, while Malaysian Malay commonly uses “kampung” for the same concept. The pair teaches a useful national preference.",
+      "relation": "different-common-word",
+      "risk_rationale": "Indonesian “kampung” can also refer to a neighborhood or hamlet, creating slight contextual breadth.",
+      "shared_synonym_case": "useful-preference",
+      "shared_synonym_rationale": "“Kampung” is also ordinary in Indonesian, but “desa” remains a standard and useful Indonesian preference, while “kampung” is the usual Malaysian form.",
+      "verdict": "agree"
+    },
+    "role": "independent-verification",
+    "schema_version": 1
+  },
+  "result": {
+    "concerns": [],
+    "cue_alignment": "aligned",
+    "cue_rationale": "Both answers denote a small rural settlement in ordinary usage; “kampung” may be somewhat broader in Indonesian but fits the intended sense.",
+    "cue_rewrite": "",
+    "material_concerns": [],
+    "nonblocking_risk": "minor",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "kampung",
+      "language": "both",
+      "rationale": "“Kampung” is plausibly ordinary for a village in both varieties, although “desa” is the more standard Indonesian counterpart and “kampung” is strongly preferred in Malaysian Malay.",
+      "signal": "shared-common-form"
+    },
+    "rationale": "“Desa” is the ordinary Indonesian term for a village or small rural settlement, while Malaysian Malay commonly uses “kampung” for the same concept. The pair teaches a useful national preference.",
+    "relation": "different-common-word",
+    "risk_rationale": "Indonesian “kampung” can also refer to a neighborhood or hamlet, creating slight contextual breadth.",
+    "shared_synonym_case": "useful-preference",
+    "shared_synonym_rationale": "“Kampung” is also ordinary in Indonesian, but “desa” remains a standard and useful Indonesian preference, while “kampung” is the usual Malaysian form.",
+    "verdict": "agree"
+  },
+  "role": "independent-verification",
+  "status": "complete",
+  "tool": "gpt-5.6-luna",
+  "upstream_digest": "73ee3961fcfd8008dee149068160c83757206552ca18fd6edb611156b5c0d15a"
+}

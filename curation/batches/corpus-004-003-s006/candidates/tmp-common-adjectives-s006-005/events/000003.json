@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-16T19:28:19.748920+00:00",
+  "input_digest": "29f58d0fa37180fd46a227e66df7d6f92f569629e978cf7a6b1d11bdb99fa43b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s008:tmp-emotions-s008-006\", \"type\": \"semantic\", \"resolution\": \"unresolved\", \"rationale\": \"The candidate's sense includes feeling ashamed and shares the Indonesian answer \\\"malu\\\" with the existing \\\"ashamed\\\" concept; although \\\"embarrassed\\\" can be distinct, the supplied sense does not clearly establish a separate distinction, and the Malaysian answers differ.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s008:tmp-emotions-s008-006",
+          "rationale": "The candidate's sense includes feeling ashamed and shares the Indonesian answer \"malu\" with the existing \"ashamed\" concept; although \"embarrassed\" can be distinct, the supplied sense does not clearly establish a separate distinction, and the Malaysian answers differ.",
+          "resolution": "unresolved",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s008:tmp-emotions-s008-006",
+        "rationale": "The candidate's sense includes feeling ashamed and shares the Indonesian answer \"malu\" with the existing \"ashamed\" concept; although \"embarrassed\" can be distinct, the supplied sense does not clearly establish a separate distinction, and the Malaysian answers differ.",
+        "resolution": "unresolved",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "b2b529f16185f3919c76256fcdd71d54f4d7ca1a7456e9d7beac55bf03b1aeb9"
+}

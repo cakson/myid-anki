@@ -1,0 +1,62 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 26054,
+  "input_tokens": 90697,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1741,
+  "packet_digest": "c9170b529249d960c12ff0246f3f5bdea213dc47257a672ed2b301b33e37db8c",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The cue and both forms are semantically valid, but the national split is materially overstated. Malaysian lexical sources record pot as a synonym for pasu bunga, while pasu is the established Malaysian term. The card should present a preferred-variety contrast or shared equivalent, not an unqualified different-common-word contrast. The empty contrast also fails to warn that pot has other Malay meanings, including tin/container.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Aligned: flowerpot is a container in which a plant is grown.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/us/dictionary/english/flowerpot\"]},{\"subject\":\"Indonesian answer: pot bunga\",\"conclusion\":\"Semantically correct and supported as an Indonesian colloquial expression; however, direct current KBBI evidence was not retrievable in this review.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pot+I+1\"]},{\"subject\":\"Malaysian answer: pasu bunga\",\"conclusion\":\"Correct and well-supported Malaysian usage. PRPM defines pasu as a container filled with soil for growing plants and gives pasu bunga as an accepted phrase.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pasu\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pasu\"]},{\"subject\":\"National relation\",\"conclusion\":\"Materially overstated. PRPM records pot as pasu bunga; one entry presents this without a restriction, while Kamus Dewan labels the flowerpot sense Indonesian colloquial. This supports overlap or a preference distinction, not a clean Malaysia-versus-Indonesia split.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pot+I+1\",\"https://prpm.dbp.gov.my/cari1?d=175768&keyword=pot\"]},{\"subject\":\"False-friend contrast\",\"conclusion\":\"Missing and potentially misleading. Pot is not a reliable false friend here: Malaysian sources recognize the flowerpot sense, although pot also has a separate Malay sense meaning a tin/container. The card needs an explicit overlap/preference note if retaining both forms.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/cari1?d=175768&keyword=pot\",\"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pasu\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Aligned: flowerpot is a container in which a plant is grown.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/flowerpot"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Semantically correct and supported as an Indonesian colloquial expression; however, direct current KBBI evidence was not retrievable in this review.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pot+I+1"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: pot bunga"
+      },
+      {
+        "conclusion": "Correct and well-supported Malaysian usage. PRPM defines pasu as a container filled with soil for growing plants and gives pasu bunga as an accepted phrase.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pasu",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pasu"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: pasu bunga"
+      },
+      {
+        "conclusion": "Materially overstated. PRPM records pot as pasu bunga; one entry presents this without a restriction, while Kamus Dewan labels the flowerpot sense Indonesian colloquial. This supports overlap or a preference distinction, not a clean Malaysia-versus-Indonesia split.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pot+I+1",
+          "https://prpm.dbp.gov.my/cari1?d=175768&keyword=pot"
+        ],
+        "material_risk": true,
+        "subject": "National relation"
+      },
+      {
+        "conclusion": "Missing and potentially misleading. Pot is not a reliable false friend here: Malaysian sources recognize the flowerpot sense, although pot also has a separate Malay sense meaning a tin/container. The card needs an explicit overlap/preference note if retaining both forms.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1?d=175768&keyword=pot",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pasu"
+        ],
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The cue and both forms are semantically valid, but the national split is materially overstated. Malaysian lexical sources record pot as a synonym for pasu bunga, while pasu is the established Malaysian term. The card should present a preferred-variety contrast or shared equivalent, not an unqualified different-common-word contrast. The empty contrast also fails to warn that pot has other Malay meanings, including tin/container.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

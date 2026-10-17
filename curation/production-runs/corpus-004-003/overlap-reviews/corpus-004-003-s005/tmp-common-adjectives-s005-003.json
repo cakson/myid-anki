@@ -1,0 +1,88 @@
+{
+  "attempt_id": "b7b403777b1a713d",
+  "candidate_id": "tmp-common-adjectives-s005-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“For the general public” is a clear, appropriately narrowed cue for the intended sense of public.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=public",
+        "https://kbbi.kemdikbud.go.id/entri/opini%20publik"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Umum is a standard Indonesian equivalent meaning for the public or for anyone, and is appropriate here.",
+      "evidence_refs": [
+        "https://www.kbbi.web.id/umum",
+        "https://kbbi.kemendikdasmen.go.id/entri/orang%20banyak"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: umum"
+    },
+    {
+      "conclusion": "Awam is the ordinary Malaysian preference for public/open to everyone and is appropriate here.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=awam",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=public"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: awam"
+    },
+    {
+      "conclusion": "The split is overstated: Malaysian Malay dictionaries explicitly define umum with public-related meanings and state that umum and awam can both be used in overlapping contexts. Malaysian DBP also records publik as accepted, while recommending awam for Malaysian audiences; Indonesian KBBI records publik as meaning orang banyak/umum.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=umum",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=publik",
+        "https://kbbi.web.id/publik%20atau%20public"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap"
+    },
+    {
+      "conclusion": "“Different-common-word” is too categorical. A preference relation such as “different-preferred-word with shared accepted equivalents” is more accurate, because umum is accepted in Malaysian Malay and publik overlaps across both varieties.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=publik",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=umum",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=awam"
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No meaningful false-friend contrast is supplied or strongly supported. Awam can overlap with general/common senses in Indonesian, while Malaysian awam commonly means public/civilian, but this is a usage-distribution difference rather than a clean false friend for the cue.",
+      "evidence_refs": [
+        "https://kbbi.web.id/awam.html",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=awam"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a9cd7af685a3d4af37125b0dbcc0d57d8dd73cb50614469d827944eb94177388",
+  "correction_refs": [],
+  "decision_digest": "5ea3e88a16e73aba21f888e656afba49c5aa1fd231e25b4ad4000372c93eecc6",
+  "elapsed_ms": 25816,
+  "finding_class": "metadata-only",
+  "input_tokens": 84620,
+  "model_calls": 1,
+  "output_tokens": 1774,
+  "packet_digest": "9ad1acf8ff5f07e617b493e378b2d271615a62b343ab74babf5c70d889120028",
+  "rationale": "The answers are valid local preferences for the narrowed sense, but the national split is materially overstated. Malaysian Malay also accepts umum and publik for public-facing meanings, while Indonesian awam is a recognized word with overlapping general/common senses. The relation should be reframed as a preference contrast, not an unqualified different-common-word contrast. No strong false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:34:35.235036+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s005/tmp-common-adjectives-s005-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s005",
+  "verdict": "needs-correction"
+}

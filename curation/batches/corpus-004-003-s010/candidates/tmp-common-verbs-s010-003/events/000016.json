@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:43.043295+00:00",
+  "result": {
+    "candidate_digest": "0240fb0f56bc48c05924eeb2f9f0513cd53fc07af7df14c17d6eb0640ad40a67",
+    "candidate_id": "tmp-common-verbs-s010-003",
+    "checked_at": "2026-10-17T06:21:43.043295+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both forms can occur in both varieties, but the card overstates a variety-specific lexical split. Malaysian reference usage directly supports memenangi for winning a competition, while Indonesian references distinguish memenangi (win/defeat) from memenangkan (cause or declare a winner), though memenangkan is also attested for winning a match. The relation should be framed as a usage/preference contrast, not different common words, and the false-friend distinction should be stated. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

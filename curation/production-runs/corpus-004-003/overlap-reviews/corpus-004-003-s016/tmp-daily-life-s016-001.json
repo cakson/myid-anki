@@ -1,0 +1,86 @@
+{
+  "attempt_id": "c47b004abc8865f5",
+  "candidate_id": "tmp-daily-life-s016-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Accurate: “aluminum foil” is a thin aluminium sheet used for wrapping or packaging food.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=coklat",
+        "https://kppi.kemendag.go.id/unduhan-file/9bdfc4b0-17bf-462b-833e-d45970b35d03"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Aluminium foil” is an accepted and attested Indonesian term; the learner answer is valid.",
+      "evidence_refs": [
+        "https://pesta.bsn.go.id/produk/detail/10833-sni09572017",
+        "https://repositori.kemendikdasmen.go.id/16339/1/Senarai%20Istilah%20Asing-Indonesia%20di%20Ruang%20Publik.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Kerajang aluminium” is an authoritative Malaysian Malay equivalent for “aluminium foil” and matches the stated sense.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=aluminium",
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=coklat"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The relation “different-common-word” is materially overstated. DBP treats “kerajang aluminium” as the Malay equivalent of “aluminium foil”; Malaysian commercial usage also presents the two forms together, indicating ordinary overlap and preference variation.",
+      "evidence_limitation": "The reviewed sources establish equivalence and attestation, but do not quantify relative frequency by national variety.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=aluminium",
+        "https://shopee.com.my/Aluminium-Foil-Kerajang-Aluminium-My-Chef-Aluminium-Foil-For-Cooking-Freezing-Wrapping-and-BBQ-Foil-i.200483820.7443979715"
+      ],
+      "material_risk": true,
+      "subject": "National split and overlap"
+    },
+    {
+      "conclusion": "No false-friend contrast is warranted: the two expressions transparently refer to the same material, and the contrast field is correctly empty.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=coklat"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    },
+    {
+      "conclusion": "Replace “different-common-word” with a relation indicating shared meaning with national or lexical preference, such as “shared-synonym-preference” or equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=aluminium",
+        "https://repositori.kemendikdasmen.go.id/16339/1/Senarai%20Istilah%20Asing-Indonesia%20di%20Ruang%20Publik.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Final relation metadata"
+    }
+  ],
+  "content_digest": "5f5af66de2ccacec3d9e1ce9ef1bb620a201016114c278b0a04368857f03f7dd",
+  "correction_refs": [],
+  "decision_digest": "cc87935e0404a18b665ce4476ad87e4d92c39f690dcd7e9cf6e5d795b7e85c2e",
+  "elapsed_ms": 25210,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 98156,
+  "model_calls": 1,
+  "output_tokens": 1498,
+  "packet_digest": "8dfe538dfe011969dec42a7b937dfdd5dd4267e0d9a5b7e2c322ac5b378268fe",
+  "rationale": "Both answers denote the same food-wrapping material. Indonesian usage of “aluminium foil” is documented in Indonesian government terminology and standards, while Malaysia’s authoritative DBP terminology explicitly equates “aluminium foil” with “kerajang aluminium” and defines the latter as thin aluminium used for wrapping food. The national split is therefore materially overstated; the forms are translation/preference variants, not different common words. No false-friend contrast is supported or needed.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:46:06.972494+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s016/tmp-daily-life-s016-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s016",
+  "verdict": "needs-correction"
+}

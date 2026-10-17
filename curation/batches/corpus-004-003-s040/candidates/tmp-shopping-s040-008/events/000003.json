@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:47:40.060157+00:00",
+  "input_digest": "e2d390a0bc52b2aa7668b907cd6a399a2a61bd59aacc3cee96e1539515576a9b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"pros4-home-001:home-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A return policy is the store's rules governing returned purchases, while a refund is money returned after a purchase is cancelled or returned; related but different concepts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "pros4-home-001:home-10",
+          "rationale": "A return policy is the store's rules governing returned purchases, while a refund is money returned after a purchase is cancelled or returned; related but different concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "pros4-home-001:home-10",
+        "rationale": "A return policy is the store's rules governing returned purchases, while a refund is money returned after a purchase is cancelled or returned; related but different concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "44155a35399b822a0a2e7d2ce89e264dacc14c3fbe994aa9841c88f326b0775a"
+}

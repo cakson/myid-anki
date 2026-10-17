@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:45.488434+00:00",
+  "result": {
+    "candidate_digest": "59b086b6f23481bfe59ded6aea76851b44c96dda077f4f78582ddeb8bf8cdc7a",
+    "candidate_id": "tmp-directions-location-s018-008",
+    "checked_at": "2026-10-17T06:21:45.488434+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both answers match the English cue and sense, but the contrast is preference-based rather than exclusive: Indonesian commonly uses “legenda peta,” while Malaysian official usage uses “petunjuk peta”; however, “legenda” also denotes a map key in Malaysian Malay. No false-friend contrast is present. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

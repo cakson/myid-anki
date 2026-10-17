@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4783,
+  "input_digest": "bd0fb7443411806855b5ccd78bc2ed277b607f70b51b2899846123cc8bade9ac",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 178,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s012:tmp-health-body-s012-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both involve cramping pain, but menstrual cramps specifically occur during menstruation, whereas muscle cramp is involuntary tightening of a muscle; the cues and Indonesian/Malaysian answers differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s012:tmp-health-body-s012-001",
+          "rationale": "Both involve cramping pain, but menstrual cramps specifically occur during menstruation, whereas muscle cramp is involuntary tightening of a muscle; the cues and Indonesian/Malaysian answers differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-17T04:45:07.379975+00:00",
+  "input_digest": "10129899b611d90a656dc00b8996b530f332e144ed5b86395c392444b265b6e1",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"fresh-travel-001:travel-04\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A booking confirmation is a message confirming a reservation, whereas reservation means the advance arrangement itself; the Indonesian and Malaysian answers also differ.\"}, {\"other_id\": \"corpus-004-003-s039:tmp-services-s039-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A booking confirmation confirms a reservation, while an appointment reminder reminds someone about a scheduled appointment; these are different message purposes.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "fresh-travel-001:travel-04",
+          "rationale": "A booking confirmation is a message confirming a reservation, whereas reservation means the advance arrangement itself; the Indonesian and Malaysian answers also differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s039:tmp-services-s039-001",
+          "rationale": "A booking confirmation confirms a reservation, while an appointment reminder reminds someone about a scheduled appointment; these are different message purposes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "fresh-travel-001:travel-04",
+        "rationale": "A booking confirmation is a message confirming a reservation, whereas reservation means the advance arrangement itself; the Indonesian and Malaysian answers also differ.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s039:tmp-services-s039-001",
+        "rationale": "A booking confirmation confirms a reservation, while an appointment reminder reminds someone about a scheduled appointment; these are different message purposes.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "7139e931e255894b85c1c8aa5f9785d3a4671af66adcb065965a83bbe5ed9deb"
+}

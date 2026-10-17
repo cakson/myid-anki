@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T05:08:16.021512+00:00",
+  "input_digest": "e68bdc85570bda7538a4c917f596d67427d9d21c07f2d3958e343816e9c76f83",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-001-s021:tmp-travel-s021-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A tourist map is a map showing visitor points of interest, whereas a tourist attraction is the place visited for tourism.\"}, {\"other_id\": \"corpus-004-003-s018:tmp-directions-location-s018-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A tourist map is a complete visitor-oriented map; a map legend is only the key explaining symbols on a map.\"}, {\"other_id\": \"corpus-004-003-s038:tmp-services-s038-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A tourist map is a navigation resource, whereas a tourist information center is a physical service location providing visitor information.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s021:tmp-travel-s021-002",
+          "rationale": "A tourist map is a map showing visitor points of interest, whereas a tourist attraction is the place visited for tourism.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s018:tmp-directions-location-s018-008",
+          "rationale": "A tourist map is a complete visitor-oriented map; a map legend is only the key explaining symbols on a map.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s038:tmp-services-s038-008",
+          "rationale": "A tourist map is a navigation resource, whereas a tourist information center is a physical service location providing visitor information.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-001-s021:tmp-travel-s021-002",
+        "rationale": "A tourist map is a map showing visitor points of interest, whereas a tourist attraction is the place visited for tourism.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s018:tmp-directions-location-s018-008",
+        "rationale": "A tourist map is a complete visitor-oriented map; a map legend is only the key explaining symbols on a map.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s038:tmp-services-s038-008",
+        "rationale": "A tourist map is a navigation resource, whereas a tourist information center is a physical service location providing visitor information.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "70f07222d786002670df37dfddf78c6f8f33403fd736c8908014ee06163d9ca5"
+}

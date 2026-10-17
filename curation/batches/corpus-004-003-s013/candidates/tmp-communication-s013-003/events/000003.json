@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T19:42:51.477528+00:00",
+  "input_digest": "86d80d9b19894c19c04929b96ebc8d676c67eca2d4aeb918e43817156f59488c",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s011:tmp-communication-s011-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A press release is an official statement issued to news organizations; a notice is general written information intended to inform people.\"}, {\"other_id\": \"cal2-work-001:work-09\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A press release is a media-distributed official statement, whereas a report is a written account of information or findings.\"}, {\"other_id\": \"corpus-004-003-s012:tmp-communication-s012-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A press release is an issued statement for news organizations; a newspaper is a periodic news publication.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s011:tmp-communication-s011-009",
+          "rationale": "A press release is an official statement issued to news organizations; a notice is general written information intended to inform people.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal2-work-001:work-09",
+          "rationale": "A press release is a media-distributed official statement, whereas a report is a written account of information or findings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s012:tmp-communication-s012-001",
+          "rationale": "A press release is an issued statement for news organizations; a newspaper is a periodic news publication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s011:tmp-communication-s011-009",
+        "rationale": "A press release is an official statement issued to news organizations; a notice is general written information intended to inform people.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal2-work-001:work-09",
+        "rationale": "A press release is a media-distributed official statement, whereas a report is a written account of information or findings.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s012:tmp-communication-s012-001",
+        "rationale": "A press release is an issued statement for news organizations; a newspaper is a periodic news publication.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "40dc7f39af3e9ffee96bdfc9f62bb2fe85e3c2475fa8cc9cbffd6971292971f8"
+}

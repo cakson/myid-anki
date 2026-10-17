@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:43.179475+00:00",
+  "result": {
+    "candidate_digest": "78a360cd498120b130d3937420334f42c23d90fa01331b13809cc89cde175a90",
+    "candidate_id": "tmp-communication-s012-003",
+    "checked_at": "2026-10-17T06:21:43.179475+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (cue-content): Both lexical answers are valid for the stated sense, and the different-common-word relation is defensible. However, the empty contrast omits a learner-relevant distinction: Malaysian peringatan also exists and generally means a reminder/admonition, while amaran is the stronger warning or admonition. This is not a strict false friend, but the overlap and register/force difference should be stated. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

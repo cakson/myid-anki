@@ -1,0 +1,65 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18786,
+  "input_tokens": 33475,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1733,
+  "packet_digest": "f7833dbd32abd9dcd97d8c25965ecd1a02a3ea6eeba61105bdb34ee469613235",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"metadata-only\",\n  \"rationale\": \"Both answers are valid and the English cue/sense is aligned. However, the national split is materially overstated: Indonesian official banking usage also uses \\\"pemegang rekening,\\\" while Malaysian banking usage also uses \\\"pemilik akaun.\\\" The relation should reflect shared accepted synonyms or a non-exclusive preference, not an unqualified different-common-word contrast. No genuine false-friend contrast is supported.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"\\\"account holder\\\" correctly denotes the person registered as holding or owning a bank account.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf\",\n        \"https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer\",\n      \"conclusion\": \"\\\"pemilik rekening\\\" is an ordinary, accurate Indonesian banking term, but \\\"pemegang rekening\\\" is also used for the account holder in Indonesian banking and regulatory contexts.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://e-form.kbbanksyariah.co.id/eformbsb/term/5\",\n        \"https://perpajakan.ddtc.co.id/id/data-informasi/glosarium/pemegang-rekening-keuangan\",\n        \"https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf\"\n      ]\n    },\n    {\n      \"subject\": \"Malaysian answer\",\n      \"conclusion\": \"\\\"pemegang akaun\\\" is an ordinary, accurate Malaysian banking term, but \\\"pemilik akaun\\\" is also used in Malaysian bank materials for the account owner or holder.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf\",\n        \"https://www.hlb.com.my/ms/personal-banking/help-support/product-faq/deposit-info-centre.html\",\n        \"https://www.bsn.com.my/page/operate-account-by-representative?lang=ms-MY\"\n      ]\n    },\n    {\n      \"subject\": \"Final relation\",\n      \"conclusion\": \"The label \\\"different-common-word\\\" is too strong as a national distinction. The forms differ orthographically (rekening versus akaun), but ordinary accepted equivalents overlap across varieties; a shared-synonym or non-exclusive preference relation is more accurate.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://perpajakan.ddtc.co.id/id/data-informasi/glosarium/pemegang-rekening-keuangan\",\n        \"https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf\",\n        \"https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf\",\n        \"https://www.hlb.com.my/ms/personal-banking/help-support/product-faq/deposit-info-centre.html\"\n      ]\n    },\n    {\n      \"subject\": \"False-friend contrast\",\n      \"conclusion\": \"No false-friend contrast is warranted: the two terms transparently refer to the same banking concept, with lexical variation rather than misleading cross-variety meanings. The empty contrast is acceptable if no contrast field is required, but the card should not imply exclusivity.\",\n      \"material_risk\": false,\n      \"evidence_limitation\": \"The cited banking sources establish ordinary meanings and cross-variety usage, but do not constitute an exhaustive false-friend inventory.\"\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "\"account holder\" correctly denotes the person registered as holding or owning a bank account.",
+        "evidence_refs": [
+          "https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf",
+          "https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "\"pemilik rekening\" is an ordinary, accurate Indonesian banking term, but \"pemegang rekening\" is also used for the account holder in Indonesian banking and regulatory contexts.",
+        "evidence_refs": [
+          "https://e-form.kbbanksyariah.co.id/eformbsb/term/5",
+          "https://perpajakan.ddtc.co.id/id/data-informasi/glosarium/pemegang-rekening-keuangan",
+          "https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf"
+        ],
+        "material_risk": true,
+        "subject": "Indonesian answer"
+      },
+      {
+        "conclusion": "\"pemegang akaun\" is an ordinary, accurate Malaysian banking term, but \"pemilik akaun\" is also used in Malaysian bank materials for the account owner or holder.",
+        "evidence_refs": [
+          "https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf",
+          "https://www.hlb.com.my/ms/personal-banking/help-support/product-faq/deposit-info-centre.html",
+          "https://www.bsn.com.my/page/operate-account-by-representative?lang=ms-MY"
+        ],
+        "material_risk": true,
+        "subject": "Malaysian answer"
+      },
+      {
+        "conclusion": "The label \"different-common-word\" is too strong as a national distinction. The forms differ orthographically (rekening versus akaun), but ordinary accepted equivalents overlap across varieties; a shared-synonym or non-exclusive preference relation is more accurate.",
+        "evidence_refs": [
+          "https://perpajakan.ddtc.co.id/id/data-informasi/glosarium/pemegang-rekening-keuangan",
+          "https://www.perdania.co.id/media/389581/dep-121-account-holder-data-and-individual-account-opening-form-rev-2-00.pdf",
+          "https://www.maybank2u.com.my/iwov-resources/pdf/personal/tnc/governBankAcc-Isl-bm.pdf",
+          "https://www.hlb.com.my/ms/personal-banking/help-support/product-faq/deposit-info-centre.html"
+        ],
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is warranted: the two terms transparently refer to the same banking concept, with lexical variation rather than misleading cross-variety meanings. The empty contrast is acceptable if no contrast field is required, but the card should not imply exclusivity.",
+        "evidence_limitation": "The cited banking sources establish ordinary meanings and cross-variety usage, but do not constitute an exhaustive false-friend inventory.",
+        "material_risk": false,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both answers are valid and the English cue/sense is aligned. However, the national split is materially overstated: Indonesian official banking usage also uses \"pemegang rekening,\" while Malaysian banking usage also uses \"pemilik akaun.\" The relation should reflect shared accepted synonyms or a non-exclusive preference, not an unqualified different-common-word contrast. No genuine false-friend contrast is supported.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

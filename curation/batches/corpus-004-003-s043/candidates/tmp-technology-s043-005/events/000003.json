@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-17T04:54:05.332482+00:00",
+  "input_digest": "b905379592de0617f3f55c5c7edcc5960f51881e92fff03d136166cd3b847385",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s043:tmp-technology-s043-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Mobile data is the internet data accessed through a mobile network, whereas a data plan is the service package that provides an allowance of such data.\"}, {\"other_id\": \"corpus-004-002-s016:tmp-technology-s016-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Mobile data is the data service accessed over a mobile network; network refers to the connected communications system itself.\"}, {\"other_id\": \"corpus-004-002-s016:tmp-technology-s016-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Mobile data is internet data accessed through a mobile network; connection refers to the link to a network or service, not the data allowance or usage.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-004",
+          "rationale": "Mobile data is the internet data accessed through a mobile network, whereas a data plan is the service package that provides an allowance of such data.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-001",
+          "rationale": "Mobile data is the data service accessed over a mobile network; network refers to the connected communications system itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+          "rationale": "Mobile data is internet data accessed through a mobile network; connection refers to the link to a network or service, not the data allowance or usage.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s043:tmp-technology-s043-004",
+        "rationale": "Mobile data is the internet data accessed through a mobile network, whereas a data plan is the service package that provides an allowance of such data.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s016:tmp-technology-s016-001",
+        "rationale": "Mobile data is the data service accessed over a mobile network; network refers to the connected communications system itself.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+        "rationale": "Mobile data is internet data accessed through a mobile network; connection refers to the link to a network or service, not the data allowance or usage.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "dc82c3da2dbb9e240541f738136e8fd7e5733b09fcd0078e1b39a0c431e18bce"
+}

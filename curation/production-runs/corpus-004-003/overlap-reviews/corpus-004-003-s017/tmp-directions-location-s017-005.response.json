@@ -1,0 +1,66 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18987,
+  "input_tokens": 51943,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1249,
+  "packet_digest": "acb73a3638f9c1f4d51a040e7e6e21c609449855e7481f01cc6c640977d348d9",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"learner-critical-answer\",\"rationale\":\"The national split is materially overstated: both desa and kampung are accepted village-equivalents across Indonesian and Malaysian Malay, although administrative and preference differences may remain. The relation should not be different-common-word without a narrower contextual qualifier. The false-friend contrast is also absent.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"“Village” is correctly aligned with a small rural settlement smaller than a town.\",\"material_risk\":false,\"evidence_refs\":[\"https://dictionary.cambridge.org/us/dictionary/english/village?topic=towns-cities-and-villages-general\"]},{\"subject\":\"Indonesian answer: desa\",\"conclusion\":\"Correct and ordinary for village; Indonesian dictionary definitions include a rural group of houses and an administratively governed settlement.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/desa/bunga\"]},{\"subject\":\"Malaysian answer: kampung\",\"conclusion\":\"Correct and ordinary for village in Malaysian Malay; PRPM defines kampung as an out-of-town residential area and also recognizes desa as an equivalent rural settlement term.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kampung\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=desa\"]},{\"subject\":\"Cross-variety overlap and national split\",\"conclusion\":\"The split is materially overstated. Indonesian kampung is defined as desa/dusun, while Malaysian desa is defined as kampung, so the forms are ordinary accepted equivalents across both varieties. A preference or administrative-context distinction may be defensible, but not an unqualified different-common-word relation.\",\"material_risk\":true,\"evidence_refs\":[\"https://kbbi.web.id/kampung.html\",\"https://prpm.dbp.gov.my/Cari1?d=175768&keyword=desa\",\"https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kampung\"]},{\"subject\":\"Final relation\",\"conclusion\":\"“different-common-word” is not supported for the supplied broad sense. It should be revised to a shared-equivalent/preference relation or qualified by administrative usage and regional preference.\",\"material_risk\":true,\"evidence_limitation\":\"The cited dictionaries establish semantic overlap, but do not quantify contemporary national frequency or preference strength.\"},{\"subject\":\"False-friend contrast\",\"conclusion\":\"No false-friend contrast is supplied. The card should either state that there is no relevant false-friend distinction or add a precise contextual contrast; leaving the field blank makes the review incomplete.\",\"material_risk\":true,\"evidence_limitation\":\"This finding concerns the supplied learner-content field; no external source is needed to establish that contrast is absent.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "“Village” is correctly aligned with a small rural settlement smaller than a town.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/us/dictionary/english/village?topic=towns-cities-and-villages-general"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and ordinary for village; Indonesian dictionary definitions include a rural group of houses and an administratively governed settlement.",
+        "evidence_refs": [
+          "https://kbbi.web.id/desa/bunga"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: desa"
+      },
+      {
+        "conclusion": "Correct and ordinary for village in Malaysian Malay; PRPM defines kampung as an out-of-town residential area and also recognizes desa as an equivalent rural settlement term.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kampung",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=desa"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: kampung"
+      },
+      {
+        "conclusion": "The split is materially overstated. Indonesian kampung is defined as desa/dusun, while Malaysian desa is defined as kampung, so the forms are ordinary accepted equivalents across both varieties. A preference or administrative-context distinction may be defensible, but not an unqualified different-common-word relation.",
+        "evidence_refs": [
+          "https://kbbi.web.id/kampung.html",
+          "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=desa",
+          "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=Kampung"
+        ],
+        "material_risk": true,
+        "subject": "Cross-variety overlap and national split"
+      },
+      {
+        "conclusion": "“different-common-word” is not supported for the supplied broad sense. It should be revised to a shared-equivalent/preference relation or qualified by administrative usage and regional preference.",
+        "evidence_limitation": "The cited dictionaries establish semantic overlap, but do not quantify contemporary national frequency or preference strength.",
+        "material_risk": true,
+        "subject": "Final relation"
+      },
+      {
+        "conclusion": "No false-friend contrast is supplied. The card should either state that there is no relevant false-friend distinction or add a precise contextual contrast; leaving the field blank makes the review incomplete.",
+        "evidence_limitation": "This finding concerns the supplied learner-content field; no external source is needed to establish that contrast is absent.",
+        "material_risk": true,
+        "subject": "False-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The national split is materially overstated: both desa and kampung are accepted village-equivalents across Indonesian and Malaysian Malay, although administrative and preference differences may remain. The relation should not be different-common-word without a narrower contextual qualifier. The false-friend contrast is also absent.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

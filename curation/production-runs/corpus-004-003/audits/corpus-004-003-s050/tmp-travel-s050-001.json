@@ -1,0 +1,78 @@
+{
+  "attempt_id": "a370f6fd2d9dc9c0",
+  "candidate_id": "tmp-travel-s050-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and natural for hotel receptionist.",
+      "evidence_refs": [
+        "https://kbbi.web.id/resepsionis",
+        "https://repositori.kemendikdasmen.go.id/19082/1/Umum%20BIPA%202.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: resepsionis hotel"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for hotel receptionist.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyambut+tetamu",
+        "https://emasco.mohr.gov.my/masco/4224"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: penyambut tetamu hotel"
+    },
+    {
+      "conclusion": "The cue hotel receptionist is correct, but the sense should describe a staff member only; hotel desk introduces a different referent.",
+      "evidence_refs": [
+        "https://kbbi.web.id/resepsionis",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penyambut+tetamu"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Defensible as a non-exclusive contrast between Indonesian resepsionis and Malaysian penyambut tetamu.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyambut+tetamu",
+        "https://emasco.mohr.gov.my/masco/4224"
+      ],
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is present. Resepsionis is a receptionist term, not a misleadingly different sense; Malaysian also uses receptionist in some contexts.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penyambut+tetamu",
+        "https://www.ilmia.gov.my/bda-myjobprofile/job/4224/receptionists"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "3e4297f33e4daf798d78efb687c7948cf809859d5db392f5c7b9477012f797fb",
+  "correction_refs": [],
+  "decision_digest": "31ff30b8572aebc58da9d7aa6875234bf153ddd74fd185398695e50416f1ffe3",
+  "elapsed_ms": 25087,
+  "finding_class": "cue-content",
+  "input_tokens": 62328,
+  "model_calls": 1,
+  "output_tokens": 1697,
+  "packet_digest": "083646d846f38c9914067761df744f8d8a377ba99311003dafebd41c54fc7869",
+  "rationale": "Both Malay answers are valid for a hotel receptionist, and the contrast is defensible. However, the sense incorrectly includes the hotel desk; both answers denote the staff member, not the physical reception desk. Malaysian usage also permits English-derived receptionist, so the contrast should not imply exclusivity. No false-friend problem is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:18:02.100097+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s050/tmp-travel-s050-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:credible-competing-form",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s050",
+  "verdict": "needs-correction"
+}

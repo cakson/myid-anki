@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T19:49:44.255510+00:00",
+  "input_digest": "79f72cc25125eb2ba446b8812baf631fa56e1fed91b568313b0e00311f7a04bc",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s016:tmp-daily-life-s016-006\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bleach is a whitening or disinfecting cleaning liquid, whereas fabric softener softens laundry.\"}, {\"other_id\": \"cal3-home-001:home-10\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bleach whitens or disinfects; laundry detergent is used to wash clothes.\"}, {\"other_id\": \"everyday-objects-001:everyday-objects-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Bleach is a whitening or disinfecting liquid, whereas dishwashing liquid is detergent for washing dishes by hand.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s016:tmp-daily-life-s016-006",
+          "rationale": "Bleach is a whitening or disinfecting cleaning liquid, whereas fabric softener softens laundry.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "cal3-home-001:home-10",
+          "rationale": "Bleach whitens or disinfects; laundry detergent is used to wash clothes.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "everyday-objects-001:everyday-objects-08",
+          "rationale": "Bleach is a whitening or disinfecting liquid, whereas dishwashing liquid is detergent for washing dishes by hand.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s016:tmp-daily-life-s016-006",
+        "rationale": "Bleach is a whitening or disinfecting cleaning liquid, whereas fabric softener softens laundry.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "cal3-home-001:home-10",
+        "rationale": "Bleach whitens or disinfects; laundry detergent is used to wash clothes.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "everyday-objects-001:everyday-objects-08",
+        "rationale": "Bleach is a whitening or disinfecting liquid, whereas dishwashing liquid is detergent for washing dishes by hand.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "671080c7f51c80ab2884c18e2645d2760181cb12f716478da822f3517f51748d"
+}

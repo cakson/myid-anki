@@ -1,0 +1,38 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5543,
+  "input_digest": "4f9d8137d00246d230c61f1b1c75f79cd21544f894663529492555f1a579ef38",
+  "input_tokens": 93716,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 317,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-002-s016:tmp-technology-s016-001\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Wireless describes communication without cables; network is the connected computer or communications system itself.\"},{\"other_id\":\"corpus-004-002-s016:tmp-technology-s016-004\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Wireless describes radio-based communication; connection refers to access or linkage to a network or service.\"},{\"other_id\":\"corpus-004-003-s043:tmp-technology-s043-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Wireless describes communication using radio instead of cables; airplane mode is a device setting that disables wireless communication.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-001",
+          "rationale": "Wireless describes communication without cables; network is the connected computer or communications system itself.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-002-s016:tmp-technology-s016-004",
+          "rationale": "Wireless describes radio-based communication; connection refers to access or linkage to a network or service.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s043:tmp-technology-s043-006",
+          "rationale": "Wireless describes communication using radio instead of cables; airplane mode is a device setting that disables wireless communication.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

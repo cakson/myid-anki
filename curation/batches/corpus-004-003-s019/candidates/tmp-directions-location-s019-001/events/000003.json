@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-16T19:55:46.806035+00:00",
+  "input_digest": "ddf7af4f191395051fc2b39367fc969367d9fa70c74b19a6305e23d31a703dea",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-002-s006:tmp-directions-location-s006-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cupstairs\\u201d means located on a higher floor, while \\u201cbuilding floor\\u201d means one level of a multi-storey building; the senses are related but not equivalent.\"}, {\"other_id\": \"corpus-004-003-s019:tmp-directions-location-s019-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cupstairs\\u201d means located on a higher floor, whereas \\u201cdownstairs\\u201d means located on a lower floor; they are oppositional location senses, not duplicates.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-002-s006:tmp-directions-location-s006-003",
+          "rationale": "“upstairs” means located on a higher floor, while “building floor” means one level of a multi-storey building; the senses are related but not equivalent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s019:tmp-directions-location-s019-002",
+          "rationale": "“upstairs” means located on a higher floor, whereas “downstairs” means located on a lower floor; they are oppositional location senses, not duplicates.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-002-s006:tmp-directions-location-s006-003",
+        "rationale": "“upstairs” means located on a higher floor, while “building floor” means one level of a multi-storey building; the senses are related but not equivalent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s019:tmp-directions-location-s019-002",
+        "rationale": "“upstairs” means located on a higher floor, whereas “downstairs” means located on a lower floor; they are oppositional location senses, not duplicates.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "32037943c0a80603bb610d3a14001a203b4f6ddefb4e969353d67706685f0de2"
+}

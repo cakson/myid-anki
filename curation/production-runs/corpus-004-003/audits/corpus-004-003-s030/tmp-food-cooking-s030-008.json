@@ -1,0 +1,75 @@
+{
+  "attempt_id": "f1047269ef1436e2",
+  "candidate_id": "tmp-food-cooking-s030-008",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue “fish sauce” and the sense “salty sauce made from fermented fish” are aligned and materially accurate.",
+      "evidence_refs": [
+        "https://bspji-palembang.kemenperin.go.id/_files/ugd/d5d433_c0f0143a84c64447b1bfd96ea0a9232e.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Kecap ikan” is an established Indonesian term for fish sauce.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=sos+ikan",
+        "https://bspji-palembang.kemenperin.go.id/_files/ugd/d5d433_c0f0143a84c64447b1bfd96ea0a9232e.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kecap ikan"
+    },
+    {
+      "conclusion": "“Sos ikan” is an established Malaysian Malay term for fish sauce.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=sos+ikan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: sos ikan"
+    },
+    {
+      "conclusion": "“Different-common-word” correctly indicates distinct national forms with the same sense; the Indonesian alternative “saus ikan” does not invalidate the selected answer.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=115704&keyword=sos+ikan",
+        "https://bspji-palembang.kemenperin.go.id/_files/ugd/d5d433_c0f0143a84c64447b1bfd96ea0a9232e.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No false-friend error affects the card. A useful contrast is that Malaysian “kicap” normally denotes soy sauce, whereas “sos ikan” denotes fish sauce.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kicap"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "953fc282f1fe0dc9e1930b22999bfb839d413aad1262d7e0cca2a65f1203159d",
+  "correction_refs": [],
+  "decision_digest": "814601d53f4a2d6ef1f1486fa681ea2c24f549bc9267fb489abe87ed6b4ddd3c",
+  "elapsed_ms": 17758,
+  "finding_class": "none",
+  "input_tokens": 62230,
+  "model_calls": 1,
+  "output_tokens": 1244,
+  "packet_digest": "73d9d6e992aa9ca9e530f83a2c118c9363661c9e279ce1d2ee0ed7f45758c8f0",
+  "rationale": "Both answers correctly express “fish sauce” for the stated salty, fermented-fish sauce sense. Indonesian “kecap ikan” and Malaysian “sos ikan” are established national terminology preferences, so “different-common-word” is appropriate. No learner-critical false-friend error is present; Malaysian “kicap” generally refers to soy sauce, not the fish-sauce answer given here.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:52:34.345659+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s030/tmp-food-cooking-s030-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s030",
+  "verdict": "cleared"
+}

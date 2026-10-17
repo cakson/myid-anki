@@ -1,0 +1,32 @@
+{
+  "effort": "low",
+  "elapsed_ms": 6011,
+  "input_digest": "8e2bc43f8bd5f381e8a2f05afdac5878b3cb15bcbc543a011578ee148144a6f9",
+  "input_tokens": 93713,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 322,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"tb25-technology-001:technology-05\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Job training prepares someone for employment; workplace training is training delivered in the workplace, a distinct delivery context.\"},{\"other_id\":\"pros4-technology-001:technology-04\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Vocational training develops practical job skills, while workplace training is defined by being provided at the workplace; the concepts can overlap in practice but are not identical.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "tb25-technology-001:technology-05",
+          "rationale": "Job training prepares someone for employment; workplace training is training delivered in the workplace, a distinct delivery context.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "pros4-technology-001:technology-04",
+          "rationale": "Vocational training develops practical job skills, while workplace training is defined by being provided at the workplace; the concepts can overlap in practice but are not identical.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

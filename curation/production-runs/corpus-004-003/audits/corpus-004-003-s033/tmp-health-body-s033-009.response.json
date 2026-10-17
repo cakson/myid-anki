@@ -1,0 +1,55 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 21163,
+  "input_tokens": 76327,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1069,
+  "packet_digest": "5dd01c646d688241914a7bdaffb8ba358064d6d46dcbe41d4e7924372daa581c",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"cleared\",\"finding_class\":\"none\",\"rationale\":\"Both answers fit the corrected medical cue. Indonesian gips is the standard term for a covering used on fractured bones. Malaysian simen is an established medical term for a plaster cast, although it also commonly means cement. The relation different-common-word is accurate; no material false-friend error is present.\",\"claim_reviews\":[{\"subject\":\"English cue and sense\",\"conclusion\":\"Rigid cast for a broken bone is precise and matches the intended medical sense.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/gips\",\"https://hsnzkt.moh.gov.my/images/pamphlets/pamplet-jaga-pop.pdf\"]},{\"subject\":\"Indonesian answer: gips\",\"conclusion\":\"Correct and ordinary Indonesian term for a cast used to immobilize fractured or cracked bones.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/gips\"]},{\"subject\":\"Malaysian answer: simen\",\"conclusion\":\"Correct in Malaysian medical usage for a plaster cast; Malaysian health sources explicitly use simen/POP for fracture treatment.\",\"material_risk\":false,\"evidence_refs\":[\"https://jknsarawak.moh.gov.my/hkapit/index.php/ortopedik/\",\"https://hctm.ukm.my/terseliuh-dan-patah-tulang/\",\"https://prpm.dbp.gov.my/Cari1?d=226380&keyword=simen\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"different-common-word is accurate. Simen also means ordinary cement, creating a polysemy caution for learners, but this is not a cross-language false-friend error in the medical context.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=226380&keyword=simen\",\"https://jknsarawak.moh.gov.my/hkapit/index.php/ortopedik/\"]}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Rigid cast for a broken bone is precise and matches the intended medical sense.",
+        "evidence_refs": [
+          "https://kbbi.web.id/gips",
+          "https://hsnzkt.moh.gov.my/images/pamphlets/pamplet-jaga-pop.pdf"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Correct and ordinary Indonesian term for a cast used to immobilize fractured or cracked bones.",
+        "evidence_refs": [
+          "https://kbbi.web.id/gips"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: gips"
+      },
+      {
+        "conclusion": "Correct in Malaysian medical usage for a plaster cast; Malaysian health sources explicitly use simen/POP for fracture treatment.",
+        "evidence_refs": [
+          "https://jknsarawak.moh.gov.my/hkapit/index.php/ortopedik/",
+          "https://hctm.ukm.my/terseliuh-dan-patah-tulang/",
+          "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=simen"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: simen"
+      },
+      {
+        "conclusion": "different-common-word is accurate. Simen also means ordinary cement, creating a polysemy caution for learners, but this is not a cross-language false-friend error in the medical context.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=simen",
+          "https://jknsarawak.moh.gov.my/hkapit/index.php/ortopedik/"
+        ],
+        "material_risk": false,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "none",
+    "rationale": "Both answers fit the corrected medical cue. Indonesian gips is the standard term for a covering used on fractured bones. Malaysian simen is an established medical term for a plaster cast, although it also commonly means cement. The relation different-common-word is accurate; no material false-friend error is present.",
+    "schema_version": 1,
+    "verdict": "cleared"
+  },
+  "retrievals": null
+}

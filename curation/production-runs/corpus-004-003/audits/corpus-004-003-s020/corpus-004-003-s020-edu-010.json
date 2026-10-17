@@ -1,0 +1,66 @@
+{
+  "attempt_id": "740b934c483a8026",
+  "candidate_id": "corpus-004-003-s020-edu-010",
+  "claim_reviews": [
+    {
+      "conclusion": "“Exam paper” correctly matches the specified sense: a paper containing questions for an examination.",
+      "evidence_refs": [
+        "https://repositori.kemendikdasmen.go.id/3303/1/Pelajaran%20Bahasa%20Sunda%20Murid%20SLP%20-%20%20159.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Lembar soal” is a natural Indonesian expression for an examination question sheet. “Naskah soal” is also frequent in formal assessment contexts, but its existence does not invalidate “lembar soal.”",
+      "evidence_refs": [
+        "https://budi.kemendikdasmen.go.id/storage/book/R7OUvw5lHs422vgNTzBo9e4ykhDRmiPofHlFuJQi.pdf",
+        "https://peraturan.go.id/files/bn1879-2015.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: lembar soal"
+    },
+    {
+      "conclusion": "“Kertas soalan” is an established Malaysian Malay term for an examination question paper.",
+      "evidence_refs": [
+        "https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/Surat%20Pekeliling%20Ikhtisas%20Bilangan%201%20Tahun%202008%20-%20Kertas%20Soalan%20Peperiksaan%20Dwibahasa%20Bagi%20Mata%20Pelajaran%20Sains%20dan%20Matematik.pdf",
+        "https://www.moe.gov.my/storage/files/shares/pentaksiran-berasaskan-sekolah/4.%20Panduan%20Pengurusan%20Pentaksiran%20SVM%20Tahun%202018.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: kertas soalan"
+    },
+    {
+      "conclusion": "“Different-common-word” is acceptable for the contrasting head nouns lembar versus kertas, although both expressions share the cognate soal/soalan element. There is no material false-friend contrast.",
+      "evidence_refs": [
+        "https://www.moe.gov.my/index.php/lembaga-peperiksaan",
+        "https://peraturan.go.id/files/bn1879-2015.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "fe9600f9e85c969eacab8d46de5adf47723fa90c944711644111f9fce6f606ee",
+  "correction_refs": [],
+  "decision_digest": "903265efdf6423135202e2b05c3fca07db5c41fdf197850f5e3a8916817f6db1",
+  "elapsed_ms": 20875,
+  "finding_class": "none",
+  "input_tokens": 62125,
+  "model_calls": 1,
+  "output_tokens": 1285,
+  "packet_digest": "7acc233561834416d0f4760440a66ead00f9eae2daf598cccaf8818df910af3f",
+  "rationale": "Both answers fit the specified sense of an examination question paper. Indonesian “lembar soal” is attested for an exam question sheet, while Malaysian “kertas soalan” is an established official term. “Naskah soal” is also common in Indonesian institutional contexts, but this is a noncritical alternative, not an error. The different-common-word relation is defensible, and no false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:39:50.734255+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s020/corpus-004-003-s020-edu-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s020",
+  "verdict": "cleared"
+}

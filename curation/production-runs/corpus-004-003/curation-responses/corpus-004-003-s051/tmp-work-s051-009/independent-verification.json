@@ -1,0 +1,36 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 6281,
+  "input_digest": "8cc6d227573c2a22ac9321c85d0ed59ce342a9c70f4b0ffe58d91ffe16ff6ca4",
+  "input_tokens": 14300,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 495,
+  "raw_text": "{\"verdict\":\"object\",\"relation\":\"different-common-word\",\"concerns\":[\"The Indonesian answer means a pension fund, not the regular payment received after retirement.\"],\"material_concerns\":[\"The pair does not express the same exact sense: Indonesian dana pensiun is a fund, whereas Malaysian pencen is the retirement payment.\"],\"rationale\":\"Malaysian pencen fits the cue, but Indonesian dana pensiun does not; Indonesian uang pensiun or simply pensiun would better express the payment sense.\",\"objection_assessments\":[],\"cue_alignment\":\"material-risk\",\"cue_rewrite\":\"\",\"cue_rationale\":\"No concise cue rewrite preserves the stated payment concept while making both dana pensiun and pencen fit; they differ as fund versus payment.\",\"shared_synonym_case\":\"none\",\"shared_synonym_rationale\":\"none\",\"nonblocking_risk\":\"none\",\"risk_rationale\":\"\",\"preference_risk\":{\"signal\":\"same-sense-competition\",\"form\":\"uang pensiun\",\"language\":\"indonesian\",\"rationale\":\"Uang pensiun is a plausible ordinary Indonesian expression for the retirement payment, competing directly with the proposed dana pensiun.\"}}",
+  "response": {
+    "concerns": [
+      "The Indonesian answer means a pension fund, not the regular payment received after retirement."
+    ],
+    "cue_alignment": "material-risk",
+    "cue_rationale": "No concise cue rewrite preserves the stated payment concept while making both dana pensiun and pencen fit; they differ as fund versus payment.",
+    "cue_rewrite": "",
+    "material_concerns": [
+      "The pair does not express the same exact sense: Indonesian dana pensiun is a fund, whereas Malaysian pencen is the retirement payment."
+    ],
+    "nonblocking_risk": "none",
+    "objection_assessments": [],
+    "preference_risk": {
+      "form": "uang pensiun",
+      "language": "indonesian",
+      "rationale": "Uang pensiun is a plausible ordinary Indonesian expression for the retirement payment, competing directly with the proposed dana pensiun.",
+      "signal": "same-sense-competition"
+    },
+    "rationale": "Malaysian pencen fits the cue, but Indonesian dana pensiun does not; Indonesian uang pensiun or simply pensiun would better express the payment sense.",
+    "relation": "different-common-word",
+    "risk_rationale": "",
+    "shared_synonym_case": "none",
+    "shared_synonym_rationale": "none",
+    "verdict": "object"
+  },
+  "retrievals": null
+}

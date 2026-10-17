@@ -1,0 +1,79 @@
+{
+  "attempt_id": "944f9d922d8eb5ef",
+  "candidate_id": "tmp-shopping-s041-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct: secondhand item means an item previously owned or used by someone else.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/secondhand"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary for an item that has been used before; Indonesian dictionary evidence gives barang bekas as an example for bekas meaning already used.",
+      "evidence_refs": [
+        "https://kbbi.cari.co/bekas",
+        "https://oss.go.id/en/kbli/detail/4627b838-6db1-4000-859f-6b6d6bf48a41"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: barang bekas"
+    },
+    {
+      "conclusion": "Accepted and understandable, but barang terpakai is also an authoritative and common Malaysian equivalent; barangan is a broader goods/merchandise form and is less directly singular than barang.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=terpakai",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Second-hand",
+        "https://www.statistics.gov.my/uploads/census-surveys/questionnaires-pdf-20230627002848.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: barangan terpakai"
+    },
+    {
+      "conclusion": "The relation different-common-word is too categorical. The varieties show a useful lexical preference—Indonesian barang bekas versus Malaysian barang/barangan terpakai—but the Malaysian phrase barang terpakai is an accepted equivalent and forms overlap in cross-variety exposure. The relation should be qualified as a preference with overlap, if that relation is available.",
+      "evidence_limitation": "The reviewed sources establish acceptance and meaning, but do not provide directly comparable national frequency data.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=terpakai",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terpakai",
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=273844&keyword=bekas"
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and final relation"
+    },
+    {
+      "conclusion": "Missing. A learner-facing contrast should note that Malay bekas commonly means a former person/status, a trace, or a container, while terpakai is the direct standard choice for second-hand goods; Indonesian barang bekas is therefore not a safe one-to-one Malaysian transfer.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1.aspx?d=273844&keyword=bekas",
+        "https://prpm.dbp.gov.my/Cari1?d=74812&keyword=terpakai"
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "8605281ce923db155882c20596cbce472ef588557d9380b3f1412719d96ff97a",
+  "correction_refs": [],
+  "decision_digest": "d648f417ce54a84a670807da9c0f140b379b063a0d42b11e020543df2c6a1cbb",
+  "elapsed_ms": 31576,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 140495,
+  "model_calls": 1,
+  "output_tokens": 2317,
+  "packet_digest": "918431787760f4c82329c77c4a933c7273a269eda402c1371b1d6cf3f34a8797",
+  "rationale": "The English sense and both proposed forms are understandable and accepted, but the national split is materially overstated as an unqualified different-common-word relation. Malaysian authoritative sources explicitly use barang terpakai and barangan terpakai for second-hand goods, while Indonesian barang bekas is the ordinary form. The card also lacks a useful false-friend contrast for bekas, whose Malay meanings commonly include former, trace, or container. Frequency comparison across national varieties is limited.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:10:57.861490+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s041/tmp-shopping-s041-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s041",
+  "verdict": "needs-correction"
+}

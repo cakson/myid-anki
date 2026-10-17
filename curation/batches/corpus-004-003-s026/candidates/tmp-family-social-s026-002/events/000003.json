@@ -1,0 +1,121 @@
+{
+  "at": "2026-10-16T20:08:52.391836+00:00",
+  "input_digest": "ad1c04904cab0c14970848a6eaf8b350da0b84869946c2e2f7af7f8fc5490c72",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"MODEL/TOOL\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s024-001:tmp-family-social-s024-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sibling is the general brother-or-sister concept; older brother is a specific age- and gender-defined sibling.\"}, {\"other_id\": \"corpus-004-003-s024-002:tmp-family-social-s024-002\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sibling is the general brother-or-sister concept; older sister is a specific age- and gender-defined sibling.\"}, {\"other_id\": \"corpus-004-003-s024-003:tmp-family-social-s024-003\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sibling is the general brother-or-sister concept; younger brother is a specific age- and gender-defined sibling.\"}, {\"other_id\": \"corpus-004-003-s024-004:tmp-family-social-s024-004\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sibling is the general brother-or-sister concept; younger sister is a specific age- and gender-defined sibling.\"}, {\"other_id\": \"corpus-004-003-s024-009:tmp-family-social-s024-009\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sibling denotes a brother or sister sharing a parent, while relative is the broader family-relationship category.\"}, {\"other_id\": \"corpus-004-003-s024-010:tmp-family-social-s024-010\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Sibling denotes a brother or sister sharing a parent, while family member is a broader category including non-siblings.\"}, {\"other_id\": \"corpus-004-003-s025-007:tmp-family-social-s025-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A stepbrother is a specific non-biological stepfamily relation; the candidate explicitly requires sharing a parent.\"}, {\"other_id\": \"corpus-004-003-s025-008:tmp-family-social-s025-008\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A stepsister is a specific non-biological stepfamily relation; the candidate explicitly requires sharing a parent.\"}]}}",
+  "reported_model": "MODEL/TOOL",
+  "response": {
+    "model": "MODEL/TOOL",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s024-001:tmp-family-social-s024-001",
+          "rationale": "Sibling is the general brother-or-sister concept; older brother is a specific age- and gender-defined sibling.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-002:tmp-family-social-s024-002",
+          "rationale": "Sibling is the general brother-or-sister concept; older sister is a specific age- and gender-defined sibling.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-003:tmp-family-social-s024-003",
+          "rationale": "Sibling is the general brother-or-sister concept; younger brother is a specific age- and gender-defined sibling.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-004:tmp-family-social-s024-004",
+          "rationale": "Sibling is the general brother-or-sister concept; younger sister is a specific age- and gender-defined sibling.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-009:tmp-family-social-s024-009",
+          "rationale": "Sibling denotes a brother or sister sharing a parent, while relative is the broader family-relationship category.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s024-010:tmp-family-social-s024-010",
+          "rationale": "Sibling denotes a brother or sister sharing a parent, while family member is a broader category including non-siblings.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025-007:tmp-family-social-s025-007",
+          "rationale": "A stepbrother is a specific non-biological stepfamily relation; the candidate explicitly requires sharing a parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s025-008:tmp-family-social-s025-008",
+          "rationale": "A stepsister is a specific non-biological stepfamily relation; the candidate explicitly requires sharing a parent.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s024-001:tmp-family-social-s024-001",
+        "rationale": "Sibling is the general brother-or-sister concept; older brother is a specific age- and gender-defined sibling.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024-002:tmp-family-social-s024-002",
+        "rationale": "Sibling is the general brother-or-sister concept; older sister is a specific age- and gender-defined sibling.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024-003:tmp-family-social-s024-003",
+        "rationale": "Sibling is the general brother-or-sister concept; younger brother is a specific age- and gender-defined sibling.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024-004:tmp-family-social-s024-004",
+        "rationale": "Sibling is the general brother-or-sister concept; younger sister is a specific age- and gender-defined sibling.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024-009:tmp-family-social-s024-009",
+        "rationale": "Sibling denotes a brother or sister sharing a parent, while relative is the broader family-relationship category.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s024-010:tmp-family-social-s024-010",
+        "rationale": "Sibling denotes a brother or sister sharing a parent, while family member is a broader category including non-siblings.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s025-007:tmp-family-social-s025-007",
+        "rationale": "A stepbrother is a specific non-biological stepfamily relation; the candidate explicitly requires sharing a parent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s025-008:tmp-family-social-s025-008",
+        "rationale": "A stepsister is a specific non-biological stepfamily relation; the candidate explicitly requires sharing a parent.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "MODEL/TOOL",
+  "upstream_digest": "e72e9fa9886fef0d96132a77ba048166ae2e9b0cd8d14fcdfaf8a48eccfe4077"
+}

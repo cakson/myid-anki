@@ -1,0 +1,85 @@
+{
+  "attempt_id": "fd24c50ba1312410",
+  "candidate_id": "tmp-communication-s013-008",
+  "claim_reviews": [
+    {
+      "conclusion": "“Mailbox” is correctly glossed as a box for receiving letters, though the cue can also cover public posting boxes and electronic mailboxes; the intended physical receiving-box sense is sufficiently clear.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/dictionary/english/mailbox"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and established Indonesian usage for a household letterbox/mailbox.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/kotak%2Bsurat",
+        "https://kbbi.kemendikdasmen.go.id/entri/tabung"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kotak surat"
+    },
+    {
+      "conclusion": "Correct and established Malaysian Malay usage for a mailbox/letterbox.",
+      "evidence_refs": [
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=peti."
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: peti surat"
+    },
+    {
+      "conclusion": "The forms are not mutually exclusive. DBP material records kotak surat as meaning peti surat, and official terminology evidence contrasts Indonesian kotak surat with Malaysian peti surat as preferred varieties rather than exclusive equivalents. The preference distinction is useful, but the national split is materially overstated without a shared-synonym caveat.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kotak+1+",
+        "https://prpm.kemendikdasmen.go.id/entri/tabung",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=peti."
+      ],
+      "material_risk": true,
+      "subject": "Cross-variety overlap and national split"
+    },
+    {
+      "conclusion": "“Different-common-word” is defensible only as a preferred-variety relation; it is misleading if it implies that each form is uncommon or unacceptable in the other variety. The relation should be qualified as different preferred/common forms with overlap.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kotak+1+",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=peti."
+      ],
+      "material_risk": true,
+      "subject": "Final relation"
+    },
+    {
+      "conclusion": "No genuine false-friend contrast is supported: both compounds are transparent and refer to the same mailbox concept. The empty contrast field omits the key learner-facing warning that the difference is primarily preferential/varietal, not semantic.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kotak+1+",
+        "https://prpmv1.dbp.gov.my/Search.aspx?k=peti."
+      ],
+      "material_risk": true,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "d3e849ddec9587736452b50a514ba61c1250597be753aa646a32e99f4ccb77fb",
+  "correction_refs": [],
+  "decision_digest": "bc866b7fe9b75b48f0f7ca55d406df4659d9eee44e72220717bb7bec9740e185",
+  "elapsed_ms": 33378,
+  "finding_class": "cue-content",
+  "input_tokens": 126701,
+  "model_calls": 1,
+  "output_tokens": 2036,
+  "packet_digest": "1caa10b0ee86e6d2c9b3dd4102f99a9a304f7bfc35f0eedb0f771f125482636d",
+  "rationale": "Both answers correctly denote a mailbox, and the Indonesian/Malaysian preference split is credible but materially overstated if presented as exclusive. Malaysian reference material explicitly recognizes kotak surat alongside peti surat, while Indonesian evidence supports kotak surat. The card lacks the needed shared-synonym qualification and false-friend contrast.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T11:42:58.014736+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s013/tmp-communication-s013-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s013",
+  "verdict": "needs-correction"
+}

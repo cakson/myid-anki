@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 4597,
+  "input_digest": "6c905a443decfa515b80c2321f5bcbafd0f6c5bf7b5468e97c4dbdf2a8fa5b9c",
+  "input_tokens": 93725,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 223,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"corpus-004-001-s010:tmp-emotions-s010-006\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"Both involve longing during absence, but the candidate means longing for a specific absent person, whereas the existing concept means missing one's home while away; the cues and both answer pairs differ.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-001-s010:tmp-emotions-s010-006",
+          "rationale": "Both involve longing during absence, but the candidate means longing for a specific absent person, whereas the existing concept means missing one's home while away; the cues and both answer pairs differ.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

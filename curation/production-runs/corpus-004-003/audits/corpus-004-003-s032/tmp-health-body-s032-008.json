@@ -1,0 +1,68 @@
+{
+  "attempt_id": "9fec35d3d33f8034",
+  "candidate_id": "tmp-health-body-s032-008",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and ordinary for medical surgery in Indonesian.",
+      "evidence_refs": [
+        "https://kbbi.web.id/operasi"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: operasi"
+    },
+    {
+      "conclusion": "Correct and standard for the process of surgical treatment in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=pembedahan"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: pembedahan"
+    },
+    {
+      "conclusion": "“Surgery” and “medical procedure involving an operation” align with both answers.",
+      "evidence_refs": [
+        "https://kbbi.web.id/operasi",
+        "https://prpm.dbp.gov.my/cari1?keyword=pembedahan"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "The relation should be qualified as differing preferred/common terms with shared synonymy, not an absolute different-word contrast; there is no false-friend contrast.",
+      "evidence_limitation": "The cited dictionary evidence establishes Malaysian usage of both terms but does not quantify national or register-specific frequency.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=operasi",
+        "https://prpm.dbp.gov.my/cari1?keyword=pembedahan"
+      ],
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "9e6e6945505cf44036bebd97ca40cef9a983788687ee3a08c4f53a02e2a849ca",
+  "correction_refs": [],
+  "decision_digest": "00bcdd7f100be5c034ab8c2cab58020feec4e42274e37dfad4e9f1d207f7c904",
+  "elapsed_ms": 18017,
+  "finding_class": "metadata-only",
+  "input_tokens": 49861,
+  "model_calls": 1,
+  "output_tokens": 1103,
+  "packet_digest": "0f852ef29ba7116248dfd3248b2981519f4fa2e095d9eac744b967efa44c3a0a",
+  "rationale": "Both translations and the medical sense are correct. However, “different-common-word” overstates the contrast because Malaysian Malay also uses “operasi” for surgery; “pembedahan” is the clearer standard/preferred term. This is lexical preference variation, not a false friend. Qualify the relation accordingly.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:57:10.596425+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s032/tmp-health-body-s032-008.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s032",
+  "verdict": "needs-correction"
+}

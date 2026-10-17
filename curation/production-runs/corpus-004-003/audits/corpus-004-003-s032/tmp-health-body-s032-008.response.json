@@ -1,0 +1,54 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 18017,
+  "input_tokens": 49861,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1103,
+  "packet_digest": "0f852ef29ba7116248dfd3248b2981519f4fa2e095d9eac744b967efa44c3a0a",
+  "raw_text": "{\"schema_version\":1,\"verdict\":\"needs-correction\",\"finding_class\":\"metadata-only\",\"rationale\":\"Both translations and the medical sense are correct. However, “different-common-word” overstates the contrast because Malaysian Malay also uses “operasi” for surgery; “pembedahan” is the clearer standard/preferred term. This is lexical preference variation, not a false friend. Qualify the relation accordingly.\",\"claim_reviews\":[{\"subject\":\"Indonesian answer: operasi\",\"conclusion\":\"Correct and ordinary for medical surgery in Indonesian.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/operasi\"]},{\"subject\":\"Malaysian answer: pembedahan\",\"conclusion\":\"Correct and standard for the process of surgical treatment in Malaysian Malay.\",\"material_risk\":false,\"evidence_refs\":[\"https://prpm.dbp.gov.my/cari1?keyword=pembedahan\"]},{\"subject\":\"English cue and sense\",\"conclusion\":\"“Surgery” and “medical procedure involving an operation” align with both answers.\",\"material_risk\":false,\"evidence_refs\":[\"https://kbbi.web.id/operasi\",\"https://prpm.dbp.gov.my/cari1?keyword=pembedahan\"]},{\"subject\":\"Final relation and false-friend contrast\",\"conclusion\":\"The relation should be qualified as differing preferred/common terms with shared synonymy, not an absolute different-word contrast; there is no false-friend contrast.\",\"material_risk\":true,\"evidence_refs\":[\"https://prpm.dbp.gov.my/Cari1?d=202792&keyword=operasi\",\"https://prpm.dbp.gov.my/cari1?keyword=pembedahan\"],\"evidence_limitation\":\"The cited dictionary evidence establishes Malaysian usage of both terms but does not quantify national or register-specific frequency.\"}]}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct and ordinary for medical surgery in Indonesian.",
+        "evidence_refs": [
+          "https://kbbi.web.id/operasi"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: operasi"
+      },
+      {
+        "conclusion": "Correct and standard for the process of surgical treatment in Malaysian Malay.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/cari1?keyword=pembedahan"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: pembedahan"
+      },
+      {
+        "conclusion": "“Surgery” and “medical procedure involving an operation” align with both answers.",
+        "evidence_refs": [
+          "https://kbbi.web.id/operasi",
+          "https://prpm.dbp.gov.my/cari1?keyword=pembedahan"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "The relation should be qualified as differing preferred/common terms with shared synonymy, not an absolute different-word contrast; there is no false-friend contrast.",
+        "evidence_limitation": "The cited dictionary evidence establishes Malaysian usage of both terms but does not quantify national or register-specific frequency.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=202792&keyword=operasi",
+          "https://prpm.dbp.gov.my/cari1?keyword=pembedahan"
+        ],
+        "material_risk": true,
+        "subject": "Final relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "metadata-only",
+    "rationale": "Both translations and the medical sense are correct. However, “different-common-word” overstates the contrast because Malaysian Malay also uses “operasi” for surgery; “pembedahan” is the clearer standard/preferred term. This is lexical preference variation, not a false friend. Qualify the relation accordingly.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

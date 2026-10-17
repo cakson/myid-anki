@@ -1,0 +1,26 @@
+{
+  "effort": "low",
+  "elapsed_ms": 5445,
+  "input_digest": "4e42b13d8614f7c2cee7217b39ef8b29f6457e43a5231ecfa45220dc303062bb",
+  "input_tokens": 93712,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 248,
+  "raw_text": "{\"schema_version\":1,\"role\":\"normalize-and-dedupe\",\"model\":\"GPT-5\",\"result\":{\"overlaps\":[{\"other_id\":\"cal2-shopping-001:shopping-08\",\"type\":\"semantic\",\"resolution\":\"distinct\",\"rationale\":\"“service provider” is a company or person offering a service, while “service” is the work provided for a customer; provider and service are distinct concepts.\"}]}}",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-08",
+          "rationale": "“service provider” is a company or person offering a service, while “service” is the work provided for a customer; provider and service are distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "retrievals": null
+}

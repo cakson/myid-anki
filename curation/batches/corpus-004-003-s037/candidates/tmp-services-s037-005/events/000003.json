@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:41:38.849471+00:00",
+  "input_digest": "4e42b13d8614f7c2cee7217b39ef8b29f6457e43a5231ecfa45220dc303062bb",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal2-shopping-001:shopping-08\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"\\u201cservice provider\\u201d is a company or person offering a service, while \\u201cservice\\u201d is the work provided for a customer; provider and service are distinct concepts.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal2-shopping-001:shopping-08",
+          "rationale": "“service provider” is a company or person offering a service, while “service” is the work provided for a customer; provider and service are distinct concepts.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal2-shopping-001:shopping-08",
+        "rationale": "“service provider” is a company or person offering a service, while “service” is the work provided for a customer; provider and service are distinct concepts.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "a2fc1bec1e616a07d899f08015edcb32bbba2d5c2e3f3517aebc6c67f9b5d4dd"
+}

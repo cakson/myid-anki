@@ -1,0 +1,61 @@
+{
+  "attempt_id": "b26baf3e7a303090",
+  "candidate_id": "tmp-directions-location-s017-005",
+  "claim_reviews": [
+    {
+      "conclusion": "Village and small rural settlement are aligned.",
+      "evidence_limitation": "No external evidence supplied; assessment based on linguistic knowledge.",
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Desa is an accurate and standard Indonesian answer for village, especially a rural or administratively defined village.",
+      "evidence_limitation": "No external evidence supplied; assessment based on linguistic knowledge.",
+      "material_risk": false,
+      "subject": "Indonesian answer: desa"
+    },
+    {
+      "conclusion": "Kampung is the ordinary Malaysian Malay answer for village or rural settlement.",
+      "evidence_limitation": "No external evidence supplied; assessment based on linguistic knowledge.",
+      "material_risk": false,
+      "subject": "Malaysian answer: kampung"
+    },
+    {
+      "conclusion": "The relation is acceptable as a contrast in common national preference, although kampung is also used in Indonesian and desa is understood in Malaysian Malay.",
+      "evidence_limitation": "No external evidence supplied; assessment based on linguistic knowledge.",
+      "material_risk": false,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is present or required. The cross-variety difference is lexical preference and register/frequency, not divergent meaning.",
+      "evidence_limitation": "No external evidence supplied; assessment based on linguistic knowledge.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "57183d081e98c85883665eb4e867f80b3ef45a40fba2071b5acdb50ea2033384",
+  "correction_refs": [],
+  "decision_digest": "b52df127b876e271da17e0e1196b344ef9eea1bec8096ca3cb9ba4f13fb814a3",
+  "elapsed_ms": 6911,
+  "finding_class": "none",
+  "input_tokens": 12499,
+  "model_calls": 1,
+  "output_tokens": 578,
+  "packet_digest": "81d429dbfedf7771845f71578fbc16be7b12886fc083dafc798e3a40cf26b754",
+  "rationale": "Both answers are accurate for the intended sense. Indonesian desa is a standard term for village, while Malaysian Malay kampung is the ordinary common term. The relation is a valid national-preference contrast, not a false-friend contrast; kampung also exists in Indonesian with broader contextual uses, but this does not make the card misleading.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:37:28.288432+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s017/tmp-directions-location-s017-005.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s017",
+  "verdict": "cleared"
+}

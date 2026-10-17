@@ -1,0 +1,66 @@
+{
+  "attempt_id": "7bca12d98e2a0fb0",
+  "candidate_id": "tmp-common-adjectives-s006-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and learner-appropriate for “beautiful,” especially for people and attractive appearance.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/cantik",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=cantik+I"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: cantik"
+    },
+    {
+      "conclusion": "Correct and learner-appropriate for “beautiful,” particularly for scenery, objects, buildings, and artistic or abstract beauty.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=indah",
+        "https://prpm.dbp.gov.my/Cari1?d=10456&keyword=indah"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: indah"
+    },
+    {
+      "conclusion": "“Beautiful” with the sense “pleasing in appearance” accurately covers both Malay forms.",
+      "evidence_refs": [
+        "https://baru.kbbi.co.id/arti-kata/cantik",
+        "https://prpm.dbp.gov.my/Cari1?d=54140&keyword=indah"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Similar” is correct. There is no false-friend contrast; both words overlap semantically and occur across Indonesian and Malaysian Malay, though contextual preferences differ.",
+      "evidence_limitation": "The cited dictionary entries establish semantic overlap and examples, but do not quantify contemporary frequency or register differences between the national varieties.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "1cc9f34e1b330ac3d68da5e6ce19df75c130dc3932448eead0bbac27d417c5aa",
+  "correction_refs": [],
+  "decision_digest": "8d1d5b4ee023c5506b4023d2bdd4a883d3cf46be0a239abad76db7e4e78e1a9f",
+  "elapsed_ms": 18657,
+  "finding_class": "none",
+  "input_tokens": 47274,
+  "model_calls": 1,
+  "output_tokens": 1188,
+  "packet_digest": "9170368d0bf43f5def4b3bc1c92a46acc8ef70ddd9a351357876776c3a2caa28",
+  "rationale": "Both answers are valid translations of “beautiful” in the sense “pleasing in appearance.” “Cantik” is especially associated with personal attractiveness but also applies to objects and scenery; “indah” commonly describes scenery, buildings, artistic works, and beauty more broadly. They are similar equivalents, not false friends. Neither form is exclusive to one national variety, so the card should be understood as a contextual/register contrast rather than a strict Indonesian-versus-Malaysian distinction.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:22:49.485962+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s006/tmp-common-adjectives-s006-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s006",
+  "verdict": "cleared"
+}

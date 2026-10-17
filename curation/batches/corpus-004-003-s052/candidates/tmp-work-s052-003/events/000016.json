@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:57.119798+00:00",
+  "result": {
+    "candidate_digest": "23aafcd559844ed67477c6c4b0ce4de7e988e408db804c4c9d2c5f030aaf469f",
+    "candidate_id": "tmp-work-s052-003",
+    "checked_at": "2026-10-17T06:21:57.119798+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (cue-content): Both Malay answers are correct for an official position or post in an organization. The corrected cue is materially better than “job title,” which is narrower. The national preference is valid but not exclusive: Indonesian jabatan and Malaysian jawatan are cognate forms, and posisi is also used in both varieties. Add a false-friend note because Malaysian jabatan commonly means ‘department,’ unlike Indonesian jabatan’s core sense here. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

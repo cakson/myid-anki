@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-17T04:51:46.757937+00:00",
+  "input_digest": "17bed12286dc168525665a4dc2b5e5e25fdbb7fc44dc6dab800da90ce8dd5d8b",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"cal3-technology-001:technology-05\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both are portable digital storage devices, but a memory card is a removable flash-memory card used in compatible devices, whereas a flash drive is a USB storage device; their cues and answers differ clearly.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "cal3-technology-001:technology-05",
+          "rationale": "Both are portable digital storage devices, but a memory card is a removable flash-memory card used in compatible devices, whereas a flash drive is a USB storage device; their cues and answers differ clearly.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "cal3-technology-001:technology-05",
+        "rationale": "Both are portable digital storage devices, but a memory card is a removable flash-memory card used in compatible devices, whereas a flash drive is a USB storage device; their cues and answers differ clearly.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "22d71aa77673dbf4a503ca4f9f8b0bef2832ea36e8a2b32e7afa756038ccac81"
+}

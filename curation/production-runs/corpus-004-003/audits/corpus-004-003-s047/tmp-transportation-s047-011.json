@@ -1,0 +1,65 @@
+{
+  "attempt_id": "411b3896bd120f7c",
+  "candidate_id": "tmp-transportation-s047-011",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue matches the intended motorcycle-taxi sense, but the Indonesian dictionary sense is broader than the supplied definition.",
+      "evidence_refs": [
+        "https://kbbi.web.id/ojek.html"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and lexicalized Indonesian term for a paid passenger ride by motorcycle; the dictionary also allows bicycle taxi.",
+      "evidence_refs": [
+        "https://kbbi.web.id/ojek.html",
+        "https://indonesia.go.id/kategori/pendidikan/1299/kamus-besar-bahasa-indonesia-kbbi-daring?lang=1"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: ojek"
+    },
+    {
+      "conclusion": "Semantically valid and attested in Malaysian official usage, but evidence does not establish it as a commonly preferred everyday term; it is better labeled transparent/formal or context-dependent.",
+      "evidence_refs": [
+        "https://www.mot.gov.my/my/Berita%20Terkini/Teksi%20motosikal%20berdepan%20tindakan%20undang-undang.pdf",
+        "https://www.miros.gov.my/userfiles/file/Kenyataan%20Media%20-%20Kajian%20Persepsi%20Orang%20Awam%20Terhadap%20Pelaksanaan%20Perkhidmatan%20Teksi%20Motosikal%20Di%20Malaysia.pdf"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: teksi motosikal"
+    },
+    {
+      "conclusion": "“Different-common-word” is overstated because Malaysian commonness is unverified. No false-friend contrast is present; “ojek” should not be taught as a regular Malay taxi term.",
+      "evidence_limitation": "Available evidence confirms Malaysian attestation but does not provide reliable frequency or preference data.",
+      "material_risk": true,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "e4a36eca69825dae38c143726fdd9d5742f85fb49f2d0b41efa290379fce0aa2",
+  "correction_refs": [],
+  "decision_digest": "54b72023eb39f583a86c54591407282d074a062683eabe3d9d26f97f44430c57",
+  "elapsed_ms": 23665,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 98753,
+  "model_calls": 1,
+  "output_tokens": 1415,
+  "packet_digest": "2deee751fad62281c46312cf068722833484c4aa2c89a4ababf6f01ae82aa24f",
+  "rationale": "Indonesian “ojek” is correct for motorcycle taxi, though the dictionary sense also includes bicycles. Malaysian “teksi motosikal” is a valid transparent expression and is officially attested, but its everyday commonness is not established; the card should not present it as an unqualified common equivalent. No false-friend contrast is supplied.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:14:45.757119+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s047/tmp-transportation-s047-011.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:regional-register-risk"
+  ],
+  "slice_id": "corpus-004-003-s047",
+  "verdict": "needs-correction"
+}

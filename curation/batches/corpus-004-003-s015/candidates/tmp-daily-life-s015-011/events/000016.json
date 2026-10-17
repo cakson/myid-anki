@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:21:44.855569+00:00",
+  "result": {
+    "candidate_digest": "b728314acbd3f4d56c6e906c1bdec7007726e45354e7c6634469bbc66b7a139e",
+    "candidate_id": "tmp-daily-life-s015-011",
+    "checked_at": "2026-10-17T06:21:44.855569+00:00",
+    "confidence_basis": {
+      "completed_stages": [
+        "generate",
+        "normalize-and-dedupe",
+        "independent-verification"
+      ],
+      "evidence": "missing",
+      "uncompleted_stages": [
+        "indonesian-usage",
+        "malaysian-usage",
+        "relation-proposal",
+        "evidence-audit",
+        "adversarial-review"
+      ]
+    },
+    "decision_policy_version": "3.1.0",
+    "decision_reason": "Withhold after independent risk audit (learner-critical-answer): Both expressions can denote paper towel, but the Malaysian entry is not a clean national contrast: Malaysian usage also includes “tisu dapur,” while “tuala kertas” is a valid alternative. The card should qualify the forms as usage preferences rather than implying mutually exclusive national vocabulary. No false-friend contrast is present. Retain outside promotion pending a vetted correction and fresh current clearance.",
+    "outcome": "hold",
+    "reason_codes": [
+      "material-unresolved-issue"
+    ],
+    "relation": "",
+    "risk": {
+      "path": "not-assessed",
+      "triggers": []
+    },
+    "skipped_stages": {},
+    "stage_statuses": {
+      "adversarial-review": "missing",
+      "evidence-audit": "missing",
+      "generate": "complete",
+      "independent-verification": "complete",
+      "indonesian-usage": "missing",
+      "malaysian-usage": "missing",
+      "normalize-and-dedupe": "complete",
+      "relation-proposal": "missing"
+    }
+  },
+  "role": "decision",
+  "status": "complete"
+}

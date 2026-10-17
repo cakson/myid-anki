@@ -1,0 +1,77 @@
+{
+  "attempt_id": "394c630514d2e451",
+  "candidate_id": "tmp-services-s038-006",
+  "claim_reviews": [
+    {
+      "conclusion": "The cue ‘courier’ is appropriate, but ‘a person or company that delivers parcels’ is somewhat overbroad for the listed personal nouns.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=courier",
+        "https://kbbi.web.id/kurir"
+      ],
+      "material_risk": true,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and idiomatic for a courier or parcel-delivery worker in Indonesian, although the dictionary definition is broader than parcel delivery.",
+      "evidence_refs": [
+        "https://kbbi.web.id/kurir"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: kurir"
+    },
+    {
+      "conclusion": "Semantically valid as a general deliverer/carrier, but less specific than courier and should normally be contextualized, such as penghantar barang. Malaysian Malay also has kurir/kurier-related usage.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=penghantar",
+        "https://prpm.dbp.gov.my/cari1?keyword=kurir",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=courier"
+      ],
+      "material_risk": true,
+      "subject": "Malaysian answer: penghantar"
+    },
+    {
+      "conclusion": "Misleading as a learner-facing relation because Indonesian kurir and Malaysian kurir/kurier are corresponding shared or closely related forms; penghantar is an alternative broader term, not evidence of a clean lexical split.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=kurir",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=courier",
+        "https://kbbi.web.id/kurir"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false friend is established. Kurir/kurier are related courier terms across the languages; the principal contrast is specificity and preferred usage, not divergent meaning.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/cari1?keyword=kurir",
+        "https://kbbi.web.id/kurir"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "b684e370875851f8b12bbeaf07784470a2210491482efac23acb001f705ae78c",
+  "correction_refs": [],
+  "decision_digest": "f30ee3eabd2e7cc26c7b882bd90a9e4ff16d052b8a6ada17cd0d35b2909c4e59",
+  "elapsed_ms": 25601,
+  "finding_class": "learner-critical-answer",
+  "input_tokens": 98995,
+  "model_calls": 1,
+  "output_tokens": 1671,
+  "packet_digest": "102b5ad39f608ce54ae3456c60b976bf1a1ddbbfd413bc8806b38ceb2526cfea",
+  "rationale": "Both translations are semantically defensible for a parcel deliverer, but the card materially overstates a Malaysia–Indonesia lexical split. Malaysian Malay also uses kurir/kurier for courier, while penghantar is a broader ‘deliverer/sender’ term. The English cue is slightly overbroad because a courier company is not necessarily a penghantar or kurir as a person. No false-friend contrast is present; the related forms are broadly corresponding, not misleading false friends.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:02:18.663356+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s038/tmp-services-s038-006.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s038",
+  "verdict": "needs-correction"
+}

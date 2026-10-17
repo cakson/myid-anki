@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-16T19:43:27.269728+00:00",
+  "input_digest": "0272cfd0c4222b7bfa684ef8ea043836a77579ce5c27fd6f2e8ffbe57f20df3f",
+  "model": "gpt-5.6-luna",
+  "prompt_set_version": "2.4.0",
+  "raw_response": "{\"schema_version\": 1, \"role\": \"normalize-and-dedupe\", \"model\": \"GPT-5\", \"result\": {\"overlaps\": [{\"other_id\": \"corpus-004-003-s028:tmp-finance-admin-s028-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Both involve a stamp, but postage stamp is a small label proving postal payment, while rubber stamp is a marking or authentication tool.\"}, {\"other_id\": \"corpus-004-003-s029:tmp-finance-admin-s029-001\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"Stamp duty is a tax on certain documents; postage stamp is a label showing postal payment.\"}, {\"other_id\": \"places-001:places-03\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A post office is a mailing location, whereas a postage stamp is an item affixed to mail.\"}, {\"other_id\": \"corpus-004-003-s013:tmp-communication-s013-007\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"A postcard is a card for sending messages by mail; a postage stamp is the label showing postage has been paid.\"}, {\"other_id\": \"corpus-004-003-s013:tmp-communication-s013-005\", \"type\": \"semantic\", \"resolution\": \"distinct\", \"rationale\": \"An envelope covers a letter; a postage stamp is affixed to mail to indicate postage payment.\"}]}}",
+  "reported_model": "GPT-5",
+  "response": {
+    "model": "GPT-5",
+    "result": {
+      "overlaps": [
+        {
+          "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-007",
+          "rationale": "Both involve a stamp, but postage stamp is a small label proving postal payment, while rubber stamp is a marking or authentication tool.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s029:tmp-finance-admin-s029-001",
+          "rationale": "Stamp duty is a tax on certain documents; postage stamp is a label showing postal payment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "places-001:places-03",
+          "rationale": "A post office is a mailing location, whereas a postage stamp is an item affixed to mail.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s013:tmp-communication-s013-007",
+          "rationale": "A postcard is a card for sending messages by mail; a postage stamp is the label showing postage has been paid.",
+          "resolution": "distinct",
+          "type": "semantic"
+        },
+        {
+          "other_id": "corpus-004-003-s013:tmp-communication-s013-005",
+          "rationale": "An envelope covers a letter; a postage stamp is affixed to mail to indicate postage payment.",
+          "resolution": "distinct",
+          "type": "semantic"
+        }
+      ]
+    },
+    "role": "normalize-and-dedupe",
+    "schema_version": 1
+  },
+  "result": {
+    "overlaps": [
+      {
+        "other_id": "corpus-004-003-s028:tmp-finance-admin-s028-007",
+        "rationale": "Both involve a stamp, but postage stamp is a small label proving postal payment, while rubber stamp is a marking or authentication tool.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s029:tmp-finance-admin-s029-001",
+        "rationale": "Stamp duty is a tax on certain documents; postage stamp is a label showing postal payment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "places-001:places-03",
+        "rationale": "A post office is a mailing location, whereas a postage stamp is an item affixed to mail.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s013:tmp-communication-s013-007",
+        "rationale": "A postcard is a card for sending messages by mail; a postage stamp is the label showing postage has been paid.",
+        "resolution": "distinct",
+        "type": "semantic"
+      },
+      {
+        "other_id": "corpus-004-003-s013:tmp-communication-s013-005",
+        "rationale": "An envelope covers a letter; a postage stamp is affixed to mail to indicate postage payment.",
+        "resolution": "distinct",
+        "type": "semantic"
+      }
+    ]
+  },
+  "role": "normalize-and-dedupe",
+  "status": "complete",
+  "tool": "GPT-5",
+  "upstream_digest": "821f7ae37e0a19a0b1a75ada479f4db6f70552fd387500be9835783753431c15"
+}

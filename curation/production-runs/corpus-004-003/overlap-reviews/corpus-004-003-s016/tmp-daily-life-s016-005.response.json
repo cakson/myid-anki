@@ -1,0 +1,65 @@
+{
+  "effort": "medium",
+  "elapsed_ms": 31741,
+  "input_tokens": 106863,
+  "model": "gpt-5.6-luna",
+  "model_calls": 1,
+  "output_tokens": 1981,
+  "packet_digest": "497c9e4c3651919d448f64facd0a2dbb79fd53331a47833c0fd2207e142881cc",
+  "raw_text": "{\n  \"schema_version\": 1,\n  \"verdict\": \"needs-correction\",\n  \"finding_class\": \"learner-critical-answer\",\n  \"rationale\": \"The English cue and sense are accurate, and both answers are semantically valid. However, the national split is materially overstated: Malaysian DBP resources explicitly recognize both peluntur and bahan pemutih for bleaching agent, while Indonesian usage clearly uses pemutih for household bleach. The relation different-common-word and any implied false-friend contrast therefore require correction.\",\n  \"claim_reviews\": [\n    {\n      \"subject\": \"English cue and sense\",\n      \"conclusion\": \"Correct. Bleach is a chemical liquid or powder used for cleaning, whitening, or removing colour; the narrowed cue is appropriate.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://dictionary.cambridge.org/dictionary/english/bleach\"\n      ]\n    },\n    {\n      \"subject\": \"Indonesian answer: pemutih\",\n      \"conclusion\": \"Accepted for household bleach, including whitening and disinfecting clothing.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://digipaysatu.kemenkeu.go.id/shop/products/870960-bayclin-1-liter-%7C-dunia-atk\",\n        \"https://repository.badankebijakan.kemkes.go.id/id/eprint/5608/1/PED-Keracunan-Alami-Non-Alami.pdf\"\n      ],\n      \"evidence_limitation\": \"The available evidence confirms practical usage but does not provide a quantitative frequency comparison against alternatives.\"\n    },\n    {\n      \"subject\": \"Malaysian answer: peluntur\",\n      \"conclusion\": \"Correct and well-supported as a Malay term for a substance used to remove colour or whiten fabric.\",\n      \"material_risk\": false,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=178260&keyword=peluntur\",\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih\"\n      ]\n    },\n    {\n      \"subject\": \"National split and overlap\",\n      \"conclusion\": \"Materially overstated. Malaysia's official PRPM terminology lists bleaching agent as both agen peluntur and bahan pemutih, so pemutih is an accepted Malay equivalent alongside peluntur. Indonesian household usage also uses pemutih for bleach.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih\",\n        \"https://digipaysatu.kemenkeu.go.id/shop/products/870960-bayclin-1-liter-%7C-dunia-atk\"\n      ]\n    },\n    {\n      \"subject\": \"Relation and false-friend contrast\",\n      \"conclusion\": \"The relation different-common-word is not reliable as currently stated, and the blank contrast omits an important learner warning. This is not a false friend; the forms overlap in meaning, with peluntur more specifically associated with bleaching in Malay and pemutih also accepted there.\",\n      \"material_risk\": true,\n      \"evidence_refs\": [\n        \"https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih\",\n        \"https://prpm.dbp.gov.my/Cari1?d=178260&keyword=peluntur\",\n        \"https://dictionary.cambridge.org/dictionary/english/bleach\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "claim_reviews": [
+      {
+        "conclusion": "Correct. Bleach is a chemical liquid or powder used for cleaning, whitening, or removing colour; the narrowed cue is appropriate.",
+        "evidence_refs": [
+          "https://dictionary.cambridge.org/dictionary/english/bleach"
+        ],
+        "material_risk": false,
+        "subject": "English cue and sense"
+      },
+      {
+        "conclusion": "Accepted for household bleach, including whitening and disinfecting clothing.",
+        "evidence_limitation": "The available evidence confirms practical usage but does not provide a quantitative frequency comparison against alternatives.",
+        "evidence_refs": [
+          "https://digipaysatu.kemenkeu.go.id/shop/products/870960-bayclin-1-liter-%7C-dunia-atk",
+          "https://repository.badankebijakan.kemkes.go.id/id/eprint/5608/1/PED-Keracunan-Alami-Non-Alami.pdf"
+        ],
+        "material_risk": false,
+        "subject": "Indonesian answer: pemutih"
+      },
+      {
+        "conclusion": "Correct and well-supported as a Malay term for a substance used to remove colour or whiten fabric.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=178260&keyword=peluntur",
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih"
+        ],
+        "material_risk": false,
+        "subject": "Malaysian answer: peluntur"
+      },
+      {
+        "conclusion": "Materially overstated. Malaysia's official PRPM terminology lists bleaching agent as both agen peluntur and bahan pemutih, so pemutih is an accepted Malay equivalent alongside peluntur. Indonesian household usage also uses pemutih for bleach.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih",
+          "https://digipaysatu.kemenkeu.go.id/shop/products/870960-bayclin-1-liter-%7C-dunia-atk"
+        ],
+        "material_risk": true,
+        "subject": "National split and overlap"
+      },
+      {
+        "conclusion": "The relation different-common-word is not reliable as currently stated, and the blank contrast omits an important learner warning. This is not a false friend; the forms overlap in meaning, with peluntur more specifically associated with bleaching in Malay and pemutih also accepted there.",
+        "evidence_refs": [
+          "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pemutih",
+          "https://prpm.dbp.gov.my/Cari1?d=178260&keyword=peluntur",
+          "https://dictionary.cambridge.org/dictionary/english/bleach"
+        ],
+        "material_risk": true,
+        "subject": "Relation and false-friend contrast"
+      }
+    ],
+    "finding_class": "learner-critical-answer",
+    "rationale": "The English cue and sense are accurate, and both answers are semantically valid. However, the national split is materially overstated: Malaysian DBP resources explicitly recognize both peluntur and bahan pemutih for bleaching agent, while Indonesian usage clearly uses pemutih for household bleach. The relation different-common-word and any implied false-friend contrast therefore require correction.",
+    "schema_version": 1,
+    "verdict": "needs-correction"
+  },
+  "retrievals": null
+}

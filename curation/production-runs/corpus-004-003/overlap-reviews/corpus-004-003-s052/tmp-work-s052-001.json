@@ -1,0 +1,78 @@
+{
+  "attempt_id": "7e219e1a003729ad",
+  "candidate_id": "tmp-work-s052-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct and well aligned: \"meeting room\" means a room used for meetings, matching the supplied workplace sense.",
+      "evidence_refs": [
+        "https://dictionary.cambridge.org/us/dictionary/english/meeting-room"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "\"Ruang rapat\" is an ordinary Indonesian expression for a meeting room and is supported by Indonesian government usage and Indonesian terminology references.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/berita-detail/3220/cetak-ulang-kbbi-edisi-kelima",
+        "https://repositori.kemendikdasmen.go.id/4478/1/Bahasa%20dan%20Susastra%20Dalam%20Guntingan%20-%20Oktober%201995%20Nomor%20122.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "\"Bilik mesyuarat\" is an ordinary Malaysian Malay term for a meeting room, attested in official Malaysian government facilities and terminology usage.",
+      "evidence_refs": [
+        "https://ppk.ppj.gov.my/bilik-mesyuarat",
+        "https://www.planmalaysia.gov.my/main/article/sistem-tempahan-bilik-planmalaysia",
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=mesyuarat"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "The answers are materially different common workplace terms, so \"different-common-word\" is justified. The shared English cue does not constitute answer-form overlap, and no evidence shows that either localized form is the ordinary default of the other variety.",
+      "evidence_refs": [
+        "https://badanbahasa.kemendikdasmen.go.id/berita-detail/3220/cetak-ulang-kbbi-edisi-kelima",
+        "https://ppk.ppj.gov.my/bilik-mesyuarat",
+        "https://prpm.dbp.gov.my/Cari1?d=123312&keyword=mesyuarat"
+      ],
+      "material_risk": false,
+      "subject": "National split and final relation"
+    },
+    {
+      "conclusion": "No material false-friend contrast is required. Indonesian KBBI gives \"rapat\" the meeting sense, while Malaysian PRPM also records \"rapat\" as a meeting or assembly, alongside its proximity-related sense; therefore presenting the forms as a strict false-friend contrast would be misleading.",
+      "evidence_refs": [
+        "https://kbbi.web.id/rapat-2.html",
+        "https://prpm.dbp.gov.my/Cari1?d=73980&keyword=rapat%20II"
+      ],
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "12bb4e61f0f05ffb8ce82c254c799b465e7e11370dd089f393697d15129627cb",
+  "correction_refs": [],
+  "decision_digest": "740c5bf34260dddc15cb782108439dc0f92bc8a9adfffa137f7d9cdb286123e0",
+  "elapsed_ms": 32267,
+  "finding_class": "none",
+  "input_tokens": 141596,
+  "model_calls": 1,
+  "output_tokens": 2294,
+  "packet_digest": "83574b39afa31901a114e7408ce3de328fd4f502ed158f73d4e90f76889545e6",
+  "rationale": "The national split is not materially overstated. Indonesian \"ruang rapat\" and Malaysian \"bilik mesyuarat\" are distinct, ordinary workplace terms, while shared English \"meeting room\" is a valid cross-variety cue rather than an answer overlap. The sense and relation are aligned. No dedicated false-friend contrast is required: both Indonesian and Malaysian Malay also have meeting-related senses for \"rapat\", so the contrast would not be reliably exclusive.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T12:19:27.715191+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/overlap-reviews/corpus-004-003-s052/tmp-work-s052-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "fresh-overlap-investigation",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "production-signal:shared-synonym-preference",
+    "relation:different-common-word"
+  ],
+  "slice_id": "corpus-004-003-s052",
+  "verdict": "cleared"
+}

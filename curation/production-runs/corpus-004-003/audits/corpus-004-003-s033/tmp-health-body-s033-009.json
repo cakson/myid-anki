@@ -1,0 +1,68 @@
+{
+  "attempt_id": "7d1868fe2a4a730d",
+  "candidate_id": "tmp-health-body-s033-009",
+  "claim_reviews": [
+    {
+      "conclusion": "Rigid cast for a broken bone is precise and matches the intended medical sense.",
+      "evidence_refs": [
+        "https://kbbi.web.id/gips",
+        "https://hsnzkt.moh.gov.my/images/pamphlets/pamplet-jaga-pop.pdf"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and ordinary Indonesian term for a cast used to immobilize fractured or cracked bones.",
+      "evidence_refs": [
+        "https://kbbi.web.id/gips"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: gips"
+    },
+    {
+      "conclusion": "Correct in Malaysian medical usage for a plaster cast; Malaysian health sources explicitly use simen/POP for fracture treatment.",
+      "evidence_refs": [
+        "https://jknsarawak.moh.gov.my/hkapit/index.php/ortopedik/",
+        "https://hctm.ukm.my/terseliuh-dan-patah-tulang/",
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=simen"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: simen"
+    },
+    {
+      "conclusion": "different-common-word is accurate. Simen also means ordinary cement, creating a polysemy caution for learners, but this is not a cross-language false-friend error in the medical context.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=226380&keyword=simen",
+        "https://jknsarawak.moh.gov.my/hkapit/index.php/ortopedik/"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "50dd7b84c43120544ef4be1679b01b01d1b85fd90b9197011988423da9b3f578",
+  "correction_refs": [],
+  "decision_digest": "1aeb74bb632c16680d67f5ca88e9f2138309d60856c2b84e76f979ec7a790b03",
+  "elapsed_ms": 21163,
+  "finding_class": "none",
+  "input_tokens": 76327,
+  "model_calls": 1,
+  "output_tokens": 1069,
+  "packet_digest": "5dd01c646d688241914a7bdaffb8ba358064d6d46dcbe41d4e7924372daa581c",
+  "rationale": "Both answers fit the corrected medical cue. Indonesian gips is the standard term for a covering used on fractured bones. Malaysian simen is an established medical term for a plaster cast, although it also commonly means cement. The relation different-common-word is accurate; no material false-friend error is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:58:35.873457+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s033/tmp-health-body-s033-009.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s033",
+  "verdict": "cleared"
+}

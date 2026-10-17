@@ -1,0 +1,65 @@
+{
+  "attempt_id": "5424c08e64cd6063",
+  "candidate_id": "tmp-time-date-s044-003",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct ordinary Indonesian noun for duration or length of time.",
+      "evidence_refs": [
+        "https://kbbi.web.id/durasi.html"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: durasi"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for a defined period or duration.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=tempoh"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: tempoh"
+    },
+    {
+      "conclusion": "The English cue accurately matches both entries.",
+      "evidence_refs": [
+        "https://kbbi.web.id/durasi.html",
+        "https://prpm.dbp.gov.my/Cari1?d=206468&keyword=tempoh"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense: duration — length of time"
+    },
+    {
+      "conclusion": "different-common-word is appropriate; no false-friend contrast is applicable. Jangka masa/jangka waktu are legitimate broader alternatives, but do not invalidate the preferred pair.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jangka+masa",
+        "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jangka+waktu"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "cb648457cd34d6977c1d5e7ef56721bab83d991648b392945549a9f5483dd4e0",
+  "correction_refs": [],
+  "decision_digest": "0d5425c17a2e7eda310e078e7147bb262093f5f5aacd3ac13e13ef7fac01b51b",
+  "elapsed_ms": 20475,
+  "finding_class": "none",
+  "input_tokens": 74756,
+  "model_calls": 1,
+  "output_tokens": 898,
+  "packet_digest": "d906a2dae1417249b3fb80c739914eb29bcfe24109ce05f982d035b53e7e61e5",
+  "rationale": "Both forms are valid for the stated sense. Indonesian durasi means duration or span of time, while Malaysian Malay tempoh means a defined period or duration. The different-common-word relation is useful. No false-friend contrast is needed because the forms are not misleading cognates.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T06:09:36.606646+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s044/tmp-time-date-s044-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s044",
+  "verdict": "cleared"
+}

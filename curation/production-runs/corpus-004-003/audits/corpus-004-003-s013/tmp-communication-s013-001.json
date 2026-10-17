@@ -1,0 +1,68 @@
+{
+  "attempt_id": "64ec65deac8f512a",
+  "candidate_id": "tmp-communication-s013-001",
+  "claim_reviews": [
+    {
+      "conclusion": "Correct for the stated question-and-answer sense.",
+      "evidence_refs": [
+        "https://kbbi.kemendikdasmen.go.id/entri/wawancara"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: wawancara"
+    },
+    {
+      "conclusion": "Correct Malaysian Malay term for an interview or question-and-answer meeting.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=103260&keyword=temu+bual",
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=temu+bual"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: temu bual"
+    },
+    {
+      "conclusion": "The narrowed cue accurately targets the shared conversational sense; the original unrestricted cue had a minor ambiguity because temu duga is also used in Malaysian Malay.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=103260&keyword=temu+duga",
+        "https://kbbi.kemendikdasmen.go.id/entri/wawancara"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "different-common-word is appropriate. No false-friend contrast is present or needed; temu bual and wawancara are corresponding interview terms rather than misleading near-equivalents.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=103260&keyword=temu+bual",
+        "https://kbbi.kemendikdasmen.go.id/entri/wawancara"
+      ],
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "e062216e478bc54ae39bc9cce829002dee74a158652f4509a5d3b1fc05904044",
+  "correction_refs": [],
+  "decision_digest": "dfdd8e9d2be4b0855706c778abfdb455b7da24a1f8326d1c38e6ad5ddac945ad",
+  "elapsed_ms": 18197,
+  "finding_class": "none",
+  "input_tokens": 49975,
+  "model_calls": 1,
+  "output_tokens": 979,
+  "packet_digest": "e764fd217d13317914768eaaff032bcff2ce0ff98db791161e5932b924e1042f",
+  "rationale": "Both Malay answers correctly express the narrowed sense of interview as a question-and-answer interaction. The cue correction appropriately avoids ambiguity with Malaysian temu duga, especially for employment or admission interviews. The terms are different common words, and no false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:31:36.850726+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s013/tmp-communication-s013-001.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:cue-corrected"
+  ],
+  "slice_id": "corpus-004-003-s013",
+  "verdict": "cleared"
+}

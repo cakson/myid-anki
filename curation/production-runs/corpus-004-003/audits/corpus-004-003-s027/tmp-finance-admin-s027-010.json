@@ -1,0 +1,66 @@
+{
+  "attempt_id": "5a750ed412b2d29c",
+  "candidate_id": "tmp-finance-admin-s027-010",
+  "claim_reviews": [
+    {
+      "conclusion": "“Administrative fee” correctly denotes a fee charged for administrative processing.",
+      "evidence_refs": [
+        "https://www.ojk.go.id/id/ojk-pedia/default.aspx?a=R2334K2"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "“Biaya administrasi” is standard Indonesian for an administrative fee or charge.",
+      "evidence_refs": [
+        "https://www.ojk.go.id/id/ojk-pedia/default.aspx?a=R2334K2",
+        "https://sirusa.web.bps.go.id/metadata/variabel/3042601d-72fe-d2ff-f3a4-5f8b9900b0ae"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer"
+    },
+    {
+      "conclusion": "“Caj pentadbiran” is a valid Malaysian expression for an administrative charge; “fi pentadbiran” and “yuran pentadbiran” are also attested alternatives.",
+      "evidence_refs": [
+        "https://repositori.parlimen.gov.my/bitstream/123456789/3521/64/ST.79.2025",
+        "https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=yuran",
+        "https://www.malaysia.gov.my/my/digital-services/application-for-estate-administration"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer"
+    },
+    {
+      "conclusion": "“Different-common-word” is appropriate because Indonesian and Malaysian use different common lexical choices. No misleading false-friend contrast is present.",
+      "evidence_limitation": "Evidence confirms the meanings and attested usage, but does not establish corpus-level frequency rankings among Malaysian alternatives.",
+      "material_risk": false,
+      "subject": "Final relation and false-friend contrast"
+    }
+  ],
+  "content_digest": "8d2c6dd8786abacdbfa51c36b2367c119e8ab64c6d170ac620925e3bf3c15bd9",
+  "correction_refs": [],
+  "decision_digest": "89f65bfdad5190cc589884facf0aa4d99aab1fda2d54bc3463ffa4184b82f985",
+  "elapsed_ms": 12274,
+  "finding_class": "none",
+  "input_tokens": 29134,
+  "model_calls": 1,
+  "output_tokens": 821,
+  "packet_digest": "01dc69e5861842f87fa787762812010d73ab307a1d867140c5f038c39e9df943",
+  "rationale": "Both answers match the cue and sense. “Biaya administrasi” is standard Indonesian usage, while “caj pentadbiran” is a valid Malaysian expression for an administrative charge. “Yuran/fi pentadbiran” are also Malaysian alternatives, but this is a preference issue, not an answer error. No false-friend contrast is required.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:49:56.021040+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s027/tmp-finance-admin-s027-010.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "confidence:low",
+    "review-flag:concrete-nonblocking-risk",
+    "review-flag:credible-competing-form"
+  ],
+  "slice_id": "corpus-004-003-s027",
+  "verdict": "cleared"
+}

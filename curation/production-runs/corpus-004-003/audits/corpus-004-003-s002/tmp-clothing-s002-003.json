@@ -1,0 +1,72 @@
+{
+  "attempt_id": "bc662c0d4d2d879e",
+  "candidate_id": "tmp-clothing-s002-003",
+  "claim_reviews": [
+    {
+      "conclusion": "“swimsuit” correctly matches clothing worn for swimming.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=renang+I%3B"
+      ],
+      "material_risk": false,
+      "subject": "English cue and sense"
+    },
+    {
+      "conclusion": "Correct and natural Indonesian for swimming wear/swimsuit.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=renang+I%3B",
+        "https://bahasa-dev.kemendikdasmen.go.id/resource/doc/files/Kamus_Tata_Busana.pdf"
+      ],
+      "material_risk": false,
+      "subject": "Indonesian answer: pakaian renang"
+    },
+    {
+      "conclusion": "Correct and attested in Malaysian Malay; official terminology also records pakaian renang and notes baju renang as a known equivalent.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=renang+I%3B",
+        "https://prpm.dbp.gov.my/Cari1?d=72508&keyword=renang+I%3B"
+      ],
+      "material_risk": false,
+      "subject": "Malaysian answer: baju renang"
+    },
+    {
+      "conclusion": "Misleading as a learner-facing contrast because both forms occur across the varieties; the relation should indicate shared alternatives or a nonexclusive usage preference.",
+      "evidence_refs": [
+        "https://prpm.dbp.gov.my/Cari1?d=371752&keyword=renang+I%3B",
+        "https://kbbi.web.id/baju"
+      ],
+      "material_risk": true,
+      "subject": "Final relation: different-common-word"
+    },
+    {
+      "conclusion": "No false-friend contrast is supplied or supported; the forms are semantically aligned.",
+      "evidence_limitation": "The reviewed dictionary evidence establishes meaning and attestation, but does not quantify relative frequency by national variety.",
+      "material_risk": false,
+      "subject": "False-friend contrast"
+    }
+  ],
+  "content_digest": "a0b16018881f20a744feab4e8daf14d0f9ff840c6b8636cfe671427fa029b2ac",
+  "correction_refs": [],
+  "decision_digest": "d8de9cdf3f15d90cd9c24aca58b66886df9ff19766d88c2ce9ada5519ce97974",
+  "elapsed_ms": 19404,
+  "finding_class": "cue-content",
+  "input_tokens": 62041,
+  "model_calls": 1,
+  "output_tokens": 1245,
+  "packet_digest": "fcef6d8778de95240b08deb667cbd18721678bcd696b7a5f293d4d7f37e20c5f",
+  "rationale": "Both translations and the swimming-related sense are correct, but “different-common-word” is misleading: pakaian renang and baju renang are both attested and understandable in Indonesian and Malaysian Malay. The card should present them as shared alternatives with a usage preference, not as a clean variety contrast. No false-friend contrast is present.",
+  "retrievals": null,
+  "reviewed_at": "2026-10-17T05:17:37.711333+00:00",
+  "reviewer": {
+    "invocation": "/Users/wica/project/myid-anki/curation/production-runs/corpus-004-003/audits/corpus-004-003-s002/tmp-clothing-s002-003.response.json",
+    "model": "gpt-5.6-luna",
+    "tool": "codex-cli"
+  },
+  "route": "risk-based",
+  "run_id": "corpus-004-003",
+  "schema_version": 1,
+  "selection_reasons": [
+    "review-flag:shared-common-form"
+  ],
+  "slice_id": "corpus-004-003-s002",
+  "verdict": "needs-correction"
+}
